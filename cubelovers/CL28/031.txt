@@ -1,0 +1,44 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Oct 25 19:46:45 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA26894
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 25 Oct 1999 19:46:45 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: The Cube at the World Puzzle Championship
+Date: 15 Oct 1999 15:18:04 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7u7gjc$6d8@gap.cco.caltech.edu>
+
+The World Puzzle Championship was held last week in Budapest, Hungary.
+Erno Rubik was invited to kick off the opening ceremonies (so I got
+a few pictures of him, woo hoo!).
+
+There was only one cube-related puzzle in the competition, however.
+
+Contestants were given a picture of an unsolved Rubik's Cube and asked
+to identify the center face colors on the unseen three faces.  Perhaps
+not too challenging (although I'm sure many will find problem 3 
+difficult to do without pencil and paper).  You can find the puzzles
+at http://www.rubiks.com/  or the specific URLs:
+
+http://www.rubiks.com/puzzles.html?p=rubiks_cube&q=1
+http://www.rubiks.com/puzzles.html?p=rubiks_cube&q=2
+http://www.rubiks.com/puzzles.html?p=rubiks_cube&q=3
+
+If you think these puzzles are too easy, I have an added question
+for you -- what is the minimum number of moves needed to get a 
+solved cube into the states depicted by the three problems?  You will
+find problem 1 easy, problem 2 intermediate, and problem 3 difficult.
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+"Everyone is trying to CYA their butt!" -- my supervisor
+
+[ Moderator's note: In case some of our subscribers don't know, I will
+  supersede Wei-Hwa Huang's modesty to mention that he took first place at
+  the World Puzzle Championship (for the fourth time!)]
+

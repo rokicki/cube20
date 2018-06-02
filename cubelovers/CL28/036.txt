@@ -1,0 +1,18 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov  5 19:07:28 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA12716
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 5 Nov 1999 19:07:27 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 28 Oct 1999 10:37:46 -0700 (PDT)
+Message-Id: <199910281737.KAA06812@denali.cs.ucla.edu>
+From: Richard E Korf <korf@cs.ucla.edu>
+To: cube-lovers@ai.mit.edu
+Subject: How many Cubes have been sold?
+
+Does anyone have a good idea how many Rubik's Cubes have been sold worldwide?
+Send mail to me, and I'll post a summary of the responses. Thanks!
+                             -rich
+
+

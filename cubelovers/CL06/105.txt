@@ -1,0 +1,30 @@
+Received: from ardec-lcss.arpa.ARDEC.MIL (TCP 30003004013) by AI.AI.MIT.EDU 10 Mar 89 12:39:13 EST
+Received: by ardec-lcss.arpa id <206002CA041@ardec-lcss.arpa.ARDEC.MIL> ;
+       Fri, 10 Mar 89 12:41:45 EDT
+Date: Fri, 10 Mar 89 12:40:45 EDT
+From: BECK@ardec-lcss.arpa.ARDEC.MIL
+Subject: REINTRODUCTION OF CUBES
+To: CUBE-LOVERS@ai.ai.mit.edu
+X-VMS-Mail-To: EXOS%"CUBE-LOVERS@MIT-AI"
+Message-ID: <890310124045.206002CA041@ardec-lcss.arpa.ARDEC.MIL>
+
+
+CUBING is back??
+
+I here from europe (the Nuremberg Toy fair) that Rubik's Cube is back
+as the 'MATCHBOX CUBE" (Rubik's is associated with Matchbox Toys).  I
+presume that Ideal toy owns the trademark to Rubik's cube but not the
+patent.  
+
+The cubes displayed are standard 3x3x3 cubes with Rubik's signature
+and silhouette on the center cubie (center moves will now be
+required).
+
+Anybody out there know anything more about this?
+
+THE FUTURE IS PUZZLING,
+BUT CUBING IS FOREVER
+
+Pete Beck
+
+<pbeck@ardec>

@@ -1,0 +1,56 @@
+From cube-lovers-errors@oolong.camellia.org  Sat May 31 19:10:39 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id TAA28171; Sat, 31 May 1997 19:10:38 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Sun, 1 Jun 1997 00:57:00 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9705312257.AA23367=dik@hera.cwi.nl>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Searching and Metrics in (Korf 1997)
+
+ > So two questions remain. First, is there really a difference in the
+ > duplication of positions in the two metrics?  I think Jerry Bryan's
+ > table shows that only about 1.74% of the 63 billion positions are
+ > duplicated at 11q.  Do we have statistics on duplication for the
+ > face-turn metric?
+
+I do not think there are really statistics.  But I have done a complete
+analysis on similar puzzles (domino, 2x2x2) where the number of positions
+from start increases roughly by the factor you would expect if you
+eliminate elementary duplicates as you listed.  This both for face
+turns and quarter turns.  This increase goes on until shortly before
+the maximum of turns when the number of new configurations drops
+dramatically.  I think the figures are in the archives.  I have no
+reason to expect the case to be different for the cube, rather all my
+experiments lead me to predict that the same is the case with the cube.
+
+ >                    Second, is there any technical justification for
+ > using the face-turn metric?
+
+None, except that the diameter of the group will be larger.  (But not
+much larger.)  And that makes it in Rich's algorithm only computationally
+more expensive.
+
+ >                              I'm aware that most of the published
+ > literature uses it, and that small numbers of moves sound more
+ > impressive than large ones, but these aren't very satisfying reasons.
+ > As far as I know, the problem of finding optimal solutions can be
+ > fruitfully approached in either of the metrics, or in any of several
+ > other metrics.
+
+The last is almost certainly not true.  In the archives there must be an
+article by Michael Reid where he made an attempt to generalize Kociemba's
+algorithm.  I.e. find a subgroup of the total group, phase 1 is to
+find a path to that subgroup and phase 2 is to find a path to the
+solution.  I disremember the entire contents, but as far as I remember
+the optimal partitions all used a subgroup which needed only half turns
+for at least one face pair.  Looking for quarter turn optimization is
+not really feasable with such a partition.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland, +31205924131
+home: bovenover 215, 1025 jn  amsterdam, nederland; http://www.cwi.nl/~dik/
+
+

@@ -1,0 +1,10 @@
+Date: 24 May 1982 09:33-EDT
+From: Richard Pavelle <RP at MIT-MC>
+Subject: Ideal and the C^4
+To: CUBE-LOVERS at MIT-MC
+
+I just spoke to Ideal Toy. They are aware of the edge flip problem
+and give a tool to do it in their published solution. However, it
+requires 32 moves and they ask us to provide them with a shorter one if
+found.  They also say they are unable to do a complete checkerboard
+of any kind on C^4 and would like to know if we can do it. 

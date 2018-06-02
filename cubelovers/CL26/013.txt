@@ -1,0 +1,36 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct  6 18:38:32 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id SAA10776; Tue, 6 Oct 1998 18:38:31 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v04003a01b23d5b4d06f8@[198.252.208.218]>
+Date: Sun, 4 Oct 1998 11:12:27 -0600
+To: cube-lovers@ai.mit.edu
+From: Steve LoBasso <slobasso@dtint.com>
+Subject: Cube Solver for Macintosh
+
+I just wrote a Macintosh port to Dik T. Winter's cube solving code.
+I put it on my web page at the link below. I haven't had a chance to make
+an info page for it so the link below is just the application.
+
+It will run on both 68k and PPC Native.
+Be warned the 68k version runs fairly slow and the initialization phase
+takes quite a while.
+
+Cube Solver
+
+By Steve LoBasso
+  slobasso@dtint.com
+
+Written using algorithm code by
+Dik T. Winter based on algorithm described by Herbert Kociemba.
+
+http://members.tripod.com/~slobasso/downloads/Cube_Solver.hqx
+
+--
+Steve LoBasso                          mailto:slobasso@dtint.com
+Digital Technology International    or mailto:slobasso@hotmail.com
+500 West 1200 South, Orem, UT, 84058   http://members.tripod.com/~slobasso
+(801)226-6142  ext.265                 FAX (801)221-9254
+

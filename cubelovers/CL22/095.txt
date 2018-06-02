@@ -1,0 +1,79 @@
+From cube-lovers-errors@oolong.camellia.org  Sun Jun  1 05:20:49 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id FAA29296; Sun, 1 Jun 1997 05:20:49 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <33913E47.F3C@hrz1.hrz.th-darmstadt.de>
+Date: Sun, 01 Jun 1997 11:17:59 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>
+X-Mailer: Mozilla 3.0 (Win95; I)
+MIME-Version: 1.0
+To: cube-lovers@ai.mit.edu
+Subject: Generalisation of Korf's method?
+References: <9705312220.AA22245=dik@hera.cwi.nl>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Greg wrote:
+
+> It should be apparent that the goal of these two approaches is quite
+> different.  The "Kociemba approach" is focused only on solving the
+> cube.  All domain specific knowledge about the cube problem, such as
+> specific group theoretic properties of the cube, can and should be
+> applied.  Whereas the "Korf approach" attempts to be a general
+> approach, applicable to other problems, not just the cube (i.e. the
+> cube problem is merely incidental).
+
+Maybe. But I'm not sure about that. I am no specialist concerning IDA*
+search, but I think it is worth while to examine, for which general
+class of problems a two phase algorithm is profitable, that means doing
+IDA* search to some subgoal which consists of an appropriate subset
+(including the end goal) of the problem space (phase1) and appropriate
+heuristic functions, then doing IDA* search from here to the end goal
+(phase2). Then continuing with IDA* search in phase1, creating more
+solutions and then doing IDA* search in phase2 with a maximal length of
+L=N-n1-1, where N is the length of the already found (usually not
+optimal) last solution and n1 is the lenght in phase1.
+L decreases for two reasons when the alogrithm is running: Every new
+solution found will have an length N at least one smaller then the
+previous solution and nl will increase also.
+If you have enough time, you wait until nl=N, then you have the
+guaranteed optimal overall solution.
+
+This approach could be valuable, if the problem space is very large, and
+in this case you get a sequence of solutions with decreasing length
+which might be better than waiting for the optimal solution for 100
+years with single IDA* search.
+In the case of Rubik's cube the sequences of solutions seem to converge
+very quick to a solution with minimal overall length in many cases,
+though it might be difficult to prove this rigorously.
+I would be interesting to see, how the two phase algorithm handles the
+10 cubes, Rich Korf solved.
+
+Dik.Winter@cwi.nl wrote:
+ 
+> Of course the choice of heuristic function plays an essential role.
+> For instance, Herbert's original algorithm uses in the first phases
+> three heuristic functions all three based on a single coordinate
+> in a three dimensional space. 
+
+This is not quite true. I don't think that the algorithm would have
+worked then satisfactory. I did not add the details in the description
+of the algorithm in CFF28, because I did not want to hide the
+principles.
+Because of the limited memory (1MB!! at this time) I worked in four
+dimensional space and also used heuristic functions based on
+two-dimensional coordinate-planes. To get 4 dimensions, I did not use
+the turns of the 6 faces, but I fixed the DLB-corner. Instead of the L,
+B, and D turns I did R, F and U turns together with a slice move then,
+which is of course identical with L, B and D turns and then turning the
+whole cube. The additional coordinate is the position of the
+center-cubies(24 states). In this way you have only 7! corner
+permutations (instead of 8!) and 3^6 possible corner orientations
+(instead of 3^7). Only this fact made it possible for me use two
+dimensional coordinate planes for the heuristic functions.
+     
+Herbert
+
+
+

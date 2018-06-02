@@ -1,0 +1,58 @@
+Date: 16 Dec 1981 1057-PST
+From: ISAACS at SRI-KL
+Subject: inclusion for previous message
+To: cube-lovers at MIT-MC
+
+              PUZZLES
+
+I. LIFE
+  A. Technical (science, social science, etc)
+  B. Psychological (ie, people problems)
+
+II. CREATED
+  A. Mental
+     1. Language (word) puzzles
+        Crosswords, Acrostics, word squares, etc.
+     2. Logical puzzles
+        Bridge crossing, truth tellers, etc,etc -- all those pencil and
+        paper puzzles that appear in most non-word puzzle books.  Mostly
+        mathematical.
+  B. Physical  (Also sometimes called "Mechanical Puzzles")
+     (THESE ARE THE KINDS I AM MOST INTERESTED IN, AND PROPOSE GOING INTO MORE
+      DETAIL ABOUT.)
+     1. Geometrical (including 2 and 3 dimensions; jig-saws; things like that.)
+     2. Topological (rope and string puzzles, that involve deformation.  
+                     Possibly including wire puzzles.)
+     3. Combinatorial (box filling puzzles; Rubics Cube)
+     4. Manipulation (dexterity?) (mazes, rolling balls, ballance puzzles)
+     5. Physical? Miscellaneous? (Other types, like puzzle jugs; optical
+                                  puzzles, centrifical force.)
+
+I'll try to expand on this classification at a later time - I just want to
+get something started now.  You can see that there are many problems in this -
+a lot of puzzles don't fit easily in any of these, and others fit clearly into
+more than one.  The trouble is that you can look at puzzles by their form, or 
+by how they are constucted, or how they are solved.  And no one way seems
+satisfactory for all.  Anyway, following is another classification, just
+of Mechanical (Physical) puzzles, by Jerry Slocum, who has one of the biggest
+puzzle collections in the world.
+
+1. PUT-TOGETHER PUZZLES - Putting the object together is the puzzle
+      Tangrams, jigsaw, soma, instant insanity, magic squares, puzzle rings
+2. TAKE-APART PUZZLES - Taking the object apart or open is the puzzle
+      Trick or secret opening
+3. INTERLOCKING SOLID PUZZLES - Disassembly and Assembly is the puzzle
+     Burrs, 3-D jigsaws, keychain, geometric object and figures (the Japenese
+     wooden puzzles)
+4. DISENTANGLEMENT PUZZLES - Disentanglement and entanglement is the puzzle
+     Wire puzzles, nails, string and rope puzzles
+5. SEQUENTIAL MOVEMENT PUZZLES - Moving Parts of the Object to a Goal While
+   Following Rules is the Puzzle
+     Solitaire, sliding block puzzles, rotating cube (Rubik) puzzles, maze and
+     route.
+6. DEXTERITY PUZZLES
+     Rolling Ball, cup and ball, etc
+7. MISCELLANEOUS 
+     Puzzle jugs, folding, paper and card, matchstick, trick, vanish puzzles, 
+     optical puzzles, find-the-object, rebus, reversibles, etc.
+-------

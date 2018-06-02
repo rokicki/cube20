@@ -1,0 +1,71 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon May 24 16:21:39 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA22125
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 24 May 1999 16:21:39 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3748AFD3.DDEF4717@whitewolf.com.au>
+Date: Mon, 24 May 1999 11:48:03 +1000
+From: Ryan Heise <ryan@whitewolf.com.au>
+To: David Byrden <David@byrden.com>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: Rubik and XML
+References: <199905211952.PAA04633@life.ai.mit.edu>
+
+David Byrden wrote:
+
+>         I want to define an XML dialect so that all
+> Rubik-related programs can exchange data...
+> I also want it to be useful to humans who
+> are saving the state of their cube.
+>
+>         I am putting my ideas together at
+>
+>         http://byrden.com/puzzles/
+>
+> and would be glad of criticism.
+
+Quote: "I want RubXML files to be able to hold move sequences instead of
+puzzle configurations. I will add this option after I study the
+notations currently in use."
+
+I think both ways of specifying a cube configuration are important. You
+can only specify a cube configuration in move sequences if you know the
+exact move sequence you used to mess it up.
+
+Move sequences are probably more useful for storing solutions to cube
+configurations. Also, Lars Petrus has a cube tutorial that shows you how
+to do each step by scripting a Java applet to rotate the cube according
+to stored sequences. (Sure, his "lightweight" applet would not want to
+drag in a whole XML parser, but the use is there)
+
+BTW, here is one way to specify move sequences:
+
+<sequence name="twist3corners">
+R'U'RU'R'U2R
+</sequence>
+
+If you want something flexible, how about:
+
+<sequence name="foo">
+	RURU
+	<useseqence name="bar" orientation="000" direction="backwards"
+reflect="x">
+	U'R'U'R
+</sequence>
+
+where:
+
+usesequence imports another sequence
+orientation is a 3D coordinate (is there a better way to specify this?)
+direction is which direction to execute the sequence
+reflect is the axis over which the sequence should be reflected.
+
+It's flexible but I don't ask me if it's useful :-)
+
+-- 
+Ryan Heise
+
+http://www.progsoc.uts.edu.au/~rheise/
+

@@ -1,0 +1,14 @@
+From mark.longridge@canrem.com  Sun Oct  8 00:27:13 1995
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08706; Sun, 8 Oct 95 00:27:13 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1F8132; Sat,  7 Oct 95 23:56:06 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Using 5 Generators
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1249.5834.0C1F8132@canrem.com>
+Date: Sat,  7 Oct 95 23:54:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+

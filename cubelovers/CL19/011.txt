@@ -1,0 +1,43 @@
+From mark.longridge@canrem.com  Wed Feb  7 03:00:03 1996
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA13843; Wed, 7 Feb 96 03:00:03 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 20A151; Wed,  7 Feb 96 02:54:24 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: < U, F, R > group
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1288.5834.0C20A151@canrem.com>
+Date: Wed,  7 Feb 96 02:47:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+> there was never any response to this, but i'll give my solution
+anyway.
+
+I am working on an engine to search optimal paths for < U, F, R > but
+it's not done yet. It's certainly within the bounds of computibility:
+
+Size (u_f_r) = 170,659,735,142,400 (hmmm, 170 trillion maybe not!)
+
+> let  X  =  U2 F R' F2 R F2 R F2 R' F U2 .
+>
+> then  X  produces two two-cycles of corner-edge pairs.  the commutator
+> [ X , C_UFR ]  produces "cube in a cube" in 22 face / 32 quarter turns
+> and only turns the faces  U, F  and  R.
+>
+> the notation  C_UFR  refers to a rotation of the whole cube, and
+> [ a, b ]  denotes the commutator  a b a^-1 b^-1 .
+>
+> mike
+
+Brilliant.
+
+Although harder to remember, X + ( X * C_UFR) will do.
+
+   U2 F1 R3 F2 R1 F2 R1 F2 R3 F1 U2
+   F2 R1 U3 R2 U1 R2 U1 R2 U3 R1 F2        (22 f, 32 q)
+
+-> Mark <-
+
+

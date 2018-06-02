@@ -1,0 +1,49 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Apr 12 21:07:29 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA18436
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 12 Apr 1999 21:07:29 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Reply-To: <noel@mud.ca>
+From: "Noel Dillabough" <noel@mud.ca>
+To: "Cube Lovers List (E-mail)" <cube-lovers@ai.mit.edu>
+Subject: Cube moves macros in simulators
+Date: Sat, 10 Apr 1999 10:17:49 -0400
+Message-Id: <000a01be8362$9646ab40$040a0a0a@laptop>
+In-Reply-To: <SIMEON.9904091829.A@pavilion.pstcc.cc.tn.us>
+
+It seems my help file is poorly written, I've gotten some surprise replies
+from people who I have told...
+
+On Friday, April 09, 1999 6:04 PM Jerry Bryan [mailto:jbryan@pstcc.cc.tn.us]
+wrote:
+
+>Cube Explorer 1.5 does not allow you to type in a maneuver directly, which I
+>think is what you are after.
+
+Puzzler does support cube move macros, in standard UDFBLR notation (use
+udfblr in lowercase for inner slices and meM for central slices in the 5x5x5
+cube).  To use this feature hit enter and enter the move...F2 will move the
+F slice 2 times, F3 and F' are equivalent and will move counterclockwise 1
+time, F1 and F move clockwise 1 time.  You can enter any number of moves in
+sequence in a string then by hitting enter again the move will be executed.
+
+One more note: these macros assume the cube is oriented so that you can see
+three faces (exactly like the initial orientation of the cube).  So F refers
+the the bottom left face, R is the bottom right face and U is the upper
+face.
+
+  /\
+ /  \
+|\U /|
+| \/ |
+\F|R/
+ \|/
+
+Last note: I assumed that UDFBLR was the notation used by most people.
+However if there is another notation that is used or if some other notation
+is required for experimentation, let me know and I'll put it in.
+
+-Noel
+

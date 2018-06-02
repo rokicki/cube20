@@ -1,0 +1,45 @@
+From BRYAN@wvnvm.wvnet.edu  Thu May 18 11:30:01 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA00211; Thu, 18 May 95 11:30:01 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 0025; Thu, 18 May 95 11:28:37 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 0519; Thu, 18 May 1995 11:28:37 -0400
+Message-Id: <wvmail32.1995may18.110751.bryan@wvnvm.wvnet.edu>
+Date:      Thu, 18 May 1995 11:28:36 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <mreid@ptc.com>, "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject:   Re: more on the slice group
+In-Reply-To: Message of 05/11/95 at 17:57:14 from mreid@ptc.com
+
+On 05/11/95 at 17:57:14 mreid@ptc.com said:
+
+>one of these subgroups is the group of symmetries that preserve
+>the U-D axis.  call this subgroup  "P".  (this is also the group
+>of symmetries of the intermediate subgroup of kociemba's algorithm.)
+
+>there are 128  P-symmetric  positions, 4 of which are  M-symmetric.
+>they form a subgroup of the cube group (of course) which is
+>isomorphic to a direct product of 7 copies of  C_2.  in particular,
+>each such position has order 2 (or 1) as a group element.
+
+If I understand your definition of "P" correctly, the same group is
+called X1 in Dan's taxonomy.  X2 similarly preserves the F-B
+axis, and X3 similarly preserves the R-L axis.  Hence, there are
+three conjugate subgroups of G which preserve a major axis, and
+each contains 128 elements:  there are 128 X1-symmetric positions,
+128 X2 symmetric positions, and 128 X3 symmetric positions.
+
+I was bothered by your statement that there were 128 P-symmetric
+positions at first because I was equating "P-symmetric" with
+"X-symmetric" rather than with "X1-symmetric".  There should be
+376 X-symmetric positions  --  124 that are X1-symmetric and not
+M-symmetric, 124 that are X2-symmetric and not M-symmetric, 124
+that are X3-symmetric and not M-symmetric, and 4 that are M-symmetric.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

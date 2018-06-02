@@ -1,0 +1,62 @@
+Date: 23 Jul 1980 5:23 pm PDT (Wednesday)
+Sender: Woods at PARC-MAXC
+From: Woods at PARC-MAXC, Boyce at PARC-MAXC
+Subject: 216 vs 1260 vs . . .
+To: Cube-Lovers at MIT-MC
+
+Regarding finding a sequence of twists that requires a maximal number of
+repetitions to restore the original state, it is indeed true that 1260 is the
+maximum, but the sequence suggested by ED (on July 18) is not it.  (He
+thought its period was 216; ALAN thought it was 1260.  It's actually 315.)
+This assumes that we don't consider the orientation of the center-face cubies
+nor the orientation of the cube as a whole.
+
+First off, note that the transformation given by ED was ill-specified, since he
+didn't say which way to rotate the cube relative to the rotations of the faces.
+In Singmaster's notation the two operations would be, say, LBRF and LFRB.
+It turns out these are each period-315, though it's not immediately obvious
+that the two should be at all similar.  Having done (LBRF)^1, you'll find
+there are 7 edge cubies that have cycled through each other's positions, and
+the other 5 edge cubies have done likewise, 5 corner cubies have rotated 120
+degrees in place, and the other 3 corner cubies have cycled through each
+other's positions and one of them has rotated.  Hence, if we do (LBRF) a
+multiple of 9 times, the corner cubies will be back where they started, and if
+we do it a multiple of 35 times, the edge cubies will be restored, so if we do
+(LBRF)^315, all of the cubies will be back to the solved state.
+
+Perhaps the reason ALAN thought this was period 1260 was because it takes
+1260 twists to restore the original cube.  But since the transformation that we
+are repeating is a sequence of four twists, it actually has period 315.  If you
+count total twists, you can obviously get "identity" sequences with lengths
+much greater than 1260.  Or perhaps ALAN was considering the transformation
+to be LJ (twist left face, rotate cube about vertical axis).  This indeed has
+period 1260, but it "cheats" in that we're not supposed to consider reorienting
+the entire cube as a legitimate operation.  If we do, then it is again possible
+to get periods greater than 1260.
+
+To get a period-1260 transformation, we need to observe whence the period
+arises.  If we do a sequence of twists, and then look at the cycles of the form
+"face X moved to where face Y used to be, face Y moved to where face Z was,
+. . . , face <mumble> moved to where face X was", we take the least common
+multiple of the lengths of those cycles.  If we repeat the sequence of twists
+that many times, the faces will moved around those cycles an integral number
+of times and end up where they started; if we stop short of that many
+repetitions, at least one of the cycles will be left stuck in the middle.
+(Apologies to any readers who are familiar with group theory and are bored
+by this verbosity.)
+
+To get a period of 1260, we need to have a cycle of 7 edge cubies, another
+cycle of 2 edge cubies where one of them is also rotated (so that the four
+faces on those cubies form a single period-4 cycle), a cycle of 5 corner cubies,
+and a cycle of 3 corner cubies where again one of them is rotated (forming
+a face-cycle of length 9).  If, instead of the 2 edge cubies, we could get 4
+edge cubies cycling with one of them rotated, that would be a period-8 cycle
+and the overall transformation would have period 2520, but due to the fact
+that it's impossible to swap exactly two cubies it turns out you can't get that
+combination of subcycles.
+
+Based on this analysis, it's not hard to construct a period-1260 sequence,
+although this one is almost certainly not the shortest such (it's 24 twists):
+
+	F U F^2 u r f b l r f D^2 F b R U (R^2 F^2)^3 u r B
+

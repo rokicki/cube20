@@ -1,0 +1,83 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Dec 17 14:01:55 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA21297
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 17 Dec 1998 14:01:50 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 17 Dec 1998 09:32:42 -0500 (Eastern Standard Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re : Optimal Cube Solver
+In-Reply-To: <366C1ED9.C11@hrz1.hrz.tu-darmstadt.de>
+To: kociemba@hrz1.hrz.tu-darmstadt.de
+Cc: Cube Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <SIMEON.9812170942.C@GN209A.PSTCC.CC.TN.US>
+
+On Mon, 07 Dec 1998 19:30:49 +0100 Herbert Kociemba
+<kociemba@hrz1.hrz.tu-darmstadt.de> wrote:
+
+>
+> The third coordinate describes the edge permutation. Because there are
+> 12! coordinate values, even reduction by 48 symmetries still gives too
+> many coordinate values. So for use in a turntable we define two edge
+> permutations a and b equivalent, if a=m1*b*m2, were m1 and m2 are in M.
+> In this way we get 208816 equivalence classes c. If now m1*c*m2 is a
+> (not necessarily unique) representation of an edge permutation applying
+> a faceturn T is done like that:
+>
+> (m1*c*m2)*T = m1*c*[m2*T*m2^-1]*m2 = m1*[c*T']*m2=
+> [m1*m1']*c'*[m2'*m2]=m1''*c'*m2''
+>
+
+This is remindful of a technique I used many years ago to
+reduce the size of the search space for the 2x2x2 problem,
+and the issue would apply to any cube such as the 4x4x4
+with an even number of cubies per edge.  That is, in the
+(2n)x(2n)x(2n) problem you can treat as equivalent any
+positions of the form (m1)*x*(m2) for m1 and m2 in M,
+provided only that both of m1 and m2 are rotations or that
+both of m1 and m2 are reflections.
+
+Another (and in some ways better) way to model a
+(2n)x(2n)x(2n) problem and to reduce the size of the search
+space is to fix one of the corners and to use the symmetry
+group which preserves the major diagonal axis which includes
+the corner which is fixed, but that is a different issue.
+
+Dan Hoey showed that (m1)*x*(m2) is equivalent to m'xmc for
+suitable choices of m and c, for m in M and for c in C (the
+set of 24 rotations).  Requiring that m1 and m2 both be
+rotations or both be reflections is necessary because you
+really can't turn the corners inside out on a physical
+cube.
+
+Herbert does not impose the same restriction on both of m1
+and m2 being rotations or reflections because his third
+coordinate applies only to the edges, and the edges can
+indeed be turned inside out on a physical cube, namely with
+the Pons Asinorum maneuver. So for this case, (m1)*x*(m2)
+is equivalent to m'xmc if m1 and m2 are both rotations or
+both reflections, and is equivalent to m'xmcv if they are
+not, where v is the central inversion of the edges
+(essentially, the Pons Asinorum applied to the edges).
+
+I used to talk about 1152-fold symmetry for the 2x2x2
+(1152=24*48).  Herbert's approach for the third coordinate
+yields a 2304-fold reduction in the search space
+(2304=48*48).  However, the reductions in the search space
+in the two cases are not really dealing with quite the same
+issue. In the case of 1152-fold symmetry for the 2x2x2,
+there are (up to) 1152 equivalent positions which are the
+same distance from Start. If I am understanding Herbert's
+technique correctly, when positions are equivalent in the
+third coordinate, there are (up to) 2304 positions of
+the edges for which the distance from Start has the same
+lower bound.  (Maybe I should say "the same non-trivial
+lower bound", because (for example) zero would be a lower
+bound for all positions.)
+
+----------------------------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+Pellissippi State Technical Community College
+

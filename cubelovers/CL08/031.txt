@@ -1,0 +1,31 @@
+From raymond@cps.msu.edu  Tue Jan 14 13:22:14 1992
+Return-Path: <raymond@cps.msu.edu>
+Received: from galaxy.cps.msu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA14497; Tue, 14 Jan 92 13:22:14 EST
+Received: from cpss16.cps.msu.edu by galaxy.cps.msu.edu (4.1/rpj-5.0); id AA22563; Tue, 14 Jan 92 13:22:08 EST
+Received: by cpss16.cps.msu.edu (4.1/4.1)
+	id AA01898; Tue, 14 Jan 92 13:22:06 EST
+Date: Tue, 14 Jan 92 13:22:06 EST
+From: raymond@cps.msu.edu
+Message-Id: <9201141822.AA01898@cpss16.cps.msu.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Cube software
+
+
+If anyone is interested, I wrote a program for examining the cycle
+structure of various move sequences on Rubik's cube.  It's got
+a lex and yacc front end, which let you enter moves using the
+UDLRFB notation.  You give it a move sequence, and it will give
+you the permutation in cycle notation, taking edge flips and
+corner twists into account.  For example, you can say
+  (R'D2R B'U2B)2
+which is a corner twister, and it will tell you that the urf corner
+is twisted clockwise, and the dlb corner is twisted clockwise.  YOu
+can also give names to sequences, and refer to the sequence by its
+name.  You can save and load named sequences from a file.
+
+The code is pretty quick-and-dirty, but I'll email the source to
+anyone who is interested.  I wrote it on a PC with Microsoft C 5.1, and
+flex and bison, but it should work fine under Unix.
+
+Carl Raymond
+

@@ -1,0 +1,48 @@
+From dik@cwi.nl  Sun Jan  8 05:56:01 1995
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21545; Sun, 8 Jan 95 05:56:01 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id <AA27873@cwi.nl>; Sun, 8 Jan 1995 11:55:56 +0100
+Received: by boring.cwi.nl 
+	id <AA02279@cwi.nl>; Sun, 8 Jan 1995 11:55:55 +0100
+Date: Sun, 8 Jan 1995 11:55:55 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9501081055.AA02279=dik@boring.cwi.nl>
+To: cube-lovers@ai.mit.edu, mreid@ptc.com
+Subject: Re:  two stage filtration
+
+Mike Reid:
+ > i've run an exhaustive search on the coset space  G / H.  the number
+ > of cosets at each distance is:
+
+I can confirm Mike's results on phase 1.  Here follows my table which
+also contains the number of local maxima (which you will not find in
+"backward" steps):
+
+turns		 q	   loc.max	       q+h	   loc.max
+    0	         1			         1
+    1	         4			         4
+    2	        34			        50
+    3	       312			       592
+    4	      2772			      7156
+    5	     24996			     87236	         4
+    6	    225949	         5	   1043817	        97
+    7	   2017078	        32	  12070278	      2800
+    8	  17554890	       730	 124946368	    110582
+    9	 139132730	     39000	 821605960	  16713104
+   10	 758147361	  10861351	1199128738	 750219596
+   11	1182378518	 608836624	  58202444	  58196874
+   12	 117594403	 117439129	       476	       476
+   13	     14072	     14072
+
+ > 40 minutes for quarter turns, 47 minutes for face turns.  this was done
+ > on a DEC 3000 alpha 700, apparently a very fast machine.
+
+I got 131 minutes for quarter turns and 186 minutes for face turns on a
+measly SGI Challenge, apparently not so very fast.  (I presume it would
+have been faster if it had been possible to run with 64 bit long's.)
+
+I will try to verify phase 2 later next week.
+
+dik
+

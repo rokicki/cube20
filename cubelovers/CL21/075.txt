@@ -1,0 +1,39 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Dec  4 22:36:08 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA16749; Wed, 4 Dec 1996 22:36:08 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <9612040842.AA14888@jrdmax.jrd.dec.com>
+Date: Wed, 4 Dec 96 17:42:27 +0900
+From: Norman Diamond 04-Dec-1996 1742 <diamond@jrdv04.enet.dec-j.co.jp>
+To: Cube-Lovers@AI.MIT.EDU
+Cc: nbodley@tiac.net
+Subject: Re: 6-cube and Hofstadter; Meffert
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+Nicholas Bodley writes:
+
+> He also said that almost all the Magic Dodecahedrons had been melted down
+>for their plastic, because each one used about $2 worth.
+
+I don't think either part of that is true.  I'm nearly certain that the
+magic dodecahedron is still in Dr. Bandelow's catalog.  Although to be
+pendantic, I believe Meffert's company was in Hong Kong, so the $2 value
+of plastic might be accurate in Hong Kong dollars.
+
+> Does anyone know whether Uwe M=E8ffert (Meffert, if your char. set isn't
+>ISO 8859-1 compatible [See Moderator's Note]) is still in business?
+
+1.  Maybe around 10 years ago, I read that his company went bankrupt.
+
+2.  The world's largest country uses a language which can't be written
+using ISO 8859-1 compatible characters.  So do some neighboring countries.
+The world's second-largest country has a small fraction of its population
+well educated in a language which can be written using those characters,
+but its most commonly used language (and most of its languages) cannot be.
+
+-- Norman Diamond        diamond@jrdv04.enet.dec-j.co.JP
+[Speaking for Norman Diamond not for DIGITAL, in Japan or elsewhere.]
+
+

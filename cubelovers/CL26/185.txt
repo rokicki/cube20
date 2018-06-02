@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 17 16:30:30 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA07704
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 17 Mar 1999 16:30:29 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <36EEEF3F.2645@zeta.org.au>
+Date: Wed, 17 Mar 1999 10:54:39 +1100
+From: Wayne Johnson <sausage@zeta.org.au>
+Reply-To: sausage@zeta.org.au
+To: cube-lovers@ai.mit.edu
+Subject: Speed cubing results - March 99
+
+Hello all,
+
+This is the list so far. There are others to go on, but I need CURRENT
+best times, and CURRENT averages:
+
+Name		Method		Best Time  Average Time
+
+Lindon Collins	Layer by Layer	38 sec	   47.5 sec
+Jiri Fridrich	Fridrich	14 sec	   20 sec  
+Ryan Heise	Fridrich	34 sec	   43 sec  
+Ryan Heise	Petrus		40 sec	   56 sec  
+Wayne Johnson	Petrus		47 sec	   65 sec  
+Wayne Johnson	Layer by Layer	58 sec	   75 sec  
+Karen Loewen	Karen Loewen	90 sec	   ***	  
+Clive McCaig	Layer by Layer	38 sec	   60-75 se
+Alex Montilla	Layer by Layer	33 sec	   55 sec  
+Alex Montilla	Corners first	47 sec	   60 sec  
+Alex Montilla	One hand only	73 sec	   01:45	  
+Alex Montilla	Feet only	07:19	   N/A	  
+Han Wen		Fridrich	25 sec	   40 sec  
+
+Wayne
+

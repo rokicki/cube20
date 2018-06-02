@@ -1,0 +1,96 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 17 14:36:56 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA07208
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 17 Mar 1999 14:36:55 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+To: Cube Lovers <cube-lovers@ai.mit.edu>
+Subject: Re : Re: Edges only, Ignoring Flips, Face Turn Metric
+In-Reply-To: <199903120601.BAA15248@euclid.math.brown.edu>
+Message-Id: <SIMEON.9903170012.A@pavilion.pstcc.cc.tn.us>
+Date: Wed, 17 Mar 1999 00:34:12 -0500 (Eastern Standard Time)
+
+On Fri, 12 Mar 1999 01:01:52 -0500 michael reid <reid@math.brown.edu>
+wrote:
+
+> i guess i'm not sure what you're doing, jerry.  but i don't think
+> it should be *that* difficult.  the number of configurations is
+> 12! = about 480 million.  if you divide out by symmetry, you get
+> about 10 million configurations.  this should be small enough to
+> store in memory and do a complete breadth-first search of the space.
+>
+
+The way you describe the search is how Herbert Kociemba did it, but
+it is not how my program does it.  I think his program only took an
+hour or two. I am applying my program to a problem to which it is not
+well suited because I do not have time to write one more like
+Herbert's.
+
+I tend to think that the most fundamental design decision in a
+program which does a Start rooted breadth first search for a cube
+space is to decide whether the search space can fit in memory.  If it
+can, and if there is an easy way to index the search space, then the
+permutations themselves do not have to be stored.  All that has to be
+stored is the distance from Start for each permutations.  These
+distances are usually stored one per byte, or sometimes one per
+half-byte.  There is even some discussion the Cube-lovers archives
+about how the storage can be reduced to two bits per permutation.
+
+If the search space cannot fit in memory, then it seems to me to be
+the case that some representation of the permutations themselves must
+be stored in addition to the distance from Start for each
+permutation.  My program is designed to search as much as possible of
+the 4.3*10^19 search space for the entire cube group, so it stores
+permutations.  To make it into a program to search edges only without
+flips, I simply fixed the corners and the flips, plus I made the
+lexicographic ordering consider edges before corners.  But it still
+stores the permutations.  It's sort of a quick and dirty solution
+which runs very slowly for the problem at hand.
+
+When a search space consists of the elements of a cube group, it is
+easy to index the search space.  But when a cube group is reduced by
+symmetry the result is generally not a group and the resultant search
+space is (in my experience) not very easy to index.  The thing about
+Herbert's program that I have trouble comprehending is that he is able
+to reduce the search space by symmetry and still have the indexing be
+well behaved.  He has posted a clear exposition of his method, so the
+problem is in my understanding rather than in his explanation.
+
+The reason reduction by symmetry results in  poorly behaved indexing
+for the search space is because not all positions are equally
+symmetric. There is much discussion of this phenomenon in the
+archives under the general heading of "the real size of cube space".
+Herbert seems to have overcome this problem for the edges problem.
+But if I understand correctly, he does not believe the same solution
+can be applied to the corners.
+
+If Q[n] is the set of permutations which are n moves from Start, then
+my program is calculating the product Q[6]Q[6] (all products of the
+form st for s and t in Q[6]) as a way to determine Q[12].  For the
+whole cube, most such products are in fact 12q from Start and most
+such products are distinct.  There is very little wasted time or
+energy.  But for edges only without flips, Q[12] is in the tail of
+the distribution so most such products are either duplicate or are
+less than 12q from Start.  Nearly all the products are a waste of
+time.
+
+My program does reduce by symmetry to certain extent.  If R[n] is the
+set of representatives (patterns) which are n moves from Start, then
+I only store R[n].  (R[n] is about 48 times smaller than Q[n].) Q[n]
+is inferred via pointers to R[n], and is represented as Q[n]=R[n]^M,
+where M is the set of 48 rotations and reflections of the cube.
+Secondly, I only produce elements of R[2n] rather than elements of
+Q[2n], which in theory speeds up the program by about 48 times but
+which in practice only seems to speed it up by about 20 times.  But
+for the edges without flips search, this kind of a speedup is utterly
+dwarfed by all those wasted products from Q[6]Q[6].  My program
+always runs into this problem when it gets into the tail of a
+distribution.
+
+----------------------------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+Pellissippi State Technical Community College
+

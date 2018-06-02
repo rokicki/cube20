@@ -1,0 +1,28 @@
+From cube-lovers-errors@oolong.camellia.org  Thu May 29 00:29:17 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id AAA18149; Thu, 29 May 1997 00:29:16 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+To: cube-lovers@ai.mit.edu
+Subject: Professor cracks Rubik's cube mystery
+Message-ID: <19970528.222126.9494.2.shaggy34@juno.com>
+X-Mailer: Juno 1.15
+X-Juno-Line-Breaks: 0,2-3,5-6,9-10,12
+From: Josh D Weaver <shaggy34@juno.com>
+Date: Wed, 28 May 1997 23:22:16 EDT
+
+
+What do the skeptics have to say about the 20 move solve?  It was said
+that in theory it could be done; but is it really possible?  
+
+Does anyone know how long time wise it took Richard Korf to solve it
+using the 20 move method?
+
+I'm just a 15 year old who can solve the cube so I don't know much about
+theories or mathematical patterns.  So if someone can explain it to me
+that would be great.
+
+If it all that is claims to be, then I can't wait to know how to use the
+method. 
+
+

@@ -1,0 +1,29 @@
+Date: 16 December 1980 1841-EST
+From: James.Saxe at CMU-10A (C410JS30)
+To: Cube-Lovers at MIT-MC
+Subject:  16 qtw algs for CC and H patterns
+CC: James.Saxe at CMU-10A
+Message-Id: <16Dec80 184127 JS30@CMU-10A>
+
+	In his note of 4 Nov 1980, 00:23 EST, David Plummer gives a
+20 qtw algorithm for the Christman cross based on the following tool
+for producing a 4-cross pattern:
+	4+ = FB UUDD F'B'  R'L' UUDD RL  UUDD
+This can be reduced to 16 moves as follows:
+	4+ = FB UD LLRR UD FB UUDD
+Consequently, Plummer's 16 qtw Christman cross algorithm, conceptually
+B' 4+ B, can be reduced to
+	B' [FB UD LLRR UD FB UUDD] B
+	=    F UD LLRR UD FB UUDD B   (16 qtw).
+[Note:  There is another 4-cross pattern besides the above, namely
+	LLRR F LLRR FB LLRR B' LLRR F'B'.]
+
+	The H pattern which Dan Hoey and I described in our earlier
+message (14 Dec 1980, 19:16 EST, Sec. 4) can be achieved in 16 qtw
+as follows:
+	FF LL DD FF BB DD RR FF
+This makes it the second proven example of a local maximum which is
+not a global maximum.  Of course this applies equally to the second
+H pattern which is Pons Asinorum away from the above.  I count these
+two as only one example since they are M-conjugates.
+				--Jim Saxe

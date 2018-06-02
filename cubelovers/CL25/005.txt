@@ -1,0 +1,43 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 13 12:20:32 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA24252; Fri, 13 Mar 1998 12:20:31 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Mar 12 13:47:19 1998
+Sender: mark@ampersand.com
+To: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Blindfold Cube-solving
+References: <6e60l8$2bc@gap.cco.caltech.edu>
+From: Mark Atwood <zot@ampersand.com>
+Date: 12 Mar 1998 13:47:11 -0500
+In-Reply-To: whuang@ugcs.caltech.edu's message of 11 Mar 1998 12:39:04 GMT
+Message-Id: <v667ljbvbk.fsf@colon.dev.ampersand.com>
+
+whuang@ugcs.caltech.edu (Wei-Hwa Huang) writes:
+> 
+> Is there anyone who knows some good techniques for blindfold cube-solving?
+> 
+> I can solve the cube in about 7 "peeks" or so, but that's still quite
+> a ways from looking at the cube once and solving it behind one's back.
+
+I have heard of something like "cubes for the blind". Probably either
+have a different textured material attached to each cubie face, or a
+Braille glyph embossed into each cubie face.
+
+(Never tried to solve one blind, but I could probably solve on in about
+a dozen or so glances. But for a while I worked on solving them with
+my feet, after seeing someone do it on TV.)
+
+-- 
+Mark Atwood       | Thank you gentlemen, you are everything we have come to
+zot@ampersand.com | expect from years of government training. -- MIB Zed
+
+[ Moderator's note: You'll notice this is a different topic.  Perhaps
+  Wei-Hwa Huang should consider his problem "memory solving" rather
+  than "blindfold solving".  I've heard that John Conway has a good
+  memory method, I think requiring five peeks (cf Roger Frye, 20 Oct
+  1981).  There are also several mentions of tactile cubes in the
+  archives. ]
+

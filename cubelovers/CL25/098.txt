@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jul 30 15:25:22 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id PAA27775; Thu, 30 Jul 1998 15:25:22 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Jul 29 15:20:36 1998
+Date: Wed, 29 Jul 1998 15:17:00 -0400 (EDT)
+From: David Barr <Davebarr@concentric.net>
+X-Sender: Davebarr@viking.cris.com
+Reply-To: davidbarr@iname.com
+To: cube-lovers@ai.mit.edu
+Subject: Meffert's Challenge
+Message-Id: <Pine.GSU.4.02.9807291459520.29412-100000@viking.cris.com>
+
+I recently bought a "Meffert's Challenge" puzzle, and I see there hasn't
+been discussion of this puzzle on this list.  Maybe it is new.  It is a
+round Skewb, like Mickey's Challenge, but with different markings.  When
+solved, it has four colored rings on it.  The triangular pieces each have
+about a quarter ring on them.  Four of the square pieces have two separate
+quarter ring markings, and the other two square pieces are blank (actually,
+they say "Meffert's Challenge").  I think it is fun because in addition to
+solving the puzzle, you can try to make different "snake" patterns on it.
+It took me a while to figure out how to make a snake that uses all but one
+of the segments.
+
+I threw away the packaging, and I don't remember who makes it.  I think it
+was Pressman.  I bought it at a toy store in the Supermall in Auburn, WA,
+and they also had a normal Skewb made by the same company.
+
+David
+

@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Oct 31 21:19:56 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA13919; Fri, 31 Oct 1997 21:19:55 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From mouse@Rodents.Montreal.QC.CA Thu Oct 30 19:28:57 1997
+Date: Thu, 30 Oct 1997 19:28:16 -0500 (EST)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199710310028.TAA11074@Twig.Rodents.Montreal.QC.CA>
+To: cube-lovers@ai.mit.edu
+Subject: Re: 5x5x5 Stuctural Integrtity
+
+> Where are you able to find 5x5x5 cubes that don't instantly fall
+> apart?
+
+I've owned only one 5-Cube and have had no mechanical problem with it
+at all.  I bought it in mid-December 1993, but unfortunately I don't
+know where it came from.  I probably got it at a retail toy/game store
+here in the city called Valet de Coeur ("Jack of Hearts" in French),
+but (a) am not sure of even that by now (though I have trouble
+imagining where else might have had it) and (b) I have no idea where it
+was made or what distributor they got it from.
+
+> The orange stickers seem to have a habit of fleeing the cube in
+> terror.  (It's always the orange ones on any cube that fall off
+> first.  Has anyone else noticed this?)
+
+I sure have, with my 5-Cube.  Three of the 25 have come off, and one
+has been completely lost (the other two are attached to the cube with a
+piece of masking tape, pending my doing something more permanent).  I
+may do to it what I did to one of my 3-Cubes recently: take all the
+stickers off and use plastic-model paint to color the cubies.  (I
+actually may do this to just the orange face, since that's the only
+problematic one.)
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

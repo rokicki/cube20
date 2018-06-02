@@ -1,0 +1,61 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Aug  5 12:36:40 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA24116; Tue, 5 Aug 1997 12:36:40 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Hoey@AIC.NRL.Navy.Mil Tue Aug  5 12:04:25 1997
+Date: Tue, 5 Aug 1997 12:04:08 -0400
+Message-Id: <199708051604.MAA13056@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: Goyra@iol.ie
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <199708051031.LAA16445@mail.iol.ie> (Goyra@iol.ie)
+Subject: Re: Megaminx a.k.a. Supernova
+
+Mark Longridge <cubeman@idirect.com> wrote:
+
+> I am particularly interested in processes for the 10-spot and 
+> 12-spot.
+
+"David Byrden" <Goyra@iol.ie> asked for clarification.
+
+Spot patterns are those in which all the corner and edge cubies agree
+with each other, but not necessarily with all the face centers.  They
+are so named because the non-matching face centers show up as
+contrasting spots.
+
+Mark reported some analysis on them on 31 Oct 95, apparently from GAP.
+As he reported, there are five conjugacy classes:
+
+    0. The identity,
+    1. The  72-degree twelve-spot,
+    2. The 144-degree twelve-spot,
+    3. The 120-degree ten-spot,
+    4. The 180-degree ten-spot.
+
+The angle given is the displacement of the corners-and-edges ensemble
+from the face-centers ensemble.  In cases 1 and 2, the rotation is
+about an axis through two opposite face centers; in case 3, through
+opposite corners; in case 4, through opposite edges.
+
+Of course, there's no reason to expect optimal processes for these
+patterns to the same length.  Interestingly, while the square of the
+72-degree is the 144-degree, it is also the case that the square of
+the 144-degree is the 72-degree (up to conjugacy).
+
+It's also interesting to consider star patterns, in which the edges
+agree with the face centers, and the corners agree with each other.
+These come in the same classes as the spots.
+
+A third type of pattern is a distorted checkerboard, in which the
+corners and face centers agree with each other, and the edges agree
+with each other.  These come in the same classes as well.  I had hoped
+to find some in which the edges were apparently reflected with respect
+to the face centers (as in the Pons Asinorum and the order 6 6-X
+patterns on the cube) but they seem to be in the wrong orbit for the
+Megaminx.
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

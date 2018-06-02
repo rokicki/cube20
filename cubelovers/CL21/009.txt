@@ -1,0 +1,47 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Aug  6 14:37:19 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA24897; Tue, 6 Aug 1996 14:37:18 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Tue, 06 Aug 1996 08:58:23 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Commuting Sets
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.960806084631.10387A-100000@PSTCC6.PSTCC.CC.TN.US>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+If X and Y are sets of permutations, we define XY to be the set
+{xy | x in X and y in Y}.  In my various search programs, I have 
+encountered a number of cases where we have XY=YX, even though we do not 
+in general have xy=yx.  For example, let Q[n] be the set of all positions 
+which are n quarter turns from Start.  My standard breadth first search 
+is essentially Q[n+1] = Q[n]Q[1] - Q[n-1].  But we could just as well say
+Q[n+1] = Q[1]Q[n] - Q[n-1] because Q[n]Q[1] and Q[1]Q[n] are the same set.
+
+I have been wondering, what are the necessary and sufficient conditions 
+for XY = YX?  Note that X and Y are not necessarily groups.
+
+I really don't know the answer, and I wondered if anybody out there does. 
+I have some suspicions it has something to do with conjugacy.  In all the
+cases I have worked with, it it the case that if x in X and y in Y, then
+all the K-conjugates of x are also in X and all the K-conjugates of y are
+also in Y -- where K is usually M, the set of 48 rotations and reflections
+of the cube.  For other searches such as <U,R>, K is the symmetry group
+associated with the group being searched. 
+
+It is trivial to make an X and Y that don't "commute" in this matter.  
+That is, pick x and y that don't commute and have sets X and Y containing 
+only the single elements x and y, respectively.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+

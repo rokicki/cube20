@@ -1,0 +1,47 @@
+Date: Wed, 10 Sep 1980 1854-CDT
+Message-id: <337474464.2@DTI>
+From: aramini at DTI (Michael Aramini)
+To: cube-hackers@mit-mc
+Subject: randomizing
+
+	There are two types of aproaches to what can be meant by total
+(or maximal) randomizing. One is to consider states of the cube that
+are maximally far away from being solved (that is the minimal number of
+quarter twists needed to solve from a given state is maximallized.
+
+the other, which may be more useful for making the cube more difficult
+to solve, is based on maximallizing the amount of time it would take
+a person (or a program, for that matter) to solve the cube. Of course,
+since this amount of time is both dependent on the state of the cube, and
+how the person (or program) goes about solving it. Thus the set of most
+randomized positions is dependent on who is solving the cube.
+
+the advantage of the first definition is that it seems to be of more
+theorectical significance (the number of quarter turns needed to
+solve from this position gives you the diameter of the state graph).
+The second approach seems more kludgy since it much less well defined
+since the amount of time it takes to solve the cube if a function of
+many variable besides simply the initial state.
+
+This distinction is much like differing strategies for writing chess
+playing programs, you could write it assuming the oponent to be a
+"perfect" player (as if a complete look ahead to the leaves of the tree
+appraoach were being used by the oponent) or by considering how the
+oponent is likely to play (have the program try to confuse the oponent
+by taking advantage of something that the oponent wont recognise).
+
+the second method thus will take into account the knowledge-base
+available to the solver (for example trying to trick the solver into
+thinking that the cube is in one of the easy to solve classes but really
+isnt, thus leading the solver down a blind alley)
+
+This gives me an idea for a game where oponents are each trying to bring
+a randomized cube into two different final states (each of which
+is hopefully equally far away from the initial state, just to make the
+game fair) by alternately taking turns making quarter turns. of course
+one must make up some rules so that that the game terminates (ei going
+around cycles in the state graph an indefinite number of times is
+disallowed), and these rules might not be very obvious,although
+they would prob be similar to some of the stalemates rules of chess.
+-----
+

@@ -1,0 +1,28 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Dec 18 13:19:59 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id NAA07081; Wed, 18 Dec 1996 13:19:58 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: ba05133@binghamton.edu
+Date: Wed, 18 Dec 1996 11:41:04 -0500 (EST)
+X-Sender: ba05133@podsun15
+To: cube-lovers@ai.mit.edu
+Subject: Is there a 15q move for this???
+Message-ID: <Pine.SOL.L3.93.961218113654.15988C-100000@podsun15>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+
+Is there a 15 quarter move algorithm for this position:
+
+L2 F' L D2 R' B R D2 L B L F L' B'   ?
+
+Maybe, Kociemba's algorithm will help.
+
+Thanks a lot in advance!!
+
+Jiri Fridrich
+
+
+

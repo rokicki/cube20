@@ -1,0 +1,219 @@
+From BRYAN@wvnvm.wvnet.edu  Tue Oct 17 12:48:14 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23661; Tue, 17 Oct 95 12:48:14 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R3)
+   with BSMTP id 5797; Mon, 16 Oct 95 23:08:03 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 1260; Mon, 16 Oct 1995 23:08:03 -0400
+Message-Id: <wvmail32.1995oct16.230051.bryan@wvnvm.wvnet.edu>
+Date:      Mon, 16 Oct 1995 23:08:02 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Correctness of Large Searches
+
+When I was in graduate school in another life many years ago, one of
+the big issues was program correctness, and whether programs could
+be proven to be correct.  As I recall, the short answer is that
+non-trivial programs cannot be proven to be correct.  I haven't
+really followed the issue since then, but I doubt that the answer
+has changed.
+
+Also, many mathematicians are suspicious or unaccepting of proofs or
+other results which involve large computer searches.  For example,
+the proof of the Four Color Map Theorem is a famous result involving
+a large search which is held in certain suspicion.  For one thing,
+the referees for the paper were not able to reproduce the results
+of the computer search (not enough computing power).  For another thing,
+the referees were neither able to confirm that the programs were error
+free (who can?), nor that some sort of computer error (software,
+hardware, or procedural) did not occur during the running of the
+programs (c.f., the famous Pentium floating point divide error).
+
+Two factors cause me to raise the question of program correctness
+at this time.  One is simply that some of the searches we do are
+so large, how do we know that the answers are correct?  The other
+is that I have found an error in one of my (smaller) searches that
+I need to report.
+
+Those of you who actually fight through the details of my longer, more
+boring posts will recall that there are essentially three different
+models I use from time to time.  For cubes without centers, I usually
+use representative elements of sets of the form {m'Xmc}.  For cubes
+with centers, I use either representative elements of sets of the
+form {m'Xm}, or else I use representatives of the form
+Repr{m'Xmc}*C to simulate Repr{m'Xm}.  The latter model is very
+compact for cases where complete searches can be accomplished
+
+For the case of the 3x3x3 cube, corners only, with centers, q-turns
+only, I recently discovered the following anomaly.  Note in
+particular level 8 and below of the search.
+
+          3x3x3 Corners Only -- Qturns
+
+
+    Distance    Repr{m'Xmc}*C        Repr{m'Xm}
+        from          Model             Model
+       Start
+
+           0               1                 1
+           1               1                 1
+           2               5                 5
+           3              24                24
+           4             149               149
+           5             850               850
+           6            4257              4257
+           7           16937             16937
+           8           57800             57848
+           9          180639            180787
+          10          466052            466220
+          11          676790            676786
+          12          392558            392342
+          13           45744             45600
+          14             163               163
+
+        Total        1841970           1841970
+
+
+The 3x3x3 corners only case has been searched a number of times by
+a number of people, all of whom got the same results.  However,
+these results all were for every  position, including those which are
+M-conjugate.  My searches are for conjugacy classes only, and therefore
+I have nobody with whom I can compare results directly.  The only
+way I can compare results is to expand the conjugacy classes, and
+regrettably I did not do so when I first calculated the corners
+only case.
+
+For a variety of reasons to be detailed below, I believe the {m'Xm}
+results above are correct and that the {m'Xmc}*C results are incorrect.
+But at the same time, I do not believe there is an error per se in
+the {m'Xmc}*C model.  Let's see if we can make some sense of this.
+
+When I first discovered the anomaly, my reaction was that
+the {m'Xm} model is simpler, and Occum's Razor suggested that
+the error was in the {m'Xmc}*C model.  Also, when I expanded
+the conjugacy classes for the Repr{m'Xm} model, the results
+matched what everybody else had posted.
+
+Hence, I went back to the
+{m'Xmc}*C program, which I hadn't looked at in years.  After many
+hours of reviewing the model, and many more hours of reviewing
+the program itself, I not unsurprisingly found no errors.
+Furthermore, I was no longer convinced that Occum's Razor still
+applied.  The {m'Xmc}*C model is "more complicated" in some ways,
+but on the other hand, every cell of storage for the data base
+can be addressed directly.  There is no sorting, merging, and
+matching of huge files as there is with the {m'Xm} model.
+
+So I ran the {m'Xmc}*C program again.  Very surprisingly, this time
+it produced different answers, and the answers were the same as for
+the {m'Xm} model!  So what's going on?  I don't know.
+
+I am presently a bureaucrat (cubing is a hobby), but in previous
+lives I have been a technical support person.  In that role, I
+have found numerous problems that caused programs to produce incorrect
+results, even though the program was "correct" (whatever that means).
+I have found hardware errors vaguely similar to the Pentium error,
+operating system errors, compiler errors (especially with optimizing
+compilers), and subroutine library errors.  So my best guess is that
+something of this nature caused the {m'Xmc}*C program to produce
+incorrect results one time and correct results another time.
+Of course, an uninitialized variable or pointer can cause similar
+symptoms, but I have not been able to find anything like that in
+my program.
+
+The program is written in Turbo-Pascal for a PC using DOS.  I have
+the exact same compiler now I have had for ten years or so.  The
+Pascal source code is unchanged from when I ran it before.  The
+first time I ran the program, I ran it under DOS, or maybe
+in the DOS box in an early version of OS/2 (can't remember for sure),
+and it ran on a 286 or an early 386 (can't remember for sure).
+This time, it ran in the DOS box under OS/2 Warp on a 486/50.
+So lots of things have changed.  Furthermore, both times I ran it,
+I used the VDISK facility to cache all the disk files in memory,
+and OS/2 Warp surely has a newer VDISK than whatever I was using
+before.  I even wondered if the data base was correct the first time,
+but maybe I had a bad counting program analyzing the data base.  But
+I still had the original data base and counted it again.  It
+really was wrong.  So the mystery of the incorrect results is not solved.
+
+In light of the above discussion, I thought it might be appropriate
+to summarize some background about my larger searches.  I want to
+indicate which ones of them seem pretty well verified, and which ones
+of them might benefit from further study.
+
+   <U,R>           -  I believe this one is ok.  I ran the q turn case
+                      with and without conjugacy classes.  Upon
+                      expanding the conjugacy classes, the results
+                      matched the results without conjugacy classes.
+                      Also, the results matched results posted by
+                      Mark Longridge as far as they went (although
+                      my anomaly with corners-only suggests that
+                      such matching doesn't prove very much).  I
+                      ran the q+h turn case only with conjugacy classes,
+                      and expanded then to get the results without
+                      conjugacy classes.  The model was Repr{w'Xw}
+                      (W-conjugacy instead of M-conjugacy), with
+                      much sorting, merging, and matching of external
+                      files.
+
+  edges only          This ran for about a year, so there is potential
+ (without face        for error.  The model was Repr{m'Xmc}.  The
+   centers)           runs to create neighbors were performed primarily
+                      on two 486's and a 386, using a mainframe as
+                      a file server.  A UNIX station was added for
+                      the last few months.  All sorts, merges, and
+                      matches were run on the mainframe.  The whole
+                      process was driven by REXX scripts on the PC's
+                      and UNIX stations (we run REXX on all our UNIX
+                      boxes).  There were actually more lines of code
+                      for the scripts than for the programs.  The
+                      scripts moved files back and forth with FTP,
+                      and contained code to detect and correct errors
+                      with the FTP's.  The problem has only been
+                      run once, so there is no independent verification.
+
+ edges only           This was run twice, once using the {m'Xm} model,
+(with face            and once using the Repr{m'Xm}*C model.  The
+  centers)            answers matched through level 11.  They did not
+                      match at level 12.  I have only posted through
+                      level 11 to the list.  I have not had time to
+                      find the error.  I do not expect to find the
+                      error in any of the programs.  It took about a
+                      year to get to level 11, running on the mainframe.
+                      I expect the error to be somewhere in a script,
+                      probably failing to recover from some error
+                      condition like a system failure.  These things
+                      run around the clock, and inevitably get caught
+                      in system failures from time to time.
+
+                      Although I was not able to do so, this is probably
+                      the largest cubing problem where we can conceive
+                      of running the problem to completion using today's
+                      technology.  Had I been able to do run the problem
+                      to completion, the Repr(m'Xm)*C model would have
+                      served as verification for the "without face
+                      centers" case because the minimum of each
+                      row of the solution matrix with centers serves
+                      as the solution for the without centers case.
+
+Whole cube            These are the most important runs.  The problem
+(edges and corners    has been run twice using the {m'Xm} model, although
+ with face centers)   you might not wish to count it as twice.  The
+                      difference is that the edges were the major sort
+                      in one run, and the corners were the major sort
+                      in the other.  The two runs did match, which is
+                      a good (but not perfect indication) that there
+                      was no error (e.g., such as the
+                      scripts failing to include something in
+                      in a sort or merge that should have been
+                      included).  It would still be nice to have
+                      verification by someone else.  I was able to run
+                      up through level 11.  I did not try level 12
+                      because it was just too big.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

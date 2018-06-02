@@ -1,0 +1,29 @@
+Date: 11 Aug 1980 09:51 PDT
+From: McKeeman at PARC-MAXC
+Subject: Re: Edge-cubie flipping algorithms
+In-reply-to: Greenberg's message of 10 August 1980 2252-edt
+To: Bernard S. Greenberg <Greenberg at MIT-Multics>
+cc: Davis at OFFICE-3, CUBE-LOVERS at MIT-MC
+
+Bernard,
+
+Actually, using Alan's IJK convention and the macro facility I proposed, your 24
+move edge-flip is:
+
+    Q=U'DJ';  -- horizontal center slice 90o cw macro
+    (FQ)^4(QF)^4
+and
+    (FQ')^4
+
+You didn't introduce notation, you just weren't very formal.  You may some
+trouble getting the metric people agree that it only takes 24 moves however.
+
+As for what we call the extended Singmaster notation, (1) I do not know that it
+originated with him, (2) I do not know that he cares, (3) it could be called
+RubikSong, CubeTalk, TwistSpeak, etc.  More to the point, who bothers to name
+the notation of calculus, or group theory, or tensors.  Once standarditis sets in, a
+notation just gets used, not named.  For time being, I nominate RubikSong,
+giving a bow to both known sources of our pleasures.
+
+Bill
+

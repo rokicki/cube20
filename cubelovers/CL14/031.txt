@@ -1,0 +1,235 @@
+From BRYAN@wvnvm.wvnet.edu  Fri Dec 23 18:26:02 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10284; Fri, 23 Dec 94 18:26:02 EST
+Message-Id: <9412232326.AA10284@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 0778; Fri, 23 Dec 94 18:25:59 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5031; Fri, 23 Dec 1994 18:25:58 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Fri, 23 Dec 1994 18:25:57 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   <U,R> Antipodal Processes
+
+With the help of a suggestion from Dan Hoey, I can now provide processes
+for the 27 antipodal positions of <U,R> that are unique up to
+W-conjugancy.  (It is the positions that are unique up to W-conjugancy,
+not necessarily the processes.)  Without further ado, here are processes
+which generate each of the 27 positions.
+
+ 1 R  U  U  R  R  U' R  U' R  U' R  U  R' U  R  U  R' U' R  R  U' R' U  R  U
+ 2 R' U  R' U  R' U  R  R  U' R' U' R' U' R  U' R' R' U' R  R  U' R' U  R  U
+ 3 R  R  U  R' U  R  U' R' U  R' R' U  R  R  U' U' R  R  U  R  R  U  R  R  U'
+ 4 U' R  U  R' U  R  U' R' U' R' R' U  R' U' R  U  U  R' U  R' U' R' U  R  U'
+ 5 R' R' U  U  R  U  R  U' R  U' U' R' U  R  R  U' R  R  U' R' U  R' U  R' U'
+
+ 6 U' R  R  U  R' U  R' R' U' R' U  U  R  U' R' U  R  R  U  R  R  U  R' U' R
+ 7 U  R' U  R' U  R  U  U  R' U' R  R  U  R' U' R' U  R  R  U  R' U  R  U' R
+ 8 R' U  R' U' U' R  U' R  U' U' R' U  R' U  R' R' U' R  U  R  U  R  U' R  U
+ 9 U  R  U' R  U  R  R  U' R  U' R' U  R  U' R' R' U  U  R' R' U' R  U' R  R
+10 U' R  R  U  R  U  U  R' U' R' U  R  U' R' R' U' U' R' U' R' U' R' U  R  U'
+
+11 R' U  R  U  R' U' R  U  R' U' U' R' U' R  R  U  U  R' U  R  U  R  U' R' R'
+12 R  U  U  R' U  U  R' U  R  U' R' U  R' U' R  U' R' U' R' U  R  U' R  R  U
+13 R  R  U  R  R  U' R  U' U' R  U' R  R  U' R' R' U' R  R  U' R  U' R  R  U
+14 U' R' U' R' U' R' U  R  R  U' R  U' R  U' R  U' R' U  R  U' U' R  U  U  R
+15 R  R  U' R' R' U' R  U  U  R' U  U  R' R' U' R' U' U' R' R' U' R  U' U' R
+
+16 U  R' U  R' R' U' R  U' R  U  U  R  R  U' R  U  R' U' R  U' R' U' R  R  U'
+17 U' R  U' U' R' R' U' R  U' R  U' R  U' R  R  U  R' R' U' R' R' U' R' R' U'
+18 R  U  U  R  U  R  U' R' U  R' U  R  U' R  R  U' R' U' R  U  U  R  U' U' R'
+19 R' U  R' U' U' R  U' R  U' R' R' U  U  R  U' R' U  R  U' R  U  R  U  U  R'
+20 U  R  R  U' R  R  U' R' U' R' U  U  R' U  R' U  R  U  U  R' U  R  U' R  R
+
+21 R' U  R' U' R' U  R  U  U  R' U  R' U  R' U' R  U' R' U  R  U  R' U  R  R
+22 U  R  U  U  R  U' R  U  R' U' R  U  U  R  U' R  U' R' R' U  R  R  U  R  U
+23 R' U  U  R  U  R' U  R' U  R  U  R' U' R  R  U' R  U' U' R' U  R  R  U  R
+24 R' U  R' U' R  R  U  U  R' U  R  U' R' R' U  U  R' U  R' U' U' R  U  U  R
+25 U  R' R' U  U  R  U  R  U' U' R  U' R  U  U  R' U  R' U' U' R' U  R  R  U
+
+26 U' R' U  R  U' R' U  U  R  R  U  R' U  R' U  R' U' U' R  R  U' R' U' R' R'
+27 R  U' R' U' U' R  R  U' R' U' R  U' R  U' U' R' U' R' R' U' R  U' R  R  U'
+
+The 27 processes are in the same order as the 27 positions I posted on
+11 November this year.  However, I want to repost the 27 positions anyway.
+I found a formatting inconsistency in that posting.  Generally speaking,
+when you unfold the cube for printing with the Back above, you can choose
+to print the Back face right-side-up or up-side-down, and up-side-down
+makes more sense to me.  All my screen displays work that way, and it
+makes the cubies move smoothly under repeated applications of the R or L
+operators.  However, I discovered that the print program I used for the
+11 November posting printed the edge facelets of the Back face right-side-
+up.  That wouldn't have been so bad, I suppose, but at the same time I
+printed the corner facelets correctly as up-side-down.  So herewith
+I reprint the 27 antipodal positions with all the Back faces correctly
+up-side-down.
+
+     BBL                      BBL                      BBU
+     BBU                      BBU                      BBF
+     LRF                      RRF                      LRR
+
+     UDR                      FDU                      UBD
+     BUU                      BUU                      DUU
+     FUB                      FUR                      UUF
+
+ FRD RFR DRU              URD RFB URL              FRB LFD RLB
+ LLL FFF RRB              LLL FFF RRB              LLL FFU RRR
+ LLL FFB RLU              LLL FFD RLU              LLL FFF UBR
+
+     DDU                      DDB                      DDR
+     DDU                      DDU                      DDU
+     DDB                      DDB                      DDB
+
+  ---------------------------------------------------------------
+
+     BBU                      BBR                      BBU
+     BBF                      BBU                      BBF
+     DRR                      BRB                      FBD
+
+     FDU                      RDL                      LUB
+     UUB                      FUB                      UUU
+     BUR                      RUL                      LUF
+
+ RBR DFB URF              URU FFF URU              ULU BFD RRR
+ LLL FFU LRR              LLL FFU LRR              LLL FFB RRR
+ LLL FFL BRL              LLL FFR BBF              LLL FFU RRR
+
+     DDU                      DDD                      DDF
+     DDU                      DDU                      DDD
+     DDF                      DDD                      DDB
+
+  ----------------------------------------------------------------
+
+     BBR                      BBU                      BBB
+     BBU                      BBU                      BBU
+     LRD                      RLF                      FRF
+
+     UDB                      DUR                      UFD
+     UUF                      FUD                      DUU
+     UUR                      BUU                      UUR
+
+ FRB LFF DRR              FRR DFR BRU              RRL FLB URR
+ LLL FFB RRB              LLL FFB RRR              LLL FFU FRB
+ LLL FFU RLB              LLL FFU LBL              LLL FFB URR
+
+     DDF                      DDB                      DDL
+     DDU                      DDU                      DDB
+     DDU                      DDF                      DDD
+
+  ----------------------------------------------------------------
+
+     BBR                      BBR                      BBL
+     BBF                      BBU                      BBU
+     FFR                      URU                      DRF
+
+     LUB                      FFF                      FFR
+     UUU                      DUU                      DUU
+     RBR                      BBB                      DBR
+
+ ULD BRU FRU              LRL URU RRR              RRB RRB URU
+ LLL FFU BRR              LLL FFU BRF              LLL FFU BRF
+ LLL FFB URF              LLL FFR BLF              LLL FFU LLF
+
+     DDL                      DDD                      DDB
+     DDD                      DDU                      DDU
+     DDD                      DDD                      DDU
+
+  ------------------------------------------------------------------
+
+     BBR                      BBF                      BBF
+     BBU                      BBU                      BBU
+     URU                      FRF                      FRF
+
+     FFF                      RDR                      RDR
+     UUU                      FUU                      FUU
+     BBB                      DBR                      BBR
+
+ LRL URU RLR              DRB RRB URU              DRR DRB URU
+ LLL FFU BRF              LLL FFU BRL              LLL FFU BRL
+ LLL FFR BRF              LLL FFU LFU              LLL FFL BFU
+
+     DDD                      DDB                      DDU
+     DDD                      DDU                      DDU
+     DDD                      DDL                      DDL
+
+  --------------------------------------------------------------
+
+     BBF                      BBR                      BBR
+     BBU                      BBU                      BBU
+     DRL                      URR                      FRD
+
+     RFU                      FFB                      RDB
+     UUD                      DUU                      FUU
+     RBR                      RBF                      UBL
+
+ BRF DRB URB              LRD BRR UBU              DRB LRF URR
+ LLL FFU BRL              LLL FFU RRL              LLL FFU FRB
+ LLL FFU RFU              LLL FFB UFF              LLL FFR ULU
+
+     DDF                      DDL                      DDB
+     DDU                      DDU                      DDU
+     DDL                      DDD                      DDF
+
+  --------------------------------------------------------------
+
+     BBB                      BBU                      BBU
+     BBU                      BBU                      BBU
+     FRL                      RRF                      BRR
+
+     RDF                      BFR                      UUU
+     FUU                      DUU                      DUF
+     UBB                      FBU                      UBD
+
+ DRF RRL URU              DRD RRL FLU              LRL FRR FRF
+ LLL FFU FRB              LLL FFU FRB              LLL FFU FRB
+ LLL FFD RLU              LLL FFB URR              LLL FFD RLR
+
+     DDB                      DDL                      DDB
+     DDU                      DDU                      DDU
+     DDR                      DDB                      DDB
+
+  ---------------------------------------------------------------
+
+     BBB                      BBB                      BBD
+     BBU                      BBF                      BBU
+     URU                      UFD                      LRF
+
+     BUF                      RUR                      UBR
+     DUF                      DUU                      DUU
+     UBU                      UBR                      UFR
+
+ RRB LRL FRR              FRL FRB URF              FRB LRB URU
+ LLL FFU FRB              LLL FFU LRR              LLL FFU FRB
+ LLL FFF RLR              LLL FFB UBR              LLL FFD RLR
+
+     DDD                      DDL                      DDB
+     DDU                      DDU                      DDU
+     DDD                      DDD                      DDF
+
+  ----------------------------------------------------------------
+
+     BBD                      BBF                      BBR
+     BBF                      BBF                      BBF
+     BFB                      UFF                      LFR
+
+     RUL                      FUR                      UUD
+     UUU                      UUU                      UUU
+     RUL                      BUR                      UUD
+
+ URU FBF ULU              LRL UBB ULU              FRB LBR FLB
+ LLL FFB RRR              LLL FFB RRR              LLL FFB RRR
+ LLL FFD RRR              LLL FFB DRD              LLL FFR FRB
+
+     DDB                      DDR                      DDU
+     DDD                      DDD                      DDD
+     DDF                      DDR                      DDU
+
+  ------------------------------------------------------------
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

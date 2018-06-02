@@ -1,0 +1,78 @@
+From dik@cwi.nl  Tue Apr 19 18:47:54 1994
+Return-Path: <dik@cwi.nl>
+Received: from meermin.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18104; Tue, 19 Apr 94 18:47:54 EDT
+Received: from boring.cwi.nl by meermin.cwi.nl with SMTP
+	id AA23196 (5.65b/%I%/CWI-Amsterdam); Wed, 20 Apr 1994 00:47:50 +0200
+Received: by boring.cwi.nl 
+	id AA05401 (5.65b/3.8/CWI-Amsterdam); Wed, 20 Apr 1994 00:46:34 +0200
+Date: Wed, 20 Apr 1994 00:46:34 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9404192246.AA05401=dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: CFF33
+
+Cubism For Fun number 33.
+
+I just received it.  It is dated February 1994, so it is a bit late ;-).
+Here a summary of the contents.
+
+1.  Dr. Dragon's Polycons by Bernhard Wiezorke and Jacques Haubrich
+    A new, apparently interesting, puzzle from Japan, a lot like
+    polyonimos.  Given a rectangular grid you can make pieces from
+    the horizontal and vertical lines connecting the points.  The
+    writers coin the term 'monocon' for the piece consisting of a
+    single line segment, 'dicon' for the two different pieces that
+    consist of two connected line segment (one is angled, the other
+    not).  Similarly there are 5 'tricons' and 16 'tetracons'.  The
+    puzzle consists of 10 of the 16 'tetracons' that must be put on
+    a 5x5 rectangular grid.  The authors also look at extensions of
+    the puzzle.
+2.  The Hollow Pyramid by Jan de Ruiter.
+    In a previous issue there was a puzzle about a hollow pyramid made
+    up of balls that must be constructed by the 25 different pieces
+    that consist of 4 connected balls.  Jan de Ruiter was the first to
+    solve the puzzle (with a computer).  Here he explains the program.
+3.  Junior Polycubes by Jacques Haubrich.
+    Pieces consist of 1 to 4 connected cubes that must be put on a
+    6x6 square.  Not so much a puzzle, more like Tangram: create forms.
+4.  Folding Puzzles by Leo Links.
+    About puzzles where some intricate folding is needed to solve.
+5.  Cross Pattern Piling by Dieter Gebhardt.
+    A puzzle where you put counters on a square and its four neighbours.
+    The goal is to pile up to a common height for all the squares.  The
+    article also discusses a modified version where counting is done mod
+    2.  Associated with it comes the 24th CFF contest.
+6.  Gouge Packing Puzzle by Gaetan Gouge.
+    Description of and some elaborations about a packing puzzle.
+7.  Spots Puzzle by Harold Cataquet.
+    Elaborations about a puzzle from A.L.Hoffman, Puzzles old and new,
+    New York, 1920.
+8.  Arrow-Minded by Ivan Moscovich.
+    Start with a fully-connected hexagon.  Put random arrows on all edges.
+    Next add nodes on all intersections.  This gives 19 nodes in all.  The
+    problem is to find a Hamiltonian path along the nodes, minding the
+    arrows (not always possible).  An original puzzle by the writer.
+9.  Prime Pentacube Pakcings by Frits Gobel.
+    Start with the pentacube consisting of a square base of four cubes and
+    one cube on top of it in a corner.  Is it possible to pack a 5x5x5
+    cube with 25 such pentacubes?  What other figures can be packed?
+10. Contest 25 by Ekkehard Kuenzell.
+    Pack a figure with all 29 different pentacubes.
+11. Rubik's Rabbits by Luc de Smet.
+    Discussion of this latest by Rubik.
+12. Party Impressions by Gerald Maurice.
+    Impressions of the Puzzle Party and Cube Day, Augustus 1993 in the
+    Netherlands.
+Further results of contest 23, a book review by Mark Peters and the first
+of a series of columns by Edward Hordern.
+
+Cubism For Fun is a newsletter published by Nederlandse Kubus Club NKC
+(Dutch Cubists Club).  Applications for membership to the treasurer:
+   Lucien Matthijsse
+   Loenapad 12
+   3402 EP IJsselstein
+   The Netherlands
+Membership fee NLG 25.- (about US$ 15.-; add transaction costs).
+
+dik
+

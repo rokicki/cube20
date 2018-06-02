@@ -1,0 +1,29 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Oct  8 12:48:49 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA12652; Wed, 8 Oct 1997 12:48:47 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From dzander@solaria.sol.net Tue Oct  7 19:21:35 1997
+From: Douglas Zander <dzander@solaria.sol.net>
+Message-Id: <199710072320.SAA09034@solaria.sol.net>
+Subject: broken rubik's cube: help!
+To: cube-lovers@ai.mit.edu (cube)
+Date: Tue, 7 Oct 97 18:20:57 CDT
+
+Hello,
+  I wonder if someone can suggest a way to fix my 3x3x3 cube.  The screw
+  that holds a center cubie to the spindle has stripped out of the spindle.
+  I thought of just super-glueing it back in; would this work?  Also, I
+  wonder if there is to be any tension (compression) on the spring inside
+  the center cubie when the screw is set in?  I'm afraid that I will have to
+  open up the center cubie and use a driver to screw the cube together
+  again.  I don't want to pry open my center cubie.
+  Thanks for any suggestions.
+
+-- 
+ Douglas Zander                |
+ dzander@solaria.sol.net       |
+ Milwaukee, Wisconsin, USA     |
+
+

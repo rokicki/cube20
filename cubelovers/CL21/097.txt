@@ -1,0 +1,29 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Dec 12 20:33:29 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id UAA20368; Thu, 12 Dec 1996 20:33:29 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: Tim Botham <timbo@mindlink.net>
+To: Corey Scott <scot3165@ginko.ait.fredonia.edu>,
+        Norman Diamond 04-Dec-1996 1742 <diamond@jrdv04.enet.dec-j.co.jp>
+Cc: Cube-Lovers@AI.MIT.EDU, nbodley@tiac.net
+Subject: Re: 6-cube and Hofstadter; Meffert
+Date: Thu, 12 Dec 1996 17:28:36 -0800
+X-MSMail-Priority: Normal
+X-Priority: 3
+X-Mailer: Microsoft Internet Mail 4.70.1155
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Message-Id: <E0vYMSM-0006jW-00@dewey.mindlink.net>
+
+An excellent way to re-attach your stickers was taught to me by Mike Green
+at Puzzletts.  First clean the blank spot on the cube very well with
+rubbing alcohol.  Then put the sticker on piece of two-sided scotch tape,
+and trim the tape around the edges of the sticker.  Press it on to the
+cube, and presto - it should outlast any of the glued-on stickers.
+
+I tried it, and it worked well.
+
+	Tim
+----------

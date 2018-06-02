@@ -1,0 +1,46 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Jun 24 15:34:09 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id PAA13206 for <cube-lovers-outbound@curry.epilogue.com>; Mon, 24 Jun 1996 15:34:06 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: ba05133@binghamton.edu
+X-Authentication-Warning: bingsun2.cc.binghamton.edu: ba05133 owned process doing -bs
+Date: Mon, 24 Jun 1996 08:18:45 -0400 (EDT)
+X-Sender: ba05133@bingsun2
+To: Peter Foster <pfoster@pcug.org.au>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: Thistlethwaites algorithm (and others)
+In-Reply-To: <199606221158.VAA13274@pcug.org.au>
+Message-Id: <Pine.SOL.L3.93.960624080520.18930A-100000@bingsun2>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+On average, my algorithm requires about 60 moves. It has been optimized
+for speed, not for the number of moves. Once I have little more time, I
+may retype all the necessary algorithms into an electronic form and post
+them here. I published the algorithms in 1982 in Mlady Svet
+(a Czech magazine). But this will probably not help you too much :-(
+
+Jiri Fridrich
+
+
+On Sat, 22 Jun 1996, Peter Foster wrote:
+
+> Is there any chance of Jiri Fridrich posting these algorithms (or perhaps making
+> them available via FTP)?
+> 
+> Thanks in advance...
+> 
+> Peter Foster
+> 
+> _______________________________________________________________
+> Peter Foster                    This sig is dedicated to all those who
+> 616-231-2245                   did not dedicate their sigs to themselves.
+> pfoster@pcug.org.au
+> 
+> 
+> 
+
+
+

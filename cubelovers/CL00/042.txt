@@ -1,0 +1,85 @@
+Date: 19 July 1980 16:31-EDT
+From: Ed Schwalenberg <ED at MIT-AI>
+Subject: Nope, I guess we don't understand
+To: ALAN at MIT-MC
+cc: CUBE-LOVERS at MIT-MC
+
+First of all, I was sitting here inventing a GOOD cube notation,
+when McKeeman's message about his notation came in.  I begin
+to fear that ACW was right, and we will all die before agreeing
+on a notation.  I dislike all proposed notations so far, for the
+following reasons:
+ALAN's labeling of the cube for describing a POSITION is excellent;
+however it is not useful for describing transforms, which are
+operations and not positions.
+ACW's language I find baffling, principally because it lacks
+verbosity.  I would much rather have a notation like
+[doubleswap] than F[X,[Y']] since it is descriptive.  An analogy
+with Life is useful here; I think that the adoption of names
+like "traffic lights" is far more usable in the long run than
+any of [the-oscillator-of-period-two-composed-of-three-blots-placed-
+orthogonally-adjacent] or	  |    .
+			    ...   |    .
+				  |    .
+or "if you put 3 blots in a row, the center dot remains alive forever
+while the two outer dots appear first horizontally then vertically".
+Creating names like "The Christman Cross" is fun, and makes for
+interesting wordplay, even if you don't resort to Latin.  So my
+proposed language is Augmented English, which has the great feature
+of being able to put in comments (a feature notably absent in the
+others).
+
+I urge people to describe the transform and its result in any
+message describing a nifty transform or pattern (provided both are
+known, of course!).  RP's pretty pattern may not be what I think it
+is, since "pretty" is not a good description.  I propose that this
+be called "swapping-centers-in-triplets" (procedural notation) or
+Twelve Squares (which is not a movie by Mel Brooks, but the positional
+notation).
+
+Bernie's comment about decision-making I think is important:  it
+seems to me that cubemeisters do in fact approach the problem with
+a set of "subroutines", which are defined to NOT contain
+conditional branches.  Doubleswap and checkerboard-all-faces are
+examples of subroutines.  Conditional branching is generally simply
+the matter of selecting an orientation of the cube before applying
+a transformation, "setting up" the subroutine if you will.  I think
+that in the case of generating patterns from a solved cube,
+branches are unnecessary but helpful:  rather than say "doubleswap
+then rotate the cube 90 clockwise in Z and doubleswap again"
+saying "doubleswap, then doubleswap the remaining solid face" much
+more clearly indicates what is going on.  (the examples above are
+spurious).
+
+I herein announce two patterns I have independently invented; I do
+not know if they are elsewhere available.  The first is called
+Ten Squares by analogy with Twelve Squares, since it is highly related.
+Twelve Squares causes the 3 centercubies of three mutually adjacent
+faces to move to an adjacent face; three iterations of "swapping-
+centers-in-triplets" suffice to return to the solved state.  Ten
+Squares, on the other hand, is a configuration wherein two opposite
+faces are solid, while the other 2 sets of opposing faces each possess
+the centercubie belonging to its opposing face.  This is created by
+first swapping-centers-in-triplets, then swapping-centers-in-triplets
+again, only with the cube rotated 90 degrees away from you.  Note that
+this results in the final centerslice rotation of the first transform
+and the first centerslice rotation of the second effectively combining
+into a single 180-degree centerslice rotation.  To resolve the cube,
+simply do swapping-centers-in-triplets without regard to the orientation
+of the cube, then you are back to the trivially soluble Twelve Squares.
+
+The second I call Laughter, after the use of the string \/\/ in comlinks
+to signify laughter.  It leaves the top and bottom faces solid, while
+causing pairs of opposing faces to have a diagonal stripe of the
+opposing color.  (I propose that the color of the face opposite a given
+face be called the complementary color; my cube has complementary pairs
+of red-white, orange-yellow and blue-green.)  To create Laughter, select
+a top-bottom pair, which will remain solid.  Rotate the left and right
+sides clockwise (in "opposite" directions as viewed from the top, thus
+resulting initially in the top being 3 differently-colored stripes).  I
+call this "splaying".  Then rotate the cube 90 degrees while preserving
+the top/bottom orientation (i.e., rotate it about the Z axis.).  Six
+iterations of splay/rotate suffice.  Laughing the cube again solves it.
+Laughing the cube, then Frowning it (same as laughing, only rotate the
+faces anticlockwise) results in Four Crosses:  2 complementary pairs
+of crosses with the top and bottom solid.

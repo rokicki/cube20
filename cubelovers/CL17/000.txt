@@ -1,0 +1,43 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Mon Sep  4 23:11:05 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03764; Mon, 4 Sep 95 23:11:05 EDT
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <210113-1>; Mon, 4 Sep 1995 23:13:08 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA07431; Mon, 4 Sep 95 23:06:36 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1F3009; Mon,  4 Sep 95 23:01:18 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Dino Cube
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1225.5834.0C1F3009@canrem.com>
+Date: Mon, 4 Sep 1995 23:41:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+#   Here are a few Dino cube calculations. The calculations for the
+# cube with an X cut on each of the 6 sides, assuming period 3
+# rotations of 3 edges (there are 8 of these, one for each corner)
+
+# The Dino cube has 12! /2 = 239,500,800 essential states
+# Fixing one edge gives the Dino cube a fixed orientation
+#  in space and gives 11! /2 = 19,958,400 combinations
+
+# It has less combinations then the standard pyraminx, but more
+#  than the 2x2x2 Rubik's Pocket cube.
+
+# The Dino cube has 12 edges which can not flip, observed by Rubik
+#  himself back in 1982 (re: Rubik's Logic & Fantasy in Space.)
+# Dino cube has trivial centre
+
+dino := Group(
+    (1,24,7)  (2,23,5),
+    (2,12,22) (4,11,24),
+    (4,19,10) (3,17,12),
+    (3,5,20)  (1,6,19),
+    (13,21,11) (14,22,9),
+    (14,8,23) (16,7,21),
+    (16,18,6) (15,20,8),
+    (15,9,17) (13,10,18)
+  );;
+

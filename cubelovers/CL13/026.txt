@@ -1,0 +1,84 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Fri Oct 28 11:50:15 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29859; Fri, 28 Oct 94 11:50:15 EDT
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <86790-2>; Fri, 28 Oct 1994 11:48:59 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA01388; Fri, 28 Oct 94 11:44:45 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1B76FC; Fri, 28 Oct 94 10:52:00 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Shift Invariant Part 2
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.825.5834.0C1B76FC@canrem.com>
+Date: Thu, 27 Oct 1994 21:56:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+Continuing the previous discussion on shift invariance...
+
+Mark writes:
+>>    This is the longest process I've found so far.
+
+Martin writes:
+>How about (UR)^140 or (UR)^1400?  As mentioned above, you can make the
+>processes as long as you wish.
+
+...or (U1 R1)^35 ? And indeed, (U1 R1)^(35 * 40) is shift invariant.
+I meant to say (and should have said):
+
+ "This is the longest optimal process I've found so far."
+
+ Although I was inspecting (U1 R1)^N patterns in the quest for shift
+invariance, (U1 R1)^35 = (R1 U1)^35 escaped me. In fact it was my
+mistaken belief that the < U , R > group had no shift invariant
+processes.
+
+ I did not realize the connection between the centre of a group and
+shift invariance until Martin's message of Mon Oct 24 17:10:27 1994.
+I actually did use GAP on the < U, R > group but I couldn't resolve
+the resulting position (can GAP use letters? I should have used
+letters).
+
+The missing insight was realizing that, although the full group had
+a unique centre, other subgroups have different centres.
+
+So without further adieu:
+
+6 Counterclockwise Twist,
+Equivalent to (U1 R1)^35= (R1 U1)^35 & Shift Invariant
+UR11 = U2 R1 U1 R1 U1 R3 U1 R3 U1 R3 U2 R1 U1 R1 U1 R3 U1 R3 U1 R3
+       (22 q  or  20 h  moves)
+
+(U3 R3)^35 would execute a 6 clockwise twist.
+
+Martin writes:
+> 4)  The ``odd'' element.
+>  The element (UR)^140 lies in the centre of the subgroup <U,R>.
+>  It is the only shift invariant element of odd order (hence the name).
+>  Thus this process and its inverse are shift invariant.
+>  There are 24 such elements in the entire group (two for each edge).
+
+Is this odd due to ( U1 R1 )^35?
+Actually everything about the above description appears even.
+It is an even number of quarter turns...
+
+Martin writes:
+> For me the most amazing elements were the ``odd'' element and the
+> ``diagonal square'' element.
+
+ I concur completely, although the all-commuting 12-flip is definitely
+interesting too. I was surprised to see the process was shift invariant.
+
+Martin writes:
+> Thus at this time all non-trivial such elements had been found, except
+> for the ``odd'' element.
+
+For which I refer to the process UR11, 22 q turns.
+
+ Martin, you will be pleased to hear that I like GAP, but I need a
+bigger hard drive for that beast!
+
+ -> Mark <-
+ Email: mark.longridge@canrem.com
+

@@ -1,0 +1,118 @@
+From boland@sci.kun.nl  Sat Sep 23 18:31:59 1995
+Return-Path: <boland@sci.kun.nl>
+Received: from wn1.sci.kun.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21232; Sat, 23 Sep 95 18:31:59 EDT
+Received: from canteclaer.sci.kun.nl by wn1.sci.kun.nl via canteclaer.sci.kun.nl [131.174.132.34] with SMTP 
+	id AAA29847 (8.6.10/2.13) for <cube-lovers@ai.mit.edu>; Sun, 24 Sep 1995 00:31:56 +0200
+Message-Id: <199509232231.AAA29847@wn1.sci.kun.nl>
+To: cube-lovers@ai.mit.edu
+Subject: Order problems
+Date: Sun, 24 Sep 95 00:31:55 +0200
+From: Michiel Boland <boland@sci.kun.nl>
+
+Hello all,
+
+Had a great time reading the archives. What I haven't found
+there are order problems: what is the shortest (in terms of
+quarter turns or half- and quarter turns, whatever you prefer)
+transformation of the cube with a given order?
+
+Here is a list that my good old PC produced this afternoon.
+I hope some of you find this interesting. :)
+
+A couple of notes on the list:
+
+"Len" is the length of the transformation in terms of quarter
+twists. You will notice that I listed two transforms with order
+3: one is minimal wrt quarter-turn metric, the other wrt
+half-turn metric.
+
+A notable absentee is number 11. I suspect that (U.R.F2B.D')2 is
+the shortest possible with order 11, but my comp just isn't fast
+enough to confirm this.
+
+Note that (U.R.F2B.D')2 yields an 11-cycle on the edges (see
+also Mark Longridge's mail from 15 Jul 1994.)
+
+(I use dots to maintain readability; personally, I do not like
+the U1F2L3 notation, but that's just a matter of taste :)
+
+Order    Len
+   1      0
+   2      2      U2
+   3      6      U.R.U'D'R.D.
+   3      8      U2R2U2R2
+   4      1      U.
+   5      4      U.R.U.R'
+   6      4      U2R2
+   7      4      U.R.U'F.
+   8      4      U.R2D.
+   9      4      U.R.F2
+  10      4      U'R.U.F.
+  11      ?      ????????????
+  12      4      U.R.F.D'
+  14      6      U'R.U.R'F.D.
+  15      6      U.R2U.R2
+  16      5      U.R.U'F.D.
+  18      5      U.R.U'R'F.
+  20      5      U.R.U'L2
+  21      6      U2R.U2F.
+  22      6      U.R.F2B.D'
+  24      4      U.R2D'
+  28      4      U.R.U'L.
+  30      3      U.R2
+  33      4      U.R.F'D'
+  35      6      U2R.U2L'
+  36      4      U2R'F'
+  40      5      U.R.U2L.
+  42      6      U.R2U2R'
+  44      4      U'R.F'D.
+  45      4      U.R.U.L.
+  48      5      U2R.U.F.
+  55      6      U.R.F'U'B'L.
+  56      5      U2R.F'D.
+  60      3      U.R'F'
+  63      2      U.R'
+  66      6      U.R.U.F2L'
+  70      6      U.R'U.R.F.R'
+  72      4      U.R.U.F'
+  77      4      U.R'F'L'
+  80      3      U'R'F'
+  84      3      U.R.F.
+  90      3      U.R.D.
+  99      6      U.R2F.L2
+ 105      2      U.R.
+ 110      8      U.R.U2R'F.R.L'
+ 112      6      U.R'U.F'R.D.
+ 120      4      U.R.F.L'
+ 126      4      U'R.F'L'
+ 132      4      U.R.F'L.
+ 140      4      U.R'U.F'
+ 144      5      U.R'F'D2
+ 154      6      U.R.U.F.L.D'
+ 165      6      U.R'U.F2L'
+ 168      4      U.R.D2
+ 180      3      U.R.D'
+ 198      6      U2R.F.D2
+ 210      4      U.R'D.L'
+ 231      4      U.R.F'D.
+ 240      5      U'R.F'L2
+ 252      4      U.R.F.L.
+ 280      5      U'R'U'F.L'
+ 315      4      U.R.D.L.
+ 330      6      U2R.F'D'L'
+ 336      6      U.R.U.F.D2
+ 360      3      U.R.F'
+ 420      4      U.R.D.L'
+ 462      6      U'R.F'D2L'
+ 495      6      U.R2U.F'L'
+ 504      5      U.R2F.L'
+ 630      6      U'R'U'F'L2
+ 720      6      U'R'U'F'D2
+ 840      5      U2R'F'D.
+ 990      6      U'R'U'F'L.D.
+1260      6      U.R'U.F'D2
+-- 
+Michiel Boland <boland@sci.kun.nl>
+University of Nijmegen
+The Netherlands
+

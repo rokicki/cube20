@@ -1,0 +1,41 @@
+Date:  9 January 1981 0551-EST (Friday)
+From: Dan Hoey at CMU-10A
+To: Cube-lovers at MIT-MC
+Subject:  The Supergroup -- Part 1: Physical reality
+Message-Id: <09Jan81 055144 DH51@CMU-10A>
+
+	Well, whoever doesn't like the Supergroup didn't send me
+any messages, and several who do did, so here goes.  This message
+is part one of three, separated for the benefit of MIT's
+notoriously fragile mailer.
+
+	In case anyone has managed to miss it, the Supergroup is
+the group underlying the cube when face center orientation is taken
+into account.  By the "orientation" of a face center, we refer to
+the number of 90o twists of that face center from the position
+designated "solved."  To visualize this, Singmaster suggests
+replacing the solid colors on the sides of the cube by some
+nine-piece pictures, so that the centers must be restored to their
+initial (untwisted) state to solve the cube.  He reports that this
+was done (on two sides only) by a company in England, which printed
+its logo on cubes for a promotion.  The term "Supergroup" is also
+due to Singmaster, and I adopt it in favor of the term "the
+extended problem," which has appeared in Cube-lovers.
+
+	To make the face center orientation visible on my cube, I
+first used magic marker, which rubbed off, then paint, which
+attacked the colortabs and looked and felt awful.  [Then I went to a
+stationery store and got plastic tape and replaced my colortabs --
+no orange, so my cube now has a tan face.]  I marked the face center
+orientation by cutting out circles from the plastic colortabs to
+let the black plastic show through.  I like it, though some people
+think it looks like the cube has been used for target practice.
+Each cutout circle has a diameter of about 3/8" (1/2 the side of a
+cubie) and is centered at the corner of a face center, overlapping
+two edge cubies and one corner cubie.  The orientation is then
+visible if either the corners or the edges are in the home
+position.  It doesn't particularly matter which corners of the face
+centers are used; I chose the pattern which has the same symmetry
+group as Plummer's cross (unique up to M-conjugacy).
+
+	There will be a short intermission while we change reels.

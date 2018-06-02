@@ -1,0 +1,39 @@
+From cube-lovers-errors@curry.epilogue.com  Sun Jun  9 00:34:46 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA17663 for <cube-lovers-outbound@curry.epilogue.com>; Sun, 9 Jun 1996 00:34:45 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sat, 8 Jun 1996 20:48:40 -0400
+From: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Message-Id: <199606090048.UAA04049@Collatz.McRCIM.McGill.EDU>
+To: CUBE-LOVERS@ai.mit.edu
+Subject: Re:  verifying correctness of a cube
+
+> So, I was recently given a cube, which once again sparked my interest
+> in the whole thing, however it appears that the stickers have been
+> pulled off and re-arranged at some point.  (The faces don't match any
+> I've seen mentioned in the archives or the various web pages.)
+
+Which doesn't necessarily mean it was attacked by a mad sticker-moving
+artist; it could just be an off brand. :-)
+
+> What would be the right way to put it back together to get a
+> "working" cube?
+
+Well, first I'd try solving it and see if I end up with something like
+two edge cubies colored the same, or a corner having colors that belong
+to opposite center cubies.  If no such problem is found but a parity
+constraint is violated (eg, a single edge cubie flipped), it was just
+taken apart, so I'd take it apart and put it back together solved.  If
+I _do_ find an "impossible" cubie, then I'd just take the stickers off
+and put them back on such that every face is a solid color.  (I'd
+probably try to mostly-solve it first, so's to minimize the number of
+stickers that need moving, but that's a frill.)  If you take all the
+stickers off, all states are the same; there is no mechanical state you
+have to match when putting the stickers back on.
+
+					der Mouse
+
+			    mouse@collatz.mcrcim.mcgill.edu
+
+

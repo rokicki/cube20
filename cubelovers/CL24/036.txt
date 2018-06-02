@@ -1,0 +1,40 @@
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: "Nichael Cramer" <nichael@sover.net>
+Cc: <Cube-Lovers@ai.mit.edu>
+Subject: Re: 4x4x4 solution
+Date: Thu, 2 Oct 1997 23:12:39 +0100
+
+> From: Nichael Cramer <nichael@sover.net>
+> To: Roger Broadie <roger.broadie@iclweb.com>
+> Cc: Cube-Lovers@ai.mit.edu
+> Subject: Re: 4x4x4 solution
+> Date: 2 October 1997 4:26
+>
+> As one of the folks who advocated rotating a center slice, let me
+> explain my (admittedly non-optimal) process for getting out of this
+> fix and perhaps you can explain where my reasoning is wrong.
+>[followed by a procedure in which a quarter turn of a centre slice is
+followed, first, by a 3-cycle of edges on the top to restore the two
+swapped pieces, second, by a 3-cycle of edges to restore the other
+displaced edges, and, third, by restoring the displaced centres]
+
+I absolutely agree with your reasoning. A quarter turn of a central
+slice must be at the heart of any procedure to perform an edge swap,
+because it is the only way to change the parity of the edges.  That was
+what I said in my first post on 1 October 1997.
+
+In my second post I was trying to look at the effect of that quarter
+turn of the central slice on the centre pieces, and show that, as they
+had been subjected to an even permutation by reason of the centre-slice
+turn, the centre pieces could not have undergone an invisible swap of a
+single pair of centre pieces.  Having made a single quarter turn of the
+central slice, all the other edge and centre pieces can be restored
+with processes of even parity, like your two 3-cycles.
+
+Roger Broadie
+
+------------------------------
+
+End of Cube-Lovers Digest
+*************************
+

@@ -1,0 +1,32 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Aug  5 22:41:01 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA22841; Mon, 5 Aug 1996 22:41:00 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: bagleyd <bagleyd@hertz.njit.edu>
+Message-Id: <199608060132.VAA14816@hertz.njit.edu>
+Subject: panex puzzle
+To: cube-lovers@ai.mit.edu
+Date: Mon, 5 Aug 96 21:32:18 EDT
+X-Mailer: ELM [version 2.3 PL11]
+
+Hi
+  I just made a new puzzle for the X Window System and MS Windows 3.1 or
+greater.  The new puzzle is Panex which is very similar to (but a lot harder
+than) the Tower of Hanoi.  In fact there is a Hanoi mode in the puzzle.
+My wife who is usually indifferent towards puzzles, liked this one.
+
+  I also made updates to my other puzzles; the rubik, dino, and skewb puzzles.
+You can pick this stuff up at
+http://hertz.njit.edu/~bagleyd/
+
+Source code and README files are also supplied.
+
+Cheers,
+  /X\   David A. Bagley
+ // \\  bagleyd@hertz.njit.edu   http://hertz.njit.edu/~bagleyd/
+((   X  xlockmore, new stuff for xlock @ ftp.x.org//contrib/applications
+ \\ //  altris, tetris games for x @ ftp.x.org//contrib/games/altris
+  \X/   puzzles, magic cubes for x @ ftp.x.org//contrib/games/puzzles
+
+

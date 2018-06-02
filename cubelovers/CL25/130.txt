@@ -1,0 +1,136 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Sep  9 13:47:36 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id NAA29037; Wed, 9 Sep 1998 13:47:35 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Sep  6 23:27:56 1998
+Message-Id: <35F350B1.626F@ameritech.net>
+Date: Sun, 06 Sep 1998 22:19:13 -0500
+From: Hana Bizek <hbizek@ameritech.net>
+Reply-To: hbizek@ameritech.net
+To: cube-lovers@ai.mit.edu
+Subject: Rubik's cube kingdom
+
+Hello, cube-lovers,
+
+the following miniessay talks about that realm of human knowledge, where
+the rubik's cube reigns supreme. The gates of this kingdom are open to
+anybody, but only those who love the cube, venture beyond its gates. The
+rest of humanity are either unaware of it, or ignore its existence.
+Those folks are truly missing a lot. After finishing {if indeed you
+choose to finish} this epistle, you may want to do several things:
+
+  a} emit a few chuckles thinking what an insane idea this is
+
+  b} pause to think about the contents, debating whether all this is
+     worth your precious time
+
+  c} email your ideas, commenrts, etc, to me at hbizek@ameritech.net
+
+Thank you. 
+
+                WELCOME TO THE RUBIK'S CUBE KINGDOM.
+
+This is not a kingdom of people, it is a kingdom of ideas. Its king is
+the Rubik's cube. We pay homage to our king by trying to learn more
+about him and see if this knowledge could be extended to other areas of
+human pursuit. I am now going to tell you what I think those areas are
+and point to a couple of web sites where results may be found. This is
+by no means a finite list. As new ideas occur to all of us, they should
+be added to the kingdom.  The Rubik's cube kingdom is there for anyone
+to benefit from, just as any other field. Please feel welcome to sample
+and browse.
+
+Initially, of course, one should master the Rubik's cube solution. The
+ability to solve one side should be the absolute minimum. It is far
+better and morre satisfying to be able to solve the cube completely,
+that is, get all six sides a solid color. I have seen numerous solution
+algorithms on the web. Someone might consider collecting those varied
+algorithms in a handy volume for cube lovers and others to use. I have
+seen some solutions on the web, in which you are presented with a
+solved cube in a little square field. You are instructed to press 's'
+to scramble the cube and 'r' to restore {i. e. solve} it. That is not
+solving the cube! You have to understand the steps of the solution
+algorithm.
+
+The areas where the cube has any impact are art, mathematics and
+science. Let me look at art first. Quite recently there was a small item
+in TIME magazine stating  that the cube has entered Hollywood and is
+the subject of some movies. I heard that there are also songs about the
+cube. By the above definition those human expressions too belong in the
+Rubik's cube kingdom. However, I am going to zero on two aspects:
+pictures and sculptures.
+
+At http://www.wunderland.com/WTS/Jake/CubeArt one may see creations by
+the people at Wunderland company {the spelling is correct} that depict
+mostly 2-dimensional picture-like creations from a set of many Rubik's
+cubes. They just show the pictures, thwy do not  describe their method
+in any book, as far as I can determine {of course, I can be wrong}. But
+from my  observation it seems to me they need to be worried about
+continuity from one side of the cube to the one side of the next cube,
+which is not too complicated. 
+
+The sculptures are 3-dimensional structures and require some symmetry
+on all the  faces of the cube, simultaneously. In this case, the
+complete solution of the cube is a must. The required algorithm is
+described in the book, "Mathematics of the Rubik's cube design," written
+by me and published last year. As far as I know, I am the author of
+these designs, described in my previous postings to the cube lovers. I
+have stated a web site where three of these designs may be seen. I
+repeat it here for completeness:
+http://www.ssie.binghamton.edu/~jirif/hana1.html
+
+Next, I am going to talk about science. I have to warn you: those
+ideas are, as far as I know, unknown and undeveloped, as is, indeed,
+the design Problem itself. First on the agenda is fractals and fractal
+design prototypes. Some of the designs in my book, such as the Menger
+sponge, are such fractals. One can think of the Rubik's cube as a
+three dimensionl version of a Cantor set, which is a {one dimensional}
+line.  Actually these fractals are neither three nor one dimensional;
+they have fractional dimensions. But the 0th iteration are. One can
+formulate rules for geometrical fractal iteration. Remember that
+iteration preserves fractal dimension.  By the same token, for integer
+dimension, it really doesn't matter if you subdivide by m or 10000n;
+the dimension is always the same. Between the integer dimension there
+are fractals of fractional dimension. These fractals can be reached by
+breaking up of integer dimension or by some other
+manipulation. Fractal design made from cubes suggest one such
+manipulation, as witnessed by box fractal. But this is supposed to be
+a miniessay, nor a book.
+
+Another idea consists of computerizing the design algorithm, in some
+comprehensive way so that the Rubik's cubes are used as 3-dimensional
+cellular automata. It would be deliciously complicated game, perhaps
+employing some of the patterns in the design theory.
+
+Finally there is the question of what happens if internal combined faces
+of a design that touch are colored the same? I will let you figure that
+one out. It is not too hard. Personally, I had much more difficulty to
+properly formulate the question than to provide the answer.
+
+Finally, there is math. In this respect the ideas were formulated
+partially by mathematicians in the 1980s during the heyday of the cube,
+partially by cube lovers today. I would like to include my book in this
+category.  At least its title indicates that there is some math, if that
+has to be the only reason. And, as every cube lover knows, all possible
+elements of a Rubik's cube form a mathematical group. A visitor to the
+Rubik's cube kingdom will surely encounter some joys of group theory on
+his travels.
+
+Any objections, criticism, etc are welcome. Free speach prevails in the
+Rubik's cube kingdom. Suppress free speach and not much is left.  
+
+Hana
+
+[ Moderator's note: I am somewhat concerned at the low
+  information-to-woowoo ratio of Hana's "miniessay", but I think
+  there are enough real ideas there that I've passed it on to the
+  list.  I must, however, note that while "free speach" may prevail on
+  the Internet, the contents of the cube-lovers mailing list is
+  subject to editing for topicality, format, sensibility, and content.
+  Which is to say that if the silliness level gets too high, you may
+  have to find somewhere else to make your "kingdom".  I encourage
+  guidance from the readership on where to draw the line; send your
+  opinions to cube-lovers-request@ai.mit.edu. --Dan ]
+

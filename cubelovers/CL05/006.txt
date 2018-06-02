@@ -1,0 +1,33 @@
+Date:  3 Jan 1983 0915-PST
+From: ISAACS at SRI-KL
+Subject: Hinton's Cubes
+To: cube-lovers at MIT-MC
+cc: isaacs at SRI-KL
+
+   Hinton's Cubes are mentioned in Martin Gardners "Mathematical Carnival",
+Chapter 4, Hypercubes, a reprint of the November, 1966, Mathematical Games
+column from Scientific American.  He doesn't say much, mainly that "Hinton...
+devised a system of using colored blocks for making three-space models of 
+sections of a tesseract."  Hinton believed that they would help develop
+an intuitive grasp of 4-space.  The fullest account of them mentioned is
+the book k"A New Era of Thought", by C. Howard Hinton, Swan Sonnenschein, 
+1888, apparantly reprinted in 1910.  
+  Gardner also prints a letter he received from Hiram Barton, of England,
+including "A shudder ran down my spine when I read your reference to Hinton's
+cubes.  I nearly got hooked on them myself in the nineeen-twenties.  Please 
+believe me when I say that they are completely mind-destroying.  The only
+person I ever met who had worked with them seriously was Francis Sedlak, a 
+Czech neo-Hegelian philosopher...who lived in an Oneida-like community near
+Stroud, in Gloucestershire.
+   "As you must know, the technique consists essentially in the sequential
+visualizing of the adjoint internal faces of the poly-colored unit cubes 
+making up the large cube.  It is not difficult to acquire considerable 
+facility in this, but the process is one of autohypnosis and, after a while, 
+the sequences begin to parade themselves through one's mind of their own 
+accord."
+   It goes on, but doesn't say a great deal more.  I don't have my copy of
+Hintons book "The Fourth Dimension", but maybe it will give some more 
+description.
+  If anybody does find some marketed versions of the cubes, put it on the list.
+   --- Stan
+-------

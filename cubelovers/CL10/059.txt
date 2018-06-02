@@ -1,0 +1,36 @@
+From @mizzou1.missouri.edu:HOWSER@LUA6.LU.EDU  Wed Oct  6 01:40:53 1993
+Return-Path: <@mizzou1.missouri.edu:HOWSER@LUA6.LU.EDU>
+Received: from MIZZOU1.missouri.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18037; Wed, 6 Oct 93 01:40:53 EDT
+Received: from LUGATE.LU.EDU by MIZZOU1.missouri.edu (IBM VM SMTP V2R2)
+   with TCP; Mon, 04 Oct 93 17:25:31 CDT
+Received: from LUA6.LU.EDU (p) by LUGATE.LU.EDU (4.1/6.2); Mon, 4 Oct 93 17:20:27 CDT
+Date: 04 OCT 93 17:32   
+From: <HOWSER%LUA6.LU.EDU@lugate.lu.edu>
+To: <cube-lovers%ai.mit.edu@lugate.lu.edu>
+Subject: Stiff and/or misaligned cubes
+Comments: Automatic Return Receipt Requested
+Message-Id: <BMEP0921FE5EB2 @ LUA6>
+
+Back in the 'good old days' when cubing was very popular, I had a cube that was
+very prone to hanging up when you turned it in certain directions.  I solved the
+ problem by disassembling the cube and working on the cublets individually to
+remove any excess plastic and to smooth any rough spots by scraping with a razor
+blade and/or sanding with model car sandpaper.  I raced many people with that
+cube and still have it after all these years.  I found that the time I spent
+working on the bad cublets has lead to that cube wearing much more evenly than
+the ones I have that I never got around to working on.  I also find that it gets
+more consistant in its movements as time goes by.  As it was one of the first
+cubes on the market (before the BIG craze, actually) it is rather heavy but not
+as precisely made as the later cubes.
+
+------------------------------------------------------------------------
+    Gerry Howser
+    INTERNET:  howser@lua6.lu.edu
+               Postmaster@lua6.lul.edu
+               Monet01@umcvmb.missouri.edu (Alternate)
+
+    VOICE:  (314) 681-5400
+    FAX:    (314) 681-5566
+------------------------------------------------------------------------
+
+

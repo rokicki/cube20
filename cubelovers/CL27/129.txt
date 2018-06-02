@@ -1,0 +1,18 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug  6 14:45:54 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA29499
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 6 Aug 1999 14:45:53 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <37A88ED4.B35BA92F@u.washington.edu>
+Date: Wed, 04 Aug 1999 12:04:52 -0700
+From: David Barr <davidb@u.washington.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Meffert's Assembly Cube
+
+I saw on the http://www.mefferts-puzzles.com/ web site that he has a new
+3x3x3 cube design.  Has anyone gotten their hands on one yet?
+
+David
+

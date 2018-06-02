@@ -1,0 +1,52 @@
+From mreid@ptc.com  Tue Mar  7 14:35:00 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21039; Tue, 7 Mar 95 14:35:00 EST
+Received: from ducie by ptc.com (5.0/SMI-SVR4-NN)
+	id AA09328; Tue, 7 Mar 95 14:33:16 EST
+Received: by ducie (1.38.193.4/sendmail.28-May-87)
+	id AA26403; Tue, 7 Mar 1995 14:49:04 -0500
+Date: Tue, 7 Mar 1995 14:49:04 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9503071949.AA26403@ducie>
+To: cube-lovers@ai.mit.edu, mark.longridge@canrem.com
+Subject: New GAP insights
+Content-Length: 1222
+
+for what it's worth, i'll make some conjectures about mark's questions.
+
+> A) What is the next most commutative element (the pancentre?)
+>   after the 12-flip?
+
+(presumably, start excluded as well)
+
+i'll guess that these four conjugacy classes are tied for next.
+
+corner cycle structure:  (1+)(1+)(1+)(1+)(1+)(1+)(1+)(1-)
+edge cycle structure:    (1)(1)(1)(1)(1)(1)(1)(1)(1)(1)(1)(1)
+
+corner cycle structure:  (1+)(1+)(1+)(1+)(1+)(1+)(1+)(1-)
+edge cycle structure:    (1+)(1+)(1+)(1+)(1+)(1+)(1+)(1+)(1+)(1+)(1+)(1+)
+
+corner cycle structure:  (1+)(1-)(1-)(1-)(1-)(1-)(1-)(1-)
+edge cycle structure:    (1)(1)(1)(1)(1)(1)(1)(1)(1)(1)(1)(1)
+
+corner cycle structure:  (1+)(1-)(1-)(1-)(1-)(1-)(1-)(1-)
+edge cycle structure:    (1+)(1+)(1+)(1+)(1+)(1+)(1+)(1+)(1+)(1+)(1+)(1+)
+
+> B) What is the least commutative element (the anticentre?) of
+>   the cube group?
+
+i'll guess
+
+corners:  (1)(7)     edges:    (1)(11)
+corners:  (1+)(7-)   edges:    (1)(11)
+corners:  (1-)(7+)   edges:    (1)(11)
+corners:  (1)(7)     edges:    (1+)(11+)
+corners:  (1+)(7-)   edges:    (1+)(11+)
+corners:  (1-)(7+)   edges:    (1+)(11+)
+
+each of these splits into two conjugacy classes.  i think this is the
+example bandelow gives in his book.
+
+mike
+

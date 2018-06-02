@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 22 12:31:20 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA03877
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 22 Dec 1998 12:31:18 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sun, 20 Dec 1998 21:18:09 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: "CRAWFORD, SCOTT" <CRAWFORDS@evangel.edu>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: Snake
+In-Reply-To: <5B9619E72C59D211B22100A0C99CC4632EEE9E@www.evangel.edu>
+Message-Id: <Pine.BSF.3.96.981220211300.2706L-100000@shell2.tiac.net>
+
+
+ The Snake is delightful; you can do some interesting investigations by
+starting with a straight config., and twisting each consecutive joint
+according to a pattern. Just as long as you don't get physical
+interferencies, you see some modestly-interesting shapes.
+
+ It's also worth a bit of casual effort to create a "ball". All of these
+things are, however, trivially easy to many of the subscribers to this
+list. The snake is for mental relaxation!
+
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*  The personal computer industry will have become
+|*  Amateur musician  *|*  mature when crashes become unacceptable.
+--------------------------------------------------------------------------
+

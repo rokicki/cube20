@@ -1,0 +1,88 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug  1 20:34:49 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id UAA01174; Fri, 1 Aug 1997 20:34:49 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Hoey@AIC.NRL.Navy.Mil Fri Aug  1 20:32:48 1997
+Date: Fri, 1 Aug 1997 20:31:56 -0400
+Message-Id: <199708020031.UAA28142@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: Cube-Lovers@ai.mit.edu, ponder@austin.ibm.com
+In-Reply-To: <199708010138.VAA24279@sun30.aic.nrl.navy.mil> (message from Dan
+	Hoey on Thu, 31 Jul 1997 21:38:18 -0400)
+Subject: Re: puzzle to be simulated
+
+Continuing on my quest for Ponderesque cube-planes made of a square
+torus, possibly cut on the bias, I notice that any square torus will
+have k=a^2+b^2 faces for some a>b; if b=0 there is no bias.  Carl
+Ponder suggests (if I understand it correctly) cutting each face into
+nine facets, and permuting the puzzle by turning a face together with
+the 16 neighboring facets.  As with Rubik's cube, the edge facets move
+in pairs (called edge cubies).  The corner facets move in quadruplets
+(called corner cubies).
+
+There are k corner cubies that can apparently achieve any of four
+orientations (twist) each, and 2k edge cubies that can apparently
+achieve any of two orientations (flip) each.  The face center cubies
+can achieve any of four orientations (twist) each but never move.
+
+So the "constructible" group size--the size of the group before we
+consider parity and orientation constraints--is k! (2k)! 16^k, or
+k! (2k)! 64^k for the supergroup.
+
+But if a+b is even, we can shade the faces in a checkerboard, and the
+shades never change when we turn the faces.  So in this case, the
+edges never flip, and the corners have only two orientations.  The
+checkerboard-constructible group size is then k! (2k)! 2^k, or 
+k! (2k)! 8^k for the supergroup.
+
+Everyone who knows Rubik's cube will suspect (and everyone who
+understands orientation theory will know!) that the corner
+orientations must sum to zero (mod 4) and the edge orientations must
+sum to zero (mod 2).  If a+b is even, there is only a corner
+orientation constraint (mod 2).  [See my article of 23 September 1982
+for a sketch of orientation theory.  Essentially, if the orientation
+group of a kind of piece is Abelian then there is an orientation
+constraint of the order of that orientation group.]
+
+The permutation parity constraint is also familiar to anyone who knows
+the cube.  The edge permutation parity must equal the corner
+permutation parity, and in the supergroup the parity of the face
+center twist must also be equal (mod 180 degrees).
+
+So we should find groups of size k! (2k)! 2^f(k), where
+
+    f(k)=4k - 4     a+b odd, or
+    f(k)= k - 2     a+b even
+
+for the permutation group, and
+
+    f(k)=6k - 5     a+b odd, or
+    f(k)=3k - 3     a+b even
+
+for the supergroup.
+
+I've used GAP to find the group sizes for
+     (a,b) = (2,0), (2,1), (3,0), (3,1), (3,2), (4,0), (4,1),
+and the group sizes agree except for (2,0) and (2,1).  The group
+is smaller than expected by a factor of
+
+      5040 for the (2,0) permutation group,
+     20160 for the (2,0) supergroup,
+         6 for the (2,1) permutation group, and
+        12 for the (2,1) supergroup.
+
+I'm not too surprised about the (2,0) groups (for instance, all four
+corner cubies move cyclically on every turn!) but I don't see why
+(2,1) is pathological.  Maybe it's one of those special group things
+that happen for just one permutation group.
+
+By the way, I suggest that a simulation of these should not try to
+map them to a curved torus, but to a toroidal tesselation of the
+plane.  Then when you turn one piece, you see a lattice of other
+pieces turning in synchrony.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

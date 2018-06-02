@@ -1,0 +1,34 @@
+From mschoene@math.rwth-aachen.de  Wed Dec  7 16:25:08 1994
+Return-Path: <mschoene@math.rwth-aachen.de>
+Received: from samson.math.rwth-aachen.de by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05684; Wed, 7 Dec 94 16:25:08 EST
+Received: from hobbes.math.rwth-aachen.de by samson.math.rwth-aachen.de with smtp
+	(Smail3.1.28.1 #11) id m0rFSE6-000MPIC; Wed, 7 Dec 94 20:40 MET
+Received: by hobbes.math.rwth-aachen.de (Smail3.1.28.1 #19)
+	id m0rFSE6-0000PsC; Wed, 7 Dec 94 20:40 PST
+Message-Id: <m0rFSE6-0000PsC@hobbes.math.rwth-aachen.de>
+Date: Wed, 7 Dec 94 20:40 PST
+From: "Martin Schoenert" <Martin.Schoenert@math.rwth-aachen.de>
+To: cube-lovers@life.ai.mit.edu
+Subject: Group Slang in Cube Lovers
+
+Dan Hoey and Jerry Bryan remind me, that not everybody reading my
+messages does group theory everyday.  So the technical slang in my
+messages will not be intelligable to everybody (or in the worst case
+it will not be intelligable to anybody, including myself ;-).
+
+If this happens, please *do ask*.  Almost everthing I write is simple.
+If you don't understand it, it is not your fault, it is mine, since I
+wasn't clear enough.  If you do ask, I will try to explain everything.
+
+However, I must ask you to understand that my work and my family leave
+very little free time for such leisures.  So it may take me some time to
+answer your questions.
+
+Have a nice day.
+
+Martin.
+
+-- .- .-. - .. -.  .-.. --- ...- . ...  .- -. -. .. -.- .-
+Martin Sch"onert,   Martin.Schoenert@Math.RWTH-Aachen.DE,   +49 241 804551
+Lehrstuhl D f"ur Mathematik, Templergraben 64, RWTH, 52056 Aachen, Germany
+

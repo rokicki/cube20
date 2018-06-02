@@ -1,0 +1,106 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jan 27 18:52:18 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA24358
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 27 Jan 2000 18:52:18 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <388AB533.798B2C6@health.on.net>
+Date: Sun, 23 Jan 2000 18:30:51 +1030
+From: Ghan <ghan@health.on.net>
+Reply-To: ghan@health.on.net
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Stuff...
+
+Hi everyone!
+
+This is my first post to Cube-Lovers! I don't really know whether most
+people on this mailing list are regulars or just a bunch of strangers
+who don't know each other, but I'll introduce myself anyway. I am:
+Justin Ghan, recently turned 18 year old, about to start his second
+year of Engineering/Science at Adelaide University, South Australia. I
+wasn't really interested in all this cube stuff until the middle of
+last year ... Well, when I was really young, my cousin had a pyraminx
+and I solved that. But yeah, last July, I got one of my friends to
+teach me how to solve the Rubik's Cube, which I have ever since
+regretted, since I really would have liked to solve it myself...
+
+Since then, I've bought a Megaminx from Meffert's and also won a
+Professor Cube (thanks to the Puzzle Challenge!). I solved both of
+them mostly using altered Rubik's Cube sequences, which sort of
+dampened my satisfaction because I knew I didn't REALLY fully solve
+them myself. I borrowed a friend's Creative Puzzle Ball (I'm not sure
+what it's officially called) and managed to be able to solve it in a
+trial-and-error sort of way.  I also bought a Bandaged Cube recently,
+which arrived only yesterday and is annoying the hell out of me - I've
+only solved it once by accident so far. And I wasn't paying attention
+so I don't know how I did it. I've also got a Square-One and a Skewb
+Diamond coming in the mail. I can't wait!
+
+I was a bit intimidated when I read through the past couple of years
+worth of Cube-Lovers mail because I always thought I was pretty smart
+at maths (I went to the International Mathematical Olympiad twice) and
+was also pretty proud of my puzzling skills but I couldn't make head
+nor tail of most of the mathematical discussion! I've been trying to
+learn some group theory since, so I hope one day I'll be able to join
+in.
+
+Anyway, I have quite a few unrelated questions I need help with...
+
+First of all, the glue on my Megaminx is failing, meaning that every
+time I turn a face I have to pause to readjust all the stickers which
+have slid out of place. This is obviously very annoying. Any ideas on
+what to do? What type of glue could I use to secure all the stickers
+more permanently? By the way, I really like the grooved tiles on the
+Bandaged Cube (and all the new Meffert's Puzzles, I think), although
+the colours aren't as bright.
+
+Now for the Professor Cube ... I've seen various solutions on the
+internet but so far I haven't found anybody else who uses the boring
+layer by layer approach. Does anybody else do it my way? It's probably
+a really slow, inefficient method but it seemed the most obvious to me
+when I started, since that's how I solved the Rubik's Cube and the
+Megaminx. The reason I ask is that I would really like a fix for the
+parity problem when I get to the last layer. When I end up with two
+edge pieces swapped, I have to stuff up the last two layers
+completely, which takes ages to redo.
+
+I've been considering buying an Assembly Cube since, believe it or
+not, I don't actually have a Rubik's Cube (although I can use the
+Professor Cube as one). But I don't really know much about them.
+What's going on with the 3-colour Assembly Cube at Meffert's? Also, if
+I buy a Assembly Siamese Cube, can I use it to assemble a normal
+Rubik's Cube? And what's the Alexander's Star? And I thought I saw a
+"Star of David" (or something) mentioned on the Meffert's website...
+
+Finally, I decided today to try my hand at some programming. Now, I
+haven't had any programming experience except for extremely basic
+BASIC, years and years ago on my Commodore 64. But I wanted to see if
+I could write a program to solve the Bandaged Cube, so I tried to
+learn some QBASIC. I thought it would be easier to solve a 2x2x2 cube
+first, so I finally managed to write a working program to do that. It
+was just a brute force search, first testing all 1 move algorithms,
+then 2 move algorithms, etc.
+
+I thought I was pretty good until I discovered that my program took 18
+minutes to check all the 9 move algorithms! (I have a Pentium II 266,
+although not being very computer smart I'm not sure how much
+difference this makes.) I found out that more than half the
+configurations required 9 moves or more. Well, this was pretty
+embarrassing, considering that there are computer programs which can
+solve the 3x3x3 in seconds (or so I've read, I haven't tried any of
+these programs). So I'm wondering how to write a fast solver. Is my
+program slow because of my bad programming skills, or is my method
+just plain slow? I can't think of any other methods to find the
+solution.
+
+I hope some of you can help with my problems. I also realise that some
+of my questions may have been answered in past discussions, but I
+wasn't willing to read through 20 years of archives to find out! If
+you can direct me to a previous relevant discussion, that would also
+be appreciated.
+
+Thanks!
+
+Justin
+

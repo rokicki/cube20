@@ -1,0 +1,77 @@
+From BRYAN@wvnvm.wvnet.edu  Thu Oct 27 17:47:30 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA11008; Thu, 27 Oct 94 17:47:30 EDT
+Message-Id: <9410272147.AA11008@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 8777; Thu, 27 Oct 94 17:00:31 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 8983; Thu, 27 Oct 1994 17:00:31 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Thu, 27 Oct 1994 17:00:30 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Ybanez Sheldon" <ybanezs%geds@mhsgate.salem.ge.com>,
+        "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject:   Re: Solution..
+In-Reply-To: Message of 10/27/94 at 16:20:08 from ,
+           ybanezs%geds@mhsgate.salem.ge.com
+
+On 10/27/94 at 16:20:08 Ybanez Sheldon said:
+
+>Now since I joined this mailing list I have been inundated with all these
+>algorithms.... how do I translate them?  Being a neophyte to cube
+>'theory' its pretty frustrating trying to figure out what all the letters
+>and numbers mean... and what they are trying to achieve....
+
+>can anyone help?
+
+I was thinking of suggesting a few references, but then it occurs that
+perhaps there are not very many references currently in print.  Here
+is a little Cube Theory 101.
+
+In the "Standard Model" (or maybe the "Singmaster Model") of the 3x3x3
+cube, the cube is not rotated in space.  The only thing you can do is
+twist one of the six faces.  Singmaster designates the faces as
+Up, Down, Right, Left, Front, and Back.  The names are chosen so that
+no two of the faces start with the same letter.  There have been some
+latter day efforts to rename Up as Top so that all the faces have names
+beginning with consonants.
+
+Twists are designated by the first letter of their name  --  U, D, R, L,
+F, and B for clockwise quarter-turns; U', D', R', L', F', and B' for
+counter-clockwise quarter-turns; U2, D2, R2, L2, F2, and B2 for half-
+turns (180 degrees).  In proper typography, the "2" in "U2" is
+written as a superscript.  Sometimes U3, D3, etc. are used to denote
+counter-clockwise quarter-turns because three clockwise quarter-turns
+produce the same result as one counter-clockwise quarter-turn.
+
+A sequence of twists is written left-to-right  -- e.g., FRU'LLR.
+
+The complement notation which is used to convert clockwise quarter-turns
+into counter-clockwise quarter-turns may also be applied to a group
+of twists  --  e.g., (FRU')' is equal to UR'F' (twisting in the opposite
+order and in the opposite direction).
+
+The same sort of notation is used to describe cubies  -- the up-right
+cubie is ur.  Singmaster distinguishes between cubies and cubicles
+via italic and Roman text, but that is a bit hard to do via E-mail.
+
+Things get a bit more complicated when you consider slice moves,
+cubes larger than 3x3x3, and rotations of the whole cube.  Note that
+most people solving "real cubes" (as opposed to mathematical
+models of cubes) do indeed rotate the whole cube, for example they
+move the Bottom face to the Up (or Top), to make it easier to twist.
+However, the "Standard Model" does not rotate the whole cube because
+mathematically it is just as easy to twist one face as any other.
+
+Hope this helps.
+
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

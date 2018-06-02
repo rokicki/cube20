@@ -1,0 +1,41 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Dec 16 00:45:32 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA00831; Mon, 16 Dec 1996 00:45:31 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Mon, 16 Dec 1996 00:28:02 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Corey Scott <scot3165@ginko.ait.fredonia.edu>
+cc: Norman Diamond 04-Dec-1996 1742 <diamond@jrdv04.enet.dec-j.co.jp>,
+        Cube-Lovers@ai.mit.edu
+Subject: Stickers coming off
+In-Reply-To: <Pine.LNX.3.95.961212171409.21366A-100000@ginko.ait.fredonia.edu>
+Message-ID: <Pine.SUN.3.95.961216002055.9291L-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ It's too easy to say, "buy a better Cube." I hope Ideal (if they're still
+the official source) wasn't the source for yours.
+
+ You need to know your solvents fairly well, but you might be able to find
+a solvent that would not attack the plastic nor the stickers. Once you use
+this to clean off all the adhesive, then use a solvent-cure adhesive like
+model-airplane glue or Duco to refasten the stickers. Cyanoacrylate (CA,
+"Super Glue") should work, but it requires skill to use; it's easy to use
+too much; also skill to keep it off your skin. For many CA formulations,
+the surfaces must be clean.
+
+ Good luck!
+
+(Can we persuade Ideal to do a run of their deluxe Cubes, that had plastic
+tiles and a self-aligning, low-friction mechanism?)
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+

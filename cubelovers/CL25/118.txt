@@ -1,0 +1,57 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun Aug 23 01:09:13 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id BAA00571; Sun, 23 Aug 1998 01:09:03 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sat Aug 22 20:16:23 1998
+Date: Sat, 22 Aug 1998 19:27:50 -0400
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199808222327.TAA13228@cauchy.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: minimal maneuvers for X symmetric positions
+
+jerry asks
+
+> I am curious how the local maxima were determined.  4-spot
+> composed with superflip was based on sort of an "extended
+> symmetry" argument, but what about all the others?
+>
+> If I had to guess, I would suspect that you found all minimal
+> maneuvers for each position and observed that there was a
+> maneuver terminating with each quarter (respectively, face)
+> turn for each position.  Or equivalently, perhaps you found all
+> minimal maneuvers unique to symmetry for each position and
+> observed that conjugation of the maneuvers would yield a
+> maneuver terminating with each required kind of turn.  Was it
+> something like this?
+
+yes, this is essentially what i did.  i added automatic symmetry
+reduction to my program (this was a challenge to program, but it
+makes things so much more convenient).  so now the program finds
+all minimal maneuvers up to symmetry, from which local maxima can
+be spotted easily.
+
+i did not find all minimal maneuvers for #91 (superflip composed
+with four spot) nor for #117 in the quarter turn metric, because
+these are too far from start (26q, 24q respectively).  so for these
+positions, which are locally maximal, it suffices to find minimal
+maneuvers ending with each quarter turn.  as you see, symmetry is
+helpful here.  also, all the X symmetric positions have order 2,
+so any maneuver can be inverted.  this is also helpful.
+
+> It is interesting that you found strong local maxima in the face
+> turn metric, rather than just "plain" local maxima.  In my
+> experience, finding strong local maxima with a computer search
+> is easier than finding "plain" local maxima.  Finding "plain"
+> local maxima includes finding weak local maxima (where at least
+> one face turn does not change the distance of the position from
+> Start).  If my guess about how you are identifying local maxima
+> is correct, then your method would not identify weak local
+> maxima.
+
+yes, this is exactly correct.  i will leave it to someone who's more
+interested in "weak" local maxima to determine those.
+
+mike
+

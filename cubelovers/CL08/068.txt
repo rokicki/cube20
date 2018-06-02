@@ -1,0 +1,38 @@
+From Don.Woods@eng.sun.com  Mon May 18 19:27:15 1992
+Return-Path: <Don.Woods@eng.sun.com>
+Received: from Sun.COM by life.ai.mit.edu (4.1/AI-4.10) id AA20962; Mon, 18 May 92 19:27:15 EDT
+Received: from Eng.Sun.COM (zigzag-bb.Corp.Sun.COM) by Sun.COM (4.1/SMI-4.1)
+	id AA03799; Mon, 18 May 92 16:27:08 PDT
+Received: from colossal.Eng.Sun.COM by Eng.Sun.COM (4.1/SMI-4.1)
+	id AA20177; Mon, 18 May 92 16:27:12 PDT
+Received: by colossal.Eng.Sun.COM (4.1/SMI-4.1)
+	id AA04124; Mon, 18 May 92 16:27:34 PDT
+Date: Mon, 18 May 92 16:27:34 PDT
+From: Don.Woods@eng.sun.com (Don Woods)
+Message-Id: <9205182327.AA04124@colossal.Eng.Sun.COM>
+To: Dik.Winter@cwi.nl
+Subject: Re: Kociemba's algorithm
+Cc: cube-lovers@life.ai.mit.edu
+
+> Program details: the program starts with phase1 allowing for succesively
+> 1, 2 etc. until a maximal number of moves.  As soon as phase1 hits a
+> solution phase2 is called, again with a maximum number of moves starting
+> at 1.
+
+I don't remember from the earlier description; are the searches being done
+depth-first or breadth-first?  If breadth-first, then there is no reason to
+put an upper limit on the number of moves for finding a phase1 solution,
+since the algorithm HAS to solve phase1 in order to find an overall solution.
+
+Once you have an overall solution, of course, the length of phase1+phase2
+solution can be used as an upper bound on subsequent phase1 solutions.
+
+Also, do you reduce the "maximum number of moves" for phase2 based on
+solutions already found?  For instance, once you have found a combined
+phase1+phase2 solution in 20 moves, then if you find an alternative phase1
+solution in 14 moves there is no reason to look deeper than 5 moves in
+phase2 (or 6 if you want to find all solutions that tie for minimum length).
+
+	-- Don.
+
+

@@ -1,0 +1,23 @@
+From dik@cwi.nl  Wed Dec 15 21:03:56 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20400; Wed, 15 Dec 93 21:03:56 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA18235 (5.65b/3.12/CWI-Amsterdam); Thu, 16 Dec 1993 03:03:19 +0100
+Received: by boring.cwi.nl 
+	id AA10975 (4.1/2.10/CWI-Amsterdam); Thu, 16 Dec 93 03:03:19 +0100
+Date: Thu, 16 Dec 93 03:03:19 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9312160203.AA10975.dik@boring.cwi.nl>
+To: anandrao@hk.super.net
+Subject: Re: Description of Tangle, Part 2
+Cc: cube-lovers@ai.mit.edu
+
+My memory may be extremely faulty of course, but was there not more than
+one single solution for the 5x5?  (Not unprecedented, I have one puzzle
+that promises a single solution but there are hundreds.)  And, is there
+a solution for the 10x10?  I seem to remember that there was (or I had)
+a convincing argument that such a thing did not exist.  I should go through
+the lesser used parts of my memory one of these days.
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+home: bovenover 215, 1025 jn  amsterdam, nederland; e-mail: dik@cwi.nl
+

@@ -1,0 +1,116 @@
+From mreid@ptc.com  Sat Jan  7 19:32:56 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06222; Sat, 7 Jan 95 19:32:56 EST
+Received: from ducie.ptc.com by ptc.com (5.0/SMI-SVR4-NN)
+	id AA09534; Sat, 7 Jan 95 19:31:01 EST
+Received: by ducie.ptc.com (1.38.193.4/sendmail.28-May-87)
+	id AA07043; Sat, 7 Jan 1995 19:43:27 -0500
+Date: Sat, 7 Jan 1995 19:43:27 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9501080043.AA07043@ducie.ptc.com>
+To: cube-lovers@ai.mit.edu
+Subject: two stage filtration
+Content-Length: 4359
+
+kociemba's algorithm uses the filtration
+
+G = <U, D, F, R, B, L>        of order   43252003274489856000
+H = <U, D, F2, R2, B2, L2>    of order            19508428800
+1 = <>                        of order                      1
+
+i've run an exhaustive search on the coset space  G / H.  the number
+of cosets at each distance is:
+
+ distance    quarter turns       face turns
+
+        0                1                1
+        1                4                4
+        2               34               50
+        3              312              592
+        4             2772             7156
+        5            24996            87236
+        6           225949          1043817
+        7          2017078         12070278
+        8         17554890        124946368
+        9        139132730        821605960
+       10        758147361       1199128738
+       11       1182378518         58202444
+       12        117594403              476
+       13            14072
+
+the computation for face turns was already done by dik winter (see his
+message of may 28, 1992), so in particular, this confirms his calculation.
+
+the cosets  G / H  are described by triples  (c, e, l),  where
+
+   c = corner orientation
+   e = edge orientation
+   l = location of middle layer edges (FR, FL, BR, BL)
+
+there are  3^7   = 2187 corner configurations,
+           2^11  = 2048 edge configurations, and
+          / 12 \
+          \  4 / =  495 location configurations,
+
+to give a total of  2187 * 2048 * 495 = 2217093120  configurations.
+to reduce this number somewhat, we can utilize symmetry.  there are 16
+symmetries of the cube that preserve the  U-D axis,  and therefore
+preserve the subgroup  H.  up to these symmetries, the number of distinct
+corner configurations is 168, so we need only consider a mere
+168 * 2048 * 495 = 170311680  configurations.
+
+(so far, this is the same approach that dik used for his calculation.)
+
+each configuration is stored with 2 bits of memory and thus the whole
+space consumes about 42 megabytes.  each configuration is assigned
+one of 4 values:
+
+        distance is currently unknown
+        distance = current search depth
+        distance = current search depth - 1
+        distance < current search depth - 1
+
+from here, i just used a simple breadth first search.
+
+unfortunately, something unpleasant happened along the way ...
+
+at some point, i realized that the symmetries do not act on the edge
+configurations.  to define edge flip, one must choose one facelet from
+each of the 4 middle layer edges to correspond to the  U  or  D  facelet
+of the other 8 edges.  (i chose the  F  and  B  facelets, but this is
+completely arbitrary.)  but now we've lost some symmetry; these 12 facelets
+are not preserved under the 16 symmetries, in particular, the rotation
+C_U  does not preserve them.
+
+therefore, we need lookup tables for the action of the symmetries on
+edge x location space.  this gives 16 symmetries * 2048 edge configurations
+* 495 location configurations * 4 bytes per integer = 64 megabytes of
+lookup tables.  ouch!
+
+i was too far along at this point to start all over, and i had the memory
+available, so i just continued with this approach.  however, in hindsight,
+i'd probably use one of the following ideas if i had to start over:
+
+      i) only use the 8 symmetries that preserve my choice of
+         12 edge facelets.
+
+     ii) combine the two coordinates edge and location into a single
+         coordinate and divide this coordinate by the 16 symmetries.
+
+run times were improved significantly by using a simple trick that i hadn't
+used in earlier programs.  during the first few depth levels, i use
+"forward searching", i.e. i examine the neighbors of each configuration
+found at the previous depth.  however, after at least half the search space
+has been found, i switch to "backward searching", i.e. examine the
+configurations (and their neighbors) that haven't yet been found.
+
+(have others been using this same idea when running similar search programs?)
+
+closer analysis of this technique suggests that the switch from forward to
+backward searching should occur even before half the space has been found.
+i didn't do this here since the run times were quite satisfactory:
+40 minutes for quarter turns, 47 minutes for face turns.  this was done
+on a DEC 3000 alpha 700, apparently a very fast machine.
+
+mike
+

@@ -1,0 +1,26 @@
+From alan@curry.epilogue.com  Fri May 12 15:03:16 1995
+Return-Path: <alan@curry.epilogue.com>
+Received: from curry.epilogue.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24195; Fri, 12 May 95 15:03:16 EDT
+Received: (from alan@localhost) by curry.epilogue.com (8.6.8/8.6.6) id PAA09069; Fri, 12 May 1995 15:05:36 -0400
+Date: Fri, 12 May 1995 15:05:36 -0400
+Message-Id: <12May1995.144956.Alan@LCS.MIT.EDU>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+To: Cube-Lovers@ai.mit.edu
+Subject: troublemakers and newbies
+
+Folks, please let's not have any more discussion of mailing list
+maintenance on Cube-Lovers.  Let me be the only person to break that rule.
+I try to do that as rarely as possible.  That's why I usually wait for more
+than one person to make the canonical "unsubscribe" mistake before saying
+anything in public.  (Unfortunately, the way people always copy the bad
+example makes it necessary to offer an occasional public correction.)
+
+You don't see the mail that goes to Cube-Lovers-Request.  If you did, you
+would know that public discussions like this always prompt other people to
+drop their subscriptions.  Almost every off-topic message is the last straw
+for somebody out there.  Please help Cube-Lovers keep it's subscribers --
+let me be the only person who sends messages like this.
+
+				- Alan
+

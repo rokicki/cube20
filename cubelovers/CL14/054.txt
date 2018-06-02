@@ -1,0 +1,63 @@
+From mreid@ptc.com  Sat Jan  7 20:14:05 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07520; Sat, 7 Jan 95 20:14:05 EST
+Received: from ducie.ptc.com by ptc.com (5.0/SMI-SVR4-NN)
+	id AA09581; Sat, 7 Jan 95 20:12:09 EST
+Received: by ducie.ptc.com (1.38.193.4/sendmail.28-May-87)
+	id AA07129; Sat, 7 Jan 1995 20:24:35 -0500
+Date: Sat, 7 Jan 1995 20:24:35 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9501080124.AA07129@ducie.ptc.com>
+To: cube-lovers@ai.mit.edu
+Subject: new upper bounds
+Content-Length: 2083
+
+from these calculations, we get new upper bounds on the length of
+"god's algorithm":  42 quarter turns, 29 face turns.  (no, i didn't
+add incorrectly.)  the previous upper bounds were 56 quarter turns,
+37 face turns.  the best known lower bounds are 21 quarter turns,
+18 face turns.
+
+here's how to get these upper bounds.  note that the last twist in
+stage 1 is always a quarter turn of either  F, R, B  or  L,  and the
+direction doesn't matter.  thus by choosing the direction of this
+quarter turn properly, we hope to be able to avoid the positions at
+maximal distance in stage 2.
+
+the program verified that no two positions at distance 30 quarter
+turns differ by  F2, R2, B2  or  L2,  so we may avoid these bad cases.
+i expected to be able to avoid the positions at distance 29 quarter
+turns as well, but alas, things do not always go as planned.  the
+following two positions at distance 29 quarter turns differ by  B2:
+
+position 1:
+D1 R2 D3 L2 D3 R2 U3 D3 R2 U1 B2 D3 L2 D3 R2 D3 F2 D1 B2 D1   29q
+
+position 2:
+R2 U3 L2 U3 D3 L2 D1 L2 D1 R2 F2 D1 F2 D3 L2 B2 D1 B2 D1   29q
+
+there are probably many other examples.
+
+similarly, the positions at distance 18 face turns were checked and
+no two of these differ by  F2, R2, B2  or  L2,  so these positions
+may be avoided.
+
+this gives upper bounds of  13 + 29 = 42  quarter turns and
+12 + 17 = 29  face turns.
+
+i expect to be able to reduce the 42 quarter turns slightly.  for
+example, to improve it to 41 quarter turns, i just need to check
+that any position in stage 2 can be solved in at most 28 quarter
+turns, where we now allow all turns.  of course, this only requires
+testing the positions at distance 29 and 30.  i expect this to be
+straightforward, but i don't know how much improvement i can get
+with this approach.
+
+the same approach doesn't seem plausible for face turns.  in order
+to get just 1 face turn improvement, all positions at distance 17
+face turns would need to be solvable in at most 16 face turns.
+this doesn't seem promising.  probably most of these require 17
+face turns even with all turns available.
+
+mike
+

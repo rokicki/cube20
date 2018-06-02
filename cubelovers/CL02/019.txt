@@ -1,0 +1,81 @@
+Date:  1 February 1981 0539-EST (Sunday)
+From: Dan Hoey at CMU-10A
+To: Cube-lovers at MIT-MC
+Subject:  Algorithm for finding cube group orders
+Message-Id: <01Feb81 053933 DH51@CMU-10A>
+
+	David C.  Plummer (31 Dec 1980 1210-EST) gave a preliminary
+analysis of the 5x5x5 cube.  I complete it here.  Let a move consist
+of twisting any of the six faces, at a depth of 1 or 2.  It will be
+necessary to consider the two depths as distinct; M1P will refer to
+the number of depth 1 moves (mod 2), while M2P will refer to the
+number of depth 2 moves (mod two).  It is important to realize that
+the two parities vary independently.  The tabs on each face are
+assigned types
+	C L E R C
+	R D A D L
+	E A X A E
+	L D A D R
+	C R E L C
+as in Plummer's analysis.
+
+	Let COP ("C" Orientation Parity) and CPP ("C" Permutation)
+parity be defined as before.  As before, COP=0 (mod 3).  We must be
+explicit about the CPP this time:  Since either kind of move is an
+odd permutation of the "C" faces, CPP=M1P+M2P.
+
+	As in the 4x4x4 case, "R"'s may be ignored and "L"'s have
+no orientation.  The permutation parity (LPP) is important, however.
+Depth 1 moves are an even permutation of the "L"'s (two 4-cycles),
+so they do not affect the LPP, but Depth 2 moves are an odd
+permutation of the "L"'s (three 4-cycles).  Therefore LPP=M2P.  Note
+that while LPP and CPP may vary independently, they together
+determine both M1P(=LPP+CPP) and M2P(=LPP).
+
+	The "E" faces act as in the 3x3x3 case, with orientation
+and permutation parity.  Orientation changes on four "E"'s with
+every move, so EOP=0 (mod 2).  Permutation parity changes with every
+move, so EPP=M1P+M2P.  This has already been determined by CPP, so
+only half of the "E" permutations are possible.
+
+	Every move is an odd permutation of the "D" faces, so
+DPP=M1P+M2P.  Since M1P+M2P=CPP is determined, only half of the "D"
+face permutations are possible.
+
+	Moves work differently on "A" faces depending on depth:
+Depth 1 moves are odd permutations of the "A"'s, and depth 2 moves
+are even.  Thus APP=M1P, which is determined by CPP+LPP, so only
+half of the "A" permutations are possible.
+
+	Finally, the "X" faces have orientation which changes on
+every move, so XOP=M1P+M2P, and only half of the "X" orientations
+are possible.
+
+	Thus there are 96 orbits, corresponding to COP (mod 3) and
+EOP, EPP+CPP, DPP+CPP, APP+CPP+LPP, and XOP+CPP (mod 2).  The basic
+combinatoric is as Plummer described:
+	8!    C Permutations
+	3^8   C Orientations
+	24!   L Permutations
+	1     R Permutation
+	12!   E Permutations
+	2^12  E Orientations
+	24!   D Permutations
+        24!   A Permutations
+        4^6   X Orientations
+which when multiplied together and divided by 96 yields about
+5.289*10^93.  [This differs from Plummer's result by a factor of
+4096 because (4^6/2) he didn't count X Orientations, and (2) he did
+not realize that LPP and CPP are independent.]  My implementation of
+Furst's algorithm claims that all of these are reachable.
+
+To count the number of reachable color patterns, divide this note
+that there are by (4!)^6/2 invisible D permutations, (4!)^6/2
+invisible A permutations, and 4^6/2 invisible X orientations that
+satisfy the invariants.  While there are pairs of L/R edges that
+look the same, they cannot be interchanged, for that would entail
+putting an L tab into an R position.  So there are 2.829*10^74
+different color patterns achievable.
+
+----------------------------------------------------------------
+

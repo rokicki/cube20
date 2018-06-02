@@ -1,0 +1,63 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep  1 10:26:49 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id KAA13649; Tue, 1 Sep 1998 10:26:49 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 01 Sep 1998 09:59:50 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Strong Local Maxima 9f and 10f from Start
+To: Cube Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <SIMEON.9809010950.C@GN209A.PSTCC.CC.TN.US>
+
+#1. D2 L2 B2 F2 U2 B2 F2 U2 R2 U2  (10f*)
+#2. D2 F2 L2 D' U  L2 F2 D' U'     (9f*)
+#3. U2 B2 L2 D  U' R2 B2 D' U'     (9f*)
+#4. B2 D' U' L2 B2 L2 D' U' B' F'  (10f*)
+#5. L2 U2 F2 L2 D2 F2 U2 R2 B' F'  (10f*)
+#6. D' U' B2 R2 D2 L2 D  U  B' F'  (10f*)
+#7. D  U  L2 D2 R2 F2 D' U' B' F'  (10f*)
+#8. B2 F2 D  U' B' F  L  R' D  U'  (10f*)
+
+This completes the list of strong local maxima 9f and 10f from
+Start in the face turn metric.  I posted #1, #2, and #3
+previously, but the rest are new.  9f is the shortest strong
+local maximum.
+
+I continue to think that all eight of these positions share a
+special kind of symmetry that is related to the fact that they
+are strong local maxima, but I can't quite get my arms around a
+good description for this symmetry.  Generally speaking, they
+look more symmetric if you look at corner cubies and edge cubies
+separately than if you look at them in combination.  Also, they
+look more symmetric if you look only at the colors of the
+facelets (looking at two dimensional 3x3 faces) rather than
+if you look at the location of entire cubies.
+
+They do all share the following in common.  Looking just at the
+colors of the facelets, all pairs of opposed 3x3 faces have the
+same pattern for all eight positions. Hence, there are (up to)
+three different face patterns for each position.  Also, if the
+cube is colored according the "opposite faces differ by yellow"
+convention, then the pairs of opposed face patterns for all
+eight positions are the "yellow complements" of each other.
+Finally, all the face patterns (and some of them are fairly
+complicated, having as many as four colors) are symmetric with
+respect a reflection across either a vertical or horizontal axis
+of the 3x3 square making up the face.
+
+Even though none of these strong local maxima are q-transitive
+in the classic Saxe-Hoey sense, the "face symmetry" they all
+share seems too unusual to me to be just a coincidence.
+
+I think #8 is an especially interesting position.  All six faces
+have the same face pattern, sort of a three colored checkerboard
+(if that is not a contradiction in terms).  The position is
+basically Pons Asinorum with the edge and corner cubies rotated
+as a unit along a major diagonal axis relative to the fixed face
+centers.
+
+----------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+

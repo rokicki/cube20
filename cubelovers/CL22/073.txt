@@ -1,0 +1,9 @@
+From:	SMTP%"joemcg3@snowcrest.net" 28-MAY-1997 22:02:17.57
+To:	SCHMIDTG
+CC:	
+Subj:	Solved in 20 moves?
+
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <338CA4A0.79A7@snowcrest.net>
+Date: Wed, 28 May 1997 14:33:20 -0700

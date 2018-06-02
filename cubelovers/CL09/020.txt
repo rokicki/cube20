@@ -1,0 +1,130 @@
+From wft@math.canterbury.ac.nz  Fri Jun 19 03:07:51 1992
+Return-Path: <wft@math.canterbury.ac.nz>
+Received: from CANTVA.CANTERBURY.AC.NZ by life.ai.mit.edu (4.1/AI-4.10) id AA19564; Fri, 19 Jun 92 03:07:51 EDT
+Received: from math.canterbury.ac.nz by csc.canterbury.ac.nz (PMDF #12052) id
+ <01GLEQZFO09S9X3ZMD@csc.canterbury.ac.nz>; Fri, 19 Jun 1992 19:07 +1200
+Received: by math.canterbury.ac.nz (4.1/SMI-4.1) id AA12708; Fri,
+ 19 Jun 92 19:07:30 NZS
+Date: Fri, 19 Jun 92 19:07:30 NZS
+From: wft@math.canterbury.ac.nz (Bill Taylor)
+Subject: reminiscences
+To: Cube-Lovers@life.ai.mit.edu
+Cc: wft@math.canterbury.ac.nz
+Message-Id: <9206190707.AA12708@math.canterbury.ac.nz>
+X-Envelope-To: Cube-Lovers@AI.AI.MIT.EDU
+
+Allan C. Wechsler asks for general reminiscences from people who solved
+the cube. It's just as well hardly anyone's replied, or the list would be
+swamped with boring anecdotes ! So maybe I'll add an anecdote or two of
+my own.
+
+Dik.Winter@cwi.nl writes 
+
+> > While I'm reminiscing, I should confess that my standard corner operator
+> > is still the same as it was then: (FUR)^5, which exchanges two corners,
+> > leaves the rest of the corners alone, and fucks the edges completely.
+>
+>Happens to me also.  I still use operators I found myself in favour of
+>(shorter) processes found later in books.  I remember them better!
+
+Very true. This reminds me of what I read in (I think) the math games
+column of Scientific American, about mid-to-late 80's. The cubing craze had
+largely passed, and someone who had been an addict, but hadn't touched it
+for some years, had occasion to try it again. He realized with horror, that he
+couldn't remember a single thing! However, as he began to fiddle with the 
+cube rather disconsolately, he found himself automatically doing the right
+things. "I couldn't remember how to do it, but my fingers could !!", he said.
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~
+This was my experience too, a few years ago. It's quite uncanny, like 
+starting to ride a bike again after decades of not doing; only more so.
+
+That's what comes of sticking loyally to your first halfway-decent discoveries
+on cube-solving. From madly over-addictive use, they become burned into
+your brain tissue.   My own pet method has always been to put all the edges
+right first, using only common sense (except maybe at the very end some
+slight method needed); then put the corners right using the basic
+"8-fold way"..... R~ U L U~ R U L~ U~ . We found this eightfold way quite
+easy to remember, the face order is very natural, and the sequence of
+clockwise vs anti-clockwise turns, i.e. ACCA CCAA, seems somehow like a 
+sonnet rhyming scheme (now burnt irrevocably into my finger-moving cortex).
+
+This eightfold way is just a commutator of a face move and (a commutator of
+two face moves)); so it turns out to be group-theoretically natural, as
+commutators do "as little as possible". The eight-fold way can also be 
+viewed in a natural geometric light, as just a standard 3-permutation of
+corners, similaritied away from one another to avoid interference. (Don't
+know what the standard technical terms for all this are, sorry; it's probably
+old hat to most readers here.) Viewing it this way, one can quickly re-create
+several (8-fold) variants, and some 10-fold ones, all of the same type, and
+all variously useful. By similarities, one can usually put a corner into a
+more useful spot, so as to get two corners done at a time, with one 8-fold.
+
+ENOUGH; of teaching grandmothers to suck eggs. I was going to reminisce. Not
+many people seem to do the cube this way, that is, edges first. It was shown
+to me by my late colleague Brent Wilson (the other of the "we" refered to 
+above). At first it seemed a little unnatural, but once you get used to it, 
+it seems super efficient. I suppose everyone feels that way about their own 
+methods. The particular 8-fold mentioned above was my own invention, so I've 
+always had a soft spot for it.
+
+    Brent and I both started out on the cube the same way, which is
+I suppose standard. We spent some little time learning to do the base. Then we
+spent some considerably longer time learning to do the middle layer. We found
+later that we had both expected the same thing:- that when the middle and
+base layers were all successfully done, the top layer would automatically
+have to be right !! So of course, we were both temporarily devastated when
+it turned out otherwise; and we both realized that we were in the presence 
+of a mighty puzzle, and were in for some great fun. So we went ahead and
+discovered all the usual group-theoretic things, one by one, over the months.
+
+I have anothger reminiscence to tell about my colleague. I once read of
+someone, (J.H.Conway ?), who was alleged to do the cube behind his back !
+Well Brent practiced this trick also (unaware of anyone else having
+done it, if indeed it was done the same way, even). He invented the method
+after having discovered the only all-commuting position, i.e. with all
+edges flipped, corners all correct. He perfected a smooth method of doing
+this behind his back. The trick is, of course, merely to have a pre-prepared
+cube in this position. It doesn't QUITE look random, but if you ADD to it
+a couple of random twists, it now looks totally random; at first (and second)
+glance. He would show this "random" cube to us, let us hold it (very briefly!),
+then take it and do the "all-flips" behind his back. Keeping up a continuous 
+patter, as he brought it back he would be saying "...so there's only a couple 
+of twists to go", and then as it appeared he would do the last two twists by
+sight, without hesitation. As the two "randomizing" twists commute with
+the other position, he didn't have to memorize them; indeed he could even
+let the audience do them ! Of course this would mean he would have to have
+the pure "flipped" pattern to start with, which was easier to detect, alas.
+
+Well, one time, he was to give a talk to some school kids. He wanted to do
+the cube behind his back, as a piece-de-resistance. He decided to train
+himself up into being able to undo FOUR random twists by sight. He duly did
+this. Then when the talk came around, he had a cube prepared in "all-flip"
+position, with two twists added, to make it look quite random. Then, when
+the highlight of the talk came around, he would display it to the class,
+let one or two handle it briefly, to agree it was just another muddled up
+cube. Then, HE WOULD EVEN ASK two members of the audience to add an extra
+random twist each (just to prove the cube wasn't in a prepared position!)
+Then he would do the all-flips operation behind his back, keeping up his
+patter. He expected to be able to handle undoing the four random flips left
+over, by sight, as he was completing his patter.
+
+When the great event came along, everything went perfectly, without a hitch.
+BUT, amazingly, by a 144-to-1 chance, the two flips that the audience added
+exactly undid the two that he had put on himself !  So when he brought it
+from behind his back, it was already perfectly done. Without batting an
+eyelid, he brought his patter to a halt then and there. Needless to say, the
+kids were even more staggered than they would have been otherwise. He
+resisted all imploring entreaties to tell them how it was done (like all
+good conjurers); and I don't thimk he ever did the trick again!
+
+By great good luck, however, I have a vieotape of him doing this trick, from
+the demo itself. So if any of you are ever in New Zealand, you can
+look me up, and ask to see this amazing event !
+
+Like Allan Wechsler, I would be delighted to hear anyone else's reminiscences,
+or cube anecdotes generally. There must be tons, so, don't be shy!
+
+Cheers,   Bill Taylor.
+
+
+

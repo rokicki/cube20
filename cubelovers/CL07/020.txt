@@ -1,0 +1,24 @@
+From hirsh@cs.rutgers.edu  Mon Nov 12 12:05:53 1990
+Return-Path: <hirsh@cs.rutgers.edu>
+Received: from pei.rutgers.edu by life.ai.mit.edu (4.1/AI-4.10) id AA04462; Mon, 12 Nov 90 12:05:53 EST
+Received: by pei.rutgers.edu (5.59/SMI4.0/RU1.2/3.05) 
+	id AA08879; Mon, 12 Nov 90 12:05:44 EST
+Sender: Haym Hirsh <hirsh@pei.rutgers.edu>
+Date: Mon, 12 Nov 90 12:05:42 EST
+From: Haym Hirsh <hirsh@cs.rutgers.edu>
+Reply-To: Haym Hirsh <hirsh@cs.rutgers.edu>
+To: Robert Clark <RGC915@uacsc2.albany.edu>
+Cc: cube-lovers@life.ai.mit.edu
+Subject: Re: Rubik's Cube Variants?
+In-Reply-To: Your message of Sun, 11 Nov 90 22:01:08 EST
+Message-Id: <CMM-RU.1.0.658429542.hirsh@pei.rutgers.edu>
+
+Peter Beck, pbeck@pica.army.mil, has many cube spinoffs for sale.
+That's where I got the last few I was missing.  Jerry Slocum in
+Calif also has some items for sale -- I got his address from old
+cube-lovers mailings (sent by Peter, I believe).  I seem to recall
+a few other sources outside the US, but Peter probably can provide
+them if there's something Slocum and Peter don't have.
+
+Haym
+

@@ -1,0 +1,24 @@
+From BECK@vax88a.pica.army.mil  Mon Nov 14 08:36:10 1994
+Return-Path: <BECK@vax88a.pica.army.mil>
+Received: from VAX88A.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AB08495; Mon, 14 Nov 94 08:36:10 EST
+Date: Mon, 14 Nov 1994 8:03:53 -0500 (EST)
+From: BECK@vax88a.pica.army.mil
+To: Cube-Lovers@ai.mit.edu
+Message-Id: <941114080353.20200253@LCSS.PICA.ARMY.MIL>
+Subject: SYMBOLIC PROGRAMS
+
+
+I have an article that discusses a Rubik's cube
+learning program written in GPS.  I do not have
+the program.
+
+ref:  A PROGRAM THAT LEARNS TO SOLVE RUBIK'S CUBE
+     RICHARD KORF
+    DEPT OF COMPUTER SCIENCE
+    CARNEGIE-MELLON
+    PITT, PA 15213
+
+DTIS :   ARPA ORDER  3597
+        AF AVIONICS LAB CONTRACT  F33615-81-K-1539
+
+

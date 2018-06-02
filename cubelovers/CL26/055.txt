@@ -1,0 +1,101 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Dec  4 14:26:23 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA05692
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 4 Dec 1998 14:26:23 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Method for Solving the 4x4x4
+Date: 4 Dec 1998 17:26:00 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7495v8$3nv@gap.cco.caltech.edu>
+References: <cube-lovers.7440f2$q5v@gap.cco.caltech.edu>
+
+I have been told that my solution for the 5x5x5 includes
+knowing how to solve the 4x4x4, which is of course not
+trivial.  With the post asking about the parity problem, I
+thought I might as well post my solution to the 4x4x4.
+
+Yes, the biggest barrier is the parity problem where two
+adjacent edge cubies are flipped.  My earliest attempt at a 4x4x4
+solution was the following:
+ 1.  Match all the centers.
+ 2.  Match all the edges.
+ 3.  You now have a 3x3x3.  Solve.
+Unfortunately, with the parity problem you can often
+end up with an unsolvable 3x3x3 by the time you get to step 3.
+Any simple moves that fix the parity problem tend to mess up the
+rest of the cube quite badly -- I wrestled with this problem
+a long time until I realized one thing:
+
+Most solutions of the 3x3x3 treat the centers as static, using them
+as "anchors" for the entire cube.  But this is entirely unnecessary!
+If you solve the 3x3x3 while IGNORING the centers, you will eventually
+get a solved cube where the centers are either in the "6 dots" or
+"4 dots" situation well known to cubists -- and these have rather
+simple solutions, essentially consisting of a slice turn conjugated
+with another slice turn.
+
+So, my most favorite 4x4x4 solution is now:
+ 1.  Match all the edges.
+ 2.  Solve the parity problem, if necessary (postpone until after
+      step 3 if desired).
+ 3.  Ignore the centers and treat the cube as a 3x3x3.  Solve.
+ 4.  Solve the centers.
+
+Okay.  Now to qualify the solution.  Part 1 is simple and can be
+ done anyway you wish (the move rF2r'F2 will be rather useful in
+ the later stages).  Part 3 is simple, with the caveat that you
+ may be treating the "centers" in the wrong manner!
+
+Part 2 stems from the fact that the cube apparently has an "even"
+permutation (a 2-cycle involving two edge pieces), an apparent
+paradox since 2-cycles should not exist (e.g., on the 3x3x3 it is
+impossible to swap exactly two edges).  The reason this is only
+an "apparent" paradox, however, is because of the misassumption that
+the centers of the 4x4x4 are static, which they certainly are not!
+In fact, just rotate one slice incident on your 2-cycle, and you
+have magically turned the 2-cycle into a 5-cycle, which is perfectly
+solvable!
+
+Personally, I solve the 5-cycle by two or more 3-cycles, which generally
+take on the form:
+  FR'F' r FRF' r'
+This move performs a cycle on the three edges fUR, FUr, and FDr,
+without disturbing the corners, but doing rather annoying things to
+the centers.  (This move is an extension of the perhaps-not-so-well-known
+sequence for the 3x3x3: FR'F'LR'DRD'L'R that rotates 3 edges.)
+  For FR'F' you may substitute any sequence of moves that brings
+your desired edge piece (in this case fUR) to the FUr position,
+as long as it does not disturb any other edges on the r slice (specifically,
+the edges FDr, BUr, and BDr).  You will also have to substitute
+the inverse of your sequence for FRF'.  As an example, the move
+  F'L2F r F'L2F r'
+cycles BdL, FUr, and FDr.  You may also use r2 instead of r and r', which
+means that BDr is affected instead of FDr.
+
+And finally, step 4: the centers.  This is solved by a
+generalization of the "6-dots" rule.
+This move creates "6 dots":
+  u'r'ur
+This permutes bUr, Fur, and buR, as well as their "opposites"
+fDl, Bdl, and fdL, while affecting no other cubies.  This is two 3-cycles
+on 6 faces, which is rather unwieldy, so I conjugate (is that the
+right word?) it with a simple face turn to get
+  u'r'ur F r'u'ru F'
+which permutes Fur, Fdr, and buR in a simple 3-cycle.  Both Fur and Fdr
+are on the same face, which makes this move rather easy to deal with.
+Especially, if one of those is the right color already, it can be
+involved in the 3-cycle without "increasing error."
+
+I think I may have extended my personal jargon a bit more into this
+post -- if you wish to understand anything in this post or, conversely,
+would like to teach me more "Standard" jargon, please e-mail me.
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+O*e T*o: "Thre* *our fi*e s*x; se*en *ight *ine, *en!"
+

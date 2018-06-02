@@ -1,0 +1,105 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Fri Feb 10 11:54:22 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08853; Fri, 10 Feb 95 11:54:22 EST
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <109773-2>; Fri, 10 Feb 1995 11:55:11 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA26149; Fri, 10 Feb 95 00:10:57 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1CF175; Fri, 10 Feb 95 00:03:07 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: The Pyraminx Lost
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1035.5834.0C1CF175@canrem.com>
+Date: Thu, 9 Feb 1995 23:55:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+        Subgroup Sizes of the Pyraminx Octahedron
+        ------------------------------------------
+
+8 * 9 = 72 facelets (triangles)
+
+The standard Pyraminx Octahedron has 8 faces, 6 vertices, and 12 edges.
+It's vertices rotate. One may imagine a "Master" Pyraminx Octahedron
+with edge AND face rotations as well.
+
+Christoph Bandelow has a version of the Pyraminx Octahedron (I call
+it "Octa" for short) which has no tips.
+
+Size of Groups without rotating vertex tips:
+
+Name            Subgroup                         # of Elements
+----            --------                         -------------
+
+OCT1            <U>                                          4
+OCT2            <U, D>                                      16
+OCT3            <U, D, F>                          116,121,600
+OCT4            <U, D, F, B>                   613,312,204,800
+OCT5            <U, D, F, B, L>            502,269,581,721,600
+OCT6            <U, D, F, B, L, R>       2,009,078,326,886,400
+
+Size of Groups with rotating vertex tips:
+
+Name            Subgroup                         # of Elements
+----            --------                         -------------
+
+OCT1            <U>                                         16
+OCT2            <U, D>                                     256
+OCT3            <U, D, F>                        7,431,782,400
+OCT4            <U, D, F, B>               157,007,924,428,800
+OCT5            <U, D, F, B, L>        514,324,051,682,918,400
+OCT6            <U, D, F, B, L, R>   8,229,184,826,926,694,400
+
+Approximately  8.2 * 10^18  ..so still less than the 3x3x3 cube
+
+ The number of elements increases by a factor of 4^N for
+each successive group if we include the trivial vertex rotations.
+
+        A Skewb Summary
+        ---------------
+
+ Without repeating Martin's results on the skewb, (which I concur
+with) here is a quick summary on Skewb facts:
+
+It is impossible for any face piece to turn in place 90 degrees.
+It is impossible to flip a single face piece 180 degrees.
+It is impossible to transpose 2 face pieces.
+
+The Skewb has no non-trivial centre.
+The SuperSkewb has non-trivial centre with all 6 face pieces
+ rotated 180 degrees.
+
+
+        The Mystery of the Five Pyraminxi
+        ---------------------------------
+
+  Or perhaps that should be Pyraminxes... but I can not resist
+comparing the Five Pyraminxes to the Five Wizards of J.R.R Tolkien,
+due to their mysterious nature.
+
+  We are probably all familar with the Popular Pyraminx created
+by Uwe Meffert. What really confounds me is that Dr. Ronald Turner-
+Smith kepts referring to the 5 pyraminxes in ad literature and
+his book "The Amazing Pyraminx". The Master Pyraminx I understand,
+it has all the basic properties of the standard popular pyraminx
+plus all 6 of it's edges can rotate 180 degrees (which flips one
+edge, transposes 2 tips, and swaps 2 pairs of interior edge pieces)
+giving a total number of permutations of 446,965,972,992,000.
+
+  Then there is the mysterious "Senior Pyraminx" (this is like
+Tolkien's Blue Wizards no one knows about). I can only speculate
+on the properties of the Senior Pyraminx having never read a
+description, and never seen the physical puzzle itself. The only
+fact on the Senior Pyraminx I am sure about is that it has less
+permutations than the Master Pyraminx. My theory is that the
+Senior Pyraminx has all the properties of the standard pyraminx
+plus it can rotate SOME of it's edges but not all 6 like the
+Master Pyraminx (perhaps one or two?).
+
+ Perhaps Mr. Singmaster, who has seen magic solid variants from
+all over the world, can shed some light on the matter!
+
+ -> Mark <-
+ Email: mark.longridge@canrem.com
+

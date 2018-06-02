@@ -1,0 +1,53 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Apr 25 21:20:14 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA10646; Sat, 25 Apr 1998 21:20:14 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sat Apr 25 20:50:39 1998
+Date: Sat, 25 Apr 98 20:50:27 EDT
+Message-Id: <25Apr1998.202137.Hoey@AIC.NRL.Navy.Mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: bosch@sgi.com
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <353E1961.6231@sgi.com> (message from Derek Bosch on Wed, 22 Apr
+	1998 09:22:57 -0700)
+Subject: Re: Hamiltonian circuits on the cube - kind of
+
+Derek Bosch <bosch@sgi.com> asks for a cross between a Rubik's tangle
+and a Rubik's cube.  Here's a Hamiltonian chiral isotangle.
+
+                                    .__._____._____.__.__._____._____.__.
+                                    |  \  :  /  :  \  |  \  :  |  :  \  |
+                                    +-. `-+-' .-+-. `-+-. `-+--+--+-. `-+
+                                    |..\..:../..:..\..|..\..:..|..:..\..|
+                                    |  |  :  /  :  /  |  /  :  /  :  |  |
+                                    +--+--+-' .-+-' .-+-' .-+-' .-+--+--+
+                                    |..|..:../..:../..|../..:../..:..|..|
+                                    |  \  :  |  :  \  |  \  :  /  :  \  |
+                                    +-. `-+--+--+-. `-+-. `-+-' .-+-. `-+
+                  .__._____._____.__|__\__:__|__:__\__|__\__:__/__:__\__|
+                  |  \  :  /  :  \  |  \  :  |  :  \  |
+                  +-. `-+-' .-+-. `-+-. `-+--+--+-. `-+
+                  |..\..:../..:..\..|..\..:..|..:..\..|
+                  |  |  :  /  :  /  |  /  :  /  :  |  |
+                  +--+--+-' .-+-' .-+-' .-+-' .-+--+--+
+                  |..|..:../..:../..|../..:../..:..|..|
+                  |  \  :  |  :  \  |  \  :  /  :  \  |
+                  +-. `-+--+--+-. `-+-. `-+-' .-+-. `-+
+.__._____._____.__|__\__:__|__:__\__|__\__:__/__:__\__|
+|  \  :  /  :  \  |  \  :  |  :  \  |
++-. `-+-' .-+-. `-+-. `-+--+--+-. `-+
+|..\..:../..:..\..|..\..:..|..:..\..|
+|  |  :  /  :  /  |  /  :  /  :  |  |
++--+--+-' .-+-' .-+-' .-+-' .-+--+--+
+|..|..:../..:../..|../..:../..:..|..|
+|  \  :  |  :  \  |  \  :  /  :  \  |
++-. `-+--+--+-. `-+-. `-+-' .-+-. `-+
+|__\__:__|__:__\__|__\__:__/__:__\__|
+
+There's only one path, so it's all one color.
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

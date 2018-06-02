@@ -1,0 +1,49 @@
+From anandrao@hk.super.net  Mon Dec 20 20:16:04 1993
+Return-Path: <anandrao@hk.super.net>
+Received: from hk.super.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA13155; Mon, 20 Dec 93 20:16:04 EST
+Received: by hk.super.net id AA23740
+  (5.65c/IDA-1.4.4 for cube-lovers@ai.mit.edu); Tue, 21 Dec 1993 09:15:43 +0800
+Date: Tue, 21 Dec 1993 09:13:38 +0800 (HKT)
+From: Mr Anand Rao <anandrao@hk.super.net>
+Subject: Re: your mail
+To: Jan de Ruiter <jandr@xirion.nl>
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <3876.9312200938@xirion.xirion.nl>
+Message-Id: <Pine.3.07.9312210936.A23473-b100000@hk.super.net>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+Your concept is theoretically extendable to the 10*10 tangle, but even
+with this optimisation the puzzle would take a long time to solve. How
+long do you take for the 5*5 Tangle on your computer?
+
+On Mon, 20 Dec 1993, Jan de Ruiter wrote:
+
+> To: cube-lovers@ai.mit.edu
+> Subject: Re: Search order of Tangle
+> 
+> I saw the discussion of Dale and Don about the search order
+> (fillpattern) for rubiks tangle come by, and wondered why they both
+> missed an even better search order (the best?):
+> 
+> Don:		 Dale:            Jan:              Equivalent to:
+>  1  3  5  7  9    1  2  6 10 15    1  2  5 10 17    17 16 15 14 13
+>  2  4  6  8 10    3  4  7 11 16    3  4  6 11 18    18  5  4  3 12
+> 11 12 13 14 15    5  8 12 17 20    7  8  9 12 19    19  6  1  2 11
+> 16 17 18 19 20    9 13 18 21 23   13 14 15 16 20    20  7  8  9 10
+> 21 22 23 24 25   14 19 22 24 25   21 22 23 24 25    21 22 23 24 25
+> 
+> The number of constraints is illustrative:
+> don:  0 1 1 2 1 2 1 2 1 2 1 2 2 2 2 1 2 2 2 2 1 2 2 2 2
+> dale: 0 1 1 2 1 1 2 2 1 1 2 2 2 1 1 2 2 2 2 2 2 2 2 2 2
+> jan:  0 1 1 2 1 2 1 2 2 1 2 2 1 2 2 2 1 2 2 2 1 2 2 2 2
+> 
+> I disliked the irregularity in both don and dales search orders, and
+> in search for a more regular order, I found this one, which is better.
+> It is readily extendible to the 10 by 10 tangle.
+> 
+> - Jan D. de Ruiter
+
+
+
+

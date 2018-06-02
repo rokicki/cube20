@@ -1,0 +1,138 @@
+Date: 16 February 1981 2327-EST (Monday)
+From: Jim Saxe, Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Four colors suffice
+CC: Mary Shaw at CMU-10A, Paul Hilfinger at CMU-10A, Bill Wulf at CMU-10A,
+    Dorothea Haken at CMU-10A
+Sender: Dan Hoey at CMU-10A
+Reply-To: Dan Hoey at CMU-10A
+Message-Id: <16Feb81 232721 DH51@CMU-10A>
+
+	Douglas Hofstadter, in the Metamagical Themas column in
+Scientific American this month, shows two alternate ways of
+coloring a cube.  Both suffer from two drawbacks:  They fail to
+distinguish all cube positions, and they use more than six colors.
+This seems inefficient to us, since there is a coloring of the cube
+which distinguishes all elements of the Supergroup and uses
+only four colors (and which, like Hofstadter's colorings and
+the standard coloring, satisfies the restriction that every
+whole-cube move is a color permutation, as discussed in point 2
+below).
+
+	Our coloring, called the Tartan, is formed by assigning the
+colors blue, green, red, and yellow to the four pairs of antipodal
+corners of the cube.  Thus for each face of the cube, the four
+corners of the face are assigned four different colors.  We use the
+term ``plaid'' to denote such an assignment of colors to the
+corners of a square.  To color the cube, divide each facelet of each
+cubie into four squares, and color the squares so all facelets on a
+side of the cube display the plaid associated with that face.  The
+result is shown below, with the initial assignment of colors to
+corners in lower case.
+
+			  (r)---------------(y)
+			   | R Y   R Y   R Y |
+			   | B G   B G   B G |
+			   |		     |
+			   | R Y   R Y   R Y |
+			   | B G   B G   B G |
+			   |		     |
+			   | R Y   R Y   R Y |
+			   | B G   B G   B G |
+	(r)---------------(b)---------------(g)---------------(y)
+	 | R B   R B   R B | B G   B G   B G | G Y   G Y   G Y |
+	 | G Y   G Y   G Y | Y R   Y R   Y R | R B   R B   R B |
+	 |		   |		     |		       |
+	 | R B   R B   R B | B G   B G   B G | G Y   G Y   G Y |
+	 | G Y   G Y   G Y | Y R   Y R   Y R | R B   R B   R B |
+	 |		   |		     |		       |
+	 | R B   R B   R B | B G   B G   B G | G Y   G Y   G Y |
+	 | G Y   G Y   G Y | Y R   Y R   Y R | R B   R B   R B |
+	(g)---------------(y)---------------(r)---------------(b)
+			   | Y R   Y R   Y R |
+			   | G B   G B   G B |
+			   |		     |
+			   | Y R   Y R   Y R |
+			   | G B   G B   G B |
+			   |		     |
+			   | Y R   Y R   Y R |
+			   | G B   G B   G B |
+			  (g)---------------(b)
+			   | G B   G B   G B |
+			   | R Y   R Y   R Y |
+			   |		     |
+			   | G B   G B   G B |
+			   | R Y   R Y   R Y |
+			   |		     |
+			   | G B   G B   G B |
+			   | R Y   R Y   R Y |
+			  (r)---------------(y)
+
+	To understand the importance of the Tartan, there are
+several points to consider:
+
+	1.  By reading off the four colors of a plaid in clockwise
+order, starting at an arbitrary point, we obtain four permutations
+of the four colors.  Quadruples read from different faces are
+disjoint, so all 24 permutations of the four colors appear on the
+Tartan, once each.
+
+	2.  Every motion in the group C of whole-cube rotations is a
+permutation of the pairs of antipodal corners, and so corresponds to
+a recoloring of the Tartan.  Some restriction of this sort is
+necessary to prevent us from simply drawing a different
+black-and-white picture on each facelet and calling that a
+two-coloring.
+
+	3.  Point 2 implies that C is isomorphic to a subgroup of
+S4, the group of permutations on the four colors.  But both C and S4
+have 24 elements, so C is isomorphic to S4 itself (a fact
+well-known to crystallographers).
+
+	4.  Since every color permutation is realizable by a
+whole-cube move, there is only one Tartan (up to whole-cube moves).
+This is why we use colors as labels, rather than some FLUBRDoid
+positional scheme.  [The actual choice of colors and the name
+``Tartan'' arise from the DoD Ironman project.]
+
+	5.  Every reflection of the Tartan is color-equivalent to a
+rotation.  In particular, the identity is color-equivalent to a
+reflection through the center of the cube.  If you were to lend your
+Tartan to someone who ran it through a looking-glass, you could not
+discover the fact except by removing the face-center caps and
+examining the screw threads!
+
+	We have constructed a Tartan from a Rubik's cube and
+colored tape.  Due to the similar appearance of the plaids, it takes
+us several times as long to solve the Tartan as it takes to solve
+Rubik's cube.
+
+	Our search for pretty patterns has not been particularly
+rewarding.  Part of the reason seems to be that the cube's
+appearance is strongly constrained by the Tartan's coloring.  On
+Rubik's cube one may make a particular face pattern (e.g.  orange T
+on white background) using any of several identically colored
+facelets.  On the Tartan, however, the plaid on any facelet of a
+cubie, together with the orientation of the plaid relative to the
+cubie, determines the plaid and orientation of the other facelet(s)
+of the cubie.
+
+	The one nice pattern we have is in fact the conceptual
+precursor to the Tartan.  It is Pons Asinorum (FFBBUUDDLLRR) applied
+to the position shown in the diagram above.  In this position, the
+plaids of adjacent facelets line up with each other to display the
+same arrangement of plaids, magnified by a factor of two.  Each face
+looks like the following, for some assignment of colors to the
+numbers 1 through 4:
+
+			(1)---------------(2)
+			 | 1 2   2 1   1 2 |
+			 | 4 3   3 4   4 3 |
+			 |		   |
+			 | 4 3   3 4   4 3 |
+			 | 1 2   2 1   1 2 |
+			 |		   |
+			 | 1 2   2 1   1 2 |
+			 | 4 3   3 4   4 3 |
+			(4)---------------(3)
+

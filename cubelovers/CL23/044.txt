@@ -1,0 +1,34 @@
+From cube-lovers-errors@oolong.camellia.org  Tue Jul  8 17:33:24 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA09883; Tue, 8 Jul 1997 17:33:24 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <199707082039.QAA04704@life.ai.mit.edu>
+Date: Tue, 8 Jul 1997 16:43:50 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: composition of superflip and pons asinorum
+
+the position which is the composition of superflip and pons asinorum is
+exactly 19 face turns from start.  some time ago, jerry bryan found that
+this position is exactly 20 quarter turns from start, and he gave all
+minimal maneuvers, up to symmetry.  one of these is 19 face turns long:
+
+     B' D' L' F' D' F' B U F' B R2 L U D' F L U R D   (19f, 20q)
+
+symmetry reductions for this position are much simpler (but not nearly
+as good) as for superflip and/or superfliptwist.  if the first face turn
+is a 90 degree turn, then by symmetry, we may suppose it is  U .  if the
+first face turn is a 180 degree turn, then we may suppose it is  U2 .
+i tested the two positions obtained by applying these possible initial
+turns.  my program took about 6 and a half hours to exhaustively search
+these through 17 face turns.  no solutions were found, and therefore the
+original position is more than 18 face turns from start.
+
+i realize that this is not nearly as satisfying as obtaining all minimal
+maneuvers.  that will take about 13 times as long, but is feasible with
+my current program.
+
+mike
+
+

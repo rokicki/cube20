@@ -1,0 +1,29 @@
+From coumes@issy.cnet.fr  Mon Nov 13 04:23:07 1995
+Return-Path: <coumes@issy.cnet.fr>
+Received: from xr3.atlas.fr by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17534; Mon, 13 Nov 95 04:23:07 EST
+X400-Received: by /PRMD=INTERNET/ADMD=ATLAS/C=FR/; Relayed;
+               Mon, 13 Nov 1995 09:13:08 +0100
+X400-Received: by mta xr3.atlas.fr in /PRMD=INTERNET/ADMD=ATLAS/C=FR/; Relayed;
+               Mon, 13 Nov 1995 09:13:08 +0100
+X400-Received: by /ADMD=ATLAS/C=FR/; Relayed; Mon, 13 Nov 1995 09:13:04 +0100
+X400-Received: by /PRMD=cnet/ADMD=atlas/C=FR/; Relayed;
+               Mon, 13 Nov 1995 09:13:10 +0100
+Date: Mon, 13 Nov 1995 09:13:10 +0100
+X400-Originator: coumes@issy.cnet.fr
+X400-Recipients: non-disclosure:;
+X400-Mts-Identifier: [/PRMD=cnet/ADMD=atlas/C=FR/;816250393@x400.issy.cnet.fr]
+X400-Content-Type: P2-1984 (2)
+Content-Identifier: unsubscribe
+Alternate-Recipient: Allowed
+From: Jean-Philippe COUMES CNET PAA/RGE/TSR <coumes@issy.cnet.fr>
+Message-Id: <9511130914.AA15168@peyoti.i...>
+To: cube-lovers@life.ai.mit.edu
+Subject:  unsubscribe
+X-Mailer: InterCon TCP/Connect II 2.2.1
+Mime-Version: 1.0
+Content-Type: Text/Plain; charset=US-ASCII
+Content-Disposition: Inline
+
+unsubscribe 
+
+

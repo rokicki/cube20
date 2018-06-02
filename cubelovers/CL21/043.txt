@@ -1,0 +1,55 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Nov  6 14:32:49 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA19590; Wed, 6 Nov 1996 14:32:49 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@cco.caltech.edu>
+Subject: Re: Rubik's Clock...
+Date: 6 Nov 1996 16:10:50 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 37
+Message-ID: <55qdaa$jig@gap.cco.caltech.edu>
+References: <cube-lovers.961105184355_222918906@emout11.mail.aol.com>
+NNTP-Posting-Host: accord.cco.caltech.edu
+X-Newsreader: NN version 6.5.0 #12 (NOV)
+
+AirWong@aol.com writes:
+
+>> Have any of you figured out how to solve Rubik's clock yet?
+
+>What exactly is the Rubik's clock? I've only heard of the Rubik's cube, dice,
+>pyramid, tangle, fifteen... how many puzzles have the Rubik's name on them,
+>anyway?
+
+Hum de hum...
+
+Cube (Several releases)
+Mini Cube
+Revenge
+4th Dimension (A cube with pictures)
+Race
+Game
+Snake (Many colors, three sizes)
+Magic (Link the Rings)
+Magic (Make the Cube)
+Magic (Unlink the Rings)
+Magic Game
+Magic Puzzle
+Clock
+Fifteen
+Rabbits
+Dice
+Triamid
+Tangle (4 versions)
+Maze
+
+(The Pyraminx, the Octagon, the 5x5x5, and the Missing Link have never
+ been labeled with Rubik's name, AFAIK...)
+
+-- 
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+-------------------------------------------------------------------------------
+Not technically an "evil alum".
+
+

@@ -1,0 +1,51 @@
+From cube-lovers-errors@curry.epilogue.com  Fri May 31 02:25:14 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id CAA06390 for <cube-lovers-outbound@curry.epilogue.com>; Fri, 31 May 1996 02:25:14 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <31AE492B.6FC7@erols.com>
+Date: Thu, 30 May 1996 21:19:39 -0400
+From: Charlie Dickman <charlied@erols.com>
+Reply-To: charlied@erols.com
+X-Mailer: Mozilla 2.01 (Macintosh; U; 68K)
+Mime-Version: 1.0
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Re: An Ultimate Cube
+References: <31ADF6C2.28E3@is.ge.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+On the subject of an ultimate cube...
+ 
+There can not possibly be an ultimate cube just like (because) there is
+no "ultimate", ie., largest, integer.  But if you can solve the
+(N+1)x(N+1)x(N+1) cube then you can surely solve the NxNxN cube. You
+would simply reduce the (N+1)x(N+1)x(N+1) permutation to one that is in
+the NxNxN group and continue from there like MBW did when looking for
+God's algorithm in the 3x3x3 group.
+ 
+The group of an NxNxN cube is a proper subgroup of an (N+1)x(N+1)x(N+1)
+cube. For example, the 2x2x2 cube group is the 3x3x3 group minus the
+edge moves and the center cubie orientation moves - that is, as
+Singmaster pointed out, it is just the corners of the 3x3x3 cube. Adding
+the 3rd cut added 2 additional types of cubies to the 2x2x2 cube, the
+edges and the centers, and along with them came the edge moves (to form
+the group of the 3x3x3 cube) and the center orientations (to form the
+3x3x3 super-group). The edge moves alone are a proper subgroup of the
+cube group and the cube group is a proper subgroup of the super-group.
+ 
+A similar situation occurs when you go from the 3x3x3 cube to the 4x4x4
+cube. If you constrain the cube so that the central 2 slices can not be
+moved independently of one another then the 2 central edge pieces act
+exactly like the edges of a 3x3x3 cube and the 4 face center pieces act
+exactly like the face centers of the 3x3x3 cube. When the central slices
+are allowed to move independently of one another permutations are added
+to the 3x3x3 group and super-group to make up the 4x4x4 group and
+super-group. Thus the 3x3x3 groups are proper subgroups of the 4x4x4
+groups.
+
+The pattern continues as the value of N increases with the N+1 group
+being larger than the N group and properly containing the N group. So
+the answer is no, there is no ultimate cube.
+
+

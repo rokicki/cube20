@@ -1,0 +1,28 @@
+From miz007@admin.connect.more.net  Thu Feb 23 23:50:22 1995
+Return-Path: <miz007@admin.connect.more.net>
+Received: from admin (admin.connect.more.net) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12046; Thu, 23 Feb 95 23:50:22 EST
+Received: from [204.185.50.27] by admin (5.0/SMI-SVR4)
+	id AA03921; Thu, 23 Feb 1995 22:46:32 -0600
+Message-Id: <9502240446.AA03921@admin>
+X-Sender: miz007@admin.connect.more.net
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Thu, 23 Feb 1995 22:50:44 -0700
+To: cube-lovers@life.ai.mit.edu
+From: miz007@admin.connect.more.net (Tyler Duncan)
+Subject: solving the cube?
+Content-Length: 339
+
+I just can't figure out how to solve the rubiks cube. Is there a simple way
+to solve it?  I know my cousin had a pattern to follow and it would work
+every time, but I haven't seen him in years and can't remember the pattern.
+
+Please reply if you know the answer.
+
+
+Tyler Duncan
+Miz007@admin.connect.more.net
+Miz007@mail.connect.more.net
+
+
+

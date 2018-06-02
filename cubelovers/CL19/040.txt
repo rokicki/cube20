@@ -1,0 +1,26 @@
+From bagleyd@hertz.njit.edu  Thu Mar 28 11:16:46 1996
+Return-Path: <bagleyd@hertz.njit.edu>
+Received: from hertz.njit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07483; Thu, 28 Mar 96 11:16:46 EST
+Received: (from bagleyd@localhost) by hertz.njit.edu (8.7.3/8.6.9) id LAA21296 for cube-lovers@life.ai.mit.edu; Thu, 28 Mar 1996 11:15:55 -0500
+Date: Thu, 28 Mar 1996 11:15:55 -0500
+From: bagleyd <bagleyd@hertz.njit.edu>
+Message-Id: <199603281615.LAA21296@hertz.njit.edu>
+To: cube-lovers@life.ai.mit.edu
+Subject: simple windows3.1 puzzles
+
+Hi
+  I finally got around to making a web page
+ 
+http://hertz.njit.edu/~bagleyd/
+ 
+In it you will find Simple Windows3.1 puzzles.  The more complicated
+ones are still in development.  The best of the bunch is wmlink, which
+is a Missing Link puzzle.
+ 
+Cheers,
+  /X\   David A. Bagley
+ // \\  bagleyd@hertz.njit.edu   http://hertz.njit.edu/~bagleyd/
+((   X  xlockmore, new stuff for xlock @ ftp.x.org//contrib/applications
+ \\ //  altris, tetris games for x @ ftp.x.org//contrib/games/altris
+  \X/   puzzles, magic cubes for x @ ftp.x.org//contrib/games/puzzles
+

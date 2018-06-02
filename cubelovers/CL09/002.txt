@@ -1,0 +1,9 @@
+From this we may conclude that the maximum path length in stage 2 of
+the algorithm of Kociemba is at least 18 moves.
+
+Taking the results of Dik Winter for stage 1 into account, the lower-bound
+for the mximum of Kociemba's algorithm becomes 30 moves.
+
+Hans Kloosterman
+
+

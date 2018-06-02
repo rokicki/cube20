@@ -1,0 +1,13 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep  2 14:50:26 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA15245
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 2 Sep 1999 14:50:25 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: "Chris and Kori Pelley" <ck1@home.com>
+To: "Cube-Lovers" <Cube-Lovers@ai.mit.edu>
+Subject: FW: Meffert's Assembly Cube
+Date: Thu, 26 Aug 1999 20:36:13 -0400
+Message-Id: <NDBBLHBJOLNCAMMDPAPAIEDFCBAA.ck1@home.com>
+

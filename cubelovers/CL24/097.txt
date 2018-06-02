@@ -1,0 +1,91 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Nov 20 13:47:50 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA19685; Thu, 20 Nov 1997 13:47:48 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Nov 19 08:55:52 1997
+Message-Id: <v03010d00b09896ddf366@[204.71.18.82]>
+In-Reply-To: <19971118.204255.7126.1.tenie1@juno.com>
+Date: Wed, 19 Nov 1997 08:56:30 -0500
+To: Tenie Remmel <tenie1@juno.com>, Cube-Lovers@ai.mit.edu
+From: Nichael Lynn Cramer <nichael@sover.net>
+Subject: Re: Rubiks Revenge moves
+
+Tenie Remmel wrote:
+>Is there an easy way to cycle three adjacent top edges on the
+>Rubiks Revenge?  I can't find one shorter than 62 moves, but if
+>there was a short one I could simplify my solution greatly.
+>
+>. b c .    . a b .
+>a . . . => c . . .
+>. . . .    . . . .
+>. . . .    . . . .
+>
+>Hopefully it won't mess up the corners, but it's ok if it does.
+
+The way I approach this is to begin with the following simple 3-cycle for
+edge cubies (note that this cycles only the cubies and leave the rest of
+the cube unaltered):
+
+1] Imagine the involved cubies in the following configuration:
+
+Top face :  . . c .      Left face: . . . .
+            . . . .                 a . . .
+            . . . .                 . . . .
+            . b . .                 . . . .
+
+2] Perform the following sequence:
+
+ - Rotate Front Face by 1/4 turn clockwise.
+ - Rotate the slice just below the Top Layer by 180 dgs.
+ - Rotate the Front Face by 1/4 turn counter-clockwise.
+ - Rotate the Top Face by 180 dg.
+ - Rotate Front Face by 1/4 turn clockwise.
+ - Rotate the slice just below the Top Layer by 180 dgs.
+ - Rotate the Front Face by 1/4 turn counter-clockwise.
+ - Rotate the Top Face by 180 dg.
+
+This will result in:
+
+Top face :  . . b .      Left face: . . . .
+            . . . .                 c . . .
+            . . . .                 . . . .
+            . a . .                 . . . .
+
+with all other cubies in their original locations.
+
+3] Once this step is mastered, it is now only a question of moving the
+cubies that you want to swap into the approriate location for this operator
+to do its work.
+
+For example, in your example above this can be accomplished by (this
+assumes that the figure you have drawn above is your Top Face):
+
+ - Rotating the Left-most two slices 1/4 turn clockwise (i.e. towards you)
+ - Rotating the Top Face 1/4 turn counter-clockwise.
+
+If you now rotate the entire cube by 90dgs clockwise, you will see your
+three cubies are now in the proper location to use the above operator.
+(When you're done with the operator, repeat the steps just above in the
+reverse order to finish.)
+
+>I'd also like to see some short moves for the following 3-cycles:
+>
+>. * * .    . . * .    . . . .    . . * .
+>. . . .    * . . *    * . . *    . . . *
+>* . . .    . . . .    . . . *    * . . .
+>. . . .    . . . .    . . . .    . . . .
+
+These are just variations on the above.  They will be left an exercise for
+the reader.  ;-)
+
+Hope this helps.
+Nichael
+
+
+
+Nichael
+nichael@sover.net               deep autumn   my neighbor what does she do
+http://www.sover.net/~nichael/                                 --Basho
+

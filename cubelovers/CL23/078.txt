@@ -1,0 +1,44 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Jul 29 14:33:28 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA11052; Tue, 29 Jul 1997 14:33:27 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From chrono@ibm.net Tue Jul 29 13:43:28 1997
+Message-Id: <33DE2A54.62F2@ibm.net>
+Date: Tue, 29 Jul 1997 10:37:24 -0700
+From: "Jin \"Time Traveler\" Kim" <chrono@ibm.net>
+Reply-To: chrono@ibm.net
+Organization: The Fourth Dimension
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: 2^3 Reassembly
+References: <Pine.SUN.3.95.970729023932.13860A-100000@sunspot.tiac.net>
+
+Nicholas Bodley wrote:
+
+>  The cubies are kept together by 12 "clips". These fit into the cutout
+> arcs; when you assemble the Cube, you put two cubies next to each other
+> (they touch) and fit this "clip" so that it keep s them together. To
+> install it, you move the clip away from the imaginary geometrical center
+> of the whole puzzle.
+> 
+>  As I recall them, the "clips" are essentially quadrants (1/4 circles).
+> They consist of two parallel planes with a gap between them; the sides of
+> the cubies fit into this gap. The parallel planes are joined at the inner
+> edges.
+
+Part of the problem is that the clips weren't all identically shaped. 
+If all of the clips were shaped the same, then reassembly wouldn't be a
+problem.  But because they ARE shape differently, there is a question of
+whether the position of one is important relative to the position of the
+others.
+
+-- 
+Jin "Time Traveler" Kim
+chrono@ibm.net
+VGL Costa Mesa
+http://www.geocities.com/timessquare/alley/9895
+http://www.slamsite.com
+
+
+

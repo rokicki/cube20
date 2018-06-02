@@ -1,0 +1,79 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Tue Aug  9 15:17:23 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca ([142.77.1.1]) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02832; Tue, 9 Aug 94 15:17:23 EDT
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <86930-4>; Tue, 9 Aug 1994 15:17:13 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA15464; Tue, 9 Aug 94 15:14:38 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1A9A39; Tue,  9 Aug 94 13:57:35 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: < U, R> Group
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.783.5834.0C1A9A39@canrem.com>
+Date: Tue, 9 Aug 1994 01:48:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+Well I decided to pull a "Jerry Byran" and take another look at
+ some cube results, plus take a look at some new groups.
+
+
+        Analysis of the 3x3x3 squares group
+        -----------------------------------
+
+                  (h only)      branching
+Moves Deep       arrangements    factor      loc max (h only)
+
+  0                    1           --             0
+  1                    6           6              0
+  2                   27           4.5            0
+  3                  120           4.444          0
+  4                  519           4.325          0
+  5                1,932           3.722          0
+  6                6,484           3.356          1  (6 X pattern)
+  7               20,310           3.132          0
+  8               55,034           2.709         65
+  9              113,892           2.069      1,482
+ 10              178,495           1.567      7,379
+ 11              179,196           1.004     25,980
+ 12               89,728           0.501     50,320
+ 13               16,176           0.180     11,328
+ 14                1,488           0.092        912
+ 15                  144           0.096        144
+                 -------                     ------
+                 663,552                     97,611
+
+        Analysis of the 3x3x3 <U, R> group
+        ----------------------------------
+
+                                          branching
+Moves Deep       arrangements (q only)     factor
+
+  0                    1                      --
+  1                    4                       4
+  2                   10                       2.5
+  3                   24                       2.4
+  4                   58                       2.416
+  5                  140                       2.413
+  6                  338                       2.414
+  7                  816                       2.414
+  8                1,970                       2.414
+ program starts to really bog down after this...
+
+  I leave it to Jerry or Dan to check my results. I checked up to 2
+moves deep by hand and verified 10 different positions. What I don't
+understand is how Jerry manages to look at so many cube positions:
+
+On full 3x3x3 cube,   7     100,803,036     13.231  (new)
+
+  Using 10 bytes to store a single cube position would still
+need over 1 billion bytes, or am I missing something?
+
+  I also used GAP (quite a good program) to calculate the size of
+  < U1, R1 > on the magic dodecahedron: 7,999,675,084,800.
+
+  Once again, I welcome any verification.
+
+  -> Mark <-
+

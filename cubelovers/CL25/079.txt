@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jun  5 21:42:40 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA23518; Fri, 5 Jun 1998 21:42:40 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Jun  5 20:53:28 1998
+Date: Fri, 5 Jun 1998 20:36:06 -0400
+Message-Id: <0020A7D5.001706@scudder.com>
+From: jdavenport@scudder.com (Jacob Davenport)
+Subject: Re: New member
+To: Cube Mailing List <Cube-Lovers@ai.mit.edu>
+
+>Does anybody have some nice patterns on the 4^3 or 5^3 cube ?
+
+I made a chess board out of four 5^3 cubes, which you can check out along
+with our other cube sculptures on www.wunderland.com/WTS/Jake/CubeArt.  If
+anyone has any good pattern ideas for four 5^3 cubes, I'd like to hear
+them, particularly before I peel off the stickers on one of them and give
+it a color pattern similar to Colorspace created by Andy Plotkin (which you
+can see at www.wunderland.com/WTS/Kristin/CustomCubes.html).
+
+-Jacob
+

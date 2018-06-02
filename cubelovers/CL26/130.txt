@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar  9 13:06:35 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA29238
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 9 Mar 1999 13:06:35 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <36D5AE30.23D2@zeta.org.au>
+Date: Fri, 26 Feb 1999 07:10:24 +1100
+From: Wayne Johnson <sausage@zeta.org.au>
+Reply-To: sausage@zeta.org.au
+To: Kevin Young <keyoung3@vt.edu>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Oddzon version of the cube
+References: <199902192002.OAA04117@solaria.sol.net> <4.1.19990224195654.0092e1c0@mail.vt.edu>
+
+Kevin Young wrote:
+
+> I am curious if anyone has had the same problems with the current official
+> Rubik's cube that is in production...
+
+However, it must be said that they are not suddenly aware of this. This
+has been a problem for some time. Frankly, I have a Rubik's original
+from 5 years ago with the same propblem. Oddzon don't seem to built the
+items or make them in colours that Rubik himself even approves of (take
+the new colours of the magic for instance - terrible).
+
+I am currently on the lookout for an asian fake cube because they have
+always been (dare I say it) better quality in the sticker dept. My Fake
+is 15 years old with all stickers nicely attached.
+
+Come on Oddzon... a cube that wears out in a month?.... I think this is
+very clever and deliberate marketing.
+
+Regards,
+Wayne
+

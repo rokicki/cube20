@@ -1,0 +1,39 @@
+Received: from csnet-relay by MIT-MC.ARPA;  3 APR 85 17:23:55 EST
+Received: from ti-csl by csnet-relay.csnet id aa14999; 3 Apr 85 17:00 EST
+Date:  3 Apr 1985 1028-CST
+From: Dan <NICHOLS%ti-csl.csnet@csnet-relay.arpa>
+Subject: articles help
+To: cube-lovers@mit-mc.ARPA
+Received: from csl60 by ti-csl; Wed, 3 Apr 85 13:41 CST
+
+
+I would very much like to obtain a copy of the following
+articles. If anyone can send me a copy or give me more
+information about where and how to obtain them, I will
+really appreciate it. Thanks.
+
+Eidswick, Jack - How to solve the nxnxn cube.
+    Mathematics and Statistics Dept - Univ of Nebraska 1982
+
+Kamack, HJ & T R Keane - The Rubik Tesseract -
+    Unpublished manuscript 1982
+
+Kim, Scott E - The Impossible Skew Quadrilateral: A Four-Dimensional
+   Optical Illusion - Proceedings of 1978 AAAS Symposium on Hypergraphics:
+   Visualizing Complex Relationships in Arts & Sciences
+
+Marx, George, Eva Gajzago, & Peter Gnadig - The Universe of Rubik's Cube
+   European Journal of Physics 3 (1982) pp 34-43
+
+ Daniel Nichols
+ 1721 E. Frankford Rd
+ Apt. 1514
+ Carrollton, TX 75007
+
+ ARPA: dnichols%ti-csl@csnet-relay
+ CSNET: dnichols@ti-csl
+ UUCP: {ut-sally,smu,texsun,rice}!waltz!dnichols
+ VOICE: 214-492-3275
+-------
+
+

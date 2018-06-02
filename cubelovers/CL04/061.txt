@@ -1,0 +1,9 @@
+Date:  7 Aug 1982 1446-PDT
+From: ISAACS at SRI-KL
+Subject: 4^3 Supergroup
+To: CUBE-LOVERS at MIT-MC
+
+  Of course there is a supergroup on the 4^3.  Just number the 4 centers
+to see it.  I think you can exchange any 2 pairs of centers.
+  -- Stan
+-------

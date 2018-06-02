@@ -1,0 +1,35 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar 29 12:46:44 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA20106
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 29 Mar 1999 12:46:44 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Instructions needed
+Date: 26 Mar 1999 23:51:28 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7dh6i0$ekh@gap.cco.caltech.edu>
+References: <cube-lovers.01be76e9$7e7e0c40$03c3d4d1@dallasfo.SOMEWHERE>
+
+"Dallas Foster" <fostindi@ecicnet.org> writes:
+>I have a Rubik's Magic Strategy Game that consists of the playing board,
+>16 playpieces and instructions.  Unfortunately we have lost the
+>instructions and our son, who's game it is no longer lives at home and
+>can't remember how it was played.
+
+>Would you have or know where I might obtain a copy of these
+>instructions. The game is of no use to us with out them.  The game was
+>distributed by Matchbox toys in 1987.
+
+The simplest thing you can do is to go to your local store and buy a 
+copy of "Rubik's Eclipse".  The rules are identical.
+
+I may have a copy of the original game lying around if this is unsucessful.
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+This new video game can challenge feet (8,7)
+

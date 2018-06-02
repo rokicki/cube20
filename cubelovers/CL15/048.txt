@@ -1,0 +1,43 @@
+From BRYAN@wvnvm.wvnet.edu  Tue Feb 21 03:33:17 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02275; Tue, 21 Feb 95 03:33:17 EST
+Message-Id: <9502210833.AA02275@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 9130; Mon, 20 Feb 95 20:11:51 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 3003; Mon, 20 Feb 1995 20:11:51 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Mon, 20 Feb 1995 20:11:50 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Pons Asinorum Superflipped Halfway Positions
+
+ 1. L' R  D' R  L' F  R' B' U' F'
+ 2. L' R  D' R  L' F  U' F' R' B'
+ 3. U' D  L' D  U' F  D' B' R' B'
+ 4. F' B  U  F' B  D' F' L' D' B'
+ 5. U' D  F  U' D  R' B  R  U  R
+ 6. U' D  L' D  U' F  R  B  D  B
+ 7. F' B  L  F' B  D' F' D' R' D'
+ 8. F' B  L  F' B  D' R' U' F' D'
+ 9. U' D  B' U' D  L  D  L  F  R
+10. B  B  F  U' D  R  F  D  B  U
+
+This presentation of the data is a little dissatisfying.  These ten
+processes yield representative element *positions*.  With a certain
+amount of analysis, you could take M-conjugates of the *processes*,
+plus maybe a little astute rearranging of commuting moves, and
+make the processes look a little more similar, I think.  I actually
+did so for the five Pons Asinorum halfway positions, but those
+were easy to futz around with compared to the ones above.
+
+Notice, for example, that the first three moves of each of the
+first nine processes are M-conjugates.  That is about as far
+as I can go in my head.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

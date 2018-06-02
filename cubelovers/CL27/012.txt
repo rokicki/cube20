@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 30 15:11:03 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA24788
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 30 Mar 1999 15:11:03 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 30 Mar 1999 12:53:02 +0100
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: WaVeReBeL@webtv.net
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009D5E34.B59FB7EA.32@ice.sbu.ac.uk>
+Subject: RE: Wrist pains
+
+	Beryl Fletcher, who organized my first cube at the International
+Congress of Mathematicians in Helsinki in 1978, also developed Cubist's Thumb.
+The early cubes were stiff and one held them with a corner pressing on the
+tendon of the left thumbb, in the fleshy part of the thumb.  With olde people,
+the tendon sheath, or rather the inner lubricant, has become a bit aged and the
+constant pressure leads to a chronic inflammation.  This is readily treated by
+a small operation which cuts open the tendon sheath.  Both Dame Kathleen
+Ollerneshaw and Beryl Fletcher had this.
+	When I was working on my Notes, I did a lot of checking of move
+sequences and typing and got definite pains in the wrist.  Since then, word
+processing has also occasionally produced RSI problems.  Fortunately, rest lets
+it go away, but I have had physiotherapy several times.  There were several
+periods when I had to stop typing for several weeks!  The most unusual
+diagnosis was stiff neck due to tension while typing.  Physiotherapy helped
+that.  All the warnings/instructions about RSI are worth heeding.  Take breaks.
+Stretch regularly.  Make sure your work station is comfortable.  Etc.  RSI is
+real and I've known several people semi-permanently disabled by it.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

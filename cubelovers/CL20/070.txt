@@ -1,0 +1,30 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Jun 22 21:43:53 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id VAA09148 for <cube-lovers-outbound@curry.epilogue.com>; Sat, 22 Jun 1996 21:43:52 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sun, 23 Jun 1996 03:41:53 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9606230141.AA09515=dik@hera.cwi.nl>
+To: Cube-Lovers@ai.mit.edu, pfoster@pcug.org.au
+Subject: Re: Thistlethwaites algorithm (and others)
+
+I think there was in this mail a serious problem of confusion between a
+solution by algorithm and a solution by hand.  While Thistlethwaite's
+algorithm was (at that time) very fast, nobody would consider to use
+the solution by hand.  The current faster algorithms are not even doable
+by hand (unless your backtracking is impeccable).
+
+ > There was a recent posting, from Jiri Fridrich, which outlined his speed
+ > solution, as follows:
+
+On the other hand Jiri Fridrich's solution is not a solution for computers.
+It is only measured in time, not in number of moves.  And time is something
+extremely machine-dependant.
+
+ > Is there any chance of Jiri Fridrich posting these algorithms (or perhaps
+ > making them available via FTP)?
+
+But the algorithm was posted.  You posted it yourself!
+
+

@@ -1,0 +1,25 @@
+From ACW@riverside.scrc.symbolics.com  Tue Jun 16 16:12:32 1992
+Return-Path: <ACW@riverside.scrc.symbolics.com>
+Received: from RIVERSIDE.SCRC.Symbolics.COM by life.ai.mit.edu (4.1/AI-4.10) id AA28765; Tue, 16 Jun 92 16:12:32 EDT
+Received: from PALLANDO.SCRC.Symbolics.COM by RIVERSIDE.SCRC.Symbolics.COM via INTERNET with SMTP id 838315; 16 Jun 1992 16:14:52-0400
+Date: Tue, 16 Jun 1992 16:13-0400
+From: Allan C. Wechsler <ACW@riverside.scrc.symbolics.com>
+Subject: Re:  Name query.  Actually reminiscences.
+To: Dik.Winter@cwi.nl, cube-lovers@life.ai.mit.edu
+In-Reply-To: <9206112246.AA22860.dik@boring.cwi.nl>
+Message-Id: <19920616201302.7.ACW@PALLANDO.SCRC.Symbolics.COM>
+
+    Date: Thu, 11 Jun 1992 18:46 EDT
+    From: Dik.Winter@cwi.nl
+
+    Much stranger was my first encounter with Square 1.  As all puzzles it was
+    scrambled within minutes after I brought it home.  I tried to solve it, but
+    for some reason I did not yet see how to bring it back in the shape of a cube.
+    The next day when I came home from work it was in the shape of a cube.  It
+    appears that my 8 year old daughter had done that!  Solving the remainder was
+    fairly simple.
+
+Our four-year-old managed to assemble our Snafooz into a cube once.  No
+one else has been able to do it, and he can't duplicate his success.
+(He can't even read.)
+

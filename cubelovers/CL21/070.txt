@@ -1,0 +1,48 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Dec  3 19:22:45 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA13796; Tue, 3 Dec 1996 19:22:45 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <9612040008.AA29913@jrdmax.jrd.dec.com>
+Date: Wed, 4 Dec 96 09:08:55 +0900
+From: Norman Diamond 04-Dec-1996 0859 <diamond@jrdv04.enet.dec-j.co.jp>
+To: Cube-Lovers@AI.MIT.EDU
+Subject: Re:  Rubik's Revenge
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+Also spracht der Mouse:
+
+>And yes, if you can solve the 3-Cube
+>and the 4-Cube, no higher order presents any qualitatively new
+>challenges to a human.
+
+Depends on what you mean by a "challenge."  Average puzzlers who found
+relatively ordinary algorithms for the 3-cube and 4-cube will discover
+that they must find one new algorithm for the 5-cube, but it will be easy.
+
+>In theory, the 6-Cube would, because it's the
+>first one that has one-visible-face cubies that are not on a plane of
+>symmetry.
+
+Even after reading your explanation, I don't quite believe it, but would
+love to own one and find out for sure :-)
+
+Consider that the 4-cube (and 5-cube) can be made harder by forcing the
+centre (or inner ring) cubies of each face to be oriented.  If this is
+done to a 6-cube then of course the 6-cube becomes harder too.  Otherwise
+I think my 4-cube algorithms would solve a 6-cube.
+
+>Incidentally, does anyone know if a physical 6-Cube has ever been made?
+
+Someone told Nob Yoshigahara that his country had solved the problem of
+manufacturing the thing.  Then Nob was playing with the guy's business
+card and lost it, and has never been able to find the guy again.  Although
+Nob is known for a sense of humour at times, he sure wasn't joking when he
+admitted this.  The only questions are whether the unknown person was
+telling the truth, and who and where he is.
+
+-- Norman Diamond              diamond@jrdv04.enet.dec-j.co.jp
+[Speaking for Norman Diamond not for Digital.]
+
+

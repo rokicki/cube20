@@ -1,0 +1,42 @@
+From cube-lovers-errors@oolong.camellia.org  Thu May 29 16:30:21 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id QAA19799; Thu, 29 May 1997 16:30:21 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+Subject: Re: rumor control
+Date: 29 May 1997 19:55:39 GMT
+Organization: California Institute of Technology, Pasadena
+Message-ID: <5mkmvr$b2v@gap.cco.caltech.edu>
+References: <cube-lovers.199705282218.PAA17014@denali.cs.ucla.edu>
+NNTP-Posting-Host: pyro.ugcs.caltech.edu
+X-Newsreader: NN version 6.5.0 #3 (NOV)
+
+Richard E Korf <korf@cs.ucla.edu> writes:
+>Dear Cube-Lovers,
+>   Apparently some work I did recently has gotten badly mangled by the press.
+
+My symphathies.  I remember a news article a few years ago when the
+largest Mersenne prime was discovered; it went something like:
+
+"Mathematicians have discovered a number that has 224,375 digits and
+is divisible by 1."
+
+>   A paper on this work will be presented at the National Conference on
+>Artificial Intelligence (AAAI-97) in Providence, RI in July. I'd be happy to
+>send a postscript copy of the paper to anyone who is interested, unless there
+>are a lot of requests, in which case I'll just post it on my web site and put a
+>pointer here.  In addition, if there is enough interest, I could write a short
+>summary of the paper for this list. Thanks for your attention.
+
+Please do so.  I am sure many people on this list would be interested in
+seeing it.
+
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+-------------------------------------------------------------------------------
+Question everything.  Learn something.  Answer nothing.  -- Engineer's Motto
+
+

@@ -1,0 +1,31 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 11 23:48:09 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id XAA16027
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 11 Mar 1999 23:48:08 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 10 Mar 1999 22:04:21 +0000
+From: David Singmaster Computing <david.singmaster@sbu.ac.uk>
+To: Norman.Diamond@dec-j.co.jp
+Cc: CUBE-LOVERS@ai.mit.edu
+Message-Id: <009D4ECA.6A22DEF3.10@ice.sbu.ac.uk>
+Subject: RE: Fwd: Request for spectacular cube-solving  -  Can anyone  help ?
+
+	Yes there were ordinary cubes made with markings fo the blind.  Rainier
+Seitz, product manager fro Arxon, the German distributor, made the first
+examples by heating a needle and making dice-like marking of one to six spots.
+Several versions were made commercially or by specialist firms.  I have
+examples with zero to five spots in this style, alos with brass studs of five
+sizes and then Ideal (perhaps only Arxon) produced a version with moulded
+plastic facelets having symbols on them: +, -, hollow circle, square, triangle
+and solid circle.  Meffert made pyramids with four different textures of
+surface  I asked a blind friend if they were easyily distinguished and he said
+yes.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

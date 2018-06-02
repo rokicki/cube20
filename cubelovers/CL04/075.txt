@@ -1,0 +1,37 @@
+Date: 20 August 1982 0242-EDT
+From: James.Saxe at CMU-10A (C410JS30)
+To: Cube-Lovers at MIT-MC
+Subject:  Rubik's Revenge problem--deep & shallow hypermoves
+Message-Id: <20Aug82 024233 JS30@CMU-10A>
+
+Consider all manipulations of Rubik's revenge as consisting of two
+sorts of moves, namely (1) shallow moves, which turn an outer layer
+with respect to the remaining three layers, and (2) deep moves, which
+turn an outer layer and the adjacent inner layer with respect to the
+remaining two layers.  [For the purposes of this problem, we will
+regard a manipulation that turns only an inner layer--resulting, for
+example, in faces that look like
+				XXXX
+				OOOO
+				XXXX
+				XXXX
+when applied to a solved cube--as consisting of two moves, one deep and
+one shallow, in opposing directions.]  If only shallow moves are
+permitted, the 4x4x4 simulates a 3x3x3.  If only deep moves are
+permitted, the 4x4x4 simulates a 2x2x2.  Define a shallow (deep)
+hypermove as an arbitrary sequence of shallow (resp. deep) moves.
+My question is:
+
+	What is the maximum number of hypermoves required
+	to solve the 4x4x4?
+
+Notice that the answer to this question may depend on whether or not
+one considers identically-colored face centers to be distinct (as
+Hoey points out, the puzzle is not a group if identically-colored
+face centers are not distinguished) and on whether or not one worries
+about the positions of the eight hypothetical stomach cubies.  Also,
+if the minimal number of hypermoves is odd, then it might be
+important to start with one class of move.  That is, it is plausible
+that sequences of the form SDSDS may be sufficient while sequences of
+the form DSDSD may not.
+				Jim Saxe

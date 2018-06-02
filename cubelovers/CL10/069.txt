@@ -1,0 +1,45 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Sun Dec  5 17:57:22 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04554; Sun, 5 Dec 93 17:57:22 EST
+Message-Id: <9312052257.AA04554@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 6913; Sun, 05 Dec 93 17:57:23 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 3049; Sun, 5 Dec 1993 17:57:22 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 8963; Sun, 5 Dec 1993 17:54:49 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Sun, 5 Dec 1993 17:54:48 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Equivalence Classes for God's Algorithm for Edges of 3x3x3
+
+        Number of      Size of        Total
+       Equivalence    Equivalence     States
+           Classes      Class
+
+                 4       24                96
+                 2       48                96
+                12       72               864
+                16       96             1,536
+               110      144            15,840
+                70      192            13,440
+             1,544      288           444,672
+             1,252      384           480,768
+           128,858      576        74,222,208
+       851,493,140     1152   980,920,097,280
+
+       851,625,008            980,995,276,800
+
+Note that 980,995,276,800=12!(2^12)/2, so the proper total was
+obtained.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

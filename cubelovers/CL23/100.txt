@@ -1,0 +1,49 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug  6 19:25:21 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id TAA04684; Wed, 6 Aug 1997 19:25:21 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Hoey@AIC.NRL.Navy.Mil Wed Aug  6 19:23:53 1997
+Date: Wed, 6 Aug 1997 19:10:30 -0400
+Message-Id: <199708062310.TAA17135@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: Cube-lovers@ai.mit.edu
+Subject: Reassembled patterns (was Glyph patterns)
+
+I wrote:
+
+> When every cubie of a continuous glyph pattern has either all "figure"
+> facets or all "ground" facets, we call the pattern a "reassembled"
+> glyph pattern.  In this case, we can envision the cube having been cut
+> apart into figure and ground cubies and put back together in a
+> different orientation....
+
+On second thought, I prefer the definition that a (2-part) reassembled
+pattern is one that can be partitioned into two sets of cubies, where
+the cubies of each set are in agreement with each other.  This
+definition differs from the previous in two ways.  Reassembled
+patterns need not be continuous--"laughter" is a noncontinuous glyph
+pattern.  And not all continous glyph patterns with figure/ground
+cubies meet this definition--e.g. flip the LF and RD edge cubies.
+
+We may also speak of 3-part reassembled patterns, though they are not
+necessarily glyph patterns.  Are there any particularly nice ones?
+Cube-in-a-cube-in-a-cube comes to mind.
+
+Call an "N-part" pattern one that requires cutting into at least N
+parts for reassembly.  Surely every position can be reassembled from
+at most 21 parts, since that's all the pieces there are.  Is this
+achievable?  We could restrict the reorientation of the parts to C,
+but in some cases (e.g. pons asinorum) we can manage with fewer parts
+if we allow reorienting some of the edges by M.  Is there a 20-part
+pattern that would require 21 parts if the orientations were
+restricted to C?
+
+In the supergroup, can we manage a 24-part position?  A 23-part
+position that requires 24 parts for C-reorientation?
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+

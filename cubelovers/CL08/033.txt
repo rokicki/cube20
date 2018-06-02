@@ -1,0 +1,55 @@
+From @mitvma.mit.edu:rb%uk.ac.ic.cc@sunss1cc-gw.cc.ic.ac.uk  Wed Jan 15 10:38:59 1992
+Return-Path: <@mitvma.mit.edu:rb%uk.ac.ic.cc@sunss1cc-gw.cc.ic.ac.uk>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) id AA16719; Wed, 15 Jan 92 10:38:59 EST
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 7594; Wed, 15 Jan 92 10:39:15 EST
+Received: from UKACRL.BITNET by MITVMA.MIT.EDU (Mailer R2.08 R208004) with
+ BSMTP id 9520; Wed, 15 Jan 92 10:39:14 EST
+Received: from RL.IB by UKACRL.BITNET (Mailer R2.07) with BSMTP id 6307; Wed,
+ 15 Jan 92 15:37:45 GMT
+Received: 
+           from RL.IB by UK.AC.RL.IB (Mailer R2.07) with BSMTP id 6650; Wed, 15
+            Jan 92 15:37:43 GMT
+Via:        UK.AC.IC.CC; 15 JAN 92 15:37:41 GMT
+X-Received: from sunss1cc-gw.cc.ic.ac.uk by mvax.cc.ic.ac.uk with SMTP
+            id aa23202; 15 Jan 92 15:36 WE
+Received:   from suns1cc.cc.ic.ac.uk by sunss1cc.cc.ic.ac.uk (4.1/3.0)
+            id AA14635; Wed, 15 Jan 92 15:36:40 GM
+From: rb@cc.ic.ac.uk
+Date:       Wed, 15 Jan 92 15:36:39 GMT
+Message-Id: <243.9201151536@suns1cc.cc.ic.ac.uk>
+To: cube-lovers <cube-lovers@ai.mit.edu>
+Subject:    Minimove Solution
+Sender: rb%uk.ac.ic.cc@sunss1cc-gw.cc.ic.ac.uk
+
+I have recently read a book entitled
+	"Learning To Solve Problems By Searching For Macro Operators"
+
+	by Richard E. Korf (exact spelling not in my head).
+
+In a nutshell the book discusses an algorithmic method of problem soving
+by discovering useful operators.  The method was applied to the 3D Rubik
+cube and as I remember managed on average to solve the problem in about
+37 - 38 QTW.  Apparently it was slightly better than human experts.  The
+tables discovered by the program weren't terribly large :-)!
+
+Also either in that book or another I remember an approach to the minimove
+problem based on measuring the disorderedness of the cube after n random
+moves.  The measure of disorder was based on the number of correct colours
+on each face or something like that.  From a graph of this measure averaged
+over (I suppose) some number of trials it seems as though the cube can be
+maximally disordered in around 18 moves.  It would seem that this means
+that on average the cube should be restorable in about the same number of
+moves.
+
+Of course this doesn't help giving tight bounds,  but I guess it gives
+some hope to the clever guys.
+
+As an aside I have something called  a Supernova which is dodekahedral
+(i.e. has 12 5 sided faces each of which can rotate) which is alledged
+to be 10power 43 more complicated than the 3cube.  I can solve it using
+fairly standard cube methods (only the last face is slightly difficult)
+in about 20 times my 3-bube time.  Has anyone else seen this and or is
+there any standard notation + information on this thing.
+	Robin (not batperson) Becker
+

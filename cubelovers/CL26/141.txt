@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 10 23:23:35 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id XAA10879
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 10 Mar 1999 23:23:34 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 9 Mar 1999 19:24:29 +0000
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: sausage@zeta.org.au
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009D4DEA.EA4E5AAE.11@ice.sbu.ac.uk>
+Subject: Re: Oddzon version of the cube
+
+	It's depressing that manufacturers can't provide a decent cube.  When
+the C4 cube was introduced about 10(?) years, I found the mechanism very poor
+and poeple told me that their examples broke within an hour of buying it.  As
+you say, the Asian pirates had become very good in 1982 or so and I believe
+Ideal was actually buying production from some of the same companies.
+	Regarding cubes with printed colours, I have located mine.  It has
+violet replacing orange, but is otherwise the usual colours and arrangement.
+The colours are pretty good, but because the plastic surface is not perfectly
+smooth, it gives the effect of a matte finish, rather than a glossy finish,
+which is why I remember the colours as a bit paler.  My records indicate this
+was bought in a regular Rubik Cube packaging, but I don't recall when and I've
+never seen the technique used again.  I suppose one has to place squares of
+coloured material against the cube and then fuse the colour into the surface of
+the plastic and this seems likely to be more expensive than the use of
+stickers.  The elimination of orange may be due to the fact that many orange
+colours are based on cadmium which is toxic and not permitted on objects for
+children.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

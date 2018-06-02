@@ -1,0 +1,72 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Fri Dec 16 04:19:31 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29461; Fri, 16 Dec 94 04:19:31 EST
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <87818-4>; Fri, 16 Dec 1994 04:20:19 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA00403; Fri, 16 Dec 94 04:16:34 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1C4371; Fri, 16 Dec 94 01:51:35 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Cyclic Decomposition
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.897.5834.0C1C4371@canrem.com>
+Date: Fri, 16 Dec 1994 01:32:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+ I've been working on a new algorithm to find move sequences to reach
+certain positions on the 3x3x3 cube. The basic idea is to find a
+sequence such that:
+
+         (S1 S2 S3... SX) ^N = Goal State
+where X is the number of moves in the fragment and
+      N is the number of times the fragment is repeated.
+
+ I call such a process to be "Cyclicly Decomposable".
+
+ Certain states, such as the 12-flip, require quite a few moves, in
+fact more moves than possible to search using brute force even when
+using high-order computers. The best results using the Kociemba
+algorithm need 28 q turns or 20 q+h turns for the 12-flip.
+
+ While the cyclic decomposition algorithm (henceforth the CD algorithm
+for short) usually requires more moves than the Kociemba algorithm
+it does have an mnemonic advantage. The following is the best
+result using the CD algorithm to date:
+
+p192 2 Flip in face     (F1 B1 L1 T1 D1)^6           (30 q)
+p195 12 Flip            (T1 B3 T1 L1 F3 R3)^6        (36 q)
+
+ Note that both of these processes use 5 of the 6 generators.
+
+ Some cube positions are extremely resistant to CD but flip and
+twist patterns are no problem. In particular, the 6 X order 3
+pattern does not yield to CD with values of X up to 7.
+Naturally with N = 1 we can always find one of the optimal paths
+but I am more interested in cases where N > 1. One may note that
+with N > 1 using CD processes we are still free to use any number
+of q turns except a prime number, for which N must be 1, but this
+should not be too constraining.
+
+ By relaxing the conditions somewhat we can conceive of sequences
+which are near-CD, that is CD with a small suffix or prefix:
+
+p169 4 Y's Rot + 2 X    (F2 B2 D1 L2 R2) ^2 + T1      (11 q+h)
+
+ By looking at the best sequence the Kociemba algorithm can
+find for a position, we can count the number of q turns and
+use this as a starting point for an attempt with CD...
+
+p1 6 X order 3   R2 L3 D1 F2 R3 D3 F1 B3 U1 D3 F1 L1 D2 F3 R1 L2 (20 q)
+
+ Looking at p1 we can infer that possibly X=5 and N=4 may lead to
+finding a CD process or    X=4, N=5
+                           X=10, N=2
+                           X=20, N=2 etc.
+
+ At the very least we can discount  X * N = odd number.
+
+-> Mark <-
+Email: mark.longridge@canrem.com
+

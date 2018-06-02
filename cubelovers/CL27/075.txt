@@ -1,0 +1,40 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon May  3 15:29:40 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA17694
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 3 May 1999 15:29:40 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sat, 1 May 1999 13:37:32 -0400 (EDT)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199905011737.NAA19339@Twig.Rodents.Montreal.QC.CA>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Reinventing (and some edge-flipping techniques)
+
+> Basically there is no 'simple' way to flip edges, where 'simple'
+> means easily understood and remembered.
+
+On what point does the Spratt wrench fail?  That's always been my
+favored edge-flipper.  (On the 3-Cube, that is; when solving a
+dodecehedral puzzle I bought from Mr. Bandelow, I was forced to develop
+other edge-flippers, and the one I ended up with maps easily onto the
+Cube.  In 3-Cube terms, it's based on R F' R' F, which induces a
+3-cycle (fr,fd,dr) on edges.  By applying this, rotating the cube 120 degrees
+about its rfd-lbu long diagonal, and applying the inverse, you can get
+a two-edge flipper at the price of disturbing four corners.  The
+dodecahedron I solve by doing edges first with this procedure, then
+using (the dodecehedral analog of) (R F' R' F) 3, which leaves edges
+alone and produces two corner swaps, to fix up the corners.  But when
+solving the 3-Cube, I still find the Spratt wrench more convenient.)
+
+What I'd like is a puzzle like the dodecahedron, but with an additional
+turning mode: 72 degrees on a cut through the center.  The puzzle as it stands
+has face-cut lines that make it clear such turns are conceivable,
+though designing a mechanism for them would be interesting.  Perhaps
+when we get force-reflecting datagloves.... :-)
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

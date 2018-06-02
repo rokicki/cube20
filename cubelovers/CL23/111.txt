@@ -1,0 +1,83 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug 15 18:58:41 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA18159; Fri, 15 Aug 1997 18:58:41 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Hoey@AIC.NRL.Navy.Mil Fri Aug 15 19:00:35 1997
+Date: Fri, 15 Aug 1997 19:00:26 -0400
+Message-Id: <199708152300.TAA04077@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: reid@math.brown.edu
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <199708142216.SAA16395@life.ai.mit.edu> (message from michael
+	reid on Thu, 14 Aug 1997 18:21:24 -0400)
+Subject: Re: patterns with 24-fold symmetry
+
+Mike Reid writes:
+
+> i've finished computing minimal maneuvers for those positions with
+> 24-fold symmetry.  these positions were classified by dan hoey and
+> jim saxe in their note "symmetry and local maxima."  there are 24
+> such positions; they form an abelian subgroup of type 6, 2, 2.
+
+It took me a while to understand that.  For the benefit of other
+cube-lovers, since any finite Abelian group can be decomposed into a
+direct product of cyclic groups, it can be typified by listing the
+orders of its factors.
+
+> we may take as generators  superfliptwist, pons asinorum, and 6 H's.
+> of these 24 positions, 4 have 48-fold symmetry; i'll include these
+> here as well.  the other 20 positions occur in 10 pairs which differ
+> only in orientation; i.e. there are 10 "patterns".
+
+It may be better to take the order-6 generator to be one of the
+6-H-supertwists.  Then you can tell the M-symmetric positions because
+they project to the identity of the 6-factor.  Writing p, f, t, h for
+pons, superflip, supertwist, and 6-H, I get the following table of
+positions (suffixed with optimal qtw:ftw).
+
+        i          p          f            fp
+      ...............................................
+    i : i    0:0   p   12:6   f    24:20   fp   20:19
+      :
+   th : th  20:16  th' 20:16  fth  22:20   fth' 22:20
+      :
+    t : t   22:16  pt  20:16  ft   20:20   fpt  22:20
+      :
+    h : h   16:8   h   16:8   fh   18:17   fh   18:17
+      :
+    t : t   22:16  pt  20:16  ft   20:20   fpt  22:20
+      :
+   th': th' 20:16  th  20:16  fth' 22:20   fth  22:20
+
+The last two rows could be omitted, just as the last column could be
+with your decomposition:
+
+        i          h            p          h
+      ...............................................
+    i : i   0:0    h    16:8    p   12:6   h    16:8
+      :
+   ft : ft 20:20   fth  22:20   ftp 22:20  fth' 22:20
+      :
+    t : t  22:16   th   20:16   tp  20:16  th'  20:16
+      :
+    f : f  24:20   fh   18:17   fp  20:19  fh   18:17
+      :
+    t : t  22:16   th'  20:16   tp  20:16  th   20:16
+      :
+   ft : ft 20:20   fth' 22:20   ftp 22:20  fth  22:20
+
+This has the advantage of having patterns on each row nearer each
+other.
+
+By the way, this isn't a complete list of optimal maneuvers, is it?
+Are you looking to find such a list?  Or would it be too difficult (or
+too voluminous)?
+
+And I'm looking forward to seeing optimal maneuvers for the
+T-symmetric positions (if I'm not being too presumptuous).
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

@@ -1,0 +1,21 @@
+Date: 21 Sep 1981 08:49 PDT
+From: Eldridge.ES at PARC-MAXC
+Subject: An incomplete solution
+To: Cube-Lovers@MC
+cc: XeroxCubeLovers^.pa
+Reply-To: Eldridge
+
+For months now I have been living in blissful ignorance thinking that I too
+could solve "the cube".  To my horror and dismay I have found that my solution
+is not complete.  There are some cubes on the market that have pictures of fruit
+on the faces rather than solid colors.  I wondered if the solution I use would get
+the pictures on the faces all lined up in the proper direction.  I found that it
+didn't!  The problem is that some of the center cubies do not line up in the same
+direction as all the other cubies on the face.  I am currently working on finding
+some macros that rotate the center cubies without affecting the rest of the cube. 
+I would suggest that you might find one of these fruit cubes and try it.  Or you
+can do as I did and mark the faces of an original cube so that you can tell the
+orientation of the cubies.  Good Luck!
+
+George
+

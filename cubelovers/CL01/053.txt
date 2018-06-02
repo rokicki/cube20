@@ -1,0 +1,18 @@
+Date: 10 DEC 1980 0157-EST
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  The 28 QTW all-edge-flipper mentioned by ALAN
+To: CUBE-LOVERS at MIT-MC
+
+
+Indeed it can be done in 28.
+Tool: flip the top edges and the bottom edges:
+
+	(R L) (U D) (F B) (R L) (U D) (F  B) 
+					/\
+					||
+To do the other four, insert the following things at the indicated
+place
+	(u b') (u' D b' u' d l' u' d f' u' d r') (b u')
+
+There may be another place to put this to find a shorter path.
+Those with time are free to try and find one.

@@ -1,0 +1,43 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Jan  3 02:01:09 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id CAA12748; Sat, 3 Jan 1998 02:01:09 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Jan  2 19:50:46 1998
+Message-Id: <v03010d00b0d2f87a2ed3@[204.71.18.82]>
+In-Reply-To: <199712230003.AAA21827@GPO.iol.ie>
+Content-Type: text/plain; charset="us-ascii"
+Date: Fri, 2 Jan 1998 15:15:49 -0500
+To: Cube-Lovers@ai.mit.edu
+From: Nichael Lynn Cramer <nichael@sover.net>
+Subject: Re: Return of the Cube?
+Cc: David Byrden <David@byrden.com>
+
+David Byrden wrote:
+>	I have just seen a toy expert
+>on UK tv say that the Rubik Cube is
+>making a comeback this year. Any
+>comment?
+
+NWell, this is more a "cube-sighting" than an answer to the question whether
+cubes will soon become more easily available, but I notice that in the new
+(i.e. 4Jan98) New York Times Book Review, on the  inside of the front cover
+is a small ad consisting of a (b&w) photo of a (3X) cube with the
+over-laying copy:
+
+          NEVER
+            A
+           DULL
+         WEEKEND
+
+   Our enhanced, two-part
+     Weekend section is
+   full of ideas about ways
+      to broaden your
+         horizons.
+
+
+I couldn't quite figure out, though, whether the ad intended the cube to
+symbolize the "broaden[ed] horizons", or the "dull weekend"...
+

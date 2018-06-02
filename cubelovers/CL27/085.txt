@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri May  7 21:12:30 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA07476
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 7 May 1999 21:12:30 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <372B283E.428F@hrz1.hrz.tu-darmstadt.de>
+Date: Sat, 01 May 1999 18:13:50 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.tu-darmstadt.de>
+Reply-To: kociemba@hrz1.hrz.tu-darmstadt.de
+To: Cube Lovers <cube-lovers@ai.mit.edu>
+Subject: Optimal solver for Windows now available
+
+I finished my optimal solver program for Windows now. It optimizes the
+maneuvers written to the output file of the Cube Explorer program.
+
+I am quite satisfied with the performance. I searches 1,100,000 nodes
+per second on a P350. 90MB of RAM should be enough (though I run it on a
+machine with 256MB). A depth 17 search on random cubes typically takes
+less than one hour. I made a test run with 10 random cubes and optimal
+solutions for all of them were found within 35 hours (6 had length 18
+and 4 had lenght 17).
+
+The exe file and the source code are available at
+
+http://home.t-online.de/home/kociemba/cube.htm
+
+Herbert Kociemba
+
+[ Moderator's note: This is also available in
+
+     ftp://ftp.ai.mit.edu/pub/cube-lovers/contrib/opt09.zip
+
+  If you've been waiting for the cube-lovers archives, the server is
+  serving again. -- Dan ]
+

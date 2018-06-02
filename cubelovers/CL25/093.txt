@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Jul 28 10:38:07 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id KAA18123; Tue, 28 Jul 1998 10:38:07 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Jul 27 19:41:11 1998
+Message-Id: <35BD0149.9F7384B5@t-online.de>
+Date: Tue, 28 Jul 1998 00:38:01 +0200
+Reply-To: Rainer.adS.BERA_GmbH@t-online.de
+Organization: BERA Softwaretechnik GmbH
+To: cube-lovers@ai.mit.edu
+Subject: Re: Restoring a 5^3 to solved state (Was: Re: patterns on 5x5x5 cube)
+References: <Pine.SUN.3.95.980727084518.1715H-100000@sunspot.tiac.net>
+From: Rainer.adS.BERA_GmbH@t-online.de (Rainer aus dem Spring)
+
+Nicholas Bodley wrote:
+> Although it's using your mind in a different fashion, you could
+> disassemble it, sort the pieces (takes a while!) and reassemble it in
+> the solved state. With any reasonable degree of care, you won't harm a
+> 5^3, I'm just about sure.* Have a clean work surface. I have done it
+> maybe 5 or 6 times on mine (from Meffert, ca. 1987). If you have a cat,
+> don't even think of letting it in the same apartment or house while it's
+> apart! :) The insides are really quite amazing to see. The internal
+> "foot" that retains a corner cubie is an amazing shape.
+
+I have found an old booklet by Endl (terrible) that contains a Mickey
+Mouse solution for the 5x5x5 cube.
+
+Thank God - I have TWO cats :)
+
+
+>  *A 4^3 requires much more care. The center cubies are fragile! There
+> was a message a while back from someone who's selling parts for 4^3s.
+
+Yeah, mine is very flabby.
+
+A real cube meister will never disassemble his cube :)
+
+Rainer adS
+

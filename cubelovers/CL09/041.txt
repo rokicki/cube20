@@ -1,0 +1,30 @@
+From ronnie@cisco.com  Thu Aug 20 23:32:46 1992
+Return-Path: <ronnie@cisco.com>
+Received: from ale.cisco.com by life.ai.mit.edu (4.1/AI-4.10) id AA04659; Thu, 20 Aug 92 23:32:46 EDT
+Received: by ale.cisco.com; Thu, 20 Aug 92 17:52:40 -0700
+Date: Thu, 20 Aug 92 17:52:40 -0700
+From: Ronnie B. Kon <ronnie@cisco.com>
+Message-Id: <9208210052.AA00306@ale.cisco.com>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Back to the 16th century
+
+In the Cube Lovers' archives we have files:
+
+           From        To        Size     Time      Bytes/Month
+           ----        --        ----    ------     -----------
+        12 Jul 80   23 Oct 80   185037   3 months      61679
+         3 Nov 80    9 Jan 81   135719   2 months      67860
+        10 Jan 81    3 Aug 81   138566   6 months      23094
+         3 Aug 81    3 May 82   137753   9 months      15306
+         4 May 81   11 Dec 82   139660  19 months       7351
+        11 Dec 82    6 Jan 87   173364  48 months       3612
+        10 Jan 87   13 Apr 90   216733  39 months       5557
+        12 Oct 90    9 Sep 91   137508  12 months      11459
+         1 Nov 91   25 May 92   171205   7 months      24458
+
+
+Ladies and Gentlemen, I believe we are witnessing a Renaissance of Cubing!
+
+
+                                Ronnie
+

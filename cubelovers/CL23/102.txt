@@ -1,0 +1,94 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug  7 10:59:18 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id KAA07805; Thu, 7 Aug 1997 10:59:17 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From reid@math.brown.edu Wed Aug  6 23:51:22 1997
+Message-Id: <199708070348.XAA10924@life.ai.mit.edu>
+Date: Wed, 6 Aug 1997 23:53:38 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: superflip requires 24 quarter turns
+
+with my optimal solver, i can show that superflip is exactly
+24 quarter turns from start.  this was already shown by jerry
+bryan, so this confirms his result.
+
+first some history.  david plummer gave a 28q maneuver for
+superflip on december 10, 1980.  apparently there was no
+improvement to this until january 1995, when i implemented
+kociemba's algorithm for quarter turns.  after a lot of searching,
+where i specified the initial sequence  R' U2 , it found
+
+   R' U2 B  L' F  U' B  D  F  U  D' L  D2 F' R  B' D  F' U' B' U  D' (24q)
+
+mark longridge notes that this sequence has a remarkable symmetry,
+namely that it may be written as
+
+   (R' U2 B  L' F  U' B  D  F  U  D'  C_-1)^2 ,
+
+where  C_-1  denotes central reflection.
+
+later in january 1995, i completed an exhaustive search for superflip
+in 20 quarter turns, without finding any maneuvers.  i used my quarter
+turn version of kociemba's algorithm, which took 29 cpu hours.  this
+improved the lower bound of the diameter of the cube group to 22q.
+the previous lower bound was 21q, obtained by a counting argument.
+
+in february 1995, jerry bryan improved this result to show that superflip
+is not within 22 quarter turns, and thus is exactly 24 quarter turns
+from start.  this also improved the lower bound for the diameter to 24q.
+
+we'll use symmetry to reduce the size of the search space dramatically.
+consider three cases for a minimal maneuver for superflip.
+
+1)  it contains a half turn (i.e. two consecutive quarter turns of the
+    same face).
+2)  it does not contain a half turn, but contains two consecutive turns
+    of opposite faces.
+3)  otherwise.
+
+in case 1, as in the face turn situation, we may suppose that the first
+three quarter turns are  U R2 .
+
+in case 2, by cyclically shifting, we may suppose these two turns are
+the first two.  if they form a slice (U D') then we may take the
+first three quarter turns to be  U D' R .  if they form an antislice,
+then we may take the first three quarter turns to be either  U D R  or
+U D R' .
+
+in case 3, i claim that we may find three consecutive turns of mutually
+adjacent faces.  otherwise, if the first two faces turned were  U  and  R,
+then we'd only be turning  U , R , D  and  L .  however, edges cannot
+change orientation when only these faces are turned.  thus the claim holds,
+and by cyclically shifting, we may suppose that these three faces are
+U , R  and  F .  by symmetry, we may suppose that they're turned in that
+order.  now we have eight cases:
+
+     U  R  F      U  R  F'     U  R' F      U  R' F'
+     U' R  F      U' R  F'     U' R' F      U' R' F'
+
+we can eliminate two of these by using inversion.  inverting the case
+U' R  F  gives  F' R' U .  conjugating this by the appropriate cube
+reflection gives  U  R  F' , and these three turns can be cyclically
+shifted to the beginning of the maneuver.  similarly, the case  U' R' F
+can be transformed to the case  U' R  F .
+
+thus ten cases remain.  to show that superflip is not within 22q of start,
+these cases must be searched through 19q.  my program took 22 hours to
+searched these completely, and no maneuvers were found.
+
+iw would be nice to know all the minimal maneuvers for superflip.  the
+branching factor is about 9.37, so an exhaustive search would take about
+22 * (9.37)^2  hours, which is about 80 days.  this is feasible, but is
+definitely a long term project.  i've already searched the first case,
+(beginning with  U R2) which would seem to be the most likely, through 21q.
+this took about 147 hours.  i expected it to find a lot of maneuvers, but
+it only found 4, in two inverse pairs.  the first is equivalent to the
+maneuver above, and the new one is
+
+   U  R2 F' R  D' L  B' R  U' R  U' D  F' U  F' U' D' B  L' F' B' D' L' (24q)
+
+mike
+

@@ -1,0 +1,42 @@
+From cube-lovers-errors@oolong.camellia.org  Sun Jun  1 18:00:42 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id SAA00994; Sun, 1 Jun 1997 18:00:42 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Sun, 01 Jun 1997 17:59:49 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Description of algorithm for finding minimal-move solutions to
+ Rubik's Cube
+In-reply-to: <338F7124.73A6@hrz1.hrz.th-darmstadt.de>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-id: <Pine.PMDF.3.95.970601174941.90493E-100000@PSTCC6.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+
+On Sat, 31 May 1997, Herbert Kociemba wrote:
+
+> Having found a solution in stage1 and stage2 the algorithm does not
+> stop, but generates other solutions in stage1. So if for example we have
+> 10 moves in stage1 and 12 moves in stage2, there might be a solution
+> with 11 moves in stage1 but only 10 moves in stage2. Running long
+> enough, the algorithm will find the overall optimal solution, having no
+> moves in stage2 then.
+
+I have always been curious about the termination criteria for your
+algorithm -- that is, how long is "long enough"?.  It appears that you are
+effectively moving moves from stage2 to stage1 until stage2 is empty.  I
+wonder if you could describe this process a little further.  I have always
+rather naively assumed that you were (for example) combining an R at the
+end of stage1 with an R' at the end of beginning of stage2, simply
+cancelling out the moves.  But you certainly appear to be doing some a
+little more elaborate than simple cancellation.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+

@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov  7 18:43:53 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA28008; Fri, 7 Nov 1997 18:43:52 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Michael.Swart@switchview.com Fri Nov  7 09:33:48 1997
+Message-Id: <199711071431.JAA05030@support.switchview.com>
+From: "Michael Swart" <Michael.Swart@switchview.com>
+To: <Cube-Lovers@ai.mit.edu>, "Tenie Remmel" <tenie1@juno.com>
+Subject: Re: Better way to flip a middle edge?
+Date: Fri, 7 Nov 1997 09:26:36 -0500
+
+> Is there a short way to flip a middle edge cubie without disturbing the
+> top layer or the other middle edges?  I mean, better than replacing it
+> with one from the bottom and then putting it back in the correct
+> orientation, which takes 15 moves.
+
+F' L' R F L' R T' B2 T L R' F L R' D2 F'
+
+18 q turns 16 h turns. Guess it wasn't any better but you may notice
+that this sequence also leaves the bottom intact except for one flipped
+cubie at  the back down edge.
+
+Michael Swart
+

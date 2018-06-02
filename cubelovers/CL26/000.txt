@@ -1,0 +1,36 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep 17 17:18:28 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id RAA12950; Thu, 17 Sep 1998 17:18:27 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 14 Sep 1998 14:14:22 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Weak Local Maxima, 6f from Start
+In-Reply-To: <14Sep1998.111621.Hoey@AIC.NRL.Navy.Mil>
+To: Cube Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <SIMEON.9809141422.E@GN209A.PSTCC.CC.TN.US>
+
+> It turns out that 6f is indeed the shortest.  There are two such positions
+> unique to symmetry which are 6f from Start, the Pons and one other.  The
+> other one is quite pretty:
+>
+> L2 R2 D2 U2 B' F  (6f*)
+>
+
+I didn't notice it originally, but this position is in the slice
+subgroup, and is only one slice move from Pons.  Half turns such
+as L2 can be written equally well as either LL or as L'L',
+so we can write (L2 R2) as (L'R)(L'R) and (D2 U2) as (D'U)(D'U).
+Thus, the weak local maximum 6f from Start can be written as five
+slices, one slice short of Pons.
+
+L'R  L'R  D'U  D'U  B'F
+
+All we would have to do to get the Pons would be to add one more
+B'F slice.
+
+----------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+

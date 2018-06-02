@@ -1,0 +1,53 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug  5 21:04:33 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA26830
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 5 Aug 1999 21:04:32 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <37A19059.40026399@frontiernet.net>
+Date: Fri, 30 Jul 1999 07:45:30 -0400
+From: John Bailey <jmb184@frontiernet.net>
+To: phanna@gbonline.com
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: cube computer solutions using procedural languages
+References: <006001bed45e$d4429420$1b4b43cf@compaq>
+
+
+
+Paul Hanna wrote:
+
+> Have any of you done any work on solving the cube with computer programs
+> using procedural languages such as C?
+>
+> Do you have any suggestions you can pass my way? I am a good programmer but
+> not a cube solution expert. I am just a novice at best when it comes to cube
+> algorithms and efficient cube solutions.
+
+You wouldn't believe how long ago it was that I attempted a computer
+based cube solution.  At the time, I had become adept at assembly
+languague for the chip in the Apple II and I worked in that.  Today I
+would typically use C++.At the time, I had not found Singmasters book
+( the time was roughly 25 years ago) and when I did, I realized that
+what I was attempting was doomed, so I quit.  I was attempting to
+apply the tree search techniques used for Chess programs to look far
+ahead and by applying a heuristic scoring method, find likely paths to
+solution, which would in turn be iterated.  In the process, I worked
+ways to encode the orientation of each cubelet, its postion, and
+transformation rules for moves etc.  As soon as I read Singmaster, I
+realized how deep the iterations would have to go to reach a
+convergent solution.  That's when I dropped the problem.  Some of the
+recent work which the moderator referenced have moved the state of the
+art further, but not yet so far as to search and find solutions in a
+general sense.  (If that statement is false, it will be worth the
+embarassment, if only the critic sends me a URL for source code.)
+
+I do have some suggestions about format and linguistic conventions.
+For an example,go to http://www.ggw.org/donorware/4D_Rubik/ and look
+at the source code.  Yes, that's really all there is.  If that helps
+or you think I should add a few comment lines, let me know.
+
+John
+http://www.frontiernet.net/~jmb184
+http://www.ggw.org/donorware
+

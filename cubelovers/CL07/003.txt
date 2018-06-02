@@ -1,0 +1,44 @@
+From alan@ai.mit.edu  Mon Oct 15 03:11:33 1990
+Return-Path: <alan@ai.mit.edu>
+Received: from wheat-chex (wheat-chex.ai.mit.edu) by life.ai.mit.edu (4.1/AI-4.10) id AA05272; Mon, 15 Oct 90 03:11:33 EDT
+From: alan@ai.mit.edu (Alan Bawden)
+Received: by wheat-chex (4.1/AI-4.10) id AA05063; Mon, 15 Oct 90 03:11:35 EDT
+Date: Mon, 15 Oct 90 03:11:35 EDT
+Message-Id: <9010150711.AA05063@wheat-chex>
+To: cube-lovers
+Subject: Second Announcement
+
+OK, I think I've cleaned up Cube-Lovers enough that it's safe for anyone to
+use it.  (For some of you this message is the first indication that
+Cube-Lovers is back -- many copies of my first announcement bounced back to
+me.)
+
+Those of you who keep asking for the archives will be pleased to know that
+they are again available for anonymous FTP: Connect to AI.MIT.EDU, login as
+"anonymous" (any password), and in the directory "/pub/alan" you will find
+the seven (compressed) files "cube-mail-0.Z" through "cube-mail-6.Z".
+Archive vital statistics:
+
+	   File		  From		   To	     Size (bytes)
+	   ----		  ----		   --	     ------------
+	cube-mail-0	12 Jul 80	23 Oct 80	185037
+	cube-mail-1	 3 Nov 80	 9 Jan 81	135719
+	cube-mail-2	10 Jan 81	 3 Aug 81	138566
+	cube-mail-3	 3 Aug 81	 3 May 82	137753
+	cube-mail-4	 4 May 81	11 Dec 82	139660
+	cube-mail-5	11 Dec 82	 6 Jan 87	173364
+	cube-mail-6	10 Jan 87	13 Apr 90	216733
+
+(Unfortunately, due to the way mail works here at the AI Lab, it is not
+possible to have the current active archive accumulate anywhere where
+anonymous FTP can pick it up.)
+
+As you can see, things really slacked off after 1982, and we were really
+quiet during the middle of the decade.
+
+For those of you who missed my first message, let me repeat that our
+"official" addresses remain Cube-Lovers@AI.AI.MIT.EDU for submissions and
+Cube-Lovers-Request@AI.AI.MIT.EDU for administrivia.
+
+				- Alan
+

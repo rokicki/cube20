@@ -1,0 +1,56 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Nov 28 13:10:28 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id NAA18263; Thu, 28 Nov 1996 13:10:28 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 28 Nov 1996 11:51:48 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: cube-lovers@ai.mit.edu
+Subject: Lubricants for puzzles
+Message-ID: <Pine.SUN.3.95.961128113717.18706F-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ My apologies in advance if this is a repeated topic; it hasn't appeared
+recently, at least.
+
+ Question is: What is a really good lubricant for plastic puzzles (such as
+the classic Cube) with moving parts? What's good for metal machinery isn't
+necessarily good for plastics; there is even a risk that some additives in
+metal lubricants would dissolve or etch some plastics.
+
+ A liquid, probably with a benign solvent to distribute it, would be
+desirable. Powdered (or colloidal?) PTFE ("Teflon", a Du Pont TM in the
+USA) particles or flakes should help a good bit. A "carrier" grease (which
+might as well be a lubricant) would keep any particles in place. 
+Molybdenum disulfide might be good, but might also tend to stain hands and
+clothing. Some waxes might work. Powdered graphite would probably work
+loose and make a mess. Lubricants that stain clothing aren't welcome,
+either!
+
+ The lubricant must also be benign toward metal, because the Cube is held
+together with metal screws and tensioned by springs.
+
+ I suspect that someone, somewhere, knows about a commercial (proprietary) 
+formulation that meets most or all of these criteria. (I would not
+recommend WD-40, by the way; I expect it would evaporate after some
+months. It has its place, but I don't think it's a good plastic
+lubricant.) 
+
+ About 10 years ago, I found such a product, and lubricated some of my
+puzzles with it, with good success, but then a major personal crisis came,
+and I lost track of what it was...
+
+ I'll try to summarize, if any significant number of replies comes by...
+
+ Thanks in advance, and best regards!
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+

@@ -1,0 +1,19 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jul 30 12:19:17 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id MAA26710; Thu, 30 Jul 1998 12:19:16 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue Jul 28 21:13:28 1998
+Date: Tue, 28 Jul 1998 11:32:48 -0400
+Message-Id: <00269731.001706@scudder.com>
+From: Jacob_Davenport@scudder.com (Jacob Davenport)
+Subject: Solving the 5^3
+To: cube-lovers@ai.mit.edu,
+        Rainer.adS.BERA_GmbH@t-online.de (Rainer aus dem Spring)
+
+I have a fairly straight forward solution to the 5x5x5, and if there is 
+some interest in having me post it, I will.
+
+-Jacob
+

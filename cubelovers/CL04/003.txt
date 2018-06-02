@@ -1,0 +1,18 @@
+Date: 13 May 1982 23:44-EDT
+From: David C. Plummer <DCP at MIT-MC>
+Subject: 4 x 4 x 4
+To: BSG at SCRC-TENEX
+cc: ALAN at MIT-MC, DCP at MIT-MC, CUBE-LOVERS at MIT-MC
+
+Indeed, I have one also.  I thought about solving it for a couple
+of months now.  Never wrote anything down, I think I just have a
+working knowledge of the types of transforms needed.  It took me
+about 1.5 hours to solve it.  I thought I had ALL the necessary
+tools, but there is still one tool that alludes me.  It happens
+half the time, and when I get it, I try to mess it up just enough
+to allow it to be solved again.  As ACW pointed out, most
+intuition about edges and centers is WRONG.  The first thing I
+tried to the original solved cube was the extended Pons.  Much to
+my dismay, it didn't work.  So if you think you know how to
+extend your 3x3x3 transforms to the 4x4x4, put your fingers where
+your mouth is!!

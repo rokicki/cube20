@@ -1,0 +1,15 @@
+Date: 16 Jul 1980 2130-PDT (Wednesday)
+From: Lauren at UCLA-SECURITY (Lauren Weinstein)
+Subject: confusion
+To: CUBE-HACKERS at MC
+
+I am relatively new to the whole idea of cubing, in fact I do not yet
+even own a cube.  I am a littel confused as to what the state of the
+art is in solving an actual randomized Rubik's Cube.  Are these
+algorithms so complex that they are only usable with computer aid, or at
+least pencil and paper?  Or are they such that, handed a random cube,
+you can just sit there and (given sufficient time) put it right?
+
+--Lauren--
+-------
+

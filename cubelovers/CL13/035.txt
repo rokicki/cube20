@@ -1,0 +1,38 @@
+From BRYAN@wvnvm.wvnet.edu  Mon Oct 31 16:48:57 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14977; Mon, 31 Oct 94 16:48:57 EST
+Message-Id: <9410312148.AA14977@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4808; Mon, 31 Oct 94 15:39:05 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 7362; Mon, 31 Oct 1994 15:39:05 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Mon, 31 Oct 1994 15:39:04 -0500 (EST)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Speed Cubing Path Lengths
+
+I have received several private E-mail messages indicating that
+the algorithms used by speed cubists solve the cube in 50 or
+60 moves.  On the one hand, that seems astonishingly good to me,
+being fairly close to the solutions from early Thistlethwaite
+programs.  On the other hand, it is roughly double (depending, I
+suppose on whether H-turns are counted or not) what is probably
+the true God's Algorithm.  Hence, it doesn't tell us much about
+God's Algorithm except that the speed cubists are very, very
+good.
+
+On another subject, my Cube Theory 101 article said that the
+apostrophe was used in E-mail to denote complements, when of
+course it is used to denote inverses  --  not the same thing
+as complements at all.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

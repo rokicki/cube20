@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep  9 11:01:44 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA15886; Tue, 9 Sep 1997 11:01:43 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From reid@math.brown.edu Tue Sep  9 00:17:33 1997
+Message-Id: <199709090413.AAA00748@life.ai.mit.edu>
+Date: Tue, 9 Sep 1997 00:20:27 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: maximal abelian quotients
+
+dan asks
+
+>                                              Does every group have a
+> unique maximal Abelian quotient?
+
+yes.  let  G  be a group.  it's not difficult to show that
+
+1)  the commutator subgroup  G'  is normal,
+2)  the quotient group  G / G'  is abelian, and
+3)  if  G --> A  is a homomorphism to any abelian group  A ,
+    then  G'  is in the kernel, so there is a unique  homomorphism
+    G / G' --> A  such that the original homomorphism is the composite
+    G --> G / G' --> A .
+
+this last one is kind of technical, but in the special case where
+A = G / N  for some normal subgroup  N , it says that if  G / N  is
+abelian, then  N  contains the commutator subgroup.  thus,  G / G'
+is the maximal abelian quotient of  G .
+
+the quotient  G / G'  is sometimes written  G^ab  (the "abelianization" of G).
+as you might guess, this is an important construction in group theory,
+and it's one of the reasons why commutator subgroups are important.
+
+mike
+

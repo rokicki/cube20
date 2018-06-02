@@ -1,0 +1,25 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Sep 22 21:06:02 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA04301
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 22 Sep 1999 21:06:01 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 16 Sep 1999 23:20:21 -0700 (PDT)
+From: Tim Browne <ue451@victoria.tc.ca>
+To: Cube-Lovers@ai.mit.edu
+Subject: Pyramorphix
+In-Reply-To: <199908061510.LAA28883@mc.lcs.mit.edu>
+Message-Id: <Pine.GSO.3.95.iB1.0.990916231933.11677D-100000@vtn1>
+
+I'd like to try taking my Pyramorphix puzzle apart to see what makes it
+tick. I took a brief look at it today, but the internal mechanism appears
+to be somewhat delicate. of course, it could just be paranoia on my part.
+How does one go about taking a Pyramorphix apart safely? L8r.
+
+-- 
+        Cubic Puzzles - The SIMPLEST Solutions          |       HIT Jedi
+     http://www.victoria.tc.ca/~ue451/solves.html       | Use the Force, Mike!
+--------------------------------------------------------+-----------------------
+            "No thanks. I'm trying to cut down." - Michael Garibaldi
+

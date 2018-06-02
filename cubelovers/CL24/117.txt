@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jan  1 23:48:05 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id XAA06283; Thu, 1 Jan 1998 23:48:04 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Dec 31 20:13:48 1997
+Date: Wed, 31 Dec 1997 17:12:53 -0800 (PST)
+Message-Id: <v01530500b0d02e83f283@[207.71.218.5]>
+To: Cube-Lovers@ai.mit.edu
+From: lowfrqcy@west.net (Ryan Blum)
+Subject: Getting a 4x4x4 or a 5x5x5
+
+As a relative newbie to the cube world, I only have a 3x3x3.  Would there
+be any chance that I would find a used 4x4x4 or 5x5x5 cube around for less
+than an arm and a leg? The new 4's went for around $100 in that auction a
+little while ago, and that scared me....
+
+Any Info would be greatly appreciated!
+Thanks,
+Ryan
+
+[Moderator's note: The 5x5x5 cubes may be more available.  You can use
+ one to practice 4x4x4 moves by ignoring the central slices (except in
+ that you  have to keep them aligned with an adjacent slice).]
+

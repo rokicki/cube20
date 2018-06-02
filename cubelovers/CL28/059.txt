@@ -1,0 +1,241 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jan 21 23:22:37 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id XAA00709
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 21 Jan 2000 23:22:36 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19991231122908.11135.qmail@web109.yahoomail.com>
+Date: Fri, 31 Dec 1999 04:29:08 -0800 (PST)
+From: Jaap Scherphuis <jaapsch@yahoo.com>
+Reply-To: jaap@org2.com
+Subject: Square-1 tables of move sequences
+To: Cube-Lovers@ai.mit.edu
+
+Dear Cube-Lovers,
+
+I have just computed many new results for the Square-1 puzzle. I have
+written a program that applies a Kociemba-like algorithm to this puzzle,
+and used it to find many beautifully short sequences for nearly all
+standard moves of the edges and corners.
+
+This post is very long, and will list most of the results. First however
+I should quickly describe the puzzle and highlight some of its intricacies,
+since these might not be overly familiar even though it has been mentioned
+on this list in the past.
+
+--
+Short description of the Square-1 puzzle:
+
+This puzzle is a cube consisting of three layers. The top and bottom layers
+are cut like a pie in 8 pieces; 4 edge pieces and 4 corner pieces, 30 and 60
+degrees wide respectively. The top and bottom layers can rotate. The middle
+layer is cut in only two halves along one of the lines of the other layers.
+If there are no corner pieces in the way, you can twist half the cube 180
+degrees so that pieces from the top and bottom layers mingle.
+
+The puzzle is unique in that the two types of pieces intermingle. The edge
+and corner pieces can freely move between the two outer layers. Of course,
+the puzzle will not necessarily be a cube shape when the pieces are mixed.
+The puzzle has six colours, each face has a single colour similar to the
+Rubik's cube. The aim is of course to return a mixed puzzle back to its
+original solved position.
+
+The number of positions:
+There are three categories of puzzle shapes.
+  a. Both layers have 4 edges and 4 corners each.
+  b. One layer has 3 corners, 6 edges, the other 5 corners 2 edges.
+  c. One layer has 2 corners, 8 edges, the other 6 corners and no edges.
+
+There are 1, 3, 10, 10 and 5 layer shapes with 6, 5, 4, 3 and 2 corners.
+This means there are 5*1+10*3+10*10+3*10+1*5 = 170 shape combinations
+for the top and bottom layers (all of them can be attained). The middle layer
+has two shapes because half of it is assumed to be in a fixed position and
+only the other half moves. This means that there seem to be 170*2*8!*8! =
+552,738,816,000 positions if we disregard rotations of the layers. Some
+layer shapes however have symmetry, and these have been counted too
+many times this way.
+
+To take account of the symmetries we can simply count the number of layer
+shapes differently. Instead of the numbers 1, 3, 10, 10, 5 we use the
+numbers 2, 36, 105, 112, 54, which are the number of shapes if we consider
+rotations different (e.g. a square counts as 3 because it has three possible
+orientations). By the same method as before we then get 19305*2*8!*8!
+or 627,768,369,664,000 positions.
+
+To exclude layer rotations, divide by 12^2 to get a total of 435,891,456,000
+distinct positions.
+
+--
+Notation
+
+I use a different notation to that found on other places on the web,
+because I find this one more descriptive. Hold the puzzle so that the
+yellow middle layer piece is on the left hand side with its 'Square-1'
+inscription the right way up. Denote a 180 degree turn of the right hand
+side of the puzzle by a / sign (a slash). Turns of the top and bottom
+layers are denoted by a pair of numbers (n,m). These numbers are the
+multiple of 30 degrees clockwise that the top/bottom layers are to turn
+respectively. Thus (3,0) means turn only the top layer clockwise 90
+degrees, and (0,-1) means turn only the bottom layer 30 degrees
+anti-clockwise (i.e. one edge along).
+
+Note that I define the LENGTH OF A SEQUENCE of moves simply as the
+number of / moves in it.
+
+By labelling the faces by the letters U, D, L, R, F, B in the standard
+way for the Rubik's cube, the pieces of Square-1 can also be denoted
+in the usual way; a combination of two letters for an edge piece and
+three letters for a corner piece.
+
+--
+Subtleties of the puzzle
+
+Generally the puzzle is solved by first bringing its shape back to a cube,
+and then placing the pieces correctly. The reason for this is that there
+are many moves that keep the top an bottom layers square, for example
+(1,0)/(0,-1). Each / does of course change the middle layer shape from a
+square to a kite shape, but this can be ignored because /(0,6)/(0,6)/(0,6)
+affects only the middle layer. Ignoring the middle layer, a cube can be
+formed in at most 7 moves.
+
+A difficulty arises from the fact that these cube moves swaps two pairs
+of corners and two pairs of edges, which is an even permutation. The pieces
+can however end up in an odd permutation. To solve this, you will have to
+leave the cube shape behind. One way is by doing /(3,3)/(1,2)/ which brings
+together four corner pieces in each layer. Now (2,-2)/(-2,2) will swap
+three pairs of corners, and by reversing the previous moves we can return
+to a cube. As you can see this has taken 7 moves, and in fact there is no
+shorter way of performing an odd permutation on the cube.
+
+--
+The Search Algorithm
+
+The search algorithm in my program is very similar in design to the
+Kociemba algorithm for solving the Rubik's cube, as it solves it in two
+stages and uses tables to prune the search tree.
+
+During the first stage of the search a position is found in which the
+top and bottom layers are square and where the pieces lie in an even
+permutation. The second stage will then solve it with moves that keep
+the top and bottom layers square.
+
+The first stage uses a single look-up table, that holds the number of
+moves needed to bring the puzzle to a cube from the current shape. It is
+only when the cube shape is reached that the parity of the permutation is
+checked. In the future I may try to build a larger table which combines
+the permutation parity with the shape.
+
+The second stage uses in effect two look-up tables, one for the edges and
+one for the corners, and the number of moves needed to solve them is given.
+In reality the two tables are identical since cube-moves swap corners and
+edges in the same way.
+
+In virtually all other aspects the two phase search is performed in the
+same manner as the Kociemba algorithm, so I need not explain further.
+The only remaining difference is that my program continues searching for
+sequences of the same length as any already found. My reason for this is
+that some sequences require fewer turns of the top and bottom layers, and
+are therefore better despite being of the same length as defined above.
+
+--
+Results
+
+I suspect that God's algorithm (the shortest possible way of solving any
+position) uses at most about 12 moves. Clearly this cannot be proved with
+this program, but nearly all the positions I have tried can be done in 12
+or fewer moves.
+
+Most of the results that I have found using this program are on my website.
+Jaap's Puzzle page:  http://www.org2.com/jaap/puzzles
+
+The most important ones are below. Sequence E6 is especially amazing, as
+it swaps three pairs of corners and nothing else in only 7 moves. Another
+highlight is C4, an edge swap in 10 moves.
+
+A. Sequences involving only edges, and where some of them change layer:
+1. Swap DF-UF, DR-UR, DB-UB, DL-UL: (0,5)/(1,1)/(-4,2)/(1,1)/(2,3)
+2. Swap DF-UF, DB-UB: (0,5)/(1,1)/(-1,6)
+3. Swap DF-UB, DB-UF: (0,-1)/(1,1)/(-1,0)
+4. Swap DR-UR, DB-UB: (0,2)/(0,3)/(1,1)/(-1,-4)/(0,-2)
+5. Swap DR-UB, DB-UR: (0,2)/(0,3)/(1,-5)/(-1,5)/(0,3)/(0,-2)
+6. Swap DB-UB, DR-UF: /(-3,0)/(0,5)/(6,1)/(0,3)/(-5,0)/(-1,6)
+7. Swap DB-UF, DR-UB: (1,0)/(0,5)/(6,3)/(0,5)/(-5,0)/(-3,6)/(6,0)
+8. Swap DR-UF, UR-UB: (1,0)/(-4,5)/(0,-3)/(1,1)/(-1,2)/(4,-5)/(-1,0)
+9. Swap DR-UR, UF-UB: (1,3)/(0,3)/(0,3)/(-1,2)/(1,4)/(0,3)/(-1,0)
+10. Swap DR-UB, UF-UR: (4,3)/(3,0)/(-4,5)/(1,1)/(-3,0)/(0,-3)/(2,3)
+11. Cycle UF->UR->DR: (1,3)/(0,5)/(0,3)/(6,1)/(0,5)/(3,6)/(6,-3)
+12. Cycle UF->UB->DR: (0,5)/(0,1)/(6,3)/(5,0)/(-5,0)/(0,3)/(-1,0)/(0,1)
+13. Swap UF-DF:
+/(3,3)/(5,0)/(2,0)/(-4,4)/(2,0)/(-1,3)/(0,3)/(3,3)/(2,0)/(-2,1)/(5,2)/(4,-5)/(2,6)
+
+B. Sequences involving only edges of both layers where they do not change
+layer:
+1. Swap UF-UB, UR-UL, DF-DB, DR-DL: (1,0)/(-3,3)/(2,2)/(3,3)/(-2,4)/(5,0)
+2. Swap UF-UL, UR-UB, DF-DL, DR-DB:
+(0,2)/(-3,0)/(1,1)/(-4,2)/(1,1)/(5,-4)/(0,-2)
+3. Swap UF-UB, DF-DB: (1,0)/(-1,5)/(1,-5)/(-1,6)
+4. Swap UR-UB, DR-DB: (0,2)/(0,-3)/(1,1)/(-1,2)/(0,-2)
+5. Swap UF-UB, DR-DB: (0,2)/(1,0)/(0,3)/(6,1)/(0,5)/(-3,0)/(5,6)/(6,-2)
+6. Swap UF-UB, UL-UR, DF-DB:
+/(3,3)/(1,2)/(2,-4)/(-2,4)/(2,4)/(3,3)/(3,0)/(3,3)/(3,0)
+
+C. Sequences involving only edges of the top layer:
+1. Swap UF-UB, UR-UL: /(3,-3)/(3,-3)/(6,-2)/(3,-3)/(3,-3)/(2,0)
+2. Swap UF-UL, UR-UB: /(3,3)/(1,4)/(5,5)/(-3,0)/(3,3)/
+3. Cycle UF->UB->UR: (1,0)/(-1,2)/(-5,1)/(0,3)/(-3,0)/(5,2)/(-5,4)/(-4,0)
+4. Swap UF-UB:
+/(3,3)/(3,2)/(-4,2)/(-2,4)/(-2,0)/(-4,2)/(-5,1)/(3,0)/(3,3)/(0,-3)
+5. Swap UF-UR:
+/(3,3)/(-3,0)/(0,4)/(-2,4)/(-4,2)/(-1,0)/(3,3)/(0,4)/(-3,0)/(0,3)/(-1,2)/(-2,1)/(-1,0)
+6. Cycle UF->UR->UB->UL:
+/(3,3)/(1,0)/(2,2)/(0,2)/(4,4)/(2,0)/(2,2)/(-1,0)/(-3,-3)/(0,3)
+
+
+D. Sequences involving only corners, and where some of them change layer:
+1. Swap UFR-DFR, UBR-DBR, UBL-DBL, UFL-DFL: (4,0)/(2,2)/(-3,3)/(-2,-2)/(-1,-3)
+2. Swap UFL-DFL, UBR-DBR: (4,0)/(2,2)/(6,-2)
+3. Swap UFL-DBR, UBR-DFL: (-2,0)/(2,2)/(0,-2)
+4. Swap UFL-DFL, UFR-DFR: (6,5)/(-3,0)/(4,4)/(2,5)/(0,1)
+5. Swap UFL-DFR, UFR-DFL: (1,0)/(3,0)/(-4,2)/(-2,4)/(0,3)/(5,6)
+6. Swap UFL-DFL, UBR-DFR: /(3,0)/(6,2)/(4,0)/(-3,0)/(6,-2)/(-4,0)
+7. Swap UFL-DFR, UBR-DFL: (6,0)/(3,0)/(6,2)/(4,0)/(-3,0)/(6,-2)/(2,0)
+8. Swap UFR-UBR, UFL-DFR: (4,3)/(0,3)/(3,0)/(2,5)/(-5,4)/(3,0)/(5,3)
+9. Swap UFL-UBR, UFR-DFR: (0,5)/(0,3)/(0,3)/(-2,1)/(2,5)/(0,3)/(0,-2)
+10. Swap UFL-UFR, UBR-DFR: (-2,0)/(0,3)/(6,3)/(2,2)/(-2,1)/(-3,0)/(-4,6)
+11. Cycle UFL->UFR->DFR: (1,3)/(-4,0)/(6,3)/(0,4)/(-4,0)/(3,0)/(-3,3)
+12. Cycle UFL->UBR->DFR: (-5,0)/(3,0)/(5,2)/(-5,4)/(0,3)/(-1,2)/(-2,4)/(-4,6)
+13. Swap UFR-DFR:
+(-3,0)/(6,3)/(-1,4)/(-2,2)/(-4,4)/(-4,1)/(0,3)/(0,2)/(0,3)/(-2,4)/(-4,2)/(3,0)/(-3,4)
+
+E. Sequences involving only edges of both layers where they do not change
+layer:
+1. Swap UFR-UBL, UFL-UBR, DFR-DBL, DFL-DBR:
+(1,0)/(-1,5)/(3,3)/(1,1)/(-3,3)/(5,0)
+2. Swap UFR-UFL, UBL-UBR, DFR-DFL, DBL-DBR:
+(0,5)/(0,3)/(4,4)/(-3,3)/(2,2)/(0,-3)/(6,1)
+3. Swap UFL-UBR, DFL-DBR: (0,5)/(-2,4)/(2,-4)/(0,1)
+4. Swap UFL-UFR, DFL-DFR: (1,0)/(-3,0)/(2,2)/(1,-2)/(-1,0)
+5. Swap UFL-UBR, DFL-DFR: (-2,0)/(0,2)/(0,3)/(-4,0)/(4,0)/(6,3)/(-2,0)/(2,6)
+6. Swap UFL-UBR, UFR-UBL, DFL-DBR: /(3,3)/(-3,4)/(-2,4)/(-4,2)/(-4,3)/(3,3)/
+
+F. Sequences involving only edges of the top layer:
+1. Swap UFL-UBR, UFR-UBL: /(-3,3)/(-3,3)/(0,1)/(-3,3)/(-3,3)/(-1,6)
+2. Swap UFL-UFR, UBR-UBL: /(3,3)/(-3,0)/(4,4)/(2,5)/(3,3)/
+3. Cycle UFL->UBR->UFR: (-5,0)/(-4,5)/(4,1)/(-3,0)/(0,3)/(-4,2)/(-2,1)/(2,0)
+4. Swap UFL-UBR:
+/(3,3)/(-5,0)/(4,4)/(2,0)/(4,4)/(-2,5)/(3,3)/(0,5)/(-2,-2)/(5,0)
+5. Swap UFL-UFR:
+(0,3)/(1,2)/(3,2)/(-4,0)/(0,4)/(-4,3)/(5,4)/(6,3)/(2,0)/(-2,4)/(-4,2)/(6,-2)
+6. Cycle UFL->UBL->UBR->UFR:
+/(3,3)/(-5,0)/(4,4)/(2,0)/(4,4)/(-2,5)/(3,3)/(0,5)/(-2,-2)/(5,0)
+
+Copyright 2000 Jaap Scherphuis.
+Jaap's Puzzle Page:  http://www.org2.com/jaap/puzzles
+
+
+=====
+Jaap Scherphuis
+Visit the Psion Organiser II CM, XP & LZ Homepage:
+URL: http://www.org2.com      email: jaap@org2.com
+

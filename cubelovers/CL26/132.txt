@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar  9 14:01:38 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA29506
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 9 Mar 1999 14:01:37 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <714F77ADF9C1D111B8B60000F863155102DD6D3A@tbjexc2.tbj.dec.com>
+From: Norman Diamond <Norman.Diamond@dec-j.co.jp>
+To: cube-lovers@ai.mit.edu
+Subject: RE: Fwd: Request for spectacular cube-solving  -  Can anyone  help ?
+Date: Fri, 26 Feb 1999 09:24:41 +0900
+
+Christ van Willegen [c.v.willegen@spcgroup.nl] wrote:
+
+>We marked the colors of the cube with braille letters spelling
+>1 - 6 dots.
+
+I have a magic domino which was actually manufactured that way.
+Bought it from Christoph Bandelow about 13 years ago.
+
+Dr. Bandelow, you're on this list, right?  Were there ordinary Rubik's
+cubes with the same feature?
+
+(Question to self:  How can the words "ordinary" and "Rubik's"
+be placed next to each other in a sentence?)
+
+-- Norman.Diamond@dec-j.co.jp
+[Not speaking for Compaq]
+

@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Apr 27 21:05:47 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA29184
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 27 Apr 1999 21:05:47 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: "Chris and Kori Pelley" <ck1@home.com>
+To: "Tim Browne" <ue451@victoria.tc.ca>, <cube-lovers@ai.mit.edu>
+Subject: RE: Square-1 problem
+Date: Tue, 27 Apr 1999 20:50:46 -0400
+Message-Id: <LLBBJDCFCKLJHGBBOAGOMEFFCEAA.ck1@home.com>
+
+> -----Original Message-----
+> From: Tim Browne [mailto:ue451@victoria.tc.ca]
+> of this Machiavellian torture machine. :-) If anyone on this list knows
+> how to disassemble/reassemble the puzzle, I'd really appreciate it if you
+
+I know how to disassemble it!  First you get it into the original shape that
+it comes in, and turn 180 degrees.  Then you twist it about 22 degrees and
+pry out one of the dart (edge) pieces.  This can best be seen in a diagram,
+and I have a rough sketch at this address:
+
+http://members.home.net/chrisandkori/sq-disassem.jpg
+
+Once one piece is out, they all come out easily, similar to Rubik's Cube.
+Putting it back together is similar-- do the same thing in reverse.  The
+mechanism is really neat!
+
+Chris Pelley
+ck1@home.com
+

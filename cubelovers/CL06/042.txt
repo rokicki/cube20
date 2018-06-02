@@ -1,0 +1,18 @@
+Received: from note.nsf.gov (TCP 1202200024) by AI.AI.MIT.EDU 22 Jun 87 16:57:39 EDT
+To: Clive Dawson <AI.CLIVE@MCC.COM>
+cc: mtune!mtgzz!mtuxo!gertler@RUTGERS.EDU, cube-lovers@AI.AI.MIT.EDU
+Subject: Re: Give or Take 
+In-reply-to: Your message of Mon, 22 Jun 87 11:52:32 -0500.
+             <12312563719.54.AI.CLIVE@MCC.COM> 
+Date: Mon, 22 Jun 87 16:53:22 -0400
+From: Aaron Coles <acoles@note.nsf.gov>
+Message-ID:  <8706221653.aa29184@note.note.nsf.gov>
+
+In response to your question:
+
+    How can you start with 4, then take away 4, and have 8 remain?
+
+Here is my answer:  First you start off with 4 cows three in each row,
+                    then you take 4 cows aways, and then you have
+                    8 cows remaining.
+

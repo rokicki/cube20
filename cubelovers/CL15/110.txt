@@ -1,0 +1,111 @@
+From mouse@collatz.mcrcim.mcgill.edu  Mon May 15 16:16:34 1995
+Return-Path: <mouse@collatz.mcrcim.mcgill.edu>
+Received: from Collatz.McRCIM.McGill.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07931; Mon, 15 May 95 16:16:34 EDT
+Received: (root@localhost) by 2780 on Collatz.McRCIM.McGill.EDU (8.6.10 Mouse 1.0) id QAA02780 for cube-lovers@ai.mit.edu; Mon, 15 May 1995 16:16:29 -0400
+Date: Mon, 15 May 1995 16:16:29 -0400
+From: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Message-Id: <199505152016.QAA02780@Collatz.McRCIM.McGill.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: Re:  Is there a symbolic cube program?
+
+Back last November, Dave Eaton <devo@vnet.ibm.com> wrote
+
+> Is there a program that allows you to type in Singmaster-style moves
+> and then prints out the resultant state, something like this (not
+> actual results):
+
+> INPUT:   (R U2 R3 U2)2
+> OUTPUT:  (fur,drb,rdf) (fr,dr)
+
+I can't recall whether anyone offered such a thing or not.  I think
+there were some related programs, but nothing quite like this.
+
+Anyway, there is now. :-)
+
+Sample run:
+
+% twist
+> .set SLICER CUBER R' L
+`SLICER' defined
+> (SLICER U)4
+Cube:
+              u b u
+              l u u
+              u u u
+        l u l f f f r r r b u b
+        l l l f f f r r r b b b
+        l l l f d f r r r b d b
+              d f d
+              d d d
+              d b d
+Cycles: (ub)+ (ul)+ (fd)+ (bd)+
+Already centered
+> .set WRENCH LAST
+`WRENCH' defined
+> WRENCH U WRENCH U'
+Cube:
+              u b u
+              u u u
+              u f u
+        l l l f u f r r r b u b
+        l l l f f f r r r b b b
+        l l l f f f r r r b b b
+              d d d
+              d d d
+              d d d
+Cycles: (ub)+ (uf)+
+Already centered
+> (R U2 R3 U2)2
+Cube:
+              b u d
+              f u u
+              f u u
+        r r r u f b l l r f b u
+        l l l f f u r r r b b b
+        l l l f f f l r r b b b
+              d d u
+              d d d
+              d d d
+Cycles: (ul,ur,fr) (ulb,urf,flu,frd,bru)
+Already centered
+> SLICER U
+Cube:
+              u u u
+              f f f
+              u u u
+        f d f r r r b u b l l l
+        l l l f d f r r r b u b
+        l l l f d f r r r b u b
+              d b d
+              d b d
+              d b d
+Cycles: (u,b,d,f) (ub,bd,df,lu)+ (ur,uf)+ (ulb,ubr,urf,ufl)
+Centred: (ul,fu,fr,dr,br,ur,fd,fl,dl,bl) (ulb,fur,lfd,ldb)+ (ubr,frd,drb)+ (ufl)+
+> WRENCH CUBEU2 CUBEL WRENCH' (CUBEU2 CUBEL)'
+Cube:
+              u u u
+              l u u
+              u u u
+        l u l f f f r r r b b b
+        l l l f f r f r r b b b
+        l l l f f f r r r b b b
+              d d d
+              d d d
+              d d d
+Cycles: (ul)+ (fr)+
+Already centered
+> 
+
+The program is up for anonymous ftp from collatz.mcrcim.mcgill.edu in
+/games/cube/twist.c.  You have not a prayer of compiling it under
+anything but gcc as it stands, though I think it would be relatively
+easy (but perhaps rather ugly) to turn it into vanilla C.  But with gcc
+2.6.3, it builds fine for me on a Sun under SunOS 4.1.3 and a NeXT
+under NeXT release 2.1, and probably most other machines too.
+
+Read the comment header for a fuller description of its capabilities.
+
+					der Mouse
+
+			    mouse@collatz.mcrcim.mcgill.edu
+

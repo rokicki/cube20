@@ -1,0 +1,32 @@
+From mouse@collatz.mcrcim.mcgill.edu  Sat Aug 19 16:19:27 1995
+Return-Path: <mouse@collatz.mcrcim.mcgill.edu>
+Received: from Collatz.McRCIM.McGill.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12950; Sat, 19 Aug 95 16:19:27 EDT
+Received: (root@localhost) by 21939 on Collatz.McRCIM.McGill.EDU (8.6.12 Mouse 1.0) id QAA21939; Sat, 19 Aug 1995 16:19:15 -0400
+Date: Sat, 19 Aug 1995 16:19:15 -0400
+From: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Message-Id: <199508192019.QAA21939@Collatz.McRCIM.McGill.EDU>
+To: AirWong@aol.com
+Subject: Re:  5 X 5 X 5 Rubik's Cubes
+Cc: cube-lovers@ai.mit.edu
+
+> I am new to this list, and i would like to ask if anyone knows where
+> I can get a 5 X 5 X 5 Rubik's Cube.
+
+Can't help with this...unless you're in Montreal, in which case you
+might give Valet de Coeur a try.  I think that's where I got mine.
+
+> I have already mastered the 3 and 4 cubes, and I don't think that the
+> 5 will be much different.
+
+You're right; it won't.  If you can handle the 3-cube and 4-cube,
+you've got all the necessary skills.  About the only further challenge
+is the supergroup, where (for example) each face has a picture on it,
+so that the inner face cubies have to be positioned (and oriented, for
+the center cubie on an odd-sized cube) correctly.  I have never seen
+such a thing for cubes larger than 3x3x3, but I also have never
+bothered really looking for one.
+
+					der Mouse
+
+			    mouse@collatz.mcrcim.mcgill.edu
+

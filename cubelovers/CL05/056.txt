@@ -1,0 +1,53 @@
+Date: 1 Aug 1984 11:57-EDT
+From: Dan Hoey <hoey@NRL-AIC>
+Subject: Pocket cube program
+To: cube-lovers at mit-mc
+
+The UNIX-SOURCES@BRL mailing list recently forwarded this note from
+Usenet.
+
+    Date:     Tue, 31 Jul 84 13:47:22 EDT
+    From:     news@BRL-TGR.ARPA
+    Subject:  /usr/spool/news/net/sources/397
+
+    Path: brl-tgr!seismo!hao!hplabs!zehntel!ihnp4!ihnet!eklhad
+    From: eklhad@ihnet.UUCP (K. A. Dahlke)
+    Subject: solve the 2x2x2 Rubix cube in a minimum number of moves
+    Date: Mon, 30-Jul-84 10:49:48 EDT
+    Article-I.D.: ihnet.142
+    Organization: AT&T Bell Labs, Naperville, IL
+
+    After solving the Rubix cube 4 years ago, I turned my attention to
+    more interesting (and more difficult) questions.
+    How can one find the minimum path solution for an arbitrary position?
+    How far away is the farthest positions?
+    Is there one position diametrically opposed to start,
+    or does it fan out into billions?
+    Recently, I have started playing again, and have made some progress.
+    Here is a computer program (C/unix) which solves the 2x2x2 cube
+    in a minimum number of moves.
+    The 2 cube is not as common as the 3 cube, but it is commercially
+    available.
+    If you only have a 3 cube (standard), just ignore the sides and centers,
+    and use the corners.
+    This effectively simulates a 2 cube.
+    Thanks to ATT-BL for the use of their computing facilities.
+    Later versions may come, if i am ambitious.
+    Unfortunately, my program cannot be expanded to handle the 3 cube.
+    Nobody has that much memory/CPU time.
+    I will have to come up with something better.
+    Feel free to contact me with any ideas about this subject.
+
+----------------------------------------------------------------
+
+The note is followed by about 1000 lines of c code that I can make
+available if you want it.
+
+Unfortunately, the program seems to believe that there are 870 * 729 =
+634230 positions of the 2^3, while assiduous cube lovers realize the
+number is actually (7! / 2) * 3^6 = 2520 * 729 = 1837080 positions.
+The number 870 = 29 * 30 is strange.  I guess it is an approximation of
+6! + 5! + 4! + 3! + 2! = 872, since the code for encoding a position as
+an integer contains a table of those factorials.
+
+Dan

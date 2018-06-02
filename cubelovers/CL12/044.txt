@@ -1,0 +1,46 @@
+From @wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU  Mon Jul 18 10:44:30 1994
+Return-Path: <@wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25760; Mon, 18 Jul 94 10:44:30 EDT
+Message-Id: <9407181444.AA25760@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 6338; Mon, 18 Jul 94 10:41:50 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 7644; Mon, 18 Jul 1994 10:41:50 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Mon, 18 Jul 1994 10:41:49 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   God's Algorithm, Additional Level
+
+The following is for Q-turns only, whole cubes (both corners and
+edges), and not considering M-conjugates.  I think it would be
+possible to squeeze out another couple of levels by considering
+M-conjugates.  The best previous result I have found in the
+archives was through level 7 (reported on 7 December 1981, and again
+on 3 August 1992).
+
+            Distance              Number     Branching
+              from                  of         Factor
+             Start                Cubes
+
+
+                 0                      1
+                 1                     12     12.00
+                 2                    114      9.50
+                 3                  1,068      9.37
+                 4                 10,011      9.37
+                 5                 93,840      9.37
+                 6                878,880      9.37
+                 7              8,221,632      9.35
+                 8             76,843,595      9.35   (new)
+
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

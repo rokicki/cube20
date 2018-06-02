@@ -1,0 +1,11 @@
+Date:  9 Mar 1981 at 1721-CST
+From: korner at UTEXAS-11
+Subject: edge cubie rotation
+To: cube-lovers at mit-mc
+
+	does anyone have a nifty edge cubie rotation algorithm that doesn't
+do a di flip in the process. I'm getting tired of
+	f r 3(F R R F) R 3(U R R U) F
+	There must be something better- I just haven't found it.
+		-Kim Korner
+-------

@@ -1,0 +1,76 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug 24 17:55:26 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id RAA04071; Mon, 24 Aug 1998 17:55:26 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 24 Aug 1998 10:05:52 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: minimal maneuvers for E symmetric positions
+In-Reply-To: <199808220307.XAA10899@cauchy.math.brown.edu>
+To: michael reid <reid@math.brown.edu>
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <SIMEON.9808241052.A@GN209A.PSTCC.CC.TN.US>
+
+On Fri, 21 Aug 1998 23:07:24 -0400 michael reid
+<reid@math.brown.edu> wrote:
+
+> E  is the subgroup of cube symmetries consisting of rotations
+> (no reflections) that preserve the tetrad of corners  UFR,
+> UBL, DFL  and  DBR.  of course it preserves the other tetrad as
+> well.  there are 72 positions that have E symmetry:
+>
+>      each corner must remain in place, but can be twisted.
+>      corners in the same tetrad must be twisted in the same
+>      direction; therefore, by conservation of twist, adjacent
+>      corners are twisted in opposite directions.
+>
+>      the UR edge can go in any location in any orientation.
+>      this determines the location and orientation of all edges.
+>
+
+There are generally several different (equivalent) ways to
+characterize a subgroup of the cube symmetries.  For example, of
+the 48 symmetries, 24 of them are even and 24 of them are odd,
+and 24 of them are rotations and 24 of them are reflections.
+The E symmetries may be characterized as the intersection of the
+even symmetries with the rotational symmetries, and hence
+consist of the 12 even rotations.
+
+The 12 even rotations consist of the identity, the three 180
+degree rotations around the face axes (c_u2 around the U-D axis,
+c_f2 around the F-B axis, and c_r2 around the R-L axis), and the
+eight 120 degree rotations around the four major diagonal axes
+(c_urf and c_ufr; c_ufl and c_ulf; c_ulb and c_ubl; and c_ubr
+and c_urb).  It is the eight major axis rotations which give E
+its tetradic nature.
+
+In addition to the characterizations of the E positions which
+Mike gave (the corners must stay home, perhaps twisted, etc.),
+we can describe the E positions informally by the appearance of
+the faces.  Each face must have the same pattern as its opposite
+face, and each pattern must have the 180 rotational symmetry of
+the square.
+
+The hardest part (to me, at least) in thinking about what a
+position x with Symm(x)=E must look like is to subtract out or
+ignore those positions which are E-symmetric but which have more
+symmetry.  Indeed, many of the Symm(x)=E positions look very
+much like slightly broken versions of positions with stronger
+symmetry.  For example, #3 and #6 look like slightly broken
+6-spots.  #7, #10, and #12 look like slightly broken 6-H's.
+#1, #2, and #4 look like slightly broken Pons Asinorums.  Etc.
+
+This visual effect is the strongest if your cube adopts the
+"opposite faces differ by yellow" convention, so that white is
+opposite yellow, green is opposite blue, and red is opposite
+orange.  Your eye will then tend to identify white with yellow,
+green with blue, and red with orange.  With these
+identifications having taken place, most (if not all) of the
+Symm(x)=E positions look exactly like positions with more
+symmetry.
+
+----------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+

@@ -1,0 +1,34 @@
+From reid@math.berkeley.edu  Wed Apr 15 01:54:00 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA23176; Wed, 15 Apr 92 01:54:00 EDT
+Received: from phnom-penh.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA29772; Tue, 14 Apr 92 22:53:57 PDT
+Date: Tue, 14 Apr 92 22:53:57 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9204150553.AA29772@math.berkeley.edu>
+To: Cube-Lovers@ai.mit.edu, wft@math.canterbury.ac.nz
+Subject: Re:  God's algorithm
+
+> From: wft@math.canterbury.ac.nz (Bill Taylor)
+> Subject: God's algorithm
+
+> In rec.puzzles,  sijben@cs.utwente.nl (Paul Sijben) writes:
+> 
+> > As far a I know is the maximum number of moves requierd to solve The
+> > Cube is just over 30 (35 by the last count a year ago, and decending).
+> > Someone in the NKC (Nederlandse Kubus Club= dutch cube club) was busy
+> > working on a system hoping to reach god's algorythm. I can dig in my
+> > archives if anyone want more precice infomation.
+> 
+> Has anyone else heard anything of this business ?
+
+well, it's been kicking around in both rec.puzzles and sci.math lately.
+maybe you should ask if anyone has heard any follow-up to the above.
+i've sent away to the dutch cubists' club for membership and info,
+but they want payments in the form of international money orders
+(which probably means a good month or two delay).
+if/when i have some more info on this, i'll gladly share it with
+cube-lovers.
+
+mike
+

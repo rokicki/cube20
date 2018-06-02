@@ -1,0 +1,60 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Apr 30 20:25:46 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA07983
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 30 Apr 1999 20:25:46 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Apr 30 07:35:29 1999
+Date: Fri, 30 Apr 1999 12:33:43 +0100
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: whuang@ugcs.caltech.edu
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009D768E.2615E470.8@ice.sbu.ac.uk>
+Subject: RE: Reinventing (and some edge-flipping techniques)
+
+	I've just spent three days being a Rubik's Cube demonstrator at a trade
+fair, using the method given the my Step by Step solution in the middle of the
+fifth edition of my Notes.  The problems that Wei-Hwa Huang has described are
+ones that I found in trying to develop an easy method.  Basically there is no
+'simple' way to flip edges, where 'simple' means easily understood and
+remembered.  There are simple ways to move edges, move corners and twist
+corners.  Consequently I decided to get the edge orientations correct at the
+beginning of work on the last face, so that I wouldn't have to worry about what
+happened to the rest of the face.  In case you haven't got my notes at hand, I
+used  BLUL'U'B'  which is a simple conjugate of the commutator  [L,U].  This
+exchanges the four  U  corners as two pairs of exchanges and cycles three  U
+edge, but effectively flips two of them on the way.  Using the inverse process
+BULU'L'B'  does the same thing, but one of them effectively flips two adjacent
+edges and the other flips two opposite edges.  Two applications will flip all
+four edges.  Then we know simple processes which do 3-cycles or pairs of
+2-cycles of edges, preserving orientation, or of corners and we have simple
+processes for twisting corners.  So we could carry out these three steps in any
+order giving six possible algorithms and I'm pretty sure I received examples of
+all of these.  Indeed, of one considers doing the last face as having a fourth
+stage of orienting edges, there are 24 possible algorithms and at one point I
+was classifying algorithms into these 24 cases.  I don't think I kept up with
+this long enough to have all 24 cases, but I expect all of them exist!
+	Some personal comments and recollections, much of which is in my Notes.
+	The ideas of monotwist and monoflip, though blindingly obvious, took
+well over a year to emerge!  Despite the fact that lots of quite bright
+mathematicians were working on the cube (e.g. Conway, Penrose, Rubik), I
+remember first hearing about the idea in Jan 1980 (?) from Peter McMullen who
+said they were using the idea at Cambridge.  At first it seemed unreasonable as
+we generally were looking for moves that only affected the  U  face and the
+mono-moves are almost all elsewhere.  However once I realised that the idea
+gives a way of building simple moves, I realised that the commutator  [F,R]
+was a mono-move in the  L  face and its square was a mono-twist in the  L
+face.  The Cambridge group had been using shorter, but less simple, moves.
+With these mono-moves, it was now pretty easy to build the algorithm that is my
+Step by Step solution and I think I did it within a few weeks as I recall the
+5th ed. of my Notes was produced by March.  (Remebering dates from 20 years
+ago is always a bit dodgy - check what's in the Notes, which I don't have a
+copy of here.)
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

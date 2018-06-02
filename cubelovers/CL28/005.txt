@@ -1,0 +1,40 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep  2 18:21:12 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA16069
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 2 Sep 1999 18:21:10 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <m11Kiib-0003ZMC@fwd12.btx.dtag.de>
+Date: Sat, 28 Aug 1999 15:40:29 +0200
+To: Cube-Lovers@ai.mit.edu
+Subject: Rubik's 3x3x3 Cube - Pretty Patterns
+From: ronald.fletterman@t-online.de (Ronald L. Fletterman)
+
+Dear Cube Lovers,
+
+I just joined the cube lovers' society. So, here's a bit of a cv: I
+started Cubology after the first cubes were marketed in Germany. I'm a
+member of the NKC, the dutch cube club. Cube Lovers who are members
+too and read CFF, (standing for Cubism For Fun - the NKC's
+publication) know me either from meetings at the annual Cube Days or
+from the articles, I published in CFF.  Since I have a PC with an AMD
+K6-III/450MHz and 128 RAM, I can run Herbert Kociemba's "Cube Explorer
+and the add-on programme "Cube Optimizer", which re-activated my
+interest in Pretty Patterns by looking for new species and finding
+shorter manoeuvers of those that are in my almost 20 years old
+collection. The results are amazing: I discover entirely new Pretties
+and shorten lots of existing algorithms.
+Here are a few of my recent discoveries:
+R2 B2 U' L' B D' B R2 D2 L' F' D R2 U2  (14f*)
+D2 U L' B L2 B' L U' B D2 B2 U2 B' F' U2  (15f*)
+D F D R B L R U' B2 F' R2 B' U' B' F' U' F U' (18)
+U' F U2 F2 L' D2 B L2 D R F2 L' U' R2 B' F2 D' (17)
+If you are a hunter of Pretties, please let me know and my recent
+findings are yours! Obviously, I'd appreciate to be informed about
+cubological developments from other fellow Cube Lovers. 3x3x3, 4x4x4
+and 5x5x5 cube info's are welcome indeed.
+
+Cubology to you!
+Ronald Fletterman, a Dutchman living in Warburg, Germany.
+

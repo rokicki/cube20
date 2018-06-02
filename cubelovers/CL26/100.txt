@@ -1,0 +1,50 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Jan  5 19:59:00 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA18553
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 5 Jan 1999 19:59:00 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3692A126.3FA0@hrz1.hrz.tu-darmstadt.de>
+Date: Wed, 06 Jan 1999 00:32:54 +0100
+From: Herbert Kociemba <kociemba@hrz1.hrz.tu-darmstadt.de>
+Reply-To: kociemba@hrz1.hrz.tu-darmstadt.de
+To: cube-lovers@ai.mit.edu
+Cc: michael reid <reid@math.brown.edu>
+Subject: Your Optimal Solver
+
+Mike,
+
+I now have a Linux-partition on my PC and I compiled your optimal cube 
+solver on it. It really runs fast, about 30%-40% faster than my own
+optimal solver which uses the same coordinates. I then compiled your
+source code with the Microsoft Visual C++ compiler with similar results.
+(By the way, if there other users of the Wintel platform who are
+interested in Mikes program I could send the program code to the Cube
+Lovers Archives, its only 50KB).
+
+The main reason for the different performance is the fact, that during
+the tree search I only hold one cube in memory and I do not use an array
+for the cube-coordinates.
+But then I had another idea, which was not implemented in my program and
+which does not seem to be implemented in yours and which significantly
+increased the performance of my program (about 20%) with a few lines of
+code (but I think it only works in face-turn-metric):
+
+You use the lines similar to
+
+if (p_node[1].remain_depth<DIST) continue;
+
+which means tree pruning and we apply the next move in this depth.
+
+An analysis shows, that the case (p_node[1].remain_depth<DIST-1) also
+happens quite often (while p_node[1].remain_depth<DIST-n can never occur
+for n>1 except at the very beginning of the search). In this case, if we
+for example had applied the move R, we need not to check R2 and R' any
+more but we can continue with another axis.
+In the case of the quarter-turn-metric, if we had applied R, we still
+had to check R' because the distance of the two resulting states from
+start can differ by 2.
+
+Herbert
+

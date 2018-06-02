@@ -1,0 +1,40 @@
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU;  8 Jan 90 17:28:31 EST
+Received: from aic.aic.nrl.navy.mil by mintaka.lcs.mit.edu id aa24895;
+          8 Jan 90 17:25 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: Mon, 8 Jan 90 17:25:01 EST by aic.nrl.navy.mil id AA25339
+Date: 8 Jan 1990 16:55:06 EST (Mon)
+From: Dan Hoey <hoey@aic.nrl.navy.mil>
+Subject: Re: Cubism for Fun
+To: Peter Beck (LCWSL) <pbeck@pica.army.mil>, Cube-Lovers@ai.ai.mit.edu
+Message-Id: <631835706/hoey@aic.nrl.navy.mil>
+
+Peter, 
+
+    I'm still interested in seeing the CFF table of contents, though I
+might be subscribing to it, because you write
+
+    RUBIK'S CUBE IN 44 MOVES:  HANS KLOOSTERMAN
+
+Does that article actually show how to solve the cube in 44 moves?
+Even if they count half-turns as single moves, it is significantly
+better than the 52-move Thistlethwaite solution in Singmaster.  Also,
+Thistlethwaite was thinking of improving his method, and perhaps this
+is a report of it.  Or maybe it's just more rumor and conjecture, but
+it's nice to hear after all this time.
+
+I was making a few patterns over the weekend for some kids, and thought
+of some stuff I was thinking of trying out.  For instance, if you
+restrict a face to two colors, there are only about fifty different
+patterns, at least if you ignore handedness.  I wonder how many of them
+can be put on every face of the cube.  We know the ones with corners
+alternating colors are impossible.  We have some experience with some
+of the patterns--the X's, Crosses, Spots, T's, and H's--but that still
+leaves a large number of possibilities.
+
+My Christmas present to myself this year was to order Rubik's Cubic
+Compendium.  I hope to be able to report on that sometime soon.  It's
+always possible we may have a Cubic renaissance, though I'm not holding
+my breath.
+
+Dan

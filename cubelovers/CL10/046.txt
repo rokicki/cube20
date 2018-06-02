@@ -1,0 +1,55 @@
+From dik@cwi.nl  Wed Aug 25 16:10:23 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09414; Wed, 25 Aug 93 16:10:23 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA03291 (5.65b/3.10/CWI-Amsterdam); Wed, 25 Aug 1993 22:10:07 +0200
+Received: by boring.cwi.nl 
+	id AA14880 (4.1/2.10/CWI-Amsterdam); Wed, 25 Aug 93 22:10:06 +0200
+Date: Wed, 25 Aug 93 22:10:06 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9308252010.AA14880.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: CFF 32 table of contents
+
+Last Sunday (on Cube Day) I was handed issue #32 of Cubism For Fun.
+A summary the contents:
+
+1.  Short articles about the solution of the puzzle by Koos en Ton Verhoeff.
+    (I described the puzzle before and announced the solution by Jan de
+    Ruiter a few weeks ago.)
+2.  Articles about "Bob's Binary Boxes" by Hans Dockhorn and Bob Kootstra. *
+3.  Description by Harold Cataquet of "Alice"; a wooden packing puzzle.
+4.  Description by Wim Zwaan of a packing puzzle he entered in the "Hikimi
+    Wooden Puzzle Competition".
+5.  Article by Jan Verbakel about "Wirrel-Warrel" puzzles (it has a
+    different name in the US that escapes me).
+6.  Article by Tom Hilligers about "Kaos", a puzzle with balls in pipes.
+    The orientation of the pipes with respect to each other can change.
+7.  Article by Ronald Fletterman about pretty "sculptures" with Square 1.
+8.  A contest announcement by Bernard Wiezorke figuring the sliding puzzle
+    Vorsicht!  (I do not know whether it is available in the US.)
+9.  An article by Ralph Gasser about Orbik, a puzzle introduced by
+    Edward Hordern.
+10. Results of a number of contests.
+
+*   An interesting design.  These are wooden boxes with in it binary
+    switches.  On top a ball can be put in, on the bottom there are a
+    number of exits.  When a ball reaches a switch it passes the
+    switch in the given direction and puts the switch in opposite
+    direction.  The design is such that successive balls come out in
+    successive exits (in circular numerical order).  Bob Kootstra built
+    a few of those switches, but now is asking for an optimal design of
+    a box with 7 exits.
+
+CFF is a newsletter published by the Nederlandse Kubus Club NKC (Dutch
+Cubists Club).  It appears a bit irregular, but a few times a year.
+Yearly membership fee is now NLG 25.- (Dutch Guilders) which amounts to
+approximately $ 15.-.  Institutional membership is also possible.
+Information is available from the editor:
+	Gerald Maurice
+	Groen van Prinstererstraat 7-2
+	1051 ED  Amsterdam
+	The Netherlands
+	Phone: +31206822943
+	E-mail: gm@phys.uva.nl
+

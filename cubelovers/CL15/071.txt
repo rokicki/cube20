@@ -1,0 +1,15 @@
+From ChadL39788@aol.com  Tue Mar 21 16:04:21 1995
+Return-Path: <ChadL39788@aol.com>
+Received: from mail04.mail.aol.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA15262; Tue, 21 Mar 95 16:04:21 EST
+Received: by mail04.mail.aol.com
+	(1.37.109.11/16.2) id AA130564273; Tue, 21 Mar 1995 14:31:13 -0500
+Date: Tue, 21 Mar 1995 14:31:13 -0500
+From: ChadL39788@aol.com
+Message-Id: <950321143111_56421409@aol.com>
+To: cube-lovers@life.ai.mit.edu
+Subject: Rubic's Revenge
+
+Are there any computer programs available to help me solve the Rubic's
+Revenge I bought in Japan?  I know the basics for the first three rows, but
+not the final side.
+

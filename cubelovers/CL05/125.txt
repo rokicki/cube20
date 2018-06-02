@@ -1,0 +1,14 @@
+Received: from nrl-aic (TCP 3200200010) by AI.AI.MIT.EDU 13 Nov 86 15:00:34 EST
+Date: 13 Nov 1986 13:16:44 EST (Thu)
+From: Dan Hoey <hoey@nrl-aic.ARPA>
+Subject: Magic
+To: acw%WAIKATO.S4CC.Symbolics.COM@scrc-stony-brook.ARPA, jr@bbncc5.ARPA,
+        alatto@bbncc5.ARPA, cube-lovers@mit-AI.ARPA
+In-Reply-To: <861106181326.6.ACW@ROCKY-MOUNTAINS.S4CC.Symbolics.COM>
+Message-Id: <532289805/hoey@nrl-aic>
+
+    Date: Thu, 6 Nov 86 18:13 EST
+    From: Allan C. Wechsler <acw@WAIKATO.S4CC.Symbolics.COM>
+
+    ... Here is my model.  It might be wrong.
+

@@ -1,0 +1,33 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Sep  1 22:33:57 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id WAA05860; Mon, 1 Sep 1997 22:33:57 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From SCHMIDTG@iccgcc.cle.ab.com Mon Sep  1 16:35:03 1997
+From: SCHMIDTG@iccgcc.cle.ab.com
+Date: Mon, 1 Sep 1997 16:32:10 -0400 (EDT)
+To: cube-lovers@ai.mit.edu
+Message-Id: <970901163210.20217b13@iccgcc.cle.ab.com>
+Subject: Re: Open and Closed Subgroups of G
+
+I'd like to thank Jerry for taking the time to put together his 
+message discussing basic group theory as it applies to the cube as
+well as the basics of Thistlewaite's algorithm.  Although I consider
+myself somewhat beyond the "layman" level in this area, I'm not
+always able to follow the various posts to this group.  Besides,
+it's also helpful to read a little "refresher" every now and then
+to help reinforce and clarify previously digested concepts.
+
+It might also be helpful for someone to cover the basics of cube
+parity.  Although I think I understand the basic group theoretic
+concepts of permutation parity, the asymmetry of the marked faces
+of the cube have never quite left me feeling comfortable about
+how this concept is applied to the cube.  Hofstadter, covers this,
+but does not discuss it in enough detail for one to fully grasp
+the concept.
+
+Regards,
+
+-- Greg Schmidt
+

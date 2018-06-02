@@ -1,0 +1,105 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Jan 18 11:54:12 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27651; Wed, 18 Jan 95 11:54:12 EST
+Message-Id: <9501181654.AA27651@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 5427; Wed, 18 Jan 95 11:53:36 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 7576; Wed, 18 Jan 1995 11:53:35 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 18 Jan 1995 11:53:21 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@life.ai.mit.edu>
+Subject:   Re: Re: Models for the Cube
+In-Reply-To: Message of 12/10/94 at 15:12:00 from ,
+           Martin.Schoenert@math.rwth-aachen.de
+
+Both the original note and the reply were rather lengthy, so I will
+not quote the whole thing.  We were at the point where we were
+discussing models for cubes with edges only.  Such a cube can be
+modeled as a set of cosets of C, or as a subset of G or of CG.  We
+arrived at the following dialog which discussed the correspondence
+between the two kinds of models.
+
+On 12/10/94 at 15:12:00 Martin Schoenert said:
+
+>Jerry continued
+
+>    A similar argument applies to G[E]/C[E] except that we have to fix
+>    an edge cubie instead of a corner cubie.
+
+>Almost.  But there is a tricky problem here.  Again G[E] = CG[E],
+>so it doesn't matter whether we talk about G[E]/C[E] (as you prefer)
+>or about CG[E]/C[E] (as I prefer).  Again we can find a supplement
+>for C[E] in CG[E], namely the subgroup of all elements of CG[E]
+>that leave a particular edge cubie fixed.  Assume that we fix the
+>upper-right edge cubie, then this supplement is <L[E],D[E],F[E],B[E]>.
+
+>But this does *not* respect costs.  That is take an element e of CG[E].
+>Let r be its representative in <L[E],D[E],F[E],B[E]>, i.e., c e = r,
+>where c is a rotation of the entire cube.  The the costs of the two
+>elements, viewed as elements of CG[E] is clearly the same (remember,
+>rotations cost nothing).  But the cost of r, viewed as an element of
+><L[E],D[E],F[E],B[E]> *with this generating system*, may be higher.
+
+Indeed, *is* higher a large percentage of the time, I think.
+
+>For example take R[E] * r[E]' (where r is the rotation of the entire
+>cube).  In CG[E] this element has cost 1.  And this element lies in
+><L[E],D[E],F[E],B[E]>, since it fixes the upper-right edge cubie.
+>But the cost of this element *with respect to the generating system
+>L[E],D[E],F[E],B[E]* is not 1.
+
+>We can repair this by choosing a different generating system for
+><L[E],D[E],F[E],B[E]>, for example the system
+>L[E],D[E],F[E],B[E],R[E]*r[E]',U[E]*u[E]'.
+
+>So in general a model for the solution up to rotations for a
+>certain set <orbits>, is a supplement of C[<orbits>] in CG[<orbits>],
+>with a generating system that respects costs.
+
+I guess I need to understand a little more precisely what we mean
+by "respecting costs", but I have a question here.  I was thinking
+about this issue of representing edges only cubes by cosets vs.
+representing edges only cubes as subsets of G before your note arrived,
+and I thought I saw a problem.
+
+It is well known that G[E] must have an equal number of even and
+odd permutations.  If we generate G[E] as <Q[E]>, it is also the case
+that there are just as many positions an even distance from Start as
+an odd distance from Start because the parity of the distance from
+Start is the same as the parity of the permutation if we restrict
+ourselves to quarter turns.
+
+But in the computer search for God's Algorithm for edges only cubes,
+there were not equal numbers of positions an even distance from Start
+as an odd distance from Start.  The computer search used the coset model
+G[E]/C[E], where this notation means the set of cosets of C, *not* the
+factor group.  In and of itself, the mismatch between the number of
+positions at an even distance from Start and at an odd distance from
+Start should not pose a problem.  It is not clear to me what it means
+to speak of the "parity" of a coset of C, and half of each coset will
+be even and the other half will be odd.  Hence, it is not clear that
+a particular coset must *a priori* be an odd or even distance from
+Start.
+
+But if we map each coset to an element of G[E], it is meaningful to
+speak of the parity of the element of G[E].  And if the elements of
+G[E] to which we map the cosets form a subgroup, then there must be an
+equal number of odd and even elements in the subgroup
+(unless they are all even?!).  If the mapping respects
+costs in the sense of maintaining the same distance from Start, then
+I don't understand how we can avoid a conflict between the equal
+number of even and odd permutations in the subgroup of G[E] and
+the unequal number of even and odd distances from Start in the coset
+model G[E]/C[E].
+
+Perhaps you could clarify your generating system and its respecting
+of costs a bit further?
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

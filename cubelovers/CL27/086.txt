@@ -1,0 +1,39 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue May 11 13:03:08 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA20945
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 11 May 1999 13:03:08 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: WaVeReBeL@webtv.net
+Date: Fri, 7 May 1999 13:52:12 -0700 (PDT)
+To: Cube-Lovers@ai.mit.edu
+Subject: "Negative" Turning
+Message-Id: <11000-3733527C-9578@postoffice-123.bryant.webtv.net>
+
+When the cube locks up on me, I have to turn the layer in the opposite
+of the desired direction anywhere from a little jiggle to over 90 degrees in
+order to straighten out the pieces.  I'm sure all of you have to do this
+too.  I'm calling it "negative" turning.  Is there another term for
+this?  I do this rather unconsciously now.
+
+All this locking up wastes time, especially with numerous unsuccessful
+efforts.  I'm guessing when fractions of seconds count, time spent
+fixing could be spent doing more turns.
+
+I'm wondering, do any of you perform negative turning before starting
+any turns to prevent a lock up before it starts rather than try and fix
+it after it happens?  Or do you incorporate these negative movements
+within combos in anticipation of frequent sticky situations?  When
+practicing frequently used combos I have incorporated negative turns
+into them with some success.  Does anyone do this to all moves?  It
+would take a long time to achieve this w/ all of my combos, so I'm
+looking for someone who has.  Would it take longer to do combos w/
+negative moves "built in", or just fix the problem when in comes.  Or
+maybe there is someone out there who makes turns so accurately he never
+experiences this.
+
+Thanks.
+
+-Alex Montilla-
+

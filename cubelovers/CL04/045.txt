@@ -1,0 +1,76 @@
+Date:  9 Jun 1982 1001-PDT
+From: ISAACS at SRI-KL
+Subject: S&M and other moves
+To: cube-lovers at MIT-MC
+
+BACKGROUND
+    On the 3^3, many people use variants of a 3-cycle of edges,
+more-or-less as follows:
+
+      let Rs = Right slice = R'L + roll cube so front is up
+
+      T  (for tri-cycle?) = Rs U2 Rs' U2  = (UF,DF,UB)  
+                                  to cycle 3 edges on a slice
+
+Some people use it in the form
+      R2 D' - T - D R2 = (UF,UR,UB) to get 3 on a face, without
+
+flips, and some use
+
+      Rs' U - T - U' Rs = Rs' U Rs U2 Rs' U Rs = (UF,LU,RU)
+
+for 3 on a face, with flips, since it saves a move due to 
+
+       U2 U' = U.
+END BACKGROUND
+
+   Now, this move, when transferred to the 4^3, seems to be the basis
+of both Richard Pavelle's "S" move of 16-May, and Bernie Cosell's "M"
+move of 17-May (Bernie using a left slice version of the third form).
+   The move Roger Frye describes on 7-June is also the same as this
+(re-oriented to a different face), and so is the "quite long" tool I
+use.  To move only edges requires S3, and to move only centers
+requires S5!!!  I still would like a "nice" (preferably short) center
+pair move.
+
+SPOILER          SPOILER             SPOILER
+
+We have now several 3-cycles:
+
+ (UBl,UFr,LDf)  =  U2 f' D f - U2 f' D' f      (from Minh Thai's book)
+
+ (UFl,BUl,RUb)  =  l' - R U R' U' - l - U R U' R' (Minow, 6-June)
+
+ (RDf,URf,UFl)  =  R' d R - U' - R' d R - U       (Frye, 7-June)
+
+    Note that all of these have corresponding 3-cycles of centers, by
+simply substituting a slice for its' corresponding edge in each of the
+moves.  For instance, in Thai, substitute d for D; in Minow, r for R,
+etc. There is also a version which cycles an edge an center together,
+by rotating the appropriate face and slice together.
+    In fact, it looks as though any simple move on the 4^3 will have a
+left and right version, a forward and back version, and a slice and
+edge version or two, along with combinations of these.  Is there any
+way to put these into a canonical form so we can recognize related
+moves?  What about canonical form on the 3^3?
+    One more spoiler: to switch opposite centers (all 4 cubies):
+
+  (F,B)  = (r2 U2 l2 U2)3.
+
+END SPOILER          END SPOILER        END SPOILER
+
+    Can the notation be usefully extended so as to talk about UB as
+the pair of upper back edges, F as the front 4 center cubies, and Fu
+as the upper two of F, etc.  It might make notating the permutations
+easier.  Is there any notation to make various repeats easier;  for
+instance, some expansion of "squared" to indicate  "primed"
+(commutator) type repeat, or a repeat with all quarter twists in the
+opposite direction.  Maybe (  )2 means repeat; (  )i2 means repeat
+with sub-parts "primed", and (  )-2 repeats with qtws opposite.  The
+purpose is to try to make it more obvious what each move is really
+doing, and to be able to compare moves easier.
+    Has anybody given any thought to notation the 5^3?
+    By the way, if Bill Mann is listening, would you describe your
+transform (mentioned by Edmond on 23-May)?
+---  Stan
+-------

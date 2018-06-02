@@ -1,0 +1,32 @@
+Date: 1 Aug 1980 12:20 PDT
+From: Lynn.ES at PARC-MAXC
+Subject: Re: Sorry to spoil your day, but.....
+In-reply-to: RP's message of 31 JUL 1980 1431-EDT
+To: RP at MIT-MC (Richard Pavelle)
+cc: CUBE-LOVERS at MIT-MC
+
+2)  Another TRUE story of rubiking:
+
+The May Company department stores in the Los Angeles area held contests at
+four of their stores when they started carrying the cube, a couple of months
+ago.  The object was to solve one face in three minutes with their scrambled
+cube.  Reward was a 50 buck gift certificate.  They allowed about 6 people every
+fifteen minutes to enter for two days.  The store where I won (and my 10 year
+old daughter, my wife, and three of my next door neighbors) had 21 winners.  I
+assume the other three stores had similar numbers.  They also gave away lots of
+cube tee shirts for "good tries".
+
+I got my cube the night before the contest.  But it took me another month to
+solve the whole thing.  I might have worked faster at it if the megabuck prize
+had been offered.  But then you all would have also.
+
+4) Singmaster (edition 4, p. 34) reports on the Rubik domino (2x3x3 cubies), and
+says each cubie has spots like a domino (1 up to 9).  They are to be lined up in
+numeric order.  Top and bottom (the 3x3 faces) are two different colors.
+Unfortunately, Singmaster laments, magic square type patterns (all directions add
+to same number) are not possible, since all edges are even, all corners odd.  The
+mechanics of the device are said to be "more complicated than for the Magic
+Cube."
+
+/Don Lynn
+

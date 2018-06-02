@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug 18 18:37:28 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA03449; Mon, 18 Aug 1997 18:37:28 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Hoey@AIC.NRL.Navy.Mil Mon Aug 18 18:16:31 1997
+Date: Mon, 18 Aug 1997 18:16:18 -0400
+Message-Id: <199708182216.SAA00604@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: kociemba@hrz1.hrz.th-darmstadt.de
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <33F6AA41.3C98@hrz1.hrz.th-darmstadt.de> (message from Herbert
+	Kociemba on Sun, 17 Aug 1997 09:37:37 +0200)
+Subject: Re: isoglyphs
+
+Herbert Kociemba asks:
+
+> Could someone tell me, what chiral and achiral exactly mean?
+
+"Chirality" is Lord Kelvin's word for "handedness" as in "appearing in
+two mirror-image varieties."
+
+A "chiral isoglyph" is one in which the handedness of the glyph is
+taken into account in testing for isoglyphy,* so that the glyph
+appears only in one variety.  Neither Mike's original isoglyph nor the
+                                                       *..     ..*
+two you found are chiral isoglyphs--they all have both *** and *** .
+                                                       ***     ***
+
+Mike used "achiral" for an isoglyph that fails to be a chiral
+isoglyph, though I would tend to use "non-chiral".  I would rather use
+"achiral" for a situation that lacked chirality, as in an isoglyph of
+a mirror-symmetric glyph.
+
+[* Thanks to Allan Wechsler for inventing the word "isoglyphy".  His
+   alternate term, "isoglyphism", is still looking for a good use. ]
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

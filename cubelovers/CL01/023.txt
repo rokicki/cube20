@@ -1,0 +1,15 @@
+Date:     5 December 1980 1848-est
+From:     David C. Plummer           <Plummer.SIPBADMIN at MIT-Multics>
+Subject:  That 28 move Plummer Cross
+To:       Cube-Lovers@MIT-MC
+
+Something I noticed about that 28 move algorithm to get to the Plummer
+Cross.  Any twist can be the first one made to take the Cross back to
+home.  The last instructions are (UU DD) which can obviously be (UU D'D'),
+(DD UU), and (DD U'U'), so possible backward applications of the
+algorithm can start with U,D,U',D'.  Add in the three way rotation
+symmetry of the cross and you can get all 12 moves as viable first
+moves.  So, any move takes you closer to home (by this algorithm), so it
+has the chance of being the most distant from home.  This requirement
+(any moves takes you closer) was mentioned by ALAN some time ago.  (I
+don't hold that the Plummer Cross is the most distant.)

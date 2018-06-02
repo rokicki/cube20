@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 20 16:12:54 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA13881; Wed, 20 Aug 1997 16:12:53 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From reid@math.brown.edu Wed Aug 20 14:55:47 1997
+Message-Id: <199708201852.OAA00834@life.ai.mit.edu>
+Date: Wed, 20 Aug 1997 14:57:28 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re:  Mike Reid's Cube Program
+
+mark longridge writes
+
+> I've updated my web page to include Mike Reid's cube program.
+
+this is my sub-optimal solver, i.e. kociemba's algorithm, which
+can handle either quarter turns or face turns.  (it's not yet
+in its final form, but that may take a while.)
+
+to those who are interested in my optimal solver, it will be
+available soon.  it requires about 85 megabytes, so your computer
+will need at least that much RAM.
+
+mike
+

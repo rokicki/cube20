@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Dec 16 13:02:37 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA17548
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 16 Dec 1998 13:02:37 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v04020a00b29ca31d7c8f@[207.172.132.155]>
+In-Reply-To: <3675637C.6231@sgi.com>
+Date: Tue, 15 Dec 1998 18:41:19 -0500
+To: Cube-Lovers@ai.mit.edu
+From: Charlie Dickman <charlied@erols.com>
+Subject: Re: re-assembling a 2x2x2?
+
+>Well, I accidentally managed to pop apart my Rubik's Mini-Cube,
+>aka the 2x2x2...  Are there any easy instructions on getting it
+>back together?  I'd rather not force it...
+
+You should use a small Phillips screwdriver to remove one of the triangular
+flanges that forms the tracks that the "cubies" ride in. Then, put the
+"cubie" pieces in place and then g_e_n_t_l_y spread the space between the 4
+"cubie" surfaces that hide the stump that holds the triangular flange and
+put the screw back in.
+
+Be careful not to break the shaft between the cubie face and its anchor.
+
+
+Charlie Dickman
+charlied@erols.com
+

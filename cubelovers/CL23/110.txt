@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug 15 16:56:00 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA17814; Fri, 15 Aug 1997 16:56:00 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Hoey@AIC.NRL.Navy.Mil Fri Aug 15 15:27:45 1997
+Date: Fri, 15 Aug 1997 15:27:33 -0400
+Message-Id: <199708151927.PAA03768@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: reid@math.brown.edu
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <199708150145.VAA22661@life.ai.mit.edu> (message from michael
+	reid on Thu, 14 Aug 1997 21:50:27 -0400)
+Subject: Re: isoglyphs
+
+Mike,
+
+I'm glad you like glyphs, and I'd also like to know about the other
+isoglyphs (by which I don't want to minimize my interest in the wealth
+of optimal processes you've been producing!).  In particular, we've
+seen isoglyphs with all corner types except D (which we know is
+impossible) and with all edge types.  So we might wonder if all the
+glyph types not involving corner type D are achievable.  But I know
+there is no isoglyph of type 4D (stripe).  Are there others?
+
+One superset of the isoglyphs that might be worth looking is the
+partial isoglyphs, in which all faces are either the same glyph or
+blank (type 00).  This allows corner type D (laughter is
+4 type D4 + 2 type 00).  These even come in continuous varieties
+(slice is 4 type 4D + 2 type 00).  Is there a partial isoglyph pattern
+for every glyph?
+
+And what about chiral partial isoglyphs, for which isoglyphicity is
+redefined to require the same handedness for orientable patterns?  I'm
+pretty sure all the isoglyphs we've seen so far are chiral, but are
+there isoglyphs achievable only non-chirally?
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

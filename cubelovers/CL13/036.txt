@@ -1,0 +1,35 @@
+From dik@cwi.nl  Mon Oct 31 18:14:47 1994
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20716; Mon, 31 Oct 94 18:14:47 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id <AA29366@cwi.nl>; Tue, 1 Nov 1994 00:14:46 +0100
+Received: by boring.cwi.nl 
+	id AA06573 (5.65b/3.8/CWI-Amsterdam); Tue, 1 Nov 1994 00:14:45 +0100
+Date: Tue, 1 Nov 1994 00:14:45 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9410312314.AA06573=dik@boring.cwi.nl>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re:  Speed Cubing Path Lengths
+
+ > I have received several private E-mail messages indicating that
+ > the algorithms used by speed cubists solve the cube in 50 or
+ > 60 moves.  On the one hand, that seems astonishingly good to me,
+ > being fairly close to the solutions from early Thistlethwaite
+ > programs.  On the other hand, it is roughly double (depending, I
+ > suppose on whether H-turns are counted or not) what is probably
+ > the true God's Algorithm.  Hence, it doesn't tell us much about
+ > God's Algorithm except that the speed cubists are very, very
+ > good.
+
+The best current algorithm has a proven upperbound of 37 turns (q
+and h).  God's Algorithm is probably much shorter.  In fact the
+program that implements Kociemba's algorithms has not yet found
+a configuration (out of many thousands random configurations
+tested) that could not be solved in 20 turns or less.  If we look
+at distributions for similar puzzles it is expected that more than
+one in three configurations requires the maximum number of turns
+minus 1 or 2.  So I expect God's Algorithm to be at most 22 turns.
+Still a long way to go.
+
+dik
+

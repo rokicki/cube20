@@ -1,0 +1,162 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Apr 27 18:00:36 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA28553
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 27 Apr 1999 18:00:35 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 27 Apr 1999 15:07:29 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Conjugation done right [Re: Inventing your own techniques]
+To: Cube Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <SIMEON.9904271529.A@GN209A.PSTCC.CC.TN.US>
+
+On Thu, 08 Apr 1999 19:45:22 -0400 (EDT) Dan Hoey <Hoey@AIC.NRL.Navy.Mil> wrote:
+
+> Jerry Bryan wrote:
+>
+> > A process of the form Y'XY is called a conjugate, and in particular is called
+> > the conjugate of X by Y.  Note that YXY' is also a conjugate, and in particular
+> > is called the conjugate of X by Y'.  This can be a little confusing because a
+> > few books (incorrectly in my opinion) call YXY' the conjugate of X by Y.
+
+  ... and Dan wrote:
+
+>
+> I tried to explain this a while ago, but I guess it didn't quite work.
+> One form of conjugate is right, and the other form is wrong, but just
+> which is right depends on how you write function composition.
+
+My apologies for leaving out a couple of things in my note about conjugation
+and commutators.  But if I hadn't left them out, I doubt that we would have
+received Dan's very nice little message about rightward and leftward
+composition.
+
+I should have mentioned the rightward vs. leftward composition issue. As Dan
+points out, it is certainly the case that Y'XY can be correct in one book while
+YXY' can be correct in another.  However, what I *meant* to say was that I had
+seen books in which (unless I was missing something obvious) the author's
+definition of conjugation did not correspond to the author's composition
+direction.
+
+All I was really trying to say was that irrespective of the author's chosen
+direction, YXY' and Y'XY are both conjugates.  It's just that in one case, you
+have the conjugate of X by Y and in the other you have the conjugate of X by
+Y', and which is which depends on the right vs. left system the author is using.
+
+I cited the reason "X shifted by Y" as a reason for preferring the conjugate of
+X by Y to be Y'XY in the Cube-Lovers system.  I should also have mentioned the
+homomorphism vs. antihomomorhism issue.  There are two reasons for preferring
+Y'XY to YXY' for the conjugate of X by Y in the Cube-Lovers system, and
+regrettably I only mentioned one of them.  Homomorphism is the other.
+
+Dan covered the homomorphism issue extremely well, so I would like to make some
+additional comments about the "X shifted by Y" interpretation of conjugation.
+
+Let us suppose that we have a maneuver
+
+    A = L2 F2 L2 U  L' R B R2 D2 R2 B' L R' U'
+
+which flips the uf cubie and the df cubie while leaving the rest of the cube
+unchanged (the rest of the cubies are said to be fixed by A). The uf and df
+cubies are the edge cubies which are in the middle of the top row and the
+middle of the bottom row of the front face, respectively. (The given maneuver
+for A is minimal in the face turn metric, but the exact maneuver doesn't matter
+for our purposes.)
+
+Suppose that instead we want to flip the ul cubie and the df cubie.  A maneuver
+which will do so is U'AU.  The U' move brings the ul cubie into the uf cubie's
+place while leaving the df cubie where it was.  The A maneuver flips the
+*contents* of the uf cubicle which is now the ul cubie and flips the df cubie
+as usual.  The U moves returns the (now flipped) ul cubie to the ul cubicle.
+
+We might write the actions of the A maneuver as follows:
+
+     A:  uf ->  fu  (flips the uf cubie)
+         df ->  fd  (flips the df cubie)
+
+We might write the actions of the U  and U' moves on the edge cubies as follows:
+
+     U:  uf ->  ul          U':  uf -> ur
+         ul ->  ub               ur -> ub
+         ub ->  ur               ub -> ul
+         ur ->  uf               ul -> uf
+
+Hence, if we just consider the AU part of U'AU, we have that the uf cubie goes
+to fu which in turn goes to lu.  (If U performs uf -> ul, then it equivalently
+performs fu -> lu).  So the uf cubie is carried to the ul cubicle and flipped
+to be lu.  This is the general idea of what we want (to flip the cubie which is
+in the ul cubicle), but it is the wrong cubie in the ul cubicle.  So preceding
+AU by U' "cancels" the movement of the cubie (and also the movement of all the
+other cubies) and retains only the flip of the cube.  The net result is that the
+cubie which is flipped is shifted from being the uf cubie to being the ul cubie,
+as desired.  A is shifted by U, which is what we wanted.
+
+It should be clear that UAU' flips the ur and the df cubies.  UAU' flips the ur
+rather than the uf cubie, which we can describe as saying that A has been
+shifted by U'.
+
+Essentially any two edge cubies can be flipped by variations on this basic
+theme.  Our next example will involve whole cube moves.  We denote the whole
+cube move of grasping the right face and turning the whole cube clockwise and
+counterclockwise by c_R and c_R', respectively.  So c_R' would bring the bu and
+fu cubies into the uf and df cubicles (respectively), A would flip them, and
+c_R would return them to their original locations.  The net result is that the
+maneuver (c_R' A c_R) flips the bu and the fu cubies.
+
+It is standard on Cube-Lovers to denote the 24 rotations of the cube by C, and
+we might write a C-conjugate as c'Ac where c is some fixed but arbitrary
+element of C.  c_R and c_R' are just two particular elements of C.  Working
+with a real cube, you probably wouldn't even think about C-conjugation in this
+particular context  --  you would just do it.  That is, if your hands knew how
+to perform the A maneuver to flip the uf and df cubies, and if you needed to
+flip two edge cubies which were on opposite sides of the same face, you would
+just rotate the whole cube in space to bring the two cubies which needed to be
+flipped into the uf and df locations and then you would perform the A maneuver
+--  simpler to do than to describe.
+
+It is more common on Cube-Lovers to talk about M-conjugation than to talk about
+C-conjugation, where M is the group of 24 rotations and 24 reflections of the
+cube.  C is a subgroup of M.  So c_R and c_R' just as well elements of M as
+they are of C, and our (c_R' A c_R) maneuver is a good example of
+M-conjugation.  M-conjugation lets us deal with reflections in addition to
+rotations, which in effect means it let's us treat clockwise and
+counterclockwise moves as equivalent when appropriate for symmetry purposes.
+
+But when we are dealing with whole cube rotations of a real cube, we are just
+dealing with C-conjugation.  In the case of our A maneuver, C-conjugation means
+that c'Ac lets us flip any two cubies anywhere on the cube which are opposite
+edge cubies on the same face of the cube.
+
+Finally, whole cube rotations are a convenient way to apply the maneuver A to
+any face of a real cube.  But mathematically, we really do not have to perform
+whole cube rotations.  We can use C-conjugation (and more generally,
+M-conjugation) to apply the "same" maneuver to a different face.  Consider
+again (c_R' A c_R).  If we write out A, we get
+
+     c_R' (L2 F2 L2 U  L' R B R2 D2 R2 B' L R' U') c_R
+
+But the maneuver (c_R c_R') is equal to the identity, so we can insert it between
+each face move thusly.
+
+    c_R' L2 (c_R c_R') F2 (c_R c_R') L2 (c_R c_R') U (c_R c_R')  etc.
+
+Now, we can re-associate thusly so that we have the c_R-conjugate of each face
+turn.
+
+    (c_R' L2 c_R) (c_R' F2 c_R) (c_R' L2 c_R) (c_R' U c_R) etc.
+
+Finally, if we actually perform the calculations, we discover that conjugation
+by c_R leaves L, L', L2, R, R', and R2 alone; it takes F, F', and F2 to U, U',
+and U2, respectively; it takes U, U', and U2 to B, B', and B2, respectively;,
+it takes B, B', and B2 to D, D', and D2, respectively; and it takes D, D', and
+D2 to F, F', and F2, respectively.  Hence, conjugation by r_C gives us a
+maneuver to flip the bu and fu cubies thusly.
+
+            A = L2 F2 L2 U  L' R B R2 D2 R2 B' L R' U' (flip uf and df)
+   c_R' A C_R = L2 U2 L2 B  L' R D R2 F2 R2 D' L R' B' (flip bu and fu)
+
+----------------------------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+

@@ -1,0 +1,74 @@
+From ncramer@bbn.com  Sun May 12 17:18:48 1991
+Return-Path: <ncramer@bbn.com>
+Received: from LABS-N.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA19875; Sun, 12 May 91 17:18:48 EDT
+Message-Id: <9105122118.AA19875@life.ai.mit.edu>
+Date:     Sun, 12 May 91 17:12:57 EDT
+From: Nichael Cramer <ncramer@bbn.com>
+To: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+Cc: Cube-Lovers@life.ai.mit.edu
+Subject:  Re: 5by cubes
+
+>Date: Sat, 11 May 91 03:47:40 -0400 (EDT)
+>From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+>To: Cube-Lovers@life.ai.mit.edu
+>Subject: Re: 5by cubes
+>Cc: Cube-Lovers@life.ai.mit.edu
+>
+>(Don't read if you don't want!)
+
+Ditto!   ;)
+
+>I am only having one problem with the 5x5x5 cube, though:
+>
+>X|O|X|X|X
+>X|X|X|X|X
+>X|X|X|X|X
+>X|X|X|X|X
+>X|X|X|O|X
+   ^   ^
+   1   2
+
+>looking at the bottom of my cube, the 2 pieces marked O are swaped
+>sometimes, so that the face is still a solid color, but the sides are
+>swapped.  [ ... ] I can't figure out what causes the swapping.
+
+Dale, 
+
+What is wrong is that *one* of the inner planes [marked 1 & 2 above] are a
+quarter turn [i.e. 90dgs] out of phase.
+
+1] The way I solve this is to turn one of the planes a quarter turn, [to
+get, for example the following]:
+
+>X|O|X|o|X      <--(Where "o" is the other face of the "O" above.)
+>X|X|X|Y|X
+>X|X|X|Y|X
+>X|X|X|Y|X
+>X|X|X|Y|X
+   ^   ^
+   1   2
+
+2] Then, to keep things straight in my head, I then "mark" the new position
+by replacing the center cubies in the turned plane to their correct
+positions (being careful not to mess with anything else --particularly the
+edge pieces):
+
+>X|O|X|o|X
+>X|X|X|X|X
+>X|X|X|X|X
+>X|X|X|X|X
+>X|X|X|Y|X
+   ^   ^
+   1   2
+
+There's a relatively simple operator to do this, which I leave as an
+exercise for the reader.  ;)
+
+(It's probably better to do this to all affected four faces, but you can
+save this until you have solved the edges.)
+
+3] This leaves you five inner, non-central edges to solve.  But it should
+be straightforward, so long as you be careful not to mess up anything else.
+
+Nichael
+

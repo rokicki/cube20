@@ -1,0 +1,158 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Oct  3 14:20:38 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA04396; Thu, 3 Oct 1996 14:20:37 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 03 Oct 1996 13:31:03 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Intro to cube theory?
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-id: <Pine.PMDF.3.91.961003132402.271518G-100000@PSTCC6.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+
+
+> On Tue, 1 Oct 1996, Riccardo Distasi wrote:
+
+>                                Does anybody have a hint for
+> me?  The aim of my training is that of learning about M-conjugacy and
+> the Shamir algorithm, and to be able to follow the technical
+> discussions about the Rubik cube that appear on this list.
+
+Several good books have already been mentioned here, so I thought I 
+would try briefly to answer your specific questions rather than listing 
+books again.
+
+I doubt you are going to find any references to M-conjugacy in any Group
+Theory Books, nor even in any books that are specific to the Cube.  What
+you will find is discussions of conjugacy.  The conjugate of X by Y is
+defined either as Y'XY or as YXY'.  Here I am following the E-mail
+convention that Y' means Y^(-1) or "Y inverse".  We use Y' because it is
+hard to write a proper superscript 1 on E-mail. 
+
+One reason for the different definitions for conjugacy (Y'XY vs. YXY') may
+be that some authors use a right-to-left definition for group operators
+and some use a left-to-right.  (Cube-Lovers uses left-to-right almost
+exclusively).  But I think that even with a consistent left-to-right 
+convention, you fill find differences between authors in their definition 
+of conjugacy.  I think I remember a discussion in Singmaster about why 
+some authors do it one way and others do it the other.  The best I 
+recall, both ways of doing it make sense in the proper context.  I will 
+try to chase down the reference and post a followup.
+
+I don't think it makes much difference which convention you use as long as
+you are consistent.  If Y'XY is a conjugate, then YXY' is also.  That is,
+if Y'XY is the conjugate of X by Y, then YXY' is the conjugate of X by Y'. 
+
+Frey and Singmaster use the YXY' convention.  Cube-Lovers (including the
+things I have posted) primarily uses the Y'XY convention.  I actually
+think the YXY' convention makes more sense.  Roughly speaking, it means to
+do one thing, then to do a second thing, and finally to undo the first
+thing. The effect is essentially to do the second thing, but to do it
+shifted by the first thing. 
+
+For example, suppose you know how to do something to the Top layer of the
+cube but you don't know how (or find it awkward) to do the same thing to
+the Down layer of the cube.  What you could do is turn the cube upside
+down, perform your operation on the Top layer, and then turn the cube
+right side up.  You will have performed your operation on the Down layer. 
+
+In Cube-Lovers, we would probably write this as cXc'.  We call the set of
+twenty-four rotations of the cube C, and c would be one of the elements of
+C that turns the cube upside down.  So c would turn the cube upside down,
+X would be your operation, and c' would restore the cube to right side up. 
+
+Except that we would really write it as c'Xc, which in some ways makes no 
+sense.  I read it as undo the first thing, then do the second thing, and 
+finally do the first thing.  I really do have to chase down Singmaster's 
+explanation of why this makes sense.
+
+I confess I struggle with the real geometric significance of Y'XY.  That
+is, if we have Z=Y'XY, then what is the relationship between X and Z? 
+They have the same cycle structure, but that is about as far as I get in a
+geometric interpretation.  Here I am assuming that each of X, Y, and Z are
+in the cube group. 
+
+But I find c'Xc or m'Xm easy to interpret.  In Cube-Lovers convention, M
+is the set of forty-eight rotations and reflections of the cube to go
+along with C as the set of twenty-four rotations of the cube.  So C is a
+subset of M and C-conjugacy is a subset of M-conjugacy.  But we nearly
+always talk about M-conjugacy. 
+
+But C and M are not really in the cube group G as we usually define it. 
+That is, the standard model for G is a fixed face center model where we do
+not rotate the whole cube.  To use Group Theory properly with M-conjugacy,
+we have to deal with M-conjugacy in terms of a larger group which is
+sometimes called MG or G+M.  MG includes all the face turns, rotations,
+and reflections of the cube. However, it is the case that if X is in G,
+then so too is m'Xm.  So if we want to, we can treat M-conjugacy as a
+function on G without having to expand our group to MG. 
+
+Many Group Theory books will talk about symmetry.  A symmetry is just a
+special kind of permutation which preserves some kind of property, usually
+a geometric property.  For example, there are eight symmetries of a
+square.  A square can be rotated in four different ways and still look the
+same, and each of the four rotations can be turned inside out.  You can
+also think of the "turned inside out" versions as being mirror images, so
+they are called reflections.  Similarly, a cube has twenty-four rotations
+and twenty-four reflections as symmetries.  This was true long before
+Rubik's cube was invented, and you will find discussions of the symmetries
+of the cube in books that were written before Rubik's cube was invented. 
+
+Cube-Lovers simply calls the set of forty-eight symmetries of the cube M
+on a fairly consistent basis, and so M-conjugacy is born.  It is really
+just conjugacy by the symmetries of the cube.  M-conjugacy is important
+because it identifies positions which are "really the same", even if they
+may look different superficially.  That is, if Y=m'Xm for some m in M,
+then X and Y look the same except that they may be rotated or recolored
+with respect to each other.  In particular, X and Y may be solved in the
+"same way", and each will require the same number of moves for solution. 
+
+My view of Shamir's method is that it really has nothing to do with Group
+Theory.  Rather, it has to do with data structures and information theory. 
+There are several components of Shamir's method, but the most important is
+addressing the following problem.  
+
+Suppose you have a collection of objects in a computer program in some
+arbitrary (possibly "random"  order), and suppose you want to eliminate
+any duplicate objects to make the collection into a true set in a
+mathematical sense.  Almost any algorithm you come up with is equivalent
+to sorting the objects to place the duplicate occurences adjacent to each
+other, and then scanning the collection front to back to identify the
+duplicates.  Now you may not literally sort.  You may build trees, hash 
+tables, or any of a number of interesting and efficient structures, but 
+they all reduce to sorting at the conceptual level.
+
+A variation on this theme is suppose you have two (or more) such
+collections, and you want to eliminate all duplicate objects.  At the
+conceptual level, almost any algorithm you come up with is equivalent to
+sorting each collection, and then merging and matching the sorted
+collections. 
+
+Shamir's method provides a very efficient way to accomplish this
+"sorting".  Given a collection of objects which is sorted already, it lets
+you create a second collection which is sorted in a totally different 
+way, without any of the objects moving in memory  --  by simply 
+traversing a search tree in a clever way.
+
+The issue arises in search programs for Rubik's cube because you often 
+have a set of cube positions which you need to compose with another 
+position or set of positions.  When you are done, you need to "sort and 
+match" or "merge and match" the results.  Literally sorting and merging 
+can take ridiculous amounts of time and memory.  If the first set of 
+positions is already sorted, Shamir's method tells us how to compose the 
+first set of positions with other positions in such a way that the newly 
+generated sets of positions come out automagically in the right order, 
+with no additional sorting required.  Much more detail than this is 
+available the the Cube-Lovers archives.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+

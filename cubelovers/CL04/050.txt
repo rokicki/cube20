@@ -1,0 +1,23 @@
+Date: 24 June 1982 16:28-EDT
+From: Richard Pavelle <RP at MIT-MC>
+Subject: Moleculon vs Ideal, cont.
+To: CUBE-LOVERS at MIT-MC
+
+I have read the patent of Larry Nichols who assigned it to Moleculon
+and it looks to me like they have a very strong case against Ideal.
+One should keep in mind, however, that more than 70% of patent
+infringement cases go against the patentee.
+
+The basic drawings and descriptions in the patent deal with the 2^3 
+held together (non-rigidly) by magnets. Nichols discusses the possibility
+of fixing the cubies rigidly in his description in a manner not unlike
+Rubik. But the fact that he does not mention this aspect in his claims
+may be his undoing. He mainly stresses the magnetic attachment. I would
+not be surprised if the PTO told him that the rigid attachment would
+comprise another implementation and he wished to avoid the extra 
+expense (I am speaking from experience here). He discusses the puzzle 
+aspects and some of the higher order cubes and non-cubes we have seen 
+on the market.
+
+In conclusion, I doubt he will get his 60M from Ideal but I think
+he will get a non-trivial percentage and a continuing royalty. 

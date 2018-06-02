@@ -1,0 +1,37 @@
+From bosch@smiteo.esd.sgi.com  Wed Nov  9 14:16:56 1994
+Return-Path: <bosch@smiteo.esd.sgi.com>
+Received: from sgigate.sgi.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10908; Wed, 9 Nov 94 14:16:56 EST
+Received: from sgihub.corp.sgi.com by sgigate.sgi.com via ESMTP (940627.SGI.8.6.9/911001.SGI)
+	 id LAA17814; Wed, 9 Nov 1994 11:16:51 -0800
+Received: from smiteo.esd.sgi.com by sgihub.corp.sgi.com via SMTP (940519.SGI.8.6.9/911001.SGI)
+	 id LAA07516; Wed, 9 Nov 1994 11:16:47 -0800
+Received: by smiteo.esd.sgi.com (931110.SGI/940406.SGI.AUTO)
+	for @sgihub.corp.sgi.com:cube-lovers@life.ai.mit.edu id AA05815; Wed, 9 Nov 94 11:16:32 -0800
+From: "Derek Bosch" <bosch@smiteo.esd.sgi.com>
+Message-Id: <9411091116.ZM5813@smiteo.esd.sgi.com>
+Date: Wed, 9 Nov 1994 11:16:32 -0800
+In-Reply-To: "Dave Eaton" <devo@vnet.ibm.com>
+        "Re: Is there a symbolic cube program?" (Nov  9,  1:18pm)
+References: <9411091842.AA08633@life.ai.mit.edu>
+X-Mailer: Z-Mail-SGI (3.0S.1026 26oct93 MediaMail)
+To: "Dave Eaton" <devo@vnet.ibm.com>, cube-lovers@life.ai.mit.edu
+Subject: Re: Is there a symbolic cube program?
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0
+
+I have a symbolic cube program, which I didn't write (written by
+raymond@cps.msu.edu).  It does pretty much what you want, although I'm
+not too sure how portable it is.  It was written in C, using yacc and flex (lex
+doesn't work on it tho, go figure.)
+
+I could post it to the group, or send it to individuals that wanted it.
+
+Derek
+
+
+-- 
+Derek Bosch                   "Time flies like an arrow,
+(415) 390-2115                 but fruit flies like bananas"
+bosch@sgi.com                  J. Blaylock
+
+

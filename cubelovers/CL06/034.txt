@@ -1,0 +1,42 @@
+Received: from ucbvax.Berkeley.EDU (TCP 1200400116) by AI.AI.MIT.EDU 17 Jun 87 04:56:32 EDT
+Received: by ucbvax.Berkeley.EDU (5.57/1.25)
+	id AA17952; Wed, 17 Jun 87 01:31:46 PDT
+Received: from USENET by ucbvax.Berkeley.EDU with netnews
+	for cube-lovers@ai.ai.mit.edu (cube-lovers@ai.ai.mit.edu)
+	(contact usenet@ucbvax.Berkeley.EDU if you have questions)
+Date: 16 Jun 87 13:15:52 GMT
+From: umnd-cs!umn-cs!dayton!ems!srcsip!notch@rsch.wisc.edu  (Michael k Notch)
+Organization: Honeywell, Inc. Systems & Research Center, Camden, MN
+Subject: Give or Take
+Message-Id: <148@altura.srcsip.UUCP>
+Sender: cube-lovers-request@ai.ai.mit.edu
+To: cube-lovers@ai.ai.mit.edu
+
+
+Have I got an interesting puzzle to at least look at:
+
+
+           GIVE or TAKE
+
+You can take 45 from 45 and have
+a remainder of 45. A trick, yes, but it
+can be done.
+           Give it a try
+             It's fun
+
+
+There is an obvious answer - You take 45 eggs from 45 chickens and you still
+                             have 45 chickens left.
+Can you find the other answer?
+GOOD LUCK!
+
+-- 
+ "Go with the flow, Have a plan, Go with the grain, And ...
+    never never let the VAX see you sweat."
+					   -G Saunders  07/14/86
+
+USENET:  {ihnp4,mmm,philabs,umn-cs}!srcsip!notch        Michael k Notch
+MailSt:	 Honeywell S&RC/SIP/MVT  MN65-2300
+         3660 Technology Drive
+         Minneapolis, Mn 55418
+--

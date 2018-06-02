@@ -1,0 +1,65 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Aug 16 22:34:17 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id WAA23066; Sat, 16 Aug 1997 22:34:17 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Hoey@AIC.NRL.Navy.Mil Sat Aug 16 22:35:27 1997
+Date: Sat, 16 Aug 1997 22:35:13 -0400
+Message-Id: <199708170235.WAA07984@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: reid@math.brown.edu
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <199708152344.TAA05912@life.ai.mit.edu> (message from michael
+	reid on Fri, 15 Aug 1997 19:49:54 -0400)
+Subject: Re: isoglyphs
+
+> perhaps i am missing something, but doesn't
+
+>      D2 R2 U2 D2 R2 U D   (12q, 7f)
+
+> produce an isoglyph of type 4D ?
+
+Oops, you're right.  I goofed because I half-remembered a different
+result, that there are no 6-bar patterns of the nice symmetric sort,
+with three mutually perpendicular pairs of parallel bars.
+
+>  ...
+> i hadn't even considered chiral versus achiral isoglyphs.  indeed,
+> all the "continuous" isoglyphs given by herbert are chiral.
+> achiral isoglyphs certainly exist, for example
+
+>      D2 R2 U' B' L  B  U  B  L  F2 R  D' L2 U2 B2 D    (22q, 16f)
+
+> of type 11; pattern
+
+> *..
+> ***
+> ***
+
+> and others can be derived from this.  i suspect that there is no
+> chiral form of this isoglyph, but i'm not absolutely certain.
+
+Modulo some oversight, I think this is true, and not hard to
+demonstrate.
+
+Recall that a "ground" facet is one that is not on its home face.
+First note that a corner cubie will have 0, 2, or 3 ground facets.  So
+on any isoglyph of corner type 1, there are a total of 6 ground corner
+facets, and these ground facets must appear on two corner cubies
+(three ground facets each) or three corner cubies (two ground facets
+each).  If two corner cubies, those cubies must be antipodes, and they
+are either rotated (forming a meson, FTR+ BLD- or equivalent) or
+exchanged ((FTR,BLD) or equivalent, implying odd edge permutation
+parity).  If ground facets appear on three corner cubies, the cubies
+must be a three-cycle of cubies on nonadjacent corners ((FTR,FDL,BTL)
+or equivalent).
+
+I've done some analysis by facets on these three cases, which is too
+messy to describe, but which leads me to the conclusion that the above
+position is the only isoglyph of its pattern, implying the conclusion
+that there is no chiral form.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

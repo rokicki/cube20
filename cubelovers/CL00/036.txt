@@ -1,0 +1,37 @@
+Date: 19 JUL 1980 0346-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: OOPS
+To: ACW at MIT-AI
+CC: CUBE-LOVERS at MIT-MC
+
+Let me suggest the following corrections to your cube language
+message.  If any of these are not actual errors, but are actually
+misunderstandings on my part, then I apologize for causing undue
+confusion, but I thought it would be helpfull to people trying to
+understand you system to have these corrected as soom as possible.
+
+    ACW@MIT-AI 07/19/80 01:42:56
+    ...
+
+    One more piece of notation: For any manipulations M and N, I write
+    M'NM as N[M], reading this as if N were a function: "N of M".
+
+I think you must intend N[M] to mean M N M' .
+    ...
+
+    T[I] T'[I'] J' means "Rotate the floor-parallel center-slice a
+	quarter turn counter-clockwise as seen from above."
+
+T[I] and T'[I'] don't touch the floor-parallel center-slice at all and
+J' rotates it clockwise (as seen from above), my guess is that the
+description should simply read: "Rotate the floor-parallel
+center-slice a quarter turn clockwise as seen from above."
+    ...
+
+    Set Q= (TT)[J] (TT)[ZJ] "Half turn body-slicing center-slice."
+
+This must be a typo or some discarded notation.  My guess is that this
+should read Q= (TT)[J] (TT)[J'].  I don't think that the description
+here ("Half turn body-slicing center-slice") fits, but it works in
+producing the pattern anyway.  If you had said Q= (TT)[J] (TT)[J'] II
+then you could get the pattern and fit the description too!

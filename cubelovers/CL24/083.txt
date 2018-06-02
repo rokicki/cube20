@@ -1,0 +1,83 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 14 11:46:24 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA10792; Fri, 14 Nov 1997 11:46:23 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Nov 14 10:27:59 1997
+Date: Fri, 14 Nov 1997 15:25:06 GMT
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: tenie1@juno.com
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009BD499.F2FD74E5.202@ice.sbu.ac.uk>
+Subject: RE: 6x6x6 cube design
+
+	First, regarding the 6^3 and 7^3.  As noted, when you get to
+these sizes, the connection of the corners while turning becomes
+problematic.  For the 6^3, the overlap is about 15% of the edge length
+of the cubie, probably too small to be practicable.  One can imagine
+some clever mechanism to hold onto the corners, but it would be tricky
+and I've never seen one clearly described.
+	However, if you think about it, there's no reason for all the
+levels of the cube to be the same size.  That it, the parallel cutting
+planes of the entire cube do not have to be equally spaced.  One can
+thus have the corner cubies be very large with much smaller centre
+cubies.  The edge cubies will be cuboids, rather than cubes.  Using
+this idea, one can make arbitrarily large cubes, but the interior
+pieces become impossible to manipulate.
+
+	Now let me try my hand at describing three versions of the 2^3.
+	I'll start with the simplest which was sent to me from Japan
+about 1980.  This had a steel sphere in the middle and each cubie had
+a magnet in it.  Although the sphere and the cubies were carefully
+machined, when one moved it quickly, a piece would catch against
+another piece and lift off and then fall off.  Not very successful.
+	The second version was patented by Ishige in Japan about 1977?
+and several versions were made.  I received a batch of seven with
+different colouring patterns made by a German sports firm - three or
+four had broken just in the post!  This version has a central sphere
+and six of what I call 'umbrellas' sticking out toward each face
+centre.  Each of the pieces has a notch around the part that rest
+against the inner sphere.  The umbrellas catch into these notches.
+One can also think of the cubies as having their own umbrellas, but of
+triangular form and concave.  This is the same mechanism used in the
+Impossiball.
+	The third version is the most common and is shown in Rubik's
+Hungarian patent, but is hard to interpret as I've never had the text
+translated.  Basically, his 2^3 is a 3^3 with the edge and centre
+pieces concealed.  I gather from earlier messages that there were
+several versions of this, but I only recall one, but I only ever took
+a few apart.
+	At the very centre was a cube.  On each face was a square rod
+extending almost to the face center.  The ends of these had a +
+groove.  Between the rods were pieces in the form of a quadrant with a
+groove on the outer, curved, edge.  When all these pieces are in
+place, each of the midplanes of the cube is seen to contain a circle
+with a groove on its outer edge.  The corner pieces are basically
+hollow, but each interior face is a layer ending in a quarter-circular
+curve, which fits as a tongue into the groove just mentioned.  Where
+two of these meet, at the interior edge of the piece, a section is cut
+away to allow the piece to slide past the projections of the end of
+the square rods.
+ 	In theory, one might be able to avoid the quadrant pieces, but
+I think they give the structure stability.
+	A more serious problem is that the inner, concealed, pieces
+can get out of synch with the visible pieces, The early patent of
+Gustafson left gaps so one could see the inner pieces and move them.
+The method used by Rubik and in some similar puzzles is to fix one
+corner piece to the inner structure by some method.  Rubik's 2^3 did
+this by making some of the rod ends solid rather than grooved (or
+perhaps they were fixed to the central cube so they couldn't rotate).
+One could also not notch one of the corner pieces.  Whatever one does,
+it must have the effect of preventing one corner from moving in
+relation to the inner structure.  I seem to recall that the 4^3 uses
+this idea also.
+	Don't know how much this helps, but that's the best I can do
+off-hand.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

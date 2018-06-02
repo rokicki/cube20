@@ -1,0 +1,52 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Sat Jun 17 22:00:06 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03704; Sat, 17 Jun 95 22:00:06 EDT
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <177474-1>; Sat, 17 Jun 1995 21:03:06 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA05634; Sat, 17 Jun 95 20:57:30 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1E7553; Sat, 17 Jun 95 19:59:47 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Crazy Corner Pattern
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1161.5834.0C1E7553@canrem.com>
+Date: Sat, 17 Jun 1995 05:38:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+On Mon, 17 Jan 1994 09:06:59 EST, Jerry wrote:
+>
+>     Counting M-conjugacy classes of the corners of Rubik's cube
+>     -----------------------------------------------------------
+>
+>                   M-Class     Number     Number
+>                     Size        of         of
+>                              Classes    Elements
+>
+>                         1        1  =        1     Start
+>                         2        1  =        2     +4 -4 Twist
+>                         3        3  =        9
+>                         4        1  =        4
+>                         6       34  =      204
+>                         8       33  =      264
+>                        12      301  =     3612
+>                        16      104  =     1664
+>                        24     9064  =   217536
+>                        48  1832428  = 87956544
+>
+>                     Total  1841970    88179840
+
+I'm trying to find the 1 pattern with M-class size of 4 of the
+corners group.
+The only pattern that I can find is 4 alternate corners twisted
+clockwise which is in the twist orbit.
+
+It does not seem to be any pattern with just corners twisted in
+place.
+
+Jerry, if you could *please* identify this pattern before I go
+nuts...... !
+
+-> Mark <-
+

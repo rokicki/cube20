@@ -1,0 +1,25 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Jun  7 14:55:40 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA12843 for <cube-lovers-outbound@curry.epilogue.com>; Fri, 7 Jun 1996 14:55:40 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 6 Jun 1996 09:04:04 -0400
+From: Rob Hochberg <hochberg@dimacs.rutgers.edu>
+Message-Id: <199606061304.JAA20500@dimacs.rutgers.edu>
+To: CUBE-LOVERS@ai.mit.edu
+Subject: Speed cubing
+
+
+I've heard about some pretty fast people who've claimed to 
+have averages in the low 20's, but I haven't seen them perform.
+
+My buddy from high school, Scott Evans, now living in Austin,
+averages about 25 seconds these days.  He's the fastest active
+cubist I've seen in the last 10 years.  I'm at about 28 seconds.
+
+Anyone else?
+
+Rob hochberg@dimacs.rutgers.edu
+
+
+

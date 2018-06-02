@@ -1,0 +1,13 @@
+Date:  17 February 1981 18:03 cst
+From:  VaughanW at HI-Multics (Bill Vaughan)
+Subject:  Rubik's Sphere
+Sender:  VaughanW.REFLECS at HI-Multics
+To:  Mike at UCLA-Security, cube-lovers at MIT-MC
+
+Do you color a Rubik's Sphere discretely or continuously?  And if
+continuously, it's probably too easy to solve - seems as though
+the discontinuities would show you where to turn it; and by always
+turning along a discontinuity until it vanishes, you can get to
+SOLVED by what seems to be God's Algorithm.
+
+			Bill

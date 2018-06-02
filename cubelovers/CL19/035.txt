@@ -1,0 +1,64 @@
+From JBRYAN@pstcc.cc.tn.us  Thu Mar 14 08:56:29 1996
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from pstcc6.pstcc.cc.tn.us by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA11164; Thu, 14 Mar 96 08:56:29 EST
+Received: from PSTCC6.PSTCC.CC.TN.US by PSTCC6.PSTCC.CC.TN.US
+ (PMDF V5.0-4 #11457) id <01I2BN49K2R8000STT@PSTCC6.PSTCC.CC.TN.US>; Thu,
+ 14 Mar 1996 08:56:04 -0500 (EST)
+Date: Thu, 14 Mar 1996 08:56:03 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Shamir and M-Conjugacy
+To: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <Pine.PMDF.3.91.960314083409.37361A-100000@PSTCC6.PSTCC.CC.TN.US>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+On Wed, 13 Mar 1996, der Mouse wrote:
+
+> > T*[7] contains 192153 elements.  This is right on the bare edge
+> > (maybe past the bare edge) of what could be handled on most machines.
+> 
+> Two hundred thousand elements is on the edge?  Even assuming an
+> extremely noncompact representation of 20 bytes each (one per
+> non-center cubie), that's only four megabytes.  The _smallest_ RAM load
+> I have at home (never mind the machines I have access to at work) is 8
+> megs, and one machine has 28.  Keeping such a list entirely in-core
+> would be no problem at all.  Nowhere near the edge.
+> 
+> But Jerry Bryan knows what he's talking about too well to make this
+> simple a blunder.  Could some kind soul explain what I've obviously
+> missed?
+> 
+
+Well, I would argue whether I know what I'm talking about when it comes 
+to marrying Shamir with M-conjugacy.  I'm just sort of thinking out loud 
+right now, not implementing any code.
+
+But at one point, Bob Moews reported that his implementation of Shamir
+required 104 bytes per position.  Of the 104 bytes, 48 bytes were the
+position itself.  The rest of the bytes were queues, pointers, and various
+overhead of that sort.  I've been guessing that to keep up with all the
+pointers and so forth required for M-conjugacy, it might take 200 bytes or
+so per position.  But assume optimistically that it could be compressed
+down to 100 bytes per position.  Then, we are up to about 20 meg for
+T*[7], and about 180 meg for T*[8].  I really think that's a bit too
+optimistic, but it's probably not too far off.  But if this guess is off
+by even a factor of two, then you would need 40 meg for T*[7]. 
+
+On the other hand, assume these memory estimates are approximately
+correct.  At some point, the constraint will become time rather than
+memory.  Even on a very fast machine, it might take dozens of years rather
+than hundreds of hours to calculate something like T[14] or T[16] as 
+(T*[7] x T*[7]) or as (T*[8] x T*[8]). 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+

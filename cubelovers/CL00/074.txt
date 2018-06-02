@@ -1,0 +1,50 @@
+Date:  4 Aug 1980 2204-PDT
+From: Davis at OFFICE-3
+Subject: Cube Permutations
+To:   ddyer at USC-ISIB
+cc:   cube-lovers at MIT-MC
+
+The following two transformations are useful in demonstrating that all of the
+claimed elements of an equivalence class of positions can be reached.  Using
+the RLFBUP notation, the transformation RB'R'B'U'BU reverses two of the corner
+cubies and leaves all other corner cubies in place (It does, however, shuffle
+around the side cubies, and does some random twists to the corners).  If the
+above transformation is repeated four times in a row, everything is left
+exactly fixed, except that three corner cubies are each rotated one-third of a
+turn.  By then performing the inverse of this operation on two of the three
+corners which were turned and a new corner, it is not hard to see that any two
+corners can be the only ones moved, and that they are each rotated one-third of
+a turn in opposite directions.
+
+If we look at just the corners alone, and ignore in-place rotation, since we
+can exchange any adjacent pair, we can obviously get to all permutations of the
+corners.  A similar argument can be made to show that all the edge cubies can
+be arranged arbitrarily (permuted arbitrarily, that is).  An easy
+transformation rotates three of them (among themselves) on a face, and since we
+are also allowed to rotate the face, it is easy to generate a transposition of
+any pair.
+
+Unfortunately, the two operations described above are not independent.  If we
+just look at the blocks and label them ignoring color, a primitive (one-quarter
+turn) transformation moves four corners into four corners, and four edge cubies
+into four edge cubies.  If this is viewed as a member of a permutation group,
+it is obviously even (the set being permuted is all the movable cubes).  Thus,
+at least half of the positions are impossible.  If we ignore the corner cubies,
+and look at the colors of the edge cubies, every primitive rotation rotates the
+four front colors, and the four colors around the outside, again, an even
+permutation.  Since one of the above used coloring and no corner cubes, and the
+other did not, there must be at least a factor of 4 impossible positions.  A
+much more complicated argument shows the necessity of a factor of three in the
+set of impossibles.  (Does anyone know of a simple way to see this?  I just did
+the obvious thing of defining "standard" orientations of every cube in every
+corner, and showed that all the primitive transformations caused the total
+rotation away from standard to be a multiple of 2 pi.)
+
+Using the transformation which flips any two in place, and the two discussed
+above, it is not hard to see that the factor is at most and at least 12.
+
+Boy,  It sure is hard to prove things on a computer.  On myy notes with
+diagrams and all, this is perfectly clear, but I get confused trying to read my
+online proof.  I hope that someone can make some sense out of it.
+
+-------

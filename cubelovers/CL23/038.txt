@@ -1,0 +1,77 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun 30 19:21:04 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id TAA18780; Mon, 30 Jun 1997 19:21:03 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <19970630230531.25512.rocketmail@send1.rocketmail.com>
+Date: Mon, 30 Jun 1997 16:05:31 -0700 (PDT)
+From: Bill Webster <captainhaddock@rocketmail.com>
+Subject: Hi
+To: cube-lovers@ai.mit.edu
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+
+Hi,
+
+I first encountered the cube sometime in the early 80s when the fad
+hit Australia. Solving it absorbed all my spare time for two weeks
+along with several wads of A4 and $15 for a second cube which I used
+to develop what I called 'sequences'. My experiments on the second
+cube were conducted with great care, as I had not yet discovered that
+Satan's Algorithm could be had for the price of a small screwdriver. I
+never became a speed-freak, or even employed operators outside my own
+meagre discoveries, but could solve the cube comfortably inside
+three minutes. I solved corners, then edges because the first
+reasonable sequences I discovered were edge-disrupting corner
+operators. My operators were short and scant so my method incurred a
+lot of short term memory overhead, manipulating faces into susceptible
+positions, applying the sequence, then inverting the prior
+manipulation.
+
+A friend of mine aquired a cube at about the same time and much to my
+chagrin, solved it in less than a day, without paper, without
+explicitly developing any operators. In fact, he couldn't give a
+satisfactory account of exactly how he'd solved it. He may have just
+got *extremely* lucky and stumbled on something close to START, but I
+don't think so. I handed him a scrambled cube a couple of weeks later
+and he was quite taken aback - he wasn't going through all that again,
+he'd done it hadn't he?. I always felt that my own solution was
+somewhat contrived after witnessing this feat. Does anyone else have
+examples of GestaltCube?
+
+I have coded a C++ class which represents cube states and operators
+and which includes methods to manipulate the cube. I would like to
+implement overloaded C++ operators in a manner which is consistent
+with (and perhaps extends) the appropriate mathematical notation *if
+this is feasible*. Is there anyone out there familiar with both
+grammars and willing to make suggestions? I am aware and prepared to
+accept that the use of some (C++) operators may introduce
+inefficiencies in the form of temporary objects created during
+expression evaluation - such operators will not be used in time
+critical code.
+
+I have been using a freeware ray-tracer, POV-Ray to produce
+'photo-realist' cube images. I intend to extend my software to export
+animation scripts, so that I can produce (externally rendered)
+animated solutions. These take forever to trace, so their value is
+aesthetic rather than practical. I have been experimenting with solid
+gold cubes inlaid with coloured marble etc., but still prefer the
+platonic form. I have the POV source for a static cube if anyone is
+interested.
+
+The POV team are true heroes - details...
+
+ "The internet home of POV-Ray is reachable on the World Wide Web
+  via the address http://www.povray.org and via ftp as ftp.povray.org."
+
+ "POV-Ray can be used under MS-DOS, Windows 3.x, Windows for
+   Workgroups 3.11, Windows 95, Windows NT, Apple Macintosh 68k,
+   Power PC, Commodore Amiga, Linux, UNIX and other platforms."
+
+Regards, Bill Webster
+
+_____________________________________________________________________
+Sent by RocketMail. Get your free e-mail at http://www.rocketmail.com
+
+
+

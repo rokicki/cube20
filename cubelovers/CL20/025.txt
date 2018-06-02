@@ -1,0 +1,50 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Jun  1 16:37:55 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA12114 for <cube-lovers-outbound@curry.epilogue.com>; Sat, 1 Jun 1996 16:37:54 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@cco.caltech.edu>
+Subject: Re: realizing 7x7x7 or larger cubes
+Date: 1 Jun 1996 09:22:10 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 32
+Message-Id: <4op242$5mh@gap.cco.caltech.edu>
+References: <cube-lovers.2.2.32.19960601020111.009ebee0@greatdane.cisco.com>
+Nntp-Posting-Host: accord.cco.caltech.edu
+X-Newsreader: NN version 6.5.0 #12 (NOV)
+
+First, as a comment on the other thread, I think it is safe to say:
+
+If one can solve an (2n+1)^3 cube, then one can solve a (2n)^3 cube.
+
+"Ronnie B. Kon" <ronnie@cisco.com> writes:
+>I've had this dream of making cubies which attach (via bars or perhaps
+>electromagnets) to their neighbors, with the smarts to detect the torque of
+>a turn and release until the turn has been completed.  You could then sell
+>corner cubies, edge cubies, face cubies, and internal cubies one-at-a-time
+>and people could build their own puzzles as large as they wanted.
+
+It would certainly require a very creative design for the corners; your
+description seems to say that in the stable state the corners are not
+attached by anything!
+
+Perhaps corner cubies could be equipped with buttons that had to be
+depressed before a face would turn?
+For instance, imagine a cube with three faces that have a button on
+the middle, each one triggering a bar on the opposite side.  When a button
+is pressed, the bar retracts into the cube.  This would make a 
+workable corner cube, although it would be a bit awkward to press the
+face that you wanted to turn!
+
+As another aside, I don't understand the rationale behind the canonical
+4x4x4 design.  It would seem to me that it's better to have two rings of
+grooves in each dimension, so that the face pieces could have "fatter"
+legs and not break off as easily.
+
+-- 
+Wei-Hwa Huang, whuang@cco.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+Caught Porfiry, Raskolnikov sung his swan Sonia when he went Dounia to Siberia.
+
+

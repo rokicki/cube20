@@ -1,0 +1,52 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Jun  5 19:52:19 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA07842 for <cube-lovers-outbound@curry.epilogue.com>; Wed, 5 Jun 1996 19:52:17 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 5 Jun 96 19:27:12 EDT
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9606052327.AA22049@sun34.aic.nrl.navy.mil>
+To: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Cc: Cube-Lovers <cube-lovers@ai.mit.edu>
+Subject: Re: A essay on the NxNxN Cube : counting positions and solving it
+
+Jerry remarks:
+
+> For example, Martin talked about the corner orbit, the edge orbit, and the
+> face center orbit of the 3x3x3....
+
+> David Singmaster, on the other hand, has always talked about the twelve
+> orbits of the constructable group of the 3x3x3, where orbits are defined
+> in terms of twists, flips, and parity....
+
+When a group G has a representation as permutations of a set X, the
+orbits are the equivalence classes of X induced by x~y if a (x)g=y for
+some g in G.  But these orbits will be different depending on the
+representation, and in particular depending on X.
+
+If we represent the Rubik group as the usual permutations on cubies
+and facies, the orbits are corners, edges, etc. as Martin uses.  I
+agree this is the usual kind of orbit to talk about.
+
+If we represent the Rubik group as permutations on itself (I think
+it's called the right regular representation) you get one orbit.  This
+is always true of the right regular representation, since for any f, g
+in G, let h=f'g, and we have (f)h = g, so f~g.
+
+But consider the constructible group C, the set of positions you can
+get by taking the cube apart and putting it back together.  We can
+extend the right regular representation to a representation on C.  In
+this case, there are twelve orbits of mutually accessible positions.
+This is Singmaster's usage.  They are indeed the cosets of C/G, as
+with any subgroup of a larger group.
+
+But the fact that we usually do not consider the group structure of C
+(as in taking products of reassemblies) militates against calling them
+cosets, so I can understand why Singmaster might prefer orbits.  But
+we have to remember to disambiguate which kind of orbit we are talking
+about.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+

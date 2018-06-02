@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug  4 19:43:16 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id TAA19964; Mon, 4 Aug 1997 19:43:16 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Hoey@AIC.NRL.Navy.Mil Mon Aug  4 19:41:34 1997
+Date: Mon, 4 Aug 1997 19:41:24 -0400
+Message-Id: <199708042341.TAA09295@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: Cube-Lovers@ai.mit.edu, ponder@austin.ibm.com
+In-Reply-To: <199708020031.UAA28142@sun30.aic.nrl.navy.mil> (message from Dan
+	Hoey on Fri, 1 Aug 1997 20:31:56 -0400)
+Subject: Re: puzzle to be simulated
+
+I've found out why the cube-plane groups related to the 1^2+2^2 square
+torus are 1/6 the size we would expect.  It's the corners.  The group
+has five corners {1,2,3,4,5} and five generators {A,B,C,D,E} that
+operate on corners as
+
+  5..CC/DDD`5    A: (1,2,4,3)
+  EEE`1..DD/E    B: (2,3,5,4)
+  .EE/AAA`2..    C: (3,4,1,5)
+  B`3..AA/BBB    D: (4,5,2,1)
+  B/CCC`4..BB    E: (5,1,3,2)
+  5..CC/DDD`5
+
+These generators do not generate the 120-element group S5, rather they
+generate a 20-element subgroup known to GAP as
+
+    5:4       = A split extension of C5 by C4      or equivalently
+    H(2^2,5)  = <a,b ; a^5 = b^4 = a b a^2 b = 1 >.
+
+Neither of these tells me a lot, except that the fact that this group
+has index 6 in S5 means that there are six "orbits" of corner
+permutations.
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+
+

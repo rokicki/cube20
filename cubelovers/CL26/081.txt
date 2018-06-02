@@ -1,0 +1,44 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Dec 18 11:33:50 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id LAA24449
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 18 Dec 1998 11:33:50 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <002c01be2a01$f6ba7020$7ac4b0c2@home>
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: <Cube-Lovers@ai.mit.edu>
+Cc: "Nicholas Bodley" <nbodley@tiac.net>,
+        "Charlie Dickman" <charlied@erols.com>
+Subject: Re: Newer mechanism? (Was: Re: re-assembling a 2x2x2?)
+Date: Thu, 17 Dec 1998 21:11:22 -0000
+
+Nicholas Bodley <nbodley@tiac.net> wrote (17 December 1998)
+
+
+>
+> Would really *love* to know whether there is a newer and different
+>mechanism. As a somewhat casual student of these mechanisms, I've
+>come to realize that for all "sizes", more than one mechanism is
+>possible.
+>
+
+
+According to the reports on the patent case brought against Ideal for
+infringement  of the Nichols patent (Moleculon Research Corp v. CBS,
+Inc) there were two Ideal 2x2x2 cubes, both sold as the Rubik's Pocket
+Cube, but one from Taiwan and one from Japan.  The Japanese version
+used an internal sphere, which could well be the version with the
+Philips screw referred to by Charlie Dickman, since it sounds like the
+inside of a 4x4x4.  The Taiwanese version is less clearly described -
+the internal faces are said to form a tongue and groove mechanism -
+but probably also had an internal spider like the conventional 3x3x3 -
+is this Nicholas Bodley's version?
+
+Incidentally, by the time the case had been up and down to the Appeals
+court a couple of times, the final decision, in 1989, was that just
+these two forms infringed the patent.  The 3x3x3 and 4x4x4 were held
+not to infringe.
+
+Roger Broadie
+

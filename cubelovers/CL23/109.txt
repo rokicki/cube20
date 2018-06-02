@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug 15 13:38:15 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA16787; Fri, 15 Aug 1997 13:38:14 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From goyra@iol.ie Fri Aug 15 12:42:42 1997
+Message-Id: <199708151639.RAA24296@GPO.iol.ie>
+From: "Goyra" <goyra@iol.ie>
+To: <cube-lovers@ai.mit.edu>
+Subject: Got a new shape for a Rubik puzzle?
+Date: Fri, 15 Aug 1997 17:38:13 +0100
+
+The Rubik Gallery is a website with Java
+Rubik puzzles. There are dodecahedrons,
+icosahedrons, cubes, etc etc. The software 
+can support any shape at all, twisting in any
+way imaginable, provided the axes all meet 
+at one point.
+
+I'd like to add some more intricate and
+strange shapes of puzzle, and before I sit down 
+to bust my brain over the geometry, I want to 
+ask the list members for ideas.
+
+You guys are mathematical geniuses and 
+I'm sure some of you already have ideas for
+wierd puzzles that will never see the light of day
+in physical form; perhaps ones with Penrose 
+tiles as the facelets, perhaps ones that twist
+in non-intuitive ways to create surprising 
+shapes.If you'd like us all to see, twist and 
+solve your puzzle, please tell me about it.
+
+David
+
+http://www.iol.ie/~goyra/Rubik.html
+

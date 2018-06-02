@@ -1,0 +1,72 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Dec  4 16:11:19 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA06137
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 4 Dec 1998 16:11:18 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199812041806.NAA21024@pike.sover.net>
+Date: Fri, 04 Dec 1998 13:07:36 -0500
+To: Jacob Davenport <Jacob_Davenport@scudder.com>
+From: Nichael Lynn Cramer <nichael@sover.net>
+Subject: Re: (5x5x5) edge parity corrections
+Cc: Cube Lovers <Cube-Lovers@ai.mit.edu>
+In-Reply-To: <00096300.C22092@scudder.com>
+
+Jacob Davenport wrote:
+>I don't like the edge parity correction move that I use in my solution, and
+>I'm hoping that someone can give me a better one.
+>
+>The parity problem is found in 5x5x5 cubes (and 4x4x4 cubes, I understand)
+>when two of the edges right next to the corners (which I call "wings") are
+>switched.  Some fairly simple moves can get all three edges in line with
+>each other, but half the time two wings need to be switched.  By the time I
+>figure this out when doing a 5x5x5 cube, I've solved most of it, and my
+>parity fixing move messes up many of the edges I've been working on.
+>
+>How do other people fix this problem?
+>
+>-Jacob
+
+Hi Jacob
+
+In both cases (4X and 5X) I solve this problem in the following way:
+
+1] I solve the rest of the cube, leaving me with the two "switched wings"
+(in your terminology).
+
+2] I then arrange things so both  "wings" are on the same
+"off-center-slice".  (Also it will always be the case that both of these
+winds are now on the same face.)
+
+This will be easy to do using the 3-wing swapping operators.
+
+3] At this point I now rotate the "off-center-slice" containing the
+"switched wings" by a quarter turn.
+
+As a result of this move it will be the case that that the
+"off-center-slice" now has one of the previously "switched wings" in its
+"correct cubicle".  The other three "wings" will be now be in a cyclic
+permutation.
+
+4] Since --from your note above-- I assume you understand how to cycle
+three "wings", all you have to do now is put the "wings" in the right place
+and replace the damage to the off-center central faces that were messed up
+during that initial quarter-turn above.  (And since they are in "paired"
+clusters, this should be pretty straightforward.)
+
+(In short, the quarter-turn of the non-central slice puts the cube back in
+the proper "orbit" for finishing up.)
+
+
+Now clearly this is far from maximal.  And it's certainly not terribly
+fast.  But I find it a very simple, and an easy (and easy-to-remember [and
+easy-to-explain]) way to clean up this potentially messy situation.
+
+Hope this helps
+Nichael
+--
+Nichael Cramer
+nichael@sover.net                        deep autumn--
+http://www.sover.net/~nichael/                   my neighbor what does she do
+

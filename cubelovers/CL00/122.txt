@@ -1,0 +1,168 @@
+Date: 27 Aug 1980 0128-PDT (Wednesday)
+From: Dal at UCLA-SECURITY (Doug Landauer)
+Subject: Notation, transforms I like to use ...
+To: cube-lovers at mit-mc,alan at mit-mc
+
+
+After 5 beers and two Drambuies, finally, here we go ...
+
+
+
+
+
+			Here is all of my knowledge and
+			notation regarding the cube ...
+				SPOILER warning
+			these transformations are enough
+			to solve any cube.   I look forward
+			to anyone publishing a compendium;
+			please go ahead and use anything
+			in here.
+
+
+Two notes about my particular cube ...
+it worked fine until I decided to lubricate it (as is recommended in
+one of these cube-lovers messages ... they say to use a graphite lubricant
+(I believe) ... do so.)      DO NOT use "dri-slide".   It is a Molybdenum
+Disulfide lubricant for use with metals and it tends to eat plastic, making
+it harder to turn.   Also (this may be unrelated), three weeks or so after I
+lubricated mine (an Ideal from Toys-R-Us in the San Fernando Valley (in LA))
+one of the facies popped off and now it's out of commission until I try to
+glue it back together.
+
+I found that the descriptions of its inner workings do not do it justice.
+It is indeed a work of 3-dimensional mechanical genius.  To elaborate on
+the descriptions ... the face cubies are about 7 mm thick, and they are
+what holds the other pieces in.  The corner cubies have a growth on their
+"opposite" corners which is roughly cubical but the "inside" corner is
+rounded to allow them to rotate.
+The side cubies (sidies?) have a 7-mm thick disk-like thing sticking out
+of the center of their least visible edge (the one opposite the one that
+the sidie's two colors border on).     It's actually more like a thick
+square with one rounded corner (the inside one).
+
+Anyway, here's a description of my notation followed by a set of
+transformations I use; this is indeed sufficient to fix a cube and
+if you wish to remain self-sufficient in this matter, read no further;
+but then what're you doing on this list anyway?
+
+	happy cubing ....
+		-dalgorf-
+
+flubrd Notation:   (pronounce it `flubberd')  Object names:
+     Faces: f l u b r d stand for the front, left, up, back, right
+	  and down faces respectively.  (up==top and down==bottom)
+     Little cubies
+	  The 6 face cubies (one at the center of each face)
+	  are seldom referred to; use the face name (e.g the f-face cubie)
+	  Side (edge) cubies:	  fl  fu  fr  fd  ul  dl
+				  bl  bu  br  bd  ur  dr
+	  Corner cubies:      flu fur bul bru fdl frd bld bdr
+	  For side and corner cubies, the order of its faces only matters
+	  in permutation descriptions (see below), but by convention, the
+	  corner cubies are all named clockwise starting in front or back.
+     Center Slices
+	  H (`Horizontal'==`floor-parallel') runs through faces f,r,b,l
+	  P (`Parallel' for `body-Parallel') runs through faces u,r,d,l
+	  S (`Slicing' for `body-Slicing') runs through faces u,f,d,b
+Moves:	       The ambiguity between object names and moves is cleared up
+	       by always surrounding a move in angle brackets (<>).
+     A move can be any of the following:
+	  - a single letter, meaning twist a single face or centerslice, or
+	  rotate the entire cube one quarter-turn (see below);
+	  - a move followed by a move indicates those two moves in sequence;
+	  - a number n followed by '(', a move, and a ')' is the same as
+	  repeating the move n times;
+	  - a move followed by a prime ("'") indicates the inverse of the
+	  move --- by convention also all one-letter moves are defined
+	  so that changing the letter's case also inverts the move.
+	  A move may be grouped by parentheses, so that e.g. <(FUDRB)'> is
+	  equal to <B'R'D'U'F'> (ie, undo each twist in reverse order
+	  to undo this whole move).
+     <F> twists f clockwise; similarly for <L>,<U>,<B>,<R>,<D> & l,u,b,r,d
+     <f> twists f counter-clockwise; similarly for <l>,<u>,<b>,<r>,<d>.
+	   Note <F'>=<f>, <f'>=<F>, and so on.
+Extended moves (centerslices and cube-turning)
+     cube-turning:  I,J,K=front-top-right clockwise
+	  <I> move cube's front to top	     <I'> or <i> top to front
+	  <J> move top to right side	     <J'> or <j> right side to top
+	  <K> move right side to front	     <K'> or <k> front to right side
+     centerslice moves
+	  <H> (`Horizontal') move H clockwise as seen from above = <uDk>
+	  <P> move P clockwise as seen from the front = <fBJ>
+	  <S> move S clockwise as seen from the right side = <rLi>
+     Move combinations are two-letter names beginning with C, E or A;
+	  C1-C9 and (CA-CZ, Ca-Cz if needed) describe corner-combinations;
+	  E1-E9 and EA-EZ (Ea-Ez if needed) describe edge-combinations;
+	  A1-A9, AA-AZ & Aa-Az describe combinations that mess with both.
+	  I also use V,W,X,Y,Z and v,w,x,y,z as temporary macros
+Permutations = { list of cubies -> list of new spots }.  The permutation
+     described puts the first list into the new LOCATIONS described by the
+     second list, moving each face of each cubie in the order specified.
+     E.g., <F> does {flu fu fur fr frd fd fdl -> fur fr frd fd fdl fu fdl}
+
+Useful basic corner combinations:
+C1: <6(RurFU)> :: {fdl flu bul -> dlf luf ulb} twist corners clockwise
+C2: <6(rFRuf)> :: {fdl flu bul -> lfd ufl lbu}	 "	"    ccw (lf2 + bul)
+C3: <3(RUru)> :: {frd fur bul bru -> rfu rdf ubr ulb}
+     switch those pairs of corners, twisting each
+C4: <3(fuFU)> :: {frd fur flu bul -> rfu rdf bul flu} (ditto)
+C5: <3(FrfR)> :: {frd fur flu bru -> rfu rdf bru flu} (ditto)
+
+compound ones:
+C6: <lC4L> = <l3(fuFU)L> :: {frd fur fdl flu -> rfu rdf luf lfd}
+     switch those pairs of corners all in the front face
+C7: <C1MC2m> = <6(RurFU)M6(rFRuf)m> :: {fdl bld -> dlf dbl}
+     twist fdl cw and bld ccw.
+C8: <C5C3> = <3(FrfR)3(RUru)> :: {flu bul bru -> bru ufl ulb}
+     cycle three top corners (left two & bru) "cw"
+C9: <C5C4> = <3(FrfR)3(fuFU)> :: {flu bul bru -> bul bru flu}
+     cycle three top corners (left two & bru) "ccw"
+
+Useful basic edge (side) combinations:
+E1: <4(FH)4(HF)> :: {fl fr -> lf rf} twist two sides in place
+E2: <2(ssdd)> :: {fu bu fd bd -> bu fu bd fd}
+     "doubleswap" swaps front for back sides on top and bottom
+E3: <3(FRRF)> :: {fl fr ru rd -> fr fl rd ru}
+E4: <3(ffrr)> :: {fu fd ru rd -> fd fu rd ru}
+E5: <3(URRU)> :: {ul ur rf rb -> ur ul rb rf}
+E6: <3(ffuu)> :: {ul ur fl fr -> ur ul fr fl}
+E7: <3(FLLF)> :: {lu ld fl fr -> ld lu fr fl}
+E8: <3(ULLU)> :: {lf lb ul ur -> lb lf ur ul}
+E9: <E3E4> = <3(FRRF)3(ffrr)> :: {fl fr fu fd -> fr fl fd fu}
+EA: <f(rE3R)E5F> = <fr3(FRRF)R3(URRU)F> :: {fu ul ur -> ul ur fu}
+     cycle top (left right and front) sidies clockwise
+EB: <F(LE7l)E8F> = <FL3(FLLF)l3(ULLU)F> :: {fu ul ur -> ur ul fu}
+     cycle top (left right and front) sidies counterclockwise
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Pons Asinorum: HHSSPP (180 degrees on each centerslice)
+Laughter: <4(lrfb)> = <6(lrK)> (but in the latter the cube is KK'd)...
+     Another laugh resolves the cube; a K first produces the 4 crosses.
+Crux Christmani:  <SSHiE2fE2FBE2bE2iE2KjE2> or, call E2 (the doubleswap) `Z',
+ <SSHiZfZFBZbZiZKjZ>.  This is 6 crosses in 3 pairs:  colors go top with
+ bottom, front with right side and back with left side.
+Crux Plummeri (the fancy one): <SHiE2fE2FBE2biE2fE2FBE2bE2jE2>; or (again):
+ <SHiZfZFBZbiZfZFBZbZjZ> or if Y := <iZfZFBZb>, it's simply <SHYYjZ>!
+ This is 6 crosses in 2 sets of three each:  Front, Right and Top each with
+ each other; and Back, Left and Bottom each with each other.
+Greenberg's "well-known center-cubie rotation algorithm" has 12 varieties:
+ Pick two centerslices (say X and Y) and a direction (cw or ccw):
+ <xYXy> does ccw and <YxyX> does cw.	Details:
+     (xyz cw) means the center (face) cubies of the faces x y and z are
+     rotate clockwise; ... ,ccw means counterclockwise.
+     fur cw :: <SpsP> or <sHSh> or <PhpH>, ccw :: <pSPs> or <HshS> or <hPHp>
+     frd cw :: <PspS> or <SHsh> or <PHph>, ccw :: <sPSp> or <HShs> or <HPhp>
+     fdl cw :: <hSHs> or <spSP> or <hpHP>, ccw :: <ShsH> or <psPS> or <phPH>
+     flu cw :: <HphP> or <PSps> or <shSH>, ccw :: <pHPh> or <SPsp> or <hsHS>
+Outstanding questions mentioned in the note about Singmaster's talk:
+(I.e., I ain't seen these yet ... )
+1. Conway's Monoswop
+2. Rubik's Duotwist
+
+(ignore the two lines above beginning with Pick ... and ending with
+... Details:	they're wrong.	 I'd go edit them but my Unix is out
+of space on /tmp and on my filesystem and I only have 300-baud access to
+it anyway).
+
+		Have fun
+		DalGorf

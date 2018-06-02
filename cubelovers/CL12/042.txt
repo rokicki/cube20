@@ -1,0 +1,70 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Fri Jul 15 03:19:03 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25039; Fri, 15 Jul 94 03:19:03 EDT
+Received: by mail.uunet.ca via suspension id <91049-1>; Fri, 15 Jul 1994 03:02:49 -0400
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <92031-3>; Fri, 15 Jul 1994 02:30:57 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA02807; Fri, 15 Jul 94 01:45:11 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1A658F; Fri, 15 Jul 94 01:40:47 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: DOTC 1.4 is done
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.770.5834.0C1A658F@canrem.com>
+Date: Fri, 15 Jul 1994 01:32:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+        Domain of the Cube 1.4 is finally done!
+        ---------------------------------------
+
+   I've finally finished the new issue of the DOTC newsletter, and I'm
+basically happy with it. I believe I owe my fellow cubists an apology
+for taking so long, especially Greg Schmidt and Dan Hoey.
+
+ I've enjoyed using the cube since 1981 and I wish I had more time and
+energy to put into it. I was also rather ill earlier this year, and
+things at work seemed to always interrupt. Nevertheless, the first
+20 copies are finally ready to mail. Despite the fact these initial
+copies are slightly flawed I am no longer willing to wait. This time
+the issues have beige covers and are stapled like a booklet, much
+the same as David Singmaster's Cubic Circular.
+
+   I'm pleased with the printer's results, and I am mailing out the
+first issues tomorrow. I have considerable work done on issue 1.5
+and I expect the next issue to be ready relatively soon.
+
+ - Mark
+
+New Technique for Pattern Finding:
+
+Cycle a process until you find the identity, e.g. (F1 B1 R1 D1)^24 = I
+ then bisect the process if the order is even,
+   ( F1 B1 R1 D1 ) ^ 12 = Pattern, naturally this process is order 2.
+
+---------------------------------------------------------------------
+
+Hmmmm, actually I have some questions that have been bugging me for
+some time. I while back a guy was watching me use my cube program
+and I explained that the reason I like studying group theory is
+because it provided greater insights into the cube. He then asked
+me:  "What are other uses of group theory?" and "What are the
+practical uses of group theory" to which I haltingly replied (somewhat
+vaguely) that it helped show relationships between geometry and
+algebra. I felt this explanation unsatisfactory. I also mumbled
+about symmetry and architecture. I'm sure there is a better
+answer than that!
+
+Also why is it in math that  |-11| means absolute value and can also
+be the order of G, e.g. Let G be a Group, and |G| means the order
+of G.
+
+Here is another tidbit for the cube archives:
+
+Rare 11-cycle of edges: ( L2 B1 R1 D3 L3 ) ^ 7   (35)
+alternately:  F2 R3 U1 D3 B3 D1 L3 U3 D1 B1 L1 D1 B2 U2 D2 R2 B2 D1 (18)
+
+
+-> Mark <-
+

@@ -1,0 +1,37 @@
+From cube-lovers-errors@oolong.camellia.org  Fri Jun 20 11:36:32 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id LAA09262; Fri, 20 Jun 1997 11:36:32 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Fri, 20 Jun 1997 07:05:50 +0200 (MET DST)
+Message-Id: <1.5.4.16.19970620070547.2e6f908a@mailsvr.pt.lu>
+X-Sender: geohelm@mailsvr.pt.lu
+X-Mailer: Windows Eudora Light Version 1.5.4 (16)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: Carl Woolf <woolf@newvision.com>
+From: Georges Helm <geohelm@pt.lu>
+Subject: Re: Square One
+Cc: cube-lovers@ai.mit.edu
+
+At 09:19 19/06/1997 -0400, you wrote:
+>Square One is a great puzzle!
+>
+>I think there is an instruction booklet, published in Massachusetts or
+>thereabouts, and available from Puzzlets (mgreen@puzzletts.com). I
+>developed a set of techniques that let me solve the thing, but I
+>haven't worked my notes into a form intelligible by other humans (or
+>by me on a bad day).
+>
+
+There is a solution in Puzzle World. Check out details at
+http://ourworld.compuserve.com/homepages/Georges_Helm/cubeold.htm
+
+Georges
+         
+geohelm@pt.lu
+http://ourworld.compuserve.com/homepages/Georges_Helm
+http://www.geocities.com/Athens/2715
+
+
+

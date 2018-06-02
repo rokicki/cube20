@@ -1,0 +1,46 @@
+From cube-lovers-errors@curry.epilogue.com  Sun Jun  2 04:12:01 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id EAA14161 for <cube-lovers-outbound@curry.epilogue.com>; Sun, 2 Jun 1996 04:12:01 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sun, 2 Jun 96 00:17:03 EDT
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9606020417.AA04623@sun13.aic.nrl.navy.mil>
+To: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Cc: Cube-Lovers <cube-lovers@ai.mit.edu>
+Subject: Re: Compact Cube Representation for Shamir and Otherwise
+
+I'm not sure this is so interesting to all of cube-lovers; e-mail me
+if you have opinions pro or con.
+
+Jerry writes of the standard S24 x S24 model, which uses 48 bytes per
+position without packing.  He also has a "supplement" representation
+that uses one facelet from each edge and corner, for 20 bytes.  He
+packs them into 13 bytes on tape.
+
+The way I did it the last time I worked on brute force was to
+pack eight twelve-bit fields:
+
+     The orientations in two twelve-bit fields (2^11 and 3^7),
+     The edge permutation in four twelve-bit fields,
+        each of three base-12 digits (12^3), and
+     The corner permutation in two twelve-bit fields, each of
+        four base-8 digits (8^4).
+
+Unpacking the fields can be done with native arithmetic or table
+lookup.  In the latter case, it is better to use 12*11*10 instead of
+12^3 and 8*7*6*5 instead of 8^3.
+
+Also, postmultiplying by a fixed permutation can be done with table
+lookup without unpacking.  I used this feature for twelve permutations
+of particular interest.
+
+I am somewhat rusty on the implications of using this representation
+in conjunction with Shamir's algorithm.  I think it provides an
+ordering of the permutations that enables at least an approximation to
+the random access you need, then you unpack it and do a better job.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+

@@ -1,0 +1,49 @@
+Received: from ardec-lcss.arpa (TCP 30003004013) by AI.AI.MIT.EDU 14 Jun 88 11:06:32 EDT
+Received: by ardec-lcss.arpa id <2080017F071@ardec-lcss.arpa> ;
+       Tue, 14 Jun 88 11:06:22 EST
+Date: Tue, 14 Jun 88 11:05:46 EST
+From: BECK@ardec-lcss.arpa
+Subject: patents
+To: cube-lovers@ai.ai.mit.edu
+X-VMS-Mail-To: EXOS%"cube-lovers@mit-ai"
+Message-ID: <880614110546.2080017F071@ardec-lcss.arpa>
+
+CUBE PATENTS:
+
+The best overall discussion of cube patents is in Metamagical
+Themas,pg 356; D Hofstadter.  Hofstadter says "that the real reason
+the Rubik-Ishige Cube took off was that it could be manufactured and
+that it did hold together".   In Puzzles Old and New,
+Slocum&Boetermans it is stated that the courts gave the US patent
+rights to Nichol's.   The is a further discussion of Rotary Puzzle
+patents in Doug Engel's self published book "Circle Puzzler's Manual".
+
+If anybody has further patent details please send me citations or even
+rumors.  Of especial interest is information on the granting of the US
+rights to Nichol's.
+
+I've added some more details to the patent section.
+0.  CUBE PATENTS  (see Metamagical Themas,pg 356; D Hofstadter for an
+overview)
+0.1  US PATENT#3,081,089,  william Gustafson, 1958 (2x & 3x)
+0.2  Frank Fox, 1970 British (3x)
+0.3  US PATENT#  , LARRY Nichols, 1972 (2x) 
+0.4  HUGARIAN PATENT, #170062, ERNO RUBIK, Jan 30,1975&Oct 28,1976&Dec
+31,1977 (3x &2x cubes)
+0.5  JAPANESE PATENTS
+0.5.1  JAPANESE PATENT,#55-8192,  Terutoshi Ishige, Oct 10,1976&Apr
+26,1978&Mar 3,1980,(3x)
+0.5.2  JAPANESE PATENT,#55-8193,  Terutoshi Ishige, Mar 12,1977&Oct
+10, 1978&Mar 3,1980; (2x)
+0.5.3  JAPANESE PATENT,#55-3956,  Terutoshi Ishige, Oct 21,1978&Jan
+28,1980,(3x)
+
+
+THE FUTURE IS PUZZLING, 
+but CUBING IS FOREVER !!
+
+
+peter beck
+
+<pbeck@ardec>  or  <beck@ardec-lcss>
+

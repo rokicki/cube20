@@ -1,0 +1,39 @@
+Date: 30 Nov 1982 18:16-EST
+From: hoey at CMU-10A
+Subject: Pentominoes
+To: CSD.TAJNAI at SU-SCORE, Cube-Lovers at MIT-MC
+
+A friend of mine has a set of pentominoes called ``Quintillions'',
+available from
+
+	Kadon Enterprises, Inc.
+	1227 Lorene, Suite 16
+	Pasadena MD  21122
+
+Basic Quintillions is a set containing the twelve planar
+pentominoes for $29.00.  Super Quintillions is a set containing the
+nonplanar pentominoes for $39.00.  (The literature says there are
+eighteen pieces, but I think there are only seventeen nonplanar
+pentominoes.  Perhaps they include some extra piece so you can make
+a 3x5x6 rectangular prism)  The basic set is a high-quality puzzle,
+each piece laser-cut from a single piece of wood, with a velour
+box.
+
+If you want to make your own, you can glue little cubes together.
+Here are patterns for the planar pentominoes:
+
+X   X X     X X         X           X   X X   X X    X X X X X
+X     X X   X X   X   X X X     X   X     X     X               X
+X X   X     X     X     X       X   X X   X X   X   X   X     X X
+X               X X X       X X X     X         X   X X X   X X
+
+For the nonplanar pieces, let U, D, and B stand for cubes on the
+upper level, lower level, and both levels.  The pieces I know of
+are as follows, where an asterisk denotes a piece that can be
+reflected to form a new piece:
+
+ *                 *         *         *     *     *
+
+B     D     D     D B   D   D D       B     D     U     B
+D D   B D   D B   D     D   D     B   D D   B D   B D   D B
+D     D     D     D   D B   B   D B     D     D     D

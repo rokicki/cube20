@@ -1,0 +1,157 @@
+From walace@ntiaa.embrapa.ansp.br  Fri Jan 21 21:35:11 1994
+Return-Path: <walace@ntiaa.embrapa.ansp.br>
+Received: from fpsp.fapesp.br by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24242; Fri, 21 Jan 94 21:35:11 EST
+Received: from ntiaa.embrapa.ansp.br by fpsp.fapesp.br with PMDF#10108; Sun, 16
+ Jan 1994 23:06 BDB (-0200 C)
+Received: by ntiaa.embrapa.ansp.br - Sat, 15 Jan 1994 12:44:15 -0300
+Date: Sat, 15 Jan 1994 12:44:15 -0300
+From: walace@ntiaa.embrapa.ansp.br (Walace Sartori Bonfim)
+Subject: ICSI94
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <4CD9C4A5C000C949@fpsp.fapesp.br>
+X-Envelope-To: cube-lovers@ai.ai.mit.edu
+
+Dear reader,
+
+Due to the wide spectrum of people that might be interested in the
+subjects to be discussed during the III International Conference on Systems
+Integration, we decided to post this call for papers in your mailing list.
+
+We encourage you to participate in this event as a paper author.
+
+The paper arrival deadline is March 3, 1994.
+
+Please forward this message to whoever you think it might be of interest and we
+appreciate your effort to post it.
+
+Thanks,
+
+Prof. Fuad Gattaz Sobrinho
+Conference Chairman
+
+
+    -----------------------------------------------------------------
+			   Call for Papers
+
+	The Third International Conference for Systems Integration
+			Sao Paulo City - Brazil
+
+		     July 30th - August 6th, 1994
+    -----------------------------------------------------------------
+
+The Integration of Society for the Social, Economical, Scientific and
+Technological Development. This conference focuses on the integration
+of technologies, processes and systems, and the development of mechanisms
+and tools enabling solutions to complex multi-disciplinary problems dealing
+with agriculture, housing, telecommunications, financing and business,
+public services, education and software. The conference will provide an
+international and interdisciplinary forum in which researchers, educators,
+managers, practitioners and politicians, involved within the production
+process, can share novel research and development, education, production,
+trading, management and political experiences. Papers should deal with
+recent effort in theory, design, implementation, methodology, technics,
+tools and experiences of integration. Topics to be addressed include, but
+are not limited to:
+
+     Technical and Scientific Aspects:
+	- Integration, Modeling, Characterization and Automation of Process
+	  and Systems
+	- Reengineering and Simplification of Processes
+	- Computational Environments and Software Factories for Engineerind,
+	  Design, Manufacturing and System Development
+	- Rol of Human Engineering in Integration
+	- Experiences within National or Continental Software Projects
+	- The Implication of Systems Integration for Manpower Skills
+	- Quality Control and Certification in Organizational and Process
+	  Integration.
+
+     Social, Political and Economical Aspects:
+	- Experiences in Modeling, Development, Evolution and Integration
+	  of Enterprises
+	- Experiences in Management and Identification of Value-Add Chains
+	  within Agriculture, Housing, Telecommunications, Financing and
+	  Business, Public Services, Education and Software
+	- Public Policies and City Management
+	- Management of Multi-dimensional Integration.
+
+     Infrastructure Aspects:
+	- Qualified Information Resources
+	- Education and Training
+	- Science and Technology
+	- Enterprise Development.
+
+Information and Instructions for Authors: All papers must be in English
+or  Portuguese, typed in double spaced format, and may not exceed 6,000
+words. Each submission should provide a cover page containing author(s),
+affiliation(s), complete address(es), identification of principal author,
+and telephone number. Also include SIX copies of complete text with a
+title and abstract. Notice of acceptance will be mailed to the principal
+author(s) by March 15, 1994. If accepted, the author(s) will prepare the
+final manuscript, in English, in time for inclusion in the conference
+proceedings and will present the paper at the conference; otherwise, the
+author(s) will incur a page charge. Authors of accepted papers must sign
+a copyright release form. The proceedings will be published by the IEEE
+Computer Society Press.
+
+Send SIX copies of your paper(s) to:
+
+Prof. Peter A. Ng
+IIISis - USA Office - New Jersey Institute of Technology
+University Heights
+Newark, NJ  07102
+USA
+
+For Further Information, Contact:
+
+Prof. Peter A. Ng		 Prof. Fuad Gattaz Sobrinho
+Fone:(1) (201) 596-3387     OR   Phone:(55)(192) 41-4504
+Fax: (1)(201) 596-5777		 Fax:  (55)(192) 41-3098
+Email: ng_p@vienna.njit.edu	 Email: iiisis@ccvax.unicamp.br
+
+-------------------------------------------------------------------
+>>>>>>>>>> Paper Arrival Deadline: March 3rd, 1994 <<<<<<<<<<<<<<<<
+-------------------------------------------------------------------
+
+CONFERENCE COMMITTEE
+
+Conference Chair		Fuad Gattaz Sobrinho
+				IIISis
+Program Chair			Peter A. Ng
+				NJIT
+Finance & Business Co-Chair	Alcir A. Calliari
+				Banco do Brasil
+Agriculture Co-Chair		Ney B. Araujo
+				ABAG
+European Co-Chair		Herbert Weber
+				University of Dortmund
+Pac!fic Co-Chair		Fumihiko Kamijo
+				IPA
+Middle East Co-Chair		Asuman Dogac
+				METU
+South America Co-Chair		Julio C. S. P. Leite
+				PUC/RJ
+North America Co-Chair		Bruce Berra
+				Syracuse University
+Tutorials Co-Chairs		Oscar Ivan Palma Pacheco
+				EMBRAPA
+				Murat M. Tanik
+				SMU
+Organization Co-Chairs		Rita de Cassia A. Marchiore
+				IIISis
+				Carole Poth
+				NJIT
+Steering Committee Chair	Peter A. Ng
+				NJIT
+Honorary Advisors		Raymond T. Yeh
+				C. V. Ramamoorthy
+				Laurence C. Seifert
+Honorary Conference Chair	Irma Rossetto Passoni
+				Sc&Tech, Info. and Comm. Comission of
+				Brazilian Congress.
+
+Sponsored by IIISis - International Institute for Systems Integration,
+BB - Banco do Brasil, TELEBRAS, FINEP, CNPq, FBB, with colaboration of
+NJIT, SUCESU, EMBRAPA, ABAG, ACM e IEEE Computer Society.
+
+Instituto Internacional de Integracao de Sistemas - IIISis - Brazil.
+

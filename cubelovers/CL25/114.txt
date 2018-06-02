@@ -1,0 +1,45 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 19 23:44:32 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id XAA17423; Wed, 19 Aug 1998 23:44:31 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Aug 19 23:34:51 1998
+Date: Wed, 19 Aug 98 23:34:34 EDT
+Message-Id: <19Aug1998.231259.Hoey@AIC.NRL.Navy.Mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: jbryan@pstcc.cc.tn.us
+Cc: reid@math.brown.edu, cube-lovers@ai.mit.edu
+In-Reply-To: <SIMEON.9808191754.D@GN209A.PSTCC.CC.TN.US> (message from Jerry
+	Bryan on Wed, 19 Aug 1998 17:09:54 -0400 (Eastern Daylight Time))
+Subject: Re: minimal maneuvers for X symmetric positions
+
+Jerry Bryan <jbryan@pstcc.cc.tn.us> writes:
+
+> Positions #63 through #124 are essentially the first 62 
+> positions composed with superflip.  I had never noticed it, and 
+> I don't *think* it has been described on the list, but for every 
+> symmetry group, half of the corresponding positions can be 
+> described as "basic" positions and the other half can be 
+> described as the basic positions composed with superflip.  That 
+> is, if Symm(x)=K, then Symm(xf)=Symm(fx)=K, where x is any 
+> position and f is the superflip.
+
+This is easy to see if we consider that  Symm(x)  is the set of all
+m  in  M  that commute with  x, because
+
+         m' x m = x     if and only if     x m = m x.
+
+At some times since 1981 I've wondered whether symmetry discussions
+are better done with commutativity rather than conjugacy.
+
+So if  c  is any element of the center of G* -- i.e.,  c  commutes
+with all elements of  M  and  G  -- then  Symm(x)=Symm(x c).  As is
+well known to cube-lovers, the center of the usual cube group consists
+of the identity and the superflip.  In the supergroup, we may also
+compose these with Big Ben (all face centers rotated 90 degrees) and
+Noon (Big Ben squared).
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

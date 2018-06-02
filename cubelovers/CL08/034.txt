@@ -1,0 +1,26 @@
+From raymond@cps.msu.edu  Wed Jan 15 11:07:35 1992
+Return-Path: <raymond@cps.msu.edu>
+Received: from galaxy.cps.msu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA17950; Wed, 15 Jan 92 11:07:35 EST
+Received: from cpss11.cps.msu.edu by galaxy.cps.msu.edu (4.1/rpj-5.0); id AA07139; Wed, 15 Jan 92 11:07:33 EST
+Received: by cpss11.cps.msu.edu (4.1/4.1)
+	id AA01817; Wed, 15 Jan 92 11:07:32 EST
+Date: Wed, 15 Jan 92 11:07:32 EST
+From: raymond@cps.msu.edu
+Message-Id: <9201151607.AA01817@cpss11.cps.msu.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Cube software
+
+I received 8 requests for my cube cycle program.  They are:
+berson@cs.pitt.edu
+bosch@mips.com
+DEVO@GDLVM7.VNET.IBM.COM
+keng@zcar.asd.sgi.com
+tout@cps.msu.edu
+palmerp@MATH.ORST.EDU
+schmidtg@iccgcc.decnet.ab.com
+tjj@rolf.helsinki.fi
+
+If I omitted anyone, please send your request again.
+
+Carl
+

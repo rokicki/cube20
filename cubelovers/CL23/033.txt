@@ -1,0 +1,47 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun 26 16:55:53 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id QAA06984; Thu, 26 Jun 1997 16:55:52 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Thu, 26 Jun 1997 13:53:47 -0700
+From: "Jason K. Werner" <mrhip@corp.sgi.com>
+Message-Id: <9706261353.ZM3850@neuhelp.corp.sgi.com>
+In-Reply-To: Nicholas Bodley <nbodley@tiac.net>
+        "Hidden cubies; Spaceball" (Jun 26,  7:44)
+References: <Pine.SUN.3.95.970626073036.5876A-100000@sunspot.tiac.net>
+Reply-to: "Jason K. Werner" <mrhip@sgi.com>
+X-Mailer: Z-Mail-SGI (3.2S.2 10apr95 MediaMail)
+To: Nicholas Bodley <nbodley@tiac.net>, cube-lovers@ai.mit.edu
+Subject: Re: Hidden cubies; Spaceball
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+
+On Jun 26,  7:44, Nicholas Bodley wrote:
+> Subject: Hidden cubies; Spaceball
+
+>  On another topic, it seems to me that an ideal device for controlling a
+> computer-simulated Cube (or other similar puzzle) would be the Spaceball,
+> a ball that you can grip. It senses torque around all three mutually-
+> orthogonal axes, as well as "translational" force along those axes. It's
+> not a consumer item; not sure it's still being made. I'm reasonably sure
+> of the tradename. It was/is used with workstations. "Spaceball" sounds
+> much like the name of a puzzle.
+
+In case anyone is interested:
+
+	http://www.spacetec.com/
+	http://www.spaceorb.com/
+
+
+	-Jason
+
+
+--
+Jason K. Werner                 Email: mrhip@sgi.com
+Systems Administrator           Phone: 415-933-6397
+USFO I/S Technical Services     Fax:   415-932-6397
+Silicon Graphics, Inc.          Pager: 415-317-4084, mrhip_p@sgi.com
+
+"Winning is a habit"-Vince Lombardi;"These go to eleven"-Nigel Tufnel
+
+

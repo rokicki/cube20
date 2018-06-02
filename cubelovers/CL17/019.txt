@@ -1,0 +1,50 @@
+From BRYAN@wvnvm.wvnet.edu  Fri Oct  6 16:39:08 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01095; Fri, 6 Oct 95 16:39:08 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R3)
+   with BSMTP id 8544; Fri, 06 Oct 95 09:25:11 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 2139; Fri, 6 Oct 1995 09:25:12 -0400
+Message-Id: <wvmail32.1995oct4.162503.bryan@wvnvm.wvnet.edu>
+Date:      Fri, 6 Oct 1995 09:25:11 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Preliminary Search Results for <F,U,L,R,D>
+
+The first step in finding |B| in <F,U,L,R,D> is to build a little
+Start-rooted data base using only the ten generators F, F', U, U', etc.
+I was able to search eight levels deep with a "quick and dirty" search.
+To search deeper would take a good bit longer.  I hope that eight levels
+will be enough to calculate |B|.  By constructing a companion
+B-rooted data base, I should be able to test up to 15 levels deep.
+(B is odd, so eight levels deep for each half-depth search only
+gets you 15 levels total instead of 16.)
+
+I haven't started the search for B yet, but I thought the
+results so far might be of minor interest in their own right.  As
+I indicated before, these are actual cube positions.  I haven't
+figured out any way to apply conjugacy classes to this problem.
+
+I find it a little puzzling that the branching factor is not
+monotonically decreasing (c.f., level 3 to level 4).
+
+
+     Level         Number of       Local      Branching
+                   Positions        Max        Factor
+
+       0                  1           0
+       1                 10           0           10.000
+       2                 77           0            7.700
+       3                584           0            7.584
+       4              4,434           0            7.592
+       5             33,664           0            7.592
+       6            255,320           0            7.584
+       7          1,933,936                        7.575
+       8         14,635,503                        7.568
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

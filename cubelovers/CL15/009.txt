@@ -1,0 +1,64 @@
+From mreid@ptc.com  Thu Jan 19 18:30:05 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09088; Thu, 19 Jan 95 18:30:05 EST
+Received: from ducie.ptc.com by ptc.com (5.0/SMI-SVR4-NN)
+	id AA15016; Thu, 19 Jan 95 18:28:35 EST
+Received: by ducie.ptc.com (1.38.193.4/sendmail.28-May-87)
+	id AA09110; Thu, 19 Jan 1995 18:41:47 -0500
+Date: Thu, 19 Jan 1995 18:41:47 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9501192341.AA09110@ducie.ptc.com>
+To: cube-lovers@ai.mit.edu
+Subject: symmetric maneuvers
+Content-Length: 1504
+
+mark writes
+
+> p = R3 U2 B1 L3 F1 U3 B1 D1 F1 U1 D3    (12 q)
+> 
+> Then  p + (p * Sm) = Superflip
+> 
+> This is Mike's process slightly patched, with the last two (commuting)
+> cube turns swapped in position.
+
+i'm surprised this hasn't been pointed out previously.  however, i would
+write the above as
+
+        (R3 U2 B1 L3 F1 U3 B1 D1 F1 U1 D3  C_X)^2
+
+where i use  C_X  for central reflection.  this fits in with mark's
+idea of "cyclic decomposition".
+
+i've noticed that a number of minimal (or presumed to be minimal)
+maneuvers for pretty patterns have some symmetry.  here i'll use
+commutator notation:
+
+              [ A , B ]    refers to   A  B  A'  B'
+
+also i'll use bandelow's notation for rotations of the whole cube:
+
+                C_U , C_RF , C_URF ,
+
+denote rotation about a face-face axis, edge-edge axis, corner-corner
+axis, respectively.
+
+now some patterns:
+
+anaconda:            B1 R1 D3 R3 F1 B3 D1 F3 U1 D3 L1 F1 L3 U3
+                 = [ B1 R1 D3 R3 F1 B3 D1 , C_UB ]
+
+python:              D2 F3 U3 L1 F3 B1 D3 B1 U1 D3 R3 F1 U1 B2
+                 = [ D2 F3 U3 L1 F3 B1 D3 , C_UF ]
+
+6 x's (order 3):     R2 L3 D1 F2 R3 D3 F1 B3 U1 D3 F1 L1 D2 F3 R1 L2
+                 = [ R2 L3 D1 F2 R3 D3 F1 B3 , C_UB ]
+
+my favorite example is
+four twisted peaks:  U3 D1 B1 R3 F1 R1 B3 L3 F3 B1 L1 F1 R3 B3 R1 F3 U3 D1
+                 = [ U3 D1 B1 R3 F1 R1 B3 L3 F3 , C_R2 ]
+
+i'd hoped to find maneuvers for "cube within a cube" and "cube within a
+cube within a cube", but no such luck.
+
+mike
+

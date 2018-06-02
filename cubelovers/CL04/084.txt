@@ -1,0 +1,77 @@
+Date: 23 September 1982 1206-EDT (Thursday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  MegaMinx and orientation theory
+In-Reply-To:  ISAACS's message of 22 Sep 1982 1425-PDT
+Message-Id: <23Sep82 120644 DH51@CMU-10A>
+
+Funny you should ask about the positions of the MegaMinx.  I
+analyzed this puzzle with the FHL algorithm.  It was the longest
+run of that algorithm that I have heard of, something like 20 CPU
+hours.  Necessity was the mother of checkpointing.
+
+The standard MegaMinx has 20 corners and 30 edges.  Both the edge
+and corner permutation parities must be even.  Corner and edge
+orientation parities are zero (mod 3) and (mod 2), respectively.
+These are the only invariants, so there are twenty-four orbits and
+	(20! 3^20 30! 2^30)/24 ~ 1.007E68
+positions.  In the SuperMegaMinx, a 1/5 twist of a single face
+center is possible, so there are
+	(20! 3^20 30! 2^30 5^12)/24 ~ 2.458E76
+positions.  I think the MegaMinx is going to be easier than Rubik's
+Revenge, not because there is more carryover from the cube, but
+because there is more of the puzzle that is not affected by a
+single generator.  Computing a lower bound that takes account of
+generators that commute is going to be difficult, however: there
+are triples of commuting generators, and we can find commuting
+triples {A, B, C} and {A, B, D} such that C and D do not commute.
+
+A curious question:  What do we mean by the corner orientation of
+the MegaMinx when the corner permutation is not the identity?  On
+the cube, we took the corner colortabs on two opposite faces of a
+solved cube and marked both the tab and its position.  Then in a
+scrambled cube we counted the position of each marked corner
+colortab relative to the marked position on its cubie.  This
+procedure doesn't work on the dodecahedron:  where should we mark
+the tabs on those corner cubies that are not on the two opposite
+faces?
+
+It was a year before I realized that the choice of placing the
+marks on opposite faces of the cube was arbitrary.  The marked tabs
+and positions can be chosen any way that gives us one marked tab
+and one marked position per cubie, and has zero orientation parity
+in a solved cube.  It is customary to enforce the second criterion
+by requiring that marked positions be the positions of marked tabs
+in a solved cube.  The same argument holds for edges, and both
+generalize to the MegaMinx.
+
+Why is there orientation parity?  When we twist an n-gon face, the
+edge cubies move in an n-cycle and their colortabs move in two
+n-cycles.  We call this an ``untwisted cycle''.  But we could
+conceive (see below) of a puzzle where the edge colortabs would
+move in a single 2n-cycle.  This would be a ``twisted cycle'', and
+would violate orientation parity.  Similar arguments hold for
+corner cubies, whose kn tabs must move in k n-cycles rather than
+k/d nd-cycles, for d a divisor of k (note that k=4 for the
+icosahedron (but the icoshahedron has two corner tab orbits, so
+quite a different argument applies)).  To summarize, any puzzle
+that moves pieces in untwisted cycles must preserve orientation
+parity.
+
+I wonder if some argument of this type can be made for the
+tesseract.  The argument depends on the orientation group being
+Abelian (it has in fact been cyclic in our examples), and at least
+some of the hypercubies have nonabelian orientation groups.
+Perhaps we have to use Abelian quotients of the orientation groups.
+Has anyone seen the paper on the tesseract that was mentioned by
+Hofstatder?
+
+Retreating to three dimensions, let's consider a variant on Rubik's
+cube.  Suppose you had a gear (heh) embedded in the URF and BLD
+corners, such that whenever an edge cubie passed by one of these
+corners (e.g. from UR to UF by twisting U) it would flip (go from
+UR to FU).  This would violate EOP on every quarter-twist!  Of
+course, you know what positions would be possible in such a puzzle.
+So now let's consider gears in the FU, BL, and RD edges that twist
+corner cubies as they go by.  I don't know about this puzzle, but I
+suspect that there are only four orbits.

@@ -1,0 +1,61 @@
+Date: 16 September 1981 0003-EDT (Wednesday)
+From: Dan Hoey at CMU-10A
+To: ISAACS at SRI-KL, Cube-Lovers at MIT-MC
+Subject:  Re: lower bounds
+In-Reply-To:  Stan Isaacs's message of 15 Sep 81 17:53-EST and Alan Bawden's
+             message of 15 Sep 81 20:55-EST
+Message-Id: <16Sep81 000353 DH51@CMU-10A>
+
+	Hi.  I'm really pressed for time, but I'll drop a couple of
+comments.
+
+	Alan pretty well said it--there are half-twisters and there
+are quarter-twisters and the included message is one of the former.
+I strongly favor the latter, since then all the moves are
+equivalent, (M-conjugate, to you archive-readers).  But Singmaster's
+book, though in the other camp, is too good to ignore.
+
+	To extend the argument I gave on 9 January to the case
+where quarter-twists and half-twists are counted equally (we call
+such a move a `htw' whether it is quarter or half) let PH[n] be the
+number of (3x3x3-cube) positions at exactly n htw from SOLVED.  Then
+
+	PH[0]  = 1
+	PH[1] <= 6*3*PH[0]
+	PH[2] <= 6*2*PH[1]   + 9*3*PH[0]
+	PH[n] <= 6*2*PH[n-1] + 9*2*PH[n-2] for n > 2.
+
+Solving yields the following upper bounds:
+
+htw        new        total      htw        new         total
+ 0           1            1       10    2.447*10^11   2.646*10^11
+ 1          18           19       11    3.267*10^12   3.531*10^12
+ 2         243          262       12    4.360*10^13   4.713*10^13
+ 3        3240         3502       13    5.820*10^14   6.292*10^14
+ 4       43254        46756       14    7.769*10^15   8.398*10^15
+ 5      577368       624124       15    1.037*10^17   1.121*10^17
+ 6     7706988      8331112       16    1.385*10^18   1.497*10^18
+ 7   102876480    111207592       17    1.848*10^19   1.998*10^19
+ 8  1373243544   1484451136       18    2.467*10^20   2.667*10^20
+ 9 18330699168  19815150304
+
+	At least 18 htw are required to reach all the 4.325*10^19
+positions of the cube.  This is the same argument that was used in
+Singmaster's fifth edition, p. 34, and is the best I know.  Lest ye
+be tempted to pull the trick I did in the January message, remember
+that half-twists are even permutations, so there is no assurance
+that half the positions are an odd distance from SOLVED.  This is
+illustrated in the 2x2x2 case, where more than half of the
+positions are at a particular odd distance.
+
+	And yes, all of Thistlethwaite's analysis seems to use the
+half-twist metric.  I am quite surprised, however, to hear the rumor
+of 41 htw.  As of Singmaster's fifth edition, the figure was 52 htw
+``... but he hopes to get it down to 50 with a bit more computing
+and he believes it may be reducible to 45 with a lot of
+searching.''  If anyone has harder information on the situation, I
+would like to hear it.
+
+	Well, back to real work.  I saw a Rubikized tetrahedron in a
+shop window earlier this evening; I'm not sure whether I'm relieved
+or infuriated that the store was closed for the day.

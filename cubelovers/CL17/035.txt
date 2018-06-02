@@ -1,0 +1,36 @@
+From preux@lil.univ-littoral.fr  Thu Oct 12 10:48:47 1995
+Return-Path: <preux@lil.univ-littoral.fr>
+Received: from lilserv.univ-lille1.fr by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10654; Thu, 12 Oct 95 10:48:47 EDT
+Received: from elgon.univ-littoral.fr (elgon.univ-littoral.fr [194.57.179.17])
+          by lilserv.univ-lille1.fr (8.7/jtpda-5.1) with SMTP id PAA10611
+          for <Cube-Lovers@life.ai.mit.edu>; Thu, 12 Oct 1995 15:46:38 +0100 (MET)
+Message-Id: <199510121446.PAA10611@lilserv.univ-lille1.fr>
+Received: by elgon.univ-littoral.fr Thu, 12 Oct 1995 14:45:45 GMT
+Date: Thu, 12 Oct 1995 14:45:45 GMT
+From: preux@lil.univ-littoral.fr (Preux Philippe)
+To: Cube-Lovers@life.ai.mit.edu
+Subject: I am in search of Thistlewaite's algorithm
+
+
+Hi,
+
+As long as I am a new comer to this mailing list, I will briefly
+introduce myself. As a computer science researcher, I am working on
+evolutionary algorithms trying to assess their ability to solve
+combinatorial optimization problems. One of my old dream has been to
+solve the Rubik's cube (for the moment, the very basic 3x3x3 version)
+with this kind of algorithms. I have heard about the Thistlewaite's
+algorithm which is able to solve the problem in less than 50 or so
+moves. I have also heard about a publication of D. Singmaster that, among
+other things, describes this algorithm. Thus, I am looking for
+information about this algorithm: how does it work precisely? I wonder
+whether this algorithm, either a description or an implementation of
+it, is available somewhere on the net. I would also be interested in
+having a copy of D. Singmaster's report (either via ftp or paper).
+
+Can someone help me? Thanks a lot in any case.
+
+Philippe
+
+-- 
+

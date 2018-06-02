@@ -1,0 +1,29 @@
+From cube-lovers-errors@oolong.camellia.org  Mon May 12 23:04:11 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id XAA01370; Mon, 12 May 1997 23:04:10 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Tue, 13 May 1997 03:27:02 BST
+From: David Singmaster Computing & Maths South Bank Univ <david.singmaster@sbu.ac.uk>
+To: whuang@ugcs.caltech.edu
+CC: cube-lovers@ai.mit.edu
+Message-ID: <009B42D5.FC6B2820.2@vax.sbu.ac.uk>
+Subject: Re: Extra-long Rubik's magic rings
+
+	Several people have remarked about having broken strings on a
+version of Rubik's Magic.  When one of mine first came apart, I thought
+it would be impossible to get it back together correctly as I thought
+there would be some critical weaving of the strings.  However, once
+one examines it closely, one sees that no magic is needed.  Simply rethread
+the strings along the correct paths and it works.  All one needs is a small
+screwdriver to stretch the end of a loop over the corner of a panel.  So
+it is much easier to assemble or to reassemble than one initially thinks
+and I'd encourage anyone who has a little manual dexterity to remake a
+broken one using strings from other ones.
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+
+

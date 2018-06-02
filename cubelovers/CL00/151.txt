@@ -1,0 +1,10 @@
+Date:	  20 September 1980 2144-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  Cubesys/LISPM fixed
+To:	  CUBE-LOVERS at MIT-MC
+
+:cube's Lisp Machine instantiation has now been fixed to work in color
+on Color LISPM's again.
+
+   To invoke, (load "bsg;cubpkg"), wait till it loads, and (cube).
+Should be self-documenting.

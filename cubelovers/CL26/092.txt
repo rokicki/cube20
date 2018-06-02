@@ -1,0 +1,33 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Dec 28 19:00:54 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA19705
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 28 Dec 1998 19:00:53 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3685267B.D1459EC7@geocities.com>
+Date: Sat, 26 Dec 1998 10:10:03 -0800
+From: Jono <bagelboyj@geocities.com>
+Reply-To: BagelBoyJ@geocities.com
+Organization: Fine Finger Design
+To: cube-lovers@ai.mit.edu
+Subject: Other Cubes
+
+Hi, cube lovers. I have a few questions.
+Does anyone know if Erno Rubik is still alive?
+About 4 years I vaguely remember seeing a large star-shaped
+rubiks puzzle. Does anyone know where I can find one?
+I am also looking for a 4x4x4 and a 5x5x5 cube. Where can I
+find one?
+
+Thanks to all.
+
+
+-Jono
+
+[ Moderator's note: Cube-lovers-request gets a lot of requests for
+  information on finding 4^3 and 5^3 puzzles.  I'm pretty sure there
+  is no source of 4^3 puzzles, except for the occasional auction.
+  Last I heard Uwe Meffert sells 5^3 puzzles at
+  http://www.ue.net/mefferts-puzzles/ --Dan ]
+

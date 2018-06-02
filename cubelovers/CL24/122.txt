@@ -1,0 +1,56 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Jan  3 21:37:36 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA15379; Sat, 3 Jan 1998 21:37:35 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sat Jan  3 05:56:11 1998
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: <Cube-Lovers@ai.mit.edu>, "Bryan Main" <bmain@caddscan.com>
+Subject: Re: 5x5x5
+Date: Sat, 3 Jan 1998 10:55:50 -0000
+Message-Id: <19980103105500.AAA11342@home>
+
+> From: Bryan Main <bmain@caddscan.com>
+> To: Cube-Lovers@ai.mit.edu
+> Subject: Re: 5x5x5
+> Date: 29 December 1997 13:31
+
+> I just got one of these for christmas and had a question or two.
+> First is there a cube program so I can play with it and not destroy
+> all the work I have done?  And I have solved one side, and all of
+> the edges without much problems.  However, can I solve the middle
+> pieces without destroying the edges?  As of yet I haven't found a
+> way to keep the one side I have finished and move one of the center
+> pieces on another side.  I don't want moves, I just want to know if
+> it is possible to solve this way or if I need to start looking at
+> another way to solve it.
+
+> bryan
+
+Yes, if the corners of the top layer are also in the right place.  You can
+move them around by normal 3x3x3 moves, but in doing so you may find that
+the parity of the edge pieces is changed.  If you can swap a pair of edge
+pieces on a 4x4x4, all will be well, and all the pieces in the ring of
+eight around the piece at the centre of each face can be dealt with by
+3-cycles to move these pieces to a different face or around on the same
+face.
+
+There is a hidden complication.  The new type of pieces introduced by the
+5x5x5 are those at N, S, E and W in the central block of nine in each face.
+ If the corner pieces of the cube are correctly placed, the parity of these
+new pieces is tied to that of the edge pieces introduced by the 4x4x4, i.e.
+those next to the corner pieces of the cube.  So if a pair of these edge
+pieces is swapped, so will be a pair of the new 5x5x5 central pieces.  But
+the swap of the edge pieces will cure them at the same time.  Often the
+change to the centre pieces will not even show, because it will take place
+within the same face.  Thus the sequence Georges Helm gave some time ago to
+swap the 4x4x4 edges also cures the 5x5x5 centre pieces.  If it is applied
+to a cube in the start position, it swaps Bl and Br visibly, and
+interchanges FHl and FHr (where H is the central slice parallel to U)
+invisibly.  It also makes an even-parity change to the 4x4x4 centre pieces
+on the front face - in fact it rotates by 180 degrees the (l, u+H+d) and
+(r, u+H+d) strips on this face.
+
+Roger Broadie
+

@@ -1,0 +1,31 @@
+From hoey@aic.nrl.navy.mil  Sun Dec 17 21:11:37 1995
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12273; Sun, 17 Dec 95 21:11:37 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA22055; Sun, 17 Dec 95 21:11:36 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Sun, 17 Dec 95 21:11:35 EST
+Date: Sun, 17 Dec 95 21:11:35 EST
+From: hoey@aic.nrl.navy.mil
+To: Cube-Lovers@life.ai.mit.edu
+X-To: Frank R Bernhart <frb6006@cs.rit.edu>,rusin@washington.math.niu.edu (Dave Rusin)
+In-Reply-To: hoey@aic.nrl.navy.mil's message of 17 Dec 1995 07:41:01 GMT
+Newsgroups: sci.math
+Subject: Re: Presenting Rubik's Cube
+References: <mschoene.817657981@astoria> <1995Nov29.054118.9651@cs.rit.edu> <9511291210.Hoey@aic.nrl.navy.mil> <49ihhd$j20@muir.math.niu.edu> <HOEY.95Dec17024101@sun13.aic.nrl.navy.mil>
+Message-Id: <9512172110.Hoey@AIC.NRL.Navy.Mil>
+Distribution: 
+
+In my article on a presentation of the Rubik's cube group last night,
+I omitted a relator from list ((7)):
+
+    v es v cs v es^-1 v cs^-1.
+
+This brings the number of relators to 44, with a total length of 605.
+Experiments with GAP on some smaller cube-like groups indicate that
+with this addition, the presentation is correct.
+
+My apologies for the error.
+
+Dan Hoey                                Posted and e-mailed.
+Hoey@AIC.NRL.Navy.Mil
+

@@ -1,0 +1,85 @@
+From: Jim Mahoney <mahoney@marlboro.edu>
+To: ERCO@compuserve.com
+Cc: CUBE-LOVERS@ai.mit.edu
+Subject: Re: 4x4x4 solution -- [Digest v23 #159]
+
+
+      >Your problem is one of parity.  You have two edges cubies swapped
+      >(this swap is visible) and two face center (centre) cubies of the
+      >same color swapped (this swap is invisible).  You have to have an
+    Edwin>  I've had this problem as well.... If I understand you
+    Edwin> correctly, this problem simply doesn't occur anymore as
+    Edwin> soon as you number (or mark in any other way) the center
+    Edwin> pieces which a) makes solving the cube a bit more difficult
+    Edwin> b) makes sure that you'll always get back to the original
+    Edwin> configuration of center pieces.
+
+This isn't quite true, at least not on the 4x4x4.
+
+While it is true that parity is the question at hand, and also that on
+the 4x4x4 cube a quarter of a central slice performs an odd permutation
+on the edges which is otherwise "invisible", it is *not* true that
+marking the centers will help.  The reason is that a quarter turn on a
+center slice of the 4x4x4 performs a cyclic rearrangement of 4 edges -
+an odd permutation - while at the same time rearranges *two* sets of 4
+central pieces - an even permutation of the centers.  Thus parity does
+not prohibit swapping two edges while leaving the centers untouched.
+
+Moreover, in fact there are move sequences which will exchange two
+edges without disturbing the position of any other piece, corner or
+center - though I don't have any on hand which are short.  If there's
+interest, though, I can produce a move sequence to exchange two 4x4x4
+edges while leaving all corners and centers in their original
+positions.
+
+A cross-section looks like this.  A quarter turn cycles the four E's,
+the four C1's, and the four C2's.  This is an odd permutation of the
+E's but an even permutation of the C's.  (All the C's are corners, and
+can be put into each other's positions with a combination of face and
+center turns.)
+
+   E  C1  C2  E
+
+   C2         C1
+
+   C1         C2
+
+   E  C2  C1  E
+
+
+A full account of parity and possible 4x4x4 moves gives
+
+  4x4x4
+  type     ,  how many  ,  parity after:  1/4 face turn , 1/4 center turn
+- ---------------------------------------------------------------------
+  corners  |   8                         |  odd           |  even (untouched)
+  edges    |   24=2x(12 edges)           |  even (8 move) |  odd
+  centers  |   24=4x(6 faces)            |  odd           |  even (8 move)
+
+
+Thus to solve a 4x4x4 cube you must have made both (1) an even
+total number of moves on the faces (to restore the corners and centers to
+even parity), as well as (2) an even total number of moves on the center
+slices, to restore the edges to even parity.
+
+The parity constraints on the 5x5x5 are a bit different.  In that case
+there are two types of edges (the one in the middle of an edge vs the
+ones next to the corners) and three types of centers.  Each has its
+own parity change under each different slice.  A bit of playing around
+shows that any central slice move which cycles 4 edges must also cycle
+several kinds of centers.  At least one of those center cycles is odd.
+Therefore on the 5x5x5 you cannot exchange a pair of edges without
+also exchanging two centers somewhere.  So marking where the centers
+go will help on the 5x5x5.
+
+Regards,
+
+  Jim Mahoney                          mahoney@marlboro.edu
+  Physics & Astronomy
+  Marlboro College, Marlboro, VT  05344
+
+------------------------------
+
+End of Cube-Lovers Digest
+*************************
+

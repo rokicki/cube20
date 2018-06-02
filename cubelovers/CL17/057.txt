@@ -1,0 +1,41 @@
+From news@nntp-server.caltech.edu  Fri Oct 20 14:20:26 1995
+Return-Path: <news@nntp-server.caltech.edu>
+Received: from chamber.cco.caltech.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04695; Fri, 20 Oct 95 14:20:26 EDT
+Received: from gap.cco.caltech.edu by chamber.cco.caltech.edu with ESMTP 
+	(8.6.12/DEI:4.41) id LAA02500; Fri, 20 Oct 1995 11:20:25 -0700
+Received: by gap.cco.caltech.edu 
+	(8.6.7/DEI:4.41) id LAA02106; Fri, 20 Oct 1995 11:20:12 -0700
+To: mlist-cube-lovers@nntp-server.caltech.edu
+Path: whuang
+From: whuang@cco.caltech.edu (Wei-Hwa Huang)
+Newsgroups: mlist.cube-lovers
+Subject: Re: Old question about 2 adj edges
+Date: 20 Oct 1995 18:20:09 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 20
+Message-Id: <468p8p$21m@gap.cco.caltech.edu>
+References: <wvmail32.1995oct20.084246.bryan@wvnvm.wvnet.edu>
+Nntp-Posting-Host: accord.cco.caltech.edu
+X-Newsreader: NN version 6.5.0 #12 (NOV)
+
+"Jerry Bryan" <BRYAN@wvnvm.wvnet.edu> writes:
+>Finally, here is my question.  On the 4x4x4, I get "bad parity" darn
+>near every time.  Why isn't it 50-50 like the situation I have with
+>flips on the 3x3x3?
+
+My suspicion is that "bad" or "good" parity is determined by what your
+formulae are composed of.  An even number of center-plane moves will
+preserve parity, and the opposite is true for odd center-plane moves.
+
+If there really is a reason you're getting bad parity moves, that could
+determine it.
+
+However, I ran into a straight of 5 "good parity" situations recently,
+and didn't really notice it until later, so perhaps it's a psychological
+phenomenon as well (we gloss over good happenings, and dwell on tragedies.)
+
+-- 
+int m,u,e=0;float l,_,I;main() {for(;e<1863; putchar((++e>924&&952>
+e?60-m:u) ["\n  ude.hcetlac.occ@gnauhw   ]"])) for(u=_=l=0;(m=e%81)
+<80&&I*l+_*_ <6&&25>++u;_=2*l*_+e/81*.09-1,l=I)I=l*l-_*_-2+.035*m;}
+

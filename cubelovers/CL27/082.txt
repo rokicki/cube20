@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri May  7 11:26:58 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id LAA04662
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 7 May 1999 11:26:57 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Fri, 7 May 1999 12:27:25 +0100
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: mouse@rodents.montreal.qc.ca
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009D7C0D.6D45DA64.17@ice.sbu.ac.uk>
+Subject: Re: Reinventing (and some edge-flipping techniques)
+
+	Der Mouse's message reminds me of a point which I had meant to include.
+In my algorithm, most of the moving involves just two adjacent faces, which I
+find easier to remember and to carry out.  The Spratt wrench (which I don't
+really know, so I'll have to try it, BTW, who was/is Spratt?) doesn't have
+quite this simple structure.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

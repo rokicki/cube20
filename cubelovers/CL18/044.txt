@@ -1,0 +1,35 @@
+From hoey@aic.nrl.navy.mil  Sun Dec 17 03:12:40 1995
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02757; Sun, 17 Dec 95 03:12:40 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA24330; Sun, 17 Dec 95 03:12:31 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Sun, 17 Dec 95 03:12:30 EST
+Date: Sun, 17 Dec 95 03:12:30 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9512170812.AA27433@sun13.aic.nrl.navy.mil>
+To: Jerry Bryan <jbryan@pstcc.cc.tn.us>, Cube-Lovers <cube-lovers@ai.mit.edu>
+Subject: Re: Million dollar cube
+
+Jerry Bryan wonders about the 15th anniversary celebration:
+
+> That would make it 1980.  Is that right?  I think Cube-Lovers started in
+> 1980, but I have just been reading some early stuff from Singmaster dated
+> 1978 and 1979. 
+
+In _Rubik's Cubic Compendium_, Erno Rubik remarks that his major
+insight occurred in 1974.  He patented the cube in January, 1975 and
+it went on sale in Hungary in 1977.
+
+In 1980, one million were sold in Hungary, and U.S. distribution
+through Ideal began.  Incidentally, they were always the "Magic Cube"
+until Ideal renamed them.
+
+There is some more information in the archives about Bela Szalai
+(Logical Games, Inc), who sold the white-faced cubes in the U.S. after
+seeing the cube in Hungary in 1978.  I'm not sure whether he actually
+beat Ideal to the ship date, or what happened to him after the big
+cube bust.
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

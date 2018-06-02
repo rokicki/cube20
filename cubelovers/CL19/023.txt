@@ -1,0 +1,61 @@
+From JBRYAN@pstcc.cc.tn.us  Fri Feb 16 12:22:06 1996
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from PSTCC4.PSTCC.CC.TN.US by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA00292; Fri, 16 Feb 96 12:22:06 EST
+Resent-From: JBRYAN@pstcc.cc.tn.us
+Resent-Message-Id: <9602161722.AA00292@life.ai.mit.edu>
+Received: from pstcc.cc.tn.us by pstcc.cc.tn.us (PMDF V5.0-3 #11457)
+ id <01I1A4EZL7X48WZUFO@pstcc.cc.tn.us> for cube-lovers@ai.mit.edu; Fri,
+ 16 Feb 1996 12:20:57 -0400 (EDT)
+Resent-Date: Fri, 16 Feb 1996 12:20:57 -0400 (EDT)
+Date: Fri, 16 Feb 1996 12:20:50 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Shamir on Breadth First Searches
+In-Reply-To: <9602151929.AA29120@>
+Sender: JBRYAN@pstcc.cc.tn.us
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.960216115902.539149524K-100000@pstcc.cc.tn.us>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+On Thu, 15 Feb 1996, Don Woods wrote:
+
+> > Can we go again?  That is, can we go from Q[2n] to Q[4n]? 
+> > I think not.  Shamir's method requires that of the S and T
+> > trees, at least the T tree really be there.  We have to
+> > traverse it many times and in all kinds of orders.  Being
+> > there virtually is not enough.
+> 
+> But wait a sec.  Can't we go from Q[2n] to Q[3n]?  We still
+> have T sitting there.  As we generate each element of Q[2n],
+> we could use it to generate Q[2n] x T, couldn't we?  Or do
+> you also need S to "really be there", too?  (I didn't go back
+> over your description to try to figure that out; I'm just
+> basing my suggestion on the quoted paragraph.)
+
+As I said earlier, this is the part of Shamir's method about which I am
+most uncertain.  In my description of forming products st from S and T, I
+emphasized the role of T.  But if I understand the method correctly, the
+width of what I called an m-way merge is controlled by the size of S
+(remember that S contains m elements and T contains n elements).  So the
+merge queue itself will also have m elements.  If you try to generate
+Q[2n] x T, the width of the merge (and the size of the merge queue) will
+have to be as large as Q[2n], which is too large to store.
+
+In answer to your specific question, I would say that the merge queue has 
+to really be there.  S might or might not have to really be there, 
+depending on exactly how you program the interaction between S and the 
+merge queue.  But in any case, the merge queue is as big as S.
+
+(I would gladly accept any and all help discussing these issues with 
+anyone who has actually programmed the algorithm.) 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+

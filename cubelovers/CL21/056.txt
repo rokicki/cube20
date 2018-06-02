@@ -1,0 +1,25 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Nov 26 20:05:10 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id UAA13447; Tue, 26 Nov 1996 20:05:09 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <199611270059.TAA07056@dns.city-net.com>
+To: "Cube-Lovers@AI.MIT.EDU" <cube-lovers@ai.mit.edu>
+Subject: Rubic's Revenge
+Date: Tue, 26 Nov 96 19:56:00 -0500
+From: Bill Edwards <edwards@city-net.com>
+X-Mailer: E-Mail Connection v2.5.03
+
+-- [ From: Bill Edwards * EMC.Ver #2.5.02 ] --
+
+Anybody know where I can get some more Rubic's Revenges?  I wore out my last
+one more than a year ago.  
+
+Does a 5x5 matrix Rubic's cube exist?  I think I know the general solution,
+as an extrapolation from the solution to a 4x4.
+
+Hope to hear from somebody soon.
+
+Bill
+
+

@@ -1,0 +1,42 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov  9 18:35:15 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id SAA01664; Mon, 9 Nov 1998 18:35:13 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 04 Nov 1998 16:41:26 -0500 (Eastern Standard Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Local Maxima Whose Inverses are not  Local Maxima
+To: Cube Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <SIMEON.9811041626.D@GN209A.PSTCC.CC.TN.US>
+
+On 30 June 1997 I reported that if you could find a local
+maximum whose inverse was not a local maximum, then you could
+also find a longer local maximum.  For example, suppose x is a
+local maximum in the quarter turn metric and x' is not.  Then,
+there exists q in Q such that |x'q| = |x'| + 1 = |x| + 1.  But
+we know that q'x is a local maximum and we also know that
+|q'x| = |x| + 1 because |q'x| is the same as |x'q|.
+
+Because we now have at 12q a good number of local maxima  whose
+inverses are not local maxima as specimens, I have begun to
+wonder if the same process might be able to be repeated several
+times to yield progressively longer local maxima.  For example,
+if x is a local maximum and (q1)x is a local maximum, might also
+(q2)(q1)x be a local maximum and also (q3)(q2)(q1)x etc.  It
+seems to me that good candidates to investigate in this regard
+might be those local maxima at 12q whose inverses have a very
+small maximality.  For example, if x is a local maximum where
+the maximality of x' is 2 (and there are several such cases),
+then we know that there are 10 local maxima of the form qx.
+
+I am not sure if I have time to investigate this question
+further, but I certainly would love to hear from anyone who has
+the time and the computing resources to do so.
+
+----------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+
+
+

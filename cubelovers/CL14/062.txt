@@ -1,0 +1,19 @@
+From dik@cwi.nl  Sun Jan  8 19:08:05 1995
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17727; Sun, 8 Jan 95 19:08:05 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id <AA05200@cwi.nl>; Mon, 9 Jan 1995 01:07:56 +0100
+Received: by boring.cwi.nl 
+	id <AA02883@cwi.nl>; Mon, 9 Jan 1995 01:07:55 +0100
+Date: Mon, 9 Jan 1995 01:07:55 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9501090007.AA02883=dik@boring.cwi.nl>
+To: cube-lovers@ai.mit.edu, mreid@ptc.com
+Subject: Re:  two stage filtration
+
+[ Mike: You need not visit all neighbors when going backwards. ]
+
+Right you are; I missed that completely.
+
+dik
+

@@ -1,0 +1,89 @@
+From BRYAN@wvnvm.wvnet.edu  Sat Jan  7 11:09:27 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16758; Sat, 7 Jan 95 11:09:27 EST
+Message-Id: <9501071609.AA16758@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 3760; Sat, 07 Jan 95 10:15:53 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 2792; Sat, 7 Jan 1995 10:15:53 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sat, 7 Jan 1995 10:15:52 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@life.ai.mit.edu>
+Subject:   Re: Cube with GAP
+In-Reply-To: Message of 01/06/95 at 23:51:00 from mark.longridge@canrem.com
+
+On 01/06/95 at 23:51:00 mark.longridge@canrem.com said:
+
+> As I understand it, the format Martin uses in GAP is to represent
+>the 3x3x3 cube by assigning each individual facelet an unique
+>number like so (by the way, the following part is all from the
+>GAP documentation).
+
+>----------------------------------------------------------------------
+>                      +--------------+
+>                      |  1    2    3 |
+>                      |  4  top    5 |
+>                      |  6    7    8 |
+>       +--------------+--------------+--------------+--------------+
+>       |  9   10   11 | 17   18   19 | 25   26   27 | 33   34   35 |
+>       | 12  left  13 | 20 front  21 | 28 right  29 | 36  rear  37 |
+>       | 14   15   16 | 22   23   24 | 30   31   32 | 38   39   40 |
+>       +--------------+--------------+--------------+--------------+
+>                      | 41   42   43 |
+>                      | 44 bottom 45 |
+>                      | 46   47   48 |
+>                      +--------------+
+
+Note that this model does not include the face centers.  That is, it
+is G[C,E] rather than G[C,E,F].  56 numbers would be required to
+include the face centers.  The distinction between 48 facelets and
+56 facelets bears on the nitpicky question of whether the set C of
+rotations is a subgroup of G or not.  What I don't see is how to
+model the Supergroup in GAP.  It looks like you would have to
+label each Face center with four numbers so you could see the
+rotations of the Face centers, but that seems like overkill.
+
+I call this kind of model a facelet model
+rather than a cubie model, and the twists and flips are implicit in
+a facelet model.  I would think that the twists and flips would have
+to be made explicit in a cubie model.  Dan Hoey reported to me once
+that he had an error wherein his corners turned themselves inside
+out.   I can't totally picture how that happened, but it was related
+to the fact that he was using a cubie model with a little
+multiplication table for the twists.
+
+I have always used a facelet
+model, except that I number the corners from 1 to 24 and the edges
+from 1 to 24 for historical reasons.  That is, I started with corners
+only or edges only, and have only lately put the two together.  It
+really does not create any problems for me to use the same numbers
+for both edges and corners because the edges and corners
+are stored disjointly, as are the edge and corner permutations
+for quarter and half turns, and as are the edge and corner
+permutations for rotations and reflections.
+
+When I write the model out to disk, I only write out 8 corner facelets
+and 12 edge facelets.  For example, I only write out the front and
+back corner facelets.  This saves space and converts the model from
+a facelet model to a cubie model, with the twists implicitly encoded
+rather than being explicitly encoded via multiplication tables.  It
+also automatically establishes a frame of reference by which a
+proof of conservation of twist and flip can be accomplished.
+
+>                        ...  I don't know how a normal 4x4x4 could
+>be represented though.
+
+I fail to see the problem.  Just number the facelets.  The only
+problem would then lie in deciding what the generators are  -- i.e.,
+which kind of slice moves do you accept.  You would also have to
+decide whether to model the invisible 2x2x2 inside, but again if you
+did, just number the invisible facelets and include their movements
+with your generators.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

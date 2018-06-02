@@ -1,0 +1,34 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar 29 13:47:07 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA20317
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 29 Mar 1999 13:47:06 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: WaVeReBeL@webtv.net
+Date: Fri, 26 Mar 1999 23:57:49 -0800 (PST)
+To: Cube-Lovers@ai.mit.edu
+Subject: Wrist pains
+Message-Id: <10861-36FC8F7D-5994@mailtod-121.bryant.webtv.net>
+
+Hi all,
+
+I've been having some marathon cubing sessions lately, and sometimes my
+wrists, fingers, or forearms would hurt.  It's really hard to stop
+because I'm so addicted, but I have to because I'm scared I might get
+carpal tunnel syndrome or some sort of repetitive stress problem.  I
+love computers, and since I'm studying computer science, and because
+I'll have many many hours on a keyboard ahead of me, this scares me even
+more.  Does anyone else have have this problem?  Any advice?  Thanks.
+
+-Alex Montilla-
+
+[ Moderator's note: Dame Kathleen Ollerenshaw is mentioned in Singmaster's
+  notes as being one of the first to develop cubist's thumb; Roger
+  Frye also got a wrist sprain as he mentioned on this list in 1981.
+  Repetitive stress injury is nothing to play with, and continuing
+  only makes recovery take longer, so stop now! Switch to a simulator.
+  Simulators I've seen are somewhat less convenient to use than a real
+  cube (though I haven't seen the recent ones), but if that's the case
+  I hope this motivates you to change that sorry state. -- Dan ]
+

@@ -1,0 +1,39 @@
+Received: from WAIKATO.S4CC.Symbolics.COM (TCP 20024231532) by AI.AI.MIT.EDU  5 Nov 87 17:01:13 EST
+Received: from ROCKY-MOUNTAINS.S4CC.Symbolics.COM by WAIKATO.S4CC.Symbolics.COM via CHAOS with CHAOS-MAIL id 141683; Thu 5-Nov-87 13:55:41 EST
+Date: Thu, 5 Nov 87 13:55 EST
+From: Allan C. Wechsler <ACW@WAIKATO.S4CC.Symbolics.COM>
+Subject: Deluxe Magic
+To: cosell@WILMA.BBN.COM, cube-lovers@AI.AI.MIT.EDU
+cc: jr@WILMA.BBN.COM, beeler@WILMA.BBN.COM, alatto@WILMA.BBN.COM
+In-Reply-To: The message of 5 Nov 87 10:26 EST from Bernie Cosell <cosell@WILMA.BBN.COM>
+Message-ID: <871105135516.1.ACW@ROCKY-MOUNTAINS.S4CC.Symbolics.COM>
+
+    Date:     Thu, 5 Nov 87 10:26:29 EST
+    From:     Bernie Cosell <cosell@WILMA.BBN.COM>
+
+    I picked up a "deluxe Rubik's Magic" at Games People Play the other day.
+    It is a twelve-square magic.  Has anyone solved this guy yet?  My wife
+    has been hacking on it some and and has managed to run it from the
+    starting state (2x6) to the target state (as in the normal Magic, but
+    moreso), but not enough comprehension of it all yet to get all the
+    circle pieces in the right places, yet.
+
+Well, /my/ wife solved it. 
+
+    It seems to be more fun that the normal magic because if you ignore
+    the circles you can make a bunch of interesting shapes (the big-hollow-
+    square was neat to blunder into).
+
+You bet!  As a matter of fact the order-6 puzzle is so much more fun 
+than the order-4 that I am wondering whether higher orders might be 
+even more fun.  In my opinion the order-4 cube was /less/ fun than the 
+order-3, and it's a pleasure to see a puzzle where bigger really is
+better.
+
+Jenny and I have a conjecture that if a given flat shape is possible,
+a flat shape that is derived from the possible one by moving a single
+square one step diagonally -- is impossible.  There is probably a parity
+argument lurking somewhere that can prove this.
+
+Is a similar puzzle with triangular tiles possible?
+

@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon May  3 13:47:11 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA17378
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 3 May 1999 13:47:10 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <372A817B.5825@zeta.org.au>
+Date: Sat, 01 May 1999 14:22:19 +1000
+From: Wayne Johnson <sausage@zeta.org.au>
+Reply-To: sausage@zeta.org.au
+To: cube-lovers@ai.mit.edu
+Subject: Rubiks Magic Strategy Rules
+
+Does anyone know how to play the Rubiks Magic Strategy game? I just
+bought it second hand and while there's some rough instructions on the
+back, the manual is missing and we don't know how to start off.
+
+I'd appreciate any help.
+
+Thanks,
+Wayne Johnson,
+www.zeta.org.au/~sausage
+

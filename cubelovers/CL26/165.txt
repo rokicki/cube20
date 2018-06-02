@@ -1,0 +1,31 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar 15 19:37:47 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA29754
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 15 Mar 1999 19:37:46 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Mar 12 07:39:01 1999
+Date: Fri, 12 Mar 1999 12:34:43 +0000
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: c.v.willegen@spcgroup.nl
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009D500D.2B3620CA.27@ice.sbu.ac.uk>
+Subject: RE: Stickers Re: Oddzon version of the cube
+
+	Cubes with tiles instead of stickers came out very early on.  I recall
+one called Gyro Cube, which I think was Korean, about 1981?.  Then Ideal took
+on the idea as the Deluxe Cube.  I've got an example made in China (real PRC,
+not Taiwan, and for the Chinese market).  Recently, I've bought an example at a
+newsagent's in London for somewhere in the #1 to #2 range and it worked
+moderately well (the previous two which I bought recently were virtually
+immovable!).  A large version of this (about 90mm or 3 1/2 in on an edge) was
+on sale from a street vendor in December, but I don't know if he has any left
+and I haven't seen it elsewhere.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

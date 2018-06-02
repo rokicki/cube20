@@ -1,0 +1,35 @@
+Date:  7 January 1981 1615-EST (Wednesday)
+From: Dan Hoey at CMU-10A
+To: Cube-lovers at MIT-MC
+Subject:  Pons Asinorum -- Part 2: Pons in the Supergroup
+Message-Id: <07Jan81 161515 DH51@CMU-10A>
+
+        The second observation I would like to make regarding the
+Pons Asinorum involves the Supergroup (also known as "the extended
+problem") in which the orientation of face centers is considered.
+The process UUDDFFBBLLRR turns each of the face centers 180
+degrees, so Pons Asinorum is symmetric in the Supergroup as well.
+(Turning each face center 180 degrees is the M-symmetric position
+Big Ben Squared, which I will call Noon.)  There is another optimal
+way of making a (pseudo-) Pons Asinorum, (UD'FB')^3, which differs
+from the true Pons only in the face center orientations.  According
+to an exhaustive search I carried out by hand, this is the only
+pseudo-Pons (up to M-conjugacy) that can be obtained with six slice
+moves.  I would be very interested in hearing about any other
+twelve-qtw positions which differ from the Pons Asinorum only in
+the Supergroup.
+
+	I have found a 16-qtw process for Pons Asinorum composed
+with Noon, (UD FB FB UD)(FB UD UD FB), which looks like Pons
+Asinorum, but does not rotate the face centers.  This in turn gives
+a 20-qtw process for Noon itself:
+        LLRR UUDD (UD FB FB UD) (FB UD UD FB) FFBB
+      = LLRR    (U'D' FB FB UD) (FB UD UD F'B').
+Of course, there's no assurance of optimality here.
+
+	It occurs to me that many readers of this list may find
+details of the Supergroup uninteresting.  I have more on this
+subject, so if you would or wouldn't like to know more about the
+Supergroup, send a vote to Hoey@CMU-10A and we'll see what to do.
+
+				Dan

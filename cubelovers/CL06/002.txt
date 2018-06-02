@@ -1,0 +1,44 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 20 Jan 87 15:05:42 EST
+Date: 20 Jan 87 14:47:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: recreational math
+To: "cube-lovers" <cube-lovers@mit-ai>
+cc: gerritsen,mailer!<fuzzy@ardec>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+BOOKS:  Singmaster is editing a series of books for Oxford University Press on
+Recrreational Mathematics and is requesting input on the following:
+1) " I (Singmaster) have embarked on a project to find the sources of classical
+problems in recreational mathematics.  .....
+    The initial object of this project was to produce a book of sources,
+translated into english with annotation, for .... However, it now appears that
+the first stage must be the prpearation of an annotated bibliography of the
+material.  ...  draft of paper which outlines the project and some of the
+material is available.  I would be delighted to hear from anyone interested in
+this project, particularly anyone able to provide info."
+2)  "I am also compiling a list of mathematical monuments and have a draft
+article on this."
+
+ADDRESS;  DAVID SINGMASTER, POLYTECHNIC OF THE SOUTH BANK, LONDON, SE1 OAA, UK
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+BOOKS IN SERIES SO FAR:
+1)  MATHEMATICAL BYWAYS IN AYLING, BEELING, AND CEILING by Hugh ApSimon,  128
+pages; 30 illus,  853201-6, $10
+2) THE INS AND OUTS OF PEG SOLITAIRE by John Beasley, 300 pages; 571 illus,
+853203-2,  $17
+3) RUBIK'S CUBIC COMPENDIUM by Erno Rubik et al, 200 pages, 183 illus, 853202-4,
+$15
+CONTENTS:  Intro: the fascination of rubik's cube - david singmaster, 1. in play
+-rubik, 2 the art of cubing - varga, 3. restoration methods and table of
+processes - keri, 4. mathematics - keri & varga, 5. the universe of the cube -
+marx, 6. my fingers remember - vekerdy, 7. afterword - singmaster, bibliography
+& index.
+4)  SLIDING PIECE PUZZLES by Edward Horden - in preparation.
+AVAILABLE FROM:  Science and Medical Marketing Manager, OXFORD UNIVERSITY PRESS,
+200 Madison ave, NY, NY 10016,  212/679-7300
+ADD $1.50 for shipping
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+from  <beck@ardec-lcss>
+.........................................
+------

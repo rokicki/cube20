@@ -1,0 +1,52 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun 26 16:35:00 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id QAA06927; Thu, 26 Jun 1997 16:35:00 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <33B2D235.3A77@ibm.net>
+Date: Thu, 26 Jun 1997 13:33:57 -0700
+From: Jin "Time Traveler" Kim <chrono@ibm.net>
+Organization: The Fourth Dimension
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+MIME-Version: 1.0
+To: Nicholas Bodley <nbodley@tiac.net>
+CC: cube-lovers@ai.mit.edu
+Subject: Re: Hidden cubies; Spaceball
+References: <Pine.SUN.3.95.970626073036.5876A-100000@sunspot.tiac.net>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Nicholas Bodley wrote:
+> 
+
+>  On another topic, it seems to me that an ideal device for controlling a
+> computer-simulated Cube (or other similar puzzle) would be the Spaceball,
+> a ball that you can grip. It senses torque around all three mutually-
+> orthogonal axes, as well as "translational" force along those axes. It's
+> not a consumer item; not sure it's still being made. I'm reasonably sure
+> of the tradename. It was/is used with workstations. "Spaceball" sounds
+> much like the name of a puzzle.
+> 
+>  (I expect some astute reader to tell me that the MIT Media Lab did just
+> this thing 5 years ago!)
+> 
+> My best to all,
+> 
+
+Actually, the Spaceball that you talk about is still in existence of
+sorts.  I have three Spaceballs.  Actually, they were known as the
+Spacetec Spaceball Avengers.  Those are no longer produced.  They've
+been replaced by the newer model, the SpaceOrb 360.  Not to get too far
+off subject, but the SpaceOrb is used by some people to play Quake.  You
+can't beat a good Mouse and Keyboard for Quake, but the SpaceOrb's
+multiple axes of movement does allow for some interesting
+possibilities.  Due to its 3D nature, I think the SpaceOrb would be a
+natural extension for the solving of 3d puzzles in graphical
+environments.
+
+-- 
+Jin "Time Traveler" Kim
+chrono@ibm.net
+VGL Costa Mesa
+
+

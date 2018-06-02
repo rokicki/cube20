@@ -1,0 +1,28 @@
+From geohelm@pt.lu  Thu Oct 19 03:20:44 1995
+Return-Path: <geohelm@pt.lu>
+Received: from menvax.restena.lu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA28589; Thu, 19 Oct 95 03:20:44 EDT
+Date: Thu, 19 Oct 95 03:20:44 EDT
+Received: from telinf1.pt.lu by menvax.restena.lu with SMTP;
+          Thu, 19 Oct 1995 8:20:41 +0100 (MET)
+Received: from slip8.pt.lu by telinf1.pt.lu id aa11995; 19 Oct 95 8:20 CET
+X-Sender: geohelm@mailsvr.pt.lu
+X-Mailer: Windows Eudora Version 1.4.4
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Georges Helm <geohelm@pt.lu>
+Subject: Thisthlethwaite's algorithm
+Message-Id:  <9510190820.aa11995@telinf1.pt.lu>
+
+There are two papers by Morwen Thistlethwaite on this subject, both dating
+from 1980.
+I got these copies from David Singmaster after having tried unsuccessfully
+to get them from Morwen himself. 
+I have since then made many copies of these notes for many people all around
+the world. 
+I will continue to do this as long as I feel comfortable about it.
+So if there is still anybody out there who wants them, please e-mail me
+directly at geohelm@pt.lu or at georges.helm@comnet.eo.lu
+Georges Helm
+
+

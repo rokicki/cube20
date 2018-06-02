@@ -1,0 +1,78 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jul 27 19:57:45 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id TAA15569; Mon, 27 Jul 1998 19:57:44 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Jul 27 09:23:29 1998
+Date: Mon, 27 Jul 1998 09:23:10 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Rainer aus dem Spring <Rainer.adS.BERA_GmbH@t-online.de>
+Cc: michael reid <reid@math.brown.edu>, cube-lovers@ai.mit.edu
+Subject: Restoring a 5^3 to solved state (Was: Re: patterns on 5x5x5 cube)
+In-Reply-To: <35BA52EF.35D831D6@t-online.de>
+Message-Id: <Pine.SUN.3.95.980727084518.1715H-100000@sunspot.tiac.net>
+
+[Also an endorsement for Acrobat (*.PDF) at the end of this msg.]
+
+On Sat, 25 Jul 1998, Rainer aus dem Spring wrote:
+
+{Snips}
+
+}Thanks for the patterns,
+}
+}the problem is - my 5*5*5 cube is scrambled and I have to figure out
+}how to unscramble it. I haven't touched it for 15 years.
+
+Although it's using your mind in a different fashion, you could
+disassemble it, sort the pieces (takes a while!) and reassemble it in
+the solved state. With any reasonable degree of care, you won't harm a
+5^3, I'm just about sure.* Have a clean work surface. I have done it
+maybe 5 or 6 times on mine (from Meffert, ca. 1987). If you have a cat,
+don't even think of letting it in the same apartment or house while it's
+apart! :) The insides are really quite amazing to see. The internal
+"foot" that retains a corner cubie is an amazing shape.
+
+ *A 4^3 requires much more care. The center cubies are fragile! There
+was a message a while back from someone who's selling parts for 4^3s.
+
+ To start the disassembly, align all layers (obviously), so it's a cube.
+Then rotate one face, leaving the other four layers aligned. Rotate it
+either less or more than 45 degrees, so that a left or right edge cubie
+of the rotated face is aligned with the edge of the other four layers.
+Plainly, it doesn't matter which you choose, because of physical
+symmetry internally.
+
+With the rotated face on top, pry up the left (or right) edge cubie,
+away from the edge you aligned it with. Use your thumb, thumbnail facing
+down. Once it disengages, the rest won't fall apart uncontrollably; a
+few pieces will fall out, but most will need to be actually removed, one
+by one. Study the structure as you pull it apart. Amazement is one
+reason, and the other is to get a better idea of how to reassemble it.
+
+Sort the pieces (it might take longer than you think!).
+
+Your color references for rebuilding will obviously be the center and
+corner cubies. Build one face completely, place that face down onto your
+work surface, and build progressively up from there. The last cubie will
+be in the same position you removed to start.
+
+My 3-D sense happens to be extremely good (apparently hereditary), so I
+had very little trouble figuring out what goes where and how. It might
+be harder for some others.
+
+=====
+[ Moderator's note: Nicholas Bodley's and Rainer aus dem Spring's
+  discussions of the merits of Acrobat and other graphics languages
+  are not on topic for Cube-Lovers.  Send them e-mail for the
+  discussion--the addresses are in the headers of this message.  We
+  may eventually get some in the archives, which will be announced. ]
+
+My regards to all,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*  The personal computer industry will have become
+|*  Amateur musician  *|*  mature when crashes become unacceptable.
+--------------------------------------------------------------------------
+

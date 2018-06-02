@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jul 31 13:39:50 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id NAA01321; Fri, 31 Jul 1998 13:39:50 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Jul 30 18:29:08 1998
+From: Douglas Zander <dzander@solaria.sol.net>
+Message-Id: <199807302228.RAA17538@solaria.sol.net>
+Subject: Meffert's Challenge (fwd)
+To: cube-lovers@ai.mit.edu (cube)
+Date: Thu, 30 Jul 98 17:28:21 CDT
+
+David Barr wrote:
+
+> I recently bought a "Meffert's Challenge" puzzle, and I see
+ <snip>
+> I threw away the packaging, and I don't remember who makes it.  I
+> think it was Pressman.  I bought it at a toy store in the Supermall
+> in Auburn, WA, and they also had a normal Skewb made by the same
+> company.
+
+> David
+
+ yes, I just happened to buy both of these puzzles myself today.  They
+ are made by Pressman.  It is interesting to note that the copyright
+ says, "(copyright) 1997 Uwe Meffert patent #5,358,247" for *both*
+ puzzles.  (same mechanism)
+ They also are selling the Pyraminx in the same type packaging.  Is
+ the Pyraminx also a Skewb mechanism?  (I didn't buy one since I
+ already had one) Now I wish they would bring back some other puzzles!
+ :-)
+
+-- 
+ Douglas Zander                | 
+ dzander@solaria.sol.net       |
+ Shorewood, Wisconsin, USA     |
+

@@ -1,0 +1,71 @@
+From cube-lovers-errors@oolong.camellia.org  Sat May 31 00:19:54 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id AAA24209; Sat, 31 May 1997 00:19:53 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Fri, 30 May 97 23:15:17 EDT
+Message-Id: <9705310315.AA19052@sun13.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: Haym Hirsh <hirsh@cs.rutgers.edu>, cube-lovers@ai.mit.edu
+Subject: More on Korf's method
+
+Herbert Kociemba wrote:
+
+> From the description it is evident, that the algorithm Richard E Korf
+> uses is basically identical to the the sub-algorithm which is used in
+> each stage of my two stage algorithm to solve the cube. What he calls
+> "heuristic functions" are the "pruning tables" of Dik Winter and Michal
+> Reid and the "filters" in the original description of the algorithm in
+> CFF 28 (April 1992) of the Dutch Cubist Club.
+
+First, the term "heuristic function" is not Rich's invention for the
+lower-bound function of A*.  I learned that term in 1970 from
+Nillson's textbook on Artificial Intelligence.  And second, even if
+"pruning tables" and "filters" are essentially nothing but heuristic
+functions, that still does not make the algorithms "basically
+identical".  From the description, I think Rich's heuristic functions
+are quite a different type from what you use (though I do not
+understand either exactly yet).  I also suspect that the difference
+between A* and IDA* (which has not really been explained here yet) may
+play a larger role than you give it credit for.
+
+But thanks for the description of your algorithm (some of which has
+previously filtered into the archives), and the offer of a program
+(what language?).  My guess is that your heuristics have a good chance
+of being more effective at finding optimal solutions for random cubes
+than Rich's, though perhaps some ideas from Rich need to be
+incorporated.
+
+Haym Hirsh <hirsh@cs.rutgers.edu> wrote:
+
+> Here's a brief attempt at a "layman's" description of Professor
+> Korf's work:
+
+[ which I omit ]
+
+Thanks very much for the explanation.  It agrees with my understanding
+of the paper, as far as that goes.  But do you have a succinct
+explanation of what makes IDA* more tractable than A*?  That's the
+part I missed.
+
+Now when Rich found his first ten random cubes (well, he doesn't _say_
+they're the _first_ he tried, but they had better be) took under 18f
+moves each, you mention
+
+> This does not argue that 18 is the longest solution possible for any
+> cube.  Just that for the 10 he generated randomly, none required more
+> than 18.  Perhaps some cubes are more than 18 moves away from start.
+> None simply happened to arise amongst his 10 cases.
+
+First, we know 18f is not optimal, because the 12-flip is proven to
+require 20f moves exactly (unless Mike Reid made a mistake, or I
+misunderstood).
+
+But we _can_ say there's at most one chance in 1024 that the first ten
+random cubes you pick will all be closer than the median to solved.
+So this demonstrates Rich's claim that the median optimal solution is
+very likely 18f.
+
+Dan
+
+

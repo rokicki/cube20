@@ -1,0 +1,20 @@
+Date: Monday, 31 January 1983  21:48-EST
+From: Leonard N. Foner <TK.FONER @ MIT-OZ>
+To:   Alan Bawden <ALAN @ MIT-OZ>
+Cc:   CUBE-LOVERS @ MIT-MC, HOEY @ CMU-CS-A, Tk.Foner @ MIT-OZ
+Reply-to: Foner at MIT-MC
+Subject: The shortest sequence of moves.
+In-reply-to: The message of 30 Jan 1983 00:40 EST from Alan Bawden <ALAN>
+
+Ugh.  I see the problem is far more intractable than I had first
+assumed.  I suppose it'll be quite some time indeed before we see any
+sort of complete optimality solution if the maximum number of moves
+from solved is anything larger than the low twenties.  I'll hunt
+through the list archives for what's been accomplished on proving what
+that number is...  if anyone feels like giving me a brief refresher
+instead, I'd appreciate it, though the whole list might not like to
+see it all again.
+
+Thanx again everyone.
+
+						<LNF>

@@ -1,0 +1,53 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Oct 25 22:41:42 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA03041; Fri, 25 Oct 1996 22:41:42 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Fri, 25 Oct 96 18:51:55 EDT
+Message-Id: <9610252251.AA14688@sun34.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Siamese Rubik's Cubes
+
+Norman Diamond <diamond@jrdv04.enet.dec-j.co.jp> wrote:
+...
+> Siamese Rubik's cubes share an entire column of cubies, i.e. in the
+> case of two 3x3x3's they share an edge cubie and two corner cubies.
+...
+> The idea of bandaging has been extended further by Dieter Gebhardt
+> (publications in CFF) and others....
+
+Most cases of bandaging create a puzzle whose transition graph is not
+the Cayley graph of a group.  For instance, if two disjoint
+edge-corner pairs were taped together, you would have some positions
+with ten possible QT neighbors and some with eight.
+
+But the corner-edge-corner bandaging does create a group: Fix the
+position of the bandaged part, and permute the other 46 facelets (six
+corners, eleven edges, and six face centers) with two face moves and
+two slice moves.  The resulting group can have at most 5! corner
+permutations, as in the two-generator group (see Singmaster or the
+archives (21 July 1981, 31 Aug 1994)).  There are at most 11! edge
+permutations, and the face center permutations represent the rotation
+group of the cube, with 24 elements.  There can be at most 3^5 corner
+orientations and 2^10 edge orientations.  Finally, the total
+permutation parity (corner, edge, and face center) must be even.  Gap
+tells me the group has
+
+    14302911135744000 = 5! 3^5 11! 2^10 24/2 
+
+elements, so all such positions are achievable.  I haven't run the
+Supergroup through Gap, so I'm not sure whether it 2048 times as many
+positions.
+
+Of course the regular Siamese cube has the square of this many
+positions, because there are two cubes.  A different kind of Siamese
+cube would be one in which the three 17-cube slabs can rotate 180
+degrees with respect to each other.  It would certainly be difficult
+to build.  I think the interaction between the slab moves and the
+Lucky Six group would make it hard to solve, as well.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+

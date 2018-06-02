@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun Mar  8 19:35:17 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id TAA05274; Sun, 8 Mar 1998 19:35:17 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Mar  8 03:41:58 1998
+Date: Sun, 8 Mar 1998 09:41:21 +0100 (MET)
+Message-Id: <1.5.4.16.19980308094102.437739b8@mailsvr.pt.lu>
+To: rshep@simplex.nl
+From: Georges Helm <geohelm@pt.lu>
+Cc: geohelm@pt.lu, schubart@best.com, Cube-Lovers@ai.mit.edu
+
+Hi,
+You once asked a question about early rubik's cube solutions
+(on Schubart's web page)
+I have solution from 1979 by
+ANGEVINE James
+BEASLEY J.D.
+CAIRNS Colin / GRIFFITHS Dave
+CLAXTON Mike
+DAUPHIN Michel (Mathematique et Pedadogie 24/79)
+EASTER Bob
+HOWLETT G.S.
+JACKSON William Bradley
+JOHNSON K.C.
+MADDISON Richard
+NELSON Roy
+RODDEWIG Ulrich
+SWEENEN John
+TAYLOR Don (1978)
+TRURAN Trevor (Computer Talk 7.11.1979)
+
+Regards
+Georges
+Georges Helm
+
+geohelm@pt.lu
+http://ourworld.compuserve.com/homepages/Georges_Helm/
+http://www.geocities.com/Athens/2715
+

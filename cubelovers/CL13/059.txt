@@ -1,0 +1,27 @@
+From dik@cwi.nl  Mon Nov 14 17:41:11 1994
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08291; Mon, 14 Nov 94 17:41:11 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id <AA04512@cwi.nl>; Mon, 14 Nov 1994 23:41:02 +0100
+Received: by boring.cwi.nl 
+	id AA02504 (5.65b/3.8/CWI-Amsterdam); Mon, 14 Nov 1994 23:41:00 +0100
+Date: Mon, 14 Nov 1994 23:41:00 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9411142241.AA02504=dik@boring.cwi.nl>
+To: CRSO.Cube@canrem.com, cube-lovers@life.ai.mit.edu
+Subject: Re:  <U, R> Antipode!
+
+ > First Antipodal Process    (25 q, 20 q)
+ > UR13 = U2 R1 U3 R2 U3 R2 U3 R1 U2 R3 U1 R3 U3 R1 U1 R2 U1 R3 U1 R3
+
+ > Also....      UR13 ^ 2 = I
+
+ > Using current techniques, this required a run of about 11 hours.
+
+ >  It remains to be seen how the Kociemba algorithm resolves this
+ > position, and I will try this next.
+
+You mean: F2 U3 D2 L3 D3 R1 U2 B2 R1 B2 R3 D1 L1 D3 R2 U1 D3 (or rather
+its inverse)?  Took Kociemba's algorithm 10 minutes.  I do not yet
+know whether this is minimal.
+

@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Nov  3 06:37:22 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id GAA02996; Tue, 3 Nov 1998 06:37:21 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 2 Nov 1998 15:32:29 -0500
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199811022032.PAA24281@euclid.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Unauthorized Use of RUBIK'S CUBE and CUBE Design Marks?
+Cc: kociemba@hrz1.hrz.tu-darmstadt.de
+
+> > Re:     Unauthorized Use of RUBIK'S CUBE and CUBE Design Marks
+> >
+> > Dear Mr. Kociemba:
+
+[ ... ]
+
+> What do you think about that?
+
+i think it's not good business strategy to attack the people who
+are the biggest fans of their product!  to claim ownership of
+"the distinctive overall appearance of the RUBIK'S CUBE puzzle"
+is ludicrous!
+
+the changes you've described to your web page seem quite
+reasonable and appropriate (given the circumstances), without
+compromising too much.  i hope you have no further trouble with
+seven towns.  but if you do, please let me know about it.
+
+to make this situation even more ridiculous, i just checked out
+their "official" website, which features a java cube
+(http://rubiks.com/VRCUBE.html).  their applet is stolen
+from karl ho"rnell!  (http://www.tdb.uu.se/~karl/java/rubik.html)
+
+mike
+

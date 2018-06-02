@@ -1,0 +1,22 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 26 18:47:04 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA13327
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 26 Nov 1999 18:47:03 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: adams.gallant@pei.sympatico.ca
+Message-Id: <1.5.4.32.19991106125203.00687470@pop1.pei.sympatico.ca>
+Date: Sat, 06 Nov 1999 07:52:03 -0500
+To: Cube-Lovers@ai.mit.edu
+Subject: Rubik Books or Video?
+
+Just curious if there exists any video tape footage of Erno Rubik
+[interviews, TV specials] out there, or any easily accessible books about
+his work or an extensive look into the cube phenomena? I've seen a number of
+interesting books on Amazon, but nothing still in print.
+
+Thanks,
+
+Dave Gallant
+

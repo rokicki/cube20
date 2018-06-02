@@ -1,0 +1,102 @@
+From cube-lovers-errors@oolong.camellia.org  Wed Jul 16 10:18:34 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id KAA12915; Wed, 16 Jul 1997 10:18:33 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Wed, 16 Jul 1997 09:44:21 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: No Local Maxima 11q from Start
+To: cube-lovers@ai.mit.edu
+Message-id: <Pine.WNT.3.96.970716085137.-650973C-100000@ER123A.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+X-X-Sender: jbryan@pstcc6.pstcc.cc.tn.us
+
+My new Shamir program has now generated the entire search tree for the
+standard cube group G up to 11q from Start.  This search was
+accomplished once before using my old tape spinning programs, so there
+is limited new information. 
+
+One good result is that all the numbers match between the two programs. 
+The matching results were obtained using different programs,
+implementing different algorithms, in different programming languages,
+on different hardware platforms, and under a different operating
+systems.  So I feel pretty good about the numbers.  They have been
+posted before, so I won't post them again.  With problems this big, it
+is always good to have some sort of independent verification because it
+is impossible to verify anything by hand.
+
+Another interesting result is in fact new.  The old program was only
+able to determine local maxima up to 10q from Start while calculating
+the 11q tree.  The new program is able to determine local maxima up to
+the same distance from Start it is searching.  There are no local maxima
+11q from Start.  I find this result somewhat surprising, since there are
+four local maxima (unique up to M-conjugacy) 10q from Start.  The new
+program did confirm the previously known 10q local maxima, but failed to
+find any 11q local maxima.
+
+In its search for local maxima, for each position x the program
+calculates the set E(x) of quarter turns with which a minimal process
+for the position can end.  We call |E(x)| the maximality of x, and a
+position is a local maximum if its maximality is 12.  At a distance of
+11q from Start, there exist positions with maximality values for every
+number in 1..11.  This is the first time we have found any positions
+with a maximality of 9 or 11.  (See my note of 16 June 1995, "10q Local
+Maxima Search Matrix".)  There seem to be more positions with even
+maximality values than odd, and a maximality of 11 is especially
+interesting because such a position is "almost" a local maximum. 
+
+I am disappointed in the speed of my program.  For this run, it
+identified about 1100 patterns (representative elements of M-conjugacy
+classes) per second.  This corresponds to about 50,000 positions per
+second (about 48 times 1100).  The program is running on a Pentium P166
+with 16MB memory under Windows/95.  My concern is that I have worked so
+hard to make the program run in small amounts of memory that it is
+running too slow.  I am now going to take out a few of the memory saving
+techniques to see if I can speed it up a bit. 
+
+The program is actually about 20MB, and runs successfully on a 16MB
+machine due to the good graces of virtual memory.  In fact, I can
+calculate out to 11q from Start even on an 8MB machine.  But trying to
+calculate out to 12q from Start fails on the 16MB machine (the program
+is the same size for 11q from Start and for 12q from Start because I am
+storing all positions up to 6q from Start.  The program would only have
+to be made larger if I were to try calculating 13q from Start or 14q
+from Start.)
+
+When I say the program fails at 12q from Start, I mean that the virtual
+memory thrashes unmercifully, and therein lies an interesting tale.  Why
+should the program be able to calculate 11q without thrashing, but
+thrash so badly at 12q?  It has to do with the Shamir algorithm itself. 
+
+Recall that we are producing products of the form ST in lexicographic
+order.  To be specific, we are producing products of the from St in
+lexicographic order for all t in T and merging the results.  S itself is
+already in lexicographic order.  Think of processing a dictionary, and
+thing of processing S in lexicographic order.  We essentially process
+all the A's, followed by all the B's, then all the C's, etc.  There is
+very good locality of reference as far as the virtual memory goes. 
+
+Moving up to St, we might first process all the N's, then all the E's,
+then all the Z's, etc, but there is still very good locality of
+reference. There is an occasional big jump in where we are referencing
+memory, but most of the time we reference elements of the set S which
+are very close together in memory. 
+
+When we calculate 11q from Start, S is the set Q[6] of positions which
+are 6q from Start, and T is the set Q[5].  Because Q[5] is only about
+1/9 as big as Q[6], the real memory working set to calculate Q[6]Q[5] is
+only about 10% of the total virtual memory of the program, maybe about
+2MB.  But when we move up to calculating 12q, we move up to Q[6]Q[6] and
+the real memory working set becomes the whole 20M program.  This simply
+doesn't work on a 16MB machine.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+

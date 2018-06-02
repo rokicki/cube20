@@ -1,0 +1,15 @@
+Received: from Xerox.COM by MC.LCS.MIT.EDU 21 Mar 86 21:07:36 EST
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 21 MAR 86 17:36:22 PST
+Date: 21 Mar 86 17:35:55 PST (Friday)
+From: Hoffman.es@Xerox.COM
+Subject: Eidswick article
+To: Cube-Lovers@MC.LCS.MIT.EDU
+cc: Hoffman.es@Xerox.COM
+Message-ID: <860321-173622-1700@Xerox>
+
+In case no one's mentioned it yet:
+
+	Eidswick, J. A., "Cubelike Puzzles -- What Are They
+	and How Do You Solve Them?", 'American Mathematical
+	Monthly', Vol. 93, #3, March 1986, pp. 157-176.
+

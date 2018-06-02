@@ -1,0 +1,45 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Apr 22 14:41:52 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA01093; Wed, 22 Apr 1998 14:41:51 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Apr 22 14:20:19 1998
+Date: Wed, 22 Apr 1998 14:24:21 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Hamiltonian circuits on the cube
+In-Reply-To: <9804221542.AA10123@sun28.aic.nrl.navy.mil>
+To: Dan Hoey <Hoey@aic.nrl.navy.mil>
+Cc: whuang@ugcs.caltech.edu, cube-lovers@ai.mit.edu
+Message-Id: <Pine.WNT.3.96.980422141817.-200953J-100000@GN209A.PSTCC.CC.TN.US>
+
+On Wed, 22 Apr 1998, Dan Hoey wrote:
+
+> whuang@ugcs.caltech.edu (Wei-Hwa Huang) writes:
+>
+> > I was pretty surprised to come up with this within ten minutes of reading
+> > the question:
+>
+> Wow, I'm impressed.  I thought I'd have to write a program to find
+> them, and here's a nice symmetric solution.  The symmetry is more
+> visible in a different unfolding:
+>
+
+Not to minimize the difficulty of the problem or the beauty of the
+solution (quite the contrary), but the solution seems almost trivial
+when viewed in the light of Dan's particular unfolding of the surface of
+the cube.  The same comment is true of Dan's isoglyphic solution.
+
+It makes me wonder of you actually saw Dan's unfolding in your mind's
+eye, as it were, as you worked out your solution.  Or another way to put
+it, did you work out your solution in 2-D or in 3-D?  It also makes me
+wonder if there is any other unfolding that would lead as naturally to a
+Hamiltonian circuit.  I tend to think not, but I could well be wrong.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

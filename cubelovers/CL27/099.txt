@@ -1,0 +1,28 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri May 21 20:46:18 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA09025
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 21 May 1999 20:46:18 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199905211952.PAA04633@life.ai.mit.edu>
+From: "David Byrden" <David@byrden.com>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: Rubik and XML
+Date: Fri, 21 May 1999 20:48:33 +0100
+
+
+	I want to define an XML dialect so that all 
+Rubik-related programs can exchange data...
+I also want it to be useful to humans who
+are saving the state of their cube.
+
+	I am putting my ideas together at
+
+	http://byrden.com/puzzles/
+
+and would be glad of criticism.
+
+
+				David
+

@@ -1,0 +1,89 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun  5 22:52:52 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id WAA09134; Thu, 5 Jun 1997 22:52:52 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Thu, 05 Jun 1997 22:50:09 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Some Face Turn Numbers
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Reply-to: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Message-id: <Pine.PMDF.3.95.970605215908.177208C-100000@PSTCC6.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+
+
+The fact that 10% of Rich Korf's random sample was 16f from Start seemed a
+little funny, so I did some calculations.  At most, about 2.9% of the
+positions in G are 16f from Start.  I am sure that the problem is no more
+than that the sample size is very small.
+ 
+Here is the calculation of the 2.9% figure.  The following table gives the
+best known results for face turns.  The results through depth 7 have been
+calculated (my message of 19 July 1994).  The rest are based on Dan Hoey's
+recursion formula PH[n] = 6*2*PH[n-1] + 9*2*PH[n-2] for n>2, where PH[n]
+is the number of face turns which are n moves from Start (Dan's note of 16
+Sep 1981).  I think it would have been ok to use a branching factor of
+13.231 from depth 8 on, but just to be safe I used Dan's formula (the
+results are essentially the same either way).  Hence, we have PH[16] <=
+1.47E+18, which is just about 2.9% of |G|. 
+
+
+  d     #       b     Sigma #
+
+  0         1                1
+  1        18 18            19
+  2       243 13.500       262  
+  3      3240 13.333      3502 
+  4     43239 13.345     46741
+  5    574908 13.296    621649
+  6   7618438 13.252   8240087
+  7 100803036 13.231 109043123
+  8  1.35E+09 13.360  1.46E+09
+  9  1.80E+10 13.347  1.94E+10
+ 10  2.40E+11 13.349  2.59E+11
+ 11  3.20E+12 13.348  3.46E+12
+ 12  4.28E+13 13.348  4.62E+13
+ 13  5.71E+14 13.348  6.17E+14
+ 14  7.62E+15 13.348  8.24E+15
+ 15  1.02E+17 13.348  1.10E+17
+ 16  1.36E+18 13.348  1.47E+18
+ 17  1.81E+19 13.348  1.96E+19
+ 18  2.42E+20 13.348  2.61E+20
+
+Now, I am going to do something strange.  I am going to assume as per
+Rich's results that the branching factor from 16f to 17f is 3, and from
+17f to 18f is 2 (Rich found 1 position at 16f, 3 at 17f, and 6 at 18f).
+Doing so yields the following unhappy result (the total positions are less
+than |G| which is about 4.3E+19).
+
+ 17  4.07E+18  3.000  5.54E+18
+ 18  8.14E+18  2.000  1.37E+19
+
+If we assume the 16f position was an accident (occurred more than three
+times too often, which is not surprising with the small sample size), we
+can suppose the branching factor does not break until going from 17f to
+18f, and we get the following. 
+				        	
+ 17  1.81E+19 13.348  1.96E+19
+ 18  3.62E+19  2.000  4.23E+20
+
+It's just totally a wild guess, but I would suspect that the correct
+numbers are closer to the following because I don't think the branching
+factor will collapse all at one depth.
+
+ 17  6.79E+18  5.000  8.25E+18
+ 18  3.39E+19  5.000  4.22E+19
+
+I am a little shy of |G| with this guess, but I am not too far off.  What
+we need is a larger sample. 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+

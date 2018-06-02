@@ -1,0 +1,94 @@
+From BRYAN@wvnvm.wvnet.edu  Fri Oct 13 15:46:51 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08454; Fri, 13 Oct 95 15:46:51 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R3)
+   with BSMTP id 1264; Fri, 13 Oct 95 11:47:44 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 2160; Fri, 13 Oct 1995 11:47:44 -0400
+Message-Id: <wvmail32.1995oct13.101216.bryan@wvnvm.wvnet.edu>
+Date:      Fri, 13 Oct 1995 11:47:43 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Dan Hoey" <hoey@aic.nrl.navy.mil>, <Cube-Lovers@life.ai.mit.edu>
+Subject:   Re: Using 5 Generators
+In-Reply-To: Message of 10/11/95 at 22:56:15 from hoey@aic.nrl.navy.mil
+
+On 10/11/95 at 22:56:15 hoey@aic.nrl.navy.mil said:
+
+>> But I can report that my search found 16 unique (*not* unique up to
+>> conjugacy) half-way positions.  I use the term "half-way" advisedly.
+>> The "half-way" positions are 9q from Start and 8q from B or vice
+>> versa.  I guess you could say that the vice versa gives you a total
+>> of 32=16+16 half-way positions, but the whole concept of "half-way"
+>> is pretty slippery in this case anyway.
+
+>If I understand this, there are 16 positions at 9q from Start and 8q
+>from B, and there are 16 other positions at 8q from Start 9q from B.
+>Is each of the first bunch adjacent to exactly one of the other?  And
+>vice versa?  It would be good to get them reduced by Q2-conjugacy, as
+>well.
+
+I don't think I can answer your questions without further analysis,
+and I don't have much time to devote to the problem.  But let me
+clarify as follows.  First, the search looked as follows:
+
+        Distance from     Distance from      Total       Number of
+          Start                 B           Distance      Matching
+                                                          Positions
+
+             0                   1             1               0
+             1                   2             3               0
+             2                   3             5               0
+             3                   4             7               0
+             4                   5             9               0
+             5                   6            11               0
+             6                   7            13               0
+             7                   8            15               0
+             8                   9            17              16
+
+There is a certain arbitrariness in at least two respects.  For one
+example, to test for a total distance of 11, you could just as well use
+distances from Start and B respectively of 4 and 7 instead of 5 and 6.
+For another example, the Start-rooted tree and the B-rooted tree have
+identical structures, so the first two columns could be reversed.
+Indeed, you could get the B-rooted tree simply by pre-multiplying the
+Start-rooted tree by B.  (This reminds me of one of my most
+foolish errors on Cube-Lovers.  For search trees where the nodes are
+conjugacy classes (or representatives of conjugacy classes), the
+tree looks different depending on which class or representative is at
+the root.  But when the nodes are all the positions, then the tree is
+essentially the same in all cases, just pre-multiplied by the root.
+I once claimed the tree structure depended on the root for trees
+containing all positions, confusing that situation with the situation
+for trees of conjugacy classes.  Arrg!)
+
+Hence, I am not especially comfortable talking about "half-way" positions.
+But continuing anyway, denote the 16 positions which are 8 moves from
+Start and 9 moves from B as X_i for i in 1..16.  Then, the 16 positions
+which are 8 moves from B and 9 moves from Start are B(X_i) for i
+in 1..16.  A solution to the problem would then look something like
+(X_j)Y(X_k)', where Y is in Q-{B,B'}.  But I don't think we can say
+a priori that there is no Z in Q-{B,B'} and no X_m such that
+(X_j)Z(X_m)' is also a solution (Z not equal Y and X_m not equal X_k).
+
+I think to analyze the problem properly you would have to take the
+positions X_i for i in 1..16 and the positions B(X_j) for j in 1..16
+and match up each X_i with each B(X_j) to see which ones differ
+by a quarter turn.  Each X_i is going to match up with at least one
+B(X_j) and vice versa, but there might be more than 16 matches
+overall.
+
+Reduction by Q2-conjugacy is important, but I don't think it would
+tell you how many solutions there are that you would really want to
+consider to be unique.  Recall the solution of Pons Asinorum by
+half-depth searches.  There are 5 positions unique up to M-conjugacy
+which are 6q from Start and 6q from Pons.  But most people would
+consider that there are only two minimal solutions to Pons that are
+really different.  The trouble is that 4 of the 5 half-way positions
+for the Pons are in the middle of a sub-process which commutes.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

@@ -1,0 +1,34 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug  6 19:13:19 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA00614
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 6 Aug 1999 19:13:09 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Fri, 6 Aug 1999 18:22:01 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: David Barr <davidb@u.washington.edu>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Meffert's Assembly Cube
+In-Reply-To: <37A88ED4.B35BA92F@u.washington.edu>
+Message-Id: <Pine.BSF.3.96.990806181644.6928U-100000@shell2.tiac.net>
+
+
+On Wed, 4 Aug 1999, David Barr wrote:
+
+}I saw on the http://www.mefferts-puzzles.com/ web site that he has a new
+}3x3x3 cube design.  Has anyone gotten their hands on one yet?
+
+Being a legacy-software addict, I use Lynx (2.8.2dev22) with a shell
+account, so I haven't seen the images yet, but this seems to be even
+more desirable than the very-nice, discontinued Ideal DeLuxe Cube.
+
+Let's hope that it self-aligns as well as, or better than, the Ideal
+I mentioned.
+
+|*  Nicholas Bodley   *|*  Autodidact & Polymath * Electronic Tech. (ret.)
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*  Before 1960 or so: $100. Later: 100$
+|*  Amateur musician  *|*  Before 1990 or so: 100%. Later: %100
+--------------------------------------------------------------------------
+

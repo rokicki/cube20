@@ -1,0 +1,46 @@
+Received: from ARDEC-AC4.ARPA (TCP 30003004020) by AI.AI.MIT.EDU 28 Mar 88 16:00:38 EST
+Date:     Mon, 28 Mar 88 15:54:07 EST
+From:     Peter Beck (LCWSL) <pbeck@ARDEC.ARPA>
+To:       cube-lovers@AI.AI.MIT.EDU
+Subject:  magic polyhedra
+Message-ID:  <8803281554.aa20390@ARDEC-AC4.ARDEC.ARPA>
+
+a puzzle fool's view of plate tectonics
+by peter beck   april 1, 1988
+
+what follows is an unfounded speculation of how "magig polyhedra" can be used to
+understand the manifistations of plate tectonics.  my imagination was piqued
+while manipulating the "megaminx" (a dodecahedron with flat pentagon shaped
+faces, marketed in the usa by tomy) because the puzzle locks up when an attempt
+is made to turn too many faces simultaneously.  this causes the surface to
+distort and when too much force is excerted the puzzle comes apart in an
+explosive fashion.  
+
+i, impusively concluded that the geometric principles governing this explosion
+are analogous to what happens when the surface plates of the earth are rotated
+by the forces behind plate tectonics.  this analogy is useful because it
+provides a macro model with physical parity constraints to study plate
+tectonics, eg, by helping forecasters tie together observable events around the
+world a better understanding of individual events could be obtained.  another
+area of study could be the parity constraints on the motion of the plates, ie, 
+the directions of plate rotation are constrained by their neighbors, because
+each plate does not move independently (see fig. 465.10 in fuller's book
+"synergetics").   [it should be noted that other dodecahedron magic polyhedra
+may be more appropriate for the study of plate tectonics; ie, the "impossiball"
+or 'alexander's star".]
+
+now that my fantasizing is in high gear i will expand my speculation to consider
+the engine that drives plate tectonics.  i have decided that if one knew some
+physics it could probably be shown that a rotating sphere with a liquid center
+would develop 12 local circulations which the surface plates would float on. 
+thus, plate tectonics can on a macro scale be reduced to a simple problem of
+fluid dynamics and some geometric parity constraints which can be displayed with
+magic polyhedra.
+
+the future is puzzling, but cubing is forever !!
+
+
+distribution:
+   cff
+   wgr
+   cube-lovers@mit

@@ -1,0 +1,38 @@
+Date:  6 Jul 1982 2318-PDT
+From: Zellich at OFFICE-3 (Rich Zellich)
+Subject: Mailing-list for "List of lists" update notices
+To:   All mailing-lists:
+cc:   ZELLICH
+
+For those of you not previously aware of it, I maintain a master list
+of ARPANET mailing-lists/digests/discussion groups (currently 756
+lines or ~29,000 characters) on OFFICE-3 in file:
+
+   <ALMSA>INTEREST-GROUPS.TXT
+
+   For ARPANET users, OFFICE-3 supports the net-standard ANONYMOUS
+   login within FTP, with any password.
+
+To keep people up to date on the large number of such lists, I have
+established a mailing list for list-of-lists \update notices/.  I do
+not propose to send copies of the list itself to the world at large,
+but for those ARPANET users who seriously intend to FTP the updated
+versions when updated, I will send a brief notice that a new version
+is available.  For those counterparts at internet sites who maintain
+or redistribute copies for their own networks (DECNet, Xerox, etc.)
+and can't reach the master by ARPANET FTP, I will send out the
+complete new file.  I do \not/ intend to send file copies to
+individual users, either ARPANET or internet; our system is fairly
+heavily loaded, and we can't afford it.
+
+There is no particular pattern to the update frequency of INTEREST-
+GROUPS.TXT; I will occasionally receive a burst of new mailing-lists
+or perhaps a single change of address for a host or mailing-list
+coordinator, and then have a long period with no changes.
+
+To get on the list, send requests to ZELLICH@OFFICE-3, \not/ to the
+mailing-list this message appears in.
+
+Cheers,
+Rich
+-------

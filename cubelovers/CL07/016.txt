@@ -1,0 +1,60 @@
+From dik@cwi.nl  Sat Nov 10 20:17:16 1990
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA12248; Sat, 10 Nov 90 20:17:16 EST
+Received: by charon.cwi.nl with SMTP; Sun, 11 Nov 90 02:17:08 +0100
+Received: by paring.cwi.nl via EUnet; Sun, 11 Nov 90 02:17:02 +0100
+Date: Sun, 11 Nov 90 02:17:02 +0100
+From: dik@cwi.nl
+Message-Id: <9011110117.AA27431@paring.cwi.nl>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: Rubik's Cube reassembly problem and solution
+
+Aside from the disassembly/assembly problem there was another problem that
+I have not yet seen answered satisfactory.  The question is:  what is the
+maximum number of stickers that can bee peeled of such that there is still
+an unique solution for the cube (i.e. the remaining stickers must match in
+color on a face).  The only solution I have seen was along the lines (this
+is from memory, but I do not think there are any mistakes):
+1.  The total rotation of the corner cubes is 0, so there is one corner
+    cube that can have all its stickers removed; the remaining corner
+    cubes need at least one sticker.  Suppose this is the FUR cube.
+    (3 stickers.)
+2.  You can remove two stickers (F, R and/or U) from each of FRD, BRU, FLU;
+    they still remain distinguishable.  (6 stickers.)
+3.  Of the remaining corner cubes (DBL, DRB, ULB, DLF) you cannot *now*
+    (emphasis mine) remove two stickers because the cube will become
+    indistinguishable from one of the cubes handled in step 2.  You can
+    remove sticker R, U and F from DRB, ULB and DLF respectively.  No
+    other stickers can be removed.  (3 stickers.)
+4.  Because of flip parity you can remove two stickers from (say) FU.
+    (2 stickers.)
+5.  You can remove the F sticker from all of FR, FL and FD.  (3 stickers.)
+6.  Now, because of the product parity of corner cubes permutation and
+    edge cube permutation you can make either two corner cubes identical or
+    two edge cubes.  You must nevertheless still be able to observe both
+    the corner twist parity and the edge flip parity.  This means you may
+    a.  Remove a single sticker from any edge cube that still has two stickers.
+    b.  Remove a single sticker from the DLB cube.
+    (You can not remove two stickers from the DLB cube.  Say you remove the L
+    and B sticker.  Let us denote removed sticker by lower case letters.
+    In that case Dlb is indistinguishable from Dfr, which is not a problem.
+    But the DLf cube can now be put in the Dlb position, leading to a 3-cycle.)
+    (1 sticker.)
+7.  You can remove the sticker from the front center cube.  (1 sticker.)
+
+This leads to a total of 19 removable stickers.
+
+This is not maximal.  There are, for instance, other ways to do corner cubes:
+1.  Remove all F stickers.  (4 stickers.)
+2.  From all Fxy cubes, remove the y sticker.  (4 stickers.)
+3.  Also from all Bxy cubes, remove the y sticker.  (4 stickers.)
+4.  From one Bxy cube remove also an x sticker.  (1 sticker.)
+5.  From one Fxy cube remove also an x sticker.  (1 sticker.)
+(Fxy and Bxy named clockwise.)
+This leads to 14 stickers for the corners and a total of 21.
+Are there other ways leading to more?  Are there better ways that we can
+remove more center stickers?
+--
+dik t. winter, cwi, amsterdam, nederland
+dik@cwi.nl
+

@@ -1,0 +1,32 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Sun Jun  4 03:28:58 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18076; Sun, 4 Jun 95 03:28:58 EDT
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <173779-8>; Sun, 4 Jun 1995 03:30:39 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA25003; Sun, 4 Jun 95 03:25:11 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1E5238; Sun,  4 Jun 95 03:22:02 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Super Squares Group
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1150.5834.0C1E5238@canrem.com>
+Date: Sun, 4 Jun 1995 04:21:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+Way back on Thu Aug 20 20:10:13 1992 Mike wrote:
+
+>  R2 F2 B2 L2 U2 L2 F2 B2 R2  ~  D2 ,
+>            so that  <U2, F2, R2, L2, B2> = <U2, F2, R2, L2, B2, D2>.
+
+I bet he didn't realize at the time he was finding a minimal
+sequence to rotate 2 centres in the super square's group!
+
+If we tack D2 on the end we get the sequence:
+
+R2 F2 B2 L2 U2 L2 F2 B2 R2 D2 =  turn U & D centres 180 degrees
+ in 10 face turns.
+
+-> Mark <-
+

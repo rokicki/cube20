@@ -1,0 +1,69 @@
+Date:  15 January 1981 19:13 cst
+From:  VaughanW.REFLECS at HI-Multics (Bill Vaughan)
+Subject:  "Swirl Patterns"
+To:  Cube-Lovers at MIT-MC
+
+I've been recently investigating a set of patterns that I call
+Swirl patterns for lack of a better name. In a Swirl, each face
+looks like one of these:
+
+     X X X                      X X X
+     X Y Z (Left-hand swirl)    Z Y X (Right-hand swirl)
+     Z Z Z                      Z Z Z
+
+where X and Z are complementary colors, and Y is something else. 
+I've classified them roughly into 6 classes, based on handedness
+of swirl and relative alignment of faces.
+
+If you look at the 3 faces adjacent to a corner, they may have the
+same handedness, or they may have mixed handedness.  In addition,
+two adjacent faces may have parallel or perpendicular swirls. 
+(Parallel swirls have their XYZ columns parallel; perpendicular
+swirls have thir XYZ columns perpendicular.)
+
+Here are my 6 classes; there are another 6 which are mirror images
+of these, but I don't count them. Nor do I care (at the moment)
+about color pairings - though I know they are important - or about
+the colors of the face cubies, which probably aren't important.
+
+1.  Same handedness.  Two of the three faces have parallel swirls.
+
+2.  Same handedness. All three faces have mutually perpendicular
+swirls.
+
+3. Mixed handedness. The two same-handed faces are parallel, with
+thir XYZ columns in contact (i.e. forming a belt around the cube).
+
+4. Mixed handedness. The two same-handed faces are perpendicular;
+the opposite-handed face is perpendicular to both.
+
+5. Mixed handedness. The two same-handed faces are perpendicular;
+the opposite-handed face is parallel to one.
+
+6. Mixed handedness. The two same-handed faces are parallel, with
+their XYZ columns pointing towards the third face.
+
+Four of these classes are in the antislice group and are a short
+distance (8 qtw) away from SOLVED. They are classes 1, 3, 5 and 6.
+They are also the antislice group's analogues of the slice group's
+"6-spot" or "twelve-square" patterns.
+
+What got me started on this is a problem that I still have. One
+day while playing aimlessly in the antislice group (I thought I
+had remained in it) I ran across a class 2 Swirl, which was (a)
+quite pretty (when looked at from  the correct corner it looks
+like a pinwheel) and (b) a bear to solve. (Clearly I thought it
+was one of the "easy" Swirls.)
+
+Having solved it, I wanted to get back to it and found I didn't
+know how.  I tried solving to it and came up with an impossibility
+- that's how I know the color arrangements must be important - and
+I haven't found it in my searches yet - nor have I found class 4.
+
+Questions: what's the fastest way to get to a class 2 Swirl?  What
+color arrangements are permissible? Is it really in the antislice
+group? (I now believe not.) Is any class 4 Swirl achievable?  How
+quickly? Is there anything else interesting about Swirls?
+
+I'm still playing with these - will give more data as I get it.
+			Bill

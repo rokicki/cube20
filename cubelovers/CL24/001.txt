@@ -1,0 +1,242 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 27 14:39:14 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA02051; Wed, 27 Aug 1997 14:39:14 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From reid@math.brown.edu Wed Aug 27 14:33:56 1997
+Message-Id: <199708271830.OAA29527@life.ai.mit.edu>
+Date: Wed, 27 Aug 1997 14:36:47 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: minimal maneuvers for "continuous" isoglyphs
+
+i finished computing minimal maneuvers for the "continuous" isoglyphs.
+some may be in a different orientation than herbert gave them.
+i also give a maneuver that is simultaneously minimal in both the
+quarter turn metric and the face turn metric when there is such a
+maneuver.
+
+
+*.*
+***  (type 01)
+***
+
+ 1. (girdle 3-cycle)
+ F  R' L  U' R' U  R  L' B' R  F' B   (12q, 12f)
+
+ 2. (distorted girdle 3-cycle)
+ U  R  U  D' F2 U' D  R  U'  (10q, 9f)
+
+
+*.*
+.**  (type 02)
+***
+
+ 3. edge hexagon of order 2
+ U  B2 U' F' U' D  L' D2 L  U  D' F  D' L2 B2 D'  (20q, 16f)
+
+ 4. edge hexagon of order 3
+ U' D  L' B  D  B' U2 D' B' R' B  R  U' L  D'  (16q)
+ F  L  B  U  F2 B2 R  F2 B2 L' U' B' L' F'  (14f)
+
+ 5. (off-girdle 3-cycles)
+ B' U  F2 L' F2 U' F' B  L  B2 U  B2 L' F   (18q, 14f)
+
+ 6. (distorted off-girdle 3-cycles)
+ F  L  B  R  D' F  B2 L' F' B  L' F' D  R  F  R' F'  (18q)
+ U  R2 D  F' L  U2 D2 R' U2 D2 F  D' R2 U'  (14f)
+
+
+*.*
+**.  (type 03)
+*.*
+
+ 7. (plummer's C's)
+ F  U' F  B' D2 B' U' D  R  B2 R  L' B  R' F  U' D  R'  (20q)
+ L2 U2 R' B' U' D  B2 D' R' D  L  D2 F  U2 D  L2  (16f)
+
+
+*.*
+.*.  (type 04)
+*.*
+
+ 8. pons asinorum
+ U2 D2 F2 B2 R2 L2  (12q, 6f)
+
+ 9. checkerboards of order 3
+ F  B2 R' D2 B  R  U  D' R  L' D' F' R2 D  F2 B'  (20q, 16f)
+
+10. checkerboards of order 6
+ R' D' F' D  L  F  U2 B' L  U  D' R' D' L  F  L2 U  F'  (20q)
+ R2 L2 U  B  L2 D' F  B2 R  L' F' B  R  D  F2 L' U'  (17f)
+
+
+***
+***  (type 10)
+**.
+
+11. meson
+ U  F' D  F  U' F' L' U' L  D' L' U  L  F   (14q)
+ D  F2 D' R  B2 R' D  F2 D' R  B2 R'  (12f)
+
+
+*.*
+***  (type 11)
+**.
+
+12. (meson & girdle 3-cycle)
+ F' L' B' D2 B' D' B  D' R  F' R  F  R2 B  L  F   (18q, 16f)
+
+
+***
+**.  (type 12)
+*..
+
+13. two twisted peaks
+ F  B' U  F  U  F  U  L  B  L2 B' U  F' L  U  L' B   (18q)
+ F  D2 B  R  B' L' F  D' L2 F2 R  F' R' F2 L' F'  (16f)
+
+14. exchanged peaks
+ F  U2 L  F  L' B  L  U  B' R' L' U  R' D' F' B  R2  (19q)
+ F2 R2 D  R2 U  D  F2 D' R' D' F  L2 F' D  R  U'  (16f)
+
+
+*.*
+.**  (type 12)
+**.
+
+15. (meson & girdle 3-cycles)
+ F  B' R  F' U  L  U' F  B' D' B  D  L' B  D' R' D  F'  (18q, 18f)
+
+
+*.*
+**.  (type 13)
+*..
+
+16. (plummer's Y's)
+ R  U' R  B' R  F  R' U  D' R  L' B' L  F  L' F' R  F'  (18q)
+ L  F  B' U' R' B' R' L' U2 L  D' R  F  R2 B2 L' F   (17f)
+
+
+*.*
+.*.  (type 14)
+*..
+
+17. (plummer's cluster & girdle 3-cycles)
+ R  U' F  U  F' D' R  F  D' R  L' F  B' D' R  F' L  F'  (18q)
+ F  B2 U  R  L2 B' L  F  D' L' B  L  B' U  L' U' D2  (17f)
+
+18. (christman's cluster & girdle)
+DL DB DR DF UL UB UR UF LB LF RB RF DLB URB UBL ULF DRF DFL UFR DBR
+ F  U  R' U' R  U2 R' B' R' F  R' D  R' L  U  F  D' F  B' R'  (21q)
+ F2 U  R2 L' U2 D' F2 U' B  R  L' B' U2 B  U' R  B' L   (18f)
+
+
+.*.
+***  (type 30)
+.**
+
+19. (plummer's rabbits)
+ F  L' F  R' U  R  U' F' L  U  R' U' R  F'  (14q, 14f)
+
+
+.*.
+.**  (type 31)
+.**
+
+20. twisted cube edges, orthogonal bars
+ F  L' U  L  U' R' U  F' L  F  L' U' R  F'  (14q, 14f)
+
+
+...
+.**  (type 32)
+.**
+
+21. cube in a cube
+ F  L  F  U' R  U  F2 L2 U' L' B  D' B' L2 U   (18q, 15f)
+
+
+.*.
+**.  (type 32)
+..*
+
+22. twisted duck feet
+ U2 F' B  D  B' U  D2 L  U2 F  L  F  U' R' B' R  F'  (20q, 17f)
+
+23. exchanged duck feet
+ U  F  R2 F' D' R  U  B2 U2 F' R2 F  D  B2 R  B'  (21q, 16f)
+
+
+...
+**.  (type 33)
+..*
+
+24. (plummer's bend)
+ F  R  B' R  U  R  F  D' L' F2 R  U' F  R' B' R  F'  (18q)
+ F' R  U2 L' F  B  U  B2 R' U  R2 D' R2 U' L' U   (16f)
+
+
+...
+.*.  (type 34)
+..*
+
+25. twisted chicken feet
+ D2 R  U  L' F2 R  F' U  F' U' B' U  F  D' L  F'  (18q, 16f)
+
+26. exchanged chicken feet, cherries
+ F  L' D' B' L  F  U  F' D' F  L2 B' R' U  L2 D' F   (19q, 17f)
+
+
+.*.
+***  (type 40)
+.*.
+
+27. christman's cross
+ U  R  L' F2 U2 F2 R' L  U2 F2 U   (16q, 11f)
+
+28. plummer's cross
+ U' D2 R  B2 D' R' U  D' R  L' D  R  F2 D' R2 L    (20q, 16f)
+
+
+...
+***  (type 41)
+.*.
+
+29. four way street
+ L  U2 F' U  F  L2 U  L  F' D' F2 L' D' L  D2 F'  (20q, 16f)
+
+
+...
+.**  (type 42)
+.*.
+
+30. exchanged rings
+ B' U' B' L' D  B  U  D2 B  U  L  D' L' U' L2 D    (18q)
+ F  U  D' L' B2 L  U' D  F  U  R2 L2 U' L2 F2  (15f)
+
+31. twisted rings
+ F  D  F' D2 L' B' U  L  D  R  U  L' F' U  L  U2  (18q, 16f)
+
+32. anaconda, worm
+ L  U  B' U' R  L' B  R' F  B' D  R  D' F'  (14q, 14f)
+
+
+.*.
+.*.  (type 43)
+...
+
+33. six U's type 6
+ U  D' F' U  R  L' B' U  F  U  D' R'  (12q, 12f)
+
+
+...
+.*.  (type 44)
+...
+
+34. six spot, six O's
+ U  D' R  L' F  B' U  D' (8q, 8f)
+
+
+mike
+

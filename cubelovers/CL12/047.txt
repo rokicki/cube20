@@ -1,0 +1,30 @@
+From diamond@jrdv04.enet.dec.com  Mon Jul 18 23:11:47 1994
+Return-Path: <diamond@jrdv04.enet.dec.com>
+Received: from inet-gw-2.pa.dec.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05611; Mon, 18 Jul 94 23:11:47 EDT
+Received: from jrdmax.jrd.dec.com by inet-gw-2.pa.dec.com (5.65/27May94)
+	id AA18406; Mon, 18 Jul 94 20:08:17 -0700
+Message-Id: <9407190307.AA21918@jrdmax.jrd.dec.com>
+Received: from jrdv04.enet.dec.com by jrdmax.jrd.dec.com (5.65/JULT-4.3)
+	id AA21918; Tue, 19 Jul 94 12:07:47 +0900
+Received: from jrdv04.enet.dec.com; by jrdmax.enet.dec.com; Tue, 19 Jul 94 12:07:53 +0900
+Date: Tue, 19 Jul 94 12:07:53 +0900
+From: Norman Diamond  19-Jul-1994 1206 <diamond@jrdv04.enet.dec.com>
+To: cube-lovers@ai.mit.edu
+Apparently-To: cube-lovers@ai.mit.edu
+Subject: Re: A real robot solve the Rubik's Cube but...
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+Toshi Kato says:
+
+>Dale Newfield said:
+> <Sorry to pick nits, but if it is autonomous(sp?), which I think you implied,
+> <wouldn't it be an android, instead of a robot?
+>
+>Pardon me. I wonder if I shoudn't use such words "real" and "live".
+
+Half right.  It was a real dead robot :-)
+
+-- Norman Diamond       diamond@jrdv04.enet.dec.com
+[Digital did not write this.]
+

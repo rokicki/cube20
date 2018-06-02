@@ -1,0 +1,65 @@
+From dlitwin@geoworks.com  Thu Sep 14 23:45:03 1995
+Return-Path: <dlitwin@geoworks.com>
+Received: from quark.geoworks.com ([198.211.201.100]) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20748; Thu, 14 Sep 95 23:45:03 EDT
+Received: from radium.geoworks.com by quark.geoworks.com (4.1/SMI-4.0)
+	id AA15388; Thu, 14 Sep 95 20:40:52 PDT
+Date: Thu, 14 Sep 95 20:40:52 PDT
+From: dlitwin@geoworks.com (David Litwin)
+Message-Id: <9509150340.AA15388@quark.geoworks.com>
+To: cube-lovers@life.ai.mit.edu
+Subject: Alexander's Star
+
+
+	While we are on the subject of the Alexander's star, I have never
+been entirely satisfied with the arrangment of its solution.  I've noticed
+that most people who look at it don't even know it is solved and I have to
+explain that the solution is that all the stickers of pieces laying in a
+common plane around the points are the same color.  Hard to say, but I can
+point it out to people.  
+	To this end I have spent some time trying to find a more satisfying
+solution, one more visually clear and simple.  I've only come up with one
+alternative that I consider reasonable, and it isn't as pure as I would
+like.
+
+	This solution involves grouping colors in the depressions of the
+star.  The main problem lies in the fact that the edges come together in
+groups of three, but there are 10 stickers of each color so at some point
+having all the depressions of the star a single color breaks down.  For
+this reason I choose one color (White is my preference) to be an exception
+and have it remain in the original configuration, i.e. all in two parallel
+planes.  With the rest of the colors, I group them in groups of five: three
+in one depression, and two in an adjacent depression with the third color
+of this second depression being one of a white.  The result of this is a
+set of interlocking "diamonds" that group visually because the are of the
+same color.  Unrolled, the star would look like this (this should just fit
+on a display of 80 columns):
+
+       /|\             /|\             /|\             /|\             /|\     
+      / | \           / | \           / | \           / | \           / | \    
+     /  |  \         /  |  \         /  |  \         /  |  \         /  |  \   
+    /   |   \       /   |   \       /   |   \       /   |   \       /   |   \  
+   /  Y_|_Y  \     /  B_|_B  \     /  O_|_O  \     /  R_|_R  \     /  G_|_G  \ 
+  / _-' W `-_ \   / _-' W `-_ \   / _-' W `-_ \   / _-' W `-_ \   / _-' W `-_ \
+_/-'_________`-\_/-'_________`-\_/-'_________`-\_/-'_________`-\_/-'_________`-\
+|\-,_       _,-/|\-,_       _,-/|\-,_       _,-/|\-,_       _,-/|\-,_       _,-/
+| \  `-_Y_-'  / | \  `-_B_-'  / | \  `-_O_-'  / | \  `-_R_-'  / | \  `-_G_-'  / 
+|  \  Y " Y  /  |  \  B " B  /  |  \  O " O  /  |  \  R " R  /  |  \  G " G  /  
+|   \   |   /   |   \   |   /   |   \   |   /   |   \   |   /   |   \   |   /   
+|_O  \  |  /  R_|_R  \  |  /  G_|_G  \  |  /  Y_|_Y  \  |  /  B_|_B  \  |  /  O_
+O `-_ \ | / _-' R `-_ \ | / _-' G `-_ \ | / _-' Y `-_ \ | / _-' B `-_ \ | / _-' 
+_____`-\|/-'_________`-\|/-'_________`-\|/-'_________`-\|/-'_________`-\|/-'____
+    _,-/ \-,_       _,-/ \-,_       _,-/ \-,_       _,-/ \-,_       _,-/ \-,_   
+W_-'  /   \  `-_W_-'  /   \  `-_W_-'  /   \  `-_W_-'  /   \  `-_W_-'  /   \  `-_
+" O  /     \  R " R  /     \  G " G  /     \  Y " Y  /     \  B " B  /     \  O 
+|   /       \   |   /       \   |   /       \   |   /       \   |   /       \   
+|  /         \  |  /         \  |  /         \  |  /         \  |  /         \  
+| /           \ | /           \ | /           \ | /           \ | /           \ 
+|/             \|/             \|/             \|/             \|/             \
+
+ 
+	I haven't found a nice way of having more solid depressions than this.
+
+	Has anyone else found any nice solutions?
+
+	Dave Litwin
+

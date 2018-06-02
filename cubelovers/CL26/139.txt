@@ -1,0 +1,58 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 10 22:03:13 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id WAA10588
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 10 Mar 1999 22:03:12 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Megaminx solving times?
+Date: 9 Mar 1999 15:46:55 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7c3fpf$mte@gap.cco.caltech.edu>
+References: <cube-lovers.3.0.32.19990225090214.009654a0@mail.spc.nl>
+
+Christ van Willegen <c.v.willegen@spcgroup.nl> writes:
+>I've been practising the Megaminx, and I can now solve it
+>without resorting to formulas written down on paper. I can
+>do it in about 10 minutes. How does this compare to other
+>people's times?
+
+I've never solved mine for speed, because I'm afraid of more
+stickers falling off (already 3 are missing and I have to "deduce"
+what they are).  10 minutes sounds reasonable -- I'm not sure I've
+ever resorted to formulas written on paper.   (For one thing, I'm
+not sure I know of any notation!)
+
+>And, what method do you use? The method I developed relies
+>heavily upon the standard cube moves, and I solve the Mega-
+>minx going down from one flat top in rings. I needed to
+>adapt 1 (one!) standard cube formula to get it to work on
+>the Megaminx.
+
+This brings up, actually, a rather embarrasing point for me as a puzzle
+solver.  At first I had no idea how to generalize the standard cube moves
+I used to the Megaminx.  So, eventually I figured out a new method,
+which was:
+  1.  Solve a large chunk of it by normal moves, perhaps leaving
+    only three faces unsolved;
+  2.  Solve the edges of the remaining faces (if you can solve an
+    Alexander's Star, you can do this);
+  3.  Solve the corners.
+
+I found this quite effective.
+
+About a year later, when my Megaminx was in storage and I was
+playing with the Cube, I suddenly realized that my method for the
+Megaminx would work perfectly well for the Cube!  (O, for that
+matter, anything with a similar structure of "corners" with three
+faces and "edges" with two faces.) I chastized myself
+heavily for not realizing this "obvious generalization", and
+with it was able to work out more moves for the Cube.
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+"Pop", "Soda", or "Coke"?  http://www.ugcs.caltech.edu/~almccon/pop_soda/
+

@@ -1,0 +1,25 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Jun  8 14:33:05 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA16783 for <cube-lovers-outbound@curry.epilogue.com>; Sat, 8 Jun 1996 14:33:04 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Fri, 7 Jun 1996 14:52:51 -0700 (PDT)
+From: Darrell Fuhriman <darrell@grumblesmurf.net>
+To: CUBE-LOVERS@ai.mit.edu
+Subject: verifying correctness of a cube
+Message-Id: <Pine.LNX.3.90.960607144913.3333A-100000@xian.grumblesmurf.net>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+So, I was recently given a cube, which once again sparked my interest in 
+the whole thing, however it appears that the stickers have been pulled 
+off and re-arranged at some point.  (The faces don't match any I've seen 
+mentioned in the archives or the various web pages.)
+
+What would be the right way to put it back together to get a "working" cube?
+
+d.
+
+
+

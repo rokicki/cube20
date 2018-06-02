@@ -1,0 +1,19 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue May 25 11:17:55 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id LAA27167
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 25 May 1999 11:17:55 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <003401bea62b$d9660920$50c4b0c2@home>
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: "Cube-Lovers" <Cube-Lovers@ai.mit.edu>
+Subject: Availability of 5x5x5 and 2x2x2 in UK
+Date: Mon, 24 May 1999 22:24:45 +0100
+
+Hah!  For British readers, I can report that Toys 'R' Us have the
+Meffert 5x5x5 and the Rubik's 2x2x2 - the first time I have seen
+either of these sizes on sale in the UK.
+
+Roger Broadie
+

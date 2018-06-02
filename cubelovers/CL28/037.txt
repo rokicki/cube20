@@ -1,0 +1,93 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Nov 11 18:02:33 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA06302
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 11 Nov 1999 18:02:32 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 28 Oct 1999 15:38:18 -0400 (EDT)
+From: Daniel B Knights <knights@panther.middlebury.edu>
+To: Norman Richards <orb@cs.utexas.edu>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: 3-Cube in 1 Look
+Message-Id: <Pine.A41.4.02.9910281447240.273854-100000@tiger.middlebury.edu>
+
+
+>> There was discussion of blindfolded solving during March 98 on this
+>> list. At that time no one was able to do it. You may be the first.
+
+> I'd love some more elaboration of the specific sequences the
+>original poster used. (or any suggestions others have to make) I
+>think this would be quite a trick. I'd be happy just being able to do
+>a 2x2x2 cube like this or maybe one face of a 3x3x3...
+
+
+Solving one face of a 3x3x3 in one look does not require any special
+system for planning.  If it can be done in 20-25 moves, then I've found
+it is feasible (although cumbersome) to simply plan out all 20 moves
+while keeping track of each move's effect on the relevant pieces.
+
+If you are interested in solving the whole cube in 1-look,
+(or a 2x2x2 cube) I suggest you try doing 2 looks first:
+1 to solve corners (without changing edges), 1 to solve edges.
+Once you can do this, it should be clear how to do it in one look.
+If 2-looks for the whole cube is still too difficult at first, then
+try solving just the corners with 2-looks, 1 to position them
+and 1 to orient them correctly. (But don't mess up
+the edges while you do it!)
+
+You don't really have to "update" your memory as you go,
+because you can basically plan out the entire solution before
+you start, as follows:
+
+1. it's only 3-5 corner permutations to get all corners in the
+correct location, and you just have to keep track of each
+corner's orientation (i.e., needs to be rotated clockwise or
+anti-clockwise in place).
+For these permutation moves, I most often use a single-layer
+3-corner interchange that preserves the corner orientation
+relative to that layer. The move [Ri F Ri B2 R Fi Ri B2 R2]
+accomplishes this in the top layer.
+
+2. 1-3 more sequences to orient all the corners.
+I use simple moves like [(R U Ri Ui)^2 D (U R Ui Ri)^2 Di]  to
+re-orient two corners in the bottom layer.
+
+(**Now you've SOLVED a 2x2x2 Cube!**)
+
+3. Then usually 5-7 sequences to put all edges in place,
+but again keeping track of which ones are flipped.
+For these permutations, I will again often use a 3-edge swap
+like the following: [R2 Ui Fs R2 Bs Ui R2]
+
+4. then a few more edge-flip sequences.  I use the (very)
+inefficient two-edge flip maneuver:
+[Ls Fi Ls Di Ls B2 Rs Di Rs Fi Rs U2]
+
+Then you're done! (about 200 moves later.)
+This is not an easy "trick" - I still find it quite
+challenging to correctly plan out the entire corners solution
+and the entire edges solution, and to then implement them
+correctly from memory.
+
+The real "trick" for me is that I don't memorize the
+locations of the pieces, just the sequence of permutations
+that I planned out to solve them. This way, if you can plan
+out the 5 corner permutations in advance, then you only
+need to remember those 5 items to solve the corners, which don't
+change throughout the solution. If you instead memorize the
+locations of the pieces, you have to keep memorizing new
+locations throughout the solution. (which is impossible for me.)
+
+I first plan out the entire solution with my eyes open, and memorize it.
+(planning it out correctly may be the most difficult part.)
+Then you only have 15 permutations to remember and execute
+correctly, without any new memorization after you close your
+eyes.
+
+Well, that's enough about that. I just want to make this approach clear
+because I think blindfolded cubing is well within the bounds of "normal
+human memory capabilities."
+
+Good Luck!
+

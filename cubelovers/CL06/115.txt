@@ -1,0 +1,64 @@
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU 21 Oct 89 13:25:36 EDT
+Received: from YUKON.SCRC.SYMBOLICS.COM by mintaka.lcs.mit.edu id aa01632;
+          21 Oct 89 13:08 EDT
+Received: from WHIMBREL.SCRC.Symbolics.COM by YUKON.SCRC.Symbolics.COM via CHAOS with CHAOS-MAIL id 502163; Fri 20-Oct-89 16:27:22 EDT
+Date: Fri, 20 Oct 89 16:24 EDT
+From: "Allan C. Wechsler" <ACW@yukon.scrc.symbolics.com>
+Subject: [To: PBECK:  new cube puzzle]
+To: pbeck@pica.army.mil, cube-lovers@ai.ai.mit.edu
+In-Reply-To: <8910201027.aa21814@AC4.PICA.ARMY.MIL>
+Message-ID: <19891020202439.8.ACW@WHIMBREL.SCRC.Symbolics.COM>
+
+    Date:     Fri, 20 Oct 89 10:27:35 EDT
+    From:     Peter Beck (LCWSL) <pbeck@pica.army.mil>
+
+    Are there any patent engineers out there?
+
+The following is a public service announcement -- everybody ought to
+know this.
+
+    Patent 4,872,682 by Kuchimanchi (U of Maryland PHD student) and Thekur
+    (UC santa cruz PHD student) is for a new cube puzzle.
+
+Whenever you know a patent number, you can obtain a complete copy of the
+patent by writing to:
+
+Commissioner of Patents and Trademarks
+Washington, DC 20231
+Attention: Patent orders
+
+Include the patent number and a check for $1.50.  Used to be you could
+get the patent back in ten days.  Lately the delay is more like four
+weeks.
+
+    From the NY Times 10/14/89 Patents column:
+
+    "... ,the new brain teaser is a cube divided into squares, nine on
+    each face.  Each square can be rotated in both a horizontal and
+    vertical plane, creating billions of possible combinations.  at the
+    outset, all squares on each side have the same color.  the goal is to
+    mix up the colors and get them back in order.
+
+    In addition, however, the new puzzle contains one blank square, which
+    can be slid to any location on the cube. This makes the challenge
+    easier, because it gives the players another way to move squares from
+    one place to another."
+
+    So what do you think this puzzle is?  Do cubies rotate or do cubie
+    faces rotate?  Is this a sliding block puzzle on the equators like the
+    hungarian globe puzzle as sold by nature company etal?  Is this just
+    sam lloyd 15 puzzle on the surface of a cube?
+
+All these questions will be answered by the complete patent.
+
+If you are more impatient, call the local government printing office,
+and ask them where the patent depository for your area is.  Access to
+patent depositories is free, although the depository (usually a public
+library) can charge a fee for printing.  The librarian at the depository
+can tell you how to look up the patent.  Usually it is on microfilm or
+fiche.
+
+Warning: if you are like me, you will find the patent depository
+addicting.  Stay away if you have family resposibilities.  Above all,
+avoid learning the seductively simple cross-reference scheme or you will
+spend the rest of your life browsing through puzzle patents!

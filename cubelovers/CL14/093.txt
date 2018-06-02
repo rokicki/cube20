@@ -1,0 +1,30 @@
+From BRYAN@wvnvm.wvnet.edu  Thu Jan 12 21:14:10 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27432; Thu, 12 Jan 95 21:14:10 EST
+Message-Id: <9501130214.AA27432@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 1639; Thu, 12 Jan 95 21:13:36 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 0846; Thu, 12 Jan 1995 21:13:36 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Thu, 12 Jan 1995 21:13:35 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject:   Re: superflip
+In-Reply-To: Message of 01/12/95 at 19:47:42 from mreid@ptc.com
+
+Another thought.  It would seem to me that under either metric,
+the position halfway through ought to be "symmetric".  I am not
+sure just what "symmetric" means here, and my use of the word
+is largely arm waving similar to the use of "symmetric" to
+describe local maxima prior to "Symmetry and Local Maxima".
+But if such a "symmetric" position could be identified, it should
+be quite easy to search from it back to Start or back to Superflip
+in a minimal number of moves.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

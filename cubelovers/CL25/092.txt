@@ -1,0 +1,118 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jul 27 21:55:55 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id VAA15829; Mon, 27 Jul 1998 21:55:54 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Jul 27 14:45:54 1998
+Date: Mon, 27 Jul 1998 14:45:33 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Ten Face Moves from Start
+In-Reply-To: <Pine.WNT.3.96.980710083950.-3929923B-100000@GN209A.PSTCC.CC.TN.US>
+To: cube-lovers@ai.mit.edu
+Message-Id: <SIMEON.9807271433.J@GN209A.PSTCC.CC.TN.US>
+
+On Fri, 10 Jul 1998 08:48:05 -0400 (Eastern Daylight Time)
+Jerry Bryan <jbryan@pstcc6.pstcc.cc.tn.us> wrote:
+
+> This run took about three weeks on a Pentium 300.
+
+Here is a bit of a follow-up.  I didn't say so explicitly,
+but only the results 10f from Start were new.  The search
+had been calculated through 9f from Start previously.
+
+In some ways, there was nothing new in the program to
+calculate 10f from Start vs. 9f from Start, because the
+memory requirements are the same either way (all the
+positions up through 5f from Start have to be stored either
+way). Basically, the only difference was to let the program
+run longer. A faster machine helped a great deal. Also, I
+did add a simple checkpointing capability which helped a
+great deal.
+
+I received some private E-mails suggesting using the net as
+a massively parallel computer to calculate the problem
+further from Start, similar to what has already been done
+on the net to break certain ciphers.  The checkpointing I
+added to the program is a step in the direction of parallel
+processing.
+
+As has been described in the Cube-Lovers archives, the
+program uses an algorithm that produces permutations in
+lexicographic order.  Such an algorithm inherently
+decomposes easily into parallel processing.  So by analogy
+to processing a phone book or a dictionary, it should be
+possible for one machine to process the A's, another
+machine to process the B's, a third machine to process the
+C's, etc., and then to add the results together.
+
+(Actually, you would use finer decomposition than that.
+One machine would process the AB's, another would process
+the AC's, etc., or perhaps you would use even a finer
+decomposition.  Note that there are no AA's because these
+are permutations we are talking about -- no letter repeats
+within a word.)
+
+What is really needed are some scripts to drive and control
+such a process.  I really don't have time right now  --
+maybe in the future.  Also, to go past 10f from Start, the
+machines working on the project would have to have a good
+bit of memory, maybe something in the 100MB range would
+have to be dedicated to the program to calculate 11f or 12f
+from Start.
+
+The existing program is in C.  It was suggested in a
+private E-mail that writing the program in Java might make
+it easier to run "on the net".  Maybe, but I am dubious at
+this point if Java is ready to handle the size of problem
+we are talking about.
+
+> As a possible strategy, if we could add one level per decade, we could
+> probably calculate the problem all the way to the end within about 100
+> years. Moore's Law (the power of computers doubles about every eighteen
+> months) suggests that such a schedule might be possible.
+
+With respect to the E-mail about waiting for faster
+machines to deal with exponential problems, my real point
+was not that waiting on technology is a wonderful way to
+attack the Cube problem. Rather, I was suggesting that the
+Cube problem is small enough, even at about 10^19, that it
+can ultimately be defeated by technology (i.e., by Moore's
+law). Chess is about 10^75 and Go is about 10^120.  Moore's
+law is therefore pretty well bound to fail before Chess
+or Go can be solved.  (Deep Blue played very good chess
+against Kasparov, but not perfect chess.)
+
+There are two strong local maxima 9f from Start, and
+they have already been posted to Cube-Lovers.  Six more
+strong local maxima showed up at 10f from Start.
+Regrettably, my "simple checkpointing" did not include
+printing out the permutations for the strong local maxima
+-- I just counted them.  I have improved the checkpointing,
+and am rerunning a part of the program to print out the six
+strong local maxima.  So far, the only one of the six which
+has been printed turns out to be a 4-H pattern.
+
+D  B2 L2 B2 D  U' R2 F2 R2 U'
+F2 R2 F2 D' U  R2 F2 R2 U  D'
+L' R' D' U' B2 F2 D' U' L' R'
+L' R' D' U' B2 F2 D' U' R' L'
+B' F' D' U' L2 R2 D' U' B' F'
+B' F' D' U' L2 R2 D' U' F' B'
+D' F2 R2 F2 D' U  R2 F2 R2 U
+B2 L2 B2 D  U' R2 F2 R2 U' D
+L  R  D' U' B2 F2 D' U' L  R
+L  R  D' U' B2 F2 D' U' R  L
+B  F  D' U' L2 R2 D' U' B  F
+B  F  D' U' L2 R2 D' U' F  B
+B2 F2 L2 R2 U2 B2 F2 L2 R2 U2
+B2 F2 L2 R2 D2 B2 F2 L2 R2 D2
+L2 D2 B2 F2 R2 B2 F2 R2 U2 R2
+R2 D2 B2 F2 R2 B2 F2 R2 U2 L2
+B2 D2 F2 L2 R2 F2 L2 R2 U2 F2
+F2 D2 F2 L2 R2 F2 L2 R2 U2 B2
+
+----------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+

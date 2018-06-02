@@ -1,0 +1,52 @@
+From bagleyd@source.asset.com  Wed Jun  7 17:31:08 1995
+Return-Path: <bagleyd@source.asset.com>
+Received: from source.asset.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12024; Wed, 7 Jun 95 17:31:08 EDT
+Received: by source.asset.com (AIX 3.2/UCB 5.64/4.03)
+          id AA36858; Wed, 7 Jun 1995 17:07:22 -0400
+Date: Wed, 7 Jun 1995 17:07:22 -0400
+From: bagleyd@source.asset.com (David A. Bagley)
+Message-Id: <9506072107.AA36858@source.asset.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Dinosaur Rubik's Cube
+
+Hi
+  I just just added new modes to my xdino puzzle.  It is the Rubik's
+Dinosaur Puzzle recently mentioned.  (A cube with diagonal X cuts.)
+In addition to the Period 3 movement it now has a Period 2 movement with
+the faces cut up like:
+   ___
+  |\ /|
+  | X |
+  |/ \|
+   ---
+as opposed to just
+   \ /
+    X
+   / \
+In the Period 3 movement the cube turns around a corner while in Period 2
+movement it turns around the center of an edge.
+ 
+Of course if you want to make it harder there is a "Both" mode where
+you can have both turning modes at once.
+ 
+I would like to thank Derek Bosch <bosch@sgi.com> for suggesting the
+Period 2 movement -> Bosch's Cube :)
+ 
+I spent a good 10 minutes trying to solve Bosch's Cube and did
+not get anywhere.  The Period 3 seems easier.  Be the first in the
+Universe to solve it. :)
+ 
+All those who have X should be able to run it.  There are many other
+puzzles in the collection as well.
+ 
+Any problems with the compilation or bugs ... let me know.
+ 
+Cheers,
+      --__---------------------------------------------------------------
+     /  \ \   /           David A. Bagley                                \
+    |    \ \ /            bagleyd@source.asset.com                        |
+    |     \//\            Some days are better than other days.           |
+    |     / \ \                -- A short lived character of Blake's 7    |
+     \   /   \_\puzzles   Available at: ftp.x.org/contrib/games/puzzles  /
+      -------------------------------------------------------------------
+

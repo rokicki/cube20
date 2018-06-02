@@ -1,0 +1,43 @@
+From BRYAN@wvnvm.wvnet.edu  Sun Nov  6 09:15:57 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA15035; Sun, 6 Nov 94 09:15:57 EST
+Message-Id: <9411061415.AA15035@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 3785; Sun, 06 Nov 94 09:15:38 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 2152; Sun, 6 Nov 1994 09:15:38 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sun, 6 Nov 1994 09:15:37 -0500 (EST)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@life.ai.mit.edu>
+Subject:   Re: Shifty Invariance
+In-Reply-To: Message of 11/05/94 at 22:16:00 from mark.longridge@canrem.com
+
+On 11/05/94 at 22:16:00 mark.longridge@canrem.com said:
+
+>p183 6 Twist      R1 U3 R2 U3 R1 D3 U3 R1 U3 R3 D2 R3 U3 R1 D3 U3
+>                  (18 q  or  16 h  moves)
+                    ^^^^^^^^^^^^^^^^^^^^^
+
+This is not a shift invariance question, but rather two
+questions about your searches.  One question is, do you perform separate
+searches for q-turns and h-turns, or only for h-turns?  The reason I
+ask is the obvious fact that optimal processes in q-turns need not
+contain h-turns.  The second question is, how on earth do you keep track
+of all those processes in your searches?  I have been asked how I search
+so many positions.  I have answered the question before, but I guess
+another part of the answer that I haven't mentioned is that I don't
+keep up with processes at all, only positions.  If I am asked to provide
+processes, I can do so, but it is a very painful task.  I have thought
+about keeping up with processes, but I am quite sure that if I did
+so it would reduce the number of positions I could search.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

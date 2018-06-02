@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Apr 15 18:36:13 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA17618; Wed, 15 Apr 1998 18:36:12 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Apr 15 16:32:14 1998
+Date: Wed, 15 Apr 1998 16:35:57 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: John Burkhardt <jburkhardt@mediaone.net>
+Cc: "Cube-Lovers@ai.mit.edu" <Cube-Lovers@ai.mit.edu>
+Subject: RE: A workable 6x6x6 cube design (probably) - another comment
+In-Reply-To: <01BD658D.8DD543C0@jburkhardt.ne.mediaone.net>
+Message-Id: <Pine.BSF.3.96.980415163057.28862E-100000@shell2.tiac.net>
+
+On Sat, 11 Apr 1998, John Burkhardt wrote:
+
+}So who gets to try and make one?  I understood that the dies for the
+}5x5x5 cube are too expensive to build now due to "lack of interest".  On
+
+Does anyone know if the dies still exist? I wouldn't be a bit surprised
+if the whole set weighs several tons, even if they are single-cavity
+types. Tooling for injection molding is fiercely expensive! (Tooling for
+a decent ("serious") plastic soprano recorder runs probably a third to a
+half $US million, for instance. (Mostly bigger parts, a few very
+critical tolerances, and far fewer parts, also.))
+
+Best,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*  I might need to switch to shore.net, but will
+|*  Amateur musician  *|*  do my best to minimize the nuisance if so.
+--------------------------------------------------------------------------
+
+
+

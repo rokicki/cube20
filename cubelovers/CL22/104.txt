@@ -1,0 +1,61 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  2 13:10:30 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id NAA03412; Mon, 2 Jun 1997 13:10:30 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+From: SCHMIDTG@iccgcc.cle.ab.com
+Date: Sun, 1 Jun 1997 22:39:43 -0400 (EDT)
+To: cube-lovers@ai.mit.edu
+Message-Id: <970601223943.2140c63e@iccgcc.cle.ab.com>
+Subject: Re: A* versus IDA*
+
+Jerry Bryan wrote:
+
+>On Sat, 31 May 1997 SCHMIDTG@iccgcc.cle.ab.com wrote:
+>
+>>   As an aside, I've applied IDA* (augmented with hashing for
+>> duplicate node detection) to solve all but a few hundred of the 32000
+>> instances of Microsoft's "FreeCell" puzzle game that comes packaged
+>> with Win95 and NT.
+>> 
+>
+>Interesting.  I once upon a time found some notes on the Web that
+>indicated that all but one of the prepackaged instances of FreeCell had
+>been solved by hand (by humans).  I gather that many people worked on the
+>project in a parallel processing mode.  Only one of the games was said to
+>be unsolvable, and this was claimed to have been proven by computer
+>search.
+
+The unsolvable instance is FreeCell game #11982.  And you are correct
+to point out that a computer program has proven the unsolvability of
+this particular instance.  It is a curious fact that only one of the
+32000 instances turned out to be unsolvable.
+
+[...some discussion of Baker's game deleted...]
+>Nevertheless, my program demonstrated that the game can be won about 60%
+>of the time.  I am sure that your IDA* FreeCell program, were it to be
+>adapted to Baker's Game, would be vastly more effective than my rather
+>primitive program was.  Would you have any interest in investigating
+>Baker's Game with your program.?
+
+I am familiar with Baker's game and as you mentioned, it is harder
+to win at than FreeCell.  It would be fairly simple to adapt my
+program to Baker's game and it would be interesting to compare performance.
+As I mentioned, my program uses a sort of "hash cache" for duplicate
+node checking (as the search space for FreeCell is a graph, not a tree).
+There is a flaw in this mechanism as some false hits can occur and effectively
+over prune the search tree.  I believe that was why I was unable to solve
+approximately 300 of the 32000 instances.  I don't know if that flaw would
+be amplified in Baker's game where there are fewer paths to a solution as
+compared to FreeCell.  Unfortunately, eliminating this behavior would
+require a complete overhaul of the duplicate node checking mechanism
+as opposed to a simple "quick fix".
+
+At any rate, I'm willing to make this program available to interested
+parties (BTW, its written in C++).  I would prefer to upload it to an
+FTP site if possible.  Is anyone aware of an FTP site available for use
+by cube-lovers?
+
+-- Greg
+
+

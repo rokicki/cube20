@@ -1,0 +1,92 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr  9 16:30:17 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA01718; Thu, 9 Apr 1998 16:30:17 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Apr  8 18:05:08 1998
+To: Cube-Lovers@ai.mit.edu
+Date: Wed, 8 Apr 1998 13:45:07 -0700
+Subject: A workable 6x6x6 cube design (probably) - correction
+Message-Id: <19980408.144131.8926.2.tenie1@juno.com>
+From: tenie1@juno.com (Tenie Remmel)
+
+Yikes, there were errors in my geometric description.
+Here is a (hopefully) correct version:
+
+
+
+
+CORNER PIECE consists of:
+
+        all points such that 200<x<325, 200<y<325, 200<z<325
+    AND all points such that 175<x<325, 175<y<325, 175<z<325, 280<r<360
+
+INNER EDGE PIECE consists of:
+
+        all points such that 0<x<100, 200<y<325, 200<z<325, r>320
+    AND all points such that 0<x<70, 175<y<325, 175<z<325, 280<r<360
+
+OUTER EDGE PIECE consists of:
+
+        all points such that 100<x<200, 200<y<325, 200<z<325, r>360
+    AND all points such that 100<x<175, 175<y<325, 175<z<325, 320<r<360
+    AND all points such that 70<x<175, y>175, z>175, 280<r<320
+
+FACE EDGE PIECE consists of:
+
+        all points such that 0<x<100, 100<y<200, 200<z<325, r>360
+    AND all points such that 0<x<100, 100<y<175, 175<z<325, 320<r<360
+    AND all points such that 0<x<70, 70<y<175, z>175, 280<r<320
+
+FACE CORNER PIECE consists of:
+
+        all points such that 100<x<200, 100<y<200, 200<z<325, r>360
+        all points such that 100<x<175, 100<y<175, 175<z<325, 320<r<360
+    AND all points such that 70<x<175, 70<y<175, z>175, 280<r<320
+
+CENTER PIECE consists of:
+
+        all points such that 0<x<100, 0<y<100, 200<z<325, r>360
+    AND all points such that 0<x<70, 0<y<70, 175<z<325, 280<r<360
+    AND all points such that 0<x<120, 0<y<120, z>0, 240<r<280
+    AND all points such that x>60, y>60, z>0, 200<r<240,
+                             Dz<sqrt(z^2+60^2)
+    AND all points such that x>30, y>30, z>0, 100<r<200,
+                             Dz<sqrt(z^2+30^2)
+
+INTERNAL EDGE PIECE consists of:
+
+        all points such that 60<x<z, -60<y<60, z>0, 200<r<240
+    AND all points such that 30<x<z, -30<y<30, z>0, 100<r<200
+
+INTERNAL CORNER PIECE consists of:
+
+        all points such that Dx>sqrt(x^2+60^2), Dy>sqrt(y^2+60^2),
+                             Dz>sqrt(z^2+60^2), x>0, y>0, z>0,
+                             200<r<240
+    AND all points such that Dx>sqrt(x^2+30^2), Dy>sqrt(y^2+30^2),
+                             Dz>sqrt(z^2+30^2), x>0, y>0, z>0,
+                             100<r<200
+    AND all points such that x>120, y>120, z>120, 240<r<280
+
+SPACER PIECE 1 consists of:
+
+        all points such that x>120, y>120, 0<z<120, 240<r<280
+
+SPACER PIECE 2 consists of:
+
+        all points such that 70<x<100, 175<y<200, 175<z<325, 320<r<360
+
+INTERNAL FRAME consists of
+
+        all points such that -60<x<60, -60<y<60, 200<r<240
+    AND all points such that -60<x<60, -60<z<60, 200<r<240
+    AND all points such that -60<y<60, -60<z<60, 200<r<240
+    AND all points such that Dx<30, r<200
+    AND all points such that Dy<30, r<200
+    AND all points such that Dz<30, r<200
+    AND all points such that r<100
+
+--Tenie Remmel (tenie1@juno.com)
+

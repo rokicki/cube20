@@ -1,0 +1,55 @@
+Date:  9 Aug 1980 1610-PDT
+From: CSD.VANDERSCHEL at SU-SCORE
+Subject: Two-Faced Cubing
+To: CUBE-LOVERS at MIT-MC
+
+Having posed the question about Two-Faced cubes, I could not resist
+thinking about it some more and I have pretty well resolved it.  If
+you want to try your hand at Two-Faced Cubing, DON'T READ THIS !
+
+
+Suppose we only allow twists of the Right and Back faces.
+
+Edge Orientations: You cannot change the orientation of any edge
+cubie.  So there are 2^7 different ways to orient them.
+
+Edge Permutations: Any permutation is possible. (Must be even if
+corner permutation is.)
+
+Corner Orientations: Just like the complete cube.
+
+Corner Permutations: The twists generate a subgroup containing only
+one-sixth of the 6! possible permutations of the 6 corners.  I do not
+know a simple way to see why this has to be so.  (I have a messy
+argument that is no more persuasive than enumerating them.)
+
+
+
+Solving It -
+
+Do whatever it takes to put the two right-front corners in their home
+positions (without regard to orientation).  Rotate the back face to
+bring (say) the URB corner to correct position.  Of the six possible
+permutations of the remaining three corners, you must have the correct
+one.  (That is, assuming you started from a reachable configuration.
+Otherwise, this is a way to find a unique representative of the
+equivalence class of corner permuations.)
+
+(RB')^3(R'B)^3 may be used to fix the orientations of the corners.
+
+(RRBB)^3 may be used to permute the edges.  (You can always get the
+two edge cubie pairs you want to swap in vertical opposition.)
+
+
+
+Counting Things -
+
+There are 6!X3^6X12!/(6X3X2) reachable configurations.
+
+There are 6X3X2X2^7 equivalence classes.
+
+
+
+
+Anyone for Three-Faced Cubing?
+-------

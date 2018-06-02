@@ -1,0 +1,82 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jul  1 14:46:52 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA11749
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 1 Jul 1999 14:46:51 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v04003a09b3a0062a6a87@[128.192.40.243]>
+Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 30 Jun 1999 13:58:55 -0400
+To: Cube-Lovers@ai.mit.edu
+From: pink@cartserv.rserv.uga.edu (_pink)
+Subject: Skewb notes
+
+Ok, while Meffert's site has the solution posted, there still seems to be
+some confusion about how this thing is actually made. Well I found out
+first hand when one of my employees dropped my skewb on a concrete floor. I
+have plans to take picts of the disassembled skewb and post it online but
+until I get around to it here's a description.
+
+The Skewb consists of:
+
+6 Square center pieces that have small tabs on 2 opposite undersides.
+4 Pyramid shaped corners with a triangular tab on its interior side.
+1 4-armed spider mechanism with 4 corner pieces (described above)
+	attached to the end of each arm.
+
+To understand the arrangement of the spider mech refer to the diagram below:
+
+      A _____________________
+       /|                   /|B
+      / |                  / |
+     /  |                 /  |
+    /   |              A /   |
+  B/____________________/    |
+   |    |               |    |
+   |    |               |    |
+   |    |      x        |    |
+   |    |               |    |
+   |    |B              |    |
+   |    |_______________|____|A
+   |   /                |   /
+   |  /                 |  /
+   | /                 B| /
+  A|/___________________|/
+
+	If you connect each corner marked "A" with the "x" (with the x
+being the exact center of the cube) you will have the spider mechanism. The
+corners marked "B" are only attached by the various tabs on each piece.
+	Skewbs are EASY to disassemble if you know how...
+
+1.) Rotate any dissection of your skewb 60 deg so that 2 centers are
+aligned edge to edge.
+
+2.) Place a thin bladed screwdriver between the common edge of any 2 edge
+pieces and gently wiggle applying increasing pressure.
+
+3.) Catch all the pieces as it crumbles in your hands.
+
+Putting it back together is interresting and certainly was when my employee
+dropped mine but after you do it it's kinda neat.
+
+1.) Align the colors of 2 corners on the spider and insert the center of
+the corresponding color so that the tabs hold it in place.
+
+2.) Align the corners and place 2 more center sections. Slight rotation of
+one corner helps at times.
+
+3.) Insert the proper loose corners being sure to orient each correctly.
+
+4.) Place one edge tab of the last center into position and snap into
+place. I have found it easiest to put the skewb on the table with the last
+center on top and firmly press it into place.
+
+	Meffert's puzzle ball series are the same mechanism but some are
+supergroup puzzles because of the center orientations. The Meffert
+Beachball is IMO a subgroup because of only having 4 colors.
+	I hope this has been of value for someone and isn't just a waste of
+bitspace for all.
+
+_pink
+

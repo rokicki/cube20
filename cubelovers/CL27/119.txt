@@ -1,0 +1,48 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jul 22 13:23:38 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA28308
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 22 Jul 1999 13:23:37 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <006001bed45e$d4429420$1b4b43cf@compaq>
+From: "Paul Hanna" <phanna@gbonline.com>
+Reply-To: phanna@gbonline.com
+To: <Cube-Lovers@ai.mit.edu>
+Subject: cube computer solutions using procedural languages
+Date: Thu, 22 Jul 1999 11:24:45 -0500
+
+Have any of you done any work on solving the cube with computer programs
+using procedural languages such as C? I've seen books on the manual methods
+of solving the cube (with the cube in your hand) such as David Singmaster's
+texts but haven't seen any publications regarding computer solutions using
+procedural languages.
+
+Do you have any suggestions you can pass my way? I am a good programmer but
+not a cube solution expert. I am just a novice at best when it comes to cube
+algorithms and efficient cube solutions.
+
+I am attempting to work on a project involving solving the cube
+programmatically and also planning on doing analysis/comparisons of various
+algorithms to solve it. Any help, suggested methods, advice, tables,
+algorithms, etc. that you may be able to provide me would be very greatly
+appreciated.  I can think of a number of ways to approach this task but
+would also like some of your folks expertise as well.  I am having trouble
+getting going in the right direction.
+
+Also what is the theoretical least number of plane movements that are
+required to solve the cube no matter what its configuration and why?
+
+You can reply directly to me.
+
+Thanks in advance,
+
+Paul Hanna
+Green Bay, WI
+phanna@gbonline.com
+
+[Moderator's note: There's certainly a lot in the archives
+(ftp://ftp.ai.mit.edu/pub/cube-lovers/) on the topics of efficient and
+optimal programmatic solutions and upper and lower bounds.
+Unfortunately, it's not indexed. --Dan]
+

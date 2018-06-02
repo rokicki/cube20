@@ -1,0 +1,30 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Dec  5 19:08:19 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA00529; Thu, 5 Dec 1996 19:08:18 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-ID: <32A761C9.72AD@host1.dia.net>
+Date: Thu, 05 Dec 1996 17:59:05 -0600
+From: Scott Crawford <scrawfor@host1.dia.net>
+Reply-To: scrawfor@host1.dia.net
+X-Mailer: Mozilla 3.0Gold (Win95; I)
+MIME-Version: 1.0
+To: Cube List <Cube-Lovers@ai.mit.edu>
+Subject: Identify this puzzle please!
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+I recently acquired a puzzle through the mail and am not sure what it is
+called.  I'll give a shot at describing it:  It has 14 sides - 8
+triangles, and 6 squares.  The squares are rotated 45 degrees and each
+touch 4 other squares at the corners, while their sides match up with 4
+triangles each.  You could achieve the shape of this puzzle by taking a
+cube and shaving off the corners to create an equilateral triangle. 
+There are no markings or words on it.  If anybody knows, please let me
+know, as I am curious if this is the Magic Dodecahedron I've been
+reading about.
+
+Thanks,
+Scottie
+
+

@@ -1,0 +1,44 @@
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu, randall@theory.lcs.mit.edu
+Subject: Re: God's Number
+
+keith randall writes
+
+>    Don Dailey, Aske Plaat, and myself have a program that will do a
+> complete 22-ply search in about 24 hours on an 8 processor Sun
+> machine.  The program measures distance in the QT (quarter-turn)
+> metric.
+
+wow, that's quite a bit faster than my optimal solver!  how about searches
+through other depths (20q, 21q, 23q, ... )?  does the run time depend upon
+the input position?  could you describe your searching algorithm?  i'm
+sure that this would be of interest to many people on the cube-lovers
+mailing list.
+
+> By the way, below are solutions and depths for all of the symmetric
+> cubes enumerated by Hoey and Saxe in their message of Sun, 14 Dec 80.
+
+i already posted data for these positions, but it's always nice to have
+confirmation.  however, ...
+
+> 22    girdleflip * pons asinorum
+>               F F U L F L' D' R L' U' L L U U R F' B D' F' U R' D'
+
+this is solvable in 18q:
+
+) 3.  U  R  U' F  D  R  L' B' L' F  R  F  B' U' L' D  B' D'          (18q, 18f)
+
+although i gave it in a different orientation.
+
+> 22    plummer * six-H * superflip
+>               F U D F' R L F U D R R L L B' U D F' R L B' R' L
+
+there's a slight typo here; the last twist should be  L' .
+
+mike
+
+------------------------------
+
+End of Cube-Lovers Digest
+*************************
+

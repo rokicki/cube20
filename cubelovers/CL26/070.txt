@@ -1,0 +1,28 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Dec 14 12:44:15 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA11438
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 14 Dec 1998 12:44:15 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199812111354.IAA18055@terminus.idirect.com>
+From: "Mark Longridge" <cubeman@idirect.com>
+To: <cube-lovers@ai.mit.edu>
+Subject: New URL Correction
+Date: Fri, 11 Dec 1998 08:59:00 -0500
+
+Hello folks...
+
+Sorry, but the URL I posted for my new web page is wrong.
+
+The correct URL is: http://www.snipercade.com/cubeman
+
+The old site http://web.idirect.com/~cubeman will be up for a few days yet.
+
+The virtual URL http://welcome.to/cubeman should always point to the
+current site! :-)
+
+More interesting stuff to follow
+
+-> Mark
+

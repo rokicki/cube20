@@ -1,0 +1,159 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  2 22:09:15 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id WAA04767; Mon, 2 Jun 1997 22:09:14 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Mon, 2 Jun 97 20:48:28 EDT
+Message-Id: <9706030048.AA22542@sun34.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: cube-lovers@ai.mit.edu
+Subject: Memory-Performance tradeoffs in (Korf 1997)
+
+This is the third part of my series on Rich Korf's paper.  It covers
+what I think is the most interesting part of the research, but
+(intentionally) also the least rigorous.  Rich makes an attempt to
+estimate how many positions will be examined by IDA* as a function of
+the memory used by the heuristic.  I have to admit I may have missed
+something here, but this is my take at understanding, explaining, and
+a few queries about the result.
+
+I plan at least one other message to clarify some of the points in the
+previous parts.  But right now I will note the most glaring error,
+which is that heuristic functions are actually guaranteed NOT TO
+OVERESTIMATE the true distance to of a solution.  Thanks to Clive
+Dawson for letting me know I said exactly the opposite.  Urk!
+
+DEFINITIONS
+
+Search will be undertaken on a problems in G, with |G|=N.  For x in G,
+Depth(x) is the length of the shortest process to solve x.
+
+A heuristic is a function h on G satisfying h(x) <= Depth(x) for every
+position x in G.  The special heuristic h0(x)=0 is the "trivial
+heuristic".
+
+Work(h,Depth(x)) is roughly the total number of nodes visited in
+searching for x using IDA* with heuristic h.  Roughly, because we
+average over all the positions at that depth.
+
+The average number of operators/generators applicable to a position is
+called the branching factor b.  This is a constant over the positions
+we will consider, and in the following I will write logb(x) for the
+logarithm to the base b.
+
+For most heuristics h, we partition the space G into a certain number
+of parts, such that h(x) is a constant over each part; we write
+Part(h,x) for the part containing x and extend h to the parts by
+writing h(Part(h,x))=h(x). We can use any partition to define such a
+heuristic h by defining
+
+    h(Part(h,SOLVED))=0, and for x not in Part(h,SOLVED),
+
+    h(x)=1 + max over all y in Part(h,x),
+                min over all neighbors z of y,
+                   h(z).
+
+The number of parts of a partition defining h is called Size(h).  We
+make a table of size Size(h) once containing the heuristic values of
+the parts, and look up h(x)=h(Part(h,x)) over the course of the
+search.
+
+If each primitive operator maps parts to parts, then the "max" in the
+definition of h(x) is over only one value.  This occurs, for instance
+if "primitive"="group generator" and Part(h,x)="Coset of a subgroup
+with respect to x".  Size(h) is then the order of the subgroup.
+
+ESTIMATES
+
+These are the rough estimates that Rich uses (as I understand them).
+
+Most of these exponential-growth spaces have one depth
+       Mode(Depth) = Mode({Depth(x) : x in G})
+at which most of the nodes appear, and almost all of the nodes appear
+very close to that depth (so the answer doesn't change much if we take
+Mean or Median instead of Mode.  Rich uses Mean).  If the branching
+factor stays nearly constant to the end, we should find that
+
+       Mode(Depth) ~ logb(N).                   (#1)
+
+When heuristics are defined on parts, and the branching factor
+of the partition space is the same as the branching factor of the
+whole space,
+
+       Mode(h) ~ logb(Size(h))                  (#2)
+
+since there are Size(h) partitions.
+
+If we examine all positions up to depth d, there are about b^d of
+them, so
+
+       Work(h0,d) ~ b^d.                        (#3)
+
+Finally, we might hope that in searching with a consistently
+underestimating heuristic, we might be doing something like examining
+all the positions up to the amount of underestimation, followed by a
+non-branching search to the end:
+
+       Work(h,d) ~ Work(h0,d-Mode(h)).          (#4)
+
+THE RESULT
+
+Using these estimates we can calculate
+
+      Mode(Work(h,Depth(x))) ~ Work(h,logb(N))                 by #1
+                             ~ Work(h0,logb(N)-Mode(h))        by #4
+                             ~ Work(h0,logb(N)-logb(Size(h)))  by #2
+                             ~ b^(logb(N)-logb(Size(h)))       by #3
+                             = N / Size(h).
+
+This is the really fundamental result of Rich's paper.
+
+ERRORS
+
+There are some ways in which this model is known to be flawed.  Rich
+notes that actually
+
+#4   Work(h,d) > Work(h0,d-Mode(h)),
+
+by over two orders of magnitude.  He conjectures that a "locality of
+understimation" effect causes most of the search to be concentrated in
+the parts of the space for which h is worst.
+
+He hopes this will be balanced out by
+
+#2    Mode(h) > logb(Size(h))
+
+because the branching is not perfect.  This effect is stronger on the
+branching on the parts of h than on G, because there are fewer of the
+former.  He finds that under the effects of these two errors, the
+answer is off by a factor of 1.4 for his experiments.
+
+I am wondering about a few other effects.  For one thing, I am not at
+all sure how well the heuristics model the exponential behavior of the
+search space, with a strongly defined mode.  I think that if
+Mode!=Mean, you find the entire argument falls apart (but I may be
+missing something).  I would like to know something more like the
+curve for the heuristics, rather than just the mean.
+
+Second, Rich is combining heuristics based on partition search to form
+a different kind of heuristic.  Say we form h=max(h1,h2), where h1 and
+h2 have about the same size.  Estimate #2 would say
+
+       Mode(h) = logb(Size(h))
+               = logb(2 Size(h1))
+               = Mode(h1) + logb(2).
+
+But I think the strongly modal behavior of these heuristics may not
+allow the mode to be increased this easily.  We might find that
+Mode(h)=Mode(h1), but with a more pronounced peak.
+
+My third quibble is on whether the branching factor b is the same for
+the coset spaces as for the whole space G.  I'm concerned that some
+generators might lie in the subgroup used to form a heuristic, so they
+would map a coset to itself, lowering the effective branching factor
+for heuristics.  But I'm not sure about this--mapping how close this
+estimate holds is a ripe direction for research.
+
+Dan
+
+

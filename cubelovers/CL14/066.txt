@@ -1,0 +1,81 @@
+From mreid@ptc.com  Mon Jan  9 18:04:52 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14555; Mon, 9 Jan 95 18:04:52 EST
+Received: from ducie.ptc.com by ptc.com (5.0/SMI-SVR4-NN)
+	id AA16591; Mon, 9 Jan 95 18:03:21 EST
+Received: by ducie.ptc.com (1.38.193.4/sendmail.28-May-87)
+	id AA09092; Mon, 9 Jan 1995 18:15:55 -0500
+Date: Mon, 9 Jan 1995 18:15:55 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9501092315.AA09092@ducie.ptc.com>
+To: cube-lovers@ai.mit.edu, bryan@wvnvm.wvnet.edu
+Subject:   Re: kociemba's algorithm for quarter turns
+Content-Length: 3238
+
+jerry writes
+
+> I read the articles in the archives about Kociemba's algorithm about
+> a year ago, without (I confess) fully understanding them.  In particular,
+> I do not fully understand what differentiates Kociemba's algorithm from
+> Thistlethwaite's algorithm, other than it uses a different arrangement
+> of nested subgroups.
+
+thistlethwaite's algorithm is a method which guarantees solving any cube
+in at most 52 (well, now it's 44) face turns.  i don't think it was ever
+really used to find short solutions (although at the time it was invented,
+52 face turns may have been considered short).
+
+kociemba's algorithm is a method for finding short solutions.  it didn't
+come with any guarantees, (although i've just shown that the first solution
+it finds is at most 43 quarter [30 face] turns, and in these extreme cases,
+it will quickly find a shorter solution.)  kociemba gave an effective way
+to navigate through the sequence of subgroups
+
+     G = <U, D, F, R, B, L>,   H = <U, D, F2, R2, B2, L2>,   1 = <>,
+
+without using enormous tables.  (this is how it differs from thistlethwaite's
+method, and also why there are (well, were) no guarantees.)
+
+kociemba also allows non-optimal sequences in stage 1 in exchange for
+shorter sequences in stage 2.  we start by finding all length  n  sequences
+in stage 1, and for each, the shortest sequence in stage 2.  then we move
+on to length  n + 1  in stage 1.  kociemba's method is so effective, that
+searching through length 14 or 15 in stage 1 is usually quite feasible.
+also, this technique has been so successful that it's improved many of the
+shortest known maneuvers.
+
+> But in the meantime, I wonder if you could verify that Kociemba's
+> algorithm does not guarantee to find a minimal process?  In particular,
+> is it the case that 26q is a minimal superflip, or is it only an
+> upper bound?
+
+26q  is only an upper bound.  my program will eventually find the shortest
+process, well, if my os doesn't crash first, the universe doesn't end, ...
+but i've only given the shortest maneuver it's found so far.  at some
+point you've gotta give up.  (there are plenty of other patterns waiting
+to be stuffed into this program.  :-) )
+
+> The reason I ask is that I have decided to go ahead and calculate God's
+> Algorithm under quarter turns for depth 11.  (Through depth 10 is
+> already in hand.)  Once that is accomplished, it should be a
+> *fairly* easy task to establish a lower bound on the superflip
+> at 22 quarter turns via two half depth searches.
+
+you should search with the list you have right now.  (i presume you're
+talking about a list of all positions within  10q  of  START.)
+
+you will either find a maneuver of length  <= 20q  (unlikely, i'd say),
+or you will show that its distance from START is  >= 22q.  this latter
+possibility would be very exciting, since it would raise the lower
+bound on the diameter of  G.
+
+> I can already establish a lower bound of 14 quarter turns on the
+> superflip.
+
+my program can do this in only a few seconds!  in fact, it takes  12q
+to get from superflip into the subgroup  H.  since we may also suppose
+that the last twist in a shortest maneuver is  U , it follows that
+superflip requires at least  13q  (and thus  14q , by parity).
+
+mike
+

@@ -1,0 +1,42 @@
+Received: from WILMA.BBN.COM (TCP 20026200730) by AI.AI.MIT.EDU 10 Nov 87 12:55:36 EST
+Date:     Tue, 10 Nov 87 12:51:48 EST
+From:     Bernie Cosell <cosell@WILMA.BBN.COM>
+To:       cube-lovers@AI.AI.MIT.EDU
+cc:        alatto@WILMA.BBN.COM, math@WILMA.BBN.COM, jr@WILMA.BBN.COM
+Subject:  New "Recreations in Math" editions
+
+Oxford U Press continues to produce entries in their "Recreations in
+Mathematics" series.  I got #s 1 & 2 last year I just got vol 4.  I've
+never seen vol 3.
+
+To review, #1 was "Mathematical byways ..." by Hugh ApSimon.  I thought
+it was BORING, but it did discuss one thing I've never seen: *how* you
+set up a problem so it is both interesting and solvable.  He runs
+through starting with some idea for a puzzle (something like the
+"you put an X foot ladder up against a wall and it just touches a
+box that is Y feet on a side, what's inside the box?") and gives the
+"composer's problem" related to that topic: how to get the problem set
+up.  Interesting, sort of, but overall pretty boring stuff (especially
+since they are for the most part old, stuffy, dull problems).
+
+#2: Ins and Outs of Peg Solitaire.  Really quite definitive reference
+to the jump-the-pegs-and-leave-one-in-the-middle puzzle.  I can't remember
+where, but I've actually seen most of that material before.  Maybe
+Mathematics magazine, or JRM.  But in any event, this is a great book
+if you're at all interested in this kind of problem.
+
+#3: Rubik's Cubic Compendium, by Rubik, et al.  I've *never* seen this
+anywhere.  I'd love to get/have/see a copy.  If any of you have a lead
+to this guy, please let me know.
+
+#4 Sliding Piece Puzzles (Hordern).  I just picked this up at the
+Harvard Coop today.  Not much theory on either the design or solution
+of this kind of puzzle.  Just page after page of example puzzles.  This
+is more of a catalog than a math book.  One cute touch: there is a pocket
+inside the back cover with push-out paper "shapes"   I guess that there
+are enough miscellaneous shapes on the card (about 2"x4") so that you
+can piece together a large number of the puzzles described in the
+book.  My first impressions are that this book will be a definite
+"Ho Hum".
+
+  /Bernie\

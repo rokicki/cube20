@@ -1,0 +1,52 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Jun 10 14:52:01 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA22153 for <cube-lovers-outbound@curry.epilogue.com>; Mon, 10 Jun 1996 14:51:59 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: ba05133@binghamton.edu
+X-Authentication-Warning: bingsun3.cc.binghamton.edu: ba05133 owned process doing -bs
+Date: Mon, 10 Jun 1996 10:21:57 -0400 (EDT)
+X-Sender: ba05133@bingsun3
+To: Kristin Looney <kristin@tsi-telsys.com>
+Cc: Norman Richards <orb@cs.utexas.edu>, CUBE-LOVERS@ai.mit.edu
+Subject: Re: Methods (Re: Speed cubing)
+In-Reply-To: <v02130500ade12c71b495@[205.230.130.72]>
+Message-Id: <Pine.SOL.L3.93.960610100755.6020C-100000@bingsun3>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+I am including my method for solving the cube. It enables me to solve the
+cube in 20 seconds on average (since I am not as fast as I used to be 14
+years ago :-( ).
+
+1. Do the four edges (white first) (2 sec.)
+2. Put the white corner including the corresponding edge from the second
+slice. When you put all four white corners, two slices on the cube will be
+done. In this stage, almost no algorithms are necessary. Most positions
+can be solved with intuition. (4 x 2 sec = 8 sec.)
+3. Turn all 8 small cubes from the last slice so that the last face has
+the same color. There are only 40 different positions (not counting
+symmetrical positions). On average, 10 moves are necessary to do this
+phase.(3 sec.).
+4. Move the cubes in the last slice so that the cube is solved. There are
+only 13 different positions. On average, 10-15 moves are necessary. (4
+sec.)
+
+For the whole system, 40+13=53 algorithms are necessary. One also needs
+about 8 short algorithms for the second phase. Altogether, 61 algorithms
+will enable you to solve the cube in 17 seconds on average, if you can
+turn 4 turns per second, and if you can minimize time gaps between
+algorithms. 
+
+The handling of the last (3-rd) slice is probably the most efficient
+approach ane can come up with. One only needs to carry out two
+algorithms to do the 3-rd slice. That is very effective. Breaking the last
+slice into four stages (turn edges, turn corners, move edges, move
+corners) is less demanding on the algorithmic part, but needs much more
+moves and more idle time between algorithms. 
+
+Jiri Fridrich
+
+
+

@@ -1,0 +1,6 @@
+Date: 5 December 1980 16:28-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: cube-lovers-request
+To: CUBE-LOVERS at MIT-MC
+
+OK, I have created the cube-lovers-request mailing list.

@@ -1,0 +1,136 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Fri Jan  7 10:35:45 1994
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09588; Fri, 7 Jan 94 10:35:45 EST
+Message-Id: <9401071535.AA09588@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 5292; Fri, 07 Jan 94 10:35:42 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 3068; Fri, 7 Jan 1994 10:35:42 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 7903; Fri, 7 Jan 1994 10:33:09 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Fri, 7 Jan 1994 10:33:04 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Some Proposed Terminology
+
+I wish to propose some terminology and definitions to make certain
+concepts a bit more precise.  For example, when we are talking about
+"corners only", it is not always clear whether we are talking about
+"corners with centers without edges" or "corners without centers
+without edges".  In this note, I have tried to be consistent with
+previous usage on the list, but I welcome any historical corrections
+that might be deemed necessary.
+
+Let G be the standard cube group for the 3x3x3 cube, and let |G| be
+the size G.  Hence, we have |G| = (8!(3^8)/3 * 12!(2^12)/2) / 2,
+which is the famous 4.3 * 10^19.
+
+Let GC be the corners with centers without edges group for the 3x3x3
+cube, and let |GC| be the size of GC.  Hence, we have
+|GC| = 8!(3^8)/3.  (I welcome a suggestion other than "GC" as the
+name for this group.  I did not find one in the archives.)  This group
+could be modeled by removing the edge labels from a standard
+3x3x3 cube.
+
+Let GE be the edges with centers without corners group for the 3x3x3
+cube, and let |GE| be the size of GE.  Hence, we have
+|GE| = 12!(2^12)/2. (As before, I welcome a suggestion other than
+"GE" for the name for this group.)  This group could be modeled by
+removing the corner labels from a standard 3x3x3 cube.
+
+Note that |G| = |GC| * |GE| / 2.
+
+Let G\C be the corners with edges without centers group.  I intend
+for the notation to indicate G reduced by C, where C is the rotation
+group for the cube.  It should be the case that |G\C| = |G| / 24,
+but I want to return to this question a little later.  This group
+could be modeled by removing the center labels from a standard
+3x3x3 cube.
+
+Let GC\C be the corners without edges without centers group.  This is
+the 2x2x2 cube.  We should have |GC\C| = |GC| / 24, but again I want
+to return to this question a little later.  In addition to being the
+2x2x2 cube, this group could be modeled by removing the center and
+edge labels from a standard 3x3x3 cube.
+
+Let GE\C be the edges without corners without centers group.  We
+should have |GE\C| = |GE| / 24, but again I want to return to this
+question a little later.  This group could be modeled by removing
+the center and corner labels from a standard 3x3x3 cube.
+
+Let G\M be the set of M-conjugate classes for G.  In this case,
+|G\M| is approximately 48 times smaller than |G|.  I believe that
+when Dan Hoey asked in 1984 the question "how big is G, really?",
+that he was really asking how big is G\M, and that he was asking
+for the approximation to be resolved to an exact number.
+
+Let GC\M be the set of M-conjugate classes for GC.  In this case,
+|GC\M| is approximately 48 times smaller than |GC|.
+
+Let GE\M be the set of M-conjugate classes for GE.  In this case,
+|GE\M| is approximately 48 times smaller than |GE|.
+
+Recall that B is the function which calculates the canonical form
+for a cube under the composed operations of M-conjugation plus
+rotation.  My  programs calculate equivalence classes under B.
+
+Let G\B be the set of B-classes for G.  Let GC\B be the set of B-classes
+for GC.  Let GE\B be the set of B-classes for GE.  So far, my programs
+have built complete search trees for GC\B and GE\B.
+
+Let Gx denote any of G, GC, and GE.  Then, we have Gx\B=(Gx\C)\M=(Gx\M)\C.
+In English, we can decompose B into a multiplication by C and M (in
+either order).
+
+Also, note that Gx\C=(Gx\C)\C=((Gx\C)\C)\C=....  Similarly,
+(G\M)\C=((G\M)\C)\C=....  In English, having reduced once by C, we can
+reduce again by C as many times as we wish, but we simply get the same
+set back again each time.
+
+This notation can help us address the question of whether B actually
+accomplishes a "times 48" or a "times 1152" reduction in the size of
+the cube.  If we are dealing with Gx, then Gx\B is a "times
+1152" reduction.  However, information is lost.  For example, consider
+GC and GC\B.  GC is "corners plus centers", and B-reduction of GC
+removes the centers and calculates M-conjugates of the corners.
+But you really don't have the same problem any more because the centers
+are gone.  If on the other hand we are dealing with Gx\C, then (Gx\C)\B
+is a "times 48" reduction.  All we have really done is calculate
+M-conjugates. The reduction by the C that is composed into B is duplicate
+effort which accomplishes nothing.
+
+I have come to realize that my program for the 2x2x2 actually models
+GC (corners with centers without edges) rather than GC\C (corners
+without centers without edges).  My program does not explicitly encode
+the centers.  However, it encodes all eight corner cubies, and when
+it makes qturns, any of the eight cubies can move.  Hence, rotational
+information is encoded, even if the centers themselves are not explicitly
+encoded.  If I wanted to model GC\C, I would have had to either model
+only seven of the cubies, or else modeled all eight but moved only seven
+of them.  Since what I really wanted was (GC\C)\M, and since what I had
+was GC, I had to invent this funny B thing, where GC\B=(GC\C)\M.  If I
+had been clever enough to model GC\C in the first place, I never would
+have had to invent B.  Similar comments apply to my model for the edges.
+
+To convince yourself that eight corner cubies model GC and seven corner
+cubies model GC\C, just think about calculating |GC| and |GC\C|.
+For |GC|, there are eight ways to pick the first cubie, seven ways to
+pick the second cubie, and so forth yielding the familiar
+|GC|=8!*(3^8)/3.  For |GC\C|, we let one of the cubies be fixed,
+then there are seven ways to pick the second cubie, and so forth yielding
+|GC\C|=7!*(3^7)/3, and |GC| = |GC\C| * 24.  Hence, the "corners of the
+3x3x3" problem is 24 times larger than the "2x2x2" problem.
+
+I will discuss the "times 24" reduction that is accomplished by
+reducing by C in a followup note.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

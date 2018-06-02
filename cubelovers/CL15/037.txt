@@ -1,0 +1,40 @@
+From ncramer@bbn.com  Mon Feb 13 06:57:48 1995
+Return-Path: <ncramer@bbn.com>
+Received: from LABS-N.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA28197; Mon, 13 Feb 95 06:57:48 EST
+Message-Id: <9502131157.AA28197@life.ai.mit.edu>
+Date:     Mon, 13 Feb 95 6:54:06 EST
+From: Nichael Cramer <ncramer@bbn.com>
+To: ad@dcs.st-andrews.ac.uk
+Cc: cube-lovers@ai.mit.edu
+Subject:   6:45 am Monday Morning Humor [was: I have a non-standard Pyraminx...]
+
+>Date: Mon, 13 Feb 95 09:17:26 GMT
+>From: ad@dcs.st-andrews.ac.uk
+>Subject: Re: I have a non-standard Pyraminx. (its magic number is 5)
+>
+>>My copy of this puzzle has 2 yellow and 2 red faces.  I think they ran
+>>out of colors.
+>
+>Reminds me of the joke:
+>
+>"Have you heard about the Irish version of Rubik's Cube?"
+>"No. Tell me."
+>"All the fAces were green."
+
+Well, I have, sitting on the shelf beside me here in my office as I type, a
+cube with six blue faces.  What nationality is this I suppose?  (Or is this
+because it was -4 [F] when I left home in Vermont this morning?)
+
+>Tony Davie                Computer Science            __
+>Tel: +44 334 463257       St.Andrews University    __/\_\
+>Fax: +44 334 463278       North Haugh           __/\_\/_/
+>ad@dcs.st-and.ac.uk       St.Andrews           /\_\/_/\_\
+>                          Scotland             \/_/\_\/_/
+>                          KY16 9SS                \/_/\_\
+>                                                    \/_/
+
+A scots cube consists wholly, I presume, of alternating red and green
+cubies?
+
+N
+

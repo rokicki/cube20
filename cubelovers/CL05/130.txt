@@ -1,0 +1,15 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU  5 Dec 86 09:20:22 EST
+Date: 5 Dec 86 09:06:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: 
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+From:	CLSTR1::SYSTEM        4-DEC-1986 11:27
+To:	CLSTR1::BECK
+Subj:	Undeliverable mail
+
+ ----Transcript of session follows----
+"mit" is an unrecognized hostname/address
+
+ ----Unsent message follows----
+Date: 4 Dec 86 11:18:00 EST

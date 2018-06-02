@@ -1,0 +1,33 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun 19 12:32:39 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id MAA06820; Thu, 19 Jun 1997 12:32:39 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Thu, 19 Jun 1997 09:19:01 -0400
+Message-Id: <199706191319.JAA27307@bso.newvision.com>
+From: Carl Woolf <woolf@newvision.com>
+To: chi@cse.unsw.edu.au
+CC: shaggy34@juno.com, cube-lovers@ai.mit.edu
+In-reply-to: 
+	<Pine.OSF.3.95.970619113450.27424A-100000@pipe02.orchestra.cse.unsw.EDU.AU>
+	(message from Benjamin Wong on Thu, 19 Jun 1997 11:37:43 +1000 (EST))
+Subject: Re: Square One
+
+Square One is a great puzzle!
+
+I think there is an instruction booklet, published in Massachusetts or
+thereabouts, and available from Puzzlets (mgreen@puzzletts.com). I
+developed a set of techniques that let me solve the thing, but I
+haven't worked my notes into a form intelligible by other humans (or
+by me on a bad day).
+
+-- 
+-- Carl 
+-----------------------------------------------------
+Business:           woolf@newvision.com
+
+Personal:           woolf@ccs.neu.edu
+                    http://www.ccs.neu.edu/home/woolf
+
+
+

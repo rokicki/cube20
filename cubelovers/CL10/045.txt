@@ -1,0 +1,28 @@
+From dik@cwi.nl  Wed Aug 25 16:00:57 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09102; Wed, 25 Aug 93 16:00:57 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA02929 (5.65b/3.10/CWI-Amsterdam); Wed, 25 Aug 1993 22:00:23 +0200
+Received: by boring.cwi.nl 
+	id AA14852 (4.1/2.10/CWI-Amsterdam); Wed, 25 Aug 93 22:00:22 +0200
+Date: Wed, 25 Aug 93 22:00:22 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9308252000.AA14852.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu, reid@math.berkeley.edu
+Subject: Re:  Diameter of cube group?
+
+ > here's a pattern to try:
+ > first do 6 checkerboards of order 2 (F2 B2 R2 L2 U2 D2) and then do
+ > superfliptwist.  in other words, the group product of these two elements.
+
+Was certainly one of the hardest to do.  After 17 hours the best was 22
+turns, but then results came in, after 18 hours 21 turns, and finally
+after 19 hours 20 turns:
+  F1 R1 L2 U3 R2 L3 U3 D2 R2 F1 D1 B1 D1 F2 U3 R3 D3 F2 D2 L2
+This on an SGI R4K Indigo.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+home: bovenover 215, 1025 jn  amsterdam, nederland; e-mail: dik@cwi.nl
+

@@ -1,0 +1,14 @@
+Date:  15 May 1981 19:04 edt
+From:  Greenberg.Symbolics at MIT-Multics
+Subject:  Re: New pseudo-cube
+To:  Ole at DARCOM-KA (Ole J. Jacobsen)
+cc:  Cube-lovers at MIT-MC, Oyvind at DARCOM-KA
+In-Reply-To:  Message of 15 May 1981 07:56 edt from Ole J. Jacobsen
+
+I have seen this thing under
+the name "space shuttle" - in a cylinder like rubiks cubes used to
+come in.  One way to determine the color layou is to make
+an assumption (as I did) and proceed to solve-- if you lose, you
+get the "impossible" single-pair-swap.  Then swap two edges
+of your assumption and try again. Incidentally, the plural
+of crux is cruces, not cruxi.

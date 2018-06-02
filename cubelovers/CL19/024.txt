@@ -1,0 +1,40 @@
+From AirWong@aol.com  Sun Feb 18 15:41:30 1996
+Return-Path: <AirWong@aol.com>
+Received: from mail04.mail.aol.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29427; Sun, 18 Feb 96 15:41:30 EST
+Received: by mail04.mail.aol.com (8.6.12/8.6.12) id PAA25903 for Cube-Lovers@ai.mit.edu; Sun, 18 Feb 1996 15:41:29 -0500
+Date: Sun, 18 Feb 1996 15:41:29 -0500
+From: AirWong@aol.com
+Message-Id: <960218154129_225194632@mail04.mail.aol.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re  Resolution of the cube
+
+A few messages ago yo was this
+
+-> Now you've pushed my button.
+->
+-> When the cube first came out, a bunch of us at MIT were wild to solve
+-> it.  There were _no_ published solutions.  At least three or four of
+-> us solved the cube by ourselves, independently.  We twisted and
+-> turned, drew arcane diagrams to show what went where, and although it
+-> sometimes took a couple of weeks, we each managed it.
+->
+-> Then the books started to come out, and as far as I can tell, no one
+-> ever solved it independently again.
+
+-Bzzzzzz ...... wrong.
+
+-I do understand that Allan Wechsler was one of the original -solvers,
+-before the glut of books on the subject, however I solved the -cube and
+-the megaminx independently. Even though there were many cube -books,
+-there was only one megaminx (rubik-type dodecahedron) book, and -it was
+-rather hard to follow.
+
+I, too, solved the cube independent of a book. However, after I was done, I
+found a few books and other algorithms (as well as some friends) and compared
+the solutions. There are many ways to solve it, and it was fun trying to
+solve the cube combining the different ideas. When I hunt down Thistlewaite's
+algorithm it should get even more interesting.
+
+Aaron WOng
+AirWong@AOL.com
+

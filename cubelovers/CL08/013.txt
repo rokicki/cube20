@@ -1,0 +1,47 @@
+From ronnie@cisco.com  Wed Dec 11 18:04:35 1991
+Return-Path: <ronnie@cisco.com>
+Received: from wolf.cisco.com by life.ai.mit.edu (4.1/AI-4.10) id AA06760; Wed, 11 Dec 91 18:04:35 EST
+Received: from lager.cisco.com by wolf.cisco.com with TCP; Wed, 11 Dec 91 14:56:01 -0800
+Message-Id: <9112112256.AA20600@wolf.cisco.com>
+From: ronnie@cisco.com
+To: Cube-Lovers@life.ai.mit.edu
+Subject: A Sam Loyd Rubik puzzle unearthed!!!
+Date: Wed, 11 Dec 91 14:57:25 PST
+Sender: ronnie@cisco.com
+
+	An original Sam Loyd puzzle involving the Rubik's cube has
+come into my hands; somewhat surprising, in that Sam Loyd died in
+the early years of this century, but no more so than the truly
+astounding circumstances by which the puzzle came to me, which I would
+detail if I believe that anyone were interested.  However, as this
+list consists only of people interesting in things Cubic, I will limit
+this posting to the puzzle itself.
+
+
+
+
+		Crooked Gambling in Puzzleland
+
+				by Sam Loyd
+
+
+	Tommy Riddles has challenged King Puzzlepate to a game of
+dice, using Rubik's Cubes as dice.  However, Tommy is planning to
+cheat by changing the ordinary Rubik's Cube into tops [ tops are dice
+which are misspotted, by having only three different numbers on them,
+each appearing opposite to itself, such that it is indetectable
+without turning the die around  -ed ]  spotted 1-2-3, which he is able
+to make from a standard cube in 14 moves.
+
+	King Puzzlepate, however, has learned from the General of his
+plans, and has figured out to convert Tommy's tops into 2-3-4 tops,
+which are favorable to His Majesty, in only 3 moves.
+
+	Can you duplicate both these feats?
+
+
+[ Note that Loyd appears to consider a move as moving any of the nine
+slices any number of degrees.  Thus the move we would designate as
+L2R2 and count as four, Loyd would count as one move of the center
+slice by 180 degrees. ]
+

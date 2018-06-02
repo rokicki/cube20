@@ -1,0 +1,35 @@
+From mark.longridge@canrem.com  Sun Nov  5 02:14:26 1995
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08624; Sun, 5 Nov 95 02:14:26 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1FCC4E; Sun,  5 Nov 95 02:09:17 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Halpern's Tetrahedron
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1258.5834.0C1FCC4E@canrem.com>
+Date: Sun,  5 Nov 95 01:59:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+# Ben Halpern's Tetrahedron
+# 4 faces rotate
+
+tetra := Group(
+  (1,3,5)(2,4,6)(7,13,24)(12,18,23)(11,17,22),
+  (7,9,11)(8,10,12)(22,15,3)(2,21,14)(1,20,13),
+  (13,15,17)(14,16,18)(11,20,5)(10,19,4)(9,24,3),
+  (22,20,24)(21,19,23)(7,15,5)(8,16,6)(9,17,1)
+);;
+
+# Size (tetra) = 3,732,480;
+#
+# Centre (tetra) = (2,12)(4,18)(6,23)(8,21)(10,14)(16,19);
+#
+# Tetrahedron has 6 edges, 4 corners
+#  6! /2 * 2^5 * 4!/2 * 3^3
+
+Just a few more combinations than a 2x2x2 pocket cube...
+ -> Mark <-
+
+

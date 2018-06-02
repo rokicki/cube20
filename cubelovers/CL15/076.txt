@@ -1,0 +1,51 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Fri Apr 14 03:04:40 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22192; Fri, 14 Apr 95 03:04:40 EDT
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <186424-8>; Fri, 14 Apr 1995 03:03:03 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA08822; Fri, 14 Apr 95 02:57:27 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1DBB1F; Fri, 14 Apr 95 02:50:36 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Slice & Anti-Slice
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1089.5834.0C1DBB1F@canrem.com>
+Date: Fri, 14 Apr 1995 03:45:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+Some notes on the numeration of the slice and anti-slice
+groups....
+
+        Analysis of the 3x3x3 Slice & Anti-Slice Groups
+        -----------------------------------------------
+                  arrangements           arrangements
+Moves Deep     (2q or slice moves)   (4q or double slice moves)
+
+  0                    1                      1
+  1                    6                      9
+  2                   27                     51
+  3                  120                    247
+  4                  287                    428
+  5                  258                     32
+  6                   69                    ---
+                     ---                    768
+                     768
+
+                  arrangements           arrangements
+Moves Deep   (2q or anti-slice moves)   (4q or double anti-slice moves)
+
+    0                   1                     1
+    1                   6                     9
+    2                  27                    51
+    3                 120                   265
+    4                 423                   864
+    5               1,098                 1,785
+    6               1,770                 2,017
+    7               1,650                 1,008
+    8                 851                   144
+    9                 198
+                    -----
+                    6,144
+

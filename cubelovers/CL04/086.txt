@@ -1,0 +1,26 @@
+Date: 28 Sep 1982 2102-PDT
+From: ISAACS at SRI-KL
+Subject: Meffert Catalogue
+To: cube-lovers at MIT-MC
+
+  I recieved a copy of the Meffert "Pyraminx" catalogue a couple of days
+ago.  The only solid axis-rotation puzzles not already mentioned in the
+Scientific American article or the OMNI article are the Pyriminx Magic
+Triangle, Pentagon, and Hexagon, 3 puzzles, all prisms of the named shape,
+each side face with 9 squares, and the top and bottom the appropriate n-gon
+with corners, edges, and a center.  Ie, the Magic Hexagon has a hexagon
+on top and bottom, with 6 corners and 6 edges. These should be similar to
+a cube, except, of course, the side faces cannot make quarter turns.  Also
+in the catalogue are a junior and senior "Magic Barrell", a 3-layered
+cylinder with 2 (jr) or 3 (sr) arcs cut down from top to bottom, which look
+as if they allow half twists; a Double Pyraminx, an octagon with 4 triangles
+per side, which I would assume twists about the 4 central hexagons, and
+is mechanically similar to the Skewb.  Also shown are some textured pyraminxes,
+the Pyraminx Star, with small tetrahedra on several Pyraminx faces (it looks
+strange, but is equivalent to the Pyraminx, I assume); some bead puzzles
+(a version of the Hungarian Rings, another related to the Orb), some
+sliding block puzzles, a group of tetrahedron dissections (into 2, 3, 4, 5, and
+6 pieces),and a couple of jigsaw-like puzzles.  It's quite a catalogue, but
+he says most of the items are not yet in production! More waiting.
+  -- Stan
+-------

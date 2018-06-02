@@ -1,0 +1,49 @@
+From dik@cwi.nl  Fri Nov  1 20:10:55 1991
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA17885; Fri, 1 Nov 91 20:10:55 EST
+Received: by charon.cwi.nl with SMTP; Sat, 2 Nov 1991 02:10:52 +0100
+Received: by paring.cwi.nl ; Sat, 2 Nov 91 02:10:47 +0100
+Date: Sat, 2 Nov 91 02:10:47 +0100
+From: dik@cwi.nl
+Message-Id: <9111020110.AA30522@paring.cwi.nl>
+To: ccw@eql.caltech.edu, cube-lovers@ai.mit.edu
+Subject: Re:  What is the smallest cube which has all possible types of pieces?
+
+ > Some cube discussion has started in rec.games.misc.  I am trying to
+ > re-direct it to rec.puzzles, or hopefully cube-lovers.
+I follow up in cube-lovers.
+ > 
+ > Actually the 7x7x7 has a type of piece that the 5x5x5 does not have.
+Actually the 7x7x7 is also the first cube that can not be made.
+ >
+ > (Showing a pattern like: ABCD
+ >			     EFG
+ >			     HIJ
+ >			       K.
+ > Noting that B&C, E&I, G&J, H&F are similar and can be solved by the same
+ > set of procedures.)
+But, all of E to J can be solved with the same set of procedures %.  So
+although there appear to be 7 essentially different cubelets, actually
+there are only 5.  And the 5x5x5 cube has them all.  Solving these involves
+rotating the three slices they are in originally.  So if we rename cubelet
+types we get:
+1:  A
+2:  B&C
+3:  D
+4:  E-J
+5:  K
+and we find for the different cubes:
+2x2x2:	Type 1
+3x3x3:	Type 1, 3 and 5
+4x4x4:	Type 1, 2 and 4
+5x5x5:	All types.
+--
+%  All of E to J occur 4 times on each face, so for each type there are 24
+   cubelets.  B and C also occur 24 times, procedures working for these
+   two also work for E to J (although I use different procedures both on
+   4x4x4 and 5x5x5); but there are procedures for E to J that do not work
+   for B to C (these two have more constraints on position).  This would be
+   different if the cube was patterned such that all cubelets of type B, C
+   and E to J had a unique position, in that case we would have only four
+   essentially different types.
+

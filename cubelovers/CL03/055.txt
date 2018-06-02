@@ -1,0 +1,18 @@
+Date: 12 Oct 1981 0919-PDT
+From: HOROWITZ at USC-ISIF
+Subject: Latin square question
+To:   cube-lovers at MIT-MC
+
+Herb Taylor, a research associate at USC in the EE dept. 
+has proved that it is impossible to put a latin square
+on every face of the 2 x 2 x 2  cube.
+Can anyone answer the question on page 15 of his book
+UNSCRAMBLING THE CUBE?  It asks whether or not it is
+possible to put a latin square on every face of the 3 x 3 x 3 
+cube.
+
+Ellis Horowitz
+
+p.s. Minh Thai of Los Angeles did ten scrambles with average
+time 40 seconds
+-------

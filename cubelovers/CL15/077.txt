@@ -1,0 +1,73 @@
+From BRYAN@wvnvm.wvnet.edu  Fri Apr 14 17:08:12 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27690; Fri, 14 Apr 95 17:08:12 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 3964; Fri, 14 Apr 95 17:06:54 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 0638; Fri, 14 Apr 1995 17:06:54 -0400
+Message-Id: <wvmail32.1995apr14.164307.bryan@wvnvm.wvnet.edu>
+Date:      Fri, 14 Apr 1995 17:06:48 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Repetitive Application of Elements of Q*
+
+Recall that Q* has been defined as the set of representatives
+
+   Q* = {F*, R*, L*, B*, U*, D*, F'*, R'*, L'*, B'*, U'*, D'*}
+
+where * has been defined as a function selecting a representative
+element of an M-conjugacy class.
+
+I have done a little experimentation with cycles of the form X* ^ n.
+As long as the X* are directly in Q*, the sequences are quite short,
+and the final cycle is of length 2 in all cases.  I found the latter
+surprising initially, but with the wisdom of hindsight, it was
+inevitable.  Here is a table of lengths.
+
+     Operation         Length
+                         of
+                       Sequence
+
+
+       F*                11
+       U*                10
+       L*                 7
+       R*                 3
+       D*                 9
+       B*                 2
+       F'*                7
+       U'*               10
+       L'*                4
+       R'*                6
+       D'*                7
+       B'*                2
+
+A couple of points of clarification:
+
+    1.  As an example, for F*, we take i(F*)^n  (that is, apply F*
+        to Start repeatedly).  The sequence has 11 elements before it
+        repeats, then the 10-th and 11-th element repeat over and
+        over again.  In all twelve cases, it is the last two elements
+        of the sequence which repeat.
+
+    2.  In order to replicate my results, you would have to define
+        a representative element function exactly like mine.  Every
+        choice of representative element function can be expected to
+        yield different results.
+
+
+To take a little more interesting case, I tried i(F*D'*) ^ n.  In this
+case, there were 63 unique elements in the sequence, and then the
+8-th through the 63-rd elements repeated.  Hence, the final cycle had
+56 elements rather than the 2 elements of the simpler cases.
+
+I suppose I could try quite a few other cases, but I have no idea how
+to predict how long the sequences or the terminal cycles might be.
+All I know to expect for sure is for things to be quite ill-behaved.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

@@ -1,0 +1,66 @@
+From cube-lovers-errors@oolong.camellia.org  Tue Jun  3 22:32:12 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id WAA02617; Tue, 3 Jun 1997 22:32:11 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Tue, 3 Jun 1997 12:57:16 -0700 (PDT)
+From: Don Woods <don@clari.net>
+Message-Id: <199706031957.MAA14492@madrigal.clari.net>
+To: cube-lovers@ai.mit.edu
+Subject: Re: FreeCell
+Cc: ad@dcs.st-and.ac.uk
+
+> Could someone describe the FreeCell puzzle for us non-windows people?
+
+This is perhaps getting a bit off-topic for cube-lovers, since FreeCell
+is a card game, but it can also be thought of as a puzzle in which you
+are to unscramble a randomised bunch of cards, so maybe it's not so far
+off-topic at that.  Anyway, since you asked:
+
+Shuffle a standard 52-card deck and deal them out to form 8 columns of
+cards; 4 columns of 7 and 4 columns of 6.  All the cards are face up,
+and you should spread the columns (while keeping the cards overlapping
+within each column) so you can see all the cards.
+
+Above the columns are 8 initially-empty spaces.  4 of these are reserved
+for collecting the 4 suits in order: the object of the game is to move
+Ace-deuce-3-4-...-queen-king of each suit onto these spaces.  The other 4
+are "free cells": each free cell can be used to hold any SINGLE card.
+
+You move only one card at a time.  The only cards you can move are the
+last card of a column (i.e., cards that don't have other cards on top
+of them) or a card in a free cell.  A card can move to (1) an empty free
+cell, (2) an empty column (i.e., a column where you've moved out all of
+the cards), or (3) a column whose last card is the opposite color and
+one rank higher than the card being moved (i.e., you can place a red 6
+on a black 7, etc.).  A card can also be moved to the suit-collecting
+piles if it's the next card needed in that suit, i.e., an Ace to empty
+suit spot, a deuce onto the Ace of the same suit, etc.
+
+The Windows version of the game lets you specify a number and then
+generates a deck based on that number, so you can get the same initial
+layout by giving the same number again.  Thus it offers only a small
+fraction of the possible layouts.  I wasn't part of the effort that
+solved the Windows layouts, but I did write a program to solve FreeCell
+layouts and fed it a million random layouts, and it solved all but 14.
+So I don't find it surprising that all but 1 of the 32000 Windows
+layouts is solvable.
+
+There are several other puzzle-type solitaire card games with a similar
+theme.  E.g., Seahaven Towers uses 10 columns instead of 8, and two of
+the free cells start with cards in them (each column has 5 cards).  In
+Seahaven Towers, moves onto a column must be matching suit instead of
+opposite color, i.e., 6 of clubs onto 7 of clubs.  Also, only a King
+can be moved into an empty column.  Thus the moves in Seahaven Towers
+are much more restricted; my program for that game runs a lot faster.
+About 90% of Seahaven Towers layouts can be solved.
+
+	-- Don.
+
+-------------------------------------------------------------------------------
+-- 
+-- Don Woods (don@clari.net)		        ClariNet provides on-line news.
+-- http://www.clari.net/~don		        I provide personal opinions.
+--
+
+

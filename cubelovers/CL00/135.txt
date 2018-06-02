@@ -1,0 +1,13 @@
+Date:  8 SEP 1980 0853-EDT
+From: ZIM at MIT-MC (Mark Zimmermann)
+Subject: Singmaster 5th; 2x3x3 "domino"
+To: CUBE-HACKERS at MIT-MC
+
+I received the 5th edition of Singmaster's booklet a few days ago, from Logical
+Games, Inc.--presumably they have some $4 copies left (they sent mine 1st
+class mail)....Bela Szalai (LGI) loaned me a 2x3x3 to play with.  Conceptually,
+of course, it's the same as the 3x3x3 with moves restricted to <U,D,F^2,R^2,
+B^2,L^2>...physically, however, it was MUCH less aesthetic to play with...
+turned poorly, and looked ugly.  Bela had a couple of them, both of which
+were rather more "delicate" than the 3x3x3 (in that they tended to get jammed
+or come apart).    --  Mark

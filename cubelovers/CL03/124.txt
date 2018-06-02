@@ -1,0 +1,25 @@
+From: David C. Plummer <DCP at MIT-MC>
+Subject:  rumor confirmation
+To: CUBE-LOVERS at MIT-MC
+
+The 4x4x4 has been confirmed by two stores in the Boston area
+(Games People Play [Harvard Square] and The Name of the Game
+[Quincy Market]).  Unfortunately Ideal is only taking orders now;
+delivery is not expected until the fall (****sigh****).  I have
+heard nothing of the 5x5x5. 
+
+ALAN thinks we should solve the beast before we actually get one.
+This could done in our heads, on paper, by machine assistance, or
+by machine.  I have thought about it a little, and I think I have
+all the necessary tools to do it.  It is not as easy as saying,
+"Well if we just consider these two planes as one, it looks like
+the 3x3x3, and..."  That doesn't work for the majority (the
+hardest parts) of the puzzle, for reasons I'll be happy to
+explain.
+
+Before people start asking a lot of questions about the
+properties of the 4x4x4, they should look in
+	MC:ALAN;CUBE 4X4X4
+which contains the parts of the archives that discuss the 4x4x4.
+
+If there is any interest I can try and create a discussion...

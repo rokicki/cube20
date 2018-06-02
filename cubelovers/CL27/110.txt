@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jul  1 17:31:32 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA12373
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 1 Jul 1999 17:31:32 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 1 Jul 1999 15:37:36 -0400 (Eastern Daylight Time)
+From: Dale Newfield <din5w@cs.virginia.edu>
+Reply-To: DNewfield@cs.virginia.edu
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Skewb notes
+In-Reply-To: <v04003a09b3a0062a6a87@[128.192.40.243]>
+Message-Id: <Pine.WNT.4.10.9907011536110.-824133@biff. cs.virginia.edu>
+
+On Wed, 30 Jun 1999, _pink wrote:
+> 	Meffert's puzzle ball series are the same mechanism but some are
+> supergroup puzzles because of the center orientations. The Meffert
+> Beachball is IMO a subgroup because of only having 4 colors.
+
+I find it interesting to think that the internal mechanism for the skewb
+and the puzzle balls are the same as for the pyraminx, but that the pieces
+stuffed into the gaps make it a completely different puzzle.
+
+-Dale
+

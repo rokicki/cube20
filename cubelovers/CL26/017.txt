@@ -1,0 +1,29 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Oct  9 18:40:38 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id SAA02313; Fri, 9 Oct 1998 18:40:37 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <361E8D3F.6597@ameritech.net>
+Date: Fri, 09 Oct 1998 17:25:03 -0500
+From: Hana Bizek <hbizek@ameritech.net>
+Reply-To: hbizek@ameritech.net
+To: cube-lovers@ai.mit.edu
+Subject: comments on "davenport's pattern"
+
+David Singmaster claims to have discovered this pattern in 1979 or
+1980, so it should be credited to him. In my own book I present a
+number of patterns, but I would never dare to claim authorship to any
+of them. Singmaster's comments prompted me to look at my own books. In
+CUBE GAMES (Taylor and Rylands} this pattern appears on the top of page
+37.I have a strong suspicion this pattern could be a combination of the
+two cyclicity-three patterns on page 36 therein. One may use this
+pattern as a corner in a 3-color design.
+
+Design-construction is a step beyond pattern-construction. My question
+has not yet been satisfactorily answered. Has anyone seen construction
+of 3-dimensional "sculpture-like" designs? People referred me to
+Davenport's creations, but my own designs are quite different. 
+
+Hana
+

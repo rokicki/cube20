@@ -1,0 +1,90 @@
+From dik@cwi.nl  Sat Jan  7 21:36:02 1995
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA11148; Sat, 7 Jan 95 21:36:02 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id <AA07670@cwi.nl>; Sun, 8 Jan 1995 03:35:30 +0100
+Received: by boring.cwi.nl 
+	id <AA01808@cwi.nl>; Sun, 8 Jan 1995 03:35:54 +0100
+Date: Sun, 8 Jan 1995 03:35:54 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9501080235.AA01808=dik@boring.cwi.nl>
+To: cube-lovers@ai.mit.edu, mreid@ptc.com
+Subject: Re:  two stage filtration
+
+ > i've run an exhaustive search on the coset space  G / H.  the number
+ > of cosets at each distance is:
+
+Ah, well.  To think that I had the program publicly available since
+February 1993 through anonymous ftp, I ought to have thought about
+it when we got a machine large enough to run the program; about a
+year ago.  Damn ;-).
+
+ >  distance    quarter turns       face turns
+
+I am running and will confirm tomorrow; no doubt about that.
+
+...
+ > to give a total of  2187 * 2048 * 495 = 2217093120  configurations.
+ > to reduce this number somewhat, we can utilize symmetry.  there are 16
+ > symmetries of the cube that preserve the  U-D axis,  and therefore
+ > preserve the subgroup  H.  up to these symmetries, the number of distinct
+ > corner configurations is 168, so we need only consider a mere
+ > 168 * 2048 * 495 = 170311680  configurations.
+
+ > (so far, this is the same approach that dik used for his calculation.)
+
+The approach is the same, but I did avoid the embarrasment you had later.
+I came up with 324 * 2048 * 495 = 328458240 configurations.
+
+ > each configuration is stored with 2 bits of memory and thus the whole
+ > space consumes about 42 megabytes.  each configuration is assigned
+ > one of 4 values:
+ >         distance is currently unknown
+ >         distance = current search depth
+ >         distance = current search depth - 1
+ >         distance < current search depth - 1
+ > from here, i just used a simple breadth first search.
+
+This is similar to what I did outline about that time.  It comes from
+a remark somebody not on this list (Arjeh Cohen) made to me about a
+file helping solving the cube.  You store only the distance mod 3;
+that will give you a simple database to solve it.  That again came
+from a talk at some congress I do not remember at this time of the
+night ;-).
+
+...
+ >       i) only use the 8 symmetries that preserve my choice of
+ >          12 edge facelets.
+
+I did this indeed.
+
+ > run times were improved significantly by using a simple trick that i hadn't
+ > used in earlier programs.  during the first few depth levels, i use
+ > "forward searching", i.e. i examine the neighbors of each configuration
+ > found at the previous depth.  however, after at least half the search space
+ > has been found, i switch to "backward searching", i.e. examine the
+ > configurations (and their neighbors) that haven't yet been found.
+
+ > (have others been using this same idea when running similar search programs?)
+
+ > closer analysis of this technique suggests that the switch from forward to
+ > backward searching should occur even before half the space has been found.
+
+Here I am a bit surprised.  I would think the time needed for a phase is
+entirely dependend on the number of neighbo(u)rs you have to examine.  This
+appears to be 6 times the number of configurations you visit.  So I would
+think that going the other way pays when the number of configurations not
+yet decided is less than the number of configurations found in the previous
+step.  And no, I did not implement this; although it looks simple indeed.
+
+Phase 2 for me needs a bit of consideration as obviously you reduced the
+number of cases a bit more than I did when I wrote my program.  (Mine
+still does not fit in 256 Mb.)
+
+More tomorrow.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland, +31205924098
+home: bovenover 215, 1025 jn  amsterdam, nederland; e-mail: dik@cwi.nl
+

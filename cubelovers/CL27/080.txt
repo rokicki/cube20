@@ -1,0 +1,46 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed May  5 14:09:02 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA26136
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 5 May 1999 14:09:01 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 4 May 1999 21:56:22 +1000 (EST)
+Message-Id: <199905041156.VAA09100@pcug.org.au>
+Content-Type: text/plain; charset="us-ascii"
+To: Cube-Lovers@ai.mit.edu
+From: pfoster@pcug.org.au (Peter Foster)
+Subject: Re: Speed cubing results - March 99
+
+>Almost everybody responded w/ a different preview time (anywhere from no
+>preview to 15 seconds).  People like me who started cold had a
+>disadvantage to those who had a preview.  A 15 second preview sounds
+>good to me.  This gives enough time to familiarize oneself w/ the cube,
+>look for pieces, and plan out the first few moves.  I've been timing
+>myself cold which means much time is wasted at the beginning.  Having a
+>preview helps a lot.
+
+I would prefer that there is no preview time. Solving the cube isn't just 
+turning the faces, it's also deciding which faces to turn. Surely, time spent 
+in examining the cube is therefore part of the solving time.
+
+>When it comes to averages, I guess there is no standard.  I agree w/
+>disregarding the high & low extremes though.  They can distort the
+>average (arithmetic mean).  This should give a more accurate
+>representation.  Also, the more entries calculated into the average the
+>better.
+
+I used to do a run of 11, then take the median (middle) value. 
+
+Cheers
+_______________________________________________________________
+Peter Foster        
+pfoster@pcug.org.au
+
+[Moderator's note: While would I avoid previews in principle, I
+ understand that the official contests were carried out with a free
+ preview period.  It seems unavoidable that we qualify all our records
+ with the conditions under which they are measured--with or without
+ preview; best score, average, or median; by sight or by touch; in air
+ or underwater; solo or mixed doubles; etc. --Dan ]
+

@@ -1,0 +1,56 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 18 19:37:40 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA14746
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 18 Mar 1999 19:37:39 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <36F18BF0.5950@hrz1.hrz.tu-darmstadt.de>
+Date: Fri, 19 Mar 1999 00:27:44 +0100
+From: Herbert Kociemba <kociemba@hrz1.hrz.tu-darmstadt.de>
+Reply-To: kociemba@hrz1.hrz.tu-darmstadt.de
+To: Cube Lovers <cube-lovers@ai.mit.edu>
+Subject: Re: Re : Re: Edges only, Ignoring Flips, Face Turn Metric
+References: <SIMEON.9903170012.A@pavilion.pstcc.cc.tn.us>
+
+Jerry Bryan wrote:
+>
+> On Fri, 12 Mar 1999 01:01:52 -0500 michael reid <reid@math.brown.edu>
+> wrote:
+>
+> > i guess i'm not sure what you're doing, jerry.  but i don't think
+> > it should be *that* difficult.  the number of configurations is
+> > 12! = about 480 million.  if you divide out by symmetry, you get
+> > about 10 million configurations.  this should be small enough to
+> > store in memory and do a complete breadth-first search of the space.
+> >
+
+> When a search space consists of the elements of a cube group, it is
+> easy to index the search space.  But when a cube group is reduced by
+> symmetry the result is generally not a group and the resultant search
+> space is (in my experience) not very easy to index.  The thing about
+> Herbert's program that I have trouble comprehending is that he is able
+> to reduce the search space by symmetry and still have the indexing be
+> well behaved.  He has posted a clear exposition of his method, so the
+> problem is in my understanding rather than in his explanation.
+
+I think you are right to say that the indexing of a cube group reduced
+by symmetries does not behave very well. For this reason I must build a
+table which maps the index to a representative of the corresponding
+equivalence class. I have no method to directly compute the index.
+
+About 10 million entries would be possible but quite a lot, so I
+defined two edge permutations x and y as "equivalent" if x = MyN with
+two symmetries M and N. So I reduced by another factor of about 48 and
+got 208816 classes. If x is a representative of such a class with index i,
+Mx with an arbitrary symmetry M is a representative of a "real" symmetry
+class. The "well behaved" index of the latter is computed by 48*i +
+Index(M), where index(M) enumerates the symmetries from 0 to 47.
+The problem with that which I did not realize first is, that Mx and M'x
+could be equivalent, which led to wrong results when computing the God's
+Algorithm for positions more than 3 face turns from start (I compared my
+results with Jerry's, who made a quick run for positions up to 6 face
+turns). With some exta computation this problem could be fixed.
+
+Herbert Kociemba
+

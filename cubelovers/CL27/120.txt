@@ -1,0 +1,39 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Jul 27 18:50:00 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA19974
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 27 Jul 1999 18:50:00 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: "Chris Pelley" <ck1@home.com>
+To: "Cube-Lovers" <Cube-Lovers@ai.mit.edu>
+Subject: Rubik's Cube Perpetual Calendar
+Date: Thu, 22 Jul 1999 21:43:52 -0400
+Message-Id: <NDBBLHBJOLNCAMMDPAPACENPCAAA.ck1@home.com>
+
+I recently saw one of the original Ideal Perpetual Calendar cubes sell on
+EBAY for over $100 US dollars!  I decided it would be cheaper and more fun
+to try and make my own.  Based on photos I have collected, I've tried to
+reconstruct the original sticker scheme.  This turned out to be quite a fun
+puzzle by itself, since there are only a few ways it can be done.  For
+example, by a lucky coincidence, there just happen to be exactly the right
+number of sides for the middle letters of the months (P, O, C, A, E, and U).
+
+I did a quick scan of the cube-lovers archives to see if anyone had posted
+the sticker scheme before.  I found nothing.  I was wondering if anyone who
+still has their calendar cube could post either a detailed description, or
+even photos from a few different angles.
+
+My own homemade version can be seen here:
+
+http://www.chrisandkori.com/calendarcube.htm
+
+I just printed out the stickers I needed on paper, then cut and scotch-taped
+them to a "blank" cube.  I plan to make a somewhat higher-quality version
+with real stickers once I nail down the original Ideal sticker
+configuration.
+
+Thanks to anyone who can help!
+Chris Pelley
+ck1@home.com
+

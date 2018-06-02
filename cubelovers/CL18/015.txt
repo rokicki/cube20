@@ -1,0 +1,58 @@
+From mark.longridge@canrem.com  Sun Nov 12 01:51:15 1995
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA26404; Sun, 12 Nov 95 01:51:15 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1FDFC0; Sun, 12 Nov 95 01:35:04 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Magic Platonic Solids
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1260.5834.0C1FDFC0@canrem.com>
+Date: Sun, 12 Nov 95 01:33:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+First a correction (sorry Dave!)
+
+> # Perhaps David Badley could confirm the following orders:
+
+The above should be "David Bagley".
+
+I have some further comments on the "Magic Platonic Solids".
+
+ One can stretch (abuse?) the concept of the slice and anti-slice
+groups of the cube to include the Megaminx (Magic Dodecahedron).
+In the case of the Megaminx we can consider one-fifth turns of
+opposite faces. Unfortunately my experiments with "slice" turns
+on the Megaminx has not generated any spot patterns as yet.
+
+ Ben Halpern was not the only one to make a prototype of a tetrahedron
+with rotating faces, as Kersten Meier made one as well.
+
+ Only 3 of the 4 generators of the Halpern-Meier Tetrahedron are
+necessary to generate the 3,732,480 possible states. If we use only
+2 generators we only get 19,440 possible states.
+
+ It is not possible to swap just 1 pair of corners and 1 pair of
+edges, as is possible with the standard Rubik's cube.
+
+ The number of possible states of the Halpern-Meier Tetrahedron break
+down like this:
+
+6! /2 * 2^5 * 4!/2 * 3^3 = 3,732,480
+
+The number of pairs of exchanges of the 6 edges must be even.
+The number of pairs of exchanges of the 4 corners must be even.
+5 of the 6 edges may have any flip, the last edge is forced.
+3 of the 4 corners may have any twist, the last corner is forced.
+
+The H-M Tetrahedron is roughly comparable to the 2x2x2 cube and
+ the standard Skewb in terms of the number of combinations.
+
+    Halpern's Tetrahedron    3.7*10^6       Ben Halpern, Kersten Meier
+    Pocket Cube (2x2x2)      3.6*10^6       Erno Rubik
+    Skewb                    3.1*10^6       Tony Durham
+
+-> Mark <-
+
+

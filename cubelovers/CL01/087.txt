@@ -1,0 +1,75 @@
+Date:  9 January 1981 0629-EST (Friday)
+From: Dan Hoey at CMU-10A
+To: Cube-lovers at MIT-MC
+Subject:  The Supergroup -- Part 2: At least 25 qtw, and why
+Message-Id: <09Jan81 062915 DH51@CMU-10A>
+
+	Alan Bawden (31 JUL 1980 2159-EDT) calculated that it must
+take at least 21 quarter-twists to solve an ordinary cube, and 24
+qtw to solve a cube in the Supergroup.  This message explains how
+the first bound can be obtained, improves the second, and points
+toward a technique for possible further improvements.
+
+Express any (optimal) sequence of twists as a sequence of segments,
+where each segment is a sequence of twists on two opposite faces,
+and no two adjacent segments operate on the same pair of faces.
+Because the quarter-twist has period four, and opposite faces
+commute, a segment operating on faces X and Y has one of the forms
+	X, X', Y, Y'				(1 qtw -- 4 ways)
+	XX, YY, XY, YX, X'Y, Y'X, XY', Y'X	(2 qtw -- 6 ways)
+	XXY, XXY', XYY, X'YY			(3 qtw -- 4 ways)
+	XXYY					(4 qtw -- 1 way).
+There are 3 ways of choosing X and Y for the first segment, and two
+ways of choosing them for every succeeding segment.  Let P[n] be the
+number of positions that are exactly n qtw from SOLVED.  Then
+bounding P[n] by the number of n-qtw sequences,
+	P[0]   = 1
+	P[1]  <= 4*3*P[0]
+	P[2]  <= 4*2*P[1]   + 6*3*P[0]
+	P[3]  <= 4*2*P[2]   + 6*2*P[1]   + 4*3*P[0]
+	P[4]  <= 4*2*P[3]   + 6*2*P[2]   + 4*2*P[1]   + 1*3*P[0]
+	P[n]  <= 4*2*P[n-1] + 6*2*P[n-2] + 4*2*P[n-3] + 1*2*P[n-4]
+						for n > 4.
+Evaluating this recurrence, substituting strict (in)equality where
+I have personally verified it, and rounding truthfully yields:
+
+P[0]  =           1	P[9]  < 724,477,008	P[18] < 4.048*10^17
+P[1]  =          12	P[10] < 6.792*10^9	P[19] < 3.795*10^18
+P[2]  =         114	P[11] < 6.366*10^10	P[20] < 3.557*10^19
+P[3]  =       1,068	P[12] < 5.967*10^11	P[21] < 3.334*10^20
+P[4]  =      10,011	P[13] < 5.594*10^12	P[22] < 3.125*10^21
+P[5]  <=     93,840	P[14] < 5.243*10^13	P[23] < 2.930*10^22
+P[6]  <     879,624	P[15] < 4.915*10^14	P[24] < 2.746*10^23
+P[7]  <   8,245,296	P[16] < 4.607*10^15	P[25] < 2.574*10^24
+P[8]  <  77,288,598	P[17] < 4.319*10^16
+
+	There are 4.325*10^19 positions in the standard cube; since
+P[0]+P[1]+...+P[20] < 3.982*10^19, there must be a position at
+least 21 qtw from SOLVED (The number 22 has appeared in Cube-lovers
+recently, but it was an error).  There are 8.858*10^22 positions in
+the Supergroup; since P[0]+P[1]+...+P[23] < 3.280*10^22, there must
+be a position at least 24 qtw from SOLVED.  But this can be
+improved:  half of the positions in the Supergroup are an odd number
+of qtw from SOLVED, and since P[1]+P[3]+...+P[23] < 2.963*10^22 is
+less than half the Supergroup, there must be some odd-length
+elements of the Supergroup at least 25 qtw from SOLVED.  QED.  (If
+you think there's something fishy here, mail to Hoey@CMU-10A for
+clarification.  I am responsible for any cruft that has crept into
+the original, elegant, formulation due to Jim Saxe.)
+
+	The recurrence on which this bound relies is due to the
+relations F^4 = FBF'B' = I (and their M-conjugates.)  It may be
+possible to improve the recurrence by recognizing other short
+relations.  Exhaustive search has shown that there are none of
+length less than 10.  The most promising ones I know of come from
+Singmaster:
+		I = FR'F'R UF'U'F RU'R'U	(12 qtw),
+		I = (FFBB RRLL)^2		(16 qtw),
+and a 14-qtw relation which holds only in the standard group, since
+it twists a face center 180o (see part 3).  Unfortunately, the
+number of intermediate terms grows too large to be comfortably
+hand-computable, and there are a few conceptual problems to hacking
+it out.  If you can improve this, or know of any other relations
+shorter than 24qtw, I'd like to hear about it.
+
+	Coming up next: SPOILERS

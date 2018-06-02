@@ -1,0 +1,59 @@
+From: Norman Diamond  16-Feb-1998 0859 <diamond@jrdv04.enet.dec-j.co.jp>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Rubik lawyers up in arms over website
+
+David Byrden wrote:
+
+>I got a letter from a Washington
+>firm of lawyers about a week ago, saying
+>that they were the advisers to Seven Towns
+>Limited, holders of the 'Rubik' trademark.
+>The site was "diluting" the value of the
+>trademark and causing "customer confusion".
+
+Fine.  Please restore your web site, but say:
+
+"Please enjoy these puzzles yourself.  However, we
+cannot honor the famous Dr. Rubik because his lawyers
+won't let us honor him."
+
+>I was engaging in "unfair competition"
+>(despite not selling or distributing anything
+>or taking any money or having any advertising
+>on the site).
+
+It doesn't matter if you take money or not.  I thought it
+didn't hurt if you had advertisements honoring Dr. Rubik,
+but ...
+
+Well, I guess everyone had better remove Rubik's signature
+from our instances of his merchandise, because whenever we
+play with one of his products, we're advertising his name
+illegally.  [Note:  This is the only sarcastic sentence
+in this message.  Please take the rest seriously.]
+
+>        Not only did they want the word 'Rubik'
+>removed from the website, they wanted one of
+>the Java puzzles removed as well. They called it
+>an "electronic version of the RUBIK'S CUBE".
+>Fair enough, being a hexahedron sliced into 26
+>equal parts it bore a certian visual resemblance,
+>but obviously there was none of their mechanism
+>involved. It was all brand-new software.
+
+It is true that none of their mechanism is involved.
+Therefore I believe their patent doesn't apply.  That is,
+if they actually still have a pattent, after Ishige and
+some American who preceded all of them (whose name I've
+forgotten) ...  but wait, it's been more than 20 years
+(or 17 in the US), so ALL their patents have expired.
+
+So don't honor Dr. Rubik.  Please restore all of your
+mathematical puzzles.
+
+-- Norman Diamond               diamond@jrdv04.enet.dec-j.co.jp
+[Speaking for Norman Diamond not for Digital.]
+
+------------------------------
+
+Date: Sun, 15 Feb 1998 20:23:38 -0500

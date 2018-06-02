@@ -1,0 +1,127 @@
+From hoey@aic.nrl.navy.mil  Wed Jan  8 21:20:58 1992
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA23181; Wed, 8 Jan 92 21:20:58 EST
+Received: from sun1.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA01964; Wed, 8 Jan 92 21:20:01 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun1.aic.nrl.navy.mil; Wed, 8 Jan 92 21:20:01 EST
+Date: Wed, 8 Jan 92 21:20:01 EST
+From: hoey@aic.nrl.navy.mil
+To: Post-NetNews@ucbvax.berkeley.edu, Cube-Lovers@life.ai.mit.edu
+Cc: mkt@vax5.cit.cornell.edu (Gregory E. Dionne),
+        tlg@uknet.ac.uk (Tim.Goodwin)
+Subject: Rubik's Cube, the minimax number of moves
+Summary: 2x2x2=11(9), 3x3x3=21(18)-97(50), 4x4x4=37/41(??)-??(??)
+References: <1992Jan3.213615.9689@vax5.cit.cornell.edu> <564@uknet.ac.uk>
+Message-Id: <920108.Hoey@AIC.NRL.Navy.Mil>
+Keywords: Bounds, Metrics, Thistlethwaite, RCC
+Organization: Naval Research Laboratory, Washington, DC
+
+mkt@vax5.cit.cornell.edu (Gregory E. Dionne) asks:
+
+> Does anybody know what the minimum number of moves are required to
+> solve the 3x3 and/or 4x4 cubes in the worst-case scenario?
+
+and receives some answers, some of them accurate.  The following is my
+understanding of the best answers now known, which I am sending both
+to rec.puzzles and the Cube-Lovers mailing list.  The latter will, I
+hope, excuse some information repeated from the archives.
+
+First, you have to decide what you mean by a move.  On grounds of
+symmetry and parsimony I prefer to count each quarter-turn of a face
+as a (QT) move.  However, most of the literature counts either a
+quarter-turn or a half-turn of a face as a single (HT) move, and there
+has been more work done on the problem by the HT contingent.
+
+Second, you have to be careful to define what constitutes solved!
+While most people are content to make each face a solid color, some
+cubes have markings that display whether the face centers are twisted
+with respect to the rest of the cube.
+    [This has recently been done commercially in an spectacularly
+     braindamaged way, in a product known as ``Rubik's cube--the
+     fourth dimension'' or some such nonsense.  The mfrs have marked
+     only four face centers, breaking symmetry while they fail to show
+     the surprising invariant of the Supergroup.  What bagbiters!]
+But that is a topic for other messages; I will not further discuss the
+invisible features of cubes here, save to note that there are more
+invisible features in larger cubes, and that if you take them into
+account, the cube will be harder to solve and require more moves than
+if you don't.
+
+Third, you have to understand that in either case, nobody knows the
+exact answer except for the tiny cubes.  It boils down to knowing
+lower bounds L and upper bounds U, such that there must be some
+positions requiring at least L moves, while any position can be solved
+in at most U moves.  I will discuss these in turn, below.
+
+For lower bounds, it is easy to calculate how many positions of
+Rubik's cube are achievable, and we may reason that only a few
+positions are within a few moves of start.  Counting them, we can
+determine that at least 21 QT (or 18 HT) are needed to solve some
+positions of the cube.  In fact, at least half of the positions of the
+cube require at least 18 HT, and at least 90% of the positions require
+at least 20 QT.  The calculations are elementary, and have been known
+for over a decade.  Nobody knows any other very good way of finding
+lower bounds.  In Rubik's_Cubic_Compendium (1987), Tamas Varga writes
+    Experts believe that even in the worst cases--the patterns
+    furthest away from start--it should be possible to restore the
+    cube in 20-odd [HT] moves, maybe 25, not more.
+However, such beliefs are clearly conjectural, based on the behavior
+of much simpler puzzles.
+
+The known upper bounds are constructive, consisting of a solution
+procedure guaranteed to solve any cube within U moves.  The best known
+bound is embodied in a procedure invented by Morwen B. Thistlethwaite,
+and improved by students of Donald E. Knuth (The students are not
+identified in R_C_C).  The improved procedure requires at most 50 HT
+in the worst case.  Thistlethwaite was hoping (in 1980) to improve
+this to 41 HT, but (rumors to the contrary) he apparently did not
+succeed.  A 1989 article by Hans Kloosterman entitled ``Rubik's Cube
+in 44 moves'' refers to an attempt to refine Thistlethwaite's method.
+I have not heard of any success there, either.
+
+Since any HT is at most 2QT, any Rubik's cube position can be solved
+in at most 100 QT using Thistlethwaite's method.  According to my
+understanding of the method, this can actually be reduced to 97 QT,
+but this is still poor.  A method tailored to minimizing QT would
+almost certainly guarantee a much shorter solution.
+
+Unfortunately, Thistlethwaite's method requires enormous tables of
+partial solution methods.  Gerszon Keri describes a simpler method in
+R_C_C that requires at most 97 HT and which humans can memorize.  The
+method is attributed to ``a Cambridge group,'' which I think must
+refer to England.  According to Keri the Cambridge method has been
+refined to use only 79 HT, but I do not know if the refined version is
+still humanly comprehensible.
+
+For the 2x2x2 cube, the worst-case number of moves is known to be
+exactly 14 QT (11 HT).  Only 276 (2644) positions require all 14 QT
+(11 HT).  Half of the positions can be solved in 11 QT (9 HT) or
+fewer.
+
+For the 4x4x4 and larger cubes, the problem of defining a move is more
+complicated.  Besides the QT/HT dichotomy, there is the question of
+whether a move consists of a slice (turning one part of the cube with
+respect to the other) or a slab (turning a 1x4x4 section of the cube
+with respect to the rest).  We might expect that, as we do not count
+the center-slab moves of the 3x3x3 as a single move, we should not
+count the inner-slab moves of the 4x4x4 as a single move.  However, I
+have discovered excellent reasons of symmetry (send email if you want
+to know) for us to consider all slabs alike, whether internal or face,
+with the exception of the center slab of an odd-sized cube.  This is
+known as the Eccentric Slabist metric.
+
+According to my calculations of some years ago, some 4x4x4 positions
+require at least 37 slab QT or 41 slice QT to solve.  The Eccentric
+Slabist also calculates at least 59, 81, 111, 138, 175, and 208 QT for
+the 5x5x5 through 10x10x10 cubes.  (And yes, I've heard the widespread
+misinformation that Rubik's cubes larger than six cubies on an edge
+are impossible).
+
+I seem to recall calculating HT lower bounds, but I can't seem to find
+them.  I do not recall whether upper bounds have been calculated for
+the large cubes, other than that they are O(N^2)--see J. A. Eidswick's
+article in the March 1986 Math Monthly.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

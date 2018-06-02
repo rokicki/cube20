@@ -1,0 +1,17 @@
+Date: 17 JUL 1980 1042-EDT
+From: RP at MIT-MC (Richard Pavelle)
+Subject: confusion but simplicity
+To: Lauren at UCLA-SECURITY
+CC: CUBE-HACKERS at MIT-MC
+
+I do not use a computer but I found it useful in keeping track of
+moves and testing various transformations. I can fix the cube
+now in 5 minutes or less. In fact, I have won cubes at
+stores by challenging the owner to a
+freeby if I can do it under 10 or 15 minutes. My transformations are
+very easy to remember because after one face is complete I need only 4
+to fix the cube. The transformations are positioning the corners, toppling
+them, fixing edges and then toppling edges. These are not designed for
+speed but for simplicity. I have taught some people to solve the cube this
+way with a few hours of practice. To do it in 5 minutes, however, requires
+a few more transformations.

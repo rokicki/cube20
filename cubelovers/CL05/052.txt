@@ -1,0 +1,20 @@
+Received: from SCRC-CONCORD by SCRC-STONY-BROOK via CHAOS with CHAOS-MAIL id 54973; Tue 26-Jun-84 10:22:30-EDT
+Date: Tue, 26 Jun 84 10:20 EDT
+From: "Bernard S. Greenberg" <BSG@SCRC-QUABBIN.ARPA>
+Subject: Recent Activity?
+To: ALAN@MIT-MC.ARPA
+cc: cube-lovers@MIT-MC.ARPA
+In-Reply-To: The message of 25 Jun 84 23:23-EDT from Alan Bawden <ALAN at MIT-MC>
+Message-ID: <840626102050.3.BSG@CONCORD.SCRC.Symbolics>
+
+    Date: 25 June 1984 23:23-EDT
+    From: Alan Bawden <ALAN @ MIT-MC>
+
+    Date:     Mon, 25 Jun 84 14:30 CST
+    From:     Gil Gamesh <dnichols%ti-csl.csnet@csnet-relay.arpa>
+    Subject:  Recent Activity?
+
+    Is this mailing list still alive? Does anyone know of any recent activity
+    in the cube world?
+More significantly, has anyone heard of any progress in the
+important theoretical problems (God's number/algorithm)?

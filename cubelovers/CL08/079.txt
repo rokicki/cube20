@@ -1,0 +1,99 @@
+From reid@math.berkeley.edu  Sun May 24 11:04:20 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA06624; Sun, 24 May 92 11:04:20 EDT
+Received: from phnom-penh.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA04847; Sun, 24 May 92 08:04:09 PDT
+Date: Sun, 24 May 92 08:04:09 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205241504.AA04847@math.berkeley.edu>
+To: anneke@fwi.uva.nl, cube-lovers@ai.mit.edu
+Subject: details ...
+
+perhaps i should give the figures i obtained when getting my upper
+bound of 39 face / 56 quarter turns in case i also have an error.
+recall the method: we work in three stages:
+
+1. from  <U, F, R, L, B, D>  to  <U, R, F>
+2. from  <U, R, F>           to  <U, R2, F2>
+3. from  <U, R2, F2>         to  START
+
+where we're only allowed to use moves that keep us within the
+given subgroup.  the number of positions that must be considered
+in each stage are  253440,  15676416,  and  10886400 respectively.
+
+stage 1:
+using face turns:          using quarter turns:
+distance  number           distance     number
+  0            1               0             1
+  1            9               1             6
+  2           90               2            39
+  3          852               3           276
+  4         7169               4          1899
+  5        44182               5         11245
+  6       131636               6         49412
+  7        68940               7        117221
+  8          561               8         70767
+                               9          2574
+stage 2:
+using face turns:          using quarter turns:
+distance  number           distance     number
+  0            1               0             1
+  1            2               1             2
+  2           12               2             8
+  3           72               3            36
+  4          420               4           158
+  5         2410               5           694
+  6        13752               6          2980
+  7        75796               7         12744
+  8       390421               8         53646
+  9      1735771               9        216354
+ 10      5351383              10        799868
+ 11      6696700              11       2477802
+ 12      1399195              12       5310848
+ 13        10481              13       5419046
+                              14       1356020
+                              15         26192
+                              16            17
+stage 3:
+using face turns:          using quarter turns:
+distance  number           distance     number
+  0            1               0             1
+  1            5               1             2
+  2           14               2             3
+  3           44               3             8
+  4          128               4            14
+  5          392               5            24
+  6         1157               6            52
+  7         3458               7            96
+  8        10057               8           176
+  9        29286               9           352
+ 10        82814              10           664
+ 11       228621              11          1248
+ 12       591704              12          2409
+ 13      1362497              13          4516
+ 14      2545752              14          8519
+ 15      3272940              15         16100
+ 16      2260555              16         30171
+ 17       484818              17         56140
+ 18        12133              18        102981
+ 19           24              19        186728
+                              20        331234
+                              21        563985
+                              22        912719
+                              23       1365051
+                              24       1812011
+                              25       2044832
+                              26       1783956
+                              27       1105488
+                              28        450322
+                              29         97881
+                              30          7958
+                              31           745
+                              32            10
+                              33             4
+
+it would be nice if someone could confirm these figures.  i have done
+some testing, but not extensively.
+
+mike
+

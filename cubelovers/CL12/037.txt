@@ -1,0 +1,185 @@
+From @wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU  Wed Jun 29 15:00:05 1994
+Return-Path: <@wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23837; Wed, 29 Jun 94 15:00:05 EDT
+Message-Id: <9406291900.AA23837@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4592; Wed, 29 Jun 94 13:56:03 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 1494; Wed, 29 Jun 1994 13:56:03 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 29 Jun 1994 13:56:02 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Comments on Cube Lengths (Long, 2 of 2)
+
+   (continuation)
+
+I have described this data base structure once before (a little
+less formally before), but I wanted to describe it again because
+there is some interesting (to me, at least) analysis that can be
+derived from the data base, over and above God's algorithm.
+
+First, it is interesting to compare |{m'Xmc}| to the various |Yc[i]|.
+Recall that |Yc[i]| >= |{m'Xmc}| for all i in 1..24.  Also, by the
+definition of |{m'Xmc}|, there is at least one i in 1..24 such that
+|Yc[i]| = |{m'Xmc}|.
+
+I posted a comparison of |{m'Xmc}| to |Yc[i]| for corners-only cubes
+on 4 December 1993.  (I have the "without centers" part of the edges-only
+data base done, but it will take many more months to
+complete the "with centers" part.  So corners-only is the only
+complete data base we have to work with.)
+
+At the time, I received a couple of comments to the effect
+that people didn't understand what I was comparing to what.  I hope
+this note clarifies the situation.  For example (and referring to my
+previous note with respect to corners-only cubes), there is only one
+element of the form {m'Xmc} for which |{m'Xmc}| = 0.  The only element
+for which the length is 0 is Start, but in a corners only cube without
+centers, any rotation of Start is still at Start and still has length 0.
+
+Here is a brief excerpt from my note of 4 December 1993.
+
+              Corresponding Distances from Start
+                     Using Only q-turns
+
+        Without           With
+        Centers         Centers         Number
+     Distance from    Distance from    of Nodes
+         Start         Start
+
+           0
+                           0                1
+                           2                1
+                           4                2
+                           6                1
+
+What this means is as follows.  First, we have |{m'Imc}| = 0.  Let
+Y=Repr({m'Imc}).  Then, there is 1 element of the form Yc for which
+|Yc|=0, 1 element of the form Yc for which |Yc|=2, 2 elements of the
+form Yc for which |Yc|=4, and 1 element of the form Yc for which
+|Yc|=6.
+
+In words, suppose you have a corners-only cube (peel off the edge
+tabs, but keep the corners and centers).  Then, suppose the
+corners look "solved" if you ignore the centers.  The corners will
+be rotated relative to the centers.  In all, there are 24 different
+ways they can be rotated, including the identity, where they
+are not rotated.
+
+But under M-conjugancy, some of the 24 rotations are equivalent.
+Under M-conjugancy, there is one way they can be 0 moves from Start,
+one way they can be two moves from Start (RL' is equivalent to DU',
+for example ), two ways they can be four moves from Start, and one way
+they can be six moves from Start.  Among other things, this says that any
+rotation of the corners (ignoring the edges) can be accomplished
+in no more than six quarter turns.
+
+This example illustrates why a set of the form {m'Xmc} may be
+partitioned into "up to" twenty-four elements of the form
+{m'Xm}, rather than "exactly" twenty-four elements.  Normally,
+a set of the form  {m'Xmc} contains 1152 elements,
+where 1152=24*48.  It can in turn be partitioned into twenty-four
+elements of the form {m'Xm} which contain forty-eight elements each.
+But cubes which are "symmetric" reduce the number because
+various M-conjugates are equivalent.
+
+I normally think of the God's algorithm data base as a matrix, with
+the rows indexed by the representative elements Y, and the columns
+indexed by C (or more simply, by 1..24).  Because of M-conjugate
+symmetry, there are always a few empty cells in the matrix.
+
+M-conjugate symmetry did not cause me any computational difficulty
+when I was working with cubes without centers.  That is,
+suppose {m'(X1)mc} and {m'(X2)mc} are the same set for X1 not equal
+X2.  My "representative element calculator" would calculate the
+same representative element Y in both cases.  But in the case of
+cubes with centers, the "representative element calculator" had to
+calculate both a representative element Y and an associated rotation
+index Cind in 1..24.
+
+When a set {m'Xmc} had exactly 1152 elements (most of the time), the
+calculation of Cind was correct.  But when a set {m'Xmc} had fewer
+than 1152 elements, I would get a different Cind depending on which
+element of the set I started with.  That is, the loops in the program
+actually calculate 1152 elements in any case, but if the set really has
+less than 1152 elements, then some of the elements are generated
+multiple times.  (The loops have no way of knowing ahead of time how
+many elements are going to be in the set.)  The generation of the same
+set elements multiple times severely messed up the calculation of Cind
+until I figured out what was going on.
+
+I want to finish by getting back to what I started with, the lengths
+of cubes.  As I said, the God's algorithm results for edges without
+centers are complete (posted to the list back in December), but the
+God's algorithm calculations for edges with centers are still work
+in progress.  However, I noticed something striking about the
+partial edges with centers results when I compared them with the
+completed edges without centers results.  For example, here is a
+table which compares the results when using q-turns only.
+
+
+    Distance    Number of  Branching    Number of  Branching
+        from   M-Conjugate   Factor    M-Conjugate   Factor
+       Start     Classes                 Classes
+                Without                  With
+                Centers                 Centers
+
+           0           1                     1
+           1           1       1.00          1         1.00
+           2           5       5.00          5         5.00
+           3          25       5.00         25         5.00
+           4         215       8.60        215         8.60
+           5        1860       8.65       1886         8.77
+           6       16481       8.86      16902         8.96
+           7      144334       8.76     150442         8.90
+           8     1242992       8.61    1326326         8.81
+           9    10324847       8.31   11505339         8.67
+          10    76993295       7.46   96755918         8.40
+          11   371975385       4.83  750089528         7.75
+          12   382690120       1.03      ....
+          13     8235392       0.02      work
+          14          54       0.00       in
+          15           1       0.02    progress
+
+    Total      851625008
+
+As you can see, with or without centers, there are the same number
+of cubes (actually, equivalence classes) at each distance from
+Start from level 0 through level 4.  From level 5 on, there are more
+cubes with centers than without.  Why is the number the same
+through level 4, and what happens at level 5 to make the numbers
+different?  Actually, overall there are about twenty-four times more
+cubes with centers than without, so it is not surprising to find
+more cubes with centers than without at fairly low levels in the
+search tree.  So fundamentally, the question is, why does the
+divergence occur at level 5?
+
+Well, I can't explain why it is level 5 exactly, but I can explain
+what is going on.  Consider level 0.  There is one row in the data
+base where |{m'Xmc}|=0.  There are twenty-four cells in the same row
+for |Yc[i]|, corresponding to the twenty-four rotations of the
+representative element Y.  For exactly one of these cells, we have
+|Yc[i]|=0.  The remainder of the cells are either undefined (meaning
+the cell represents a rotation which is M-conjugate equivalent with
+another rotation), or else we have |Yc[i]|>=5.  Hence, any
+rotation of the edges of the cube requires at least 5 q-turns to
+accomplish.  After the data base is complete, we can determine
+exactly how many q-turns are required to accomplish each rotation of
+the edges, just as we can already do with the corners.
+
+Similar comments apply to level 1 through 4.  There is exactly one
+rotation of the representative element that has the same length as
+representative element.  All the other rotations of the representative
+element are either M-conjugate equivalent to the representative
+element, or else have a length greater than or equal to 5.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

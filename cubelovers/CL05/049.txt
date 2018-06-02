@@ -1,0 +1,28 @@
+From: Bob Boyer <CL.BOYER at UTEXAS-20.ARPA>
+To:   AIList
+Re:   A Programming Language for Group Theory (Dept. of Math)
+
+        [Forwarded from the UTexas-20 bboard by Laws@SRI-AI.]
+
+            DEPARTMENT OF MATHEMATICS COLLOQUIUM
+          A Programming Language for Group Theory
+                        John Cannon
+        University of Sydney and Rutgers University
+                 Monday, February 27, 4pm
+
+     The past 25 years has seen the emergence of a small but vigorous branch of
+group theory which is concerned with the discovery and implementation of
+algorithms for computing structural information about both finite and infinite
+groups.  These techniques have now reached the stage where they are finding
+increasing use both in group theory research and in its applications.  In order
+to make these techniques more generally available, I have undertaken the
+development of what in effect is an expert system for group theory.
+
+     Major components of the system include a high-level user language (having
+a Pascal-like syntax) and an extensive library of group theory algorithms.  The
+system breaks new ground in that it permits efficient computation with a range
+of different types of algebraic structures, sets, sequences, and mappings.
+Although the system has only recently been released, already it has been
+applied to problems in topology, algebraic number theory, geometry, graphs
+theory, mathematical crystalography, solid state physics, numerical analysis
+and computational complexity as well as to problems in group theory itself.

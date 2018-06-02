@@ -1,0 +1,51 @@
+ISRAEL@MIT-AI 03/20/81 15:55:21 Re: two-person games using the cube
+To: CUBE-LOVERS at MIT-AI
+Folks,
+  I was examining my cube the other day and I noticed that each side
+looks like a tic-tac-toe board and I realized that we've never considered
+the idea of two-person games using the cube.  Here are some games that I've
+come up with.  Some of these may be trivial and uninteresting (i.e. obvious
+wins for the first or second player) and some may be too easy to draw with,
+but I'll throw them out anyway.
+
+The first game I thought of was Rubik's tic-tac-toe.  This is just regular
+tic-tac-toe with a twist (pun intended).  Each person takes turns first
+writing his symbol on one of the 54 facelets on the cube.  After doing
+that he twists one face and passes the cube to his opponent.  There are a
+number of different variations of this game.
+
+    1) The first person to win any side of the cube wins.  This seems to be
+       a very easy game so to make it more interesting we add the rule
+       that for a person to win, he must do it before executing a twist to
+       the cube.
+
+    2) To win, a person must win a majority of the faces on the cube. This
+       game has the interesting property that if the cube is full (a draw
+       in normal tic-tac-toe) twists can continually be made until a win is
+       reached, both people agree on a draw, or some arbitrary upper limit
+       on the number of moves beyond a full cube is passed.
+
+    3) One person must fill up all nine facelets of any face with his symbol.
+       This game may be too difficult to win.
+
+    4) Each person has pattern of X's, O's, and don't cares which his opponent
+       doesn't know and has to get one face to look like that pattern.
+
+Each of these games can be modified by adding restrictions on the twist such
+as; a) only quarter turns CW and CCW are allowed; b) a player cannot turn the
+same face his opponent just turned; c) a player cannot turn the same face that
+he turned last turn; d) if a player made a quarter turn last turn he must make
+a half turn this turn and vice versa; or any  combinations of the above    
+restrictions or others.  Does anyone know of good erasable writing utensil to
+use on your cubes or have a metal cube that can be used for these games
+with magnetic X's and O's  Another version of these games could be played
+without writing on your cube by allocating one, two or three colors to each
+person and starting from a randomized cube, try to play any of the above games
+with each turn being taken by twisting a side and using the players set of 
+colors as his symbol.
+
+- Bruce
+
+
+^_
+

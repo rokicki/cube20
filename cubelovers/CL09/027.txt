@@ -1,0 +1,35 @@
+From pbeck@pica.army.mil  Tue Jun 30 10:05:29 1992
+Return-Path: <pbeck@pica.army.mil>
+Received: from COR4.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA10327; Tue, 30 Jun 92 10:05:29 EDT
+Received: by COR4.PICA.ARMY.MIL id aa22053; 30 Jun 92 7:56 EDT
+Date:     Tue, 30 Jun 92 7:46:56 EDT
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@ai.mit.edu
+Subject:  ultimate cube, correction
+Message-Id:  <9206300746.aa20380@COR4.PICA.ARMY.MIL>
+
+
+ULTIMATE CUBE  - sorry for my past misinformation this time I will try
+and describe it by observation.
+
+The cube is covered with 24 (4 to a face) 45, 45, 90 deg triangles.
+ These triangles have there hypotenuse along the edge of the cube and
+their 90 deg apex at the center of the center cubie.
+
+Each opposite face has the same coloring except that the rotation of
+the colors is opposite.  For example if the front face has a green,
+orange, yellow and red triangle in clockwise order then in order for
+the rear face to correspond it has a color rotation that is counter
+clockwise.
+
+The coloring scheme is that the top and bottom triangles on the side
+faces (ie, front, right, left, back) are the same.  Six colors (
+green, orange, yellow , red for the front and rear, and green,
+white,yellow,blue for the sides and white, orange, blue, red for the
+top and bottom)  are used and there are 4 triangles of each color. 
+
+I think this is an accurate description, if there are questions please
+ask I have my cube at my desk.
+
+
+

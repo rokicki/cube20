@@ -1,0 +1,40 @@
+Date: 28 Jan 1983 3:33-EST
+From: Dan Hoey <HOEY @ CMU-CS-A>
+Subject: The shortest sequence of moves.
+To: Foner at MIT-MC
+Cc: Cube-Lovers at MIT-MC
+In-Reply-To: Leonard N. Foner's message of Monday, 24 January 1983  1357-EST
+
+Leonard,
+
+The process (R U^2 B^2 L')^2 will restore your cube in twelve
+quarter-twists when executed with the Green face Up and the White face
+Front, and twelve is the minimum sufficient number of quarter-twists.
+
+Dave Plummer's discouraging word is usually right--we know of no
+algorithm to let us find optimal processes for most positions.  This is
+because the only known algorithms involve exhaustive breadth-first
+search, and there are far too many positions of the cube to make this
+practical in either time or space.  But when the optimal process is
+sufficiently short, some headway can be made.  Having some megabytes
+and CPU-hours at my disposal, I was able to list
+    (A) all positions reachable in five qtw from your cube, and
+    (B) all positions reachable in five qtw from SOLVED.
+Finding that sets (A) and (B) are disjoint, I conclude that there is no
+ten qtw process for the pattern, so the twelve qtw process is optimal.
+
+I discovered the optimal process by hand.  Of course, I could have just
+run the program one more qtw and it would give me the process, along
+with any other twelve-qtw processes that may exist.  The problem with
+that approach is that I don't have that many megabytes and CPU-hours.
+
+My program, by the way, is written in C and runs under Unix.  It trades
+time and storage efficiency for programmer laziness, making extensive
+use of the Unix sort utility.  Dave Plummer has written a much
+optimized program, in assembler language for the PDP-20, that uses very
+clever hacks (some of them my own).  As I recall, he and I estimated
+that with about 150 megabytes and a day or two elapsed time on an
+unloaded machine it could take the search three more quarter-twists.
+Does anyone need to settle a bar bet on an eighteen qtw process?
+
+				Dan

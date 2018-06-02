@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug  1 10:47:57 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id KAA27313; Fri, 1 Aug 1997 10:47:57 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Goyra@iol.ie Fri Aug  1 09:14:33 1997
+Message-Id: <199708011310.OAA00278@mail.iol.ie>
+From: "David Byrden" <Goyra@iol.ie>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: Re: Rubik's octahedrons, etc.
+Date: Fri, 1 Aug 1997 14:09:19 +0100
+
+> From: Ponder <ponder@austin.ibm.com>
+
+> I'm publishing a paper in the Journal of Recreational
+> Mathematics on solving these other puzzles, but it would
+> be real nice to have demo models, even if it takes some
+> work. The Octahedron is particularly interesting because
+> it forbids edge-flips 
+
+
+	Just for you, I have put up a new Java Octahedron at the
+Rubik Gallery
+
+	http://www.iol.ie/~goyra/Rubik.html
+
+The new one is in the Cousteau Collection and has corner-centred
+slices.There is another one in the Plato Collection with face-centred 
+slices. If the one you are thinking about is deeper or it twists in a 
+different way, drop me a line and I can probably brew it up for you.
+
+
+						David
+
+
+

@@ -1,0 +1,58 @@
+Date:  15 January 1981 18:30 cst
+From:  VaughanW.REFLECS at HI-Multics (Bill Vaughan)
+Subject:  Weird Algorithm - spoiler warning?
+To:  Cube-Lovers at MIT-MC
+
+On going through the old mail, I was a little surprised that
+nobody uses the same algorithm that I do to solve the cube. But
+since mine isn't terribly efficient, that's not much of a wonder.
+Anyway, here it is.
+
+1. Do bottom edges.  Honest to god.  I put all the bottom edges on
+top by random dithering, then for each one, turn it so its
+attached side facie abuts the color-matching face cubie, then
+rotate that face 180o. That gets the bottom edges right, but
+random hacking is almost as easy...
+
+2. Do middle edges. (Getting colors right) I only use two moves
+here.  FR'F'R and R'FRF'.  I pick a cubie that's on a top edge but
+belongs on a middle edge - put its side facie adjacent to the
+matching color face cubie (deja vu) and use FR'F'R if it has to
+rotate right-and-down, or R'FRF' if it has to rotate
+left-and-down.
+
+3. Get top edges in correct places. Essentially as in Singmaster,
+but I use only one of two moves. Align top edges so either: all
+are OK (skip rest of this step) or one is OK and 3 are wrong.  (if
+that's impossible, use one of this step's moves at random and
+restart step - guaranteed to work.)  Now either FURU'R' or FRUR'U'
+can be used to get everything OK.
+
+4. Flip top edges as required. I use two different moves for this
+according to whether adjacent or opposite edges need to be
+flipped.  Opposite: let Q = "turn body-slicing slice 1 qtw
+clockwise as seen from right". Then 4(QU) 4(UQ) flips FU and BU. 
+Adjacent: FR'F'R.RU'R'U.UF'U'F flips RF and UF - you must reorient
+the cube to do this on two U edges.  (I like this move because of
+its symmetry and - somehow - completeness. It also rotates the
+corner cubies adjacent to the edge cubies that it flips.)
+
+5. Get the corners right.  Here I have some fun, but the basic
+moves are: 3(FR'F'R) = (LFU,RBU) (RFU,FRD); 3(FRF'R') which also
+does a double interchange - tho' it's asymmetrical and I don't use
+it much; and B'FR'F'RB which stirs 3 of the top 4 CW or CCW - I
+never remember because I just use it twice for the "wrong"
+direction.
+
+6. Tumble any corners that need it. Usually not many because of
+the nice color flipping properties of 3(FR'F'R) -try it. My
+tumbling move is a monotwist 2(FR'F'R).L.2(R'FRF').L' -- or
+replace the L and L' with LL if necessary - sometimes it's nastier
+and you have to do it twice.
+
+I've never counted worst-case moves. The algorithm is based almost
+entirely on Singmaster's Y commutator, and once you get that into
+your finger bones, you hardly ever make a mistake.  On the other
+hand, this algorithm is bad enough it hardly deserves a spoiler
+warning.
+			Bill q

@@ -1,0 +1,54 @@
+From xirion!jandr@relay.nl.net  Fri Feb 18 08:45:09 1994
+Return-Path: <xirion!jandr@relay.nl.net>
+Received: from sun4nl.NL.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17847; Fri, 18 Feb 94 08:45:09 EST
+Received: from xirion by sun4nl.NL.net via EUnet
+	id AA26061 (5.65b/CWI-3.3); Fri, 18 Feb 1994 14:45:06 +0100
+Received: by xirion.xirion.nl id AA02038 (5.61/UK-2.1);
+          Fri, 18 Feb 94 14:43:52 +0100
+From: Jan de Ruiter <jandr@xirion.nl>
+Date: Fri, 18 Feb 94 14:43:52 +0100
+Message-Id: <2038.9402181343@xirion.xirion.nl>
+X-Organization:  Xirion Unix Software & Consultancy bv
+		 Burgemeester Verderlaan 15 X
+		 3454 PE  De Meern
+		 The Netherlands
+X-Phone: 	 +31 3406 61990
+X-Fax: 		 +31 3406 61981
+To: cube-lovers@life.ai.mit.edu
+
+To: cube-lovers@life.ai.mit.edu
+Subject: Re:  10x10 Tangle
+
+Sorry about not reporting this earlier, but my search for solutions for
+Rubiks Tangle 10x10 confirms the finding of Don Woods: no solutions!
+
+Dik Winter writes:
+>As I wrote before, I have embedded in my memory that there is an easy
+>argument that the 10x10 is *not* solvable.  I do not know whether I
+>found it myself (and ever did mail it to other people) or whether I
+>found it somewhere on the net; it is a long time ago.  When I find the
+>time I will do a check.  (I know very sure that I have had a program
+>running at that time but that I abandoned the search because it would
+>be fruitless.)
+
+I am beginning to get real curious about that 'easy argument'.
+Does this argument depend on the particular choice for the four
+duplicated pieces or not?
+If it does, there could exist a choice that does allow a solution, and
+we could re-define the puzzle as follows:
+  find which four pieces to duplicate in order to find solutions for
+  the 10x10.
+If the number of solutions varies depending on the choice, you could
+even add a restriction:
+  find which four pieces to duplicate in order to find a set which has
+  the minimum number of solutions for the 10x10.
+
+But if the easy argument does NOT depend on the choice, i.e.: any
+choice would lead to no solutions, then the above puzzles would be
+senseless as well.
+
+So if anyone at all knows this argument, please tell us and solve the
+mystery.
+
+	Jan
+

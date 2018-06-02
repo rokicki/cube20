@@ -1,0 +1,23 @@
+From RGC915@uacsc2.albany.edu  Mon Nov 12 01:24:08 1990
+Return-Path: <RGC915@uacsc2.albany.edu>
+Received: from UACSC2.ALBANY.EDU by life.ai.mit.edu (4.1/AI-4.10) id AA28724; Mon, 12 Nov 90 01:24:08 EST
+Message-Id: <9011120624.AA28724@life.ai.mit.edu>
+Received: from uacsc2.albany.edu by UACSC2.ALBANY.EDU (IBM VM SMTP R1.2.2MX) with BSMTP id 2636; Sun, 11 Nov 90 22:09:52 EST
+Received: from ALBNYVM1.BITNET (RGC915) by uacsc2.albany.edu (Mailer R2.07B)
+ with BSMTP id 0600; Sun, 11 Nov 90 22:09:51 EST
+Date:         Sun, 11 Nov 90 22:01:08 EST
+From: Robert Clark <RGC915@uacsc2.albany.edu>
+Subject:      Rubik's Cube Variants?
+To: cube-lovers@life.ai.mit.edu
+
+  Does anyone know where I can find all those variations on the Rubik's
+theme that popped up after the Cube came out? I mean puzzles like the
+Pyraminx, Impossiball, etc. I haven't seen any place that sells them
+in the area where I live, New york state.
+  I would even be willing to send for them from overseas if the price
+is reasonable.
+
+
+
+                                      Robert Clark
+

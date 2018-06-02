@@ -1,0 +1,23 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jan  1 22:43:23 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id WAA06147; Thu, 1 Jan 1998 22:43:23 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Dec 31 19:31:26 1997
+To: Cube-Lovers@ai.mit.edu
+Date: Wed, 31 Dec 1997 14:31:51 -0800
+Subject: Where to get Dino Cube?
+Message-Id: <19971231.143151.14726.0.tenie1@juno.com>
+From: tenie1@juno.com (Tenie Remmel)
+
+Is there a current source for the Dino Cube?  Both the
+vertex turning kind (with 12 pieces one for each edge)
+and the edge turning kind (with 24 pieces four on each
+face).
+
+Is Gametrends still around?  The phone number given in
+a message in 1995 does not work.
+
+--Tenie Remmel (tenie1@juno.com)
+

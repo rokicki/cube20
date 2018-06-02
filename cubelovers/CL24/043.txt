@@ -1,0 +1,107 @@
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: God's Number
+To: Keith H Randall <randall@theory.lcs.mit.edu>
+Cc: reid@math.brown.edu, cube-lovers@ai.mit.edu
+Message-Id: <Pine.WNT.3.96.971002113239.-1012347D-100000@GN209A.PSTCC.CC.TN.US>
+
+On Wed, 1 Oct 1997, Keith H Randall wrote:
+
+>    Don Dailey, Aske Plaat, and myself have a program that will do a
+> complete 22-ply search in about 24 hours on an 8 processor Sun
+> machine.  The program measures distance in the QT (quarter-turn)
+> metric.
+>
+> I've run some experiments on random cubes, summarized as follows:
+>
+> 112 random odd cubes:
+> 20   depth 19
+> 92   depth 21
+>
+> 57 random even cubes:
+> 41   depth 20
+> 16   depth 22
+
+Wow.  I am impressed with how much data you have.  For the case of
+random cubes and guaranteed optimal solutions, I believe this is the
+most data which has been posted to Cube-Lovers.
+
+It would be nice to examine enough cases to raise the probability that a
+few positions of length 17q would show up for odd cubes and of length
+18q for even cubes.  At this distance from Start, the branching factor
+for one level is about 9.3, so the branching factor for two levels
+(e.g., between level 17 and level 19) would be about 85 or so.  So you
+are just at the edge of the sample size where you would expect the
+shorter lengths to show up.
+
+Notwithstanding that, I decided to play with the numbers to see if I
+could make any reasonable projection about the overall distribution of
+lengths in the quarter-turn metric.  Here is what I have come up with.
+
+Consider the 19q case.  Your results suggest that about 17.8% of odd
+positions, and hence about 8.6% or 8.7% of all positions are exactly 19q
+from Start.  (The sample size does not support an estimate of that
+precision, of course, but let's continue anyway).  It's easy to
+calculate that no more than about 8.4% of positions can be 19q from
+Start.  From this, I would conclude two things.  First, your results
+seem right on, well within the bounds of sampling error. Second, your
+results suggest that it is very unlikely that the branching factor drops
+below about 9.3 until you pass 19q from Start.  Using the best available
+known results, plus using your results as an estimate, plus some other
+guessing, I would propose that the actual search tree for the q-turn
+case looks something like the following.
+
+Distance Number   Branching    Cumulative
+ from     of        Factor      Number of
+ Start   Positions              Positions
+
+
+   0            1                       1
+   1           12   12.000             13
+   2          114    9.500            127
+   3         1068    9.368           1195
+   4        10011    9.374          11206
+   5        93840    9.374         105046
+   6       878880    9.366         983926
+   7      8221632    9.355        9205558
+   8     76843595    9.347       86049153
+   9    717789576    9.341      803838729
+  10   6701836858    9.337     7505675587
+  11  62549615248    9.333    70055290835
+  12    5.838E+11    9.333      6.538E+11
+  13    5.449E+12    9.333      6.102E+12
+  14    5.085E+13    9.333      5.696E+13
+  15    4.746E+14    9.333      5.316E+14
+  16    4.430E+15    9.333      4.961E+15
+  17    4.134E+16    9.333      4.631E+16
+  18    3.859E+17    9.333      4.322E+17
+  19    3.601E+18    9.333      4.034E+18
+  20    1.546E+19    4.294      1.950E+19
+  21    1.657E+19    1.071      3.606E+19
+  22    6.035E+18    0.364      4.210E+19
+  23           12    0.000      4.210E+19
+  24            1    0.083      4.210E+19
+
+Notice that my table does not quite reach |G|, so there are probably a
+few more positions than this at 20q, 21q, and 22q from Start (there
+can't be more any closer to Start than that). Also, the branching factor
+probably does not remain constant at 9.333 all the way out to 19q from
+Start; it probably declines slightly, maybe to 9.300 or so.  Finally,
+the distribution is probably bimodal, with modes at 20q and 21q (it
+almost has to be bimodal because of odd/even parity considerations).
+
+(By the way, I am making no claim whatsover that the diameter of the
+cube group is 24q.  This is only an educated guess based on the evidence
+at hand.  In fact I tend to doubt it.  I think the branching factor in
+the chart just drops off too sharply at levels 21q, 22q, and 23q for
+the chart to be real.)
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+------------------------------
+
+Date: Sun, 5 Oct 1997 18:54:32 -0400

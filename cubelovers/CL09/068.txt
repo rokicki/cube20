@@ -1,0 +1,26 @@
+From dik@cwi.nl  Sun Nov  8 17:35:25 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA04853; Sun, 8 Nov 92 17:35:25 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA20522 (5.65b/3.2/CWI-Amsterdam); Sun, 8 Nov 1992 22:35:18 GMT
+Received: by boring.cwi.nl 
+	id AA21966 (5.65b/2.10/CWI-Amsterdam); Sun, 8 Nov 1992 23:35:17 +0100
+Date: Sun, 8 Nov 1992 23:35:17 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9211082235.AA21966.dik@boring.cwi.nl>
+To: cube-lovers@ai.mit.edu
+Subject: Reply to old message
+
+Going through the archives I found a message from Mike Reid, dated
+August 20, where he investigates the filtration through different
+subgroups.  I missed the original, but he says:
+ > winter's filtration is  56 --> 49 --> kl --> 1.  it may be the case that
+ > this can be improved by replacing  kl  with  17 , and allowing all face
+ > turns available in the subgroup  49.  i haven't had the time to look into
+ > this yet.
+For the record, the filtration is from Herbert Kociemba, and it is:
+	56 --> 49 --> 1.
+So there is no intermediate stage between 49 and 1.
+
+dik
+

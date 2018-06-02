@@ -1,0 +1,59 @@
+From dik@cwi.nl  Sat May  9 20:43:35 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA27274; Sat, 9 May 92 20:43:35 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA15515 (5.65b/2.10/CWI-Amsterdam); Sun, 10 May 1992 02:43:33 +0200
+Received: by boring.cwi.nl 
+	id AA00802 (5.65b/2.10/CWI-Amsterdam); Sun, 10 May 1992 02:43:31 +0200
+Date: Sun, 10 May 1992 02:43:31 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205100043.AA00802.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: More on the Cube (2x2x2 in this case).
+
+Singmaster states that the diameter of the group for the 2x2x2 cube is not
+known.  I do not know whether it has been calculated in the mean time, so
+I just did calculate it.  The number of elements in the group is
+3,674,160.  (Fix one corner, the others allow every permutation and one
+third of all possible twists.)  The diameter is 11 if we do allow half-turns,
+it is 14 if we do not allow half-turns.  The distribution is:
+If we allow half-turns:
+         1 with  0 moves
+         9 with  1 moves
+        54 with  2 moves
+       321 with  3 moves
+      1847 with  4 moves
+      9992 with  5 moves
+     50136 with  6 moves
+    227536 with  7 moves
+    870072 with  8 moves
+   1887748 with  9 moves
+    623800 with 10 moves
+      2644 with 11 moves
+If we do not allow half-turns:
+         1 with  0 moves
+         6 with  1 moves
+        27 with  2 moves
+       120 with  3 moves
+       534 with  4 moves
+      2256 with  5 moves
+      8969 with  6 moves
+     33058 with  7 moves
+    114149 with  8 moves
+    360508 with  9 moves
+    930588 with 10 moves
+   1350852 with 11 moves
+    782536 with 12 moves
+     90280 with 13 moves
+       276 with 14 moves
+In the first case heuristics give a diameter of at least 9.  We see that the
+majority of the configuration is within distance 9 from start.  So it appears
+that heuristics get close to the real value.
+We see also that in both cases there is more than one diametrally opposite
+configuration.  Next I will find out which those are (and if they have
+something in common).
+
+BTW, calculation did not take very long, only a few (<3) minutes on an FPS
+(i.e.  an extremely fast SPARC).  But as the calculations are memory bound
+rather than compute bound, the speed of the processor is not so very important.
+

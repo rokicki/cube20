@@ -1,0 +1,44 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Nov 20 21:52:54 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA22910; Thu, 20 Nov 1997 21:52:53 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Nov 19 11:58:12 1997
+Date: Wed, 19 Nov 1997 11:53:14 -0500
+Message-Id: <000E9C40.001706@scudder.com>
+From: jdavenport@scudder.com (Jacob Davenport)
+Subject: Re: Rubiks Revenge moves
+To: Cube-Lovers@ai.mit.edu
+
+Forget three adjacent top edges, I just want to cycle two of them.  I've
+been solving a 5x5x5, and finally figured out how to make it look like a
+3x3x3 so that I could solve nearly all of it.  However, the one place where
+I cannot do that is solving the second and fourth edges from any side, and
+have been using a short move that cycles three of them:
+
+.axx.      .bxx.
+y....      z....
+y....  =>  z....
+b....      a....
+.czz.      .cyy.
+
+The move is 2L F' L F 2L' (where 2L means the second layer from the
+left)
+
+This works great for getting nearly all the edges in place, but I have
+two edges that are switched, and every time I use this move to put
+them in place, I either leave two other edges out of place or leave
+four edges out of place.  That is, I have the following:
+
+.baa.                              .aaa.
+b....                              c....
+b....  which I can only make into  c....
+a....                              b....
+.ccc.                              .cbb.
+
+which does not help.
+
+I believe that my move works on 4x4x4 edges, and any move that helps a 4x4x4
+cube will probably help me.
+

@@ -1,0 +1,42 @@
+From cube-lovers-errors@oolong.camellia.org  Fri Jun  6 21:24:21 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id VAA11757; Fri, 6 Jun 1997 21:24:20 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Fri, 6 Jun 1997 05:27:12 -0400
+Message-Id: <199706060927.FAA00399@dlitwinHome.geoworks.com>
+From: David Litwin <dlitwin@emf.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+To: cube-lovers@ai.mit.edu
+Subject: 5x5x5 Stuctural Integrtity
+
+
+	The orange sticker problem seems to be with all of them.  Mine had
+some small documentation with it mentioning that putting a piece of paper
+on the orange side and ironing it a bit will help fix the stickers on the
+cube.  It worked well for me and I've not had any problems with them
+anymore.
+	As to keeping it in one piece, pop off the caps of the center
+pieces and tighten the screws underneath.  Adjust this tension to tight and
+your cube won't move well, too loose and it will fall apart.  I had trouble
+getting the caps off one of my 5x5x5s, but on the other they often fall off
+on their own, good luck.
+
+	Dave Litwin
+
+Joe McGarity writes:
+> Where are you able to find 5x5x5 cubes that don't instantly fall apart? 
+> I have had nothing but trouble with mine.  Is there more than one on the
+> market?  I am only aware of the one manufactured in Germany.  Not only
+> have I never been able to solve it, but I have never been able to
+> scramble it.  It simply crumbles away in my hands.  The orange stickers
+> seem to have a habit of fleeing the cube in terror.  (It's always the
+> orange ones on any cube that fall off first.  Has anyone else noticed
+> this?)  At any rate, if there is some other source for these cubes or if
+> I simply got a bad one, someone please let me know.  Wei-Hwa Huang's
+> post has made me want to pick it up and try it out, but so far, mine is
+> only for looks.
+
+

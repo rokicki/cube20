@@ -1,0 +1,32 @@
+From BRYAN@wvnvm.wvnet.edu  Sun Jun 18 15:55:14 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03583; Sun, 18 Jun 95 15:55:14 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4771; Sun, 18 Jun 95 15:55:23 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 3480; Sun, 18 Jun 1995 15:55:23 -0400
+Message-Id: <wvmail32.1995jun18.154620.bryan@wvnvm.wvnet.edu>
+Date:      Sun, 18 Jun 1995 15:55:22 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: A Third Way to Calculate the Real Size of Cube Space?
+In-Reply-To: Message of 06/17/95 at 17:18:00 from BRYAN@wvnvm.wvnet.edu
+
+I should have said "a fourth way", I think.  Martin Schoernert
+performed the same calculation with GAP.  Hence, we have three
+ways in hand: 1) Dan's Polya-Burnside method, 2) Martin's GAP
+calculations, and 3) brute force computer search.  My new
+proposal would then be a fourth way.
+
+Here is a question for Martin: is there any way with GAP to calculate
+the number of M-conjugacy classes associated with each symmetry class?
+It is this additional information about the "real cube space" which
+*is* available via computer search, and for which I am proposing
+an alternative which does not involve computer search.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

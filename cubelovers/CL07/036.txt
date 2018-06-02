@@ -1,0 +1,58 @@
+From pbeck@pica.army.mil  Mon Apr 22 15:35:39 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA21942; Mon, 22 Apr 91 15:35:39 EDT
+Date:     Mon, 22 Apr 91 15:20:08 EDT
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  puzzle party review
+Message-Id:  <9104221520.aa15409@FSAC1.PICA.ARMY.MIL>
+
+
+
+Review of the 11th  INTERNATIONAL PUZZLE PARTY
+ Held on March 30,31 1991 at the Pacifica Hotel Culver City, CA USA
+
+EVENTS
+..  Saturday
+          daytime - puzzle exchange; admission requirement a puzzle
+gift for each other attendee
+          evening - dinner party and magic show;  MAGICIANS:  Max
+Maven, Mark Setteducati, Mike Weber
+..  Sunday:  A ballroom is set up for cash sales of puzzles.
+
+CUBING HIGHLIGHTS
+..  Minh Thai gave a demonstration of doing the cube (he is Guiness
+world record holder).  His algorithm is:
+     1  -  corners first
+     2  -  3 of 4 edges on each face
+     3  -  last face
+..  Anneke Treep a founder of CFF was in attendance.  CFF will
+probably host 13th party scheduled for Europe.
+..  A spherical SKEWB is in production.  Very interesting puzzle.
+
+OTHER HIGHLIGHTS
+..  partial list of attendees (about 100 puzzlers attended):  
+     NOB, a prominent Japanese puzzler
+     Ed Hordern author of Sliding Block book published by OUP
+     Jerry Slocum, party arranger and author of Puzzles Old & New
+     Kathy Jones, owner of Kadon
+     Solomon Golomb, polycube inventor
+     Jose Grant, designer of jewelry quality puzzle rings
+     Scott Kim, inversions
+     Christoph Bandelow, German seller of magic polyhedra and author
+     Doug Engel, designer of circle puzzler, flexagon based puzzles
+     James Dalgety, a founder of Pentangle
+
+..  4 artists in attendance:  one makes sculptures that assemble as
+puzzles, one makes pattern assembly puzzles by vacuum deposition of
+metals on glass squares, one makes Tiffany style lamps using tangram
+pieces & silhouettes for the design, the last uses puzzles primarily
+for inspiration.
+..  
+
+
+FUTURE PARTY SCHEDULE
+-   12th  Tokyo Japan, Host NOB
+-   13th  Netherlands, host CFF
+-   14th  probably USA
+

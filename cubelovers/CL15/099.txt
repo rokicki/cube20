@@ -1,0 +1,28 @@
+From hoey@aic.nrl.navy.mil  Tue May  9 12:11:08 1995
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22920; Tue, 9 May 95 12:11:08 EDT
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA26374; Tue, 9 May 95 12:11:02 EDT
+Date: Tue, 9 May 95 12:11:02 EDT
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9505091611.AA26374@Sun0.AIC.NRL.Navy.Mil>
+To: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+Cc: "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject: Re: more on the slice group
+
+Jerry Bryan writes:
+
+> I don't yet understand why Mike's position is a local maximum in the
+> full cube group.  But assuming it is, it is not only the shortest
+> local maximum, it is the first local maximum which is not
+> Q-transitive (i.e, we have |{m'Xm}|=24, hence we have |Symm(X)|=2,
+> and the size of the symmetry groups for Q-transitive positions
+> must be divisible by 12.).
+
+No, the 4-spot pattern is also a local maximum at 12 qtw, although its
+symmetry group is of order 16.  Jim Saxe and I reported this on 22
+March 1981, in "No short relations and a new local maximum".
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

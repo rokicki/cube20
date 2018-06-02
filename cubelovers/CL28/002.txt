@@ -1,0 +1,31 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep  2 14:10:05 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA15100
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 2 Sep 1999 14:10:03 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Reply-To: <noel@mud.ca>
+From: "Noel Dillabough" <noel@mud.ca>
+To: "Cube Lovers List \(E-mail\)" <cube-lovers@ai.mit.edu>
+Cc: <arensb@cfar.umd.edu>
+Subject: Square One Parity fix
+Date: Fri, 20 Aug 1999 02:24:28 -0400
+Message-Id: <000801beead4$b3a899d0$020a0a0a@NOEL>
+
+I have just finished modelling the Square One puzzle in Puzzler and in
+testing found a flaw in my solution.  In order to correct a parity problem
+(where you have to swap only 2 pieces rather than 4) I do the following
+move:
+
+(in Arensburger notation:)
+
+R,t3,b3,R,t1,b2,R,t2,b2,R,t6,R,b-2,t-2,R,b-2,t-1,R,b-3,t-3,R
+
+This scrambles the cube up a bit but makes it solvable using standard moves.
+
+There must be a better move than this!  If anyone knows a better way to swap
+two pieces, let me know.
+
+-Noel
+

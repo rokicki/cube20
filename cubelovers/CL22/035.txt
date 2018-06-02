@@ -1,0 +1,50 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Mar  6 15:48:05 1997
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id PAA01483; Thu, 6 Mar 1997 15:48:05 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: bagleyd <bagleyd@megahertz.njit.edu>
+Message-Id: <199703061759.MAA19236@megahertz.njit.edu>
+Subject: winpuzzles and xpuzzles
+To: cube-lovers@ai.mit.edu
+Date: Thu, 6 Mar 1997 12:59:28 -0500 (EST)
+X-Mailer: ELM [version 2.4 PL24]
+Content-Type: text
+
+Hi
+
+I made a new release of my puzzles.
+They are available for Windows 3.1 and above at
+http://megahertz.njit.edu/~bagleyd/
+as
+winpuz64.zip
+source is available also for each puzzle.
+
+For X
+ftp://sunsite.unc.edu//pub/Linux/games/x11/strategy/xpuzzles-5.4.1.tgz
+Also available at the site below, you may need a mirror though to get it from
+ftp.x.org since they only allow 50 users.
+
+They puzzles include:
+
+I updated all the txt/manual files. So they now contain a little history
+of the origins of each with references.
+
+Fixes for the Masterball
+
+Auto solve capability for Panex thanks to Rene Jansen <RENE.R.J.JANSEN@RCC.nl>
+(based on the algorithm in Quantum Jan/Feb 96).
+Panex with 3 tiles on each side is known to be solvable in 42 moves
+The version here solves it in 45.  Rene and I would both like to improve this.
+
+For the X versions I added: Username, concurrency check, configure
+
+-- 
+Cheers, 
+  /X\   David A. Bagley
+ // \\  bagleyd@bigfoot.com   http://megahertz.njit.edu/~bagleyd/
+((   X  xlockmore, new stuff for xlock @ ftp.x.org//contrib/applications
+ \\ //  altris, tetris games for x @ ftp.x.org//contrib/games/altris
+  \X/   puzzles, magic cubes for x @ ftp.x.org//contrib/games/puzzles
+
+

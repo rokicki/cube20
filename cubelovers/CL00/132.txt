@@ -1,0 +1,68 @@
+Date:  3 September 1980 2328-EDT (Wednesday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers (and Hackers) at MIT-MC
+Subject:  Addictiveness/Disassembly/Taxonomy/Lubrication/Spoilers
+Message-Id: <03Sep80 232808 DH51@CMU-10A>
+
+Hello.  I saw the notice announcing the formation of this list a couple
+months ago, and decided that it was one of those things I could forgo
+-- until I got my hands on a physical cube.  It was an immediate
+necessity to own one.  I bought an Ideal brand cube, which, I
+understand, is of the species C.  Americanus in spite of its "Made in
+Hungary" label.
+
+I had owned the cube less than ten minutes before a facie cover fell
+off, without the aid of chemical additives.  This was not very
+destructive; just about any gummy material (I used gluestick) suffices
+to hold it on.  However, the screw head revealed by this unusual
+transformation leads to a new method for disassembly.  Unscrewing does
+not stress the cube as does prying, and probably avoids the deleterious
+side-effects observed by Greenberg (16 Aug 1453).  This method is not
+without its hazards, however.  It is EXTREMELY easy to strip the threads
+on the plastic X that holds the cube together.  I have paper shims in
+the two threads I stripped and they seem to suffice.  Still, it is
+probably better just to loosen the screw until the cube comes apart
+with gentle prying.
+
+There is at least one good reason for taking a screwdriver to the cube.
+Mine had been assembled with several of the screws so tight that the
+springs were completely compressed.  Due to mfg inaccuracies in the
+cubies, this made the cube difficult to twist.  By prying each of the
+facies off with a fingernail I was able to correct the tension.
+
+Jim Saxe's cube, putatively of the same species but purchased in a
+different store at 80% the price, has facies which seem impervious to
+this prying even after disassembly a la Greenberg (17 Jul 2118).  Jim
+and I exhausted our fingernails to no avail, and careful prying with a
+knife was unsuccessful.  Additionally, this cube has a strong tendency
+to jam, due either to its uncorrectable looseness or to its edge
+cubies, which have oversized tongues with extremely sharp edges.  The
+differences lead us to believe that our cubes may belong to different
+species in spite of their outward similarity.
+
+I am amazed that anyone would put molybdenum disulfide on their cube.
+Isn't that stuff poisonous?  Graphite works well but is messy if you
+overdo it.  Silicone lubricant was mentioned by Zimmerman (25 Aug 0907)
+-- has anyone any experience with this?  Merrick Furst recommends soap.
+
+For anyone who cubes in public, the only word for LACK of fear that
+someone will F your cube is Cubemeistership.  I made a mistake in taking
+the cube to one session of a recent conference.  The sequence
+4(Borrow)4(Borrow') appeared to have an entropic effect on the cube and
+a negative effect on the transfer of information.
+
+SPOILER WARNING:  I have one transform which I haven't seen here, and
+which I find useful:  an 8-qtw move to permute three corners of a face.
+Specifically, for {fdl flu fur -> ufl rfu lfd} do <fdFUfDFu>.
+Mnemonically, you move a socket back and forth between flu/fdl with the
+f/F transforms, alternating with moving one of the three pointies
+(cornies?)  to be permuted into the socket.  Why it works is a mystery to
+me, but it's useful.
+
+Another, which should be obvious but improves Landauer's (27 Aug 0128)
+C7, is the cw monotwist {flu -> luf in u-face} <fDFdfDF>=<T1>.  Then
+{flu fur -> luf rfu} is <T1U(T1)'u>=<fDFdfDFUfdFDfdFu> taking 16qtw
+instead of 60 (assuming <M>=<i>, <m>=<I>).
+
+All for now. -- Dan
+

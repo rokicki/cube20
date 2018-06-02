@@ -1,0 +1,77 @@
+Date: 19 Jul 1980 11:27 PDT
+From: McKeeman.PA at PARC-MAXC
+Subject: Re: Where to get them in the Boston Area, Cube Language.
+In-reply-to: Your message of 07/19/80 01:42:56
+To: ACW@MIT-AI
+cc: CUBE-LOVERS at MIT-MC, Lynn.ES, Horning, Sturgis
+
+Your proposal for a language leads me to suspect that you have not seen:
+
+NOTES ON THE 'MAGIC CUBE'
+David Singmaster
+Mathematical Sciences and Computing
+Polytechnic of the South Bank
+London, SE1 0AA, England
+
+which you can get by sending him $3.  The fourth printing runs 36 pages.  It is
+definitely worth the money.
+
+Cube quality:  I have handled about a dozen Hungarian import versions of the
+cube with enormous variation in quality.  They were all the colortab-on-black
+variety.  They sell out here in the discount stores like K-Mart for less than $9.  I
+have also seen a colortab-on-white version which is not substantially different
+in quality from the Hungarian versions.  My advice is to pick and choose as best
+you can from the ones on the shelf, regardless of what kind you get.
+
+As for your language proposal, I like the RLUDFB abbreviations given by
+Singmaster and generally used in Europe to your T plus whole cube moves.
+They mean rotate the (Right, Left, Up, Down, Front, Back) surface 90o
+clockwise.  I also use rludfb for the inverses of them.  However since
+(fortunately) these two notations have a null intersection, there is no
+disadvantage in mixing them.  For consistency, however, I suggest ijk for
+counterclockwise moves, and IJK for clockwise ones.  This does little violence to
+the quaternion origins where lower case is generally used anyway.  The ' for
+inverse notation is fine; in fact I frequently prefer R' to r when I write down
+algorithms.  The mappings then are, substituting f for your T:
+
+F = f'
+R = F[J]
+r = f[J] = R'
+L = F[j]
+l = f[j] = L'
+U = F[i]
+u = f[i] = U'
+D = F[I]
+d = f[I] = D'
+B = F[ii]
+b = f[ii] = B'
+
+It also solves the problem that I was having of saying IJK in English since there
+is no way to say it in "Singmaster".
+
+I didn't follow your Pons Asinorum checkerboard solution because I didn't
+understand the Z in Q, but in the mixed notation I think it is:
+
+rrllffbbuudd
+
+or, if Q = rrll;  QjQkQ
+
+Your "quite pretty" is  (lrfb)^3 = (lr (lr)[j])^3
+
+I propose the following grammer for RCML (Rubik Cube Manipulation
+Language):
+
+algorithm ::= definition* move*
+definition ::= letter = algorithm ;
+move ::= letter
+   | move'
+   | move^digit
+   | move[algorithm]
+   | (algorithm)
+digit ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+
+where the letters RLUDFBrludfbIJKijk are predefined as noted above.
+
+--Bill
+
+

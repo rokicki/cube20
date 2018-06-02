@@ -1,0 +1,25 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 12 16:53:45 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA18789
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 12 Mar 1999 16:53:45 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 10 Mar 1999 23:53:19 -0500
+Message-Id: <001B5BAE.C22092@scudder.com>
+From: Jacob_Davenport@scudder.com (Jacob Davenport)
+Subject: Re: help on 5x5x5 wings
+To: cube-lovers@ai.mit.edu, Martin Moller Pedersen <tusk@daimi.au.dk>
+
+I have a decent solution to the 5x5x5 on my web page at
+www.wunderland.com/WTS/Jake.  I call those cubies "wings"
+also, and I foolishly assumed that I invented the term.
+Either that, or you have looked at my solution and are
+still having trouble.  Please let me know if this page
+is helpful or not.  If not, I would be happy to explain
+further how I solve the wings.
+
+Indeed, 3x3x3 moves will not help you with the wings.
+
+-Jacob
+

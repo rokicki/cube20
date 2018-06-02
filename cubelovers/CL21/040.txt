@@ -1,0 +1,26 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Nov  4 15:29:43 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id PAA13904; Mon, 4 Nov 1996 15:29:43 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Mon, 4 Nov 1996 15:12:06 -0500 (EST)
+Message-Id: <199611042012.PAA24488@itchy.mindspring.com>
+X-Sender: gammet@mindspring.com
+X-Mailer: Windows Eudora Light Version 1.5.2
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Aben Gentry <gammet@mindspring.com>
+Subject: Rubik's Clock...
+
+Hey Guys,
+
+Have any of you figured out how to solve Rubik's clock yet? Also, what is
+best source for cubes (and cube-like puzzles) that you know of? ...I
+normally shop at Puzzletts.
+
+Aben Gentry
+abeng@mindspring.com
+
+
+

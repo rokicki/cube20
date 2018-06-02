@@ -1,0 +1,128 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Tue Mar  7 00:02:49 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14963; Tue, 7 Mar 95 00:02:49 EST
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <174044-8>; Tue, 7 Mar 1995 00:01:32 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA10058; Mon, 6 Mar 95 23:56:25 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1D3F42; Mon,  6 Mar 95 23:46:14 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: New GAP insights
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1076.5834.0C1D3F42@canrem.com>
+Date: Mon, 6 Mar 1995 23:44:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+Okay, I understand the GAP conventions better now.
+
+If we adhere to the following model for the cube:
+
+                         +--------------+
+                         |  1    2    3 |
+                         |  4  top    5 |
+                         |  6    7    8 |
+          +--------------+--------------+--------------+--------------+
+          |  9   10   11 | 17   18   19 | 25   26   27 | 33   34   35 |
+          | 12  left  13 | 20 front  21 | 28 right  29 | 36  rear  37 |
+          | 14   15   16 | 22   23   24 | 30   31   32 | 38   39   40 |
+          +--------------+--------------+--------------+--------------+
+                         | 41   42   43 |
+                         | 44 bottom 45 |
+                         | 46   47   48 |
+                         +--------------+
+
+Then the Pons Asinorum would be:
+pons := ( 2,42)( 4,45)( 5,44)( 7,47)(10,31)(12,28)(13,29)(15,26)
+        (18,39)(20,36)(21,37)(23,34);;
+
+
+And the slice group would be:
+slice := Group(
+    ( 1, 3, 8, 6)( 2, 5, 7, 4)( 9,33,25,17)(10,34,26,18)(11,35,27,19)
+    (41,46,48,43)(42,44,47,45)(14,38,30,22)(15,39,31,23)(16,40,32,24),
+    ( 9,11,16,14)(10,13,15,12)( 1,17,41,40)( 4,20,44,37)( 6,22,46,35)
+    (25,30,32,27)(26,28,31,29)( 3,19,43,38)( 5,21,45,36)( 8,24,48,33),
+    (17,19,24,22)(18,21,23,20)( 6,25,43,16)( 7,28,42,13)( 8,30,41,11)
+    (33,38,40,35)(34,36,39,37)( 3,32,46, 9)( 2,29,47,12)( 1,27,48,14)
+  );;
+
+
+And the anti-slice group would be:
+antisl := Group(
+    ( 1, 3, 8, 6)( 2, 5, 7, 4)( 9,33,25,17)(10,34,26,18)(11,35,27,19)
+    (41,43,48,46)(42,45,47,44)(14,22,30,38)(15,23,31,39)(16,24,32,40),
+    ( 9,11,16,14)(10,13,15,12)( 1,17,41,40)( 4,20,44,37)( 6,22,46,35)
+    (25,27,32,30)(26,29,31,28)( 3,38,43,19)( 5,36,45,21)( 8,33,48,24),
+    (17,19,24,22)(18,21,23,20)( 6,25,43,16)( 7,28,42,13)( 8,30,41,11)
+    (33,35,40,38)(34,37,39,36)( 3, 9,46,32)( 2,12,47,29)( 1,14,48,27)
+  );;
+
+Size (antisl) = 6,144
+Size (slice)  =   768
+
+These numbers concur with Mr. Singmaster's earlier "Notes".
+
+The following command shows that pons is at the centre of slice group:
+Size (Centralizer (slice, pons)) = 768
+
+Once again, I will refer to Martin's earlier statement about
+ centralizers:
+
+>  That is, of the total 980995276800 elements in GE
+>  only 980995276800/332640 = 2949120 elements centralize P.
+>  And I used the definition of P from your e-mail of 1995/01/03,
+>  i.e., P = (F2 B2) (U2 D2) (L2 R2) = (F2 B2) (L2 R2) (U2 D2) = ...
+>  (one gets the same element independent of the order of the
+>   three pairs).
+
+So now that I have the groups and pons element correct:
+Size (Centralizer (edge, pons)) = 2,949,120
+
+I wrote some statements before....
+
+> Only 2,949,120 elements of GE centralize P,
+> also only...
+>     2,949,120 elements of G centralize P
+
+I am only partly correct as....
+
+Size (Centralizer (cube, pons)) = 130,026,464,870,400
+
+As Martin said before:
+>     Only one out of 332640 elements of GE (and of G) centralizes P.
+
+Size (cube) / 332640 = 130,026,464,870,400
+ or 130 trillion and change.
+
+...the full cube group has many more elements which commute with
+pons than the mere edge group!
+
+GAP is a very function-laden beastie:
+
+Size (Intersection (antisl, slice)) = 8
+This function gives the number of elements included in both the
+anti-slice and slice groups.
+
+Naturally there is a corresponding Union function.
+
+Since I have studied the squares group and the <U, R> group, the
+number of elements in the intersection of the two are of
+particular interest:
+
+Size (Intersection (ur, sq)) = 72
+
+And now we have a new way to check an old result  :-)
+Order (cube, uturn * rturn) = 105
+
+Of course, now that I have answered my old questions, I must
+formulate new ones....
+
+A) What is the next most commutative element (the pancentre?)
+  after the 12-flip?
+B) What is the least commutative element (the anticentre?) of
+  the cube group?
+
+-> Mark <-
+

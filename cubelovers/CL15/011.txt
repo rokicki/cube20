@@ -1,0 +1,48 @@
+From BRYAN@wvnvm.wvnet.edu  Fri Jan 20 20:41:10 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27138; Fri, 20 Jan 95 20:41:10 EST
+Message-Id: <9501210141.AA27138@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 0675; Fri, 20 Jan 95 17:07:06 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 0198; Fri, 20 Jan 1995 17:07:06 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Fri, 20 Jan 1995 17:07:05 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <mreid@ptc.com>, "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject:   Re: superflip in quarter turn metric
+In-Reply-To: Message of 01/20/95 at 15:58:08 from mreid@ptc.com
+
+On 01/20/95 at 15:58:08 mreid@ptc.com said:
+>i've finished searching for superflip in  20q , and no solutions were
+>found.  thus superflip requires at least  22q , which gives a new lower
+>bound for the diameter of the cube group in the quarter turn metric.
+>total cpu spent on the search was 29 cpu hours.  based on this, i would
+>make a rough estimate of 2.5 to 3 months cpu time for an exhaustive
+>search through depth  22q.
+
+Rats.  You beat me by about a half hour.  I just finished comparing
+Level 10 of my data base with the same Level 10 superflipped.  There
+were no matches.
+
+I just about have Level 11 completed.  This will provide interesting
+new information in and of itself, because previously there has only
+been an exhaustive search through level 10.  Once I complete Level 11,
+I will superflip it and see what happens.
+
+The superflip is especially amenable to a "two half depth search".
+Normally, you would have to build one tree with Start at the root,
+and a second tree with X at the root, where X is the position you
+were testing.  But a search tree with superflip at the root is
+identical to a search tree with Start at the root except that the
+superflip tree has each element superflipped as compared to the
+respective element of the tree with Start at the root.  Hence,
+building the tree with Superflip at the root is quite easy once
+the tree with Start at the root is in hand.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

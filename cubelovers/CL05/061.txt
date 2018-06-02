@@ -1,0 +1,13 @@
+Received: by gyre.ARPA (4.12/4.7)
+	id AA09303; Mon, 1 Oct 84 21:10:44 edt
+Date: Mon, 1 Oct 84 21:10:44 edt
+From: Rehmi Post <rehmi@gyre>
+Message-Id: <8410020110.AA09303@gyre.ARPA>
+To: cube-lovers@mc
+Subject: Archives
+
+Does anyone have copies (partial or otherwise) of the cube-lovers mailing
+list? I need it as a reference generator/thought provoker, and if I could
+ftp it all from someone, it'd be nice...
+
+			- rehmi at maryland

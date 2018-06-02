@@ -1,0 +1,62 @@
+From cube-lovers-errors@oolong.camellia.org  Sat Jun 28 14:03:46 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id OAA13053; Sat, 28 Jun 1997 14:03:46 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Sat, 28 Jun 1997 05:50:29 -0400 (EDT)
+From: Jiri Fridrich <fridrich@binghamton.edu>
+X-Sender: fridrich@bingsun2
+To: Corey Folkerts <CFolkerts@compuserve.com>
+cc: Cube-Lovers@ai.mit.edu
+Subject: Re: First corners, then sides
+In-Reply-To: <199706271628_MC2-1961-C7B8@compuserve.com>
+Message-ID: <Pine.SOL.L3.93.970628054201.15344A-100000@bingsun2>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+It appears that both systems are good if worked out into sufficient
+detail. As far as I know, the fastest speed cubists can achieve an average
+of 16-17 seconds irrespective! of whether they use corners-edges or
+by-slices systems. You can look at a system which I have developed some
+time ago and which enables me to solve the cube in 17 sec. on average. It
+is described in detail here: http://ssie.binghamton.edu/~jirif/. I also
+recommend the section on speed cubing tips.
+
+Good luck!
+
+Jiri
+
+On Fri, 27 Jun 1997, Corey Folkerts wrote:
+
+> 
+> 
+>         During the last 5 months or so I have been fiddling around with a
+> Rubik's Cube that I got for Toys R Us. I have become pretty good at solving
+> it with the layers method (90 seconds is my record so far.) My question is
+> this : Is the method of solving the cube corners first and then sides any
+> faster (once one becomes good at it) then solving it by layers? If so,
+> could someone please reply with a description of that method. I don't know
+> the names of any fancy moves, so if possible please  use F B U D L R for
+> the faces during specific moves and expain the other parts of the strategy
+> clearly. I realize this is asking alot. Thanks in advance to anyone who
+> replies!
+> 
+>         Corey Folkerts
+> 
+> 
+
+**********************************************************************
+|  Jiri FRIDRICH, Research Associate, Dept. of Systems Science and   |
+|  Industrial Engineering, Center for Intelligent Systems, SUNY      |
+|  Binghamton, Binghamton, NY 13902-6000, Tel.: (607) 797-4660,      |
+|  Fax: (607) 777-2577, E-mail: fridrich@binghamton.edu              |
+|  http://ssie.binghamton.edu/~jirif/jiri.html                       |
+**********************************************************************
+
+......................................................................
+
+Remember, the less insight into a problem, the simpler it seems to be!
+----------------------------------------------------------------------
+
+
+

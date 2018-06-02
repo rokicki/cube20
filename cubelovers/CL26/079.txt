@@ -1,0 +1,86 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Dec 17 15:55:31 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA21935
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 17 Dec 1998 15:55:29 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 17 Dec 1998 10:02:24 -0500 (Eastern Standard Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re : Re: Optimal Cube Solver
+In-Reply-To: <Pine.GSO.3.95L.981208183158.13948B-100000@sunny.isis.unc.edu>
+To: Alchemist Matt <monroem@email.unc.edu>
+Cc: Cube Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <SIMEON.9812171024.D@GN209A.PSTCC.CC.TN.US>
+
+On Tue, 08 Dec 1998 18:37:02 -0500 (EST) Alchemist Matt
+<monroem@email.unc.edu> wrote:
+
+> This question is directed to both Herbert and Mike Reid in case he's
+> reading this list:  With all this discussion of the "Professor Cube"
+> lately, how hard would it be to extend either Optimal cube solving program
+> to handle 4x4x4 and 5x5x5 cubes in addition to the traditional 3x3x3?
+> Considering reasonable table files (50 - 100 mb), how much longer would
+> the computation time be extended by.  If either of you would find the time
+> to implement this modification, I would be very interested in trying out
+> the program.
+
+Mike Reid has already answered this question in the
+negative with respect to optimal solvers, based on the
+huge size of the search spaces that would be involved. For
+several years, I have wondered about the same thing with
+respect to a God's Algorithm search of a Start rooted tree
+(how many positions are one move from Start, how many are
+two moves from Start, etc.).
+
+You could obviously get a few moves from Start, but I don't
+think you would get very far.  For example, with my
+existing program, I think maybe I could get five or six
+moves from Start with the 4x4x4 or the 5x5x5.
+
+However, I have been reluctant to deal with either the
+4x4x4 or the 5x5x5 for several reasons.  One is that the
+programming is not quite as easy as it might seem, or at
+least not for my program the way it is written. In
+principle, all I would have to do is replace the existing
+tables for the permutations which generate the 3x3x3 with
+the corresponding tables for the 4x4x4 and the 5x5x5 and
+everything should just work.  However, my program contains
+optimizations previously described on Cube-Lovers which are
+very dependent on the edge and corner structure of the
+3x3x3.  For the larger problems, I would have to add a bit
+(not a lot, but a bit) of new code to deal with new kinds
+of pieces.
+
+Secondly, in the case of the 4x4x4 I would have to deal
+with might be called rotational equivalences, for example
+that RrL'l' (capital letters denote moving the outer layers
+and lower case letters denote moving the inner layers)
+would normally treated as being equivalent to the Start
+state.  Both ways I know how to do it would require some
+reprogramming, especially in light of the same existing
+optimizations I talked about before with respect to the
+3x3x3.  Namely, I could treat rotations as being
+equivalent, so that x is equivalent to all positions of the
+form xc for c in C.  Or I could fix one of the corners.
+
+Thirdly, I would have to deal with what might be called
+invisible equivalences, where pieces can be moved without
+the movement being visible on a physical cube.  In the case
+of the 4x4x4 (for example), the four "face center" facelets
+on each face can move with respect to each other (subject
+to parity constraints) without the movement being visible. 
+I would think that you would want to treat such differences
+as being equivalent.
+
+Actually, I think that an optimal solver for the 4x4x4 or
+the 5x5x5 would need to deal with some of the same issues,
+in addition to the huge size of the search spaces that was
+pointed out by Mike Reid in his original response to this
+question.
+
+----------------------------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+Pellissippi State Technical Community College
+

@@ -1,0 +1,45 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 12 15:58:21 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA18643
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 12 Mar 1999 15:58:20 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <36E7D3A7.1796@ameritech.net>
+Date: Thu, 11 Mar 1999 08:31:03 -0600
+From: Hana Bizek <hbizek@ameritech.net>
+Reply-To: hbizek@ameritech.net
+To: cube-lovers@ai.mit.edu
+Subject: color
+
+Hello, cube-lovers,
+
+May I address an issue of cube colors, brought here by Dr. Singmaster?
+
+Color problem is crucial to those of us who engage in creating
+multi-cube designs, particularly if those designs are 3-dimensional. In
+such designs it is possible to suppress colors and create designs of,
+e.g., three colors only on its faces. No, I have not gone insane, I know
+what I am talking about.
+
+It is most unpleasant for a designer to have stickers falling off his or
+her cubes! The cubes should be well-made and their colors distinct. I
+find the orange and red colors to be nearly identical in hue. The red is
+light and the orange is dark, which is bad. I try to solve the problemn
+by suppressing orange in my 3-, 4- and 5-color designs, but it is
+irritating. Why  can't the cube makers replace red-orange colors by
+pink-dark red for better contrast?
+
+Another issue is parity pairs. In solution algoirithms you  don't kave
+to know them, but they are crucial in 3-dimensional-design algorithms.
+They make the above-mentioned color suppression possible. Now why can't
+the manufacturers sell such pairs? If they don't know what parity pairs
+are, I will tell them.
+
+Hana Bizek
+physicist, and
+3-d Rubik's cube designer
+
+[Moderator's note: By parity pairs, I rather suspect he means mirror-image
+pairs.]
+

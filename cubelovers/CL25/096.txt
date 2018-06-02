@@ -1,0 +1,49 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jul 30 11:17:20 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id LAA26057; Thu, 30 Jul 1998 11:17:20 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue Jul 28 14:39:58 1998
+Message-Id: <35BE13D0.874D8E6D@t-online.de>
+Date: Tue, 28 Jul 1998 20:09:20 +0200
+Reply-To: Rainer.adS.BERA_GmbH@t-online.de
+Organization: BERA Softwaretechnik GmbH
+To: Cube Mailing List <Cube-Lovers@ai.mit.edu>
+Subject: 4x4x4 patterns
+From: Rainer.adS.BERA_GmbH@t-online.de (Rainer aus dem Spring)
+
+Dear cube-lovers,
+
+Of course, HTML is the format I should have used. I'll try to get a
+latex->html converter for NT.
+
+Anybody my post the patterns in any format.
+
+The R_123 means turn 3 slices - this is the same as turning L and then
+turn the whole cube R.
+
+This notation was inspired by Bandelow's usage of slice moves.  The
+advantage is, it makes sense for any cube. The disadvantage is, most
+cubologists don't accept these "moves".
+
+I have checked all patterns on my (physical) 4x4x4 cube.
+
+I don't think using conjugation and commutatotrs is very user-friendly.
+The maneuvers are not optimized and anybody will be able to figure out
+how they were constructed using conjugation and commutators, though.
+
+As far as I remember the patterns were the last thing I did in those
+golden cube days :)
+
+Does anybody know of a cube simulator for Mathematica ?
+
+Rainer adS
+-- 
+--------------------------------------------------------------------------
+Rainer aus dem Spring       email  Rainer.adS.BERA_GmbH@t-online.de (home)
+Schimmelbuschstr. 10        email  TEEADS@TEE.toshiba.de (business only)
+40699 Erkrath               tel. +49 (0)02104 35157  (private)
+Germany                     tel. +49 (0)02104 936150 (business)
+---------------------------------------------------------------------------
+

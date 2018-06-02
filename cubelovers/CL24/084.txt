@@ -1,0 +1,193 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Nov 15 22:37:51 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id WAA20977; Sat, 15 Nov 1997 22:37:51 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sat Nov 15 14:55:00 1997
+Date: Sat, 15 Nov 1997 14:54:07 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+Reply-To: Nicholas Bodley <nbodley@tiac.net>
+To: David Singmaster <david.singmaster@sbu.ac.uk>
+Cc: tenie1@juno.com, cube-lovers@ai.mit.edu
+Subject: RE: 6x6x6 cube design; also notes about the 2^3 innards. (Fairly long)
+In-Reply-To: <009BD499.F2FD74E5.202@ice.sbu.ac.uk>
+Message-Id: <Pine.BSF.3.96.971115130333.25685A-100000@shell2.tiac.net>
+
+
+ There's a short mention in passing in Douglas Hofstadter's (second
+major?) book (Metamagical Themas?) to the effect that a physical
+prototype exists for the 6^3, and a paper design for the 7^3. This was
+ca. 1982, iirc.
+
+On Fri, 14 Nov 1997, David Singmaster wrote:
+
+{Snips}
+
+}	Now let me try my hand at describing three versions of the 2^3.
+
+}	The third version is the most common and is shown in Rubik's
+}Hungarian patent, but is hard to interpret as I've never had the text
+}translated.  Basically, his 2^3 is a 3^3 with the edge and centre
+}pieces concealed.
+
+ The ones I had were quite difficult to take apart and reassemble; if
+they weren't made of a strong, resilient engineering plastic, they would
+not have been possible to make, I would say.
+
+}	At the very centre was a cube.
+
+ In mine, this cube was almost tiny; perhaps 15% (along an edge) of the
+size of a cubie as seen from the outside.
+
+}  On each face was a square rod
+}extending almost to the face center.
+
+ In mine, just about sure that three adjacent faces of this inner cube
+each had thin cylindrical rods extending toward the face centers. These
+were surrounded by square rods of the same width as the other three
+which were part of the center cube.
+
+ The thin cylindrical rods served as pivots for the square rods of the
+same width. When you rotated one half of the Cube, these pivots allowed
+one half to rotate with respect to the other without prying anything
+apart.
+
+ The three fixed square rods, which are extensions and "part of" the
+center cube, stayed fixed within their half of the Cube when the other
+half was rotated, much as the ball inside a 4^3 stays fixed.
+
+} The ends of these [rods -nb] had a +
+}groove.  Between the rods were pieces in the form of a quadrant with a
+}groove on the outer, curved, edge.  When all these pieces are in
+}place, each of the midplanes of the cube is seen to contain a circle
+}with a groove on its outer edge.
+
+ The aforementioned rods are required to keep the quadrants from moving
+inward and therefore out of engagement with the inner, "cut-away" edges
+of the cubies. If that were to happen, the Cube would fall apart.
+(Please see the next paragraph.) (When I tried to describe the innards
+of a 2^3 a while back, I called these quadrants "clips". My hat's off to
+Mr. Singmaster for his fluency!)
+
+}  The corner pieces are basically
+}hollow, but each interior face is a layer ending in a quarter-circular
+}curve, which fits as a tongue into the groove just mentioned.  Where
+}two of these meet, at the interior edge of the piece, a section is cut
+}away to allow the piece to slide past the projections of the end of
+}the square rods.
+} 	In theory, one might be able to avoid the quadrant pieces, but
+}I think they give the structure stability.
+
+ With all due respect, without them, the Cube would instantly fall
+apart! They are essential.
+
+}	A more serious problem is that the inner, concealed, pieces
+}can get out of synch with the visible pieces.
+
+ The natural tendency is to squeeze the cubies of each half together
+when maneuvering.
+
+ Because the thin square rods molded along with the center cube are
+"attached" to adjacent faces of that cube, the other three faces of that
+cube carry the swiveling rods. No matter how you pick up the Cube, one
+half will contain a fixed rod. Squeezing the cubies together around that
+rod will make the center cube stay aligned with those four cubies that
+are squeezing one of its rods. (Actually, the cubies squeeze the
+quadrants, and the quadrants squeeze the rods.)
+
+ Keeping that center cube aligned also means it will keep aligned the
+four rods that have their axes in the current shear plane. These rods
+will then keep the quadrants aligned with the half of the cubie that is
+squeezing the fixed rod.
+
+ The four quadrants in the swiveling half will squeeze the hollow,
+swiveling rod, which will rotate around the thin cylindrical [rod] that
+extends from that face of the center cube.
+
+ I'm indebted to Mr. Singmaster for his clarifying description.
+
+ This mechanism seems to be a real challenge to describe solely in
+words! Here, a few images equal many kB of ASCII...
+
+}DAVID SINGMASTER, Professor of Mathematics and Metagrobologist
+}  email:
+}zingmast or David.Singmaster @sbu.ac.uk
+
+* * *
+
+ Here's another go, for those who have the patience:
+
+ Imagine that each cubie is hollow. (They really are.) Imagine that they
+are separated from each other in 3-D space by moderate and equal
+distances, but still not tilted with respect to each other. In other
+words, there's a large gap between any two.
+
+ Now, imagine a spherical rotary cutter, spinning in the center of the
+3-D array of 8 cubies. Move the cubies toward the cutter, along radii of
+the cutter passing through their outermost corners. Don't tilt or
+rotate, just translate radially inward toward the cutter along a
+[45-degree] axis.
+
+ Let the cutter machine a curved outline in each of the three inner
+faces. (The diameter of the cutter is maybe 80% of the edge of a
+complete Cube.) Make the cutter disappear, and you have a spherical
+cutaway inside the whole cluster of eight. (This is real, in essence.)
+
+ The cubies are hollow, and they really have this curved "cut" in each
+of their concealed inside faces. Of course, this was molded in, not
+machined by a cutter.
+
+ Now, you need something to hold the cubies together.
+
+ If you've seen a radar corner reflector used by small boat owners,
+think of one made of three intersecting, mutually-orthogonal circles.
+They intersect at a common, center point. Make this corner reflector
+tiny, maybe 3,5 (3.5) cm (?) in diameter.
+
+ Cut this apart into eight quadrants. Make them thick, if they aren't.
+Make a rectangular groove in each curved edge. Remove some material from
+the straight edges; line up the curved edges with a circle (same size as
+the original structure before you cut it apart) on your workbench).
+Space them equally apart. The gaps form a cross (or an "X", if you like
+45-degree angles).  The rods will go into those gaps.
+
+ OK: These are now positioned the way they will be in one of the three
+shear planes in a Cube.
+
+ [The radius of the corner reflector is somewhat bigger than that of the
+ball cutter.)
+
+ Thinking back to the corner reflector, if you replace all 12 quadrants
+where they used to be in 3-D space, with gaps between them as they were
+on the bench, that is how they are positioned in an aligned Cube.
+
+ To start assembling the Cube, you take four cubies, lay them down next
+to each other (touching) with colors properly aligned, but with their
+inside surfaces facing upward. Pick up four quadrants, placing the
+grooves you made (in the curved edges) onto the curved "cutaways" in the
+adjacent inside edges of the hollow cubies, where the cubies touch. As
+long as these quadrants don't move toward each other, they will keep the
+cubies together.
+
+ This, in two dimensions, is what holds the Cube together. The next four
+quadrants fit into the remaining cutouts. They lie flat, and form a
+circle, the way they did when you laid them down on the workbench.
+
+ To keep the quadrants away from the center, you now insert the center
+cube and its rods. However, assembling the remaining four cubies (and
+their four quadrants) to what you have so far, is, in the real world, a
+major struggle. It involves some worrisome distortions of the pieces!
+This "geometric interference" is also what makes it so hard to
+disassemble.
+
+ Wonder how these are assembled at the factory?
+
+My best regards to all,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|* 'T was the night before Xmas, and all through
+|*  Amateur musician  *|*  the coffeehouse, not a creature was stirring.
+--------------------------------------------------------------------------
+

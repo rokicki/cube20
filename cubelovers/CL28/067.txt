@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jan 24 15:27:16 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA07573
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 24 Jan 2000 15:27:16 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sat, 22 Jan 2000 14:00:41 -0800 (PST)
+From: Tim Browne <ue451@victoria.tc.ca>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Alexanders star
+In-Reply-To: <93.658734.25affe7c@aol.com>
+Message-Id: <Pine.GSO.3.95.iB1.0.1000122135831.23581B-100000@vtn1>
+
+On Thu, 13 Jan 2000 Cycloggl@aol.com wrote:
+
+> Hi   I was wondering if any one knows where I can find a solution (either
+> online or what book has it) to the Alexander star I can get all except for
+> two and it's driving me crazy
+> Thanks for reading
+> John
+
+The problem is that the Alexander's Star uses only 6 colours instead of
+the usual 12, so you get pairs of pieces all over the puzzle that look
+identical. What you need to do is find a piece that is identical to one of
+the pieces that need swapping, and then do a 3 piece rotation on them.
+L8r.
+
+-- 
+        Cubic Puzzles - The SIMPLEST Solutions
+     http://www.victoria.tc.ca/~ue451/solves.html
+

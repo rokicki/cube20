@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 16 19:02:58 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA04595
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 16 Mar 1999 19:02:58 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 16 Mar 1999 08:59:41 +0000 (GMT)
+From: the terminal sloth <alex@slothdom.demon.co.uk>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Subject: Re: MULTI COLORED PLASTIC SURFACES
+In-Reply-To: <006c01be6c55$1fdab740$ca685dcb@uwe>
+Message-Id: <Pine.LNX.4.05.9903160855180.3329-100000@slothdom.demon.co.uk>
+
+On Fri, 12 Mar 1999, Uwe Meffert wrote:
+> ...
+> It is not to difficult to make cubes or other puzzles without stickers and to
+> spray paint the surfaces, the price is about the same.  I once made a
+> Pyraminx test run using this method.  As David Singmaster mentioned the
+> plastic surface under the sticker has some flow lines which are unavoidable
+> and the sticker serves in part to hide these imperfections.
+
+Why can't you take a modelling knife or a file and remove these lines? And
+use a bit more paint where necessary (easier with acrylic than with spray
+paints).
+Obviously this isn't practical for large-scale manufacture.
+
+<snip>
+> I hope that this clears up your discussion on why Manufacturers use
+> stickers.
+
+
+Alex
+-- 
+Alexander Lewis Jones - the terminal sloth
+sometimes I sits and thinks, sometimes I just sits
+

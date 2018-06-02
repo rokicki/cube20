@@ -1,0 +1,32 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Dec  9 00:04:56 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA10757; Mon, 9 Dec 1996 00:04:55 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sun, 8 Dec 1996 22:08:31 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Scott Crawford <scrawfor@host1.dia.net>
+cc: Cube List <Cube-Lovers@ai.mit.edu>
+Subject: Re: Identify this puzzle please!
+In-Reply-To: <32A761C9.72AD@host1.dia.net>
+Message-ID: <Pine.SUN.3.95.961208220053.14849A-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ Sorry, don't think I can help with your puzzle, but the Magic
+Dodecahedron has (I surely hope!) twelve identical faces; each face is a
+pentagon. ("Do" is "two", and "deca" is "ten", loosely speaking; it's a
+prefix for "12", unless I'm 'way off base.)  I'm just about sure that each
+face has five corner pieces (you shouldn't, strictly speaking, call them
+"cubies")  that it shares with its neighbors; also five middle-edge
+pieces. It's been years since I saw a photo (In the Meffert catalog of
+around 1986). 
+
+Regards,
+_  __
+|\ |_)
+| \|_)
+
+
+

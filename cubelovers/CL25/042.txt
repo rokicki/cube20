@@ -1,0 +1,79 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Apr 22 11:53:02 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA00421; Wed, 22 Apr 1998 11:53:02 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Apr 22 11:43:05 1998
+Date: Wed, 22 Apr 98 11:42:49 EDT
+Message-Id: <9804221542.AA10123@sun28.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: whuang@ugcs.caltech.edu
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <6hfr60$lfq@gap.cco.caltech.edu>
+Subject: Re: Hamiltonian circuits on the cube
+
+whuang@ugcs.caltech.edu (Wei-Hwa Huang) writes:
+
+> I was pretty surprised to come up with this within ten minutes of reading
+> the question:
+
+Wow, I'm impressed.  I thought I'd have to write a program to find
+them, and here's a nice symmetric solution.  The symmetry is more
+visible in a different unfolding:
+
++-@-+-@-+-@-+---+---+---+
+| @@@@@   @@|@@@@@@@@@@ |
++   +   +   +   +   + @ +
+| @@@@@@@@@@|@@@@@@@@@@ |
++ @ +   +   +   +   +   +
+| @@@@@@@@@@|@@   @@@@@ |
++---+---+---+-@-+-@-+-@-+---+---+---+
+            | @@@@@   @@|@@@@@@@@@@ |
+            +   +   +   +   +   + @ +
+            | @@@@@@@@@@|@@@@@@@@@@ |
+            + @ +   +   +   +   +   +
+            | @@@@@@@@@@|@@   @@@@@ |
+            +---+---+---+-@-+-@-+-@-+---+---+---+
+                        | @@@@@   @@|@@@@@@@@@@ |
+                        +   +   +   +   +   + @ +
+                        | @@@@@@@@@@|@@@@@@@@@@ |
+                        + @ +   +   +   +   +   +
+                        | @@@@@@@@@@|@@   @@@@@ |
+                        +---+---+---+-@-+-@-+-@-+
+
+It shouldn't be that hard to solve a cube with these markings--there
+are only two different kinds of corner cubies, three kinds of edge
+cubies, and the face centers need only be oriented mod 180 degrees.
+Working from one of the symmetric corners, it's not hard to see that
+this is the only continuous solution.
+
+I've noticed a minor modification to your pattern that also admits an
+isoglyphic Hamiltonian path:
+
++-@-+-@-+-@-+-@-+---+---+
+|@@   @@@@@ | @@@@@@@@@ |
++   +   +   +   +   + @ +
+| @@@@@@@@@@|@@@@@@@@@@ |
++ @ +   +   +   +   +   +
+| @@@@@@@@@ | @@@@@   @@|
++---+---+-@-+-@-+-@-+-@-+-@-+---+---+
+            |@@   @@@@@ | @@@@@@@@@ |
+            +   +   +   +   +   + @ +
+            | @@@@@@@@@@|@@@@@@@@@@ |
+            + @ +   +   +   +   +   +
+            | @@@@@@@@@ | @@@@@   @@|
+            +---+---+-@-+-@-+-@-+-@-+-@-+---+---+
+                        |@@   @@@@@ | @@@@@@@@@ |
+                        +   +   +   +   +   + @ +
+                        | @@@@@@@@@@|@@@@@@@@@@ |
+                        + @ +   +   +   +   +   +
+                        | @@@@@@@@@ | @@@@@   @@|
+                        +---+---+-@-+-@-+-@-+-@-+
+
+Anyone who's working on an exhaustive search to see if there are any
+others, send me e-mail before I hack again!
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

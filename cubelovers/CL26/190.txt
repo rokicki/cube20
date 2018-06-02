@@ -1,0 +1,19 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 18 12:34:38 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA12194
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 18 Mar 1999 12:34:38 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <01BE7093.03AB1640@slip129-37-51-185.ca.us.ibm.net>
+From: Derrick Schneider <derrics@ibm.net>
+To: "cube-lovers@ai.mit.edu" <cube-lovers@ai.mit.edu>
+Subject: RE: Puzzlets
+Date: Wed, 17 Mar 1999 16:27:10 -0800
+
+I also can't comment on their non-responding trend (though a recent
+move might be reason enough), but the owner's name is Mike Green, I
+believe, and he's the one you e-mail when going to www.puzzletts.com.
+
+Derrick
+

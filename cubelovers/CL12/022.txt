@@ -1,0 +1,21 @@
+From coxj@rpi.edu  Mon Apr 25 11:13:35 1994
+Return-Path: <coxj@rpi.edu>
+Received: from mail1.its.rpi.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18585; Mon, 25 Apr 94 11:13:35 EDT
+Received: from cox (cox.stu.rpi.edu [128.113.85.84]) by mail1.its.rpi.edu (8.6.7/8.6.4) with SMTP id LAA15800 for <cube-lovers@life.ai.mit.edu>; Mon, 25 Apr 1994 11:13:32 -0400
+Message-Id: <199404251513.LAA15800@mail1.its.rpi.edu>
+X-Sender: coxj@mail1.its.rpi.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Mon, 25 Apr 1994 11:12:43 -0400
+To: cube-lovers@life.ai.mit.edu
+From: coxj@rpi.edu (Jeffrey M. Cox)
+Subject: Unsubscribe
+X-Mailer: <PC Eudora Version 1.4b22>
+
+        I would like to be taken off the mailing list.
+|   _____       _   _  |               Jeff "The Master" Cox                 |
+|     /  __    / ) / ) |                   coxj@rpi.edu                      |
+|  / /  /__)  (_  (_   |                                                     |
+|  \/   \__  /   /     |   "There's a fine line between clever and stupid"   |
+
+

@@ -1,0 +1,91 @@
+From mschoene@math.rwth-aachen.de  Sun Feb 12 19:07:52 1995
+Return-Path: <mschoene@math.rwth-aachen.de>
+Received: from samson.math.rwth-aachen.de by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07555; Sun, 12 Feb 95 19:07:52 EST
+Received: from hobbes.math.rwth-aachen.de by samson.math.rwth-aachen.de with smtp
+	(Smail3.1.28.1 #11) id m0rdoHv-000MPEC; Mon, 13 Feb 95 01:05 MET
+Received: by hobbes.math.rwth-aachen.de (Smail3.1.28.1 #19)
+	id m0rdoHu-00025cC; Mon, 13 Feb 95 01:05 WET
+Message-Id: <m0rdoHu-00025cC@hobbes.math.rwth-aachen.de>
+Date: Mon, 13 Feb 95 01:05 WET
+From: "Martin Schoenert" <Martin.Schoenert@math.rwth-aachen.de>
+To: cube-lovers@life.ai.mit.edu
+In-Reply-To: Mark Longridge's message of Thu, 9 Feb 1995 23:55:00 -0500 <60.1035.5834.0C1CF175@canrem.com>
+Subject: Re: The Pyraminx Lost
+
+I have never seen the Pyraminx.  I wonder if somebody could tell me
+whether the picture I put together from the various comments made about
+the Pyraminx is correct?
+
+I am fairly certain that the Pyraminx is a regular tetrahedron.  In the
+solved state each of the four faces shows only one of the four colours.
+
+I think the Pyraminx is cut along 8 planes, two planes perpendicular to
+each of the four heights (i.e., the four lines that connect a corner with
+the center of the opposite face).  I think for the Pyraminx those planes
+intersect the height at about 2/5 and 3/5 of the length of the height.
+
+Those planes cut the Pyraminx into 15 pieces (1 central piece, 4 corners,
+4 inner pieces, and 6 edes), which are all visible.  Each face is cut
+into 10 facelets by them as follows.
+
+                   +
+                  / \
+                 /   \
+                /     \
+               /       \
+              /         \
+             +-----------+
+            / \         / \
+           /   \       /   \
+          +-----+-----+-----+
+         / \     \   /     / \
+        /   \     \ /     /   \
+       /     \     +     /     \
+      /       \   / \   /       \
+     /         \ /   \ /         \
+    +-----------+-----+-----------+
+
+The Pyraminx Star was descibred as a Pyraminx without the centers.
+So I guess each face of the Pyraminx Star looks as follows.
+
+                   +
+                  / \
+                 /   \
+                /     \
+               /       \
+              +---------+
+             / \       / \
+            /   \     /   \
+           /     \   /     \
+          /       \ /       \
+         +---------*---------+
+        / \       / \       / \
+       /   \     /   \     /   \
+      /     \   /     \   /     \
+     /       \ /       \ /       \
+    +---------+---------+---------+
+
+The Pyraminx Snub was described as a Pyraminx without the tips.
+So I guess each face of the Pyraminx Snub looks as follows.
+
+             +-----------+
+            / \         / \
+           /   \       /   \
+          +-----+-----+-----+
+           \     \   /     /
+            \     \ /     /
+             \     +     /
+              \   / \   /
+               \ /   \ /
+                +-----+
+
+I have no idea what Pyraminx Senior and the Pyraminx Master look like.
+
+Have a nice day.
+
+Martin.
+
+-- .- .-. - .. -.  .-.. --- ...- . ...  .- -. -. .. -.- .-
+Martin Sch"onert,   Martin.Schoenert@Math.RWTH-Aachen.DE,   +49 241 804551
+Lehrstuhl D f"ur Mathematik, Templergraben 64, RWTH, 52056 Aachen, Germany
+

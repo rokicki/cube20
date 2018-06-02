@@ -1,0 +1,25 @@
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU 29 Aug 86 08:02:18 EDT
+Date: 29 Aug 86 07:54:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: globe puzzle
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+ GLOBE PUZZLE -  I made a mistake.  The "Globe Puzzle" is NOT a cube.  It looks
+like a cube with the edge pieces broken up into its two faces but the corners
+are fixed and only the three equators are free to move.  It has a metal surface
+painted as a globe and each surface area has a dimple.  These dimples do not
+make it any easier to work the puzzle.  It is the same 3" diameter as a cube
+ballThe puzzle is made in Hungary.
+
+Thus the globe puzzle is three intersecting rings and appears to be simpler then
+the cube.  If the corners could move like the cube would that puzzle also be no
+more difficult then the cube?  Any ideas on how to engineer such a puzzle? 
+
+AVAILABLE from:  the nature company
+                             pob 2310
+                             berkley, ca 94702
+                             800/227-1114
+                             globe puzzle, cat # 1449, $12.50
+
+peter beck  <beck@ardec-lcss.arpa>
+------

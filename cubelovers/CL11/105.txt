@@ -1,0 +1,46 @@
+From ncramer@bbn.com  Sat Jan 15 09:22:26 1994
+Return-Path: <ncramer@bbn.com>
+Received: from LABS-N.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03599; Sat, 15 Jan 94 09:22:26 EST
+Message-Id: <9401151422.AA03599@life.ai.mit.edu>
+Date:     Sat, 15 Jan 94 9:12:37 EST
+From: Nichael Cramer <ncramer@bbn.com>
+To: CRSO.Cube@canrem.com
+Cc: cube-lovers@life.ai.mit.edu
+Subject:  Re:  Higher Order Cubes
+
+>Subject: Higher Order Cubes
+>From: Mark Longridge <mark.longridge@canrem.com>
+>Date: 	Fri, 14 Jan 1994 21:59:00 -0500
+>
+>A well lubed 4x4x4 cube is still relatively easy to physically
+>manipulate. As der Mouse suggests, it is arguably the largest
+>interesting cube from a solver's point of view. Once one starts
+>actually twisting with a 5x5x5 cube, the physical problems
+>become more severe, e.g. the stickers come off easier,
+>turning the slice you want to is more of a challenge, etc.
+
+This is interesting, because it's almost exactly the opposite of my
+experience.
+
+The problem seems to be the difference between the internal mechanisms of
+the odd- and even- ordered cubes.  The 3X and 5X have that "fixed" center
+piece attached to the core whereas the center face cubelets of the 4X are
+held together "under tension".  My experience has been that this adjustment
+is critical, but often out of whack.  As a consequence, of the four 4X's
+I've owned, only one was really useable; two were so stiff they were very
+difficult to turn (even with lubrication) and one was so loose that it
+never lasted more than about 20 minutes before dissolving into a pile of
+cubelets (it currently lives in a sack in my office drawer).  These were
+all real "brand-named" cubes, not cheap twiz-o knock-offs.
+
+On the other hand all of the 5X's I've owned have been _very_ easy to turn
+without any special customization.  Except for the tendency (as Mark
+mentions) for the stickers to come off of one of them, they're consistently
+more comfortable to the hand than any of the 3X's I've owned.
+
+
+Nichael
+ncramer@bbn.com      -- Captain and left quarter guard, BBN Calvinball Team
+
+
+

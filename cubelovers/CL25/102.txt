@@ -1,0 +1,58 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jul 31 12:04:34 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id MAA00301; Fri, 31 Jul 1998 12:04:32 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Jul 30 17:52:36 1998
+Message-Id: <35C0D64D.B84386E@t-online.de>
+Date: Thu, 30 Jul 1998 22:23:41 +0200
+Reply-To: Rainer.adS.BERA_GmbH@t-online.de
+Organization: BERA Softwaretechnik GmbH
+To: Cube Mailing List <Cube-Lovers@ai.mit.edu>
+Subject: The hunt is up
+From: Rainer.adS.BERA_GmbH@t-online.de (Rainer aus dem Spring)
+
+Dear cube lovers,
+
+I am glad to see that my patterns started such a long thread.
+The cube is alive :)
+
+Mike Reid sent some improvements. I am sure he doesn't mind me to send
+them to the mailing list.
+
+What about other improvements ? Anybody mad enough to search other
+patterns ?
+
+Mike's improvements:
+
+
+\subsubsection*{Exchanged 2x3x3 Bricks}
+$D_{12}^2 L^2 B^2  D_{12}^{-1} R^2  D_{12} R^2  U_{12}^{-1} R^2  U_{12}
+R^2 B^2
+U_{12} L^2 D_{12} L^2  D_{12}$ (Michael Reid)
+
+improves my ????? :)
+
+$U_{12}^2  R^2 B^2  D_{12}  L^2  D_{12}^{-1}  L^2  U_{12}  L^2
+U_{12}^{-1} L^2
+B^2 U_{12}^{-1} R^2 U_{12} R^2 U_{12}$ (Michael Reid)
+
+improves the 1x1x2 Brick pattern
+
+$U R^{-1} U^{-1}  F_2  D_{12}^{-1} F^2 D_{12} F_2^{-1}  D_{12}^{-1}  F^2
+D_{12} U R U^{-1}$ (Michael Reid)
+
+improves "1 Small Twisted Ring"
+
+Rainer
+
+-- 
+--------------------------------------------------------------------------
+Rainer aus dem Spring       email  Rainer.adS.BERA_GmbH@t-online.de
+(home)
+Schimmelbuschstr. 10        email  TEEADS@TEE.toshiba.de (business only)
+40699 Erkrath               tel. +49 (0)02104 35157  (private)
+Germany                     tel. +49 (0)02104 936150 (business)
+---------------------------------------------------------------------------
+

@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Nov 20 20:37:44 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id UAA22609; Thu, 20 Nov 1997 20:37:43 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Nov 20 13:51:23 1997
+Sender: davidb@davidb.concentric.net
+Message-Id: <3474866B.D1136871@iname.com>
+Date: Thu, 20 Nov 1997 10:50:19 -0800
+From: David Barr <davidbarr@iname.com>
+Organization: Medweb
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Re: Rubiks Revenge moves
+References: <19971118.204255.7126.1.tenie1@juno.com> <34735538.113A5129@iname.com>
+
+David Barr wrote:
+
+> I hold the cube so the bottom looks like this:
+>
+> . . a .
+> . . . b
+> . . . c
+> . . . .
+>
+> and do this sequence:
+>
+>   F' b2 L2 / R' D r' D' R D r D' / L2 b2 F
+
+Actually, you can save a couple moves by doing
+
+d2 L' R' D r' D' R D r D' L d2
+
+but the pieces affected will be on the right side instead of the bottom.
+-- 
+mailto:davidbarr@iname.com
+http://www.concentric.net/~Davebarr/
+

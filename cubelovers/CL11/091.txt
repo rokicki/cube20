@@ -1,0 +1,37 @@
+From CPELLEY@delphi.com  Mon Jan 10 17:31:46 1994
+Return-Path: <CPELLEY@delphi.com>
+Received: from bos1a.delphi.com (delphi.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA11105; Mon, 10 Jan 94 17:31:46 EST
+Received: from delphi.com by delphi.com (PMDF V4.2-11 #4520) id
+ <01H7INM9NDRK91X4TE@delphi.com>; Mon, 10 Jan 1994 12:49:21 EDT
+Date: Mon, 10 Jan 1994 12:49:21 -0400 (EDT)
+From: CPELLEY@delphi.com
+Subject: Mickey's Challenge
+To: Cube-Lovers@ai.mit.edu
+Message-Id: <01H7INM9NNEQ91X4TE@delphi.com>
+X-Vms-To: INTERNET"Cube-Lovers@ai.mit.edu"
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; CHARSET=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+I visited the local Disney Store and picked up a Mickey's Challenge puzzle for
+$10.  It's really cute, and the book that it comes with is excellent.  
+Included are color photos of Christophe Bandelow, Uwe Meffert, and the puzzle
+disassembled into all its parts.  Plus it gives a solution for the puzzle and
+has a short bio on Uwe Meffert.  It also shows color photos of the Megaminx,
+Pyraminx (not the Tomy version, but a black one), and the 5x5x5 which they
+refer to as "Professor's Cube."
+Some general notes on Mickey's Challenge.  It is a spherical Skewb, and it
+actually turns much more smoothly than my cubical Skewb.  It has the same
+delightful "clicking" mechanism that the Skewb and original Pyraminx had.
+It is a bit easier than the Skewb, since there are a few blank pieces that
+can be exchanged without noticing the difference.  In fact, the book's solution
+actually leaves Mickey intact while solving Donald.  After you're bored with
+solving it, the concept of making patterns takes on strange dimensions, as you
+can make Mickey and Donald exchange body parts and look like Disney on acid!
+All in all, it is an excellent little puzzle and I am very glad to see the
+Skewb widely available to puzzle enthusiasts everywhere.
+One final note:  the booklet gives no credit whatsoever to Tony Durham, who
+was credited with the Skewb's invention in Hofstadter's Sci Am articles years
+ago.  They instead credit Meffert, since the Skewb's mechanism is based on
+the Pyraminx.
+

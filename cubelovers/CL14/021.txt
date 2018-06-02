@@ -1,0 +1,29 @@
+From BRYAN@wvnvm.wvnet.edu  Mon Dec 19 08:48:32 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14147; Mon, 19 Dec 94 08:48:32 EST
+Message-Id: <9412191348.AA14147@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 0349; Mon, 19 Dec 94 08:48:28 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 2224; Mon, 19 Dec 1994 08:48:29 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Mon, 19 Dec 1994 08:48:28 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: How Big is Big?
+In-Reply-To: Message of 12/17/94 at 11:10:52 from BRYAN@wvnvm.wvnet.edu
+
+One more correction to this giga, tera, peta, nonsense.  Since
+10^9 bytes of disk space cost about 10^3 USD, then 10^18 bytes would
+cost about 10^12 USD.  This is more than Bill Gates could afford, more
+than going to the moon, more than an aircraft carrier, and indeed is
+of the same order of magnitude as the entire United States federal
+budget.  Disk prices need to come down several orders of magnitude
+before we can think about storing God's Algorithm.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

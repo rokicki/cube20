@@ -1,0 +1,39 @@
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU 19 Sep 86 11:28:14 EDT
+Date: 19 Sep 86 10:48:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: interlocking cube
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+RE:  msg from Randel Shane requesting clarification of the  "INTERLOCKING" CUBE
+PUZZLE, 
+ this is a puzzle with 27 cubies held together in a series connection by a
+rubber band, like a snake.  
+The cubies faces each have a different color, ie, 6 per cubie.  The blue and
+green colors are along the connecting axis while the red,white,yellow and orange
+colors are parallel to the connecting axis.  The cubbies are not all identical. 
+
+The  joint that connects cubies is not universal.  The joint is made by a slot
+in the blue and green faces.  These slots are perpendicular to each other.  This
+is limits the possible orientations.
+THE OBJECT OF THE PUZZLE IS TO FOLD UP THE CUBIES to make a 3x3x3 cube with six
+solid colored faces.  
+HAS ANYONE DONE THIS PUZZLE, ANY REFERENCES.
+
+PS Randell, I hope this description is somewhat better.  If you would like to
+see it first hand I can send you one for $2.  
+
+PPS I need a better ARPANET address to send you msgs directly.
+
+
+           /                       \
+          |\                      / |
+          |   \         /      /   |
+          |\   |\     /\    /|  /|
+          |   \|   \/    \/  |/  |
+           \  |\   |\    /|  /|  /                <BECK@ARDEC-LCSS>
+             \|   \|  \/  |/  |/
+               \   |\  |  /|  /
+                  \|  \|/  |/
+                    \  |  /
+                      \|/    
+------

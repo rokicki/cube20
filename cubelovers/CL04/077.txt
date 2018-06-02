@@ -1,0 +1,13 @@
+Date: 31 Aug 1982 1022-PDT
+From: ISAACS at SRI-KL
+Subject: re:hypermove lower bounds
+To: Hoey at CMU-10A
+cc: cube-lovers at MIT-MC, isaacs at SRI-KL
+
+  Dan:  Could you explain to me how you got the formula of you message
+of 23 Aug.  I can see more-or-less what you're doing, but I haven't been
+able to parse the formula.  Also, I haven't seen your notation before.
+I take it that "U3" is equivalent to "D1'", except hold the D1 in place.
+How do you represent half twists?  Only by two quarters, or is there a 
+shorthand?  From a group theory perspective, is it easier to talk about
+hypermoves than slice moves?  Will that also be true on the 5^3, 6^3, etc?

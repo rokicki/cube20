@@ -1,0 +1,39 @@
+From cube-lovers-errors@oolong.camellia.org  Wed May 28 17:40:08 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA17238; Wed, 28 May 1997 17:40:08 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Sender: mark@ampersand.com
+To: cube-lovers@ai.mit.edu
+Cc: Nichael Cramer <ncramer@bbn.com>
+Subject: Re: [gknauth:  Professor cracks Rubik's cube mystery]
+References: <199705281233.IAA05016@life.ai.mit.edu>
+From: Mark Atwood <zot@ampersand.com>
+Date: 28 May 1997 17:38:41 -0400
+In-Reply-To: Nichael Cramer's message of Wed, 28 May 97 8:30:53 EDT
+Message-ID: <v64tbnnuou.fsf@colon.dev.ampersand.com>
+X-Mailer: Gnus v5.2.40/Emacs 19.31
+
+Nichael Cramer <ncramer@bbn.com> writes:
+> 
+> ----- Forwarded message # 1:
+> 
+> Date: Wed, 28 May 97 08:13:32 EDT
+> From: gknauth@BBN.COM
+> Subject: Professor cracks Rubik's cube mystery
+> 
+> ...
+> 
+> Richard Korf found a way to line up the colored squares of the cube in an
+> average 18 moves and a maximum of 20, officials said without explaining
+> exactly how it is done.
+> ...
+> 
+
+Is this a new upper bound?
+
+-- 
+Mark Atwood       | We must not remind them
+zot@ampersand.com | that Giants walk the Earth.
+
+

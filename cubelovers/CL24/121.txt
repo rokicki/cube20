@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Jan  3 02:35:28 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id CAA12913; Sat, 3 Jan 1998 02:35:27 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sat Jan  3 01:40:29 1998
+Date: Sat, 3 Jan 1998 01:39:21 -0500
+Message-Id: <3Jan1998.011449.Alan@LCS.MIT.EDU>
+From: Alan Bawden <Alan@lcs.mit.edu>
+To: Cube-Lovers@ai.mit.edu
+Subject: "A Message from Professor Erno Rubik"
+
+I just accidentally tripped across http://www.rubiks.com/.  Much to my
+amusement the home page has a little message from Erno Rubik that begins:
+
+  It is 23 years since I created the Cube, some 17 years since this simple
+  little six-coloured object attained its great world wide appeal. I often
+  wondered what impact the Internet would have had if it had been around at
+  the time.  Cube awareness, for one thing, would have spread even faster,
+  aggravating the already severe Cube shortages in the market place.
+  Suggestions and disputes about different approaches to solving it would
+  surely have filled the screens. Amusing, unusual, interesting tales to do
+  with the Cube would have criss-crossed the globe on the Net and intrigued
+  mathematicians would have proposed and discussed Cube related theories
+  on-line.
+
+Those of you who have been on this mailing list for the last 17 years will
+recognize this as an uncannily accurate description of exactly what -did-
+happen!  (Except, of course, the Net was so much smaller then that we had
+little effect on the market place.)
+
+So accurate is Prof. Rubik's description that I'd be surprised if he (or his
+ghost writer) hasn't actually read through some of our earliest archives.
+
+				- Alan
+

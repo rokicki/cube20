@@ -1,0 +1,33 @@
+Date: 28 Jan 1983 1838-PST
+From: ISAACS at SRI-KL
+Subject: Circle Puzzles
+To: cube-lovers at MIT-MC
+cc: isaacs at SRI-KL
+
+   I just got some very nice examples of circle (group-theory) puzzles -
+similar to the Lorente Grill puzzles shown in Hofstadters' Sci.Am.
+article in July, 1982 (p. 26).  They are made by Douglas Engel, under
+the name of General Symmetrics, Inc, 2935 W. Chenango, Englewood, Co,
+80110.  He is selling some as experimental items, and one version he
+hopes to have marketed "soon".  They all consist of two intersection
+circles, each of which rotate; I have 3 kinds: the "21 piece", similar
+to 2/3 of Lorente's Trebol puzzle; the "35 piece", similar to the
+one in the upper right corner of the article "Another Grill puzzle by
+Lorente", and a "19 piece", similar to the 21 piece, except the circles
+intersect in the center.  Each of these are quite different from each other;
+the 35 piece has 3 different pieces which rotate in 4 different cycles
+(compare to the Cubes' 3 kinds of pieces - edge, corner, and center).
+In the 35 piece, a straightforward "in in out out" (R'LRL') type move
+will move the centers in a 3-cycle, the "square" pieces in a pair of
+2-cycles, and the "triangles" in 2 separate 5-cycles.
+   (Doug is selling these at $10.00 for the 19 or 21 piece, $20 for the
+35 piece.)
+   Doug Engel has also written a paper called "Some Problems Suggested
+By Circle Puzzles", mostly asking questions about various kinds of
+symmetry in this type, whether there are an infinite number of them,
+etc.  I wonder what the best way to talk about them and analyze them
+from a group theory perspective is.  I'll try to put in more information
+and theories as I work on them; I'd like to hear any thoughts or
+suggestions.  Right now, I want to go home for dinner.
+  -- Stan
+-------

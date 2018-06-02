@@ -1,0 +1,132 @@
+Date:  3 JAN 1981 0248-EST
+From: ZILCH at MIT-MC (Chris C. Worrell )
+Subject: How to play with the corners of your cube (long message)
+To: CUBE-LOVERS at MIT-MC
+
+At this point I have found sufficient Algorithms such that given a
+cube with everything correct except for possibly the four
+corner cubies on one side, I can (with a little thought and
+reference to my notes) solve the cube in 24qtws.
+
+[SPOILER WARNING]
+
+  If all the cubes are in the right place, but possibly oriented
+wrong, the following transforms are used to TWIST the corners to
+the proper orientations:
+
+T1:  F' (R' D' R D' F D F' D)^2  F        18qtws
+    (FDL,RDF,BDR,LDB) => (DLF,FRD,RBD,DBL)
+
+T2:  L D (D L' D' L)^2 D' L' R' D' (D' R D R')^2 D R     24qtws
+    (FDL,RDF,BDR,LDB) => (LFD,DFR,RBD,DBL)
+
+T3:  (D' L' D R D' L D R') (B' L D^2 L' B L B' D^2 B L')
+    (FDL,RDF,BDR) => (DLF,DFR,DRB)                20qtws
+
+T4:  (R D' L' D R' D' L D)  (L B' D^2 B L' B' L D^2 L' B)
+    (FDL,RDF,BDR) => (LFD,FRD,RBD)                 20qtws
+
+  Note: T3 and T4 are inverses based on the same components, which
+        happen to commute. (see C1 and C2 below)
+
+T5:  (L' U L F U F') D' (F U' F' L' U' L) D          14qtws
+    (FDL,RDF) => (DLF,FRD)
+
+T6:  L' F' D' L' D R D' L D F L F' R' F            14qtws
+    (FDL,RDF) => (LFD,DRB)
+
+    Along the same line as T5 and T6, but not usefull in the
+      present discussion, shown to me in a private message from
+      Dan.Hoey@CMU-10A.
+
+T7:  F' R' D' R U R' D R F D F' U' F D'             14qtws
+    (FDL,BUR) => (LFD,RBU)
+
+  If all of the corner cubies are not in the proper positions
+it is more profitable to execute several corner moving transforms
+rather then one corner moving one then one corner twisting one.
+
+  As presented here all transforms cycle the cubies in the same
+manner (clockwise) ,  though twisting the cubies in all possible
+ways.  Their inverses (counter-clockwise) should also be kept
+in mind.
+
+C1:  D' L' D R D' L D R'                            8qtws
+    (FDL,RDF,BDR) => (FRD,RBD,LFD)      (twist all clockwise)
+
+C2:  L B' D^2 B L' B' L D^2 L' B                     12qtws
+    (FDL,RDF,BDR) => (DFR,DRB,DLF)        (twist all clockwise)
+
+  Note: make reference in c1   (twist all counter-clockwise)
+
+C3:  F L^2 D' R' D L' D' R D L' F'                   12qtws
+    (FDL,RDF,BDR) => (RDF,BDR,FDL)       (don't twist at all)
+
+C4:  F' R' B' R F R' B R                             8qtws
+    (FDL,RDF,BDR) => (FRD,BDR,DLF)
+
+C5:  F L F' R F L' F' R'                              8qtws
+    (FDL,RDF,BDR) => (RDF,RBD,DLF)
+
+  Note: C4 and c5 have been adopted from those presented by DCP in
+        his message of 25 nov. 1308-EST
+
+C6:  L F L' D^2 L F' L' F D^2 F'                   12qtws
+    (FDL,RDF,BDR) => (FRD,DRB,FDL)
+
+C7:  R' D^2 R B' R' B D^2 B' R B                       12qtws
+   (FDL,RDF,BDR) => (DFR,RBD,FDL)
+
+C8:  (C5)' (C1)'=                                       16qtws
+     (R F L F' R' F L' F') (R D' L' D R' D' L D)
+    (FDL,RDF,BDR) => (RDF,DRB,LFD)
+
+C9:  (C1)' (C4)'=                                       16qtws
+     (R D' L' D R' D' L D) (R' B' R F' R' B R F)    (FDL,RDF,BDR) => (DFR,BDR,LFD)
+
+
+These nine transforms are the only possible legal ones (along with
+their inverses) which exchange three corners on a face (with the
+possibility of twists0, though I can't guarentee minimum lengths for
+any of them.
+
+If all of the corners are not in their proper positions then there
+  are three possibilities:
+
+1) One of the corners is in the right position and has the correct
+   orientation.
+     to fix: do the appropriate transform, or its inverse from the
+             list given above.
+             max length=16qtws
+
+2) None of the corners is in the proper position
+     to fix: using C1,C4, or C5 (the shortest ones) move one of the
+              corners to the proper position and orientation, then
+             continue as in case 1.
+              max length=8+16=24qtws
+
+3) One of the corners is in the correct position, but is in the wrong
+     orientation.
+     to fix: Preferably using C1,C4, or C5 move theproperly
+             positioned corner out of its spot and at the same time move
+             another corner into its proper position and orientation, then
+             procede as in case  1.
+              If none of C1, C4, or C5 will do the proper thing then
+             a combination of C2 and C3 must be used, C2 first, to orient
+             the corners correctly (with respect to the bottom) then use C3 to
+              position the corners correctly.
+             max length=8+16=12+12=24qtws
+
+ These algorithms may be usefull to someone making a sides first,
+corners second cube solving algorithm.
+
+ If anyone has any shorter algorithms for any of these transforms, please
+send them to the list.
+
+Unfortunatly I probably won't be able to answer any questions about this
+method as I am going back to school (Caltech) tommorrow (today?)(Sat. 3rd)
+and I don't have decent net access from there.
+
+               Chris Worrell (ZILCH@MIT-MC)
+
+p.s.: sorry about the length of this message.

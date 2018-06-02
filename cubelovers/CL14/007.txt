@@ -1,0 +1,27 @@
+From Wechsler@world.std.com  Fri Dec 16 10:23:44 1994
+Return-Path: <Wechsler@world.std.com>
+Received: from europe.std.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10847; Fri, 16 Dec 94 10:23:44 EST
+Received: from world.std.com by europe.std.com (8.6.8.1/Spike-8-1.0)
+	id KAA03983; Fri, 16 Dec 1994 10:23:37 -0500
+Received: by world.std.com (5.65c/Spike-2.0)
+	id AA13703; Fri, 16 Dec 1994 10:23:47 -0500
+Date: Fri, 16 Dec 1994 10:23:47 -0500
+From: Wechsler@world.std.com (Allan C Wechsler)
+Message-Id: <199412161523.AA13703@world.std.com>
+To: CRSO.Cube@canrem.com
+Cc: cube-lovers@life.ai.mit.edu
+In-Reply-To: Mark Longridge's message of Fri, 16 Dec 1994 01:32:00 -0500 <60.897.5834.0C1C4371@canrem.com>
+Subject: Cyclic Decomposition
+
+In the corner group, (RFU)^5 exchanges corners fur and bur.  I only
+mention this because of all the tools I use, it is the only one that
+involves a lot of repetition.  It's a fossil from my earliest cube
+solution, c. 1980, which used _only_ repetitive processes.
+
+(RFU)^5 is only useful to me because I solve corners first.
+One-face-first solvers will find this incomprehensible.
+
+
+
+
+

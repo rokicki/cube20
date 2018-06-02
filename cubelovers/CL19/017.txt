@@ -1,0 +1,30 @@
+From your point of view, this change should be completely invisible (beyond
+the improved content and increased latency).  It is still the case that you
+should address all submissions to Cube-Lovers@AI.MIT.EDU and all
+administrative correspondence to Cube-Lovers-Request@AI.MIT.EDU.
+
+There are some other advantages to the new scheme beyond filtering out
+advertising:
+
+  1.  Filtering out other inappropriate messages, such as misdirected
+      subscription requests.
+
+  2.  Better handling of mailer bounce messages.  This change should almost
+      entirely eliminate cases where you submit a message to Cube-Lovers
+      and some mailer sends you an error report.  Almost all such messages
+      should now be routed correctly to me.  (Of course, mailers will still
+      sometimes screw up -- please forward any mailer errors you -do- get
+      back to me.)
+
+  3.  Less messages like this one.
+
+  4.  For the moment, the archive at ftp://ftp.ai.mit.edu/pub/cube-lovers
+      continues to accumulate the un-filtered messages.  But eventually, I
+      hope to keep it free of trash as well.
+
+If this message is delivered smoothly, it should be followed by two more
+messages that arrived while I was debugging this stuff.  And you will
+-never- see the magazine advertisement that was submitted last weekend!
+
+		- Alan (Cube-Lovers-Request@AI.MIT.EDU)
+

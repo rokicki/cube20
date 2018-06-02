@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov  3 13:18:15 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA29659; Mon, 3 Nov 1997 13:18:15 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From nbodley@tiac.net Sun Nov  2 20:32:15 1997
+Date: Sun, 2 Nov 1997 20:31:16 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: der Mouse <mouse@rodents.montreal.qc.ca>
+Cc: cube-lovers@ai.mit.edu
+Subject: 5^3 orange stickers
+In-Reply-To: <199710310028.TAA11074@Twig.Rodents.Montreal.QC.CA>
+Message-Id: <Pine.BSF.3.96.971102202540.20000H-100000@shell2.tiac.net>
+
+ I think these might be made of plastic instead of paper, and they seem to
+have a different adhesive. I thought mine were loose because I had tried
+several lubricants on my cube, and the lube. had interacted with the
+adhesive; apparently not. Someone who's smart with solvents might be able
+to remove all the adhesive, and reattach them with a better adhesive.
+CA ("Krazy Glue"; cyanoacrylate) might be good, as might plastic-model
+cement. However, one should be careful; a 5^3 is not something to
+mistreat!
+
+My regards to all,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    Waltham is now in the new 781 area code.
+|*  Amateur musician  *|*   617 will be recognized until 1 Dec. 1997.
+--------------------------------------------------------------------------
+

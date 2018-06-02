@@ -1,0 +1,12 @@
+Date:  4 Jun 1982 1508-PDT
+From: ISAACS at SRI-KL
+Subject: 4^3
+To: cube-lovers at MIT-MC
+
+  Well, I finally got one (UPS from Boston).  I agree with the preceding
+messages; basically, I could solve most of it with 3^3 techniques,
+and work out a couple of variations to get edge halves together; then
+if a 2-edge monoflip or exchange is left over, do an odd slice move and
+recover.  Some of the tools are quite long, however; does anyone have
+a short edge flip or exchange, or a short half-center exchange?
+-------

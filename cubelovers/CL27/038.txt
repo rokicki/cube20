@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr  8 13:14:00 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA29818
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 8 Apr 1999 13:13:59 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: Andrew John Walker <ajw01@uow.edu.au>
+Message-Id: <199904080113.LAA02581@wumpus.its.uow.edu.au>
+Subject: Solvers
+To: cube-lovers@ai.mit.edu
+Date: Thu, 8 Apr 1999 11:13:10 +1000 (EST)
+
+Regarding Mike Reid's program, I compiled it fine with DJGPP, an MSDOS compiler,
+but it didn't run. Any ideas?
+I'll probably get a windows compiler soon.
+Anyway, two other points I was thinking of recently.
+
+Firstly, do any of the kociemba algorithm search programs use the fact
+that you can perform a depth n search by 3 depth n-1 searches using the
+3 orthogonal orientations? (if my logic is correct!)
+This is because if you are using the <U,D,L2,R2,B2,F2> group for the final
+phase, the last move of any depth n sequence must end in a square move,
+in which case the n-1 will easily find it, or else a quarter turn in which
+case the three orientations are required to make it found in the second
+phase. Unfortuneately I doubt the n-1 searches could be replaced by n-2
+searches.
+
+Also when a cube is being scrambled adjacent cubes tend to stay
+together for a while. Has this been of any use in search methods?
+(eg. to help prune the search tree). Obvously a sequence like
+F2 B2 U2 D2 L2 R2 separates all adjoining pairs, but there is still a
+high degree of order with next to adjacent cubes, so maybe they could be
+used as well.
+
+	Andrew Walker
+

@@ -1,0 +1,36 @@
+From alan@curry.epilogue.com  Fri Dec 15 04:07:12 1995
+Return-Path: <alan@curry.epilogue.com>
+Received: from curry.epilogue.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09752; Fri, 15 Dec 95 04:07:12 EST
+Received: (from alan@localhost) by curry.epilogue.com (8.6.12/8.6.12) id EAA03212; Fri, 15 Dec 1995 04:06:23 -0500
+Date: Fri, 15 Dec 1995 04:06:23 -0500
+Message-Id: <15Dec1995.035416.Alan@LCS.MIT.EDU>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+To: rh@thi.informatik.uni-frankfurt.de
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: Roger Haschke's message of Fri, 15 Dec 95 09:40:50 +0100 <9512150840.AA07726@riese.informatik.uni-frankfurt.de>
+Subject: unsubscribing ...
+
+   Date: Fri, 15 Dec 95 09:40:50 +0100
+   From: Roger Haschke <rh@thi.informatik.uni-frankfurt.de>
+
+   can anybody please tell me the correct email-adresse
+   for sending an unsubscribe-command?
+
+   thanks - Roger
+
+As I'm certain you've been told -multiple- times, the address is:
+
+  CUBE-LOVERS-REQUEST@AI.MIT.EDU
+
+For crying out loud, why can't people remember that?
+
+Let me give everybody a little bit of advice.  For every mailing list you
+subscribe to, keep a file that contains the information you will need in
+order to cancel or update your subscription.  This isn't hard to do.  I do
+it myself.  It's a great way to avoid looking foolish in front of hundreds
+of people.  If you don't have such a file for Cube-Lovers already, start
+one RIGHT NOW and put this message in it.
+
+		-- Alan Bawden <Cube-Lovers-Request@AI.MIT.EDU>
+

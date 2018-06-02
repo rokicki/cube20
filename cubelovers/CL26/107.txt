@@ -1,0 +1,40 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb  2 17:09:46 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA18816
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 2 Feb 1999 17:09:46 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue Jan 26 09:45:56 1999
+Date: Tue, 26 Jan 1999 14:45:54 +0000
+From: "Collins, Lindon" <lindon.collins@lmco.com>
+Subject: Middle layer last?
+To: "'Cube Lovers'" <cube-lovers@ai.mit.edu>
+Message-Id: <B1F50FC23BE7D1119DA700805FBB672C870B@swnd01>
+
+Sorry if I'm retreading old ground but I'm new to this.
+
+1.
+	I remember reading somewhere an article that advocated solving
+the middle layer of the cube last.  I have got some fairly short moves
+to place cubes from the middle layer onto the bottom layer, but when it
+comes to solving the middle layer, I seem to be trusting to luck that I
+have reached a favourable position.  I cannot see how I am going to
+reduce my average number of moves to solve the cube using this method.
+I think there are two possibilities:-
+
+	1.  There are some cool moves for solving the middle layer last
+that I have missed.
+	2.  I should forget about solving the middle layer last, and
+stick to my usual method
+	(ie. top,middle,bottom)
+
+2.
+	A more general question is: What is the shortest (practical)
+method for solving the cube that anyone knows of?  (keyword: "practical"
+- don't say 22 moves)
+
+Thanks,
+Lindon Collins
+Swindon, UK
+

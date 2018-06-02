@@ -1,0 +1,63 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Feb 20 17:01:07 1997
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id RAA11888; Thu, 20 Feb 1997 17:01:06 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: Stan Isaacs <isaacs@hpcc01.corp.hp.com>
+Message-Id: <199702202137.AA029444678@hpcc01.corp.hp.com>
+Subject: Re: Super-skewb
+To: Cube-Lovers@ai.mit.edu
+Date: Thu, 20 Feb 1997 13:37:57 PST
+X-Mailer: Elm [revision: 109.19]
+
+Several people asked how to get the so-called "Super-skewbs" (the name
+is from an earlier cube-lovers message, not from Tony Fisher.)  They
+are made by hand, by Tony Fisher (see below).  He has about 9 puzzles,
+and says he plans to have some new ones later this year.  He makes
+them by glueing parts onto Skewbs.  The results, I think, are
+excellent.  One corner broke off of one of the puzzles I got, but is
+easily glued back on.  They move nicely (which means, I think, that
+the original Skewbs moved nicely.)  He says he just buys them in
+shops, and then makes the transformations at home.  They mostly cost
+around $60 - $75 (American), although a triple 5x5x5 is $90, and a
+mini-octahedron is $40.  I don't know if these are permanent prices;
+they may change if prices of the cubes (or plastic) goes up.  besides
+the skewb variations, he as "Siamese" versioin of both the skewb and
+the 5x5x5 cube (ie, he combines two into one; I don't have these, so I
+don't know exactly how the Siamese Skewb works.)  He also has a Triple
+"Triamese 5x5x5", and a mini-octahedron based on the Tetraminx (which
+I also want to get a copy of.  His address is:
+
+	Tony Fisher
+	9 Cauldwell Hall Road
+	Ipswich, Suffolk, IP4 4QD, Great Britain
+
+I guess I ought to put the list of puzzles for clarity:
+
+Skewb variations:
+  Icosahedron 	       - $60
+  Dodecahedron 	       - $60
+  Rhombic-Dodecahedron - $60
+  Octahedron	       - $55
+  Siamese Skewbs       - $60
+  Mental Block	       - $75  (A strange object: looks like a 1x3x3
+block, with 9 even squares on the top and bottom, but the edges are
+cut by an 'X' in the middle, so there are 2 triangles and 2 pentagons
+on each edge.  When twisted, it makes all sorts of strange shapes.)
+
+Siamese 5x5x5		- $75
+Triamese 5x5x5		- $90
+
+Mini-Octahedron (based on Tetraminx) - $40
+
+Dave Singmaster pointed out that the instructions for "Sonic's Puzzle
+Ball", but Christoph Bandalow, has some super-skewb moves in it.  I've
+just glanced at it, so I haven't had a chance to try them yet.  He
+seems to have about 3 moves that twist pairs of squares (and some
+triangles), of lenght 10, 14 or 18.
+
+  -- Stan isaacs
+  -- isaacs@corp.hp.com
+
+
+

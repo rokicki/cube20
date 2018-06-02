@@ -1,0 +1,35 @@
+From andyl@harlequin.com  Thu Dec 16 10:45:09 1993
+Return-Path: <andyl@harlequin.com>
+Received: from hilly.harlequin.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01251; Thu, 16 Dec 93 10:45:09 EST
+Received: from epcot.harlequin.com by hilly.harlequin.com; Thu, 16 Dec 1993 10:36:13 -0500
+Received: from phaedrus.harlequin.com (phaedrus) by epcot.harlequin.com; Thu, 16 Dec 1993 10:38:46 -0500
+From: Andy Latto <andyl@harlequin.com>
+Date: Thu, 16 Dec 1993 10:38:45 -0500
+Message-Id: <21332.199312161538@phaedrus.harlequin.com>
+To: Don.Woods@eng.sun.com
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: Don Woods's message of Wed, 15 Dec 93 17:39:20 PST <9312160139.AA26306@colossal.Eng.Sun.COM>
+Subject: Description of Tangle, Part 2
+
+   Date: Wed, 15 Dec 93 17:39:20 PST
+   From: Don.Woods@eng.sun.com (Don Woods)
+   X-Sun-Charset: US-ASCII
+   Content-Length: 897
+
+   > Is this the reason why Rubik has gone into hiding? I haven't seen any
+   > puzzle from him after this set of 4 released in 1990/1991.
+
+   Hm, didn't "Square-1" come out later than the Tangles?
+
+Did Rubik have anything to do with Square-1?
+
+In any case, it's a great puzzle, and I recommend it to anyone on the
+list who hasn't tried it. While there's a group structure lurking here
+as usual, this is the only puzzle I've seen where the set of
+attainable positions is not a subgroup. This means lots of the usual
+ways of thinking about puzzles like this (e.g. conjugation) don't
+always work, which makes it quite challenging.
+
+					Andy Latto
+					andyl@harlequin.com
+

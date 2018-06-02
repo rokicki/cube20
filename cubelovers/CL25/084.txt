@@ -1,0 +1,54 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jul 10 12:57:34 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id MAA06279; Fri, 10 Jul 1998 12:57:33 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Jul 10 08:48:35 1998
+Date: Fri, 10 Jul 1998 08:48:05 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Ten Face Moves from Start
+To: cube-lovers@ai.mit.edu
+Message-Id: <Pine.WNT.3.96.980710083950.-3929923B-100000@GN209A.PSTCC.CC.TN.US>
+
+Face Moves          Patterns       Positions   Branching   Positions/
+   from                                           Factor     Patterns
+   Start
+
+      0                     1               1                 1.0
+      1                     2              18     18          9.0
+      2                     9             243     13.5       27.0
+      3                    75            3240     13.333     43.2
+      4                   934           43239     13.345     46.294
+      5                 12077          574908     13.296     47.604
+      6                159131         7618438     13.252     47.875
+      7               2101575       100803036     13.231     47.965
+      8              27762103      1332343288     13.217     47.991
+      9             366611212     17596479795     13.207     47.998
+     10            4838564147    232248063316     13.199     47.999
+
+
+This run took about three weeks on a Pentium 300.  The next level from
+Start is going to be difficult.  With the current algorithm and
+hardware, it would take about thirty to forty weeks.  In addition, the
+memory requirements will go up considerably.  Currently, I store only
+the positions up to five moves from Start in memory.  To calculate the
+next level, I will have to store the positions up to six moves from
+Start.
+
+I still suggest (see "How Big is Big?" in the archives) that the problem
+can be calculated all the way to the bitter end, eventually.  The Cube
+problem simply is not as big as, for example, Chess or Go.
+
+As a possible strategy, if we could add one level per decade, we could
+probably calculate the problem all the way to the end within about 100
+years. Moore's Law (the power of computers doubles about every eighteen
+months) suggests that such a schedule might be possible.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

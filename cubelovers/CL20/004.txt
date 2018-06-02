@@ -1,0 +1,53 @@
+From cube-lovers-errors@curry.epilogue.com  Sat May 11 04:40:17 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id EAA12883 for <cube-lovers-outbound@curry.epilogue.com>; Sat, 11 May 1996 04:40:16 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sat, 11 May 96 01:52:57 +0400 (EST)
+From: "Robert P. Munafo" <cube%mrob.uucp@ursa-major.spdcc.com>
+Reply-To: "Robert P. Munafo" <cube%mrob.uucp@ursa-major.spdcc.com>
+Message-Id: <7003%mrob.uucp@ursa-major.spdcc.com>
+To: cube-lovers@ai.mit.edu
+Subject: The barcode
+
+
+Dale Newfield wrote:
+> [...]
+> Charlottesville, VA 22901-2708
+> |..|.|..|.||.|..||......||..|.||...|||...|..|.||....|.|..|..||
+> (No, this barcode is not necessary, but I figured this would be a good
+> place to ask: "Has anyone figured out what information is encoded in
+> this, or how it is encoded?" :-)
+
+It's your zip code. The Post Office recognizes the zipcode with some sort of
+OCR (Optical Character Recognition) then prints a barcode on the envelope
+so that simpler machines can sort the mail later in its delivery path.
+Sometimes the sender prints the barcodes (if your mail is part of a large
+mailing, like junk mail, magazines, tax forms etc.).
+
+This is from the URL http://www.advanstar.com/autoidnews/barcofaq.txt
+> POSTNET symbols are different from other symbologies because the 
+> individual bar height alternates rather than the bar width. Each 
+> number is represented by a pattern of five bars. A single tall bar is 
+> used for the start and stop bars.
+> 
+> Each symbol includes a check digit defined as the single digit that 
+> must be added to the sum of all the digits to make the total the next 
+> multiple of 10. For example, 98116's check digit is 5 because:  
+> 9+8+1+1+6=25 and 25 + 5 = 30.
+> 
+> POSTNET can be used for 5-digit, 9-digit ZIP+4, and the new 11-digit 
+> Delivery Point Barcode. They are often used in conjunction with one 
+> of the three FIM bars (Facing Identification Marks) which are found 
+> on the upper right corner of a mail piece like Business Reply Mail.
+
+The encoding is as follows:
+
+  ||...  ...||  ..|.|  ..||.  .|..|  .|.|.  .||..  |...|  |..|.  |.|..
+    0      1      2      3      4      5      6      7      8      9
+
+--
+Robert P. Munafo                  UUCP: ...!harvard!spdcc!mrob!cube
+CUBE-LOVERS Account              Internet: cube%mrob.uucp@spdcc.com
+
+

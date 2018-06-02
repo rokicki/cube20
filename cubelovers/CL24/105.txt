@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Dec  4 21:21:56 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA26609; Thu, 4 Dec 1997 21:21:56 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Dec  4 11:42:31 1997
+Message-Id: <19971204164104.18805.qmail@hotmail.com>
+From: "John Coffey" <john2001@hotmail.com>
+To: Cube-Lovers@ai.mit.edu
+Date: Thu, 04 Dec 1997 09:41:03 MST
+
+I have made a DOS program that solves the square-1 rubik's cube
+variant.  If you would like to have this program then please 
+contact me.  Source code is also available.
+
+john2001@hotmail.com
+John Coffey.
+http://www.xmission.com/~jrcoffey/chess.htm
+http://www.xmission.com/~jrcoffey/play.htm
+
+[ Moderator's note: Soon to appear in
+ ftp://ftp.ai.mit.edu/pub/cube-lovers/contrib/ ]
+

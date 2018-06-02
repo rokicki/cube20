@@ -1,0 +1,60 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Thu Jan 13 05:03:10 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from mail.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA26601; Thu, 13 Jan 94 05:03:10 EST
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <61630(3)>; Thu, 13 Jan 1994 04:51:08 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA23090; Wed, 12 Jan 94 18:30:28 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 190EF0; Wed, 12 Jan 94 18:20:47 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: 4x4x4 Cube moves
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.694.5834.0C190EF0@canrem.com>
+Date: 	Wed, 12 Jan 1994 17:07:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+Some comments on flipping a single pair of edges on the 4x4x4 cube:
+
+Singmaster notation on the 4x4x4 (same notation as Jeffery Adams)
+--------------------------------
+
+L left face             l inner left slice
+r inner right slice     R right face
+F front face            f inner front slice
+b inner back slice      B back face
+U up face               u inner up slice
+d inner down slice      D down face
+
+So L1 would be turn the left face 90 degrees clockwise and l1 would
+ be turn the inner left slice 90 degrees clockwise.
+
+I'll use the suffix "2" to be for 180 degree turns and the suffix
+ "3" to be for 270 degree turns clockwise or 90 degree turns
+ counterclockwise.
+
+This is the shortest sequence I found for flipping 2 adjacent
+edges on the 4x4x4 cube (LD pair):
+
+ (r3 D3) ^3 + (r1 D1) ^4 + Rr3 D3 R1 D1 r3 D3 R3 D1 R1 D3
+
+Note the use of Rr to represent both the turns R face & r inner
+ slice. Counting slice turns the sequence is 25 turns, or
+ 24 "hyper moves". This sequence moves some centre pieces around.
+
+However, on checking David Singmaster's Cubic Circular, in issues
+ 5 & 6, Autumn & Winter 1982 there is a shorter process on
+ page 15, (UB pair):
+
+ r2 D2 l3 D1 R3 U1 R3 U3 l3 U1 R1 U3 l1 R1 D1 r2
+
+This process, although more difficult to memorize, is only 16 slice
+ moves. It also disturbs centre pieces, although in a simpler way.
+ I always solve the centre pieces last on the 4x4x4.
+
+Hope this helps!
+
+ -> Mark
+Email: mark.longridge@canrem.com
+

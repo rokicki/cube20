@@ -1,0 +1,55 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  2 13:11:24 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id NAA03430; Mon, 2 Jun 1997 13:11:23 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Mon, 02 Jun 1997 09:50:34 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: A* versus IDA*
+In-reply-to: <970531141525.2140f541@iccgcc.cle.ab.com>
+To: cube-lovers@ai.mit.edu
+Reply-to: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Message-id: <Pine.WNT.3.96.970602093611.-408329C-100000@ER123A.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+X-X-Sender: jbryan@pstcc6.pstcc.cc.tn.us
+
+On Sat, 31 May 1997 SCHMIDTG@iccgcc.cle.ab.com wrote:
+
+> On the other hand, IDA* is a depth-first-search (DFS) algorithm.  DFS
+> algorithms require only a linear amount of storage with respect to search
+> depth (i.e. it has O(d) storage requirements) since it only needs to store
+> the current path it is exploring.  It uses a cost threshold to determine
+> when it has gone deep enough and should backtrack to the next unexplored
+> node (as determined by the current path).  
+
+Like everybody else, I am still trying to grasp IDA*.  The way it
+backtracks reminds me a little bit of alpha-beta pruning.  There are
+major differences, of course, because alpha-beta works with two person
+games such as chess.  But the pruning idea seems very similar anyway. 
+
+This raises a question.  It has been twenty years or so since I have
+worked on a problem with alpha-beta, but my best recollection is that it
+basically reduces the effective branching factor by the square root. For
+example, chess is usually considered to have a branching factor in the
+high 30's or low 40's, and alpha-beta gets the effective branching
+factor down to about 6 or 7.  (The efficacy of this effect is dependant
+on how well the nodes are ordered at each level of the tree.) 
+
+So can we say something similar about IDA*?  That is, is there an
+effective branching factor which is less than the actual branching
+factor?  Is a little bigger than 13 for face turns effectively reduced
+to some j, and is a little bigger than 9 for quarter turns effectively
+reduced to some k?  It would seem so to me, and your algorithm then
+becomes O(j^d) or O(k^d) instead of O(b^d). 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+

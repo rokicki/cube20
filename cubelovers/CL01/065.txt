@@ -1,0 +1,138 @@
+Date: 31 DEC 1980 1210-EST
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  the 5x5x5 [133 lines]
+To: CUBE-LOVERS at MIT-MC
+
+
+OK, folks, I'm considering going further than 4x4x4 and entering
+the realm of the 5x5x5. 
+
+Cubies:
+        C := Corner
+        X := aXis (center)
+        E := Edge (outside center)
+        L := Left (external edge)
+        R := Right (external edge)
+        D := Diagonal (internal [to the face] corner)
+        A := Adjacent (to the center, thanks to WER)
+                (internal [to the face] edge)
+
+A 3-D view would look like this
+
+
+                z=-5   +---+---+---+---+---+
+                      /   /   /   /   /   /|
+                     / C / L / E / R / C / |
+                    +---+---+---+---+---+  |
+                   /   /   /   /   /   /|C +
+                  / R / D / A / D / L / | /|
+                 +---+---+---+---+---+  |/ |
+        z=0     /   /   /   /   /   /|R +  |
+               / E / A / X / A / E / | /|L +
+              +---+---+---+---+---+  |/ | /|
+             /   /   /   /   /   /|E +  |/ |
+            / L / D / A / D / R / | /|D +  |
+           +---+---+---+---+---+  |/ | /|E +
+          /   /   /   /   /   /|L +  |/ | /|
+         / C / R / E / D / C / | /|A +  |/ |
+y,z=5   +---+---+---+---+---+  |/ | /|A +  |
+        |   |   |   |   |   |C +  |/ | /|R +
+        | C | L | E | R | C | /|D +  |/ | /|
+        |   |   |   |   |   |/ | /|X +  |/ |
+y=3     +---+---+---+---+---+  |/ | /|D +  |
+        |   |   |   |   |   |R +  |/ | /|C +
+        | R | D | A | D | L | /|A +  |/ | /
+        |   |   |   |   |   |/ | /|A +  |/
+y=1     +---+---+---+---+---+  |/ | /|L +
+        |   |   |   |   |   |E +  |/ | /
+y=0     | E | A | X | A | E | /|D +  |/
+        |   |   |   |   |   |/ | /|E +
+y=-1    +---+---+---+---+---+  |/ | /
+        |   |   |   |   |   |L +  |/
+        | L | D | A | D | R | /|R +
+        |   |   |   |   |   |/ | /
+y=-3    +---+---+---+---+---+  |/
+        |   |   |   |   |   |C +
+        | C | R | E | L | C | /
+        |   |   |   |   |   |/
+y=-5    +---+---+---+---+---+
+     x=-5  -3  -1   1   3   5
+
+LOVE THAT ASPECT RATIO !!!!
+
+All in all there are
+	 6 aXis faces
+	 8 Corners
+	12 Edges
+	24 Left/Right type edges
+	24 Diagonals
+	24 Adjacents
+	--
+	98 = 5^3 - 3^3 = 125-27 visible cubies
+
+Computation (inaccurate, but within a couple orders of magnitude)
+of the number of reachable positions:
+
+Axes:	lets not hack the extended problem yet	->	1
+Corners:8 of them anywhere			->	8!
+	each can take 3 orientations		->	3^8
+	parity of the corner			->	1/3
+Edges:	12 of them anywhere			->	12!
+	each can take 2 orientations		->	2^12
+	position/orientation restriction	->	1/4
+L/R:	24 of them anywhere			->	24!
+	orientation defined (they cannot flip)	->	1
+	parity (cannot swap only two)		->	1/2 (I think)
+Adjac:	24 of them anywhere:			->	24!
+	one edge always touches a face center	->	1
+	parity					->	1/2 (at least)
+Diags:	24 of them anywhere			->	24!
+	one corner always touches a face center	->	1
+	parity					->	1/2 (at least)
+
+It may not be accurate, but this computation gives
+	1.291318 * 10^90
+
+A slice through the center (z=0) probably looks something like
+
+y=5\
+   /    ..XXXXXXXXXX++++++++++EEEEEEEEEE
+        ..XXXXXXXXXX++++++++++EEEEEEEEEE
+        .....XXXX++++++++EEEEEEEEEEEEEEE
+        .....XXXX++++++++EEEEEEEEEEEEEEE        X is an axis cubie
+y=4\    .....XXXX++++++++EEEEEEEEEEEEEEE        E is an edge cubie
+   /    .....XXXX++++++++EEEEEEEEEEEEEEE        + is one adjacent cubie
+        .....XXXX++++++++EEEEEEEEEEEEEEE        ~ is another adjacent
+        .....XXXX++++++++EEEEEEEEEEEEEEE
+        .....XXXX++++++++EEEEEEEEEEEEEEE
+y=3\    .....XXXX++++++++EEEEEEEEEEEEEEE
+   /    .....XXXX++++++++EEEEEEEEEEEEE~~
+        .....XXXX++++++++EEEEEEEEEEEEE~~
+        .....XXXX++++++++EEEEEEEEEEEEE~~
+        .....XXXX++++++++EEEEEEEEEEEEE~~
+y=2\    .....XXXX++++++++EEEEEEEEEEEEE~~
+   /    .....XXXX+++++++/~~~~~~~~~~~~~~~
+        .....XXXX++++++/~~~~~~~~~~~~~~~~
+        .....XXXX+++++/~~~~~~~~~~~~~~~~~
+        \....XXXX++++/~~~~~~~~~~~~~~~~~~
+y=1\    .\...XXXX+++/~~~~~~~~~~~~~~~~~~~
+   /    ..\..XXXX++/~~~~~~~~~~~~~~~~~~XX
+        ...\.XXXX+/~~~~~~~~~~~~~~~~~~~XX
+        ....\XXXX/~~~~~~~~~~~~~~~~~~~~XX
+        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+y=0\    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+   /    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+        ..../XXXX\....................XX
+        .../.XXXX.\...................XX
+y=-1\   ../..XXXX..\..................XX
+    /
+         /\   /\   /\        /\        /\
+       x=-1    0    1         3         5
+
+This time the central axis is rigid in the sense that it does
+form a cross, but each of the six spokes can rotate as in the
+3x3x3 cube. The curvature and tolerances of some of the pieces
+gets a little hairy, but I'm working with graph paper and looking
+at the other slices through the cube. Wish me luck -- I have
+thoughts of construction.

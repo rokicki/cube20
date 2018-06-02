@@ -1,0 +1,110 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Sep 12 17:53:00 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id RAA20354; Fri, 12 Sep 1997 17:52:59 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From jbryan@pstcc.cc.tn.us Fri Sep 12 17:08:04 1997
+Date: Fri, 12 Sep 1997 17:07:47 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: isoglyphs
+In-Reply-To: <199708182216.SAA00604@sun30.aic.nrl.navy.mil>
+To: cube-lovers@ai.mit.edu
+Reply-To: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Message-Id: <Pine.WNT.3.96.970912155335.-953687V-100000@GN209A.PSTCC.CC.TN.US>
+
+On Mon, 18 Aug 1997, Dan Hoey wrote:
+
+> A "chiral isoglyph" is one in which the handedness of the glyph is
+> taken into account in testing for isoglyphy,* so that the glyph
+> appears only in one variety.
+
+> 
+> Mike used "achiral" for an isoglyph that fails to be a chiral
+> isoglyph, though I would tend to use "non-chiral".  I would rather use
+> "achiral" for a situation that lacked chirality, as in an isoglyph of
+> a mirror-symmetric glyph.
+
+Let me see what I can do to muddy these waters. 
+
+It seems to me that we might ought to consider the chirality of an
+isoglyph as being a different issue than the chirality of a glyph.  I
+think the two are clearly related, but I am not sure that the one
+necessarily derives from the other. 
+
+As to a glyph, it seems to me that a glyph is chiral only if conjugating
+the position by each of the four reflections of the square yields a
+different set of positions than does conjugating the position by each of
+the four rotations of the square.  Hence, you can have a glyph which
+occurs in right-handed or left-handed forms, or one that doesn't.  This
+is the simple part. 
+
+I think the situation with isoglyphs is a little more complicated.  For
+example, form an isoglyph using both the right-handed and the
+left-handed forms of a chiral glyph.  You might have 6 right-handed
+glyphs and 0 left-handed glyphs, 5 right-handed glyphs and 1 left-handed
+glyph, etc.  If there are unequal numbers of right-handed and
+left-handed glyphs, then it seems natural to define the handedness of
+the isoglyph as being that of the dominate glyph.  But what if there are
+three right-handed glyphs and three left-handed glyphs?
+
+Up to symmetry, there are only two ways to partition the six faces of a
+cube into two sets of three faces.  For example, the F, U, and B faces
+can be of the same chirality, or the F, U, and R faces can be of the
+same chirality (or any conjugates of these choice of faces).  In the
+first case, the cube is partitioned like a universal joint, or maybe
+like a cubic baseball.  Such a position seems to me to lack chirality. 
+In the second case, three faces with the same chirality cluster around a
+common corner.  Again, such a position seems to me to lack chirality. 
+So an isoglyph which lacks chirality can contain chiral glyphs.
+
+On the other hand, even on an isoglyph consisting of three right-handed
+and three left-handed glyphs, you still might be able to find a
+distinguishing characteristic of the right hand part that was different
+from the left-handed part.  For example, the glyph boundaries which were
+internal to the right-handed part of the isoglyph might be continuous
+whereas the glyph boundaries which were internal to the left-handed part
+of the isoglyph might not be continuous.  Or for another example, the
+rotations of the three right-handed faces relative to each other might
+be different than the rotations of the left-handed faces relative to
+each other. 
+
+(By the way, I have not verified that any of these positions I have
+described are actually in G.  I guess I am thinking in terms of the
+constructible group of the facelets -- conceptually, peeling all the
+facelets off and reattaching them.) 
+
+On the other hand, two glyphs which lack chirality when placed side by
+side can be chiral.  For example,
+
+       XOOXXX   (the base glyph is XXX
+       XXXOXO                      OXO
+       XOOOXO                      OXO )
+
+I really haven't thought through the implications of using six glyphs
+instead of two, but it seems to me quite likely that an isoglyph could
+be constructed using six glyphs which lack chirality and which are the
+same pattern, and where the we could attribute chirality to the isoglyph
+as a whole. 
+
+I have thought about this in terms of Herbert's Cube Explorer 1.5
+program.  The pattern editor has a check box for continuous.  If you
+don't check the box, the program finds both continuous and
+non-continuous isoglyphs.  If you do check the box, it finds only
+continuous ones.  So I have considered what would happen if the program
+had a check box for chiral.  What should it do?  The obvious thing would
+be that in normal operation, it would consider conjugates of both
+rotations and reflections of the square when building an isoglyph from a
+glyph, but that if the chiral box were checked it would consider only
+conjugates of rotations of the square.  But is that sufficient to
+satisfy our various definitions of chiral, achiral, and/or non-chiral?
+I'm not sure.  Maybe Dan or Mike would be kind enough to clarify further
+their thoughts on this issue. 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

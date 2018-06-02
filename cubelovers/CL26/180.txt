@@ -1,0 +1,31 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 17 13:35:41 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA07047
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 17 Mar 1999 13:35:40 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199903170235.VAA11730@garnet.sover.net>
+Date: Tue, 16 Mar 1999 21:37:49 -0500
+To: Nicholas Bodley <nbodley@tiac.net>
+From: Nichael Lynn Cramer <nichael@sover.net>
+Subject: Re: Taking apart the 5^3
+Cc: Cube Mailing List <Cube-lovers@ai.mit.edu>
+In-Reply-To: <Pine.SUN.3.96.990316050216.6308M-100000@sunspot.tiac.net>
+
+Nicholas Bodley wrote:
+>As nearly as I can remember, you can begin dismantling one of these by
+>rotating the top slice by maybe 30 degrees or so, then prying upward on
+>one of the "wing" cubies (between the center and the corner cubies). Use
+>your thumb, nail side down, and lift.
+
+Oh course, if you want to wimp out, the center face cubie is held on by a
+screw (at least his is true on my 5Xs).
+
+Just take off the sticker (this is probably easier on the orange side...)
+and the rest becomes pretty easy.
+---
+Nichael Cramer                 loose shoes,
+nichael@sover.net                 a tight schedule,
+http://www.sover.net/~nichael/       and a warm place to write Lisp...
+

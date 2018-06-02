@@ -1,0 +1,70 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Fri Sep  2 00:08:42 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03291; Fri, 2 Sep 94 00:08:42 EDT
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <95284-1>; Fri, 2 Sep 1994 00:08:46 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA06043; Fri, 2 Sep 94 00:05:44 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1AD333; Thu,  1 Sep 94 23:45:13 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject:  < U, R > revisited
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.796.5834.0C1AD333@canrem.com>
+Date: Thu, 1 Sep 1994 22:56:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+        Analysis of the 3x3x3 <U, R> group (continued)
+        ----------------------------------
+
+                                          branching
+Moves Deep       arrangements (q only)     factor
+
+  0                    1        1             --
+  1                    4        5              4
+  2                   10       15              2.5
+  3                   24       39              2.4
+  4                   58       97              2.416
+  5                  140      237              2.413
+  6                  338      575              2.414
+  7                  816    1,391              2.414
+  8                1,970    3,361              2.414
+  9                4,756    8,117              2.414
+ 10               11,448   19,565              2.407
+ 11               27,448   47,013              2.401
+ML's Conjecture: The < U, R > group is >=20 turns deep in qt metric
+
+UR Reflective processes: (in the q metric)
+A different sort of symmetry which I started to investigate, having
+ been inspired by my friend who solves his cube 2 adjacent faces
+ last!
+
+These are the only UR reflective processes at 10 q turns:
+     U3 R1 U1 R1 (U2) R3 U3 R3 U1 = R3 U1 R1 U1 (R2) U3 R3 U3 R1   (10)
+     U1 R3 U3 R3 (U2) R1 U1 R1 U3 = R1 U3 R3 U3 (R2) U1 R1 U1 R3   (10)
+
+Here is the obvious one we all know:
+                    ( U2 R2 ) ^ 3 = ( R2 U2 ) ^ 3                  (12)
+
+I liked this pattern in particular...
+       U1 R1 U2 R3 U2 R3 U2 R1 U1 = R1 U1 R2 U3 R2 U3 R2 U1 R1     (12)
+
+I hope to have an algorithm to plumb the depths of the < U, R > group
+ soon. Amusingly my friend complained about not been able solve
+ the cube completely as he was stuck in a position with 2 flipped
+ edges. After watching him squirm for a few weeks I did tell him
+ you can't flip edges in the < U, R > group!     ;->
+
+Congrats to Dan Hoey, Dik Winter, Jerry Bryan and Ludwig Plutonium
+ for making it into the 1994 Internet White Pages! I'm in good
+ company.
+
+        -> Mark <-
+        Email: mark.longridge@canrem.com
+
+P.S. I just read the last J.B. post and see I've been somewhat
+     overshadowed. Ok let's see some antipodes! At least our
+     results are the same though. So, ummmm I guess ML's
+     conjecture is correct!
+

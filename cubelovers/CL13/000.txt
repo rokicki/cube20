@@ -1,0 +1,51 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Mon Sep 12 01:05:56 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24942; Mon, 12 Sep 94 01:05:56 EDT
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <101743-2>; Mon, 12 Sep 1994 01:05:58 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA20552; Mon, 12 Sep 94 01:03:01 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1AF26D; Mon, 12 Sep 94 00:48:46 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: More UR Stuff!
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.799.5834.0C1AF26D@canrem.com>
+Date: Mon, 12 Sep 1994 00:28:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+                      Notes on the UR Group
+                      ---------------------
+
+ Well, some small news about the < U, R > group. Previously I believed
+that my 3-cycle of edges:
+
+    UR1 = U3 R3 U2 R1 U1 R3 U1 R1 U1 R1 U2 R3 U3 R1 U3 R3 = 18 q, 16 h
+
+...discovered by hand was minimal. My newly created < U, R > solver
+(now being at the point of churning out correct results) as
+happily proven me wrong!
+
+    UR2 = U3 R1 U2 R1 U1 R1 U1 R2 U3 R3 U3 R2 U1 = 16 q, 13 h
+
+
+Also I found 6 "UR-Reflective" processes altogether. This is all
+ there are up to and including 12 q turns:
+
+  U3 R1 U1 R1 (U2) R3 U3 R3 U1 = R3 U1 R1 U1 (R2) U3 R3 U3 R1   (10)
+  U1 R3 U3 R3 (U2) R1 U1 R1 U3 = R1 U3 R3 U3 (R2) U1 R1 U1 R3   (10)
+                 ( U2 R2 ) ^ 3 = ( R2 U2 ) ^ 3                  (12)
+    U1 R1 U2 R3 U2 R3 U2 R1 U1 = R1 U1 R2 U3 R2 U3 R2 U1 R1     (12)
+            ( U1 R1 U3 R3 ) ^3 = ( R1 U1 R3 U3 ) ^3             (12)
+            ( U3 R3 U1 R1 ) ^3 = ( R3 U3 R1 U1 ) ^3             (12)
+
+
+ The program is still a sluggish beast, but I think with further
+refinements it should eventually find other interesting results
+like antipodes and pure twists, etc.
+
+             -> Mark <-
+
+ Email: mark.longridge@canrem.com
+

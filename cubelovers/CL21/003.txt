@@ -1,0 +1,33 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Jul  3 19:39:39 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA08766; Wed, 3 Jul 1996 19:39:39 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 3 Jul 1996 15:46:44 -0300
+From: FERNANDO VON REICHENBACH <reichen@cnea.edu.ar>
+Message-Id: <199607031846.PAA08649@cnea.edu.ar>
+To: Cube-Lovers@ai.mit.edu
+Subject: Moves:
+
+David wrote:
+> I chose to count R2 as one move as it takes one hand movement, hence
+> it takes about the same time as R, rather than twice as long.  So my
+> counting is more appropriate to questions of time or efficiency,
+  Although it is may be one hand move, R2 takes longer than R, if we
+start thinking that way, I suggest to give different values te each move
+(ie: R=1 R2=1.3 R'=1.2 L'=1 L=1.2 ...) depending on how long it would
+take to make that move, it could also depend on the previous move...
+  We could have an 'efficiency coeficient' of a given formula, but I 
+guess that would depend on many subjective factors (ie: if you are right
+or left-handed). I disagree with that, in our own cube meetings we used
+to have back in '82 (I was 18 then), we accepted the Q method cause it
+gave a lot of coherence in ALL formulas, and I'm not a mathemacian or
+group theorist, (a program will probably do R2=R+R+ taking exactly twice
+the time of one single move), eventually I rather put both counts in
+parenthesis, but I definetely choose the Q method. (Look at the samples
+in my 30/6 mail, I have a LOT more)
+
+Isidro Costantini       Zappa/Hendrix/King Crimson music lover
+  Olivos, Bs.As.        PC hard/soft technician
+
+

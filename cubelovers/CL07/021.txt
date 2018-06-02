@@ -1,0 +1,37 @@
+From rp@xn.ll.mit.edu  Mon Nov 12 12:09:56 1990
+Return-Path: <rp@xn.ll.mit.edu>
+Received: from xn.ll.mit.edu by life.ai.mit.edu (4.1/AI-4.10) id AA04551; Mon, 12 Nov 90 12:09:56 EST
+Message-Id: <9011121709.AA04551@life.ai.mit.edu>
+Received: by xn.ll.mit.edu id AA17468g; Mon, 12 Nov 90 12:07:55 EST
+Date: Mon, 12 Nov 90 12:07:55 EST
+From: Richard Pavelle <rp@xn.ll.mit.edu>
+To: CUBE-LOVERS@life.ai.mit.edu
+In-Reply-To: RCC2%VAXB.YORK.AC.UK@mitvma.mit.edu's message of Fri, 9 Nov 90  20:13 GMT <9011121445.AA02330@life.ai.mit.edu>
+Subject: hello there
+
+   Date:     Fri, 9 Nov 90  20:13 GMT
+   From: RCC2%VAXB.YORK.AC.UK@mitvma.mit.edu
+
+   Hello there,
+
+   This is my first posting to the cube-lovers board, so I'm
+   probably gonna ask a couple of really obvious questions:
+
+   a) Does anyone know where I can get a copy of David Singmaster's
+      book "Notes on Rubik's magic cube?"  This was THE definitive book
+      on the cube about 8 years ago, but I lost my copy....does anyone
+       know if it's still in print?? ( Oh yeah, maybe I should mention
+      that I'm in England...David Singmaster was a lecturer at one of
+      the colleges in London I think - was this book EVER published in
+      the states? )
+
+   b) ( This is a real obvious one... )   Does anyone have any tips or
+      advice on solving the 4*4*4 cube that appeared a few years after
+      the original 3*3*3 one.  I got really close to getting it right
+      a couple of years ago, but never quite made it.
+
+I have not looked at it for several years but if memory serves you need
+only one extra transformation which is not applicable to the 3^3. It is
+the single edge flip. I no longer recall it explicitly but it was kinda
+trivial to find.
+

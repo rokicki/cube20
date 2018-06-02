@@ -1,0 +1,31 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug  7 15:46:48 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA09383; Thu, 7 Aug 1997 15:46:47 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From reid@math.brown.edu Thu Aug  7 15:46:42 1997
+Message-Id: <199708071943.PAA07912@life.ai.mit.edu>
+Date: Thu, 7 Aug 1997 15:48:49 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: composition of superflip and pons asinorum
+
+my optimal cube solver has also found all minimal maneuvers for the
+composition of superflip and pons asinorum.  this was previously done
+by jerry bryan, so the purpose here is to confirm his results.
+
+up to symmetry, there are 10 maneuvers of length 20q, which occur in
+5 inverse pairs.  they are
+
+     U  R  F  D  R  U' D  L' U' D  F' B2 R  L' D' F' L' B' R'     (20q)
+     U  R  U  F  U  F  B' L' F  B' R  L' B' R  L' U  F' U' R' U'  (20q)
+     U  R  U  F  D  R  L' B' R  L' F  B' L' F  B' D  F' U' R' U'  (20q)
+     U  R  D  B  U  R  L' F' R  L' F' B  L' F' B  U  B' D' R' U'  (20q)
+     U  R  D  B  D  F' B  L' F' B  R  L' F' R  L' D  B' D' R' U'  (20q)
+
+this agrees exactly with jerry bryan's results.
+
+mike
+
+

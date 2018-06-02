@@ -1,0 +1,35 @@
+From hoey@aic.nrl.navy.mil  Sun Jul  9 19:53:12 1995
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil ([192.26.18.51]) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16871; Sun, 9 Jul 95 19:53:12 EDT
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA03807; Sun, 9 Jul 95 19:53:10 EDT
+Date: Sun, 9 Jul 95 19:53:10 EDT
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9507092353.AA03807@Sun0.AIC.NRL.Navy.Mil>
+To: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>,
+        "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject: Re: 3x3x3 Cubes for Sale
+
+"Jerry Bryan" <BRYAN@wvnvm.wvnet.edu> writes:
+> ... I couldn't see inside the box to verify this, the Face centers
+> seemed to be marked in such a way as to support the Supergroup.
+
+Just as well, you'd have been disappointed.  As I wrote on 8 Jan 92,
+
+: While most people are content to make each face a solid color, some
+: cubes have markings that display whether the face centers are twisted
+: with respect to the rest of the cube.
+:    [This has recently been done commercially in an spectacularly
+:     braindamaged way, in a product known as ``Rubik's cube--the
+:     fourth dimension'' or some such nonsense.  The mfrs have marked
+:     only four face centers, breaking symmetry while they fail to show
+:     the surprising invariant of the Supergroup.  What bagbiters!]
+
+> Rubik's note about the size of
+> the  problem says it is 4^4 times bigger than the regular problem.
+
+And it could have been 4^(11/2).
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

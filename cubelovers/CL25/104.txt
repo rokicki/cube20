@@ -1,0 +1,94 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jul 31 16:44:32 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id QAA01768; Fri, 31 Jul 1998 16:44:31 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Jul 31 16:24:59 1998
+Date: Fri, 31 Jul 1998 16:24:49 -0400
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199807312024.QAA10616@euclid.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: new optimal solver
+
+lately i've been working on a new optimal solver.  this is similar
+to the previous program, but uses different subgroups.  let  H
+be the subgroup in which
+
+        the four edges  FR, FL, BR  and  BL  are all in place,
+        and are correctly oriented
+and
+        the four  U  corners are on the  U  face (and thus the
+        four  D  corners are on the  D  face, and they are oriented
+        so that the  U  [respectively D]  facelet is on the  U
+        [respectively D]  face.
+
+then the cosets  H \ G  are described by triples  (e, cl, ct)  where
+
+e  describes the location and orientation of the four edges  FR, FL,
+    BR  and  BL,
+cl  describes the location of the four  U  corners, and
+ct  describes the orientation of the eight corners.
+
+there are
+
+24 * 22 * 20 * 18 = 190080  different  e  coordinates,
+/ 8 \
+\ 4 /  =   70  different  cl  coordinates, and
+3^7    = 2187  different  ct  coordinates.
+
+all combinations are possible, so there are  190080 * 70 * 2187 =
+29099347200  cosets.  the subgroup  H  has 16-fold symmetry; it is
+invariant under any symmetry of the cube that preserves the  U-D
+axis.  therefore the coset space  H \ G  also has this symmetry.
+up to symmetry, there are  12094  e  coordinates.  thus, we can
+reduce the coset space to  12094 * 70 * 2187 = 1851470460
+configurations.  store each configuration in half a byte of memory
+(storing its distance from start).  the whole thing can be stored
+in a tiny array of 925735230 bytes, approximately 883 megabytes.
+
+the number of cosets (actual numbers, not reduced by symmetry)
+at each distance is
+
+distance   quarter turns       face turns
+ 0                     1                1
+ 1                     8               12
+ 2                    76              162
+ 3                   696             2044
+ 4                  6418            25442
+ 5                 57912           316290
+ 6                514318          3899553
+ 7               4496206         46650252
+ 8              38304572        517476714
+ 9             308312232       4480840746
+10            2142297548      16776040760
+11            9789496784       7259620140
+12           14800845359         14475084
+13            2014724044
+14                291026
+
+i have this running on one processor of a sun ultra enterprise 450,
+configured with 1024Mb of RAM.  startup time is significant: it takes
+about 85 minutes for quarter turns, 125 minutes for face turns, to
+exhaustively search the coset space.
+
+some rough estimates are that it is 6.7 times faster than my previous
+optimal solver for quarter turns, 3.4 times faster for face turns.
+this is not nearly as good as i'd hoped.  there seems to be some
+performance issue with this machine.  it appears to be significantly
+slower when accessing large amounts of memory at random, despite the
+fact that it is all real memory, so no swapping is occurring.  the
+performance drop off starts at about 256Mb.  my program runs slower
+by a factor of 3 or maybe even 4 because of this.  my sysadmin has
+reproduced the same behavior on a small test program, so the problem
+is unlikely to be caused by my code.  i'm told that it is probably
+some gross inefficiency in the cache paging system of the operating
+system (solaris).  the os seems to have plenty of options, so perhaps
+one of them will fix this problem and speed up my program by a factor
+of 3 or maybe 4.  it seems ridiculous to me that things work this way,
+but apparently they do.
+
+nevertheless, the program is already fast enough for the tasks at hand.
+
+mike
+

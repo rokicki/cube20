@@ -1,0 +1,94 @@
+From cube-lovers-errors@oolong.camellia.org  Sat May 31 17:19:14 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA27882; Sat, 31 May 1997 17:19:13 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Sat, 31 May 97 16:55:01 EDT
+Message-Id: <9705312055.AA16150@sun34.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: cube-lovers@ai.mit.edu
+Subject: Searching and Metrics in (Korf 1997)
+
+INTRODUCTION
+
+I've read through Rich Korf's paper now, and I have a few ideas on the
+paper and how the method might be improved.  This is fairly long, so
+I've broken it up into two parts.  Part 1 has a bit about searching
+methods (answering the question I asked in my last message) and some
+concerns about the face-turn vs quarter-turn metric.  Part 2 covers
+some ideas I have on the heuristics he uses.  Eventually I hope to air
+my concerns over how realistic the memory-based analysis is, but I'm
+not sure I understand it well enough yet.
+
+SEARCHING
+
+I asked yesterday what made IDA* a more tractable method than A*.  I
+think I've got it now.  Both use a heuristic function h(p) that is
+guaranteed not to underestimate the number of moves to solve position
+p.  And both may have to check every position p (encountered at depth
+g(p)) for which g(p)+h(p) is less than the optimum.
+
+But A* is essentially a breadth-first algorithm.  You have to make a
+list of all the nodes for which g(p)+h(p) is minimum before you try a
+higher value.  For this problem, there are too many positions to store
+conveniently.  IDA* is a variant that allows depth-first search.  If
+you have a lower bound L, you search depth-first for all positions
+that have g(p)+h(p)<=L.  You will find a solution if and only if the
+optimal solution is at depth L; if you fail you try again with L+1.
+
+The big advantage of IDA* is that you don't need to represent a
+database of all the frontier positions at once, you try them one at a
+time.  IDA* has two disadvantages, though.  First, whenever you fail a
+search, you lose all the information from previous searches with
+smaller values of L, except that they failed.  But if the number of
+positions at each depth is much larger than the previous (ten or
+thirteen times larger, in this case) this loss is small.  Second, your
+depth-first search may visit the same position more than once, if it's
+reachable by more than one near-optimal path.  This seems to occur for
+only a few percent of positions as far as we've seen, but it
+eventually gets to be all of them near the global maximum.  The issue
+of duplication leads to my question about metrics.
+
+METRICS
+
+Rich uses the face-turn metric, which has been discussed here earlier.
+But the justification he gives is one I haven't seen before.  He
+claims the face metric
+
+    ... leads to a search tree with fewer duplicate nodes.  For
+    example, two consecutive clockwise twists of the same face leads
+    to the same state as two counterclockwise twists.
+
+But this is a bad example of duplication.  No one who is familiar with
+the cube-lovers archives (e.g. my message of 9 January 1981) would
+generate both of the above nodes, any more than they would generate
+the duplicate nodes caused by composing two commuting moves like F, B
+in both possible orders.  Rich knows not to do the latter, as he
+discusses in the paper.
+
+In case I haven't been sufficiently explicit about this, the way to
+avoid this kind of duplication in the quarter-turn metric is to
+require:
+
+    1. The move after F        must not be F',
+    2. The move after F' or FF must not be F or F',
+    3. The move after B        must not be F, F', or B',
+    4. The move after B' or BB must not be F, F', B, or B',
+    5. The same as rules 1-4 with F,B replaced by R,L, respectively, and
+    6. The same as rules 1-4 with F,B replaced by T,D, respectively.
+
+So two questions remain. First, is there really a difference in the
+duplication of positions in the two metrics?  I think Jerry Bryan's
+table shows that only about 1.74% of the 63 billion positions are
+duplicated at 11q.  Do we have statistics on duplication for the
+face-turn metric?  Second, is there any technical justification for
+using the face-turn metric?  I'm aware that most of the published
+literature uses it, and that small numbers of moves sound more
+impressive than large ones, but these aren't very satisfying reasons.
+As far as I know, the problem of finding optimal solutions can be
+fruitfully approached in either of the metrics, or in any of several
+other metrics.
+
+[ End of part 1. ]
+
+

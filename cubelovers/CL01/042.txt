@@ -1,0 +1,12 @@
+Date:     6 December 1980 1644-est
+From:     Bernard S. Greenberg       <Greenberg at MIT-Multics>
+Subject:  Re: That 28 move Plummer Cross
+To:       McKeeman.PA at PARC-Maxc
+Cc:       Cube-Lovers at MIT-MC, DDYER at at MIT-Multics,
+     Plummer.SIPBADMIN at MIT-Multics
+
+The maximally distant point is definitionally symmetric. It was
+Bawden (ALAN) who first stated this; were it NOT symmetric, there
+would be some twist you could make that would make it WORSE
+as opposed to the ones that would make it better. Were this
+the case, it would then not be a maximum.

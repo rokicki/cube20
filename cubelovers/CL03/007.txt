@@ -1,0 +1,53 @@
+Date: 14 August 1981 0111-EDT (Friday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Results of an exhaustive search to six quarter-twists
+Message-Id: <14Aug81 011137 DH51@CMU-10A>
+
+	The first answer is that there are exactly 878,880 cube
+positions at a distance of 6 quarter-twists from solved, and so
+983,926 positions at 6qtw or less.  These figures reflect a decrease
+of 744 from the previously known upper bounds.
+
+	It turns out that the twelve-qtw identities reported by
+Chris C. Worrell <ZILCH at MIT-MC> are complete, in a sense.  The
+only reservation here is that a fifth rule must be added to his
+list of the ways in which ``a generator generates other
+identities.''  This rule is substitution with shorter identities,
+and it's not too surprising that it was left out, since the only
+shorter identities are the ``trivial'' ones like XXXX=XYX'Y'=I,
+where X and Y are opposite faces.  In the case of the twelve-qtw
+identities, this means that identities of the form aXXb and aX'X'b
+generate each other.
+
+	The structure of the 12-qtw identities is clearer if we
+write them in a transformed way:
+
+I12-1	FR' F'R    UF' U'F    RU' R'U
+I12-2	FR' F'R   UF'   F'L FL'   U'F
+I12-3	FR' F'R   UF'   UL' U'L   FU'
+
+	The fifth rule is necessary so that I12-2 may generate the
+identities
+
+I12-2a	 FR' F'R   UF   FL FL'   U'F	and
+I12-2b	F'R' F'R   UF   FL FL'   U'F'.
+
+To see that this rule is necessary, it need only be observed that
+inversion, rotation, reflection, and shifting all preserve the
+number of clockwise/counterclockwise sign changes between
+cyclically adjacent elements.
+
+	In what sense are the ``trivial'' identities trivial?  I
+have come to believe that they are trivial only because they are
+short and simple enough that they are well-understood.  The only
+identities for which I can find any theoretical reasons for calling
+trivial are the identities of the form XX'=I.  In spite of the
+simplicity of the ``trivial'' identities, their occurrence is one
+of the major reasons that Alan Bawden and I were unable to show
+earlier that I12-1-3 generated all identities of length 12.  I fear
+that the combination of 4-qtw and 12-qtw identities may turn out to
+be a major headache when dealing with identities of length 14 and
+16.
+
+

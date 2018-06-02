@@ -1,0 +1,9 @@
+Date: 1 February 1983 13:20 EST
+From: David C. Plummer <DCP @ MIT-MC>
+Subject: The shortest sequence of moves.
+To: FONER @ MIT-MC
+cc: CUBE-LOVERS @ MIT-MC, ALAN @ MIT-OZ, Tk.Foner @ MIT-OZ,
+    HOEY @ CMU-CS-A
+
+What you really want is some deep mathematical insight.  You
+know, the kind Gauss and Fermat had...

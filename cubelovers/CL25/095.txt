@@ -1,0 +1,51 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Jul 29 13:55:23 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id NAA22336; Wed, 29 Jul 1998 13:55:23 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue Jul 28 12:10:01 1998
+Message-Id: <002001bdba41$af584480$99118bc0@tellus.switchview.com>
+From: "Michael Swart" <Michael.Swart@switchview.com>
+To: <cube-lovers@ai.mit.edu>
+Subject: Re: Restoring a 5^3 to solved state
+Date: Tue, 28 Jul 1998 12:06:31 -0400
+
+>A real cube meister will never disassemble his cube :)
+
+
+That's true but it is better than the alternative:  the dreaded _sticker
+peeling_! I took a course in university called "Intro to Public Speaking".
+In it we had to give a persuasive speech and mine was Called "Why you
+shouldn't peel stickers of a Cube". Here are some of the reasons I gave.
+
+1. The stickers weren't designed to be peeled. So until the people at 3M
+come out with a post-it note version of the cube, then peeling will only
+wear the cube out faster
+
+2. Cheating defeats the purpose of the puzzle. It reduces it to a simple
+jigsaw puzzle. But if you find this simpler puzzle challenging - an unlikely
+scenario for cube-lovers - then by all means peel away.
+
+3. Douglas R. Hofstadter once noted that there were two mysteries to the
+cube: 1. How does one solve the cube and 2. How does the cube stay together.
+If frustration gets the better of you and you must cheat then disassembling
+the cube is the preferred way because even though it does nothing to shed
+light on the first mystery it does give insight to the second mystery.
+Besides disassembling the cube and reassembling it don't cause (much) damage
+if you're careful.
+
+4. Chances are greater that you'll leave the cube unsolvable. Kids in my
+grade school in the 80's used to peel stickers because they were so close to
+completing two sides that they resorted to peeling one or two stickers to
+get the job done. This behaviour inevitably left the cube unsolvable. If you
+disassemble a cube and then assemble it randomly, there is a 1 in 12 chance
+that you'll be able to solve the cube. But if you take all the stickers off
+a cube and restick them randomly, then you have a better chance at winning
+the lotto 6/49 twice in a row on your next two tickets, than your chances
+and getting a solvable cube. (I'll post my math if anyone asks)
+
+Michael Swart
+Switchview Inc.
+Michael.Swart@switchview.com
+

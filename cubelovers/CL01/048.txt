@@ -1,0 +1,15 @@
+Date:  8 December 1980 1117-EST (Monday)
+From: Guy.Steele at CMU-10A
+To: ddyer at USC-ISIB
+Subject:  Re: That 28 move Plummer Cross
+CC: cube-lovers at MIT-MC
+In-Reply-To:  Dave Dyer's message of 6 Dec 80 17:28-EST
+Message-Id: <08Dec80 111740 GS70@CMU-10A>
+
+The position halfway through the cycle of a permutation need not
+be a local maximum, since moves other than the permutation cycle
+might take it further away.  It is more like a saddle point (most
+positions probably are in that class: at least two moves take
+it closer, and at least two take it further).
+There is one symmetric position which is not a local maximum:
+the solved state!

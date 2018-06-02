@@ -1,0 +1,109 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jul 24 13:30:22 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id NAA02692; Fri, 24 Jul 1998 13:30:20 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Jul 23 18:21:31 1998
+Date: Thu, 23 Jul 1998 18:21:02 -0400
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199807232221.SAA07643@hilbert.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: patterns on 5x5x5 cube
+
+a while ago, rainer asked for patterns on the 5x5x5 cube.  here
+are some i know (the hardest part seems to be finding the scraps
+of paper on which the maneuvers are written).
+
+standard notation uses  R  and  r  for 90 degree clockwise
+twists of the outer layer and second layer, respectively.  i've
+found it convenient to have notation for  Rr , so i use  _R_
+(that is, capital R underlined).  i guess this notation is more
+convenient for handwritten maneuvers, but not so convenient for
+e-mail.  i'll use  _R_  to denote  R  underlined and
+
+        _( F L U B ... )_
+
+to mean that the whole thing inside the parentheses is underlined.
+
+the first pattern is a "double" snake; it meanders onto each face twice.
+
+_R'_  b'  _U_  F2  _U'_  b  _U_  F2  _(U' R2 F')_  u2  _(F U L')_
+u2  _(L U' R' L)_  f  _D'_  B2  _D_  f'  _D'_  B2  _(D L2 B)_  d2
+_(B' D' R)_  d2  _(R' D L)_
+
+if i understand the terminology correctly, this is a continuous
+non-chiral isoglyph with the pattern
+
+     ...*.
+     **.**
+     .*...
+     .*...
+     .*...
+
+i still remember that when i found this pattern some 10-12 years
+ago, i saw the URF faces together.  then i turned the cube around,
+and was surprised by how it continued on the other three faces.
+(i shouldn't have been surprised, but you know how that goes ... )
+
+i came across this pattern accidently.  then i went snake hunting,
+and found several others:
+
+snake 2
+_(R F2 R2 U2)_  r2  _(U2 R2 F2 R' D' F2 B2 D R F2 R2 U2)_  r2
+_(U2 R2 F2 R' D')_  r2  _(F2 B2)_  L2  _(R2 U' D F2 B2 U)_
+
+those two have the property that the two snake segments on each face
+have the same color.  if this condition is relaxed, we also have
+
+snake 3
+_(R L' F U2 R F2 R2 U2)_  r2
+_(D2 L2 F B' D' F B' U' D F R L D' B2 L' F B' D')_
+f2  _(U2 D2)_  f2  _(U' D2)_
+
+this one can be modified slightly; change the U and D faces
+
+        .*.*.        .*.*.
+        .*.*.        .***.
+        .*.*.        .....
+from    .*.*.   to   .***.
+        .*.*.        .*.*.
+
+if only one is changed, then we get two separate snakes.
+
+there's also
+
+snake 4
+_(D F2 B2)_  l2  _(F2 B2 R')_  R2  _(F2 R2 U2)_  r2
+_(U2 R2 F2 R' D' F2 B2 D R F2 R2 U2)_  r2
+_(U' D' F' U2 D2 B U' D L2 B2 L' U2 D F2 B2)_
+
+
+another interesting pattern is
+
+U R' U' F'  _U'_  R'  _U_  f  _U'_  R  _(U F')_  F2 U R U'
+_B_  l'  _D2_  l  _D_  f'  _D2_  f  _(D' B')_
+D' L D B  _D_  L  _D'_  b'  _D_  L'  _(D' B)_  B2 D' L' D
+_F'_  r  _U2_  r'  _U'_  b  _U2_  b'  _(U F)_
+
+which gives a continuous non-chiral isoglyph with the pattern
+
+     .*...
+     .*...
+     .*...
+     *****
+     ...*.
+
+the same maneuver produces an analogous pattern on the 4x4x4 cube,
+but there's probably an easier maneuver.  another isoglyph (also
+continuous and non-chiral) with the same pattern is
+
+R  f'  U2  f  U  l'  U2  l  U' R'  _D'_
+L  b2  L'  _B'_  U  b2  U'  _(B D)_
+L'  b  D2  b'  D'  r  D2  r'  D L  _U_
+R'  f2  R  _F_  D'  f2  D  _(F' U')_
+
+modifying this pattern is how i found the first double snake.
+
+mike
+

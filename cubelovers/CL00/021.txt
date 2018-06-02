@@ -1,0 +1,27 @@
+Date: 17 Jul 1980 1358-PDT (Thursday)
+From: Mike at UCLA-SECURITY (Michael Urban)
+Subject: Confusion
+To: lauren
+CC: cube-hackers at mit-mc
+
+   Actually, dealing with the cube is a learn-as-you-go experience.
+The appeal of the cube, which makes it superior to Soma, or "Instant
+Insanity", etc, is that you actually have to analyze what's going on
+in order to approach the solution.  For example, I began by learning
+how to put one face right; this required certain simple transformations
+that were useful later.  As you go, you develop your own heuristics
+for moving the faces you need around without messing up what you've
+done so far.  I can do the whole thing from an arbitrary starting
+position in around 20 minutes; I'm still not very adept at moving
+corners around.
+   Even after you have solved it, there are still things to do
+with the cube, including improving your personal algorithm, as well
+as creating nifty patterns, etc.  A Worthy Toy.
+   According to "Games & Puzzles" magazine, Rubik is the Hungarian
+fellow that devised this evil little time-stealer.  The
+article also impies a 2x2 version is in the works, which is even harder
+to understand mechanically than the 3x3 version.
+   How the heck IS the thing put together, anyhow?
+	Mike
+-------
+

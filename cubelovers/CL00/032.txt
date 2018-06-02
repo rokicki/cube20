@@ -1,0 +1,17 @@
+Date: 18 JUL 1980 0351-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: 1260
+To: ED at MIT-MC
+CC: CUBE-HACKERS at MIT-MC
+
+I now have a proof that no element of the cube group can be of order
+greater than 1260.  Since you have so thoughfully provided me with an
+element of order 1260, I must conclude that this element is indeed the
+maximum, as you claimed (but where did the number 216=6^3 come from?).
+
+My proof contains no nice derivation of the number 1260, you will be
+dissapointed to see where it comes from, it is just all that is left
+after a number of cases have been eliminated.
+
+Perhaps someone can devise a "nice" proof of this fact.  Is this fact
+in the literature?  (Bernie?)

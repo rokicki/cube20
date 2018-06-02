@@ -1,0 +1,487 @@
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU; 11 Jan 90 16:40:59 EST
+Received: from ucbeh.san.uc.edu by mintaka.lcs.mit.edu id aa03970;
+          11 Jan 90 15:36 EST
+Date: Thu, 11 Jan 90 14:13 EST
+From: Amin Shafie - Univ of Cincinnati Comp Ctr <SHAFIE@ucbeh.san.uc.edu>
+Subject: SIGUCCS CALL for PARTICIPATION
+To: 386USERS@twg.com, 9370-L%HEARN.BITNET@mitvma.mit.edu, 
+    AAI@st-louis-emh2.army.mil, ADA-SW@wsmr-simtel20.army.mil, 
+    ADVISE-L%CANADA01.BITNET@cunyvm.cuny.edu, ADVSYS@eddie.mit.edu, 
+    AG-EXP-L%NDSUVM1.BITNET@cunyvm.cuny.edu, AI-ED@sumex-aim.stanford.edu, 
+    AIDSNEWS%RUTVM1.BITNET@cunyvm.cuny.edu, AIList@ai.ai.mit.edu, 
+    AIX-L%BUACCA.BITNET@mitvma.mit.edu, ALLIN1-L@ccvm.sunysb.edu, 
+    AMETHYST-USERS@wsmr-simtel20.army.mil, AMIGA-RELAY@udel.edu, 
+    ANDREW-DEMOS@andrew.cmu.edu, ANTHRO-L%UBVM.BITNET@cunyvm.cuny.edu, 
+    apollo@umix.cc.umich.edu, ARMS-D@xx.lcs.mit.edu, 
+    ARPANET-BBOARDS@mc.lcs.mit.edu, ASM370%UCF1VM.BITNET@cunyvm.cuny.edu, 
+    AVIATION@mc.lcs.mit.edu, AVIATION-THEORY@mc.lcs.mit.edu, bicycles@bbn.com, 
+    BIG-LAN@suvm.acs.syr.edu, BIG-LAN@suvm.bitnet, 
+    BIOTECH%UMDC.BITNET@cunyvm.cuny.edu, BIOTECH@umdc.umd.edu, 
+    BITNEWS%BITNIC.BITNET@cunyvm.cuny.edu, 
+    BMDP-L%MCGILL1.BITNET@CORNELLC.CIT.CORNELL.EDU, 
+    bug-1100@sumex-aim.stanford.edu, CA@think.com, CADinterest^.es@xerox.com, 
+    CAN-INET@mc.lcs.mit.edu, cisco@spot.colorado.edu
+Message-id: <F5FA4E1A52BF00D81C@UCBEH.SAN.UC.EDU>
+X-Envelope-to: Info-PCNet@AI.AI.MIT.EDU, CUBE-LOVERS@AI.AI.MIT.EDU,
+ AIList@AI.AI.MIT.EDU
+X-VMS-To: @LISTS.DIS
+X-VMS-Cc: SHAFIE
+
+<--------------------------------------------------------------------
+< 
+<                 SIGUCCS User Services Conference XVIII
+<                        Call For Participation
+<
+<                  New Centerings in Computing Services
+< 
+<                  September 30 through October 3, 1990
+<
+<                           Westin Hotel
+<                         Cincinnati, Ohio
+< 
+<
+<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<< 
+<< 
+<<Attention Directors, Managers, Analysts, Consultants, Programmers,
+<<Technical Writers, Trainers, and Librarians!
+<< 
+<<The higher education computing scene in the 1990s will present exciting
+<<challenges.  To accommodate users' needs, computing service organizations
+<<are now visibly transforming in function and structure.  The widespread
+<<adoption of personal computing by all disciplines, the increasing demand
+<<for desktop access to shared resources, the growth in demand for
+<<supercomputing capabilities, and the proliferation of powerful desktop
+<<workstations exert irresistible forces on central computing services.
+<<In response, the central site grows exponentially in staff and machinery
+<<at one academic institution; at another, the computing center is disbanded
+<<to provide distributed computing!  At some sites increasing specialization
+<<is urged; at others, generalization is required.  Regardless of the
+<<transforming strategy adopted by an individual institution, one fact
+<<seems clear:  the user is the center toward which all computing services
+<<are directed.
+<< 
+<<SIGUCCS '90 invites you to participate in the examination and discussion
+<<of the myriad challenges facing user services professionals as we enter a
+<<new decade and of the new centerings computing service organizations are
+<<discovering to meet them.  Please join us!
+<< 
+<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<< 
+<<You can Participate
+<< 
+<<	Presentations
+<< 
+<<	Papers
+<< 
+<<	Panel Discussions
+<< 
+<<	Quick Workshops
+<< 
+<<	Educational Materials Competition
+<< 
+<<	Newsletter Competition
+<< 
+<<	Technical Writing Competition
+<< 
+<<	Documentation Display
+<< 
+<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<< 
+<< 
+<< 
+<<Important Dates
+<< 
+<<	March 1, 1990		Presentation proposals due
+<<	April 1, 1990		Notification of proposal acceptance
+<<	May 1, 1990		Final Papers due
+<<	June 1, 1990		Newsletter entries due
+<<	June 1, 1990		Technical writing entries due
+<<	June 15, 1990		Notification of paper/panel acceptance
+<<	September 1, 1990	Deadline for materials for
+<<				documentation display
+<< 
+<< 
+<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<< 
+<<Presentation Topic Areas
+<< 
+<< 
+<<Information Exchange Technology
+<< 
+<<Information exchange may well be the most important computing
+<<activity of the 1990s. The infrastructure for information delivery, the
+<<National Research and Academic Network (NREN), is presently being developed.
+<<How do we meet the challenges of a world where the
+<<facilitation of information delivery may be a principal user services
+<<responsibility?  Topics of particular interest include:
+<< 
+<<	new approaches to information exchange
+<< 
+<<	campus activity in implementing information exchange
+<<	facilities that comply with emerging international standards
+<< 
+<<	research and development of computer-mediated information
+<<	exchange methods
+<< 
+<< 
+<<Distributed Services
+<< 
+<<As the role of user services shifts to providing distributed support,
+<<we must create new ways of providing traditional services as well as
+<<designing new services.  Topics of particular interest include:
+<< 
+<<	providing support staff in departments and colleges
+<< 
+<<	funding issues
+<< 
+<<	if and how to charge back for services
+<< 
+<<	human networking of distributed support staff
+<< 
+<<	nonlabor-intensive support strategies
+<< 
+<<	cooperative efforts with other departments
+<< 
+<< 
+<< 
+<<Management Strategies
+<< 
+<<How do user services managers cooperate with other administrative and
+<<academic units that use or provide computing resources?  How do they
+<<meet the many and diverse demands?  Topics of particular interest include:
+<< 
+<<	reorganization
+<< 
+<<	interaction with faculty advisory groups
+<< 
+<<	delegating and distributing responsibility
+<< 
+<<	coordinating university computing resources
+<< 
+<<	staff professional development
+<< 
+<< 
+<<Marketing your Services
+<< 
+<<Changing roles may require changing your services and, often, your image on
+<<campus as you provide new services to new users.  Topics of particular in-
+<<terest include:
+<< 
+<<	promotional strategies
+<< 
+<<	conducting market research
+<< 
+<<	designing services for unique or special audiences
+<< 
+<< 
+<< 
+<<Strategies for Small Schools
+<< 
+<<How can a small liberal arts college have distributed user services and
+<<centralized user services?  How do distributed and centralized services work
+<<together to provide computing services beyond word processing?  The
+<<sciences have become computer literate; now, how do we reach out  from the
+<<center to the humanities and fine arts?  Are we getting out of the
+<<office and into the trenches?  Are we making too many "house calls"?
+<<Should we make them at all?
+<< 
+<< 
+<<Security and Ethics
+<< 
+<<As electronic mail and conferencing become more popular, computing
+<<systems are widely accessible to more users.  How secure should academic
+<<computing resources be?  What are the ethical guidelines provided for users
+<<of electronic mail and conferencing systems?  Topics of particular interest
+<<include:
+<< 
+<<	promoting responsible and ethical use of computing resources
+<< 
+<<	security strategies
+<< 
+<<	adopting an ethics policy
+<< 
+<< 
+<<Serving New Audiences
+<< 
+<<People from the humanities, the arts, and other traditionally nontechnical
+<<disciplines are discovering that computers can help in areas other than
+<<word processing.  In an increasingly proactive stance in the central
+<<computing facility, what do we do to attract and support these new audi-
+<<ences?  Topics of interest include:
+<< 
+<<	providing information about off-the-shelf specialized
+<<	programs for music, fine arts, and the humanities
+<< 
+<<	facilitating technical support of nontraditional areas
+<< 
+<<	serving the computing beginner who wants to do
+<<	sophisticated tasks
+<< 
+<< 
+<<Consulting, Training, and Documentation
+<< 
+<<Supporting those who use the computing resources that we provide re-
+<<mains an important responsibility of user services organizations.  Topics
+<<of particular interest include:
+<< 
+<<	new approaches to training
+<< 
+<<	providing distributed consulting
+<< 
+<<	documentation distribution services
+<< 
+<< 
+<<and/or other topics that would be of interest to your national
+<<and international colleagues
+<< 
+<< 
+<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<< 
+<<Submitting Proposals
+<< 
+<< 
+<<Submit proposals via electronic mail to:
+<< 
+<<	SIGPAPER@OHSTVMA.BITNET or
+<< 
+<<	SIGPAPER@OHSTVMA.IRCC.OHIO-STATE.EDU
+<< 
+<<If you do not have access to electronic mail, send a printed copy to:
+<< 
+<<		Susan Jenkins Saari
+<<		Instruction and Research
+<<		Computer Center
+<<		The Ohio State University
+<<		1971 Neil Avenue
+<<		Columbus, OH 43210
+<< 
+<<		phone:      (614) 292-4843
+<<		fax:      (614) 292-7081
+<< 
+<< 
+<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<< 
+<<Accepted Proposals
+<< 
+<< 
+<<Proposals must be received by March 1, 1990.  Any submisson received
+<<after this date will not be considered by the Program Committee.  You will
+<<be notified of the Program CommitteeUs decision by April 1, 1990.  If your
+<<proposal is accepted, you will be asked to submit a full paper by May 1,
+<<1990.  Any papers received after this date will not be considered.  You will
+<<be notified of the Program CommitteeUs decision by June 15, 1990.
+<< 
+<<If your presentation is accepted, SIGUCCS is depending on you.  If you are
+<<ker to make your presentation (not a substitute presentation).
+<< 
+<< 
+<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<< 
+<< 
+<<How to Participate
+<< 
+<< 
+<<Proposals
+<< 
+<<For each proposal, include your name, title, affiliation, mailing ad-
+<<type of  proposal (presentation or panel discussion) and its topic area.
+<<In addition, you must enclose the proper materials from the following
+<<requirements list:
+<< 
+<<Description
+<< 
+<<Papers		Papers will be presented in 20-minute ntervals, with
+<<		three papers scheduled per 90-minute session. Speakers'
+<<		papers will be published in the conference proceedings.
+<< 
+<<Panels		Panels will be in-depth treatments of a single topic by
+<<		two to four speakers from at least two different schools,
+<<		coordinated by a moderator.  Allow ample time for audience
+<<		discussion.  Abstracts for panels should be submitted
+<<		as a unit by the person who wishes to act as a moderator.
+<<		Panelists' papers will be published in the conference
+<<		proceedings.
+<< 
+<<Quick Workshops	Quick workshops provide 90-minute overviews of new technolo-
+<<		gies, innovative applications, and creative strategies
+<<		for addressing the needs of computer users on campus.
+<< 
+<< 
+<<Requirements
+<< 
+<<Papers		A 250- to 300-word abstract of the paper.  Acceptance of
+<<		a proposal does not automatically ensure acceptance
+<<		of a paper for presentation; you must submit a full
+<<		paper to be considered for the conference program.
+<< 
+<<Panels		A 250- to 300-word description of the panel, including
+<<		each panelist's name, title, affiliation, and presentation
+<<		topic.  Acceptance of a panel description does not
+<<		automatically ensure acceptance of the panel for
+<<		presentation; each panelist must submit a full paper
+<<		to be considered for the conference program.
+<< 
+<<Quick Workshops	A one- to two-page outline of the presentation and a
+<<		10-minute videotape excerpt from the proposed presentation.
+<<		Acceptance of a proposal does not automatically ensure
+<<		acceptance of a workshop for presentation; you must
+<<		submit a full paper to be considered for the conference
+<<		program.  Only three or four presentations will be a
+<<		ccepted in this category because it is highly competiive.
+<< 
+<< 
+<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<< 
+<< 
+<<Other Ways to Participate
+<< 
+<<Education and Training Materials Competition
+<< 
+<<Interest in and the importance of user education and training have grown
+<<with each SIGUCCS conference.  The 1990 SIGUCCS Conference offers,
+<<for the first time, competition for user education and training materials for
+<<colleges and universities.*  We invite you to submit no more than two
+<<entries in any or all of the following categories: curriculum catalog, class-
+<<room printed materials, or self-contained printed tutorials.  Although the
+<<first year of this competition includes only printed materials, we would like
+<<to know if there is an interest in expanding our future competitions to
+<<include video, audio, and computer-based tutorials.  Deadline for entry is
+<<June 1, 1990.  For more details and an entry form, or to address the issue
+<<of future competition categories, contact:
+<< 
+<<		Diane Jung-Gribble
+<<		Indiana University
+<<		750 North State Road 46 Bypass
+<<		Bloomington, IN  47405
+<< 
+<<		(812) 855-0962
+<< 
+<< 
+<<		JUNG@IUBACS.BITNET
+<<		JUNG@JADE.BACS.INDIANA.EDU
+<< 
+<<*NOTE:  this competition is not open to commercial materials
+<< 
+<<Newsletter Competition
+<< 
+<<Winning an award in the SIGUCCS Newsletter Competition is a mark of
+<<distinction for your institution, and for your editors, writers,artists,and
+<<designers.  You will be asked to submit two consecutive issues published
+<<between June 1989 and May 1990.  Deadline for entry is June 1, 1990.
+<<For more details and an entry form, contact:
+<< 
+<<		Jess Anderson
+<<		Madison Academic Computing Center
+<<		University of Wisconsin-Madison
+<<		1210 West Dayton Street
+<<		Madison, WI   53706
+<< 
+<<		(608) 263-6988
+<< 
+<<		ANDERSON@MACC.WISC.EDU
+<<		ANDERSON@WISCMACC.BITNET
+<< 
+<< 
+<<Technical Writing Competition
+<< 
+<<If you have written or published a particularly good article in a computing
+<<newsletter, enter it in the Technical Writing Competition.  Each computing
+<<center may enter one article.  Deadline for entry is June 1,1990.  To obtain
+<<entry forms and more details, contact:
+<< 
+<<		Donald J. Montabana
+<<		University of Pennsylvania
+<<		Computing Resources Center
+<<		1202 Blockley Hall
+<<		Philadelphia, PA  19104-6021
+<< 
+<<		(215) 898-9085
+<< 
+<<		MONTABANA@A1.RELAY.UPENN.EDU
+<< 
+<< 
+<< 
+<<Documentation Display
+<< 
+<<The documentation room will feature an online system for submitted
+<<documentation.  Conference attendees who have BITNET or INTERNET
+<<access will be able to email documentation to their university or college.
+<<Documentation may be submitted electronically to DOCUMENT@MIAMIU,
+<<by hardcopy, or diskette (IBM or Mac formatted) and must be received
+<<before September 1, 1990.  Direct inquries to:
+<< 
+<<		Al Kaled
+<<		Academic Computing Services
+<<		Miami University
+<<		Oxford, OH  45056
+<< 
+<<		(513) 529-6226
+<< 
+<<		AK75STAF@MIAMIU
+<< 
+<< 
+<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<< 
+<< 
+<<More Information
+<< 
+<< 
+<<General Information
+<
+<<Amin Shafie, Conference Chair
+<<University of Cincinnati
+<< 
+<< 
+<<		e-mail:		SHAFIE@UCBEH.BITNET
+<< 
+<<		phone:		(513) 556-9001
+<< 
+<<		fax:		(513) 556-0035
+<< 
+<< 
+<<Call for Participation
+<<Susan Jenkins Saari, Program Chair
+<<The Ohio State University
+<< 
+<<		e-mail:		SIGPAPER@OHSTVMA.BITNET
+<< 
+<<		phone:		(614) 292-4843
+<< 
+<<		fax:		(614) 292-7081
+<< 
+<< 
+<<Registration
+<<Ken Maccarone, Registration Chair
+<<University of Cincinnati
+<< 
+<<		e-mail:		MACCARON@UCBEH.BITNET
+<< 
+<< 
+<<		phone:		(513) 556-9098
+<<		fax:		(513) 556-0035
+<< 
+<< 
+<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<< 
+<< 
+<<ACM SIGUCCS
+<< 
+<<The Association of Computing Machinery's (ACM) Special Interest Group
+<<for University and College Computing (SIGUCCS) is one of ACM's
+<<organizational units devoted to the technical activities of its members.
+<<SIGUCCS provides a link for guidance and the interchange of ideas among
+<<computing professionals in the full range of small to large institutions.
+<<Its newsletter, annual conferences, and workshops promote the discussion
+<<of mutual problems. networks, user services, and computer center management.
+<<This SIGUCCS conference emphasizes practical ways to improve services for
+<<those who use university and college computing centers.
+
+
+Amin Shafie
+Assistant Director
+Academic Computing Services                UCBEH::SHAFIE
+University of Cincinnati                   SHAFIE@UCBEH.SAN.UC.EDU
+ML 088                                     SHAFIE@UCBEH.BITNET
+Cincinnati, Ohio  45221
+(513) 556-9022

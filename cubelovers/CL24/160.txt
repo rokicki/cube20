@@ -1,0 +1,31 @@
+From: Alan Bawden <Alan@LCS.MIT.EDU>
+To: David@Byrden.com
+Cc: Cube-Lovers@ai.mit.edu
+
+   From: "David Byrden" <David@Byrden.com>
+   Date: Sat, 14 Feb 1998 14:37:00 -0000
+	   ...
+	   Not only did they want the word 'Rubik'
+   removed from the website, they wanted one of
+   the Java puzzles removed as well. They called it
+   an "electronic version of the RUBIK'S CUBE".
+   Fair enough, being a hexahedron sliced into 26
+   equal parts it bore a certian visual resemblance,
+   but obviously there was none of their mechanism
+   involved. It was all brand-new software.
+
+This latter seems totally outrageous to me.  If I were in your shoes, I
+would consider contacting the EFF to see if they were interested in making
+a case out of this.  The request that you remove Rubik's name from your
+site is the kind of petty stupidity we're seeing all to often these days,
+and is probably pretty mundane to the cyberlawyers at EFF, but the notion
+that they can torpedo your software if it merely duplicates the user
+interface (the "look-and-feel") of their physical puzzle might be something
+genuinely new.  Heck, do these guys claim that they own the underlying
+mathematical group?
+
+------------------------------
+
+End of Cube-Lovers Digest
+*************************
+

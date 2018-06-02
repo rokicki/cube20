@@ -1,0 +1,51 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr 22 12:22:10 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA14641
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 22 Apr 1999 12:22:10 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3.0.32.19990420085812.009b2880@mail.spc.nl>
+Date: Tue, 20 Apr 1999 08:58:14 +0200
+To: cube-lovers@ai.mit.edu
+From: Christ van Willegen <c.v.willegen@spcgroup.nl>
+Subject: RE: Re : Re: Inventing your own techniques
+
+At 15:13 19-4-1999 +0100, you wrote:
+>	The technique of solving the cube by use of commutators and conjugates
+>is what most people worked out in the early days.  However, I can testify
+that
+>it took us some time to realise that one could use second level commutation.
+>That is, FRF'R' = [F,R] only affects seven pieces, but in fact it only
+affects
+>one piece in the L face, so taking the commutator with the L face produces a
+>3-cycle of corners.  Likewise  [F,R]^2  only twists one corner in the L face
+>and combining it with turns of L allows you to twist three corners the
+same way
+>or two corners opposite ways.
+
+When I learned how to solve the cube (some 20 years back, I think...),
+I was taught a layer-by-layer solution, consisting of 'modular' moves.
+Most of the modularity occurs on the 3rd layer, namely:
+- In flipping the edges, I use (RE)^4 to flip the UR edge. Then, I move
+  the top layer so that there's another edge to be flipped at the UR
+  position and I repeat the same procedure.
+- In rotating the edges, I was taught the above-mentioned {R,F]^2 to
+  rotate an edge by 120 degrees. Later, I 'discovered' that [F,R]^2
+  does the same thing backward.
+
+Most other layer-by-layer methods I've seen have formulas to flip 2
+edges in the top layer, but you'll need two for the different confi-
+gurations. Also, these methods mostly have two, three or more formulas
+to rotate the edges in the toplayer, depending on configuration.
+
+My method may not be the fastest around (it takes me about 2 minutes
+to solve The Cube), but I don't need many formulas for it:
+
+1st layer: on my own (make a cross, fill in the corners)
+2nd layer: 2 formulas (standard layer 3 to layer 2 swing, two directions)
+3rd layer: 4 (exchange edges, flip one edge, exchange corners, rotate
+           one corner)
+
+Christ van Willegen
+

@@ -1,0 +1,127 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Aug  9 15:13:50 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA08470; Sat, 9 Aug 1997 15:13:50 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Hoey@AIC.NRL.Navy.Mil Sat Aug  9 15:09:29 1997
+Date: Sat, 9 Aug 1997 15:09:01 -0400
+Message-Id: <199708091909.PAA07964@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: kociemba@hrz1.hrz.th-darmstadt.de
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Continuous isoglyph patterns
+
+Bravo, Herbert!  A very nice list.  It's surprising how many of them
+are reassembled patterns, too.  Only the second and tenth are not
+reassembled, and both fail by using a reassembled pattern to
+camouflage a small distortion.  Pattern #2 is pattern #3 composed with
+a two-flip, and pattern #10 is pattern #9 composed with a three-cycle
+of edges.
+
+There are four elements of M used to perform the reorientation of the
+reassembled patterns.  Over half of them use the order-3
+major-diagonal rotation, of Plummer's cross: patterns 1, 3, 4, 6, 7,
+9, 11, 12, 13, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 27, 30, 31, and
+32.  Several use the order-2 major-diagonal rotation, of Christman's
+cross: patterns 5, 8, 14, 20, 26, 28, and 29.  The only pattern
+reassembled by the major diagonal reflected rotation is the order-6
+6-X, pattern 33, And the only pattern reassembled by central
+reflection is Pons Asinorum, pattern 34.
+
+I've also classified these patterns by the glyph that appears on the
+faces (modulo my clerical errors).  Patterns I know traditional names
+for are given with an asterisk; I've made up temporary descriptive
+names otherwise.
+
+ Glyph  Type  Patterns
+
+ X . X        2. Girdle 3-cycle, distorted
+ X X X   01   3. Girdle 3-cycle
+ X X X
+
+ X . X        8. Christman's girdle
+ . X X   02   9. Off-girdle 3-cycles
+ X X X       10. Off-girdle 3-cycles, distorted
+             11. Girdle 3-cycles
+
+ X . X
+ . X X   03  21. Plummer's C's
+ X . X
+
+ X . X       32. Plummer's X
+ . X .   04  33. Order-6 X
+ X . X       34. * Pons Asinorum
+
+
+ . X X
+ X X X   10   1. * Meson
+ X X X
+ 
+ . X X
+ X X .   11   7. Meson & girdle 3-cycle
+ X X X
+
+ . . X       13. Plummer's cluster
+ . X X   12  14. Christman's cluster
+ X X X
+
+ . X X
+ X X .   12  16. Meson & girdle 3-cycles
+ X . X
+
+ X . X
+ X X .   13  24. Plummer's Y's
+ X . .
+
+ . . X       25. Plummer's cluster & girdle 3-cycles
+ . X .   14  26. Christman's cluster & girdle
+ X . X       
+
+ . X .
+ X X X   30  15. Plummer's rabbits
+ . X X
+
+ . X X
+ . X X   31  22. Plummer's P's
+ . X .
+
+ X X .
+ X X .   32  23.  * Cube in a cube
+ . . .
+
+ . X .       29. Christman's arrow
+ X X .   32  30. Plummers's arrow
+ . . X
+
+ X . .
+ . X X   33  16. Plummer's bend
+ . . .
+
+ X . .        5. Christman's comma
+ . X .   34   6. Plummer's comma  
+ . . .
+
+ . X .       27. * Plummer's Cross
+ X X X   40  28. * Christman's Cross
+ . X .
+
+ . X .
+ X X X   41  31. * Four-way street
+ . . .
+
+ . X .       18. Plummer's cube out of cube in a cube
+ X X .   42  19. * Worm
+ . . .       20. Christman's cube out of cube in a cube
+
+ . X .
+ . X .   43  12. Plummer's U's
+ . . .
+
+ . . .
+ . X .   44   4. * Six-spot
+ . . .
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

@@ -1,0 +1,24 @@
+Date: 7 December 1980 00:47-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Maximally distant states
+To: McKeeman.PA at PARC-MAXC
+cc: CUBE-LOVERS at MIT-MC
+
+    Date: 6 Dec 1980 16:42 PST
+    From: McKeeman.PA at PARC-MAXC
+
+    I see no reason to believe that a QTW cannot take you between two solutions
+    that are at the same distance.  As DPC pointed out, there are a lot of even
+    identity paths.  E.g., (RUR'U')^6.  The two furthest points on the path are (by
+    symmetry) necessarily equally distant, yet connected by a QTW. 
+
+I am not sure I understand what you are trying to say here.  But I do
+know that a single quarter twist can never leave you the same distance
+from anything.  This is because a single quarter twist is a odd
+permutation of the "stickers".  Thus if you are N quarter twists away
+from something, a single quarter twist will leave you N-1 or N+1
+quarter twists away.  (And hence the proof that any quarter twist will
+bring you closer from a maximally distant state.)
+
+I'm not sure how to apply this to your statement that perhaps a "QTW"
+can take you "between two solutions that are at the same distance".

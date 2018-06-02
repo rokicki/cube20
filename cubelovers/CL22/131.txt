@@ -1,0 +1,58 @@
+From cube-lovers-errors@oolong.camellia.org  Wed Jun  4 17:30:05 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA04580; Wed, 4 Jun 1997 17:30:05 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Wed, 04 Jun 1997 10:58:27 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: FreeCell
+In-reply-to: <v01520d01afb9ee177570@[138.251.192.26]>
+To: Tony Davie <ad@dcs.st-and.ac.uk>
+Cc: cube-lovers@ai.mit.edu
+Reply-to: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Message-id: <Pine.WNT.3.96.970604085505.-409527D-100000@ER123A.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+X-X-Sender: jbryan@pstcc6.pstcc.cc.tn.us
+
+On Tue, 3 Jun 1997, Tony Davie wrote:
+
+> Could someone describe the FreeCell puzzle for us non-windows people?
+> 
+
+The game has already been described, so I won't do it again.  But I will
+make a couple of comments.
+
+The Windows version of the game has a certain charm that does not exist
+when you play it with real cards.  The rules require that you move one
+card at a time.  In actual practice you often move a group of cards as
+if they were a single entity, knowing full well that you could move them
+one at a time and still stay within the rules of the game.  The Windows
+version of the game understands this concept, and will move an entire
+group of cards for you with one mouse click.  It's almost as if the
+program is defining a macro operator for you on the fly.  Also, there
+are totally obvious moves, such as always playing aces to their payoff
+cells without further ado as soon as the aces are uncovered.  The
+program plays these totally obvious moves for you. At the end of the
+game there may be several dozen such obvious moves in a row, and it
+makes a nice visual effect that you cannot get with real cards.  (By the
+way, the program fails to make some moves which are totally obvious (to
+me, at least), but any discussion of such things should probably be
+taken off line.  I am curious if our moderator is going to let through
+such an off topic message, anyway.)
+
+But by contrast, my personal experience is that graphics cube
+manipulation programs have less charm than the real thing.  There is
+just something nice about the feel of the thing in your hands, and in
+its obvious 3-D solidness. 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+

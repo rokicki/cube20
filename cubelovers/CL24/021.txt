@@ -1,0 +1,23 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Oct  1 11:53:15 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA25358; Wed, 1 Oct 1997 11:53:15 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From dokon@MIT.EDU Tue Sep 30 19:30:29 1997
+Message-Id: <3.0.32.19970930192820.006ce8ac@po9.mit.edu>
+Date: Tue, 30 Sep 1997 19:28:21 -0400
+To: cube-lovers@ai.mit.edu
+From: Dennis Okon <dokon@mit.edu>
+Subject: God's Number
+
+I just found out that Keith Randall for the theory group of LCS (Lab for
+Computer Science) at MIT gave a talk Monday about God's number for the
+rubik's cube.  He upped the lower bound 24 and gave "evidence" that it is
+24.  I don't know what moves he was counting (e.g. slice, quarter).
+Unfortunately, I missed it.  Does anyone have any information on this?
+I'll see what I can find out.
+
+-Dennis Okon
+dokon@mit.edu
+

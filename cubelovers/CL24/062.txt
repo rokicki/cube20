@@ -1,0 +1,107 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Nov  4 14:24:17 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA08790; Tue, 4 Nov 1997 14:24:17 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From SCHMIDTG@iccgcc.cle.ab.com Tue Nov  4 01:38:07 1997
+From: SCHMIDTG@iccgcc.cle.ab.com
+Date: Tue, 4 Nov 1997 1:37:40 -0500 (EST)
+To: cube-lovers@ai.mit.edu
+Message-Id: <971104013740.202034d6@iccgcc.cle.ab.com>
+Subject: Re: Categorization of cube solving programs
+
+"der Mouse" wrote:
+
+>>> Class 3:	A program that when given a specific instance of the
+>>> 		cube, attempts to [solve it]  [eg, Kociemba]
+>>> Class 4:	A program which attempts to [find an algorithm to solve
+>>> 		arbitrary cubes].
+>
+>> In retrospect, Class 4 programs are not necessarily more
+>> sophisticated than Class 3 programs especially when one considers
+>> that the latter should be be able to produce a macro-table solution
+>> by solving for a sufficient set of specific sequences.
+>
+>Sure...but who picks the specific instances for them?
+
+See below...
+
+>> Richard Korf points out a suggestion by Jon Bently that the learning
+>> program can be be interleaved with the solving program, as
+>> co-routines, and only running the learning program when a new macro
+>> is needed to solve a particular problem instance.
+>
+>This means that the solving program has to imagine macros, try to
+>choose a useful one, determine whether it's actually possible (you
+>gotta keep the program from trying to produce, for example, a single
+>edge flipper).  You also have to decide when it's worth trying for a
+>macro and when it's better to just hit the (sub)problem with brute
+>force.  I would expect all these problems to be quite hard.
+
+Although I haven't verified this with Richard Korf, I think there
+is a very simple approach to this.  Consider each cubie to have one
+of two states, either "fixed" or "don't care".  Initially, all cubies
+are in the "don't care" state.  If a cubie state is "don't care" then
+that means we disregard it's position (i.e. location and orientation)
+in the target state for a particular macro.
+
+Number all 20 of the corner and edge cubies.  Now perform the following
+"Pidgin C" algorithm:
+
+Mark all cubies[1 through 20] as "don't care" in current_cube_state
+
+for (i = 1 to 20)
+{
+  target_state = cubies 1 through i in proper home cubicle position
+    and marked as "fixed", all other cubies are in a "don't care" state
+
+  Construct a unique macro index =
+    f(IN = current_cubie_position[i], IN = desired_cubie_position[i])
+
+  if (the macro at "index" doesn't exist)
+  {
+    Class_3_Solve(IN = current_cube_state, IN = target_cube_state, OUT = macro)
+      add the new "macro" to the macro table at "index"
+  }
+
+  Apply the macro to our current_cube_state
+
+  Mark cubie[i] as "fixed" in current_cube_state
+}
+
+Note: Class_3_solve must be able to accept an initial and goal state
+augmented with the "fixed" and "don't care" markings and should honor
+the constraints implied by them.  To put it another way, if a cubicle
+is marked as "don't care" then a valid target state allows this
+cubie to be placed in any other cubicle not currently occupied by a
+"fixed" cubie.  Not really a big deal for any search procedure as we
+are simply relaxing the goal state condition to a partial match rather
+than requiring an exact match.
+
+So we start out by solving for one cubie only and ignore the effect
+this has on the remaining 19 cubies.  We continue doing this, each
+time successively fixing another cubie and ignoring the rest, until
+all cubies are finally in place.  For any valid cube configuration,
+we are always guaranteed to find a macro that can solve this subproblem.
+Actually, we will never fully iterate to all 20 cubies since it
+is impossible to move just a single cubie.  For example, the very last
+subproblem for cubie #19 might be an edge flip.  Once we've discovered
+and applied the appropriate macro for this particular edge flip
+we will have also flipped the #20 cubie and placed the cube in its
+solved configuration.
+
+Initially, the macros are very easy to find since most cubies
+can be relocated.  At the very end, we can only move very few
+cubies, and the macros are more difficult.  But a class 3 program
+can solve any cube and thus can find even the most difficult
+macros (e.g. an edge flip).
+
+Eventually, once we've solved enough cube instances, our macro table
+will be complete and all future cubes can be solved via macro table
+lookup without the aid of the solving portion of the program.
+
+Regards,
+
+-- Greg
+

@@ -1,0 +1,143 @@
+From @wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU  Mon May 23 16:51:56 1994
+Return-Path: <@wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14699; Mon, 23 May 94 16:51:56 EDT
+Message-Id: <9405232051.AA14699@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4733; Mon, 23 May 94 11:00:32 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 1173; Mon, 23 May 1994 11:00:32 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Mon, 23 May 1994 11:00:24 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Modelling Centerless Cubes
+
+On 13 Feb 1994, I proposed a way to model centerless cubes which would
+(in Dan Hoey's words) retain the symmetrical nature of the problem.
+I need to post a partial correction/retraction.
+
+The conventional model for centerless cubes loses the symmetrical
+nature of the problem.  For example, for a corners-only cube, seven
+cubies are modeled rather than eight, and for an edges-only cube,
+eleven cubies are modeled rather than twelve.
+
+My proposal in February was to use cosets of the form xC to model
+centerless cubes, where x is a cube and where C is the set of
+twenty-four whole cube rotations.  This proposal in turn requires
+an interpretation of C such that C is a subset of G, the entire cube
+group.
+
+C is a group, but normally it is not considered to be a subset
+of G, hence it is not normally considered to be a subgroup of G.
+That is, C moves the centers of the faces, but G does not.  The
+required interpretation is obtained by removing the centers of each
+face, and defining rotational orientation by convention so that the
+cube is solved only when the Up color is Up, the Front Color is
+Front, and so forth.
+
+Under this interpretation, C is indeed a subset (and hence a subgroup)
+of G.  More correctly, C[even] is a subset of G, C is a subset of
+GC (the corners only cube), C is a subset of GE (the edges only cube),
+and C is a subset of GS, where GS=<Q,S> (Q is the set of quarter turns
+and S is the set of slice moves).  That is, when you start
+talking about C as a subset of G, you have to worry about odd and
+even permutations.  Hence, you have to say C is a subset of GS or
+C[even] is a subset of G in order not to violate parity rules.
+
+All of the above was posted in February, and I am still comfortable
+with it.  However, I went on to say that GS/C, G/C[even], GC/C, and
+GE/C were all groups under the operation xC * yC = (xy)C.  I find
+that I must retract this claim.
+
+In my note in February, I did not give a proof, but rather appealed
+to a proof in Frey and Singmaster's _Handbook of Cubik Math_.  I now
+find that I mis-applied their proof.  In order to show the nature of
+the problem, I find it useful to go through an attempted proof and
+determine the point at which it fails.
+
+Note that the proposed group elements are not cubes, they are cosets.
+We proceed as follows:
+
+  1. Associativity:  (xC * yC) * zC =
+                     (xy)C * zC =
+                     ((xy)z)C =
+                     (x(yz))C =
+                     xC * (yz)C
+                     xC * (yC * zC)
+
+     Note that the associativity of the proposed group G/C derives
+     directly from the associativity of G.
+
+  2. Identity: we propose that the identity is iC
+
+                     iC * xC = (ix)C = xC
+                     xC * iC = (xi)C = xC
+
+     Note that the identity of the proposed group G/C derives
+     directly from the identity i of G.  Further note that the
+     identity iC of the proposed group G/C is C, which is
+     precisely what you would want for the identity of a centerless
+     cube.
+
+  3. Inverse: we propose that (xC)'=x'C
+
+                     xC  * x'C = (xx')C = iC
+                     x'C * xC  = (x'x)C = iC
+
+     Note that the inverse of xC in the proposed group G/C derives
+     from the inverse of x in G.
+
+  4. Closure: This is where we have our problem.  We require that
+     if xC * yC = (xy)C, then (xy)C must be a coset of C.  But the
+     representation of xC and yC is not unique.  That is, xC=(xd)C,
+     where d is in C, and yC=(ye)C where e is in C.  It is the
+     case that (x(ye))C = (xy)C, but in general it is not the case
+     that ((xd)y)C = (xy)C.  Hence, we can have xC=(xd)C, but have
+     it be the case that xC * yC is not equal (xd)C * yC.  Hence,
+     we do not have closure.
+
+     Strictly speaking, this same problem afflicts our "proof" for
+     the inverse, but I deferred discussing the problem until I got
+     to closure.  If the problem is repaired for closure, it is also
+     repaired for inverses (see the next paragraph for a discussion
+     of normal subgroups).
+
+Cosets of a subgroup H are said to be normal if xH = Hx for all x.
+I was implicitly and incorrectly assuming that C is a normal
+subgroup of G, but it is not.  For normal subgroups, closure of
+coset multiplication is readily proven.  Frey and Singmaster's proof
+is for normal subgroups only, and I was applying it to C, which is
+not normal.
+
+It is instructive to consider briefly what xC vs. Cx means for cubes.
+We can interpret the left coset xC as simply holding a cube in your
+hands and rotating it any way you wish in space without performing
+any twists.
+
+The right coset Cx is a little trickier.  The cube x
+must be pre-multiplied by each c in C to form Cx.  If you have cube
+x in your hands, there is no obvious thing you can do to form Cx.
+The thing that is most intuitive to me personally is to think in
+terms of "rotation by color", which is the way I described
+pre-multiplication when I first posted some of the results of my
+work back in December.  That is, think of holding the cube still, but
+recoloring it by permuting the colors.  The elements of the coset Cx
+look the "same" but with the colors permuted.  It is not possible to
+perform this operation on a real cube (short of pulling off the stickers
+and putting them back on), but the operation can be readily performed
+on a computer model.
+
+Having said all this, I keep thinking that there must be a way to define
+an operation on the cosets xC so that they form a group.  However, I
+have been unsuccessful in doing so.  I would welcome any advice from
+the net.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

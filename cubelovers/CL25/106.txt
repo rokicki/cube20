@@ -1,0 +1,155 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun Aug  2 17:46:24 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id RAA08130; Sun, 2 Aug 1998 17:46:24 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Aug  2 08:47:54 1998
+Date: Sun, 2 Aug 1998 08:47:44 -0400
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199808021247.IAA08734@cauchy.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: superflip  composed with  four spot
+
+with my new optimal solver, i can show that the position
+
+     superflip  composed with  four spot
+
+is exactly 26 quarter turns from start.  this gives a new lower bound
+for the diameter of the cube group.  the previous lower bound, 24q, was
+from the position superflip, and was first established by jerry bryan.
+
+let  F2 B2 U  D' R2 L2 U  D'  be our choice of orientation of
+four spot.  although four spot is not central, the position
+
+     F2 B2 U  D' R2 L2 U  D'   C_U2
+
+moves only face center cubies:  (F, B) (R, L).  (here  C_U2  denotes
+whole cube rotation by 180 degrees about the U-D axis.)  since quarter
+turns do not move face center cubies, we see that the sequence above
+commutes with any sequence of quarter turns.  the same is also true
+for
+     superflip . four spot . C_U2
+
+in terms of singmaster's fixed face model, this means that we can
+cyclically shift a maneuver for superflip composed with four spot,
+but the part that is cyclically shifted gets conjugated by the cube
+rotation  C_U2.  for example:
+
+(B  U2 L) (U' D  L2 F2 R2 B  U2 R' L' D  R2 D  F2 U  R2 D  B)
+
+creates this position.  if we cyclically shift the first three twists
+to the end, we get another maneuver for this position:
+
+(U' D  L2 F2 R2 B  U2 R' L' D  R2 D  F2 U  R2 D  B) (F  U2 R)
+
+this observation about cyclic shifting enables us to prove
+
+proposition 1.  superflip  composed with  four spot  is a local
+                maximum in the quarter turn metric.
+
+proof.  we need to show that any quarter turn takes us closer to
+        start.  the 12 different twists split up into two different
+        types under the symmetry of this position:  {U, U', D, D'}
+        and {R, R', F, F', L, L', B, B'}.  we claim that any maneuver
+        for superflip composed with four spot must contain twists of
+        both types.  a maneuver consisting only of twists in
+        {U, U', D, D'} clearly cannot produce this position.  also,
+        a maneuver consisting only of twists in
+        {R, R', F, F', L, L', B, B'} cannot flip any edges.  thus
+        both twist types must occur.  now consider a minimal
+        maneuver for superflip composed with four spot.  we may
+        cyclically shift (and apply symmetry) so that the last twist
+        is  U'.  thus, applying  U  cancels this last twist and
+        brings us closer to start.  similarly, we can cyclically shift
+        to get a minimal maneuver ending with  R', so applying  R
+        also brings us closer to start.  since any twist is equivalent
+        to  U  or  R , we have proved local maximality.     qed
+
+the significance of this proposition is that this is the first case
+beyond the hoey-saxe local maxima in which we can prove local
+maximality without computer searching.  (please correct me if i'm
+wrong about this.)
+
+dan hoey noted (a long time ago) that the position  four spot  is a
+local maximum.  however, i don't see that this can be proved without
+computer search.  the sticking point is that four spot can be achieved
+using only {R, R', F, F', L, L', B, B'}.  however, no minimal maneuver
+consists only of these twists, a fact determined by computer search.
+
+similar to the transformations for superflip, we have three
+transformations to apply to maneuvers for superflip composed with
+four spot.
+
+     we may conjugate by any of the 16 cube symmetries that fix
+     the U-D axis.
+     we may cyclically shift the maneuver, as described above.
+     we may invert the maneuver.
+
+proposition 2.  by using the three transformations above, any maneuver
+                for superflip composed with four spot can be transformed
+                into one that begins with one of the six sequences
+
+                R  U          R' U  D        R' U  F'
+                R' U  R'      R' U  B'       R' U  L'
+
+proof.  as shown in prop. 1, any sequence for superflip composed with
+        four spot contains both types of twists.  thus, the two types
+        occur as consecutive twists.  by cyclic shifting, and applying
+        symmetry, we may suppose that the first two quarter turns are
+        either  R U  or  R' U.  (this would already be enough reduction
+        for my program).  we can cut down the case  R' U  further.
+        there are eleven possibilities for the third quarter turn;
+        only  U'  is not allowed.  the case  R' U U = R' U2  is
+        equivalent under symmetry to  R U2, which is part of the case
+        beginning with  R U.  the case  R' U D'  is equivalent under
+        symmetry to  R D' U = R U D', again part of the case beginning
+        with  R U.  the case  R' U B  inverts to  B' U' R, and this is
+        equivalent to  R U B', which is part of the case beginning with
+        R U.  similarly, the cases beginning with  R' U R ,  R' U F
+        and  R' U L  invert to  R U R' , R U F'  and  R U L',
+        respectively.  this leaves only the sequences listed above.  qed
+
+my program exhaustively searched the positions
+
+     superflip. four spot . R  U    through 22q  and
+
+     superflip. four spot . R' U  D   \
+     superflip. four spot . R' U  F'   \
+     superflip. four spot . R' U  R'    >  all through 21q
+     superflip. four spot . R' U  B'   /
+     superflip. four spot . R' U  L'  /
+
+and found no maneuvers.  thus  superflip  composed with  four spot
+requires more than 24 quarter turns.  the total search time was about
+153 hours.  to see that  superflip  composed with  four spot  can be
+achieved in 26 quarter turns, use
+
+U2 D2 L  F2 U' D  R2 B  U' D' R  L  F2 R  U  D' R' L  U  F' B'  (26q*, 21f)
+
+it might be reasonable to ask for all 26q maneuvers.  this is probably
+out of reach for now.  however, i suspect that there will be so many
+different 26q maneuvers that it would not be of much use to see a long
+list of maneuvers.  (i have a bunch already.)
+
+superflip  composed with  four spot  also requires 20f.
+
+proposition 3.  any maneuver for superflip  composed with  four spot
+                of length <= 20f can be transformed to one that begins
+                with one of the sequences   U2 R ,   R2 F  or   R2 U .
+
+the proof is very similar to the reductions for superflip in the face
+turn metric.
+
+using this, a complete search for 20f maneuvers is straightforward.
+there are two inequivalent 20f maneuvers for superflip composed with
+four spot:
+
+F  U2 R  L  D  F2 U  R2 D  F2 D  F' B' U2 L  F2 R2 B2 U' D   (20f*, 28q)
+F  U2 R  L  D  F2 U  R2 D  F2 D  F' B' U2 L  U' D  R2 B2 L2  (20f*, 28q)
+
+this also shows that no maneuver is simultaneously minimal in both
+metrics.
+
+mike
+

@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun Feb 15 23:45:18 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id XAA05620; Sun, 15 Feb 1998 23:45:17 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Feb 15 19:06:46 1998
+Date: Sun, 15 Feb 1998 19:06:35 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Strong Local Maxima 9f from Start
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.980215185935.291516B-100000@PSTCC6.PSTCC.CC.TN.US>
+
+#1. D2 F2 L2 D' U  L2 F2 D' U'
+#2. U  D  B2 R2 U  D' L2 B2 U2
+
+These positions "look" very symmetric, especially #2, but I have not yet
+examined their symmetry characteristics in detail.  They are certainly not
+Q-transitive.  I do not know if either position has been reported before,
+has a name, etc.  The corners are identical between the two positions, but
+the edges are a good bit different.  I find both positions to be very
+pretty.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

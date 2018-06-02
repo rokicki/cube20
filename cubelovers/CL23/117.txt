@@ -1,0 +1,80 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug 18 13:05:48 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA02085; Mon, 18 Aug 1997 13:05:43 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From jbryan@pstcc.cc.tn.us Sun Aug 17 00:42:09 1997
+Date: Sun, 17 Aug 1997 00:38:39 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Calculating Local Maxima in Face Turn Metric
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Reply-To: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Message-Id: <Pine.PMDF.3.95.970816234247.40618B-100000@PSTCC6.PSTCC.CC.TN.US>
+
+While everybody else has been doing isoglyphs and minimal maneuvers for
+highly "symmetric" positions, I have been trying to figure out how to
+calculate local maxima for the face turn metric with my Shamir program.
+It's a bit trickier than with the quarter turn metric, but I think I have
+it.  If anybody sees any holes in the following, please let me know. 
+
+Recall that I have been creating Start-rooted search trees by forming
+products of the form z=xy for |x|=n and |y|=m, for 1<=m<=n.  Prior to my
+Shamir program, I would fix n (it gets larger iteratively), and just let
+m=1 to advance one level of the tree at a time.  But the Shamir method
+lends itself to jumping forward several levels at one fell swoop.
+
+If E(w) is the set of all moves with which a minimal maneuver for w can
+end, then E(z) is the union of E(y) over all the y which can be used to
+create z.  We now introduce an alternative interpretation for E(w).  E(w) 
+is the set of all moves whose inverses carry w one move closer to Start. 
+The alternative interpretation works for both quarter turns and face
+turns. 
+
+My program is all set up to calculate E(w) for either the quarter turn
+metric or the face turn metric.  The only difference is that the
+representation of E(w) for the quarter turn metric is a bit string of 12
+bits and for the face turn metric is a bit string of 18 bits. 
+
+But using E(w) to calculate local maxima for the face turn metric will
+yield only what we have agreed to call strong local maxima, namely those
+local maxima where every face turn moves one move closer to Start.  We
+desire also to calculate weak local maxima, where one or more face turns
+may leave the distance from Start unchanged.  To this end, we define E2(w) 
+to be the set of all moves whose inverses leave w the same distance from
+Start.
+
+For quarter turns, the required initializations are E(q)={q} for all q in
+Q, the set of twelve quarter turns.  E2(q) is of course null in all cases.
+
+For face turns, the required initializations are:
+
+  E(q)   = {q} for all q in Q
+  E(q2)  = {q2} for all q2 in H, the set of six half turns
+  E2{q}  = {q',q2} for all q in Q
+  E2{q2} = {q,q'} for all q2 in H
+
+To be pedantically complete, we could define E3(w) to be the set of all
+moves whose inverse leaves w one move further from Start.  Note that E(w),
+E2(w), and E3(w) are disjoint, and their union is Q for quarter turns and
+Q+H for face turns. 
+
+For quarter turns, we have defined the maximality of w to be |E(w)|,
+wherein we have a local maximum if |E(w)|=12.  The corresponding
+definition of maximality for face turns is an ordered pair
+(|E(w)|,|E2(w)|), where w is a local maximum if |E(w)|+|E2(w)|=18 and
+where w is a strong local maximum if |E(w)|=18. (A local maximum which is
+not a strong local maximum is a weak local maximum.)
+
+The only thing I am worried about is the following.  Given the proposed
+initializations and calculations for E(w) and E2(w) for face turns, will
+E(w) and E2(w) be disjoint automagically, or is their disjointedness
+something which will have to be tested? 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

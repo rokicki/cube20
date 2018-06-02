@@ -1,0 +1,36 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Feb 21 13:46:38 1997
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id NAA13909; Fri, 21 Feb 1997 13:46:38 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+Subject: Re: Super-skewb
+Date: 21 Feb 1997 16:47:06 GMT
+Organization: California Institute of Technology, Pasadena
+Message-ID: <5ekjia$as@gap.cco.caltech.edu>
+References: <cube-lovers.199702190137.AA255196278@hpcc01.corp.hp.com>
+NNTP-Posting-Host: taphe.ugcs.caltech.edu
+X-Newsreader: NN version 6.5.0 #3 (NOV)
+
+Stan Isaacs <isaacs@hpcc01.corp.hp.com> writes:
+>Anybody have any good moves for super-skewb centers?  That is, ones
+>that either twist centers in place, or move them without twisting.
+>Tony Fisher, in England, makes some wonderful puzzles based on the
+>Skewb, but in shapes such as an Icosahedron, or Dodecahedron, or
+>Rhombic Dodecahedron.  These are all actually Super-Skewbs.
+
+If I remember correctly, all my moves for the Skewb are based on
+the "R1L-1R-1L1" move.  Repeating this four-move sequence at
+different orientations does everything, including rotating centers
+and moving them.
+
+Unfortunately, I don't have any on hand at the moment, so I can't
+test them out exactly.
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+-------------------------------------------------------------------------------
+Now surfing the Internet at 24 hours a week.
+
+

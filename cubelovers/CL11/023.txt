@@ -1,0 +1,63 @@
+From dn1l+@andrew.cmu.edu  Tue Dec 14 11:29:57 1993
+Return-Path: <dn1l+@andrew.cmu.edu>
+Received: from po4.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24359; Tue, 14 Dec 93 11:29:57 EST
+Received: from localhost (postman@localhost) by po4.andrew.cmu.edu (8.6.4/8.6.4) id LAA04307 for Cube-Lovers@ai.mit.edu; Tue, 14 Dec 1993 11:29:35 -0500
+Received: via switchmail; Tue, 14 Dec 1993 11:29:21 -0500 (EST)
+Received: from loiosh.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/testq0/QF.4h3Sb2S00WC700Wk4p>;
+          Tue, 14 Dec 1993 11:28:51 -0500 (EST)
+Received: from loiosh.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr18/dn1l/.Outgoing/QF.8h3Sate00WC7I0y1JR>;
+          Tue, 14 Dec 1993 11:28:42 -0500 (EST)
+Received: from mms.4.60.Nov..4.1993.10.47.44.sun4c.411.EzMail.2.0.CUILIB.3.45.SNAP.NOT.LINKED.loiosh.andrew.cmu.edu.sun4c.411
+          via MS.5.6.loiosh.andrew.cmu.edu.sun4c_411;
+          Tue, 14 Dec 1993 11:28:41 -0500 (EST)
+Message-Id: <oh3Sata00WC780y1AD@andrew.cmu.edu>
+Date: Tue, 14 Dec 1993 11:28:41 -0500 (EST)
+From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+To: Cube Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Re: Tangle
+Cc: 
+In-Reply-To: <Pine.3.07.9312141647.A14860-a100000@hk.super.net>
+
+Could you explain what your algorithm was?
+
+I have one of the puzzles, number 4, I believe, and spent a large amount
+of time trying to find a solution that was not trial and error.  I could
+not.
+
+The algorithm that I used to have the computer solve it for me was to
+fill the 5x5 in the following manner, recursively, returning when no
+possible pieces fit.
+
+ 1  2  4  7 11
+   /  /  /  /
+  /  /  /  /
+ 3  5  8 12 16
+   /  /  /  /
+  /  /  /  /
+ 6  9 13 17 20
+   /  /  /  /
+  /  /  /  /
+10 14 18 21 23
+   /  /  /  /
+  /  /  /  /
+15 19 22 24 25
+
+(wrapping at the edges to keep incrementing properly)
+
+I did that because given any pieces diagonal from one another, there are
+at most two pieces that can fill the gap (line up with both correctly).
+(When the four colors are different, there are two tiles
+ When there is a single repeated color, there is one tile
+ When there are 2 pairs of colors there is no tile
+ And in all these cases, if the tile(s) was already used, or didn't
+exist, that is the bottom of that branch of the search tree)
+
+Is this better or worse than the algorithm you used?
+
+Has anyone found a non-brute-force solution scheme?
+
+-Dale
+
+

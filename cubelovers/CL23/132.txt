@@ -1,0 +1,85 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 20 17:27:39 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id RAA14857; Wed, 20 Aug 1997 17:27:39 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Hoey@AIC.NRL.Navy.Mil Wed Aug 20 17:22:17 1997
+Date: Wed, 20 Aug 1997 17:22:07 -0400
+Message-Id: <199708202122.RAA08061@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: scotth@ichips.intel.com
+Cc: Cube-Lovers@ai.mit.edu
+In-Reply-To: <199708182132.OAA19914@ichips.intel.com>
+Subject: Re: d-dimensional cube mechanisms
+
+Scott Huddleston <scotth@ichips.intel.com> writes:
+
+> Several years ago I worked out a solution to the d-cube 3^d, for d>3.
+> This is most interesting combinatorially if you assume you're
+> restricted to only rotating entire (d-1)-faces at a time, so that's
+> what I assumed in my solution.
+
+I thought that was most natural, but there are certainly at least two
+others.  In my article of 22 Dec 1993 in
+ftp://ftp.ai.mit.edu/pub/cube-lovers/cube-mail-11 I mentioned how to
+show they are different, at least in the 3^4 hypercube.  I didn't go
+into enough detail to determine "most interesting"--can you expand on
+what you mean?  By the way, do you know if this is the Kamack and
+Keane model?  I've never seen their paper, and I never figured out how
+to read Charlie Dickman's document.)
+
+> But when I thought about building a mechanism for the d-cube, I
+> came to the surprising (to me) conclusion that any natural extension 
+> of the 3^3 mechanism to d dimensions would allow you to rotate any 
+> 2-face.
+
+Wow! I can verify it for the most obvious natural extension I can
+describe.  We could form the 3^d Rubik's ball by taking the unit ball
+B_d={z in R^d : |z|<=1} and some sufficiently small constant c, and
+cutting the ball with the hyperplanes
+
+     P_i,s = {z in B_d : z_i = s c} for each index i in {1,...,d},
+                                    for each sign s in {-1,1}.
+
+We arrange that all rotations are allowed that keep these pieces
+inside the unit ball (perhaps enforcing this by attaching extensions
+in the shape of a cube). It's then easy to see that a representative
+2-face
+
+     {z in B_d : z_3 > c, z_4 > c, ..., z_d > c}
+
+can be rotated by mapping
+
+    (z_1,z_2,z_3,...,zn) -> (z_1 cos th + z_2 sin th,
+                             z_1 sin th + z_2 cos th,
+                             z_3, z_4, ..., z_d).
+
+That is a very surprising observation to me, too!  Hands up anyone who
+_isn't_ surprised!!
+
+In fact, I think it may be worse (geometrically, if not
+combinatorically).  For instance, I expected that a cubical hyperface
+of the 3^4 could only be turned by rotating the cube about an
+orthogonal axis.  But it looks to me like you could rotate the cube
+around any axis you like.  Maybe you have to eventually rotate it so
+it occupies it's original space before you rotate a perpendicular
+hyperface, but I'm still somewhat annoyed that you can put it in weird
+orientations in between.
+
+> I concluded that any mechanism that would restrict you to 
+> only rotating entire (d-1)-faces would require some sort of complex 
+> interlocking mechanism that would have to engage and disengage 
+> whenever a (d-1)-face was to be rotated.
+
+> Has anyone else thought about this problem (d-cube mechanisms)
+> enough to confirm or refute my conclusions?
+
+What I haven't proven is that say, any decomposition of the ball into
+3^d pieces that admit (d-1)-face rotations will also admit 2-face
+rotations.  If you've got that, it would pretty much support your
+conclusion, but I don't know how to verify it off-hand.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

@@ -1,0 +1,31 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 26 19:57:08 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA13484
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 26 Nov 1999 19:57:08 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: Douglas Zander <dzander@solaria.sol.net>
+Message-Id: <199911120937.DAA07616@solaria.sol.net>
+Subject: puzzles and stroke victims
+To: cube-lovers@ai.mit.edu (cube)
+Date: Fri, 12 Nov 99 3:37:48 CST
+
+Hello Puzzle-Fans,
+
+  I am wondering if anyone could comment on the use of twisty puzzles
+(like rubik cube, etc) for those people who suffered a stroke and are
+paralyzed slightly on one side and need to exercise their hands.
+(The reason I'm asking is because my brother-in-law suffered a stroke
+and he needs to exercise his left hand.)   I am wondering if these
+types of puzzles are good therapy or a bad idea.  One exercise he does
+with his wife is to close his eyes and hold an object in his left hand
+and try to figure out its shape (cube, sphere, tetrahedral, etc...)
+Any comments, suggestions, references?
+
+Thanks you.
+--
+ Douglas Zander
+ dzander@solaria.sol.net
+ Shorewood, Wisconsin, USA
+

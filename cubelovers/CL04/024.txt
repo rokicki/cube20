@@ -1,0 +1,74 @@
+Date: 24 May 1982 17:19-EDT
+From: Allan C. Wechsler <ACW at MIT-AI>
+Subject:  |4^3| = 1.7*10^55
+To: CUBE-LOVERS at MIT-AI
+
+
+The corner group of 4^3 is exactly like that of the 3^3.  It has
+8!*3^7 elements.
+
+Now to calculate the order of the whole group, we have to find
+the order of the corner stabilizer  group.  That's the group of 
+moves that leave the corners fixed.  
+
+SO let's start by thinking about the edge group of the corner
+stabilizer.  I personally have a tool that exchanges two edge cubies
+without moving corners.  Since the edge group is transitive, I can
+exchange any two edges without moving corners.  
+
+You cannot flip any edge of the 4^3 without moving it.  So there's no
+edge-flippage in the 3^3 sense on the 4^3.  That means that the edge
+group in the corner stabilizer has order 24!.
+
+Now all there is left is compute the order of the edge AND corner
+stabilizer.  The inside twists (slices) are center-even.  The outside
+twists (faces) are center-odd, but they are also corner-odd, and so if
+we want to bring the corners home we have to make an even number of
+outside twists.  That means that all the center-permutations in the
+edge-and-corner stabilizer are even.  But how many of these can be
+achieved?
+
+I have a tool that exchanges two pairs of centers.  I think (but I
+haven't yet proved) that the center group is 4-transitive, so that
+ANY two pairs of centers can be exchanged.  That means that all the
+even permutations of centers can be done without perturbing edges and
+corners.  Hence the size of the edge-and-corner stabilizer is 24!/2.
+
+As for supergroupiness, Dave Plummer just pointed out to me that
+once you know a center's position, you know its orientation, since
+center cubies always keep one corner pointing to the middle of the
+face.  So 4^3 has no supergroup.
+
+So the order of the 4^3 group is 8!*3^7*24!*24!/2.  In numbers, if you
+insist,
+
+|4^3|=
+
+16,972,688,908,618,238,933,770,849,245,964,147,960,401,887,232,000,000,000
+
+or about 1.7*10^55.
+
+Now that number is a little deceptive, because it includes whole-cube
+rotations.  The 4^3 has no nice fixed reference frame like the 3^3 has.
+If you don't want to count whole-cube rotations you have to divide by
+24, to get
+
+707,195,371,192,426,622,240,452,051,915,172,831,683,411,968,000,000,000
+
+or about 7.1*10^53.
+
+Finally, we have to face the fact that the center cubies are
+in six nonintradistinguishable sets of four.  (All the edge cubies are
+distinguishable by color or orientation).  So we have to divide our
+last result by 4!^6/2.  That leaves
+
+7,401,196,841,564,901,869,874,093,974,498,574,336,000,000,000
+
+or about 7.4*10^45 distinguishable color patterns.  Remember that these
+do not form a group.
+
+I leave it as an exercise for Hoey and Saxe to find a lower bound for
+the diameter of the group.
+
+   ---Wechsler
+

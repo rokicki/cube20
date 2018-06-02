@@ -1,0 +1,53 @@
+From reid@math.berkeley.edu  Sat May 23 01:56:38 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA17982; Sat, 23 May 92 01:56:38 EDT
+Received: from phnom-penh.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA03559; Fri, 22 May 92 22:56:34 PDT
+Date: Fri, 22 May 92 22:56:34 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205230556.AA03559@math.berkeley.edu>
+To: cube-lovers@ai.mit.edu
+Subject: new upper bound
+
+i've managed to reduce the upper bound for the length of god's
+algorithm to 39 face turns / 56 quarter turns.  we work in three
+stages:
+
+1. from  <U, F, R, L, B, D>  to  <U, R, F>
+2. from  <U, R, F>           to  <U, R2, F2>
+3. from  <U, R2, F2>         to  START
+
+where we're only allowed to use moves that keep us within the
+given subgroup.
+
+these three stages were chosen because of the moderate(!) sizes
+of the coset spaces that must be considered.  the numbers are
+253440,  15676416,  and  10886400.  the maximum number of moves
+in each stage was calculated by exhaustively searching the space.
+
+if we count by "face turns," these maximum numbers are 8, 13 and 19.
+however, if we make any turns in stage 2, the last such is a quarter
+turn of either  F  or  R, and the direction is irrelevant.  those
+positions at distance 19 in stage 3 (only 24 in all) were checked
+to see that they may be solved in 19 face turns starting with
+either  F2  or  R2.  therefore we can arrange to combine the last
+move of stage 2 with the first move of stage 3 in the event that
+we must make the maximal number of moves in each stage.  this
+gives the final figure of 39 face turns.
+
+if we count by "quarter turns," the maximum numbers are 9, 16 and 33.
+this time, those configurations at distance either 32 or 33 in stage 3
+(only 10 and 4 positions, respectively) were tested as above.
+each has minimal sequences starting with  F2  and with  R2.  as above,
+we may cancel a quarter turn from the end of stage 3 with a quarter
+turn at the beginning of stage 3, to get the final figure of 56
+quarter turns.
+
+the next step is to reduce the figure for stage 3 by allowing other
+turns.  i only plan on allowing  D, U, B2, F2, L2, R2,  as in the
+second stage of kociemba's algorithm.  after that, i may try to reduce
+the numbers for stage 2.  however, in this case, i don't expect much
+of a reduction (maybe 1 turn).
+
+mike
+

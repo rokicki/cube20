@@ -1,0 +1,9 @@
+From: korner at UTEXAS-11
+Subject: Pyramid
+To: ALAN at MIT-MC
+
+	Someone mentioned the pyramid recently. Are solutions really worth
+discussing? I had the solution within 15 min. and the group structure seemed
+trivial. Is this as simple as it seems or have I missed something?
+		-Kim Korner
+-------

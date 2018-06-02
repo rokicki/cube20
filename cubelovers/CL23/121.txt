@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug 18 16:49:39 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA02974; Mon, 18 Aug 1997 16:49:38 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From kociemba@hrz1.hrz.th-darmstadt.de Sun Aug 17 22:56:57 1997
+Message-Id: <33F7B8DA.4C23@hrz1.hrz.th-darmstadt.de>
+Date: Mon, 18 Aug 1997 04:52:11 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>
+To: cube-lovers@ai.mit.edu
+Subject: Cube Explorer 1.5 now available!
+
+I finally succeeded in updating my Cube Explorer program. You can
+download it from
+
+http://home.t-online.de/home/kociemba/cube.htm
+
+The current discussion in this mailing list concerning isoglyphs shows
+that is pretty error prone to classify these patterns by hand. The
+program is a good help here.
+
+--Herbert
+

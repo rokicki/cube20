@@ -1,0 +1,45 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 26 11:46:40 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA00652; Thu, 26 Mar 1998 11:46:40 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Mar 25 16:14:40 1998
+Date: Wed, 25 Mar 1998 16:10:54 -0500 (EST)
+From: Jiri Fridrich <fridrich@binghamton.edu>
+To: Geir Ugelstad <ugelstad@dataway.ch>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: Jiri's system for solving Rubiks's cube
+In-Reply-To: <199803250737.IAA30286@dataway.ch>
+Message-Id: <Pine.SOL.L3.93.980325160352.11481B-100000@bingsun1>
+
+On Wed, 25 Mar 1998, Geir Ugelstad wrote:
+
+> it was not possible to make it faster than 2-3 minutes.  With Jiri's
+> system it should be possible in about 17 sec.!
+
+Yes, you are right - with my system AND a lot of time on your hands :) I
+am pretty sure that the systems of other top speed cubists are at
+least as as good as mine. The system is only half of the secret.
+
+> PS: Question to Jiri.  How far are you able to do the foreplanning
+> the 15 sec.  before the time start to run?  Hopefully longer than
+> "Place the four edges from the first layer"?
+
+Nope. 15 seconds is not a long time to plan more than the four edges. Of
+course, as you proceed, you will usually be able to spot the corners with
+their appropriate cubies from the second layer in some nice position and
+continue without delays ...
+
+Jiri
+
+*********************************************
+ Jiri FRIDRICH, Research Scientist
+ Center for Intelligent Systems
+ SUNY Binghamton
+ Binghamton, NY 13902-6000
+ Ph/Fax: (607) 777-2577
+ E-mail: fridrich@binghamton.edu
+ http://ssie.binghamton.edu/~jirif/jiri.html
+*********************************************
+

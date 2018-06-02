@@ -1,0 +1,35 @@
+From dik@cwi.nl  Wed Dec 15 21:40:59 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21903; Wed, 15 Dec 93 21:40:59 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA18555 (5.65b/3.12/CWI-Amsterdam); Thu, 16 Dec 1993 03:40:43 +0100
+Received: by boring.cwi.nl 
+	id AA11474 (4.1/2.10/CWI-Amsterdam); Thu, 16 Dec 93 03:40:42 +0100
+Date: Thu, 16 Dec 93 03:40:42 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9312160240.AA11474.dik@boring.cwi.nl>
+To: Don.Woods@eng.sun.com
+Subject: Re: Description of Tangle, Part 2
+Cc: cube-lovers@ai.mit.edu
+
+ > > Is this the reason why Rubik has gone into hiding? I haven't seen any
+ > > puzzle from him after this set of 4 released in 1990/1991.
+ > 
+ > Hm, didn't "Square-1" come out later than the Tangles?
+
+Square-1 is not by Rubik.  But he came this year with two new puzzles (at
+least, they are in his name).  Rubik's Maze and Rubik's Hat.
+
+In the first there are 6 connected cubes with a black/yellow pattern on
+them.  The cubes can turn around each other fairly freely.  The purpose
+is to get a 1x2x3 where there is a single black continuous line along
+the cubes.  Not very difficult, interesting.
+
+Rubik's Hat is in the form of a hat with six rings on it.  You can look
+trough it (and through the rings by implication).  By turning rings you
+see more or less rabbits.  The purpose is to see a rabbit in every position.
+I think the puzzle is based on light polarization, with different
+polarizations coming through the segments of the rings.
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+home: bovenover 215, 1025 jn  amsterdam, nederland; e-mail: dik@cwi.nl
+

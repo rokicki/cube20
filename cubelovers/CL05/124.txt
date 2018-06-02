@@ -1,0 +1,113 @@
+Received: from MC.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 6 NOV 86  18:17:21 EST
+Received: from WAIKATO.S4CC.Symbolics.COM (TCP 20024231532) by MC.LCS.MIT.EDU  6 Nov 86 18:15:02 EST
+Received: from ROCKY-MOUNTAINS.S4CC.Symbolics.COM by WAIKATO.S4CC.Symbolics.COM via CHAOS with CHAOS-MAIL id 71915; Thu 6-Nov-86 18:11:09 EST
+Date: Thu, 6 Nov 86 18:13 EST
+From: Allan C. Wechsler <acw@WAIKATO.S4CC.Symbolics.COM>
+Subject: Magic
+To: hoey@NRL-AIC.ARPA, Cube-lovers@MIT-MC.ARPA
+In-Reply-To: <531686509/hoey@nrl-aic>
+Message-ID: <861106181326.6.ACW@ROCKY-MOUNTAINS.S4CC.Symbolics.COM>
+
+    Date: 6 Nov 1986 13:41:48 EST (Thu)
+    From: Dan Hoey <hoey@nrl-aic.ARPA>
+
+    I have found 32 different 2x4 rectangles.  I think that is all of them,
+    but I haven't got any proofs, nor even a decent mathematical model for
+    deciding when a flip is possible.
+
+I think I have a proof.  Wait a few paragraphs.
+
+    If a good model of the string interactions can be developed, we may be
+    able to make an attack on the doughnut problem based on the length of
+    string channels.  In the doughnut, there are four ten-pair channels and
+    four six-pair channels.  We may be able to show that the string wouldn't
+    reach one, and would exceed the other.  More likely, the model will
+    prohibit the doughnut more directly.
+
+Here is my model.  It might be wrong.
+
+The puzzle is a cycle of eight squares.  Their underlying adjacency
+relationships never change.
+
+Each pair of squares is bound together by two loops of string (nylon
+fishing wire, actually).  Those two loops are dedicated to holding those
+two squares together -- they never migrate to other squares, although
+parts of a loop may sometimes lie on one of the pair, sometimes on the
+other.
+
+I need a diagram of the channels:
+
+         ---- ----
+        |/\/\|/\/\|
+        |\/\/|\/\/|
+	|/\/\|/\/\|
+        |\/\/|\/\/|
+         ---- ----
+
+I offer the usual apologies about aspect ratio.  Now, ignore the two
+sided nature of the puzzle.  Imagine that the two squares form a 1x2
+unit billiard table, and think of the channels as trajectories of
+billiard balls, and you will see that the channels form two disjoint
+"orbits", each (* 4 (sqrt 2)) units long.  The two loops of string
+follow these two orbits, crossing from the obverse to the reverse sides
+of the puzzle and back again at every chance they get.  If you work it
+out, you see that half the channels are empty at any given time.
+
+The details are too mindbending, but the result is clear: those two
+squares are bound together.  They don't depend on synergy from the rest
+of the puzzle to bind them.
+
+Now close the pair of squares, putting the right on top of the left as
+if you were finishing reading a book.  You can open the pair again
+vertically, but only in one direction.  The front square can flip up, or
+it can flip down, but not both.  Without loss of generality, let's say
+it can flip up.  If you had folded the right square behind the left
+instead of in front, it would be able to flip down.
+
+Now gedankenfollow these gendankendirections.  
+
+Put the squares back as above.  Only the square on the right (the rotor)
+will move. Keep the left square (the stator) fixed.
+
+Fold the rotor in front of the stator.  Flip the rotor up, and over, and
+behind the stator.  Now it will open to the left.  Flip the rotor around
+the left edge of the stator until it is in front again.  Then it will
+flip down.  Do so, until it is in back again.  Now it will open to the
+right.
+
+You have moved the rotor all the way around the stator.  At some point,
+each edge of both served as the hinge.  This amazing orbit is the basis
+for the bewilderingness of the puzzle.  The path is a bizarre
+three-dimensional cloverleaf.
+
+I think that I have now given all the "laws of motion" of the puzzle.
+
+Since the laws are all local, governing the motion of one adjacent pair
+of squares, there is no obvious invariant that forbids the doughnut.
+
+    There is another string-related question I am wondering about.  I have
+    noticed some of the string-pairs getting twisted.  I wonder how bad
+    this can get.  Does anyone have an operation that can be repeated to
+    make the twists tighter and tighter?  Are these puzzles built for
+    obsolescence?
+
+I am convinced not.
+
+    I have been considering Magic metrics, but it's a difficult problem.
+    Counting flips is easy enough, but how do you count a move that skews a
+    parallelogram?  Are such skew moves necessary?
+
+    Dan
+
+Your 32 configurations are characterized as follows:  Turn the puzzle so
+the unlinked rings are in front.  Rotate it so Rubik's signature is in
+the bottom row.  The signature square could be in any of four positions.
+The "matchbox" square could be clockwise from Rubik, or
+counterclockwise.  And Rubik himself could be in any of four
+orientations.  This determines the orientations of all the other
+squares.  There are no more degrees of freedom.
+
+It is more instructive to consider the "supergroup", which includes
+180-deg rotations but excludes turning the puzzle over.  This group has
+sixty-four elements in thirty-two similar pairs.  I have a table.
+

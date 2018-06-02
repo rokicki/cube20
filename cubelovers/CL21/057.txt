@@ -1,0 +1,44 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Nov 27 14:23:19 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA15812; Wed, 27 Nov 1996 14:23:19 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: Tim Botham <timbo@homemail.com>
+To: cube-lovers@ai.mit.edu, Bill Edwards <edwards@city-net.com>
+Subject: Re: Rubic's Revenge
+Date: Tue, 26 Nov 1996 21:34:10 -0800
+X-MSMail-Priority: Normal
+X-Priority: 3
+X-Mailer: Microsoft Internet Mail 4.70.1155
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Message-Id: <E0vScbV-0003Or-00@dewey.mindlink.net>
+
+Puzzletts (on the web at http://www.puzzletts.com/) has a good selection of
+4x4x4, 5x5x5, and other variations available by mail-order.  Ordering can
+be done through their web page.
+
+	Tim
+
+----------
+> From: Bill Edwards <edwards@city-net.com>
+> To: Cube-Lovers@AI.MIT.EDU <cube-lovers@ai.mit.edu>
+> Subject: Rubic's Revenge
+> Date: November 26, 1996 4:56 PM
+> 
+> -- [ From: Bill Edwards * EMC.Ver #2.5.02 ] --
+> 
+> Anybody know where I can get some more Rubic's Revenges?  I wore out my
+last
+> one more than a year ago.  
+> 
+> Does a 5x5 matrix Rubic's cube exist?  I think I know the general
+solution,
+> as an extrapolation from the solution to a 4x4.
+> 
+> Hope to hear from somebody soon.
+> 
+> Bill
+
+

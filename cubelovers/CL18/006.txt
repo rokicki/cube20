@@ -1,0 +1,35 @@
+From geohelm@pt.lu  Tue Oct 24 11:31:19 1995
+Return-Path: <geohelm@pt.lu>
+Received: from menvax.restena.lu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16179; Tue, 24 Oct 95 11:31:19 EDT
+Date: Tue, 24 Oct 95 11:31:18 EDT
+Received: from telinf1.pt.lu by menvax.restena.lu with SMTP;
+          Tue, 24 Oct 1995 15:56:00 +0100 (MET)
+Received: from slip12.pt.lu by telinf1.pt.lu id aa24228; 24 Oct 95 13:49 CET
+X-Sender: geohelm@mailsvr.pt.lu (Unverified)
+X-Mailer: Windows Eudora Version 1.4.4
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Georges Helm <geohelm@pt.lu>
+Subject: availability of cubes and other puzzles
+Message-Id:  <9510241349.aa24228@telinf1.pt.lu>
+
+Here is the address of a German friend who is still selling the
+following puzzles (among others):
+5x5x5, skewb, magic dodecahedron, German calender cube, pyraminx...
+
+Christoph Bandelow
+An der Wabeck 37
+D-58456 Witten
+Germany
+
+Tel.: ++49-2302-71147
+Fax : ++49-2302-77001
+
+Books he is selling (among others):
+Bandelow: Inside Rubik's Cube and beyond (~$15)
+Singmaster: Notes (~$10)
+
+Georges Helm
+
+

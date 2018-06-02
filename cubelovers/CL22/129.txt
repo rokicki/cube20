@@ -1,0 +1,80 @@
+From cube-lovers-errors@oolong.camellia.org  Tue Jun  3 22:32:23 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id WAA02621; Tue, 3 Jun 1997 22:32:22 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Tue, 3 Jun 97 21:06:35 EDT
+Message-Id: <9706040106.AA26157@sun34.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>,
+        cube-lovers@ai.mit.edu
+Subject: Re: Detailed explanation of two phase algorithm
+
+Herbert,
+
+Thank you very much for the description of your algorithm.  This fills
+many of the gaps that have been left by the fragmentary discussions on
+cube-lovers over the years.  Though perhaps it's all my fault--I would
+not have felt so left out if I had taken the effort to subscribe to
+CFF.
+
+> The memory requirements for the search algorithm are of the order
+> O(d*log b), where b is the branching factor and d is the solution
+> depth, so it definitely is not breadth-first search with O(b^d) nor
+> is it bidirectional search with O(b^d/2).
+
+I like the extremely compact stack size.  It might make it possible to
+take advantage of very large (disk-based) heuristic tables.  The idea
+is that if you can collect enough positions at once, you can sort them
+and look up all the heuristics in one pass through the table, so you
+get sequential access instead of random access.  The usual problem
+with this is you need massive parallelism--or simulate it with massive
+multiprogramming.  I'm hoping the tiny stack size makes
+multiprogramming cheap enough.
+
+I hope this is not doing too much violence to your idea, which is
+remarkably parsimonious of memory usage.  I guess I'm looking for ways
+that increased memory could make it faster.
+
+I would be careful in classifying search algorithms by memory size,
+though.  With Shamir's modification of bidirectional search, for
+instance, you can get much less than O(b^(d/2)) memory use.  Still
+nothing like the very low usage of your idea, though.
+
+> The "log b" is no misprint, it is due to the special situation when
+> dealing rotational puzzles.
+
+Well, not only rotational puzzles--any grouplike puzzle could achieve
+this--any puzzle where you can undo your moves.  For instance, on a
+fifteen puzzle, you could use an encoding like
+    0: R 1:LD 2:TL 3:RT 4:D
+to explore the four possiblities for the direction to move the blank
+square at any node.  So knowing the position of the puzzle and the
+current index would tell you how to modify the position for the next
+index.
+
+> ...If you analyze the preceeding phase1 algorithm you will see that
+> it is indeed just an IDA* with lowerbound heuristic functions based
+> on tables.
+
+It sure is.  Now here's a question.  Should it be combined with phase2
+in such a way that the entire search is IDA*?
+
+The way I would see this happening is that whenever you get to phase 2
+(at depth i with a cutoff of L1), instead of allowing the phase2
+search to iteratitively deepen, you run a depth-first A* search with a
+fixed depth cutoff of L1-i.  It would take longer to get the first
+answer, but when you got an answer it would be optimal, and you would
+never spend time searching longer processes.  I'm just hoping this
+might find optimal solutions faster.  Possibly it could be combined
+with global heuristics like Rich used.
+
+One final thing, which I'm not sure ever got asked, much less
+answered, is that Mike Reid did an exhaustive search of the subgroup
+<T,D,F2,R2,B2,L2> (7 Jan 1995).  Did this verify that the optimal
+face-turn process for each element of the subgroup is a word on those
+generators?  Or are there shortcuts that use forbidden quarter-turns?
+
+Dan
+
+

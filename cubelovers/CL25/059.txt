@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon May  4 11:24:21 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA12818; Mon, 4 May 1998 11:24:20 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon May  4 10:36:17 1998
+From: "Noel Dillabough" <noel@mud.ca>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: Revenge and the 5x5x5
+Date: Mon, 4 May 1998 10:35:52 -0400
+Message-Id: <000001bd7769$f0ced480$02c0c0c0@nat>
+
+Since we all know that Rubik's Revenge (4x4x4) puzzles are nearly impossible
+to find (all of mine have long ago broken) and the 5x5x5 cubes fall apart so
+easily that they are basically unusable.
+
+Well, as a solution to this, I took a Virtual Cube simulation and added
+sizing buttons (the cube program supports 2x2x2 to 5x5x5 sized cubes), a
+keyboard interface, and allowed it to receive sequences in standard UDFBLR
+notation.  I also added locking of the center pieces to make using a paired
+up Revenge easier.
+
+The cube is located at http://www.mud.ca/cube/cube.html.  Any thoughts,
+comments, suggestions about the program should be sent to:
+mailto://noel@mud.ca.
+
+Enjoy,
+-Noel Dillabough
+

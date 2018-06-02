@@ -1,0 +1,58 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Nov 13 13:15:59 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA05230; Thu, 13 Nov 1997 13:15:58 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From richard_morton@icom-solutions.com Wed Nov 12 04:56:12 1997
+Message-Id: <199711120955.EAA01537@life.ai.mit.edu>
+Date: Wed, 12 Nov 1997 04:55:28 EST
+From: "Richard M Morton" <richard_morton@icom-solutions.com>
+To: cube-lovers@ai.mit.edu
+Subject:  Cube Colours
+
+  Mark Longridge wrote:
+
+  > First of all, the STANDARD colour arrangement used by Ideal Toy is as
+  > follows:
+  >
+  > UP      = White
+  > DOWN    = Blue
+  > FRONT   = Yellow
+  > BACK    = Green
+  > LEFT    = Red
+  > RIGHT   = Orange
+
+
+  Is the orientation of the above fixed in some way or is it arbitrary ?
+
+
+  My second cube (can't remember what happened to the first one) is a later
+  edition (not sure if it is Ideal) with the same arrangement to above
+  except, the orientation is different (UP is either RED or ORANGE) The
+  reason I say this is that the LEFT,RIGHT,DOWN and FRONT faces have
+  symbols printed in the centre as follows :
+
+
+  YELLOW - signature of Erno Rubik
+  WHITE - Rubik's CUBE tm
+  GREEN - C*4**4 (actually uses superscript 4 for the power)
+  BLUE - silhouette (of Erno Rubik)
+
+
+  The symbols are designed to make the cube harder to solve - the challenge
+  is to solve the cube with the centre cubes all in the correct
+  orientation. I recall that there are sequences of moves that rotate pairs
+  of centre cubes.
+
+
+  This cube is definitely a lot stiffer than my original cube but the
+  novelty of speed cubing has worn off anyway.
+
+
+  Richard Morton
+  (If my employers views are not necessarily those of my own, why am I
+  still working here ?)
+  Icom Solutions
+  http://www.icom-solutions.com/offprods/default.htm
+

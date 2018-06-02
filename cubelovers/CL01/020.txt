@@ -1,0 +1,32 @@
+Date:  5 DEC 1980 1240-EST
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  My 6 faces worth
+To: CUBE-LOVERS at MIT-MC
+
+
+The technology exists to solve the cube in any way possible.
+I.E., tools exists to do the most primitive of operations to
+individual cubies (rotating corners, flipping edges, moving three
+corners around, and moveing trhee edges around). Using these, any
+method of solving is possible (even solving a corner, then the
+edges around that corner, then the corners around those edges,
+etc, all the way toward the other corner). Since everybody tends
+to develop their own technology, they develop their own favorite
+way of solving.
+
+Personally, at present, I solve
+
+	the top edges
+	three of the top corners
+	three of the middle edges
+	the last top edge
+
+Up until here the algorithms are quite simple and now I only have
+the bottom and one middle edge, which I solve in whatever way
+looks most promising. Using this sequence, I am consistently on
+the order of three minutes (tending toward 2.5 as I get more
+familiar with the method)
+
+Intuitively, I believe that God's algorithm is less than 35 or
+so, and I would not be surprised if it is less than 30. Under 25
+would really surprise me.

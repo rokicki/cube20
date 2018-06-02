@@ -1,0 +1,19 @@
+Received: from SCRC-DUPAGE by SCRC-STONY-BROOK via CHAOS with CHAOS-MAIL id 185428; Tue 26-Feb-85 11:09:54-EST
+Date: Tue, 26 Feb 85 11:00 EST
+From: Richard Pavelle <RP@SCRC-QUABBIN.ARPA>
+Subject: cube-freak
+To: cube-lovers@MIT-MC.ARPA
+cc: rp@SCRC-QUABBIN.ARPA
+Message-ID: <850226110043.5.RP@DUPAGE.SCRC.Symbolics.COM>
+
+I received a letter from
+
+Georges Helm
+76, Bomicht
+4936 Bascharage
+Luxembourg
+
+who seems to have outdone most of us. He has collected 14000
+pages of material on the 3x3 and its variations and has composed
+a bibliography on them. He would like to communicate with anyone
+who is still interested and is willing to swap material. 

@@ -1,0 +1,40 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 19 10:32:05 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id KAA16650
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 19 Mar 1999 10:32:05 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: WaVeReBeL@webtv.net
+Date: Fri, 19 Mar 1999 02:07:36 -0800 (PST)
+To: Cube-Lovers@ai.mit.edu
+Cc: IBILUIE@aol.com, IPIIIKA@aol.com
+Subject: Re: Speed cubing results - March 99
+Message-Id: <9085-36F221E8-14@mailtod-122.bryant.webtv.net>
+In-Reply-To: Jiri Fridrich <fridrich@binghamton.edu>'s message of Thu, 18
+	Mar 1999 07:35:57 -0500 (EST)
+
+I think that if we are to be keeping track records & averages, we should
+ALL stick to one standard.  Using tournament rules sounds like a good
+idea.  This makes comparing times more accurate.
+
+Almost everybody responded w/ a different preview time (anywhere from no
+preview to 15 seconds).  People like me who started cold had a
+disadvantage to those who had a preview.  A 15 second preview sounds
+good to me.  This gives enough time to familiarize oneself w/ the cube,
+look for pieces, and plan out the first few moves.  I've been timing
+myself cold which means much time is wasted at the beginning.  Having a
+preview helps a lot.
+
+When it comes to averages, I guess there is no standard.  I agree w/
+disregarding the high & low extremes though.  They can distort the
+average (arithmetic mean).  This should give a more accurate
+representation.  Also, the more entries calculated into the average the
+better.
+
+I hope I'm not going overboard.  It's not like we're in a tournament.
+If all that is necessary is an informal rough estimate, then you can
+disregard this entire message. =)
+
+-Alex Montilla-
+

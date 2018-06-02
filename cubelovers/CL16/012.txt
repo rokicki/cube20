@@ -1,0 +1,55 @@
+From BRYAN@wvnvm.wvnet.edu  Fri May 26 19:37:17 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16994; Fri, 26 May 95 19:37:17 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 9666; Fri, 26 May 95 19:33:52 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 1582; Fri, 26 May 1995 19:33:51 -0400
+Message-Id: <wvmail32.1995may26.190922.bryan@wvnvm.wvnet.edu>
+Date:      Fri, 26 May 1995 19:33:50 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <mreid@ptc.com>, "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: AntiSlice Under M-conjugacy (and a problem with slice)
+In-Reply-To: Message of 05/24/95 at 17:14:09 from mreid@ptc.com
+
+On 05/24/95 at 17:14:09 mreid@ptc.com said:
+>hi jerry,
+
+>you said
+
+>> On 05/22/95 at 17:48:42 mreid@ptc.com said:
+>>
+>> >>       Level       Positions     Strong      Weak        Total
+>> >>                                Local Max   Local Max   Local Max
+>> >>
+>> >>         6            184           1          35          36
+>>
+>> >beg the obvious question:  what is that strong local maximum,
+>> >which is unique up to symmetry?
+>>
+>> I haven't verified in the antislice data base, but it *has* to be
+>> Pons Asinorum, accomplshed as six antislices.
+
+>no it hasn't.  this is the equivalent of the face turn metric,
+>i.e. your "level" is half the face turn distance.  (RL  and  RRLL
+>each count as 1, which is half their face turn count.)
+
+>then pons asinorum is at level 3, and gives the weak local maximum
+>at that level.
+
+Mike is correct.
+
+Try instead, (L2R2)(U2D2)(F'B')(U2D2)(L2R2)(F'B').
+
+This is a very pretty pattern which may well have a name, but I
+don't know what the name is.  Also, it is its own inverse.
+
+Is the length 12h in <Q,H>?  Is it a local maximum (strong or otherwise)
+in <Q,H>?   Is the length 20q in <Q>?  Is it a local maximum in <Q>?
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

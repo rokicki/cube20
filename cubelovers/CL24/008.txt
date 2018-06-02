@@ -1,0 +1,64 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Sep  5 21:03:58 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA04289; Fri, 5 Sep 1997 21:03:57 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Hoey@AIC.NRL.Navy.Mil Fri Sep  5 21:08:00 1997
+Date: Fri, 5 Sep 1997 21:07:48 -0400
+Message-Id: <199709060107.VAA04503@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: lvt-cfc@servtech.com
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <199709031702.NAA20567@cyber1.servtech.com> (lvt-cfc@servtech.com)
+Subject: Re: Open and Closed Subgroups of G (fwd)
+
+Chris Chiesa <lvt-cfc@servtech.com>, among other things, writes
+
+> If I now make the single turn
+
+>    B'
+
+> I no longer find it so easy to characterize the corner-twist parity state of
+> the Cube, because (all of) the corner-cubies affected by this particular
+> Cube-state-change have left their previous positions, leaving me to wonder,
+> "RELATIVE TO WHAT" their twist is to be assessed.
+
+At the risk of being repetitious, the answer is, "relative to the home
+orientation of the position they find themselves in".  You choose a
+special facelet for each corner cubie.  When the cubie is in its home
+position, its twist is the position of its special facelet relative to
+the home of the special facelet.  When cubie X is in cubie Y's home
+position, the twist of cubie X is the position of X's special facelet
+relative to the home of Y's special facelet.  The edges are done the
+same way, except mod 2.
+
+Cube-lovers can find this in Vanderschel's article (6 Aug 1980) and
+the extension by Saxe (3 September 1980).  I mentioned (23 September
+1982) that the choice of special facelets is arbitrary, and that a
+conservation of twist occurs for a set of pieces of any puzzle that
+
+    1. have an Abelian orientation group, and
+    2. are moved in untwisted cycles by the generators.
+
+This is true even if not all the cycles have the same length.  For
+instance, we could have a Rubik's cube in which generators move
+corners in permutations like (FTR,FRD,FDL,FLT)(BRT,BTL,BLD), and twist
+would be preserved.  The key is that for each piece, the minimum power
+of the generator that returns that piece to its home position must
+also return it to its home orientation.
+
+I'm quite uncertain about what orientation constraints can arise in
+puzzles with non-Abelian orientation groups.  For instance, the
+hypercorners of a Rubik's tesseract have the symmetry group A4, and
+any orientation is achievable up to a constraint imposed by an Abelian
+quotient of A4 of type 3 (See 22 Oct 1982).  Does every group have a
+unique maximal Abelian quotient?  Is that the only orientation
+constraint that can occur?
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+[ Moderator's Note: Cube-lovers will be down Saturday and Sunday due to
+  major electrical work at MIT. ]
+

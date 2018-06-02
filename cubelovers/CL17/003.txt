@@ -1,0 +1,90 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Wed Sep 13 02:15:29 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01159; Wed, 13 Sep 95 02:15:29 EDT
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <210967-2>; Wed, 13 Sep 1995 02:17:54 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA14615; Wed, 13 Sep 95 02:11:18 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1F4769; Wed, 13 Sep 95 01:47:39 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Alexander's Star
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1229.5834.0C1F4769@canrem.com>
+Date: Wed, 13 Sep 1995 02:21:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+> From: pbeck@pica.army.mil (Peter Beck)
+> Subject: ranking
+>
+> noticed you did not include
+> square-1  or alexanders star
+>
+> thanks for the compilation
+
+
+ Very little literature exists on Alexander's Star. Ideal Toy published
+a solution booklet, and Adam Alexander (the puzzle's inventor) wrote
+a book, and David Singmaster wrote his analysis in one of his
+Cubic Circulars. Dr. Singmaster also mentions Alexander's Star in
+Rubik's Cubik Compendium in a chapter about variations on Rubik's
+cube.
+
+ The Ideal booklet mentions that Alexander's Star has 24 start
+positions, and Dr. Singmaster states there are 12 start positions,
+each one with it's own mirror reflection, again giving 24 start
+positions in total.
+
+ Alexander's Star is akin to an "edge-only" Dodecahedron (Megaminx)
+without centres. It has 30 edges, that is 15 pairs of distinct
+2 coloured edges.
+
+ To calculate the number of permutations of N objects with N1
+objects which are like, N2 objects which are like ...
+Nrth objects which are like we use the formula:
+
+           N!
+     --------------------
+     N1! * N2! * ... Nr!
+
+
+ In the case of Alexander's Star it is a bit more complicated because
+we must contend with edge flips and no centres, however I believe the
+correct calculation is....
+
+30! / 2^15 * 2^29 / 60 = 72,431,714,252,715,638,411,621,302,272,000,000
+                approx = 7.2 * 10^34
+
+I think the term for this is approximately 72 decillion.
+(decillion = 10^33)
+
+Here is a bit of an explanation....
+
+There are 30 total objects, with 15 different pairs of 2 like edges.
+29 edges may be flipped in any fashion but the 30th edge is forced.
+The Great Dodecahedron has 60 orientations in space.
+
+Here is another way to calculate the same number...
+
+Pick one edge and lock it in position and orientation. We still have
+29 edges which can move in position and orientation. There are still
+28 edges which can be flipped freely, the 29th edge being forced.
+We still have 15 different pairs of 2 like edges.
+
+29! / 2^15 * 2^28 = 7.2 * 10^34 (approx)
+
+ To be completely clear the calculation is really
+         29!/2   /   2^15/2 * 2^28
+
+....because only half of the 29! arrangements are possible and only
+half of the 2^15 arrangements are possible but both the /2's cancel.
+
+ On the Great Cosmic Ranking List this puzzle has less combinations
+than Rubik's Revenge, but more than the VIP sphere.
+
+ I know of no Square 1 calculations whatsoever, but would be
+interested in seeing anyone's calculations.
+
+-> Mark <-
+

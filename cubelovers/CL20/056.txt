@@ -1,0 +1,31 @@
+From cube-lovers-errors@curry.epilogue.com  Sun Jun  9 22:46:11 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA20196 for <cube-lovers-outbound@curry.epilogue.com>; Sun, 9 Jun 1996 22:46:11 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <31BB7363.799@erols.com>
+Date: Sun, 09 Jun 1996 20:59:15 -0400
+From: Charlie Dickman <charlied@erols.com>
+Reply-To: charlied@erols.com
+X-Mailer: Mozilla 2.01 (Macintosh; U; 68K)
+Mime-Version: 1.0
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Re: A 4-D Rubik's Cube
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+I'm sorry to bother all of you with this again but I have converted the 
+document describing the model and implementation of a 4-dimensional 
+(3x3x3x3) Rubik's Cube into a word processing document which I can 
+transform into several formats, including MS Word 3.0 & 4.0 and RTF.
+
+Anyone interested in a copy in word processing format let me know your 
+interest and if you have a preferred format.  Unfortunately, a text only 
+document will not be able to include any of the figures and as this does 
+a grave injustice to the paper I would rather not ship text only copies.
+
+Regards...
+Charlie Dickman
+charlied@erols.com
+
+

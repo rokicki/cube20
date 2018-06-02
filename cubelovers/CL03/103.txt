@@ -1,0 +1,68 @@
+Date: 3 January 1982 02:11-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: nuts
+To: CUBE-LOVERS at MIT-MC
+
+There is a puzzle that has been around for several years called
+something like "Nuts To You" or "Drives You Nuts" or some variation
+thereof.  It consists of 7 hexagonal pieces (each resembling a nut,
+hence the name) each with the numbers 1 through 6 inscribed around its
+perimeter in some order.  The idea is to play a kind of hexagonal
+dominoes with these pieces; a solution is found when all 7 pieces are
+arranged in a hexagon (the puzzle comes complete with a hexagonal
+frame for arranging them, it also resembles a nut) such that every
+pair of adjacent pieces are labeled the same along their common edge.
+For example one piece might look like this:
+
+   _____
+  /  6  \
+ /3     1\
+/         \
+\         /
+ \2     5/
+  \__4__/
+                                6
+which I shall abbreviate by:  3   1
+                              2   5
+                                4
+
+which might participate in the following solution:
+
+           5
+         6   4
+   6     1   2     3
+ 3   1     3     2   4
+ 2   5     3     1   6
+   4     5   1     5
+   4     2   6     5
+ 5   2     4     6   1
+ 3   1     4     3   2
+   6     1   3     4
+         5   2
+           6
+
+Each piece can be rotated (of course), but it cannot be flipped over.
+(This restriction is enforced by simply not printing the numbers on
+the other side!)
+
+The seven pieces I have represented in my sample solution are
+definitely NOT the ones that make up the commercially sold puzzle.  I
+don't have that anymore, I just made these up.  It did have the
+property that no two pieces were alike, just like my hypothetical set.
+
+The commercial set of pieces seemed to have the property that there
+was JUST ONE possible solution, although I cannot be 100% certain that
+this was the case.
+
+Now the puzzle itself is a bit dry.  But what I wonder about is the
+following meta-problem:
+
+Given that there are many (how many?) different sets of 7 pieces that
+can be chosen, how "interesting" a property is it for there to be only
+ONE solution?  Do you have to try hard to achieve that property?  Or
+do most of them have it?  Indeed, do ANY of the have it (remember I
+only SUSPECT that the commercial set has it!).
+
+How about if we relax the restriction about duplicate pieces?
+
+				-Alan

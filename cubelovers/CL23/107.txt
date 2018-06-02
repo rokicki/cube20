@@ -1,0 +1,116 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug 14 18:29:06 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA12833; Thu, 14 Aug 1997 18:29:05 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From reid@math.brown.edu Thu Aug 14 18:19:32 1997
+Message-Id: <199708142216.SAA16395@life.ai.mit.edu>
+Date: Thu, 14 Aug 1997 18:21:24 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: patterns with 24-fold symmetry
+
+i've finished computing minimal maneuvers for those positions with
+24-fold symmetry.  these positions were classified by dan hoey and
+jim saxe in their note "symmetry and local maxima."  there are 24
+such positions; they form an abelian subgroup of type 6, 2, 2.
+we may take as generators  superfliptwist, pons asinorum, and 6 H's.
+of these 24 positions, 4 have 48-fold symmetry; i'll include these
+here as well.  the other 20 positions occur in 10 pairs which differ
+only in orientation; i.e. there are 10 "patterns".
+
+some of these maneuvers were found earlier by others; i'll acknowledge
+this to the extent that i'm aware of it.  in addition, most maneuvers
+were found by kociemba's algorithm, and a few by my optimal solver,
+which is based on the same ideas.
+
+
+positions with 48-fold symmetry
+
+start  (0q, 0f)  no turns needed
+
+superflip
+ R' U2 B  L' F  U' B  D  F  U  D' L  D2 F' R  B' D  F' U' B' U  D'  (24q)
+ U  R2 F' R  D' L  B' R  U' R  U' D  F' U  F' U' D' B  L' F' B' D' L' (24q)
+
+ U  R2 F  B  R  B2 R  U2 L  B2 R  U' D' R2 F  R' L  B2 U2 F2   (20f)
+ U  R2 F  B  R  B2 R  U2 L  B2 R  U' D' R2 F  D2 B2 U2 R' L    (20f)
+dik winter was the first to find a 20f maneuver.
+
+
+pons asinorum
+ U2 D2 F2 B2 R2 L2  (12q, 6f)
+
+ F  B' U2 D2 R2 L2 F  B'  (12q)
+ F  B' U' D  F  B' U' D  F  B' U' D   (12q)
+this last maneuver is due to dan hoey.
+
+
+pons asinorum composed with superflip
+ B' D' L' F' D' F' B  U  F' B  R2 L  U  D' F  L  U  R  D   (20q, 19f)
+
+ F' U' B' R' F  R  L' D' R  L' U  D' L' U  D' F  R  B  U  F   (20q)
+ B' R' F' U' F  R  L' D' R  L' U  D' L' U  D' F  U  F  R  B   (20q)
+ B' R' B' D' F  U' D  L' U' D  R  L' U' R  L' F  D  B  R  B   (20q)
+ R  U  R  B  R' U' D  F  U' D  F  B' D  F  B' R' B' R' U' R'  (20q)
+
+ U  D  F  R  L' F  B' L  D2 R  L  F' B' U' L2 F  B' U2 L'   (19f)
+ U  D  F' B' L' U2 F' B  L2 U' R' L' F' U' D  F' B  D' L2   (19f)
+ U2 R  F  U  F  B' L' D' F  B' L  B  R  L' U  D2 B' R' U2   (19f)
+ U2 R  F  U2 D' R' L  F' L' F  B' U  L  F  B' D' B' R' U2   (19f)
+ U2 R  U2 D2 R  U' L' U  B  R  F2 U' D  B' R' F' D  B' L2   (19f)
+jerry bryan found the 20q maneuvers.
+
+
+positions with 24-fold symmetry
+
+superfliptwist
+ U  R  F' B  U' D' F  U' D  F  L  F' L' U  R  D  F  U  R  L   (20q, 20f)
+herbert kociemba was the first to find a 20f maneuver.
+
+supertwist
+ U  R' B  D  B  U  L  D  B' D2 R  U' F  L  F  R  D  L  F' L2  (22q)
+ B' L2 U  D  R2 B' D2 F2 D' R2 F  B  L2 D' B2 U2  (16f)
+dik winter first found the 16f maneuver.
+
+6 H's
+ D2 L2 B2 U2 D2 B2 R2 D2  (16q, 8f)
+jim saxe found this maneuver.
+
+superflip composed with 6 H's
+ U  F' L' F' B  U  R  F' B  U' B' U  D' R2 L' B  U'  (18q, 17f)
+
+superfliptwist composed with pons asinorum
+ U  F  B  D  R  L  U' F2 B2 R  L  D' F  B  D  R  L  D  F' B'  (22q, 20f)
+dik winter was the first to find a 20f maneuver.
+
+supertwist composed with pons asinorum
+ F  L  D  F  U' B2 R  F  R' F' R  F  L2 U' R  D  B  R   (20q)
+ B2 L  U2 F' B' U2 R' F2 L2 F' U2 R' L' U2 B  R2  (16f)
+
+superfliptwist composed with 6 H's  (type 1)
+ U  F  B  U' R  L  U  F  B  R2 L2 D' F  B  U' R  L  D' R' L'  (22q, 20f)
+superfliptwist composed with 6 H's  (type 2)
+ inverse of type 1
+
+supertwist composed with 6 H's   (type 1)
+ U2 L  U  B  D  L  U  B' R' L' F' D  R  U  F  D  L' U2  (20q)
+ L' B2 U' D' B2 R' U2 L2 U  B2 R  L  F2 U  R2 U2  (16f)
+supertwist composed with 6 H's   (type 2)
+ inverse of type 1
+
+
+some of these maneuvers have some symmetry.  i find the maneuver for
+superfliptwist composed with pons asinorum especially interesting.
+it is composed of: twists of the  U  or  D  face, and antislices
+along the R-L and F-B axes:
+
+     U (FB) D (RL) U' (F2B2) (RL) D' (FB) D (RL) D (F'B')
+
+therefore, when we conjugate this maneuver by the cube rotation  C_U2,
+we get the same maneuver!  the maneuver for superfliptwist composed with
+6 H's has the same type of symmetry.
+
+mike
+

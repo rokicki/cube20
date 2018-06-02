@@ -1,0 +1,52 @@
+From JBRYAN@pstcc.cc.tn.us  Wed Dec 20 08:42:45 1995
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from PSTCC4.PSTCC.CC.TN.US by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18095; Wed, 20 Dec 95 08:42:45 EST
+Resent-From: JBRYAN@pstcc.cc.tn.us
+Resent-Message-Id: <9512201342.AA18095@life.ai.mit.edu>
+Received: from pstcc.cc.tn.us by pstcc.cc.tn.us (PMDF V5.0-3 #11457)
+ id <01HZ0VXDUEHS8WY2SC@pstcc.cc.tn.us> for cube-lovers@ai.mit.edu; Wed,
+ 20 Dec 1995 08:44:18 -0400 (EDT)
+Resent-Date: Wed, 20 Dec 1995 08:44:18 -0400 (EDT)
+Date: Wed, 20 Dec 1995 08:44:16 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Physical Cubes and Models Thereof
+In-Reply-To: <199512201124.GAA04566@Collatz.McRCIM.McGill.EDU>
+Sender: JBRYAN@pstcc.cc.tn.us
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.951220081918.539067036C-100000@pstcc.cc.tn.us>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+On Wed, 20 Dec 1995, der Mouse wrote:
+
+> The only facelet for which invisible orientation changes are even
+> possible is the center facelet on an odd-order cube.  Other facelets
+> always have a fixed orientation with respect to the center of the face
+> they're on at the moment.  (On the 4x4x4, for example, if you mark
+> every facelet for orientation, you will find that each center facelets
+> always has the same corner to the face center, regardless of which face
+> it's on.)
+
+I believe Der Mouse is entirely correct for the physical cube case (which
+is the case I was talking about).  Imagine a 99x99x99 or some such large
+cube, and for each facelet except the face center itself mark the corner
+closest to the face center.  Any slab quarter-turn preserves the fact that
+all marked corners remain closest to the face center.  There are two cases
+-- a face slab, and any inner slab.  But both cases work.  In the case of
+a face slab, the orientations of the facelets on the face of the slab do
+change, but the orientations change in lock step with the positions of
+the facelets. 
+
+In the case of a mathematical model, Evisceration also preserves facelet
+orientation, if I understand correctly how first Singmaster and then Dan
+Hoey defined Evisceration.  However, Inflection and Exflection do not
+preserve facelet orientation.  Could (or should) the definitions of
+Inflection and Exflection be broadened to include and preserve facelet
+orientation? 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =          
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us                      
+
+

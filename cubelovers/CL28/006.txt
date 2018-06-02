@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep  2 19:21:26 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA16242
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 2 Sep 1999 19:21:24 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <37C74299.2E9D5789@pressenter.com>
+Date: Fri, 27 Aug 1999 20:59:54 -0500
+From: Joe Johnson <jgjohnso@pressenter.com>
+To: "Cube-Lovers@AI.MIT.EDU" <Cube-Lovers@ai.mit.edu>
+Subject: Re: repairing broken cubes
+
+Thanks to all who sent suggestions.  I achieved a successful repair
+using a product called 'J-B Weld' and a pin (actually a cut off box
+nail.)  The 'J-B Weld' is very strong and hardens almost to the same
+hardness as the
+
+original material.  I've been using the cube now for over a week and
+it is holding up very well, although it probably is going to wear out
+faster now since I take it apart quite often to inspect the repair.
+
+Joe Johnson
+

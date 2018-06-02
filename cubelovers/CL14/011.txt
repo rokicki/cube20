@@ -1,0 +1,19 @@
+From ccw@eql12.caltech.edu  Fri Dec 16 20:47:12 1994
+Return-Path: <ccw@eql12.caltech.edu>
+Received: from EQL12.Caltech.Edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18801; Fri, 16 Dec 94 20:47:12 EST
+Date:     Fri, 16 Dec 94 17:47:01 PST
+From: ccw@eql12.caltech.edu (Chris Worrell)
+Message-Id: <941216174701.25001b45@EQL12.Caltech.Edu>
+Subject:  correction on my previous message.
+To: cube-lovers@life.ai.mit.edu
+
+My memory is indeed faulty.  I was incorrct about the repeated process
+which yields the Pons Asinorum.  The process I was actually thinking of
+does not need a cube rotation to make it have a repeated structure.
+ (L' R U' D)^3
+There is however an interpretation of the standard Process for the Poms, which
+can be decomposed into a repeated process by a cube rotation.
+Denote by "A",  turning by 120 degrees around any diagonal, it doesn't matter 
+which one, nor in which direction.
+ (L^2 R^2 A)^3  yields the Pons.
+

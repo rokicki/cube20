@@ -1,0 +1,76 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug 21 23:33:56 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id XAA27682; Fri, 21 Aug 1998 23:33:44 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Aug 21 23:09:47 1998
+Date: Fri, 21 Aug 1998 23:07:24 -0400
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199808220307.XAA10899@cauchy.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: minimal maneuvers for E symmetric positions
+
+E  is the subgroup of cube symmetries consisting of rotations
+(no reflections) that preserve the tetrad of corners  UFR,
+UBL, DFL  and  DBR.  of course it preserves the other tetrad as
+well.  there are 72 positions that have E symmetry:
+
+     each corner must remain in place, but can be twisted.
+     corners in the same tetrad must be twisted in the same
+     direction; therefore, by conservation of twist, adjacent
+     corners are twisted in opposite directions.
+
+     the UR edge can go in any location in any orientation.
+     this determines the location and orientation of all edges.
+
+this gives 3 * 24 = 72 positions.  if the UR edge remains in the
+F-B slice, then the position has more symmetry, namely H symmetry
+(at least).  this accounts for 24 of the 72 positions; 20 of which
+are H symmetric, and 4 of which are M symmetric.
+
+E is a normal subgroup of M; in fact, it's the commutator subgroup.
+therefore, any M conjugate of an E symmetric position is also E
+symmetric.  the 48 remaining positions form 12 equivalence classes
+under M conjugacy, of 4 positions each.  minimal maneuvers for these
+are
+
+1.  F' B' U  R' U' D  R  L' U  R' D' L  U' D  R  L' D' L  F' B'  (20q*, 20f)
+    F  R  L  F  U' D' F  R2 L2 U2 D2 B  R' L' B  U  D  B   (18f*, 22q)
+
+2.  F' R2 U  D  R' L' U' F  B  R2 F' U' D' F' B  U' D' B'  (20q*, 18f*)
+
+3.  F' B' R' L' F  B  U  D  R' L' U' D'  (12q*, 12f*)
+
+4.  F  U2 R  F  B  R' U2 B  R  L  B  U' D' R' L  U' L2  (20q*, 17f*)
+
+5.  F  R' F  L  U  D' L' U  R  U' D  F' D' B  U  D' B' R' F  R'  (20q*, 20f)
+    F2 U  D2 L2 F  U  D  F' L2 U  F  B  U  R' L' F' B  R   (18f*, 22q)
+
+6.  F  B  R' L' F  B  U' D' R  L  U' D'  (12q*, 12f*)
+
+7.  F  R  U2 F  L  B  U  D' F  L  D  F' B  D  R  B  D   (18q*, 17f*)
+
+8.  F  U2 F' B  D  B' L  B  L  D' B2 R' D  F  D  F' R  D2 F'  (22q*, 19f)
+    F' R2 D2 F  U' D  F2 R  B2 L  F2 R  D2 F  B' U' F' B'  (18f*, 24q)
+
+9.  F' R  F  U  R2 U  F' L' D  F  U2 R' F' B2 R' D' R' B' U'  (22q*, 19f*)
+
+10.  F  R2 B' L' U' L' F' B  D  B  R  B  R  F  U' R  U2 D2 F'  (22q*, 19f*)
+
+11.  F  B  R2 U' F  L  F  U' F  B' R  F' U' B' R  L' B' R  L   (20q*, 19f)
+     F  R2 U  D' F2 L' U  D  L2 B  U  D' F  B' U' D2 F  B   (18f*, 22q)
+
+12.  F  R' D  B  U  D  F' L  B  D  R' F  R' L  B' U' F' B' L  F' D  L
+                                                                   (22q*, 22f)
+     F  B  U  F  L2 D2 F2 B  R  F  B  R  F' L2 D2 R2 U2 B  U   (19f*, 26q)
+
+as usual, i give a maneuver that is simultaneously minimal in both
+metrics, unless one does not exist.  some of these are local maxima.
+
+local maxima in the quarter turn metric: #1, 4, 7, 8, 9, 10, 11, 12.
+
+(strong) local maxima in the face turn metric: #10, 11, 12.
+
+mike
+

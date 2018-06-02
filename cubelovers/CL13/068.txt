@@ -1,0 +1,42 @@
+From mschoene@math.rwth-aachen.de  Wed Dec  7 16:29:15 1994
+Return-Path: <mschoene@math.rwth-aachen.de>
+Received: from samson.math.rwth-aachen.de by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05846; Wed, 7 Dec 94 16:29:15 EST
+Received: from hobbes.math.rwth-aachen.de by samson.math.rwth-aachen.de with smtp
+	(Smail3.1.28.1 #11) id m0rFSFF-000MPJC; Wed, 7 Dec 94 20:41 MET
+Received: by hobbes.math.rwth-aachen.de (Smail3.1.28.1 #19)
+	id m0rFSFF-0000PsC; Wed, 7 Dec 94 20:41 PST
+Message-Id: <m0rFSFF-0000PsC@hobbes.math.rwth-aachen.de>
+Date: Wed, 7 Dec 94 20:41 PST
+From: "Martin Schoenert" <Martin.Schoenert@math.rwth-aachen.de>
+To: cube-lovers@life.ai.mit.edu
+Subject: Cube Lovers on the World Wide Web
+
+I have converted the Cube-Lovers archives into HTML.  You can now read
+all old e-mail messages using your favorite WWW Browser.  Check out
+
+    http://www.math.rwth-aachen.de:8000/~mschoene/Cube-Lovers/
+
+I shall try to keep this reasonably up to date.
+
+The conversion is done automatically with an AWK script.  It is certainly
+not perfect.  If you have comments or suggestions, please write me.
+
+Looking at this long list of e-mail messages got me wondering.
+Should we try to condense the information into a few documents?
+I am thinking of documents describing what is known about God's
+algorithm, where those bounds come from, for which other groups
+God's algorithm is known, processes for pretty patterns, etc.
+
+The reason is I don't have the time to read all 1382 e-mail message
+carefully, and I believe that this is true for others too.
+I feel that there are many interesting things in Cube Lovers that
+I would like to know, but won't read.  Any takers?
+
+Have a nice day.
+
+Martin.
+
+-- .- .-. - .. -.  .-.. --- ...- . ...  .- -. -. .. -.- .-
+Martin Sch"onert,   Martin.Schoenert@Math.RWTH-Aachen.DE,   +49 241 804551
+Lehrstuhl D f"ur Mathematik, Templergraben 64, RWTH, 52056 Aachen, Germany
+

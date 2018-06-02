@@ -1,0 +1,54 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 16 14:07:10 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA02065
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 16 Mar 1999 14:07:09 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <00e001be6cdf$a0cabaa0$75c4b0c2@home>
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: <cube-lovers@ai.mit.edu>
+Cc: "Martin Moller Pedersen" <tusk@daimi.au.dk>
+Subject: Re: help on 5x5x5 wings
+Date: Fri, 12 Mar 1999 23:25:23 -0000
+
+Martin Moller Pedersen <tusk@daimi.au.dk> wrote
+
+>I am trying to solve my new cube the 5x5x5 cube.
+
+>I have managed to solve all of it except the wings.
+
+>The wings are the y's in the following diagram:
+
+
+>ZyZyZ
+>yZZZy
+>ZZZZZ
+>yZZZy
+>ZyZyZ
+
+Here's a set of explicit processes:  a lower-case letter means a turn
+of the layer containing the wing piece next to the outer layer denoted
+by the corresponding capital letter, and in the same sense.  The
+brackets show the movement of the pieces in the upper layer.
+
+l F' L F l' F' L' F          (Bl, lF, Lf)
+
+F2 r2 D R2 D' r2 D R2 D' F2  (Br, Fl, Rf)
+
+r' U b U' F2 U b' U' F2 r    (Bl, lF, Fr)
+
+R2 U2 l D' l' U2 l D l' R2   (Br, Fl, bR)
+
+b L2 D l D' L2 D l' D' b'    (Lb, Fl, fL)
+
+l2 U2 r' l U2 l' U2 l U2 r l U2 r' U2 l U2 r l2 U2  (Fl, rF)
+
+The final sequence swaps a pair of pieces in the front face.  There's
+been a lot of discussion of this move in Cube-lovers over the years.
+The process I've quoted changes pieces in the central nine on the back
+face, but nothing will show if all the cube except the top layer is
+solved.  The other processes change no other pieces.
+
+Roger Broadie
+

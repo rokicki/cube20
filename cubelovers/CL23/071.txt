@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun Jul 27 22:51:19 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id WAA00608; Sun, 27 Jul 1997 22:51:19 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Hoey@AIC.NRL.Navy.Mil Sun Jul 27 22:45:48 1997
+Date: Sun, 27 Jul 1997 22:45:37 -0400
+Message-Id: <199707280245.WAA12048@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: cube-lovers@ai.mit.edu
+Cc: Nicholas Bodley <nbodley@tiac.net>
+Subject: Administrata and a reference
+
+The administrata is that Alan Bawden has asked me to take over
+cube-lovers-request for a few weeks, while he is recovering from
+surgery.  After seventeen years of running cube-lovers, he deserves a
+vacation, but I would rather he find someplace more pleasant to spend
+it than a hospital.  I'm sure we all wish him a speedy recovery.
+
+I will be adding and removing addresses and filtering out abuse, but I
+will not be updating the archives or the collection of reader
+contributions.  As always, send to cube-lovers-request@ai.mit.edu for
+administrative services.
+
+The reference is for Nicholas Bodley, who in one of his very
+informative messages on Rubik's Revenge raised questions of the
+possible orientations achievable by the internal sphere without
+changing the exterior.  I answered that question in my message on
+"Invisible Revenge" on 9 August 1982.  The sphere can be placed in any
+of 24 orientations, and I showed how to do so.  If we consider the
+sphere modulo its functional symmetry (fixing one corner of the cube)
+we will distinguish only 8 of these orientations.  I also mentioned
+how to determine which of these 8 orientations the interior sphere is
+in on a physical cube, without disassembly.  See
+    ftp://ftp.ai.mit.edu/pub/cube-lovers/cube-mail-4
+for details.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

@@ -1,0 +1,18 @@
+From boland@sci.kun.nl  Mon Sep 25 04:19:19 1995
+Return-Path: <boland@sci.kun.nl>
+Received: from wn1.sci.kun.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24902; Mon, 25 Sep 95 04:19:19 EDT
+Received: from canteclaer.sci.kun.nl by wn1.sci.kun.nl via canteclaer.sci.kun.nl [131.174.132.34] with SMTP 
+	id JAA28924 (8.6.10/2.13) for <cube-lovers@ai.mit.edu>; Mon, 25 Sep 1995 09:19:18 +0100
+Message-Id: <199509250819.JAA28924@wn1.sci.kun.nl>
+To: cube-lovers@ai.mit.edu
+Subject: 11-cycle
+Date: Mon, 25 Sep 95 09:19:17 +0100
+From: Michiel Boland <boland@sci.kun.nl>
+
+U.R.U.F.R'L.U'R'F'D'
+This completes the order list. :)
+-- 
+Michiel Boland <boland@sci.kun.nl>
+University of Nijmegen
+The Netherlands
+

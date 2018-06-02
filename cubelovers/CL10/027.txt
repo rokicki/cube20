@@ -1,0 +1,53 @@
+From dik@cwi.nl  Thu Aug  5 19:55:54 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23538; Thu, 5 Aug 93 19:55:54 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA05077 (5.65b/3.9/CWI-Amsterdam); Fri, 6 Aug 1993 01:55:52 +0200
+Received: by boring.cwi.nl 
+	id AA05297 (4.1/2.10/CWI-Amsterdam); Fri, 6 Aug 93 01:55:50 +0200
+Date: Fri, 6 Aug 93 01:55:50 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9308052355.AA05297.dik@boring.cwi.nl>
+To: acw@bronze.lcs.mit.edu
+Subject: Re:  Diameter of cube group?
+Cc: cube-lovers@life.ai.mit.edu
+
+ > I wonder about the validity of your Monte Carlo analysis.  It seems
+ > to be based on an intuition about how fast the number of configurations
+ > falls off with the distance from SOLVED.  I share the intuition, but
+ > I'm not sure I can rigorize it, and that makes me cautious.
+
+I am not sure (that is obvious).  But when looking at other (similar)
+puzzles I did I think it is a save guess.
+
+ > What prevents a group from having a "pointy tail", that is, a "corridor"
+ > of elements at increasing distances from the identity?
+
+The groups I did calculate in full do *not* have a pointy tail.  This holds
+for 2x2x2, 3x3x3 corners only, magic domino.  I think it would be a big
+surprise if there is a pointy tail.  Obviously we can say a priory that
+there is not a single configuration opposite from start, so the tail is
+not very pointy, if it is at all.  For instance for the magic domino the
+tail of the list of number of configuration a certain distance from start is:
+14:    508704668
+15:    232904952
+16:     14508468
+17:       129376
+18:          112
+With the maximum at 14 turns.  (Here I took the table where only a single
+solution is allowed; i.e. no full rotations of the domino.)  1 in 2 (approx.)
+configurations requires 14 turns or more.  1 in 100 requires 16 turns or
+more.  Of course the number of configurations of the cube is quite a bit more.
+Still after doing about 9000 configurations not a single one is found that
+requires more than 20 turns.  If we assume a picture similar to the domino
+(which in my opinion is a save guess), there might be configurations that
+retuire 21 or perhaps 22 turns, but more is extremely unlikely.
+
+However, there is a remaining question; is the random choice of configuration
+unbiased?  I think it is.  To create a random configuration I do 100 random
+turns chosen from 18 possible turns (quarter turns, half turns and reverse
+turns).  The random number generator is (as far as I know) quite good
+(Berkeley Unix's random).
+
+dik
+

@@ -1,0 +1,23 @@
+From ronnie@cisco.com  Tue Sep 22 13:39:12 1992
+Return-Path: <ronnie@cisco.com>
+Received: from wolf.cisco.com by life.ai.mit.edu (4.1/AI-4.10) id AA29713; Tue, 22 Sep 92 13:39:12 EDT
+Received: from lager.cisco.com by wolf.cisco.com with TCP; Tue, 22 Sep 92 10:37:51 -0700
+Message-Id: <9209221737.AA25287@wolf.cisco.com>
+To: Matthew John Bushey <mb8d+@andrew.cmu.edu>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: cubes are great 
+In-Reply-To: Your message of "Mon, 21 Sep 92 19:46:44 EDT."
+             <0ejZvYC00WBK48jY0m@andrew.cmu.edu> 
+Date: Tue, 22 Sep 92 10:37:50 PDT
+From: "Ronnie B. Kon" <ronnie@cisco.com>
+
+> 
+> Does anyone out there know what is the cubed root of 81?
+> 
+> Just wondering....
+> 
+
+Let's see: the root of 81 is 9.  9 cubed is 729.
+
+				Ronnie
+

@@ -1,0 +1,39 @@
+From BECK@vax88a.pica.army.mil  Fri Feb 24 10:22:36 1995
+Return-Path: <BECK@vax88a.pica.army.mil>
+Received: from VAX88A.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12292; Fri, 24 Feb 95 10:22:36 EST
+Date: Fri, 24 Feb 1995 10:22:53 -0500 (EST)
+From: BECK@vax88a.pica.army.mil
+To: Cube-Lovers@ai.mit.edu
+Message-Id: <950224102253.2060111e@VAX88A.PICA.ARMY.MIL>
+Subject: new puzzle ???
+
+
+I was given a puzzle, new to me, whose name I do not know.  It is
+magic polyhedra in the shape of a cube.  The surface looks like
+Yoshi's puzzle when folded, ie, 12 edge wedges going to the center of
+the faces.  It turns on the corners of the cube, in groups of 3 wedges
+at a time.  Feels a lot like a skewb but it is not.
+
+The mechanism is analogous to Alexander's Star, ie, on each of the
+faces of the core solid there are pyramids fixed to the faces on rods
+that are free to turn.  This puzzle has an octahedron (equilateral) as
+the core solid and and equilateral pyramids.  {a paper construction is
+very easy to do - make an octahedron and 8 pyramids - use a rubber
+band through the apex of the pyramid and through the faces of opposing
+octahedron faces to attach the pyramids while allowing them to turn.
+ the wedges fit between the pyramids.  I do not know how to hold them
+down but if you join three and sit them over a pyramid you can get the
+idea of the puzzle - i think}
+
+1 - does anybody know what this puzzle is called ??
+2 - besides this one and Alexander's Star are there other puzzles that
+use this type of mechanism ??
+3 - If anybody uses this mechanism with a triangular faced hexahedron
+or icosahedron as the core solid please let me know or any other solid
+for that matter. 
+
+THE FUTURE IS PUZZLING,
+BUT CUBING IS FOREVER !!!
+
+pete
+

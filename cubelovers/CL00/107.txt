@@ -1,0 +1,29 @@
+Date: 15 Aug 1980 2347-PDT
+From: Stuart McLure Cracraft <McLure at SRI-KL>
+Subject: Undocumented position?
+To: cube-lovers at MIT-MC
+
+I've been attempting to use the 'method' Singmaster offers in his 5th
+edition pamphlet for solving my cube, and have arrived at an
+undocumented position. Perhaps I'm overlooking something and a
+cubeophile out there can offer an explanation of where I'm going
+wrong.  I have reached the position described after step 6 just before
+proceeding to step 7. The bottom and top faces are one color, the
+center slice cubies are corrrectly colored and the upper edge cubies
+(the + pattern) are correctly oriented. Two of the upper adjacent
+corners are correctly oriented but the opposite two are not.  At this
+point Singmaster deals with putting the rest of the U corners in their
+correct slots although not orienting them correctly necessarily. If we
+represent my U corners with
+
+		1	2
+
+		3	4
+
+then the cubies want to be rearranged as follows
+
+		1 and 2 want to be exchanged
+
+I don't see any way of getting this operation out of the cases
+documented by Singmaster. What gives?
+-------

@@ -1,0 +1,46 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 26 15:58:05 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA01386; Thu, 26 Mar 1998 15:58:04 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Mar 25 19:10:32 1998
+Message-Id: <01BD5821.7C9449E0@jburkhardt.ne.mediaone.net>
+From: John Burkhardt <jburkhardt@mediaone.net>
+To: <cube-lovers@ai.mit.edu>
+Subject: new to list
+Date: Wed, 25 Mar 1998 19:09:07 -0500
+
+Hi, I just found and joined this list.
+
+So I am looking for any and all oddball cube variations I can find.
+Does anyone have anything to sell or trade.  I can trade for a "Magic
+Dodecahedron" which is the start shaped Hungarian version of the
+Megaminx and I might be willing to part with a 5x5x5 cube for anything
+really interesting.  I'm looking for an original Tomy Megaminx.  Also
+the octahedron puzzle which is like two Pyraminx's glued together
+(there might be an official name).  I am also searching for a 4x4x4
+but I know they are really hard to find these days (mostly because
+they tend to break).
+
+The Dodecahedron puzzle is really amazing.  It was actually harder
+than the 5x5x5 cube.  IT took me about 3 hours to work it out!  I
+think once you know the 3x3x3 then all the same moves do similar
+things and you can easily solve 4x4x4 or 5x5x5 with variations.  Of
+course there are some cool things you can do with these.
+
+I must say that I was disappointed with one web page that listed a
+bunch of moves for the 3x3x3 cube.  I was trying some of them out and
+thinking, my god, how did anyone figure this out, only to then
+discover that a computer had figured them out.  OK, that's certainly
+an interesting problem, but I have much more fun discovering them on
+my own.  Interstingly enough, solving the dodecahedron led me to some
+neat new moves for the original cube!
+
+So where can we go from here? Have we made all the regular polyhedra
+into puzzles?  Is there hope of actually building 6x6x6 and beyond
+cubes?  Is there really any point to doing it?  I suppose they would
+allow for some nice patterns. Does anyone know of any puzzles that are
+not in George Helm's collection?  I just bought a Magic Cube puzzle at
+Walgreens for $3.  It's a 3x3x3 with psychedelic stickers on it...
+

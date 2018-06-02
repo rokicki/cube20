@@ -1,0 +1,23 @@
+Date: 17 JUL 1980 2245-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: The Higher Crosses
+To: Greenberg at MIT-MULTICS
+CC: CUBE-HACKERS at MIT-MC
+
+    Date:     17 July 1980 2228-edt
+    From:     Bernard S. Greenberg	 <Greenberg at MIT-Multics>
+
+    ...
+
+    The Higher Crosses are fascinating insofar as they appear to be
+    very simple edge-cube hacks, but are in fact quite "far"
+    from home; the CP being exactly twice as "hairy" (far)
+    as the CC (discovered by ALAN) is in itself a source of
+    wonderment.
+
+I wish I could really say something was "exactly twice as far" from
+home as something else.  Unfortunately, as I complained before, the
+metric by which one measures the distance of one configuration from
+another is not well enough understood to be able to make claims like
+this.  It might well be that the CP is less than twice as far as the
+CC, all we can really be sure is that it is not any further than that.

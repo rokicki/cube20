@@ -1,0 +1,20 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Dec 22 20:20:10 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id UAA00821; Mon, 22 Dec 1997 20:20:09 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Dec 22 19:05:02 1997
+Message-Id: <199712230003.AAA21827@GPO.iol.ie>
+From: "David Byrden" <David@Byrden.com>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: Return of the Cube?
+Date: Tue, 23 Dec 1997 00:01:20 -0000
+
+	I have just seen a toy expert
+on UK tv say that the Rubik Cube is 
+making a comeback this year. Any 
+comment?
+
+			David
+

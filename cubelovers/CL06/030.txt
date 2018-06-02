@@ -1,0 +1,31 @@
+Received: from ucbvax.Berkeley.EDU (TCP 1200400116) by AI.AI.MIT.EDU  8 Jun 87 13:08:23 EDT
+Received: by ucbvax.Berkeley.EDU (5.57/1.25)
+	id AA17674; Mon, 8 Jun 87 09:41:42 PDT
+Received: from USENET by ucbvax.Berkeley.EDU with netnews
+	for cube-lovers@ai.ai.mit.edu (cube-lovers@ai.ai.mit.edu)
+	(contact usenet@ucbvax.Berkeley.EDU if you have questions)
+Date: 21 May 87 01:24:05 GMT
+From: philabs!micomvax!musocs!mcgill-vision!mouse@nyu.arpa  (der Mouse)
+Organization: McGill University, Montreal
+Subject: Re: Repeated words answer
+Message-Id: <777@mcgill-vision.UUCP>
+References: <1036@theory.cs.cmu.edu>
+Sender: cube-lovers-request@ai.ai.mit.edu
+To: cube-lovers@ai.ai.mit.edu
+
+In article <1036@theory.cs.cmu.edu>, dld@theory.cs.cmu.edu (David Detlefs) writes:
+> [about repeated word sentences]
+>	Police!
+>	Police police.
+....
+>	Police police police police police.
+
+> Etc....I have to stop now.  "Police" is becoming a meaningless text
+> string...
+
+Indeed.  I find this will happen with any word, if you examine it
+enough.  My favorite example is "sock".
+
+					der Mouse
+
+				(mouse@mcgill-vision.uucp)

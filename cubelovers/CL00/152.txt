@@ -1,0 +1,13 @@
+Date: 23 SEP 1980 0851-EDT
+From: ZIM at MIT-MC (Mark Zimmermann)
+Subject: report on DC area cube contest
+To: CUBE-HACKERS at MIT-MC
+
+Hecht's (a local dept. store chain) offerred $100 gift certificate to
+any one who could get the cube done in 5 minutes (and T-shirts promoting
+the cube to anyone getting 1 face right in that time), for a 4-hour period
+last Saturday...I was the 7th to get the cube done (there were a bunch of
+mathematicians from the University of Maryland there before me)...the store
+took everyone's name & address & social security numbers...haven't heard
+anything from them yet, though...there may have been more solvers after
+I left.		 --Mark

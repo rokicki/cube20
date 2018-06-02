@@ -1,0 +1,43 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Jun 11 13:24:32 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id NAA24853 for <cube-lovers-outbound@curry.epilogue.com>; Tue, 11 Jun 1996 13:24:32 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Tue, 11 Jun 1996 16:56:52 BST
+From: David Singmaster Computing & Maths South Bank Univ <david.singmaster@sbu.ac.uk>
+To: cube-lovers@ai.mit.edu
+Message-Id: <009A3B3F.74098380.1922@vax.sbu.ac.uk>
+Subject: Orbits, re Jerry Bryan's message of 5 Jun
+
+	First apologies if this has already been discussed - I'm behind on my
+email.
+	Orbit is used in the context of the action of a group on a set.  The
+orbit of a point in the set is the set of all points that the original point
+can be carried to by the actions of the group.
+	Jerry mentioned that I said there are 12 orbits of the entire cube.
+This is correct in that one is thinking of the group of the cube as acting on
+patterns or configurations of the entire cube.  Martin Scho"nert is correct
+in saying that these are cosets of the cube group in the larger group of
+assemblies of the cube, or permutations of the parts.  
+	However, it is not always the case that the set being acted upon can be
+given a group structure.  E.g. when one considers the action of the cube group
+on the individual pieces, then the orbit of a corner piece is the set of
+8 corners.
+	Perhaps the astronomical imagery can help.  Think of a planet (or
+what have you).  There is a group of physical motions of this and the orbit
+is the set of positions which these motions can carry the planet to.  The
+case of the orbit of a corner piece is quite easy to visualise.  The more
+general contexts of the orbits of achievable positions are less easy to
+visualize.
+	Perhaps another example may help.  Consider the 14-15 or 1 puzzle.
+For a given position of the blank, only the even permutations are achievable,
+so we can speak of two orbits, each of which has  15!/2  positions.  If we
+permit the blank to move about, we again get half the possibilities, i.e.
+16!/2  positions, and two orbits.
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @vax.sbu.ac.uk
+
+

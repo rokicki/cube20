@@ -1,0 +1,72 @@
+From cube-lovers-errors@oolong.camellia.org  Sat May 31 17:56:04 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA27975; Sat, 31 May 1997 17:56:04 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Sat, 31 May 97 17:26:17 EDT
+Message-Id: <9705312126.AA16157@sun34.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: cube-lovers@ai.mit.edu
+Subject: Heuristics in (Korf 1997)
+
+[ As I mentioned, before, this is part 2. Just after I sent part 1, I
+  saw Greg Schmidt's explanation of IDA*.  I hope someone finds the
+  parts of our messages that don't duplicate each other to be
+  instructive enough to justify the parts that do. ]
+
+HEURISTIC FUNCTIONS
+
+Herbert Kociemba notes three interesting heuristics based on the
+number of moves to reach the subgroup <T,D,R2,L2,F2,B2>.  In fact,
+Mike Reid calculated (and Dik Winter verified) the exact distances in
+this 2.2-billion element coset space (see archives at 7 Jan 1995 and
+following).  Mike shows how you could look up this distance in a
+64-megabyte table, and Dik suggests how this could be made into a
+database half the size (though I think the performance penalty might
+be too high).
+
+These coset differences form an admissible heuristic.  There are a lot
+of other interesting subgroups, and some of their coset spaces may
+yield useful heuristics.
+
+But the coset spaces Rich uses are those relative to the subgroup that
+fixes a certain number of pieces: The corners, or either of two
+subsets of six edges.  It's unfortunate he didn't notice that the
+latter two tables could use the same database.  The way you do this is
+to choose your two sets S, T of 6 edges such that there is a whole
+cube move m in M for which m(S)=T.
+
+Here's a formalism of how the database for fixing set S works.  Make a
+database that maps a position p to the length of the shortest sequence
+x for which px fixes each piece s in S.  Thus the distance h(p) from
+position p to the goal position q is the length of pq', for which we
+get a lower bound by looking up pq' in the database.
+
+To find the heuristics based on fixing the pieces in T, we could make
+a new database.  But px(s) = s exactly when (mpm' mxm')(m'(s))=m'(s).
+That is to say, when the m-conjugate position (mpm' mxm') fixes the
+piece m'(s).  So if we look up mpm' in our database, it will give the
+length of the shortest sequence mxm' that fixes each m'(s) -- i.e.,
+that fixes each t in T.
+
+This also gives us 94 more admissible heuristics for free, at least in
+terms of table space.  Of course we can use the other 46 elements of
+M.  What might not be obvious is that the lower bound we get by
+looking up x in the database is probably not the same as the lower
+bound we get by looking up x'.  But the length of x is the length of
+x', so we could get 48 more heuristics by looking up the inverse and
+it's M-conjugates.  By taking the maximum of the 96 values formed by
+looking up mpq'm' and mqp'm' in the data base, we may get a much
+better lower bound for the solution length.
+
+Of course, we could take any database of lower bounds and use this
+process to get up to 96 times as many bounds.  The distance to
+Kociemba's subgroup is such a lower bound, but it unfortunately is so
+symmetric that I think we only get a 6-fold improvement (or perhaps
+3-fold; I'm losing my intuition on inverses in those cosets).  Perhaps
+just fixing an asymmetric subset of edges and corners might be the
+best solution.
+
+[ End of part 2. ]
+
+

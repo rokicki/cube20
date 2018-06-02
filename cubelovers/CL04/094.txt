@@ -1,0 +1,9 @@
+CEL@MIT-ML 11/23/82 16:00:18 Re: Pentominoes request
+To: Cube-lovers at MIT-MC
+Hexominoes are easier to find than pentominoes.  If you treat four of
+the basic trianglular pieces of the Snake puzzle as a unit square, a
+24-piece Snake can be configured to make any hexomino.  Just buy
+enough snakes.  If you want to break the rivets on the snake, you can
+make pentominoes by removing four pieces.  In fact, I wish there were
+a modular Snake consisting of snap-together pieces so that different
+length Snakes could be realized more simply.

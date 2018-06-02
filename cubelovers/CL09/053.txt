@@ -1,0 +1,19 @@
+From yekta@huey.jpl.nasa.gov  Mon Sep 21 22:38:35 1992
+Return-Path: <yekta@huey.jpl.nasa.gov>
+Received: from huey.Jpl.Nasa.Gov by life.ai.mit.edu (4.1/AI-4.10) id AA10534; Mon, 21 Sep 92 22:38:35 EDT
+Received: from hercules.JPL.NASA.GOV ([128.149.68.28]) by huey.Jpl.Nasa.Gov (4.1/SMI-4.1+DXRm2.2)
+	id AA00679; Mon, 21 Sep 92 19:34:07 PDT
+Date: Mon, 21 Sep 92 19:34:07 PDT
+From: yekta@huey.jpl.nasa.gov (Yekta Gursel)
+Message-Id: <9209220234.AA00679@huey.Jpl.Nasa.Gov>
+Received: by hercules.JPL.NASA.GOV (4.1/SMI-4.1)
+	id AA09483; Mon, 21 Sep 92 19:38:22 PDT
+To: mb8d+@andrew.cmu.edu
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: Matthew John Bushey's message of Mon, 21 Sep 1992 19:46:44 -0400 (EDT) <0ejZvYC00WBK48jY0m@andrew.cmu.edu>
+Subject: cubes are great
+
+Little smaller than its square root.  Are you having fun yet?
+
+--Yekta
+

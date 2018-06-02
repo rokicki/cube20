@@ -1,0 +1,24 @@
+Received: from WILMA.BBN.COM (TCP 20026200730) by AI.AI.MIT.EDU  5 Nov 87 10:31:44 EST
+Date:     Thu, 5 Nov 87 10:26:29 EST
+From:     Bernie Cosell <cosell@WILMA.BBN.COM>
+To:       cube-lovers@AI.AI.MIT.EDU
+cc:       jr@WILMA.BBN.COM, beeler@WILMA.BBN.COM, alatto@WILMA.BBN.COM
+Subject:  Deluxe Magic
+
+I picked up a "deluxe Rubik's Magic" at Games People Play the other day.
+It is a twelve-square magic.  Has anyone solved this guy yet?  My wife
+has been hacking on it some and and has managed to run it from the
+starting state (2x6) to the target state (as in the normal Magic, but
+moreso), but not enough comprehension of it all yet to get all the
+circle pieces in the right places, yet.
+
+It seems to be more fun that the normal magic because if you ignore
+the circles you can make a bunch of interesting shapes (the big-hollow-
+square was neat to blunder into).
+
+  /Bernie\
+
+ps, a while back someone (pete?) posted a pointer to some magazine (foreign,
+maybe?) that had an article about folding a Magic into a cube.  I don't
+remember if I've asked this before or not, but... can anyone send me hints
+about how the fold-magic-into-a-cube goes?  tnx /b\

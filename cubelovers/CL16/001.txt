@@ -1,0 +1,130 @@
+From BRYAN@wvnvm.wvnet.edu  Sun May 21 15:24:47 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA26938; Sun, 21 May 95 15:24:47 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 0109; Sun, 21 May 95 07:18:50 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 3804; Sun, 21 May 1995 07:18:50 -0400
+Message-Id: <wvmail32.1995may19.084306.bryan@wvnvm.wvnet.edu>
+Date:      Sun, 21 May 1995 07:18:49 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   AntiSlice Under M-conjugacy (and a problem with slice)
+
+I have had some posts not get through.  The following will serve
+to consolidate several of them. Some of this may be a repeat,
+but not all, I think.
+
+Mark Longridge's antislice results are as follows:
+
+>                  arrangements           arrangements
+>Moves Deep   (2q or anti-slice moves)   (4q or double anti-slice moves)
+>
+>    0                   1                     1
+>    1                   6                     9
+>    2                  27                    51
+>    3                 120                   265
+>    4                 423                   864
+>    5               1,098                 1,785
+>    6               1,770                 2,017
+>    7               1,650                 1,008
+>    8                 851                   144
+>    9                 198
+>                    -----                 -----
+>                    6,144                 6,144
+
+We have the following M-conjugacy results for 2q moves.
+
+  Level              Positions             Local
+                                          Maxima
+
+   0                    1                    0
+   1                    1                    0
+   2                    3                    0
+   3                   10                    0
+   4                   37                    0
+   5                   93                    1
+   6                  166                    2
+   7                  147                    7
+   8                   89                   12
+   9                   21                   21
+                     ----
+                      568
+
+The level 5 local maximum is (U'D')(FB)(FB)(UD)(L'R').  The position is
+not its own inverse, but we can use as an inverse (U'D')(FB)(FB)(UD)(LR).
+Hence, (U'D')(FB)(FB)(UD) forms a nice "middle" of the sequence.  In
+fact, the (U'D')(FB)(FB)(UD) position in some ways seems more
+interesting than the local maximum itself.  Does it already have
+a name?
+
+I have not verified if the length of the local maximum is 10q in G,
+nor if it is a local maximum in G.
+
+We have the following M-conjugacy results for 4q moves.  Strong
+and weak local maxima are defined according to my preference.
+If you prefer Mike Reid's definition, ignore the "weak"
+column and read the "total" column as "weak".
+
+      Level       Positions     Strong      Weak        Total
+                               Local Max   Local Max   Local Max
+
+        0              1           0           0           0
+        1              2           0           0           0
+        2              5           0           0           0
+        3             25           0           1           1
+        4             75           0           2           2
+        5            152           0          19          19
+        6            184           1          35          36
+        7            108           0          46          46
+        8             16           0          16          16
+                    ----
+                     568
+
+Back on the subject of the slice group, we have the following.
+
+Mark Longridge said:
+
+>By the way GAP gives  NumberConjugacyClasses (slice) = 23
+
+>In your calculations of M-conjugacy classes for the slice group the
+>total number of classes is 50, but I think GAP does not use
+>M-conjugates but C-conjugates instead. The NumberConjugacyClasses
+>function always thrashes with any larger groups unfortunately.
+>If you could easily tweak your program perhaps you could
+>verify my theory.
+
+Recall that in my work with <U,R>, I had to use W3-conjugacy rather
+than M-conjugacy.  The simplest explanation is that all M-conjugates
+of a position in <U,R> are not in <U,R>, and in particular the
+representative element might not be in <U,R>.  W3 is the largest
+subgroup of M such that all conjugates of <U,R> are in <U,R>.
+
+I flirted briefly with the notion that I might have the same problem
+with the slice group and the antislice group.  But it seems
+immediate that M-conjugacy is appropriate for both slice and
+antislice.  For example, think of applying M-conjugacy to
+all the individual 2q or 4q moves in a slice or antislice process.
+Clearly, the result is still in slice and antislice, respectively.
+
+I doubt that Mark's theory about GAP using C-conjugacy for slice
+instead of M-conjugacy is correct.  I already have 50 positions
+to 23 for GAP, and using C-conjugacy would just make my results
+larger.  For example, RL' and R'L are M-conjugate positions,
+but not C-conjugate positions.  I don't have a clue why my
+results do not match GAP.  I have double and triple checked
+my results, and they seem correct.  For example, I can "expand"
+my conjugacy classes, and the results then match Mark's exactly.
+
+How does GAP's NumberConjugacyClasses function work?  By that,
+I mean how does it know the subgroup with respect to which
+you are taking conjugacy classes (if my terminology is correct)?
+For example, how does it know to take C or M or whatever
+conjugates?
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

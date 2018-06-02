@@ -1,0 +1,16 @@
+DAN@MIT-ML 03/05/81 20:58:59 Re: Rubiks Cube info needed
+To: cube-lovers at MIT-AI
+I have a few questions which you may be able to help me with...
+
+1.  Could you please add me to this mailing list
+
+2.  I am looking for a rubiks cube solver to play with on my microcomputer,
+    and would like to know if such a program exists.  Would prefer Pascal
+    or "C" (as I most readily hack these), but Lisp, et.c would be fine.
+
+3.  Is there an archive of "Cube" info, back letters, documents,
+    bibliographies, etc. lying around on one of the ITS machines?
+
+Thanks      - Dan
+
+

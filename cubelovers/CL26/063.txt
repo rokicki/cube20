@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec  8 14:34:56 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA19972
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 8 Dec 1998 14:34:56 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: jmb184@frontiernet.net (John Bailey)
+To: ishmnn@cap.bekkoame.or.jp (Ishihama Yoshiaki)
+Cc: Submissions Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Re: 4DRubikCube
+Date: Sat, 05 Dec 1998 13:10:10 GMT
+Message-Id: <36692f00.213266943@mail.frontiernet.net>
+References: <ishmnn-0512981857030001@p849359.mitk.ap.so-net.ne.jp>
+
+On Sat, 05 Dec 1998 18:57:03 +0900, in rec.puzzles you wrote:
+
+>I have created 4Dimension Rubik Cube for Macintosh.
+>URL: http://www.asahi-net.or.jp/~hq8y-ishm/
+
+I went there the instant I read your post.  Unfortunately, I am
+running a Pentium based machine.  Could you put a gif image of your
+cube on the page? Maybe even a screen copy bitmap of the user
+interface. We IBM-PC types can stare and drool.
+If you haven't checked out my 2x2x2x2 cube, it's at
+http://www.ggw.org/donorware/4D_Rubik
+
+John
+http://www.frontiernet.net/~jmb184
+

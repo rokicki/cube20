@@ -1,0 +1,25 @@
+Date: 14 Jun 1982 11:17:40 EDT (Monday)
+From: Bernie Cosell <cosell at BBN-UNIX>
+Subject: Magic Domino
+To: cube-lovers at mc
+
+The magic Domino (available, at least, at Games People Play here
+in Cambridge) is a delightful little puzzle.  I would guess that it
+is the easiest of the `Rubik-type' puzzles to date -- I think it is
+even easier than the 2x2x2.  I solve it with two basic moves:
+one fixes the corner (but screws up the edges), and then the other
+fixes up the edges.
+
+An interesting sidelight on the domino is the ability to interchange
+ONE pair of edges.  The trick here (for reasons that I don't
+understand yet) is that the supergroup rotation seems to invert the
+parity of the edges.  That is: if you have the whole domino solved
+and then re-solve the thing with both faces rotated by a quarter turn
+around the center (5) cube.  You'll discover that you can't do this hardly
+at all on just one face, since you wont be able to get the corners fixed.
+But if you rotate both the white and black faces, then the corner parity
+is OK, BUT.... the edge parity has been flipped and so you have done a
+single interchange of two edges.
+  
+    /Bernie
+

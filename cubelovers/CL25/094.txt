@@ -1,0 +1,73 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Jul 29 11:39:38 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id LAA21758; Wed, 29 Jul 1998 11:39:38 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue Jul 28 09:05:00 1998
+Message-Id: <35BDCC35.97F9BD3@nadn.navy.mil>
+Date: Tue, 28 Jul 1998 09:03:49 -0400
+From: David Joyner <wdj@nadn.navy.mil>
+Reply-To: wdj@nadn.navy.mil
+Organization: Math Dept, USNA
+To: Cube Mailing List <Cube-Lovers@ai.mit.edu>
+Cc: Rainer.adS.BERA_GmbH@t-online.de
+Subject: Re: 4*4*4 patterns
+References: <35BB827C.10B7C9A7@t-online.de>
+
+Rainer aus dem Spring wrote:
+
+> Dear cube lovers,
+>
+> as promised the other day here comes my collection of 4*4*4 patterns.
+> My favorites are the single twisted rings. I still find it surprising
+> to see that there is no second ring on the "other" side.
+>
+> The maneuvers use all sorts of slice moves which are probably not
+> accepted as moves by most cubeologists. I am too lazy to rewrite them.
+>
+> Does anybody have any idea which format I should post for people
+> without a TeX system?
+
+I have sent Rainier an html conversion of his file. With his permission
+and approval I'll post on my web page
+http://www.nadn.navy.mil/MathDept/wdj/rubik.html
+
+> ... Does anybody know of a 4*4*4 emulator or even solver?  Anything
+> like a (sub)optimal solver is probably beyond the current PC powers.
+
+Yes. MAPLEV5 (Mathematica's main competitor) released a 4x4 Rubik's
+cube emulator (as well as a masterball emulator and a 3x3 Rubik's cube
+emulator) in their "share package" included with the software. The
+share package is actually free but MAPLEV5 is not! Incidently, the
+emulators work on some older versions of MAPLE as well. The pictured
+linked to on the bottom of the above-mentioned web page were obtained
+using this emulator. - David Joyner
+
+> Rainer
+>
+> PS
+> I am NOT a LaTeX expert :) hints are welcome !
+>
+> [Moderator's note: ... I wonder if there could be some
+>  simplification with the [X,Y] = X Y X^{-1} Y^{-1} commutator notation
+>  or the X^Y = Y^{-1} X Y conjugate notation, or if this would make the
+>  processes too hard to follow. --Dan]
+
+It would be theoretically interesting, IMHO, to have the expressions
+rewritten using commutators but more confusing in practice to follow.
+
+>
+
+(Latex file deleted)
+
+--
+David Joyner, Assoc Prof of Math
+US Naval Academy, Annapolis, MD 21402
+(410)293-6738
+wdj@nadn.navy.mil
+http://web.usna.navy.mil/~wdj/homepage.html
+++++++++++++++++++++++++++++++++++++++++++++
+"A Mathematician is a machine for turning
+coffee into theorems." Alfred Renyi
+

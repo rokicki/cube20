@@ -1,0 +1,148 @@
+From BRYAN@wvnvm.wvnet.edu  Mon Nov 14 15:28:55 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA00620; Mon, 14 Nov 94 15:28:55 EST
+Message-Id: <9411142028.AA00620@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 1855; Mon, 14 Nov 94 15:05:14 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 9387; Mon, 14 Nov 1994 15:05:13 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Mon, 14 Nov 1994 15:05:12 -0500 (EST)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@life.ai.mit.edu>
+Subject:   Re: <U, R> Antipode!
+In-Reply-To: Message of 11/14/94 at 11:59:00 from mark.longridge@canrem.com
+
+Of the 54 antipodes under Q+H processing, only
+16 are unique up to W-conjugacy, with all 16 antipodes being
+20 q+h moves from Start.  Also, there is only one cube position which
+is both one of the 27 antipodes under Q (25 moves from Start) and also one
+of the 16 antipodes under Q+H (20 moves from Start).
+
+Just for completeness, here are the 16 Q+H antipodes.
+
+
+
+
+     BBR                     BBB                      BBL
+     BBB                     BBB                      BBB
+     FBU                     LBD                      RBU
+
+     RUR                     BUB                      BUR
+     UUU                     UUU                      UUU
+     RUU                     RUU                      DUF
+
+ DLU FFL FRB             ULU FFL FRR              DLR FFR URB
+ LLL FFF RRR             LLL FFF RRR              LLL FFF RRR
+ LLL FFU LRD             LLL FFD FRU              LLL FFL URU
+
+     DDB                     DDR                      DDF
+     DDD                     DDD                      DDD
+     DDB                     DDR                      DDB
+
+     ----------------------------------------------------
+
+
+     BBD                     BBU                      BBR
+     BBB                     BBB                      BBB
+     LBR                     LBR                      RBB
+
+     UUF                     UUB                      UUL
+     UUU                     UUU                      UUU
+     BUR                     BUR                      LUR
+
+ FLL UFU FRD             FLL UFD BRU              BLF UFF DRU
+ LLL FFF RRR             LLL FFF RRR              LLL FFF RRR
+ LLL FFR URB             LLL FFR DRF              LLL FFU RRD
+
+     DDB                     DDF                      DDF
+     DDD                     DDD                      DDD
+     DDR                     DDR                      DDB
+
+
+     ----------------------------------------------------
+
+     BBL                     BBR                      BBU
+     BBB                     BBB                      BBB
+     RBR                     LBU                      FBB
+
+     BUU                     BUR                      RUR
+     UUU                     UUU                      UUU
+     LUB                     LUF                      FUR
+
+ DLF UFU RRF             ULF UFR URB              DLU LFU FRD
+ LLL FFF RRR             LLL FFF RRR              LLL FFF RRR
+ LLL FFD FRU             LLL FFD FRD              LLL FFL BRR
+
+     DDR                     DDR                      DDU
+     DDD                     DDD                      DDD
+     DDB                     DDB                      DDB
+
+
+     ----------------------------------------------------
+
+     BBF                     BFU                      BRB
+     BBF                     BBD                      BBU
+     FBR                     LBR                      BBR
+
+     LUU                     UUD                      UFB
+     UUU                     UUB                      DUU
+     UUR                     LUF                      UBF
+
+ ULB LFB URF             FBU BLD RRB              LRL FRR ULU
+ LLL FFB RRR             LLL FFU RRR              LLL FFU BRF
+ LLL FFR BRD             LLL FFR FRR              LLL FFF RRR
+
+     DDD                     DDU                      DDD
+     DDD                     DDF                      DDU
+     DDR                     DDB                      DDD
+
+     ----------------------------------------------------
+
+
+     BRL                     BRB                      BFB
+     BBU                     BBU                      BBU
+     DBF                     FBF                      FBD
+
+     FFR                     RDR                      RUB
+     DUU                     FUU                      UUF
+     DBR                     UBB                      FDU
+
+ RRB RRB URU             DRL FRL URU              DLU LRF RRR
+ LLL FFU BRF             LLL FFU FRB              LLL FFB RRR
+ LLL FFU LLF             LLL FFR ULR              LLL FFU LBU
+
+     DDB                     DDB                      DDB
+     DDU                     DDU                      DDU
+     DDU                     DDD                      DDR
+
+     ---------------------------------------------------------
+
+
+     BFF
+     BBU
+     UBB
+
+     LUU
+     UUF
+     BDR
+
+ BLR DRF DRR
+ LLL FFB RRR
+ LLL FFU RBU
+
+     DDF
+     DDU
+     DDL
+
+
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

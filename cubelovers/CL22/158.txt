@@ -1,0 +1,44 @@
+From cube-lovers-errors@oolong.camellia.org  Sun Jun  8 17:54:59 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA06041; Sun, 8 Jun 1997 17:54:59 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Sun, 8 Jun 1997 11:31:51 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Cube Mailing List <Cube-Lovers@ai.mit.edu>
+Subject: Designations for the cubes (proposal)
+Message-ID: <Pine.SUN.3.95.970608112014.11440Q-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ Peter (Reitan, I think; sorry) (who is not Karen) brought up the
+clumsiness of such designations as "5X5X5". I find these downright clumsy
+to type (although the Caps Lock key helps). In my private world, I simply
+refer to the Pocket Cube as "[the] two", the original Rubik's as "[the]
+three", Revenge as "[the] four", and the biggest available as "[the]
+five". 
+
+ I think that provided we understand that we are referring to the
+well-known family of true cubes, it should be OK simply to refer to "the
+three", for instance. Granted, these names require more keystrokes, but
+numerals should be OK, as in "the 3".
+
+ There is some risk of being obscure; I feel that there are ways to deal
+with that. We don't seem to have oodles of newcomers to the List every
+day, who would need to be directed to FAQ.
+
+ By any chance, is there more info. about a 6 or a 7? I last heard that a
+prototype 6 had been built; I'd really love to know what the mechanism is
+like. (I wrote about this at some length, a good number of months ago.)
+
+My best regards,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+

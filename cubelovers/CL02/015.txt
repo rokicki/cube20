@@ -1,0 +1,45 @@
+Date: 22 January 1981 0010-EST (Thursday)
+From: Dan Hoey at CMU-10A, James Saxe at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Correction to "Symmetry and Local Maxima"
+Reply-To: Dan Hoey at CMU-10A
+Message-Id: <22Jan81 001000 DH51@CMU-10A>
+
+	In our message "Symmetry and Local Maxima" (14 December
+1980 1916-EST) we examined local maxima both in the Rubik group and
+in the Supergroup.  David C. Plummer has discovered a flaw in our
+argument for the Supergroup, which we now correct.
+
+	Plummer has previously noted (30 DEC 1980 0109-EST) that
+the T-symmetric position GIRDLE CUBIES EXCHANGED, depicted near the
+end of section 4, is an odd distance from SOLVED.  This is also true
+of the composition of GIRDLE CUBIES EXCHANGED with GIRDLE EDGES
+FLIPPED, ALL EDGES FLIPPED, PONS ASINORUM, or any combination of
+the three, for a total of eight positions.  In addition, there are
+four different T groups, each corresponding to a choice of opposite
+corners of the cube.  Thus 32 of the 72 positions with Q-transitive
+symmetry groups are an odd distance from SOLVED.
+
+	The discussion of the Supergroup in S&LM noted that the
+only face-center orientations which yield Q-transitive symmetry
+groups are the home orientation and all face centers twisted 180o
+(called NOON in Hoey's message of 7 January 1981 1615-EST).  Any
+position with either of these face center orientations must be an
+even distance from SOLVED, so that any reachable position which is
+T-symmetric in the Supergroup must be an even distance from SOLVED.
+
+	In our earlier note, we erroneously calculated the number
+of Supergroup positions with Q-transitive symmetry groups by simply
+doubling the number of such positions in the Rubik group to allow
+for the two allowable face-center orientations.  What we failed to
+notice--until Plummer pointed it out--is that neither of the
+allowable face-center orientations can occur in conjunction with an
+odd position.
+
+	The corrected count of known Supergroup local maxima is
+determined by counting the 40 *even* symmetric positions, multiplying by
+two, and subtracting 1 for the identity, yielding 79.  As Plummer notes,
+this is surprisingly close to the number of known local maxima in the
+Rubik group, which stands at 71.  The number of known local maxima
+modulo M-conjugacy is 25 for the Rubik group and 35 ( = 2*(26-8) - 1 )
+for the Supergroup.

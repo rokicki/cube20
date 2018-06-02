@@ -1,0 +1,34 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Sep 22 21:17:03 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA04331
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 22 Sep 1999 21:17:02 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: 	Thu, 16 Sep 1999 11:08:22 -0400 (EDT)
+From: Alchemist Matt <monroem@email.unc.edu>
+Reply-To: Alchemist Matt <monroem@email.unc.edu>
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Square 1
+Message-Id: <Pine.GSO.3.95L.990916110208.4489A-100000@sunny>
+
+Hello,
+
+	In case anyone is interested, Uwe Meffert is now selling the
+Square 1.  I've been looking to buy one for a while, and this is the
+perfect opportunity (www.mefferts-puzzles.com/mefferts-puzzles/index.html).  
+In relation to the Square 1, I once came across a program that claimed to
+help one solve the puzzle.  I could have sworn I saved it to my hard
+drive, but now, when I look for it, I can't find it.  I thought it was
+called Square1.Exe or Square1.Bas Does anybody know anything about this
+program or have a copy lying around?
+
+		Thanks,
+		 Matt
+
+-----------------------------------------------------------------------
+Matthew Monroe				Monroem@UNC.Edu
+Analytical Chemistry      		http://www.unc.edu/~monroem/
+UNC - Chapel Hill, NC                   This tagline is umop apisdn
+-----------------------------------------------------------------------
+

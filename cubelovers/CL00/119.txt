@@ -1,0 +1,53 @@
+Date: 25 AUG 1980 0907-EDT
+From: ZIM at MIT-MC (Mark Zimmermann)
+Subject: anecdotes from visit to Logical Games Inc.
+To: CUBE-HACKERS at MIT-MC
+
+I visited Bela Szalai on Saturday; his country home near Manassas battlefield
+("Bull Run") is LGI, and he and his family are the employees.  I learned a few
+interesting things:
+--he saw the cube in 1978 Aug, during a trip to visit relatives in Hungary;
+after many delays was able to get some wholesale from the Hungarian gov't., but
+they wanted $1 million for exclusive rights to distribute the things in the
+Western world.  Ideal may have learned of the cube from Bernie DeKovon,
+GAMES magazine editor who is also a toy consultant for them; Ideal paid the
+$10^6 in 1979 Sep.
+--the cube is not patentable in the USA bnecause it was sold publicly for
+over a year in Hungary before patents were applied for; in England, however,
+it is "copyrighted" (equivalent to US patent+trademark) and Ideal has a legal
+monopoly.
+--Ideal will run nationwide TV advertisements for the cube beginning in a month
+or so; something to do with Newton, and including an animated cube which solves
+itself....
+--Bela took out a second mortgage on his home to pay for the plastic molds for
+his cube parts.  He uses white plastic so that it will be possible to print the
+colors on ("pad printing", the same process whereby labels are put on some
+shampoo bottles).  If all goes well, LGI will start making printed-color cubes
+within a month.
+--Bela ordered 300 copies of the 4th edition of Singmaster's booklet in 1980 Jun;
+Singmaster informed him in July that the 4th edition was out of print, but that
+he could have 300 of the 5th edition for the same price as soon as they come
+out.  LGI has >90 orders already pending, and while the remaining <210
+copies of the 5th edition last, Bela is willing to sell them for $4 each...
+whenever they arrive.
+--LGI wholesale prices start at orders for 12 cubes, $6 each plus shipping;
+individuals may want to consolidate their orders to save money.
+--Rubik developed the cube partly as an aid to teaching 3-dimensional
+visualization in students.
+--cube manufacturing is VERY labor-intensive:
+   4 minutes to tap in and glue the caps to cover the internal 6th face of edge
+	     and corner cubes for the 20 pieces necessary to make one 3x3x3
+   1 minute to assemble with screws and springs 5 out of six swivels (central
+	    cube faces) onto the middle cross
+   1 minute to assemble the pieces and screw in the last central face
+   4 minutes to perform final adjustment:  silicone grease, torque up all screws
+	     evenly, rotate every which way to test each cube out, tap in and glue
+	     6 central face caps over screws.
+   6 minutes to apply the color squares to the faces
+Bela can read while performing most of the final assembly, now that his hands have
+had several thousand cubes' practice.  The color application step will be
+eliminated if/when they begin to use pad printing for face coloring.
+--about 4% of cubes are rejected for mechanical reasons, so far
+--could work without gluing in internal faces of sub-cubes, but then about 1 cube
+in 20 would fail...so, they don't
+--READERS' DIGEST phoned to confirm some data, presumably for a story someday....

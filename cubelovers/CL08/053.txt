@@ -1,0 +1,98 @@
+From dik@cwi.nl  Sun May  3 21:43:51 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA13983; Sun, 3 May 92 21:43:51 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA25853 (5.65b/2.10/CWI-Amsterdam); Mon, 4 May 1992 03:43:48 +0200
+Received: by boring.cwi.nl 
+	id AA00557 (5.65b/2.10/CWI-Amsterdam); Mon, 4 May 1992 03:43:47 +0200
+Date: Mon, 4 May 1992 03:43:47 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205040143.AA00557.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Are we approaching God's algorithm?
+
+Because it might interest the readers and to be ahead of Peter Beck:
+Saturday I received CFF (Cubism For Fun) # 28.
+It has an interesting article by Herbert Kociemba from Darmstadt, who
+describes his program to solve Rubik's Cube.  He states that he has not
+yet encountered a configuration that required more than 21 moves.  A short
+description follows:
+
+Basicly the program consists of two stages, based on the groups:
+G0:	[U,D,R,L,F,B]
+G1:	[U,D,R^2,L^2,F^2,B^2]
+G2:	I
+The stages are from G0 to G1 and next from G1 to G2.  Note that the first
+stage is the combination of the first two stages of Thistlethwaite, and
+the last stages combine his last two stages.
+
+His first stage can loosely be described as working in a three dimensional
+coordinate system where the coordinates are resp. twist, flip and permutation.
+He searches his way until the coordinate [0,0,0] is reached.  Most important
+here is that he is able to find multiple ways.  The second stage is similar,
+although he is not very clear here.
+
+He uses lookup tables, but does not tell us how large his lookup tables
+are.  But his program runs on 1 MByte Atari ST.  The heart is coded in
+a few lines of 68k assembly, the remainder in GFA Basic.  As far as I
+know GFA Basic it can be interpreted, but also compiled.  He does also
+use tree pruning.
+
+What he does is find successive solutions in stage 1 and fit solutions
+from stage 2.  Letting the system run longer generally finds shorter
+solutions.
+
+His claims are on average less than 14 turns in stage 1, on average less
+than 10 turns in stage 2.  But according to his article this is not completely
+deterministic, so there is no proven upperbound.  Perhaps a proof can be
+found; I do not know.  In practice he finds an upperbound of 21 moves, which
+is indeed far better than other algorithms do obtain.
+
+To take this in perspective here Thistlethwaites results from Singmaster's book:
+Stage		1	2	3	4
+Proven		7	13	15	17
+Anticipated	7	12	14?	17
+Best Possible	7	10?	13?	15?
+(Are there configurations that require the maxima proven for Thistlethwaites
+algorithm?)
+
+Apparently the combination of stages largely reduces the number of turns
+required.
+
+In CFF 25 there was an article by Hans Kloosterman which did already improve
+on the number of moves.  His stages 1 and 2 are identical to Thistlethwaites,
+he has a third stage that combines the 3rd and 4th stages of Thistlethwaite.
+He reports a proven maximum for his three stages of 7, 10 and 25 moves, so
+slightly better than Thistlethwaites conjectured best figures.
+
+Kociemba's algorithm appears however to be a big leap forward, although there
+are no proofs yet.  One example:
+
+In 1981 Christoph Bandelow wrote a book where he offered a prize for the
+shortest sequence of moves that would flip every edge cuby and twists
+every corner cuby.  The deadline was September 1, 1982; at that time the
+prize was offered for a 23 move manoeuvre.  As Christoph writes:
+	All solutions presented after the main deadline and shorter than
+	all solutions submitted before were also proised a prize.  Using
+	his very ingeneous new search program Herbert Kociemba, Darmstadt,
+	Germany now found:
+		DF^2U'(B^2R^2)^2LB'D'FD^2FB^2UF'LRU^2F'
+	for 20 moves.
+Kociemba himself writes about this:
+	Our first solution had 12 moves in stage 1 and 14 moves in stage 2.
+	In progress solutions 12+13, 12+12 and 12+11 were found.  However,
+	as soon as we introduced manoeuvres of 13 moves in stage 1, we found
+	successively 9, 8 and at last 7 moves for stage 2.  The program was
+	stopped after treating about 3000 solutions.
+He further states that the first solution in general takes 95 seconds, but
+successive solutions take much shorter, and in general he finds one of less
+than 22 moves in a few hours on his 8 MHz Atari.
+
+What is clear is that one does not need the minimal solution in one stage
+to get the minimal overall total.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+

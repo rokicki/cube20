@@ -1,0 +1,53 @@
+Received: from ardec-lcss.arpa (TCP 30003004013) by AI.AI.MIT.EDU 21 Dec 88 10:46:10 EST
+Received: by ardec-lcss.arpa id <20400587041@ardec-lcss.arpa> ;
+       Wed, 21 Dec 88 10:47:14 EST
+Date: Wed, 21 Dec 88 10:46:02 EST
+From: BECK@ardec-lcss.arpa
+Subject: cff #19
+To: cube-lovers@ai.ai.mit.edu
+X-VMS-Mail-To: EXOS%"cube-lovers@mit-ai"
+Message-ID: <881221104602.20400587041@ardec-lcss.arpa>
+
+SUBJECT :  Review of "Cubism For Fun" newsletter issue #19, DEC 1988;
+the newsletter of the "Dutch Cubists Club";  in english starting with
+issue #14 
+
+1..  The table of contents for issue #19, DEC 88 follows:
+
+Welcome to Erno Rubik on becoming an honorary member of club
+MEETING RUBIK  by  Guus Razoux Schultz
+EVEN AND ODD PERMUTATIONS by Christoph Bandelow
+RUBIK'S CLOCK by the editors
+SOLUTION TO THE CLOCK by  Ed Hordern
+MATHEMATICS FOR THE CLOCK by  Guus Razoux Schultz 
+more PRETTY CUBIC PATTERNS BY ANNEKE TREEP 
+THE SKEWB's R,r group BY RONALD FLETTERMAN 
+NEWS AND LETTERS TO THE EDITOR  - U-TABLE NEWS, CUBE PROCEDURE
+RESEARCH, VALUE OF cubes for exchnage, plastic fatigue of cube
+spindles
+LIST OF MEMBERS - 
+
+>>  NOTE:  Rubik's clock is being distributed in europe with a planned
+introduction to the USA in April 1989.
+
+>>  Christoph Bandelow's 1989 puzzle catalog of Rubik's cube type
+puzzles was sent along with this issue.  If you want a copy write him
+and enclose US$1(send an actual dollar bill) for postage;
+....   Christoph Bandelow
+....   Haarholzer Str. 13
+....   4630 Bochum-Stiepel
+....   W. Germany
+
+
+2.   Membership for 1988 is  US$8.   A photocopied set of the
+newsletters, issues 1-13, written in DUTCH (in the future selected
+back articles will be available in english) is also available for
+ US$7.    To order either of these send an 'INTERNATIONAL"  POSTAL
+MONEY ORDER to:  Anton Hanegraaf,  Heemskerkstraat,  6662 AL ELST,
+ The Netherlands.
+
+3.  If anybody would like further details please ask!
+
+CUBING IS FOREVER      PETER BECK
+
+<BECK@ARDEC-LCSS>  OR  <PBECK@ARDEC>

@@ -1,0 +1,65 @@
+From @uconnvm.uconn.edu:dmoews@xraysgi.ims.uconn.edu  Sun Jan 22 01:25:28 1995
+Return-Path: <@uconnvm.uconn.edu:dmoews@xraysgi.ims.uconn.edu>
+Received: from UConnVM.UConn.Edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25252; Sun, 22 Jan 95 01:25:28 EST
+Received: from venus.ims.uconn.edu by UConnVM.UConn.Edu (IBM VM SMTP V2R2)
+   with TCP; Sun, 22 Jan 95 01:25:48 EST
+Received: from xraysgi.ims.uconn.edu by venus.ims.uconn.edu (4.1/SMI-4.1)
+	id AA05317; Sat, 27 Apr 02 04:47:10 EST
+Received: by xraysgi.ims.uconn.edu (920330.SGI/911001.SGI)
+	for @venus.ims.uconn.edu:cube-lovers@ai.mit.edu id AA25808; Mon, 23 Jan 95 01:24:21 -0500
+Date: Mon, 23 Jan 95 01:24:21 -0500
+From: dmoews@xraysgi.ims.uconn.edu (David Moews)
+Message-Id: <9501230624.AA25808@xraysgi.ims.uconn.edu>
+To: cube-lovers@ai.mit.edu, dmoews@xraysgi.ims.uconn.edu
+Subject: Shamir's method on the superflip
+
+I can also report that the superflip requires at least 19 face turns.   I
+got this result using Shamir's algorithm, which Mike Reid describes briefly
+in his message <9412162233.AA27627@ducie.ptc.com>.  To repeat him: Shamir's 
+method allows you to generate in lexicographic order all permutations st,
+where s and t are elements of lists S and T of permutations, respectively,
+while using only space proportional to the sum of the sizes of the lists.
+What I did was to first check that the superflip f couldn't be done in 11 or
+fewer face turns (easy) and to then try to solve f=stuv, where s and v have
+4 face turns and t and u have 2 to 5 face turns.  This is done by scanning
+through the (ordered) lists of all st's and all f v^(-1) u^(-1)'s and checking
+to see if there is a common element. Shamir's method then has to be applied to
+S and T and to V and T, where T is a list of permutations with 2 to 5 face
+turns, S is a list of permutations s with 4 face turns, and V is a list of
+permutations f v^(-1), where v has 4 face turns.  The number of candidates
+for s and v can be reduced by making use of the fact that f is central, has 
+order 2, and is invariant under conjugation by the symmetry group of the cube. 
+The computation took 52 hours of CPU time on an SGI Crimson (R4000 50/100 MHz
+CPU.)  More than half the CPU time is spent composing permutations and updating
+priority queues (see below.)
+
+Some have expressed concern that Shamir's method is a memory hog.  Applying 
+it to S and T requires a rather complicated tree of permutations in T and a 
+priority queue of permutations in S.  I used the wreath product representation 
+of the cube group (so `permutation' is something of a misnomer,) and my memory 
+usage was then as follows:
+
+Per element of S:
+48 bytes      permutation s in S (can be shared with other S's and T's)
+40 bytes      composition st   (not absolutely necessary, but speeds things up)
+16 bytes      pointers internal to the queue and to an element t of T
+---------
+104 bytes
+
+Per element of T:
+48 bytes      permutation t in T (can be shared, as before)
+8 bytes       pointer immediately above t
+<=16 bytes    Amortized cost of higher-up regions of the tree
+----------
+<=72 bytes
+
+The T tree is not altered during traversal, so if you are applying the method
+to S and T and V and T simultaneously you just need one T tree.  
+All told, my memory usage was around 46M.
+
+Looking for a 20 face turn representation by this method would probably take
+around 59M of memory and 710 hours of CPU time (on this machine.)
+-- 
+David Moews                                dmoews@xraysgi.ims.uconn.edu
+
+

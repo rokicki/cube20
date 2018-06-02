@@ -1,0 +1,56 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Jun  8 20:03:25 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA01196
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 8 Jun 1999 20:03:25 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Message-Id: <199906081306.GAA24838@necro.ugcs.caltech.edu>
+Subject: Re: Standard file format for Rubik's Cube is just about ready
+To: michas@androsoft.com
+Date: Tue, 8 Jun 1999 06:06:28 -0700 (PDT)
+Cc: cube-lovers@ai.mit.edu, whuang@ugcs.caltech.edu
+In-Reply-To: <001201beb186$4ef27880$0401a8c0@sanyi.android.com> from "michas@androsoft.com" at Jun 8, 99 10:10:01 am
+Reply-To: whuang@ugcs.caltech.edu
+
+> >[Moderator's note: You say white opposite blue was common, but when
+> > was that?  My experience and other reports lead me to believe that
+> > what you call the "purist" color scheme was most common in 1985 (viz
+> > _Rubik's_Cubic_Compendium_) and I don't recall seeing any change
+> > since.  It also is reportedly most common in the chirality you
+> > describe, which is called the BOY version because blue, orange, and
+> > yellow appear in that order clockwise around a corner.  The mirror
+> > image coloring is called YOB (a Cockney term for a yokel).  I don't
+> > know of any cute naming schemes for the enantiomorphs in color
+> > schemes in which the blue, orange, and yellow faces do not all
+> > meet--Dan ]
+
+I'm going by what I have observed -- which is mostly Ideal cubes.  The
+Ideal Deluxe cube has white opposite blue, as well as their Revenge
+and the three normal cubes I have in my collection.  I can check the
+orientation of the minicubes in Rubik's Race and the "deluxe-ish"
+cube supplied with Rubik's Game.
+
+The 5x5x5 in my collection is also white opposite blue, although it
+isn't Ideal (pun intended).
+
+The OddzOn cubes are also blue opposite white, so I think it's safe
+to say that the majority of cubes out there are blue opposite white.
+
+ From http://www.rubiks.com/cubesolution_new.html :
+
+>Note: we use the color arrangement of the original Rubik's cube (i.e.
+>blue is opposite to green, red is opposite to orange, and yellow is
+>opposite to white; if the blue side is on the top, then the red is
+>on the left and the yellow on the right, and so on), because this
+>is the one Erno Rubik prefers. The new Rubik's Cubes made by OddzOn
+>since 1995 are colored differently (i.e. blue is opposite to white,
+>green is opposite to yellow, and red is opposite to orange).
+
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+Is there a metonym in this sentence?
+

@@ -1,0 +1,98 @@
+Date: 30 DEC 1980 0109-EST
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  Hackery (92 line message) (first of three)
+To: CUBE-LOVERS at MIT-MC
+
+
+Greetings...I'm back from vacation. I took a copy the old mail
+home and read it. It was an interesting experience. 
+
+Existence proofs:
+	Saxe and Hoey described (14 December 1980, 19:16 EST)
+several local maximums that were previously not described. I have
+algorithms for a couple that are 28 moves long, showing that
+THESE PARTICULAR local maximums are no further than 28 away from
+SOLVED. 
+
+==========
+The edges flipped along the girdle (hereafter refered to as
+GIRDLE EDGES FLIPPED [until somebody else thinks of a better
+name]) can be done as follows:
+	(F D'U  L D'U  B D'U  R D'U ) (U'L'F)
+	(L'R F' L'R U' L'R B' L'R D') (F'L U)
+[This is a Sprat Wrench, get-ready, another Sprat Wrench,
+un-get-ready.] At first glance this is 30 moves, but notice that
+the U and U' near the end of the first line cancel, making it 28.
+
+==========
+The edges not along the girdle flipped (hereafter refered to as
+OFF GIRDLE EDGES FLIPPED) (NOTE: This is GIRDLE EDGES FLIPPED
+compounded with ALL EDGES FLIPPED), can be done as follows:
+	(L B'F  U B'F  R B'F  D B'F ) (F F U)
+	(R'L U' R'L F' R'L D' R'L B') (U'F F)
+[Again, Sprat-mung-Sprat-unmung] And again, 30 at first glance,
+but this time the FFF near the end of the first line becomes F',
+so 30-2 is again 28.
+
+==========
+==========
+I noticed something peculiar about the second kind of girdle
+configuration the mentioned. Hoey and Saxe describe it as "each
+edge on the girdle may be swapped with the diametrically opposite
+edge, provided that the corners on the girdle are swapped with
+their opposites as well" and they give a picture. It is indeed
+reachable, but the most interesting thing (in my opinion) is that
+it is an odd distance away!! (Of course so are the related
+configurations obtained by performing on it: PONS, ALL EDGES
+FLIPPED, and PONS WITH ALL EDGES FLIPPED.) ODD!! Most of (if not
+all) the previously described "nifty patterns" were even. And on
+top of that, this odd permutation is a local max. Most of the
+tools people seem to use are even. Several of them fall along
+the lines of MUNG/DO SOMETHING/UNMUNG, and DO SOMETHING is often
+even, and two MUNGS is even. Now the question is: HOW FAR AWAY
+ARE THESE, AND HOW DO YOU (THE HUMAN) TRY TO FIND THE ALGORITHMS
+TO DO THEM? My suggestion: Do something, Mung, Do something
+(maybe different). I also suggest that Do somethingbe of length
+12, and that mung be 3 or 5. I would really apprecitate it if it
+were less than 28 -- I happen to like 28 as the maximal length.
+
+==========
+The local max which I described (Plummer 10 December 1980, 08:34
+EST) which is all corners rotated such that adjacent corners are
+rotated in opposite directions (shall we call this ALL CORNERS
+ROTATED? I know it isn't explicit, but it is descriptive enough
+for our purposes) can be done in 40 by a Christman Cross (16,
+thanks to Saxe 10 December 1980, 18:41 EST), two half twists (4),
+another Christman Cross (16), and undoing the two half twists
+(4). I have been trying for the better part of a week to get this
+down to 28 (my favorite number), but have not yet succeeded. What
+I want is a 14 move algorithm to exchange all corners with their
+diametrically opposite corner in such a way that the top forms a
+cross of the top as the cross and the bottom at the corners. Two
+of these with a whole cube manipulation in between will do the
+trick. Alternately, if somebody could come up with a 12 mover to
+move FDL to FUR (and do this so that it sould look this way if
+viewed from F,L,R or B), you could do U <transform> U' and the
+opposite corners would be swapped as desired. I have an almost
+algorithm, but it falls short in that the four edges on the
+center horizontal slice are swapped with their diametric
+opposites. The algorithm is
+	R'L' F'B' R'L' FB RL FB
+If anybody can find the desired algorithms, please publish.
+
+==========
+Reading cube mail, I saw several things about "this Sprat Wrench
+is best executed by a right handed person." The way I do the
+Wrench does not descriminate, and I think it is worth it to
+describe it:
+(0 QTW)	Holding the right face in the right hand,
+(0 QTW)	holding the left  face in the left  hand,
+(2 QTW)	rotate the center verticle slice toward you,
+(1 QTW)	rotate the NEW front face clockwise (either hand will do)
+Do this a total of four times, giving 4*3=12 QTW. Try it, and
+also try turning the NEW front face counterclockwise.
+
+==========
+That's all I can think of on this subject. Coming soon:
+	Design of the higher order cubes
+	Thoughts on manipulating the higher order cubes.

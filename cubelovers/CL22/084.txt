@@ -1,0 +1,99 @@
+From cube-lovers-errors@oolong.camellia.org  Fri May 30 21:24:38 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id VAA23782; Fri, 30 May 1997 21:24:38 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Sender: Haym Hirsh <hirsh@cs.rutgers.edu>
+Date: Fri, 30 May 97 21:10:39 EDT
+From: Haym Hirsh <hirsh@cs.rutgers.edu>
+Reply-To: Haym Hirsh <hirsh@cs.rutgers.edu>
+To: joemcg3@snowcrest.net
+Subject: Re: The rest of us
+In-Reply-To: Your message of Fri, 30 May 1997 11:14:19 -0700
+Cc: cube-lovers@ai.mit.edu
+Message-ID: <CMM-RU.1.5.865041039.hirsh@pei.rutgers.edu>
+
+Here's a brief attempt at a "layman's" description of Professor Korf's
+work:
+
+Imagine you have a function that takes as input a messed-up Rubik's
+cube, and outputs a guess of how many moves it will take to get it to
+the solved state.  Further, assume this guess is never greater than
+the correct number of moves -- sometimes your solution-length guesser
+may make a correct guess, but sometimes (or even perhaps always) it
+may underestimate the number.
+
+There is an algorithm called A* that is guaranteed to find a shortest
+solution sequence for any Rubik's cube it is given, as long as it is
+given a solution-length guesser that has this never-overestimates-the-
+number-of-moves-to-solved guarantee.
+
+The problem is that A*'s guarantee is only that it will return a
+shortest solution to any cube, with no guarantee on how long it will
+take to find it.  Due to this run-time issue A* is only applicable to
+the most trivial of problems.
+
+However, in the mid-80s Professor Korf presented a tractable variant
+of A*, called IDA* (Iterative Deepening A*) that has the same
+guarantee as A* on finding shortest solutions, but is much faster.
+
+The problem now, though, is that even IDA* can also take a long time.
+Its salvation, however, is that, loosely speaking, the better the
+solution-length-guessing-function is, the faster IDA* will run.  Thus,
+for example, you could use a function that always returned 0 as the
+guess for how many moves you are from the start.  It's not a
+particularly clever guess, but it obeys the rule that it never
+overestimates the solution length.  Therefore, you could use it with
+IDA* (or, for that matter, A*) to find shortest solutions to any cube.
+Except that it would run too slow, because the solution-length guesser
+is so dumb.  A better solution-length guesser would help IDA* run
+faster.
+
+Professor Korf came up with a way to more intelligently guess what the
+solution length will be for arbitrary cubes -- it gives something much
+closer to the true value, but still without overestimating.  A
+simplified form of this would be to figure out how many moves at
+minimum it will take to get the corners in place, and use this
+corners-only solution length as a guess.  This will never overestimate
+the solution length, since to get everything in place you certainly
+have to get at least the corners into their proper positions, and it
+is better than a guesser that always returns 0.
+
+Professor Korf also had to figure out how to compute these guesses in
+an efficient fashion, since guesses will be requested many many times
+by IDA* as it explores possible intermediate cubes in its search for
+the solution.  To do this he enumerated all 88 million configurations
+of corners (different cubes with different arrangements of edges but
+with identical corners are considered identical configurations).  For
+each he figured out the minimum number of moves that would be
+necessary to get them into their correct position in a solved cube if
+edges were ignored (taking a non-trivial, but non-infinite, amount of
+time to do this for each of the 88 million configurations).  Finally,
+he generated a table with 88 million entries, with each entry
+corresponding to a corner configuration and containing the solution
+length for that configuration.  This created a way to quickly compute
+his more accurate corner-centric solution-length guesser, via table
+lookups.
+
+In truth Professor Korf improves on this even further by developing a
+better solution-length guesser that does similar things with edges as
+I just described with corners, also using tables for efficient guess
+calculation.  The result is a solution-length guesser that is accurate
+enough to allow IDA* to solve the 10 random cubes that he generated.
+
+More specifically, Professor Korf generated random cubes by taking a
+solved cube and making 100 random turns to it.  He did this 10
+separate times, and got 10 messed-up cubes.  He then ran IDA* using
+his table-based solution-length guesser, and solved all 10, one in 16
+moves, three in 17 moves, and the rest in 18 moves.  Because he used
+IDA*, and because his solution-length guesser never overestimates
+solution lengths, his solutions are guaranteed to be optimal (due to
+IDA*'s mathematical guarantees).
+
+This does not argue that 18 is the longest solution possible for any
+cube.  Just that for the 10 he generated randomly, none required more
+than 18.  Perhaps some cubes are more than 18 moves away from start.
+None simply happened to arise amongst his 10 cases.
+
+
+

@@ -1,0 +1,12 @@
+Date:  8 May 1981 1036-PDT
+From: Isaacs at SRI-KL
+Subject: Non-twisting corner moves
+To:   cube-lovers at MIT-MC
+
+   Does anyone know good move sequences for exchanging a pair or corner
+cubies on a face without twisting?  (Of course, a pair of edges will have
+to exchange also.)  Or of cycling 3 corners without twisting?  I'm looking
+for the "shortest" sequence, and the "easiest to remember" sequence.
+Most of the moves I've seen are long and complicated.
+            --- Stan Isaacs
+-------

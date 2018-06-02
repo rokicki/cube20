@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb  9 22:42:43 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id WAA06436
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 9 Feb 1999 22:42:43 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <714F77ADF9C1D111B8B60000F863155102DD6CBA@tbjexc2.tbj.dec.com>
+From: Norman Diamond <Norman.Diamond@dec-j.co.jp>
+To: <cube-lovers@ai.mit.edu>
+Subject: Re: Moves for Solving the Pyramorphix puzzle
+Date: Wed, 10 Feb 1999 11:34:47 +0900
+
+Hey!  Everyone on this list _already_ knows moves to solve
+Pyramorphix, although it often requires careful staring at the
+thing in order to recognize the exact configuration each time.
+
+You see, everyone on this list knows how to solve 3x3x3
+Rubik's cube.  And everyone knows how to solve 2x2x2
+Rubik's cube because it's a subset of the 3x3x3, without
+edges or centers.  And everyone knows how to solve
+Pyramorphix because it's a subset of the 2x2x2, where
+some of the corners don't need orienting.
+
+-- Norman.Diamond@dec-j.co.jp
+[Not speaking for Compaq]
+

@@ -1,0 +1,27 @@
+From aaweint@io.org  Mon Apr  8 21:22:55 1996
+Return-Path: <aaweint@io.org>
+Received: from io.org by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02184; Mon, 8 Apr 96 21:22:55 EDT
+Received: from newman03.slip.yorku.ca (newman03.slip.yorku.ca [130.63.219.193]) by io.org (8.6.12/8.6.12) with SMTP id VAA18848 for <cube-lovers@ai.mit.edu>; Mon, 8 Apr 1996 21:22:30 -0400
+Message-Id: <2.2.16.19960409012207.5be77a10@io.org>
+X-Sender: aaweint@io.org
+X-Mailer: Windows Eudora Pro Version 2.2 (16)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Mon, 08 Apr 1996 21:22:07 -0400
+To: cube-lovers@ai.mit.edu
+From: Aaron Weintraub <aaweint@io.org>
+Subject: Square-1 Question
+
+Hi,
+
+I just wanted to thank everyone who gave me some insight as to how to go
+about attacking the parity problem in Square-1.  It was, indeed as I
+thought, a parity issue like the double flipped edges in the 4x4x4, and not
+just some oversight on my part.  Ron, your tips were particularily helpful.
+I didn't have to buy any books or anything, and I can now solve it every
+time.  I've got to go find a new puzzle now.
+
+Aaron
+aaweint@io.org
+
+

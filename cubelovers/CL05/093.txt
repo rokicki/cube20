@@ -1,0 +1,13 @@
+Received: from CSNET-RELAY.ARPA by MIT-MC.ARPA 15 Nov 85 02:48:31 EST
+Received: from ti-csl by csnet-relay.csnet id a006258; 15 Nov 85 2:31 EST
+Date: 14 Nov 1985 1008-CST
+From: Dan <NICHOLS%CSL60%ti-csl.csnet@CSNET-RELAY.ARPA>
+Subject: new article
+To: cube-lovers@mit-mc.arpa
+Received: from csl60 by ti-csl; Thu, 14 Nov 85 10:46 CST
+
+A new article on the cube has appeared. 
+"Rubik's Groups" by Edward Turner and Karen Gold in
+The American Mathematical Monthly v92n9 November 1985
+-------
+

@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Jan 28 17:37:14 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id RAA06624; Wed, 28 Jan 1998 17:37:13 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Jan 28 13:32:58 1998
+Date: Wed, 28 Jan 1998 10:31:35 -0800
+From: mrhip@sgi.com (Jason Werner)
+Message-Id: <9801281031.ZM27368@neuhelp.corp.sgi.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: 9X9X9 cube (fictional)
+
+If you can get your hands on the February 1998 edition of "Sys Admin: The
+Journal For UNIX Systems Administrators", check out the ad on page 56.
+
+Or, catch a glimpse at:
+
+	http://www.sd98.com/
+
+Enjoy!
+
+	-Jason
+
+--
+Jason K. Werner                         Email: mrhip@sgi.com
+Systems Administrator                   Phone: 650-933-9393
+USFO I/S Technical Support              Fax:   650-932-9393
+Silicon Graphics, Inc./Cray Research    Pager: 888-491-2906, mrhip_p@sgi.com
+
+  "Winning is a habit"-Vince Lombardi "These go to eleven"-Nigel Tufnel
+

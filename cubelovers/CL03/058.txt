@@ -1,0 +1,6 @@
+Date: 17 October 1981 22:54-EDT
+From: Mark K. Lottor <LOTTOR at MIT-AI>
+To: CUBE-HACKERS at MIT-AI
+
+Where is old mail located?
+

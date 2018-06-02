@@ -1,0 +1,37 @@
+Date: 14 August 1981 03:12-EDT
+From: Chris C. Worrell  <ZILCH at MIT-MC>
+Subject: CUBE-POLL@MIT-MC
+To: CUBE-LOVERS at MIT-MC
+
+The first CUBE-LOVERS poll has now begun. Send your answers to:
+
+CUBE-POLL@MIT-MC
+
+
+The questions:
+
+1.   Occupation (if student, undergrad or grad and major)
+2.   Age
+3.   Average solving time
+4.   How long it took you physically working with the cube in order to solve
+     it reliably.
+5.    How long have you been working with the cube   (say since Jan. '81)
+6.   How many cubes do you own, and how many have died on you.
+7.   Solving methods:
+  A.    Time-efficient,  describe method in general.
+  B.    Move-efficient,  describe in more detail, including number of qtws
+           for each stage.
+           Include a maximum number of qtws for this method.
+8.   Transformations you have found or know of.
+        Include a description of what the transform does.
+        Include transforms you use in your method, such as top to middle slice 
+        edge movers, and  transforms which affect only one face.
+         The results of this question will be compiled into a dictionary of
+         transfors and may also aid people in their investigations of the cube.
+9.    Any specific intrests you have in the cube,  such as applications to
+       group theory, or investigation of identities or whatever.
+10.   Any other intrests you might have, relating or not relating to puzzles.
+
+
+                                            Chris Worrell (ZILCH@MIT-MC)
+

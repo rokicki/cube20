@@ -1,0 +1,15 @@
+Received: from CISL-SERVICE-MULTICS.ARPA by MIT-MC.ARPA; 30 APR 85 09:51:49 EDT
+Received: FROM HIS-PHOENIX-MULTICS.ARPA BY CISL-SERVICE-MULTICS.ARPA WITH dial; 30 APR 1985 09:47:08 EDT
+Acknowledge-To:  "Craig L. Senft" <Senft@HIS-PHOENIX-MULTICS.ARPA>
+Date:  Tue, 30 Apr 85 06:44 MST
+From:  "Craig L. Senft" <Senft@HIS-PHOENIX-MULTICS.ARPA>
+Subject:  Re: information requests
+To:  Alan Bawden <ALAN@MIT-MC.ARPA>
+cc:  Cube-Lovers@MIT-MC.ARPA
+In-Reply-To:  Message of 30 Apr 85 01:09 MST from "Alan Bawden"
+Message-ID:  <850430134407.956530@HIS-PHOENIX-MULTICS.ARPA>
+
+Please remove me from Cube-Lovers mailing list.  Thank you,
+
+
+ ==cls==

@@ -1,0 +1,49 @@
+Received: from Xerox.ARPA by MIT-MC.ARPA 15 Oct 85 01:27:00 EDT
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 14 OCT 85 22:24:05 PDT
+Date: 14 Oct 85 22:23:48 PDT (Monday)
+From: Hoffman.es@Xerox.ARPA
+Subject: Skewbs
+To: Cube-Lovers@MIT-MC.ARPA
+cc: Hoffman.es@Xerox.ARPA
+Message-ID: <851014-222405-4931@Xerox>
+
+Hey, it worked!  On Sept. 18, I sent an order for a skewb with a
+cashier's check for US$16 to Meffert in Hong Kong, in response to his
+apology/order form.  I included a cover letter mentioning that I was one
+of those who had never received an earlier order (that is, my skewb
+order of January 1983).
+
+On Wednesday, Oct. 9, I received the promised airmail letter containing
+the registered mail receipt showing the package was mailed Oct. 2, and
+on Saturday, Oct. 12, I received a package containing TWO skewbs!  The
+thing seems rather easy, I think, but it's great fun because it's so
+weird -- so odd looking in mid-turn, so awkward to manipulate quickly,
+so difficult to keep your bearings (no face centers that stay put to
+navigate by).  I haven't fully explored it, but I've found a few handy
+"macros" and identities that seem to get me out of most trouble.
+
+Anyway, if you have wanted a skewb ever since first seeing the drawings
+of them in Hofstadter's "Scientific American" column, go ahead and try
+Meffert.  In case you've lost my note of Sept 18, here's the relevant
+portion again:
+
+			1985 PRICE-LIST
+	Descriptions		Item No.	Unit Price
+	
+	5 x 5 x 5 cube		CE8426		US$25/Air
+	Skewb			CE8431		US$15/Air
+	Pyraminx		CE8423-24	US$20/Air
+	Timber finished Pyraminx		US$20/Air
+	Impossi-Ball		CE8429		US$29/Air
+	3D Nought's + Crosses	CE8434		US$ 9/Air
+	
+	*All plus US$1 for registered mail.
+	
+	Please rush me with Item No...............Amount:...............
+	
+	PRICEWELL (FAR EAST) LIMITED
+	P.O. Box 31008 
+	Causeway Bay
+	Hong Kong
+
+--Rodney Hoffman

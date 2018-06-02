@@ -1,0 +1,160 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Apr  8 12:17:06 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA28530; Wed, 8 Apr 1998 12:17:05 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Apr  8 11:04:08 1998
+To: Cube-Lovers@ai.mit.edu
+Date: Wed, 8 Apr 1998 07:55:06 -0700
+Subject: A workable 6x6x6 cube design (probably)
+Message-Id: <19980408.075506.7150.0.tenie1@juno.com>
+From: tenie1@juno.com (Tenie Remmel)
+
+I have found that the 6x6x6 cube can only be made practical if the
+outer rows of cubies are slightly larger (about 3mm or 1/8 inch).
+If the rows are all the same size then some cross-sections of pieces
+(e.g. the corner pieces) are less than 3 sq-mm, and other pieces are
+extremely thin (0.6mm in some places).
+
+If the plastic is black (or white) and the stickers are all the same
+size then the inequality in the size of the cubies will be effectively
+masked.  The stickers would have to be spaced evenly.  The cube will
+look as if it has a small 'border' but the perception will be that the
+cubies are the same size.
+
+This design is actually almost as strong as the 4x4x4 cube.  It contains
+an internal frame plus 256 movable pieces of ten different types.  No
+cross section of a piece is smaller than 7 sq-mm (the 4x4x4 has center
+pieces with 9 sq-mm cross section).  Two of the types of piece
+(FACE EDGE PIECE, SPACER PIECE 2) come in two mirror image forms, so the
+number of molds that would be needed to produce this is 14 (counting two
+for the internal frame).  The internal mechanism would need to be greased
+to allow it to turn smoothly, but it should be no worse than the 5x5x5.
+
+The following is an exact geometric description of each piece.  To be
+able to understand this you need to know how to use Cartesian and Polar
+coordinates.  All pieces are intersections of planes, spheres, and
+hyperboloids (which can probably be approximated as cones).
+
+The SPACER PIECE 2 could probably be replaced by some sort of rectangular
+but rounded blob-like thing, it does not need to be an exact shape and
+the cube might turn more smoothly if it is rounded.  It also might then
+be possible to make it symmetrical so they could be produced with a
+single mold, which would slightly reduce production cost.
+
+Comments, suggestions and quibbles are welcome.
+
+
+
+LEGEND - x,y,z are Cartesian coordinates, r is distance from origin
+         Dx, Dy, Dz is distance from x, y, z axis respectively
+
+NO TOLERANCES - pieces must be shrunk away from all sides a little bit
+
+DIMENSIONS assume that the size of an inner CUBIE is 100 and the size of
+an outer CUBIE is 125, this allows the pieces to be much stronger than if
+the cubies were all the same size.  The puzzle occupies the space such
+that
+-325<x<325, -325<y<325, -325<z<325.
+
+Maximum vertical play needed (i.e. strain in the radial direction, mostly
+on the inside) is about 12 units, or 1.5 mm on a 78mm cube.  If all parts
+are designed with a tolerance of 2 units (0.24 mm) (e.g. by shrinking
+each
+part 1 unit (0.12 mm) away from all sides) then the maximum vertical play
+needed is about 8 units (1.0 mm).  Extra space could be provided (shrink
+inner face of frame away from center by another couple of units), if this
+is too much.
+
+
+PUZZLE CONTAINS:
+    08 CORNER PIECE
+    24 INNER EDGE PIECE
+    24 OUTER EDGE PIECE
+    48 FACE EDGE PIECE
+    24 FACE CORNER PIECE
+    24 CENTER PIECE
+    24 INTERNAL EDGE PIECE
+    08 INTERNAL CORNER PIECE
+    24 SPACER PIECE 1
+    48 SPACER PIECE 2
+    01 INTERNAL FRAME
+
+
+
+----------------------------------------------------------------------
+
+CORNER PIECE consists of:
+
+        all points such that 200<x<325, 200<y<325, 200<z<325
+    AND all points such that x>175, y>175, z>175, 280<r<360
+
+INNER EDGE PIECE consists of:
+
+        all points such that 0<x<100, 200<y<325, 200<z<325, r>320
+    AND all points such that 0<x<70, y>175, z>175, 280<r<360
+
+OUTER EDGE PIECE consists of:
+
+        all points such that 100<x<200, 200<y<325, 200<z<325, r>360
+    AND all points such that 100<x<175, y>175, z>175, 320<r<360
+    AND all points such that 70<x<175, y>175, z>175, 280<r<320
+
+FACE EDGE PIECE consists of:
+
+        all points such that 0<x<100, 100<y<200, 200<z<325, r>360
+    AND all points such that 0<x<100, 100<y<175, z>175, 320<r<360
+    AND all points such that 0<x<70, 70<y<175, z>175, 280<r<320
+
+FACE CORNER PIECE consists of:
+
+        all points such that 100<x<200, 100<y<200, 200<z<325, r>360
+        all points such that 100<x<175, 100<y<175, z>175, 320<r<360
+    AND all points such that 70<x<175, 70<y<175, z>175, 280<r<320
+
+CENTER PIECE consists of:
+
+        all points such that 0<x<100, 0<y<100, 200<z<325, r>360
+    AND all points such that 0<x<70, 0<y<70, z>175, 280<r<360
+    AND all points such that 0<x<120, 0<y<120, z>0, 240<r<280
+    AND all points such that x>60, y>60, z>0, 200<r<240,
+Dz<sqrt(z^2+60^2)
+    AND all points such that x>30, y>30, z>0, 100<r<200,
+Dz<sqrt(z^2+30^2)
+
+INTERNAL EDGE PIECE consists of:
+
+        all points such that 60<x<z, -60<y<60, z>0, 200<r<240
+    AND all points such that 30<x<z, -30<y<30, z>0, 100<r<200
+
+INTERNAL CORNER PIECE consists of:
+
+        all points such that Dx>sqrt(x^2+60^2), Dy>sqrt(y^2+60^2),
+                             Dz>sqrt(z^2+60^2), x>0, y>0, z>0,
+                             200<r<240
+    AND all points such that Dx>sqrt(x^2+30^2), Dy>sqrt(y^2+30^2),
+                             Dz>sqrt(z^2+30^2), x>0, y>0, z>0,
+                             100<r<200
+    AND all points such that x>120, y>120, z>120, 240<r<280
+
+SPACER PIECE 1 consists of:
+
+        all points such that x>120, y>120, 0<z<120, 240<r<280
+
+SPACER PIECE 2 consists of:
+
+        all points such that 70<x<100, 175<y<200, z>175, 320<r<360
+
+INTERNAL FRAME consists of
+
+        all points such that -60<x<60, -60<y<60, 200<r<240
+    AND all points such that -60<x<60, -60<z<60, 200<r<240
+    AND all points such that -60<y<60, -60<z<60, 200<r<240
+    AND all points such that Dx<30, r<200
+    AND all points such that Dy<30, r<200
+    AND all points such that Dz<30, r<200
+    AND all points such that r<100
+
+--Tenie Remmel (tenie1@juno.com)
+

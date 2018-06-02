@@ -1,0 +1,28 @@
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU 10 Sep 86 15:09:04 EDT
+Date: 10 Sep 86 13:38:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: 
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+1 - I have an incomplete reference to a PUZZLE MUSEUM in the Wash DC area.  
+Anybody have any details.
+2  -  Is there any good (complete) mailorder catalog for puzzles.
+3 -  "INTERLOCKING" CUBE,  this is a puzzle with 27 cubies held together in a
+series connection by a rubber band.  The  joint that connects cubies is not
+universal.  The cubies all have the same six colors, but not in the same
+orientation.  THE OBJECT OF THE PUZZLE IS TO FOLD UP THE CUBIES to make a 3x3x3
+cube with solid colored faces.  ANYBODY DONE THIS PUZZLE, ANY REFERENCES.
+
+
+           /                       \
+          |\                      / |
+          |   \         /      /   |
+          |\   |\     /\    /|  /|
+          |   \|   \/    \/  |/  |
+           \  |\   |\    /|  /|  /                <BECK@ARDEC-LCSS>
+             \|   \|  \/  |/  |/
+               \   |\  |  /|  /
+                  \|  \|/  |/
+                    \  |  /
+                      \|/    
+------

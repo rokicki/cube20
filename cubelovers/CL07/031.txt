@@ -1,0 +1,31 @@
+From @po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu  Fri Mar  8 13:14:12 1991
+Return-Path: <@po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu>
+Received: from po5.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA27925; Fri, 8 Mar 91 13:14:12 EST
+Received: by po5.andrew.cmu.edu (5.54/3.15) id <AA07809> for Cube-Lovers@life.ai.mit.edu; Fri, 8 Mar 91 13:14:02 EST
+Received: via switchmail; Fri,  8 Mar 91 13:14:01 -0500 (EST)
+Received: from aurelia.weh.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q002/QF.4bpxFUK00Vos00SUUe>;
+          Fri,  8 Mar 91 13:13:53 -0500 (EST)
+Received: from aurelia.weh.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr18/dn1l/.Outgoing/QF.wbpxFN200Vos8A4kwF>;
+          Fri,  8 Mar 91 13:13:45 -0500 (EST)
+Received: from Messages.7.8.N.CUILIB.3.45.SNAP.NOT.LINKED.aurelia.weh.andrew.cmu.edu.pmax.3
+          via MS.5.6.aurelia.weh.andrew.cmu.edu.pmax_3;
+          Fri,  8 Mar 91 13:13:44 -0500 (EST)
+Message-Id: <EbpxFMW00Vos8A4kpp@andrew.cmu.edu>
+Date: Fri,  8 Mar 91 13:13:44 -0500 (EST)
+From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: 5x5x5 Cube
+
+I saw a 5x5x5 Cube (Rubik's type) in a friend's office (One of his
+office-mates had it.)(I left a message, but never got a response from
+him.)  I was wondering if anybody out there has seen one of these, and
+could point me in a direction that would lead to one?
+
+
+Thank You!
+
+Dale Newfield
+dn1l@andrew.cmu.edu
+

@@ -1,0 +1,24 @@
+Date:  17 July 1980 17:38 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: the cross design
+To:  ALAN at MIT-MC (Alan Bawden)
+cc:  RP at MIT-MC, CUBE-HACKERS at MIT-MC
+In-Reply-To:  Message of 17 July 1980 16:35 edt from Alan Bawden
+
+There is a wonderful alogorithm for ANY pattern, which constitutes
+an existence proof.  Given that you know how to "solve cubes", you
+can achieve a given
+pattern if it is achievable simply by "solving" to that position,
+which may in fact be faster than some set of arcane transforms.
+Before the "neat" algorithms for the Cruces Plummeri et Christmani
+were discovered, they were achieved by cubemeisters only by
+"solving" to that position, lambda-binding the target state
+(lessee, this guy wants to go here, etc.) to the desired pattern.
+I will burn some neurocomputrons tonight to describe the
+algorithms   for the Crosses.
+
+Incidentallly, if you try to solve for some pattern and come to
+a roadblock of the form "this cant come here because its here"
+(we need two of these cubies ( a local jargon
+for the little cubes)), or a parity/trinity argument, you have
+proven that you can't achieve it.

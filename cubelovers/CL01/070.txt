@@ -1,0 +1,16 @@
+Date: 31 Dec 1980 1651-PST
+From: MERRITT at USC-ISIB
+Subject: Bigger & better cubes
+To: cube-lovers at MIT-MC
+
+
+In light of all the talk of cubes greater than 3 x 3 x 3, such as
+4 x 4 x 4, or 5 x 5 x 5,  perhaps you would like to comtemplate a
+cube that is 3 x 3 x 3 x 3, or 4 x 4 x 4 x 4.  The idea of adding
+dimensions is really reasonable, since it needn't be mechanically
+possible.  This Rubics hypercube could probably be represented by
+a video display in some form.
+
+This is at least a matter for further contemplation.
+					-IHM
+-------

@@ -1,0 +1,71 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Jun  5 15:28:47 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id PAA07399 for <cube-lovers-outbound@curry.epilogue.com>; Wed, 5 Jun 1996 15:28:46 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 05 Jun 1996 10:22:31 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: A essay on the NxNxN Cube : counting positions and solving it
+In-Reply-To: <199606042208.SAA13307@marlboro.edu>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.960605084501.9735A-100000@PSTCC6.PSTCC.CC.TN.US>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+On Tue, 4 Jun 1996, Jim Mahoney wrote:
+
+It's going to take a while to absorb your whole note, but I do have a
+couple of quick comments/questions. 
+
+> Next, I will define any complete set of cubies that can move into each
+> other's position as an "orbit."  (This name is at least suggestive of
+> the group theory notion of a closed sequence of elements.)  For
+> example, the 8 corner cubies on the 3x3x3 Cube form one orbit since
+> any one of those cubies can be put in any of those eight positions.
+> Likewise, the 12 edge cubies on the 3x3x3 form another orbit.
+
+This has been discussed before on Cube-Lovers, but I am still puzzled or
+curious about the usage of the word "orbit".  Your definition is
+consistent with the usage advocated by Martin Schoenert on Cube-Lovers. 
+For example, Martin talked about the corner orbit, the edge orbit, and the
+face center orbit of the 3x3x3.  (I suppose for completeness, we should
+include in this list of orbits the orbit for the invisible center of the
+whole 3x3x3 cube.)
+
+David Singmaster, on the other hand, has always talked about the twelve
+orbits of the constructable group of the 3x3x3, where orbits are defined
+in terms of twists, flips, and parity.  Depending on what you mean by
+"closed sequence of elements", your definition may be consistent with
+Singmaster's usage as well.  That is, Singmaster's orbits are certainly
+closed.  However, Martin says that Singmaster's orbits should be called
+cosets. 
+
+Secondly, if my understanding of your model is correct, you are treating
+positions as distinct which cannot be distinguished with normal coloring
+of a physical cube (even an imaginary physical cube for large N).  The
+issue appears as early as the 4x4x4, and persists for larger values of N. 
+I don't necessarily disagree with your treatment.  Indeed, it makes the
+cube theory tenable.  Otherwise, your model tends to become a coset model
+rather than a group model.  But I wondered if my understanding of your
+model is correct? 
+
+There are several implications of how you treat visibly indistinguishable
+positions.  For example, it impacts your counts of how many positions
+there are.  For another example, it impacts your solutions (e.g.,
+"invisible" incorrect parity on the 4x4x4.  "Invisible" bad parity can
+also occur on the 3x3x3 if you remove the face center color tabs.  A slice
+move will give the edges and corners opposite parity that is not visible.)
+Perhaps you could discuss these issues with respect to your model. 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+

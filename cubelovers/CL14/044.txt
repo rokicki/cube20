@@ -1,0 +1,79 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Sat Jan  7 00:14:01 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03726; Sat, 7 Jan 95 00:14:01 EST
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <124324-5>; Sat, 7 Jan 1995 00:14:52 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA10958; Sat, 7 Jan 95 00:10:54 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1C791B; Fri,  6 Jan 95 23:57:55 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: More cube terms
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.940.5834.0C1C791B@canrem.com>
+Date: Fri, 6 Jan 1995 23:53:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+        Notes on Notation and Terminology for Rubik's Cube
+        --------------------------------------------------
+
+  In the "Handbook of Cubik Math":
+
+    cubicles are in lower case, cubies are in UPPER CASE.
+
+ If we use the 6 letters to describe the 6 faces and the various
+pieces and positions, e.g. UR, UF, UL, UB are the 4 edge pieces
+of the U face and URF, UFL, ULB, UBR are the 4 corner pieces.
+We agree to list the facelets at a corner in clockwise order.
+
+ This gives the following edge & corner cubicles:
+
+uf, ul, ub, ur, rf, fl, lb, br, df, dl, db, dr
+urf, ufl, ulb, ubr, dfr, dlf, dbl, drb
+
+ and the following edge & corner cubies:
+
+UF, UL, UB, UR, RF, FL, LB, BR, DF, DL, DB, DR
+URF, UFL, ULB, UBR, DFR, DLF, DBL, DRB
+
+ By adhering to these conventions we can establish a standard
+notation for cube positions.
+
+The sequence  R2 U3 F1 B3 R2 F3 B1 U3 R2 (9 q+h, 12 q) generates
+a 3-cycle of edges. The cycle representation of this sequence
+would be ( UF, UR, UB ) in ( ur, ub, uf).
+
+Thus cubie UF resides in cubicle ur
+     cubie UR resides in cubicle ub
+     cubie UB resides in cubicle uf
+
+ If we assume that the unreferenced cubies are in proper position
+and orientation we have enough information to completely
+describe a cube in a way which provides more information on it's
+cycle structure.
+
+ If an edge pair is flipped we refer to
+            ( FU, LU ) in ( uf, ul)
+ If a corner triple is twisted clockwise we refer to
+            ( RFU, FLU, LBU ) in ( urf, ufl, ulb )
+
+ Here are a couple more examples:
+
+ The super-flip has a cycle representation of
+
+ ( FU, LU, BU, RU, FR, LF, BL, RB, FD, LD, BD, RD )
+ ( uf, ul, ub, ur, rf, fl, lb, br, df, dl, db, dr )
+
+ The 6 X order 3 has a cycle representation of
+
+ (( FR, FU, UR ) ( BR, FD, LU ) (BU, RD, FL ) ( BD, DL, BL))
+ (( uf, ur, rf ) ( df, ul, br ) (dr, fl, ub ) ( dl, lb, db))
+
+-> Mark <-
+Email: mark.longridge@canrem.com
+
+P.S. I'm not certain if the previously mentioned Rubik Algebra
+     uses something like this, but I am going to add it to my
+     cube program.
+

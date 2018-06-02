@@ -1,0 +1,29 @@
+Date:  3 SEP 1980 2123-EDT
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  New problem
+To: CUBE-HACKERS at MIT-MC
+
+
+This was inspired by Tanya Sienko (if that means anything!!)
+
+It is possible for each of the six faces to have a capital "T" on them.
+That is, each face looks like
+
+	X X X
+
+	O X O
+
+	O X O
+
+QUESTIONS:
+	1) How many classes are there?
+	2) How many members are in each class?
+	3) How easy is it to get to them from solved?
+
+My answers:
+	[in a few days, I don't want to spoil the fun]
+
+Good luck, and happy hacking.
+
+					- DCP
+

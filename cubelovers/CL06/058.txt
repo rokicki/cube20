@@ -1,0 +1,16 @@
+Received: from Xerox.COM (TCP 1200400040) by AI.AI.MIT.EDU  2 Oct 87 10:44:46 EDT
+Received: from Gamay.ms by ArpaGateway.ms ; 02 OCT 87 07:35:05 PDT
+Date: 2 Oct 87 07:35:00 PDT (Friday)
+From: Hoffman.es@Xerox.COM
+Subject: Rubik's Magic article
+To: Cube-Lovers@AI.AI.MIT.EDU
+Message-ID: <871002-073505-5351@Xerox>
+
+The October '87 issue of 'Scientific American' is completely devoted to
+Advanced Computing, so it is probably of interest to many of us.  In
+addition, the 'Amateur Scientist' column in that issue (by Jearle
+Walker, pages 170-173) is all about Rubik's Magic (the original, 8-panel
+version).  It includes tables and diagrams of permutations, and a
+complete solution with pictures.
+
+  -- Rodney Hoffman

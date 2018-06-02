@@ -1,0 +1,24 @@
+Date: 12 Jan 1981 0929-PST
+From: Isaacs at SRI-KL
+Subject: nomenclature
+To:   cube-lovers at MIT-MC
+
+  I gave my father a cube a year ago (for which my mother may never forgive
+me), and he has been working with it ever since. He has developed his own
+notation, based on Angevine:  Basically, take a corner as an X-Y-Z
+co-ordinate system, and call the planes (e.g.) X1, X2, and X3 (where
+x2 is the slice).  L is X1, R is X3, F is Y1, etc.  + is a clockwise
+rotation, looking at the -1 face (thus the X3,Y3, and Z3 faces rotate
+backwards from bfudlr); - is CCW. Half twists are (on a typewriter) +/-
+(he doesn't have a computer terminal).
+     Anyway, his feeling on Singmaster nomenclature (with wich I disagree)
+are as follows:
+   "I do feel that Singmaster's limited cubist vocabulary impairs
+communication of his knowledge and insights.  His general use of only
+six of the nine groups available for rotation is like using only twenty
+of the twenty-six letters in our alphabet.  With an unabridged dictionary 
+and a thesaurus practically anything could still be said, but not as
+well as using the whole alphabet. ... Perhaps mathematicians just don't
+care about communication with ordinary people."
+    My father is a lawyer.
+-------

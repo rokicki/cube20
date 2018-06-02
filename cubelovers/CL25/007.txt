@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 13 16:02:47 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA24990; Fri, 13 Mar 1998 16:02:46 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Mar 12 16:09:47 1998
+Date: Thu, 12 Mar 1998 22:09:22 +0100
+Message-Id: <199803122109.WAA06383@dataway.ch>
+To: Cube-Lovers@ai.mit.edu
+From: Geir Ugelstad <ugelstad@dataway.ch>
+Subject: Rules for speed-cubing
+
+Hello,
+
+What are the exact rules for speed cubeing?
+
+I have seen that in the World-campionship it was legal to look at
+the cube 15 seconds and then put it back on the table.  How long time
+did it take from puting it back on the table (after looking) and the
+real start???
+
+Ys Geir Ugelstad
+

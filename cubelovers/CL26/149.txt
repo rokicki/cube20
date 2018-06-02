@@ -1,0 +1,70 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 12 00:15:29 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id AAA16151
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 12 Mar 1999 00:15:29 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 10 Mar 1999 22:19:21 -0500 (Eastern Standard Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re : Re: Edges only, Ignoring Flips, Face Turn Metric
+In-Reply-To: <199903050409.XAA24597@cauchy.math.brown.edu>
+To: michael reid <reid@math.brown.edu>
+Cc: Cube Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <SIMEON.9903102221.A@GN209A.PSTCC.CC.TN.US>
+
+On Thu, 04 Mar 1999 23:09:00 -0500 michael reid
+<reid@math.brown.edu> wrote:
+
+> jerry writes
+>
+> > I have completed a God's Algorithm run in the face turn metric for the
+> > group consisting of edges only ignoring flips.  The size of the group is
+> > therefore 12!  The results are as follows:
+> [ ... ]
+>
+> very interesting.  i hope that you'll also do the quarter turn metric.
+>
+
+I have completed a run out to 11q (took a long time).
+Regrettably, the diameter proved to be greater than 11q.  I
+now have a run in progress out to 12q.  It's going *very*
+slowly.  The problem I described where my method is
+inefficient calculating the tail of the distribution is
+even worse for the quarter turn metric than for the face
+turn metric for this particular problem.  Also, to
+calculate to 11q or 12q I have to store all the positions
+out to 6q, which I can do.  I don't think I can store out
+to 7q on the computer I have.  Even if I could, a run to
+13q or 14q would be too slow, I think.
+
+I know from parity considerations that the diameter is
+greater than 12q, so in some ways my run to 12q is a fool's
+errand.  That is, there are less than 12!/2 odd positions
+through 11q, so there must be at least a few at 13q.  My
+only hope is that all the even positions will show up by
+the time I get to 12q.  If so, I would know that the rest
+of the odd ones must be at 13q.  Otherwise, I am doomed for
+now.
+
+I have an idea of how to approach the inefficiency in the
+tail.  Since I am calculating ends-with for each position I
+calculate, I know for sure for each position I calculate
+which quarter-turns go further from Start and which go
+closer.  The idea is that once I get to the tail of the
+distribution, I once again begin storing calculated
+positions in memory (those which are at the maximal
+distance which I am able to calculate).  From there, I
+continue further from Start in a more traditional fashion,
+leaping one level at a time rather than many levels at a
+time.  This works because I have knowledge of which quarter
+turns go closer to Start, and hence I don't have to worry
+about comparing against those positions closer to
+Start which I am not able to store.  If I had time to put
+this plan into action, the run time for the tail of the
+distribution should be only a few minutes or a few seconds.
+
+----------------------------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+

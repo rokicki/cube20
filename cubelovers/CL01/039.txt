@@ -1,0 +1,16 @@
+Date:  7 DEC 1980 0108-EST
+From: MJA at MIT-MC (Michael J. Aramini)
+Subject: maximally distant state
+To: CUBE-LOVERS at MIT-MC
+
+well it is possible that to maximally distant states are half twist apart
+also if you count half twists as one twist (i dont, but its
+still worth thinking about) does that change the set of
+maximally distant states?
+
+also it is possible that there exists states for which all directions
+lead closer to home (and twist put the cube in a state closer to home)
+but the state is not necessarily maximally distant (to use
+a continous analogy, think of think of a hill in a funtion of
+two variables, that is not necessarily the maximum value of the
+function)

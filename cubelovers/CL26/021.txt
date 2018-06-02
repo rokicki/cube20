@@ -1,0 +1,145 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov  2 14:41:00 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id OAA00366; Mon, 2 Nov 1998 14:41:00 -0500 (EST)
+Precedence: bulk
+Date: Sat, 31 Oct 1998 23:06:34 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: All the Local Maxima at 12q
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.981031222133.81424A-100000@PSTCC6.PSTCC.CC.TN.US>
+
+I had originally decided not to post all the 12q local maxima because
+there are so many and because not all of them look all that interesting. 
+But I have been looking at them a bit more, and I think it's worth the
+effort.  Some of them will be very familiar and some of them not.  I would
+highlight the following ones. 
+
+#9  is a partial isoglyph  --  four short T's (or four short U's).
+#57 is the well-known four spot.
+#68 is one of the more striking of several pseudo two spots.
+#80 is worthy of some study.  It's the only one where the maximality
+    of the inverse is 11  --  almost but not quite a local maximum.
+#97 along with #98 and #99 are very striking pseudo six spots.  #97
+    and #99 are almost the same pattern, and it took me a while to
+    see how they differ.
+
+In the table below, the right most column gives the maximality of the
+inverse of the pattern, where the maximality is the number of moves which
+go closer to Start.  The maximality of the inverse gives an indication of
+how close the inverse comes to being a local maximum, with 12 indicating a
+local maximum.  (The maximality of the pattern itself is not given, since
+it is 12 by definition.)  The table gives the 103 local maxima of length
+12q which are unique up to symmetry.
+
+   1.  F  F  L  L  F  F  B  B  R  R  B  B    12
+   2.  F  B' U  U  D  D  F' B  R  R  L  L    12
+   3.  F  B  R  R  F' B' U  D  L  L  U' D'   12
+   4.  U' R' L  B  L  B' R  L' D  L' U  D'   12
+   5.  F  B  R  R  L  L  F  B  U  U  D  D    12
+   6.  R  L' F  F  B  B  R  L' F  F  B  B    12
+   7.  F  F  B  B  U  U  D  D  R  R  L  L    12
+   8.  R  L' U' D  F' B  R  R  L  L  U' D    12
+   9.  F  B  U  U  D  D  F' B  R  R  L  L    12
+  10.  U  B' D  F  D' B' D  F' D' B  B  U'   12
+  11.  L  B  B  R  D  D  R' L  B  B  L  L    12
+  12.  U  R' U  L' U' R' U  L  U' R  R  U'   12
+  13.  F  F  U' D  R  R  U  D  D  B  B  D'   12
+  14.  F  B  D  D  F  B' L  L  U  U  F  F    12
+  15.  U  D' F  U  D  R' L' U  D  F  U  D'   12
+  16.  U  U  R  L  F' B' U  D' R  R  L  L    10
+  17.  R  R  U  D  F' B  U' D  F  B' U' D     8
+  18.  U  U  D  D  F  B' R  R  L  L  B  B    12
+  19.  R' L  F' B  U  U  F  F  B  B  U' D'   12
+  20.  U  D' F  F  U' D  R  L  F  B' U' D    12
+  21.  F  B  R' L  D  D  F  B' R' L  U' D    12
+  22.  L  L  U  D' B  B  R  L  U' D  B  B    12
+  23.  F  L  L  F' D  D  F  B' L  L  B  B    12
+  24.  F' R  R  F' U  U  F' B  L  L  B  B    12
+  25.  F  B  U  U  L  L  B  B  L  L  U  U     8
+  26.  U' D' R  L' F  F  B  B  L  L  U' D     4
+  27.  U  D  R  L' F  F  B  B  L  L  U  D'    4
+  28.  F  B' U  U  B  B  L  L  B  B  U  U    12
+  29.  F' B  U  D  L  L  B  B  R  R  U  D    12
+  30.  F' B  U  D  R  R  F  F  L  L  U  D    12
+  31.  F  B' U  U  F  F  R  R  F  F  U  U    12
+  32.  F  B' U  U  L  L  B  B  L  L  U  U    12
+  33.  F  B' U  U  R  R  F  F  R  R  U  U    12
+  34.  L  L  U  D  L  L  F' B  R  L  U  U    10
+  35.  F' R  R  F  U  U  F  B' R  R  B  B    12
+  36.  L  L  F' B  D  D  R  R  F  F  B  B    12
+  37.  L  L  F' B  D  D  F  F  B  B  L  L    12
+  38.  D  D  F' B  U  D' F  F  B  B  U  D'   10
+  39.  F  F  R' L  F  B' U' D  F  F  L  L    12
+  40.  U  R' L  F  U  D' R' L  F  F  B  B     8
+  41.  U  D  R  L  F  B' U  D' R' L  F  F    12
+  42.  U  D  F  F  U' D  R  L  F  B' U' D    12
+  43.  U  D  B  B  U' D  R' L' F  B' U' D    12
+  44.  F  F  R  L' F  B' U  D' F  F  L  L    12
+  45.  U  D  F' B  R  L  U' D  B  B  U' D    12
+  46.  U  D  F' B  R' L' U' D  F  F  U' D    12
+  47.  F  B' D  R' L' U  U  R  L  D  B  B     8
+  48.  B' U' D  R' L  B' U' D  R  R  L  L     6
+  49.  B' U  D' R  L' F  U  D' R  R  L  L     6
+  50.  U  D  F' B' U' D  L  L  F  B' U' D'    8
+  51.  U' F' U' D  F  B' U' D  R  R  L  L     2
+  52.  U' F  F  B  R' L  U' D  F  F  B  B     8
+  53.  D  R  R  L  F' B  U' D  R  R  L  L     2
+  54.  R  U' F' B  R  L' U  D' F  F  U  D'    2
+  55.  L  F  F  B  R  L' F  B' R  R  L  L     2
+  56.  L  F  F  B  U  D' R' L  F  F  B  B     8
+  57.  F  B' U  U  D  D  F  B' R  R  L  L    12
+  58.  F  B' R  L' U' D  F' B' R  L' U' D'   12
+  59.  F  B  R  L  U  D' F  B  R' L' U  D'   12
+  60.  F  B' U  U  D  D  F' B  U  U  D  D    12
+  61.  R  L' U' D  F' B  L  L  U' D  F  F    12
+  62.  R  L  B  B  U  D' R  R  F  B  U  D'   12
+  63.  F  B' U  D' R  L' F  F  B  B  U  D'   12
+  64.  F  B  R  R  L  L  U  D' R' L' U  D'   12
+  65.  F  B' U  D' R  L' B  B  U  D' L  L    12
+  66.  F  F  U' D  R  R  U  D  F  F  U  U    12
+  67.  F  L  L  B  U  U  F' B  L  L  F  F    12
+  68.  B  R  L  F  F  R' L' B  U  U  L  L    12
+  69.  U' F  B' L' U  D' R  L' F  F  B  B     2
+  70.  F  B  R' L' U  D' F' B' R' L' U' D'   12
+  71.  F  B  R  L  U  D' F  B  R' L' U' D'   12
+  72.  U' R  L' U' D  F  B' R  R  L  L  U'   12
+  73.  F' B  R' L  U' D  B  R' L  U' D  D    12
+  74.  U' R' L  F  B' U' D  F  B  B  U' D     6
+  75.  U  R' L  F' B  U  D' B  F  F  U  D'    6
+  76.  F  B  U  D  R' L  F  F  R' L  U' D    12
+  77.  R' L' F' B  R  R  L  L  U  D  B  B    12
+  78.  R  L  F  B' R  R  L  L  U' D' F  F    12
+  79.  F  F  R  R  F' B' U' D' L  L  U  D     8
+  80.  U  U  R' L  F' B' U' D  R  R  L  L    11
+  81.  U  U  D  R  L' B  U  D' R  R  L  L     6
+  82.  U  D  F' B  U' D  F  B' U' D  R  R    12
+  83.  F  B' U  D  R  L' B  B  R  L' U' D    12
+  84.  U  D' F  F  U  D' R' L' F  B' U' D    12
+  85.  B  R  L' D' F  B' U  D' R  R  L  L     2
+  86.  F' R' L  U' F  B' R' L  U  D' B  B    12
+  87.  F' R' L  U' F' B  R' L  U' D  B  B    12
+  88.  R' L  F  B' U  D  R  R  L  L  D  D    12
+  89.  F  B  R  L' F' B  R  L' U  D' F  F    12
+  90.  U' D' R  L' F  F  U  D' R  R  L  L    12
+  91.  F  F  R' L  F' B' U' D' L  L  B  B    10
+  92.  F  U  D  B  B  U' D' F  R  L  U  D'   10
+  93.  R  L  U  D' F  B' R' L' F  B' U' D     8
+  94.  F  B' U' D  L  L  F  B' U' D' F  F    10
+  95.  F  B' U  U  D  D  F  B' R' L' U  D'   10
+  96.  R' L  L  F' B  U  R  L' F  F  B  B     6
+  97.  F  B' U' D  R  L  F' B  U  U  B  B    12
+  98.  F  B  U' D  R' L  F' B  D  D  B  B    12
+  99.  F  B' U' D  R  L  F  B' D  D  F  F    12
+ 100.  U' D  F  B' U  D' F  F  B  B  U  D'   12
+ 101.  U  R  L' F' U  D' R  L' F  F  B  B     8
+ 102.  U  D' R  L' F' B  U  D' F  F  B  B    12
+ 103.  F' B' L  L  U' D  F  B  U' D  R  R     8
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

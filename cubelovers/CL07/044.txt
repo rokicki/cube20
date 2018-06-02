@@ -1,0 +1,38 @@
+From mindcrf!peabody.mindcraft.com!ronnie@decwrl.dec.com  Fri May 10 19:16:47 1991
+Return-Path: <mindcrf!peabody.mindcraft.com!ronnie@decwrl.dec.com>
+Received: from uucp-gw-1.pa.dec.com by life.ai.mit.edu (4.1/AI-4.10) id AA24712; Fri, 10 May 91 19:16:47 EDT
+Received: by uucp-gw-1.pa.dec.com; id AA29291; Fri, 10 May 91 16:16:33 -0700
+Received: by mindcrf.mindcraft.com (AIX  2.1 2/4.03)
+          id AA10398; Mon, 6 May 91 11:02:49 PDT
+Received: by peabody.mindcraft.com (AIX 1.3/4.03)
+          id AA22955; Mon, 6 May 91 11:14:02 -0700
+Date: Mon, 6 May 91 11:14:02 -0700
+From: mindcrf!ronnie@peabody.mindcraft.com (Ronnie Kon)
+Message-Id: <9105061814.AA22955@peabody.mindcraft.com>
+To: @mindcrf.pa.dec.com:decwrl!ai.ai.mit.edu!Cube-Lovers
+Subject: 5by cubes
+
+	As far as I can tell, if you can solve the order 3 and order 4 cube,
+you should be able to solve the order 5 with no additional fiddling, even if
+you only know cookbook solutions.
+
+	Spoiler follows:
+
+	I solve the off-center edges first (just like in the order 4 cube--
+the transformations are identical), then the corners (exactly like all other
+orders, from 2 through 4), then the center edges (exactly like the order 3
+cube, just treat the two edge faces as attached and you have an order 3
+cube).  All that's left are the eight centers.  Four of these can be solved
+exactly as in the order 4, and if you can't generalize your cookbook solution
+to solve the remaining 4 you have no business cubing.
+
+	I suspect this is why there are (and will probably never be) cubes of
+orders greater than 5.  I believe (though have not proved) that the 5 cube 
+contains all the complexity that is possible.  Adding more cubies would only
+increase the amount of time needed to solve.
+
+	On the other hand, I would be willing to pay a fair amount of money for
+an order 21 cube. :-)
+
+				Ronnie
+

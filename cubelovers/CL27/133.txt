@@ -1,0 +1,29 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug  6 18:37:44 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA00506
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 6 Aug 1999 18:37:44 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <37AB5804.6956@sgi.com>
+Date: Fri, 06 Aug 1999 14:47:48 -0700
+From: Derek Bosch <bosch@sgi.com>
+Organization: SGI
+To: Cube-Lovers@ai.mit.edu
+Subject: scrambling puzzle
+
+anyone know the "shortest" sequence of moves to "scramble"
+a cube...  By scramble, my definition is:
+
+all six colors on each face (except for 2x2x2), no 2 adjacent tiles
+of the same color, and no "dominating" color on a face (ie for
+a 3x3x3 cube, no more than 2 of a single color on a face, for
+4x4x4, no more than 3 of a given color on a face).
+
+D
+--
+Derek Bosch        "A little nonsense now and then
+(650) 933-2115      is relished by the wisest men"... W.Wonka
+bosch@sgi.com       
+http://reality.sgi.com/bosch_engr/
+

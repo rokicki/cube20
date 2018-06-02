@@ -1,0 +1,87 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Dec 11 15:45:34 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA10511
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Sat, 11 Dec 1999 15:45:33 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 8 Dec 1999 10:33:39 +0100 (CET)
+From: Christ van Willegen <chwi@email.spcgroup.nl>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Megaminx 2 edge swap
+In-Reply-To: <0.a5c6bfe6.2579acd1@aol.com>
+Message-Id: <Pine.LNX.4.04.9912080842390.26996-100000@email.spcgroup.nl>
+
+On Fri, 3 Dec 1999 HarLikin@aol.com wrote:
+
+[About the two-edge swap on the MegaMinx]
+
+> [Moderator's note: It is impossible to perform an odd permutation of
+>  the edges of the Megaminx, because 5-cycles are even.  This is not
+>  the same situation as with Rubik's cube, where it is possible to
+>  perform an odd permutation of the edges if an odd permutation of the
+>  corners is also performed.  Did they use the same color for more than
+>  one face of the Megaminx?  Is there another way to get fooled? --Dan]
+
+The MegaMinx in Puzzler has only 6 colors. When I contacted the author
+about it, he told me that the one he got only had those 6 colors. When
+I got mine (2 years back), it had 12 colors.
+
+I'm not sure if I've ever run into that problem described above. On second
+thought, I have...
+
+Let me describe what I do to solve a MegaMinx. I hope you can follow what
+I'm saying, because it's hard to describe this... I'll try to make
+some pictures... Ok, I stole one from the alt.ascii-art group:
+
+             _._
+         _,-'/\ '-._
+    _,.-'1  /2 \   3`-.._
+ .'________/____\________'.
+ :'-.  4  /      \  6  ,-':
+ :   '-, /   5    \ ,-'   :
+ :  7   /-.      ,-\   10,:
+ `:    /   '-,.-'   \    :
+  :.  /  8 ,-''-. 9  \  .:
+  `: /  ,-'      '-.  \ :
+ & :/,-'     11     '-.\: %
+   `'-................-''
+
+
+First, I solve one layer. This includes the pieces 1, 2, 3 and 5 on the
+5 layers adjeacent to the top. Then, I put in the edge pieces 4 and 6.
+Next, I put in the corner pieces 7 and 10. All of these can be done
+using standard 3x3x3 moves :-)
+
+Putting in 8 and 9 requires a trick. You have to rotate the layers
+indicated by & and % so that the pieces 8 and 9 can be reached from the
+'bottom' layer. Then, use standard 3x3x3 moves to swing the edge pieces
+from the bottom layer to pieces 8 and 9. I always find this process to
+take the longest (you need to put in 10 edges. Because of Murphy's law,
+the edge pieces you need are probably in the 'same' positions in other
+layers, so you need to take them out before you can put them in. Long
+work, indeed).
+
+Next, put in the corner piece 11.
+
+Now, the upper half of the MegaMinx is solved.
+
+Next, put in the edge pieces on the second-to-last layer (easy work),
+and we're down to the last layer.
+
+First, I put the edge pieces in the correct _position_. Sometimes, I need
+two edges to be swapped. The formula I have excahnges three edges, so I
+mess around with it until I have them all in the correct position.
+
+Then, I align edges, position corners (using a three-corner exchange
+formula), and align corners. The last two steps usually impose no
+problems.
+
+Unfortunately, my notes with Megaminx formulas is at home (we found
+them back yesterday..), so I can't look up any formulas.
+
+If people are interested in the formulas I use, or in the way I solve
+it, let me know and I'll look up my notes.
+
+Christ van Willegen
+

@@ -1,0 +1,34 @@
+From cube-lovers-errors@oolong.camellia.org  Wed Jun 25 18:29:12 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id SAA09246; Wed, 25 Jun 1997 18:29:12 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Wed, 25 Jun 1997 23:28:16 BST
+From: David Singmaster Computing & Maths South Bank Univ <david.singmaster@sbu.ac.uk>
+To: cube-lovers@ai.mit.edu
+Message-ID: <009B6547.EBD77100.328@vax.sbu.ac.uk>
+Subject: 4^3 and 5^3
+
+	I've just seen a comment about the 5^3 saying the writer had problems
+with the four pieces at distance 1 from the center.  My approach treated
+both these and the pieces ate distance 2 from the center in the same way.
+We know that the commutator of two slice moves on the 3^3 produces two
+3-cycles of the centres.  Applying this idea to the 4^3, we find that
+[f,r] gives two 3-cycles of central pieces, one on each face.  By turning
+one face and then inverting, we get a 3-cycle of central pieces, two being
+in one face.  E.g.  [[r,b],U] = (Fur,Ubr,Ubl).  A similar result holds if
+we combine any two inner moves, so we can replace the  b  above by a central
+slice on the 5^3 to obtain a 3-cycle of the pieces at distance 1 from the
+central piece, while the process directly gives us a 3-cycle of the pieces at
+distance 2 from the central piece.  Although tedious, these moves mean that
+once one has the corners and edges in place, the rest of the problem is
+easy - though very tedious - it generally took me about an hour to do the
+5^3, assuming I could get the corners and edges correct without making too
+many mistakes.
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+
+

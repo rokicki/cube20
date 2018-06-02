@@ -1,0 +1,42 @@
+MJA@MIT-AI 08/29/80 21:45:41 Re: Knowledge-based Rubik's Cube solver?
+To: cube-hackers at MIT-MC
+Please excuse the previous badly munged versions of this message i accidently
+sent.
+
+	I am taking an artificial intelligence course at the University of
+Illinois at Urbana-Champaign and I need to do a term project for the
+course that involves developing and/or using a knowledge based system.
+Since I am interested in the Rubik's cube and since it seems like
+there are human expert cube solvers (as is evident from msgs on this mailing
+list) that use heuristic knowledge (for example the various macro's (as I like
+to call them, they are more properly called composite elements of the
+group, i guess) that people have come up with to do some particular operations
+on the cube), it seems natural to me that a knowledge based system would
+be just right for this task. I would like to hear:
+
+	(1) Pros/cons on why this can/can't be done and how effective
+such a system would be.
+
+	(2) Considering that I have but one semester to work on this project
+(while concurently taking 5 courses, incl. this AI course) is it reasonable to
+attempt this for a term project? (The actual system would not have to be
+100% complete at the end of the term, but I would at least like to have
+something to show for a semester's worth of work.)
+
+	(3) If this is too ambitious for a term project for a course, what
+about the use of this as a topic for a master's thesis. (I would have until
+the summer of '81 to finish since thats how long my company will wait for me
+to get a master's degree if im going to continue working for them.)
+
+	(4) Of course in addition to all of the above trivia, I would like
+some ideas for such a system (even if it isnt feasable to do in this limited
+amount for time, im still interested in at least thinking about such a system
+with the idea in mind that someday it can be implemented).
+
+	I dont know how interested the majority of the people on this mailing
+list are in knowledge based systems, so we might consider a seperate mailing
+list for knowledge based cube solvers to spare those on the current mailing
+list from mail they dont want.
+
+		/ MJA
+

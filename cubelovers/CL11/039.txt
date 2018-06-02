@@ -1,0 +1,93 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Thu Dec 16 17:11:29 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21529; Thu, 16 Dec 93 17:11:29 EST
+Message-Id: <9312162211.AA21529@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 5892; Thu, 16 Dec 93 15:39:39 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 5420; Thu, 16 Dec 1993 15:39:38 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 7331; Thu, 16 Dec 1993 15:37:04 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Thu, 16 Dec 1993 15:36:58 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Duality of Operators and Operatees
+
+I have mentioned several times my discomfort about "an operator"
+as opposed to "the thing being operated on" when it comes to
+groups.  I am never quite sure just which of the two it is
+that people are talking about, even (or especially) when I am listening
+to myself talk.  There is clearly an essential duality between the
+two, but I am not sure I have quite a strong enough group theory
+background to fully understand it.  I am very comfortable when the
+operators form a group, but I am not very comfortable when the things
+being operated on form a group.
+
+I am presently rereading (hopefully VERY SLOWLY
+AND VERY CAREFULLY) Dan Hoey and Jim Saxe's seminal paper from
+December 1980 entitled Symmetry and Local Maxima.  Here is a quote
+from their paper.
+
+   We will sometimes (particularly towards the end of this message)
+   take the liberty of identifying a transformation with the position
+   reached by applying that transformation to SOLVED.
+
+Well, I am beginning to think that the source of my discomfiture
+is simply that everybody does the same thing all the time, and that
+nobody ever makes the identification explicit.  However, I think that
+maybe the duality is there, whether the identification is explicit,
+implicit, or not made at all.  Let me see if I can make clear what I
+mean with some non-cubing programming examples.
+
+When I first started computer cubing, I was struck by the fact that
+(at least with my model of the cube), the computer code to implement
+a permutation operation looked exactly like the computer code to
+translate between various character codes.  For example, I have had
+frequent occasion to translate between ASCII and EBCDIC (in both
+directions).  The code to translate between the ASCII string X and
+the EBCDIC string Y is something like
+
+    for i = 1 to n Y(i) = T(X(i))
+
+where T is the translate table.  To make this clear by an example,
+the ASCII code for the letter A is  decimal 33 and the EBCDIC code
+for the letter A is decimal 193.  Hence, the 33-rd position of T
+contains decimal 193, and the 193-rd position of T' contains 33.
+
+Beyond this simple little loop above, many (if not most) programming
+languages have a function (often called TRANSLATE or TRANSFORM) which
+does exactly the same thing.  There are also hardware architectures
+which implement the TRANSLATE in hardware.  For example, you might
+have something like
+
+   Y = TRANSLATE(X,T)
+
+where X is the string to be translated and T is the translate table.
+
+X and T are clearly not interchangeable as input to the TRANSLATE
+function.  However, (and repeating myself) I think there is an
+essential duality between X and T.  For example, consider what
+would happen if you reversed the role of X and T as follows.  Let X
+be the hexadecimal string 010201020301020403.  Then,
+Y = TRANSLATE(X,' ABC') would yield the string ' A AB ACB'.  Such
+a role reversal for the "permutation operator" and "permutation operatee"
+can be a very powerful programming technique.  For example, I have
+used it to redistribute data, creating well-formatted print lines or
+well-formatted display screens (text mode) with one fell swoop (with
+only a single invocation of the TRANSLATE function).
+
+I am going to continue reading, but perhaps I could pose a question to
+Dan Hoey anyway:  is reversing the role of X and T in the TRANSLATE
+function above essentially the same thing as switching between
+pre-multiplication and post-multiplication?
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

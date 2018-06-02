@@ -1,0 +1,45 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Jun  4 14:07:52 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA04174 for <cube-lovers-outbound@curry.epilogue.com>; Tue, 4 Jun 1996 14:07:51 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Tue, 4 Jun 1996 08:35:17 -0400 (EDT)
+From: Nicholas Bodley <nbodley@sunspot.tiac.net>
+To: Wei-Hwa Huang <whuang@cco.caltech.edu>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Fragile parts in 4^3
+In-Reply-To: <4op242$5mh@gap.cco.caltech.edu>
+Message-Id: <Pine.SUN.3.91.960604083008.2537A-100000@sunspot.tiac.net>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+On 1 Jun 1996, Wei-Hwa Huang wrote:
+
+{Mostly snipped}
+
+> As another aside, I don't understand the rationale behind the canonical
+> 4x4x4 design.  It would seem to me that it's better to have two rings of
+> grooves in each dimension, so that the face pieces could have "fatter"
+> legs and not break off as easily.
+> 
+> Wei-Hwa Huang, whuang@cco.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+
+  It probably isn't necessary for the legs to be so thin; the mechanical 
+engineer probably had optimistic estimates of the likely forces and the 
+strength of the particular polymer used. The latter isn't, by any means, 
+cheap stuff.
+
+ Wider legs might still meet the constraints that ensure the Cube not fall 
+apart.
+
+ (Sorry for a slow reply.)
+
+Regards to all,
+
+NB Nicholas Bodley Autodidact & Polymath |*| Keep smiling! It makes |
+      Waltham, Mass.   Electronic Technician  |*|   people wonder what   |
+     nbodley@tiac.net    Amateur musician     |*|  you have been up to.  |
+-------------------------------------------------------------------------*
+
+
+

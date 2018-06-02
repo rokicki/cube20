@@ -1,0 +1,60 @@
+From: mark longridge <cubeman@idirect.com>
+Subject: Re: Rubik lawyers up in arms over website -- Digest v23 #279]
+Message-Id: <34E7D27D.6083@idirect.com>
+
+> From: "Philip Knudsen" <philipknudsen@hotmail.com>
+
+> ...Don't know about the 4x4x4 copyright, but it's pretty well known
+> Rubik did not design the actual mechanism for it. Ideal just used
+> his name to market the puzzle.
+
+Probably (I'm not totally certain) it was Udo Krell, an inventor whose
+design was used by Uwe Meffert to make the 5x5x5.
+
+Norman Diamond  <diamond@jrdv04.enet.dec-j.co.jp> wrote:
+> ...
+> It is true that none of their mechanism is involved.
+> Therefore I believe their patent doesn't apply.  That is,
+> if they actually still have a pattent, after Ishige and
+> some American who preceded all of them (whose name I've
+> forgotten) ...  but wait, it's been more than 20 years
+> (or 17 in the US), so ALL their patents have expired....
+
+What about Karl Hornell's Java Applet "Rubik Unbound"?? It's
+all over the internet on hundreds of sites including my
+own!!
+
+I don't think the name Rubik itself can expire since that
+is his name... so the name of the product is always
+"Rubik's Cube"... ummmm right? :-)
+
+[Moderator's note: _Patents_ expire.  _Trademarks_ don't necessarily
+ expire.  _Names_ are not protected by law. ]
+
+Alan Bawden <Alan@LCS.MIT.EDU> wrote:
+> ...  The request that you remove Rubik's name from your
+> site is the kind of petty stupidity we're seeing all to often these days,
+> and is probably pretty mundane to the cyberlawyers at EFF, but the notion
+> that they can torpedo your software if it merely duplicates the user
+> interface (the "look-and-feel") of their physical puzzle might be something
+> genuinely new.  Heck, do these guys claim that they own the underlying
+> mathematical group?
+
+I don't think you can prevent people from making java applets and the
+like of cubes... but I think they (the lawyers that be) can protect
+Rubik's name. I don't think anyone can say "Don't show a rubik's
+cube-like construction on your web page".
+
+The other guy who history has forgotten was Larry Nichols who made
+a 2x2x2 cube called twizzle which routinely came apart and was
+rejected by Ideal Toy!
+
+I'd restore the 3x3x3 java applet if it was my web page.
+
+- -> Mark <-
+
+------------------------------
+
+End of Cube-Lovers Digest
+*************************
+

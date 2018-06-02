@@ -1,0 +1,15 @@
+Date: 17 Feb 1981 1445-PST (Tuesday)
+From: Mike at UCLA-SECURITY (Michael Urban)
+Subject: Rubik's Sphere
+To: cube-lovers at mit-mc
+
+   While it shouldn't be TOO hard to program an arbitrarily-fine
+simulation of a Rubik sphere, one wonders how it's colored.
+do the latitute/longitude coordinates on the sphere correspond
+to hue/intensity?  While you can settle for any coordinate 
+labelling of points, different coloring schemes will dictate
+what constitutes a "pretty" pattern, yes?
+
+	Mike
+-------
+

@@ -1,0 +1,31 @@
+From myrberger@e.kth.se  Fri Apr 16 13:08:19 1993
+Return-Path: <myrberger@e.kth.se>
+Received: from elmer.e.kth.se by life.ai.mit.edu (4.1/AI-4.10) id AA09441; Fri, 16 Apr 93 13:08:19 EDT
+Received: by e.kth.se (MX V3.2) id 31997; Fri, 16 Apr 1993 19:08:18 +0200
+Date: Fri, 16 Apr 1993 19:07:26 +0100
+From: myrberger@e.kth.se
+To: Cube-Lovers@ai.mit.edu
+Message-Id: <0096B212.D5231500.31997@e.kth.se>
+Subject: 3x3x3 puzzles and other lists?
+
+Hi,
+
+I have recently found this mailing list and have just finished reading
+through the earlier postings.
+
+Perhaps this don't really belong to this list, but I have a list of
+different puzzles that in their final state is a 3x3x3 cube. Among them are,
+of course, Rubik's cube. The Soma cube and related puzzles are also there.
+
+If you'd like a copy of the list, please MAIL me.
+
+I also wonder if you know about other mailing lists or such which deals with
+puzzles (preferrable mechanical). (I know about USENET/NEWS group rec.puzzles.)
+
+Thanks
+
+Johan
+
+MAIL: myrberger@e.kth.se
+
+

@@ -1,0 +1,22 @@
+Date: 16 Feb 1982 0931-PST
+From: ISAACS at SRI-KL
+Subject: MAGIC OCTAHEDRON
+To: CUBE-LOVERS at MIT-MC
+
+  The Magic Octahedron (Octahedron Cube?) is out.  A friend got one for me
+over the weekend.  Each face is 9 triangles; it works sort of like two
+tetrahedrons base to base, except each tetra is really a 4-sided pyramid.
+The solution is not too hard, and not too different from the tetrahedron.
+Like the tetra, the corner and next-to-corner pieces don't travel-they
+only twist.  The remaining edges are isomorphic to the edges of a cube.
+In fact, if you corner-center a Cubes coloring (ie each face has 4 colors,
+each corner has one; see the Scientific American article), and then peel 
+off the labels from the corners, you have an exact isomorphism of the
+Octahedron.
+   By the way, this version twists around the corners, using the same
+type mechanism as the original Cube (I think).  It should be possible to 
+use the mechanism of the Tetrahedron (with its 4 axes of rotation) to 
+build an Octahetron whose faces twist.  Any mechanical engineers out there
+to do so?
+   --- Stan
+-------

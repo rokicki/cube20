@@ -1,0 +1,142 @@
+From reid@math.berkeley.edu  Sun Jun 21 13:11:03 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA17637; Sun, 21 Jun 92 13:11:03 EDT
+Received: from phnom-penh.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA08266; Sun, 21 Jun 92 10:11:00 PDT
+Date: Sun, 21 Jun 92 10:11:00 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9206211711.AA08266@math.berkeley.edu>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re:  reminiscences
+
+another call for reminiscences ...
+
+) From: sjfc!ggww@cci632.cci.com (Gerry Wildenberg)
+) 
+) Please remove me from the mailing list.
+
+yeah, remember back in those days when people were actually asking to
+be ADDED to the mailing list?
+
+:-)
+
+btw, administrivia should be sent to "cube-lovers-request@ai.mit.edu".
+thank you for your cooperation.                   ^^^^^^^
+
+>From: wft@math.canterbury.ac.nz (Bill Taylor)
+
+> This eightfold way is just a commutator of a face move and (a commutator of
+> two face moves)); so it turns out to be group-theoretically natural, as
+> commutators do "as little as possible".
+
+here's the way i describe this.  if  sigma  is a permutation on  n  symbols,
+(say  1, 2, 3, ... , n), define the  "support" of  sigma  to be those
+integers which are NOT fixed by  sigma.  if  tau  is another permutation
+on the same set, such that   supp(sigma)  and  supp(tau)  are disjoint,
+then  sigma  and  tau  commute (i.e. the commutator is the identity).
+if  supp(sigma) intersect supp(tau)  has just one element, then the
+commutator is a three-cycle.  as a rule of thumb, the smaller the
+intersection of the supports, the smaller the support of the commutator.
+in bill's example, ( R~ U L U~ R U L~ U~ ) the two permutations are
+"R"  and  "U L U~", which only affect one corner in common.  (actually,
+to consider the cube as a permutation group, each corner is really
+3 objects, one for each orientation.)  but the analogy works well.
+this idea is also helpful for creating three-cycles of corner-edge pairs
+as well.  on the 5x5x5 cube, you can make three-cycles of large blocks.
+in fact, a larger cube is probably a better visual aid for understanding/
+explaining this concept.  another good commutator to try is with the
+two sequences  "B1 D2 B3"  and  "R1 U2 R3", which affect two corners
+in common.  (this is a fairly well-known maneuver.)
+
+>         "I couldn't remember how to do it, but my fingers could !!", he said.
+>          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~
+> This was my experience too, a few years ago. It's quite uncanny, like 
+> starting to ride a bike again after decades of not doing; only more so.
+
+i've also experienced the exact same thing.  it seems as though my hands
+remember a short sequence by which i've just conjugated some maneuver,
+which helps at the end of the conjugation.  also in these commutators,
+after i've done  A  and working on  B, it feels as though my hands are
+anxious to undo  A, almost as if the cube is spring loaded and will just
+snap back.
+
+[lame story about a friend pulling some hoax deleted]
+
+actually, i think i FINALLY understand the story.  the idea is that not
+only is "brent" going to solve the cube behind his back, but he's also
+going to do it WITHOUT first looking at it.  actually, the story isn't
+nearly as lame as i first thought, after realizing this.
+
+when i visited mit in 1984(?), i saw joe killian do the real trick.
+i certainly would have complained if i hadn't been allowed to scramble
+the cube exactly as i wished.  in fact, i may have even insisted that
+he use MY cube (not too sure, though), just to be certain that the
+surface hasn't been textured in any way.  it was quite impressive.
+about 5 minutes of studying, then behind the back without peeking.
+he said that all it took was a good system of remembering where all
+the pieces are.  but i don't know what his system was.
+
+by the way, bill, this "brent" wouldn't happen to be your friend who can
+do the cube in 0.87 seconds, would he?  :-)
+
+and speaking of tall tales, let's see if anyone can top this one:
+back in the days when i was into speed, er, speed CUBING, i'd solve
+the cube maybe 200 times every day.  for some reason, i got into the
+habit of scrambling it behind my back (probably from listening to too
+many complaints like "you're just watching all the moves you're doing!"
+yeah, such a good complaint deserves such a fine solution.)  well,
+anyway, one time i stopped scrambling it, and as usual, i get 15
+second to study it (standard racing rules).  however, much to my
+surprise, the cube was quite UNscrambled!  how could this possibly be?
+
+well, the only explanation is certainly that after scrambling the cube
+thousands of times, my hands began to get into a rhythm (maybe even a rut).
+they'd just do the same sequence over and over again.  depending upon
+my concentraion level, i'd find that sometimes i needed to make a
+conscious effort to vary the sequence.  in fact, at least once i got
+a pattern that i'd previously seen: it was 4 dots with 6 corners twisted
+(hence has order 6).  so it's not too implausible.
+
+like bill, and unlike dik, i spent quite some time struggling with
+the cube before i finally solved it; probably about 6 or 7 weeks.
+in fact for some time, probably about 2 weeks, i was convinced that
+it couldn't be done, except by very dumb luck (as in story above).
+of course, in those days, i hadn't heard of cube-lovers, hadn't even
+seen a computer, didn't know the furst-hopcroft-luks algorithm, hadn't
+even heard of anyone who could solve it ...  but i was just a high school
+freshman (age 14) at the time.  i didn't even know what a group was!
+this was shortly before the big craze started here in the u.s. (late 1980).
+at school, some friends and i talked about it, but the main questions were:
+how was it made, and how many combinations did it REALLY have?  i was truly
+convinced that trying to solve it would be futile.  there was also a
+shortage of them at the time, so i didn't get one until xmas.  in fact,
+i remember the tv commercial that ideal put out.  they didn't even make
+it clear that it actually turned in all possible directions!  we had all
+sorts of ridiculous diagrams and ideas of cables and magnets, but none of
+them quite worked.  and how could it turn in all directions?  i heard of a
+bookstore somewhere that had one on display (but were otherwise sold out),
+so i went to see it.  i remember spending a few minutes twisting it to
+find an axis that wouldn't turn!  in fact, i could keep turning the same
+face in the same direction, around and around and around ... and the
+cables inside never got caught!
+
+sometimes i'm amazed at just how stupid i can be when i try ...
+
+anyway, the story about how i finally figured out how to solve it isn't
+nearly as interesting.  after i first heard about people that could do it,
+i started to work on it more seriously.  the key ideas were: get all
+the corners, (here was something that you could do, and then still do
+more without destroying what's already done.  but this was hard and
+usually took more dumb luck and/or persistence.)  then two opposite layers.
+(again, the middle slice still can turn, even with half turns on the
+sides F, B, R, L.)  it took several days to flip the last two edges on
+the middle layer.  (i just kept picking a different pair of opposite
+layers to solve and stumbled across a U layer monoflip in the process.
+of course, it took months before i realized what was actually happening.)
+also figuring out how to take it apart (and finally seeing how it was made)
+was helpful, 'cause then i could experiment easily.
+
+well, i've droned on long enough.  anyone else got any interesting stories?
+
+mike
+

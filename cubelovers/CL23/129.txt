@@ -1,0 +1,35 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 20 14:23:23 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA12867; Wed, 20 Aug 1997 14:23:22 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Goyra@iol.ie Wed Aug 20 12:36:22 1997
+Message-Id: <Resent.199708201632.RAA08938@mail.iol.ie>
+From: "David Byrden" <Goyra@iol.ie>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: 5x5x5 Solution
+Date: Wed, 20 Aug 1997 17:28:52 +0100
+
+> From: Corey Folkerts <CFolkerts@compuserve.com>
+
+
+>         I recently got my hands on a 5x5x5 from Dr. Christoph Bandelow,
+> however, I'm am at an almost complete loss as to how to solve it. 
+
+	I just extended the technique that had worked for me on the 
+smaller cubes.
+
+	Solve the corners, then solve the inner edges, then eventually
+the faces in the interior of the sides. By choosing these 5 subsets
+of the faces, which of course do not exchange faces with each other, 
+you break the cube into a sequence of 5 smaller problems. Working 
+inwards from the outermost faces is best because you can easily find 
+operators (combinations of moves) that affect the inner faces in some 
+way but preserve the outer ones that you have already solved.
+
+						David
+
+[ Moderator's note-- The previous copy of this message had bad headers.
+  Sorry.  --Dan]
+

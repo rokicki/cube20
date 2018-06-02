@@ -1,0 +1,62 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Oct 14 16:44:45 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA02393
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 14 Oct 1999 16:44:45 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v0151011cb4130e683570@[207.229.148.152]>
+Date: Sat, 25 Sep 1999 17:45:54 -0600
+To: cube-lovers@ai.mit.edu
+From: slapdash@enteract.com (Russ Perry Jr)
+Subject: Rubik-like puzzles I've never seen before...
+
+[I was referred to this list by someone who read a post I made in the
+rec.puzzles newsgroup; I'm not a member of the list, but have some
+questions about puzzles I've run across on eBay recently that I'm
+curious of their origin.  I thought maybe you'd post my questions
+on the list.  Please direct followups to my email address.]
+
+I check out eBay regularly for Rubik's Cube type puzzles I don't have...
+Recently I've come across a few I've never seen before -- does anybody
+know where they came from?  Or better yet, where I might find them
+cheaply, as the prices on eBay seem to be way up there...
+
+1) The Gem/Diamond.  This is an octahedron, but each face is one solid
+piece, and it appears to turn in half, turning four triangulars on the
+square plan between halves.
+
+2) ??.  This is a 14-sided puzzle, with 8 triangles and 6 squares.  Two
+opposite triangles make the "centers" (in 3x3x3 terms), around which
+three squares and three triangles turn.  I don't know if ALL triangles
+act as centers...  It can be left "unshaped" similar to Square-1, only
+not so jarringly.
+
+3) Siamese Cube.  This was an old hack in the 80s, with two normal cubes
+sharing a row of two corners and an edge, but these look professionally
+made, and are made out of the new OddzOn cubes apparently.  They come
+with a display case.
+
+4) "Triple" Cube.  This is similar to the Siamese Cube, only there are
+three cubes connected, and unlike the Siames Cube, each new cube rises
+a level -- a row of one corner and an edge are aligned with the next
+cube's edge and the other corner (ie one is bottom corner and edge,
+joining the other cube's edge and top corner).  This also comes with
+a display case.
+
+The mechanism for the Gem is likely just a 2x2x2 cube mechanism, but the
+pieces?  The 14-sider looks ALL new, though with 8 centers, maybe it's
+some kind of octahedron shape variation?
+
+With the Siamese and Triple cubes you could just have a few different
+pieces swapping out the originals -- is someone just making the new
+pieces?
+
+Are these homemade, prototypes, original puzzles by pirate manufacturers?
+Does anybody know?
+
+//*================================================================++
+||  Russ Perry Jr   2175 S Tonne Dr #105   Arlington Hts IL 60005  ||
+||  847-952-9729    slapdash@enteract.com    VIDEOGAME COLLECTOR!  ||
+++================================================================*//
+

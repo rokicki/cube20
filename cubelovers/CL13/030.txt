@@ -1,0 +1,83 @@
+From mschoene@math.rwth-aachen.de  Fri Oct 28 17:54:41 1994
+Return-Path: <mschoene@math.rwth-aachen.de>
+Received: from samson.math.rwth-aachen.de by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22088; Fri, 28 Oct 94 17:54:41 EDT
+Received: from hobbes.math.rwth-aachen.de by samson.math.rwth-aachen.de with smtp
+	(Smail3.1.28.1 #11) id m0r0ycG-000MPgC; Fri, 28 Oct 94 22:13 MET
+Received: by hobbes.math.rwth-aachen.de (Smail3.1.28.1 #19)
+	id m0r0ycB-0000PrC; Fri, 28 Oct 94 22:13 PST
+Message-Id: <m0r0ycB-0000PrC@hobbes.math.rwth-aachen.de>
+Date: Fri, 28 Oct 94 22:13 PST
+From: Martin.Schoenert@math.rwth-aachen.de
+To: cube-lovers@life.ai.mit.edu
+In-Reply-To: Mark Longridge's message of Thu, 27 Oct 1994 21:56:00 -0400 <60.825.5834.0C1B76FC@canrem.com>
+Subject: Re: Shift Invariant Part 2
+
+Mark Longridge writes in his e-mail message of 1994/01/27
+
+    ...or (U1 R1)^35 ? And indeed, (U1 R1)^(35 * 40) is shift invariant.
+
+Mark  kindly points out, that my process (UR)^140 for the ``odd'' element
+is a strange choice, given that (UR)^140 = (UR)^35.
+
+I can't recall how I arrived at this process.  Somehow I simply missed
+that (UR)^140 = (UR)^35, which is especially strange since I know that
+(UR) has order 105 since 1982.
+
+Mark continues
+
+    Equivalent to (U1 R1)^35= (R1 U1)^35 & Shift Invariant
+    UR11 = U2 R1 U1 R1 U1 R3 U1 R3 U1 R3 U2 R1 U1 R1 U1 R3 U1 R3 U1 R3
+           (22 q  or  20 h  moves)
+
+Is UR11 the shortest process effecting the ``odd'' element in <U,R>?
+
+Mark continues
+
+    Is this odd due to ( U1 R1 )^35?
+    Actually everything about the above description appears even.
+    It is an even number of quarter turns...
+
+The ``odd'' element o has odd order as element of the cube group,
+i.e., o^3 = id.  All other shift invariant elements e have even order,
+i.e., either e^2 = id or e^4 = id (for some ``abelian'' elements).
+
+Mark continues
+
+    I actually did use GAP on the < U, R > group but I couldn't resolve
+    the resulting position (can GAP use letters? I should have used
+    letters).
+
+I assume you wonder whether GAP can find a process for a given element.
+In fact GAP can do this (you define a homomorphism from the free group
+on U,D,L,R,F,B to the cube group and then ask for a preimage of the
+element).  But the process is usually extremly long, e.g., for
+the ``central'' element GAP finds a process that has length > 2*10^6
+(don't try this at home ;-).
+
+There is an improved algorithm by Philip Osterlund, which is a lot
+better, but still not good enough to help in the quest for god's
+algorithm.  For example it finds a process for the ``central''
+element of length 228.
+
+Mark continues
+
+    Martin, you will be pleased to hear that I like GAP,
+    but I need a bigger hard drive for that beast!
+
+Look at it this way:
+The system costs you $200, and you even get a hard drive for free!
+
+Seriously, you don't need the full distribution (32 MByte),
+but only the executable and the library (5 MByte).
+However, you should have enough real memory;
+8 Mbyte is the minimum, 16 MByte is better,
+and the 64 MByte that I have in my workstation don't hurt.
+
+Have a nice day.
+
+Martin.
+
+-- .- .-. - .. -.  .-.. --- ...- . ...  .- -. -. .. -.- .-
+Martin Sch"onert,   Martin.Schoenert@Math.RWTH-Aachen.DE,   +49 241 804551
+Lehrstuhl D f"ur Mathematik, Templergraben 64, RWTH, 52056 Aachen, Germany
+

@@ -1,0 +1,150 @@
+From mouse@collatz.mcrcim.mcgill.edu  Tue Jan  4 13:48:23 1994
+Return-Path: <mouse@collatz.mcrcim.mcgill.edu>
+Received: from Collatz.McRCIM.McGill.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01572; Tue, 4 Jan 94 13:48:23 EST
+Received: from localhost (root@localhost) by 12863 on Collatz.McRCIM.McGill.EDU (8.6.4 Mouse 1.0) id NAA12863 for cube-lovers@ai.mit.edu; Tue, 4 Jan 1994 13:48:03 -0500
+Date: Tue, 4 Jan 1994 13:48:03 -0500
+From: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Message-Id: <199401041848.NAA12863@Collatz.McRCIM.McGill.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: Re:  Which is the Real Start?
+
+> The net is so wonderful about answering questions, here are a few
+> more:
+
+I am hardly more than a dilettante of the Cube, but I can perhaps offer
+a few suggestions, since this seems to me to be largely psychology and
+3-D geometry rather than Cube group theory.
+
+> 1. Take a standard 3x3x3 Rubik's cube, and remove the corner and
+>    center labels to make an Edges Cube.  [...]  Scramble the cube.
+>    Give it to a cubemeister to solve.  How will the cubemeister know
+>    if the cube is solved?  In other words, how will the cubemeister
+>    distinguish Start from Pons Asinorum?
+
+>    One answer is that the cubemeister cannot.  [...]  Another answer
+>    is that either one is Start -- that there are two Starts.
+
+Obviously, it is correct to state that without some a priori knowledge
+of the cube's coloring, the cubemeister cannot tell.  As for whether
+you call them both Start:
+
+>    However, if you like this answer, and if you identify the identity
+>    with Start, you are in the disquieting situation of having a group
+>    with two distinct identities (grin!).
+
+Not at all.  All you have to do is consider the group elements to be
+equivalence classes under not only whole-cube rotation but also
+reflection.
+
+If you take a(n ordinary) cube and rotate the whole thing a
+quarter-turn, the result is not essentially different from the
+original - most programs and virtually all humans would consider them
+"the same".  Taking the stand that Start and P.A. are the same on the
+Edge Cube means only that on the Edge Cube you consider a single group
+element to consist of not only a position and all those reachable by
+whole-cube rotations, but also those reachable by reflections as well.
+The group-theoretic identity is then neither Start nor Pons Asinorum,
+but rather the equivalence class containing both those (and 46 other
+elements).
+
+> 2. [...]  Just what is the 2x2x2 cube?  Or more correctly, how do you
+>    know when it is solved?
+
+When you have achieved any of the 24 elements of the class that we lump
+together as Start.
+
+>    With any size of cube, if you restrict yourself to quarter-turns,
+>    by definition you cannot rotate the cube in space as a single
+>    operation.
+
+I'd argue the 1x1x1 breaks this statement :-)
+
+What's more, it's not clear what "quarter-turn" includes: it usually
+doesn't include slice turns on the 3-Cube, but on the 4-Cube and
+higher, they must of necessity be included.
+
+>    Yet, a simple quarter-turn sequence such as RL' does rotate the
+>    2x2x2 cube because it is faceless.  Is Start of the 2x2x2 operated
+>    on by RL' solved?
+
+Yes, I would say so.  I would hope most people would.
+
+>    If so, you can argue that the 2x2x2 has 24 Starts.  Most people
+>    would not.  They would argue that there is only one Start, and
+>    that 2x2x2 cubes that differed only by a rotation are equivalent.
+
+Right.  I would say that RL' produces a cube that is precisely as
+solved as that produced by RR' is - that on the 2x2x2, R and L are in
+some sense the same thing.  My position would be that there is only one
+Start on the 2-Cube, and it is an equivalence class with 24 members.
+
+> 3. Combining #1 and #2, I *think* that most people would argue that
+>    Start and Pons Asinorum on the Edge Cube are not equivalent, but
+>    that simple rotations of the 2x2x2 are equivalent.  If I am
+>    correct about "most people", why?
+
+I would say that Start and Pons Asinorum on the Edge Cube can be looked
+at as mathematically equivalent (though they need not be, if you
+choose) but are not intuitively equivalent.  Physical objects generally
+cannot be turned into reflected versions of themselves; they normally
+*can* be turned into rotated versions of themselves.  Thus, rotations
+"feel" equivalent, but reflections don't.
+
+> 4. [...]  Since Start and Pons Asinorum differ only by a simple
+>    reflection, why had not my version of M-conjugation declared them
+>    to be equivalent?
+
+I'm too lazy to answer this; I no longer have the messages describing
+exactly what your M-conjugation operation is online.  Presumably, you
+implemented some intuitively-reasonable operation, and it produced
+identical results for rotations but not reflections.
+
+> 5. What is a reflection, really?
+
+Ouch. Mathematically, this is easy enough: given a center of reflection
+P in Cartesian 3-space, one computes the reflection of a point p as
+P+(P-p).  All the things one thinks of as reflections can be
+represented as this operation compounded with rotation and/or
+translation.
+
+>    Here is an exercise to illustrate the question.  Take two
+>    identically colored and oriented 3x3x3 cubes.  On one, perform F
+>    and on the other perform F'.  Examine the two cubes, plus their
+>    images in a mirror.  Why are there four distinct cubes rather than
+>    only two?
+
+There are certainly four cubes - or at least four cube images.  For
+there to be only two distinct cubes, one would have to identify some of
+them with one another.  However, the only operations (on the cube as a
+whole) that will allow identifying two of them are (1) reflection and
+(2) recoloring.  If your mathematical treatment considers reflections
+or recolorings to be equivalent, then mathematically, there are only
+two distinct cubes.  Neither of these operations "feels" trivial,
+though, so the four cubes all "feel" distinct.
+
+>    At this point, I can't help but note Martin Gardner's famous
+>    mirror question in Scientific American many years ago:  why does a
+>    mirror reverse left and right but not up and down?
+
+(rot13 for those who would rather think about this for a while.)
+
+Nf abgrq va jungrire vg jnf V ernq gung dhrfgvba va, vg qbrfa'g - vg
+erirefrf sebag-gb-onpx (jurer "sebag" naq "onpx" ner qrsvarq va grezf
+bs gur fhesnpr qbvat gur ersyrpgvat).  Jul guvf *nccrnef* gb nzbhag gb
+erirefvat yrsg naq evtug vf n zber vagrerfgvat dhrfgvba, naq vg nzbhagf
+gb nfxvat jung xvaqf bs fcngvny bcrengvbaf jr cresbez jvgubhg abgvpvat
+(pbafvqrevat gurz abbcf).  Va gur pnfr bs n ersyrpgvba bs n crefba, gur
+bcrengvba jr'er cresbezvat jvgubhg abgvpvat vf gung bs znccvat
+crefba-vzntr bagb frys-vzntr ol ebgngvba, fb nf gb (1) znc urnq bagb
+urnq naq srrg bagb srrg naq (2) znc obql-sebag gb obql-sebag naq
+obql-onpx gb obql-onpx.  Ersyrpgvba, pbzcbhaqrq jvgu guvf ebgngvba,
+*qbrf* erirefr yrsg-gb-evtug.
+
+> 6. [...]
+
+I'm not qualified to comment.
+
+					der Mouse
+
+			    mouse@collatz.mcrcim.mcgill.edu
+

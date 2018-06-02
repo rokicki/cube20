@@ -1,0 +1,42 @@
+Received: from po2.andrew.cmu.edu (TCP 20000574551) by AI.AI.MIT.EDU 22 Oct 87 19:12:50 EDT
+Received: by po2.andrew.cmu.edu (5.54/3.15) id <AA02678> for Cube-Lovers@ai.ai.mit.edu; Thu, 22 Oct 87 19:08:33 EDT
+Received: via switchmail; Thu, 22 Oct 87 19:08:30 -0400 (EDT)
+Received: FROM holmes.itc.cmu.edu VIA qmail
+          ID </cmu/common/mailqs/q004/QF.holmes.itc.cmu.edu.217e8e53.234c>;
+          Thu, 22 Oct 87 19:01:42 -0400 (EDT)
+Received: FROM holmes.itc.cmu.edu VIA qmail
+          ID </cmu/itc/dt/.Outgoing/QF.holmes.itc.cmu.edu.217e8e3b.613405>;
+          Thu, 22 Oct 87 19:01:16 -0400 (EDT)
+Received: from Messages.4.54.CUILIB.3.33.SNAP.NOT.LINKED.holmes.itc.cmu.edu.ibm032
+          via MS.3.50.holmes.itc.cmu.edu.ibm032;
+          Thu, 22 Oct 87 19:01:12 -0400 (EDT)
+Message-Id: <wVTcssy00UkZB080Uy@andrew.cmu.edu>
+Date: Thu, 22 Oct 87 19:01:12 -0400 (EDT)
+From: dt+@andrew.cmu.edu (David Tilbrook)
+To: ap1a+@andrew.cmu.edu (Andrew Balen Philips), Cube-Lovers@ai.ai.mit.edu
+Subject: Re: More Expensive Cubes
+In-Reply-To: <kVTYcPy00Uo1gws0=j@andrew.cmu.edu>
+
+The cubes to which you refer were manufactured in Korea.
+
+I purchased three or four in Toronto at a Korean trade show about six years
+ago,
+and still have them in perfect working order.
+
+Sorry I can't give you anymore information than that,
+other than to say that they are trully amazing in that they
+have lasted extremely well and require absolutely no maintenance.
+
+The red's a little hard to distinguish from the orange
+in the wrong light but that is the only problem.
+
+While we are on the subject, does anyone know where to acquire
+a 5x5x5?  There was a source in London two years ago but they ran out
+and haven't been seen since.
+
+Also I'd like to acquire the globe
+on which the equator, greenwich and 90' meridians rotate.
+
+david tilbrook
+
+

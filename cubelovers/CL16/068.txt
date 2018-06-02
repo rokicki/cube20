@@ -1,0 +1,213 @@
+From BRYAN@wvnvm.wvnet.edu  Sat Aug 12 20:32:51 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10662; Sat, 12 Aug 95 20:32:51 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 1373; Sat, 12 Aug 95 20:09:29 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 6935; Sat, 12 Aug 1995 20:09:29 -0400
+Message-Id: <wvmail32.1995aug12.200305.bryan@wvnvm.wvnet.edu>
+Date:      Sat, 12 Aug 1995 20:09:28 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   More on Polya-Burnside
+
+Dan Hoey was the first to write concerning the Polya-Burnside theorem
+(he used it in has calculation of the real size of cube space),
+and Martin Schoenert recently posted a proof of the theorem.
+I would like to add some additional comments.
+
+First, I quote from Martin:
+
+> If $g \in G$, then I denote the set of elements that are really
+> equivalent to $g$ by $g^M$.  Jerry denotes this set by {m'gm},
+> but $g^M$ is the more common notation in group theory.
+
+I have just copied the {m'gm} notation from others on this list.
+I haven't searched the archives to see when it first appeared.
+In fact, what I really say is {m'Xm}.  A few points:
+
+    1) {m'Xm} is a shorthand for {m'Xm | m in M}, where X is assumed
+       to be a fixed but arbitrary element of G.
+
+    2) m' is used rather than Martin's preferred m^(-1) as a concession
+       to the difficulties of using mathematical notation in E-mail.
+       Again I haven't searched the archives, but this convention seems to
+       go back to the earliest days of Cube-Lovers.
+
+    3) X is used rather than g throughout Cube-Lovers, I think due
+       to Singmaster.  Singmaster uses upper case letters for processes
+       and lower case letters for the cycles of cubies.
+       Hence, we have such things as X=URB'L or Y=RL'UD', etc.  For
+       most purposes, we simply identify processes such as X and Y
+       with the permutation which is effected by the respective
+       process, and there is no loss of generality from such
+       identification.  I interpret g in G as being a permutation
+       directly, without regard to which process might
+       effect the permutation.  But again, for most purposes there
+       is no loss of generality in identifying the X's with the g's.
+
+But let's go along with Martin for a moment and write {m'gm}.
+We normally interpret this as {m'gm | m in M}, but we could
+just as well interpret it as {m'gm | g in G}.  This new interpretation
+simply yields G, but in a different order.  To say "in a different
+order" is a bit of a corruption because sets don't have order. But
+it's useful to think about the "different order" anyway.
+
+M-conjugation for a fixed m in M can be viewed as a permutation on
+the set of quarter turns Q.  (See for example Hoey and Saxe's
+_Symmetry and Local Maxima_).  But it can also be viewed as a
+permutation on G itself.  So for each of the forty-eight m in M,
+M-conjugation is a different permutation on G.  This will shortly prove
+to be very useful.
+
+What if we interpret {m'gm} as {m'gm | m in M and g in G}?
+Again, this is a bit of a corruption, because "m in M and g in G"
+will list each element of G forty-eight times, and Set Theory 101
+says each element of a set is listed only once.  But
+let's ignore that difficulty and picture "m in M and g in G"
+as creating a matrix with forty-eight columns indexed by M and
+|G| rows indexed by G.  Each column is a different permutation
+on G.
+
+Now we detour a minute and note that this matrix contains
+|G|*|M| cells.  Given that, how big is G?  Well, it is (|G|*|M|)/|M|.
+This may seem tautological, but not quite.  That is, I am not
+asking how many rows in a 7 by 3 matrix.  Rather, I am asking
+how many rows in a matrix if the matrix has 21 cells and 3 columns.
+Trivial though it may be, we have to perform the division to determine
+the answer.
+
+I am reminded of an old joke.  A mathematician is asked how many
+legs a horse has.  The mathematician observes that the horse has
+two front legs, two back legs, two left legs, and two right legs
+for a total of eight.  But this procedure counts each leg twice,
+so the mathematician divides by two to obtain the correct answer.
+
+Many counting formulas work in a similar fashion.  They overstate
+the correct number, and then adjust by dividing out or subtracting
+out the excess.  In this manner, the number of cells in the
+|G|*|M| matrix overstates the size of G by forty-eight, so we must divide
+by forty-eight to get the true size of G.
+
+The Polya-Burnside theorem has to do with counting conjugacy classes.
+Martin's proof does not mention the word "matrix", but it effectively
+creates a binary matrix with dimension |G|*|M| where each
+cell contains the Boolean value (g == m'gm).  In other words, the cell
+contains a 1 if g=m'gm and 0 otherwise.  Martin's proof shows that the
+number of M-conjugacy classes is the number of 1's divided by forty-eight.
+
+In his note about the real size of cube space,
+Dan mentions a book called *Geometry and Symmetry* by Paul Yale.
+Yale's book includes a Polya-Burnside proof similar to Martin's.
+In an example accompanying his proof, Yale shows a matrix where the
+cells are either blank or contain a check mark.  Yale counts the
+check marks, and Martin counts the 1's.  Martin's approach has the
+advantage that you can count 1's simply by summing them.
+
+To me, the key point in both proofs is the observation that
+you get the same answer whether you count the 1's or checkmarks
+by row, or whether you count them by column.  This observation
+manifests itself in Martin's proof as follows:
+
+> Thus the number of M-conjugacy classes is
+> $1/|M| \sum_{g \in G} \sum_{m \in M} {(g^m == g)}$.
+>
+> Now we can simply change the order of the two summations, so we get
+> $1/|M| \sum_{m \in M} \sum_{g \in G} {(g^m == g)}$.
+
+(When I read this last sentence in Martin's proof, the thought that
+came to mind was "He transposed the matrix!", even though there is
+no matrix there explicitly.)
+
+The essence of Polya-Burnside is that summing by row gives us the
+answer we desire (namely the number of M-conjugacy classes),
+but summing by column is the calculation which is possible in
+practice.  And serendipitously, both sums give us the same answer.
+
+Let us consider each sum in turn.  (Actually, the matrix I am
+describing is transposed compared to the one in Yale's book, but
+we will continue with |G| rows and |M| columns for the purposes
+of this note.)
+
+Martin's proof gives a good explanation why summing by row gives us
+the answer we desire.  Let me give a slightly different (but I think
+equivalent) explanation.
+
+Suppose |{m'Xm}|=48.  This is the case where Symm(X)=I, so that the
+position is "completely asymmetric".  The row indexed by X will
+contain a single 1 and forty-seven 0's.  The single 1 will appear
+in the column indexed by the identity in M.  The other forty-seven
+elements of {m'Xm} will similarly appear in a row containing only
+a single 1.  Hence, the number of 1's in these forty-eight rows
+will be 48*1, and the number of M-conjugacy classes represented by
+these forty-eight rows will be (48*1)/48.  The number of 1's has
+overstated the number of conjugacy classes by exactly 48.
+
+Now suppose |{m'Xm}|=24.  We have |Symm(X)|=2.  The row indexed
+by X will contain two 1's and forty-six zeros.  Similarly, the
+rows indexed by the other twenty-three elements of {m'Xm} will
+also contain two 1's and forty-six 0's.  The number of 1's in these
+twenty-four rows will be 24*2, and the number of M-conjugacy classes
+represented by these twenty-four rows will be (24*2)/48.  Again,
+the number of 1's has overstated the number of conjugacy classes
+by exactly 48.
+
+The pattern should be clear.  If |{m'Xm}|=16, we will have
+(16*3)/48 M-conjugacy classes scattered over three rows.
+If |{m'Xm}|=12, we will have (12*4)/48 M-conjugacy classes scattered
+over four rows.  Etc.  In all cases, summing the 1's
+overstates the number of M-conjugacy classes by exactly forty-eight,
+so in all cases we must divide by forty-eight to compensate.
+It is therefore clear that to calculate the total number of
+conjugacy classes, we simply sum the entire binary matrix and divide
+by forty-eight.  It doesn't really matter whether we sum by rows,
+sum by columns, some in some other order, or sum in no order at
+all.
+
+Polya-Burnside essentially says that we can sum by columns.  The
+forty-eight column sums are the number of elements of G which
+are fixed by conjugation by the respective elements of M.  Polya-
+Burnside is usually stated something like "the number of conjugacy
+classes is equal to the average of the number of fixed points  ....",
+where there is sufficient language to make sure that the fixed
+points in question are the points in G fixed by conjugation by M.
+In the matrix at hand, we form the forty-eight column sums,
+add them up, and divide by forty-eight.
+
+If that is not an average (adding up forty-eight numbers and dividing
+by forty-eight), then I don't know what is.  But I confess this does
+not look and feel like an averaging problem to me.  Rather, it looks
+and feels like a horse's legs problem where we are overstating the
+answer and dividing out the excess.  It feels more comfortable to me
+just to add up the entire binary matrix without regard to rows and
+columns and then to divide by forty-eight, but that is not the way
+Polya-Burnside works.
+
+Forming the forty-eight column sums is no small problem.  Martin's
+little GAP program accomplished this task using the Centralizer function.
+Unless my E-mail system has lost it, we are still awaiting a description
+of GAP's algorithm for calculating the Centralizer.
+
+Dan's method was a "by hand" calculation of the column sums.  He
+determined the number of elements of G fixed by m based on an
+argument concerning the cycle structure of elements of G.
+Dan took one very nice shortcut.  There really is no need to
+calculate all forty-eight column sums.  A number of the elements
+of M are themselves M-conjugate and there are ten conjugacy classes,
+so Dan only had to calculate ten column sums.
+
+One of the ten calculations really wasn't necessary.  The column
+indexed by the identity in M contains |G| 1's, so we have
+one of the ten required column sums without further ado.  This column
+alone shows that the number of M-conjugacy classes is at least
+|G|/|M| = |G|/48.  As it turns out, this is very close to the
+true value.  The other forty-seven columns of the matrix are extremely
+sparse, so relatively speaking, there are not many more
+conjugacy classes than |G|/48.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

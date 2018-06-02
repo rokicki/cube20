@@ -1,0 +1,57 @@
+Date: 13 Jul 1981 11:33 PDT
+From: McKeeman at PARC-MAXC
+Subject: Missing Link
+To: Dan Hoey at CMU-10A
+cc: Cube-Lovers at MIT-MC, Ramshaw
+
+Have you seen the Missing Link?  ["By the people who brought you Rubik's
+Cube"; oh well, if they say so]  It is a cylindrical 15-puzzle, and about as hard
+to solve.  Here are some notes on it.
+
+The actual puzzle is a square tower of height four.  When solved, the puzzle
+has the appearance of linked chains.  It has 15 square pieces leaving one hole
+through which you can peek to see the innards of the puzzle.  The hole can
+move up or down by sliding the piece next to it down or up.  The top and
+bottom slices rotate about the vertical axis which permits the hole to move to
+different columns.  A rough idea of the pattern is:
+
+			|~|n|  can rotate
+edge-on view	|n|X|
+			|X|X|
+			|u|u|  can rotate
+
+
+I use two transformations, r and R to do things with it.  If you look at an edge of
+the puzzle with the hole showing, there is a little cycle and a big cycle as noted
+below.  Both leave the back unchanged.
+
+transformation	from:		to:
+      name
+
+	r		|::|1|     	|::|2|
+			|7|2|  =>	|1|7| 
+			|6|3|     	|6|3|
+			|5|4|     	|5|4|
+
+	R		|::|1|     	|1|2|
+			|7|2| =>	|::|3| 
+			|6|3|     	|7|4|
+			|5|4|     	|6|5|
+
+The move set is:
+U move the hole up
+D move the hole down
+T twist the top clockwise 90 degrees
+B twist the bottom clockwise 90 degrees
+
+for convenience, /T = TTT = T inverse, etc.
+
+r = D TU/T D /TUT
+RR = /TDT DD /BUB U TU/T DD BD/B U
+
+Actually, I can "feel" my way to a solution easier than I can figure my way to
+one.  It feels very much like the 15 puzzle.
+
+
+
+

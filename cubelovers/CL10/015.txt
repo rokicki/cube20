@@ -1,0 +1,81 @@
+From hoey@aic.nrl.navy.mil  Thu Jul 29 08:36:32 1993
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20298; Thu, 29 Jul 93 08:36:32 EDT
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA08504; Thu, 29 Jul 93 08:36:14 EDT
+Date: Thu, 29 Jul 93 08:36:14 EDT
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9307291236.AA08504@Sun0.AIC.NRL.Navy.Mil>
+To: Cube-Lovers@life.ai.mit.edu
+Cc: Dik.Winter@cwi.nl, ronnie@cisco.com (Ronnie B. Kon)
+Subject: Re:  Hint wanted for 4x4x4
+Newsgroups: ml.cube-lovers
+In-Reply-To: <9307290017.AA08740.dik@boring.cwi.nl>
+Organization: Navy Center for Applied Research in AI
+Cc: 
+
+ronnie@cisco.com (Ronnie B. Kon) asks for hints for exchanging a pair
+of edges:
+
+> > I tend to solve using commutators, but I don't see a way here....
+
+The key is that commutators are always odd permutations.  So do the
+move that is an odd permutation of the edges, then use commutators.
+
+Dik.Winter@cwi.nl (dik t. winter) shows a neat way of moving most of
+the cubies affected by the odd permutation into the top slice, where
+they can be cycled using Ronnie's commutator, which cycles the 
+TB(R), TR(F), and TF(L) cubies:
+
+> > 		. . 0 .
+> > 		. . . .
+> > 		. . . 0
+> > 		. 0 . .
+
+(I'm naming them by their edge and their near side.)  I suspect Ronnie
+is using something like (F Ti F') T (F Ti' F) T (F Ti F') T^2 (F Ti' F).
+(For this I'm using "i" to mark inside slabs).  
+
+But you can cycle the FL(T), FR(T), RB(T) cubies directly, using a
+different commutator.  With more effort, there is a commutator that
+doesn't mess up face centers.  We are getting to the part where it's
+hard to distinguish between the hintable and the obvious, but if
+people send me email about not being able to figure out what
+commutators I'm talking about I'll answer, and post them if such
+nobility is common.
+
+>My solution for the 4x4x4 always was: first corners, next edges and finally
+>centers.  Because there are many identical pieces for the centers those are
+>reasonably simple.  It would be much more difficult if each center had its
+>own place.
+
+As I mentioned years ago, I've made places for mine by cutting corners
+of to clusters of face centers and their neighboring edges on each
+face.
+
+    +----+----+----+----+
+    |    |    |    |    |
+    |    |    |    |    |
+    +----+---( )---+----+
+    |    |    |    |    |
+    |    |    |    |    |
+    +---( )---+----+----+
+    |    |    |    |    |
+    |    |    |    |    |
+    +----+----+----+----+
+    |    |    |    |    |
+    |    |    |    |    |
+    +----+----+----+----+
+
+It's not that hard to fix the face centers, just time-consuming.  It's
+a good thing we do the edges first, though, or it would be hard to
+figure where the cuts go.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+( So much discussion on this quiescent list will probably flush out
+  someone who wants to unsubscribe.  Remember to send your note to 
+                cube-lovers-request@ai.ai.mit.edu
+  to avoid annoyance.)
+

@@ -1,0 +1,25 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 28 16:38:38 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA23374
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 28 Sep 1999 16:38:37 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <003401bf062e$e93218e0$df8cf3cd@compone>
+From: "Steve Adler" <adler@xnet.com>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: Meffert's new puzzles
+Date: Thu, 23 Sep 1999 20:48:33 -0500
+
+I received an email from Meffert about new Puzzles :
+(he mentions doing a version of a 4x4x4)
+
+"Other puzzles that I will be making for Xmas are the Siamese Twin assembly
+cube, Pyraminx Diamond, (8 sides, Skewb mechanism)  The Star of David
+(Pyramorphix mechanism) and a Dodecahedron with each face being divided into
+4 segments, (Skewb mechanism).
+
+All new Puzzles will feature a molded tile finish."
+
+WOW.....GREAT NEWS!!
+

@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Jun  8 17:22:07 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA29939
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 8 Jun 1999 17:22:07 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <001201beb186$4ef27880$0401a8c0@sanyi.android.com>
+Reply-To: "Michaletzky_Sandor" <michas@androsoft.com>
+From: michas@androsoft.com (michas@androsoft.com)
+To: <cube-lovers@ai.mit.edu>, "Wei-Hwa Huang" <whuang@ugcs.caltech.edu>
+Subject: Re: Standard file format for Rubik's Cube is just about ready
+Date: Tue, 8 Jun 1999 10:10:01 +0200
+
+Hi, Friends!
+
+The original color schema is (designed by Erno Rubik, and it is written in
+Rubik's: The Magic Cube book also): blue is opposite to green, white is
+opposite to yellow and red is opposite to orange. The differerence between
+each opposite colour-pair is yellow: blue + yellow = green, red + yellow =
+orange and white + yellow = (guess it! :-).  If blue is on the top and red
+is in front of you, yellow is on the right side.
+
+

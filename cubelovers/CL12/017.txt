@@ -1,0 +1,35 @@
+From iavlang@cs.vu.nl  Tue Apr 19 09:32:59 1994
+Return-Path: <iavlang@cs.vu.nl>
+Received: from top.cs.vu.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14894; Tue, 19 Apr 94 09:32:59 EDT
+Received: from iavlang.cs.vu.nl by top.cs.vu.nl id aa25902;
+          19 Apr 94 10:10 MET DST
+X-Sender: iavlang@top.cs.vu.nl
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+X-Organisation: Vrije Universiteit Amsterdam
+X-Department:   Faculteit der Wiskunde en Informatica
+X-Address:      De Boelelaan 1081a, 1081 HV Amsterdam, The Netherlands
+X-Telephone:    +31-20-5485572
+X-Fax:          +31-20-6427705
+Date: Tue, 19 Apr 1994 10:10:25 +0200
+To: cube-lovers@ai.mit.edu
+From: Izak van Langevelde <iavlang@cs.vu.nl>
+Subject: Cubism for Fun
+Message-Id:  <9404191010.aa25902@top.cs.vu.nl>
+
+In the archive of this mailing list I found the following:
+>CFF is a newsletter published by the Nederlandse Kubus Club NKC (Dutch
+>Cubists Club).  It appears a bit irregular, but a few times a year.
+>Yearly membership fee is now NLG 25.- (Dutch Guilders) which amounts to
+>approximately $ 15.-.  Institutional membership is also possible.
+>Information is available from the editor Gerald Maurice
+
+Unfortunaty, the abovementioned editor didn't respond to my email.
+Does anyone know whether CFF still exists? Who is the current editor?
+
+                                                        Thanks,
+                                                        Izak van Langevelde
+
+
+
+

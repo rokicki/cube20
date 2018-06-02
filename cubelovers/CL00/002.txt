@@ -1,0 +1,29 @@
+Date: 15 JUL 1980 1413-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+To: CUBE-HACKERS at MIT-MC
+
+Since we have this mailing list I am tempted to put on record an
+interesting property of the cube that some of you might not be aware
+of:
+
+The cube has a degree of freedom that is rarely considered.  The six
+center faces which are the pivots about which rotations are performed
+do not always return to their original orentation.  In other words, if
+you were to paint little arrows on the center square of each face of a
+solved cube, randomized the cube, and then solved it, you might well
+find that the arrows no longer pointed in the same directions as they
+did before.  (Now you have to get them back.  And you thought you had
+already solved the damn thing!)
+
+This extended cube problem has been solved independently twice to my
+knowledge (not by me, I cheated and learned someone else's solution).
+The property was first shown to me by Spencer Love.  Does anybody know
+if anybody else ever discovered it independently?
+
+Without considering this property we already knew that there were
+43252003274489856000 = (8! * 3^8 * 12! * 2^12)/12 different
+rearrangements of the cube (all those numbers are obvious except the
+12 in the denominator).  Considering this property raises that number
+to 88580102706155225088000 = (8! * 3^8 * 12! * 2^12 * 4^6)/24 (the 24
+being just as hard to explain as the 12 was).
+

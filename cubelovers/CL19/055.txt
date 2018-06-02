@@ -1,0 +1,44 @@
+From nichael@sover.net  Wed May  1 23:23:03 1996
+Return-Path: <nichael@sover.net>
+Received: from maple.sover.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27030; Wed, 1 May 96 23:23:03 EDT
+Received: from [204.71.18.82] (st32.bratt.sover.net [204.71.18.82]) by maple.sover.net (8.7.4/8.7.3) with SMTP id XAA00577; Wed, 1 May 1996 23:22:57 -0400 (EDT)
+Message-Id: <v02120d0dadadd60569d5@[204.71.18.82]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 1 May 1996 23:24:16 -0400
+To: DNewfield@virginia.edu, cube-lovers@ai.mit.edu
+From: nichael@sover.net (Nichael Lynn Cramer)
+Subject: Re: building a Rubik's Revenge
+
+At 9:39 PM 5/1/96, Dale Newfield wrote:
+>I know that I have at least some of the parts from at least one broken
+>Rubik's Revenge lying around somewhere.  I would suspect that I am not
+>alone.  I was wondering if we could satisfy a small portion of the people
+>that do not have such a beast merely by pooling our resources, and
+>building whole puzzles out of the remains of old ones?  So--I'll check to
+>see what I can find, and anyone that likewise has RR carcasses that they
+>wouldn't mind donating to such a purpose, mail me.  Let's see what we can
+>pull off!
+
+An excellent suggestion.
+
+For those who aren't aware of the problem that Dale mentions, the issue is
+that --unlike the odd-order cubes that have a central piece which can be
+used to anchor its neighbors-- the structural integrity of the RR depends
+on a central (internal) plate held in place by a screw whose adjustment is
+quite critical.  Of the four RRs that I own, one is very good.  Of the
+others, two are so tight as to be almost impossible to turn.  The fourth is
+so loose that it simply cannot be made to stay together (I discovered this
+for the first time as I was sitting in a movie theater playing with my new
+toy; as the lights lowered for the movie to start I felt the sickening
+sensation of a cube slowly dissolving in my hands...).
+
+The last time I saw it, it was in a sack in a drawer in my other office.
+I'll be glad to contribute that one.
+
+Nichael Cramer
+work: ncramer@bbn.com
+http://www.sover.net/~nichael
+
+
+

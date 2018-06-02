@@ -1,0 +1,43 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Nov 11 20:07:56 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id UAA24028; Tue, 11 Nov 1997 20:07:56 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From tim@mail.htp.net Tue Nov 11 00:07:26 1997
+From: tim@mail.htp.net (Tim Mirabile)
+To: cube lovers <cube-lovers@ai.mit.edu>
+Subject: Re: Megaminx, the 10-spot and GAP
+Date: Tue, 11 Nov 1997 05:06:29 GMT
+Organization: http://www.webcom.com/timm/
+Message-Id: <3467e58b.881450@mail.htp.net>
+References: <34668899.248A@idirect.com>
+In-Reply-To: <34668899.248A@idirect.com>
+
+On Sun, 09 Nov 1997 23:07:53 -0500, Mark Longridge <cubeman@idirect.com> wrote:
+
+>First of all, the STANDARD colour arrangement used by Ideal Toy is as
+>follows:
+>
+>UP      = White
+>DOWN    = Blue
+>FRONT   = Yellow
+>BACK    = Green
+>LEFT    = Red
+>RIGHT   = Orange
+>...
+
+I remember having one if the early Ideal cubes (at least I think it
+was), and green was opposite blue.
+
+Recently I bought one of those "odds-on" cubes, and within a week I
+wore the plastic coating off the faces, so I decided to peel all the
+stickers off and paint it using model paint.  I decided to keep the
+most similar colors opposite each other (blue-green, red-orange,
+yellow-white).  I find this arrangement makes things easier when
+cubing under dim lighting. :)
+
+--
+Long Island chess -> http://www.webcom.com/timm/     TimM on ICC and A-FICS
+The opinions of my employers are not necessarily mine and vice versa.
+

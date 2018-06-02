@@ -1,0 +1,48 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 15 12:13:33 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA14336
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 15 Dec 1998 12:13:32 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 15 Dec 1998 11:35:13 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Derek Bosch <bosch@sgi.com>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: re-assembling a 2x2x2?
+In-Reply-To: <3675637C.6231@sgi.com>
+Message-Id: <Pine.BSF.3.96.981215112038.5993D-100000@shell2.tiac.net>
+
+
+ I've pulled mine apart a *few* times. Imho, it's probably impossible to
+reassemble without some forcing. If it were made of cheap plastic, I
+very much doubt that it could be assembled. Study the structure, so
+you won't try to assemble it wrong; you probably wouldn't make such a
+mistake, though. Hope you didn't lose any pieces! (Be *sure* to match
+colors properly before assembling; of course, you know that, too.)
+
+ My hopeful guess is that you'll succeed, but be rather amazed by the
+force it takes, and also that the plastic can take such stress. I have
+seen 2^3s on sale fairly recently, btw, so there has been a stock of
+them, possibly a new production run.
+
+ I've been a mechanical tech. at times for several decades, so I'm
+reasonably sure of what I say. I've pulled apart many movable-part
+puzzles, and the 2^3 is surely the most intractable of all I've dealt
+with.  Alexanders' Star and the 4^3 have some parts that are easy to
+break.
+
+ I'd love to know how it's done at the factory. I hope it's not some
+subtle ultrasonic welding. (Maybe someone could ask Dr. Christoph
+Bandelow, Dr. Uwe Meffert, or (Dr.?*) David Singmaster.)
+
+*Sorry if I forget!
+
+Best regards, and good luck!
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*  The personal computer industry will have become
+|*  Amateur musician  *|*  mature when crashes become unacceptable.
+--------------------------------------------------------------------------
+

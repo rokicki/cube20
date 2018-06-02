@@ -1,0 +1,146 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Jun  1 01:40:03 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id BAA08874 for <cube-lovers-outbound@curry.epilogue.com>; Sat, 1 Jun 1996 01:40:01 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sat, 1 Jun 1996 00:34:50 -0400 (EDT)
+From: Nicholas Bodley <nbodley@sunspot.tiac.net>
+To: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Cc: cube-lovers@ai.mit.edu
+Subject: Locking mechanism for a 7^3 or larger (some thoughts) (fairly long)
+In-Reply-To: <199605301923.PAA18428@Collatz.McRCIM.McGill.EDU>
+Message-Id: <Pine.SUN.3.91.960531220337.2474E-100000@sunspot.tiac.net>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ Some years ago, I think I remember reading (in Douglas Hofstadter's 
+second (?) "major" book, as I think of them) that someone had designed a 
+mechanism for a 7^3. When I started this message, I thought I'd offer a 
+description of such a mechanism to the members of this list, but then 
+realized that the problem is even harder than I thought. I hope these 
+thoughts are not a waste of bitspace; let me know if so!
+
+ Evidently, the design Hofstadter (probably) alluded to is not generally 
+known to this List's members. Perhaps he could enlighten us.
+
+ Also, one wonders whether Erno Rubik has contemplated the mechanical 
+design for a 7^3.
+
+ Edge cubies could be retained by schemes such as are now used, but only
+until they are moved out "into midair"; then they have one or two rubbing
+surfaces completely exposed, so to speak. The mechanism for retaining them
+is probably closely related to that for retaining corner cubies when out
+of alignment. Once the scheme for retaining corners is worked out, then a
+minor variant might be what's needed for the edges. (Or possibly 
+conversely...)
+
+ (Ideally, one would not want to prohibit an inner slice from being 
+rotated all by itself; less-clever locking schemes might require that 
+no more than one plane in the whole Cube be sheared at once.)
+
+ For a first try, the corners would be retained by three locking pins to 
+hold them in alignment with their neighbors. However, the problem is to 
+retract one of the three pins before shearing an outside layer with 
+respect to its neighbor. Until the pin is retracted, you can't shear the 
+layer by much! Furthermore, that surface has to be locked once more when 
+the corner is realigned, and this must happen automatically, reliably, 
+and quickly. IMHO, it takes someone like Mr. Rubik to invent such a 
+mechanism, and it might be one of the most difficult to invent yet.
+
+ In the next few paragraphs, I get into speculative electronic/mechanical 
+engineering, but try not to presume specialized knowledge any more than 
+necessary.
+
+ If one allows an electronic/mechanical scheme, cost balloons, and one has
+the disgusting thought of a battery to power things. Sliding contacts to
+distribute power from one central battery are bound to be unreliable
+unless carefully maintained; they would be a pain. 
+
+ They also would constitute an interesting problem in their own right: Can
+power be distributed without short circuits caused 1) by intermediate
+physical relative positions, and 2) by any possible configuration of a
+Cube? Keep in mind that two paths for current are needed, and they must
+never intersect. This is an interesting problem in topology, if I'm
+thinking correctly. A related problem is to ask whether every cubie could
+always have power connected to it. 
+
+ The thought of a small battery inside each corner and each edge cubie 
+(or every other one) is even more painful. 
+
+ But, if there were power inside, here's what could be done. The locking
+pins would have a certain amount of "give", to permit limited shear
+movement. They could be mounted so they could tilt slightly (say, 10
+degrees max.) against spring tension, and their mating sockets could be
+narrow "funnels", wide end at the surface. 
+
+ Some sort of sensor would detect misalignment well before the limit of
+"give" was reached. Misalignment would cause internal electronics to apply
+a pulse to a coil to retract the locking pin. (The pin should have minimal
+friction; a polished surface and a Teflon-lined mating hole should do.)
+Once the pin was retracted, the electronics would ignore other
+misalignments. (Otherwise, one could simply push against a cubie in 
+"midair" and detach it!)
+
+ The pin would be kept both extended and retracted magnetically, by a 
+remanent alloy that stays magnetized, but which can have its 
+magnetization reversed by the flux from a coil. Extending the pin would 
+be done by pulsing the coil with the opposite polarity. (The principle is 
+closely-related to pulsed magnetic latching relays, which do not require 
+continuous coil power in either of their states.)
+
+ As has been implied, once the cubie is realigned, a second 
+(reverse-polarity) pulse re-extends the locking pin.
+
+ Pulsed operation should give acceptable battery life; the misalignment
+sensor might be somewhat of a challenge to engineer, but not a major
+problem. One could consider mechanical contacts; with electronics, they 
+wouldn't need to be kept scrupulously clean, only clean enough to permit 
+a milliampere or so to flow. (Contamination becomes a factor if you make 
+the electronics too sensitive.)
+
+ The electronics seems quite straightforward, and by today's standards,
+quite simple and entirely practical. The locking-pin mechanism would be
+the most costly, more than likely; it would have to be custom-built, and
+might cost $2 US apiece in 10,000 lots, perhaps more. I can imagine many
+people-weeks of development to create a decently-reliable locking-pin
+design. It's essentially a miniature solenoid. 
+
+ Battery access would be via a screw-threaded cover with a slot that fits 
+the edge of a coin; the Cube would look distinctive.
+
+ The clicking sound of the retaining pins would be interesting!
+
+ It's not immediately obvious (to me) how the pins and mating sockets 
+should be arrayed; their number must be minimal. Edge cubies would need 
+four locks apiece, while corners would need three apiece.
+
+ The mind wants sleep, so I think I'll give this mad message a quick 
+proofread and post it.
+
+---------------------
+On Thu, 30 May 1996, der Mouse wrote:
+
+{Snips}
+
+> > that locking pins (or the equivalent) would be necessary.  I really
+
+{Snips}
+
+> 
+> On the other hand, a straightforward locking mechanism could probably
+> be put together by a good watchmaking shop at no more than the price of
+
+> 			    mouse@collatz.mcrcim.mcgill.edu
+
+Best regards to all,
+
+NB   Nicholas Bodley   Autodidact & Polymath  |*| Keep smiling! It makes |
+      Waltham, Mass.   Electronic Technician  |*|   people wonder what   |
+     nbodley@tiac.net    Amateur musician     |*|  you have been up to.  |
+-------------------------------------------------------------------------*
+
+
+
+
+

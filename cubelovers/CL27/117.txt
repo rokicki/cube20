@@ -1,0 +1,45 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jul 12 14:25:00 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA26629
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 12 Jul 1999 14:24:59 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <377A4984.5167C958@nadn.navy.mil>
+Date: Wed, 30 Jun 1999 12:44:52 -0400
+From: David Joyner <wdj@nadn.navy.mil>
+Reply-To: wdj@nadn.navy.mil
+Organization: Math Dept, USNA
+To: cubelovers <cube-lovers@ai.mit.edu>
+Subject: puzzle collectors web page has moved
+
+Hello Cube Lovers:
+The Directory of Mechanical Puzzle Collectors web page has moved to
+http://anduin.eldar.org/~problemi/joyner/slocum.html
+Please update any links. - David Joyner
+
+--
+David Joyner, Assoc Prof of Math
+Math Dept, 572C Holloway Dr
+US Naval Academy, Annapolis, MD 21402
+office: 410-293-6738, fax: 410-293-4883
+wdj@nadn.navy.mil, wdj@gwmail.usna.edu
+http://web.usna.navy.mil/~wdj/homepage.html
+
+[Moderator's note: This note was delayed because I generally give web
+ page announcements lower priority than discussion.  Also, I usually
+ drop announcements of changes to web pages that have been previously
+ announced, since interested people can learn about the changes from
+ the web page itself.  In the last 18 months or so, change notices for
+ the following pages have been suppressed in this way:
+
+     http://www.snipercade.com/cubeman
+     http://www.asahi-net.or.jp/~hq8y-ishm/
+     http://www.rubiks.com/
+     http://www.ue.net/mefferts-puzzles/
+     http://home1.gte.net/davebarr/Cube/
+     http://128.192.40.238/pink/
+
+ I'm willing to accept suggestions from the list membership about
+ these policies; direct them to cube-lovers-request@ai.mit.edu. -- Dan ]
+

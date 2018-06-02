@@ -1,0 +1,42 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Oct  1 13:18:18 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA25712; Wed, 1 Oct 1997 13:18:15 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From ERCO@compuserve.com Wed Oct  1 01:56:54 1997
+Date: Wed, 1 Oct 1997 01:52:24 -0400
+From: Edwin Saesen <ERCO@compuserve.com>
+Subject: Re: 4x4x4 solution -- [Digest v23 #159]
+Sender: Edwin Saesen <ERCO@compuserve.com>
+To: CUBE <CUBE-LOVERS@ai.mit.edu>
+Message-Id: <199710010152_MC2-225C-6120@compuserve.com>
+
+jbryan@pstcc.cc.tn.us wrote:
+>Your problem is one of parity.  You have two edges cubies swapped
+>(this swap is visible) and two face center (centre) cubies of the
+>same color swapped (this swap is invisible).  You have to have an
+>even number of swaps in the total cube.  If you want an even number
+>in the edges (and you do), then you also have to have an even number
+>in the face centers, even if swaps in the face centers are invisible.
+
+I've had this problem as well. If I understand you correctly, this
+problem simply doesn't occur anymore as soon as you number (or mark in
+any other way) the center pieces which
+a) makes solving the cube a bit more difficult
+b) makes sure that you'll always get back to the original
+configuration of center pieces.
+
+I've had a similar problem on my 5x5x5 as well, and I assume that
+marking the nine center pieces might solve the problem as well.
+On my 4x4x4 I also had a problem of having two pairs of edges
+exchanged which simply can't happen on a 3x3x3. By experimenting with
+3x3x3 moves I found a 24move solution to this, and I wonder if that's
+also sort of automatically solved by marking center pieces.
+
+Can anyone confirm this?
+
+Michael Ehrt
+ ---------------------------------------------
+ERCO@compuserve.com
+

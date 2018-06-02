@@ -1,0 +1,39 @@
+Date: 23 September 1981 2236-EDT (Wednesday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Re: question for cube-lovers (S and T patterns)
+CC: HOROWITZ at USC-ISIF
+In-Reply-To:  Alan Bawden's message of 23 Sep 81 19:31-EST
+Message-Id: <23Sep81 223642 DH51@CMU-10A>
+
+	It is impossible to put Z patterns on all six faces of the
+cube, just as it is impossible to extend the Laughter (or Zig-Zag)
+pattern to six faces.  The problem is with the corners.  If every
+face is to have a pair of opposite corners that agree with the face
+center and a pair of opposite corners that agree with each other
+but not with the center, then the only constructible pattern is
+like (i.e. M-conjugate to) the following:
+
+		F - U
+		- U -
+		U - F
+
+	D - L	F - R	U - R	B - L
+	- L -	- F -	- R -	- B -
+	L - D	R - F	R - U	L - B
+
+		B - D
+		- D -
+		D - B
+
+But this pattern has incorrect corner orientation, and so is not
+achievable.
+
+	The T patterns were introduced to this list by David C.
+Plummer [3 September 1980 2123-EDT], who assigns credit to Tanya
+Sienko for the idea.  Jim Saxe and I [27 January 1981 0102-EST] gave
+a process for Tanya's T, the pattern that Minh Tai uses to sign
+with.  Our process, (FF UU)^3 (UU LR')^2, is four quarter-twists
+shorter than Tai's ``quick routine'' because of the cancellation in
+the middle.  The other T pattern, Plummer's T, can be achieved in 28
+qtw:  FF UD' F'B' RR F'B U'D RL FF RL' UD' RL FF R'L U'D'.

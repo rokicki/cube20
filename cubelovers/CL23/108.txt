@@ -1,0 +1,23 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug 15 11:12:17 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA16020; Fri, 15 Aug 1997 11:12:17 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From reid@math.brown.edu Thu Aug 14 21:48:30 1997
+Message-Id: <199708150145.VAA22661@life.ai.mit.edu>
+Date: Thu, 14 Aug 1997 21:50:27 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: isoglyphs
+
+dan's idea of glyph patterns, especially isoglyphs is quite interesting.
+herbert has given all the "continuous" isoglyphs.  i spent some time
+looking for other isoglyphs, and was surprised at how many exist.
+herbert, how did you find those?  is that part of your pattern generator?
+if your program can also find all "discontinuous" isoglyphs, then i guess
+there's not much point in trying to do it by hand.
+
+mike
+
+

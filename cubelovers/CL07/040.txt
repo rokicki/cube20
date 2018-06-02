@@ -1,0 +1,23 @@
+From latto@lucid.com  Tue Apr 23 18:37:44 1991
+Return-Path: <latto@lucid.com>
+Received: from lucid.com by life.ai.mit.edu (4.1/AI-4.10) id AA08232; Tue, 23 Apr 91 18:37:44 EDT
+Received: from boston-harbor ([192.43.175.1]) by heavens-gate.lucid.com id AA15216g; Tue, 23 Apr 91 15:37:18 PDT
+Received: by boston-harbor id AA02639g; Tue, 23 Apr 91 18:40:21 EDT
+Date: Tue, 23 Apr 91 18:40:21 EDT
+From: Andy Latto <latto@lucid.com>
+Message-Id: <9104232240.AA02639@boston-harbor>
+To: hirsh@cs.rutgers.edu
+Cc: cube-lovers@life.ai.mit.edu, hirsh@cs.rutgers.edu
+In-Reply-To: Haym Hirsh's message of Tue, 23 Apr 91 12:26:16 EDT <CMM-RU.1.0.672423976.hirsh@pei.rutgers.edu>
+Subject: rubik's magic alternate coloring
+
+The version your student has is the one where the object is to fold it
+into a cube (I have it, with the instructions. Yes, it does have the
+same structure as the original 2x4 one---you can fold that one
+into a cube (with two "flaps") too. The object is to fold it
+into a cube where the colors of the three faces meeting at each corner
+always match.
+
+						Andy Latto
+						latto@lucid.com
+

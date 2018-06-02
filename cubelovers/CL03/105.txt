@@ -1,0 +1,46 @@
+Date: 3 January 1982 17:00-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: The Pyramid
+To: ELF at MIT-DMS
+cc: CUBE-LOVERS at MIT-MC
+
+I know of no books about the pyramid, but I can vouch for the fact
+that the pyramid is much easier than the cube.  I have essentially ONE
+tool that is sufficient for all manipulations.  It isn't even a very
+long one.  It is in fact such an obvious tool to try that many people
+have discovered it independently.  I'll tell you what it is after I
+insert the following spoiler warning:
+
+*** SPOILER WARNING !!! ***  If you wish to solve the pyramid
+yourself, stop reading now!
+
+First off, notice that the points of the pyramid can be rotated
+independently of all the other pieces.  Thus we can safely ignore
+those pieces and simply twist them into position as the last step.  So
+from here on in, when I say to twist about a particular point, I mean
+to grasp the larger sub-pyramid that shares that point with the entire
+pyramid and rotate it.  This motion always leaves the face opposite
+the designated point fixed.  
+
+This is not analogous to the way we think about the cube.  When
+dealing with the cube we rotate a face, leaving the rest of the cube
+fixed.  When dealing with the pyramid I am proposing to always rotate
+everything BUT a face, a move that arranges to leave the four points
+in the same position.
+
+Having how described what I mean by a move, the actual tool is easy.
+It's only four twists long.  Chose any two points, call them A and B.
+The tool is simply AB'A'B.  It permutes three edge pieces that share
+a common face, it flips two of those pieces over, and everything else
+is untouched.
+
+Since everything except the edge pieces can be placed in position
+trivially (both the point pieces and the third kind of piece I haven't
+mentioned yet), this tool might be sufficient (after arranging
+everything else).  I don't know if it is in fact sufficient since I
+also employ some conjugates (like CAB'A'BC') in my solution.
+
+I leave the details of actually applying this tool for you to
+discover by yourself.
+
+				-Alan

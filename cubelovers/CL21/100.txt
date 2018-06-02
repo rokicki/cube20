@@ -1,0 +1,52 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Dec 13 14:54:36 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA22872; Fri, 13 Dec 1996 14:54:35 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+Subject: Re: 6-cube and Hofstadter; Meffert
+Date: 13 Dec 1996 19:45:47 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 34
+Message-ID: <58sbpb$m6p@gap.cco.caltech.edu>
+References: <cube-lovers.Pine.LNX.3.95.961212171409.21366A-100000@ginko.ait.fredonia.edu>
+NNTP-Posting-Host: avarice.ugcs.caltech.edu
+X-Newsreader: NN version 6.5.0 #2 (NOV)
+
+Corey Scott <scot3165@ginko.ait.fredonia.edu> writes:
+
+>i was wondering, i bought a rubic's cube about a month ago and my stickers
+>are already coming off. what can i do  about it? 
+
+Not much.  I find that the only technique that seems to slow down the
+sticker-losing is:
+
+1) Don't let anybody else play with it.  Greasy and oily hands damage
+ the glue, and every once in a while you'll run into some idiot who 
+ will try to impress you by removing the stickers and putting them
+ back on in order.
+
+>and why don't they use
+>something different, like plastic color tabs that are superglued on?
+
+Probably cost.  Ideal made "Rubik's Game" and the Deluxe "Rubik's Cube"
+a while ago, both which had plastic faces and were much more durable.
+
+Unfortunately, no such equivalent was ever produced for the higher-order
+cubes; I've already lost three 4x4x4 stickers and one 5x5x5 sticker.
+
+>please help because i like my cubeand now i'm afraid to use it, it's
+>dying.
+
+I know the feeling.   Your best bet is not to worry about it, and
+to produce your own replacement stickers.
+
+
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+-------------------------------------------------------------------------------
+Statistics show that Ster Trek films without Shatner do better at box offices.
+
+

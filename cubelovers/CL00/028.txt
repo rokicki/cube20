@@ -1,0 +1,12 @@
+Date:  17 July 1980 22:52 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Postscript to above
+To:  cube-hackers at MIT-MC
+
+I should have noted in the above flamage
+(btw, will all of those of us who are paid by our respective employers
+to hack this lunacy please let me know at once)
+that there is room for opitimization and lookahead in the final
+doubleswaps in correcting the top/bottom, and the
+doubleswap preceding it, but I do not do this, so that
+I might better keep track of what I am doing.

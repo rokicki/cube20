@@ -1,0 +1,48 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Jun  6 23:31:12 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id XAA11078 for <cube-lovers-outbound@curry.epilogue.com>; Thu, 6 Jun 1996 23:31:10 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 5 Jun 1996 22:22:26 -0400
+From: Jim Mahoney <mahoney@marlboro.edu>
+Message-Id: <199606060222.WAA13586@ marlboro.edu>
+To: hoey@aic.nrl.navy.mil
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <9606052254.AA22046@sun34.aic.nrl.navy.mil> (hoey@AIC.NRL.Navy.Mil)
+Subject: Re: A essay on the NxNxN Cube : counting positions and solving it
+
+
+>>>>> "hoey" == hoey  <hoey@AIC.NRL.Navy.Mil> writes:
+    hoey> When we take account of the internal cubies I call it the
+    hoey> "Theoretical Invisible cube", described in my Invisible
+    hoey> Revenge article 9 August 1982.  A solution method is given
+    hoey> in
+    hoey> 	Eidswick, J. A., "Cubelike Puzzles -- What Are They
+    hoey>       and How Do You Solve Them?", 'American Mathematical
+    hoey>       Monthly', Vol. 93, #3, March 1986, pp. 157-176.
+
+Thanks for the references.  I haven't seen Eidswick's paper yet,
+but will check it out.
+
+    hoey> As for counting the positions, I haven't got around to
+    hoey> checking the numbers in "Groups of the larger cubes", 24 Jun
+    hoey> 1987.  You might want to see how they compare to yours.
+
+I just did, and for the specific case that I describe (which is "s:
+Supergroup, i: theoretical invisible group") the formulas are exactly
+the same.  I didn't consider nearly the range of alternatives discussed
+in that article, but its nevertheless nice to see a confirmation of
+the results.
+
+Regards,
+
+  Dr. Jim Mahoney                          mahoney@marlboro.edu
+  Physics & Astronomy
+  Marlboro College, Marlboro, VT  05344
+
+
+
+
+
+
+

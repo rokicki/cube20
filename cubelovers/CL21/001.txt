@@ -1,0 +1,56 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Jul  3 04:41:56 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id EAA07109; Wed, 3 Jul 1996 04:41:55 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 3 Jul 1996 05:26:31 -0300
+From: FERNANDO VON REICHENBACH <reichen@cnea.edu.ar>
+Message-Id: <199607030826.FAA03614@cnea.edu.ar>
+To: Cube-Lovers@ai.mit.edu
+
+
+3/7/96
+Hi!, I'm Isidro, yesterday Mark wrote:
+
+> The shortest flip of 2 adjacent edges uses the same 4 sides
+> (so I say "this sequence has face-index 4), is the following:
+> Note use of L-- and L++ etc to denote 2 one-fifth turns of a face!
+> It is of the form P U1 P' U' which is another commutator.
+>
+> L-- R++ F+  U-  R+  U+  L++ R++ U+
+> R-- L-- U-  R-  U+  F-  R-- L++ U-
+>
+> = 18 face turns or 26 one-fifth turns. Perhaps there is some
+> .improvement to this sequence.
+
+  I have a megaminx borrowed and solve it using some of the 3x3x3
+knowledge that I have. It took me two years to solve all cases of
+the 4x4x4 (borrowed from the same friend), but not trying so hard...
+  I suppose you already have this, but just in case I'll send my own
+flip edges formulas in the standard cube to see if they could help
+with the other (I guess not):
+  R'F'L'U B'U B L F R U'B U'B' (14) (flips F & B edges)
+the same formula starting in the 4th move (UB'UBLFRU'BU'B' R'F'L')
+flips B & L edges.
+  A longer, (but faster in my hands) R B R'L U L'B F'D L'D'UB'U'F B'
+(16) (flips L & R)
+  R' U2 R2 U R' U' R' U2 L F R F' L' (16) (13 counting ^2 as 1) flips F&R
+  
+  L'B'U R'U'R B L followed by R B U'L U L'B'R' (16) flips B&R and maybe
+works on megaminx...
+
+Hope I'm sending something you don't have.
+
+I'm looking for improving this formulas (all of them exchanges (no
+fliping) 2 corners and 2 edges on the top face:
+  R2 B' R' U' R U R U'B R B'U B R (15/14) xchg BL-FL corn & F-R edg
+  F R'U'R F'L'B U'B'L R'U R / L U F U'F'L' (19) xchg BL-BR corn & R-L edg
+  F R'F'R U R U'R2U'R U R B'R'B U (17/16) xchg Bl-FR corn & L-B edg
+  L'UR'U L U'R U'L F'L' [F F'] U'L'U L F U (17) xchg BL-FR corn & L-F edg
+  R U R'U'R'F R [F' F] R U'R'U'R U R'F' (15/14) xchg RF-RB corn & L-R edg
+(I've some more but it's enough, besides I must tranlate them from spanish)
+
+  PS: What a coincidence, my first mail were intended to you, Mark.
+  
+
+

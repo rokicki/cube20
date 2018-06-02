@@ -1,0 +1,123 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Dec 26 17:07:53 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id RAA27424; Thu, 26 Dec 1996 17:07:52 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-ID: <c=US%a=navy%p=usna%l=MATHNT1-961226165611Z-59@mathnt1.sma.usna.navy.mil>
+From: "joyner.david" <joyner.david@mathnt1.sma.usna.navy.mil>
+To: "'acoles@fec.gov'" <acoles@fec.gov>
+Cc: "'cube-lovers@ai.mit.edu'" <cube-lovers@ai.mit.edu>
+Subject: RE: Rubik's Tangle
+Date: Thu, 26 Dec 1996 11:56:11 -0500
+X-Mailer:  Microsoft Exchange Server Internet Mail Connector Version 4.0.837.3
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Aaron Coles:
+ The Rubik's tangle I bought is 3x3 and in that puzzle there 
+are no tiles with a straight yellow. The version of the Rubik's 
+tangle which that page you gave describes is not, as far as I 
+know, marketed in stores.
+ Here is my solution to the store version I bought:
+Notation: green=color 1, purple = color 2, red = color 3, 
+yellow = color 4. Each tile will be denoted by a 4-tuple
+(a,b,c,d), where 
+a is the color number of the straight rope,
+b is the color number of the quarter circle rope,
+c is the color number of the twisted rope (the one going from
+ one side to the opposite which is not straight),
+d is the color number of the looped rope (the one going from
+ one side to an adjacent side which is not in the shape
+ of a quarter circle). 
+The "orientation" of a tile will be
+0 if the straight side is lined up vertically on the left,
+1 if it is rotated 90 degrees clockwise from the 
+ orientation 0 position,
+2 if it is rotated 180 degrees clockwise from the 
+ orientation 0 position (the straight side is lined up vertically 
+ on the right),
+3 if it is rotated 270 degrees clockwise from the 
+ orientation 0 position.
+I labeled the (2-sided) tiles arbitrarily 1-9, with f for front 
+and b for back. They are as follows:
+
+tile 1
+f (1,3,4,2), b (1,4,2,3)
+tile 2
+f (1,4,2,4), b (1,4,3,2)
+tile 3 
+f (1,2,4,3), b (1,2,3,4)
+tile 4 
+f (3,1,2,4), b (3,2,4,1)
+tile 5
+f (3,4,2,1), b (3,4,1,2)
+tile 6 
+f (3,2,1,4), b (3,1,4,2)
+tile 7
+f (2,4,3,1), b (2,1,3,4)
+tile 8
+f (2,1,4,3), b (2,3,1,4)
+tile 9 
+f (2,3,4,1), b (2,4,1,3)
+
+Mathematics of puzzles:
+ In general, let X be a collection of n interlocking puzzle pieces.
+Assume that there is a solution to the puzzle for X
+which uses every element of X.
+Call G a "subpuzzle graph on X" if there is a subpuzzle 
+of interlocking pieces constructed from a subset Y of X
+such that G is a graph with vertices labeled by the subset Y
+of X and two vertices are connected by an edge if and only 
+if the corresponding pieces fit or interlock in this subpuzzle.
+A "solution" to the puzzle will be a connected subpuzzle 
+graph on X having n vertices associated to a solution. 
+ For almost every jigsaw puzzle I've seen and for the Rubik's 
+tangle puzzle, a solution to a puzzle is a Hamiltonian graph. 
+
+Algorithm for the Rubik's tangle: We shall construct
+a subpuzzle graph on the Rubik's tangle pieces as follows:
+Notation: Label the positions of the puzzle as 
+9-2-3
+|  |  |
+8-1-4
+|  |  |
+7-6-5
+step 1: Pick a tile (18 possible choices)  and put it in
+position number 1 with orientation 0. Draw a corresponding 
+vertex and label it with this tile's 4-tuple. 
+inductive step: Assume that k tiles have been placed in positions
+1 through k and each tile fits with its neighboring tiles, k<n.
+Pick a tile which fits with tile k in position number k+1
+(in some orientation). Draw a corresponding vertex, label 
+it with this tile's 4-tuple and it's orientation. Draw an edge from 
+tile k+1 to each neighboring tile.
+
+Solution to Rubik's tangle:
+3421,2 - 1342,2 - 3214,3
+  |              |           |
+1243,2 -  2431   - 3124,1
+  |              |           |
+2143,2 - 1324,3 - 2413,2
+
+                                                      - David Joyner
+
+
+>----------
+>From: 	Aaron Coles[SMTP:acoles@fec.gov]
+>Sent: 	Monday, December 23, 1996 6:47 PM
+>To: 	cube-lovers@ai.mit.edu
+>Subject: 	Rubik's Tangle
+>
+>Does anyone know if the solution located at the below address is
+>valid??
+>
+>	http://www.math.uni-kiel.de/roesler/bruhn/tlsg.htm
+>
+>[ The moderator has taken the liberty of correcting a small typo here.
+>  The original submitted message had an underscore ("_") in the URL
+>which 
+>  I have corrected to be a hyphen ("-").  - Alan ]
+>
+
+

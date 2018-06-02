@@ -1,0 +1,37 @@
+From Don.Woods@eng.sun.com  Wed Dec 15 20:39:18 1993
+Return-Path: <Don.Woods@eng.sun.com>
+Received: from Sun.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA19011; Wed, 15 Dec 93 20:39:18 EST
+Received: from Eng.Sun.COM (zigzag.Eng.Sun.COM) by Sun.COM (4.1/SMI-4.1)
+	id AA12769; Wed, 15 Dec 93 17:39:17 PST
+Received: from colossal.Eng.Sun.COM by Eng.Sun.COM (4.1/SMI-4.1)
+	id AA06793; Wed, 15 Dec 93 17:38:04 PST
+Received: by colossal.Eng.Sun.COM (5.0/SMI-SVR4)
+	id AA26306; Wed, 15 Dec 93 17:39:20 PST
+Date: Wed, 15 Dec 93 17:39:20 PST
+From: Don.Woods@eng.sun.com (Don Woods)
+Message-Id: <9312160139.AA26306@colossal.Eng.Sun.COM>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Description of Tangle, Part 2
+X-Sun-Charset: US-ASCII
+Content-Length: 897
+
+> Is this the reason why Rubik has gone into hiding? I haven't seen any
+> puzzle from him after this set of 4 released in 1990/1991.
+
+Hm, didn't "Square-1" come out later than the Tangles?
+
+Regarding solving the Tangle, I forgot one other minor optimisation: When
+my program is picking a corner piece other than the first, it requires that
+the piece "number" be less than or equal to that of the first corner.  I.e.,
+it refuses to search for solutions that are rotations of other solutions.
+
+I've modified my program to try the 10x10, but indeed, it's taking a long
+time.  (Current estimate is it will take over a year to finish.)  I suspect
+that fact that pieces aren't "used up" as fast -- i.e., since there's at
+least four of any given piece, there will usually be at least one of whatever
+you're looking for for quite a ways down the search tree -- makes this
+approach intractible.
+
+	-- Don.
+
+

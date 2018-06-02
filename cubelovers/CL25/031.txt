@@ -1,0 +1,85 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Apr  3 19:32:23 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id TAA16989; Fri, 3 Apr 1998 19:32:23 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Mar 29 19:35:16 1998
+Date: Sun, 29 Mar 1998 19:35:43 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: partial isoglyphs
+In-Reply-To: <199708210441.AAA22489@life.ai.mit.edu>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.980329185822.328319C-100000@PSTCC6.PSTCC.CC.TN.US>
+
+On Thu, 21 Aug 1997, michael reid wrote:
+
+> dan recently introduced the concept of "partial isoglyphs", in which
+> some faces are solid, and the others are glyphs of the same pattern.
+> i looked into this a little and didn't find much.  only the case
+> of two opposite solid faces seems to have many possible glyph types,
+> although some of these possible types may have many solutions.
+>
+> here's what i found
+
+Note that all the glyph types which Mike lists (01, 02, 0D, 04, and 03 in
+Dan's taxonomy) fix the corners.  Thus, his note below points out that in
+order to have anything other than two solid faces opposite to each other,
+you must fix the corners.
+
+The correspondence between Dan's taxonomy and my charts is 01=BF, 02=AF,
+03=A7, 04=A5, and 0D=BD.  As I said earlier, the identfication numbers on
+my charts are not a taxonomy.  Rather, they provide a unique
+identification for each of the 2^8 glyphs.
+
+>
+> 6 solid faces: start
+> 5 solid faces: no possibilities
+
+> 4 solid faces:
+>    other two faces opposite:  types 02, 0D and 04 are possible
+
+All three possibilities do occur in my chart.
+
+
+>    other two faces adjacent:  type 0D is possible
+
+This possibility does occur in my chart.
+
+
+> 3 solid faces:
+>    mutually adjacent:  type 02 is possible
+
+This possibility does occur in my chart.
+
+
+>    not mutually adjacent:  types 01 and 0D are possible
+
+Both possibilities do occur in my chart.
+
+
+> 2 solid faces:
+>    adjacent:  types 01, 02, 0D and 03 are possible
+
+All  four possibilities do occur in my chart.
+
+>    opposite:  many possible types
+
+Indeed!
+
+
+> 1 solid face:  types 01, 02 and 0D are possible
+>
+
+All three possibilities do occur in my chart.  In addition, I found three
+partial isoglyphs of type 03 with one solid face.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+

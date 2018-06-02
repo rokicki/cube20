@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr 15 21:06:50 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA00504
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 15 Apr 1999 21:06:50 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <37165923.7ACC5D48@u.washington.edu>
+Date: Thu, 15 Apr 1999 21:24:51 +0000
+From: David Barr <davidb@u.washington.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Keyboard cube [was: Re: Wrist pains]
+References: <009D6955.A6FEB505.56@ice.sbu.ac.uk>
+
+David Singmaster Computing wrote:
+>
+>         Re: Tom Magliery's representation of the cube.
+>         A form of this was used by Kathleen Ollerenshaw in the early 1980s, but
+> she also had all but the center facelet of the back face folded out to form an
+> additional square ring around the figure so one knew what everything was.
+
+I've been playing around with something like this myself.  It doesn't
+work yet,
+but you can look at
+
+  http://home1.gte.net/davebarr/Cube/
+
+I got inspired by all of the recent discussion of input methods and
+started thinking about visual representations.
+
+David
+

@@ -1,0 +1,42 @@
+From hoey@aic.nrl.navy.mil  Wed Oct 11 22:56:23 1995
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12649; Wed, 11 Oct 95 22:56:23 EDT
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA15062; Wed, 11 Oct 95 22:56:16 EDT
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Wed, 11 Oct 95 22:56:15 EDT
+Date: Wed, 11 Oct 95 22:56:15 EDT
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9510120256.AA04061@sun13.aic.nrl.navy.mil>
+To: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>, Cube-Lovers@life.ai.mit.edu
+Subject: Re: Using 5 Generators
+
+I certainly agree that confirming minimality is an important result.
+Thanks, Jerry.
+
+> But I can report that my search found 16 unique (*not* unique up to
+> conjugacy) half-way positions.  I use the term "half-way" advisedly.
+> The "half-way" positions are 9q from Start and 8q from B or vice
+> versa.  I guess you could say that the vice versa gives you a total
+> of 32=16+16 half-way positions, but the whole concept of "half-way"
+> is pretty slippery in this case anyway.
+
+If I understand this, there are 16 positions at 9q from Start and 8q
+from B, and there are 16 other positions at 8q from Start 9q from B.
+Is each of the first bunch adjacent to exactly one of the other?  And
+vice versa?  It would be good to get them reduced by Q2-conjugacy, as
+well.
+
+[in Q2]
+> The four rotations are i, b, bb, and bbb, where we use lower case
+> letters to simulate Frey and Singmaster's script notation for rotations.
+> For example, b is the whole cube rotation consisting of grasping
+> the Back face and rotating the whole cube (not just the Back face)
+> clockwise by 90 degrees.
+
+The reflections are similarly rrv, rrbv, ttv, and ttbv, where t and r
+are the whole-cube rotations by the Top and Right faces, and v is the
+central inversion.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

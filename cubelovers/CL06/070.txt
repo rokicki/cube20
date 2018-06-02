@@ -1,0 +1,17 @@
+Received: from BFLY-VAX.BBN.COM (TCP 20026200235) by AI.AI.MIT.EDU 10 Nov 87 14:59:58 EST
+To: Bernie Cosell <cosell@cosell.bbn.com>
+cc: cube-lovers@ai.ai.mit.edu, alatto@cosell.bbn.com, math@cosell.bbn.com, 
+    jr@cosell.bbn.com, dm@bfly-vax.bbn.com
+Subject: Re: New "Recreations in Math" editions
+In-reply-to: Your message of Tue, 10 Nov 87 12:51:48 EST.
+Date: 10 Nov 87 14:56:04 EST (Tue)
+From: dm@bfly-vax.bbn.com
+
+
+In Bernie's defense, I'll point out that he didn't name his machine
+after himself -- it got named after him by the computer center staff,
+who were installing workstations faster than we could think of
+cute names for them, and adopted a simple, if boring algorithm for
+coming up with machine names.
+
+

@@ -1,0 +1,89 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 16 15:39:51 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA02419
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 16 Mar 1999 15:39:50 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <36EB0B28.1169@ameritech.net>
+Date: Sat, 13 Mar 1999 19:04:40 -0600
+From: Hana Bizek <hbizek@ameritech.net>
+Reply-To: hbizek@ameritech.net
+To: cube-lovers@ai.mit.edu
+Subject: parity pairs
+References: <36E7D3A7.1796@ameritech.net>
+
+> [Moderator's note: By parity pairs, I rather suspect he means mirror-image
+> pairs.]
+
+Let me tell you what I mean by parity pairs, why very few have probably
+heard about this concept and why they are crucial in 3-dimensional (3-d)
+cube art.
+
+Suppose one has two cubes of identical color scheme such that the color
+on both cubes' up, down, front and back faces are exactly the same. If
+the color of the left face of one cube is identical to the color of the
+right face of the other cube, such a pair of cubes is said to form a
+parity pair. The color scheme is still identical, but the ORIENTATION of
+the faces is reversed for one of the members of the pair. One cannot
+obtain parity pairs by conventional cube manipulations, but must obtain
+them either from the manufacturer, or switch the faces themselves
+manually. I would prefer to buy such pairs from the toymaker, for it
+pains me to tamper illegally with  those stickers. I have devised a
+simple algorithm to do it as painlessly as possible, but it still is a
+pain. But will a manufacturer sell me parity pairs?
+
+The reason so few people know about parity pairs is that such pairs are
+moot in solution algorithms. You do not need to concern yourself at all
+with parity pairs, you just have one cube and painlessly solve it. Ditto
+for 2-dimensional (2-d) designs (unless you treat them as lxmx1)
+designs. However, they are essential in 3-d cube art. They are
+responsible for reflection-equivalent designs, designs of fewer than six
+colors and ultimately fractal design prototypes. They also determine
+special symmetries in a 3-d design. They are the cornerstone of 3-d
+design theory. Without their presence all of the 3-d designs I have
+constructed would not be possible.
+
+Why all this  self-serving fuss about parity pairs and 3-d designs? The
+point is this: given four parity pairs, one can construct a 2x2x2 larger
+clean design, that has three colors only on its six faces. The internal
+faces that touch are colored the same. Those colors are hidden inside
+the design or suppressed. Such an array of cubes, when used as corners,
+produce, e.g., reflection-equivalence in a design. Go to your cube
+collection, extract four parity pairs and see for yourselves.
+
+So I think you got the idea, Mr. Moderator. Just one slight correction;
+I am a "she," not a "he." You will find this almost incredible, but
+women too, love the cube.
+
+Hana Bizek
+(female) physicist and
+3-d Rubik's cube designer
+
+[Moderator's note: On the contrary, there are several women on
+ cube-lovers, and Dame Kathleen Ollerenshaw is well-known as one of
+ the earliest writers about Rubik's cube and one of the first victims
+ of Cubist's Thumb.  I just didn't know that "Hana" was a woman's
+ name, and I had forgotten that this information was presumed by a
+ mention of you in the archives.  I apologize for the oversight.
+
+ As for nomenclature, the reason no one knows about "parity pairs" is
+ that the term is ambiguous--"parity" could refer to representatives
+ of any even division of a set into two parts.  If you wish to enable
+ people to know what you mean without going through your somewhat
+ confusing description, then you should use the term "enantiomorphic
+ pairs", "chiral pairs", or "mirror-image pairs".  I believe these are
+ the standard terms used by chemists, physicists, and everyone else,
+ respectively.
+
+ There is an interesting question, though, which your hobby may give
+ you a particular ability to answer.  According to _Rubik's Cubic
+ Compendium_, the most common color scheme has red opposite orange,
+ blue opposite green, and white opposite yellow.  This permits two
+ mirror-image color schemes, distinguished by whether red, white, and
+ blue go clockwise or anticlockwise around a corner.  The question is
+ whether there is a tendency for one of these schemes to predominate,
+ and if so, which and by how much?  For instance, one enantiomorph
+ predominates extremely strongly in the manufacture of dice, though I
+ don't know why. --Dan ]
+

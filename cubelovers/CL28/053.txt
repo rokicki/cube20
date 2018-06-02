@@ -1,0 +1,83 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 14 16:06:52 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA20286
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 14 Dec 1999 16:06:51 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <000701bf442c$151f8420$ea023dd4@wschwi>
+From: "Christ van Willegen" <christw@iae.nl>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: MegaMinx notes
+Date: Sat, 11 Dec 1999 22:34:41 +0100
+
+I just found back my notes on the MegaMinx. Here's what I have.
+It isn't much, because I solve it as a 'regular' cube, with
+the exception of a few formulas.
+
+The last layer needs these steps:
+- Correctly flip the edge pieces.
+
+I use the formulas F U R U' R' F' to flip the 'Front' and
+'Right' upper edge pieces. F R U R' U' F' flips the 'Front'
+and 'Right-back' upper edge pieces.
+
+Repeat one of these formulas as needed.
+
+- Correctly align the edge pieces.
+
+I have two formulas for this as well. Formula 1 assumes that
+the edge pieces 'Front' and 'Left' are correctly aligned, and
+keeps these in place: R U R' U R U2 R' rotates the other three
+edge pieces around.
+
+Formula 2 assumes that the edge pieces 'Front' and 'Left-back'
+are correctly aligned, and keeps these in place: R U R' U2 R U
+R' rotates the other three edge pieces around.
+
+- Correctly align the corner pieces.
+
+I only have on of these. The two corner pieces in the 'R' layer
+are kept in the same position: U2 R U2' L' U2 R' U2' L (note the
+notation: U2 is not the same as U2'!) rotates the other three
+corner pieces around.
+
+- Correctly flip the corner pieces.
+
+The formula I've used for 20 years (is this possible? When I
+started cubing, I was quite small. I can't really remember
+when it was) is the following: Use R F' R' F  R F' R' F to
+rotate the corner piece FRU clockwise. Repeat until this piece
+is correctly aligned. Then, rotate the U layer until you find
+another corner piece that's not correctly flipped. Repeat the
+formula until it's correctly flipped (later, I found out that
+F' R F R'  F' R F R' rotates a corner piece in the ccw
+direction). This also works nicely on the Megaminx.
+
+
+What I like in my solution of the last layer of the Megaminx:
+- The formulas are 'standard' Cube moves, adapted for another
+  geometry.
+- Most only use three layers. Only one (conceptually) uses 4
+  layers (The one to align corner pieces). Since the three
+  layers meeting at every corner of the Megaminx are identical
+  in behaviour as the layers of the Cube, the formulas are easy
+  to grasp (and were easy to adapt from the Cube moves).
+
+Lots of manuals coming with cubes nowadays use the E layer for
+some goals (I have to admit: My formulas for the Cube include
+this one for the Edge pieces on the third layer: (R E)4, then
+rotate the upper layer until another incorrectly flipped edge
+piece is in the UR position). These can clearly _not_ be 'ported'
+to the Megaminx.
+
+My time for solving the Megaminx is about 10 minutes. My Cube
+time is still about 3 minutes (I know, I know: Layer-by-layer
+is _not_ a fast approach...)
+
+Well, that's all I have to say about the Megaminx for now...
+
+Happy Minxing!
+
+Christ van Willegen
+

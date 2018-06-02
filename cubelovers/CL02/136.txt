@@ -1,0 +1,36 @@
+Date: 3 August 1981 16:47-EDT
+From: Allan C. Wechsler <ACW at MIT-AI>
+Subject:  God's Number
+To: CUBE-LOVERS at MIT-AI
+
+
+We know that some positions are "global maxima".  We don't
+know how many such positions there are.  We would dearly love
+to know how far away they are.
+
+Suppose that God's Number is N. (For some obscure theological
+reason I have the irrational belief that N=28, but we'll
+leave such hunches out of the discussion.)  Let's say there
+are K global maxima at that distance from solved.
+
+What if we could show that there are at least 12K states at
+distance N-1?  This is a little bit reasonable.  All it
+means is that global maxima are all separated from each other by
+more than 2q.
+
+If that were true, mightn't we be able to increment our lower
+bound on N?
+
+Can anybody prove that it's true?
+
+I would also like to hear from ZILCH where he gets those identities,
+and whether any of those impressive lists are exhaustive.
+
+Alan, do the other two order 12 nulls enable you to stretch your
+results?
+
+I am busy wading through Wielandt's "Finite Permutation Groups" and
+will report if I learn anything applicable.
+
+   --- Wechsler
+

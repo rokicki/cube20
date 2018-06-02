@@ -1,0 +1,36 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Apr 26 19:39:09 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA24989
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 26 Apr 1999 19:39:09 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v04003a00b3463c3e0cb7@[10.10.6.237]>
+In-Reply-To: <B1A5BAB06743C03A8725675B007E3CD7.007E3D498725675B@dtint.com>
+Date: Fri, 23 Apr 1999 09:12:13 -0600
+To: cube-lovers@ai.mit.edu
+From: Steve LoBasso <slobasso@dtint.com>
+Subject: Re: Lubricant
+
+White lithium grease is pretty good, but I don't know about its long term
+effects on plastic. If anyone has ever changed a distributor / points on an
+old car, there is a small tube of grease that is intended to be used on a
+plastic metal contact point. It is actually absorbed by the plastic and
+allows it to remain quite frictionless. If you want some good advice on
+this stuff look for an auto parts store with people that know more than
+just what they read from the packages or an older mechanic.
+
+   -Steve
+
+
+--
+Steve LoBasso
+Digital Technology International    mailto:slobasso@dtint.com
+500 West 1200 South              or mailto:slobasso@hotmail.com
+Orem, UT    84058                   http://members.tripod.com/~slobasso
+(801)226-6142 ext.265               FAX (801)221-9254
+
+[ Moderator's note: Be sure to read the tube or find a MSDS for
+  warnings about prolonged contact with skin.  If you can absorb Li+
+  from this, it's serious bad news. --Dan ]
+

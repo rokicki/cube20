@@ -1,0 +1,13 @@
+Date: 24 NOV 1980 0451-EST
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: Old cube mail no longer on-line.
+To: CUBE-HACKERS at MIT-MC
+
+There is a klutz amoung us.
+
+This is twice that the file of old cube lovers mail has been deleted
+from my directory.  I retrieved it last time and put it in
+ALAN;CUBE OMAIL and let the new messages continue to accumulate in
+ALAN;CUBE MAIL.  But somebody just deleted the OMAIL again.  I will
+retrieve it just once more, and if it goes away AGAIN I will just stop
+bothering.

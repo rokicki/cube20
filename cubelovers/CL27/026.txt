@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Apr  5 14:57:39 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA18074
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 5 Apr 1999 14:57:38 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3707EF11.3F51A90@t-online.de>
+Date: Mon, 05 Apr 1999 01:00:33 +0200
+Reply-To: Rainer.adS.BERA_GmbH@t-online.de
+Organization: BERA Softwaretechnik GmbH
+To: Andrew John Walker <ajw01@uow.edu.au>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Mike Reid's Solver
+References: <199904010348.NAA17158@wumpus.its.uow.edu.au>
+From: Rainer.adS.BERA_GmbH@t-online.de (Rainer aus dem Spring)
+
+I have-the version that requires 80MB, NOT the version that requires 800MB :)
+
+Rainer adS
+
+Andrew John Walker wrote:
+>
+> If anyone has compiled a PC version of Mike Reid's program
+> set to find optimal solutions in the face turn metric please
+> contact me (or better still the list).
+>
+> Andrew Walker
+
+-- 
+--------------------------------------------------------------------------
+Rainer aus dem Spring       email  Rainer.adS.BERA_GmbH@t-online.de (home)
+Schimmelbuschstr. 10        email  TEEADS@TEE.toshiba.de (business only)
+40699 Erkrath               tel. +49 (0)02104 35157  (private)
+Germany                     tel. +49 (0)02104 936150 (business)
+---------------------------------------------------------------------------
+

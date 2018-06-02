@@ -1,0 +1,11 @@
+Date:  16 August 1980 12:45 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: Undocumented position?
+To:  Stuart McLure Cracraft <McLure at SRI-KL>
+cc:  cube-lovers at MIT-MC
+In-Reply-To:  Message of 16 August 1980 02:47 edt from Stuart McLure Cracraft
+
+Would somebody out there who has Singmaster version 5 benefit us with
+a brief (or as long as you can stand) description of the
+algorithm for solution contained therein, as the rest of us
+wait for International Snail Mail? Thanks, -Bernie.

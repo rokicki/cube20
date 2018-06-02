@@ -1,0 +1,39 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug 21 14:21:46 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA20968; Thu, 21 Aug 1997 14:21:45 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Hoey@AIC.NRL.Navy.Mil Thu Aug 21 12:51:15 1997
+Date: Thu, 21 Aug 1997 12:20:58 -0400
+Message-Id: <199708211620.MAA00539@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: Goyra@iol.ie
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Megaminx a.k.a. Supernova
+In-Reply-To: <199708051604.MAA13056@sun30.aic.nrl.navy.mil>
+
+Glyph-lovers may recall I was led to that discussion by analyzing the
+five conjucacy classes of spot patterns on the Megaminx.  I called
+them
+
+    0. The identity,
+    1. The  72-degree twelve-spot,
+    2. The 144-degree twelve-spot,
+    3. The 120-degree ten-spot,
+    4. The 180-degree ten-spot.
+
+Thanks to David Singmaster for noticing this is wrong.  It should have
+been
+
+    0. The identity,
+    1. The  72-degree ten-spot,
+    2. The 144-degree ten-spot,
+    3. The 120-degree twelve-spot,
+    4. The 180-degree twelve-spot.
+
+I'm glad to see someone's paying attention around here.
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

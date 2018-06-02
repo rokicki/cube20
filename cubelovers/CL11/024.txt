@@ -1,0 +1,15 @@
+From hoch@chem.wisc.edu  Tue Dec 14 12:13:15 1993
+Return-Path: <hoch@chem.wisc.edu>
+Received: from ernie.chem.wisc.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA26560; Tue, 14 Dec 93 12:13:15 EST
+Received: by ernie.chem.wisc.edu;
+          id AA19022; AIX 3.2/UCB 5.64/42; Tue, 14 Dec 1993 11:13:16 -0600
+Date: Tue, 14 Dec 1993 11:13:16 -0600
+From: Douglas E. Hoch <hoch@chem.wisc.edu>
+Message-Id: <9312141713.AA19022@ernie.chem.wisc.edu>
+To: cube-lovers@ai.mit.edu
+Subject: List removal
+
+
+Please remove hoch@pigggy.chem.wisc.edu from your cube-lovers list.
+Thanks.
+

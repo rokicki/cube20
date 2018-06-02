@@ -1,0 +1,15 @@
+Date:  5 Aug 1981 0948-PDT
+From: ISAACS at SRI-KL
+Subject: 10-sided cube
+To: cube-lovers at MIT-MC
+
+  The 10-sided cube was discussed a couple of months ago.  The main result
+was that the easiest way to solve it was "side across" - that is, don't
+start from the octagonal face, but from one of the "sides".  Then the
+last layer should be solvable except for a possible edge-flip.  Note that
+there are two new difficulties with this cube: the one mentioned, and the
+single edge flip.  SPOILER! This is, of course, an optical illusion, brought
+about by the fact that the second edge, which of course is also flipped, is
+a uni-colored edge, and you can't see it.
+         --- Stan Isaacs
+-------

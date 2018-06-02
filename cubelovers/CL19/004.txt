@@ -1,0 +1,32 @@
+From mreid@ptc.com  Mon Feb  5 16:05:20 1996
+Return-Path: <mreid@ptc.com>
+Received: from poster (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07090; Mon, 5 Feb 96 16:05:20 EST
+Received: from ducie.ptc.com by poster (5.x/SMI-SVR4-NN)
+	id AA04779; Mon, 5 Feb 1996 16:00:57 -0500
+Message-Id: <9602052100.AA04779@poster>
+Received: by ducie.ptc.com
+	(1.38.193.4/16.2.nn) id AA23969; Mon, 5 Feb 1996 16:31:26 -0500
+Date: Mon, 5 Feb 1996 16:31:26 -0500
+From: michael reid <mreid@ptc.com>
+To: cube-lovers@ai.mit.edu
+Subject: cube in a cube
+
+recently i wrote
+
+> back in the days before i did computer-cubing, i found an interesting
+> maneuver for "cube in a cube" that only turns three faces.  what's the
+> shortest such maneuver that you know?
+
+there was never any response to this, but i'll give my solution anyway.
+
+let  X  =  U2 F R' F2 R F2 R F2 R' F U2 .
+
+then  X  produces two two-cycles of corner-edge pairs.  the commutator
+[ X , C_UFR ]  produces "cube in a cube" in 22 face / 32 quarter turns
+and only turns the faces  U, F  and  R.
+
+the notation  C_UFR  refers to a rotation of the whole cube, and
+[ a, b ]  denotes the commutator  a b a^-1 b^-1 .
+
+mike
+

@@ -1,0 +1,50 @@
+Date: 10 Aug 1981 0841-PDT
+From: Tom Davis <CSL.JHC.DAVIS at SU-SCORE>
+Subject: Barrel Puzzle instructions
+To: cube-lovers at MIT-MC
+
+I just purchased one of the "Wonderful Barrel" puzzles mentioned in
+Stan Isaac's note, and I found the enclosed set of instructions to be
+a classic.  I figured I'd pass them on, in case some of the members of
+this list don't buy the puzzle itself.  The first couple of paragraphs
+are not so great, but it gets better toward the end.
+
+@begin(verbatim)
+"Wonderful Barrel" is a kind of mental game plate also can be regarded
+as an indoor ornament.  The red, orange, yellow, green, blue, black
+color balls which is inner in barrel can create more than 10 billion
+combination to reach a solution and finally be aligned on 5 straight
+lines, yet each straight line are with 4 same color balls.
+
+			* PLAY RULE *
+
+Original alignment circumstances is as follow:  there are three black
+balls are set on SHELTER but each black ball is above a shore of
+PLUNGER; the 5 straight lines are up the SHELTER with different color
+from one another, each line contains 4 same color balls.  The 5
+straight lines are aligned in clock-wise with blue, green, yellow,
+orange, red color.
+
+As you know, the original alignment is orderly, now you can
+circumvolve DRUM, then operate plunger up and down for taking the ball
+out from SHELTER.  While you put the ball into SHELTER again, the
+order of "each straight line with 4 same color ball" has been broken
+to confused state.
+
+Now, a challenge is ahead of you, you often successful in this line
+but irregularly in that line, in a word, it always can not come to a
+satisfactory arrangement of the whole lines fluently.
+
+At the beginning, it is not easy to arrange the 5 straight lines
+return to initial order in short time, so please try to solve this
+puzzle from one line first, then completion of two, three, four even
+to whole lines are returned to initial order finally.
+
+At last, maybe you can analyse the mystery out, but maybe you can not
+solve it today; however, how about tomorrow?  one month later? one
+year later? or ten years later you may still continued to challenge to
+it singlely and unwilling.
+@end(verbatim)
+
+P.S.  I @i(tried) to proofread this, but as you can see, it was difficult.
+-------

@@ -1,0 +1,15 @@
+Received: from SCRC-STONY-BROOK.ARPA by MC.LCS.MIT.EDU 26 Mar 86 19:25:52 EST
+Received: from SORA.SCRC.Symbolics.COM by SCRC-STONY-BROOK.ARPA via CHAOS with CHAOS-MAIL id 445199; Mon 24-Mar-86 10:30:16-EST
+Date: Mon, 24 Mar 86 10:30 EST
+From: Bernard S. Greenberg <BSG@SCRC-STONY-BROOK.ARPA>
+Subject: Eidswick article
+To: Cube-Lovers@MC.LCS.MIT.EDU
+In-Reply-To: <860321-173622-1700@Xerox>
+Message-ID: <860324103055.2.BSG@SORA.SCRC.Symbolics.COM>
+
+Now that I saw a letter on this list....
+
+Try to find a store that sells an ordinary
+Rubik's cube.  The largest Cambridge game shop
+hasn't had them for eternity....
+

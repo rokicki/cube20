@@ -1,0 +1,58 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Sep  3 18:42:04 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA18297; Wed, 3 Sep 1997 18:42:04 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From jbryan@pstcc.cc.tn.us Wed Sep  3 13:55:04 1997
+Date: Wed, 03 Sep 1997 13:51:02 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Open and Closed Subgroups of G
+In-Reply-To: <970901163210.20217b13@iccgcc.cle.ab.com>
+To: SCHMIDTG@iccgcc.cle.ab.com
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <Pine.WNT.3.96.970903133533.-229605I-100000@GN209A.PSTCC.CC.TN.US>
+
+On Mon, 1 Sep 1997 SCHMIDTG@iccgcc.cle.ab.com wrote:
+
+> It might also be helpful for someone to cover the basics of cube
+> parity.  Although I think I understand the basic group theoretic
+> concepts of permutation parity, the asymmetry of the marked faces
+> of the cube have never quite left me feeling comfortable about
+> how this concept is applied to the cube.  Hofstadter, covers this,
+> but does not discuss it in enough detail for one to fully grasp
+> the concept.
+> 
+
+I'll take your question as literal, assuming you mean just parity and
+not twist and flip, and assuming you know the basic group theoretic
+concepts of permutation parity.
+
+Parity of the cube is best described (I think) as applying to whole
+cubies rather than to facelets.  As such, a quarter turn of any face is
+a 4-cycle on the corner cubies and a 4-cycle on the edge cubies.  A
+4-cycle is odd, which is to say that it can be decomposed into an odd
+number of 2-cycles.  The "obvious" way to decompose a 4-cycle is into
+three 2-cycles.  Although decomposition of a 4-cycle into 2-cycles is
+not unique, any such decomposition will contain an odd number of
+2-cycles.
+
+Start is even for both the edges and the corners (the identity consists
+of zero 2-cycles).  If you any quarter turn from Start, both edges and
+corners become odd.  Make another quarter turn, both edges and corners
+become even.  Make another quarter turn, both edges and corners become
+odd.  Etc.  Edges and corners are either both even or both odd. 
+
+In the constructable group, you can have odd corners with even edges or
+vice versa.  For example, remove two edge cubies from a cube and
+exchange them without moving any of the other cubies around.  You will
+be changing the parity of the edges without changing the parity of the
+corners.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

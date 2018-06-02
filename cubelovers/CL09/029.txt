@@ -1,0 +1,18 @@
+From tjj@rolf.helsinki.fi  Tue Jun 30 21:15:05 1992
+Return-Path: <tjj@rolf.helsinki.fi>
+Received: from funet.fi by life.ai.mit.edu (4.1/AI-4.10) id AA02935; Tue, 30 Jun 92 21:15:05 EDT
+Received: from rolf.Helsinki.FI by funet.fi with SMTP (PP) 
+          id <03311-0@funet.fi>; Tue, 30 Jun 1992 22:36:55 +0300
+Received: by rolf.helsinki.fi (5.57/Ultrix3.0-C) id AA10181;
+          Tue, 30 Jun 92 22:36:37 +0300
+Date: Tue, 30 Jun 92 22:36:37 +0300
+From: tjj@rolf.helsinki.fi (Timo Jokitalo)
+Message-Id: <9206301936.AA10181@rolf.helsinki.fi>
+To: cube-lovers@ai.mit.edu
+
+
+In the mail I just sent, there were a couple of serious typing errors, but
+I think the gist of the message should be clear... sorry!
+
+	Timo
+

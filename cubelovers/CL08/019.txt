@@ -1,0 +1,38 @@
+From cosell@bbn.com  Tue Jan  7 09:49:04 1992
+Return-Path: <cosell@bbn.com>
+Received: from WILMA.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA25601; Tue, 7 Jan 92 09:49:04 EST
+Message-Id: <9201071449.AA25601@life.ai.mit.edu>
+Date:     Tue, 7 Jan 92 7:23:29 EST
+From: Bernie Cosell <cosell@bbn.com>
+To: cube-lovers@life.ai.mit.edu
+Subject:  Hungarian Rings solution?
+
+Does anyone have an algorithm for solving the "Hungarian Rings" they'd
+be willing to share.  I found one in a drawer that had been long
+misplaced, and I've been fiddling with it some.  It seems easy enough
+to find lots of 'commutators' for the thing, but all the ones I've run
+into have the annoying property that they produce symmetric
+perumtations [given a 180 degree rotation of the puzzle].  But of
+course, my puzzle is no where near symmetrically messed up.
+
+Any advice, hints, full-blown algorithm, etc, would be appreciated... Thanks!
+ /Bernie\
+
+ps, For those that don't remember it, the "Hungarian Rings" is a puzzle with
+beads arranged in two intersecting circles:
+
+	*       *
+      *   *   *   *
+    *       *       *
+  *       *   *       *
+ *       *     *       *
+  *       *   *       *
+    *       *       *
+      *   *   *   *
+	*       *
+
+[Imagine these both round...:-)]  and you can slide the beads around either
+cicle.    The beads come in four colors andthe object is to get the colors
+all sorted out.  /b\
+
+

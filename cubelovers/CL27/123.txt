@@ -1,0 +1,23 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug  5 18:57:05 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA26373
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 5 Aug 1999 18:57:04 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 27 Jul 1999 22:41:37 -0400
+Message-Id: <003B08AD.C22092@scudder.com>
+From: Jacob_Davenport@scudder.com (Jacob Davenport)
+Subject: Re: Rubik's Cube Perpetual Calendar
+To: "Cube-Lovers" <Cube-Lovers@ai.mit.edu>
+
+Chris,
+
+You may want to look at www.wunderland.com/WTS/Kristin/CustomCubes.html for 
+some more information about making a custom cube.  Kristin also owns a 
+French calendar cube, if I remember correctly, but I imagine that if you 
+have successfully made a calendar cube that you don't really need to know 
+how hers works.
+
+-Jacob
+

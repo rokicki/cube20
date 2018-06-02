@@ -1,0 +1,45 @@
+From brett@math.toronto.edu  Mon Oct 31 14:36:30 1994
+Return-Path: <brett@math.toronto.edu>
+Received: from math.toronto.edu (riemann.math.toronto.edu) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07023; Mon, 31 Oct 94 14:36:30 EST
+Message-Id: <9410311936.AA07023@life.ai.mit.edu>
+Subject: 
+To: cube-lovers@ai.mit.edu (cube)
+Date: Mon, 31 Oct 1994 14:35:34 -0500 (EST)
+From: "Brett Stevens" <brett@math.toronto.edu>
+X-Mailer: ELM [version 2.4 PL23]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 1214      
+
+I joined this list in the middle of an ongoing discussion
+on shift invariance.  can someone fill me in with the important
+definitions and what has already been discussed  (if it is not 
+too much work)
+
+brett stevens
+
+plus I am interested, scince seeing a part of Jerry Slokam's
+collection at the exhibit in chicago in august if anyone
+had a list or reference to a list of all made rubiks cube
+type puzzles  ie   external shape and intenal, rotaional structure
+I wouls very much like to know where I cvan get the following
+
+1  a 2X2X2  cube
+2  a the various puzzles with the pyramids internal structure but
+   and also the cubes internal structue  (3X3X3) but different
+   external structurs.
+3  conglomeration cubes--Ideal made one of these that was two
+   3X3X3  cubes sharing three cubies in a row  I have made
+   one of these myself by surgery on two cubes but I know
+   that there are other "conglomerates out there"
+4  kitsch-cubes   (my name)   but things like royal4  kitsch-cubes   (my name)   but things like royal4  kitsch-cubes   (my name)   but things like royal4  kitsch-cubes   (my name)   but things like royal
+wedding cubes,  mount rushmore etc.
+
+thanks 
+
+brett stevens
+
+brett@math.toronto.edu
+   
+

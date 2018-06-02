@@ -1,0 +1,14 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 11 Dec 86 09:03:53 EST
+Date: 11 Dec 86 08:58:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: 
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+From:	CLSTR1::MAILER        3-DEC-1986 10:50
+To:	BECK
+Subj:	[TCP/IP Mail From: <@AI.AI.MIT.EDU,@ardec-lcss.arpa:beck@clstr1.decnet>] 5X5X5 AVAILABILITY
+
+Return-Path: <@AI.AI.MIT.EDU,@ardec-lcss.arpa:beck@clstr1.decnet>
+Received: from AI.AI.MIT.EDU by ARDEC-LCSS.ARPA.ARPA ;  3 Dec 86 10:49:48 EST
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU  3 Dec 86 10:27:14 EST
+Date: 3 Dec 86 08:55:00 EST

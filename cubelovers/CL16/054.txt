@@ -1,0 +1,37 @@
+From vorms@iprolink.ch  Sun Jul 16 16:16:19 1995
+Return-Path: <vorms@iprolink.ch>
+Received: from badboy.iprolink.ch by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25737; Sun, 16 Jul 95 16:16:19 EDT
+Received: from port33.iprolink.ch (port33.iprolink.ch [194.41.63.33]) by badboy.iprolink.ch (8.6.12/8.6.12) with SMTP id WAA67592 for <Cube-Lovers@AI.MIT.EDU>; Sun, 16 Jul 1995 22:11:54 +0200
+Date: Sun, 16 Jul 1995 22:11:54 +0200
+Message-Id: <199507162011.WAA67592@badboy.iprolink.ch>
+X-Sender: vorms@mail.iprolink.ch (Unverified)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: Cube-Lovers@ai.mit.edu
+From: vorms@iprolink.ch (Beffa Raphael)
+Subject: Re: 
+X-Mailer: <Windows Eudora Version 1.4.2b16>
+
+>Hello my name is Raphael Beffa
+>
+>        I am a mew user on the web. I am really happy to realise that peaple
+>interested on the cube have a space to talk about on the net.
+>        
+>        I spent manny hours to develop different prototypes:
+>An 5^3 cube in 1981 a symetrical one 2^3 cube in 1981 and one more
+>sophisticated  5^3 cube 1983.
+>        I realised a simple simulator on my PC for a 3^3 cube . One
+>representation is a classical perspective , I realised an other
+representation I called a "Planicube" view (6 faces on the same view).
+>
+>        Is somebody intersted on cube rotating on the summit (4 axes) insted of
+>rotating on the face (3 axes the original one).
+>        Or even rotating on the face and on the summit (7 axes).
+>        Maybe those prototypes allready exist. Please let me now.
+>
+>        Is anybody able to give me the solution of the Masterball.
+>                      
+>        I am happy to meet new frends, Reguards Raphael
+                       
+
+

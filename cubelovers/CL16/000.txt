@@ -1,0 +1,46 @@
+From alan@curry.epilogue.com  Fri May 19 22:01:05 1995
+Return-Path: <alan@curry.epilogue.com>
+Received: from curry.epilogue.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03671; Fri, 19 May 95 22:01:05 EDT
+Received: (from alan@localhost) by curry.epilogue.com (8.6.8/8.6.6) id WAA00372; Fri, 19 May 1995 22:01:05 -0400
+Date: Fri, 19 May 1995 22:01:05 -0400
+Message-Id: <19May1995.194423.Alan@LCS.MIT.EDU>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+Reply-To: Cube-Lovers-Request@ai.mit.edu
+To: Cube-Lovers@ai.mit.edu
+Subject: The Cube-Lovers Archives expands
+
+Occasionally people have approached me and wondered if there was an FTP
+archive of Cube-related material (programs, documents, databases, pictures,
+whatever).  I have always replied that the only archive I knew of was the
+archive of Cube-Lovers mail that I maintain.  Since this question keeps
+coming up, there must be a need to be filled, so I propose to expand our
+archives to cover any additional Cube-related material that people might
+care to submit.
+
+If you would like to submit a contribution to this archive, please send
+mail to Cube-Lovers-Request@AI.MIT.EDU (please do -not- send mail to all of
+Cube-Lovers) and include:
+
+  o  The location where I can pick up the files you wish to contribute
+     (preferably using anonymous FTP).
+
+  o  A brief description of your contribution, to be included in a master
+     index file.
+
+I reserve the right to redescribe, repackage, rename, recompress or totally
+reject your contribution.
+
+Periodically I will announce new additions to the archive to all of
+Cube-Lovers.  Currently the archives contain nothing other than the
+electronic mail archives.  (Although I know of at least one potential
+contributor who's been waiting in the wings for a couple of months now...)
+
+Some of you will no doubt have forgotten where the archive is: 
+
+Using FTP, connect to FTP.AI.MIT.EDU, login as "anonymous" (any password),
+and go to the directory "pub/cube-lovers".  (From the World Wide Web, you
+can use the URL: "ftp://ftp.ai.mit.edu/pub/cube-lovers".)
+
+				- Alan
+

@@ -1,0 +1,39 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Mon Dec 20 06:43:01 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from  by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AB00195; Mon, 20 Dec 93 06:43:01 EST
+Message-Id: <9312201143.AB00195@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 0849; Mon, 20 Dec 93 00:46:03 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 3167; Mon, 20 Dec 1993 00:46:03 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 3756; Mon, 20 Dec 1993 00:43:28 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Mon, 20 Dec 1993 00:43:27 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Process for Antipodal of the Edge Group
+
+This is the first process I have found for the antipodal of Start
+in the edge group (edges without corners and without centers).
+There are certainly many more, but I have not yet cataloged them
+all.
+
+  FR'LFL'B'R'FL'FRBL'BL'
+
+Note that this process (as with any process for the antipodal) is
+its own inverse.  Hence, you can use it once to get from Start to
+the antipodal, and again to get from the antipodal to Start.  Also,
+the "natural" inverse (namely, LB'LB'R'F'LF'RBLF'L'RF') is also
+a process which will go in either direction, Start to the antipodal,
+or antipodal to Start.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

@@ -1,0 +1,21 @@
+From raymond@cps.msu.edu  Fri Oct  1 12:37:21 1993
+Return-Path: <raymond@cps.msu.edu>
+Received: from atlantic.cps.msu.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA15150; Fri, 1 Oct 93 12:37:21 EDT
+Received: from pacific (pacific.cps.msu.edu) by atlantic.cps.msu.edu (4.1/rpj-5.0); id AA07924; Fri, 1 Oct 93 12:37:10 EDT
+Received: by pacific (5.0/SMI-SVR4)
+	id AA28543; Fri, 1 Oct 93 12:37:08 EDT
+Date: Fri, 1 Oct 93 12:37:08 EDT
+From: raymond@cps.msu.edu
+Message-Id: <9310011637.AA28543@pacific>
+To: cube-lovers@ai.mit.edu
+Subject: Seeking 5x5x5 cube
+Content-Length: 115
+
+Hello cube lovers,
+
+  I am looking for a 5x5x5 cube.  Does anybody know where I can
+get one?
+
+Thanks,
+Carl Raymond
+

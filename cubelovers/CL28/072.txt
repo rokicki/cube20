@@ -1,0 +1,54 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jan 27 19:43:12 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA24502
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 27 Jan 2000 19:43:12 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: "Chris Pelley" <ck1@home.com>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: RE: Rubik's Revenge by Oddzon and Meffert's New Puzzles
+Date: Tue, 25 Jan 2000 00:08:38 -0500
+Message-Id: <NDBBLHBJOLNCAMMDPAPAKECCCDAA.ck1@home.com>
+In-Reply-To: <PLEJLGAOLFCFHLCEEHHBAENGCAAA.keyoung3@vt.edu>
+
+I'll add my two cents to this discussion, since I recently acquired some of
+the new 4x4x4 units as well.  In short, both the Meffert and Oddzon reissues
+are excellent.  The Oddzon initially turned the smoothest, but now my
+Meffert's version is broken in and turns equally well.  Both cubes offer a
+little give when the faces are not perfectly aligned.  They seem very
+forgiving and you don't get the sense that you're going to break something
+by playing with them.  In contrast to the old 1982 models (I have 3 or 4 of
+the squeaky variety that broke easily), I'd say they're both great
+improvements.
+
+Regarding the stickers used, the Oddzon uses the blue opposite green color
+scheme (yellow opposite white, orange opposite red).  The stickers on the
+unit I received have not worn off like the Oddzon 3x3x3 stickers.  This
+could be due to the fact that they are smaller, and less likely to be
+scraped by a fingernail?  At any rate, the Meffert's 4x4x4 is clearly
+superior since it uses the same six colors, but with the non-slip grooved
+tiles.  His color combination places red opposite white and yellow opposite
+orange, which works well.
+
+I also got the other new Meffert cubes that feature the non-slip tiles,
+including a Megaminx that has 12 unique colors (even the original had two
+yellow faces on the top and bottom).  This is the best Megaminx ever!  It's
+also nice having the Pyraminx, Skewb, and 5x5x5 in deluxe tile versions.
+The cubic puzzles feature the same colors as his new 4x4x4 and the Pyraminx
+receives red, blue, yellow, and green.
+
+Finally, I'll mention a new puzzle called QUBLE by Geospace.  This is really
+just a 3x3x3 with letters printed on the stickers.  Scrambling the letters
+allows word games to be played with the cube, and there are six colors so
+you can also solve it the traditional way.  Here is the URL:
+
+http://www.kbkids.com/toys/product.html?WebID=0098549f5b33001b519f5b330041ea
+9f5b330018619f5b33
+
+If that doesn't work, just search for "rubik" at www.kbkids.com
+
+Christopher Pelley
+ck1@home.com
+www.chrisandkori.com/cubes.htm
+

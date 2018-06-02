@@ -1,0 +1,48 @@
+From dik@cwi.nl  Mon Jan  9 17:25:44 1995
+Return-Path: <dik@cwi.nl>
+Received: from hera.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12462; Mon, 9 Jan 95 17:25:44 EST
+Received: from boring.cwi.nl by hera.cwi.nl with SMTP
+	id <AA12189@cwi.nl>; Mon, 9 Jan 1995 23:25:25 +0100
+Received: by boring.cwi.nl 
+	id <AA05290@cwi.nl>; Mon, 9 Jan 1995 23:24:17 +0100
+Date: Mon, 9 Jan 1995 23:24:17 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9501092224.AA05290=dik@boring.cwi.nl>
+To: BRYAN@wvnvm.wvnet.edu, Cube-Lovers@ai.mit.edu
+Subject: Re: kociemba's algorithm for quarter turns
+
+ > I read the articles in the archives about Kociemba's algorithm about
+ > a year ago, without (I confess) fully understanding them.  In particular,
+ > I do not fully understand what differentiates Kociemba's algorithm from
+ > Thistlethwaite's algorithm, other than it uses a different arrangement
+ > of nested subgroups.
+
+The basis is similar (although Kociemba's algorithm uses searching to
+get solutions while Thistlethwaite's uses tables and directly arrives
+at solutions).  The main difference is that once a solution is found
+Thistlethwaite's algorithm stops.  Kociemba's algorithm continues finding
+newer solutions (even longer than the original solution) to phase 1 and
+trying to fit them with a solution for phase 2 such that the total solution
+is shorter.  This proves to be very effective.  Of course this is easier to
+do with a 2 phase algorithm than with a 4 phase algorithm.
+
+ > But in the meantime, I wonder if you could verify that Kociemba's
+ > algorithm does not guarantee to find a minimal process?  In particular,
+ > is it the case that 26q is a minimal superflip, or is it only an
+ > upper bound?
+
+Given time Kociemba's algorithm will find a minimal solution.  I confess
+that my implementations does not if the configuration can be solved
+through phase 2 only, but the cube can be rotated to avoid that.  The
+reason is that ultimately Kociemba's algorithm will find longer part
+solutions of phase 1 and ultimately stumble on a complete solution in
+phase 1 which will be minimal because of the breadth first search.
+
+But it can take long.  Getting a minimal solution if the length is 16
+or less appears to be doable.  If the length is 19 or more it takes an
+awfully long time.  What I have found until now is:
+1.  There are no configurations known that require 21 turns or more,
+    and I checked an awfully large number.
+2.  There are known configurations that require 18 turns.
+The middle part is a grey area.
+

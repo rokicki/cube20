@@ -1,0 +1,65 @@
+From BRYAN@wvnvm.wvnet.edu  Mon Oct 23 16:38:39 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29047; Mon, 23 Oct 95 16:38:39 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R3)
+   with BSMTP id 8685; Mon, 23 Oct 95 16:38:12 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 7909; Mon, 23 Oct 1995 16:38:13 -0400
+Message-Id: <wvmail32.1995oct23.161952.bryan@wvnvm.wvnet.edu>
+Date:      Mon, 23 Oct 1995 16:38:12 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject:   Re: pull out the corner?
+In-Reply-To: Message of 10/23/95 at 20:42:30 from hazard@niksula.hut.fi
+
+On 10/23/95 at 20:42:30 Mikko Haapanen said:
+
+>I have a question (yes, again). This subject may be discussed here before,
+>but i don't understand set theory or other high math, so i ask:
+
+>If i had a 3x3x3 cube and i pull out a corner piece. I turn it and push
+>back. Now the cube cannot be solved. I think the cube is now 'on the other
+>orbit'. If i pull now an edge piece and flip it, the cube is again on some
+>other orbit.
+
+>Only one of those orbits are legal. How many different illegal orbits there are
+?
+
+In the terms you are using, there are 12 orbits.  Of these, 1 is
+"legal" (contains Start), and 11 are "illegal" (do not contain
+Start).
+
+There is a factor of 3 from twisting the corners.  Pull out a corner
+piece.  There are 3 ways to put it back in.  You can put it back in
+the way it came out, you can twist it right, or you can twist it left.
+
+There is a factor of 2 from flipping the edges.  Pull out an edge
+piece.  There are 2 ways to put it back in, flipped or unflipped.
+
+There is a factor of 2 from parity.  The edges can be said to be in
+even parity or in odd parity, and the corners can be said to be in
+even parity or odd parity.  Normally, the corners and edges are in
+the same parity.  A quarter turn changes the parity both for the
+edges and for the corners.  But pull out 2 edges pieces (or 2 corner
+pieces).  Put them back where they came from, and their parity
+remains the same.  Exchange them, and their parity changes.
+
+We therefore have 12=3x2x2.
+
+However (and draw a deep breath), for every expert there is an equal
+and opposite expert.  This use of the term "orbit" agrees with some
+experts.  However, other experts would say that the corners form an
+orbit, that the edges form an orbit, and that the face centers form
+an orbit.
+
+I don't know which use of the term orbit is correct (perhaps both are
+in the proper context).  But in any case, if you take a cube apart,
+there are 12 disjoint sets of positions that you choose from when you
+put the cube back together.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

@@ -1,0 +1,20 @@
+Date: 18 May 1982 09:12-EDT
+From: Richard Pavelle <RP at MIT-MC>
+Subject: C^4
+To: CUBE-LOVERS at MIT-MC
+
+I solved it after about 10 hours. The very tricky part, as I mentioned
+in my last message, is to move the edges about in a plane. I still do
+not have a move which moves 3 in one slice (nicely), rather 2 in one slice 
+and one in the adjacent slice. This makes the process very time consuming.
+I also believe centers first is probably the way to approach it although
+it is just a feeling. I think that moving only some of the center cubies 
+will require very complicated transformations.
+
+I would guess this cube requires about 10 times more moves than C^3.
+Does anyone else care to speculate? I will be surprised if anyone
+will ever solve C^4 regularly in under 10 minutes. 
+
+Two questions:
+1) Any comments about cube-lube. This cube is massive and needs some.
+2) I heard there are about 10^50 configurations, true?

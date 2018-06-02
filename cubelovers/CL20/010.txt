@@ -1,0 +1,33 @@
+From cube-lovers-errors@curry.epilogue.com  Tue May 28 23:35:28 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id XAA01092 for <cube-lovers-outbound@curry.epilogue.com>; Tue, 28 May 1996 23:35:27 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <31ABA343.23B@erols.com>
+Date: Tue, 28 May 1996 21:07:15 -0400
+From: Charlie Dickman <charlied@erols.com>
+Reply-To: charlied@erols.com
+X-Mailer: Mozilla 2.01 (Macintosh; U; 68K)
+Mime-Version: 1.0
+To: Cube-Lovers@ai.mit.edu
+Subject: A 4-dimensional Cube
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+I have a document that describes a model of a 4-dimensional Rubik's Cube 
+(3x3x3x3) and a program that implements the model. The document is a 
+stand-alone that executes on a Macintosh and the implementation of the 
+model runs on a Mac as well.
+
+This paper/program is based on an unpublished paper by Harry Kamack and 
+Tom Keene that was referenced in Hofstader's '82 SA column.
+
+I'll be more than happy to share them with any interested parties - let 
+me know your interest. Anyone with a site on the Web who would like me 
+to upload the files please let me know. The document is 305K bytes, the 
+program is 197K bytes.
+
+Charlie Dickman
+charlied@erols.com
+
+

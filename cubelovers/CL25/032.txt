@@ -1,0 +1,83 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun Apr  5 16:13:15 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA20772; Sun, 5 Apr 1998 16:13:15 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Mar 30 20:40:51 1998
+Date: Mon, 30 Mar 1998 20:41:13 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Pretty vs. Not-So-Pretty Isoglyphs
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.980330202452.358663A-100000@PSTCC6.PSTCC.CC.TN.US>
+
+After looking at a lot of isoglyphs and partial isoglyphs in the last
+little while, I wonder if it's not the case that some of the
+non-continuous isoglyphs are prettier than some of the continuous ones,
+and that some of the partial isoglyphs are prettier than some of the
+isoglyphs?
+
+Continuous isoglyphs do *in general* seem prettier than non-continuous
+ones, and isoglyphs do *in general* seem prettier than partial isoglyphs.
+But consider the following two (counter?) examples.
+
+The glyph
+
+   000
+   XXX
+   000
+
+yields (among other things) L2 F2 L2 R2 F2 R2, which is a non-continuous
+partial isoglyph.  It looks about as follows (quite pretty and striking,
+in my opinion):
+
+      XXX
+      XXX
+      XXX
+
+  0X0 0X0 0X0 0X0
+  0X0 0X0 0X0 0X0
+  0X0 0X0 0X0 0X0
+
+      XXX
+      XXX
+      XXX
+
+
+
+On the other hand,
+
+   U B2 R2 F2 L2 U L2 F2 U2 R' B' R F' L' U2 B2 R2 B' D' U'
+
+is a real mess in my opinion, even though it is a continuous isoglyph. It
+looks something like the following.
+
+      X00
+      0X0
+      XXX
+
+  XOX XXX X00 00X
+  XX0 0X0 0X0 0XX
+  X00 00X XXX X0X
+
+      00X
+      0XX
+      X0X
+
+
+Notice that the partial isoglyph which was my first example "looks" fairly
+continuous, even though it really isn't.  The reason it looks that way is
+that it is continuous along all the edges where the non-solid glyphs come
+together.  Call such a non-continuous partial isoglyph quasi-continuous.
+I think your eye tends to ignore the solid faces anyway, so that a
+quasi-continuous partial isoglyph tends to be very striking and very
+pretty.  For example, there are a number of 4-H and 4-T patterns among the
+partial isoglyphs which are quasi-continuous and which are very pretty.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

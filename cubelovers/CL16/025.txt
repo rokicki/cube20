@@ -1,0 +1,133 @@
+From BRYAN@wvnvm.wvnet.edu  Sun Jun 18 00:35:58 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09680; Sun, 18 Jun 95 00:35:58 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 1914; Sat, 17 Jun 95 17:18:01 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 1612; Sat, 17 Jun 1995 17:18:01 -0400
+Message-Id: <wvmail32.1995jun17.093300.bryan@wvnvm.wvnet.edu>
+Date:      Sat, 17 Jun 1995 17:18:00 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   A Third Way to Calculate the Real Size of Cube Space?
+
+We define the real size of cube space to be the number of M-conjugate
+classes {m'Ym} for m in M, set of 48 rotations and reflections
+of the cube, and for Y in G.
+
+Dan Hoey has calculated the real size of cube space using the
+Polya-Burnside theorem.
+
+Dan and I (mostly Dan) have also calculated the same result using
+exhaustive computer search.  The computer search is much less
+elegant than the Polya-Burnside results, but the search does
+provide additional information, such as the number of positions
+associated with each symmetry group.  The results from the
+computer search have not yet been posted to the list, but a draft
+paper is in progress.
+
+In the meantime, it occurs to me that perhaps  --  but only perhaps --
+there is a third way to calculate the real size of cube space.
+The third way would not require (much) computer searching, but would
+provide the same level of detail about number of positions per
+symmetry group as does the full blown search.
+
+The idea is based on a posting from Mike Reid.  Mike calculated the
+number of positions in G whose symmetry preserves the U-D axis.
+Such positions have a symmetry group which is called X1
+in Dan's taxonomy.  For these positions, we say Symm(Y)=X1,
+where in general for Y in G we have Symm(Y) is the set
+(and group) of all m in M such that Y=m'Ym.
+
+X1 contains sixteen elements (eight rotations and eight reflections),
+and preserves the U-D axis.  X2 and X3 are conjugate subgroups of X1
+and similarly preserve the F-B and the R-L axes, respectively. If Y is
+X1-symmetric, then we have {m'Ym}={Y1,Y2,Y3}.  One of the Yi is Y
+and is X1-symmetric, one of the Yi is X2-symmetric, and the other
+Yi is X3-symmetric.
+
+Mike determined (without computer search) that there are 128
+X1-symmetric positions.  Since four of the positions are also
+M-symmetric, we have 124 positions Y for which Symm(Y)=X1.
+Similar results hold for X2 and X3.  Hence, there are 124
+M-conjugacy classes containing cubes for which Symm(Y)=Xi, or
+perhaps we might say for which SymmClass(Y)=X.  The important
+fact here is that we have determined that there are
+124 M-conjugacy classes for symmetry class X without having
+to do a computer search.
+
+If we could similarly determine the number of K-symmetric positions
+for each of the 98 subgroups K of M without computer search, then
+we could calculate the real size of cube space.  You really only
+have to determine the size of 33 subgroups.  Just as the solution
+for X1 also gave us the solution for X2 and X3, similarly the
+solution for any subgroup provides the solution for all conjugate
+subgroups, and there are 33 classes of conjugate subgroups.
+
+I usually get myself in trouble when I delve too much into things
+I don't understand, but let's try a few examples.  The subgroup
+HV={i,v} is easy to understand, where v is the central inversion.
+For the edges, the number of HV-symmetric positions should be
+24*20*16*12*8*4.  That is, put the first cubie anywhere (24
+possibilities) which dictates the location of the respective
+"opposite" cubie.  There are then 20 possibilities for the
+location of the third cubie which again dictates the position
+of the respective "opposite" cubie, and so forth.  In the same
+manner, the number of HV-symmetric corner positions is
+24*18*12*6.  The number of HV-symmetric positions is then
+(24*20*16*12*8*4)*(24*18*12*6)/2 to take parity into account.
+
+Now we have the rub.  In order to calculate the positions for
+which Symm(Y)=HV, we must subtract out the HV-symmetric
+positions which have stronger symmetry than HV, just as we
+subtracted out the M-symmetric positions in Mike's X1 case.
+But to do so, we cannot take the subgroups of M in isolation.
+We have to do them all, starting with M and working our way
+down.  (And HV is pretty far down the food chain.)
+
+Some of the subgroups I can do pretty easily, and for others I have
+not a clue.  Recall that A is the subgroup of M consisting of the
+24 even rotations and reflections and that C is the subgroup of
+M consisting of the 24 rotations (12 even and 12 odd).  As long
+ago as _Symmetry and Local Maxima_, Dan Hoey and Jim Saxe
+determined that there are only four A-symmetric positions and
+only four C-symmetric positions, namely the four that are also
+M-symmetric.  Hence, there are no positions for which Symm(Y)=A
+nor for which Symm(Y)=C.  But I haven't a clue how they knew,
+nor how to go about constructing an A-symmetric or a C-symmetric
+position from scratch.  You can't get very far with my proposal
+unless you can figure out how to construct K-symmetric positions
+for any K.
+
+For one more example, consider H, the set of 12 even rotations and
+12 odd reflections.  I know from computer search and also from
+_Symmetry and Local Maxima_ that there are 24 H-symmetric positions,
+of which 4 are M-symmetric and 20 are H-symmetric without also being
+M-symmetric.  The 20 H-symmetric but not M-symmetric positions form
+10 M-conjugacy classes for which we would say SymmClass(Y)=H.  It
+ought to be easy to derive this result without a computer search, but
+again I confess I haven't a clue as to go about constructing the 24
+H-symmetric positions from scratch.
+
+Well, I could cheat and look up the Class H positions
+in _Symmetry and Local Maxima_, but what about the classes
+that haven't been figured out yet?  Also, I could cheat and
+use the results from computer search, but that's hardly the
+point.
+
+One final point: just as Mike's 128 X1-symmetric positions formed
+a group, similarly the set of K-symmetric positions form a group
+for all 98 possible values of K.  We have to be a little careful
+with our terminology.  The X1-symmetric positions form a group,
+as do the X2-symmetric and the X3-symmetric positions.  But if
+we want to talk about the X-symmetric positions, we no longer
+have a group.  For example, we do not in general have closure
+when forming the composition of X1-symmetric positions with
+X2-symmetric positions.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

@@ -1,0 +1,211 @@
+Date:  6 Aug 1980 1909-PDT
+From: CSD.VANDERSCHEL at SU-SCORE
+Subject: Orbit Classification
+To: CUBE-LOVERS at MIT-MC
+cc: CSD.VANDERSCHEL at SU-SCORE
+
+Having read the CUBE-LOVERS mail, I note a recurring theme of dismay
+that there is no clearly stated procedure for deciding whether a given
+configuration is reachable (or solvable) or not.  Furthermore, I share
+Dyer's view that there has been no persuasive presentation of the fact
+that there are precisely 12 equivalence classes of permutations under
+the transformations permitted by the cube.  In this note, I intend to
+clear up this situation for the benefit of the less sophisticated
+readers of this material.
+
+I should apologize at the outset for my ignorance.  I have not read
+Singmaster's pamphlet, nor have I communicated with any of the
+knowledgeable people around here at Stanford on the subject of cubes.
+My knowledge stems entirely from my own personal efforts at solving
+cubes and what I have gleaned from CUBE-LOVERS mail.  So I hope
+readers will be tolerant of any lengthy explanations of well-known
+cube-lore.
+
+COMMENTS ON NOTATION
+
+I will start by offering my two-bits-worth on notation.  It is
+relevant because I will use some of it later.
+
+I prefer to call the cubies in the centers of the faces "face cubies",
+because "center" and "corner" both start with a "C".  (Also, I have
+worked with other 3X3X3 cubes and tended to use "center" for the one
+in the middle that you cannot see.)
+
+I do not agree that there is any need for notation to describe
+orientation of the whole cube or reorientation of it.  For discussion
+purposes, you should pick one orientation of the cube (based on the
+direction in which its face cubies are oriented) and leave it that
+way.  All transformations can be described relative to that
+orientation.
+
+Rotating a center-slice should not be considered to be a move, since
+it changes the orientation of the cube.
+
+Since it is not the case that all cubes have the same color pattern,
+no direct reference should be made to color.  Instead the exposed
+faces of any cubie should be identified in terms of the direction
+(LRFBUD) they will face when the cubie is in its home (or at START)
+position relative to the chosen orientation of the cube.
+
+When I was learning to work cubes, the concept of complementarity
+played a critical role.  (I do not claim my methods are good. It takes
+me about 20 min.)  It is certainly handy to have a way of talking
+about pairs of opposing faces.  I think most would agree that the top
+and bottom can be referred to as "horizontal" faces, and left and
+right can be called "lateral" faces.  For front and back, I really do
+not know a good word; I suggest calling them "extremal", since their
+face cubies are the closest and most distant from the observer's point
+of view.
+
+
+ORBIT CLASSIFICATION (for the uninitiated)
+
+Introduction -
+
+It is possible to define some "parity" concepts that simplify stating
+the characterization of the equivalence classes of cube
+configurations.  The precise definitions will follow; but to start
+with, we will name them:
+
+	Edge Permutation Parity (EPP = 0 or 1)
+	Edge Orientation Parity (EOP = 0 or 1)
+	Corner Permutation Parity (CPP = 0 or 1)
+	Corner Orientation Parity (COP = 0, 1, or 2)
+
+A configuration is reachable if COP and EOP are zero and CPP=EPP.
+
+More generally, setting TPP=CPP+EPP mod 2, we can define
+
+	Total Permutation Parity (TPP = 0 or 1).
+
+Then the Parity Vector, defined by (TPP, EOP, COP), can be used to
+represent the equivalence class of a configuration.
+
+Permutation Parities Defined -
+
+Background: A permutation of [1,n] is considered to be even (0) or odd
+(1) depending on whether an even or odd number of pair swaps is
+required to restore the set to original order.  You can compute it by
+counting the number of reversals in the sequence - ie., the number of
+pairs, (p,q) such that p>q and p precedes q.
+
+For the cube, you can assign a position number (1-8) for each of the
+corners and also a number (1-12) for each of the edge positions.  For
+each cubie, you can the speak of its home position number and its
+current position.  Writing down home position numbers in order of
+current position gives a permutation of natural numbers in which you
+can count reversals to see if it is odd or even.  This is done without
+regard to orientation.
+
+Properties: A quarter turn is an odd permutation of the four edges
+involved and also of the four corners.  Thus a quarter turn changes
+both EPP and CPP but leaves TPP unchanged.  TPP is preserved by all
+twists.
+
+Edge Orientation Parity Defined -
+
+For each edge cubie consider its Oriented Distance from Home, defined
+to be the smallest number of quarter turn twists required to put it in
+its home position with correct orientation.  It is no bigger than 4.
+As an example, an edge cubie at home with the wrong orientation is at
+an oriented distance of 3.  EOP is the sum modulo 2 of the Oriented
+Distances from Home for all edge cubies.
+
+Properties: For each edge cubie affected, a quarter turn either
+increases or decreases its Oriented Distance from Home by 1.  Since 4
+edge cubies are affected, the net effect must be even.  Thus all
+twists preserve EOP.
+
+Corner Orientation Parity Defined -
+
+Looking head-on at the apex of any corner you can consider twisting it
+to any one of three positions.  For any given corner cubie we define
+its individual orientation parity to be the number of 120 degree
+counter-clockwise twists required to bring the horizontal face of the
+cubie into horizontal position relative to the whole cube.  COP is the
+sum modulo 3 of the individual parities.  (Since it is three-valued,
+it could be argued that COP ought not to be called a "parity", but
+that fouls up the parallelism in the discussion.)
+
+Properties: Twisting a horizontal face does not change the orientation
+of any corner.  Twisting an extremal or lateral face does alter
+orientations.  Consider a counter-clockwise quarter turn of either
+kind of vertical face.  For each of the two corner cubies that remain
+in the same horizontal face, the orientation parity decreases by 1
+modulo 3.  For the other two, it increases by 1.  Again, the net
+effect is zero.  COP is preserved by all twists.
+
+Equivalence Classes -
+
+There must be at least 12 orbits, since all transformations preserve
+the Parity Vector, (TPP,EOP,COP), and it has 12 possible values.  To
+show there cannot be more, you must show, given two configurations
+with the same Parity Vector, that one can be transformed into the
+other.  The first paragraph of the note from Davis to DDYER, dated
+Aug. 4, indicates how the corners can be permuted and reoriented.  We
+need to be a little more careful about the interaction between the
+processes that rearrange corners and edges.  Suppose we are
+considering going from a configuration A to a configuration B, and
+consider the intermediate stage C at which we have permuted and
+reoriented the corners to agree with the target configuration B.
+First we observe that the EPP of C must agree with that of B, whether
+or not A and B have the same CPP.  Thus there is an even permutation
+of the edges of C that will put them in the desired target positions
+of B.  This permutation can be generated by swapping appropriate pairs
+of edge cubie pairs.  Consider the intermediate stage D achieved after
+all edge cubies are in their desired positions.  Now the EOPs of D and
+B agree, so the number of edge cubies with wrong orientation must be
+even.  This can be corrected by flipping an appropriate set of edge
+pairs in place.
+
+The Extended Problem -
+
+If the orientations of face cubies are to be considered then we
+introduce
+
+	Face Orientation Parity (FOP = 0 or 1).
+
+It is the number of quarter turns modulo 2 required to get all the
+face cubies back to starting position.  Adding this fourth component
+to the Parity Vector yields 24 equivalence classes.  Existence of
+appropriate transformations for moving about within equivalence
+classes was indicated by ALAN and CMB in their notes of Jul. 15.
+
+Complementary Configurations -
+
+A configuration may be said to be complementary if every color exposed
+on a face of the cube either agrees with that of the face cubie on
+that cube face or comes from the parallel opposing face.  There seems
+to be a fair amount of interest in such positions.  It is easy to see
+for such configurations that COP and EOP are 0.  Thus the
+configruation is reachable if and only if its TPP is 0.  This can be
+determined easily by counting "wrong" cubie faces - ie., edge or
+corner cubie faces with the color complementary to that of the face
+cubie on the same cube face.  TPP is 0 if and only if this number is a
+multiple of four.  (It is always even.)
+
+If you restrict yourself to 180 degree twists, you can generate only
+complementary configurations.  Thus the more interesting complementary
+configurations tend to be those that require quarter turns to achieve.
+
+
+A REDUCED PROBLEM ?
+
+Suppose you lock up four of the axles and consider turning just two
+adjacent faces.  This Two-Faced puzzle deals with only 15 of the
+cubies.  I got the bright idea of playing with a logically jammed cube
+after I had already developed a crude methodology for working cubes.
+I figured that with a simpler problem I might gain some new insights.
+Actually, I got confused.  In retrospect, this is not so surprising.
+I think that most of us would grant that if you can work Two-Faced
+cubes, you can certainly work the whole thing.  The point is that you
+tend to encounter many of the same sorts of problems, but you have
+fewer degrees of freedom for dealing with them.
+
+The argument already given shows that the Two-Faced cube must have at
+least 12 equivalence classes.  It is not clear to me that there are
+not more in this case.  I have not discovered all the tools to show
+that two members of the same equivalence class (in the regular sense)
+can be transformed into one another.  Can anyone out there resolve
+this issue?
+-------

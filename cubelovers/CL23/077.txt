@@ -1,0 +1,79 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Jul 29 10:52:34 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id KAA09946; Tue, 29 Jul 1997 10:52:33 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From nbodley@tiac.net Tue Jul 29 03:22:14 1997
+Date: Tue, 29 Jul 1997 03:10:32 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Corey Folkerts <CFolkerts@compuserve.com>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: 2^3 Reassembly
+In-Reply-To: <199707280518_MC2-1BB6-48C8@compuserve.com>
+Message-Id: <Pine.SUN.3.95.970729023932.13860A-100000@sunspot.tiac.net>
+
+ My, it's been a while since I opened up mine. I hope I remember. What
+perplexes me (I was about to say, "puzzles me") is that I don't recall how
+it could be assembled wrong; surely there aren't two internal mechanisms
+that differ in some details? 
+
+ Perhaps it would help if I describe the internal structure (from memory).
+
+ The basic structure that I remember is built on a "jack"; it's basically
+mutually-orthogonal extensions from a center, so to speak; like a physical
+embodiment of the axes of 3-D Cartesian coordinates. What I recall is that
+three of these, all adjacent, have a square cross-section; the other three
+have a circular cross-section, with a diameter significantly smaller than
+a side of the square.
+
+ Each of three round projections fits into a hole through a rotating
+long, thin square prism. (In the vernacular, square sticks with round
+holes through their centers.) In mine, I am just about certain that all of
+these had the same length.
+
+ Each cubie (all were identical internally) is hollow, but cut away with
+concave arcs that allow them to turn with respect to their neighbors.
+
+ The cubies are kept together by 12 "clips". These fit into the cutout
+arcs; when you assemble the Cube, you put two cubies next to each other
+(they touch) and fit this "clip" so that it keep s them together. To
+install it, you move the clip away from the imaginary geometrical center
+of the whole puzzle.
+
+ As I recall them, the "clips" are essentially quadrants (1/4 circles).
+They consist of two parallel planes with a gap between them; the sides of
+the cubies fit into this gap. The parallel planes are joined at the inner
+edges.
+
+ When the whole Cube is assembled, the square extensions of the "jack", as
+well as the square sticks that turn on the other ends of the jack serve to
+keep the clips from moving toward the center of the whole Cube.
+
+ This is a structure that could not be either assembled or disassembled if
+it were made of rigid materials. It's only because the cubies (at least!)
+are made of a strong plastic that has good mechanical spring properties
+and can be harmlessly deformed (within limits), that it is possible to
+make this structure.
+
+ >>> It's conceivable that the cube was misassembled so that one or more
+"clips" didn't actually straddle both of its cubies. When assembled, there
+should not be any gaps between the cubies, and all movement should be
+reasonably free of friction.
+
+ I'd love to know how these were assembled in the first place; did the
+mfr. have special tools to temporarily deform the parts? Did the
+assemblers develop very strong hand muscles?
+
+ Btw, it's a challenge to describe the innards in words.
+
+ I hope this helps!
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+

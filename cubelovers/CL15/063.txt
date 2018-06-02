@@ -1,0 +1,54 @@
+From mreid@ptc.com  Tue Mar  7 10:11:22 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04717; Tue, 7 Mar 95 10:11:22 EST
+Received: from ducie by ptc.com (5.0/SMI-SVR4-NN)
+	id AA07245; Tue, 7 Mar 95 10:09:26 EST
+Received: by ducie (1.38.193.4/sendmail.28-May-87)
+	id AA25628; Tue, 7 Mar 1995 10:25:12 -0500
+Date: Tue, 7 Mar 1995 10:25:12 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9503071525.AA25628@ducie>
+To: cube-lovers@ai.mit.edu, mark.longridge@canrem.com
+Subject: New GAP insights
+Content-Length: 1426
+
+mark writes
+
+[ ... ]
+
+> The following command shows that pons is at the centre of slice group:
+> Size (Centralizer (slice, pons)) = 768
+
+this is not hard to see.  the center of the slice group has order 32.
+if we hold the corners fixed, then these central elements are exactly
+those for which the six face-centers are correct.
+
+[ ... ]
+
+> Of course, now that I have answered my old questions, I must
+> formulate new ones....
+> 
+> A) What is the next most commutative element (the pancentre?)
+>   after the 12-flip?
+> B) What is the least commutative element (the anticentre?) of
+>   the cube group?
+
+i'm sure that GAP can do these.  you're interested in knowing about
+the orders of centralizers of various elements.  for an element
+g  in a group  G , we have
+
+            |G| / |Z(g)|  =  number of conjugates of  g .
+
+this is because the cosets  G / Z(g)  are in one-to-one correspondence
+with the conjugates of  g.  of course, this doesn't help much unless
+we know about conjugacy classes in  G.
+
+in the case of the cube group, however, conjugacy classes are easy to
+understand.  they are (almost) completely described by cycle structure.
+(some cycle structures have two conjugacy classes.)  there are many
+different possible cycle structures, but for each it should be easy to
+count the number of elements with that cycle structure (and also to
+tell whether they comprise a single conjugacy class or split into two).
+
+mike
+

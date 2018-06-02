@@ -1,0 +1,59 @@
+From dik@cwi.nl  Fri May 29 20:32:28 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA23171; Fri, 29 May 92 20:32:28 EDT
+Received: from steenbok.cwi.nl by charon.cwi.nl with SMTP
+	id AA17356 (5.65b/2.10/CWI-Amsterdam); Sat, 30 May 1992 02:32:23 +0200
+Received: by steenbok.cwi.nl 
+	id AA01086 (5.65b/2.10/CWI-Amsterdam); Sat, 30 May 1992 02:32:22 +0200
+Date: Sat, 30 May 1992 02:32:22 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205300032.AA01086.dik@steenbok.cwi.nl>
+To: J.M.Kloosterman@research.ptt.nl, cube-lovers@life.ai.mit.edu
+Subject: Re:  Lower-bound Kociemba's algorithm
+
+(About my conjecture of 16 moves for phase 2:)
+ > Unfortunately Dik's conjecture for phase 2 is too optimistic.
+ > Recall the maximum distances of the 4 stages of my algorithm:
+ >  1.  7 moves within the group <R, L, F, B, U,D>
+ >  2. 10 moves within the group <R, L, F2,B2,U,D>
+ >  3.  8 moves within the group <R2,L2,F2,B2,U,D>
+ >  4. 18 moves within the group <R2,L2,F2,B2,U,D>
+ > (Stage 3 and 4 together requires at most 25 moves.)
+
+ > These number of moves are minimal and cannot be improved within their
+ > group of moves.
+Did you (since your article) do an exhaustive search?  In your article you
+mentioned that you had 6 positions that still do require 18 moves.  And you
+mention that you doubted that there would be 17 move solvers.  Have you
+proven since then that it can not be done in less than 18?  If not, send me
+your positions and I will try.
+
+I have currently a program running that tries all phase 4 positions.  It
+is possible to reduce the number of searches from 3,981,312 (the article
+contains a typo here) to 428,544 by observing equivalent positions (as
+I did mention in a previous article (*)).  Assuming my conjecture of 16 the
+complete calculations would take about 1000 to 1500 hours (%).  Not
+unprecedented ;-).  (There must be a reason that I am a member of the CWI
+research group on large scale computing.)  There are now only two machines
+munching at the problem, but there would be no problem to start up a few more
+again.  I just did it to see what happens.
+
+dik
+--
+* The equivalent positions are found by rotation of the complete cube along
+the UD axis for a quarter turn, along the RL axis through a half turn and
+mirroring along the FRBL plane.  When looking at one dimension only this
+reduces the number from 40320 to 2768.  Restricting to Hans's initial positions
+in phase 4, this reduces the number from 576 to 62.  So the count becomes:
+	62 * 576 * 24 / 2
+in stead of
+	576 * 576 * 24 / 2 (= ((4!)^5) / 2).
+--
+% I found that an exhaustive search upto 16 moves takes about 10 seconds.
+Increasing to 17 would up the time to 110 seconds.  So if you mail me
+the situations for which you do not yet have less than 18 moves I will
+have an attempt at them.
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+

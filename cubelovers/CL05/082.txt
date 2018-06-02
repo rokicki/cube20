@@ -1,0 +1,32 @@
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  Administrivia
+To: CUBE-LOVERS@MIT-MC.ARPA
+
+Several years ago, when Cubes were a big rage, the great volume of mail
+sent to this mailing list forced us into making it into a digest.  For most
+of the last few years the list has been fairly low-volume, nevertheless I
+have refrained from converting the list back to direct-distribution because
+some of the messages sent directly to Cube-Lovers were really add-me
+requests.  Now I find that I am experiencing a new phenomena:  There is a
+growing tendency for people to address replies to messages I forward to
+Cube-Lovers to -me-, rather than to the original sender.  This is a bit of
+a pain for me, so as of right now, I am converting Cube-Lovers back to
+direct-distribution.
+
+Let me take this opportunity to remind you of two bits of administrative
+trivia:
+
+1.  Please continue to send all administrative requests (like if you want
+    to get off of the list) to Cube-Lovers-Request@MIT-MC.
+
+2.  Old cube-lovers mail is archived in the following places:
+
+    MC:ALAN;CUBE MAIL0	;oldest mail in forward order
+    MC:ALAN;CUBE MAIL1	;next oldest mail in forward order
+    MC:ALAN;CUBE MAIL2	;more of same
+    MC:ALAN;CUBE MAIL3	;still more of same
+    MC:ALAN;CUBE MAIL	;recent mail in reverse order
+
+    Files can be FTP'd from MIT-MC without an account.
+
+-------

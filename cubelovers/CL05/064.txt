@@ -1,0 +1,16 @@
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 08 OCT 84 08:57:05 PDT
+Date: 8 Oct 84 08:58:06 PDT (Monday)
+From: Lynn.es@XEROX.ARPA
+Subject: Re: Moleculon wins a round!
+In-reply-to: ALAN's message of 5 Oct 84 18:01 EDT
+To: Cube-Lovers@MIT-MC.ARPA
+cc: Lynn.es@XEROX.ARPA
+
+A similar article in the LA Times went on to say that the fellow at
+Moleculon had patented a 2x2 cube held together with magnets, but
+mention was made in the patent of larger cubes and mechanical linkages.
+How specific the mentions were is not clear.  He was also quoted to the
+effect that they do not dispute that Rubik invented the present cube,
+but it infringes on their patent.  Moleculon apparently offered to sell
+rights to their toy to Ideal before Rubik and were turned down.
+/Don Lynn

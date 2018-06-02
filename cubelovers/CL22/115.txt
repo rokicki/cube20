@@ -1,0 +1,85 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  2 17:30:49 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA04135; Mon, 2 Jun 1997 17:30:48 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Sender: Haym Hirsh <hirsh@cs.rutgers.edu>
+Date: Mon, 2 Jun 97 16:13:55 EDT
+From: Haym Hirsh <hirsh@cs.rutgers.edu>
+Reply-To: Haym Hirsh <hirsh@cs.rutgers.edu>
+To: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: A* versus IDA*
+In-Reply-To: Your message of Mon, 02 Jun 1997 09:50:34 -0400 (Eastern
+        Daylight Time)
+Message-ID: <CMM-RU.1.5.865282435.hirsh@pei.rutgers.edu>
+
+> Like everybody else, I am still trying to grasp IDA*.  The way it
+> backtracks reminds me a little bit of alpha-beta pruning.  There are
+> major differences, of course, because alpha-beta works with two person
+> games such as chess.  But the pruning idea seems very similar anyway. 
+
+Actually, in many respects IDA* and alpha-beta pruning are opposites.
+
+Alpha-beta pruning is a way to avoid exploring possible moves in
+game-tree search that are guaranteed to have no influence on what the
+final move will be.  It lessens the work that traditional minimax
+search would have to do by eliminating from consideration some of the
+possibilities it would ordinarily consider.  Alpha-beta results in a
+smaller search tree than minimax would ordinarily have.
+
+In contrast, IDA* =adds= additional work that, in theory, would not
+be necessary if the search was done optimally.  It basically keeps
+A*'s search tree, but searches parts of it multiple times.  Although
+this seems wrong-headed, it winds up being a win because, although it
+does some redundant work, the search method has much more realistic
+space requirements.
+
+Alpha-beta is a search-space-reduction method for the minimax search
+procedure.  IDA* is a search-space-maintaining method that replaces
+A*'s search of this space with a new search algorithm that explores
+some of A*'s possibilities multiple times, but at a tremendous savings
+of internal "bookkeeping" memory requirements.
+
+Finally, there is another analogy between alpha-beta and IDA* that is
+potentially misleading: both use evaluation functions to evaluate the
+merit of a given state (e.g., cube or board position), and, moreover,
+the more accurate the evaluation function, the better the performance
+of the search method.  However, in the case of alpha-beta, you expect
+a better evaluation function to yield better moves, i.e., it changes
+the output of the search method, returning something that looks
+better.  (Indeed, this seems to be a major reason for Deep Thought's
+success in its recent match against Kasparov.)  In contrast, as long
+as the evaluation function given to A* or IDA* never overestimates the
+cost of solving a given state (i.e., number of moves to solving a
+given cube), they are guaranteed to return an optimal solution.  Here
+the improved performance refers to run-time -- a better evaluation
+function typically means A* or IDA* will explore fewer states on its
+way to finding an optimal solution.  In the case of A* this means it
+reduces its run-time from very very unreasonable to very unreasonable,
+whereas for IDA*, in at least this problem, it reduces it from
+unreasonable to feasible.
+
+
+At the risk of having him bombarded with lots of email requests, I
+strongly encourage those who are interested in understanding this
+further to take up Professor Korf's offer of his survey of search
+methods in AI.  He is an excellent writer and has made many major
+contributions to this area.  Alternatively, most introductory
+textbooks on artificial intelligence cover search methods in a fairly
+early chapter (although not all cover IDA* in adequate depth).
+However, both options will probably assume some familiarity with basic
+concepts in computer science, so may not be accessible to all.
+
+Haym
+
+---------------------------------------------------------------------------
+Haym Hirsh                               office: Busch Campus, CoRE 317
+Associate Professor                      email:  hirsh@cs.rutgers.edu
+Department of Computer Science           phone:  +1 732-445-4176
+Rutgers University                       fax:    +1 732-445-0537
+New Brunswick, NJ 08903                  http://www.cs.rutgers.edu/~hirsh
+---------------------------------------------------------------------------
+
+
+

@@ -1,0 +1,122 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jul  7 02:22:55 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id CAA04972; Mon, 7 Jul 1997 02:22:54 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <199707070459.AAA17039@life.ai.mit.edu>
+Date: Mon, 7 Jul 1997 01:04:35 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: symmetry reductions for superflip
+
+a simple counting argument shows that some cube positions are at least
+18 face turns from start, and thus the diameter of the cube group is
+at least 18f.  in january 1995, i showed, by exhaustive search,
+that the position "superflip" is exactly 20 face turns from start.
+therefore the diameter is at least 20f.  this gave the first
+improvement to the lower bound obtained by the counting argument.
+
+the searching method i used at the time was my version of kociemba's
+algorithm.  although my symmetry reductions fit together quite well
+with kociemba's algorithm, this might not be the most appropriate
+searching method to use for this purpose.  (i guess i could have
+hacked it not to bother looking for solutions longer than 19f.
+i don't remember why i didn't do this.)
+
+my new optimal solving program can do an exhaustive search in much
+less time.  the symmetry reductions are similar, but much simpler.
+i will try be more coherent this time with my explanation, hopefully
+without being overbearing.
+
+the first thing to note is that dik winter found a maneuver for
+superflip in 20f:
+
+  F B U2 R F2 R2 B2 U' D F U2 R' L' U B2 D R2 U B2 U   (20f)
+
+therefore our concern is with searching for maneuvers of length
+at most 19f.
+
+there are three ways to transform a maneuver for superflip to get
+another such maneuver, which do not change its length:
+
+1. we may conjugate the maneuver by any symmetry of the cube.
+2. we may cyclically shift the maneuver; i.e. replace
+
+      sequence_1 sequence_2     by     sequence_2 sequence_1
+
+3. we may replace the maneuver by its inverse.
+
+(in fact, we won't use 3 here, but it might be helpful elsewhere.)
+our first result is
+
+proposition 1.  any maneuver for superflip in 19f contains a 180 degree
+                face turn.
+proof.  if the proposition were false, then superflip would be an
+        odd number of quarter turns from start, contradiction.  qed.
+
+the relevance of this proposition is
+
+proposition 2.  suppose that a maneuver for superflip contains a 180 degree
+                face turn.  then it can be transformed, using the above
+                tranformations, into a maneuver that begins with  U R2.
+proof.  we first claim that the maneuver has two consecutive "syllables"
+        such that the first contains a 90 degree face turn and the second
+        contains a 180 degree face turn.  a "syllable" is a sequence of
+        one or two face turns along the same axis; e.g. U D2.  by
+        hypothesis, the maneuver has a syllable that contains a half turn.
+        if the claim is false, then the preceding syllable contains no
+        90 degree turns, and therefore consists only of half turns.  but
+        then the syllable before that contains only half turns, by the
+        same reasoning.  continuing in this way, we see that every syllable
+        consists only of half turns.  therefore we have a maneuver for
+        superflip consisting only of half turns.  this is a contradiction,
+        so the claim is true.
+             now, since the individual face turns within a syllable
+        commute, we may suppose that the maneuver has a 90 degree face
+        turn followed by a 180 degree face turn, which are along
+        different axes, and thus are adjacent faces.  now we may
+        conjugate by an appropriate symmetry of the cube to suppose that
+        these turns are  U R2.  finally, we may cyclically shift the
+        maneuver so that these are the first two turns.  qed.
+
+proposition 3.  suppose that superflip is exactly 19 face turns from
+                start.  then applying the sequence  U R2  to it brings
+                us 2 face turns closer to start, i.e. 17f  from start.
+proof.  apply proposition 1 and proposition 2.  qed.
+
+we now know how to handle the case that superflip's distance from start
+is exactly 19f.  if the distance is less than 19f, we use the following
+
+proposition 4.  under any circumstances, applying the sequence  U R2
+                to superflip brings us at least  1f  closer to start.
+proof.  a minimal maneuver for superflip must contain a 90 degree twist,
+        and we may suppose that the next face turned is an adjacent one.
+        by cyclically shifting the maneuver, we may bring these two
+        turns to the beginning.  furthermore, by symmetry, we may
+        suppose that the first turn is  U  and the second is some twist
+        of the  R  face.  now by applying  U  to superflip, we've moved
+        1f  closer to start, and applying  R2  to this doesn't move us
+        any further from start, since it either combines with, or cancels
+        the next turn in the minimal maneuver.  qed.
+
+putting this all together, we get our desired result.
+
+proposition 5.  suppose that superflip is within 19f of start.  then the
+                position  superflip U R2  is within 17f of start.
+proof.  this is just combining props 3 and 4.  qed.
+
+i don't claim that these are the best reductions possible.  they
+suffice for our purposes.
+
+i tested the position  superflip U R2  (i.e. the position obtained by
+first doing superflip, and then doing the sequence  U R2) with my
+optimal solver.  my program took 2 hours and 40 minutes to exhaustively
+search this position through 17 face turns (not including about 11
+minutes to generate all the lookup tables).  there were no solutions.
+thus superflip is exactly 20 face turns from start.  when i did the
+search in january 1995, the run time was 6 days.  so we see quite a bit
+of improvement.
+
+mike
+
+

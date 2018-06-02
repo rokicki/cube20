@@ -1,0 +1,29 @@
+From mark.longridge@canrem.com  Tue Jan 23 18:00:31 1996
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21009; Tue, 23 Jan 96 18:00:31 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 2081FF; Tue, 23 Jan 96 17:23:59 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: New Rubik's Cube Web Page
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1281.5834.0C2081FF@canrem.com>
+Date: Tue, 23 Jan 96 17:19:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+I've started my own Web Page for Rubik's Cube.
+
+It has my rubik's chronology and full move list.
+
+Eventually all issues of Domain of the Cube will reside there!
+
+www.dis.on.ca/~cubeman
+
+email: mark.longridge@canrem.com
+or     cubeman@admin.dis.on.ca
+
+
+-> Mark <-
+
+

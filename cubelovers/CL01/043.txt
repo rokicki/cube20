@@ -1,0 +1,15 @@
+Date:     7 December 1980 1218-est
+From:     Bernard S. Greenberg       <Greenberg at MIT-Multics>
+Subject:  Symmetry of configurations
+To:       McKeeman.PA at PARC-MAXC
+Cc:       CUBE-LOVERS at MIT-MC
+
+The definition of symmetry proposed by you does not seem adequate.
+Plummer's Cross is NOT symmetrical by that definition.  Given
+Plummer's Cross in any orientation, there are plenty of elements
+of the 24-move whole-cube rotation group which will shift it to
+something NOT isomorphic through a substitution of colors to the
+original.  Yet, we know, intuitively, that the CP is "highly
+symmetric", and it is a local maximum.  It is as though I were
+saying that this equivalence of all twists "out" of this position
+almost defined symmetry.....

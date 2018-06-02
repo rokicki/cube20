@@ -1,0 +1,52 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Sun Sep 24 22:25:13 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16210; Sun, 24 Sep 95 22:25:13 EDT
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <250313-1>; Sun, 24 Sep 1995 22:27:40 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA03338; Sun, 24 Sep 95 22:20:55 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1F62D8; Sun, 24 Sep 95 22:13:27 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Least Commutative Element
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1242.5834.0C1F62D8@canrem.com>
+Date: Sun, 24 Sep 1995 22:56:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+# The 2nd most commutative element of the cube group
+# It is the position of 7 clockwise and 1 counter-clockwise twists
+# This commutes with 1 out of every 8 elements of the cube
+
+commuter := ( 1,35, 9)( 3,27,33)( 6,11,17)( 8,19,25)(24,43,30)(32,48,38)
+            (14,40,46)(16,22,41);;
+
+# The least commutative element of the cube group ( I think! )
+# This commutes with 1 out of every 450,541,700,775,936,000
+#  or approximately 1 out of every 4.5 * 10^17 patterns
+
+least := ( 1, 6,32,19, 3,41,24,46)( 2, 4,13,42,29, 7,31,15,39,37,26,21)
+( 5,28,34,10,20,23,36,18,45,44,47,12)( 8,33,16,30,40, 9,17,38)
+(11,48,25,27,22,43,14,35);;
+
+> after thinking about it, i realized that
+>
+> corners:  (8)   edges:  (12)
+>
+> commutes with even fewer elements.  again, elements with
+> this cycle structure split into two conjugacy classes.
+>
+> mike
+
+ With GAP we must deal with permutations of cube facelets, and that is
+why the permutation 'least' has 3 sets of 8 numbers and 2 sets of
+12 numbers. Moreover, as I'm sure Mike will appreciate, the least
+commutative element I've found is has a 8-cycle of corners and a
+12-cycle of edges.
+
+Size (Centralizer (cube, least));
+ 96
+
+-> Mark <-
+

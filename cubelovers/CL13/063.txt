@@ -1,0 +1,107 @@
+From BRYAN@wvnvm.wvnet.edu  Tue Nov 22 13:30:15 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16031; Tue, 22 Nov 94 13:30:15 EST
+Message-Id: <9411221830.AA16031@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 2090; Tue, 22 Nov 94 13:07:07 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 3806; Tue, 22 Nov 1994 13:07:07 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Tue, 22 Nov 1994 13:07:05 -0500 (EST)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   <U,R> Q vs. Q+H Distances from Start
+
+The fact that there is only one position in <U,R> which is antipodal
+for both Q moves and Q+H moves got me to thinking more generally about
+the Q distance from Start as compared to the Q+H distance from Start
+for any position.  Here follows a cross-tabulation table giving the
+number of positions in <U,R> unique up to W-conjugacy which are m moves
+from Start under Q and n moves from Start under Q+H.
+
+The table has some interesting features.  The main diagonal contains
+powers of 2 for distances from zero to nine.  Other entries in the
+upper left portion of the table (close to Start) are often small
+primes times powers of 2.  There are positions where allowing Q+H
+moves saves nine moves (from nineteen down to ten), which is a
+substantial savings in moves.  There is one "discontinuity" in the
+table; a position which is 25 moves from Start under Q may be 20,
+19, 18, 17, or 15 moves from Start under Q+H, but not 16 moves from
+Start.  The longest "common distance" is nineteen;  there are
+positions which are nineteen moves from Start under both Q and Q+H,
+but for twenty moves and above there are no positions which are
+a common distance from Start.
+
+
+
+                             Q+H Distance from Start
+
+        0 1 2 3  4  5   6   7   8    9   10    11    12     13     14
+      0 1
+ Q    1   1
+      2   1 2
+ D    3     2 4
+ i    4     1 6  8
+ s    5       3 16 16
+ t    6       1 12 40  32
+ a    7          4 40  96  64
+ n    8          1 20 120 224 128
+ c    9             5  80 336 512  256
+ e   10             1  30 280 896 1148  508
+     11                 6 140 888 2292 2532  1004
+ f   12                 1  42 558 2632 5688  5455  1948
+ r   13                     5 220 1976 7433 13656 11585   3675
+ o   14                        50  976 6475 20158 32064  24082   6387
+ m   15                         4  297 3810 19993 52672  73401  46779
+     16                             47 1475 13603 58642 134127 160373
+ S   17                              3  320  6291 45381 165993 327673
+ t   18                                  39  1799 24125 141267 447893
+ a   19                                   2   268  7822  80316 403413
+ r   20                                        16  1297  26988 225778
+ t   21                                              74   4300  67328
+     22                                               1    148   8034
+     23                                                           198
+     24                                                             2
+     25
+
+
+
+                             Q+H Distance from Start
+
+             15      16      17     18   19 20
+      0
+ Q    1
+      2
+ D    3
+ i    4
+ s    5
+ t    6
+ a    7
+ n    8
+ c    9
+ e   10
+     11
+ f   12
+ r   13
+ o   14
+ m   15    9942
+     16   82146   12480
+ S   17  321647  116231    8729
+ t   18  740143  517578   98299   2066
+ a   19 1083499 1319438  493690  26824   42
+ r   20  961774 1957300 1304102 140670  566
+ t   21  470457 1531160 1733845 337599 2685
+     22  101326  545579 1018042 332435 4875 9
+     23    5760   58037  194963 115863 3286 3
+     24      23     680    4661   6032  493 3
+     25       1               3     15    7 1
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

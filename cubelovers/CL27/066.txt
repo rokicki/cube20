@@ -1,0 +1,148 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Apr 26 21:15:50 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA25075
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 26 Apr 1999 21:15:50 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Reinventing (and some edge-flipping techniques)
+Date: 26 Apr 1999 18:03:02 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7g29om$4ua@gap.cco.caltech.edu>
+
+I skimmed through Singmaster's "Notes on Rubik's Magic Cube" this weekend.
+It was rather disappointing to realize that the techniques I had invented
+five years ago had all been independently invented twenty years ago!
+
+In any case, I thought I might share my thoughts about monoflips with the
+list.
+
+--------------
+
+[I shall use "E" to denote moving the center slice (between the U and D
+faces) to the left (so that the F center becomes the L center).  E' I
+will use to denote its inverse.
+In other words, E is the same as U'D followed by rotating the entire
+cube clockwise from the point of view of the U face.
+Similarly, I will use M to denote moving the L-R slice "up".
+Traditionally, a slice is counted as two turns, although it is usually
+easier to perform than two orthogonal turns.]
+
+As you may know, a "monoflip" is a sequence of moves that flips one edge
+on a given face (usually the U face) while not affecting the rest of the
+face.  For instance, this is a monoflip:
+
+  F E F M FF M' (10 turns)
+
+This flips the FU edge cubie.  If you do this sequence of moves, it is
+particularly easy to look at the FUL, FU, and FUR cubies and see how they
+move around to perform this monoflip.
+
+What makes a monoflip so useful is the fact that it can me commutated with
+moves of the face (U) to flip two edges.  E.g.,
+
+  FEFMFFM' U MFFM'F'E'F' U'
+
+will flip the FU and RU edges.  (The first FEFMFFM' flips FU while messing
+up the rest of the cube, then the U moves the RU to where the FU was,
+then MFFM'F'E'F' flips the "new" FU as well as undoing what was done to
+the rest of the cube.  U' then restores what was done.)
+
+Commutating with other moves will, of course, allow you to flip other edges.
+Using UU instead of U will flip the FU and BU edges, for instance.
+If you add conjugation, you can get pretty much any two edge pieces to
+flip -- e.g.,
+
+  R' FEFMFFM' U MFFM'F'E'F' U' R
+
+will flip the FU and RB edges.
+
+--------
+
+The drawback of FEFMFFM', however, is that it is not that easy to remember,
+since you also have to remember its inverse MFFM'F'E'F'.  (Although the
+embedded conjugate MFFM' is its own inverse, which is nice.)
+
+Therefore, the monoflip I see more often in other people's repertoire is
+
+  F E' F E' F E' F E' (12 moves)
+
+which has many advantages:
+ 1.  It is easier to remember;
+ 2.  It is its own inverse;
+ 3.  Its results are "elegant".  (flips of FU,FL,BR,BL)
+
+Of course, this move is special enough that you don't NEED to use it as
+a monoflip if you rotate and reflect this move.  To flip two adjacent
+edges, simply do
+
+ FE'FE'FE'FE' R'ER'ER'ER'E
+
+and you'll flip the FU and RU edges.  (The second part is just a
+reflection along the BL - FR plane.)  Other variants of this move
+can pretty much let you flip any combinations of edge cubies you
+want.
+
+--------------
+
+I used to use the previous "monoflip" a lot.
+The only drawback with the previous monoflip, however, is that it is
+too slow, especially those slice moves.  Therefore, when I need
+to do edge flipping these days, I use this monoflip:
+
+ R F' U R' F (5 moves)
+
+At first this doesn't look like a monoflip, since each face seems to be
+pretty messed up.  But this is not your normal monoflip -- this is a
+SLICE-BASED monoflip, where the E slice is intact except for the FR edge.
+
+In fact, I'd conjecture that this is the shortest monoflip there is.  To
+flip the FR edge, RUF is pretty much the quickest you can to it in.  But
+this messes up two diagonally opposite edges on the slice, so at
+least two more moves are needed to restore this -- hence, the F' and R'.
+
+You can think of this as RF' conjugated with U -- I'm not sure it
+helps much though.
+
+The inverse, F' R U' F R', is just a reflection of the original move and
+so is pretty easy to remember.
+
+In any case, this makes edge flipping nice and quick:
+
+ RF'UR'F E' F'RU'FR' E  (flips FR and FL in 12 moves)
+ RF'UR'F EE F'RU'FR' EE  (flips FR and BL in 16 moves)
+
+But how about the other edge pair combinations?  Conjugates, of course.
+I use these moves:
+
+ 1. Adjacent edges, same face:
+
+   F'R'  RF'UR'F E' F'RU'FR' E RF  which reduces a bit to:
+   FFUR'F E' F'RU'FR' E RF  (flips FU and RU in 16 moves)
+
+ 2. Adjacent edges, same slice:
+   (done above, 12 moves)
+
+ 3. Opposite edges:
+   (done above, 16 moves)
+
+ 4. Skew edges:
+
+   R'  RF'UR'F E' F'RU'FR' E R  which reduces a bit to:
+   F'UR'F E' F'RU'FR' E R  (flips FL and RU in 14 moves)
+
+These are the current edge flips in my repertoire, and they achieve a
+balance between being easy to remember and being fast to do.
+
+----------
+
+I'd appreciate if others could share the moves they use for 2-edge flips, as
+well as know of any results known of God's algorithm for 2-edge flips.
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+She ran by screaming "No, I run by moving my feet rapidly, you idiot!"
+

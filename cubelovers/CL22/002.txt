@@ -1,0 +1,25 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Dec 18 14:40:42 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA07211; Wed, 18 Dec 1996 14:40:42 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 18 Dec 1996 11:39:51 -0800 (PST)
+From: David Barr <davidb@u.washington.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Quickcam
+Message-ID: <Pine.A41.3.95b.961218113401.16826I-100000@homer26.u.washington.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+I have a Color Quickcam camera attached to my PC, and I was wondering
+how difficult it would be to write a program that would take two
+pictures of a cube (to cover all six sides) and determine the cube
+position from the images.  The positions could then be fed into
+another program (maybe one of the WWW cube solvers) for further
+processing.
+
+Is there any source code out there that does image recognition of cube
+positions?
+
+
+

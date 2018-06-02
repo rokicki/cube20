@@ -1,0 +1,28 @@
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU;  1 Dec 89 18:41:59 EST
+Received: from MIT.MIT.EDU by mintaka.lcs.mit.edu id aa21435; 1 Dec 89 18:38 EST
+Received: from RELAY.CS.NET by MIT.EDU with SMTP
+	id AA05286; Fri, 1 Dec 89 18:37:05 EST
+Message-Id: <8912012337.AA05286@MIT.EDU>
+Received: from relay2.cs.net by RELAY.CS.NET id an22383; 1 Dec 89 17:34 EST
+Received: from cs.brandeis.edu by RELAY.CS.NET id af10353; 1 Dec 89 18:30 EST
+Received: by cs.brandeis.edu (14.4.1.1/6.0.GT)
+	id AA11232; Fri, 1 Dec 89 10:02:37 est
+Date: Fri, 1 Dec 89 10:02:37 est
+From: Roland Zito-wolf <rjz%cs.brandeis.edu@relay.cs.net>
+Posted-Date: Fri, 1 Dec 89 10:02:37 est
+To: cube-lovers.2@cs.brandeis.edu, beeler.2@cs.brandeis.edu
+Subject: an interesting talk
+
+
+Stu Coffin, internationally known puzzle designer, will be speaking
+to the Philomorphs (form-lovers) Society at Harvard next Monday
+Dec 4 at 7:45 pm (Carpernter Center, Studio 2 west).
+He will be talking about his new book, :The Puzzling World of
+Polyhedral Dissections", and about his bizarre and clvere puzzle
+designs in general. Better yet, there will probably be examples of his
+work to puzzle around with. Stu's puzzles are just amazing; they combine
+an amazing intuition for geometric structure with excellent craftsmanship;
+they aree really worth seeing if you like puzzles, geometry, or just
+nifty design and execution. See you there!!
+cheers, roy
+

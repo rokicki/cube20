@@ -1,0 +1,129 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Sat Jan  8 11:25:43 1994
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA28874; Sat, 8 Jan 94 11:25:43 EST
+Message-Id: <9401081625.AA28874@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 4466; Sat, 08 Jan 94 10:55:08 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 0645; Sat, 8 Jan 1994 10:55:08 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 7645; Sat, 8 Jan 1994 10:52:33 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Sat, 8 Jan 1994 10:52:22 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Calculating |G\M|
+
+Armed with Dan Hoey's note of 4 January "Combining conjugacy classes",
+I wish to propose once again a procedure for calculating |G\M|, the
+number of M-conjugate classes of G, which I think in some sense is the
+"real" size of G.  My proposal draws *very* heavily on Dan's note.
+
+My first (incorrect) proposal was based on the following idea.  By
+computer search, we already have a database of GC\B and GE\B, the
+corners and edges of G, respectively, reduced by B-conjugacy.  Hence,
+we know |GC\B| and |GE\B|.  For each X in GC\B and each Y in GE\B,
+we calculate BClass(X) and BClass(Y).  Then, we can combine
+BClass(X) and BClass(Y) in all legal ways (minding parity considerations).
+Call the combinations BClass(X) * BClass(Y).  For any fixed X and Y,
+BClass(X) * BCLass(Y) is a set of cubes in G.  Hence we can calculate
+(BClass(X) * BClass(Y))\M and |(BClass(X) * BClass(Y))\M|.  My idea
+then was just to sum |(BClass(X) * BClass(Y))\M| over all values
+of X and Y to calculate |G\M|.  And we know how many X's and Y's there are!
+But, alas, |(BClass(X) * BClass(Y))\M| is not the same across all X's and
+Y's because, well because of symmetry.  All X's and Y's are not equally
+symmetrical.  I was assuming that |(BClass(X) * BClass(Y))\M| was
+constant, and of course it is not.
+
+My next (incorrect) proposal was never posted to the list.  It was
+a slight improvement on the first idea.  We have a data base of all X's
+in GC\B and of all Y's in GE\B.  For each X in GC\B and for each
+Y in GE\B, we know |BClass(X)| and |BClass(Y)|.  (Actually, we don't.
+I have to calculate it.  I have done so, and I have posted
+summaries of those calculations.  However, I did not store
+the order of the equivalence classes in the data base.  I kick myself
+for not doing so, but this is a minor problem, so let us continue).
+
+There are only 10 distinct values for |BClass(X)| and for |BClass(Y)|,
+namely 24, 48, 72, 96, 144, 192, 288, 384, 576, and 1152.  (By the
+way, I have never figured out why it is *exactly* the same set of
+values for both the corners and for the edges.  It is easy to see
+why it is approximately the same set of values, but the structure
+of the corners is enough different from the structure of the edges
+that I see no obvious reason the set of values should be exactly
+the same in both cases.)
+
+Let GC[m] be the set of all X for which |BClass(X)| = m and let
+GE[n] be the set of all Y for which |BClass(Y)| = n. Hence,
+GC\B is partitioned into GC[m]\B for m=24,48..., and GE\B is
+partitioned into GE[n]\B for n=24,48,...  Now, we form the sets
+BClass(X)[m] * BClass(Y)[n] for all X in GC[m]\B and for all
+Y in GE[n]\B, and for all legal values of m and n.  There will
+be 100 such sets.
+
+For any fixed X, Y, m and n, BClass(X)[m] * BCLass(Y)[n] is a
+set of cubes in G.  Hence we can calculate
+(BClass(X)[m] * BClass(Y)[n])\M and |(BClass(X)[m] * BClass(Y)[n])\M|.
+My idea then was just to sum |(BClass(X)[m] * BClass(Y)[n])\M|
+over all X in GC[m]\B and over all Y in GE[n]\B to calculate
+|(BClass(X)[m] * BClass(Y)[n])\M|.  We know how many X's there are
+in GC[m]\B and we know how many Y's there are in GE[n]\B, so the
+calculation seemed possible.  I then intended to sum again over all
+m and over all n, and I would be done.
+
+But, alas, in order to perform the sum over all X and all Y, I
+needed a theorem which I couldn't prove and which I now believe
+is not true anyway.  I needed to be able to prove that for a fixed
+m and n, that |(BClass(X)[m] * BClass(Y)[n]| had the same value
+for all X in GC[m]\B and all GE[n]\B.  For a while I thought it was
+true, but right now I can't think of any reason why it should be.
+
+But perhaps Dan Hoey comes to the rescue with his CSymm function.
+I still need a theorem which I cannot (yet) prove, but I believe it
+is true.  If it can be proven, my basic overall scheme can be
+rescued.
+
+In my second proposal, I used the values of all possible BClass
+sizes as indexes  --  24, 48, 72...  It would perhaps be more
+convenient to make these sizes a set {24, 48, 72, ...},
+and to think of the indexes m and n taking on the values from
+1 to 10, where the values from 1 to 10 index the set
+{24, 48, 72, ....}.  With this understanding, all the above results
+are valid, and the indexing is more convenient.
+
+We can now say that GC\B is partitioned into GC[1]\B, GC[2]\B, ...
+through GC\B[10] and similarly for GE\B.  Unfortunately, using
+the B-equivalence class sizes to partition GC\B and GE\B did not
+permit us perform the calculations we wanted to perform.  However,
+suppose we partition GC\B and GE\B a different way, namely using
+CSymm.  Suppose, for each X in GC\B and for each Y in GE\B,
+we calculate CSymm(X) and CSymm(Y). (We would have to do this
+by computer).  CSymm(X) and CSymm(Y) are sets, but there are only
+a (relatively) small number of such sets.  Let each distinct value
+CSymm(X) and CSymm(Y) be mapped to an index.  We can call such a
+mapping function CSind, and we can calculate CSind(CSymm(X)) and
+CSind(CSymm(Y)).  Actually, there is no reason not to define
+CSind in such a way that the domain is the set of X's and Y's, so
+that we can calculate CSind(X) and CSind(Y).
+
+Now, we use m=CSind(X) and n=CSind(Y) to form a partition of
+GC\B and GE\B.  All our results from before are valid.  The only
+issue is, can we now perform the sum?  In order to perform the sum,
+we need the following to be true:
+
+   For a fixed m and n, |BClass(X)[m] * BClass(Y)[n]| is constant
+   for all X in GC[m]\B and all Y in GE\[n]\B, where GC[m] is
+   the set of all X in GC such that CSind(X)=m and GE[n] is the set
+   of all Y in GE such that CSind(Y)=n.
+
+It really seems true to me, and I shall strive to prove it.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

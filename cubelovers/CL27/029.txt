@@ -1,0 +1,90 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Apr  6 14:31:56 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA21857
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 6 Apr 1999 14:31:55 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: wheeler@cipr.rpi.edu (Frederick W. Wheeler)
+Message-Id: <14088.45800.718995.311244@cipr.no_spam.rpi.edu>
+Date: Mon, 5 Apr 1999 08:56:08 -0400 (EDT)
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Inventing your own techniques
+In-Reply-To: <14080.1711.289304.134028@cipr.no_spam.rpi.edu>
+References: <14080.1711.289304.134028@cipr.no_spam.rpi.edu>
+
+Dear Cube-Lovers list:
+
+I received several very interesting replies to my e-mail last week
+regarding inventing techniques to solving cube puzzles.  Here are some
+excerpts of note that were e-mailed to me but not the list.
+
+First, part of what I wrote ...
+
+Fred Wheeler writes:
+> For me, the most fun, and the ultimate challenge, in cubing comes
+> from figuring out how to solve the puzzle in the first place.  I'd
+> really like to hear from people on this list on how you go about
+> inventing new moves and techniques or how you feel about learning to
+> solve a puzzle on your own.
+
+Wei-Hwa Huang sent me this teaser about conjugation.
+
+whuang@ugcs.caltech.edu (Wei-Hwa Huang) wrote:
+> After I understood conjugation well enough, I have never invented a
+> move that I can in all honesty call "new" -- although they may
+> appear "new" to others.  The only new part is just applying it to
+> different types of moves and seeing what the result is.
+
+Later, at my request, Wei-Hwa Huang was kind enough to elaborate on
+conjugation.
+
+whuang@ugcs.caltech.edu (Wei-Hwa Huang) wrote:
+> I keep on meaning to write a more detailed explanation but can never
+> seem to find the time.
+>
+> Essentially, by conjugation I mean taking two routines (call 'em A
+> and B), consider their reverses (a and b), and juxtapose them (do
+> the move ABab).  When A and B have a small intersection the results
+> of the conjugation is a simple permutation.  And pretty much more
+> cube puzzles can be solved if you have the simplest permutations.
+>
+> Eg, to rotate two corner pieces, let
+>  A = R'DRFDF'  (rotate one corner in the top face without affecting
+>     the rest of the top face)
+>  B = U (rotate the top face)
+>
+> As A and B have a small intersection (one corner cubie), the move
+>  ABA'B' is quite useful.
+>
+> Note that A is itself a move arrived at by conjugation.
+
+Tom Magliery also has a system for discovering solution techniques.
+
+Tom Magliery <mag@ncsa.uiuc.edu> wrote:
+> rather than telling you my actual operation for fixing the "switched wings"
+> problem on the 4x and 5x cubes, i'll tell you how i discovered it:  one of
+> the things i experiment with is repeated applications of short(ish)
+> sequences of moves.  for example, i'll just take a particular 2 or 3-move
+> sequence, and apply it over and over again until the cube arrives back at a
+> state very similar to (but hopefully slightly different than) where it was
+> when i started.  i was doing this (starting from a solved cube) one day
+> when i discovered with much jubilation that i had arrived at a state with
+> one switched wing pair.  (there was also another slight jumble, but i
+> already knew an independent move to fix that by itself.)
+
+I also received a good suggestion that discovering new sequences may
+be easier on a computer simulator.  This, way the cube can be reset to
+the solved state quickly before each new attempt to make it easier to
+see what the trial sequence actually changes.  Unfortunately, I lost
+this particular e-mail and forget who sent it, so I cannot attribute
+it.  My apologies to the author.
+
+Regards,
+Fred Wheeler
+
+--
+Fred Wheeler
+wheeler@cipr.rpi.edu
+www.cipr.rpi.edu/wheeler
+

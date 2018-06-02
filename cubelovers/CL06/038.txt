@@ -1,0 +1,35 @@
+Received: from ucbvax.Berkeley.EDU (TCP 1200400116) by AI.AI.MIT.EDU 19 Jun 87 12:25:11 EDT
+Received: by ucbvax.Berkeley.EDU (5.57/1.26)
+	id AA24244; Fri, 19 Jun 87 08:26:06 PDT
+Received: from USENET by ucbvax.Berkeley.EDU with netnews
+	for cube-lovers@ai.ai.mit.edu (cube-lovers@ai.ai.mit.edu)
+	(contact usenet@ucbvax.Berkeley.EDU if you have questions)
+Date: 18 Jun 87 13:12:20 GMT
+From: mtune!mtgzz!mtuxo!gertler@RUTGERS.EDU  (D.GERTLER)
+Organization: AT&T, Middletown NJ
+Subject: Re: Give or Take
+Message-Id: <36@mtuxo.UUCP>
+References: <148@altura.srcsip.UUCP>
+Sender: cube-lovers-request@ai.ai.mit.edu
+To: cube-lovers@ai.ai.mit.edu
+
+In article <148@altura.srcsip.UUCP>, notch@srcsip.UUCP (Michael k Notch) writes:
+< Have I got an interesting puzzle to at least look at:
+<            GIVE or TAKE
+< You can take 45 from 45 and have
+< a remainder of 45. A trick, yes, but it
+< can be done.
+<            Give it a try
+<              It's fun
+< There is an obvious answer - You take 45 eggs from 45 chickens and you still
+<                              have 45 chickens left.
+< Can you find the other answer?
+< GOOD LUCK!
+Simple!  Your friend has $45.  You TAKE his $45.  You have $45 remaining.
+(Of course, you're out a friend.)  :-)
+
+-- 
+
+-Don Gertler		UUCP:	...!mtuxo!gertler
+
+   "If this works, we'll eat like kings."

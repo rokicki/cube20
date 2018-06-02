@@ -1,0 +1,27 @@
+Date:  4 DEC 1980 2300-EST
+From: DR at MIT-MC (David M. Raitzin)
+To: CUBE-LOVERS at MIT-MC
+
+Hi!  I'm new to this list, since I just found out about it, so I might
+repeat some stuff that has already been said.  I guess I want to say
+two things.  First of all, I saw Greenberg's message saying that some
+guy who has written a book on the cube or something does not believe
+that solutions in two minutes are possible.  Well, even though I can
+not do it in two minutes (it takes me just under four minutes to do
+it), my roommate does it in a minute and a half (I timed it, so it's
+no lie).  Second, I've never heard of anyone using the same algorithm
+that me and my roommate use.  We get the top row first, then we get
+the second row, and finally get the third.  The only other solution
+that I've seen (and/or heard of), and that is from anyone else who has
+solved the cube, is getting all the eight corners, and then getting
+the middles.  (Greenberg's Lisp machine program also solves it in this
+manner.  In fact, I was quite surprised to see it done in that manner,
+but as time went on, I realized that everyone I know of does it in
+that manner too.)  Is that true?  Does anyone have any other algorithm
+to the two I've described?  Also, I've heard that the most optimum
+solution to a randomized cube is at most 41 moves.  Is that true?  And
+if so, what is the algorithm it uses.  I immagine that algorithm was
+achieved on a computer is that true?  As you can see, I have a lot of
+questions, but this is my first letter to the mailing list.  
+
+					Dave

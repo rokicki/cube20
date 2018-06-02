@@ -1,0 +1,147 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb  9 20:27:47 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA06044
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 9 Feb 1999 20:27:47 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19990208030401.14755.rocketmail@send1e.yahoomail.com>
+Date: Sun, 7 Feb 1999 19:04:01 -0800 (PST)
+From: Han Wen <hansker@yahoo.com>
+Subject: Moves for Solving the Pyramorphix puzzle
+To: Cube Lovers <Cube-Lovers@ai.mit.edu>
+
+
+Hi
+
+For those cube masters out there getting bored, you may want to play
+with Meffert's latest puzzle, the Pyramorphix.  It only takes about
+1-2 hours to solve, but it provides some Square-1-like entertainment.
+For those who may not be familiar, the Pyramorphix looks like the
+Pyraminx's little brother with 4 pieces instead of 9 pieces for each
+face.  However, unlike its big brother, the Pyramorphix turns a lot
+differently (90 deg rotations), morphing into different shapes as you
+twist and turn.  As you know, with the Pyraminx, you're always
+rotating little pyramids about one of the 4 tips. However, with the
+Pyramorphix, when starting out with the pyramid shape, you rotate an
+edge and its two adjacent corners (i.e. the whole edge of a given
+face).  The rotation axes lie along the intersection of the 4 center
+triangle pieces.
+
+There appears to be 6 general shapes you can "morph" the Pyramorphix
+into I'll affectionately call: the Pyramid, the Butterfly, the Crown,
+the Rocket, the Airplane and the truncated Star of David.  (There are
+actually two truncated Star of Davids, mirror images of one another).
+You'll know what I mean if you actually have the little creature in
+your hands. The hardest part of this puzzle is figuring out how to
+morph between all these different shapes.
+
+I solve the Pyramorphix by first solving the 4 corner pieces and then
+orienting the 4 center pieces.
+
+First, a few notation definitions. Hold the Pyramorphix so that you
+have one of the faces facing you.  I'll call that face Front (F).  The
+face on the bottom will be called Down (D), and the faces left and
+right of the F face will be called Left (L) and Right (R) respectively.
+
+An edge will refer to a center piece and its two adjacent corner
+pieces. I'll specify which edge by indicating the two faces the edge
+intersects (e.g. R-D edge is the edge formed by the interesection of
+the Right and Down faces).
+Now, unfortunately, I can't just refer to rotations of edges, because
+as you'll see, sometimes you need to rotate strange shapes that look
+nothing like an edge.  Instead, it's better to refer to slices.
+Namely the plane about which one of the edges rotates on.  So, if you
+look at the F face, you'll see three slices: the R-D slice (60 deg),
+the L-D slice (120 deg) and the horizontal F-slice (0 deg).  When the
+Pyramorphix is in its pyramid shape, you can rotate the two edges on
+the R-D and L-D slices, but you cannot rotate the corner piece sitting
+on the F-slice.  Don't worry, when we morph the pyramid into the
+Rocket, you'll see that you'll be able to rotate the tip of the rocket
+about the F-slice.
+
+Now, that I've thoroughly confused you, here are my notations for
+actual moves:
+R - 90 deg clockwise rotation about the R-D slice
+L - 90 deg clockwise rotation about the L-D slice
+F - 90 deg clockwise rotation about the F-slice
+R2 - 180 degree rotation about the R-D slice
+R' - 90 degree counterclockwise rotation about the R-D slice
+
+Finally, hold the Pyramorphix in your hands, so the the F-face is
+facing towards you with the tip of the triangle pointing up.  If you
+now rotate the puzzle so the the D-face is facing towards you, you
+should see an upside-down triangle with the tip pointing down.  I will
+refer to the three corner pieces that you see as:
+
+DL - left corner piece
+DR - right corner piece
+DM - middle corner piece
+_______________________________________________________
+To solve the four corner pieces, first get them in their proper
+positions by performing 180 rotations of the edges. Now, you need to
+orient the corners by making appropriate clockwise or counterclockwise
+twists.  Here are some moves to do this:
+
+Name: Single corner twister
+Move: (R L' R' L) ^2
+Shapes: Butterfly - Star of David - Airplane - Airplane - Star of
+David - Star of David - Butterfly - Pyramid
+Action: Clockwise (CW) twist of DM corner
+
+Name: Left-side double corner twister
+Move: (R L R' L' ) ^2
+Shapes: Butterfly - Star of David - Crown - Star of David - Crown -
+Star of David - Butterfly - Pyramid
+Action: CCW twist of DL corner, CW twist of the DM corner
+
+Name: Right-side double corner twister
+Move: (R' L' R L) ^2
+Shapes: Butterfly - Star of David - Crown - Star of David - Crown -
+Star of David - Butterfly - Pyramid
+Action: CCW twist of DR corner, CW twist of the DM corner
+
+Name: Triple corner twister
+Move: (R' L R L') ^2
+Shapes: Butterfly - Star of David - Star of David - Airplane -
+Airplane - Star of David - Butterfly - Pyramid
+Action: CW twist of DL corner, CW twist of DR corner, CCW twist of DM
+corner
+_______________________________________________________
+Now, to orient the center pieces in place, here are some moves to do
+this:
+
+Name: Double edge swapper
+Move: R' L2 F2 L2 R
+Shapes: Butterfly - Rocket - Rocket - Butterfly - Pyramid
+Action: Swap F <--> L and R<-->D center pieces
+
+Name: Tricycle swap
+Move: (L R2 F' R2 L') (R' L2 F L2 R)
+Shapes: (Butterfly - Rocket - Rocket - Butterfly - Pyramid ) ^2
+Action: Permute F --> R --> L --> F center pieces
+
+Name: Edge swapper
+Move: (R' L2 F L2 R) (L R2 F R2 L') (R' L2 F L2 R)
+Shapes:  (Butterfly - Rocket - Rocket - Butterfly - Pyramid ) ^3
+Action: Swap F <--> D center pieces
+
+With these short collection of moves, you should be able to readily
+solve the Pyramorphix...
+_______________________________________________________
+Epilogue:
+
+So, you've solved the Pyramorphix, bored silly and you want to know
+what's next?!  Check out Meffert's Puzzle Ball.  It's actually a bit
+more challenging.  Happy puzzling.... :)
+
+
+
+==
+_________________________________________________________
+Han Wen
+Applied Materials
+3050 Bowers Ave, MS 1145
+Santa Clara, CA  95054
+e-mail: Han_Wen@amat.com / hansker@yahoo.com
+

@@ -1,0 +1,69 @@
+From dik@cwi.nl  Tue May  5 03:58:28 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA19673; Tue, 5 May 92 03:58:28 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA01995 (5.65b/2.10/CWI-Amsterdam); Tue, 5 May 1992 09:57:54 +0200
+Received: by boring.cwi.nl 
+	id AA01813 (5.65b/2.10/CWI-Amsterdam); Tue, 5 May 1992 09:57:53 +0200
+Date: Tue, 5 May 1992 09:57:53 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205050757.AA01813.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu, reid@math.berkeley.edu
+Subject: Re:  Are we approaching God's algorithm?
+Cc: dseal@armltd.co.uk
+
+ > > It has an interesting article by Herbert Kociemba from Darmstadt, who
+ > > describes his program to solve Rubik's Cube.  He states that he has not
+ > > yet encountered a configuration that required more than 21 moves.  A short
+ > > description follows:
+
+ > it would be nice to know how many patterns he has tested.
+
+He does not say how many, but his article gives nine patterns that have been
+published earlier in CFF for which he finds shorter answers.  Also more are
+promised for future issues.
+
+ > > His first stage can loosely be described as working in a three dimensional
+ > > coordinate system where the coordinates are resp. twist, flip and permutation.
+ > > He searches his way until the coordinate [0,0,0] is reached.
+...
+ > >                                                           He does also
+ > > use tree pruning.
+
+ > does he describe his method of "tree pruning"?  this would seem to
+ > be the "intelligent" part of the program, i.e. recognizing when to
+ > abandon a given approach.  if anyone has any insight on the tree
+ > pruning, please let me know.
+
+I can give some information.  What he does do is calculate in advance through
+the three axis of his space the minimal number of moves needed to get at
+[0,0,0].  This is used for tree pruning.  It obviously will not prune
+everything (e.g. if you are at point [x,y,z] it may very well be that [x,?,?]
+for other points requires less moves, and similar across the y and z
+direction), but he tells that his pruning is very effective.  I do not know
+how he prunes in the second case, because he does not completely describes
+the coordinates of his second space, but I presume pruning is done in a
+similar way.
+
+ > it's not likely that this will lead to a proof of an effective upper
+ > bound.  perhaps he can shave a few moves off the 42 obtained by
+ > kloosterman, but i wouldn't expect him to prove an upper bound
+ > anywhere near 21.
+I think so too.  Moreover, it is difficult to take in account what he
+found, namely that a minimal solution in the first stage does not guarantee
+a minimal overall solution.
+
+ > i believe that the diameters of the respective coset spaces are exactly
+ > those numbers listed in the "Best Possible" line.  can anyone confirm
+ > this?  i've finally written a few programs, and those are the diameters
+ > i get.  i'm surprised that thistlethwaite didn't just do an exhaustive
+ > search on these coset spaces.  perhaps it's just a matter of not having
+ > the technology when he did his work (~12 years ago).
+Well, apparently Thistlethwaite did not know that those were the diameters,
+otherwise I have no explanation for the question marks as they appear in
+Singmaster.
+
+ >             now how about "superflip," and also "supertwist?"
+I will try to contact him to see what he has to say about those.
+
+

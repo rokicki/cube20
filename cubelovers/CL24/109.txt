@@ -1,0 +1,25 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Dec 24 19:28:46 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id TAA01798; Wed, 24 Dec 1997 19:28:45 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Dec 24 17:38:35 1997
+Message-Id: <199712242237.AAA11999@mail2.dial-up.net>
+From: "Frederik Strauss" <fstrauss@icon.co.za>
+To: "Cube Lovers" <Cube-Lovers@ai.mit.edu>
+Subject: 5x5x5
+Date: Wed, 24 Dec 1997 00:20:56 +0200
+
+ Hi...
+
+I have the 5x5x5 cube and can solve it, but it takes me about 15 minutes.
+I've looked on the net but can find nothing on this cube. Does anyone where
+I can get a bit more info on it, like moves or patterns? If anyone else can
+solve it, I'd like to know how you do it.
+
+Cu
+Fred
+
+fstrauss@icon.co.za
+

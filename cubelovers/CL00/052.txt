@@ -1,0 +1,29 @@
+Date:  25 July 1980 10:53 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: "blindfold" cube?
+To:  RP at MIT-MC (Richard Pavelle)
+cc:  ZIM at MIT-MC, CUBE-LOVERS at MIT-MC
+In-Reply-To:  Message of 25 July 1980 09:06 edt from Richard Pavelle
+
+This interchange very elegantly points out the difference between
+the Mathematician's view of the Cube and the
+Hacker(System Programmer-type)'s view.  While an algorithm
+that looked at the initial state and categorized it
+("Perform the folliwng 152 steps for configuration
+106xy205a (left-handed) and it will be solved") would thrill mathematicians, practical
+cube-solving ALGORITHMS require iteration, conditionals,
+subroutines, and other program-like techniques.  Ineed, many
+non-cognoscenti have watched me solve the cube, noting that
+I look at it only a very small percent of the time
+(seeing which subroutine to invoke, as you will, )
+but they don't know that, and conclude that I "solve cubes
+basically without looking".  The whole notion of algorithmic
+cubism is based upon "I will do this hairy thing and it will
+have this desired effect, and I need not thinK about the
+intermediate states, unless, god forbid, the phone rings, etc."
+To contain a cube map and intermediate states of transforms
+in one's head woud, in my mind, involve a greater skill
+than blindfold chess; it is not a normal human-memory
+capability, although doubtless institutiOnalized freaks
+with pathological intelligence/visulization problems
+(in the positive direction) exist who could conceivable do such a thing.

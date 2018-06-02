@@ -1,0 +1,62 @@
+From hirsh@cs.rutgers.edu  Tue Apr 23 12:26:23 1991
+Return-Path: <hirsh@cs.rutgers.edu>
+Received: from pei.rutgers.edu by life.ai.mit.edu (4.1/AI-4.10) id AA26402; Tue, 23 Apr 91 12:26:23 EDT
+Received: by pei.rutgers.edu (5.59/SMI4.0/RU1.4/3.08) 
+	id AA09651; Tue, 23 Apr 91 12:26:19 EDT
+Sender: Haym Hirsh <hirsh@pei.rutgers.edu>
+Date: Tue, 23 Apr 91 12:26:16 EDT
+From: Haym Hirsh <hirsh@cs.rutgers.edu>
+Reply-To: Haym Hirsh <hirsh@cs.rutgers.edu>
+To: cube-lovers@life.ai.mit.edu
+Subject: rubik's magic alternate coloring
+Cc: Haym Hirsh <hirsh@cs.rutgers.edu>
+Message-Id: <CMM-RU.1.0.672423976.hirsh@pei.rutgers.edu>
+
+After seeing my collection of Rubik's magics in my office, a student
+came by yesterday with a variation I hadn't seen before.  It is a 2x4
+version, but the 8 "tiles" are colored differently.  Each of the eight
+tiles has a "four-square" pattern -- the square is divided into four
+regions, each colored red, blue, yellow, or green.  The center of each
+is black with Rubik's signature on it.  The tiles thus look something
+like the following:
+
+	+----+----+
+	|Blue|Yell|
+	|   / \ ow|
+	+--+   +--+
+	|   \ /   |
+	|Red |Gree|
+	+----+----+
+
+(with Rubik's signature in the center)
+
+Both the front and back tiles have this four-square pattern.  However,
+on one side the order of colors on the tiles are all as in the picture
+above, and on the other side four have that order and the remaining
+four have yellow and green switched (so that blue and yellow are on
+opposite corners).
+
+I don't know if this description gets the idea across to those who
+have never seen one like this, but I'm more interested in those who
+have seen it.  Is anyone familiar with this version, and if so, what
+is the goal pattern to reach?  It turns out that the student worked at
+Bradlees (a downscale version of Kmart, if such a thing is possible)
+four years ago, and he got it from the returns bin, without any
+packaging.  I've looked at it briefly, and didn't come up with an
+obvious goal pattern.
+
+About the only other info that may be helpful is that the copyright
+for this variation is 1987.  The copyright for the original 2x4 is
+1986, and similarly for the 2x2 I have; the 2x6 is copyright 1987.
+
+Finally, since I am on the topic of the magic, I have heard a
+number of times about yet another version of the magic that can
+be folded into a cube.  Does anyone know any sources for it?
+(I thought for a while that the alternate-coloring version may
+be it, but it seems to have the same connectivity as the standard
+2x4.)
+
+Thanks for any help!
+
+Haym (hirsh@cs.rutgers.edu)
+

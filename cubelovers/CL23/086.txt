@@ -1,0 +1,89 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jul 31 21:36:12 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA24419; Thu, 31 Jul 1997 21:36:12 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 31 Jul 1997 21:38:18 -0400
+Message-Id: <199708010138.VAA24279@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: Cube-Lovers@ai.mit.edu, ponder@austin.ibm.com
+In-Reply-To: <9707312113.AA33486@roosevelt.austin.ibm.com>
+Subject: Re: puzzle to be simulated
+
+Carl Ponder describes his "hell-hole" puzzle that (if I undestand
+correctly) has 36 facets laid out like
+
+   m : n n n : p p p : r r r : s s s : a
+   ..:.......:.......:.......:.......:..
+   s : a a a : b b b : c c c : d d d : e
+   s : a a a : b b b : c c c : d d d : e
+   s : a a a : b b b : c c c : d d d : e
+   ..:.......:.......:.......:.......:..
+   d : e e e : f f f : g g g : h h h : j
+   d : e e e : f f f : g g g : h h h : j
+   d : e e e : f f f : g g g : h h h : j
+   ..:.......:.......:.......:.......:..
+   h : j j j : k k k : l l l : m m m : n
+   h : j j j : k k k : l l l : m m m : n
+   h : j j j : k k k : l l l : m m m : n
+   ..:.......:.......:.......:.......:..
+   m : n n n : p p p : r r r : s s s : a
+   m : n n n : p p p : r r r : s s s : a
+   m : n n n : p p p : r r r : s s s : a
+   ..:.......:.......:.......:.......:..
+   s : a a a : b b b : c c c : d d d : e
+
+with opposite boundaries identified so that the letters match up.  A
+turn rotates 25 facets--one of the 3x3 "faces" marked with dots--and
+the sixteen neighboring facets from the neighboring faces.
+
+> The combinatorics get a *lot* messier because of the twist.
+> Without it, you can't "flip" the edge pieces. With it, you
+> can, but only by moving the edge-piece in a full-circle around
+> the torus.
+
+If I've got the puzzle right, you could get edge flippability just by
+using a 3x3 array of faces instead of 4x4.  Or perhaps 3x5.  Another
+nice idea that uses a "square" torus is
+
+   k : l l l : m m m : n n n : d
+   ..:.......:.......:.......:..
+   h : a a a : b b b : c c c : j
+   h : a a a : b b b : c c c : j
+   h : a a a : b b b : c c c : j j j : k k k : l
+   ..:.......:.......:.......:.......:.......:..
+   n : d d d : e e e : f f f : g g g : h h h : a
+   n : d d d : e e e : f f f : g g g : h h h : a
+   n : d d d : e e e : f f f : g g g : h h h : a
+   ..:.......:.......:.......:.......:.......:..
+   c : j j j : k k k : l l l : m m m : n n n : d
+   c : j j j : k k k : l l l : m m m : n n n : d
+   c : j j j : k k k : l l l : m m m : n n n : d
+   ..:.......:.......:.......:.......:.......:..
+   f : g g g : h h h : a a a : b b b : c c c : j
+
+This corresponds to a square of side sqrt(13) with opposite edges
+identified, cut on the bias into 13 square faces.
+    ............................
+    :.'   a  .' `.. m .'     `.:
+    : `..   .'     `..'   n  .':
+    :    `..'   b  .' `..   .' :
+    : d  .' `..   .'     `..' d:
+    :   .'     `..'   c  .' `..:
+    :`..'   e  .' `..   .'     :
+    :.' `..   .'     `..'   j  :
+    :'     `..'   f  .' `..   .:
+    :   k  .' `..   .'     `..':
+    :..   .'     `..'   g  .' `:
+    :  `..'   l  .' `..   .'   :
+    :h .' `..   .'     `..'   h:
+    : .'  a  `..'   m   .'`..  :
+    :.'.......'b`.......'.n..`.:
+
+after which each face is cut up into nine facets.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+

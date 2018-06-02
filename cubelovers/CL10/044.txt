@@ -1,0 +1,35 @@
+From dik@cwi.nl  Tue Aug 24 20:43:14 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05145; Tue, 24 Aug 93 20:43:14 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA02014 (5.65b/3.10/CWI-Amsterdam); Wed, 25 Aug 1993 02:43:01 +0200
+Received: by boring.cwi.nl 
+	id AA11725 (4.1/2.10/CWI-Amsterdam); Wed, 25 Aug 93 02:42:58 +0200
+Date: Wed, 25 Aug 93 02:42:58 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9308250042.AA11725.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu, reid@math.berkeley.edu
+Subject: Re:  Diameter of cube group?
+
+ > > Continuing and waiting for a config that requires 21 turns, dik
+
+ > here's a pattern to try:
+ > first do 6 checkerboards of order 2 (F2 B2 R2 L2 U2 D2) and then do
+ > superfliptwist.  in other words, the group product of these two elements.
+
+As they commute I did it the other way around.  But I am highly
+suspicious that you tried it yourself.  10 minutes and only down
+to 22 turns.  But continuing, possibly for weeks/months.
+
+On another machine I am trying to prove that 20 is minimal for
+superfliptwist.  90 hours gone, still nothing.  Most of the time
+is not spend with phase 1 set to 16 turns.  Phase 1 to 13 got it
+doen to 20.  Nothing new with phase 1 to 14 or 15.  16 turns in
+phase 1 allows at most 3 turns in phase 2.  The latter can be time
+consuming.  I do not know in how many cases actually something is
+done in phase 2.  When I get to 17 turns in phase 1, I suspect in
+most cases in phase 2 it is immediately clear that it can not be
+solved.  But I am patient.
+
+dik
+

@@ -1,0 +1,82 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jun  5 19:41:11 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id TAA23314; Fri, 5 Jun 1998 19:41:10 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Jun  1 19:17:58 1998
+Message-Id: <357329D5.FD5A7E89@t-online.de>
+Date: Tue, 02 Jun 1998 00:23:17 +0200
+Organization: BERA Softwaretechnik GmbH
+To: Cube Mailing List <Cube-Lovers@ai.mit.edu>
+Subject: New member
+From: Rainer.adS.BERA_GmbH@t-online.de (Rainer aus dem Spring)
+
+Dear cube lovers,
+
+a few days ago I have subscribed to the list. I have downloaded all
+the archives and also found some software (great stuff).
+
+Some of you may know my name from Mr. Bandelow's book - I'm the guy
+who won a prize with the shortest maneuver fro the super-flip-twist.
+
+I always thought the cube is dead. Now I am really surprised to see
+this completely wrong :) The level of discussion is really amazing.
+
+I have are some questions concerning terminology:
+
+What does M-conjugacy mean (this doesn't seem to be a standard term
+from group theory).
+[ Moderator's note: See "Symmetry and Local Maxima", 14 December 1980.
+  This also introduces the group M and some of its subgroups, which
+  are helpful in a lot of the cube-lovers discussion.  Jerry Bryan
+  also tried an explanation of M-conjugacy on 3 October 1996.  ]
+
+Some mails in the archives mention numbers like p102 for patterns ?!?!?
+[ M: I believe Mark Longwood uses numbers of that form to catalogue
+  patterns. ]
+
+Does anybody know the current upper bound for God's algorithm (in q/f
+metric).
+[ M: 29 face turns, 42 quarter turns.  The best known lower bounds are
+  20 face turns, or 24 quarter turns (both achieved by superflip).
+  This was true on 13 February 1996, and I don't think there has been
+  an advance since then. ]
+
+Is there any serious research on the 4*4*4 or 5*5*5 cube. Computer
+search is probably beyond available/affordable hardware :(
+
+Are there any maneuver search programs that can handle slice metric ?
+I think that slice metric makes sense since q and f metric have no
+natural extension for "higher" cubes.
+[ M: See 1 June 1983 for "Eccentric Slabism", a genereralization of
+  the q metric that could be adapted to a f metric. ]
+
+Does anybody have some nice patterns on the 4^3 or 5^3 cube ?
+[ M: I reported some 4^3 patterns on 15 June 1982.  Have there been
+  others?  Any 5^3 patterns? ]
+
+I think I have some in my old (and thick) cube folder (paper,  not on
+my PC :))
+[ M: Could you type some in? ]
+
+Some of these questions probably have been discussed already. Sorry, I
+haven't read ALL old mails.
+[ M: Note that I left quite a few of these questions unanswered--other
+  replies are welcome, either pointers to archive messages I forgot or
+  new answers.  But this highlights a major failing of the archives:
+  We don't have a FAQ, or even an index to the major articles.  Is
+  anyone interested in working on something like this?  I have very
+  little time for it just now. ]
+
+adS
+
+-- 
+--------------------------------------------------------------------------
+Rainer aus dem Spring       email  Rainer.adS.BERA_GmbH@t-online.de
+(home)
+Schimmelbuschstr. 10        email  TEEADS@TEE.toshiba.de (business only)
+40699 Erkrath               tel. +49 (0)02104 35157  (private)
+Germany                     tel. +49 (0)02104 936150 (business)
+---------------------------------------------------------------------------
+

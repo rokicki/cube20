@@ -1,0 +1,35 @@
+Received: from ardec-lcss.arpa (TCP 30003004013) by AI.AI.MIT.EDU  6 Jul 88 10:15:11 EDT
+Received: by ardec-lcss.arpa id <2020019E042@ardec-lcss.arpa> ;
+       Wed,  6 Jul 88 10:12:00 EST
+Date: Wed,  6 Jul 88 10:10:46 EST
+From: BECK@ardec-lcss.arpa
+Subject: oxford u's rubik book update
+To: cube-lovers@ai.ai.mit.edu
+X-VMS-Mail-To: EXOS%"cube-lovers@mit-ai"
+Message-ID: <880706101046.2020019E042@ardec-lcss.arpa>
+Subj:  New RECREATIONS IN MATH editions - Rubik's Cubic Compendium
+
+Rubik's Cubic Compendium, by Erno Rubik, Tamas Varga, Gerzon Keri,
+Gyorgy Marx, and tamas Vekerdy.  200pp; 142 illust., 61 color -
+OUP#853202-4, list price $26.95.
+-->  YES ITS AVAILABLE!!  I have ordered some copies, and when I
+receive             them I will write a first hand review. <--
+
+Hype from OUP copy,  
+> This book co-written by the cube's inventor, and serves as a 
+> comprehensive guide to the cube for both the puzzler and the 
+> mathematician. The book reveals the wealth of fascinating
+mathematics
+> concealed within the cube's apparently simple operation, and even
+those
+>  who have solved the cube will discover a vast number of new ideas
+and
+>  possibilities.
+
+The Oxford U Press Rec Math series (series editor David Singmaster) to
+date is: 
+#1  "Mathematical byways ..." by Hugh ApSimon. 
+ #2: Ins and Outs of Peg Solitaire.  
+ #3: Rubik's Cubic Compendium, by Rubik, et al.  
+ #4 Sliding Piece Puzzles (Hordern). 
+

@@ -1,0 +1,66 @@
+From news@cco.caltech.edu  Thu Jul  9 19:28:24 1992
+Return-Path: <news@cco.caltech.edu>
+Received: from gap.cco.caltech.edu by life.ai.mit.edu (4.1/AI-4.10) id AA03141; Thu, 9 Jul 92 19:28:24 EDT
+Received: by gap.cco.caltech.edu (4.1/1.34.1)
+	id AA17055; Thu, 9 Jul 92 13:17:25 PDT
+Newsgroups: mlist.cube-lovers
+Path: nntp-server.caltech.edu!ph
+From: ph@vortex.ama.caltech.edu (Paul Hardy)
+Subject: Re: Name query. 
+In-Reply-To: ACW@riverside.scrc.symbolics.com's message of Thu, 1 Jan 1970 00: 00:00 GMT
+Message-Id: <PH.92Jul9131157@vortex.ama.caltech.edu>
+Sender: news@cco.caltech.edu
+Nntp-Posting-Host: ama.caltech.edu
+Organization: California Institute of Technology
+References: <9206112052.AA18593@strident.think.com>
+	<19920611213942.5.ACW@PALLANDO.SCRC.Symbolics.COM>
+Distribution: mlist
+Date: Thu, 9 Jul 1992 21:11:57 GMT
+Apparently-To: mlist-cube-lovers@nntp-server.caltech.edu
+
+In article <19920611213942.5.ACW@PALLANDO.SCRC.Symbolics.COM> ACW@riverside.scrc.symbolics.com (Allan C. Wechsler) writes:
+
+>   While I'm reminiscing, I should confess that my standard corner operator
+>   is still the same as it was then: (FUR)^5, which exchanges two corners,
+>   leaves the rest of the corners alone, and fucks the edges completely.
+>   (Prudes, do not hassle me.  This has been a technical term in cubing
+>   around MIT since The Beginning.)  Because of this property of "furry
+>   five", I have to home and orient all the corners first, before I touch
+>   the edges.  It's the kind of quirky algorithm you don't see among
+>   younger cubers, because everybody these days learns how to solve the
+>   thing from a book.  In the Beginning, there were no books, and I proudly
+>   state that I solved the cube from scratch, by brainpower.  Later I
+>   discovered that there were easier ways to do things than (FR)^105!  I
+>   had pages and pages covered with little cube diagrams with arrows
+>   showing how the stickers were permuted by a particular sequence.
+>
+>   I'm interested in hearing other reminiscences from people who actually
+>   solved the cube -- you're disqualified if you learned how to solve it
+>   from somebody else, or from a book.
+
+I also solved the cube alone at first.  I solved the top and middle first,
+then spent some time pondering the final face.  I realized that manipulating
+the corners was trickier than the edges because there were three faces rather
+than two, so I solved the bottom corners and then got the bottom edges in
+place.
+
+I eventually got Singmaster's book, and found that my method of solving two
+layers was faster than his.  I don't quite remember now, but I think it was
+because I had found a quick method for flipping a piece on the middle edge
+around if necessary (i.e., if it was in the correct position but flipped the
+wrong way) without disturbing anything else on the top or middle of the cube.
+Still, Singmaster's book had many patterns that were fun to go through and
+see evolve.
+
+I've long since lost my copy of Singmaster's book (one move too many); is it
+still available?
+
+				--Paul
+--
+This is my address:         ph@ama.caltech.edu
+This is UUCP:               ...!{decwrl,uunet}!
+This is my address on UUCP: ...!{decwrl,uunet}!caltech.edu!ama!ph
+Any questions?
+
+"Does Emacs have the Buddha nature?"  --Paul Hardy   "Yow!" --Zippy
+

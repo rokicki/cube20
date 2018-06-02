@@ -1,0 +1,48 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun 19 12:32:15 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id MAA06816; Thu, 19 Jun 1997 12:32:15 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <c=US%a=_%p=USNA%l=MATHNT1-970619120658Z-109@mathnt1.sma.usna.navy.mil>
+From: "joyner.david" <joyner.david@mathnt1.sma.usna.navy.mil>
+To: "'Josh D Weaver'" <shaggy34@juno.com>
+Cc: "'cube-lovers@ai.mit.edu'" <cube-lovers@ai.mit.edu>
+Subject: RE: Square One
+Date: Thu, 19 Jun 1997 08:06:58 -0400
+X-Mailer:  Microsoft Exchange Server Internet Mail Connector Version 4.0.994.63
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+
+>----------
+>From: 	Josh D Weaver[SMTP:shaggy34@juno.com]
+>Sent: 	Wednesday, June 18, 1997 4:05 PM
+>To: 	cube-lovers@ai.mit.edu
+>Subject: 	Square One
+>
+>Does anyone know how to solve one of those "Square One" puzzles?
+
+There's a paper on my web page which indirectly
+explains how. (It's actually a math paper written with
+a student of mine explaining the group theory of the puzzle.)
+What's useful are some of the moves which we give.
+If you can't print it out (It's a dvi file) I'll mail it to you
+if you give me your postal address. 
+http://www.nadn.navy.mil/MathDept/wdj/rubik.html
+
+The idea, if I remember, is
+1. get into a square form,
+2. use the special moves we give (moves which permute 3
+pieces only and leave the others alone, for example)
+to solve the puzzle as one solves the Rubik's cube.
+          
+                                        - David Joyner
+
+
+>
+>Josh
+>
+>
+
+

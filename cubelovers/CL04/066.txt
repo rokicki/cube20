@@ -1,0 +1,15 @@
+Date: 12 Aug 1982 08:49 PDT
+From: Mendelson.es at PARC-MAXC
+Subject: Re: Tsukuda's Square
+In-reply-to: ALAN's message of 12 August 1982 02:38-EDT
+To: ISAACS at SRI-KL
+cc: Cube-Lovers at MIT-MC
+
+
+Sorry, I don't have any answers for you.  I'm strictly a hacker and not a theorist,
+but I always find puzzles such as the one you describe to be a lot of fun.  I
+would like to suggest that whenever a new one such as this shows up the
+announcement of its arrival includes a reference to where it can be obtained.
+
+Jerry Mendelson
+

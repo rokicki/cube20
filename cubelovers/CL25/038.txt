@@ -1,0 +1,40 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Apr 15 16:23:24 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA17354; Wed, 15 Apr 1998 16:23:24 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Apr 15 15:35:06 1998
+Date: Wed, 15 Apr 1998 15:38:00 -0400 (Eastern Daylight Time)
+From: Dale Newfield <din5w@cs.virginia.edu>
+Reply-To: DNewfield@cs.virginia.edu
+To: cube-lovers@ai.mit.edu
+Subject: Re: Hamiltonian circuits on the cube
+In-Reply-To: <009C4C21.E208C3B3.8@ice.sbu.ac.uk>
+Message-Id: <Pine.WNT.3.96.980415153024.-386749A-100000@biff.cs.virginia.edu>
+
+On Wed, 15 Apr 1998, David Singmaster wrote:
+> 	The discussion of isoglyphs, etc., has reminded me of a problem which I
+> worked on in the early 1980s but never resolved.  I took an all white cube and
+> traced a Hamitonian circuit through all the 54 facelets.  If you jumble this
+> up, it is essentially impossible to restore.  Indeed there are probably many
+> solutions to the problem.  This led me to ask some questions about such
+> Hamiltonian circuits through the 54 facelets.
+
+This is quite reminiscent of "Oddmaze,"
+(http://www.edoc.com/zarf/custom-cubes.html) which is a creation by Andrew
+Plotkin realized using Kristin Looney's "Custom Cube Technology"
+(http://www.wunderland.com/WTS/Kristin/Technology.html).
+
+On its surface is a labyrinth with no branches or dead ends.  Each
+facelet has exactly two paths through it.  In the "start" position, at
+least, the path obeys the Celtic knotwork property (over/under
+alternations).  It is really quite interesting, and well described on the
+above mentioned page.
+
+(This doesn't help answer your questions, but might put you in contact
+with another that has given them some thought.)
+
+-Dale Newfield
+ Dale@Newfield.org
+

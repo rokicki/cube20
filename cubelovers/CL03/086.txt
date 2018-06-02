@@ -1,0 +1,17 @@
+Date: 11 Dec 1981 1643-EST
+From: ROBG at MIT-DMS (Rob F. Griffiths)
+To: cube-lovers at MIT-MC
+Subject: Re: Ultimate Cube
+Message-id: <[MIT-DMS].217732>
+
+   I have seen the 'Ultimate Cube', except here in Boulder, it is 
+done a little differently.  They are all Black cubes, and come
+in the standard (Ideal standard) container. And (no offense from
+me, this is what they are called) they are labeled 'Polish Cubes'
+with 'No wrong move'. Also, we have a Pyraminx puzzle (which is rather
+trivial compared to the cube) and it has a problem: if you twist the
+top cube on a certainm side too many times, (like 3 twists) it comes
+off and the whole mechanism falls apart.  Has anyone else had this problem?
+How can I correct it?
+			-Rob.
+

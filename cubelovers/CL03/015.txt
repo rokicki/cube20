@@ -1,0 +1,17 @@
+Date: 24 Aug 1981 1032-PDT
+From: ISAACS at SRI-KL
+Subject: recoloring the 10-sided cube
+To: cube-lovers at MIT-MC
+
+  A nice way to recolor the 10 sided cube is to give a side a quarter twist,
+so it looks sort of like a baseball, and then make the (fairly) obvious
+4 groups of 9 faces each in four colors, and two in-between stripes of 3
+facies each.  Each of the 9-facie groups will have 2 triangular facies, and
+3 slant rectangular facies, and 4 squares.  I think its a fairly simple
+variation to solve, but I just made it last night and have not worked with
+it much yet.
+  By the way, I just got my first magic tetrahedron.  This one came from
+Japan, but says made in Hongkong by "World-wide"(?) copyright by Meffert.
+Anyone know who he is?  It seems very similar to the one invented by
+Kristen Meier.
+-------

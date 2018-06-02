@@ -1,0 +1,48 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun 19 01:16:47 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id BAA05551; Thu, 19 Jun 1997 01:16:47 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+From: Benjamin Wong <chi@cse.unsw.edu.au>
+To: Josh D Weaver <shaggy34@juno.com>
+Date: Thu, 19 Jun 1997 11:37:43 +1000 (EST)
+X-Sender: chi@pipe02.orchestra.cse.unsw.EDU.AU
+cc: cube-lovers@ai.mit.edu
+Subject: Re: Square One
+In-Reply-To: <19970618.150557.11350.0.shaggy34@juno.com>
+Message-ID: <Pine.OSF.3.95.970619113450.27424A-100000@pipe02.orchestra.cse.unsw.EDU.AU>
+
+On Wed, 18 Jun 1997, Josh D Weaver wrote:
+
+._@_.Does anyone know how to solve one of those "Square One" puzzles?
+._@_.
+
+
+http://www.cfar.umd.edu/~arensb/Square1/
+is the only page on the net (that i can find)
+which describe how to solve square 1
+however, either i can not follow instruction,
+or error in it's instructuion
+i just can not solve it with their algorimthm
+I bought square 1 mess them up,
+only manage to solve them 2 times. 
+(beginner luck)
+but the page does not help very much.
+
+
+._@_.Josh
+._@_.
+
+o------------------------------------------------------o
+|Error: Reality.sys Corrupt?  Reboot Universe [Y,N,Q]  |
++---------------o--------------------------------------o
+| Benjamin Wong |  E-mail: chi@cse.unsw.edu.au         |
+|  		|  or       benjaminwong@hotmail.com   |
+| 		|  http://www.cse.unsw.edu.au/~chi     |
+o---------------o--------------------------------------o
+|=A1u=C2=E5=A5=CD=A1I=BD=D0=B0=DD=A1y=BA=B5=BF=DF=B2=B4=A1z=AA=BA=A6=A8=A6]=ACO=AC=C6=BB=F2=A1H=A1v                |
+|Quick Quiz:  Describe Universe ? Give Three Example.  |
+o------------------------------------------------------o
+
+
+

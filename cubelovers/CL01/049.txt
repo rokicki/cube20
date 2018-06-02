@@ -1,0 +1,49 @@
+Date: 8 Dec 1980 17:03 PST
+From: McKeeman.PA at PARC-MAXC
+Subject: A Proposed Definition of Symmetry
+To: cube-lovers at MIT-MC
+
+The discussion of local maxima for the Q measure of distance led to an informal
+use of symmetry.  It is not clear to me just what symmetry is needed to carry
+through the maxima argument but I suggest the following is sufficient (although
+perhaps too restrictive).
+
+Let C by the rotation group of the cube (closure of IJK: order 24)
+Let G be Rubik's group (closure of UDRLFB: order 10^19 or so)
+
+Both groups can be represented as a permutation group on [0, 1, ...53] for some
+arbitrary numbering of the 54 faces.  We can also use the names UDRLFB for the
+six colors; where the association is made once and for all for any given physical
+puzzle.  Like U=red, F=blue, etc.).
+
+The elements of g are 1-1 with the observable configurations of the standard
+cube; and in fact are the recipes to reach the configurations from "home".  g' is
+the "solution" that returns g to home.
+
+The elements of G*C are also 1-1 with the observable configurations except now
+the correspondence must also take into account the observed orientation of the
+cube.
+
+Each g in G is represented by a permutation of the cubelet faces.  Each face in g
+is a fixed color.
+
+For color X, let X[g] be the set of faces of g colored X.  |X[g]| = 9.
+Let Coloring[g] = {U[g], D[g], R[g], L[g], F[g], B[g]}.
+
+Then g is totally symmetric if for all c in C, Coloring[gc] = Coloring[g].
+
+----
+
+It is true that "home" and UUDDRRLLFFBB are totally symmetric by this
+definition.  "home" is a minimum (special case).  UUDDRRLLFFBB is a local
+maximum.
+
+Questions:
+
+Is there a simpler equivalent definition?
+
+How many totally symmetric configurations are there?
+
+Is there a less restrictive definition that guarantees local maxima?
+
+

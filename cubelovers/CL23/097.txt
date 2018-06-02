@@ -1,0 +1,88 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Aug  5 19:12:26 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id TAA27472; Tue, 5 Aug 1997 19:12:26 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Hoey@AIC.NRL.Navy.Mil Tue Aug  5 19:11:22 1997
+Date: Tue, 5 Aug 1997 19:11:12 -0400
+Message-Id: <199708052311.TAA13218@sun30.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: Cube-lovers@ai.mit.edu
+Subject: Glyph patterns
+
+Years ago I thought for a while on a taxonomy of some of the pretty
+patterns.  Mark's bringing some of them up on the Megaminx has
+reminded me of them.
+
+My favorite class of pretty patterns is the "glyph" patterns.  These
+are the patterns on which each face of the cube has facets of at most
+two colors.  They include most of the pretty patterns we've discussed
+on the list.  The "glyphs" here are the partition of the nine facets
+into two colors, where we aren't concerned with which colors but with
+the partition.  I call the part of the glyph that includes the face
+center the "figure" and its complement the "ground".
+
+There are only 51 glyphs up to the symmetry of the square, or 70 if we
+distinguish chiral pairs.  Some of the common ones we have discussed
+are blank, X, plus, dot, bar, T, slash, and H.  I recall seeing a
+cubing book that assigns 26 of the glyphs to letters of the alphabet,
+where you try to place all the letters of your favorite six-letter
+word on the cube, or something like that.
+
+Classification and analysis of glyph patterns is often simplified by
+separating out the corner-glyph from the edge-glyph.  There are only 6
+each of these subglyphs (up to symmetry), mostly determined by how
+many "figure" facets of each type there are.
+
+Name       0     1     2     D     3     4    
+        +-----+-----+-----+-----+-----+-----+
+        |.   .|X   .|X   X|X   .|X   X|X   X|
+Corner  |  .  |  .  |  .  |  .  |  .  |  .  |
+        |.   .|.   .|.   .|.   X|.   X|X   X|
+        +-----+-----+-----+-----+-----+-----+
+        |  .  |  X  |  X  |  X  |  X  |  X  |
+Edge    |. . .|. . .|X . .|. . .|X . X|X . X|
+        |  .  |  .  |  .  |  X  |  .  |  X  |
+        +-----+-----+-----+-----+-----+-----+
+
+So a type-2D glyph would have the corner-glyph 2 and the edge-glyph D.
+There are two type-2D glyphs, called T and U.
+
+An important subclass of the glyph patterns are the "isoglyphs", which
+have the same glyph on all six faces.  We've talked about the 6-T,
+6-plus, 6-X, 6-H, and 6-spot patterns.  Recall that you can twist just
+two opposite corners of the cube--I think Hofstadter called this a
+boson or something.  I was amused to find that there is just one other
+6-corner isoglyph of the cube.
+
+Another subclass are the "continuous" glyph patterns, in which the
+glyphs on neighboring faces match along the edge.  That is to say, a
+facet of an edge cubie and an adjacent facet of a corner cubie have
+the same color if and only if the other facet of the edge cubie and
+the adjacent facet of the corner cubie have the same color.  This
+matching condition gives the 6-plus patterns much of their charm.
+
+When every cubie of a continuous glyph pattern has either all "figure"
+facets or all "ground" facets, we call the pattern a "reassembled"
+glyph pattern.  In this case, we can envision the cube having been cut
+apart into figure and ground cubies and put back together in a
+different orientation.  Note that the reorientation may include a
+reflection, as we see in the Pons Asinorum.
+
+Some of the prettiest reassembled glyph patterns have corner type 4 on
+all faces--I call them "path patterns", because you can consider them
+a road map going around the cube.  In 1981 Dave Ackley found one he
+called the "four-way street", which is the unique continuous type-41
+isoglyph.  If you can find it, you know what I'm talking about.
+
+I've been considering writing a program (or perhaps sparking someone
+else's interest in writing a program) to count and classify all the
+glyph patterns, possibly by using corner-edge reduction.  It might be
+interesting to see if there is a set of nine cubes that exhibits all
+51 glyphs, or if not what the smallest panglyphic set is.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+

@@ -1,0 +1,21 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 12 18:03:02 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA19154
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 12 Mar 1999 18:03:02 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v04020a09b30db7b0d850@[134.9.13.42]>
+In-Reply-To: <009D4DE8.BDBAD646.12@ice.sbu.ac.uk>
+Date: Thu, 11 Mar 1999 10:14:14 -0800
+To: David Singmaster <david.singmaster@sbu.ac.uk>
+From: Patrick Weidhaas <weidhaas1@llnl.gov>
+Subject: Re: Oddzon version of the cube
+Cc: cube-lovers@ai.mit.edu
+
+Thanks for your info re coloured cubies. I also got some info from Kevin
+Young, see below.
+Patrick
+
+Date: Thu, 25 Feb 1999 15:58:16 -0500
+To: Patrick Weidhaas <weidhaas1@llnl.gov>

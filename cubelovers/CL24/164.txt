@@ -1,0 +1,48 @@
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Date: 16 Feb 1998 17:38:31 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <6c9tin$2ni@gap.cco.caltech.edu>
+
+"David Byrden" <David@Byrden.com> writes:
+>        I got a letter from a Washington
+>firm of lawyers about a week ago, saying
+>that they were the advisers to Seven Towns
+>Limited, holders of the 'Rubik' trademark.
+>The site was "diluting" the value of the
+>trademark and causing "customer confusion".
+>I was engaging in "unfair competition"
+>(despite not selling or distributing anything
+>or taking any money or having any advertising
+>on the site).
+
+They have to say stuff like this to demonstrate that they've protected
+their trademark.  Apparently the word "Rubik", when applied to puzzles,
+is trademarked.  In US law, if one doesn't protect a trademark by this
+manner, one may lose it.
+
+Of course, since Rubik is also the name of a person, you should be able to
+use "Rubik" when referring to the person.  The specific thing they're
+worried about is phrases like "The Rubik Page" or "Rubik Puzzles."
+Change the wording to "Puzzles based on those invented by Erno Rubik,"
+and I don't think they can touch you.
+
+>        Not only did they want the word 'Rubik'
+>removed from the website, they wanted one of
+>the Java puzzles removed as well. They called it
+>an "electronic version of the RUBIK'S CUBE".
+>Fair enough, being a hexahedron sliced into 26
+>equal parts it bore a certian visual resemblance,
+>but obviously there was none of their mechanism
+>involved. It was all brand-new software.
+
+This is bunk.  No one can trademark that stuff.  At most, there's a patent
+(which you can't have violated).  The lawyers are just asking for extra.
+
+- --
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+- ---------------------------------------------------------------------------
+"...he put a wire in his cap and called himself Marconi."
+
+------------------------------
+
+Date: Mon, 16 Feb 1998 00:45:33 -0500

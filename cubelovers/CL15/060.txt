@@ -1,0 +1,64 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Fri Mar  3 02:53:46 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01871; Fri, 3 Mar 95 02:53:46 EST
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <173373-1>; Fri, 3 Mar 1995 02:54:50 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA20651; Fri, 3 Mar 95 02:50:22 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1D32BD; Fri,  3 Mar 95 02:44:35 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Centralizers & GAP
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1070.5834.0C1D32BD@canrem.com>
+Date: Fri, 3 Mar 1995 02:38:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+Martin wrote:
+
+  That is, of the total 980995276800 elements in GE
+  only 980995276800/332640 = 2949120 elements centralize P.
+  And I used the definition of P from your e-mail of 1995/01/03,
+  i.e., P = (F2 B2) (U2 D2) (L2 R2) = (F2 B2) (L2 R2) (U2 D2) = ...
+  (one gets the same element independent of the order of the
+   three pairs).
+
+Ok.... let's see if I understand this "centralizer" business
+
+(2 ^ 12 / 2 ) * 12! =  980,995,276,800 elements in GE
+G is the Group of the cube
+GE is the Group of the Edges Only cube
+P is the element we call the Pons Asinorum (or 6 X order 2)
+
+Only 2,949,120 elements of GE centralize P,
+also only...
+     2,949,120 elements of G centralize P
+
+That is, out of all the elements of GE (or G) only 2,949,120 of them
+commute with the pons asinorum.
+
+Let's represent the Group of elements of GE that commute with P
+as X. Elements of X are represented by x.
+
+Then in all x of X, xP = Px.
+
+But what is really troubling me is:
+
+*  How do you represent a particular cube position (e.g. pons)
+   with GAP? *
+
+ If I could do that, then I could verify how many elements of
+ the cube group commute with a given cube position:
+
+ Size (Centralizer (cube, pons));
+
+ Should give 2949120 (2,949,120) ... right Martin?
+
+ and
+
+ Size (Centralizer (sq, cube.centre));
+ 663552
+
+-> Mark <-
+

@@ -1,0 +1,84 @@
+From devo@vnet.ibm.com  Wed Nov  9 13:42:09 1994
+Return-Path: <devo@vnet.ibm.com>
+Received: from VNET.IBM.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08633; Wed, 9 Nov 94 13:42:09 EST
+Message-Id: <9411091842.AA08633@life.ai.mit.edu>
+Received: from GDLVM7 by VNET.IBM.COM (IBM VM SMTP V2R2) with BSMTP id 1936;
+   Wed, 09 Nov 94 13:18:09 EST
+Date: Wed, 9 Nov 94 13:18:13 EST
+From: "Dave Eaton" <devo@vnet.ibm.com>
+To: cube-lovers@life.ai.mit.edu
+Subject: Re: Is there a symbolic cube program?
+
+In response to my request for a algebraic cube simulator,
+I have found out about the following:
+
+  Rubik Algebra, a $10 shareware DOS program that displays
+   a color picture of the cube on the left and a list
+   of choices (rotate a face, library of moves, scramble)
+   on the right.  It accepts a text string of moves
+   similar to Singmaster notation and displays the
+   resulting cube in 3D.  There is an option that will
+   tell you the cycle decomposition of the current
+   state.  So, this program provides the function I
+   requested and I will have to play with it to see
+   if the graphical cube and menus make this too hard
+   to use.  Nonetheless, my brief trial of the program
+   suggests that this is a good, straightforward tool
+   to fiddle with and analyze the cube.  This was
+   mentioned by Warut Roonguthai <kamala@chulkn.chula.ac.th>.
+
+  Maple and X-Maple were suggested as symbolic algebra
+   programs that could handle this type of task, but
+   I have no further understanding of these to know
+   how slick they would be.  This was mentioned by
+   Brett Stevens <brett@math.toronto.edu>.  There are
+   surely other symbolic algebra programs, but I don't
+   know of them.
+
+  Roll-your-own, the approach I (we all?) should use.
+   I think we could build a suite of text-based tools
+   written in "standard" portable C, that allows for:
+     - input of move sequences
+     - display of cyclical decomposition
+     - definition of compound moves that can be
+        used just like a standard move
+     - one-shot execution from the commandline or
+        running move mode
+     - find solution(s) from current state
+     - randomize/scramble
+     - other analysis of current state, like some
+        of the mathematics and numbers that have
+        been discussed in this newsgroup
+     - other size and shape cubes?
+   If folks want to do this, then I suggest that the
+   eager and capable coders who dive in first ought
+   to try real hard to make a system that can be
+   driven from other programs (such as a windowing
+   GUI display program with graphical cube).  If for
+   example the current state of the cube was stored
+   in a file current.cub, then a program called cube
+   could be called like "cube r2u3r2u" or "cube r2xr2"
+   where 'x' is a defined move--defined by
+   "cube define x rfr3f3" and that got stored in
+   a file library.cub.  The other functions could be
+   separate programs (which read the same files):
+      cubehome
+      cuberand
+      cubesolv
+   If I wrote this, I would have a hard time using
+   C instead of REXX.
+
+In the absence of finding exactly what I want, I
+will be experimenting with Rubik Algebra and deciding
+whether I ought to start writing something like the
+roll-your-own described above.
+
+Reply to this group if you know anything more.  Thanks.
+Thanks for the pointers to this information and the
+encouragement to give it a shot myself.  Maybe this would
+be a good task for my holidays and my little remaining
+vacation.  If I do something, I'll let you know.
+
+......Dave Eaton, N2NOQ, Owego NY, devo@vnet.ibm.com
+
+

@@ -1,0 +1,54 @@
+From BRYAN@wvnvm.wvnet.edu  Sun Feb 19 23:21:13 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27346; Sun, 19 Feb 95 23:21:13 EST
+Message-Id: <9502200421.AA27346@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 2606; Sun, 19 Feb 95 23:20:23 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5418; Sun, 19 Feb 1995 23:20:23 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sun, 19 Feb 1995 23:20:22 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Qturn Lengths of M-Symmetric Positions
+
+1. The length of Start is of course 0 qturns.
+
+2. The length of Pons Asinorum is of course 12 qturns.  This result
+   has been known since 1980.  However, in the process of testing
+   out half-depth searches, I tested Pons Asinorum and encountered
+   a minor surprise.  There are five "halfway" positions which
+   are unique up to M-conjugacy.  I only expected three.  They
+   are:
+
+      a. (RRLL)(FF)          expected -- continue BB etc.
+      b. (RRLL)(FB)          expected -- continue FB etc.
+      c. (RRLL)(FB')         expected -- continue FB' etc.
+      d. (FB')(RRLL)         a surprise to me
+      e. (RL')(FB')(RL')     a surprise to me
+
+3. The length of Pons Asinorum composed with Superflip is
+   20 qturns.  Half-depth searches through level 9 found nothing.
+   A half-depth search at level 10 found ten "halfway" positions which
+   are unique up to M-conjugacy.  I have my usual trouble of spinning
+   tapes containing representative elements in order to find the
+   processes, but I should have them in a couple of days or so.
+   I expect we will find that many (or all) of them are really
+   closely related, differing only by commuting in fairly trivial
+   ways, just as do the five half-way positions for Pons Asinorum.
+
+4. The length of Superflip is 24 qturns.  Half-depth searches
+   through level 11 found nothing, so the length is greater than
+   22.  Mike Reid has found a Superflip process of length 24.
+   Hence, the length is 24.  It would be more satisfying if I
+   could perform a half-depth search to level 12, but the
+   problem is just too big.  Hence, I have no idea how
+   many "halfway" positions there are which are unique up to
+   M-conjugacy.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

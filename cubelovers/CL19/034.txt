@@ -1,0 +1,28 @@
+From mouse@collatz.mcrcim.mcgill.edu  Wed Mar 13 07:00:50 1996
+Return-Path: <mouse@collatz.mcrcim.mcgill.edu>
+Received: from Collatz.McRCIM.McGill.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20095; Wed, 13 Mar 96 07:00:50 EST
+Received: (root@localhost) by 16027 on Collatz.McRCIM.McGill.EDU (8.6.12 Mouse 1.0) id HAA16027 for cube-lovers@ai.mit.edu; Wed, 13 Mar 1996 07:00:45 -0500
+Date: Wed, 13 Mar 1996 07:00:45 -0500
+From: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Message-Id: <199603131200.HAA16027@Collatz.McRCIM.McGill.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: Re:  Shamir and M-Conjugacy
+
+> T*[7] contains 192153 elements.  This is right on the bare edge
+> (maybe past the bare edge) of what could be handled on most machines.
+
+Two hundred thousand elements is on the edge?  Even assuming an
+extremely noncompact representation of 20 bytes each (one per
+non-center cubie), that's only four megabytes.  The _smallest_ RAM load
+I have at home (never mind the machines I have access to at work) is 8
+megs, and one machine has 28.  Keeping such a list entirely in-core
+would be no problem at all.  Nowhere near the edge.
+
+But Jerry Bryan knows what he's talking about too well to make this
+simple a blunder.  Could some kind soul explain what I've obviously
+missed?
+
+					der Mouse
+
+			    mouse@collatz.mcrcim.mcgill.edu
+

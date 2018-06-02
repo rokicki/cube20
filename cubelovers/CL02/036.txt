@@ -1,0 +1,12 @@
+Date:  20 February 1981 20:17 est
+From:  Greenberg.Symbolics at MIT-Multics
+Subject:  A lighter note
+To:  CUBE-HACKERS at MIT-AI
+
+in this increasingly hirsute forum:
+
+A man called us at Symbolics today, having seen our name in the
+Scientific American article.  He was having trouble getting
+cubes in the Chicago area, and wanted to know if we could sell
+him some.... (a true story)...
+

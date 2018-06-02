@@ -1,0 +1,31 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Apr  9 13:06:46 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA05235
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 9 Apr 1999 13:06:45 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <000701be8238$8c026820$92121fc8@lucentmd>
+From: "Jorge E. Jaramillo" <jejarami@usa.net>
+To: "cube" <Cube-Lovers@ai.mit.edu>, <Roger.Broadie@iclweb.com>
+Subject: Cube program by Roger Broadie
+Date: Thu, 8 Apr 1999 22:24:23 -0500
+
+I'd like to say that the cube program from Mr. Broadie is quite nice,
+actually is something I have been searching for for a while and something I
+requested to several Web based cube programers and never found, the ability
+to have a sequence interfase is something very useful mostly when you are
+looking for patterns and you find these lists on the web that don't show the
+actual result but just describe it with some sort of complicated notation,
+trying to do it with a real cube is a real pain since you have to do all the
+moves and if you make a mistake you have to start all over again by solving
+the cube and then making the moves that would take you to the final pattern.
+Well done Mr. Broadie and keep up the good work, please let the list know
+when you have the Windows version  ready. ;-)
+=======
+
+Jorge E. Jaramillo
+jejarami@usa.net
+Cut the chain and chase the dream
+Savatage 1984
+

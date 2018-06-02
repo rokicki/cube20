@@ -1,0 +1,43 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Dec 24 15:52:02 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id PAA22812; Tue, 24 Dec 1996 15:52:02 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Tue, 24 Dec 1996 15:49:47 -0500 (EST)
+Message-Id: <199612242049.PAA02532@spork.bbn.com>
+From: Allan Wechsler <awechsle@bbn.com>
+To: Rodrigo de Almeida Siqueira <delirium@ime.usp.br>
+Cc: cube-lovers@ai.mit.edu
+Subject: Java Rubik's Cube!
+In-Reply-To: <Pine.SUN.3.91.961224124630.9382A-100000@catatau>
+References: <Pine.SUN.3.91.961224124630.9382A-100000@catatau>
+
+For those having trouble with
+    	http://www.zaz.com.br/vestibular/1/Demos/j3.html
+my Portuguese is unreliable, but here is a first cut at a translation:
+
+Magic Cube
+
+The famous magic cube is here in 3D for [desafia]ing.  You can turn
+the cube freely (by) dragging with the mouse.  To turn the faces, drag
+with the mouse _on the vertices_.  To play: click the [seta] of the
+mouse over the cube and type m to mess up all the faces.  With the
+[seta] of the mouse over the cube, type i to reinitialize.
+
+(Or you may see:
+
+Your Netscape isn't understanding Java applets!  [Atualize] for a more
+recent version.)
+
+Game created by Marcelo Ribeiro.
+
+[I have to confess that I don't understand the heuristic by which it
+decides which face to turn.  I actually tried to solve the thing and
+it gave me the screaming meemies.]
+
+-A
+    
+    
+    
+
+

@@ -1,0 +1,35 @@
+From hazard@niksula.hut.fi  Fri Oct 20 07:00:31 1995
+Return-Path: <hazard@niksula.hut.fi>
+Received: from nukkekoti.cs.hut.fi by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10664; Fri, 20 Oct 95 07:00:31 EDT
+Received: from ummagumma.tky.hut.fi (hazard@ummagumma.tky.hut.fi [130.233.33.120]) by nukkekoti.cs.hut.fi (8.6.12/8.6.11) with SMTP id NAA14906 for <cube-lovers@ai.mit.edu>; Fri, 20 Oct 1995 13:00:30 +0200
+Date: Fri, 20 Oct 1995 13:00:30 +0200
+Message-Id: <199510201100.NAA14906@nukkekoti.cs.hut.fi>
+X-Sender: hazard@pop.niksula.cs.hut.fi
+X-Mailer: Windows Eudora Pro Version 2.1.2
+Mime-Version: 1.0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+To: cube-lovers@ai.mit.edu
+From: Mikko Haapanen <hazard@niksula.hut.fi>
+Subject: Old question about 2 adj edges
+
+Hello!
+
+I want to ask if somebody can tell me how to flip 2 adj. edges (and nothing
+else) in 4x4x4 cube? I have my own formula to do this but i cannot write it
+down because i have to discover it every time ;) and i turn whole cube so
+many times during it. I remember 39 or 40 turns have been the shortest way
+i've seen. What i need is that formula in BFUDLR (or something) language.
+
+I have another question about this mailing list. I have seen many lists
+similar to cube-lovers in my .nersrc file. Can i find cube-lovers list
+somewhere with my newsreader?
+
+Thanks.
+------Mikko Haapanen------hazard@niksula.hut.fi---------
+Jos tahto siirt‰‰ vuoren, niin tahdon siirt‰‰ tahdon
+Vuorta siirt‰m‰‰n, ett‰ vuoren sis‰‰n n‰‰n -P.Hanhiniemi
+--------------------------------------------------------
+
+
+

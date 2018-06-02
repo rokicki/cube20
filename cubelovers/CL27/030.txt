@@ -1,0 +1,54 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Apr  7 16:04:40 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA26207
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 7 Apr 1999 16:04:40 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <003001be7fad$445a7040$53c4b0c2@home>
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: "Cube Lovers (E-mail)" <Cube-Lovers@ai.mit.edu>
+Subject: Re: Keyboard cube [was: Re: Wrist pains]
+Date: Mon, 5 Apr 1999 21:57:13 +0100
+
+For anyone who is interested in trying out a simulator that can be
+operated in an instant-response keyboard mode, I have christened my
+web-pages by uploading a copy of my cube simulator.  In this mode, the
+function keys do face, centre-slice and whole-cube turns for the
+3x3x3, and alphabetic keys can also be used for the same purpose.
+
+L, U, F and R are assigned to F5 to F8, so it's reasonably easy to
+work up a rhythm.  Squares and inverses are done with Shift and
+Control, though as Jerry Bryan pointed out repeated jabbing is at
+least as easy.  These keys also work for 4x4x4 and 5x5x5 cubes, with
+the alphabetic keys b f u d l r used for the off-centre slices.
+
+I mainly wrote the simulator to show me the effects of turns in
+Singmaster notation and common variants such as are found in
+cube-lovers.  It's in Qbasic, which is the limit of my knowledge, and
+is a lot less sophisticated in appearance than the simulators
+available on the web - no mouse operations and no nice visible turning
+of the layers while you watch for instance, and distinctly rudimentary
+interactions with external files - so I am not offering it to the
+world in general, but it does have some features I haven't seen
+elsewhere that may appeal to Cube-lovers readers.
+
+Among them are that it can be set to show the effect of the turns on
+the centre pieces: it shows their orientation as little clock-hands
+that point to 12 o'clock in their home positions.  The orientation of
+each piece's pointer then allows its identity to be deduced.  I don't
+really feel I've understood the effects of a sequence unless I can see
+what it does to the centres.
+
+Also (this is a party trick, really) it can be set to work as a cube
+with any number of pieces per edge from two to 15, using an extension
+of normal Singmaster notation - no keyboard mode for these cubes.
+
+The program can be downloaded from
+
+    home.iclweb.com/icl1/roger.broadie
+
+I won't necessarily keep it there all that long.
+
+Roger Broadie
+

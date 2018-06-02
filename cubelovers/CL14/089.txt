@@ -1,0 +1,61 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Jan 11 14:01:19 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25989; Wed, 11 Jan 95 14:01:19 EST
+Message-Id: <9501111901.AA25989@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 2905; Wed, 11 Jan 95 13:53:57 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 2283; Wed, 11 Jan 1995 13:53:31 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 11 Jan 1995 13:53:30 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@life.ai.mit.edu>
+Subject:   Re: Re: Cube with GAP
+In-Reply-To: Message of 01/08/95 at 13:47:00 from ,
+           Martin.Schoenert@Math.RWTH-Aachen.DE
+
+On 01/08/95 at 13:47:00 Martin Schoenert said:
+>Jerry Bryan wrote in his e-mail message of 1995/01/07
+
+>    Note that this model does not include the face centers.  That is, it
+>    is G[C,E] rather than G[C,E,F].  56 numbers would be required to
+>    include the face centers.  The distinction between 48 facelets and
+>    56 facelets bears on the nitpicky question of whether the set C of
+>    rotations is a subgroup of G or not.
+
+>Absolutely right.  This part of the GAP documentation was written years
+>ago.  These days I represent MG, CG, etc. as permutation groups on 54
+>points.  I also changed the numbering, so that the [1..24] represent the
+>edges, [25..48] points represent the edges, and [49..54] represent the
+>centers.
+
+Martin was kind enough not to point out that 6*9 is 54 rather than 56.
+
+>    When I write the model out to disk, I only write out 8 corner facelets
+>    and 12 edge facelets.  For example, I only write out the front and
+>    back corner facelets.  This saves space and converts the model from
+>    a facelet model to a cubie model, with the twists implicitly encoded
+>    rather than being explicitly encoded via multiplication tables.  It
+>    also automatically establishes a frame of reference by which a
+>    proof of conservation of twist and flip can be accomplished.
+
+>In terms of computational group theory this sequence of 8 corner and
+>12 edgde facelets is called a *base* for the permutation group G.
+>That is, each element of the group is uniquely determined by the
+>images of those 20 facelets.  Of course if you have already proved
+>that no single corner can be twisted and no single edge can be flipped,
+>you can reduce this to 7 corner and 11 edge facelets.
+
+With some of my models it can be reduced slightly more.  Since
+representative elements of equivalence classes are what are being stored,
+the representative element can be chosen to fix a cubie of your choice.
+The cubie which is being fixed need not be stored.  This trick does
+not work, of course, if all cube positions are being stored rather
+than just representative elements.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

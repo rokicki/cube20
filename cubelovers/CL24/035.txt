@@ -1,0 +1,100 @@
+From: Nichael Cramer <nichael@sover.net>
+To: Roger Broadie <roger.broadie@iclweb.com>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: 4x4x4 solution
+Message-Id: <Pine.BSI.3.91.971001225256.25718B-100000@granite.sover.net>
+
+Roger Broadie wrote:
+> A slice turn produces a 4-cycle on the edges and two 4-cycles on the
+> face centres; a face turn produces a 4-cycle on the face centres and
+> two 4-cycles on the edges (and a 4-cycle on the corners, which may or
+> may not be relevant).
+>
+> I think it is very relevant. We can set the effects out as follows:
+>
+> Turn		Piece		Cycle(s)	Parity
+> ------        -------         --------        -------
+>
+> Slice         edge            1x4                odd
+>               centre          2x4                even
+>
+> Face          edge            2x4                even
+>               centre          1x4                odd
+>               corner          1x4                odd
+>
+> The consequence is that the parity of the centre pieces depends
+> entirely on the number of face turns - any slice turns do not affect
+> the parity of these pieces since the changes they introduce will be of
+> even parity.  For face turns, the changes to the parity of the corner
+> pieces and the centre pieces are the same.  Hence if the corner pieces
+> are in place, the centres will be in an even permutation, and that will
+> not be changed even if the edge pieces are in an odd permutation, which
+> was the essence of Clive McCaig's original question. Nor will that be
+> changed by any turn of a central slice to bring them back to an even
+> permutation.
+
+
+As one of the folks who advocated rotating a center slice, let me explain
+my (admittedly non-optimal) process for getting out of this fix and perhaps
+you can explain where my reasoning is wrong.
+
+1] Imagine a 4X which is completely solved except for two flipped (i.e.
+swapped) edge-pieces.
+
+2] For simplicity's sake --and without loss of generality--, assume the 2
+flipped/swapped pieces are adjacent and in the top front location.  So the
+top of the cube will look like this:
+
+   X X X X
+   X X X X
+   X X X X
+   X 1 2 X
+
+(Here the numbers are meant to indicate only where the cubies are located,
+having nothing to do with their colors.)
+
+3] I now rotate one of the center slices (say, the one on the right, i.e.
+the one containing the cubie "2") 90dg away from me.
+
+4] The top of the cube now looks like:
+
+   X X 2 X
+   X X O X
+   X X O X
+   X 1 3 X
+
+5] I can now perform the 3-cycle 1->3->2 (i.e. without affecting any of the
+rest of the cube).
+
+The top of the cube now looks like:
+
+   X X 3 X
+   X X O X
+   X X O X
+   X 2 1 X
+
+6] In particular, note that "2" and "1" are now in their correct positions
+(and, of course, necessarily in their proper "flip" orientation).
+
+7] Moreover, note that I now have exactly three edge cubes in the wrong
+place (i.e. "3" from above and the other two edge cubes which were
+misplaced during my original 90dg rotation of the center slice).
+
+I can now perform a 3-cycle on these edges pieces (similar to the one used
+in step 5 above) again without affecting any of the other locations on the
+cube.
+
+8] My cube now has all the edge pieces in their correct location.
+
+9] I now have only to "fix" the 8 central-face cubes which were misplaced
+during my initial 90dg twist.  I can now do this is short order.
+
+QED[?]
+
+Nichael Cramer
+work: ncramer@bbn.com
+home: nichael@sover.net
+http://www.sover.net/~nichael/
+
+------------------------------
+

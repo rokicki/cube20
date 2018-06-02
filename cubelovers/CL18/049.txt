@@ -1,0 +1,35 @@
+From serge@nexen.com  Mon Dec 18 13:49:36 1995
+Return-Path: <serge@nexen.com>
+Received: from guelah.nexen.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22745; Mon, 18 Dec 95 13:49:36 EST
+Received: from maelstrom.nexen.com (maelstrom.nexen.com [204.249.98.5]) by guelah.nexen.com (8.6.12/8.6.12) with ESMTP id NAA05287 for <cube-lovers@ai.mit.edu>; Mon, 18 Dec 1995 13:32:54 -0500
+Received: from spank.nexen.com (spank.nexen.com [204.249.98.79]) by maelstrom.nexen.com (8.6.12/8.6.12) with ESMTP id NAA21485 for <cube-lovers@ai.mit.edu>; Mon, 18 Dec 1995 13:48:41 -0500
+Received: (from serge@localhost) by spank.nexen.com (8.6.12/8.6.12) id NAA00173; Mon, 18 Dec 1995 13:47:26 -0500
+Date: Mon, 18 Dec 1995 13:47:26 -0500
+From: Serge Kornfeld <serge@nexen.com>
+Message-Id: <199512181847.NAA00173@spank.nexen.com>
+To: cube-lovers@ai.mit.edu
+Subject: [bagleyd@source.asset.com: neat puzzle web site]
+
+>>Subject: neat puzzle web site
+
+>>Hi
+>>   I was at the Puzzlette's web site and its pretty amazing.
+
+>>http://www.puzzletts.com/
+
+>>Cheers, 
+>>  /X\   David A. Bagley
+>> // \\  bagleyd@perry.njit.edu
+>>((   X  xlockmore, new stuff for xlock @ ftp.x.org//contrib/applications
+>> \\ //  altris, tetris games for x @ ftp.x.org//contrib/games/altris
+>>  \X/   puzzles, magic cubes for x @ ftp.x.org//contrib/games/puzzles
+
+
+
+I was at "http://www.puzzletts.com/" also and I like it.
+You can also try "http://www.gametrends.com".
+
+
+
+Serge serge@nexen.com
+

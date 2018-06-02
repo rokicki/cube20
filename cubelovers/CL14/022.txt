@@ -1,0 +1,72 @@
+From Wechsler@world.std.com  Mon Dec 19 09:59:54 1994
+Return-Path: <Wechsler@world.std.com>
+Received: from europe.std.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17311; Mon, 19 Dec 94 09:59:54 EST
+Received: from world.std.com by europe.std.com (8.6.8.1/Spike-8-1.0)
+	id JAA02475; Mon, 19 Dec 1994 09:59:52 -0500
+Received: by world.std.com (5.65c/Spike-2.0)
+	id AA05068; Mon, 19 Dec 1994 10:00:04 -0500
+Date: Mon, 19 Dec 1994 10:00:04 -0500
+From: Wechsler@world.std.com (Allan C Wechsler)
+Message-Id: <199412191500.AA05068@world.std.com>
+To: mouse@collatz.mcrcim.mcgill.edu
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: der Mouse's message of Sun, 18 Dec 1994 15:56:10 -0500 <199412182056.PAA13839@Collatz.McRCIM.McGill.EDU>
+Subject:  How Big is Big?
+
+   Date: Sun, 18 Dec 1994 15:56:10 -0500
+   From: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+
+   > [Physicists] are planning soon to start sending petabytes (10^15)
+   > over the Internet.  10^15 is getting interesting close to the size of
+   > Rubik's cube (never mind that I thought that the proper term for
+   > 10^15 bytes was terabytes.)
+
+   I thought it was
+
+	   kilo	10^3
+	   mega	10^6
+	   giga	10^9
+	   tera	10^12
+	   peta	10^15
+	   exa	10^18
+
+[...]
+
+   Also note that the Cube database storage size requires the highest
+   prefix we have.  Time to get SI to think up some more, I guess :-)
+
+(Warning to Cube-Lovers: this is off the topic, but it's a digression
+I can never resist.  Alan is going to come over to my house and soap
+my windows for this, I just know it.)
+
+They _have_ thought up some more -- this was in Science News about 18
+months ago.  But the ones they thought up are absolutely awful, and I
+want to take this opportunity to advertise my own suggestions.
+
+First note the following relationships, which I believe are entirely
+the result of coincidence:
+
+te(t)ra     1000^4	
+pe(n)ta     1000^5
+(h)exa      1000^6
+
+In each case, the prefix for 1000^n looks like the neo-greek prefix
+for n, with the second-to-last consonant deleted.  I merely propose
+that we continue this scheme:
+
+he(p)ta     1000^7
+o(c)to      1000^8
+(en)nea     1000^9
+
+I admit to a fudge with n=9, but I like neabytes better than
+eneabytes, and the prefix E was already taken by n=6.  I wanted to
+keep up the unique sequence of prefixes: K, M, G, T, P, E, H, O, N.
+
+For those who care, megameters are good for measuring small planets,
+gigameters for big planets and stars, and terameters for solar
+systems.  A petameter is about a tenth of a light year, and so it's
+good for measuring near interstellar distances; exameters are good for
+the 100-ly range, galaxies should be measured with hetameters, and
+intergalactic distances with otometers.  Current theory says the
+universe is considerably smaller than one neameter.
+

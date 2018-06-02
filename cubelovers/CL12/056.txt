@@ -1,0 +1,140 @@
+From BRYAN@wvnvm.wvnet.edu  Fri Aug 19 16:26:59 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12976; Fri, 19 Aug 94 16:26:59 EDT
+Message-Id: <9408192026.AA12976@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 8482; Fri, 19 Aug 94 16:00:54 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 1846; Fri, 19 Aug 1994 16:00:54 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Fri, 19 Aug 1994 16:00:53 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Updated Upper Limits, Q-turns
+
+On 9 January 1981, Dan Hoey provided a recursive procedure which
+gives the best known upper bound on the number of
+cubes at each distance from Start.  With Dan's recursive procedure,
+the upper bound for any level is a function of the known value or
+upper bound for the immediately preceding four levels.  Dan's procedure
+takes into account identities of the form XX'=I and RL=LR.
+
+At the time Dan performed his calculations, only level 0 through level 4
+were known for sure.  We now have 8 levels, so Dan's calculations can be
+updated.  I am going to give the new calculations, and I am also
+going to include Dan's original calculations for comparison purposes.
+In both tables, P[n] is the number of cubes which are n moves from
+Start.
+
+Dan's recursion formula is:
+
+>   P[n]  <= 4*2*P[n-1] + 6*2*P[n-2] + 4*2*P[n-3] + 1*2*P[n-4]
+
+
+Dan's calculations:
+
+> P[0]  =           1   P[9]  <  724,477,008     P[18] <  4.048*10^17
+> P[1]  =          12   P[10] <  6.792*10^9      P[19] <  3.795*10^18
+> P[2]  =         114   P[11] <  6.366*10^10     P[20] <  3.557*10^19
+> P[3]  =       1,068   P[12] <  5.967*10^11     P[21] <  3.334*10^20
+> P[4]  =      10,011   P[13] <  5.594*10^12     P[22] <  3.125*10^21
+> P[5]  <=     93,840   P[14] <  5.243*10^13     P[23] <  2.930*10^22
+> P[6]  <     879,624   P[15] <  4.915*10^14     P[24] <  2.746*10^23
+> P[7]  <   8,245,296   P[16] <  4.607*10^15     P[25] <  2.574*10^24
+> P[8]  <  77,288,598   P[17] <  4.319*10^16
+
+
+New Calculations:
+
+  P[0]  =           1   P[9]  <= 720,627,064     P[18] <= 4.026*10^17
+  P[1]  =          12   P[10] <= 6.755*10^09     P[19] <= 3.774*10^18
+  P[2]  =         114   P[11] <= 6.332*10^10     P[20] <= 3.538*10^19
+  P[3]  =       1,068   P[12] <= 5.935*10^11     P[21] <= 3.316*10^20
+  P[4]  =      10,011   P[13] <= 5.563*10^12     P[22] <= 3.108*10^21
+  P[5]  =      93,840   P[14] <= 5.215*10^13     P[23] <= 2.914*10^22
+  P[6]  =     878,880   P[15] <= 4.888*10^14     P[24] <= 2.731*10^23
+  P[7]  =   8,221,632   P[16] <= 4.582*10^15     P[25] <= 2.560*10^24
+  P[8]  =  76,843,595   P[17] <= 4.295*10^16
+
+I think that the two most interesting things about the new calculations
+are: 1) they are nearly the same as the old calculations, and 2) they
+are not exactly the same as the old calculations.  In both cases, the
+question is "why?".
+
+My interpretation is that Dan's analysis not only puts an upper
+bound on the number cubes at each level, it also puts an upper bound
+on the branching factor.  We trivially have an absolute upper limit
+on the branching factor of 12.  After level 1, we trivially have an
+upper limit on the branching factor of 11 (i.e., "don't undo the move
+you just made", or "don't have a sequence of the form XX'").  As before,
+moves of opposite faces commute.  Taking commutations of opposite faces
+into account, the branching factor is reduced (empirically ) to an upper
+limit of about 9.37.
+
+This empirical analysis is starting with a high branching factor and
+subtracting out the cubes we should not count, so that we are
+dealing with identities of the form XX' and commutations of the form
+RL=LR separately.  Dan's analysis deals with cubes we *should* count,
+and he thereby deals with identities of the form XX' and commutations
+of the form RL=LR in one fell swoop.
+
+But Dan's analysis does not yield exact figures, only limits.  It seems
+therefore that there must be other cases our empirical approach must
+choose not to count.  What might those other cases be?  It seems that
+there must be cases where a sequence X1 X2 ... Xn
+is equal to a sequence Y1 Y2 ... Ym, but where there is no obvious
+way to characterize the relationship between two sequences (e.g., they
+are not simple commutations of each other), and where we cannot even
+find the sequences without some sort of exhaustive search.
+
+I would interpret that fact that the new upper limits do not equal the
+old upper limits as meaning that such "duplicate" sequences do exist
+close to Start.  I would interpret the fact that the new upper limits
+are close to the old upper limits as meaning that there are not very
+many such "duplicate" sequences close to Start.
+
+But consider another quote from Dan in the same article:
+
+>The recurrence on which this bound relies is due to the
+>relations F^4 = FBF'B' = I (and their M-conjugates.)  It may be
+>possible to improve the recurrence by recognizing other short
+>relations.  Exhaustive search has shown that there are none of
+>length less than 10.
+
+I am afraid I need Dan to explain this further.  Dan's logic seems
+impeccable.  But on the other hand
+there must be cases where X1 X2 ... Xn = Y1 Y2 ... Ym, where
+the sum of the length of the sequences is less than 10, and where
+the equality is not explained by the relations F^4 = FBF'B' = I.
+Otherwise, Dan's calculations would yield exact values rather than
+upper limits close to Start, and the "new calculations" for upper
+limits would equal the "old calculations".
+
+Let me think out loud just for a second.  Consider relations such as
+LRLRLRLR = I or RR'RR'RR'RR' = I.  These are *sequences* of length 8
+but *cubes* of length 0.  Is it possible that such sequences are being
+counted too many or not enough times when the recursion is four
+levels deep?
+
+Finally, I have argued on purely empirical grounds that the branching
+factor will remain relatively constant from about level 3 to some
+unknown level (maybe about level 18 or 19 or 20?), where the branching
+factor will decay rapidly because you run out of cubes.  Well, I think
+I want to argue further that during this "relatively constant" portion
+of the distribution the branching factor *will* decay.  It might not
+decay very much, and I don't see any easy way to calculate how much
+it will decay.  The argument is very simple.  Any time a "duplicate
+sequence" occurs, it reduces the branching factor at that level, but
+also at subsequent levels.  That is, longer sequences can contain the
+"duplicate sequence" as a sub-sequence.  Hence, any decay in the branching
+factor at one level is propagated to all subsequent levels.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

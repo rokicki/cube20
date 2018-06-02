@@ -1,0 +1,39 @@
+From @mail.uunet.ca:mark.longridge@dosgate.canrem.COM  Tue Aug 10 11:07:52 1993
+Return-Path: <@mail.uunet.ca:mark.longridge@dosgate.canrem.COM>
+Received: from ghost.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16327; Tue, 10 Aug 93 11:07:52 EDT
+Received: from canrem.COM ([198.133.42.251]) by mail.uunet.ca with SMTP id <101001(4)>; Tue, 10 Aug 1993 11:07:26 -0400
+Received: from dosgate by unixbox.canrem.COM
+	id aa01045; Tue, 10 Aug 93 11:06:06 EDT
+Received: by dosgate (PCB-UUCP 1.1c)
+	id 180C04; Tue, 10 Aug 93 01:23:31 -0400
+To: cube-lovers@life.ai.mit.edu
+Subject: Cubes (of course)
+From: Mark Longridge <mark.longridge@canrem.com>
+Message-Id: <60.251050.104.0C180C04@canrem.com>
+Date: 	Tue, 10 Aug 1993 01:22:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+Well, I finally know what all the square's group antipodes look like.
+Next message I'll post a detailed summary on these patterns.
+
+I wrote a colour printer driver for my cube program today, tested
+it and it turned out pretty slick. I'm using a Star NX2420 rainbow
+printer and I'm (out of necessity) using
+
+   FACE         Star NX2420    Code    Real Cube
+   ----         -----------    ----    ---------
+
+  TOP/DOWN     BLACK/CYAN     0/2     WHITE/BLUE
+  LEFT/RIGHT   VIOLET/ORANGE  3/5     RED/ORANGE
+  FRONT/BACK   YELLOW/GREEN   4/6     YELLOW/GREEN
+
+...which works pretty good except violet is more like blue. I could
+have also used magenta (sort of a pink) for red but it does not
+(contrast well with orange.
+
+Should make the DOTC (Domain of the Cube) Newsletter look a lot
+better if I can ever finish the damn thing!
+
+More notes to follow....
+ -> Mark Longridge, still cubing after all of these years <-
+

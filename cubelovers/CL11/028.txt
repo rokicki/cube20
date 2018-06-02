@@ -1,0 +1,44 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Wed Dec 15 12:23:33 1993
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from mail.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22894; Wed, 15 Dec 93 12:23:33 EST
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <55811(9)>; Wed, 15 Dec 1993 10:52:43 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA18542; Wed, 15 Dec 93 10:50:49 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 18E5EB; Wed, 15 Dec 93 10:46:25 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: 6 X order 3
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.619.5834.0C18E5EB@canrem.com>
+Date: 	Wed, 15 Dec 1993 09:42:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+A few messages back I mentioned a cyclicly decomposable process for
+the pattern 6 X order 3. Success! Those familar with Christoph
+Bandelow's "Inside Rubik's Cube and Beyond" will recognize the
+notation, but for those who don't:
+
+Mr is the middle slice adjacent to face R
+Mu is the middle slice adjacent to face U (or T)
+Mf is the middle slice adjacent to face F
+
+Thus Mr1 rotates the middle slice in the same direction as r1,
+etc. ...fairly intuitive.
+
+The 28 slice moves are rather lengthy, but one can follow the
+progression to 6 X order 3 easily. Before the discovery of
+process p1b, memorization and execution of this pattern was
+difficult. By memorization I don't mean retention for days or
+weeks or even months as I wanted a CD-type process with which I
+could always reconstruct it in my head.
+
+Perhaps this could be improved upon, nevertheless now
+the checkerboard order 3 is easy to execute and easy to remember!
+
+(rotates edges 120 degrees around the FTR corner and BDL corner)
+p1b  alternate method 2 (Mr2 D3 Mr2 U1) ^3  TOP becomes LEFT     (28s)
+                        (Mr2 D3 Mr2 U1) ^3  LEFT becomes TOP
+                         Mr3 Mt1 Mr1 Mt3
+

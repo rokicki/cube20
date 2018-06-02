@@ -1,0 +1,35 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 26 16:59:03 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA13132
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 26 Nov 1999 16:59:02 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199910311159.MAA11039@ai2.accesinternet.com>
+From: "valley" <gilbert.valley@accesinternet.com>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: Rubik's cube?
+Date: Sun, 31 Oct 1999 12:58:08 +0100
+
+Last week I found a puzzle that looks like something between my old
+Rubik's cube and my pyracube.
+
+It has 14 faces: 6 are squares and 8 triangles.
+
+Imagine one side of the pyracube: a square in the middle, and four
+little triangles in the corners.
+
+Now when you look at the whole pyracube, the little triangles form 8
+pyramids. Then virtually remove these pyramids and you have the shape
+of my new puzzle.
+
+In addition it is cut (?) like a Rubik's cube, and consequently has
+the same solution.
+
+Have you ever seen this puzzle? was it made by rubik? How is it
+called?  Well, I want ot know everything about it since I've been
+collecting all rubiks cube-like puzzles for a few years.
+
+Thanks in advance,
+Paul
+

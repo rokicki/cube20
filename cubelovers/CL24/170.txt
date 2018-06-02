@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Feb 19 16:53:14 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA16296; Thu, 19 Feb 1998 16:53:14 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Feb 18 21:36:39 1998
+Date: Thu, 19 Feb 1998 02:03:04 +0000
+From: David Singmaster <zingmast@sbu.ac.uk>
+To: skouknudsen@email.dk
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009C2062.FA899020.3@ice.sbu.ac.uk>
+Subject: RE: Game designers [was Re: Rubik lawyers...]
+
+	In my Cubic Circular 1 (Autumn 1981), I recorded that Wim
+Osterholt, of the Netherlands, had made and patented a 4^3 which he
+showed me.  I don't remember it and I'm not sure when he brought it to
+London - perhaps Summer 1981?  I also recorded that Rainier Seitz
+(product manager of Arxon which was Ideal's German agent) showed me
+some German patents and applications for the 4^3 and 5^3.  In Cubic
+Circular 2 (Spring 1982), I record talking with another person who had
+devised a 4^3 mechanism.  In Cubic Circular 3/4 (Spring/Summer 1982),
+I describe playing with examples.  However, I don't recall ever
+knowing who devised the mechanism that was produced for Ideal.  It was
+common knowledge that it was not Rubik's mechanism.  One may be able
+to get details from the web site that Oddz On (sp??) has set up.  Tom
+Kremer (of Seven Towns, who is Rubik's agent) is supervising this site
+and he would be one of the most likely people to know.  I have a huge
+file of material comprising all US puzzle patents and I'll look there,
+but I think I would have known about the patent for the 4^3 already.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

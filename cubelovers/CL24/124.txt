@@ -1,0 +1,66 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Jan 13 13:12:03 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA00779; Tue, 13 Jan 1998 13:12:02 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Jan 12 23:26:33 1998
+Date: Mon, 12 Jan 1998 23:25:18 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Face Turns Nine Moves from Start
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.980112230236.123792A-100000@PSTCC6.PSTCC.CC.TN.US>
+
+I have some new search results for the face turn metric.  Here is a
+summary of the new search.
+
+Face Turns     Patterns  Positions    Branching    Positions/
+from Start                               Factor     Patterns
+
+	0             1           1                    1.000
+	1             2          18      18.000        9.000
+	2             9         243      13.500       27.000
+	3            75        3240      13.333       43.200
+	4           934       43239      13.345       46.294
+	5         12077      574908      13.296       47.604
+	6        159131     7618438      13.252       47.875
+	7       2101575   100803036      13.231       47.965
+	8      27762103  1332343288      13.217       47.991
+	9     366611212 17596479795      13.207       47.998
+
+
+The results at 8f and 9f from Start are new.  Previously, the face turn
+metric had only been searched through 7f from Start.  All the results in
+terms of patterns (M-conjugacy classes) are new.  Previously, the face
+turn metric had been searched only in terms of positions.
+
+Note that the branching factor does not change very much.  We already know
+(or strongly suspect by statistical arguments based on the results of
+Kociemba, Winter, Reid, and Korf) that it cannot change much this close to
+Start.  Otherwise, the mode of the distribution would be greater than the
+18f which is strongly suspected to be the case.
+
+I have not yet installed the logic to detect weak local maxima.  The logic
+to detect strong local maxima is installed with an interesting result. Two
+patterns were detected at 9f from Start which are strong local maxima.
+Regrettably, I have no idea what they are.  I will have to add something
+to the program to print out strong local maxima when they are detected.
+All I know is that the patterns are at least "somewhat symmetric" in that
+they collectively represent only 32 positions.
+
+I have begun to suspect that strong local maxima are fairly rare in the
+face turn metric.  Recall that a strong local maximum is one where all 18
+face turns carry the cube closer to Start.  A weak local maximum, by
+contrast, is a local maximum where at least one face turn leaves the cube
+the same distance from Start.  If I have not made a mistake in analyzing
+them (which is entirely possible), the only one of Mike Reid's "highly
+symmetric" positions which is a strong local maximum is superflip.  Even
+Pons Asinorum is not a strong local maximum.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

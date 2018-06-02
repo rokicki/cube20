@@ -1,0 +1,23 @@
+Received: from DIAMOND.S4CC.Symbolics.COM (TCP 20024231403) by AI.AI.MIT.EDU  4 Nov 86 17:11:18 EST
+Received: from KOYAANISQATSI.S4CC.Symbolics.COM by DIAMOND.S4CC.Symbolics.COM via CHAOS with CHAOS-MAIL id 24817; Tue 4-Nov-86 17:06:25 EST
+Date: Tue, 4 Nov 86 17:06 EST
+From: David C. Plummer <DCP@QUABBIN.SCRC.Symbolics.COM>
+Subject: rubiks magic
+To: "CLSTR1::BECK" <beck@clstr1.decnet>,
+    cube-lovers <cube-lovers@MIT-AI.ARPA>
+In-Reply-To: The message of 10 Oct 86 09:32 EDT from "CLSTR1::BECK" <beck@clstr1.decnet>
+Message-ID: <861104170610.5.DCP@KOYAANISQATSI.S4CC.Symbolics.COM>
+
+Rubik's Magic is available at "Games people play" near Harvard Square
+for a little under $15.  As with Beck, it took me about 4 days to solve
+it.  My resulting solution is strickingly simple (3 macros), but I took
+a lot of interesting paths to get there.  I think it could have been
+made harder be repainting the back surface, but doing so may take it out
+of the reach of the general public.  (It would require solving it to an
+intermediate configuration that doesn't look anywhere near solved, and
+then frob it again.)
+
+It's a good puzzle for playing with and relieving the fidgets.
+Mathematically it isn't very interesting, nor are there any "pretty
+patterns" other than solved1 and solved2.
+

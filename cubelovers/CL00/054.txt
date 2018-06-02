@@ -1,0 +1,9 @@
+Date:  26 July 1980 22:25 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: Some (perhaps well-known) Transformations
+To:  Davis at OFFICE-3
+cc:  cube-lovers at MIT-MC
+In-Reply-To:  Message of 26 July 1980 16:15 edt from Davis
+
+Out of curiosity (I am responsible for :cube), I'd be interested
+in seeing your code.  Is it someplace accessible?  -Bernie Greenberg

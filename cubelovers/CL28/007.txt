@@ -1,0 +1,154 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Sep  3 13:16:50 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA19489
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 3 Sep 1999 13:16:49 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <002d01bee8fc$928efe80$74c4b0c2@home>
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: "Cube-Lovers" <Cube-Lovers@ai.mit.edu>
+Subject: Re: Rubik's Cube Perpetual Calendar
+Date: Tue, 17 Aug 1999 23:05:08 +0100
+
+A calendar cube has just sold on eBay.  Quite possibly it comes from
+the same source as the cube Chris Pelley mentioned.  The description
+includes a picture, from which I see that it is not the same cube as
+the one I described on 30 July, which was bought in the UK.  The eBay
+version uses a different type-face and uses upper and lower case for
+the week-day names, unlike the British version, which uses all
+capitals.   It also has logos, whereas the British version has blanks
+on all faces that are not used for date markings. The British version
+was nonetheless a genuine Ideal cube and came in a cardboard drum
+bearing the title Rubik's Calendar and the copyright notice
+"[c-in-a-circle] MMLXXXI Ideal Toy Co Ltd, Wokingham, Berks".  There
+are other European calendar cubes pictured on eBay which are like the
+British one
+
+There is something very strange about the cube in the eBay photo.  In
+fact, I am convinced that is does not work for all dates, which drives
+me to the conclusion that the stickers have been rearranged.  I'll
+explain my reasons and see if others disagree.
+
+The photo shows only one view, so we have only three faces to work on.
+They look like this:
+
+-------------------
+|     |     |     |
+|  2  |  M  |  5  |
+|  V  |  >  |  <  |
+-------------------
+|     |     |     |
+|  J  |  P  |  1  |
+|     |  V  |  <  |
+-------------------
+|     |     |     |
+|  Mon|  P  |  6  |
+|  <  |  >  |     |
+-------------------
+
+-------------------   -------------------
+|     |     |     |   |     |     |     |
+|Satur|day  |     |   |  7  |  A  |  0  |
+|     |     |     |   |  V  |  >  |  <  |
+-------------------   -------------------
+|     |     |     |   |     |     |     |
+|  F  |  E  |  B  |   |     |  C  |  3  |
+|     |     |     |   |     |  V  |  <  |
+-------------------   -------------------
+|Rbk's|     |     |   |     |     |     |
+|Cube |     |  8  |   |Thurs|Ideal|  9  |
+|     |     |     |   |     |     |     |
+-------------------   -------------------
+The orientation is shown by the Vs, which point to the local upright
+for those markings that are not upright as shown - I've followed Dan
+in this.
+
+Once the markings on the various pieces of a calendar cube have been
+fixed, the way the cube is assembled does not matter, since to show
+the date we need solve only one face, and that can be done from any
+starting position, any necessary counterbalancing twists or
+permutations taking place in the other layers.  Let's assume the face
+used to show the date is the front face.
+
+Therefore we only need to worry about what markings each piece will
+bear.  The straightforward approach in designing a cube of this sort,
+it seems to me, is as far as possible to keep all the markings of the
+same type - that is, destined for the same position on the front
+face - together on the pieces carrying them.  So the week-day names
+would be on one set of corner pieces, destined for the top left of the
+front face, and the numbers forming the units digit of the day of the
+month would be on another set, destined for the bottom right of the
+front face.  In that way, clashes in which the piece would be needed
+in two places at once are avoided.  If this approach is not followed,
+then either there must be no clash, or markings must be duplicated.
+An example of the first would be an edge piece that combined the F or
+B of FEB with the 3 of the tens digit of the day of the month, a
+combination that is possible because there is no FEB 30.  The picture
+on the container of the British calendar cube, though not the cube
+itself, illustrates the other possibility, since one edge-piece
+combines J and 2.  That means that JAN 20 and similar dates cannot be
+shown unless either the J or the 2 is duplicated.  As it happens,
+there is one spare edge-piece face on that cube, so one duplication
+could be managed, but no more, but it is impossible to see from the
+picture if there is any duplication.  Probably not, because there are
+some other impossibilities and inconsistencies in the pictures which
+suggest they show non-functioning mock-ups.
+
+The different markings that need to be accommodated on the edge
+pieces, defined by their position on the front face, are:
+
+Top:  DAY
+
+Left: the eight initial letters of the month, J F M A S O N D
+
+Right: the ten letters completing the abbreviation for the month, N B
+R Y L G P T V C
+
+Bottom: the four numbers for the tens digit of the day of the month, 0
+(or blank) 1 2 3.
+
+The edge-piece at the top will always stay there, since it is needed
+to show DAY (assuming no duplicates).  So the other face of this piece
+will never show on the front face and cannot carry a useful marking.
+It can be blank, or carry a logo.
+
+In total, including the face backing DAY, we now have 24 faces, and
+that is exactly the number we have available if we have one face for
+each of the markings above.  As it happens, the one letter that occurs
+at both the start and the end of a month, N, is symmetrical in the
+sans-serif typeface used, and in the British cube is made to double as
+a starting and an ending letter, since it can be either way up. That
+frees up one face to permit one duplication.  It is impossible to see
+if the same approach is followed in the eBay cube.
+
+As a matter of interest, the British cube mostly (but not in all
+cases) puts an initial and a final letter together on the same
+edge-piece.  That is possible without too much juggling to avoid the
+clash of having the start and end of a month on the same edge piece,
+but is not necessary - the principle of segregating the different
+types of marking would lead to four edge-pieces with the initial
+letters and five with final letters.
+
+If we turn back to the eBay cube, we find that the visible edge-pieces
+are as follows.
+
+Day/P, J?, M?, 1A, F?, 3?, B/blank, blank/? logo/?, 3x??
+
+Since Day is combined with P, we need a duplicate of one or other if
+dates in SEP or APR are to be showable.  But even then we would not be
+able to show APR 10 unless a duplicate of 1 or A was included.  Thus
+even if one N is used for both the start of NOV and the end of JAN or
+JUN, we would already have one face too many.  Yet on top of that
+there are two blanks and a logo.  One blank is usable as the blank for
+the tens digit in dates like JAN 1, and one among the month letters is
+there is only one N.  But that still means that there is an extra
+blank even if there are no duplicates.
+
+If extra blank faces are included, then other needed markings must be
+omitted and dates involving those markings could not be shown.  In
+fact the only reasonable explanation I can see is that some stickers
+have been removed and put back wrongly.
+
+Roger Broadie
+

@@ -1,0 +1,90 @@
+From @po2.andrew.cmu.edu:dn1l+@andrew.cmu.edu  Sat May  4 12:20:57 1991
+Return-Path: <@po2.andrew.cmu.edu:dn1l+@andrew.cmu.edu>
+Received: from po2.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA01850; Sat, 4 May 91 12:20:57 EDT
+Received: by po2.andrew.cmu.edu (5.54/3.15) id <AA01212> for Cube-Lovers@life.ai.mit.edu; Sat, 4 May 91 04:59:53 EDT
+Received: via switchmail; Sat,  4 May 91 04:59:53 -0400 (EDT)
+Received: from aurelia.weh.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q001/QF.Qc8bT1i00Vos80SUoR>;
+          Sat,  4 May 91 04:58:47 -0400 (EDT)
+Received: from aurelia.weh.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr18/dn1l/.Outgoing/QF.sc8bSqG00VosIKz1df>;
+          Sat,  4 May 91 04:58:30 -0400 (EDT)
+Received: from Messages.7.8.N.CUILIB.3.45.SNAP.NOT.LINKED.aurelia.weh.andrew.cmu.edu.pmax.3
+          via MS.5.6.aurelia.weh.andrew.cmu.edu.pmax_3;
+          Sat,  4 May 91 04:58:29 -0400 (EDT)
+Message-Id: <wc8bSpu00Vos0Kz1VT@andrew.cmu.edu>
+Date: Sat,  4 May 91 04:58:29 -0400 (EDT)
+From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: 5-cube in a game store!!!
+Cc: Cube-Lovers@life.ai.mit.edu
+In-Reply-To: <9104230337.AA04955@life.ai.mit.edu>
+References: <9104230337.AA04955@life.ai.mit.edu>
+
+I called and ordered things from this store in California, and just
+recieved things over the past two days.
+
+THE 5X5X5 CUBE!!!!!!!!
+
+(I just started the 5X5X5 about 2 hours ago, and already have all but a
+few on the bottom.  I think it will be MUCH easier than the 4X4X4.  It
+comes with instructs on how to open it, and I took it apart to look. 
+THIS DESIGN IS IMPRESSIVE!  You can make some REALLY neat patterns with
+the 5x5x5.)
+
+5x5x5 from:
+Dr. Christoph Bandelow
+Haarholzer Str.  13
+4620 Bochum 1
+Germany
+
+Write (Dr. Bandelow) for a free mail order catalog with many twisting
+puzzles and books about these puzzles.
+
+The new Rubik's things:
+
+Rubik's Dice:  
+	Rubik's Dice, unlike any other dice, has nothing to do with luck.  It
+has spots whose color can be changed from white to red and from red to
+white.  Rbik's Dice in fact, is a hollow cube with which has 7 plates
+inside it.  The plates are white with red dots on them.  The plates are
+loose but adhere to the inner sides of the cube.  By shaking and turning
+the cube, the postition and orientation of the plates can be changed and
+this in turn alters the color of the spots of the dice.
+	Object:	Re-arrange the plates within the cube in such a way that the
+dice has white and only white spots.  If red is shown anywhere on the
+dice even through the small controll holes -- the puzzle is not
+complete.  The number of possible combinations is 7! x 4^7=82,575,360. 
+There is however, ony one correct solution.
+
+Rubik's Tangle:
+	Rubik's Tngle has 25 square tiles each tile has the very same pattern
+of ropes, but the color of the ropes varies.
+	Object:	Lay down the tiles into a 5X5 square in such a way that each
+colored rop forms it's own continuous line.
+24! x 4^24 = 1746 x 10^38 ( I have a feeling it should be 25!, not 24!)
+2 correct solutions.
+
+4 different tangle puzzles.
+each worrks by itself (differently) and together they form a 10X10 grid
+that also works
+
+Rubik's Triamid
+	Dumb, and i'm tired, so I won't explain.  I'm disappointed in this one,
+don't buy it.
+
+Rubik's 15:
+	2 puzzles: one side is a magic square
+		 the other side is a fifteen puzzle
+ but the mechanisms that manouver pieces are SICK!
+both can't be solved at once.
+
+
+Sorry, I started typing in the sheet that explained them all, but i'm
+falling asleep, so I just finished by explaining them a little.
+
+Dale Newfield
+
+dn1l@andrew.cmu.edu
+
+

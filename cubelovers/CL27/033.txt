@@ -1,0 +1,48 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Apr  7 18:00:36 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA26538
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 7 Apr 1999 18:00:36 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 5 Apr 1999 00:49:14 -0400 (EDT)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199904050449.AAA08526@Twig.Rodents.Montreal.QC.CA>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Keyboard cube [WAS Re: Wrist pains]
+
+> [Assume that the person is using a standard American QWERTY keyboard;
+>  remap if necessary.]
+
+Gotcha.  And your idea seems sound.  But...
+
+> Extension D:  Use the arrow keys to rotate the entire cube.
+
+Arrow keys are sufficiently nonstandard I would very much prefer
+something else - say, a shifted slice move to rotate the whole cube.
+(Under some reasonable circumstances it can be hard to even tell what
+you'll see for "the arrow keys", if they even exist.)
+
+In passing,
+
+> Extension C:  Add another grid for the right side of the cube:
+>  r t y
+>  f g h
+>  v b n
+
+I'd probably prefer
+   u i o
+   j k l
+   m , .
+
+I might even argue in favor of w e r / s d f / x c v for the other set,
+simply because they're the home keys for the three principal fingers of
+the left hand.
+
+Other than that, it sounds like an eminently reasonable approach.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

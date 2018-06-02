@@ -1,0 +1,37 @@
+Date: 3 Apr 1981 0750-PST
+Sender: OLE at DARCOM-KA
+Subject: Cube lube (yet again)
+From: Ole at DARCOM-KA (Ole J. Jacobsen)
+To: Cube-lovers at MIT-MC
+Message-ID: <[DARCOM-KA] 3-Apr-81 07:50:47.OLE>
+
+The following is a collection of thoughs and experiences on
+cube lubrication. It only applies to the Ideal cubes which
+are the only ones I have played with, but should have some
+applicability to other brands.
+
+Getting a smooth turning cube seems to me to be a combination
+of the right lubrication with the spring/screw tension. If the
+screws are too lose, the cube will turn easily, but frequently
+jam since the lose cubies tend to get in each other's way. On
+the other hand a very high tension without any lubrication would
+mean a very stiff and fast wearing cube. My solution is simply to
+use candle wax. I have taken my cube apart and rubbed each cubie
+with a standard candle. (My friend from the Chemical Eng. Dept.
+says parafine wax would be even better. This is what we used to
+rub on our skis back in Norway before all the fancy ski-waxes
+became available. I don't know how easy it is to get these days.)
+I also "fine-tune" the cube by adjusting the screws on each face.
+A couple of strips of double-sided tape stops the caps from acci-
+dentally falling out during use. You may need to take the cube
+apart a couple of times after the initial lubrication to allow
+superfluous wax to fall out. I also found that turning a newly
+waxed cube under a hot tap seems to make the wax settle nicely.
+This lubrication has the advantage of not (seemingly) coming out
+on your hands or otherwise disappear,- one treatment will last
+you very long indeed. The only slight problem is that the cube
+needs some "warming up" when it has been left idle for some time
+especially in cold places. (Ref. my earlier message) But a couple
+of minutes of random twisting produces a smooth and silent cube.
+Good luck
+                               OLE

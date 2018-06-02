@@ -1,0 +1,62 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 31 13:17:28 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA29097
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 31 Mar 1999 13:17:28 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 31 Mar 1999 08:46:33 -0500 (Eastern Standard Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re : Keyboard cube [was: Re: Wrist pains]
+In-Reply-To: <199903302344.SAA11205@life.ai.mit.edu>
+To: Cube Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <SIMEON.9903310833.A@GN209A.PSTCC.CC.TN.US>
+
+On Tue, 30 Mar 1999 17:47:33 -0600 Norman Richards <orb@cs.utexas.edu> wrote:
+>
+> > [...] I was wondering if anyone had an idea for a "hands on
+> > keyboard" approach that would allow you to naturally move the puzzles'
+> > slices.
+> >
+
+I fought with this issue back in about 1985 when I was originally working on
+the 2x2x2 and the corners of the 3x3x3.  I created a data base for each, with a
+program which would allow you to manipulate the cube on the screen, and the
+program would always show you your exact distance from Start.  Actually, the
+screen would show you two renderings of the cube  --  one was the cube you were
+manipulating and the other was the representative of the same cube under
+reduction by symmetry.  It was the representative that was looked up in the
+data base.
+
+I tried all kinds of input mappings, none of which were very satisfying.  One
+obvious thing to try is U for Up, D for Down, etc., but on a QWERTY keyboard
+this is not very easy to deal with.
+
+Keyboards in 1985 only had a numeric pad, not the additional arrow and page
+up/down keys of modern keyboards.  Within the numeric pad, I ended up using up
+arrow for U, down arrow for D, right arrow for R, and left arrow for L.  That
+left the question of F and B.  It *sounds* kind of dumb, but using the
+numeric pad + key for B and the numeric pad 0/INS key for F worked about as
+well as anything.  With these mappings, I could manipulate the cube without
+looking at the keyboard and with very little movement of my hand.
+
+I used the shift keys for things like U' and U2.  So left shift plus up arrow
+was U' and right shift plus up arrow was U2, etc.  I read the shift keys
+directly from the keyboard hardware (this was early DOS, and you could do such
+things).  I wouldn't necessarily recommend accessing the hardware so directly
+these days.  However, I found that I almost never used the shift keys.  Rather,
+I would tap the up arrow key quickly three times for U', and I would tap the up
+arrow key quickly two times for U2.
+
+I did not implement an interface for whole cube moves.  Rather, to rotate the
+whole cube I would do something like RL' or R'L or UD' etc.  Well, this
+works for the 2x2x2, but not for the corners of the 3x3x3.
+
+It's tricky to make the interface simple and intuitive, and also to make it
+functionally rich at the same time.
+
+----------------------------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+Pellissippi State Technical Community College
+

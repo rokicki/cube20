@@ -1,0 +1,33 @@
+Date: 25 June 1982 1225-EDT (Friday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  New Scientific American article
+Message-Id: <25Jun82 122513 DH51@CMU-10A>
+
+    Date:  6 August 1980 16:52 edt
+    From:  Greenberg.Multics at MIT-Multics
+    Subject:  Re: 'cube lovers digest'
+
+    I am really interested in when the _ Gardner is going to get
+    his act together and publish THE cubing article-- each month
+    for the last n I have eagerly taken the cover of SciAm and
+    been disappointed. This is clearly THE mathematical game
+    (since the inception of SciAm, with the possible exception of
+    Conway's LIFE), and I wonder what he's waiting for.  About a
+    week ago, I actually dreamt that I opened the SciAm wrapper
+    and found the Cube on the cover, introducing a WHOLE ISSUE
+    about it (Social implications, Ancient Cubing, Cubing in the
+    Soviet Union, etc...)
+
+Well, there finally was a Metamagical Themas column on the cube in
+March '81.  Unfortunately, that article was mostly old hat to the
+readers of Cube-Lovers.  The July '82 issue, just out, is a
+different story.  Hofstadter discusses about twenty different
+``Cube'' puzzles, based on all the regular polyhedra (and the
+tesseract), several arrangements of twist axes and several coloring
+schemes.  It even mentions cubing in the Soviet Union!  Stan Isaacs
+<ISAACS at SRI-KL> is the Cube-Lovers representative for the new
+article.
+
+At last I can believe that Hofstadter's column will replace
+Gardner's.

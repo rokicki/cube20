@@ -1,0 +1,4 @@
+BSG@MIT-AI 08/18/80 19:47:49
+To: cube-lovers at MIT-MC
+As per request of CLIVE, :CUBE ^F now accepts R for RED, Y for
+YELLOW and so forth. See AI:BSG;CUBE TEMPLT for reference.

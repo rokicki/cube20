@@ -1,0 +1,28 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Jun 12 23:25:38 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id XAA03916 for <cube-lovers-outbound@curry.epilogue.com>; Wed, 12 Jun 1996 23:25:37 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 12 Jun 1996 09:36:45 +0100
+Message-Id: <96061209364515@glam.ac.uk>
+From: VANESSA PARADIS WANTS ME <cmaggs@glam.ac.uk>
+To: CUBE-LOVERS@ai.mit.edu
+X-Vms-To: RUBIKCUBE
+
+
+
+1 Minute 26!?!?!?!? That's very impressive. I can say that ONCE I got it down
+to about 1 minute 10, but that was lucky. What order do you solve the pieces?
+Top to Bottom? I'm trying to find the fastest possible method by combining
+methods from other people.
+=====================================================                                 
+
+I solve top, bottom, middle, rotate.
+
+Pretty quick.
+
+Have tried top, middle bottom, but it is a little slower.
+
+How about you, what metthod do you use
+
+

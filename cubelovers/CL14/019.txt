@@ -1,0 +1,46 @@
+From BRYAN@wvnvm.wvnet.edu  Sun Dec 18 17:32:44 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17736; Sun, 18 Dec 94 17:32:44 EST
+Message-Id: <9412182232.AA17736@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 8903; Sun, 18 Dec 94 17:32:41 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5951; Sun, 18 Dec 1994 17:32:41 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sun, 18 Dec 1994 17:32:40 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject:   Re: How Big is Big?
+In-Reply-To: Message of 12/18/94 at 15:56:10 from ,
+           mouse@collatz.mcrcim.mcgill.edu
+
+On 12/18/94 at 15:56:10 der Mouse said:
+>> [Physicists] are planning soon to start sending petabytes (10^15)
+>> over the Internet.  10^15 is getting interesting close to the size of
+>> Rubik's cube (never mind that I thought that the proper term for
+>> 10^15 bytes was terabytes.)
+
+>I thought it was
+
+>        kilo    10^3
+>        mega    10^6
+>        giga    10^9
+>        tera    10^12
+>        peta    10^15
+>        exa     10^18
+
+You are correct, of course.  In retrospect, the aspect of the
+article in the Chronicle that waylaid me (and which I still find
+puzzling) is the absence of any mention of "tera".  It is a giant
+jump from "giga" to "peta", skipping "tera" on the way.  But "giga"
+and "peta" were juxtaposed in the article.  I have known how big
+"tera" is for years  -- can't believe I screwed it up.  It makes me
+wonder if the article had it right.  It is reasonable to jump from
+gigabytes to petabytes in one fell swoop?
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

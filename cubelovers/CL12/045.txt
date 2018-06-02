@@ -1,0 +1,22 @@
+From newfield@vsl.ist.ucf.edu  Mon Jul 18 11:56:37 1994
+Return-Path: <newfield@vsl.ist.ucf.edu>
+Received: from vsl.ist.ucf.edu (sparc1.vsl.ist.ucf.edu) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA00687; Mon, 18 Jul 94 11:56:37 EDT
+Received: from flix.vsl.ist.ucf.edu by vsl.ist.ucf.edu (4.1/SMI-4.1)
+	id AA24280; Mon, 18 Jul 94 11:53:21 EDT
+From: newfield@vsl.ist.ucf.edu (Dale Newfield)
+Received: by flix.vsl.ist.ucf.edu (931110.SGI) id AA03650; Mon, 18 Jul 94 11:53:16 -0400
+Date: Mon, 18 Jul 94 11:53:16 -0400
+Message-Id: <9407181553.AA03650@flix.vsl.ist.ucf.edu>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: A reaal robot solve the Rubik's Cube but...
+
+
+Sorry to pick nits, but if it is autonomous(sp?), which I think you implied,
+wouldn't it be an android, instead of a robot?
+-Dale
+
+Dale Newfield							   I'd rather
+newfield@vsl.ist.ucf.edu					   be playing
+dn1l@{cs,andrew}.cmu.edu					       xlife.
+
+

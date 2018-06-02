@@ -1,0 +1,14 @@
+From HOWSER@lua6.lu.edu  Wed Oct 26 11:59:14 1994
+Return-Path: <HOWSER@lua6.lu.edu>
+Received: from LUA6.LU.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AB06158; Wed, 26 Oct 94 11:59:14 EDT
+From: HOWSER@lua6.lu.edu
+Date: 26 OCT 94 11:03   
+To: <cube-lovers@life.ai.mit.edu>
+Subject: Record times for the cube
+Comments: Automatic Return Receipt Requested
+Message-Id: <CM3N02353B9ECC@LUA6>
+
+Ouch!  I fat-fingered it, sorry.
+-------  Forwarded message -------
+
+Date: Wed, 26 Oct 1994 10:23 am CDT (15:23:26 UT)

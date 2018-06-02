@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Nov 12 15:00:46 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id PAA26362; Thu, 12 Nov 1998 15:00:45 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 12 Nov 1998 15:01:40 +0000
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: cube-lovers@ai.mit.edu
+Message-Id: <009CF1D5.D1348312.50@ice.sbu.ac.uk>
+Subject: Use of the name Rubik's Cube
+
+        The lawyers are being obsessively zealous as the name is
+certainly well on its way to becoming a common noun.  It was included
+in the Oxford English Dictionary in the mid-1980s.  Other examples are
+Kleenex and Aspirin, which were both originally tradenames and their
+owners fought to retain them but eventually lost.  Xerox is fighting a
+rear-guard action on its name.  If you don't want to get involved in
+legal hassle, I suggest that you use the name  Magic Cube  which was
+the original name and is such a common term that they can't claim it
+is a trademark.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+
+[ Moderator's note: I am still dropping messages that consist mainly of
+  generic comments on intellectual property issues.  There a great variety
+  of individualistic and contentious debate on these topics that you may
+  follow in dedicated fora such as the Usenet group misc.int-property.  I
+  am not yet persnickety enough to elide the third and fourth sentences
+  from the above, but they are on the edge.
+
+  I will also note that the term "Magic Cube" is also used to refer to a
+  cubical array of natural numbers whose orthogonal and diagonal rows sum
+  to the same number, as a generalization of "Magic Square", so it is
+  advisable to include context such as "The geometrical puzzle originally
+  known as the Hungarian Magic Cube." ]
+

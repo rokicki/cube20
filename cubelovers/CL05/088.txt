@@ -1,0 +1,10 @@
+Received: from CSNET-RELAY.ARPA by MIT-MC.ARPA 17 Oct 85 12:49:05 EDT
+Received: from ti-csl by csnet-relay.csnet id ab07525; 17 Oct 85 12:46 EDT
+Date: 17 Oct 1985 0923-CDT
+From: Dan <NICHOLS%CSL60%ti-csl.csnet@CSNET-RELAY.ARPA>
+Subject: group theory book
+To: cube-lovers@mit-mc.arpa
+Received: from csl60 by ti-csl; Thu, 17 Oct 85 09:40 CST
+
+10-Oct-85 20:47:33-EDT,00000540;000000000001
+Date: Thu, 10 Oct 85 20:47:33 EDT

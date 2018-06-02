@@ -1,0 +1,59 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun 19 12:31:32 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id MAA06811; Thu, 19 Jun 1997 12:31:31 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <33A8DBC4.2A8F@snowcrest.net>
+Date: Thu, 19 Jun 1997 00:12:04 -0700
+From: Joe McGarity <joemcg3@snowcrest.net>
+Reply-To: joemcg3@snowcrest.net
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+MIME-Version: 1.0
+To: Josh D Weaver <shaggy34@juno.com>
+CC: "Mailing List, Rubik's Cube" <cube-lovers@ai.mit.edu>
+Subject: Re: Square One
+References: <19970618.150557.11350.0.shaggy34@juno.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+After three months of agony and wondering if Square One was actually the
+puzzle box from Clive Barker's Hellraiser, I managed to come up with a
+solution that covered all the bases, i.e. worked every time.  I have
+never tried to write it out in a step by step form however.  I will try
+to cover the basics.
+
+First the puzzle looks like a Rubik's Cube when solved in that it is a
+cube with a solid color on each face, but the similarity ends there. 
+Square One more closely resembles the Orb, Masterball and Smart Alex in
+the ways that it moves.  If you can solve any of those you will be a
+step closer to the Square One.  I see the square one as nearly identicle
+to the Smart Alex.  The shapes of the pieces are different, but they
+move as a disk divided into sectors (exactly like the Masterball). 
+There are six pieces on each face if you count the small sectors as half
+pieces.  Count the pieces and you will see what I mean.  The little ones
+are half the the size of the angle of the big ones.  The idea then for
+me was to get the little ones paired up like the picture in the
+instruction booklet.  Once they were paired correctly I could solve it
+just like the Masterball or Smart Alex making it look like it did when
+it was new in the package (remember it came in a slightly scrambled
+state with instructions on how to solve it from there in about six
+moves).  Then I could just follow the booklet for the final part.  Like
+I said it took three months and scores of note paper to finally get it. 
+When I did, the walls opened up and the Cenobites took me away, but it
+was worth it.
+
+I hope I haven't caused more confusion.  It is difficult to describe
+without having one in my hands to show you.  This is just a sketchy
+overview of how I solve it.  If I get a chance to document this solution
+I will send you a copy, but it probably won't be for a while.  I'm sure
+that someone has a better solution and I'd be interested in seeing what
+others have come up with.  My solution takes about twenty minutes to do
+and there must be a faster way.  The ones I have trouble with are the
+Sqewb and the Alexander's Star.  Anybody got a good solution for any of
+these?
+
+Joe McGarity
+
+
+
+

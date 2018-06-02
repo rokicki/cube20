@@ -1,0 +1,45 @@
+From: Don Woods <DON at SU-AI>
+Subject: excerpts from Singmaster
+To:   CUBE-LOVERS at MIT-MC 
+
+[In reply to message from Plummer sent 1 JAN 1981 1315-EST.]
+
+	** SPOILER WARNING!! SPOILER WARNING!! **
+
+This message gives the shortest solutions known to Singmaster (as of
+the fifth edition of his booklet) for three pretty and moderately
+complex patterns, recently referred to as "baseball" (or "worm"),
+"snake", and "cube-in-a-cube".  People wishing to investigate these
+patterns (as described in earlier messages) may not wish to read
+further.
+
+Notes:  Singmaster uses the half-twist measure.  His notation also
+includes special representation for the slice (center-twist) and
+antislice (such as L+R as opposed to L'+R) operations, which he counts
+as two twists; I have expanded this to strict "befuddler" (BFUDLR)
+notation in this message.
+
+BASEBALL or WORM
+
+	RUFFD'RL'FB'D'F'R'FFRUUFRRF'R'U'F'UUFR
+
+SNAKE
+
+	BRL'D'RRDR'LB'RR + UBBU'DBBRLUUR'L'BBD'
+
+It's not too hard to get to the snake, if you don't mind wasting few
+twists.  Start with DLLRRD' and you're most of the way there.  This
+assumes you know simple macros for swapping two pairs of edge cubies
+and for flipping two edge cubies.
+
+CUBE IN A CUBE
+
+	BL'DDLDF'DDFD'B' + F'RUUR'U'BUUB'UF
+
+Again, the cube-in-a-cube is not hard to generate using two instances
+of the commutator macro -- R'FRF' UF'U'F U'RUR' -- plus a few simple
+extra twists.  This is left as an exercise to the reader.
+
+	-- Don.
+
+

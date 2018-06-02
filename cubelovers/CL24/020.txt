@@ -1,0 +1,50 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 30 18:10:34 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA21599; Tue, 30 Sep 1997 18:10:33 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From roger.broadie@iclweb.com Tue Sep 30 18:05:38 1997
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: <cube-lovers@ai.mit.edu>
+Subject: Re: 4x4x4 solution
+Date: Tue, 30 Sep 1997 23:02:48 +0100
+Message-Id: <19970930230037.AAA21244@home>
+
+C.McCaig@queens-belfast.ac.uk wrote:
+
+> ...I recently borrowed a friends 4x4x4, and I ... can't figure out a
+> move for reorientating the single edge pair....
+
+It is possible to solve the problem with a sequence based on a quarter
+turn of a central slice, since that, like a swap of two edge pieces,
+involves an odd-parity cycle of the edge pieces.  Thus
+
+	r2 U2 r U2 r2
+
+(where r is the turn of the inner slice next to R in the direction
+parallel to R)
+
+puts a 4-cycle of edges onto the top face, but leaves you with the task
+of restoring the centres.
+It was the desire to find something less cumbersome that first lead me
+to investigate the archives of this list, and there the answer was:
+
+	Date: Fri, 20 Oct 95 12:46:32 -0400 (EDT)
+	From: Georges Helm <geohelm@pt.lu>
+	Subject: Re: Old question about 2 adj edges
+
+
+	how to flip 2 adj. edges (and nothing else) in 4x4x4 cube?
+
+
+	r^2 U^2 r l' U^2 r' U^2 r U^2 r l U^2 l' U^2 r U^2 l r^2 U^2
+
+	Georges
+	geohelm@pt.lu
+
+It does indeed contain an odd number of turns of the central slices to
+give the desired parity.
+
+Roger Broadie 
+

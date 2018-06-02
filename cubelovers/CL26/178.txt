@@ -1,0 +1,35 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 16 20:02:41 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA04847
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 16 Mar 1999 20:02:40 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <13546.9903160941@sun2.mcs.le.ac.uk>
+Date: Tue, 16 Mar 1999 09:41:52 +0000 (GMT)
+From: "M. P. Baker" <mpb2@mcs.le.ac.uk>
+Reply-To: "M. P. Baker" <mpb2@mcs.le.ac.uk>
+Subject: Re: Stickers vs. tiles
+To: cube-lovers@ai.mit.edu
+
+David Singmaster <david.singmaster@sbu.ac.uk> wrote:
+
+> Recently, I've bought an example [of a tiled cube] at a
+> newsagent's in London for somewhere in the #1 to #2 range and it worked
+> moderately well (the previous two which I bought recently were virtually
+> immovable!).  A large version of this (about 90mm or 3 1/2 in on an edge) was
+> on sale from a street vendor in December, but I don't know if he has any left
+> and I haven't seen it elsewhere.
+
+These cubes appear to be available from street vendors all over the UK. I've
+recently bought some in Leicester and Plymouth. They also sell them in a
+"gadget" shop at the end of my street, the sort of place that also sells blow-up
+aliens etc. The large ones are really nice for displaying patterns on, and came
+with a solution entertainingly translated from some Chinese type script :-)
+--------------------------------------------
+Matthew Baker
+Dept. of Mathematics and Computer Science
+University of Leicester
+
+mpb2@mcs.le.ac.uk
+

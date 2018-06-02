@@ -1,0 +1,53 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Oct 18 20:56:25 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09250; Wed, 18 Oct 95 20:56:25 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R3)
+   with BSMTP id 5392; Wed, 18 Oct 95 20:56:03 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 1451; Wed, 18 Oct 1995 20:56:04 -0400
+Message-Id: <wvmail32.1995oct18.201936.bryan@wvnvm.wvnet.edu>
+Date:      Wed, 18 Oct 1995 20:56:03 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: Positions 8q from Start, 9q from B, Five Generators
+In-Reply-To: Message of 10/17/95 at 19:44:40 from BRYAN@wvnvm.wvnet.edu
+
+I can add a bit of additional information.  The 16 positions
+8q from Start and 9q from B can be reduced to 4 positions
+unique up to Q2-conjugacy.  As I have discussed before,
+it is still difficult to claim that the 4 positions are really
+"different" without further analysis because of the possibility
+that the positions are variations within a commuting subsequence
+of moves.
+
+I don't really have a Q2-conjugacy program.  It would be easy to
+make one, but I don't have time so I used my M-conjugacy program.
+Recall that Q2={i,b,bb,bbb,rrv,rrbv,ttv,ttbv}, where b, r, and
+t are whole cube rotations of the Back, Right, and Top faces,
+respectively, and v is the central inversion.  For 12 of the
+16 positions X the program reports Symm(X)={i}, which is to say
+m'Xm is not equal X for any m in M except the identity.  Obviously,
+the same is true for all m in Q2 since Q2 is a subgroup of M.  We
+have |Q2|=8, so |{m'Xm | m in Q2}=6.  Therefore, the 12 positions
+for which Symm(X)={i} form two Q2-conjugacy classes.
+
+Using the M-conjugacy program for the other 4 positions is trickier,
+but only slightly so.  For the other 4 positions, the M-conjugacy
+program reports Symm(X)=HX, where HX={i,bb,rr,tt,v,bbv,rrv,ttv}.
+But HX is not a subgroup of Q2, and what we need is sort of
+"Symm(X) with respect to Q2", which I will call Symm(X/Q2).
+(A better notation is probably available).  It is easy to see
+that Symm(X/Q2)=(Symm(X) intersect Q2), and we have
+(HX intersect Q2)={i,ttv,bb,rrv}.  This subgroup is called
+HQ2 in Dan's taxonomy.
+
+We have |Q2|=8 and |HQ2|=4, so |{m'Xm | m in HQ2}|=2
+when Symm(X/Q2)=HQ2.  Therefore, the last 4 positions form
+two Q2-conjugacy classes.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

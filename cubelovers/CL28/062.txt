@@ -1,0 +1,117 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Jan 22 14:53:38 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA01807
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Sat, 22 Jan 2000 14:53:37 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <20000110161852.11773.qmail@web118.yahoomail.com>
+Date: Mon, 10 Jan 2000 08:18:52 -0800 (PST)
+From: Jaap Scherphuis <jaapsch@yahoo.com>
+Reply-To: jaap@org2.com
+Subject: Re: Square-1 tables of move sequences
+To: Cube-Lovers@ai.mit.edu
+
+
+Dear Cube-Lovers,
+
+Here are my latest and probably final Square-One results.
+
+I have finalised my square-1 solving program, and it can now be downloaded from
+my website. I managed to speed it up so much that it can do an exhaustive depth
+9 search in a few hours on a fast pc. It has thus confirmed that all the
+sequences below of length <=10 are minimal (though there might be other
+sequences that are easier to perform).
+
+The only sequences that are more than 10 long are A13 and C5, and these are 11
+and 12 moves respectively. I have no plans as yet to do longer searches on
+these two.
+
+Here are the move tables. I will quote them in full, even though many are the
+same as in my previous post.
+
+A. Sequences involving only edges, and where some of them change layer:
+1. Swap DF-UF, DR-UR, DB-UB, DL-UL: (0,5)/(1,1)/(-4,2)/(1,1)/(2,3)
+2. Swap DF-UF, DB-UB: (0,5)/(1,1)/(-1,6)
+3. Swap DF-UB, DB-UF: (0,-1)/(1,1)/(-1,0)
+4. Swap DR-UR, DB-UB: (0,2)/(0,3)/(1,1)/(-1,-4)/(0,-2)
+5. Swap DR-UB, DB-UR: (0,2)/(0,3)/(1,-5)/(-1,5)/(0,3)/(0,-2)
+6. Swap DB-UB, DR-UF: /(-3,0)/(0,5)/(6,1)/(0,3)/(-5,0)/(-1,6)
+7. Swap DB-UF, DR-UB: (1,0)/(0,5)/(6,3)/(0,5)/(-5,0)/(-3,6)/(6,0)
+8. Swap DR-UF, UR-UB: (1,0)/(-4,5)/(0,-3)/(1,1)/(-1,2)/(4,-5)/(-1,0)
+9. Swap DR-UR, UF-UB: (1,3)/(0,3)/(0,3)/(-1,2)/(1,4)/(0,3)/(-1,0)
+10. Swap DR-UB, UF-UR: (4,3)/(3,0)/(-4,5)/(1,1)/(-3,0)/(0,-3)/(2,3)
+11. Cycle UF->UR->DR: (1,3)/(0,5)/(0,3)/(6,1)/(0,5)/(3,6)/(6,-3)
+12. Cycle UF->UB->DR: (0,5)/(0,1)/(6,3)/(5,0)/(-5,0)/(0,3)/(-1,0)/(0,1)
+13. Swap UF-DF:
+(4,5)/(3,0)/(0,1)/(10,2)/(0,4)/(0,4)/(10,2)/(0,1)/(3,0)/(3,5)/(7,4)/(11,0)
+
+
+B. Sequences involving only edges of both layers where they do not change
+layer:
+1. Swap UF-UB, UR-UL, DF-DB, DR-DL: (1,0)/(-3,3)/(2,2)/(3,3)/(-2,4)/(5,0)
+2. Swap UF-UL, UR-UB, DF-DL, DR-DB:
+(0,2)/(-3,0)/(1,1)/(-4,2)/(1,1)/(5,-4)/(0,-2)
+3. Swap UF-UB, DF-DB: (1,0)/(-1,5)/(1,-5)/(-1,6)
+4. Swap UR-UB, DR-DB: (0,2)/(0,-3)/(1,1)/(-1,2)/(0,-2)
+5. Swap UF-UB, DR-DB: (0,2)/(1,0)/(0,3)/(6,1)/(0,5)/(-3,0)/(5,6)/(6,-2)
+6. Swap UF-UB, UL-UR, DF-DB:
+/(3,3)/(1,2)/(2,-4)/(-2,4)/(2,4)/(3,3)/(3,0)/(3,3)/(3,0)
+
+
+C. Sequences involving only edges of the top layer:
+1. Swap UF-UB, UR-UL: /(3,-3)/(3,-3)/(6,-2)/(3,-3)/(3,-3)/(2,0)
+2. Swap UF-UL, UR-UB: /(3,3)/(1,4)/(5,5)/(-3,0)/(3,3)/
+3. Cycle UF->UB->UR: (1,0)/(-1,2)/(-5,1)/(0,3)/(-3,0)/(5,2)/(-5,4)/(-4,0)
+4. Swap UF-UB:
+/(3,3)/(3,2)/(-4,2)/(-2,4)/(-2,0)/(-4,2)/(-5,1)/(3,0)/(3,3)/(0,-3)
+5. Swap UF-UR:
+(3,0)/(3,0)/(1,2)/(10,3)/(10,3)/(10,5)/(4,0)/(0,1)/(3,5)/(9,0)/(2,3)/(10,4)/(5,3)
+6. Cycle UF->UR->UB->UL:
+/(3,3)/(1,0)/(2,2)/(0,2)/(4,4)/(2,0)/(2,2)/(-1,0)/(-3,-3)/(0,3)
+
+
+D. Sequences involving only corners, and where some of them change layer:
+1. Swap UFR-DFR, UBR-DBR, UBL-DBL, UFL-DFL: (4,0)/(2,2)/(-3,3)/(-2,-2)/(-1,-3)
+2. Swap UFL-DFL, UBR-DBR: (4,0)/(2,2)/(6,-2)
+3. Swap UFL-DBR, UBR-DFL: (-2,0)/(2,2)/(0,-2)
+4. Swap UFL-DFL, UFR-DFR: (6,5)/(-3,0)/(4,4)/(2,5)/(0,1)
+5. Swap UFL-DFR, UFR-DFL: (1,0)/(3,0)/(-4,2)/(-2,4)/(0,3)/(5,6)
+6. Swap UFL-DFL, UBR-DFR: /(3,0)/(6,2)/(4,0)/(-3,0)/(6,-2)/(-4,0)
+7. Swap UFL-DFR, UBR-DFL: (6,0)/(3,0)/(6,2)/(4,0)/(-3,0)/(6,-2)/(2,0)
+8. Swap UFR-UBR, UFL-DFR: (4,3)/(0,3)/(3,0)/(2,5)/(-5,4)/(3,0)/(5,3)
+9. Swap UFL-UBR, UFR-DFR: (0,5)/(0,3)/(0,3)/(-2,1)/(2,5)/(0,3)/(0,-2)
+10. Swap UFL-UFR, UBR-DFR: (-2,0)/(0,3)/(6,3)/(2,2)/(-2,1)/(-3,0)/(-4,6)
+11. Cycle UFL->UFR->DFR: (1,3)/(-4,0)/(6,3)/(0,4)/(-4,0)/(3,0)/(-3,3)
+12. Cycle UFL->UBR->DFR: (-5,0)/(3,0)/(5,2)/(-5,4)/(0,3)/(-1,2)/(-2,4)/(-4,6)
+13. Swap UFR-DFR: /(3,0)/(1,2)/(-2,0)/(2,1)/(6,3)/(1,0)/(-2,2)/(0,1)/(3,3)/
+
+
+E. Sequences involving only edges of both layers where they do not change
+layer:
+1. Swap UFR-UBL, UFL-UBR, DFR-DBL, DFL-DBR:
+(1,0)/(-1,5)/(3,3)/(1,1)/(-3,3)/(5,0)
+2. Swap UFR-UFL, UBL-UBR, DFR-DFL, DBL-DBR:
+(0,5)/(0,3)/(4,4)/(-3,3)/(2,2)/(0,-3)/(6,1)
+3. Swap UFL-UBR, DFL-DBR: (0,5)/(-2,4)/(2,-4)/(0,1)
+4. Swap UFL-UFR, DFL-DFR: (1,0)/(-3,0)/(2,2)/(1,-2)/(-1,0)
+5. Swap UFL-UBR, DFL-DFR: (-2,0)/(0,2)/(0,3)/(-4,0)/(4,0)/(6,3)/(-2,0)/(2,6)
+6. Swap UFL-UBR, UFR-UBL, DFL-DBR: /(3,3)/(-3,4)/(-2,4)/(-4,2)/(-4,3)/(3,3)/
+
+
+F. Sequences involving only edges of the top layer:
+1. Swap UFL-UBR, UFR-UBL: /(-3,3)/(-3,3)/(0,1)/(-3,3)/(-3,3)/(-1,6)
+2. Swap UFL-UFR, UBR-UBL: /(3,3)/(-3,0)/(4,4)/(2,5)/(3,3)/
+3. Cycle UFL->UBR->UFR: (-5,0)/(-4,5)/(4,1)/(-3,0)/(0,3)/(-4,2)/(-2,1)/(2,0)
+4. Swap UFL-UBR:
+/(3,3)/(-5,0)/(4,4)/(2,0)/(4,4)/(-2,5)/(3,3)/(0,5)/(-2,-2)/(5,0)
+5. Swap UFL-UFR: /(3,3)/(1,4)/(0,4)/(10,4)/(8,2)/(2,0)/(10,4)/(4,1)/(3,3)/
+6. Cycle UFL->UBL->UBR->UFR:
+/(3,3)/(-5,0)/(4,4)/(2,0)/(4,4)/(-2,5)/(3,3)/(0,5)/(-2,-2)/(5,0)
+
+Jaap Scherphuis
+Copyright January 2000
+--------------------------
+Jaap's Puzzle Site:  http://www.org2.com/jaap/puzzles
+Psion Organiser II homepage:  http://www.org2.com
+

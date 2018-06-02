@@ -1,0 +1,11 @@
+Date:  8 JAN 1981 1523-EST
+From: DR at MIT-MC (David M. Raitzin)
+To: CUBE-LOVERS at MIT-MC
+
+The other day, having nothing to do, I started optimizing my
+transformations.  Counting 90-degree twist, 180-degree twist and a
+twist of the middle slice as a single move, I reached the following
+numbers: for Plummer cross: 24 moves, and for what I call inverting
+the cube (that means flipping every non-corner cubie) 29 moves.  Now
+realizing that neither of those comes close to the optimum # of moves,
+I'd like to know how far of the so far achieved optimum am I?

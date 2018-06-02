@@ -1,0 +1,69 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug  8 11:22:01 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA02825; Fri, 8 Aug 1997 11:22:00 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From kociemba@hrz1.hrz.th-darmstadt.de Fri Aug  8 09:15:32 1997
+Message-Id: <33EB1ABE.1DC8@hrz1.hrz.th-darmstadt.de>
+Date: Fri, 08 Aug 1997 15:10:22 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>
+To: Dan Hoey <Hoey@aic.nrl.navy.mil>, cube-lovers@ai.mit.edu
+Subject: Continuous isoglyph patterns
+References: <199708052311.TAA13218@sun30.aic.nrl.navy.mil>
+
+Dan Hoey made some proposals concerning 2-colored cube patterns. The
+"coninuous"-condition i find especially interesting. I added this
+feature to my Cube Explorer program and found exactly 34 continuous
+isoglyphs (plus the trivial solution). I don't know if there are any
+among them, which have not been described somewhere else before.
+Here are generators for the patterns (I searched only about 1 minute for
+most generators of the patterns, so there is no claim for the maneuvers
+to be optimal):
+
+D F2 D' . R B2 R' D F2 D' R B2 R'  (12)
+U . L' D' U B2 D U' L' U'  (9)
+U2 L' B2 . F R' D' R2 D B2 F' U L  (12)
+D' U . L' R B' F D' U  (8)
+R2 D L2 U' B2 D' U2 . R' F' U R B' L' D' F L2 B2 R U'  (19)
+F2 L2 U L2 U' F2 D . B L R' D' U' F' D2 F' R2 F R  (18)
+B2 U' B2 D' B2 D . L' B2 F' U R D2 R' D' U' F U  (17)
+L2 D2 B D2 B' D2 B L2 . D B R D2 F L2 D F' R'  (17)
+B2 U' B2 L2 B2 U2 B2 U' D2 . R U R' D' L U F U' D' L  (19)
+U R2 D . F' L D2 U2 R' D2 U2 F D' R2 U'  (14)
+U B2 . L B F' L2 R' B' F D U2 L' B2 U'  (14)
+D' U . F' U L' R B' U F D' U R'  (12)
+U' B2 F2 L2 U B2 U' L2 F2 . B' U R' F D' R2 D2 R' F'  (18)
+F2 R2 D R2 D U F2 D' . R' D' F L2 F' D R U'  (16)
+D U2 R2 D' U' . R D B2 R2 B2 R2 D B2 D2 R U'  (16)
+D U2 L2 U R2 U' L2 U . R' B2 L2 F' L2 B' R' F' L D U'  (19)
+D2 U F2 D' L2 U R2 B2 . R B2 R2 U2 B' L2 D2 R2 D R' U'  (19)
+D2 R B2 R . F L B' F U' R L' U' F' D2 F' L2  (16)
+D' B2 F2 D' U L2 . F' L R' F' D U' R D B2 R  (16)
+U' R2 F2 U2 . L' D2 B' L2 U' L2 D2 L U2 F' U2  (15)
+L2 U2 R' . B' D U' B2 D' R' D L D2 F D U2 L2  (16)
+U' F2 U . R U2 R2 U2 R' F' R2 F U' F2 U  (14)
+U2 R2 F2 U B2 D' . L' F L' F L' F D B2 U  (15)
+D2 R F2 L' D2 R . B D2 F' L2 U' R' D L F D L' D L'  (19)
+D' L2 F2 L2 B2 R2 U F2 U2 . L' F R B D R U' L F' U2 F  (20)
+B2 L2 R2 U B2 R2 D F2 U' . B F U2 R' B2 L2 D U' B' L' R'  (20)
+U B2 U2 L2 U F2 R2 B2 U' L2 D2 F2 U' . B L2 R2 D2 U2 F'  (19)
+L2 . R' B2 F2 D2 B2 F2 L2 R2 U2 R'  (11)
+D U L2 B2 D U' . F' U F' R F2 R' F D' B2 L2 D' U'  (18)
+L2 U' B2 F2 D . R D F' U' R2 B2 U' B D2 B' F' L U'  (18)
+D F2 R2 F2 R2 U F2 . R F2 R D2 U' F L' F' L D  (17)
+B2 R2 F' U2 D2 L2 R2 B . U' L R B' F U D B2 F2 R' F2  (19)
+D' L2 R2 D2 B2 F2 U' . R' B' F D' U L R' F2 D2 U2 F'  (18)
+B2 F2 L2 R2 D2 U2  (6)
+
+If you copy and paste the maneuvers from this message to a text file,
+you can load them into Cube Explorer and directly watch the results.
+
+The response to my Cube Explorer 1.0 program showed me, that the
+userinterface and the terminology of the program are confusing (if not
+to say bad) and some features are missing which should be there.
+I almost completed Version 1.5 now. When I put it to my homepage in a
+few days, I will send another message.
+
+--Herbert
+

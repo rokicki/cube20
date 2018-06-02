@@ -1,0 +1,15 @@
+From lag@erc.msstate.edu  Wed May  3 12:11:59 1995
+Return-Path: <lag@erc.msstate.edu>
+Received: from Phoenix.ERC.MsState.Edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02075; Wed, 3 May 95 12:11:59 EDT
+Received: from water.ERC.MsState.Edu (lag@Water.ERC.MsState.Edu [192.208.140.162]);
+           by Phoenix.ERC.MsState.Edu using ESMTP (8.6.8.1/7.0m-FWP-MsState);
+           id LAA24178; Wed, 3 May 1995 11:11:27 -0500
+From: "Ludwig A. Goon" <lag@erc.msstate.edu>
+Received:  by water.ERC.MsState.Edu (8.6.8.1/6.0c-FWP);
+	   id LAA07405; Wed, 3 May 1995 11:11:53 -0500
+Date: Wed, 3 May 1995 11:11:53 -0500
+Message-Id: <199505031611.LAA07405@water.ERC.MsState.Edu>
+To: CUBE-LOVERS@life.ai.mit.edu
+
+unsubscribe RUBIKS CUBE Ludwig Goon lag@erc.msstate.edu
+

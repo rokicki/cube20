@@ -1,0 +1,58 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jan 27 19:18:31 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA24435
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 27 Jan 2000 19:18:31 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <388B7645.F3DA4D27@worldnet.att.net>
+Date: Sun, 23 Jan 2000 16:44:37 -0500
+From: Howard <shdrake@worldnet.att.net>
+Reply-To: shdrake@worldnet.att.net
+Organization: The Drake Family
+To: "Cube-Lovers@ai.mit.edu" <Cube-Lovers@ai.mit.edu>
+Cc: "Jing Meffert - Meffert's Puzzles" <jing@ue.net>
+Subject: Ideas for new puzzles
+
+Dear Cube-Lovers,
+
+  As I twist and turn, I often think, wouldn't it be great
+if this puzzle did this.  After discovering Jaap Scherphuis'
+page on puzzle info, I thought I should put my ideas forward.
+If these have already appeared, then please don't take offense,
+I am not stealing, just reinventing the wheel.  If anyone knows
+if these puzzles already exist, I would very much appreciate
+hearing about them.  If these puzzles don't exist, then I
+offer my ideas as a challenge to any puzzle manufacturers, and
+puzzle designers, who may read this news letter.
+
+  As I twisted my skewb, to prove to myself that it is very
+similar to the Magic Pyramid, I thought, I would like to swap
+corners from one group (of 4) to the other group.  Super-
+imposing the cuts of a 2x2x2 cube on the skewb would do this.
+Each face would consist of 8 triangles.  Allowed twists would
+be the 120 degree twist of the skewb and the 90 degree twist
+of the 2x cube, only.  Stopping at 45 degrees or 60 degrees would
+not allow a twist in a new direction to begin.  Any number
+of 90 degree cube twists could follow any number of 120 degree
+of skewb twists, followed by 90 degree twists, etc.
+
+  My second idea/wish is a Dogic, but using 20 colors, rather than
+12 colors.  Each face of 3 triangles (plus insert), would be
+a unique color.  The main challenge I see in making this, is
+choosing 20 easily distinguishable colors.  I like the 12 Dogic
+color choices very much, because, to my eyes, they are easily
+distinguishable, (in contrast to one of my skewbs that has 2
+shades of orange for adjoining sides).
+
+  2 ideas that I am currently building are an 8 color cube
+and 12 color cube using Mefferts assembly cubes and tiles.
+The 8 color is the corner centered design, and the 12 color
+is an edge centered design.  These appeared in an early
+Scientific American article.
+
+  Does anyone in Cube-Lovers have a Web Page to collect ideas
+of the group for future puzzle designs?
+
+Howard Drake
+

@@ -1,0 +1,53 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Sep  6 13:06:11 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id NAA02196; Fri, 6 Sep 1996 13:06:10 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Fri, 6 Sep 1996 07:31:48 -0400 (EDT)
+From: Assoc Prof W David Joyner <wdj@nadn.navy.mil>
+X-Sender: wdj@coronado
+Reply-To: Assoc Prof W David Joyner <wdj@nadn.navy.mil>
+To: Rubin Shai <s2394459@cs.technion.ac.il>
+cc: cube-lovers@ai.mit.edu
+Subject: Re: cube programs, etc
+In-Reply-To: <Pine.SV4.3.91-heb-2.04.960902222955.16485A-100000@cs.technion.ac.il>
+Message-ID: <Pine.GSO.3.95.960906072728.10182B-100000@coronado>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+
+On Mon, 2 Sep 1996, Rubin Shai wrote:
+
+> Hi all 
+> I have a computer program that learn to solve the 2X2X2 cube. I mean that 
+> after several hours of 'learning' the program knows to solve any legal 
+> start position of this cube. Before learning the program solve the cube 
+> after about 15 minuets, after learning it takes about 5 seconds.
+> The letter from Prof Joyner made me think about the following things:
+> 1. Does anyone have a program (in C) that can take a move (a string or a 
+> line from a file) and show it on the display.
+
+I have no C programs for the cube but MAPLE has a MAPLE-to-C conversion,
+but one would have to write their own display.
+
+I don't have a 2x2 program in MAPLE but I'm saving that project for a
+student since it is relatively easy, given that I have one for the
+3x3 and 4x4 cubes.
+
+> 2. Does anyone know about similar programs to my. Program that 'learn' to 
+> solve the cube by themselves.
+
+This is much more serious than anything I have. My programs are simply
+"virtual" cubes with no brains. Sounds like your program gives the
+cube a brain! Maybe you could post more details. I don't understand
+how it works.                  - David Joyner
+
+> Shai
+> 
+> 
+> 
+
+
+
+

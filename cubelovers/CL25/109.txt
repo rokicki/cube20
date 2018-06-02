@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug  6 12:19:33 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id MAA21968; Thu, 6 Aug 1998 12:19:32 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Aug  5 21:22:00 1998
+Message-Id: <35C8FF13.A6997C43@frontiernet.net>
+Date: Wed, 05 Aug 1998 20:55:47 -0400
+From: John Bailey <jmb184@frontiernet.net>
+To: Submissions Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Four dimensional cube solution and two dimensional cube simulator
+
+Earlier this year I announced:
+http://www.frontiernet.net/~jmb184/Nteract4.html
+a four dimensional Rubik Cube (2x2x2x2)  While that post referenced a
+sketch of a solution, it seemed that a clearer, more explicit solution
+was needed to show that the tesseract was indeed a tractable cubing
+problem.
+An explicit solution of the four dimensional analog of the Rubik cube
+is posted at:
+http://www.frontiernet.net/~jmb184/solution.html
+This page includes extensive graphics which are intended to make the
+solution clear and visible.
+
+Also, during the process of developing a detailed explaination,  I
+realized that by using similar display techniques, a 2D analog of the
+cube provided an interesting model of cube solutions.  This 2
+dimensional 3X3 cube simulator  is at:
+http://www.frontiernet.net/~jmb184/3x3cube.html
+
+All of these are written in Javascript, which means they do not require
+extended interaction with the server to manipulate.  They are read in
+directly and then can be kept for running off-line.
+
+John Bailey
+

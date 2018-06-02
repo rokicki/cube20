@@ -1,0 +1,41 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Nov 29 03:45:13 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id DAA19651; Fri, 29 Nov 1996 03:45:13 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Sender: lars@pop.netgate.net (Unverified)
+Message-Id: <v01530500aec3f0e7f1ed@[205.214.160.57]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Thu, 28 Nov 1996 17:51:53 -0800
+To: cube-lovers@ai.mit.edu
+From: Lars Petrus <lars@netgate.net>
+Subject: Re: Lubricants for puzzles
+
+> My apologies in advance if this is a repeated topic; it hasn't appeared
+>recently, at least.
+>
+> Question is: What is a really good lubricant for plastic puzzles (such as
+>the classic Cube) with moving parts?
+
+At first I used ordinary candles. It works fine, but you have to redo
+it twice a week if you twist a lot. Later I heard that Silicon Spray
+is the best, and I have used it ever since.
+
+The odd thing about it is that for the first few minutes of turning, it
+almost GLUES the cube together. It gets VERY hard to turn. The cubes in the
+swedish championship were greased with silicon, but not "turned soft", so
+it was really hard. Since I had learned the cube with a REALLY bad cube
+(there was a shortage of hungarian cubes for months at that time), I had
+a big advantage at that competition.
+
+
+  -  -  -  -
+"Madness is the first sign of dandruff"
+                                --- Dr Winston O'Boogie
+
+Lars Petrus, Sunnyvale, California  -  lars@netgate.net
+
+
+
+

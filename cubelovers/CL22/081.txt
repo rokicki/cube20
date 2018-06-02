@@ -1,0 +1,46 @@
+From cube-lovers-errors@oolong.camellia.org  Fri May 30 18:38:34 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id SAA23400; Fri, 30 May 1997 18:38:33 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <338F3C40.6EEC@ibm.net>
+Date: Fri, 30 May 1997 13:44:48 -0700
+From: Jin "Time Traveler" Kim <chrono@ibm.net>
+Organization: The Fourth Dimension
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+MIME-Version: 1.0
+To: cube-lovers@ai.mit.edu
+Subject: Re: The rest of us
+References: <338F18FB.22DC@snowcrest.net>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Joe McGarity wrote:
+> 
+> I hope that I am not alone in that much of Prof. Korf's description is a
+> little over my head.  Perhaps the Professor or others can recomend books
+> on AI or group theory to those of us whose education only goes as far as
+> trigonometry.  This is a very interesting subject and I find myself
+> wanting to understand it better.  Is there anything out there aimed at
+> the beginner?  If so I would very much like to see it.
+
+Prof. Korf's solution to the Cube sounds like it basically maps all
+possible iterations within a given number of steps.  Once you know all
+the possible combinations given the maximum number of turns, you can
+then just compare a scrambled cube to the map and see if it falls within 
+one of the available templates.  And of course, the more moves you
+calculate out to, the longer it's going to take due to the geometrically
+increasing number of possible movements.  
+
+Yes, the solution, as the good Professor explains it, is definately over
+my head, but I think I know how he is going about solving it.  Brute
+force.  Of course, the DETAILS of how it's done are over my head as
+well.  Ultimately I think the cube is more satisfying if I solve it
+myself, even if it takes me 3 minutes and dozens of twists.
+
+-- 
+Jin "Time Traveler" Kim
+chrono@ibm.net
+VGL Costa Mesa
+
+

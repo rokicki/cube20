@@ -1,0 +1,41 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Sat Jan 15 17:03:53 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from mail.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20492; Sat, 15 Jan 94 17:03:53 EST
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <53851(9)>; Sat, 15 Jan 1994 17:02:08 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA29781; Sat, 15 Jan 94 17:00:39 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1914B9; Sat, 15 Jan 94 16:53:33 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: 4x4x4 & 5x5x5 processes
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.710.5834.0C1914B9@canrem.com>
+Date: 	Sat, 15 Jan 1994 15:44:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+Here are a couple of processes for larger cubes, plus the
+requested edge pair flip without disturbing centres (p2),
+as well as a minor correction for the 5x5x5 process:
+
+4x4x4 processes (measured in slice moves)
+---------------
+
+p1  Flip LD edge pair   (r3 D3) ^3 + (r1 D1) ^4 + Rr3 D3 R1 D1 r3 D3 R3
+(disturbs centres)          D1 R1 D3    (25)
+p2  Flip UB edge pair    r2 D2 l3 D1 R3 U1 R3 U3 l3 U1 R1 U3 l1 R1 D1
+(retain centre positions ) + U2 r1 (u2 r2 l2) ^2 + r3 U2 r2     (26)
+
+
+5x5x5 processes (measured in slice moves)
+---------------
+
+Flip 2 middlemost edges at FD and BD with:
+p1 (fm1 D1) ^3 + fm1 D2 + (fm1 D1) ^3 + fm1   (disturbs some centres)
+followed by:
+   D1 + (fm2 u2) ^2 + (fm2 l2) ^2 + D3    (corrects the centres)  (25)
+
+-> Mark
+Email: mark.longridge@canrem.com
+

@@ -1,0 +1,42 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 19 13:23:41 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA17372
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 19 Mar 1999 13:23:40 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <001001be7220$d2f8e740$0237a8c0@uwe>
+From: uwe@ue.net (Uwe Meffert)
+To: "der Mouse" <mouse@rodents.montreal.qc.ca>
+Cc: "Cube-Lovers" <cube-lovers@ai.mit.edu>
+Subject: Re: Taking apart the 5^3
+Date: Fri, 19 Mar 1999 23:53:58 +0800
+
+
+>>From: der Mouse <>
+>>To: Cube-lovers@ai.mit.edu <Cube-lovers@ai.mit.edu>
+>>Date: Friday, March 19, 1999 11:03 AM
+
+>>>I found it more effective to turn a "thick slice" (ie, the outer two
+>>>slices turned together) about 45 degrees, then pry with my thumb
+>>>between the corner and wing of the turned slice....
+
+That procedure is not recommended as it voids the implied warranty and has
+the danger of permanently stripping the thread inside the center of the
+cube.
+
+If you must take the cube apart do so by prying off one of the center small
+squares and then loosening one of the screws, which later after re-assembly
+should be re-tightened.
+
+Regards
+Uwe
+
+
+HAPPY PUZZLING
+Uwe Meffert
+P.O. Box 24455, Aberdeen, Hong Kong.
+Tel. 852-2518-3080, Fax. 852-2518-3282
+Email:- uwe@ue.net
+www.ue.edu www.ue.net www.mefferts-puzzles.com
+

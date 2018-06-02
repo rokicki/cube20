@@ -1,0 +1,171 @@
+From cube-lovers-errors@curry.epilogue.com  Sun Mar  2 02:53:57 1997
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id CAA04211; Sun, 2 Mar 1997 02:53:56 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sun, 02 Mar 1997 00:50:27 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: An Enhancelment for Shamir with M-conjugacy
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-id: <Pine.PMDF.3.91.970302002224.402950A-100000@PSTCC6.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+
+I now have a functioning Shamir program.  I do not consider it quite up to
+production quality just yet.  I am still working on a number of
+improvements.  Also, all the results that are easily accessible to the
+program have already been calculated by other means, so I have no new
+search results to report at this time.  I do expect some new results from
+time to time, but the runs will probably take weeks or months.  However,
+in the process of developing the program, I came up with an enhancement
+which I wished to report. 
+
+Recall that the heart of the Shamir method is a mechanism which will for
+all s in S and all t in T produce all products st in lexicographic order. 
+This basic mechanism can be applied in a number of ways.  For example, it
+can be applied to the problem of determining a minimal solution for a
+particular position.  It can also be applied to the problem of conducting
+a breadth first exhaustive search.  The former is the basic method
+developed by Shamir and first reported to this group by Alan Bawden.  The
+latter is the problem which I am currently addressing. 
+
+As already reported in several previous messages, my implementation of
+Shamir seeks to incorporate M-conjugacy to the maximum extent possible to
+reduce memory requirements.  As such, it does not store the sets S and T. 
+Rather, it stores the sets A and B, where A and B contain only
+representative elements of the M-conjugacy classes which are contained in
+S and T, respectively. 
+
+A and B are about 48 times smaller than S and T.  However, we cannot
+obtain any meaningful results using only A and B.  Rather, A and B have to
+be expanded by M-conjugation to produce S and T.  That is, we represent S
+as A^M and T as B^M.  There are no fewer positions, but only three bytes
+or so are required to represent each position in A^M and B^M.  So we
+produce products st in lexicographic order for s in A^M and t in B^M. 
+This model is slow, but it is small. 
+
+At the back end of the algorithm, we determine which st values are
+representatives and which are not.  Those which are, we keep.  Those which
+are not, we simply discard.  In my earlier messages about combining Shamir
+with M-conjugacy, I lamented the difficulty of producing representatives
+in lexicographic order.  Simply discarding non-representatives is a crude
+but effective way to accomplish the goal.  It is not quite as good as not
+producing the non-representatives in the first place, but it is a good bit
+better than nothing. 
+
+As an example of the "better than nothing" idea, the Shamir method does
+not directly produce ST in lexicographic order.  Rather, it produces St in
+lexicographic order for each t in T.  The results then have to be merged. 
+The non-representatives are discarded prior to the merge, so that 48 times
+fewer positions have to be merged.  Also, the products st are tested byte
+by byte as they are produced to determine if they are representatives.  It
+is usually possible to determine that a position is not a representative
+after no more than two or three bytes, so there are some efficiencies in
+the process of discarding non-representatives.  That is, the only products
+st which are calculated in their entirety are those for representatives. 
+
+The enhancement I want to report is that it is possible to discard entire
+branches of the Shamir tree without examining any of the nodes in the
+branch except the root of the branch.  That is, it is possible to show
+that entire branches of the tree contain only non-representatives.  Such
+branches can be pruned from the search without examining any of the nodes
+individually.  Approximately 47/48 of the search tree can be eliminated
+from the search tree in this manner.  Unfortunately, the speed up is not
+times forty-eight as I hoped, but it is significant nonetheless. 
+
+The model is an S24xS24 model with S24 acting on 0..23.  The corners are
+therefore vectors of the form [a,b,c,....], which means 0->a, 1->b, 2->c,
+etc.  The identity is [0,1,2,....].  We focus on the corners because we
+consider the order of the corners first in our lexicographic order, using
+the order of the edges only to break ties on the corners.  We call a
+representative element of each M-conjugacy class a canonical form, and all
+other elements we call non-canonical. 
+
+The nature of the Shamir search is that it produces successively more
+complete partial permutations as a tree is searched.  That is, it produces
+[a,?,?,...] at the zeroth level of the tree, [a,b,?,?,...] at the first
+level of the tree, [a,b,c,?,?,...] at the second level of the tree, and so
+forth until a complete permutation is constructed. 
+
+The enhancement to the method consists of determining which of the partial
+permutations are canonical, which are non-canonical, and which are
+neither.  A partial permutation is canonical if all daughter nodes are
+canonical, a partial permutation is non-canonical if all daughter nodes
+are non-canonical, and a partial permutation is neither if there are
+daughter nodes of both types. 
+
+>From a theoretical point of view, the type of each node could be
+determined by examining each daughter and backing up the results
+appropriately, similar to an alpha-beta search.  From a practical point of
+view, the whole purpose is to determine the type of node without examining
+any of the daughters.  And in practice, we only detect non-canonical nodes
+vs. other than non-canonical nodes.  There is no disadvantage to this
+procedure because it is only the non-canonical nodes which we wish to
+eliminate from the search. 
+
+Determining non-canonical nodes depends both on the particular numbering
+scheme which is used for the cube facelets and also upon the particular
+representative element function which is chosen.  We number the Front
+corner facelets of the cube as follows: 
+
+   0  1
+
+   3  2
+
+The Back corner facelets are then numbered 4..7, with opposite facelets
+summing to 7.  All other facelets are numbered by adding 8 to the Front or
+Back facelet as you look at the facelets of the cubie in clockwise order. 
+For example, the flt cubie is (0,8,16), and the ftr cubie is (1,9,17). 
+
+The representative element function returns the M-conjugate which of all
+the elements in the M-conjugacy class is first in lexicographic order. 
+
+Consider the partial permutation [0,?,?,...].  Its M-conjugates are of the
+form [?,1,?,?...], [?,?,2,?,?,...], [?,?,?,3,?,?,...], etc.  It is easy to
+see that if a representative begins with 0, then there is at least one of
+the eight corner cubies somewhere in the cube which is properly
+positioned, both with respect to location and with respect to twist. 
+Also, it is easy to see that the partial permutation [0,?,?,...] has both
+canonical and non-canonical forms as daughters. 
+
+But consider the partial permutations [1,?,?,...] and [3,?,?,...].  They
+are conjugate, but the canonical form is [1,?,?,...].  Hence, no canonical
+form can begin with 3.  Therefore, we eliminate all permutations which
+begin with 3 from the search, and we have eliminated 1/24 of the search
+tree.  
+
+I have calculated a table of non-canonical cutoff points for the corners. 
+The results are as follows.  Notice that not all cutoffs are at the zeroth
+level of the tree as is the cutoff for 3, but nonetheless there are 17
+cutoffs at the zeroth level.  That means that there are only 7 (out of 24)
+ways to begin a canonical permutation. 
+
+
+Level       Noncanonical  Positions     
+               Nodes      Trimmed        
+
+i= 0    count=        17   62460720          
+i= 1    count=        63   11022480          
+i= 2    count=       487    4733640          
+i= 3    count=      7610    4931280          
+i= 4    count=     17830     962820          
+i= 5    count=    138978     833868          
+i= 6    count=    622745     622745          
+Total trimmed              85567553
+
+The positions trimmed figure is based on a corners only search, just to 
+give a sense of proportion to the numbers.  The corners only group 
+contains about 88 million positions.  For the complete cube, the numbers 
+would be larger, but the proportions would be the same.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+

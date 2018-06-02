@@ -1,0 +1,50 @@
+From anandrao@hk.super.net  Fri Feb 25 03:32:04 1994
+Return-Path: <anandrao@hk.super.net>
+Received: from hk.super.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05974; Fri, 25 Feb 94 03:32:04 EST
+Received: by hk.super.net id AA21734
+  (5.65c/IDA-1.4.4 for cube-lovers@life.ai.mit.edu); Fri, 25 Feb 1994 16:31:42 +0800
+Date: Fri, 25 Feb 1994 16:18:56 +0800 (HKT)
+From: "Mr. Anand Rao" <anandrao@hk.super.net>
+Subject: Re: your mail
+To: Jan de Ruiter <jandr@xirion.nl>
+Cc: cube-lovers@life.ai.mit.edu
+In-Reply-To: <2038.9402181343@xirion.xirion.nl>
+Message-Id: <Pine.3.07.9402251654.A20452-b100000@hk.super.net>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+On Fri, 18 Feb 1994, Jan de Ruiter wrote:
+> 
+> Sorry about not reporting this earlier, but my search for solutions for
+> Rubiks Tangle 10x10 confirms the finding of Don Woods: no solutions!
+> 
+[snip]
+> we could re-define the puzzle as follows:
+>   find which four pieces to duplicate in order to find solutions for
+>   the 10x10.
+> If the number of solutions varies depending on the choice, you could
+> even add a restriction:
+>   find which four pieces to duplicate in order to find a set which has
+>   the minimum number of solutions for the 10x10.
+        ^^^^^^^
+The kind Mr. Rubik has already done that - the minimum is - ZERO!
+
+The revised problem can be solved fairly easily using your program ( I
+don't know, though, how long it takes to run to completion for the 10*10
+case) - try to place only 99 tiles  out of the 100 given tiles. You may
+have several sub-solutions. It is then easy to determine for each of these
+sub-solutions which tile you need to complete the 10*10 mosaic. If this
+pattern has already been duplicated, i.e. you need THREE numbers of this
+tile to find the complete solution, this sub-solution will not work and so
+examine the next sub-solution .... Hopefully you find the solution this way.
+
+After running the program for the 99 tiles, the additional time required
+to solve the problem defined by you should not be significant because that
+would be  a linear process.
+
+Anand.
+
+
+
+

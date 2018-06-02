@@ -1,0 +1,114 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr 30 10:09:06 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id KAA02688; Thu, 30 Apr 1998 10:09:06 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Apr 30 09:59:19 1998
+Date: Thu, 30 Apr 1998 09:57:20 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Various Cube Thoughts
+In-Reply-To: <3546B17A.3419@idirect.com>
+To: Mark Longridge <cubeman@idirect.com>
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <Pine.WNT.3.96.980430083712.-225563B-100000@GN209A.PSTCC.CC.TN.US>
+
+On Wed, 29 Apr 1998, Mark Longridge wrote:
+
+> ------------------------------------------------------------------
+> 
+> No matter which cube you start searching from, e.g. pons asinorum,
+> 12 flip, or any random cube, the dispersion of cubes is the same:
+> 
+> 1, 12, 114, 1068, 10011... etc
+>
+> So much for trying to search backwards from the 12-flip to number
+> the positions from (perhaps) antipode to start!
+>
+> ------------------------------------------------------------------
+
+This has been discussed before on Cube-Lovers.  There are several ways
+to look at why it is true.  I think at the most basic level that it
+depends on the inverse property of groups.  Let A be any non-empty
+subset (not necessarily a subgroup) of G, and let x be any element of G.
+Then xA contains the same number of elements as A.  Hence, if A is (for
+example) the set of all positions which are n moves from Start, then xA
+is the set of all positions which are n moves from x, and xA is the same
+size as A (remember that the distance from Start to a is the same as the
+distance from x to xa for any a in A).
+
+Notice that if A is a subgroup of G rather than just being a subset,
+then xA is a coset. The fact that cosets are either equal or disjoint,
+combined with the fact that A is the same size as xA, constitute the
+basis for the proof that the size of a subgroup must divide evenly the
+size of the group.
+
+The inverse property is involved in showing that A and xA are the same
+size as follows. Suppose we have A={a,b,c} which contains three
+elements.  Then we have xA={xa,xb,xc} which also appears to contain
+three elements.  The only way that xA would not have three elements
+would be if some of the apparently distinct elements were really the
+same, for example if xa and xc were really two different names for the
+same element.  But if xa=xc, then we have x'(xa)=x'(xc) so that
+(x'x)a=(x'x)c so that ia=ic so that a=c.  We know by definition that a
+and c are distinct.  Hence, xa and xc must be distinct.
+
+Just to give one more illustration of the importance of the inverse
+property in showing that A and xA are the same size, here is a false
+counterexample.  Consider the multiplicative group of the real numbers
+or of the rational numbers.  Suppose A={ 2/3, 3/4, 7} and x=4.  Then,
+xA={ 8/3, 3, 28}.  So far, so good because both A and xA have three
+elements.  But suppose x=0.  Then xA={0, 0, 0}={0} which has only one
+element. Here we have A with three elements and xA with only one
+element.  So what is wrong.  The problem is that any multiplicative
+group of what we might call "normal"  numbers (e.g., real or rational or
+complex) must omit zero because 0 does not have a multiplicative
+inverse.  That is, there is no solution to the equation 0*x=1. So when I
+let x=0, I was cheating by multiplying by a number which is not in the
+multiplicative group and which does not have a multiplicative inverse.
+
+The reason I know that this has been discussed before was that I was
+involved in the discussion.  At one point I incorrectly asserted that
+what you are calling "the dispersion of the cubes" did depend on which
+position was at the root of the search.  Cube-Lovers was quick to
+correct me, of course.  However egregious was my error, it was still an
+honest error.  The reason for the honest error is that I accomplish
+nearly all my searches by counting patterns (M-conjugacy classes) rather
+than by counting positions.  And when you count by patterns, "the
+dispersion of the cubes" does depend upon which pattern is at the root
+of the search.  So my mistake was to make a statement about positions
+which should have been applied only to patterns.
+
+Your note reminded me of a question I have thought about off and on ever
+since that previous discussion.  Suppose you are searching by patterns.
+Under what circumstances can you start the search with two different
+patterns and still have the "dispersion of the cubes" be the same?  I
+suspect that there is a very simple answer, but I am having trouble
+ascertaining what it is.  I suspect that the only possibility is if the
+two positions differ by superflip, that is if one of them is x then the
+other one must be xf=fx, where f is the superflip.  But I am simply not
+sure if there are any more possibilities.  Note that having the two
+different patterns be M-conjugate is not an answer to the question
+because if two patterns are M-conjugate then they are really just one
+pattern.
+
+As a last comment, readers of Cube-Lovers should be familiar with the
+sequence 1, 12, 114... for positions in quarter turn searches.  A search
+for patterns in quarter turns begins 1, 1, 5...  The first 1 is Start.
+The second 1 (1q from Start) is Q, the set of twelve quarter turns.  The
+5 (2q from Start) represents the following five patterns: 1) any face
+twisted twice in the same direction, 2) any two opposite faces twisted
+once each in the same direction (an antislice), 3) any two opposite
+faces twisted once each in the opposite direction (a slice), 4) any two
+adjacent faces twisted once each in the same direction (e.g., UF or
+U'F'), and 5) any two adjacent faces twisted once each in the opposite
+direction (e.g., UF' or U'F).  Beyond 2q from Start, it becomes too
+complicated to calculate the patterns in my head.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

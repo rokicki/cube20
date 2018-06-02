@@ -1,0 +1,52 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jan 21 21:21:35 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA00498
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 21 Jan 2000 21:21:35 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <001001bf4a30$463f4360$7d6bead4@maison>
+From: "VALLEY" <gilbert.valley@accesinternet.com>
+To: <cube-lovers@ai.mit.edu>
+Subject: rubiks hat or rabbit
+Date: Sun, 19 Dec 1999 15:49:09 +0100
+
+Hello,
+
+Two days ago I bought a rubiks rabbit.  It is really amazing, and is
+more complicated than it looks. Here is the description found in the
+archives:
+
+"Rubik's Hat is in the form of a hat with six rings on it. You can
+look through it (and through the rings by implication). By turning
+rings you see more or less rabbits. The purpose is to see a rabbit in
+every position.
+
+I think the puzzle is based on light polarization, with different
+polarizations coming through the segments of the rings."
+
+I'm not entirely satisfied with the explanation. Light polarisation
+doesn't have this effect on colours, and polarisation lens are too
+much expensive to be used. I think this effect is due to simple light
+filters (green, red, yellow or a mix of two of these colours). If the
+filter is red (=retain all other wave lenghths), then you will only
+see red rabbits.
+
+But there is something I can't explain: in one segment I saw a green
+rabbit. then I turn a ring and this rabbit disappears. I concluded
+that the segment of the ring retains green light. Then I tried all
+other colours to see what light could pass through. When i turn this
+same ring on another green segment, then I was able to see the rabbit
+through it! This was of course not the same rabbit, and in one case
+the green rabbit was there and in the other, not, all that with the
+same filter!
+
+Could somebody explain that? Do you have any other explanation of this
+puzzle?
+
+I've tried my best to explain that in english, but feel free to ask me
+for more details,
+
+Bye,
+Paul
+

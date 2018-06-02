@@ -1,0 +1,30 @@
+From dik@cwi.nl  Fri May 29 20:44:04 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA23423; Fri, 29 May 92 20:44:04 EDT
+Received: from steenbok.cwi.nl by charon.cwi.nl with SMTP
+	id AA17413 (5.65b/2.10/CWI-Amsterdam); Sat, 30 May 1992 02:44:02 +0200
+Received: by steenbok.cwi.nl 
+	id AA01102 (5.65b/2.10/CWI-Amsterdam); Sat, 30 May 1992 02:44:01 +0200
+Date: Sat, 30 May 1992 02:44:01 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205300044.AA01102.dik@steenbok.cwi.nl>
+To: J.M.Kloosterman@research.ptt.nl, cube-lovers@life.ai.mit.edu
+Subject: Re:  Lower-bound Kociemba's algorithm
+
+As an afterthough, it would be interesting if it is possible to reduce the
+number of moves in your fourth phase.  The main difference between your
+algorithm and Kociemba's is that yours is deterministic.  Kociemba's
+algorithm performs quite a number of searches before finding the optimal
+solution.  And even than it is not known whether the solution is indeed
+optimal, longer searches might reveal better solutions.  Your algorithm
+gives an upper bound to the number of moves, and the solution is reached
+in limited time.  Kociemba's algorithm is in theory unlimited in time.
+
+My experience is that it is best to limit the first phase in Kociemba's
+algorithm to 13 moves.  But that is only because of time constraints.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+

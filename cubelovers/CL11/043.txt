@@ -1,0 +1,148 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Fri Dec 17 11:24:53 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27504; Fri, 17 Dec 93 11:24:53 EST
+Message-Id: <9312171624.AA27504@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 5191; Fri, 17 Dec 93 11:24:42 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 0812; Fri, 17 Dec 1993 11:24:42 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 8836; Fri, 17 Dec 1993 11:22:06 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Fri, 17 Dec 1993 11:21:51 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Size of the Cube Group
+
+In 1984, Dan Hoey posed a question as follows:
+
+>This discussion of symmetry recalls a question I have meant to propose
+>to Cube-Lovers for some time:  How many positions are there in Rubik's
+>Cube?  We know from Ideal that the number is somewhat over three
+>billion.  Most cube lovers will tell you a number of about 43
+>quintillion.  But I really don't see why we should count twelve
+>distinct positions at one quarter-twist from solved--all twelve are
+>essentially the same position.  So the question, suitably rephrased, is
+>of the number of positions that are distinct up to conjugacy in M, the
+>48-element symmetry group of the cube.  I think this is an interesting
+>question, but I don't see any particularly easy way of answering it.
+>My best guess is that it involves a case-by-case analysis of the 98
+>subgroups of M, or at least the 33 conjugacy classes of those
+>subgroups.  In ``Symmetry and Local Maxima'', Jim Saxe and I examined
+>five of the classes, which we called M, C, AM, H, and T.
+>
+>Even finding the numbers for the pocket cube is a little tricky.  If we
+>limit ourselves to symmetry in S, I believe the pocket cube has 2
+>positions with a six-element symmetry group, 160 positions with a
+>three-element symmetry group, 3882 positions with a two-element
+>symmetry group, and 3670116 positions with a one-element symmetry
+>group, for 613062 positions distinct up to S-conjugacy.  But the
+>numbers for M-conjugacy are still elusive; I am not even sure how to
+>deal with factoring out whole-cube moves in the analysis.  I hope to
+>find time to write a program for it.
+>
+>I expanded my pocket cube program to deal with the corner group of
+>Rubik's cube.  This group is 24 times as large as the group of the
+>pocket cube, having 3^7 * 8! = 88179840 elements.  The number of
+>elements P(N) and local maxima L(N) at each (quarter-twist) distance N
+>from solved are given below.
+>
+>                 N         P(N)        L(N)
+>                 0            1           0
+>                 1           12           0
+>                 2          114           0
+>                 3          924           0
+>                 4         6539           0
+>                 5        39528           0
+>                 6       199926         114
+>                 7       806136         600
+>                 8      2761740       17916
+>                 9      8656152       10200
+>                10     22334112       35040
+>                11     32420448      818112
+>                12     18780864     9654240
+>                13      2166720     2127264
+>                14         6624        6624
+>
+>The alert reader will notice that rows 10 through 14 contain values
+>exactly 24 times as large as those for the pocket cube.  This is not
+>surprising, given that the groups are identical except for the position
+>of the entire assembly in space, and each generator of the corner cube
+>is identical to the inverse of the corresponding generator for the
+>opposite face except for the whole-cube position.  Thus when solving a
+>corner-cube position at 10 qtw or more from solved, it can be solved as
+>a pocket cube, making the choice between opposite faces in such a way
+>that the whole-cube position comes out right with no extra moves.
+>
+
+I wish to propose an answer to Dan's question.  I will propose an
+approximation then (hopefully) the exact answer.
+
+The approximation is simply 4.3*(10^19) / 1152, or about
+3.7*(10^16).  1152=24*24*2, and is based on my version of Dan's
+M symmetry group.  I remain convinced that my version of M is
+isomorphic to Dan's, but the subject deserves some more thought
+and discussion.
+
+But we can do better.  We already know (under my version of M) how
+many equivalence classes there are for the corner group (namely,
+77,802).  But each of the equivalence classes for the corners can
+be rotated 24 ways with respect to the centers, so we have
+77,802*24.  We also already know (under my version of M) how many
+equivalence classes there are for the edge group (namely
+851,625,008).  But each of the equivalence classes for the edges
+can be rotated 24 ways with respect to the centers, so we have
+851,625,008*24.  Hence, we have
+
+   (77,802*24) * (851,625,008*24) = 38,164,682,230,511,620
+
+This figure is gratifyingly close to 3.7*(10^16), and I believe it
+is the correct answer to Dan's question.  It is slightly larger
+than the approximation because some of the equivalence classes
+have fewer than 1152 elements, and  consequently there are a few
+more equivalence classes than the approximation suggests.
+
+However, the alert reader should have noticed a problem.  Why did I
+not divide by 2 to take into account the fact that odd edge
+permutations can only occur with odd corner permutations and vice
+versa?  Actually, I did, but the division by 2 cancelled.  The reason
+it canceled is slightly tricky.  Also, remember that we are talking
+about equivalence classes, not specific cube configurations.  Any
+equivalence class has both even and odd members, depending on how
+the members are rotated.  Hence, any corner equivalence class can be
+matched up with any edge equivalence class, assuming the rotations
+are compatible.  But you still have to worry about "dividing by 2",
+as follows.
+
+Let G be the number of states of the whole cube without M, namely
+the 4.3*(10^19) figure, and similarly let C be the number of states of
+the corners without M and let E be the number of states of the edges
+without M.  Then, we have the trivial relation G = C * E / 2.
+Here, the division by 2 does properly reflect the odd/even parity
+of the corners vs. the edges.
+
+Let Gm = G / (24*24*2), Cm = C / (24*24*2), and Em = E / (24*24*2).
+Hence, G = Gm * (24*24*2), C = Cm * (24*24*2), and E = Em * (24*24*2).
+What I have available (approximately) is Cm and Em, and what I want
+is Gm.  Hence,
+
+     Gm = G / (24*24*2)
+     Gm = (C * E / 2) / (24*24*2)
+     Gm = ((Cm * (24*24*2)) * (Em * (24*24*2)) / 2) / (24*24*2)
+     Gm = (Cm*24) * (Em*24)
+
+Therefore, I replace Cm by the real figure for the number of corner
+equivalence classes, replace Em by the real figure for the number
+of equivalence classes, and Gm becomes the real figure for the total
+states of the cube.  The "division by 2" is in the formula, but it is
+invisible because of all the cancellations.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

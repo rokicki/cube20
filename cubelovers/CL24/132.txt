@@ -1,0 +1,30 @@
+From: Dik.Winter@cwi.nl
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: MEGAMINX
+
+ >                    I reckon swapping just one twin pair is not possible in
+ > a complete solution, but that swapping any even number of twins may be
+ > (unproven), and so there are 512 solutions, each of which would be
+ > distinct if 12 different colours had been used on the original puzzle.
+
+It is not so difficult to prove.  Just as with the cube, also for the
+dodecahedron it is easy to see that whenever you turn a face, the
+parity of the edge and corner permutations remain the same.  So a
+single swap of two edges is not possible, that is an odd permutation
+and would also require an odd permutation of the corner.  However,
+interchanging two pairs is possible.  Actually any even permutation
+of the edges is possible with the corners in place.  This is because
+there are simple procedures that rotate a triple of edges, leaving the
+corners in place.  Actually these procedures can be extremely similar
+to those used for the cube.  Anyhow, this proves it.
+
+dik
+
+[ Moderator's note: Lest a reader misunderstand, let me note that the
+  parity situation is different between the cube and megaminx.  On the
+  cube an odd permutation of edges is achievable provided the corner
+  permutation is also odd.  On the megaminx, neither the corner
+  permutation nor the edge permutation can ever be odd. ]
+
+------------------------------
+

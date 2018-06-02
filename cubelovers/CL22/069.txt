@@ -1,0 +1,33 @@
+From cube-lovers-errors@oolong.camellia.org  Thu May 29 00:28:22 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id AAA18141; Thu, 29 May 1997 00:28:21 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Wed, 28 May 1997 15:18:10 -0700
+From: Richard E Korf <korf@cs.ucla.edu>
+Message-Id: <199705282218.PAA17014@denali.cs.ucla.edu>
+To: Cube-Lovers@ai.mit.edu
+Subject: rumor control
+
+Dear Cube-Lovers,
+   Apparently some work I did recently has gotten badly mangled by the press.  I
+have NOT resolved the question of whether or not 20 face turns is the maximum
+distance one can get from a scrambled cube.
+   What I did is to write a heuristic search program that finds optimal
+solutions to arbitrary scrambled cubes.  The algorithm is very different from
+the method of Fiat, Moses, Shamir, et al, and seems to be competitive with their
+algorithm in terms of time and space.  The current version of my program is
+practical for cubes up to 18 moves away from solved.
+   Out of 10 randomly generated cubes, one was solved in 16 moves, 3 required 17
+moves, and 6 required 18 moves, suggesting that the median optimal solution
+length is probably 18 moves.
+   A paper on this work will be presented at the National Conference on
+Artificial Intelligence (AAAI-97) in Providence, RI in July. I'd be happy to
+send a postscript copy of the paper to anyone who is interested, unless there
+are a lot of requests, in which case I'll just post it on my web site and put a
+pointer here.  In addition, if there is enough interest, I could write a short
+summary of the paper for this list. Thanks for your attention.
+                            -rich korf
+
+
+

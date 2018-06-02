@@ -1,0 +1,26 @@
+From raymond@cps.msu.edu  Fri Oct  1 18:06:21 1993
+Return-Path: <raymond@cps.msu.edu>
+Received: from atlantic.cps.msu.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04931; Fri, 1 Oct 93 18:06:21 EDT
+Received: from pacific (pacific.cps.msu.edu) by atlantic.cps.msu.edu (4.1/rpj-5.0); id AA18891; Fri, 1 Oct 93 18:06:14 EDT
+Received: by pacific (5.0/SMI-SVR4)
+	id AA03566; Fri, 1 Oct 93 18:06:13 EDT
+Date: Fri, 1 Oct 93 18:06:13 EDT
+From: raymond@cps.msu.edu
+Message-Id: <9310012206.AA03566@pacific>
+To: queiroz@eepost.uta.edu, raymond@cps.msu.edu
+Subject: Re: Seeking 5x5x5 cube
+Cc: cube-lovers@ai.mit.edu
+Content-Length: 456
+
+During the Christmas toy season last year, a local supermarket/department
+store chain (Meijer in Michigan) had 3x3x3 cubes.  I don't recall the
+manufaturer, but they used the "Rubik's Cube" brand name.  They also
+had a picture on the center cubies on each face that had to be
+correctly rotated for a "proper" solution.  I can't recall the price,
+but it was reasonable.  Maybe they will be easier to find as Christmas
+gets closer.
+
+Good luck,
+
+Carl Raymond
+

@@ -1,0 +1,28 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 24 12:51:28 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA24618; Tue, 24 Mar 1998 12:51:28 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue Mar 24 11:52:07 1998
+Message-Id: <3517E49F.DF5B21BF@mail.retina.ar>
+Date: Tue, 24 Mar 1998 13:51:44 -0300
+From: Isidro <reichen@mail.retina.ar>
+Reply-To: isidroc@usa.net
+Organization: Frank Zappa's Fan Club
+To: Cube Lovers Submissions <Cube-Lovers@ai.mit.edu>
+Subject: 5^3 quiz
+
+I need to know the answers for these questions:
+Who invented 5^3?
+What is the commercial name?
+How many cubies it has?
+
+--
+Isidro: isidroc@usa.net
+
+[ Moderator's note: There was a note last July mentioning "Rubik's
+  Wahn (5x5x5) (maybe also called Professor's cube, Ultimate or Master
+  Revenge)"--any other names?
+  The number of cubies is obviously 98--why didn't you just count them? ]
+

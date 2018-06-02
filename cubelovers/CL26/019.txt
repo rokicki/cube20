@@ -1,0 +1,52 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Oct 30 14:17:00 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id OAA18032; Fri, 30 Oct 1998 14:16:59 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 26 Oct 1998 23:58:27 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: 12q From Start
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.981026235420.29075A-100000@PSTCC6.PSTCC.CC.TN.US>
+
+
+ |x|     Patterns     Lcl    Positions    Lcl    Branching
+                      Max                 Max      Factor
+
+
+  0q             1     0              1     0
+  1q             1     0             12     0    12
+  2q             5     0            114     0     9.5
+  3q            25     0           1068     0     9.368
+  4q           219     0          10011     0     9.374
+  5q          1978     0          93840     0     9.374
+  6q         18395     0         878880     0     9.366
+  7q        171529     0        8221632     0     9.355
+  8q       1601725     0       76843595     0     9.347
+  9q      14956266     0      717789576     0     9.341
+ 10q     139629194     4     6701836858    42     9.337
+ 11q    1303138445     0    62549615248     0     9.333
+ 12q   12157779067   103   583570100997  2913     9.330
+
+The last time a new level was calculated for the quarter turn metric was 4
+February 1995.
+
+The cumulative number of positions now identified is 653625391832, or
+about 6.5*10^11.  This is well past the "geometric halfway point"  of
+sqrt(|G|), which is about 6.5*10^9.  However, it is known that the
+diameter of G is at least 26q, strongly indicating that there is a bit of
+a tail to the distribution of positions by length.
+
+Of the 103 local maxima of length 12q, 70 of them also have their inverse
+as local maxima.  For the other 33, the inverse is not a local maximum.
+For one of them, the inverse has 11 moves which go closer to Start.  For
+seven of them, the inverse has 10 moves which go closer to Start.  For
+eleven of them, the inverse has 8 moves which go closer to Start.  For six
+of them, the inverse has 6 moves which go closer to Start.  For two of
+them, the inverse has 4 moves which go closer to Start.  And for six of
+them, the inverse has only 2 moves which go closer to Start.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+

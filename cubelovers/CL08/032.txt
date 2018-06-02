@@ -1,0 +1,19 @@
+From ACW@yukon.scrc.symbolics.com  Tue Jan 14 19:20:46 1992
+Return-Path: <ACW@yukon.scrc.symbolics.com>
+Received: from YUKON.SCRC.Symbolics.COM by life.ai.mit.edu (4.1/AI-4.10) id AA26037; Tue, 14 Jan 92 19:20:46 EST
+Received: from PALLANDO.SCRC.Symbolics.COM by YUKON.SCRC.Symbolics.COM via INTERNET with SMTP id 761636; 14 Jan 1992 13:46:59-0500
+Date: Tue, 14 Jan 1992 13:44-0500
+From: Allan C. Wechsler <ACW@yukon.scrc.symbolics.com>
+Subject: A new upper bound: 91 QT
+To: hoey@aic.nrl.navy.mil, Cube-Lovers@life.ai.mit.edu
+Cc: ACW@yukon.scrc.symbolics.com
+In-Reply-To: <9201141749.AA27091@sun13.aic.nrl.navy.mil>
+Message-Id: <19920114184432.1.ACW@PALLANDO.SCRC.Symbolics.COM>
+
+Regarding the meta-approach of descending through a series of subgroups,
+how much leverage does properly selecting the chain give you?  It seems
+like the jump from <F2,B2,...> to <F2,B2,L2,R2,...> is pretty large.
+There are probably other paths through the subgroup lattice.
+
+Does anyone have a table of subgroups?
+

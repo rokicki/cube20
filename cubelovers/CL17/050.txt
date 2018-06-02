@@ -1,0 +1,44 @@
+From din5w@server.cs.virginia.edu  Fri Oct 20 06:24:11 1995
+Received: from virginia.edu (uvaarpa.Virginia.EDU) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10327; Fri, 20 Oct 95 06:24:11 EDT
+Received: from server.cs.virginia.edu by uvaarpa.virginia.edu id aa26937;
+          19 Oct 95 22:57 EDT
+Received: from cobra.cs.Virginia.EDU (cobra-fo.cs.Virginia.EDU) by uvacs.cs.virginia.edu (4.1/5.1.UVA)
+	id AA07239; Thu, 19 Oct 95 22:57:16 EDT
+Posted-Date: Thu, 19 Oct 1995 22:57:15 -0400 (EDT)
+Return-Path: <din5w@cobra.cs.Virginia.EDU>
+Received: by cobra.cs.Virginia.EDU (5.x/SMI-2.0)
+	id AA24433; Thu, 19 Oct 1995 22:57:15 -0400
+Date: Thu, 19 Oct 1995 22:57:15 -0400 (EDT)
+From: Dale Newfield <din5w@virginia.edu>
+X-Sender: din5w@cobra.cs.Virginia.EDU
+Reply-To: DNewfield@virginia.edu
+To: cube-lovers@ai.mit.edu
+Subject: Re: Embedding G in a symmetrical group
+In-Reply-To: <199510200141.CAA03659@wn1.sci.kun.nl>
+Message-Id: <Pine.SOL.3.91.951019224123.23812A-100000@cobra.cs.Virginia.EDU>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+
+On Fri, 20 Oct 1995, Michiel Boland wrote:
+> It is clear that the group G of the cube (the one with
+> 4.3252x10^19 elements) can be embedded in a symmetrical group, e.g. 
+> S_48, since each move of the cube can be seen as a permutation of 48 
+> objects.
+
+Um...If I were a better net.person, I'd look up which version of the cube 
+has that number of elements, but wouldn't it be correct to say that each 
+move of the cube is a permutation of the pieces of the cube, i.e. the 26 
+cubies?  (Or even, depending on which cube-model you are using(This is 
+what I should have looked up), if you ignore center cubie orientation, 
+the 20 cubies?)
+
+If that logic holds, then the largest possible S_n would be S_20, much 
+less than the 32 that you claim is minimal...
+
+...I think I'm just confused--can you alleviate that problem?
+
+-Dale Newfield
+
+

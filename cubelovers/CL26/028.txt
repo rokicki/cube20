@@ -1,0 +1,46 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Nov 12 14:18:47 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id OAA24676; Thu, 12 Nov 1998 14:18:45 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19981111170341.14375.rocketmail@send105.yahoomail.com>
+Date: Wed, 11 Nov 1998 09:03:41 -0800 (PST)
+From: Han Wen <hansker@yahoo.com>
+Subject: RE: Query for Corners-First Method Rubik Solution
+To: Noel Dillabough <Noel.Dillabough@ineacorp.com>
+Cc: cube-lovers@ai.mit.edu
+
+Hi,
+
+Thanks for the link to your Puzzler program.
+
+You're not going to believe this, but you can still purchase the
+Professor's Cube (5x5x5) and the Megaminx! Since it's difficult... no,
+impossible to find anyone that sell these puzzles, I think it's worth
+mentioning. You can get them from Meffert's site:
+http://ue.net/mefferts-puzzles/
+
+Your Puzzler program is a tremendously useful tool to develop moves.
+I've got 11/12 sides of the Megaminx solved.  But for the last side, I
+need to figure out corner/edge twisting/permuting moves.  You're
+Puzzler program's great for that.  I'm surprised how many of my
+Rubik's cube moves can be applied with minor modifications to the
+Megaminx.
+
+-Han-
+
+---Noel Dillabough <Noel.Dillabough@INEACORP.COM> wrote:
+
+> I actually solve all the cubes this way (or at least centers ->
+> corners -> edges for larger cubes) I just find it more logical and
+> easier to memorize than other methods.
+
+> You can check out my solution at
+> http://www.mud.ca/puzzler/puzzler.html.  Its in the puzzler help
+> file under "solving the cube".  I will be adding other solutions
+> soon that are clearer, let me know if you would like them I could
+> mail them to you.
+
+> -Noel.
+

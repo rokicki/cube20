@@ -1,0 +1,121 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Sun Dec  5 00:03:57 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07956; Sun, 5 Dec 93 00:03:57 EST
+Message-Id: <9312050503.AA07956@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 3262; Sun, 05 Dec 93 00:04:01 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 3276; Sun, 5 Dec 1993 00:04:01 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 5628; Sun, 5 Dec 1993 00:01:11 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Sun, 5 Dec 1993 00:01:08 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   God's Algorithm for the Edges of the 3x3x3
+
+Here are my God's Algorithm results for the edges of the
+3x3x3 cube.  I explained in the last post what I mean by
+1152-fold symmetry.  All results below are for 1152-fold
+symmetry.  I am working on the 24-fold case, but I am not
+quite done.  The 24-fold case is just a matter of determining
+the sizes of the equivalence classes in the 1152-fold case.
+
+One item of terminology needs to be explained.  Several
+people, including myself, have posted results for the
+2x2x2 cube and for the corners of the 3x3x3 cube.  If you
+take the term "corners of the 3x3x3 cube" absolutely
+literally, it is completely isomorphic to the 2x2x2 cube.
+When people have posted results for the "corners of the
+3x3x3 cube", they all (including myself) really mean
+"corners plus centers of the 3x3x3".  See below:
+
+   --------------      ---------------------    -------------------
+   |  x  |  x   |      |  x   |      |  x  |    |  x  |     |  x  |
+   |     |      |      |      |      |     |    |     |     |     |
+   |-----|-------      -------|------|------    ------|-----|------
+   |  x  |  x   |      |      |      |     |    |     |  x  |     |
+   |     |      |      |      |      |     |    |     |     |     |
+   --------------      -------|------|------    ------|-----|------
+       2x2x2           |  x   |      |  x  |    |  x  |     |  x  |
+                       |      |      |     |    |     |     |     |
+                       ---------------------    -------------------
+                          Corners of 3x3x3       Corners + Centers
+
+Thus, when I say I have solved the "edges of the 3x3x3", I need
+to clarify what I mean.  I have solved the "edges without the
+centers".  I suppose my next project will be "edges with the
+centers".  Unfortunately, "edges with the centers" is a twenty-four
+times larger problem than is "edges without the centers".  "Edges
+without the centers" took about a year running 24 hours a day,
+7 days a week, on two machines.  I am going to have to rethink
+"edges with the centers" before I start.  I don't want it to take
+24 years.
+
+      ---------------------    -------------------
+      |      |  x   |     |    |     |  x  |     |
+      |      |      |     |    |     |     |     |
+      -------|------|------    ------|-----|------
+      |  x   |      |  x  |    |  x  |  x  |  x  |
+      |      |      |     |    |     |     |     |
+      -------|------|------    ------|-----|------
+      |      |  x   |     |    |     |  x  |     |
+      |      |      |     |    |     |     |     |
+      ---------------------    -------------------
+      Edges without Centers     Edges with Centers
+
+
+            Results using q-turns only
+
+      Distance                 Number of
+     from Start                Nodes using
+                              1152-fold Symmetry
+
+          0                             1
+          1                             1
+          2                             5
+          3                            25
+          4                           215
+          5                         1,860
+          6                        16,481
+          7                       144,334
+          8                     1,242,992
+          9                    10,324,847
+         10                    76,993,295
+         11                   371,975,385
+         12                   382,690,120
+         13                     8,235,392
+         14                            54
+         15                             1
+
+
+
+            Results using q-turns and h-turns
+
+      Distance                 Number of
+     from Start                Nodes using
+                              1152-fold Symmetry
+
+          0                             1
+          1                             2
+          2                             9
+          3                            75
+          4                           919
+          5                        11,344
+          6                       139,325
+          7                     1,664,347
+          8                    18,524,022
+          9                   167,864,679
+         10                   582,489,607
+         11                    80,930,364
+         12                           314
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

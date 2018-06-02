@@ -1,0 +1,44 @@
+Date: 6 Jun 1982 17:11:14-PDT
+From: decvax!minow at Berkeley
+To: ucbvax!cube-lovers@MIT-AI
+
+Note: this is a resubmission of my note of Saturday June 6 which
+was bit by typo's.  Thanks to RP@MIT-MC for pointing them out.
+
+I have been using the following notation for the 4x4 cube:
+
+Name the faces L, R, F, B, U, D.  This follows the 3x3 notation.  The inner
+edges are then l, r, f, b, u, d.  The front, upper, right quadrant
+consists of one corner cube, FUR, two edge cubes, FUr and FRu, and one
+center cube, fur.
+
+Note that the Ideal book uses Lx etc for the mid-slices.
+
+Moves follow 3x3 notation:  F moves the front face clockwise, f moves
+the front slice clockwise.  F' moves counterclockwise.
+
+** SPOILER WARNING ** SPOILER WARNING ** SPOILER WARNING **
+
+The remainder of this message describes two processes for the 4x4 cube.
+
+** SPOILER WARNING ** SPOILER WARNING ** SPOILER WARNING **
+
+The following process rotates three edge cubes.  It preserves parity.
+
+(FUl UBl URb)		l' RUR'U' l URU'R'
+
+The following process rotates three center cubes.  It can be used to
+move one center cube between two faces.
+
+(Ful Ulb Urb)		l' rUr'U' l UrU'r'
+
+While the center process is sufficient, the edge process will not
+organize all edges.  It can easily be extended to a process that
+moves (FUl to UBl) but that process messes up centers, corners, and
+other edges.  It also does not do 4-way moves.  So the bloody thing
+still takes an hour.
+
+Martin Minow
+decvax!minow@berkeley
+
+

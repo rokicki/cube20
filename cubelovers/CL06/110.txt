@@ -1,0 +1,62 @@
+Received: from REAGAN.AI.MIT.EDU (CHAOS 13065) by AI.AI.MIT.EDU 18 Aug 89 14:16:43 EDT
+Received: from YUKON.SCRC.SYMBOLICS.COM by REAGAN.AI.MIT.EDU via INTERNET with SMTP id 251387; 18 Aug 89 14:16:23 EDT
+Received: from WHIMBREL.SCRC.Symbolics.COM by YUKON.SCRC.Symbolics.COM via CHAOS with CHAOS-MAIL id 482912; Fri 18-Aug-89 14:17:59 EDT
+Date: Fri, 18 Aug 89 14:17 EDT
+From: Allan C. Wechsler <ACW@YUKON.SCRC.Symbolics.COM>
+Subject: the 3x3
+To: rp@xn.ll.mit.edu, cube-lovers@ai.ai.mit.edu
+In-Reply-To: <8908181621.AA18188@XN.LL.MIT.EDU>
+Message-ID: <19890818181707.3.ACW@WHIMBREL.SCRC.Symbolics.COM>
+
+    Date: Fri, 18 Aug 89 12:21:29 EDT
+    From: Richard Pavelle <rp@xn.ll.mit.edu>
+
+    I took some time off this week and began playing with the cube to
+    teach one of my kids how to solve it. I had not tried for perhaps 5
+    years. To my surprise I had forgotten a few transformations while
+    recalling a few which are "equally difficult". It took about 10 hours
+    to get back to the stage where I can solve it in about 3 minutes
+    except for the flip of two opposite edges. I recall that we discussed,
+    in this forum, a nice procedure for this move many years ago and I
+    wonder whether anyone recalls it.
+
+Recall the "Extended Befuddler" language:
+
+B, F, U, D, L, R are counter-clockwise quarter twists.
+Lower-case are clockwise.
+
+I, i, J, j, K, k are whole-cule rotations agreeing in sense and axis
+with B, F, U, D, L, R, in that order.
+
+We group together sequences that are order-independent.  These sequences
+almost always correspond to intuitive "moves".
+
+And now, to flip the FD and BU edges:
+
+;;; First monoflip:
+f	; Get FD edge into equator.
+jUd	; Slice it to the back.
+FF	; Turn the vacated slot over
+JuDJuD	; and slice the cubie back into the inverted slot.
+F	; Move the cubie to the top.
+;;; Segue
+UU	; Exchange it with the other edge to be flipped.
+;;; Second monoflip:
+f	; Move the new edge into the equator,
+JuDJuD	; slice it to the back the long way,
+FF	; turn the vacated slot over,
+JuD	; and slice the cubie back into the inverted slot, the short way.
+f	; Get it back to the top
+;;; Coda
+UU	; Un-segue 
+FF	; and take first edge back to the bottom.
+;;; Checksum of whole-cube moves: jJJJJJ = 1.
+;;; 26 qtw, 13 "moves" including half-twists and slices.
+
+I doubt if this is minimal, but it is so intuitive that I was able to
+type this sequence without a cube in my hands.
+
+    Also, to what extent have others shared my experience of forgetting
+    moves?
+
+Some.

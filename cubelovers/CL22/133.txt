@@ -1,0 +1,26 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun  5 00:34:59 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id AAA05255; Thu, 5 Jun 1997 00:34:58 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <199706050430.AAA19160@life.ai.mit.edu>
+Date: Thu, 5 Jun 1997 00:28:40 -0400
+From: michael reid <reid@math.brown.edu>
+To: Hoey@aic.nrl.navy.mil, cube-lovers@ai.mit.edu
+Subject: correction of priority
+
+dan writes
+
+> Herbert Kociemba notes three interesting heuristics based on the
+> number of moves to reach the subgroup <T,D,R2,L2,F2,B2>.  In fact,
+> Mike Reid calculated (and Dik Winter verified) the exact distances in
+> this 2.2-billion element coset space (see archives at 7 Jan 1995 and
+> following).
+
+these distances (in the face turn metric) were originally calculated
+by dik winter.  see his message of may 28, 1992, "Corrected calculations
+are now done."  i mentioned this in my message of january 7, 1995.
+
+mike
+
+

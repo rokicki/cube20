@@ -1,0 +1,181 @@
+From an unsolved position, it is faster to "solve" directly to
+the desired configuration; by following the steps below,
+the eager cubist may learn exactly what these configurations are.
+
+Of the words and phrases I use:
+
+I call the faces front, back, right, left, top, bottom. A face
+has 9 cubies, viz., 4 corner cubies, 4 edge cubies, and its
+center cubies.  Separating 2 opposite faces, is  a "center
+slice", being of 4 center cubies and 4 edge cubies. As I
+hold the cube, I call three center slices: floor-parallel,
+body-parallel, body-slicing. For instance, the body-parallel
+and body-slicing centerslices meet in the front face.
+
+I name "double-swap" the transform which is performed as follows:
+    Double-swap (front, back)		      ;parameter-faces
+      Turn body-slicing centerslice 180.
+      Turn bottom face 180.
+      Turn body-slicing centerslice 180.
+      Turn bottom face 180.
+
+Observe well what it has done, viz. swapped the two cubies of the
+turned centerslice on the front with those of the back.  You
+will use it as needed during the following shenanigans:
+
+----------------------------------------------------------------------
+To achieve Christman's (DPC at MIT-MC) Cross, the simpler of the two:
+
+Rotate the body-slicing centerslice 180.  Rotate the floor-parallel
+centerslice 90 either way (your choice).
+Stare hard at what you have.  The CORNER CUBIES and CENTER CUBIES
+are in their final position for the Crux Christmani; all further
+hacking will be simply to move the EDGE CUBIES, IN PAIRS, into
+place.  To achieve ANY Crux Plummeri or Crux Christmani configuration,
+learn how to do the initial rotations (see below for the CP)
+so that you get the center cubies to corners you want, and hack from
+there.
+
+I will now describe the edge-cubie moves for the CC given that
+the centerslices have been aligned to orient the center cubies
+as needed:
+
+  Among the six faces you now have, find one of the two that
+have a solid stripe between two sides of the same color, i.e.,
+     x y x
+     x y x
+     x y x
+and align it like so, so that the stripe is vertical, and this
+face is the front.
+
+Note that the edge  cubies of the y y y stripe want to be exchanged
+with the two x-showing edge cubies, i.e.,
+     x x x
+     y y y
+     x x x
+(Remember that the goal is x y x/y y y/x y x)
+You can tell that they want to be inthe horiz. positions by their
+non-showing faces, which you will observe match the center-cubies
+on the right and left sides.
+To do this:
+   1.	   Perform doubleswap on front-back.
+   2.	   Rotate the FRONT so that when you do (3), the two cubies
+	   we just moved to the back will come to such place so that
+	   when we undo this step (see 4), they will be in the right
+	   place. This will be either 90 deg. left or right.
+   3.	   Perform doubleswap on front-back.
+   4.	   Undo step 2, i.e., turn FRONT 90 deg the "other" way.
+Whehter you blew (2) or not, you will now find you have
+ (x x x/y y y/x x x) on front. If you understood 2 and DIDNT
+blow it, you will have the sides of the y y edge cubies matching
+the side centers (if you blew it, doubleswaps on the side faces
+can fix you up).
+
+You will see the floor-parallel centerslice begin to form a band.
+We will now finish that band.  The two appropriate cubies (to go
+in the two rear positions of the floor-parallel centerslice are
+now on the front plane, the x x cubies of the last step. Note
+that a simple doubleswap on front-back would move them to the
+back face, but the WRONG two places on the back face. Easy.
+So, turn the back face 90 degrees and do the doubleswap,
+and unturn the back.  Choose which 90 such that these two
+cubies wind up in the right place.
+
+You will now find you have solid bands and solid crosses
+galore. The front and back should have solid crosses, and the
+floor-parallel slice should now be a solid band.
+Look at the top of the cube.  Make it the front.
+Orient it so that it is (a b a/c c c/a b a). Do a front-back
+doubleswap, and now look at the remaining face pair we
+havent been thinking about. Do the appropriate doubleswap on
+them to get solid crosses, and then you should have the Crux Christmani.
+Study well what you have: three pairs of alternated crosses.
+
+----------------------------------------------------------------------
+
+
+The Crux Plummeri (after DCP at MIT-MC who first came up with it,
+altho by solving-to) is exactly equal to doing the entire
+above transformation twice, at 90 degrees.  The following, however,
+is a direct route from solved that is more intuitive.
+
+Take the cube, turn the body-slicing centerslice up 90 deg.
+Turn the floor-parallel centerslice 90 deg clockwise as seen from
+the top. Note well the configuration of corners versus centers;
+it is the final one. Note that you will have two triplets
+of trebly-interleaved colors: that is the characteristic of the CP.
+
+Look at the TOP or BOTTOM. Let's say the TOP. Make it the front.
+Orient it so that you see
+    x y x
+    x y x
+    x y x
+
+Only the top or bottom look like this; this is what you have to
+remember to look for after aligning centers to taste.
+We're gonna rotate the y y y band into the horiz position.
+Do this exactly as for the CC above, producing
+   (x x x/ y y y/x x x)
+Next goal is again to complete the solid band of the floor-parallel
+centerslice by doubleswapping front/back so that
+the x x edgecubies,w hich would complete that band, go to
+the back. Of course, we must temporarily rotate the
+back during this doubleswap, so that they go to the side
+positions ofthe back when swapped. Do so, completing the
+solid color-band of the floor-parallel slice.
+
+Now consider the top and bottom. You note that exactly one appropriate
+doubleswap between top and bottom would give us solid
+crosses on both. Do it.
+
+
+Take what had been the top just now, and call that the front.
+Note that there are solid crosses on front and back, and the
+body-parallel plane is correct and complete.
+Think about the front: it looks like
+   a b a
+   b b b
+   a b a
+
+Although it looks right fromt the front, the two vertical b-edge
+cubies want to be the two horizontal b-edge cubies, as a cursory
+inspectionof the top bottom and sides of the cube will show.
+This is true of the back, as well.
+
+Tofix up the FRONT do this:
+
+     1. Doubleswap front/back
+     2. Rotate the FRONT (temporarily) 90 degrees sothat the two
+	vertical b-edge cubies are gonna come to the right place,
+     3. And doubleswap front/back
+     4. Undo 2.
+     5. Doubleswap front/back.
+
+Now you see all is right save the back. It wants the same
+thing done to it.  Do it for it;  Do this same thing
+just doNe in the last 5 steps for the back (viewing it as the
+temporary front).
+
+It is done. Consider it.
+
+An exquisite variant ont he CP is obtained by taking on of the
+trebly-bound sides and rotating the centers via the well-known
+center-cubie rotating algorithm. As the centers are rotated
+left or right, either a sextuple checkerboard or a stunning
+triply-rotated canon of centers , edges, and corners appears.
+The checkerboard is amusing insofar as it appears to a
+novice cubist to be the Pons Asinorum 6tuple checkerboard
+made by 6 twists (described earlier today), but cannot be
+fixed (solved, or produced) without the consummate hair
+of the CP that only true cubemeisters can execute.
+
+The application of the Pons Asinorum checkerboard transform
+to the CP (as well as the CC) produces interesting and
+suprising results.
+
+----------------------------------------------------------------------
+The Higher Crosses are fascinating insofar as they appear to be
+very simple edge-cube hacks, but are in fact quite "far"
+from home; the CP being exactly twice as "hairy" (far)
+as the CC (discovered by ALAN) is in itself a source of
+wonderment.

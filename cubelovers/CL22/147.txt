@@ -1,0 +1,52 @@
+From cube-lovers-errors@oolong.camellia.org  Fri Jun  6 21:25:13 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id VAA11764; Fri, 6 Jun 1997 21:25:13 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Fri, 6 Jun 1997 12:07:14 -0700
+From: "Jason K. Werner" <mrhip@neuhelp.corp.sgi.com>
+Message-Id: <9706061207.ZM26712@neuhelp.corp.sgi.com>
+In-Reply-To: Joe McGarity <joemcg3@snowcrest.net>
+        "5x5x5 Stuctural Integrtity" (Jun  6,  1:16)
+References: <3397C741.464@snowcrest.net>
+Reply-to: "Jason K. Werner" <mrhip@sgi.com>
+X-Mailer: Z-Mail-SGI (3.2S.2 10apr95 MediaMail)
+To: joemcg3@snowcrest.net,
+        "Mailing List, Rubik's Cube" <cube-lovers@ai.mit.edu>
+Subject: Re: 5x5x5 Stuctural Integrtity
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+
+On Jun 6,  1:16, Joe McGarity wrote:
+> Subject: 5x5x5 Stuctural Integrtity
+> Where are you able to find 5x5x5 cubes that don't instantly fall apart?
+> I have had nothing but trouble with mine.  Is there more than one on the
+> market?  I am only aware of the one manufactured in Germany.  Not only
+> have I never been able to solve it, but I have never been able to
+> scramble it.  It simply crumbles away in my hands.  The orange stickers
+> seem to have a habit of fleeing the cube in terror.  (It's always the
+> orange ones on any cube that fall off first.  Has anyone else noticed
+> this?)  At any rate, if there is some other source for these cubes or if
+> I simply got a bad one, someone please let me know.  Wei-Hwa Huang's
+> post has made me want to pick it up and try it out, but so far, mine is
+> only for looks.
+
+I live in the Bay Area (California), and there's a mall with a toy store that
+sells them from time to time.  That's were I got mine, and it's in excellent
+shape.  I've abused and thrashed mine over and over again, and it's still all
+"stuck" together; never had a piece break or fall out on me.
+
+Let me know if you want more details on location.
+
+	-Jason
+
+
+--
+Jason K. Werner                 Email: mrhip@sgi.com
+Systems Administrator           Phone: 415-933-6397
+USFO I/S Technical Services     Fax:   415-932-6397
+Silicon Graphics, Inc.          Pager: 415-317-4084, mrhip_p@sgi.com
+
+"Winning is a habit"-Vince Lombardi;"These go to eleven"-Nigel Tufnel
+
+

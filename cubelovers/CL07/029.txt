@@ -1,0 +1,107 @@
+From j9@icad.com  Fri Dec 14 19:26:43 1990
+Return-Path: <j9@icad.com>
+Received: from BU.EDU by life.ai.mit.edu (4.1/AI-4.10) id AA01678; Fri, 14 Dec 90 19:26:43 EST
+Received: by BU.EDU (1.99) Fri, 14 Dec 90 13:43:49 EST
+Received: from MOE.ICAD.COM by icad.COM (4.1/SMI-4.0)
+	id AA21059; Fri, 14 Dec 90 13:34:43 EST
+Date: Fri, 14 Dec 90 13:38 EST
+From: Jeannine Mosely <j9@icad.com>
+Subject: Peter Beck's construction project
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <19901214183850.8.J9@MOE.ICAD.COM>
+
+I have made something along the lines that Peter Beck describes in
+his "construction project", but it does not quite fit his
+description, so I don't know if it is the same thing. It uses only
+50 modules and I can't for the life of me imagine where the other 70
+should go.
+
+My object looks like this.  Imagine a regular icosahedron (20
+equilateral triangular faces, with 5 coming together at each
+vertex).  Erect on each of these faces a triangular prism (20
+modules).  At each edge of the icosahedron, two square faces of
+adjacent prisms rise up from the surface of the icosahedron.  Band
+each such pair together with a module (30 modules).  The reulting
+form resembles the Archmidean solid most conveniently designated
+(3,4,5,4), which means that each vertex contains a triangle, square,
+pentagon, square, in that order.
+
+I say "resembles" this solid, in part, because only the squares are
+actually present, the triangular and pentagonal "faces" are voids.
+But a more compelling reason for saying "resembles" is that the
+geometry is only approximate.  If one uses the modules you describe
+for the triangular prisms (that is, the height of the prism equals
+the edge of the triangle) then the quadrilateral faces on the outer
+surface connecting the triangular and pentagonal voids are not
+squares, but rectangles whose side are in the ratio of (sqrt 5)-1 to
+(sqrt 3).  This discrepancy can be fudged, by allowing the squares
+to bulge outward slightly.  On the other hand, a figure could be
+constructed where the outer quadrilaterals were in fact square, but
+this would require the prisms to be shorter, and that cannot be
+fudged.
+
+Better results can be achieved if you do not fudge the geometry (or
+at least not much).  It turns out that
+
+	(/ (- (sqrt 5) 1) (sqrt 3)) = 5/7 
+
+(pardon my lisp) to within one tenth of one percent. Hence I make my
+modules as diagrammed below.  Dimensions given assume paper in the
+ratio of 2 to 1.
+
+This module is used to make the triangular prisms:
+
+    _______________________________________________
+   |         :             :             :         | 5/24
+   |.........:.............:.............:.........|
+   |         :             :             :         |
+   |         :             :             :         | 7/12
+   |         :             :             :         |
+   |.........:.............:.............:.........|
+   |         :             :             :         | 5/24
+   |_________:_____________:_____________:_________|
+       1/2        1/2           1/2          1/2
+
+
+This module is used to band the triangular prisms together:
+
+    _______________________________________________
+   |         :             :             :         | 1/4
+   |.........:.............:.............:.........|
+   |         :             :             :         |
+   |         :             :             :         | 1/2
+   |         :             :             :         |
+   |.........:.............:.............:.........|
+   |         :             :             :         | 1/4
+   |_________:_____________:_____________:_________|
+      5/12        7/12          7/12        5/12
+
+
+Natually, you might ask, how do I fold 5/12?  There is a trick.
+First fold the the long edge in half, and then in quarters at one
+end, but don't make the second crease go all the way across--just
+nick one edge of the paper, as a marker (point B).  Now fold point B
+to touch the upper left-hand corner (point A).  This would make a
+diagonal crease across the strip, but again, don't make the crease
+go all the way across--just nick the lower edge (point C).  The line
+AC is the hypoteneuse of the old 5,12,13 right triangle, and point C is
+at 5/12, as desired.  (Pretty neat, huh?)
+
+       A _______________________________________________
+        |                      :                        |
+        |                      :                        |
+        |                      :                        |
+ 12/12  |                      :                        |
+        |                      :                        |
+        |                      :                        |
+        |                      :                        |
+        |_______:______________:_____________:__________|
+          5/12  C     7/12           6/12    B   6/12
+
+
+A similar technique is used to make the other module.
+
+I did not need any staples.
+
+	-- jeannine mosely
+

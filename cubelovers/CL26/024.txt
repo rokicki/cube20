@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov  9 17:39:21 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id RAA01496; Mon, 9 Nov 1998 17:39:20 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19981104032938.14284.rocketmail@send102.yahoomail.com>
+Date: Tue, 3 Nov 1998 19:29:38 -0800 (PST)
+From: Han Wen <hansker@yahoo.com>
+Subject: Query for Corners-First Method Rubik Solution
+To: cube-lovers@ai.mit.edu
+
+
+Hi,
+
+Does anyone know of any websites that describe the Corners-first
+method of the solving the rubik's cube?  I know of many layer-first
+methods such as Jiri Fridrich's (for which I have spent many hours
+learning), but I really haven't seen a comprehensive explanation of
+the corners-first method.  I'm really curious to understand how anyone
+can solve the cube under 30secs by solving the corners first.
+
+-Han-
+

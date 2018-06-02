@@ -1,0 +1,101 @@
+From BRYAN@wvnvm.wvnet.edu  Tue Jun 20 18:04:35 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25438; Tue, 20 Jun 95 18:04:35 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 8764; Tue, 20 Jun 95 13:48:52 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 4745; Tue, 20 Jun 1995 13:48:53 -0400
+Message-Id: <wvmail32.1995jun20.114716.bryan@wvnvm.wvnet.edu>
+Date:      Tue, 20 Jun 1995 13:48:51 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: Re: A Third Way to Calculate the Real Size of Cube Space?
+In-Reply-To: Message of 06/20/95 at 14:39:00 from ,
+           Martin.Schoenert@Math.RWTH-Aachen.DE
+
+On 06/20/95 at 14:39:00 Martin Schoenert said:
+
+>I can't figure out how the brute force computer search works.
+>So I can't tell whether it is really different from the other methods
+>(and if indeed it is a method to compute the real size of the cube ;-).
+>Jerry, could you say a little bit more about this computation?
+
+I look at corners and edges separately, and then combine the results.
+
+I can't speak for how Dan did his corner search and his edge search,
+but I can describe mine.  Our results do match, which is always nice.
+
+Dan did most of the figuring out of "combining the results" for corners
+and edges.
+
+Conceptually, I look at every single corner position X and calculate
+Symm(X), and I look at every single edge position Y and calculate
+Symm(Y).  In practice, there are some important shortcuts.
+
+I have a data base containing "every" corner position and a second
+data base containing "every" edge position with "every" defined in
+the following sense.  The set of all positions is partitioned into
+equivalence classes of the form {m'Xmc} for the corners and {m'Ymc}
+for the edges, for m in M (48 rotations and reflections) and c in C
+(24 rotations).  The data bases contain a representative element
+from each equivalence class.
+
+For all the cases where |{m'Xmc}|=1152 and |{m'Ymc}|=1152, no searching
+is required.  For these cases, we know *a priori* that there are 24
+M-conjugacy classes containing 48 elements each, and that for each
+of the 1152 positions we have Symm(X)=I and Symm(Y)=I.  Fortunately,
+for the vast majority of the cases (over 97% for corners and well
+over 99% for edges), the so-called B-class size is 1152.
+
+Suppose the representative for {m'Xmc} is V and for {m'Ymc} is W.
+For the remaining cases, the idea is to use Vc and Wc for
+each fixed c in C as a base or representative element for an
+M-conjugacy class of the form {m'(Vc)m} and {m'(Wc)m}.  The tricky
+part here is that while Vc and Vd are distinct when c and d in C
+are not equal, nonetheless Vc and Vd may be M-conjugate.  Hence,
+we use each Vc and Wc which are distinct up to M-conjugacy as
+a representative element for an M-conjugacy class.
+
+Conceptually, we calculate Symm(T) for each T in {m'(Vc)m} for each
+fixed c (and for Vc distinct up to M-conjugacy) and summarize the
+results.  In practice, it is sufficient to calculate Symm(Vc).
+
+Here comes another tricky part (at least it was until I figured it out).
+Initially, I assumed that Symm(T) was the same for all T in {m'(Vc)m}.
+However, such is not the case.  Rather, if you calculate each Symm(T), you
+will discover that each one will be a group from a class of conjugate
+groups, and that each group in the class of conjugate groups will appear
+an equal number of times.
+
+Given that you have picked an arbitrary representative from the M-conjugacy
+class, you don't know which conjugate group you are going to get when
+you calculate Symm(m'(Vc)m).  I got around this issue originally by
+calculating a representative group (the 98 subgroups of M then have
+33 representative groups, one for each of the 33 symmetry classes).
+In the work I am doing now, I map directly from each of the 98 subgroups
+to their respective symmetry class.
+
+The exhaustive search then consists of performing the above calculations
+for each B-class of the form {m'Xmc} and {m'Ymc} and summarizing the
+results (that is, counting all the M-conjugacy classes).  In addition
+to an overall total, you summarize by symmetry class, which gives you
+the additional information I have talked about, over and above Dan's
+Polya-Burnside results.
+
+At this point, the summary results give you the real size of the corners
+only problem and the real size of the edges only problem.  While you are
+at it, you have to count the M-conjugacy classes for even positions and odd
+positions separately in order to put corners and edges together
+properly.
+
+Finally, you put the corners and edges together in all possible ways.
+The putting together of the corners and edges is described in the
+draft I have mentioned, so I will just wait until the draft is
+ready before posting the rest.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

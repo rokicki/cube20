@@ -1,0 +1,34 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Feb 19 17:17:38 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA20548
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 19 Feb 1999 17:17:37 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: Douglas Zander <dzander@solaria.sol.net>
+Message-Id: <199902192002.OAA04117@solaria.sol.net>
+Subject: 2by alternative mechanism
+To: cube-lovers@ai.mit.edu
+Date: Fri, 19 Feb 99 14:02:03 CST
+
+Hello,  I remember someone asked if there were two different mechanisms 
+to the 2x2x2 cube but I can't remember if it was answered.  Last night
+while doing a patent search I came across a mechanism totally different
+than what my own cube looks like.  It is U.S. Patent # 5826871  Oct '98
+Basically, it is a standard Rubik's Cube with the central layers hidden
+underneath and one quadrant is fixed in place.  I am wondering if there 
+exists a web site with all the diagrams of all different puzzles from
+their patent pages.  As you may know, patents and patent diagrams are 
+*not* covered by copyright issues, you may photocopy them for personal
+viewing and even display them on a web page.  I think such a web page
+would be nice to have; a web page of all the diagrams of the working 
+mechanisms of all the puzzles discussed on this list.  (The thing is 
+though that soon the U.S. Patent office will be adding the diagrams to
+their web pages. www.uspto.gov)   Anyone wish to start such a page?
+I have access to a patent depository.  :-)
+
+-- 
+ Douglas Zander                | 
+ dzander@solaria.sol.net       |
+ Shorewood, Wisconsin, USA     |
+

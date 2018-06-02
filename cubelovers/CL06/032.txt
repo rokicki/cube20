@@ -1,0 +1,14 @@
+From: ai!gautier@rsch.wisc.edu  (Jorge Gautier)
+Subject: WANTED: references on the game of dominoes
+ 
+I am looking for references on computer implementations of the game of
+dominoes.  I suspect there are many variations on the rules for this game,
+but any pointers to papers, commercial products, Ph.D. theses :-), etc.
+would be much appreciated.  Please reply by mail.
+ 
+Jorge Gautier
+gautier@ai.wisc.edu
+ 
+ 
+.............
+------

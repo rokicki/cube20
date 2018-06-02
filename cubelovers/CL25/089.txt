@@ -1,0 +1,59 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun Jul 26 14:10:13 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id OAA09548; Sun, 26 Jul 1998 14:10:13 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sat Jul 25 17:52:37 1998
+Message-Id: <35BA52EF.35D831D6@t-online.de>
+Date: Sat, 25 Jul 1998 23:49:35 +0200
+Reply-To: Rainer.adS.BERA_GmbH@t-online.de
+Organization: BERA Softwaretechnik GmbH
+To: michael reid <reid@math.brown.edu>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: patterns on 5x5x5 cube
+References: <199807232221.SAA07643@hilbert.math.brown.edu>
+From: Rainer.adS.BERA_GmbH@t-online.de (Rainer aus dem Spring)
+
+Thanks for the patterns,
+
+the problem is - my 5*5*5 cube is scrambled and I have to figure out
+how to unscramble it. I haven't touched it for 15 years.
+
+I also have several hundred pages of hand-written stuff.
+
+I have several 4*4*4 patterns. I wonder if enough people on the mailing
+list have a (La)TeX system so that I can post the patterns in LaTeX
+format.
+
+Concerning this I need feedback !!
+
+By the way, my last 4*4*4 cube starts to fall apart. Does anybody know
+if it is still available ?
+
+
+michael reid wrote:
+> 
+> a while ago, rainer asked for patterns on the 5x5x5 cube.  here
+> are some i know (the hardest part seems to be finding the scraps
+> of paper on which the maneuvers are written).
+> 
+snip
+....
+
+Rainer adS 
+
+PS
+
+Does anybody else have patterns for the 4 or 5 cube ?
+
+If so, pls. send them to me. I will create a document in ps and/or pdf
+format about
+patterns.
+
+[ Moderator's note: My sense of this is that short notes in latex can
+  be made readable enough as text that it might be workable on this
+  list.  Postscript and PDF are not acceptable in this medium, though
+  they can be placed in the archive at
+  ftp://ftp.ai.mit.edu/pub/cube-lovers/contrib/ --Dan]
+

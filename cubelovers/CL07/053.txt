@@ -1,0 +1,37 @@
+From gls@think.com  Mon May 13 12:04:08 1991
+Received: from mail.think.com by life.ai.mit.edu (4.1/AI-4.10) id AA05129; Mon, 13 May 91 12:04:08 EDT
+Return-Path: <gls@Think.COM>
+Received: from Berlin.Think.COM by mail.think.com; Mon, 13 May 91 12:03:40 -0400
+Received: from Ukko.Think.COM by berlin.think.com; Mon, 13 May 91 12:04:01 -0400
+From: Guy Steele <gls@think.com>
+Received: by ukko.think.com; Mon, 13 May 91 12:03:50 EDT
+Date: Mon, 13 May 91 12:03:50 EDT
+Message-Id: <9105131603.AA01148@ukko.think.com>
+To: latto@lucid.com
+Cc: mindcrf!ronnie@peabody.mindcraft.com, Cube-Lovers@life.ai.mit.edu
+In-Reply-To: Andy Latto's message of Fri, 10 May 91 22:58:29 EDT <9105110258.AA29787@boston-harbor>
+Subject: 5by cubes
+
+   Date: Fri, 10 May 91 22:58:29 EDT
+   From: Andy Latto <latto@lucid.com>
+
+
+   > On the other hand, I would be willing to pay a fair amount of money for
+   > an order 21 cube. :-)
+
+   You can't make an order 21 cube, or any cube of order 7 or higher.
+   When you turn the top layer of such a cube by 45 degrees, the corner
+   cubie will not touch the other layers at all, so there's
+   no way to keep it attached, and it will fall off.
+
+Assuming the current technology, anyway.  But imagine a less passive
+approach.  Suppose each cubie had a cheap microprocessor, and some
+little latches.  Normally cubies hang onto their neighbors, but when
+they notice you are applying torque, they let go of their neighbors
+in just that one direction and hang on for dear life in the other two
+directions.  The latches can also be conducting in order to convey
+the necessary actuating power from a centrally placed battery.
+
+--Wild and Crazy Guy
+
+

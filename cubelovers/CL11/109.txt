@@ -1,0 +1,47 @@
+From dseal@armltd.co.uk  Mon Jan 17 14:14:08 1994
+Return-Path: <dseal@armltd.co.uk>
+Received: from eros.britain.eu.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA11921; Mon, 17 Jan 94 14:14:08 EST
+Received: from armltd.co.uk by eros.britain.eu.net with UUCP 
+          id <g.06801-0@eros.britain.eu.net>; Mon, 17 Jan 1994 18:21:12 +0000
+Received: by armltd.co.uk (5.51/Am23) id AA07766; Mon, 17 Jan 94 18:16:09 GMT
+Date: Mon, 17 Jan 94 18:15:33 GMT
+From: dseal@armltd.co.uk (David Seal)
+To: (Cube) cube-lovers@ai.mit.edu
+Subject: Re: Higher Order Cubes
+Message-Id: <2D3AD5C5@dseal>
+In-Reply-To: <199401151733.MAA02409@Collatz.McRCIM.McGill.EDU>
+
+
+> This brings up an interesting point.  Perhaps it would be possible to
+> build a 4-Cube that was internally a 5-Cube but for which the middle
+> slice was not actually visible on the surface?  Or a 2-Cube that's
+> internally a 3-Cube?  I wonder if it might make for smoother-turning
+> cubes.
+
+Yes, I think you could build such a 4-Cube. Likewise, you could build a
+2-Cube as a 3-Cube with invisible middle slices. But I don't believe you'd
+want one: it could get completely jammed much too easily.
+
+The reason: If you take a 3-Cube and rotate its left and right slices 45
+degrees each, you cannot rotate any of its other faces. This isn't
+surprising, since you don't expect to be able to perform one rotation
+halfway through another. If its middle slices were hidden, however, it would
+*appear* to be a 2-Cube which is not halfway through a rotation, and the
+fact that you couldn't move any faces but the left and right ones would be
+surprising - and undesirable.
+
+Unfortunately, I believe such a situation could probably arise quite easily.
+If you were to take the 2-Cube concerned and rotate its right face 90
+degrees relative to its left face, you're going to be OK if the hidden
+middle layer rotates 0 or 90 degrees relative to the left face, but not OK
+if it rotates any other amount. I suspect most mechanisms would be more
+liable to rotate it an intermediate amount!
+
+There may be a way out, though. If you can anchor the place where the three
+axes meet to one of the corner cubelets in some way, the problem is solved:
+if the "anchor cubelet" is in the left face, then the hidden layer will
+rotate 0 decrees; if it is in the right face, then 90 degrees.
+
+David Seal
+dseal@armltd.co.uk
+

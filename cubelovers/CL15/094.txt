@@ -1,0 +1,21 @@
+From lag@erc.msstate.edu  Wed May  3 16:06:43 1995
+Return-Path: <lag@erc.msstate.edu>
+Received: from Phoenix.ERC.MsState.Edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17510; Wed, 3 May 95 16:06:43 EDT
+Received: from athena.ERC.MsState.Edu (lag@Athena.ERC.MsState.Edu [192.208.145.68]);
+           by Phoenix.ERC.MsState.Edu using ESMTP (8.6.8.1/7.0m-FWP-MsState);
+           id PAA29389; Wed, 3 May 1995 15:06:20 -0500
+From: "Ludwig A. Goon" <lag@erc.msstate.edu>
+Received:  by athena.ERC.MsState.Edu (8.6.8.1/6.0c-FWP);
+	   id PAA09711; Wed, 3 May 1995 15:06:15 -0500
+Message-Id: <199505032006.PAA09711@athena.ERC.MsState.Edu>
+Subject: unsubscribe
+To: CUBE-LOVERS@life.ai.mit.edu
+Date: Wed, 3 May 1995 15:06:15 -0500 (CDT)
+X-Mailer: ELM [version 2.4 PL24]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 13        
+
+unsubscribe 
+

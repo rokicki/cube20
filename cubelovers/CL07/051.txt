@@ -1,0 +1,58 @@
+From ncramer@bbn.com  Sun May 12 18:05:24 1991
+Return-Path: <ncramer@bbn.com>
+Received: from LABS-N.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA20500; Sun, 12 May 91 18:05:24 EDT
+Message-Id: <9105122205.AA20500@life.ai.mit.edu>
+Date:     Sun, 12 May 91 18:01:38 EDT
+From: Nichael Cramer <ncramer@bbn.com>
+To: dn1l+@andrew.cmu.edu
+Cc: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>, Cube-Lovers@life.ai.mit.edu
+Subject:  ARGGHHH!! [was: 5by cubes]
+
+>Date:     Sun, 12 May 91 17:12:57 EDT
+>From: Nichael Cramer <ncramer@BBN.COM>
+>To: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+>Subject:  Re: 5by cubes
+>>Date: Sat, 11 May 91 03:47:40 -0400 (EDT)
+>>From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+>>To: Cube-Lovers@life.ai.mit.edu
+>>I am only having one problem with the 5x5x5 cube, though:
+>>X|O|X|X|X
+>>X|X|X|X|X
+>>X|X|X|X|X
+>>X|X|X|X|X
+>>X|X|X|O|X
+>>looking at the bottom of my cube, the 2 pieces marked O are swaped
+>>sometimes, so that the face is still a solid color, but the sides are
+>>swapped.  [ ... ] I can't figure out what causes the swapping.
+
+[I write]:
+>Dale, [...]
+
+#$%@!! 
+
+I just realize that I answered the wrong question!  My answer was to the
+question:
+
+    "My cube is completely solved *except* that the 2 pieces marked `O' are
+     flipped."
+
+(Sorry.)  The right answer should be:
+
+The state of the cube is not:
+
+X|O|X|X|X                  X|A|X|C|X
+X|X|X|X|X                  X|X|X|X|X
+X|X|X|X|X     But rather:  X|X|X|X|X
+X|X|X|X|X                  X|X|X|X|X
+X|X|X|O|X                  X|X|X|B|X
+
+Where cubie "C" just "looks" like it's in the right place.
+
+You need an operator that rotates  A->B->C->A.  (Left as an exercise; hints
+available on request.)
+
+This will very likely leave an inconvenient number of edges flipped.  For
+the answer to _this_ problem, see my last post.  ;)
+
+Nichael-walks-with-the-red-face
+

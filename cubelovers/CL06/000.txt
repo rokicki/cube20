@@ -1,0 +1,37 @@
+Date: Sat, 10 Jan 87 02:56:40 EST
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  The Archive & Administrivia
+To: CUBE-LOVERS@AI.AI.MIT.EDU
+Message-ID: <138605.870110.ALAN@AI.AI.MIT.EDU>
+
+
+Those of you who look through the archives of old Cube-Lovers mail will
+notice that I have split off a new section of the archive.  The mail now
+lives on MIT-AI in the files:
+
+AI:ALAN;CUBE MAIL0	;oldest mail in forward order
+AI:ALAN;CUBE MAIL1	;next oldest mail in forward order
+AI:ALAN;CUBE MAIL2	;more of same
+AI:ALAN;CUBE MAIL3	;still more of same
+AI:ALAN;CUBE MAIL4	;yet more
+AI:ALAN;CUBE MAIL5	;more still
+AI:ALAN;CUBE MAIL	;recent mail in reverse order
+
+As always files can be FTP'd from MIT-AI without an account.  (And yes, the
+spaces in those filenames are a significant part of our filename syntax.)
+
+While I have everyone's attention let me remind you all that last year
+Cube-Lovers moved from its original home on MIT-MC to MIT-AI.  Our new
+addresses are Cube-Lovers@AI.AI.MIT.EDU for submissions and
+Cube-Lovers-Request@AI.AI.MIT.EDU for administrivia.
+
+If you have occasion to send mail to Cube-Lovers, you will generally find
+that a fair number of copies of your message will be returned to you by
+various mailers around the world for various reasons.  This is always a
+problem with old, and fairly quiet mailing lists.  If you would like to be
+helpful, you can collect these errors and forward them to
+Cube-Lovers-Request (I will eventually flush anyone who is consistently
+unreachable), but under no condition should you forward the error message
+to Cube-Lovers itself.  Thank you.
+
+				-Alan

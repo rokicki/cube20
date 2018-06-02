@@ -1,0 +1,64 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Jun 22 19:28:53 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA08808 for <cube-lovers-outbound@curry.epilogue.com>; Sat, 22 Jun 1996 19:28:52 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sat, 22 Jun 1996 21:58:06 +1000 (EST)
+Message-Id: <199606221158.VAA13274@pcug.org.au>
+X-Sender: pfoster@pcug.org.au
+X-Mailer: Windows Eudora Version 1.4.4
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: Cube-Lovers@ai.mit.edu
+From: Peter Foster <pfoster@pcug.org.au>
+Subject: Thistlethwaites algorithm (and others)
+
+Morwen Thistlethwaite devised a solution for Rubik's cube which required at
+most 50
+turns. I would like to know where I can get a copy of this solution. Can
+anyone help?
+I have asked David Singmaster about this. He replied that he does have
+Thistlethwaite's
+solution, but that it has been significantly improved and he does not know
+the details.
+So, if someone can point me in the right direction I would be most grateful!
+
+While I am interested in Thistlethwaite's solution, it is no use for speed
+solving.
+There was a recent posting, from Jiri Fridrich, which outlined his speed
+solution, as
+follows:
+
+>1. Do the four edges (white first) (2 sec.)
+>2. Put the white corner including the corresponding edge from the second
+>slice. When you put all four white corners, two slices on the cube will be
+>done. In this stage, almost no algorithms are necessary. Most positions
+>can be solved with intuition. (4 x 2 sec = 8 sec.)
+>3. Turn all 8 small cubes from the last slice so that the last face has
+>the same color. There are only 40 different positions (not counting
+>symmetrical positions). On average, 10 moves are necessary to do this
+>phase.(3 sec.).
+>4. Move the cubes in the last slice so that the cube is solved. There are
+>only 13 different positions. On average, 10-15 moves are necessary. (4
+>sec.)
+>
+>For the whole system, 40+13=53 algorithms are necessary. One also needs
+>about 8 short algorithms for the second phase. Altogether, 61 algorithms
+>will enable you to solve the cube in 17 seconds on average, if you can
+>turn 4 turns per second, and if you can minimize time gaps between
+>algorithms. 
+
+Is there any chance of Jiri Fridrich posting these algorithms (or perhaps making
+them available via FTP)?
+
+Thanks in advance...
+
+Peter Foster
+
+_______________________________________________________________
+Peter Foster                    This sig is dedicated to all those who
+616-231-2245                   did not dedicate their sigs to themselves.
+pfoster@pcug.org.au
+
+
+

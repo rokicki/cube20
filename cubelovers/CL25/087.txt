@@ -1,0 +1,23 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jul 16 12:05:34 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id MAA29553; Thu, 16 Jul 1998 12:05:33 -0400 (EDT)
+Message-Id: <199807161605.MAA29553@mc.lcs.mit.edu>
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue Jul 14 13:46:15 1998
+Date: Tue, 14 Jul 1998 09:34:44 -0700 (PDT)
+From: Dan Hoey <Cube-Lovers-Requst@AI.MIT.Edu>
+Subject: Spammer says: Cubes for sale
+To: Cube-Lovers@AI.MIT.Edu
+
+I greatly regret allowing the advertisement from Eddy Liao entitled
+"cubes for sale".  Having just received his ad spammed in my personal
+mailbox, I must conclude he is an abuser of the network.  So if you
+buy anything from him, you're supporting network abuse, and for all I
+know he may steal your money as blithely as he steals the network's
+resources.
+
+Dan Hoey, Moderator
+Cube-Lovers-Request@AI.MIT.Edu
+

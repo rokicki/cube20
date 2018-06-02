@@ -1,0 +1,57 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov 24 21:00:19 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA05989; Mon, 24 Nov 1997 21:00:19 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Nov 24 19:45:36 1997
+To: Cube-Lovers@AI.MIT.Edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Rubiks Revenge moves
+Date: 25 Nov 1997 00:44:22 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <65d716$29p@gap.cco.caltech.edu>
+References: <cube-lovers.19971122224927.AAA7296@home.SOMEWHERE>
+
+roger.broadie@iclweb.com (Roger Broadie) writes:
+>Tenie Remmel <tenie1@juno.com> wrote (19 November 1997 )
+>> Is there an easy way to cycle three adjacent top edges on the
+>> Rubiks Revenge?  I can't find one shorter than 62 moves, but if
+>> there was a short one I could simplify my solution greatly.
+>>
+>> . b c .    . a b .
+>> a . . . => c . . .
+>> . . . .    . . . .
+>> . . . .    . . . .
+
+>Rather than just throw a few more solutions into the pot, I'd like to start
+>with some comments on the sort of process everyone, including me, seems to
+>use to deliver 3-cycles of edge pieces in the 4x4x4.  It is of the general
+>form
+
+>    [P, TQT']
+
+>where the square brackets are used to show a commutator, that is, [A,B]
+>means ABA'B'.
+
+>In this process P and Q are turns of layers that are parallel to one
+>another, and T is a turn of a layer transverse to P and Q.  
+
+Count me among the few "self-taught" solvers who don't actually
+use this, then.  The one I worked out for myself a long time ago
+turns out to be:
+
+[r, FUF']
+
+which is of a similar form, but P and Q are not parallel.
+
+As a consequence of this, the permutation is not "clean": i.e.,
+some other cubies get disturbed.  As these are all face cubies
+anyway, I just modified my solution so that I do the face cubies
+last.  :-)
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+"[Lucy's eyes] look like little round dots of India ink..." -- Charlie Brown
+

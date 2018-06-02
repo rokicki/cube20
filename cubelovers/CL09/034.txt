@@ -1,0 +1,93 @@
+From hoey@aic.nrl.navy.mil  Mon Aug  3 11:10:35 1992
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA00431; Mon, 3 Aug 92 11:10:35 EDT
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA22147; Mon, 3 Aug 92 11:10:30 EDT
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Mon, 3 Aug 92 11:10:29 EDT
+Date: Mon, 3 Aug 92 11:10:29 EDT
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9208031510.AA03178@sun13.aic.nrl.navy.mil>
+O: Mark Longridge <mark.longridge@canrem.com>
+Cc: Cube-lovers@life.ai.mit.edu
+Subject: Re: cube theory
+
+Dear Mark,
+
+I sent you email on 8 June.  Did you receive it?  Are you interested
+in acquiring a Tartan cube? Did you ever get Minh Thai's book on
+Rubik's Revenge?
+
+With respect to the 3x3x3 squares group,
+
+> How do you keep track of all the patterns without repeating yourself?
+
+there are several ways.  The most general is to use the Sims table
+(aka the FHL table) for the subgroup, which gives a mixed-base
+enumeration of the positions.  See my message of 1 February 1981.
+
+> A local maxima is a state where any possible move will bring you
+> closer to a solution.
+
+That's ``local maximum''.  ``Maxima'' is the plural of ``maximum''.
+
+> Note that all possible patterns at maximum depth are local
+> maxima, ....
+
+We call such positions ``global maxima'' because they are at the
+overall maximum depth.  The statement is then that every global
+maximum is a local maximum.
+
+> To date, no work has been done to determine the depth of the
+> dodecahedron (megaminx)....
+
+Well, I've done some looking at it.  Since my initial remarks on 23
+September 1982, I've figured out a way to generate a recurrence for
+it, but it seems I haven't put it down anywhere.  Are you interested?
+(Do I have to tell anyone to answer that question only to
+Hoey@AIC.NRL.Navy.Mil, not the list?)
+
+> What pattern is an example of local maxima? e.g. 3x3x3 at depth 3
+> -> 12-flip, 12-flip 8-twist
+
+Jim Saxe and I listed the 25 symmetric local maxima in our message on
+Symmetry and Local Maxima, dated 14 December 1980.  We verified Jim's
+conjecture that the four-spot is a local maximum, but not on the
+grounds of symmetry, and reported that on 22 March 1981.  Do you have
+access to the cube-lovers archives?
+
+> Moves Deep       arrangements (q+h)   arrangements (q only) *
+
+>   0                    1                   1
+>   1                   18                  12
+>   2                  243                 114
+>   3                3,240               1,068
+>   4            >  48,600              10,011
+
+This is in the archives, too
+
+    5                                   93,840 (22 March 1981)
+    6                                  878,880 (14 August 1981)
+    7                                8,221,632 (7 December 1981)
+
+David C. Plummer and I had hoped to use his program (which counted the 7
+QT positions) to extend this to 8 QT, but we got busy.  I still have
+hopes....
+
+> At 2 moves deep it is redundant to turn the same side again....
+> However, with opposite turns order is not significant, e.g. T,D = D,T....
+
+This approach appeared on 9 January 1981.  It showed how to follow the
+argument to 25 QT, and to get what are still the best known lower bounds
+for the ordinary cube and for the supergroup.
+
+> Also what is an example of a local maxima close to the surface, e.g.
+> 4 moves. I believe Jim Saxe and Dan Hoey have done some work in this
+> regard.
+
+It's known there are no local maxima at 7 QT or less.  The shortest
+known local maxima are Pons Asinorum and the four-spot, both at 12 QT.
+I know of no results between 8 and 11 QT.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

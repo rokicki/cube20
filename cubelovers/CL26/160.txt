@@ -1,0 +1,21 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar 15 15:58:49 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA28969
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 15 Mar 1999 15:58:49 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Fri, 12 Mar 1999 01:01:52 -0500
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199903120601.BAA15248@euclid.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re : Re: Edges only, Ignoring Flips, Face Turn Metric
+
+i guess i'm not sure what you're doing, jerry.  but i don't think
+it should be *that* difficult.  the number of configurations is
+12! = about 480 million.  if you divide out by symmetry, you get
+about 10 million configurations.  this should be small enough to
+store in memory and do a complete breadth-first search of the space.
+
+mike
+

@@ -1,0 +1,22 @@
+Date: 17 Feb 1981 16:12 PST
+From: McKeeman at PARC-MAXC
+Subject: Re: Rubik's Sphere
+In-reply-to: Mike's message of 17 Feb 1981 1445-PST (Tuesday)
+To: Mike at UCLA-SECURITY (Michael Urban)
+cc: cube-lovers at mit-mc (I wish Hofstadter were on the net)
+
+Mike,
+
+Are you proposing a truly continuous Rubik sphere with an infinite, nay
+uncountable, number of slicings with continuously varying hue to distinguish
+"slices"?
+
+Such cubes could differ in the "function" that connects the motion of
+"neighboring slices".  We could have linear, quadratic, and even
+hyperexponential axes of rotation.  Then giving the cube a spin about each of its
+(many) axes, we would have a continuously shifting pattern of color.  Maybe
+would should leak this idea to George Lucas for the visuals of StarWars III?  Or
+maybe one of the LISP machine folks can whip up a simulation overnite?
+
+Bill
+

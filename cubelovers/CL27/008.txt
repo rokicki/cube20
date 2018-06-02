@@ -1,0 +1,40 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar 29 14:18:29 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA20419
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 29 Mar 1999 14:18:29 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <36FEEE8F.CE5E8EBE@binghamton.edu>
+Date: Sun, 28 Mar 1999 22:07:59 -0500
+From: Mirek Goljan <bg22976@binghamton.edu>
+Organization: SUNY Binghamton
+To: sausage@zeta.org.au
+Cc: cube-lovers@ai.mit.edu
+Subject: Speed cubing
+
+Hello, Wayne and other speed cubists,
+    if you see about 15 year backwards you would realize that a few
+speed cubists have their average time below 20 sec and quite a lot of others
+below 25 sec.
+But you are interested in CURRENT Best Time and Average Time, I see.
+After a few weeks of practicing my times are:
+18 sec, 24 sec, (not bad after some years of 'abstinence' :-))
+My method is Jiri's.
+Beside that, I practice in solving the cube in minimum moves (face moves)
+for which I use slightly different method for first two layers:
+2x2 subcube first, 2x2x3 next, 2x3x3 - two layers and for the last layer
+I may or may not use some more moves than Jiri's method uses.
+My average number of moves is about 48 within 2 min restriction.
+
+    Mirek
+********************************
+Miroslav Goljan
+Watson School of Engineering and
+    Applied Science, Dept. of EE
+ State University of New York
+ PO BOX 00238
+ Binghamton, NY 13902-6000
+e-mail: bg22976@binghamton.edu
+********************************
+

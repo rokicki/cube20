@@ -1,0 +1,24 @@
+Date: 18 Jun 1981 2101-PDT
+From: Alan R. Katz <KATZ at USC-ISIF>
+Subject: My previous message
+To: cube-lovers at MIT-AI
+cc: katz at USC-ISIF
+
+I didn't quite get what I wanted.  I would like to interchange the
+RB and RD edges, the following does it:
+
+	RD'R'D  RD'D'R'D   R D'D'R'D  RD'R'
+This will mess up the bottom, but leaves the top and middle alone.  I 
+was wondering if there is a way to do it in less steps.
+
+
+Also,  there is a mini-cube on a keychain out, its called the mini-
+Wonderful puzzler.  The normal size Wonderful puzzler is a Rupic's
+cube of inferior quality;  I don't know who makes them, but they
+are not from Ideal.
+
+
+
+				Alan
+-------
+

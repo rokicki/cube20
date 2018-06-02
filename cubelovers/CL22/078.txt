@@ -1,0 +1,92 @@
+From cube-lovers-errors@oolong.camellia.org  Thu May 29 21:58:15 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id VAA20780; Thu, 29 May 1997 21:58:15 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Thu, 29 May 1997 17:24:45 -0700
+From: Richard E Korf <korf@cs.ucla.edu>
+Message-Id: <199705300024.RAA18247@denali.cs.ucla.edu>
+To: Cube-Lovers@ai.mit.edu
+Subject: Description of algorithm for finding minimal-move solutions to Rubik's Cube
+
+Dear Cube-Lovers,
+   Here is the promised short description of my algorithm for finding optimal
+solutions to Rubik's Cube.  I use the face-turn metric, meaning any twist of a
+face, even 180 degrees, counts as a single move.  A twist of a center slice
+can only be accomplished by two twists of the outside faces.
+   The algorithm is a heuristic search, called Iterative-Deepening-A*, or IDA*,
+for any artificial intelligence (AI) folks in the group.  Given a scrambled
+cube, it first looks for solutions one move long, then solutions two moves long,
+then three moves, etc.  Each iteration searches for solutions of successively
+greater length, until a solution is found.  At that point it quits, returning
+what must be an optimal solution, barring program bugs.  This is a completely
+brute-force approach to the problem.  At a million twists per second, searches
+to depth 10 would take almost 3 days.
+    To make this approach practical, we need a function that given a cube state
+will efficiently calculate a lower bound on the number of moves needed to solve
+it.  This is called a heuristic evaluation function.  For example, we can
+precompute the number of moves needed to solve each edge cubie individually from
+each possible position and orientation. Then given a state of the cube, we sum
+the number of moves needed to solve all 12 edge cubies individually, and divide
+by 4, since each move moves 4 edge cubies.  This heuristic, called 3D Manhattan
+Distance, has an average value of 5.5. The important thing is that this function
+always return a lower bound on the number of moves needed to solve a state.
+    During our search we compute the Manhattan Distance of each state.  If we
+are looking for solutions of length 10, for example, and we have a state that is
+5 moves from the initial state, and its Manhattan Distance from the solved state
+is 6 moves, we don't have to search that path any deeper, since it will take at
+least 11 moves to get to the goal along that path, since 6 is a lower bound on
+the number of moves needed to solve the state.  Adding the Manhattan Distance
+heuristic to our search algorithm lets us search to depth 14 in about 3 days.
+We could do the same thing with the corner cubies, and take the maximum of the
+two values, but that doesn't help much.
+    To do better, we need a more accurate heuristic function.  For that, we use
+an idea call "Pattern Databases" due to Culberson and Schaeffer. See Culberson,
+J.C., and J. Schaeffer, Searching with pattern databases, Proceedings of the
+11th Conference of the Canadian Society for the Computational Study of
+Intelligence, published in Advances in Artificial Intelligence, Gordon McCalla
+(Ed.), Springer Verlag, 1996.
+   For example, if we consider just the corner cubies, there are only about 88
+million possible states they could be in (8!x3^7). We exhaustively build and
+store a table, using breadth-first search, that tells us the minimum number of
+moves needed to solve just the corner cubies from every possible combination,
+ignoring the edge cubies.  This value ranges from 0 to 11 moves, averages 8.764
+moves, and requires only 4 bits per state. (We could reduce this further using
+an idea of Dan Hoey's published in this list awhile ago.)  This table only has
+to be computed once, taking about a half hour, and requires about 42 megabytes
+of memory to store (a megabyte is 1048576 bytes).
+    Then, during the search, we compute the heuristic lower bound on the number
+of moves to the goal by looking up the configuration of the corner cubies, and
+using the number of moves stored in the table. 8.764 is a lot better than 5.5.
+    Finally, we divide the edge cubies into two groups of six, and compute a
+similar table for each group.  There are too many combinations of all 12 edge
+cubies to build a single table.  The final heuristic function we use is the
+maximum of 3 different values, the moves needed to solve the corner cubies, and
+the moves needed to solve each group of six edge cubies. The total memory for
+all three tables is 82 megabytes.
+    Given more memory, we could built larger tables, for example, considering 7
+edge cubies at a time.  This would give a more accurate heuristic value, and
+reduce the running time of the search algorithm.  In fact, an informal analysis
+of the performance of the algorithm suggests that its speed will increase
+linearly with the amount of available memory.  Thus, given twice as much memory,
+the algorithm should run in roughly half the time.  Disks and other secondary
+storage are of no use, since the access time is much too slow to be worthwhile.
+   The current version of the program is written in C on a Sun Ultra-Sparc
+Model-1 workstation with 128 megabytes of memory.  It generates about 700,000
+states per second.  Depth 16 searches typically take less than 4 hours, depth 17
+searches take about 2 days, and complete depth 18 searches take about 27 days. A
+complete depth 19 search would take about a year.  Each depth takes roughly
+13.34847 times longer than the previous, which is the branching factor of the
+problem space.
+   The algorithm is easily parallelized. Given 18 processors, for example, we
+make all 18 possible first moves, and hand each of the resulting states to a
+different processor to solve. This will give roughly linear speedup with the
+number of processors, since the amount of time needed to search to the deeper
+levels is very consistent from one state to the next. 
+   Sorry for the length of this message, but I hope it will of interest to some
+of you. If you'd like the full paper, just send me a message. Thanks very much.
+                                  -rich
+
+
+
+

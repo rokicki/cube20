@@ -1,0 +1,22 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Feb 23 18:59:06 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA27870; Mon, 23 Feb 1998 18:59:05 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Feb 23 18:53:55 1998
+Date: Mon, 23 Feb 1998 15:53:21 -0800 (PST)
+Message-Id: <199802232353.PAA05251@denali.cs.ucla.edu>
+From: Richard E Korf <korf@cs.ucla.edu>
+To: jbryan@pstcc.cc.tn.us
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <Pine.WNT.3.96.980223104308.-220451A-100000@GN209A.PSTCC.CC.TN.US>
+	     (message from Jerry Bryan on Mon, 23 Feb 1998 10:59:54 -0500
+	     (Eastern Standard Time))
+Subject: Re: Strong Local Maxima 9f from Start
+
+The two 14f move isoglyphs reported by Jerry Bryan in his last message
+do indeed require 14f moves.
+
+                        -rich
+

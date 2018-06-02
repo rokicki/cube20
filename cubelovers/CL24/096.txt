@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Nov 20 13:16:42 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA19547; Thu, 20 Nov 1997 13:16:42 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Nov 19 09:32:05 1997
+Date: Wed, 19 Nov 1997 14:30:34 GMT
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: chrono@ibm.net
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009BD880.292EDB5C.279@ice.sbu.ac.uk>
+Subject: RE: Color schemes revisited
+
+	In 1979(?) when I had my company David Singmaster Ltd which dealt in
+Cubes and cube-related items, we had a tee-shirt designed showing a jumbled
+cube with the caption  Rubik's Cube Cures Sanity.  Only one person ever wrote
+in pointing out that the cube was impossible!  From the colouring of various
+visible pieces, one could tell that the white face was adjacent to all five
+other colours!!
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

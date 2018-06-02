@@ -1,0 +1,20 @@
+From: Dale Newfield <din5w@cs.virginia.edu>
+Reply-To: DNewfield@cs.virginia.edu
+To: Cube List <Cube-Lovers@ai.mit.edu>
+Subject: Re: Identify this puzzle please!
+In-Reply-To: <32A761C9.72AD@host1.dia.net>
+Message-Id: <Pine.SUN.3.90.961205192726.27532O-100000@dot.cs.Virginia.EDU>
+
+
+I have at least two of these.  There are semantically equivalent to a 
+cube.  I would call them "Truncated cubes" or "truncated hexahedra".  I'm 
+not sure what their marketing name was.
+
+-Dale Newfield
+ DNewfield@Virginia.edu
+
+------------------------------
+
+Message-Id: <2.2.32.19961206010234.006a133c@uclink4.berkeley.edu>
+Date: Thu, 05 Dec 1996 17:02:34 -0800
+To: Cube-Lovers@ai.mit.edu

@@ -1,0 +1,18 @@
+Received: from MC.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 2 AUG 86  16:12:56 EDT
+Received: from ICSE.UCI.EDU by MC.LCS.MIT.EDU  2 Aug 86 16:14:39 EDT
+Received: from localhost by ICSE.UCI.EDU id a014758; 2 Aug 86 11:05 PDT
+To: cube-lovers@mc.lcs.mit.edu
+Subject: 5x5x5
+Date: Sat, 02 Aug 86 11:05:08 -0800
+From: Mark Wadsworth <mw@ICSE.UCI.EDU>
+
+On July 15 I sent a check for $20 to Christoph Bandelow in Germany, and I got 
+my cube sometime last week.  He also sent me a letter in which he says,
+    I shall be at the International Congress of Mathematicians at
+    Berkeley this August 2 - 10 with most of my "cubes". After the
+    congress and some travelling time, that is in September, I will
+    send you my then updated catalogue - but I hope I can sell the
+    complete rest in Berkeley.
+If you happen to be around Berkeley this week, it might be worth checking out.
+If he sends a catalog with anything in it, I will post info.
+

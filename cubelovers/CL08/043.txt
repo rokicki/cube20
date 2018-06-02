@@ -1,0 +1,25 @@
+From wft@math.canterbury.ac.nz  Wed Apr 15 01:19:50 1992
+Return-Path: <wft@math.canterbury.ac.nz>
+Received: from CANTVA.CANTERBURY.AC.NZ by life.ai.mit.edu (4.1/AI-4.10) id AA22905; Wed, 15 Apr 92 01:19:50 EDT
+Received: from math.canterbury.ac.nz by csc.canterbury.ac.nz (PMDF #12052) id
+ <01GIVU9X7N1CD7PYTP@csc.canterbury.ac.nz>; Wed, 15 Apr 1992 17:19 +1200
+Received: by math.canterbury.ac.nz (4.1/SMI-4.1) id AA13903; Wed,
+ 15 Apr 92 17:19:18 NZS
+Date: Wed, 15 Apr 92 17:19:18 NZS
+From: wft@math.canterbury.ac.nz (Bill Taylor)
+Subject: God's algorithm
+To: Cube-Lovers@ai.mit.edu
+Message-Id: <9204150519.AA13903@math.canterbury.ac.nz>
+X-Envelope-To: Cube-Lovers@AI.MIT.EDU
+
+In rec.puzzles,  sijben@cs.utwente.nl (Paul Sijben) writes:
+
+> As far a I know is the maximum number of moves requierd to solve The
+> Cube is just over 30 (35 by the last count a year ago, and decending).
+> Someone in the NKC (Nederlandse Kubus Club= dutch cube club) was busy
+> working on a system hoping to reach god's algorythm. I can dig in my
+> archives if anyone want more precice infomation.
+
+Has anyone else heard anything of this business ?
+
+

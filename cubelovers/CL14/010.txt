@@ -1,0 +1,69 @@
+From mreid@ptc.com  Fri Dec 16 17:24:16 1994
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07150; Fri, 16 Dec 94 17:24:16 EST
+Received: from ducie.ptc.com by ptc.com (5.0/SMI-SVR4-NN)
+	id AA08915; Fri, 16 Dec 94 17:22:51 EST
+Received: by ducie.ptc.com (1.38.193.4/sendmail.28-May-87)
+	id AA27627; Fri, 16 Dec 1994 17:33:48 -0500
+Date: Fri, 16 Dec 1994 17:33:48 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9412162233.AA27627@ducie.ptc.com>
+To: cube-lovers%life.ai.mit.edu@ptc.com
+Subject: Re: Cyclic Decomposition
+Content-Length: 2380
+
+tim writes
+
+> If a certain state (such as the 12 flip) is known to be reachable
+> in no more than 20 moves, then isn't that state within reach of
+> a brute force search?  Start one brute force at the initial state,
+> one at the final state, expand the position trees one move at a time
+> until the trees touch.  A state 20 moves from start will require a
+> tree (well, two trees) 10 moves deep, which is about 10 billion states.
+
+unfortunately, this estimate is too optimistic.  the number of positions
+within 10 face turns of start is more like  2.6 x 10^11.
+
+[ keep in mind that while "billion" means  10^9  in the u.s., it may
+  mean  10^12  elsewhere. ]
+
+> That seems achievable in a reasonable time on fast computers of today.
+> Doesn't it?
+
+i don't know, but it would be nice if it were possible.
+
+i recall that dik winter was doing some work on this front, although i
+think he was working on "superfliptwist".  also, he was using kociemba's
+algorithm (first stage only).  my impression was that this would take
+too long.  (any results here, dik?)
+
+however, there's a method similar to the one tim mentions that hasn't
+received much attention here.  i don't have all the details handy, but
+here's a sketch:
+
+the idea is to start with a list of permutations  L  and to
+generate (on the fly!) all products  p1 p2  (with  p1, p2  in the list  L)
+in (lexicographically) increasing order.  this means that while the list
+itself is stored in memory, the list of products (denoted  L L) need
+not be.  also, the technique for doing this (which i don't remember
+offhand) is easily adapted to generate all products  q p1 p2  where
+q  is a fixed permutation and  p1 p2  are in the list L  (q L L), again
+in (lexicographically) increasing order, and again, on the fly.
+
+now let  L  be the list of all configurations  within 5 face turns of
+start, and let  q  be "superflip" or "superfliptwist".  now simultaneously
+generate the products  L L  and  q L L  in increasing order, and look for
+common configurations.  a common configuration gives
+
+           p1 p2  =  q p3 p4   ==>  q  =  p1 p2 p4^-1 p3^-1
+
+which gives a manuever of (at most) 20 face turns for  q.
+
+of course, this technique can be used for quarter turns as well.
+
+i don't know much about the practicality of implementing this algorithm,
+but i'd be happy to hear from anyone who's done it, or even thought
+about it.
+
+mike
+

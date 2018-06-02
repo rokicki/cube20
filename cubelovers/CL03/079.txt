@@ -1,0 +1,32 @@
+EH@MIT-AI 12/06/81 16:34:03 Re: Sticky Cubes...
+To: Cube-Lovers at MIT-MC
+CC: ELF at MIT-AI
+From: "You can do THE CUBE" by Patrick Bossert / published by Puffin.
+
+To loosen up the cube if it's sticky to turn, turn the top slice 45 degs
+and insert a screwdriver under one of the edge pieces (the one in the 
+middle) ....
+
+(1) [] [] [] <- turn this slice 45 deg
+    [] [] []
+    [] [] []
+
+(2) [] [] []
+       ^ insert a screwdriver blade under that part and lift up until
+it pops out.
+
+(3) Then you can remove the two corner pices. Looking inside, you
+can see the + shape of the cube mechanism. Put a BLOB of vaseline
+inside.
+
+(4) put the corner pieces back and the middle piece too. MAKE SURE
+you get them in exactly as they were before you opened them up.
+Otherwise,you WILL NOT be able to solve the cube!!
+
+	Hope this helps,
+	Edward
+
+ps: PLEASE feel free to write to me if you're confused as this
+is the best I can do without graphics.... (use graphics to
+show but you can't here)
+

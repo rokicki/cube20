@@ -1,0 +1,15 @@
+Date: 9 December 1981 19:23-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Luks
+To: CUBE-LOVERS at MIT-MC
+
+I don't know any more about this, but it sounds like it might be
+interesting to some of us cube group hackers:
+
+    MSG: SEMINA 3     
+    DISTRIB:  *DM, *MC, *ML, *AI
+    EXPIRES: 12/17/81 16:21:19
+    BJ@MIT-ML 12/09/81 16:21:19 Re: Luks
+    Gene Luks from the Mathematics Department at Bucknell University will 
+    give a talk on Tuesday, December 15 at 4:00 (refreshments at 3:45) in 
+    room NE43-512A.  The talk is "ALGORITHMS FOR PERMUTATION GROUPS."

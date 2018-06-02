@@ -1,0 +1,23 @@
+Date: 15 JUL 1980 2158-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+To: CMB at MIT-ML
+CC: CUBE-HACKERS at MIT-MC
+
+The last two transforms you describe sound similar to the two I
+learned.  Mine are also rather repititous.  Perhaps it is the case
+that the two configurations are very distant using the obvious metric:
+smallest number of twists from one to the other.
+
+I wonder if anyone knows very much about the nature of that metric
+anyway?  I understand that it is known that no two points are more
+than 94 (or is it 93?) twists apart (disregarding the extended
+problem).  I don't know if that number is actually attained, or if it
+is only the currently known upper bound based on the best algorithm.
+(Or perhaps there isn't an algorithm that good yet, just a proof of
+the fact.)
+
+I believe that you and ACW and I once did the math to show that
+whatever that longest distance is, it has to be greater than something
+around 30, and for the extended cube problem it must be even bigger
+than that, so since I can do the transformations you speek of in about
+28 (I think) moves, those must not be most distant points.

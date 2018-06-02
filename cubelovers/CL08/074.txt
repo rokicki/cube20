@@ -1,0 +1,43 @@
+From dik@cwi.nl  Wed May 20 17:14:12 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA00649; Wed, 20 May 92 17:14:12 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA10861 (5.65b/2.10/CWI-Amsterdam); Wed, 20 May 1992 23:13:12 +0200
+Received: by boring.cwi.nl 
+	id AA02174 (5.65b/2.10/CWI-Amsterdam); Wed, 20 May 1992 23:13:11 +0200
+Date: Wed, 20 May 1992 23:13:11 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205202113.AA02174.dik@boring.cwi.nl>
+To: cube-lovers@ai.mit.edu, reid@math.berkeley.edu
+Subject: Re:  assorted results
+
+ > >                                             Currently I am calculating the
+ > > maximal distance in stage 1.  It will take a bit of time because I have to
+ > > consider 2,217,093,120 possibilities.  But I think that the method I have
+ > > is feasible.
+
+ > how much time do you anticipate the job will take?
+A few days.  I started yesterday night at 2:30 AM, it is now 11:05 PM.  I have
+calculated the distances for approximately 145 million configurations.  The
+majority of the work has been done sinc 6:00 PM.  (I am using 39 SGI Indigo's,
+1 Large SGI, 2 processors of an SGI file server and the scalar (SPARC)
+processor of an FPS, so it is lots of computer time!)
+ >                                                     it seems that we'd
+ > get a much better improvement (of kloosterman's bound) by calculating
+ > the maximal distance in stage 2.  of course, this requires going through
+ > 19,508,428,800 possibilities (nearly 9 times as many).  is this feasible?
+Right.  But is not feasible, at least I do not see possibilities at this
+moment.  My estimate is that it would take much more than 9 times as much.
+The reason is that the algorithm as I have organized it allows a lot of
+shortcuts.  What I do is in the space of order 2048 * 2187 * 495 assign to
+each processor in turn a slice of the 2048 dimension.  Within that slice,
+going from 0 moves until every configuration has been assigned a distance,
+a path is searched for the given distance.  The major shortcut comes when
+a path is found.  Using configurations with known distance, U, D, L and R
+turns are applied and also F2 and L2 turns to calculate new distances.
+For those moves the flip does not change.  This makes that I have to search
+paths for only about 10% of the cases.  I see no way (yet) to do similar
+things for phase 2.
+
+dik
+

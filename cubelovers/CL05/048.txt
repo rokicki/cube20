@@ -1,0 +1,10 @@
+Date: 29 February 1984 23:08-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  [CL.BOYER: A Programming Language for Group Theory (Dept. of Math)]
+To: CUBE-LOVERS @ MIT-MC
+
+Some of the group theory hackers amoung us might be interested in this
+abstract.  Of course the talk has already happened, but perhaps one of you
+knows more about this?
+
+Date: Sun 26 Feb 84 17:06:23-CST

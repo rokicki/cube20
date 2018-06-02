@@ -1,0 +1,71 @@
+From: McKeeman at PARC-MAXC
+Subject: Re: nomenclature
+In-reply-to: DDYER's message of 9 Jan 1981 1648-PST
+To: Dave Dyer <DDYER at USC-ISIB>, VaughanW.REFLECS at HI-Multics (Bill
+ Vaughan)
+cc: cube-lovers at MIT-MC
+
+I agree there are two problems:
+  1.  Neat "programs" that allow the recording and carrying out of manipulations.
+  2.  Neat "configurations" that allow the recording of the results of carrying out
+manipulations.
+In both cases uniqueness, transparanecy, conciseness and all other notational
+goodies are appropriate.
+
+Generalizing a bit on Dave's suggestion, how about:
+
+Manipulation = Macro*
+Macro = MacroName "=" Move*
+Move = Move "*" Integer                  -- power
+        | Move '                              -- inverse
+        | Move / Move                      -- conjugate
+        | MacroName
+        | Face (Near (Middle Far?)?)?      -- hand moves
+        | "(" Move* ")"                       -- parenthesization
+Face = F | U | R
+Near = Middle = Far = 0 | 1 | 2 | 3
+
+with considerate use of spaces and carriage control.  Face signifies "temporarily
+move that face into the right hand, do the moves, then move it back where it
+came from".  For compatibility, the digits count QTW clockwise (away).
+
+The FLUBRD equivalences are:
+
+R=R=R1=R10=R100
+RR = R*2
+RRR = R*3 = R'
+L=R003
+U=U
+D=U003
+F=F
+B=F003
+Slice=R01
+AntiSlice=R103
+I=F111
+J=R111
+X Y X' = Y/X
+
+Note this has some chance of generalizing to other slice puzzles.  (E.g. 4x4x4)   It
+also subsumes FLUBRD with a few appropriate Macro definitions like those
+above.
+
+------
+
+For configurations the problem can be attacked by specifying which cubies go to
+which cubies.  Singmaster does some of this.  The problem is to find a way to
+specify patterns of change without just listing all the changes.  There are
+positional change, flipping and rotating to be accounted for.
+
+For instance, we would like to say (in some much neater way)
+
+EdgeFlip = For all X and Y in FLUBRD, edge XY goes to edge YX.
+The corners each take one step on a Hamilton path.
+Each corner is rotated 120o.
+Each center exchanges with its opposit.
+Each edge XY goes to UV where U is the opposit of X and V is the opposit of Y.
+Etcetera, etcetera, etc.
+
+
+BFUDRLy yours,
+
+Bill

@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov  3 19:04:36 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id TAA02443; Mon, 3 Nov 1997 19:04:34 -0500 (EST)
+Message-Id: <199711040004.TAA02443@mc.lcs.mit.edu>
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 3 Nov 1997 13:48:19 -0700 (MST)
+From: cube-lovers-request@ai.mit.edu
+To: cube-lovers@ai.mit.edu
+Reply-To: Paul Hart <hart@iserver.com>
+Subject: Auction on Rubik's Revenge (4x4x4) cubes
+
+Paul Hart <hart@iserver.com> has announced he has 6 unopened Rubik's
+Revenge cubes for sale to the highest bidder.  The Cube-lovers list
+will not include details of the offer; I am passing this information
+on only because a number of persons on this list have asked about
+finding Rubik's Revenge cubes, apparently without success.  Contact
+hart@iserver.com for any further information.  As always, beware of
+fraud.
+
+                Dan Hoey, Interim moderator
+                Cube-Lovers-Request@AI.MIT.Edu
+

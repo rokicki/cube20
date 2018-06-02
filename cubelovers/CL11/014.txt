@@ -1,0 +1,123 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Wed Dec  8 14:42:11 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA19673; Wed, 8 Dec 93 14:42:11 EST
+Message-Id: <9312081942.AA19673@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 5941; Wed, 08 Dec 93 14:11:24 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 1649; Wed, 8 Dec 1993 14:11:24 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 9868; Wed, 8 Dec 1993 14:08:47 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Wed, 8 Dec 1993 14:08:15 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   1152-fold Symmetry and 24-fold Symmetry
+
+I guess it's time to try to explain what I mean by 1152-fold symmetry
+and 24-fold symmetry.
+
+Let me start with two or three very simple ideas.  First, consider
+two equally colored and oriented cubes at Start.  To one of them,
+apply F, and to the other one apply R.  The obvious solution to the
+first one is then F' and the obvious solution to the second on is
+then R'.  But take both cubes and toss them through the
+air to someone else, so that the spatial orientation is lost.
+Almost anyone would solve either cube by finding the one face that
+was twisted clockwise and simply twisting it counter-clockwise.
+No distinction between F and R would be made, and it would be
+"obvious" to any reasonable person that the cubes were equivalent.
+
+As a slightly more formal application of this idea, consider again
+Start to which R has been applied.  We could rotate the whole
+cube in space using Singmaster's script-U operation.  That is, grasp
+the Up (top) of the cube and turn the whole cube in space clockwise.
+Now, the cube looks like F has been applied rather than R, and the
+solution looks like F' rather than R'.  If we applied F', the cube
+would be solved, but the colors would be oriented wrong.  We could
+restore the colors by script-U'.  Thus, (script-U F' script U') is
+exactly the same thing as R' (we are just using conjugates in a
+very simple way).
+
+Continuing in this vein, take any two equally colored and oriented
+cubes at Start.  To one of them, apply some long sequence of
+permutations P.  To the second one, apply (script-U P script-U').
+At this point, the two cubes are definitely not "equal" in some
+sense  -- you could clearly tell them apart.  Yet, they are
+clearly "equivalent" in some sense, because if P' is a solution to
+the first cube, then (script-U P' script-U') is a solution to the
+second one.  Furthermore, it should be obvious that it is not really
+necessary to use the (script-U script-U') conjugate on the second
+cube.  Rather we can think of some rotation as having been performed
+on P to give Q, and then of Q as having been performed on Start, so
+that the same rotation that was applied to P could be applied to P'
+to give Q', and Q' is equivalent to (script-U P' script-U').
+
+If I can wax sophomorically philosophical for a minute, I tend to
+think of there being two kinds of permutations in mathematics.
+The first is the "permutations and combinations" kind of thing you
+run into in probability and statistics.  The second is the permutation
+operator kind of thing you run into in abstract algebra or group
+theory.  With this kind of thinking, the cube itself represents the
+first kind of permutation, where the cube is an object being operated
+on, and the twists of the cube are the second kind of permutation,
+where the twists are permutation operators and are doing the operating.
+Well, at some deep level, the two kinds of permutations are very much
+the same thing, so it is very natural to think of operating on
+(rotating, in this particular case) a permutation P, where P itself
+is an operator.
+
+I need one more simple idea.  Again, think of a cube in Start, and
+think of Singmaster's script-U operator.  We can (informally) write
+script-U = (Front --> Left --> Back --> Right --> Front).  But suppose
+the cube is colored as Font=Red, Left=White, Back=Orange, Right=Blue).
+We could just as well write script-U = (Red --> White --> Orange
+--> Blue --> Red).  It looks as if for any fixed coloring, we can
+freely interchange Singmaster's notation with a notation based on
+colors.  But we can't really.  For example, colored as I described it
+above, script-F is equivalent to script-Red.  Either is the same as
+grasping the front of the cube and rotating the whole cube clockwise.
+But first perform script-U.  Now, script-F is the same as
+script-Blue).  The Front/Back/Up/Down/Left/Right notation is fixed in
+space, but the color notation is not.
+
+Now, we try to put all this together.  Once again, consider two
+equally colored and equally oriented cubes in space, and apply F
+to the first one and (R script-U) to the second one.  Both
+cubes can now be described as "Start with the front twisted clockwise
+by 90 degrees), but the colors are not the same.  They are clearly
+equivalent, but under my internal computer model for the cube, they
+are not equal.  Furthermore, no amount of additional application of
+Singmaster's whole cube "script" operators will make them equal.
+The only thing that will make them equal will be to rotate the colors.
+
+The exact same thing applies to reflections.  Consider two equally
+colored and oriented cubes in Start, and apply F to one and F' to
+the other.  The cubes are equivalent but not equal.  Hold up the
+cube to which F' has been applied to a mirror.  The mirror-image
+now has F applied instead of F', but the colors are wrong (they
+have been reflected).  To make the cubes equal, it is necessary to
+reflect the colors of the mirror-image.
+
+Hence, my program generates equivalence classes by applying
+a cube rotation, a color rotation, a cube reflection, and a color
+reflection.  There are 24 cube rotations and 24 color rotations
+(one of each is the identity), and any cube rotation can occur with
+any color rotation.  There are 2 cube reflections and 2 color
+reflections (one each is the identity), but the cube reflection
+identity must occur with the color reflection identity and vice
+versa.  Thus, there are (in general) 24x24x2 elements in each
+equivalence class.  I only store one element of each equivalence
+class in my data base.  Some of the equivalence classes have fewer
+than 24x24x2 elements, namely those for which the cube configuration
+inherently has a high degree of symmetry.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

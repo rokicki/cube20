@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr 15 20:25:17 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA00392
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 15 Apr 1999 20:25:16 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199904151407.KAA00624@livia.East.Sun.COM>
+Date: Thu, 15 Apr 1999 10:07:53 -0400 (EDT)
+From: Guy Steele - Sun Microsystems Labs <gls@livia.East.Sun.COM>
+Reply-To: Guy Steele - Sun Microsystems Labs <gls@livia.East.Sun.COM>
+Subject: Winning Ways
+To: cube-lovers@ai.mit.edu
+Cc: Guy.Steele@east.sun.com
+
+
+   Date: Tue, 13 Apr 1999 16:46:33 +0100
+   From: David Singmaster Computing <david.singmaster@sbu.ac.uk>
+   ...
+   [Moderator's note:  I couldn't help myself:
+     [ Picture ]
+   I think something like this appears in Winning Ways, too. --Dan ]
+
+I just checked my copy; it does not contain this sort of
+diagram for the cube, at least on the pages cited in the index
+for "Rubik's Cube", but it does have some very nice isometric
+3-D "cutaway/see-through" diagrams of the cube.
+
+--Guy
+

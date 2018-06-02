@@ -1,0 +1,58 @@
+Date: 24 Feb 1983 0618-PST
+From: JAY <JAY@USC-ECLB>
+Subject: NxNxN: Finite N
+To: cube-lovers@MIT-MC
+
+I have a program, not finished, which allows manipulation of a NxNxN
+(N^3) cube.  Presently it WILL manipulate any NxNxN cube (i tried up
+to 23) but it has a VERRY BAD user interface.  I plan to improve the
+interface in the near future (this morning?)  I hope to be able to
+parse the Cube-Talk mentoined in the first message in the archive
+alan;cube mail1 (or 2?), or a super-set of it (like being able to save
+cube's on disk, save move seq's (macros), defining macros with
+parameters, and make logfiles of especialy hairy session).  As for
+output... For small cubes (up to 8^3) i can use the normal air-plane
+pattern of display, for medium cubes (8^3 <= size <= 12^3) i can put it
+all on the normal terminal, but for larger cubes (24^3 >= cube >=
+12^3) all i can do is display a face, or maybe two.
+
+[Implementation]
+
+ I am interested in a, WORKING, N^3 simulator, not speed or space.  As
+a result my representation of the cube is loosing on both counts.
+(yes it realy is a NxNxN array of cubes (a record of six integers!))
+It is written in CLU for TOPS-20 os. 
+
+However my rep. brought up an interesting super-groop, immagin a cube
+realy made of N^3 cubies.  Each of these cubies would be a 'Miniature'
+N^3 in color scheme.  Now this new device (a 'compleatly colored'
+cube) is solved only when ALL cubies are oriented correctly (ie. all
+have red up and blue forward), and positioned correctly.  In the 3^3
+we would not only have to solve the centres, but also the imaginary
+inside cubie (is it ever un-solved?)
+
+[Questions]
+  What do you (readers) think is a good display scheme for a N^3,
+remember it should be useable on a 24x80 h19?  Is a N^3 simulator even
+interesting?  What sort of speed improvement could be gained from a
+comp-cube? with or without macros?
+
+  Is the 'compleatly colored' cube interesting?  For what sizes is it
+similar to the 'partialy colored' (normal) cube (1^3 and 2^3 for
+sure...)?  Could the solution of compleat-5^3 be a solution of the
+outer shell, and the inner 3^3?
+
+  Is a simulation of a 'compleatly colored' cube interesting?  How
+would one view the manny inside faces?
+
+  What other reps for the cube are there? (other than the obvious two;
+an array of color tabs, or a 3d array of cubies..)  Which reps
+optimize storage, time, or simplicity to compute a twist, or even ease
+of compairison?   Just occured to me that each cubie could be rep'd as
+a number twixt 1 and 24 (as a cube has only 24 orientations).  This
+optimization would reduce storage by a factor of 6 (not too bad!)
+
+enough.....  enough.....
+
+j'  <jay@eclc>
+-------

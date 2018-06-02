@@ -1,0 +1,59 @@
+From BRYAN@wvnvm.wvnet.edu  Sun Aug 21 09:57:44 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05642; Sun, 21 Aug 94 09:57:44 EDT
+Message-Id: <9408211357.AA05642@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 1055; Sun, 21 Aug 94 08:58:31 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5634; Sun, 21 Aug 1994 08:58:31 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sun, 21 Aug 1994 08:58:30 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Analysis of Turns Towards Start for Whole Cube
+
+The following chart for level 0 through level 8 of the whole
+cube using Q-turns gives the number of Q-turns for each cube which will
+move towards Start.  (I recently gave the same analysis for corners only.)
+
+Columns 9 through 12 are omitted from the chart since they contain
+all zeros.  Any local maxima would appear in column 12.
+
+This adds one new level known not to contain any local maxima.  It would
+be extremely interesting to be able to extend the chart at least to
+level 12 because level 12 is known to include a local maximum.
+
+As with the corners-only case, the chart contains almost all even numbers.
+However, unlike the corners-only case, the numbers do not cluster in
+the even columns.  Rather, they cluster towards column 1.  This means that
+(close to Start, at least) most cubes have only one "good" move that
+takes you closer to Start.  It also serves to illustrate why "random"
+moves so quickly scramble the cube.
+
+                           Number of Q-turns which Move
+                                Closer to Start
+
+     Level  Total  0         1         2      3      4   5    6   7   8
+            Cubes
+
+       0        1  1         0         0      0      0   0    0   0   0
+       1       12  0        12         0      0      0   0    0   0   0
+       2      114  0        96        18      0      0   0    0   0   0
+       3     1068  0       912       144     12      0   0    0   0   0
+       4    10011  0      8544      1368     96      3   0    0   0   0
+       5    93840  0     80088     12816    912     24   0    0   0   0
+       6   878880  0    749376    120612   8640    252   0    0   0   0
+       7  8221632  0   7001712   1135104  82152   2664   0    0   0   0
+       8 76843595  0  65391504  10645824 777936  28200  48   56   0  27
+
+  Total  86049153  1  73232244  11915886 869748  31143  48   56   0  27
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

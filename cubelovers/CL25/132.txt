@@ -1,0 +1,43 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Sep  9 17:32:25 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id RAA00879; Wed, 9 Sep 1998 17:32:24 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 9 Sep 1998 14:59:27 -0400
+Message-Id: <002BFC91.001706@scudder.com>
+From: Jacob_Davenport@scudder.com (Jacob Davenport)
+Subject: Re: Rubik's cube kingdom
+To: cube-lovers@ai.mit.edu
+
+While it is true that most of the cube art on our web pages 
+(http://www.wunderland.com/WTS/Jake/CubeArt) is two dimensional and 
+therefore pretty easy to make, I have made a few designs that were bloody 
+difficult.  I'm rather proud of writing "WTS" on both sides of a hundred 
+some cubes.  I'm particularly happy with the chessboard made of four 5x5x5 
+cubes with a symmetrical design on the sides.  Some of my failed 
+experiments were still tough to make, even if they didn't look very good.  
+If anyone has any good 3d design suggestions, I'd like to hear them.
+
+Hana, here is my favorite pattern for a single 3x3x3 cube.  There is no 
+easy set of twists from solved to this pattern.  I had fun doing this 
+pattern on a 5x5x5 cube, and you should be able to create an analogous 
+pattern with all of your cubes:
+
+   -------
+  |\ * * *\ 
+  | \ o o *\
+  |x \ x o *\
+  | * \------     
+  |x o|* x o|
+  | * |     |
+  |x *|x x o|
+   \x |     |
+    \x|o o o|
+     \|------
+              
+The same pattern should be on the other three faces with the other three 
+colors.  My ASCII art isn't the greatest but I hope this is clear enough.
+
+-Jacob
+

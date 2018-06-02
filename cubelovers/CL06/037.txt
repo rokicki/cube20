@@ -1,0 +1,41 @@
+Received: from ucbvax.Berkeley.EDU (TCP 1200400116) by AI.AI.MIT.EDU 19 Jun 87 06:04:21 EDT
+Received: by ucbvax.Berkeley.EDU (5.57/1.26)
+	id AA19730; Fri, 19 Jun 87 02:45:30 PDT
+Received: from USENET by ucbvax.Berkeley.EDU with netnews
+	for cube-lovers@ai.ai.mit.edu (cube-lovers@ai.ai.mit.edu)
+	(contact usenet@ucbvax.Berkeley.EDU if you have questions)
+Date: 18 Jun 87 22:45:19 GMT
+From: tektronix!tekgen!tektools!gvgpsa!friday!kirkg@ucbvax.Berkeley.EDU  (Kirk M Gramcko)
+Organization: Grass Valley Group Professional Video Div, Grass Valley
+Subject: Re: Give or Take
+Message-Id: <120@friday.UUCP>
+References: <148@altura.srcsip.UUCP>
+Sender: cube-lovers-request@ai.ai.mit.edu
+To: cube-lovers@ai.ai.mit.edu
+
+In article <148@altura.srcsip.UUCP> notch@srcsip.UUCP (Michael k Notch) writes:
+>
+>Have I got an interesting puzzle to at least look at:
+>           GIVE or TAKE
+>You can take 45 from 45 and have
+>a remainder of 45. A trick, yes, but it
+>can be done.
+>There is an obvious answer - You take 45 eggs from 45 chickens and you still
+>                             have 45 chickens left.
+>Can you find the other answer?
+
+I have to disagree with your obvious answer for 2 reasons.
+
+	1.  Using that kind of logic there are innumerable answers such as:
+
+	You take 45 donuts from 45 bakers and you still have 45 bakers!
+
+	2.  Your answer is not correct if you consider eggs to be chickens in
+their primary stage of development.  Then you really have 90 chickens!!
+
+
+Here is another puzzle to solve (perhaps a bit too easy):
+
+	How can the following equation be correct?
+
+	80 - 50 = 0

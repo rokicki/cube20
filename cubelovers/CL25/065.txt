@@ -1,0 +1,105 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue May 12 17:33:46 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id RAA06959; Tue, 12 May 1998 17:33:46 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue May 12 14:24:43 1998
+Message-Id: <35576405.5EC25A05@frontiernet.net>
+Date: Mon, 11 May 1998 16:48:05 -0400
+From: John Bailey <jmb184@frontiernet.net>
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Solving a 4 Dimensional Rubik's type Cube
+
+Announcing a web page at
+http://www.frontiernet.net/~jmb184/solution.html which gives the
+explicit steps to solve a challenge configuration for a 2x2x2x2 (that's
+four dimensions) Rubik type cube.
+
+The challenge configuration is available at
+http://www.frontiernet.net/~jmb184/Nteract4.html.
+These pages do NOT require a Java enabled browser however, they do
+require Netscape 4.0 or Microsoft Explorer 4.0.
+
+This note is to solicit your judgments regarding the difficulty of the 4
+Dimensional Rubik with no edge cubes (2x2x2x2.)  I believe it is
+relatively easy, provided only that the simulation provides for the
+cyclic permutation move, (NE-->SW, SW-->NW, NW--->NE)
+
+Background:
+Posted on rec.puzzles dl April 21, 1998:
+
+A four dimensional articulated cube is on the web at
+http://www.frontiernet.net/~jmb184/4cube.html
+
+The result of marrying a Rubik's cube with a tesseract, this cube is
+2x2x2x2. It has 16 corners and 24 faces.  It does not have edge cubes
+and the corners have no orientation requirement.  Only 4 colors are
+used. The solution space is thus roughly equivalent to that of a 3x3x3
+Rubik if not smaller.  It is rendered in Javascript and will run on
+Netscape 3.0 and 4.0
+
+This posting caused about 25 hits to the page, but got no follow-up
+dialog on the rec.puzzles news dl.
+
+Note that in this first version, the corners are only identified by
+color, not by correct position.
+
+I wrote the page without having a clue as to how to solve it.  In the
+process of just testing code I discovered that it is remarkably
+unchallenging, once you get a sense of which corners the various
+buttons rotate. (Flipping a glove from left-handed to right-handed can
+be done in 4-space, but is impossible in 3-space.)  I may not be an
+unprejudiced solver, but I would rate the challenge only slightly
+harder than a 15 square slider puzzle. To increase the level of
+difficulty, a second version of the puzzle was developed.  In this
+version, the solution requires that the corners are returned to their
+correct location.  They still do not requires 4-space orientation.
+This version was announced in the following posting.
+
+
+Posted on the rec.puzzles dl May 2, 1998:
+A Four dimensional Rubik's Cube with solution.
+At http://www.frontiernet.net/~jmb184/Nteract4.html
+
+Re-designed to allow importing of 3D Rubik methods, this version uses
+(a slightly extended version of)  standard Rubik cube naming of moves
+and positions, has a shortcut button for one of the common permutation
+moves and a scramble button to provide a challenge position.
+I rate the challenge as equivalent to solving two faces of a 3D Rubik
+cube.  I am looking forward to your comments, opinions,  and
+suggestions.  I am especially interested in positions which cannot be
+solved  or cannot be solved without extensive permutation moves other
+than the one included.
+
+This page has received about 50 hits.  But again, there was no
+responding dialog on rec.puzzles news dl.
+
+The difficulty of the second version is higher, but I rated the
+challenge as equivalent to solving two layers of a 3x3x3 cube. The only
+obstacle, an ordinary solver might face,  is finding the longish
+sequence required to permutate 3 of 4 corners.  That's why I provided
+the shortcut button (which applies the actions: L'URU'R'LRUR'U' with one
+click.)
+
+Discussion:
+My concern is that people assume the puzzle is really hard and not worth
+the effort.  It  may be seen as somewhat like the sequences from one
+time pads which would be cryptographers who post and ask if anyone can
+decrypt them.  To make it clear that a solution is not that difficult, I
+have now made a page which gives an explicit solution, with
+illustrations of each step and even some animation at
+http://www.frontiernet.net/~jmb184/solution.html
+
+There are obviously shorter sequences to obtain a solution, however this
+one has the value of providing clear checkpoints along the way, such
+that a solver can determine if they have missed a twist.
+
+I want and would welcome your judgment about how easy or hard the puzzle
+is.
+
+John Bailey
+jmb184@frontiernet.net
+http://www.frontiernet.net/~jmb184
+May 11, 1998
+

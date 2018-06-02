@@ -1,0 +1,62 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug  9 15:23:00 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA08335
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 9 Aug 1999 15:22:59 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sat, 7 Aug 1999 00:37:50 -0700 (PDT)
+From: Tim Browne <ue451@victoria.tc.ca>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Puzzle Shop, was Rubik's Cube Perpetual Calendar
+In-Reply-To: <379F9979.E9CD2EBD@telegram.infi.net>
+Message-Id: <Pine.GSO.3.95.iB1.0.990807001800.18553A-100000@vtn1>
+
+On Wed, 28 Jul 1999, Howard wrote:
+
+>   Thanks to Chris's post, and his web page, I found a new shop
+> in Germany for twist-to-solve puzzles.  It is
+>
+> Hendrik Haak's Puzzle Shop  http://www.puzzle-shop.de/
+
+Actually, that's been around for well over a year now... He has, however,
+just recently undergone a major change on his site, including adding a
+museum section with lots of really twisted puzzles. Anyone on this list
+who checks it out should get a plastic keyboard cover to avoid its
+shorting out due to the inevitable salivation. A few notables to check out
+are the Skewb Diamond, the Extended Cube, the Mushroom, and the Rubik's
+Revenge Special. If anyone can tell me how this is constructed, I'd really
+like to know about it.
+
+>   Has anyone in the group ordered from this shop and what
+> have been your results?  I especially like the looks of the
+> dogic, octagon, mozaika, and octaedercube puzzles.
+
+Is the octaeder the Magic Octohedron, or the Cuboctohedron? I placed
+several puzzles on order with him over a month ago, but he only shipped
+them out some time last week as there were several he didn't have in
+stock. Apparently, once they're shipped they take about 6 weeks to reach
+North America, unless you expedite the service. I asked him about it, but
+he just kept telling me "$19 for surface mail". :-/
+
+> Has anyone
+> tried these, and does anyone have pictures of them in mid-twist,
+> on their web pages?
+
+I've placed the Dogic on order... it looks especially nightmarish, but
+everyone I've heard from who's tried it claimed it was really easy to
+solve. Given that it's a superset of the Impossiball, I'd think it would
+be particularly painful. I guess I'll find out once it arrives. The
+Mozaika I haven't seen yet, but it doesn't look all that difficult... Then
+again, I also thought that including a hint book with the Square-1 was an
+insult to the intelligence and that anyone with as much experience as I
+had with Rubik's Cube and similar puzzles should have no problem with it
+before I found out just how wrong I was (it took over a year for me to
+solve it once), so who's to say? For the other two... if you mean the
+"Octagon barrel", it's basically a Rubik's Cube subset, The Magic
+Octahedron can be solved as 2 Pyraminxen slammed back to back, and the
+Cuboctohedron, being no more than a Rubik's Cube with huge chunks sliced
+out of it, would be solved the same way. As for pictures showing puzzles
+in mid twist, the only site I'm aware of with pictures like that would be
+Chris and Kori's page. L8r.
+

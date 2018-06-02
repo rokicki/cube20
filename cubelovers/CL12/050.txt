@@ -1,0 +1,40 @@
+From @wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU  Tue Jul 19 19:09:07 1994
+Return-Path: <@wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA00316; Tue, 19 Jul 94 19:09:07 EDT
+Message-Id: <9407192309.AA00316@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 0827; Tue, 19 Jul 94 11:43:12 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 3312; Tue, 19 Jul 1994 11:43:12 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Tue, 19 Jul 1994 11:43:11 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   God's Algorithm, Minor Progress, Q+H
+
+Surprisingly, there seems not to be anything in the archives for
+God's Algorithm for Q+H moves for the whole cube past level 3.
+Here are some updated results:
+
+                Distance           Number     Branching
+                 from                 of       Factor
+                Start               Cubes
+
+                   0                    1
+                   1                   18     18.000
+                   2                  243     13.500
+                   3                3,240     13.333
+                   4               43,239     13.345  (new)
+                   5              574,908     13.296  (new)
+                   6            7,618,438     13.252  (new)
+                   7          100,803,036     13.231  (new)
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

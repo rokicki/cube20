@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec  7 16:55:07 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA24858
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 7 Dec 1999 16:55:05 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: HarLikin@aol.com
+Message-Id: <0.a5c6bfe6.2579acd1@aol.com>
+Date: Fri, 3 Dec 1999 18:31:29 EST
+Subject: Megaminx 2 edge swap
+To: Cube-Lovers@ai.mit.edu
+
+For a long time i thought and heard that the 2 edge swap was impossible on a
+megaminx as it is simply a platonic dodecahedron in rubiks format, and a 2
+edge swap on a rubiks cube is impossible. yet i have many times solved my
+megaminx down to where there are only 2 edges swapped, then randomized it,
+and solved again only to find the problem nonexistant. apparently there is
+some way to swap only two edges. If anyone knows this move sequence please
+tell me. thank you.
+
+-Harlequin
+
+[Moderator's note: It is impossible to perform an odd permutation of
+ the edges of the Megaminx, because 5-cycles are even.  This is not
+ the same situation as with Rubik's cube, where it is possible to
+ perform an odd permutation of the edges if an odd permutation of the
+ corners is also performed.  Did they use the same color for more than
+ one face of the Megaminx?  Is there another way to get fooled? --Dan]
+

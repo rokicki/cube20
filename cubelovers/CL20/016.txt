@@ -1,0 +1,49 @@
+From cube-lovers-errors@curry.epilogue.com  Thu May 30 18:15:15 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id SAA05351 for <cube-lovers-outbound@curry.epilogue.com>; Thu, 30 May 1996 18:15:14 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@cco.caltech.edu>
+Subject: Re: Another subscriber
+Date: 30 May 1996 05:53:22 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 31
+Message-Id: <4ojd4i$g2o@gap.cco.caltech.edu>
+References: <cube-lovers.Pine.SUN.3.91.960529163546.13009J-100000@sunspot.tiac.net>
+Nntp-Posting-Host: accord.cco.caltech.edu
+X-Newsreader: NN version 6.5.0 #12 (NOV)
+
+As a first aside, I'd like to mention that a nice project was to get a
+standard 3x3x3 cube into a standard American spaghetti sauce jar.  Makes
+a good conversation piece, though hard to scramble quickly...
+
+Nicholas Bodley <nbodley@sunspot.tiac.net> writes:
+> I'm at least as much of a gadget-hound as a puzzle-solver; I have a
+>decent collection. I get a real bang out of dismantling group-theory
+>puzzles to see how they're built; almost all can be disassembled, although
+>(as most people probably know) the "2" (Pocket Cube) is quite hard both to
+>disassemble and to reassemble. I have the Hungarian Globe, which is truly 
+>impossible to dismantle, IMO. (I haven't dared to scramble it!) This one 
+>has printed metal surfaces attached to a plastic structure; the "tiles"
+>take paths like the grooves in the ball inside the "4" (R.R.).
+
+I feel compelled to mention that there's a small company in Taiwan which
+makes two variants of the Hungarian Globe that are harder.  One variant
+allows for a move that turns the 9 pieces on one side; the other variant
+allows for the 5 pieces at every intersection to be rotated.
+
+Let me dig out the address...
+
+International Puzzles and Games
+Fl. 3 No. 192 Chung Ching N. Rd. Sec 2
+Taipei Taiwan, Republic of China
+Tel: 886-2-5532575
+Fax: 886-2-5536757
+
+-- 
+Wei-Hwa Huang, whuang@cco.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+Caught Porfiry, Raskolnikov sung his swan Sonia when he went Dounia to Siberia.
+
+

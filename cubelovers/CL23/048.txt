@@ -1,0 +1,21 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jul 14 14:02:22 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id OAA08973; Mon, 14 Jul 1997 14:02:22 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Mon, 14 Jul 1997 13:59:16 -0400 (EDT)
+Message-Id: <199707141759.NAA00043@spork.bbn.com>
+From: Allan Wechsler <awechsle@bbn.com>
+To: karen angelli <kangelli@tiac.net>
+Cc: cube-lovers@ai.mit.edu
+Subject: hockey puck puzzle
+In-Reply-To: <3.0.1.32.19970714113921.006aa4a4@pop.tiac.net>
+References: <3.0.1.32.19970714113921.006aa4a4@pop.tiac.net>
+
+Please give a clearer description of the puck.  The photo gives only a
+slight clue about how many pieces there are, and how they are
+arranged.  Are there twelve pieces, or twenty-four, or more?
+
+-A
+
+

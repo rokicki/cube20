@@ -1,0 +1,89 @@
+From meister@gaak.lcs.mit.edu  Mon Sep  9 00:48:52 1991
+Return-Path: <meister@gaak.lcs.mit.edu>
+Received: from gaak.LCS.MIT.EDU by life.ai.mit.edu (4.1/AI-4.10) id AA26612; Mon, 9 Sep 91 00:48:52 EDT
+Received: by gaak.LCS.MIT.EDU 
+	id AA06357; Mon, 9 Sep 91 00:48:09 EDT
+Date: Mon, 9 Sep 91 00:48:09 EDT
+From: meister@gaak.lcs.mit.edu (phil servita)
+Message-Id: <9109090448.AA06357@gaak.LCS.MIT.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: Square One
+
+
+"Square One" is also available at Games People Play in Cambridge, Mass. 
+I just purchased one a few days ago. It turned out to be more interesting 
+than i had expected. The puzzle is comprised (essentially) of two halves 
+of 8 pieces each, 4 corners, and 4 'edges'. All pieces radiate outward from 
+the center. The 'edge' pieces expand outward at a 30 degree angle, while 
+the corners expand outward at a 60 degree angle. The center layer is composed
+of just 2 pieces. If you removed the top slice, the center slices would trace
+out quadrilaterals ABIK and BDJL (or ACIJ and BDKL, etc) below.
+
+The center slice serves no major function save as a "gate"
+which allows or disallows rotation about one of the skewed axes formed by 
+the two slices. To rotate about some axis you must line up the "gate" 
+with the axis. While it is possible to swap the center pieces with respect 
+to the corners frame of reference, doing so is really of no importance 
+to the "meat" of the puzzle. 
+
+        Top View:  (in lousy ascii resolution)
+          
+         A             B             C             D
+          -------------*-------------*--------------
+          |             *           *              |
+          |              *         *               |
+          |               *       *                |
+        E *                *     *                 * F
+          |     *           *   *            *     |
+          |            *     * *     *             |
+          |                   * O                  |
+          |            *     * *     *             |
+          |     *           *   *            *     |
+        G *                *     *                 * H
+          |               *       *                |
+          |              *         *               |
+          |             *           *              |
+          -------------*-------------*--------------
+          I            J             K             L
+
+     Side View: 
+
+          _____________________
+          |      |     |      |
+          |______|_____|______|  top
+          |      |            |  
+          |______|____________|  center "gate" lined up for left axis 
+          |      |     |      |
+          |______|_____|______|  bottom
+
+All meaningful moves either rotate the top or bottom face, line up the 
+center gate with some skew axis, or twist about a skew axis 180 degrees. 
+The neat thing about the puzzle is that moves do not necessarily preserve 
+the cube shape of the puzzle, or even the number of corner/edge pieces 
+that are on each side. It is possible, for instance, to have only 3 corners
+on the top face, and 6 edges, while 5 corners and 2 edges are on the bottom 
+face. 
+
+A notation for this beast is somewhat cumbersome. If anyone wants, I will try 
+to describe what i am using.
+
+After playing with it for a few hours, i *thought* i had mapped out a complete
+solution algorithm; however i was later playing with the wierd shapes you could
+put the puzzle into, and eventually started putting it back to "Square One", 
+and was very surprised to end up in a position with just 2 of the edges 
+swapped! Since this puzzle acts much like the Skewb, each move essentially
+cutting the puzzle in half (ignoring the gate layer), i did not expect this 
+to be possible. It took a bit of thought before the light hit, and i went 
+on to construct a crude "Parity Swap" transform. Currently the best one i have
+found cycles around  UF -> UL -> UB -> UR, and takes 28 'moves'. (a 'move' 
+being defined as any motion of some slice, regardless of degrees turned) 
+Anyone else found anything better? 
+
+Square One is one of the better variations on the cube theme i have seen 
+in a long time. Find one and have fun.
+
+                                                -phil
+
+
+
+

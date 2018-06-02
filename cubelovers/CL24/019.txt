@@ -1,0 +1,44 @@
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: 4x4x4 solution
+To: C.McCaig@Queens-Belfast.AC.UK
+Cc: cube-lovers@ai.mit.edu
+
+On Tue, 30 Sep 1997 C.McCaig@Queens-Belfast.AC.UK wrote:
+
+> i recently borrowed a friends 4x4x4, and i know the basic method for
+> solving it.  ie get the 6 centres, pair up all the edges, and then
+> solve for the normal cube.  however, about half the time i end up
+> with a single edge pair inverted and cant figure out a move for
+> reorientating the single edge pair.  usually i break a few pairs
+> and try and reorientate them this way, but this seems rather longwinded...
+> does anyone have a move for this?.  for example, say the green edge
+> is on the blue face, and the blue edge is on the green face...
+> 
+
+Your problem is one of parity.  You have two edges cubies swapped (this
+swap is visible) and two face center (centre) cubies of the same color
+swapped (this swap is invisible).  You have to have an even number of
+swaps in the total cube.  If you want an even number in the edges (and
+you do), then you also have to have an even number in the face centers,
+even if swaps in the face centers are invisible.
+
+There is probably a more elegant solution, but the following will work. 
+If you encounter the situation you describe, make any middle slice
+quarter turn.  This will disturb the centers.  The centers will now have
+an even numbers of swaps. Solve the centers again without simply undoing
+the middle slice you just made.  The parity of the edges will then be
+ok.  (I'm assuming that your solution for the face centers will maintain
+their parity after you correct it as described.)
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+------------------------------
+
+End of Cube-Lovers Digest
+*************************
+

@@ -1,0 +1,17 @@
+Date: 23 Jul 1980 4:10 am PDT (Wednesday)
+From: Woods at PARC-MAXC
+Subject: Xerox cube-lovers
+To: Cube-Lovers at MIT-MC
+
+This message is of (possible) interest only to Xerox members of Cube-Lovers, but
+there's no easy way for me to send it only to them; apologies to the rest of you.
+
+I've created a Laurel-format message file containing the Cube-Lovers mail (from
+the archive at MC) up through approximately last weekend.  The message is in
+chronological order (instead of reverse chronological the way MIT's stupid mailer
+defaults) and has otherwise been cleaned up slightly (e.g., to get rid of lines just
+barely too wide).  If you're interested in looking through this archive, it's in
+[maxc]<Woods>Cube.mail.  It'll probably be around for several days at least.
+
+	-- Don.
+

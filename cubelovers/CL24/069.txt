@@ -1,0 +1,45 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun Nov  9 14:40:21 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA28882; Sun, 9 Nov 1997 14:40:20 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From charlied@erols.com Sun Nov  9 01:06:22 1997
+Message-Id: <l03110702b08b02c04251@[207.172.128.13]>
+Date: Sun, 9 Nov 1997 01:05:27 -0500
+To: Cube-Lovers@ai.mit.edu
+From: Charlie Dickman <charlied@erols.com>
+Subject: A 4 Dimensional Rubik's Cube
+
+About 18 months ago I sent this group an email about a Mac based program I
+have written that simulates a 4 dimensional (3x3x3x3) Rubik's Cube based on
+an unpublished paper by Harry Kamack and Tom Keene.
+
+Some of you who were interested in the paper that describes the model and
+the program had difficulty with the copies I sent you and, I suspect, were
+unable to read it after you received it. Someone suggested that I translate
+the document into HTML and this email is to let you know that I have done
+that and will send either a ZIP or STUFFIT archive of the document to
+anyone interested.
+
+I know that maybe I should get a web site and put the paper there but I'm
+not up for designing a web page or maintaining it. If you would like a copy
+of the document and would also like to put it on your web site, let me know
+that too.
+
+The HTML version of the document consists of 36 fairly small GIFs that
+illustrate the words. The STUFFIT archive is 328K and the ZIP file is 320K.
+The documentation for the Mac based ZIP program claims that the file can be
+successfully unZIPped on non-Mac platforms. The STUFFIT archive is
+self-extracting if you're Mac enabled.
+
+Send me an email if you are interested in either the program or the HTML
+document or both. If you just want the document, tell me which format you
+want. If you ask for the program I will assume you have a Mac and will send
+everything in a STUFFIT sea.
+
+Regards to all...
+
+Charlie Dickman
+charlied@erols.com
+

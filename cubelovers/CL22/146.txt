@@ -1,0 +1,79 @@
+From cube-lovers-errors@oolong.camellia.org  Fri Jun  6 11:48:49 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id LAA10761; Fri, 6 Jun 1997 11:48:48 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+Subject: Re: (none)
+Date: 6 Jun 1997 14:01:26 GMT
+Organization: California Institute of Technology, Pasadena
+Message-ID: <5n957m$6dj@gap.cco.caltech.edu>
+References: <cube-lovers.19970605.172331.12518.1.shaggy34@juno.com>
+NNTP-Posting-Host: pride.ugcs.caltech.edu
+X-Newsreader: NN version 6.5.0 #2 (NOV)
+
+Josh D Weaver <shaggy34@juno.com> writes:
+>Does anyone know more about the following method?
+
+My main method is a variant of this.
+
+I'll switch your top and bottom because I like looking at the top:
+
+>1. do bottom corners. I always start with white. (intuitive)
+>2. do top corners.
+>    2a. bring top corner color onto top face (one of 2 patterns)
+
+I only use one pattern:
+  RUR'URU2R'
+It's very easy to remember.  (I only use easy-to-remember patterns.)
+This pattern rotates three corners.  Technically, I also use the
+inverse, which may count as another pattern:
+  RU2R'U'RU'R'
+Step 2a can be done with at most two applications of the pattern.
+
+>    2b. orient top corners with each other (one of 2 patterns)
+I only need one pattern:
+  F2DF2D2R2DR2
+This switches two adjacent pairs of corners on both top and bottom.
+Step 2b can be done with at most two applications.
+
+I sometimes use this pattern as a short cut:
+  F2R2F2
+
+(Technically, these patterns actually involve moving 
+slices as well when I generalize them to 4x4x4 and up.)
+
+>3. fill in all but one edge on top and bottom (intuitive)
+>4. fill in last edge (pattern)
+
+Actually, I fill in all but one edge on the top AND all
+but one edge on the bottom.  Filling in the two
+remaining ones at once is more intuitive than pattern.
+
+>5. solve middle ring of edges (usually 2 patterns)
+
+I used to do this with a pattern that permuted three edge pieces
+while flipping two of them.  Now I do something more elegant, IMHO.
+
+Let A denote shifting the middle "ring" slice to the right.
+Then my first pattern is:
+  F2AF2A'
+which permutes three edge pieces.  Eventually they're
+all positioned correctly, and I use this pattern to flip
+two edge cubies:
+  RF'UR'FA*F'RU'FR'A*
+(* means to repeat as many times as is appropriate).
+
+Sometimes in step 3  I don't bother with the orientation of
+the last two edges.  This is because I can use this pattern:
+  RARARARA
+that is *really* easy to do and flips four edge pieces, three
+on the middle slice and one not.
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+-------------------------------------------------------------------------------
+Question everything.  Learn something.  Answer nothing.  -- Engineer's Motto
+
+

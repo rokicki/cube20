@@ -1,0 +1,42 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Mon Dec  6 14:03:43 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16036; Mon, 6 Dec 93 14:03:43 EST
+Message-Id: <9312061903.AA16036@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 4640; Mon, 06 Dec 93 11:09:20 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 5893; Mon, 6 Dec 1993 11:09:19 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 5157; Mon, 6 Dec 1993 11:06:50 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Mon, 6 Dec 1993 11:06:48 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: <hoey@aic.nrl.navy.mil>, "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: God's Algorithm, 24-fold Symmetry, Edges of 3x3x3
+In-Reply-To: Message of 12/06/93 at 10:19:00 from hoey@aic.nrl.navy.mil
+
+On 12/06/93 at 10:19:00 hoey@aic.nrl.navy.mil said:
+>These results look very interesting, though I haven't had time to
+>examine them closely, nor even (in a few cases) quite understand them.
+>I especially like to see the categorization by symmetry class.
+
+>I was somewhat startled to see the unique antipode of the 3x3x3 edges
+>in the quarter-turn metric.  Do you know what pattern that is?
+
+
+I was extremely surprised as well.  With all my previous work, there
+was no unique antipode.  I don't know what it is yet, but I can find
+out without a whole lot of trouble.  It is somewhere on the 31-st
+tape, so I just need to spin that tape, looking for a record at level
+15, and  print it out.  I will try to get to that sometime in the
+next few days.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

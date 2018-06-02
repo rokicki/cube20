@@ -1,0 +1,5 @@
+Date: 24 NOV 1980 1743-EST
+From: ALAN at MIT-MC (Alan Bawden)
+To: CUBE-HACKERS at MIT-MC
+
+ALAN;CUBE OMAIL is back on disk as ALAN;CUBE XXMAIL .

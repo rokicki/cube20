@@ -1,0 +1,30 @@
+From ivan@antares.aero.org  Mon Apr 10 19:30:23 1995
+Return-Path: <ivan@antares.aero.org>
+Received: from aero.org by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29530; Mon, 10 Apr 95 19:30:23 EDT
+Received: from antares.aero.org ([130.221.192.46]) by aero.org with SMTP id <111111-3>; Mon, 10 Apr 1995 13:17:11 -0700
+Received: from armadillo.aero.org by antares.aero.org (4.1/AMS-1.0)
+	id AA23506 for cube-lovers@life.ai.mit.edu; Mon, 10 Apr 95 13:16:45 PDT
+To: cube-lovers@life.ai.mit.edu
+Subject: Singmaster's works
+Date: 	Mon, 10 Apr 1995 13:16:44 -0700
+Message-Id: <10272.797545004@armadillo.aero.org>
+From: Ivan Filippenko <ivan@antares.aero.org>
+
+Hello,
+
+Can anybody suggest how I might be able to get copies of David Singmaster's
+"Notes on Rubik's Magic Cube" and A. H. Frey and Singmaster's "Handbook of
+Cubik Math" ?
+
+How about Christoph Bandelow's "Inside Rubik's Cube and Beyond" ?
+
+I'm also looking for Chris Rowley's "The group of the Hungarian Magic Cube"
+(in Algebraic Structures and Applications, Proceedings of the First Western
+Australian Conference on Algebra, 1982).
+
+
+Many thanks,
+
+  -- Ivan
+     ivan@aero.org
+

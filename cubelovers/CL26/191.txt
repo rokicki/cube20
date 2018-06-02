@@ -1,0 +1,54 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 18 13:22:39 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA12312
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 18 Mar 1999 13:22:38 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 18 Mar 1999 00:53:22 -0500 (EST)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199903180553.AAA24726@Twig.Rodents.Montreal.QC.CA>
+To: Cube-lovers@ai.mit.edu
+Subject: Re: Taking apart the 5^3
+
+> As nearly as I can remember, you can begin dismantling one of these
+> by rotating the top slice by maybe 30 degrees or so, then prying
+> upward on one of the "wing" cubies (between the center and the corner
+> cubies).  Use your thumb, nail side down, and lift.
+
+Well, I fiddled with it and finally managed to get one of my 5-Cubes
+apart (I used the one with the loose stickers).
+
+I found it more effective to turn a "thick slice" (ie, the outer two
+slices turned together) about 45 degrees, then pry with my thumb
+between the corner and wing of the turned slice.  (This is perhaps
+ambiguous.  Start with a solved 5-Cube, turn the U face 45 degrees
+clockwise, so the URF cubie and the RF wing cubie next to it are just
+above the middle of the F face.  Then stick your thumb between those
+two cubies, nail towards the URF corner cubie, and lever the wing cubie
+down.)  It's harder to get the last wing cubie back in than it is to
+take the first wing cubie out, but by reversing the move I described
+above I find it not too difficult.
+
+Now I just need to find paints that will stick well to the plastic
+these things are made of.  (The paints I used for the 3-Cube I painted
+don't stick as well as I'd like.)
+
+> Believe me, the insides of a 5^3 are utterly amazing.  [...]  The
+> shape of a "foot" on a corner cubie is something to behold;
+
+True.  Quite impressive to look at.  Indeed, once you've taken out the
+off-center face cubies and the wing cubies, you're left with something
+that looks like a ricketey skeletal 3-Cube (and indeed can, if you're
+careful, be manipulated as such).
+
+Amusingly, I realized that as long as you get that "ricketey 3-Cube"
+put together in its solvable orbit, it's impossible to put the rest of
+the 5-Cube together unsolvably!  (Unless you've marked the face cubies
+so they're distinguishable, of course.)
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

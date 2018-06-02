@@ -1,0 +1,19 @@
+Date: 22 Aug 1984 18:06-EDT
+From: Dan Hoey <hoey@NRL-AIC>
+Subject: An outer automorphism of the cube group
+To: cube-lovers at mit-mc
+
+If you have a Rubik's cube where all the edges flip on each
+quarter-turn, you can solve it by using bifocals when it's odd.
+
+I noticed this while drawing a Hasse diagram of the subgroups of M.  It
+turns out that M has a similar automorphism, where the odd elements are
+reflected through the center of the cube.
+
+If anyone wants the Hasse diagram, I can send it--it takes about 30
+minutes to draw in the lines, for which directions are included.
+
+If you know whether there are other outer automorphisms of M, please
+let me know.
+
+Dan

@@ -1,0 +1,22 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Jul  7 19:25:18 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA10609
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 7 Jul 1999 19:25:17 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sun, 4 Jul 1999 14:45:12 -0700 (PDT)
+From: Tim Browne <ue451@victoria.tc.ca>
+To: Cube-lovers@ai.mit.edu
+Subject: Puzzletts?
+In-Reply-To: <v04003a09b3a0062a6a87@[128.192.40.243]>
+Message-Id: <Pine.GSO.3.95.iB1.0.990704143754.11069A-100000@vtn1>
+
+Has anyone been able to get through to Puzzletts at all? I've been trying
+to get through to their site for the past month or so, but it's always
+"down, overloaded, or unreachable" (surely they could narrow it down a
+bit better than that!). Does anyone know what's going on? Has it crashed
+and burned for good? L8r.
+
+-- 
+

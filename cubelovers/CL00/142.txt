@@ -1,0 +1,23 @@
+Date: 11 September 1980 01:04-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Re:"Assuming we are counting quarter-twists."
+To: Woods at PARC-MAXC
+cc: CUBE-HACKERS at MIT-MC
+
+
+I said:
+
+"Assuming we are counting quarter-twists."
+
+I realize that there are people out there who like to count
+half-twists as a single twist.  I don't.  I'm not trying to force my
+way of counting twists on anyone.  I always try to be carefull to make
+this assumption explicit out of courtesy to those who might want to
+count otherwise.  (Sort of like the Axiom of Choice.)
+
+In fact I DON'T know if that result is true if you count half-twists
+as well.  I suspect it is, but I don't have a proof.
+
+You needn't jump up and down and point every time one of us
+quarter-twisters reveals himself.  This one, at least, is well aware
+of his assumptions.

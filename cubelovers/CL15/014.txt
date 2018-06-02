@@ -1,0 +1,49 @@
+From @uconnvm.uconn.edu:dmoews@xraysgi.ims.uconn.edu  Sun Jan 22 17:06:42 1995
+Return-Path: <@uconnvm.uconn.edu:dmoews@xraysgi.ims.uconn.edu>
+Received: from UConnVM.UConn.Edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23273; Sun, 22 Jan 95 17:06:42 EST
+Received: from venus.ims.uconn.edu by UConnVM.UConn.Edu (IBM VM SMTP V2R2)
+   with TCP; Sun, 22 Jan 95 17:07:00 EST
+Received: from xraysgi.ims.uconn.edu by venus.ims.uconn.edu (4.1/SMI-4.1)
+	id AA05345; Sat, 27 Apr 02 20:28:20 EST
+Received: by xraysgi.ims.uconn.edu (920330.SGI/911001.SGI)
+	for @venus.ims.uconn.edu:cube-lovers@ai.mit.edu id AA27851; Mon, 23 Jan 95 17:05:33 -0500
+Date: Mon, 23 Jan 95 17:05:33 -0500
+From: dmoews@xraysgi.ims.uconn.edu (David Moews)
+Message-Id: <9501232205.AA27851@xraysgi.ims.uconn.edu>
+To: cube-lovers@ai.mit.edu, dmoews@xraysgi.ims.uconn.edu
+Subject: Symmetry reductions of the superflip
+
+
+As I mentioned in my last message, I used symmetries to reduce the
+number of candidate sequences for the superflip.  Here's how:
+
+Suppose we have a sequence for the superflip that has at least 4 syllables.
+(Here, a syllable is a maximal sequence of commuting face turns, i.e., a
+maximal sequence of face turns on the same axis.)  The sequence of axes
+in these syllables must look like
+
+(1) Z X ... X Y, (2) Z Y ... X Y, (3) X Z ... X Y, or (4) X Y ... X Y,
+
+for some distinct axes X, Y, and Z.  Remember that the superflip is
+central, so we can cyclically permute the sequence of syllables.  If
+doing this always results in pattern (4), we only use two axes, but
+this can't flip any edges; hence, we can get (1), (2) or (3).  By inverting
+the (order 2) superflip we can change (2) to (3).  Then we have (1)
+or (3).  By applying a symmetry of the cube, we can let X, Y and Z be
+the FB, UD, and LR axes, respectively.
+
+We still have some of the symmetry group to work with, namely the set of
+the eight symmetries of the cube that fix all cube axes.  If we need to,
+we can apply a 180-degree rotation of the cube about the UD or LR axes,
+which lets us restrict the first FB syllable to 9 of the 15 possibilities;
+then, rotating about the FB axis, we can do the same for the last UD syllable.
+Finally, we can reflect the cube through the plane between R and L; this lets
+us restrict the first LR syllable to 9 possibilities, although it expands the
+number of possibilities for the last UD and first FB syllables to 10 each.
+
+Some more estimated runtimes for my Shamir implementation: 20 CPU hr for 
+a 20 qtw superflip; 190 CPU hr for a 22 qtw superflip.
+-- 
+David Moews                                   dmoews@xraysgi.ims.uconn.edu
+
+

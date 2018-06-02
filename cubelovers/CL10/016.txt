@@ -1,0 +1,47 @@
+From ncramer@bbn.com  Thu Jul 29 09:40:49 1993
+Return-Path: <ncramer@bbn.com>
+Received: from LABS-N.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22477; Thu, 29 Jul 93 09:40:49 EDT
+Message-Id: <9307291340.AA22477@life.ai.mit.edu>
+Date:     Thu, 29 Jul 93 8:59:44 EDT
+From: Nichael Cramer <ncramer@bbn.com>
+To: "Ronnie B. Kon" <ronnie@cisco.com>
+Cc: Cube-Lovers@life.ai.mit.edu
+Subject:  Re:  Hint wanted for 4x4x4
+
+Hi Ronnie
+
+Let me try to restate the problem slightly to make sure we are talking
+about the same problem.
+
+Basically, you can solve the entire cube, except that the pieces "1" and
+"2" in the diagram are flipped/exchanged:
+
+  XXXX
+  XXXX
+  XXXX
+  X12X
+
+Assuming this is the problem, the hint is as follows: 
+
+The problem here is that some of the face pieces are not really in their
+right places.  In short, one of the center slices is 1/4 turn out of phase.
+
+The simplest way to proceed (at least for me) is to move to the following
+state: 
+
+  XX2X    (i.e. rotate one of the central slices 1/4 turn)
+  XXOX
+  XXOX
+  X1OX
+    ^
+    |
+Now, you can solve for pieces "1" and "2" and --using these pieces as a
+landmark-- proceed from there.
+
+Hint #2: You can help avoid this problem by solving the face pieces last.
+
+
+Extra Credit: Actually, the state as shown in the first diagram above is
+pretty interesting in that the analogous position on a 3X3X3 cube (i.e. a
+single flipped edge cube) is of course impossible.
+

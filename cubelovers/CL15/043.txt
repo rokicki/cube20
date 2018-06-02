@@ -1,0 +1,109 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Thu Feb 16 14:47:44 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24034; Thu, 16 Feb 95 14:47:44 EST
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <173030-1>; Thu, 16 Feb 1995 14:48:51 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA13094; Thu, 16 Feb 95 14:44:29 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1D048E; Thu, 16 Feb 95 00:47:29 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Assorted Pyraminxi
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1049.5834.0C1D048E@canrem.com>
+Date: Thu, 16 Feb 1995 00:11:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+MS>
+I am fairly certain that the Pyraminx is a regular tetrahedron.  In the
+solved state each of the four faces shows only one of the four colours.
+
+ML>
+This is correct for all of the *tetrahedral* pyraminxes with only
+one small exception: the Star Pyraminx has all middle pieces the
+same colour. Meffert used the word "pyraminx" as a prefix to just
+about all the puzzles he either conceived or planned to market.
+
+MS>
+The Pyraminx Star was described as a Pyraminx without the centers.
+So I guess each face of the Pyraminx Star looks as follows.
+
+                   +
+                  / \
+                 /   \
+                /  V  \
+               /       \
+              +---------+
+             / \       / \
+            /   \  M  /   \
+           /  E  \   /  E  \
+          /       \ /       \
+         +---------*---------+
+        / \       / \       / \
+       /   \  M  /   \  M  /   \
+      /  V  \   /  E  \   /  V  \
+     /       \ /       \ /       \
+    +---------+---------+---------+
+
+ML>
+Actually the above diagram is a good representation of a head-on
+view of the popular or standard pyraminx (I've taken the liberty
+of embellishing it a little).
+
+There are 4 Vertices (3 colours), 6 Edges (2 colours) and 12 Middle
+pieces (single colur) so there are 12 + 12 + 12 = 36 facelets.
+
+The tips (or small vertices) can rotate independently, and the larger
+turn includes the rotaion of the adjacent 2 edge pieces and single
+middle piece. The small tips each have 3 positions, it's adjacent
+middle piece also has 3 positions, and the 6 edges obey the same
+basic laws as the cube, so there are:
+
+3^4 * 3^4 * (6!/2) * (2^6 /2) = 75,582,720 combinations or
+approximately 75.5 million (993,120 for the snub version)
+
+The math for the pyraminx octahedron is very similar, though
+it has 4 positions for the 6 vertices and middle pieces
+and 12 edges:
+
+4^6 * 4^6 * (12!/2) * (2^12/2) = 8,229,184,826,926,694,400 or
+approximately 8.2 quintillion.
+
+So the snub pyraminx (or if you prefer "The Pyraminx Snub") would
+look like:
+
+              +---------+
+             / \       / \
+            /   \     /   \
+           /     \   /     \
+          /       \ /       \
+         +---------*---------+
+          \       / \       /
+           \     /   \     /
+            \   /     \   /
+             \ /       \ /
+              +---------+
+
+One could imagine snub octahedrons as well.
+
+MS>
+I have no idea what Pyraminx Senior and the Pyraminx Master look like.
+
+ML>
+They are visually indistinguishable from the standard pyraminx,
+however information on the Senior Pyraminx is exceedingly sketchy.
+
+I've never seen a photograph of a Master Pyraminx in the middle
+of an edge turn so I rather doubt a working prototype was ever
+made, but you never know...
+
+I'll take a stab at one more calculation...
+
+The pyraminx hexagon has 12 corners and 18 edges and 8 centres.
+Each side has 13 facelets so there are 13 * 8 = 104 total facelets.
+12!/2 * 3^11 * 16! * 2^15 = 29,087,761,395,446,975,811,708,518,400,000
+or approximately 29 nonillion (29^30).
+
+-> Mark <-
+

@@ -1,0 +1,94 @@
+From hoey@aic.nrl.navy.mil  Fri Jan 21 18:32:30 1994
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17275; Fri, 21 Jan 94 18:32:30 EST
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA13137; Fri, 21 Jan 94 18:32:15 EST
+Date: Fri, 21 Jan 94 18:32:15 EST
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9401212332.AA13137@Sun0.AIC.NRL.Navy.Mil>
+To: Cube-Lovers@ai.mit.edu
+Cc: Jerry Bryan <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Subject: Re: Some Proposed Terminology
+
+I welcome Jerry Bryan's <BRYAN%WVNVM.BITNET@mitvma.mit.edu> efforts to
+improve the terminology of the groups associated with Rubik's cube.
+But there is some additional clarification I think is necessary.
+
+> Let G be the standard cube group for the 3x3x3 cube....
+> Let GC be the corners with centers without edges group....
+> Let GE be the edges with centers without corners group....
+
+That much will do, mod quibbles about what name is best.
+
+> Let G\C be the corners with edges without centers group.  I intend
+> for the notation to indicate G reduced by C, where C is the rotation
+> group for the cube....
+
+> Let GC\C be the corners without edges without centers group....
+> Let GE\C be the edges without corners without centers group....
+
+First, these are not, strictly speaking, groups.  Well, you can make
+them groups, by defining what the group operation is.  But I don't
+know any way of doing that without losing the symmetrical nature of
+the problem.
+
+Second, I would suggest that G/C, GC/C, and GE/C are more standard
+names for these objects.  The elements are nominally 24-element sets,
+each of which is an equivalence class when two positions are
+considered equivalent when they differ by their position with respect
+to the corners.  The classes are called the cosets of C in G, GC, and
+GE, respectively.
+
+> Let G\M be the set of M-conjugate classes for G.....
+> Let GC\M be the set of M-conjugate classes for GC....
+> Let GE\M be the set of M-conjugate classes for GE....
+
+The partition of a group into conjugacy classes is not at all the same
+as the partition into cosets.  So I would prefer to use different
+symbology, like "\" for conjugacy and "/" for cosets, but....
+
+> Recall that B is the function which calculates the canonical form
+> for a cube under the composed operations of M-conjugation plus
+> rotation.  My  programs calculate equivalence classes under B.
+
+> Let G\B be the set of B-classes for G [ and likewise for GE, GC ].
+
+Well, if you are using "\" for a generic partition into equivalence
+classes, then we should really do something like G\Conj(M) for
+partitions into conjugacy classes.  At least then you can say
+G/C=G\Cosets(C).
+
+> Then, we have Gx\B=(Gx\C)\M=(Gx\M)\C.  In English, we can decompose
+> B into a multiplication by C and M (in either order).
+
+No, that's _multiplication_ by C and _conjugation_ by M.  A good
+example of why it's important not to use confusing symbols.  M and C
+are not at all treated the same, except inasmuch as they are used to
+induce partitions into equivalence classes.  Say instead that
+            Gx\B = (Gx/C)\Conj(M) = (Gx\Conj(M))/C.
+
+> If I wanted to model GC\C, I would have had to either model only
+> seven of the cubies, or else modeled all eight but moved only seven
+> of them.  Since what I really wanted was (GC\C)\M, and since what I
+> had was GC, I had to invent this funny B thing, where GC\B=(GC\C)\M.
+> If I had been clever enough to model GC\C in the first place, I
+> never would have had to invent B.  Similar comments apply to my
+> model for the edges.
+
+Well, the part about moving only seven (corner) cubies is the approach
+that's been taken before on this list to deal with cubes that don't
+have face centers.  It has the advantage that the object being treated
+is a group.  But the problem is that the group is no longer cubically
+symmetrical (in some vague sense).  This led me, at least, to lose
+track of the structure that would allow analysis of M-conjugacy.  So I
+have to admire your tackling GE as a whole, instead of trying to stick
+to GE/C.  At first blush, it looks like GE/C is 24 times smaller.  But
+since GE/C\Conj(M) is almost 48 times smaller still, it's important to
+work in GE at least enough to be able to use the conjugation.  Which
+is beside the point that I'm actually very interested in the structure
+of Gx/Conj(M) itself.  And that is what I was really getting at in
+1984 when I asked about how many positions there really are.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

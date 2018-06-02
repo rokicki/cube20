@@ -1,0 +1,14 @@
+Date: 31 JUL 1980 1006-EDT
+From: RP at MIT-MC (Richard Pavelle)
+To: CUBE-LOVERS at MIT-MC
+
+IS IT POSSIBLE?
+
+I just got a note from Martin Gardner who plans an article about the
+cube in Sci.Am. sometime. But he claims that a person names
+THISTLETHWAITE has proved a restoration procedure of 50 moves
+and believes he can reduce it to 41.
+
+Gardner also says that a 2x3x3 solid is selling in Hungary, also
+by Rubic.
+

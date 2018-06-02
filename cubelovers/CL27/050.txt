@@ -1,0 +1,55 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Apr 14 22:38:03 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id WAA26294
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 14 Apr 1999 22:38:03 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 13 Apr 1999 16:46:33 +0100
+From: David Singmaster Computing <david.singmaster@sbu.ac.uk>
+To: mag@ncsa.uiuc.edu
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009D6955.A6FEB505.56@ice.sbu.ac.uk>
+Subject: Re: Keyboard cube [was: Re: Wrist pains]
+
+	Re: Tom Magliery's representation of the cube.
+	A form of this was used by Kathleen Ollerenshaw in the early 1980s, but
+she also had all but the center facelet of the back face folded out to form an
+additional square ring around the figure so one knew what everything was.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+
+[Moderator's note:  I couldn't help myself:
+
+ .................................................
+ :               :               :               :
+ :               :               :               :
+ :     +---------+---------------+---------+     :
+ :     |`.        \             /        .'|     :
+ :     |  `+.......\.........../.......+'  |     :
+ :     |   :`.      \         /      .':   |     :
+ :     |   :  `+.....\......./.....+'  :   |     :
+ :.....+   :   :`.    \     /    .':   :   +.....:
+ :     |`..:   :  `+---+---+---+'  :   :..'|     :
+ :     |   :`..:   |   :   :   |   :..':   |     :
+ :     |   :   :`..+...:...:...+..':   :   |     :
+ :     |   :   :   |   :   :   |   :   :   |     :
+ :     |   :   : ..+...:...:...+.. :   :   |     :
+ :     |   : ..:'  |   :   :   |  `:.. :   |     :
+ :     | ..:'  :   +---+---+---+   :  `:.. |     :
+ :.....+'  :   : .'   /     \   `. :   :  `+.....:
+ :     |   :   :'..../.......\....`:   :   |     :
+ :     |   : .'     /         \     `. :   |     :
+ :     |   :'....../...........\......`.   |     :
+ :     | .'       /             \       `. |     :
+ :     +'--------+---------------+--------`+     :
+ :               :               :               :
+ :               :               :               :
+ :...............:...............:...............:
+
+I think something like this appears in Winning Ways, too. --Dan ]
+

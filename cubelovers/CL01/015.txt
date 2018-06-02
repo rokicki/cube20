@@ -1,0 +1,33 @@
+Date:     5 December 1980 0022-est
+From:     Ronald B. Harvey           <RHarvey at MIT-Multics>
+Subject:  Your mail of 4 DEC 1980 2300-EST
+To:       DR at MIT-MC
+Cc:       CUBE-LOVERS at MIT-MC
+
+
+Welcome to the Cube-hackers !!
+
+Note that this is my first contribution, although I have read all
+previous mail.
+
+    First of all, there are other people who solve the cube (I, myself,
+average about a minute and three quarters).  It is also part of the lore
+that there are people (overseas) who do it in 50 seconds or less.
+
+Second, while I personally get eight corners first, and then randomly go
+about fixing the edge cubies two at a time or so, David Singmaster, who
+publishes some notes in England (availability in previous mail),
+included, in his latest edition his algorithm, which proceeds as
+follows:
+     Solve TOP edges
+     Solve TOP corners
+     Flip cube so that TOP is BOTTOM from now on
+     Solve MIDDLE edges
+     Solve TOP edges
+     Solve TOP corners
+
+Finally, in regards to the 'most optimum solution' (also known as God's
+Algorithm), a person by the name of Morwen B Thistlethwaite (that's from
+memory - I left my notes at work) is mentioned all over Singmaster's
+notes as contributing algorithms.  Yes, he does use a program, and his
+algorithm at the time of the 5th Edition took somewhere around 50 moves.

@@ -1,0 +1,38 @@
+From dik@cwi.nl  Mon Aug  2 21:10:32 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06234; Mon, 2 Aug 93 21:10:32 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA20559 (5.65b/3.8/CWI-Amsterdam); Tue, 3 Aug 1993 03:10:23 +0200
+Received: by boring.cwi.nl 
+	id AA23300 (4.1/2.10/CWI-Amsterdam); Tue, 3 Aug 93 03:10:22 +0200
+Date: Tue, 3 Aug 93 03:10:22 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9308030110.AA23300.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Diameter of cube group?
+
+I have now running (for about 60 days already) a program that implements
+Kociemba's algorithm to solve the cube.  It tries to solve random
+configurations and stops when a solution of 20 turns or less is found.
+The random configurations are created by doing 100 random turns.
+
+Until now, with 9000 configurations tried, all proved to be solvable
+in 20 turns or less.
+
+This strongly suggests that the diameter of the cube group is at most
+21, or perhaps 22; but not more.
+
+The figure of 9000 configurations in 60 days indicates that solution
+of one configuration takes slightly less than 10 minutes.  This is
+contrary to what I thought was possible.  Whenever I tried configurations
+they were mostly solved within 2 or 3 minutes.  This suggests that the
+random configurations are more difficult to solve than what I and many
+others brought up as possible difficult patterns.
+
+But I still need to do some analysis on the ouput (now 3 Mb of data).
+
+Continuing and waiting for a config that requires 21 turns, dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+home: bovenover 215, 1025 jn  amsterdam, nederland; e-mail: dik@cwi.nl
+

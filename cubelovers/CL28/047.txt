@@ -1,0 +1,46 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Dec  1 19:43:18 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA29376
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 1 Dec 1999 19:43:18 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: adams.gallant@pei.sympatico.ca
+Message-Id: <1.5.4.32.19991114154546.006830dc@pop1.pei.sympatico.ca>
+Date: Sun, 14 Nov 1999 10:45:46 -0500
+To: Cube-Lovers@ai.mit.edu
+Subject: Square-1 Question
+
+Greetings:
+
+After many months of trying pattern after pattern, I've developed an
+algorithm for swapping two adjacent corner pieces on Square-1. I was hoping
+that if I posted what I've come up with, that someone might have an easier
+method. Who knows? Maybe I've just put a new spin on an old solution to this
+move, or re-discovered an existing pattern. Anyhow, I'd love to get some
+feedback on it. Here's what I've got:
+
+* All moves are done with the orange side facing you, yellow on the left.
+* T   = Top Slice [white in this case]
+* R   = Right-Hand Slice [blue]
+* B   = Bottom Slice [green]
+* L   = Left-Hand Slice [yellow]
+* CW  = Clock Wise
+* CCW = Counter Clock Wise
+* CW and CCW moves are done from the perspective of tilting the cube and
+looking at the side in question.
+* This series of moves will swap the two bottom corner pieces on the blue
+side.
+
+MOVES [From a perfect cube - orange on front]
+*****
+
+T [1/8 CW], R [1/2], B [1/4 CCW], T [1/2], R [1/2], B [1/4 CW], T [1/2], R
+[1/2], B [1/4 CCW], T [1/2], R [1/2], B [1/4 CCW], T [1/4 CW], L [1/2], T
+[1/4 CW], L [1/2], T [1/8 CW], B [1/2]
+
+Please let me know if you have any comments or suggestions. Now that I have
+my own, I won't mind borrowing a simpler one!
+
+Dave
+

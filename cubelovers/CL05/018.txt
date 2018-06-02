@@ -1,0 +1,11 @@
+Date: 30 January 1983 00:40 EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  The shortest sequence of moves.
+To: FONER @ MIT-MC
+cc: CUBE-LOVERS @ MIT-MC, Tk.Foner @ MIT-OZ, HOEY @ CMU-CS-A
+In-reply-to: The message of 29 Jan 1983  23:33-EST from Leonard N. Foner <TK.FONER at MIT-OZ>
+
+The maximum number of moves (qtw) from solved is certainly not 17 or 19.
+All we know about that number is that it is greater than or equal to 21.
+It could be even larger.  There is a fair amount of sentiment that it is
+probably around 28, but that's just intuition.

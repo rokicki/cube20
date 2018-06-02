@@ -1,0 +1,68 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov  2 18:00:09 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id SAA01157; Mon, 2 Nov 1998 18:00:08 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3.0.32.19981102164235.0094e100@mail.spc.nl>
+Date: Mon, 02 Nov 1998 16:42:36 +0100
+To: cube-lovers@ai.mit.edu
+From: Christ van Willegen <c.v.willegen@spcgroup.nl>
+Subject: Re: Unauthorized Use of RUBIK'S CUBE and CUBE Design Marks?
+
+At 14:58 31-10-1998 +0100, you wrote:
+>About 2 weeks ago I received the following message and it seems to me
+>that it might be interesting for you too:
+
+[Message deleted for brevity]
+>
+>Indeed the headline of my homepage at
+>
+>http://home.t-online.de/home/kociemba/cube.htm
+>
+>was "Rubik's Cube Explorer 1.5". So I removed the word "Rubik's" and
+>added some note at the bottom of the page (...blah blah is not derived
+>from, is not associated with blah blah...).
+>
+>I definitely will not remove the program from my homepage. This seems
+>ridiculous. I know, that other cube fans received similar mail because
+>they have some similar statements on their homepages now.
+>
+>What do you think about that?
+>
+
+I had the same 'problem' a couple of months ago.
+
+A handheld computer users group I was active in, once published a
+program that could be described as 'well, it looks a bit like Tetris
+((R), if those lawyers are reading this, as well :-), but it's a long
+way off the mark'.
+
+The program was published in our magazine, and was also placed on a
+web-page.
+
+A couple of months ago, I received a letter from a Belgian lawyer firm,
+addressed to the user's group. This user's group, by the way, died about
+5 years (!) ago.
+
+They told us to 'cease and decist' (a couple of things), including publishing
+this article on 'our web-page'. Well, since this was someone else's web-
+page, there was nothing we could do about it.
+
+We told them (in friendly terms) that the user's group no longer existed,
+that we were not affiliated to the user having the article on his web-page,
+and that we nover sold the program.
+
+We haven't heard from them (not even a letter stating that they received our
+reply!) since.
+
+It's kinda sad: The program was for an HP28S. I would have _loved_ to see
+those lawyers type the program in (a couple of kilobytes, via the keyboard!),
+only to find out that it was 'almost, but not quite, entirely unlike Tetris'
+(Douglas, if you're reading this, quotes are ok, no?).
+
+Just tell them you will take down the name, and they will probably be
+off your back.
+
+Christ van Willegen
+

@@ -1,0 +1,11 @@
+Date: 16 JUL 1980 2051-EDT
+From: RP at MIT-MC (Richard Pavelle)
+To: CUBE-LOVERS at MIT-MC
+
+A simple transformation with a pretty resulting design:
+Let CS = center slice which faces you and is
+parallel to the axis of your body.
+Then CS up 90, rotate cube 90 in either direction so
+that the CS turns in the direcion of rotation.
+Performing these two operations 3 more times gives
+the desired result.

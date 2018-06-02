@@ -1,0 +1,42 @@
+From whuang@cco.caltech.edu  Tue Jan 10 16:48:49 1995
+Return-Path: <whuang@cco.caltech.edu>
+Received: from piccolo.cco.caltech.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23061; Tue, 10 Jan 95 16:48:49 EST
+Received: from accord.cco.caltech.edu by piccolo.cco.caltech.edu with ESMTP 
+	(8.6.7/DEI:4.41) id NAA00769; Tue, 10 Jan 1995 13:48:46 -0800
+From: whuang@cco.caltech.edu (Wei-Hwa Huang)
+Received: by accord.cco.caltech.edu 
+	(8.6.7/UGCS:4.41) id NAA24322; Tue, 10 Jan 1995 13:48:42 -0800
+Message-Id: <199501102148.NAA24322@accord.cco.caltech.edu>
+Subject: SKEWB
+To: cube-lovers@life.ai.mit.edu
+Date: Tue, 10 Jan 1995 13:48:41 -0800 (PST)
+X-Mailer: ELM [version 2.4 PL22]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 973       
+
+> 
+> > ishius@holonet.net writes:
+> > > Yes, these are on sale for $20 plus S/H.  However, I must say that as they
+> > > are difficult to manufacture, the mechanism is not as smooth as I would
+> > > prefer, the center cube faces sometimes need to be reglued, and the stickers
+> > > sometimes slide.
+> > 
+> > 	With regard to the stickers (as far as I can tell just the orange
+> > side has problems) I had good luck following the suggetions that came with
+> > mine (written up by Christoph Bandelow).  They recommend placing a piece of
+> > paper over the cube and ironing (not too hot).  This melts the glue and the
+> > stickers get a better grip.  I've not had any problems since.
+> > 
+> > 	Dave Litwin
+> > 
+> I believe the poster is referring to the fact that the plastic faces fall
+> off, revealing a screw inside, not the stickers (which are well done).
+> Super-glue solved my problem easily.  One more thing:  the mechanism gets
+> smoother after repeated use.
+> 
+> 
+> 
+
+

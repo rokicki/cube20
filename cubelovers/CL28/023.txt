@@ -1,0 +1,77 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct 12 19:34:22 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA21660
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 12 Oct 1999 19:34:21 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <016801bf0a44$caac3300$2e5755ca@pca200series>
+From: uwe@ue.net (Uwe Meffert)
+To: <HarLikin@aol.com>
+Cc: <Cube-Lovers@ai.mit.edu>
+References: <005801bf0a33$81b07be0$2e5755ca@jing-notebook>
+Subject: Re: Skewb corner malfunctions
+Date: Wed, 29 Sep 1999 14:35:12 +0800
+
+> -----Original Message-----
+> From: HarLikin@aol.com <>
+> To: Cube-Lovers@ai.mit.edu <Cube-Lovers@ai.mit.edu>
+> Date: Wednesday, September 29, 1999 10:01 AM
+> Subject: Skewb corner malfunctions
+>
+> After a hard day of solving the skewb for the first time it started
+>to become loose in my hands and eventually fall apart. As I put it
+>back together I noticed that the problem was that one of the four
+>corners which are connected to the internal mechanism would unscrew
+>whenever it was rotated counter clockwise, eventually causing it to
+>move far enough away from the mechanism as to cause the pieces to
+>fall away. Is this a problem which has been encountered by other
+>regular Skewbers? If anyone knows what sort of mechanism usually
+>keeps the corner attached properly and/or how to fix such an error I
+>would be grateful.
+>
+>-Terrence
+
+Dear Terrence
+
+I am sorry to hear that you are one of the very few persons experiencing
+problem with the Skewb. I believe that you are actually the first. Even so
+there have a few identical problems with the Prof.cube.
+
+What unfortunately happened is that when gluing the corner cap excess
+glue fixed the screw to the plastic corner piece that it should turn
+in.  So when you turn this section it will tighten / loosen that one
+screw.
+
+If you are skilful enough you can try and carefully remove the corner
+cap to expose the screw that has become loose.  Then try to remove the
+excess glue from around the screw with a sharp object and try turning
+the screw with a screwdriver firmly holding the plastic piece so you
+can break the glue bond.  Once the screw can freely turn inside the
+plastic part, re-tighten it to the same tension as it was originally,
+so as to allow smooth turning without any pieces falling out during
+play.  Then carefully using only very little glue fix the corner cap
+back into place.
+
+Please let me know the outcome of this recommended procedure. If you can't
+fix it please let me know and I will send you a free replacement.
+
+Sorry for any frustration and inconvenience caused.
+
+Good Luck and Happy Puzzling.
+
+
+With warm regards
+Uwe
+
+Let's keep puzzling alive!
+
+Uwe Meffert
+Meffert's Puzzles & Games
+2008, Remex Centre, 42 Wong Chuk Hang Rd,
+P.O. Box 24455, Aberdeen, Hong Kong.
+Tel. 852-2518-3080, Fax. 852-2518-3282.
+Email:- Uwe@Mefferts.com
+
+www.Mefferts.com
+

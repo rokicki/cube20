@@ -1,0 +1,19 @@
+Date: 31 Jul 1980 10:34 am PDT (Thursday)
+From: Woods at PARC-MAXC
+Subject: Re: 180 degree twists
+In-reply-to: ALAN's message of 31 July 1980 13:06-EDT
+To: CUBE-HACKERS at MIT-MC
+
+It appears that Singmaster, Thistlethwaite, and just about all the cube
+hackers I know at and around Stanford consider anything you can do
+with one wrist motion to be a single twist.  Since this gives a more
+accurate measure of how complicated a sequence is, I'm happy with it.
+Why do you folks at MIT insist that you're right and the world is wrong?
+
+(I admit it complicates the notation.  My own cube notation uses two chars
+per twist, one being the face and the other being the direction: left-arrow
+for counterclockwise, right-arrow for clockwise, down-arrow for 180 -- isn't
+extended ASCII wonderful?)
+
+	-- Don.
+

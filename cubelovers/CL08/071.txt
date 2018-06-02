@@ -1,0 +1,72 @@
+From reid@math.berkeley.edu  Tue May 19 13:25:44 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA14775; Tue, 19 May 92 13:25:44 EDT
+Received: from asparagus.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA25455; Tue, 19 May 92 10:25:38 PDT
+Date: Tue, 19 May 92 10:25:38 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205191725.AA25455@math.berkeley.edu>
+To: cube-lovers@ai.mit.edu
+Subject: assorted results
+
+>  > stripes: (18) F3 U1 F2 U3 R1 B2 R3 U1 F2 L2 U3 L1 B2 L3 U1 L2 U3 F1.
+>  > python: (15) R1 U3 F3 B1 L1 F2 L3 F1 B3 U3 R3 L1 F2 U2 L3.
+> I could not improve the first but what do you think of:
+> (12+ 2=14): U2 B3 D3 L1 F1 B3 U3 F1 U3 D1 R3 B1 D1 F2
+
+i mentioned these because i was particularly proud of them, especially
+since they were constructed by hand.  my program was able to improve
+"stripes", but i reoriented the pattern first.  perhaps this is why
+i had better success.  stripes (17 face / 20 quarter):
+R1 U1 D1 R2 F1 U3 D1 F3 B1 U3 R3 L3 B1 L2 U1 D3 B2  (14 + 3)
+so if you have any efficient pattern maneuvers that you're especially
+proud of, let's see if they can't be improved.
+
+> I did some more and found fast algorithms.  The most amazing one was for
+> the configuration with two 2x2x2 cubes embedded in the cube:
+> 	( 9+ 6=15): U1 L2 D1 R1 B3 R1 B3 R1 B3 D3 L2 U1 R2 F2 U2
+
+this can also be done in 18 quarter turns:
+L1 F1 L1 D3 B1 D1 L2 F2 D3 F3 R1 U3 R3 F2 D1  (13 + 2)
+also "cube within cube within cube"  17 face / 22 quarter turns:
+L3 D1 R3 B3 D1 L2 D2 L3 D3 L1 U1 D2 R3 U3 B2 R2 D3  (13 + 4)
+"twisted rings"  16 face / 18 quarter turns:
+B1 R1 B3 R2 U3 F3 L1 U1 R1 D1 L1 U3 B3 L1 U1 L2  (14 + 2)
+"twisted cube edges"  14 face / 14 quarter turns:
+D1 L3 B1 R1 D3 R3 D1 B3 L1 B1 R3 B3 R1 D3  (13 + 1)
+
+> Leider haben wir nur die Deutschen Ausgabe.  There are apparently
+> differences between the German and the English edition.  The English
+> edition is later and has probably improved sequences (he has promised
+> also improved sequences for the second German edition, but I do not
+> think it ever came out).
+
+'tis a shame.  the english edition is very good.  i've never seen the
+german.  in the english edition he gives several "open snakes".
+here's what my program has to say about them.
+"rattlesnake"  14 face / 18 quarter turns:
+F3 D3 L1 D3 L2 F1 B2 U1 L3 U3 R3 B2 R1 L2  (13 + 1)
+"black mamba"  14 face / 14 quarter turns:
+L1 U1 R1 F3 R3 L1 U1 L3 U3 D1 B1 D3 L3 U3  (13 + 1)
+"green mamba"  13 face / 14 quarter turns:
+R3 L2 F1 R1 U1 L3 F3 B1 U1 B3 U3 L3 U3  (12 + 1)
+"boa"  12 face / 16 quarter turns:
+D1 R1 F3 R1 L1 F2 R2 D3 L2 F2 L1 F3  (12 + 0)
+
+this last one was very nice, since it was completely solved in stage 1!
+
+> Also done, I do not look for ties.
+
+i am currently looking for ties, but will soon stop.  this is mainly to
+catch (by eye) maneuvers that are short quarter turn-wise.  i realize
+this is stupid for at least two reasons:  1: the program may well be
+passing up sequences which are shorter in quarter turns;  2: a slightly
+different version of the program will specifically look for the shortest
+sequence in quarter turns.  i'm trying to think of the best way to do this.
+unfortunately, the temptation is NOT to think, but to feed every
+imaginable pattern into the program.  :-)
+
+still need to do some polishing ...
+
+mike
+

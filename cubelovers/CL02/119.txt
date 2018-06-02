@@ -1,0 +1,11 @@
+Date: 30 July 1981 16:53-EDT
+From: Carl W. Hoffman <CWH at MIT-MC>
+Subject: Another Japanese cube
+To: CUBE-LOVERS at MIT-MC
+
+Sitting in the SIPB office is a super-group cube.  At least I think it's a
+super-group cube.  Four sets of facies show the symbols on playing cards,
+and the other two sets show five pointed stars of different types.  So the
+center facie carrying the diamond can have one of two orientations.
+Is it possible to rotate one center facie 180 degrees?
+(The cube is currently in the solved state, thanks to Jim Saxe.)

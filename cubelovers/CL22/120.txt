@@ -1,0 +1,35 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  2 22:08:57 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id WAA04763; Mon, 2 Jun 1997 22:08:57 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Mon, 2 Jun 1997 16:14:47 -0700
+From: Richard E Korf <korf@cs.ucla.edu>
+Message-Id: <199706022314.QAA22320@denali.cs.ucla.edu>
+To: jbryan@pstcc.cc.tn.us
+CC: cube-lovers@ai.mit.edu
+In-reply-to: <Pine.WNT.3.96.970602093611.-408329C-100000@ER123A.PSTCC.CC.TN.US> (message from Jerry Bryan on Mon, 02 Jun 1997 09:50:34 -0400 (Eastern Daylight Time))
+Subject: Re: A* versus IDA*
+
+Dear Jerry and fellow Cube-Lovers,
+   Unfortunately, the analysis of IDA* and A* is much harder than the
+corresponding analysis of alpha-beta minimax, and is still an open research
+problem.  The reason is that the running time of IDA* or A* depends on the
+accuracy of the heuristic function. If we use zero for the heuristic everywhere,
+which is still a lower bound, these algorithms degenerate into brute-force
+searches, which take b^d time, where b is the branching factor and d is the
+optimal solution length. On the other hand, if our heuristic function is
+perfect, and always gives us the exact number of moves needed to solve a state,
+then these algorithms run in time proportional to d, the length of the optimal
+solution. This would be practically instantaneous in this case.
+   My experience with my program is that the ratio of the number of nodes
+generated in searching from one level to the next is approximately the same as
+brute-force branching factor of about 13.35. The effect of the heuristic tables
+is to start this geometric progression at 8 or 9 instead of 0. This is greatly
+oversimplified, but conveys the gist of what I've been able to observe.
+                          -rich
+
+                                   -rich
+
+
+

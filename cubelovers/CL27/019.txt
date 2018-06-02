@@ -1,0 +1,76 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 31 14:47:54 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA29488
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 31 Mar 1999 14:47:54 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <4.1.19990331093309.0265e700@pop.ncsa.uiuc.edu>
+Date: Wed, 31 Mar 1999 09:48:07 -0600
+To: cube-lovers@ai.mit.edu
+From: Tom Magliery <mag@ncsa.uiuc.edu>
+Subject: Re: Keyboard cube [was: Re: Wrist pains]
+In-Reply-To: <199903302344.SAA11205@life.ai.mit.edu>
+References: <000001be7a68$23427d20$040a0a0a@laptop>
+
+i already sent this to noel directly, but since others are sending
+suggestions here i thought i'd toss in my thoughts about a keyboard cube
+interface...
+
+mag
+
+At 11:42 PM 3/29/99 -0500, Noel Dillabough unabashedly said:
+>There is a macro interface for the cubes to enter moves in UDFBLR notation,
+>but I am thinking of something that you could, with practice, manipulate a
+>cube in realtime using a keyboard.
+
+this is a wonderful user interface design challenge.  i've thought about it
+before, because i have never been comfortable with any of the mouse-based
+interfaces for moving 3d objects around.  i've never used one that seemed
+fully intuitive to me.
+
+i'd love to see an interface like this:
+
+* 5 faces of the cube visible at once (all except B), perhaps something
+like this (except square, and with the individual cubies showing of course):
+
+      +------------------+
+      |\                /|
+      | \      U       / |
+      |  \            /  |
+      |   +----------+   |
+      |   |          |   |
+      | L |    F     | R |
+      |   |          |   |
+      |   |          |   |
+      |   +----------+   |
+      |  /            \  |
+      | /      D       \ |
+      |/                \|
+      +------------------+
+
+* unshifted keys for turning each of the visible faces either CW or CCW, a
+total of 10 keys in all, and repeated on the left- and right-hand side of
+the keyboard.  the following diagram shows the cube operations thus
+associated with various keys (though the diagram is laid out mostly like
+the keyboard, i've added space between the hands for clarity):
+
+     w:L'  e:U'  r:U   t:R         y:L'  u:U'  i:U   o:R
+
+       s:F'        f:F                     j:F'        l:F
+
+         x:L   c:D'  v:D   b:R'          n:L   m:D'  ,:D   .:R'
+
+* shifted keys for turning the cube itself.  again, available on both
+hands.  3 axes of rotation, two directions each ==> only 6 keys needed on
+each hand.  but why not have even more duplication?  for example, suppose
+(in real life) you want to roll the cube forward away from you.  you might
+do it by either grabbing it from the R side or the L side.  hence the same
+10 keys as above, when shifted, work to turn the entire cube in the same
+direction as they turn the faces when unshifted.
+
+--
+///X  Tom Magliery, Research Programmer           217-333-3198  .---o
+\\\   NCSA, 605 E. Springfield      O-       mag@ncsa.uiuc.edu  `-O-.
+///   Champaign, IL 61820       http://sdg.ncsa.uiuc.edu/~mag/  o---'
+

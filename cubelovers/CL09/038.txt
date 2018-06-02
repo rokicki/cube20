@@ -1,0 +1,29 @@
+From ACW@riverside.scrc.symbolics.com  Thu Aug 20 16:24:45 1992
+Return-Path: <ACW@riverside.scrc.symbolics.com>
+Received: from RIVERSIDE.SCRC.Symbolics.COM by life.ai.mit.edu (4.1/AI-4.10) id AA22502; Thu, 20 Aug 92 16:24:45 EDT
+Received: from PALLANDO.SCRC.Symbolics.COM by RIVERSIDE.SCRC.Symbolics.COM via INTERNET with SMTP id 888810; 20 Aug 1992 16:25:53-0400
+Date: Thu, 20 Aug 1992 16:25-0400
+From: Allan C. Wechsler <ACW@riverside.scrc.symbolics.com>
+Subject: Re: subgroups
+To: hoey@aic.nrl.navy.mil, ACW@riverside.scrc.symbolics.com,
+        wft@math.canterbury.ac.nz
+Cc: Cube-Lovers@ai.mit.edu
+In-Reply-To: <9208201751.AA14111@sun30.aic.nrl.navy.mil>
+Message-Id: <19920820202540.7.ACW@PALLANDO.SCRC.Symbolics.COM>
+
+    Date: Thu, 20 Aug 1992 13:51 EDT
+    From: hoey@aic.nrl.navy.mil
+
+[...]
+						
+						Of course a list of *all*
+    the subgroups would have, um, over three beelion of them.  I suspect
+    it has more than 4.3x10^19.  Does anyone know a good way of counting
+    how many subgroups there are?  Or even a way of estimating the number?
+    By comparison, the symmetries of the cube form a 48-element group with
+    98 subgroups.
+
+All we should really be interested in are conjugate classes of
+subgroups.  I think.
+
+

@@ -1,0 +1,202 @@
+From mreid@ptc.com  Mon Jan 30 11:04:29 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02836; Mon, 30 Jan 95 11:04:29 EST
+Received: from ducie by ptc.com (5.0/SMI-SVR4-NN)
+	id AA28955; Mon, 30 Jan 95 11:03:02 EST
+Received: by ducie (1.38.193.4/sendmail.28-May-87)
+	id AA15148; Mon, 30 Jan 1995 11:16:56 -0500
+Date: Mon, 30 Jan 1995 11:16:56 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9501301616.AA15148@ducie>
+To: cube-lovers@ai.mit.edu
+Subject: Re: superflip requires 20 face turns
+Content-Length: 5225
+
+as promised, i reran the face turn search and collected data along
+the way.  total run time was 143.7 cpu hours (just a shade under
+six days) on an HP 9000 series 715, 100MHz clock.  so this machine
+is a bit faster than some of the others that helped out on the
+original run.  (there was also some overlap between different
+machines.)
+
+these figures also show why the cases starting with  R1 L1  and
+R1 L3  are so slow:  many more sequences in stage 1 to check.
+
+mike
+
+
+statistics below:
+
+depth in        number of times          solutions
+stage 1        stage 2 is reached          found
+
+superflip  R1 F1:
+
+ 9f                      2               23f, 22f
+10f                    942               21f, 20f
+11f                  19180
+12f                 255716               19f
+13f                2967572
+14f               32053344
+15f              330809868               18f
+
+superflip  R1 F2:
+
+10f                    948               22f, 21f
+11f                  19032               20f, 19f
+12f                 251312
+13f                2913516
+14f               31351632
+15f              321390912               18f
+
+superflip  R1 F3:
+
+ 9f                      2               21f
+10f                    942
+11f                  19180               20f, 19f
+12f                 255716
+13f                2967572
+14f               32053344
+15f              330809868               18f
+
+superflip  R1 U1:
+
+ 9f                      2               21f
+10f                    826
+11f                  17140               20f, 19f
+12f                 231130
+13f                2702062
+14f               29334386
+15f              303689360
+
+superflip  R1 U2:
+
+10f                    812               22f
+11f                  17080               21f
+12f                 232452               20f, 19f
+13f                2735896               18f
+14f               29776092
+15f              307802732
+
+superflip  R1 U3:
+
+ 9f                      2               23f, 22f
+10f                    826
+11f                  17140               21f, 20f
+12f                 231130               19f
+13f                2702062
+14f               29334386
+15f              303689360
+
+superflip  R1 L1 F1:
+
+ 7f                     96               20f, 19f
+ 8f                   1824               18f
+ 9f                  21768
+10f                 229616
+11f                2267728
+12f               21151120               17f
+13f              189906448
+14f             1660964664
+
+superflip  R1 L1 F2:
+
+ 8f                    384               22f, 21f, 20f
+ 9f                   8448               19f
+10f                 113440               18f
+11f                1268896
+12f               12941696
+13f              124124064
+14f             1141576128
+
+superflip  R1 L1 F3:
+
+ 7f                     96               20f, 19f
+ 8f                   1824               18f
+ 9f                  21768
+10f                 229616
+11f                2267728
+12f               21151120               17f
+13f              189906448
+14f             1660964664
+
+superflip  R1 L1 F3:
+
+ 7f                     96               20f, 19f
+ 8f                   1824               18f
+ 9f                  21768
+10f                 229616
+11f                2267728
+12f               21151120               17f
+13f              189906448
+14f             1660964664
+
+superflip  R1 L1 U1:
+
+ 9f                    832               22f, 21f, 20f
+10f                  16912               19f
+11f                 224248               18f
+12f                2597672
+13f               27754280
+14f              279317240
+
+superflip  R1 L1 U2:
+
+ 8f                    384               22f, 21f, 20f
+ 9f                   8448               19f, 18f
+10f                 113440               17f
+11f                1268896
+12f               12941696
+13f              124124064
+14f             1141576128
+
+superflip  R1 L1 U3:
+
+ 9f                    832               21f, 20f
+10f                  16912               19f
+11f                 224248               18f
+12f                2597672
+13f               27754280
+14f              279317240
+
+superflip  R1 L3 F1:
+
+ 7f                     96               21f, 20f, 19f
+ 8f                   1824               18f
+ 9f                  21768
+10f                 229616
+11f                2267728
+12f               21151120               17f
+13f              189906448
+14f             1660964664
+
+superflip  R1 L3 F2:
+
+ 8f                    384               22f, 21f, 20f
+ 9f                   8448               19f
+10f                 113440
+11f                1268896
+12f               12941696
+13f              124124064               18f
+14f             1141576128
+
+superflip  R1 L3 U1:
+
+ 9f                    832               23f, 22f, 21f, 19f
+10f                  16912
+11f                 224248
+12f                2597672               18f
+13f               27754280
+14f              279317240               17f
+
+superflip  R1 L3 U2:
+
+ 8f                    384               21f, 20f
+ 9f                   8448               19f
+10f                 113440               18f
+11f                1268896
+12f               12941696
+13f              124124064
+14f             1141576128
+
+

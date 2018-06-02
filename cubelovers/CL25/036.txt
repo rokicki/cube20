@@ -1,0 +1,20 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Apr 13 12:07:55 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA11586; Mon, 13 Apr 1998 12:07:53 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sat Apr 11 21:10:52 1998
+Message-Id: <01BD658D.8DD543C0@jburkhardt.ne.mediaone.net>
+From: John Burkhardt <jburkhardt@mediaone.net>
+To: "Cube-Lovers@ai.mit.edu" <Cube-Lovers@ai.mit.edu>
+Subject: RE: A workable 6x6x6 cube design (probably) - correction
+Date: Sat, 11 Apr 1998 21:05:25 -0400
+
+So who gets to try and make one?  I understood that the dies for the
+5x5x5 cube are too expensive to build now due to "lack of interest".  On
+the other hand, we should try to build one because we can.  If we can
+that is :)
+
+-JRB
+

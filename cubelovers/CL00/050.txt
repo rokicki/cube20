@@ -1,0 +1,7 @@
+Date: 25 JUL 1980 0845-EDT
+From: ZIM at MIT-MC (Mark Zimmermann)
+Subject: "blindfold" cube?
+To: CUBE-HACKERS at MIT-MC
+
+How long does it typically take for one to be able to work with only
+a mental image of the cube?  (As in"blindfold" chess, soma, pentominoes....)

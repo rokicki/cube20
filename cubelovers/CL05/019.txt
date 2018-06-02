@@ -1,0 +1,26 @@
+Date: 30 Jan 1983 3:15-EST
+From: Dan Hoey <hoey@cmu-cs-a>
+Subject: Finding optimal processes
+To: Cube-Lovers at mit-mc
+
+The best known bounds put the maximum number of qtw at between 21
+and 104.  At most about 1 percent of the cube's positions are
+within 18 qtw of solved.
+
+At each qtw, the number of positions increases by a factor of
+almost sqrt(12+5*sqrt(6))+sqrt(6)+2 ~ 9.374.  [I say ``almost''
+because this rate of increase does not take into account the
+identities of length 12 qtw or greater.  Eventually, long identies
+reduce this factor to zero.  But between six and seven qtw, the
+factor is about 9.356].  If we want to show a 2n qtw process
+optimal, we need only scan the table of n-1 qtw processes, so the
+increase is more like a factor of 3 per qtw.
+
+Finally, I would like to call attention to the fact that showing an
+18 qtw process to be optimal requires about 150 megabytes and two
+days on a PDP-20 for each such proof.  Finding someone to lend you
+a big machine and a big disk for two days is not something you can
+take for granted.  And if you want to do it on your Apple, be
+prepared to sit around swapping 2400 floppies in and out for the
+next decade or so, as that two day figure is mostly disk latency
+rather than CPU time.

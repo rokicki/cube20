@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 25 12:56:17 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA27652; Wed, 25 Mar 1998 12:56:16 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue Mar 24 16:46:37 1998
+Date: Tue, 24 Mar 1998 22:46:49 +0100 (MET)
+Message-Id: <199803242146.WAA06298@relay.euronet.nl>
+To: Cube-Lovers@ai.mit.edu
+From: Sytse <4xs2fs@euronet.nl>
+Subject: Re: 5^3 quiz
+
+Isidro,
+
+Who invented 5^3?
+
+At least I did. In 1982 I designed and built a 5^3 cube, all in plywood.
+Although I did not aplly for a patent or other registration, as I was only a
+schoolboy by then, the local newspaper recorded this event. As the wooden
+prototype was not as speedy as necessary, I later designed a simulator for
+the Sinclair ZX Spectrum (a then so called 'personal computer' with an
+amazing 48K RAM memory). This simulator also included a 6^3 cube. 7^3 was
+not possible as this did not fit in the screen, which was my parents
+television set. Oh, those were the days!
+
+Nowadays I am an architect.
+
+Kind regards,
+
+Sytse de Maat
+
+P.S. If you happen to know other designers of 5^3, please mail me.
+
+[ Moderator's note: Can you describe the design that held the plywood
+  model together while allowing it to turn? ]
+

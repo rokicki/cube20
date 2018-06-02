@@ -1,0 +1,22 @@
+From SCHMIDTG@beast.cle.ab.com  Fri May 12 09:58:46 1995
+Return-Path: <SCHMIDTG@beast.cle.ab.com>
+Received: from beast.cle.ab.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04759; Fri, 12 May 95 09:58:46 EDT
+Date: Fri, 12 May 1995 9:58:43 -0400 (EDT)
+From: SCHMIDTG@beast.cle.ab.com
+To: cube-lovers@ai.mit.edu
+Message-Id: <950512095843.20201a78@iccgcc.cle.ab.com>
+Subject: Rubik's Robot
+
+At the IPC show, a trade show for industrial controls held in Detroit this
+week, Kawasaki had a Rubik's cube solving robot.  The robot has two arms and
+hands and a video camera.  The robot is handed a scrambled cube, orients the
+cube in front of the camera until it has seen enough faces to deduce the
+current state of the cube; displays the number of moves required for its
+solution; and then solves the cube using both hands (grippers).  The robot
+is capable of manipulating the entire cube using only its hands, without
+relying on anything else such as a flat surface.  Unfortunately, I missed
+the show so this information was obtained second hand.
+
+-- Greg
+schmidtg@iccgcc.decnet.ab.com
+

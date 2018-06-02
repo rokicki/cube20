@@ -1,0 +1,38 @@
+From reid@math.berkeley.edu  Sun May 17 22:10:48 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA20296; Sun, 17 May 92 22:10:48 EDT
+Received: from phnom-penh.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA08289; Sun, 17 May 92 19:10:33 PDT
+Date: Sun, 17 May 92 19:10:33 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205180210.AA08289@math.berkeley.edu>
+To: Dik.Winter@cwi.nl, cube-lovers@life.ai.mit.edu, keng@zcar.asd.sgi.com
+Subject: Re:  My program is too fast ;-).
+
+stop it, you're killing me!  i also have the same idea for combining
+the "coordinates" in pairs, but i'm not getting too far implementing
+it.  :-(  i wouldn't suggest using singmaster's notes for pattern
+maneuvers.  have you seen bandelow's book?  it has very short
+maneuvers for most patterns, including two different ones for
+"walker's worm" in 14 turns (assuming i've got the right pattern in
+mind).  bandelow counts "slice turns" as one move, though, so
+his maneuver for 6X (order 3) is 24 face turns.
+
+what amazes me about this whole business is that the algorithm
+finds very short moves when they exist.  i would have expected
+the program to produce maneuvers of approximately the same
+length for all patterns.  i would say that this is a major step
+forward.
+
+you'll probably be swamped with patterns to test, but here's a
+couple:
+
+stripes: (18) F3 U1 F2 U3 R1 B2 R3 U1 F2 L2 U3 L1 B2 L3 U1 L2 U3 F1.
+
+python: (15) R1 U3 F3 B1 L1 F2 L3 F1 B3 U3 R3 L1 F2 U2 L3.
+
+since i found these by hand, i'm curious to see how close they
+are to optimal.  hopefully i'll have my program running soon.
+
+mike
+

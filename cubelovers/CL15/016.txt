@@ -1,0 +1,235 @@
+From mschoene@math.rwth-aachen.de  Tue Jan 24 17:15:49 1995
+Return-Path: <mschoene@math.rwth-aachen.de>
+Received: from samson.math.rwth-aachen.de by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10382; Tue, 24 Jan 95 17:15:49 EST
+Received: from hobbes.math.rwth-aachen.de by samson.math.rwth-aachen.de with smtp
+	(Smail3.1.28.1 #11) id m0rWtTe-000MPHC; Tue, 24 Jan 95 23:12 MET
+Received: by hobbes.math.rwth-aachen.de (Smail3.1.28.1 #19)
+	id m0rWtTd-00025hC; Tue, 24 Jan 95 23:12 WET
+Message-Id: <m0rWtTd-00025hC@hobbes.math.rwth-aachen.de>
+Date: Tue, 24 Jan 95 23:12 WET
+From: "Martin Schoenert" <Martin.Schoenert@math.rwth-aachen.de>
+To: cube-lovers@life.ai.mit.edu
+In-Reply-To: "Jerry Bryan"'s message of Wed, 18 Jan 1995 11:53:21 EST <9501181654.AA27651@life.ai.mit.edu>
+Subject: Re: Re: Re: Models for the Cube
+
+Jerry Bryan wrote in his message of 1995/01/18
+
+    Perhaps you could clarify your generating system and its respecting
+    of costs a bit further?
+
+I shall try.  This is partly to clarify things for myself.
+So excuse me if it is a bit long and formal.
+
+
+The Puzzle
+----------
+
+First let me formalize what kind of puzzles we are talking about.
+
+Assume that we have a set G of *basic states* with a unique basic solved
+state <id> (we may need to add further marks to distuingish all states).
+
+Assume that we have a set S of *simple operations*, such that each <s>
+transforms each basic state <g> into another, which we write as <g> <s>.
+Assume that for each simple operation <s> there is an *inverse operation*
+<s>' in S, such that if <g_1> <s> = <g_2> then <g_2> <s>' = <g_1>.
+
+A *process* is simply a sequence <s_1> ... <s_l> of simple operations.
+It induces an operation on the set G of basic states, i.e., it again
+transforms each basic state <g> into another, through the definition
+<g> (<s_1> ... <s_l>) := ((...(<g> <s_1>) ... ) <s_l>).
+
+I say that a process <p> *solves* a basic stage <g>, if <g> <p> = <id>.
+Assume that G and S are such that for each basic state <g> there is a
+process <p> that solves <g> (technically this means that the group of
+operations on G operates transitively on the set G of basic states).
+The goal of the puzzle is to find such a process for each basic state.
+
+If a process <p> solves a basic state <g>, then the inverse process <p>',
+that we get by reversing the sequence and replacing each simple operation
+by its inverse, transforms <id> into <g>, and I say <p>' *effects* <g>.
+
+Finally assume that G and S are such that if processes <p_1> and <p_2>
+effect the same basic state <g>, then they induce the same operations,
+i.e., then <h> <p_1> = <h> <p_2> for any other basic state <h> in G
+(technically this means that the group of operations on G operates
+regularly on the set G of basic states).
+
+This then allows us to identify the set G of basic states and the group
+of operations on G.  This in turn allows us to view G as a group, with
+the generating system S.
+
+Sometimes it is necessary to distuingish between a process, the operation
+it induces, and the basic state it effects.  When such a distinction is
+unnecessary, I shall simply talk about the *element* of G.
+
+I call the group G a model for the *basic puzzle*.
+
+For an example take Rubik's cube.  There are 24 * 43252003274489856000
+basic states.  The simple operations are the face turns (or quarter face
+turns if you prefer) and the rotations of the rigid cube.  Obviously each
+state can be solved and it is easy to verify that two processes that
+effect the same basic state induce the same operation.  The group CG is
+the model for the basic Rubik's cube.
+
+
+The Essential Puzzle
+--------------------
+
+Next we need to add the notion that, while all basic elements (states)
+are different, some are more different than others.
+
+Assume that there is a subgroup of *essentially free elements* F.
+Assume that we shall consider two elements <g_1> and <g_2> to be
+*essentially equal*, if there is an essentially free element <f> in F
+such that <g_1> <f> = <g_2>.  Then the sets of essentially equal
+elements are of course exactely the (left) cosets (<g> F).  We shall
+call such a coset an *essential element*.
+
+Assume that we have selected for each coset (<g> F) a representative
+r(<g> F).  Define the operation '*' on the set of left cosets by
+(<g_1> F) * (<g_2> F) := (r(<g_1> F) r(<g_2> F) F), i.e., the product of
+two cosets is the coset containing the product of the representatives.
+
+If the set of essential elements with this operations is a group,
+then I call this group a model for the *essential puzzle*.
+
+Note that there is no guarantee that we can select the representatives
+such that '*' defines a group.  That is, for some puzzles there may not
+be a group model for the essential puzzle.  This for example happens if
+G = < (1,2), (1,2,3,4) > is the symmetric group on four points and
+F = < (1,2)(3,4) >.
+
+Furthermore there is no guarantee that each selection that gives us a
+group, gives us the same group.  That is, for some puzzles there may be
+different nonisomorphic group models for the essential puzzle.  This for
+example happens if G = < (1,2), (1,2,3,4) > and F = < (1,2), (1,2,3) >
+is the stabilizer of one point, in which case C4 = < (1,2,3,4) > and
+V4 = < (1,2)(3,4), (1,3)(2,4) > are models.
+
+But if F is a normal subgroup, then it doesn't matter how we select the
+representatives; the operation '*' always gives us the factor group.
+
+Also if there is a supplement E of F (i.e., a subgroup E, such that
+G = E F and E <intersection> F = { <id> }), then selecting the elements
+of E as the representatives of the cosets gives us a group model for the
+essential puzzle.  This group model is of course isomorphic to E
+(but note that there can be nonisomorphic supplements).
+
+But there can be group models for the essential puzzle that come neither
+from the factor group nor from a supplement.  This for example happens if
+G = < (1,2,3,4,5,6,7,8), (2,8)(3,7)(4,6) > is the dihedral group of size
+16 and F = < (1,2)(3,8)(4,7)(5,6), (1,5)(2,6)(3,7)(4,8) >, in which case
+there are again two nonisomorphic models.
+
+For example in the case of Rubik's cube we usually consider two basic
+states to be equal if they are related by a rotation of the rigid cube.
+That is the subgroup F of essentially free elements is the subgroup C of
+rotations of the rigid cube in this case.  The usual group model for the
+essential Rubik's cube is the supplement G of C.
+
+
+The Costs
+---------
+
+Finally we need the notion of costs, both for the basic puzzle and
+the essential puzzle.
+
+In general let G be an arbitrary group, X a generating system for G that
+is closed under taking inverses (that is, for each <x> in X, <x>^-1 is
+also in X), and Z a subgroup of G.  Then roughly the cost of an element
+<g> in G wrt. X and Z is the length of a shortest process effecting <g>,
+where we only count the generators <x> in X, not the terms <z> in Z.
+
+More formally define G_(0) := Z and G_(l+1) := G_(l) <union> (G_(l) X Z).
+Since X is a generating system, there is a finite d such that G = G_(d)
+(and the smallest such d is called the diameter of G wrt. X and Z).
+We say that elements which lie in G_(l) but not in G_(l-1) have *cost* l.
+
+For the basic puzzle group G, we obviously use the cost function
+cost_G for G wrt. the generating system S and the subgroup F.
+So the cost of a basic state <g> is the length of a shortest process
+effecting <g>, where we count only the simple operations <s> in S,
+not the elements for the essentially solved operations <f> in F.  Note
+that of course the costs of two essentially equal elements are equal.
+
+For the essential puzzle group E, we want to find a cost function
+cost_E that preserves this cost.  That is, we want 
+cost_E( <g> F ) = cost_G( <g> ).  So the question is, can we
+choose a generating system X_E of E and a subgroup Z_E of E such that
+the cost function for E wrt. to X_E and Z_E has the above property.
+
+If you think about it for a moment, you will see, that we actually
+don't have any choice if we require cost_E( <g> F ) = cost_G( <g> ).
+Namely Z_E is simply the subgroup of E of the elements with cost 0.
+But if cost_E( <g> F ) is 1, then cost_G( <g> ) must be 1,
+so <g> must be in F, and then (<g> F) is F, i.e., the identity of E.
+Likewise X_E is simply the subset of E of the elements with cost 1.
+But if cost_E( <g> F ) is 1, then cost_G( <g> ) must be 1,
+so <g> must have the form <f_1> <s> <f_2>, so we see that X_E must be
+the set { (<f> <s> F) | <f> in F, <s> in S }.
+
+Now it turns out that those two conditions are not only necessary, they
+are in fact sufficient.  That is, if cost_E is the cost function for E
+wrt. the generating system X_E = { (<f> <s> F) | <f> in F, <s> in S }
+and the subgroup Z_E = { (<id> F) }, then cost_E preserves the cost,
+i.e. cost_E( <g> F ) = cost_G( <g> ).
+
+So for example in the case of Rubik's cube the cost of an element <g> of
+CG is the length of shortest process effecting <g>, where we only count
+the face turns (or only the quarter face turns), not the rotations of the
+rigid cube.  A model for the essential Rubik's cube is the supplement G
+generated by the face turns (without the rotations).  Because for each
+process we can collect all the rotations of the rigid cube at the end of
+a process, we see that the set X_E is simply the set of the face turns.
+
+For another example take the edges only cube CG[E].  The cost of an
+element <g> is again the length of the shortest process effecting <g>,
+where we only count the face turns, not the rotations.  A model for the
+essential edges only cube is E = <L[E],D[E],F[E],B[E]> (i.e., a subgroup
+of CG[E] that fixes one edge) (Confusion warning: running out of letters
+again, the first E stands for *e*ssential, the others for *e*dges).  If
+we want the cost function for E to preserve the costs in CG[E], we must
+take the generating system X_E = { (<f> <s> F) | <f> in F, <s> in S } =
+{ L[E],D[E],F[E],B[E],r[E]'*R[E],u[E]'*U[E], L[E]', ... }.  Otherwise
+some elements of E, will appear more expensive than they really are.
+
+
+Summary
+-------
+
+Assume we have a puzzle modelled by a group G of basic elements with
+a generating system S of simple elements and their inverses.
+
+Assume that we have a subgroup F of essentially free elements, and that
+we call two elements essentially equal if the lie in the same left coset
+of F in G.
+
+Given a system of representatives for the cosets of F in G, we define
+the product of two cosets as the coset containing the product of the
+representatives of the two cosets.  If this multiplication turns G/F
+into a group, we call this group a model for the essential puzzle.
+
+Note that such a model need not exist, i.e., it may happen that no system
+of representatives gives a group.  Also such a model need not be unique,
+i.e., different systems of representatives may give nonisomorphic models.
+
+The cost of an element in G is the length of a shortest process effecting
+this element, where we count only the simple elements from S, not the
+essentially free elements from F.
+
+Then the cost of an element in G is equal to the cost of its left coset
+in G/F wrt. the generating system { (<f> <s> F) | <f> in F, <s> in S }.
+
+
+Have a nice day.
+
+Martin.
+
+PS. I admit this more than a *bit* formal and long.
+Count it as my submission for the understatement-of-the-year award ;-)
+
+-- .- .-. - .. -.  .-.. --- ...- . ...  .- -. -. .. -.- .-
+Martin Sch"onert,   Martin.Schoenert@Math.RWTH-Aachen.DE,   +49 241 804551
+Lehrstuhl D f"ur Mathematik, Templergraben 64, RWTH, 52056 Aachen, Germany
+

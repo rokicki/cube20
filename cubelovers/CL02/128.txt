@@ -1,0 +1,10 @@
+ZILCH@MIT-MC 08/02/81 06:36:52 Re: 2edge-2corner swappers
+To: CUBE-LOVERS at MIT-MC
+   I know of 4 different transforms that swap 2 edges and 2 corners.
+LD'BRDR'B2LBL2D    (FD,RD),((DLF,DFR)
+R'DRD2R'L'DRD'LD2      (FD,LD),(FDL,FRD)
+FD2F'B'DFD'BD2F'D       (FD,LD),(LFD,BDR)
+FLFL'UBLB'U2FUF     (FD,DL),(DLF,DFR)
+
+I found the first 3 of these before I saw Singmaster and modified one of 
+Singmaster's into the fourth one which he didn't even have recorded.

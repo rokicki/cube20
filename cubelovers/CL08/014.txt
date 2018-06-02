@@ -1,0 +1,43 @@
+From hoey@aic.nrl.navy.mil  Thu Dec 12 10:29:25 1991
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA05785; Thu, 12 Dec 91 10:29:25 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA28868; Thu, 12 Dec 91 10:29:05 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Thu, 12 Dec 91 10:29:04 EST
+Date: Thu, 12 Dec 91 10:29:04 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9112121529.AA02722@sun13.aic.nrl.navy.mil>
+To: ronnie@cisco.com (Ronnie Kon)
+Subject: Rubik's cube dice tops
+Cc: Cube-Lovers@ai.mit.edu
+
+ronnie@cisco.com (Ronnie Kon) writes:
+
+> An original Sam Loyd puzzle involving the Rubik's cube has come into
+> my hands; somewhat surprising, in that Sam Loyd died in the early
+> years of this century, but no more so than the truly astounding
+> circumstances by which the puzzle came to me, which I would detail
+> if I believe that anyone were interested.
+
+Hmm.  A likely story.
+
+We are challenged to find ``tops'',
+
+> ... dice which are misspotted, by having only three different
+> numbers on them, each appearing opposite to itself ... spotted
+> 1-2-3, ... from a standard cube in 14 moves.
+
+Where he counts a half turn, a slice, and and a half-slices as one
+move each.  I have found how this can be done in 13 such moves.  I
+have some suspicion that it can be done in 12; I'll let you know.
+
+We are then challenged to convert this
+
+> ... into 2-3-4 tops ... in only 3 moves.
+
+The second part can be solved by any person who achieves mastery of
+the cube.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

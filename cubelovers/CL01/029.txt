@@ -1,0 +1,131 @@
+From: McKeeman
+To: McKeeman
+
+
+File: [Ivy]<McKeeman>Rubik.txt
+
+Kertesz' Algorithm for the Rubik Cube.  McKeeman  --  June 19, 1980
+
+Rubik's Cube is a 3x3x3 cube such that each of its 3x3 planes can rotate freely
+about its perpendicular axis.  There are 54 visible squares, colored in six sets of
+9.  There are 26 visible cubelets, each colored uniquely.  (Commercially available
+cubes are not colored consistently.)  The edge cublets have two colors; the corner
+cublets have three.
+
+The inventor is a Hungarian architect; my solution comes from Adam Kertesz, a
+Hungarian programmer I met in Poland.   It may be less precise than you like,
+but without pictures it is just too much to give all the details.  With a little
+struggle this should get you to a solution.
+
+The Problem:  From an arbitrary starting position, arrange the cube so that each
+3x3 surface is of a uniform color.
+
+Notation:  One can limit moves to 90o rotations of the six surfaces without losing
+anything.  It is convenient to describe the moves in terms of the orientation of
+the cube rather than the color.  The names of the faces are:
+  U=up
+  D=down
+  R=right
+  L=left
+  F=front
+  B=back.
+A move of R, for example, is a 90o clockwise rotation of the right face, RR = R^2
+is 180o, and R'=RRR= R^3 is 270o, or 90o counterclockwise.  For any move M,
+M'M is a no-op.
+
+Macros:  There a lot of macro-moves that are useful and interesting.  I will use
+six here:
+  X = R'F'UFUF'U'FRUU
+  Xr = LFU'F'U'FUF'L'UU
+  Y = RFFDFD'FFR'
+  Yr = L'FFD'F'DFFL
+  Z = R'DRFDF'
+  Z' = FD'F'R'D'R
+
+It is not trivial to use these things.  The general idea is to decide on the
+orientation of the cube, and then follow the directions mechanically.  Note that
+the color of the central square of every face is unchanged during a macro.  That
+is the easiest way to keep from getting messed up.  I mumble to myself "Red is
+Up, Blue is Front" or some such thing each time just before I dive into a macro. 
+I find it is even helpful to close my eyes during a macro when doing it from
+memory!  
+
+Kertesz' Algorithm:  Generally speaking the idea is to get the cube right one
+layer at a time.  They get increasingly hard (tedious) because you must be
+careful not to destroy work already done.
+
+----------------
+Layer 1:  Pick Up color.
+
+  Step 1.  Do Up edges.  The four Up edges must be moved between the two
+           center squares that have the same colors:
+
+    For each edge do
+      (a) hold target position UF  (i.e., up front, nearest you),
+      (b) get needed cubelet into bottom layer,
+      (c) rotate it under target position using D^n,
+      (d) do F^2, in which case you are done or it needs flipping,
+      (e) in which case F'UL'U' finishes it.
+
+You should now have the top "+" shape correct and matching the side center
+squares.
+
+  Step 2.  Do Up corners.  The four Up corners must be moved so that all three of
+           their colors match their neighbors.
+
+    For each corner do
+      (a) hold target position FUR  (i.e., up right, nearest your right hand),
+      (b) get needed cubelet into bottom layer,
+      (c) rotate it under target position using D^n,
+      (d) either DFD'F' or D'R'DR will bring it up,
+      (e) it may need rotation, in which case use Z for 120o clockwise, Z'
+          for counterclockwise.
+
+You should now have the top layer correct and matching the side center squares.
+
+----------------
+Layer 2:   The four remaining edges on layer two are next.  Y and Yr leave Up
+surface invariant.
+
+  For each layer 2 edge target do
+    (a) get needed cubelet into down layer (using Y or Yr if needed),
+    (b) rotate it 90o from under target using D^n,
+        matching color of nearest center square,
+    (c) hold needed cubelet DF
+    (d) if it needs F, do Y to bring it into position,
+    (e) if it needs F', do Yr.
+
+----------------
+Layer 3:   Turn puzzle over.  The macros X and Xr are used over and over
+again.  The sequence of events is to place the four up corners, place the four up
+edges, flip the edges if necessary, and finally rotate the corners if necessary.
+
+ Step 1.  Place Up corners.  One can always be rotated into position with U^n. 
+Among other things, X will exchange the RFU and RBU corners.  At most four
+applications of X will place all four corners.  It takes a little forethought.
+
+  Step 2.  Place Up edges.  X will also exchange the LU and FU edges.  Xr will
+exchange the RU and FU edges and the LFU and LBU corners.  Used in pairs X
+and Xr can exchange edges without changing corners.  That is, one use
+exchanges corners, the next carefully chosen one restores them.
+
+  Step 3.  Flip Up edges as necessary.  X^2 will flip both LU and FU edges. 
+
+  Step 4.  Rotate Up corners as necessary.   The macro ZU^nZ'U^-n will rotate
+two Up corners, one 120o and one 240o.  Place the one needing 120o in FUR, do
+Z, do U^n to bring one needing 240o into FUR, do Z'U^-n.  Don't look at the
+mess after the first rotation; it will destroy your morale.
+
+-----------------
+
+You should now be done.  It took me a couple of days to be able to solve the
+thing reliably.  Enjoy.
+
+P.S. Real Rubniks will want to write for:
+
+Notes on Rubik's 'Magic Cube', David Singmaster, Mathematical Sciences and
+Computing, Polytechnic of the South Bank, London SE1 0AA, England (send $5).
+
+
+------------------------------------------------------------
+

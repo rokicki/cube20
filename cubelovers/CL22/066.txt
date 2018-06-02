@@ -1,0 +1,27 @@
+From: gknauth@BBN.COM
+Subject: Professor cracks Rubik's cube mystery
+
+> From: Andy Lee <alee@worldstreet.com>
+
+Professor cracks Rubik's cube mystery
+
+LOS ANGELES (May 27, 1997 5:43 p.m. EDT) - A University of California
+computer science professor has solved the long-standing mystery of Rubik's
+cube, university officials said Tuesday.
+
+Richard Korf found a way to line up the colored squares of the cube in an
+average 18 moves and a maximum of 20, officials said without explaining
+exactly how it is done.
+
+Rubik's cube, launched in the 1970s by the Hungarian Erno Rubik, became a
+worldwide phenomenon, with people spending hours trying to manipulate it
+into color-coordinated rows.
+
+Korf is due to reveal his method at a national conference on artifical
+intelligence July 28 in Providence, Rhode Island.
+
+Copyright 1997 Nando.net, Agence France-Presse
+
+----- End of forwarded messages
+
+

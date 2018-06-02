@@ -1,0 +1,26 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Jan 28 12:26:26 1997
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id MAA18864; Tue, 28 Jan 1997 12:26:25 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Tue, 28 Jan 97 11:47:38 EST
+Message-Id: <9701281647.AA05417@MIT.MIT.EDU>
+X-Sender: dokon@po9.mit.edu (Unverified)
+X-Mailer: Windows Eudora Pro Version 2.1.2
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: Cube-Lovers@ai.mit.edu
+From: Dennis Okon <dokon@mit.edu>
+Subject: Broken Cube
+
+I've got a problem.  My cube (3x3x3) is quite old and very used.
+Unfortunately, I was using it the other day and the whole thing fell apart
+in my hands - the center cross piece that holds the whole thing together
+split in two.  I'm afraid all my attempts with gluing it back together have
+failed.  Does anyone know where I can get just the center piece?
+
+- Dennis Okon
+dokon@mit.edu
+
+
+

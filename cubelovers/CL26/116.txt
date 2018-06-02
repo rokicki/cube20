@@ -1,0 +1,119 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Feb 19 12:26:12 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA19007
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 19 Feb 1999 12:26:11 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 18 Feb 1999 23:45:18 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Edges only, Ignoring Flips, Face Turn Metric
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.990218232951.21673A-100000@PSTCC6.PSTCC.CC.TN.US>
+
+I have completed a God's Algorithm run in the face turn metric for the
+group consisting of edges only ignoring flips.  The size of the group is
+therefore 12!  The results are as follows:
+
+  Distance    Patterns   Positions    Branching
+    From                               Factor
+   Start
+
+     0f            1              1
+     1f            2             18     18.000
+     2f            9            243     13.500
+     3f           75           3240     13.333
+     4f          920          42535     13.128
+     5f        11406         542234     12.748
+     6f       136423        6529891     12.043
+     7f      1386164       66478628     10.181
+     8f      6481303      310957078      4.678
+     9f      1969536       94443600      0.304
+    10f          129           4132      0.000
+
+  Total      9985968      479001600
+
+I should mention that Herbert Kociemba was the first to calculate the
+"patterns" column.  He did it as a part of an investigation into
+developing an IDA* optimal solver, with the patterns column being part of
+a patterns data base used by the IDA* algorithm.
+
+I used my usual program where (for example) I calculate the set of all
+positions which are 10f from Start by forming the products of all
+positions which are 5f from Start in lexicographic order, and throwing
+away the duplicates and the ones that are shorter than 10f.
+
+This technique is reasonably efficient when the branching factor is fairly
+constant, as it is at this distance from Start for larger problems such as
+the whole cube.  However, it is very inefficient for this particular
+problem.  I have to calculate about (542234^2)/48 products just to get the
+129 products I keep at 10f from Start.  (The "divide by 48" takes symmetry
+into account.)  In a "one level at a time" search by contrast, the tail of
+the distribution usually goes very quickly because there are so few
+positions in the tail.
+
+I have come to believe that any corners only (with or without twist) or
+edges only (with or without flip) group, or the group which keeps both
+corners and edges but without twists and flips, will be a fairly poor
+pattern data base for IDA*.  The problem is that any such search space
+will have a diameter which is too small, and more importantly will have an
+average distance from Start which is too small.
+
+Here is why I think the diameter and average distance from Start will be
+too small for these groups.  Consider the quarter turn metric.  We know
+immediately that the maximum branching factor is 12 because there are 12
+quarter turns.  We know almost as immediately that the maximum branching
+factor beyond one move from Start is 11 because there is always at least
+one quarter turn that goes closer to Start.  Finally, readers of
+Cube-lovers know that the maximum branching factor is asymptotic to about
+9.3 because of Dan Hoey's syllable analysis.  Syllable analysis takes into
+account moves which commute because they are on opposite faces such as
+RL=LR.
+
+(Similar analysis for the face turn metric yields an asymptotic maximum
+branching factor of about 13.3)
+
+I have come to think of syllable analysis not just as an upper limit for
+the branching factor but as a predictor for the branching factor. Indeed,
+the actual branching factor differs from the branching factor "predicted"
+by syllable analysis only because of duplicate positions which arise from
+processes which are not accounted for by syllable analysis.
+
+Such duplicate positions must exist by the finiteness of the problem, else
+a God's algorithm search would be infinite.  But such duplicate positions
+are non-trivial and are generally not very close to Start. With the full
+cube, they are quite rare as close to Start as has been searched so far
+(10f and 12q, respectively).
+
+What happens with a typical search is that the branching factor stays
+relatively constant until within a couple of levels of the mode of the
+frequency distribution of the distances from Start.  The branching factor
+then declines rapidly due to duplicate positions, and there is a short
+tail in the frequency distribution just past the mode.
+
+The key point is that syllable analysis is identical for all groups
+involving corners only, edges only, corners and edges, and/or with or
+without twists and flips.  Hence, the basic branching factor is the same
+for all such groups.  Therefore, the mode of the distribution is reached
+much sooner when the group is smaller and the average distance from Start
+is much smaller.
+
+What would be desirable for a pattern data base for IDA* would be a
+subgroup of G whose branching factor was smaller so that the mode, the
+diameter, and the average distance from Start would be larger.  That is,
+what would be desirable would be a subgroup which was not constrained by
+standard syllable analysis.  Failing that, it seems to me that the only
+way to improve the pattern data base is to make it larger.  In this light,
+I interpret what Mike Reid (and more recently) Herbert Kociemba have done
+with their IDA* programs is to find clever ways to make their pattern data
+bases as large as possible, but they do it in such a way (using symmetry
+and other equivalence classes) that their large data bases are small
+enough to store in memory'
+
+As I think has been mentioned before, a group such as <U,R> has a small
+branching factor but is not suitable as a pattern data base for IDA*
+because the distance from Start for a particular position in <U,R> may be
+larger than the distance from Start for the same position in G.
+
+Jerry Bryan
+

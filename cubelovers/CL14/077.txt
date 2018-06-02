@@ -1,0 +1,44 @@
+From dlitwin@geoworks.com  Tue Jan 10 17:18:09 1995
+Return-Path: <dlitwin@geoworks.com>
+Received: from geoworks.com (fusion.geoworks.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25088; Tue, 10 Jan 95 17:18:09 EST
+Received: from radium.geoworks.com.geoworks by geoworks.com (4.1/SMI-4.1)
+	id AA18001; Tue, 10 Jan 95 14:13:01 PST
+Date: Tue, 10 Jan 95 14:13:01 PST
+From: dlitwin@geoworks.com (David Litwin)
+Message-Id: <9501102213.AA18001@geoworks.com>
+To: whuang@cco.caltech.edu (Wei-Hwa Huang)
+Cc: cube-lovers@life.ai.mit.edu
+In-Reply-To: <199501102148.NAA24322@accord.cco.caltech.edu>
+Subject: SKEWB
+
+
+Wei-Hwa Huang writes:
+> Dave Litwin writes:
+> > ishius@holonet.net writes:
+> > > ...
+> > > I would prefer, the center cube faces sometimes need to be reglued,
+> > > and the stickers sometimes slide.
+> > 
+> > 	With regard to the stickers (as far as I can tell just the orange
+> > ...
+> > 
+> > 	Dave Litwin
+>
+> I believe the poster is referring to the fact that the plastic faces fall
+> off, revealing a screw inside, not the stickers (which are well done).
+> Super-glue solved my problem easily.  One more thing:  the mechanism gets
+> smoother after repeated use.
+
+	If you notice the last line of the ishius@holonet.net post, they
+also mention the stickers sliding, which is what I was addressing.  I've
+only noticed 1 or 2 out of the at least 30 I've seen that *don't* have a
+problem with the orange stickers: sliding off, dog earing etc.
+
+	The problem of the center caps coming off is separate, and much
+easier to fix.  Actually, before you glue them on you may want to adjust
+the tensions of the screws on all the axes (only requiring one cap per
+axis, not all six).  The few I've done this to move much smoother when
+loosened (just a bit, as being too loose can cause problems of its own).
+
+	Dave Litwin
+

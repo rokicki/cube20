@@ -1,0 +1,40 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug  9 18:30:49 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA08961
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 9 Aug 1999 18:30:48 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Rubik's Cube Perpetual Calendar
+Date: 7 Aug 1999 18:53:51 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7ohvbv$k0t@gap.cco.caltech.edu>
+References: <cube-lovers.4.1.19990728163706.0096d9d0@gumby145.mail.iastate.edu>
+
+Corey Folkerts <gumby145@iastate.edu> writes:
+>I've attached a jpg of how I arranged all the characters. I make
+>no guarantees that is works, but I'm pretty sure it does.
+>Sorry to those of you who can't receive files. I would have made the
+>drawing ASCII, but I can't make upside or sideways characters =(
+
+>-Corey Folkerts
+
+>[Moderator's note: I don't send binary attachments out on this list.
+> However, I was able to decode Corey's picture, and here's a diagram.
+> Sorry for the delay in sending this message out. --Dan ]
+
+For those of you who want to see the original jpg, I've put it on my
+website at
+http://www.ugcs.caltech.edu/~whuang/gp/cube/calender-cube.jpg
+
+If anyone else would like to share graphics and stuff with the rest of
+cube-lovers, I can provide similar services.  Offer good until I get
+overwhelmed (not likely, I think).
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+It's not sarcasm.  It's reductio ad absurdum.
+

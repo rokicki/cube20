@@ -1,0 +1,13 @@
+Date: 31 December 1980 1511-EST (Wednesday)
+From: Guy.Steele at CMU-10A
+To: DCP at MIT-MC (David C. Plummer)
+Subject:  Icosahedron
+CC: cube-lovers at MIT-MC
+In-Reply-To:  DCP@MIT-MC's message of 31 Dec 80 11:15-EST
+Message-Id: <31Dec80 151120 GS70@CMU-10A>
+
+The icosahedron has twenty faces, not twelve.  It and the
+dodecahedron are duals: each has the same number of vertices
+as the other has faces.  If you join the centers of the faces
+of one with lines, you get the other.  They have the same
+number of edges.

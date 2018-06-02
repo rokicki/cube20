@@ -1,0 +1,77 @@
+From dik@cwi.nl  Wed Dec 21 20:16:25 1994
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09542; Wed, 21 Dec 94 20:16:25 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id <AA26266@cwi.nl>; Thu, 22 Dec 1994 02:16:04 +0100
+Received: by boring.cwi.nl 
+	id <AA03233@cwi.nl>; Thu, 22 Dec 1994 02:16:03 +0100
+Date: Thu, 22 Dec 1994 02:16:03 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9412220116.AA03233=dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: CFF 35
+
+CFF #35 came out, the editors expected it in December and it came
+out in December!  Good for them.
+
+Summary of contents.
+
+Vic Stok: Paving stones.
+  A new twist to polyominos.  Squares are linked in a brick-wall
+  fashion.
+
+Lee Sallows: Alphamagic squares.
+  About the construction of magic squares where, if you replace each
+  entry with the value of the word length, the result is magic again.
+  The most surprising for me was one square that was alphamagic in
+  both Welsh and Norwegian.
+
+Torsten Sillke and Bernhard Wiezorke: Stacking Identical Polyspheres.
+  Part 1: Tetrahedra.
+  Discusses many possible and impossible tetrahedra that can be
+  packed by polyspheres.
+
+Jan de Ruiter: Braiding.
+  An article about a contest problem issued on the Dutch 1992 Cube Day.
+  It involves (amongst others) the number of ways a braid can be made
+  from a varying number of bundles of hair.
+
+Joop van der Vaart: IPP 1994 Impressions.
+  Impressions from the 1994 International Puzzle Party in Seattle.
+
+Leo Links: Cube Day Impressions.
+  Impressions of the 1994 Dutch Cube Day in Stavoren.
+
+Result of contest 24 (CFF 33, Cross Pattern Piling).
+
+Anneke Treep: Anti-slide... a winner!
+  A short note about the Hikimi Wooden Puzzle Competition.  Wil Strijbos
+  from the Netherlands came second with his puzzle.  Start with 15 1x2x2
+  square pieces and a 4x4x4 box.  Pack the pieces in the box so that no
+  piece can slide.  Do the same with 14, 13, 12, 11 (actually the article
+  has a typo here).
+
+Columns:
+
+Mark Peters: Books and Magazines (reviews)
+Edward Hordern: What's Up? (details some new puzzles and other news)
+------
+CFF (Cubism For Fun) is the newsletter published by the
+Nederlands Kubus Club NKC (Dutch Cubists Club).
+Information can be obtained from one of the editors:
+Rik van Grol <rik@dutncp8.tn.tudelft.nl>.
+
+Membership fee is NLG 25 individual, NLG 80 institutional.
+(USD 1 ~ NLG 1.70).  Applications for membership to the
+treasurer:
+   Lucien Matthijsse
+   Loenapad 12
+   3402 PE  IJsselstein
+   The Netherlands
+
+If you write, please add an international reply coupon
+(can be obtained at your post office).
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland, +31205924098
+home: bovenover 215, 1025 jn  amsterdam, nederland; e-mail: dik@cwi.nl
+

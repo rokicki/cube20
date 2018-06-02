@@ -1,0 +1,13 @@
+Date: 8 Mar 1981 1834-EST
+From: JURGEN at MIT-DMS (Jonathan David Callas)
+To: KATZ at USC-ISIF, CUBE-LOVERS at MIT-MC
+Subject: Braille Cube
+Message-id: <[MIT-DMS].189113>
+
+I'm sure that it's all ready been done. (Blind people are very clever that way)
+There are the equivalents of dymo label-makers that print in Braille, and any
+random sighted person could label a cube (even randomized). I'd bet that it would very very slow, though. The eyes have a much greater informational bandwidth than the fingers.
+
+		-Jurgen at MC
+
+

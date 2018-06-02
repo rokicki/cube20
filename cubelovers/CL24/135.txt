@@ -1,0 +1,47 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jan 19 23:18:59 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id XAA09746; Mon, 19 Jan 1998 23:18:58 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Jan 19 00:02:09 1998
+Message-Id: <199801190500.AAA29703@life.ai.mit.edu>
+Date: Sun, 18 Jan 1998 23:59:30 -0500
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re:  Face Turns Nine Moves from Start
+Cc: jbryan@pstcc.cc.tn.us
+
+jerry writes about strong local maxima in the face turn metric.
+he says that superflip is such a position, but pons asinorum is not.
+there are some other positions with a high degree of symmetry that are
+also strong local maxima, for example
+
+     pons asinorum  composed with  superflip
+     superfliptwist
+     supertwist
+
+and some of the  T-symmetric positions that may not have standard names
+
+     #1.  B  U  L' F' U  R  U2 D2 F' L  U' B' L  D  R2 L2 B2
+     #4.  D' R' U  B' D' R' L  F  L  B' R' F  B' U  L  D' F  U' D2
+     #5.  B2 L  U' L  D  R' L' D2 R  U  L' B2 U  R2 U2 F2 U
+     #6.  D' L  F' B' L  F2 B2 U  R  L' U  D' L  F' R2 L2 F2 U' D2
+     #9.  U  F2 D  B' U' B2 R  B2 D' F2 U' D2 B2 L' U2 B  D2
+    #11.  D' F2 U2 B2 R  F' L  U' F2 B  R' F' D  L2 D  R2 F2 U' F2
+
+and there might be more among the  H-symmetric  and  T-symmetric
+positions (i can't tell right now without doing more searching).
+
+yes, strong local maxima in the face turn metric are probably quite rare.
+in the quarter turn metric, any global maximum is necessarily a local
+maximum, because of parity considerations.  however, in the face turn
+metric, a global maximum is a local maximum, but it may not be a strong one!
+so the only strong local maxima we have here are found as a result of
+(lots of) computer searching.
+
+i look forward to seeing your 2 strong local maxima at distance 9f from
+start.
+
+mike
+

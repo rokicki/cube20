@@ -1,0 +1,17 @@
+Date: 22 Sep 1982 1425-PDT
+From: ISAACS at SRI-KL
+Subject: OMNI cubes
+To: CUBE-LOVERS at MIT-MC
+
+  The current OMNI (Oct.) has mention of various "cubes" from Meffert, in
+the Games section.  Doesn't say much, but has nice pictures.  The main one
+of interest is the Megaminx, a cube-like cutting of a dodecahedron, so
+each face has 5 corners, 5 edges, and one fixed center (which only rotates,
+but does not move relative to the others), exactly as in the cube.  Scot
+Morris claims the Cube has 10^19 combinations, the Revenge has 10^48, and
+that the Megaminx has 10^69.  Is this correct?  Meffert claims the Megaminx
+is harder than the Revenge, but I would bet it is easier, in the sense
+that cube moves should move over easier, and do closer to the same things
+as before.  
+  -- Stan
+-------

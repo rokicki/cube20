@@ -1,0 +1,82 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Wed Dec  8 14:21:29 1993
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from mail.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA19082; Wed, 8 Dec 93 14:21:29 EST
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <54067(8)>; Wed, 8 Dec 1993 13:52:15 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA09857; Wed, 8 Dec 93 13:50:53 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 18D8B1; Wed,  8 Dec 93 13:41:19 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Antipodal Edge Position
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.600.5834.0C18D8B1@canrem.com>
+Date: 	Wed, 8 Dec 1993 12:33:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+>>It's got to be all edges flipped in place.
+
+Oops. Well I figured if all edges flipped was one of the hardest
+know cube states that in the case of edges-only it would be the
+antipode. I'm now sure (I think) that it is really:
+
+       all edges flipped + 4 X
+(with the 4 X on sides F, R, B, L which should match Dan's diagram)
+
+Hmmmm, I don't know if this is a standard form of representation,
+but this picture looks like a folded out cube:
+
+               + T +                        + F +
+               T   T                        R   L
+               + T +                        + B +
+
+        + L +  + F +  + R +          + D +  + D +  + D +
+        L   L  F   F  R   R    =>    F   B  R   L  B   F
+        + L +  + F +  + R +          + T +  + T +  + T +
+
+               + D +                        + B +
+               D   D                        R   L
+               + D +                        + F +
+
+               + B +                        + T +
+               B   B           --------->   R   L
+               + B +           |            + D +
+                               |
+
+                             + D +
+In my program I would have   L   R  on the screen for the bottom face.
+                             + T +
+
+The idea is you are always looking at a cube face head-on (just to
+clarify the difference in diagrams).
+
+More quotes for Jerry Bryan:
+>The "edges of the 3x3x3 without centers" is a little tougher.  Early
+>in the project, I generated a data base for the first few levels
+>(six or seven, I think), and I have a "Solver program" that will
+>work up to that level.  However, the full "edges of the 3x3x3 without
+>centers" is a 4.2 gigabyte file on tape, so it is hard to process.
+>Also, the size of the equivalence classes is not in the data base,
+>only the level.  I have to calculate the size of each equivalence
+>class, and it is an expensive calculation.
+>
+>I made a pass at the
+>file and calculated the number of equivalence classes (took
+>125 hours on a mainframe), but I only saved a summary.  I did not
+>save the number of equivalence classes for each state.  I found
+>the antipodal by looking for level 15, since I knew there was
+>only one occurrence, and since the level was in the data base.
+>
+>I am not yet for sure what they look like, but of the other two states
+>with order-24 equivalence classes, one is at level 9 and the other
+>is at level 12.  Since the only one at an even level is at level 12,
+>I am assuming that will be the one which is Start with the edges all
+>flipped.  The one at level 9 will probably be the mirror image of
+Start.
+
+I'd still like to see the process for all-edges-flipped (not
+caring about the centres or corners). So "level" is the number of moves
+required to solve the position? That means edges flipped in place
+can be done in 12 qtw.
+

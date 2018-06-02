@@ -1,0 +1,21 @@
+Received: from harvard.HARVARD.EDU by AI.AI.MIT.EDU 19 Aug 86 10:45:41 EDT
+Received: by harvard.HARVARD.EDU; Tue, 19 Aug 86 10:44:51 EDT
+Date: Tue, 19 Aug 86 10:44:51 EDT
+Received: by h-sc4.HARVARD.EDU; Tue, 19 Aug 86 10:44:36 edt
+From: mazzarel%h-sc4@harvard.HARVARD.EDU
+To: cube-lovers@mit-ai.arpa
+Subject: Paraphernalia
+
+
+I bought a book about four years ago in Boston that had procedures for
+generating all sorts of patterns on the 3x3 cube.  I think it was about
+five to ten 8-1/2 x 11" pieces of paper folded in half and stapled to
+form a book.  The cover was blue paper.
+
+Unfortunately, I lost it moving about half a year after that.  By that
+time I guess interest in the cube was waning; I have not been able to
+find another copy.  If anyone else has a copy or just knows where to
+find them, could you please post it to this newsgroup?  I thought it
+was quite a find, and think no cube lover should be without one.
+
+                               --Paul (pm@harvard.HARVARD.EDU)

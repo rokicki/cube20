@@ -1,0 +1,35 @@
+Date: 24 May 1982 22:54:03 EDT (Monday)
+From: Bernie Cosell <cosell at BBN-UNIX>
+Subject: The missing C^4 transform found
+To: cube-lovers at mc
+
+I have to admit to not quite yet fully understanding all of the
+parity issues involved, however I have managed to apply some VERY
+SIMPLE logic to the mysterious transform and since it worked I'd
+like to share the insight with you-all. 
+As I mentioned in an earlier note I have been trying to do some
+analysis to try to sneak up on the missing transform.  Mostly
+I've been unsuccessful at fully identifying the parity issues
+(my understanding is basically at the same not-so-useful level as
+wbe's is: I kind of know that some moves seem to come in pairs and
+there are two `classes' of edge cubes and if you interchange one from each
+class they both flip... but that mostly didn't help me see what had to be done
+to make the `missing transform' happen, nor would it let me look at a scrambled
+cube (or even a nearly-done cube) and guess which parity class it was in).
+
+However, I did make one observation: all of my normal transforms contained an
+EVEN number of quarter-twists.  I fumbled around a bit to try to find a
+limited-change transform that used an ODD number of twists and mostly I
+couldn't.  So I decided to simply take the `simplest' odd-twist transform I
+could: a single twist!  IT WORKS!!  As far as I can tell it must be a slice
+twist (but ANY one), a face twist doesn't do it.  If I get the cube edges all
+solved except for a pair that must be flipped, I simply make a SINGLE quarter
+slice and then re-solve the cube from there.  Since all of my normal solving
+maneuvers are EVEN, when I get the thing solved again I will have preserved the
+ODD parity of the configuration, and poof! the edges are solved.
+
+Now to start on the search for pretty patterns and elegant (and short)
+operators...
+
+  /Bernie
+

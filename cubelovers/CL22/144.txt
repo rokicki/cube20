@@ -1,0 +1,54 @@
+From cube-lovers-errors@oolong.camellia.org  Fri Jun  6 11:48:04 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id LAA10753; Fri, 6 Jun 1997 11:48:03 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+X-Authentication-Warning: csd.cs.technion.ac.il: rubins owned process doing -bs
+Date: Fri, 6 Jun 1997 14:02:37 +0300 (IDT)
+From: Rubin Shai <rubins@cs.technion.ac.il>
+X-Sender: rubins@csd
+Reply-To: Rubin Shai <rubins@cs.technion.ac.il>
+To: SCHMIDTG@iccgcc.cle.ab.com
+cc: cube-lovers@ai.mit.edu
+Subject: Re: Categorization of cube solving programs
+In-Reply-To: <970605225656.21412b24@iccgcc.cle.ab.com>
+Message-ID: <Pine.GSO.3.95-heb-2.07.970606133829.11905A-100000@csd>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+
+On Thu, 5 Jun 1997 SCHMIDTG@iccgcc.cle.ab.com wrote:
+
+> Cube Lovers,
+> Class 4:	A program which attempts to discover an ALGORITHM to
+> 		solve ALL randomized cubes.  The program starts off only
+> 		with a model of the cube and attempts to discover a general
+> 		procedure which solves all permutations of the cube.
+> 		Korf wrote a program to do this in the mid 1980s.
+> 		The program was able to learn a complete set of
+> 		sequences (a.k.a. 'macros') sufficient to solve any
+> 		scrambled cube.  The resulting algorithm is very
+> 		much like a Class 2 algorithm as it works in stages
+> 		to solve the cube and does not generally produce
+> 		optimal solutions.  I believe Korf's program is
+> 		the only program ever achieved that can be placed
+> 		in this category.
+> 
+Hello Greg
+I read Korf's work about macro learning and in particular his work about
+the cube. Also I don't have a program that learn to solve the 3X3X3 cube I
+have succeeded to write a program that learn to solve the 2X2X2 cube.
+I have used the Micro-Hillary algorithm:
+reference can be found in http://www.cs.technion.ac.il/~shaulm/
+The basic problem in order to finish this work for the 3X3X3 cube was the
+lack of a 'good' heuristic function. 
+Maybe after the last achievements in the heuristic field this algorithm can
+be used to solve the 3X3X3 cube.
+Regards 
+Shai
+ 
+
+
+
+

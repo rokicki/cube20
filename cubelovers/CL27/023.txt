@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Apr  2 03:11:29 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id DAA06917
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 2 Apr 1999 03:11:29 -0500 (EST)
+Message-Id: <199904020811.DAA06917@mc.lcs.mit.edu>
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 1 Apr 1999 15:56:33 -0500 (EST)
+From: Dale Newfield <din5w@cs.Virginia.edu>
+Reply-To: DNewfield@cs.Virginia.edu
+To: "Cube Lovers (E-mail)" <Cube-Lovers@ai.mit.edu>
+Subject: Re: Spaceball (tm) input to a Cube simulator
+In-Reply-To: <Pine.BSF.3.96.990401140302.3465Q-100000@shell2.tiac.net>
+
+On Thu, 1 Apr 1999, Nicholas Bodley wrote:
+> If anyone has a Spaceball, it should make quite a nice input device.
+> It senses both torque about all 3 orthog. axes, and linear
+> displacement forces ditto; a total of 6 channels. Displacement could
+> select a layer, which could be highlighted (anyone for alpha-channel
+> translucency?), and torque would rotate the selected layer.
+
+Except that it is typically quite difficult to separately control
+translation and rotation with these devices.
+
+-Dale
+

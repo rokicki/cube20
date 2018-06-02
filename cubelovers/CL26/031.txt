@@ -1,0 +1,49 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Nov 18 13:27:34 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA28426
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 18 Nov 1998 13:27:29 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3.0.32.19981113091853.00948790@mail.spc.nl>
+Date: Fri, 13 Nov 1998 09:18:55 +0100
+To: cube-lovers@ai.mit.edu
+From: Christ van Willegen <c.v.willegen@spcgroup.nl>
+Subject: MegaMinx/5^3 (Was: RE: Query for Corners-First Method Rubik Solution)
+
+At 09:03 11-11-1998 -0800, you wrote:
+>Hi,
+>
+>Thanks for the link to your Puzzler program.
+>
+>You're not going to believe this, but you can still purchase the
+>Professor's Cube (5x5x5) and the Megaminx! Since it's difficult... no,
+>impossible to find anyone that sell these puzzles, I think it's worth
+>mentioning. You can get them from Meffert's site:
+>http://ue.net/mefferts-puzzles/
+
+Also, a store in The Netherlands sells these! Last time I was there
+(last saturday), they had;
+- a couple of 3^3's
+- a couple of 5^3's
+- skewb
+
+I can't recall if they had a Megaminx at that time.
+
+The store is based in Eindhoven. If anybody wants some, I can buy
+them and send them out.
+
+5^3 costs F. 50 (about $25). 3^3 costs F. 10 (about $5).
+
+Before anybody gets this wrong:
+- I do not work for them, I'm a happy customer
+- I don't get paid to do this
+- I make no money out of this
+
+You can call them at: +31-40-2461376
+
+Business hours are 0900 to 1800. The Netherlands is at CET
+(differs +6 hours with NY, +9 with CA)
+
+Christ van Willegen
+

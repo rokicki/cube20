@@ -1,0 +1,49 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jul 25 12:21:37 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA15510; Fri, 25 Jul 1997 12:21:36 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From R.F.Hegge@MP.TUDelft.NL Thu Jul 24 04:40:13 1997
+Date: Thu, 24 Jul 1997 10:36:30 +0200
+From: R.F.Hegge@MP.TUDelft.NL (Rob Hegge)
+Subject: Re: Where can I get...?
+To: CUBE-LOVERS@ai.mit.edu
+Message-Id: <9707240836.AA12191@sumatra.mp.tudelft.nl>
+Content-Transfer-Encoding: 7BIT
+X-Sun-Charset: US-ASCII
+
+> Rubik's Wahn (5x5x5) (maybe also called Professor's cube, Ultimate or
+> Master Revenge)
+> Rubik's Revenge (4x4x4)
+> Rubik's Domino (3x3x2)
+> Rubik's Pocket Cube (2x2x2)
+> Pyraminx
+> Pyraminx Octahedron
+> Megaminx
+> 
+> I'd prefer sources in germany, although I doubt it that I can find any of
+> them here...
+
+Most of them can indeed be bought from C.Bandelow.
+
+The only source for a 4x4x4 that I know of is Puzzletts, where I bought mine
+a year ago for about 50 US $. You can see their online mailorder catalog at
+www.puzzletts.com. They are based in Seattle, USA.
+
+I myself am still looking for Rubik's Domino (3x3x2).
+
+Rob, 
+r.f.hegge@ctg.tudelft.nl
+
+PS
+If you or anyone else is interested in puzzles like this. There still exist
+a club called "Nederlandse Kubus Club" (NKC) or Dutch Cubist Club.
+About half of its members are not Dutch, despite its name, but American,
+German, Japanese etc. They publish a magazine called Cubism For Fun (CFF)
+three times a year, which deals with all kinds of (mechanical) puzzles, like
+polyform puzzles, sliding puzzles, rotational puzzles, burrs etc. They also
+organise a Cube Day once a year in the Netherlands for members with talks
+about puzzles and where new and SECOND HAND puzzles can be traded, bought,
+admired etc.
+

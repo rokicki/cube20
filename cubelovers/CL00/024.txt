@@ -1,0 +1,29 @@
+Date:  17 July 1980 21:18 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: Confusion
+To:  Mike at UCLA-Security (Michael Urban)
+cc:  lauren at UCLA-Security, cube-hackers at MIT-MC
+In-Reply-To:  Message of 17 July 1980 18:12 edt from Michael Urban
+
+The easiest way to see how the thing is put together is to take it apart.
+If you turn the "top" plane 45 degrees, you can pry out the
+top edge cube (any of the 4) fairly easily, and it becomes clear
+how the devilish thing is put together.
+
+In three lines or less, all the center-of-face pieces are on a
+6-armed, solid, rigid cross. They can spin, but that's it.
+The EDGE pieces (i.e., not the corneres) have a rectangular
+projecction from their non-visible edge which gets them stuck
+behind whichever two center-of-face pieces they're currently
+visiting.  While not rotating, it's stuck behind two. while
+rotating it (a edge piece) is stuc behind the one
+on its rotating face, and a groove that all edge pieces
+have on their sides, in this case on the edge pieces of the
+next plane back.  The corner pieces have little cube-like
+projections on their invisible corners that basically
+wedge in behind the edge pieces, which are stuck as desribed
+above. No magnets, wires, universal
+joints or rubber bands.
+
+IF youshould decide to take one apart, be SURE to put it
+together SOLVED to ensure solvability.

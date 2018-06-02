@@ -1,0 +1,49 @@
+From pbeck@pica.army.mil  Thu Aug  1 08:11:10 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA19857; Thu, 1 Aug 91 08:11:10 EDT
+Date:     Thu, 1 Aug 91 7:55:41 EDT
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu, sonicdruid@sctnve.sct.peachnet.edu
+Cc: pbeck@pica.army.mil
+Subject:  last cube
+Message-Id:  <9108010755.aa28998@FSAC1.PICA.ARMY.MIL>
+
+
+The question was "where can I obatin the last cube made"
+
+I am going to assume that last cube means "MAGIC POLYHEDRA", of
+which there a three families:  the cube with 3 axis of rotation, the
+tetrhedron group with 4 axis of rotation, the dodecahedron group
+with 5 axis of rotation.
+
+The last original addition I have seen was a spherical SKEWB, april 1991.
+Jean Claude Constantine (germany) is making shape/surface variants by
+hand based on all three mecahanisms, eg, take a 3x3x3 and join together
+(make in operable) one 2x2x2 corner - you can now change those pieces shape
+anyway you want - by the way this type of restriction on the moves available
+to solve the cube are very interesting.  Also, in the spring of 1991
+Christoph Bandelow has reintroduced the truncated octahedron and had the
+Hong Kong factory complete from previously manufactured parts some 5x5x5's.
+
+In my estimation there will NEVER be a last cube.
+
+Solutions for all magic polyhedra, except the spherical skewb have been 
+published.  First source is CFF ,cubism for fun newsletter of 
+dutch cubists club,  some where also published in world game review.  
+Puzzles popular when ideal was in business where also covered by many
+popular publications which are now hard to get.  CFF has a library
+and somebody has a bibliography of solution algorithms, including
+Thistletwaites ??.
+
+This is a general answer if there are specific questions please ask them!!
+
+PS I sell much of this stuff and your US mail address will get you a listing
+of what is available from me.
+
+PPS I also collect this stuff and would like to trade and/or buy, any
+quantity, ie, onesies to 100s.  Not only puzzles but all things a
+associated with the cube - books, patents, solutions, accessories,
+promotional items, replacement stickers, what have you.  a good overview
+of this kind of stuff is in jerry slocum's book puzzles old and new.
+
+

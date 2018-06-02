@@ -1,0 +1,35 @@
+From @mitvma.mit.edu:hans@freyr.research.ptt.nl  Sat May 30 14:26:53 1992
+Return-Path: <@mitvma.mit.edu:hans@freyr.research.ptt.nl>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) id AA07529; Sat, 30 May 92 14:26:53 EDT
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 6142; Sat, 30 May 92 14:27:59 EDT
+Received: from research.ptt.nl by MITVMA.MIT.EDU (Mailer R2.08 R208004) with
+ BSMTP id 1345; Sat, 30 May 92 14:27:58 EDT
+Received: from dnlunx.research.ptt.nl (DNLUNX) by research.ptt.nl (PMDF #12085)
+ id <01GKMUCOZXDCDQGRT4@research.ptt.nl>; Sat, 30 May 1992 19:41 +0100
+Received: by gefjon.dnl (4.1/SMI-4.1) id AA03556; Sat, 30 May 92 19:40:37 +0200
+Date: Sat, 30 May 92 19:40:36 MET DST
+From: J.M.Kloosterman@research.ptt.nl (Hans Kloosterman)
+Subject: Re:  Lower-bound Kociemba's algorithm
+In-Reply-To: <9205300044.AA01102.dik@steenbok.cwi.nl>; from "Dik.Winter@CWI.NL"
+ at May 30, 92 2:44 am
+To: Dik.Winter@cwi.nl
+Cc: cube-lovers@life.ai.mit.edu
+Message-Id: <9205301740.AA03556@gefjon.dnl>
+X-Envelope-To: cube-lovers@life.ai.mit.edu
+X-Mailer: ELM [version 2.3 PL11]
+
+> Did you (since your article) do an exhaustive search?  In your article you
+> mentioned that you had 6 positions that still do require 18 moves.  And you
+> mention that you doubted that there would be 17 move solvers.  Have you
+> proven since then that it can not be done in less than 18?  If not, send me
+> your positions and I will try.
+
+I have done an exhaustive search and none of the 6 situations of 18 moves
+could be reduced to 17 moves (within the group of <R2,L2,F2,B2,U,D>).
+For the case you want to verify, one of them is:
+
+   L2 U R2 B2 U2 B2 L2 D2 L2 F2 D' L2 B2 F2 L2 F2 U' D
+
+Hans Kloosterman
+

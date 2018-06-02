@@ -1,0 +1,46 @@
+From ccw@eql12.caltech.edu  Fri Aug  6 22:37:43 1993
+Return-Path: <ccw@eql12.caltech.edu>
+Received: from EQL12.Caltech.Edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09504; Fri, 6 Aug 93 22:37:43 EDT
+Date:     Fri, 6 Aug 93 12:50:32 PDT
+From: ccw@eql12.caltech.edu (Chris Worrell)
+Message-Id: <930806124838.23c011ac@EQL12.Caltech.Edu>
+Subject:  Re: Square-1 Puzzle Party
+In-Reply-To: Your message <01H1EMUZ0T1E91XFD4@delphi.com> dated  6-Aug-1993
+To: CPELLEY@delphi.com
+Cc: ccw@eql12.caltech.edu, cube-lovers@life.ai.mit.edu
+
+Sorry.  I can't let this one pass by without comment.
+
+CPELLEY@delphi.com says
+> Richard Snyder's book on Square-1 is now being published.  He sent me the
+> following press release about a forthcoming Square-1 Puzzle Party:
+<text deleted>
+> It's really two puzzles in one!  Harder than Rubik's, it's so hard that
+> only 5 people in the whole world have ever been able to come up with a
+> complete solution to it!
+
+Unless Snyder or his agent is talking about a God's Algorithm for
+Square-1, this statement is ridiculous.
+I doubt that this number includes myself, as I have only told a few family
+members and friends that I have solved this.  (I expect many of you can say
+the same thing.)
+
+Harder than Rubik's?  This is a matter of opinion and definition.
+Do they mean conceptually harder, harder to derive a solution method,
+harder to prove a solution method, or harder to achieve an individual
+solution attempt?  Or does harder just mean more time?  More time
+to derive a solution method, more time to prove a solution method,
+or more time to achieve an individual solution attempt?
+I don't really doubt the last.  Except for the Pyraminx (and the 2-Cube),
+all of the puzzles of this type take me longer to solve than the Cube.
+I think that the Rubik's cube still holds the record as the puzzle that
+took me longest to derive a solution method.  (Of course all of the others
+borrowed substantially from the cube.)
+
+>Bring your Square-1, your Rubik's Cube, and your other Rubik's puzzles that
+>you haven't been able to solve!
+Sorry, I don't have any.  Except the 10x10 Rubik's Tangle.
+
+Chris Worrell
+ccw@eql.caltech.edu
+

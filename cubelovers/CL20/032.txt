@@ -1,0 +1,26 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Jun  5 15:27:15 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id PAA07391 for <cube-lovers-outbound@curry.epilogue.com>; Wed, 5 Jun 1996 15:27:14 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 5 Jun 1996 09:30:21 +0100
+Message-Id: <96060509302127@glam.ac.uk>
+From: VANESSA PARADIS WANTS ME <cmaggs@glam.ac.uk>
+To: CUBE-LOVERS@ai.mit.edu
+X-Vms-To: RUBIKCUBE
+
+To have a bit more challange when doing the cube, complete it so that each 
+horizontal slice, is 1 turn (quarter of a full circle) out of place.
+Therefore, top and bottom face are one colour, but all side faces contain 3
+colours.
+Boy, is it hard!
+
+By the way, I can do the cube in 1 minute 26 seconds.
+How does that compare with everyone else!
+(P.S. Please be fair, I`ve only been doing it for 6 weeks or so!)
+
+Chris
+
+CMAGGS@GLAM.AC.UK
+
+

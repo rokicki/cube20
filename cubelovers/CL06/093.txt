@@ -1,0 +1,10 @@
+Received: from Xerox.COM (TCP 1500006350) by AI.AI.MIT.EDU 26 Jul 88 20:11:04 EDT
+Received: from Gamay.ms by ArpaGateway.ms ; 26 JUL 88 14:38:58 PDT
+Sender: Hoffman.es@Xerox.COM
+Date: 26 Jul 88 14:39:50 PDT (Tuesday)
+Subject: Rubik's Clock
+To: Cube-Lovers@AI.AI.MIT.EDU
+From: Rodney Hoffman <Hoffman.es@Xerox.COM>
+Message-ID: <880726-143858-1670@Xerox>
+
+

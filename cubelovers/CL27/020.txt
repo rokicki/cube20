@@ -1,0 +1,79 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 31 21:24:53 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA00984
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 31 Mar 1999 21:24:53 -0500 (EST)
+Message-Id: <199904010224.VAA00984@mc.lcs.mit.edu>
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 30 Mar 1999 21:57:43 -0500 (EST)
+From: Nichael Cramer <ncramer@bbn.com>
+To: Norman Richards <orb@cs.utexas.edu>
+Cc: "Cube Lovers (E-mail)" <Cube-Lovers@ai.mit.edu>
+Subject: Re: Keyboard cube [was: Re: Wrist pains]
+In-Reply-To: <199903302344.SAA11205@life.ai.mit.edu>
+
+Norman Richards wrote:
+>   Oddly enough, I have been thinking about a method to manipulate a
+> cube by use of the numeric keypad.  It seems most moves can be
+> completed rather naturally, but I do not know if it works in practice.
+>
+>   Anyways, take a keypad like this:
+>
+> 7 8 9
+> 4 5 6
+> 1 2 3
+>
+>   This corresponds to a face of a cube quite nicely.  Suppose you
+> wanted to rotate the right face clockwise.  One could enter 36 or 69,
+> for example, which you could conceptually think of as the direction
+> your hand would move to rotate the right face clockwise.  Counter
+> clockwise would be the other direction.  (96 or 63 or even 93) The
+> same technique could be applied to the left face or top face or bottom
+> face.  The middle slices could be rotated just as easil: 52 would rotate
+> the middle vertical slice down.
+
+Or a extension of your scheme might be to combine arrow keys with the
+keypad, in a two-handed approach.
+
+I.e. 6^ or 6v rather than 36 or 69; no order dependence this way.
+(Likewise, I find the arrow keys more mnemomic.)  The model is that you're
+"grabbing" the specified cubie and rotating it in the specified direction.
+
+In its most natural form, this assumes that the numeric key-pad and the
+arrow keys are separate (as they are on my keyboard), although one could
+certainly use some other set of "directional" keys aside from the standard
+arrow keys.
+
+And as I say, this also assumes --most naturally, although not
+necessarily-- a two-handed approach.
+
+>   The question is how to effect rotating the front and rear faces.
+> For me, 19 and 91 seem natural for F and F' because they basically
+> mimic the twisting motion.  The rear is more troublesome, but perhaps
+> for symetry 73 and 37 might be used?
+
+For completeness, too, there is also the slice between the front and back
+face.
+
+Rather than muddy the paradigm, perhaps other (non-assigned) keys should
+be used.
+
+The handy "0" key might make a natural candidate for the front face.
+
+On the other hand since the back face and middle slice are rather
+"pathological" cases in this paradigm, might it perhaps make sense to use
+keys "outside" the model?  For example "R" and "M".  (Or, less
+mnemonically --and depending on the set-up of your keyboard-- "/" or "*"
+or ".", which on my keyboard are right beside the numeric keypad keys.)
+
+(For these last cases, perhaps on the <- and -> keys should by
+operational.  The up and down arrows being less meaningful here.)
+
+>   Anyways, that could take care the turns, Cube rotations could be as
+> simple as a shift followed by a direction. [...]
+
+This seems like a good scheme.
+
+N
+

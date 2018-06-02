@@ -1,0 +1,30 @@
+From dik@cwi.nl  Thu Aug  5 20:01:34 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23600; Thu, 5 Aug 93 20:01:34 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA05147 (5.65b/3.9/CWI-Amsterdam); Fri, 6 Aug 1993 02:01:27 +0200
+Received: by boring.cwi.nl 
+	id AA05312 (4.1/2.10/CWI-Amsterdam); Fri, 6 Aug 93 02:01:26 +0200
+Date: Fri, 6 Aug 93 02:01:26 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9308060001.AA05312.dik@boring.cwi.nl>
+To: ronnie@cisco.com
+Subject: Re: Diameter of cube group?
+Cc: cube-lovers@life.ai.mit.edu
+
+The last remark first:
+
+ > This gives me the feeling that Monte Carlo is fairly valid.  (How's
+ > that for rigor?)
+
+Not very ;-).
+
+ > It couldn't be very pointy.  From the most distant configuration,
+ > there are 6 positions immediately before it.  There are 6^2 two steps
+ > away, 6^3 three steps, etc.  (well, 6^2 - 1 and 6^3 - ?) actually.
+
+This still can create a pointy tail; just as pointy as the front.  My
+experience is that the tail is much more blunt than the front.  That there
+are already more than a single configuration at maximum distance makes that
+reasonable.
+

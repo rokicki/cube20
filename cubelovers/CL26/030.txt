@@ -1,0 +1,34 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Nov 18 12:52:47 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA28044
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 18 Nov 1998 12:52:47 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 12 Nov 1998 17:05:37 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Han Wen <hansker@yahoo.com>
+Cc: Noel Dillabough <Noel.Dillabough@ineacorp.com>, cube-lovers@ai.mit.edu
+Subject: Solutions (Was: RE: Query for Corners-First Method Rubik Solution)
+In-Reply-To: <19981111170341.14375.rocketmail@send105.yahoomail.com>
+Message-Id: <Pine.SUN.3.95.981112170248.21046A-100000@sunspot.tiac.net>
+
+On Wed, 11 Nov 1998, Han Wen wrote:
+
+{snips}
+
+}mentioning. You can get them from Meffert's site:
+}http://ue.net/mefferts-puzzles/
+
+It might be of interest to mention that Meffert has solutions to many
+puzzles at his Web site. The Contributors section gives generous credit
+to a number of experts; they wrote the solutions.
+
+Best,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*  The personal computer industry will have become
+|*  Amateur musician  *|*  mature when crashes become unacceptable.
+--------------------------------------------------------------------------
+

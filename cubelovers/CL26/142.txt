@@ -1,0 +1,48 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 11 18:02:02 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA14965
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 11 Mar 1999 18:02:02 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <714F77ADF9C1D111B8B60000F863155102DD6D8E@tbjexc2.tbj.dec.com>
+From: Norman Diamond <Norman.Diamond@dec-j.co.jp>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Oddzon version of the cube
+Date: Wed, 10 Mar 1999 09:36:17 +0900
+
+Patrick Weidhaas [weidhaas1@llnl.gov] wrote:
+
+>As far as I know, nobody has produced a cube (or variation) where the
+>plastic "cubies" are colored appropriately without relying on stickers.
+
+I think I have mentioned on this list before that I bought one in India
+in 1996.
+
+>Is that process so much more expensive,
+
+I think it is not.  I am not an expert on manufacturing so can't really
+say if it's more expensive to make a multicolored plastic piece than
+it is to make (or buy) adhesive tapes and punch stickers out of them
+for attachment to unicolored pieces.  But I do think, when the version
+with multicolored plastic pieces could be retailed for 35 rupees, the
+cost of manufacture must be less than 35 rupees, the difference between
+this method of manufacture and the more common method must be less than
+35 rupees, and I'd lay odds on a distributor not even noticing the
+difference in costs if they went that way.
+
+(35 rupees was about 120 yen then.  35 rupees would be about 100
+yen now, though the product's price in rupees might have risen.)
+
+>or do the toy-makers want to give their customers a chance to cheat
+>by switching the stickers in case they can't get the puzzle solved?
+
+Interesting.
+Is this the reason why the stickers come off by themselves :-)
+Maybe they don't know that some people used to disassemble cubes and
+rearrange the cubies :-)  Of course early Rubik's Revenges used to
+disassemble themselves that way.
+
+-- Norman.Diamond@dec-j.co.jp
+[Not speaking for Compaq]
+

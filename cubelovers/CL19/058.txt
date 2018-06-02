@@ -1,0 +1,60 @@
+From din5w@dot.cs.virginia.edu  Thu May  2 11:22:24 1996
+Return-Path: <din5w@dot.cs.virginia.edu>
+Received: from virginia.edu (mars.itc.Virginia.EDU) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14220; Thu, 2 May 96 11:22:24 EDT
+Received: from archive.cs.virginia.edu by mail.virginia.edu id aa28516;
+          2 May 96 11:22 EDT
+Received: from dot.cs.Virginia.EDU (din5w@dot.cs.Virginia.EDU [128.143.67.21]) by archive.cs.Virginia.EDU (8.7.1/8.6.6) with SMTP id LAA03345 for <cube-lovers@ai.mit.edu>; Thu, 2 May 1996 11:22:11 -0400 (EDT)
+Received: by dot.cs.Virginia.EDU (4.1/SMI-2.0)
+	id AA08023; Thu, 2 May 96 11:22:10 EDT
+Date: Thu, 2 May 1996 11:22:09 -0400 (EDT)
+From: Dale Newfield <din5w@virginia.edu>
+X-Sender: din5w@dot.cs.Virginia.EDU
+Reply-To: DNewfield@virginia.edu
+To: cube-lovers@ai.mit.edu
+Subject: Re: building a Rubik's Revenge 
+In-Reply-To: <199605020540.BAA17826@zaphod.caz.ny.us>
+Message-Id: <Pine.SUN.3.90.960502103815.7956D-100000@dot.cs.Virginia.EDU>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+OK--how's this for a suggestion:  Since the goal of this project is to
+"spread the wealth," let's say that anybody that donates any 4x4x4 parts
+and has no other 4x4x4 cube should get one in return, but otherwise, all
+reconstructed cubes should go to people that currently have none.  As
+well, any excess pieces when we're done can be distributed along with the
+cubes (and back to the original donators), so that future catastrophes may
+be fixed (a corner, three edges, and three centers, for example).  Rather
+than continue this discussion on the mailing list, unless there actually
+is anything of general interest in this, I'd suggest we do this through
+personal mail from now on. 
+
+So, send me mail regarding what pieces you have been able to dig up and 
+stating if you have another 4by cube, or send me mail saying that you've 
+been looking for a 4by, and since they seem unavailable elsewhere, would 
+like one of these reconstructed ones.
+
+To further save me some typing, I'll include my snail-mail address below, 
+to which people that have pieces can send them.
+
+If mail costs turn out to be non-trivial, we could probably ask those 
+recieving cubes to pitch in to cover these costs--so I'll try to mark 
+down the postage on each package that I recieve, in order to keep a record.
+
+-Dale
+
+BTW--I found and put together what I have last night--an entire cube
+except for one broken center piece, and one broken corner piece--this one
+should be easily resurrected! (And I have other 4x4x4's so this one is due
+for distribution :-)
+
+Dale Newfield
+1805 Inglewood Dr. #23A
+Charlottesville, VA 22901-2708
+U.S.A.
+
+|..|.|..|.||.|..||......||..|.||...|||...|..|.||....|.|..|..||
+(No, this barcode is not necessary, but I figured this would be a good 
+place to ask: "Has anyone figured out what information is encoded in 
+this, or how it is encoded?" :-)
+

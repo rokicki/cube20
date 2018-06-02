@@ -1,0 +1,68 @@
+From dik@cwi.nl  Mon May 18 19:17:44 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA20636; Mon, 18 May 92 19:17:44 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA17210 (5.65b/2.10/CWI-Amsterdam); Tue, 19 May 1992 01:17:41 +0200
+Received: by boring.cwi.nl 
+	id AA25710 (5.65b/2.10/CWI-Amsterdam); Tue, 19 May 1992 01:17:40 +0200
+Date: Tue, 19 May 1992 01:17:40 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205182317.AA25710.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu, reid@math.berkely.edu
+Subject: Re:  My program is too fast ;-).
+
+ > stop it, you're killing me!
+Stop yourself ;-).
+ >           i wouldn't suggest using singmaster's notes for pattern
+ > maneuvers.  have you seen bandelow's book?  it has very short
+ > maneuvers for most patterns, including two different ones for
+ > "walker's worm" in 14 turns (assuming i've got the right pattern in
+ > mind).  bandelow counts "slice turns" as one move, though, so
+ > his maneuver for 6X (order 3) is 24 face turns.
+Leider haben wir nur die Deutschen Ausgabe.  There are apparently
+differences between the German and the English edition.  The English
+edition is later and has probably improved sequences (he has promised
+also improved sequences for the second German edition, but I do not
+think it ever came out).
+
+ > what amazes me about this whole business is that the algorithm
+ > finds very short moves when they exist.  i would have expected
+ > the program to produce maneuvers of approximately the same
+ > length for all patterns.  i would say that this is a major step
+ > forward.
+The point is that my program deliberately tries short sequences first in
+both phases.  This is at the expense of more work when longer sequences
+are tried (because you will find the shorter sequences again that you
+abort).  The main advantage is that if you find an overall short sequence
+you have much less work to do in the second phase, and can much faster
+abort your searches.  Here some information about the searching for
+superflip (the numbers are for phase 1):
+	Length	Number found	Solutions found
+	   8	      0		-
+	   9	      0		-
+	  10	   3072		10+13, 10+12
+	  11	  61568		11+10
+	  12	 792256		-
+	  13	8695488		13+ 7
+As you see when having the large number of solutions for length 13 in phase 1
+we have only to look at most 7 moves deep in phase 2, and 6 deep as soon as
+we found the solution (which occurs reasonably fast).  That is why it is
+possible to do all that work in about 45 minutes.  (For der Mouse, the machine
+is an FPS.  A SPARC processor twice as fast as a SPARCStation ELC.  But I
+think the program is bounded by memory access time.  The program requires
+about 12 MB memory.)  Now I think the longest distance in phase 1 is about 11
+or 12 (it is at least 11, that is sure).  So in general you will find a
+solution already when there is no need yet to do very much.
+
+ > you'll probably be swamped with patterns to test, but here's a
+ > couple:
+ > stripes: (18) F3 U1 F2 U3 R1 B2 R3 U1 F2 L2 U3 L1 B2 L3 U1 L2 U3 F1.
+ > python: (15) R1 U3 F3 B1 L1 F2 L3 F1 B3 U3 R3 L1 F2 U2 L3.
+I could not improve the first but what do you think of:
+(12+ 2=14): U2 B3 D3 L1 F1 B3 U3 F1 U3 D1 R3 B1 D1 F2
+
+ > since i found these by hand, i'm curious to see how close they
+ > are to optimal.  hopefully i'll have my program running soon.
+14 for python is probably optimal.  But you can try as you have your program
+running.
+

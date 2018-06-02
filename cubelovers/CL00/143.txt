@@ -1,0 +1,15 @@
+Date: 10 Sep 1980 11:09 pm PDT (Wednesday)
+From: Woods at PARC-MAXC
+Subject: Re: "Assuming we are counting quarter-twists."
+In-reply-to: ALAN's message of 11 September 1980 01:04-EDT
+To: (Alan Bawden and the rest of) CUBE-HACKERS at MIT-MC
+
+If you'll reread my message, you'll note that I claimed the parity
+argument wasn't obvious to me even in the case of a qtw metric;
+my reference to half-twists was intended along the lines of "this
+is even less obvious".  I'd be interested in seeing your "obvious"
+proof in the qtw case, if you'd care to send it to me (no need to
+bother the whole mailing list with it).
+
+	-- Don.
+

@@ -1,0 +1,12 @@
+Date:  6 August 1980 16:48 edt
+From:  Greenberg.Multics at MIT-Multics
+To:  Steve Saunders <SAUNDERS at USC-ISIb>
+cc:  RP at MIT-MC, Cube-Hackers at MIT-MC
+In-Reply-To:  Message of 6 August 1980 15:47 edt from Steve Saunders
+
+I have generally been willing to award the designation "cubemeister"
+to anyone who can reproducibly solve the cube from randomness
+, in an organized fashion (i.e., some small number of minutes).
+I feel it is reasonable to grant this title to those  who
+have achieved this, even if their methods are highly unorthodox, or they have not
+familiarized themself with any other persons cube knowledge, etc.

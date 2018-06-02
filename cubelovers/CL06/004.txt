@@ -1,0 +1,19 @@
+Received: from PROPHET.BBN.COM (TCP 20026200117) by AI.AI.MIT.EDU 23 Jan 87 14:11:26 EST
+Date:     Fri, 23 Jan 87 14:06:33 EST
+From:     Bernie Cosell <cosell@prophet.bbn.com>
+To:       cube-lovers@ai.ai.mit.edu
+cc:       jr@prophet.bbn.com, beeler@prophet.bbn.com, alatto@prophet.bbn.com
+Subject:  Postscript on the Oxford RecMath series
+
+I just talked to Oxford and the Rubik's book is expected any moment now,
+but is apparently not yet available (in the states, at least).  The
+fourth in the series (sliding piece puzzles) is expected to be available
+in April or May.
+
+  /Bernie\
+
+ps, the number for phone orders is 201-796-8000 /b
+
+Bernie Cosell                       Internet:  cosell@bbn.com
+Bolt, Beranek & Newman, Inc         USENET:    bbnccv!bpc
+Cambridge, MA   02238               Telco:     (617) 497-3503

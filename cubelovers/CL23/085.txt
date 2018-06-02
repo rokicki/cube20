@@ -1,0 +1,61 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jul 31 18:52:22 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA22953; Thu, 31 Jul 1997 18:52:22 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From ponder@austin.ibm.com Thu Jul 31 17:16:55 1997
+Date: Thu, 31 Jul 1997 16:13:34 -0500
+From: ponder@austin.ibm.com (Ponder)
+Message-Id: <9707312113.AA33486@roosevelt.austin.ibm.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: puzzle to be simulated
+Cc: ponder@austin.ibm.com
+
+
+I've seen a number of Rubik's Cube simulations on the web,
+and was wondering if any of you would be interested in
+implementing the following puzzle that I call "the hell-hole".
+It has 16 faces that each work like the faces of a rubik's
+cube, but:
+
+	1] The faces are layed out on a 4x4 grid. Each
+	   "corner" joins four surrounding faces instead
+	   of three.
+
+	2] The grid is rolled into a cylinder and then
+	   joined at both ends to forma torus.
+
+However, the torus is given a "twist" when you join the two
+ends together, as follows:
+
+	  1 2 3 4
+	  _ _ _ _
+	a|_|_|_|_|b
+	b|_|_|_|_|c
+	c|_|_|_|_|d
+	d|_|_|_|_|a
+	  1 2 3 4
+
+First join the 1-2-3-4 sides together to form the cylinder,
+then the a-b-c-d ends together to get the torus. Each of the
+squares is a 3x3 face like a Rubik's Cube.
+
+The combinatorics get a *lot* messier because of the twist.
+Without it, you can't "flip" the edge pieces. With it, you
+can, but only by moving the edge-piece in a full-circle around
+the torus.
+
+No way to build it, either, since the pieces would need to
+flex between convex and concave. It could be simulated on a
+computer, however. I have a paper coming out in the Journal of
+Recreational Mathematics on how to solve these kinds of things,
+and it is pretty messy.
+
+Thanks,
+
+	Carl Ponder
+	ponder@austin.ibm.com
+
+
+

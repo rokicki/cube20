@@ -1,0 +1,26 @@
+Date:  17 May 1982 04:07 edt
+From:  RHarvey.Multics at MIT-MULTICS
+Subject:  Re: 4 x 4 x 4 = C^4
+To:  cube-lovers at MIT-MC
+In-Reply-To:  Message of 17 May 1982 00:11 edt from Alan Bawden
+
+I have also been using the tools described by Richard Pavelle as S to
+do things to edges on the C^4.  However, there is nothing
+that I have found that will flip to edges in place (that is, two
+halves of a C^3).
+
+Also, for aligning centers, I have been doing it AFTER edges.
+The tools I use do not really map into C^3, and I have not
+yet mastered them to the point wwhere I can finish them off. I
+sit and stare at the damn thing a lot.  This behavior was
+considered strange even at the science fiction convention
+that I attended this weekend.
+
+Speaking of strange, what kind of reactions have people
+been getting from folks who see one for the first time?  I have
+gotten the equivalent of double-takes from ones who do notice a difference.
+Most, however, tend to say "Oh, I have a friend who can do that in
+X minutes/seconds", in which case you know that they never learned
+(or probably even played) to solve.
+
+ - Ron

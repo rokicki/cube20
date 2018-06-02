@@ -1,0 +1,24 @@
+Date: 31 Mar 1982 1821-PST
+From: ISAACS at SRI-KL
+Subject: 4**3,5**3
+To: cube-lovers at MIT-MC
+
+    I should think you could solve a 4x4x4 cube by applying 3x3x3 moves, using
+different combinations for the "center slice" - ie, rotating the center
+two slices together allows all the regular corner moves; it also allows
+switching adjacent edge pieces (in pairs) by using whatever you use to flip
+edges in 3x3x3.  Using only one of the center slices as "center", and 
+turning the other with a face should allow flipping a pair of L-R pieces,
+so that L becomes R and vice versa.  The center 4 pieces (which I haven't
+thought about carefully) probably can be changed around at
+(even parity) will, sometimes treating them as edges (since they can be
+carried along on certain of the "edge" moves), and sometimes as centers
+(for instance, to rotate a group of 4 of them halfway around in place).
+   I don't know what new parity limitations exist; nor do I know if
+the same type of sequences are efficient for solving (ie, top-middle-bottom,
+etc), but I shouldn't think the new cubes will be so very much more
+difficult.
+   I would assume the 5x5x5's could be handled similarly, except, of course,
+they have a real center.
+--- Stan
+-------

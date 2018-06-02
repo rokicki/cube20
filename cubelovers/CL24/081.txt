@@ -1,0 +1,56 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 14 10:37:37 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id KAA10458; Fri, 14 Nov 1997 10:37:36 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cubeman@idirect.com Thu Nov 13 21:03:37 1997
+Date: Thu, 13 Nov 1997 19:06:53 -0500 (EST)
+From: Mark Longridge <cubeman@idirect.com>
+To: Richard M Morton <richard_morton@icom-solutions.com>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Cube Colours
+In-Reply-To: <199711120955.EAA01537@life.ai.mit.edu>
+Message-Id: <Pine.BSI.3.94.971113184945.11986A-100000@hometown.idirect.com>
+
+On Wed, 12 Nov 1997, Richard M Morton wrote:
+
+>   Mark Longridge wrote:
+> 
+>   > First of all, the STANDARD colour arrangement used by Ideal Toy is as
+>   > follows:
+>   >
+>   > UP      = White
+>   > DOWN    = Blue
+>   > FRONT   = Yellow
+>   > BACK    = Green
+>   > LEFT    = Red
+>   > RIGHT   = Orange
+> 
+> ...
+Ok folks, one last bit of info about the cube colour controversy
+
+The colouring "standard" I was referring to was used by Canadian and
+the USA cube contests. Having said that there were probably contests
+where people brought there own cubes, and that would make it potpourri.
+
+Moreover, this was stipulated in the rules of the contest. I still have
+the form. The only difference between differ by yellow and the standard
+Ideal cube was the transposition of yellow and blue.
+
+There isn't really a standard orientation, save for the orientation 
+I use in my own cube programs. All the Ideal cubes I have conform
+to White/Blue, Yellow/Green, Red/Orange for Top/Down, Front/BACK,
+Left/Right.
+
+So I suppose it is open to interpretation. I thought David Singmaster 
+might mention what colour arrangement was used in the World Championship.
+
+So a case may be made for both "Differ by Yellow" and Ideal Contest
+Colours.
+
+Would someone like to pick one?? :-)
+
+-> Mark <-
+The Colourist
+

@@ -1,0 +1,25 @@
+Date: 6 Dec 1980 16:42 PST
+From: McKeeman.PA at PARC-MAXC
+Subject: Re: That 28 move Plummer Cross
+In-reply-to: DCP's message of 6 DEC 1980 1745-EST
+To: DCP at MIT-MC (David C. Plummer)
+cc: McKeeman, CUBE-LOVERS at MIT-MC
+
+David,
+
+Suppose one could prove local maxima had configurations that were invariant
+under the rotation group of the whole cube.  (I am not at all sure it is even
+true.)
+
+There are a small number of such symmetric configurations, and they could
+probably be easily tabulated.  One of them would have to be maximally distant
+from home.  Thus if we had a QTW solution for each of them, the maximum
+over that set would bound God's Algorithm.
+
+I see no reason to believe that a QTW cannot take you between two solutions
+that are at the same distance.  As DPC pointed out, there are a lot of even
+identity paths.  E.g., (RUR'U')^6.  The two furthest points on the path are (by
+symmetry) necessarily equally distant, yet connected by a QTW. 
+
+Bill 
+

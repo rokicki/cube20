@@ -1,0 +1,46 @@
+From diamond@jrdv04.enet.dec-j.co.jp  Sun Aug 20 21:45:11 1995
+Return-Path: <diamond@jrdv04.enet.dec-j.co.jp>
+Received: from jnet-gw-1.dec-j.co.jp by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09041; Sun, 20 Aug 95 21:45:11 EDT
+Received: by jnet-gw-1.dec-j.co.jp (8.6.12+usagi/JNET-GW-940327.1); id KAA27528; Mon, 21 Aug 1995 10:40:51 +0900
+Message-Id: <9508210145.AA21282@jrdmax.jrd.dec.com>
+Received: from jrdv04.enet.dec.com by jrdmax.jrd.dec.com (5.65/JULT-4.3)
+	id AA21282; Mon, 21 Aug 95 10:45:32 +0900
+Received: from jrdv04.enet.dec.com; by jrdmax.enet.dec.com; Mon, 21 Aug 95 10:45:34 +0900
+Date: Mon, 21 Aug 95 10:45:34 +0900
+From: Norman Diamond  21-Aug-1995 1039 <diamond@jrdv04.enet.dec-j.co.jp>
+To: cube-lovers@ai.mit.edu
+Apparently-To: cube-lovers@ai.mit.edu
+Subject: Re:  5 X 5 X 5 Rubik's Cubes
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+At 4:19 PM 19/08/95, der Mouse wrote:
+>> I am new to this list, and i would like to ask if anyone knows where
+>> I can get a 5 X 5 X 5 Rubik's Cube.
+>
+>Can't help with this...unless you're in Montreal, in which case you
+>might give Valet de Coeur a try.  I think that's where I got mine.
+
+Puzzletts in Seattle, USA also has them, I think for $32 each.
+
+It's time I should write to Dr. Bandelow in Germany too; his company used
+to be the primary distributor for these.
+
+>> I have already mastered the 3 and 4 cubes, and I don't think that the
+>> 5 will be much different.
+
+>You're right; it won't.  If you can handle the 3-cube and 4-cube,
+>you've got all the necessary skills.
+
+True, you've got all the necessary skills.  However, there is a pattern
+that can occur on the 5x5x5 which needs a new algorithm which can be found
+rather easily using the same old skills.
+
+Now, Nob Yoshigahara told me that he has seen a working 6x6x6, and he
+received a business card from the person who had manufactured the 6x6x6,
+and he was playing with the business card and then lost the business card.
+The maker was in Europe.  Anyone know who and where?
+
+-- Norman Diamond        diamond@jrdv04.enet.dec-j.co.jp
+[Speaking for Norman Diamond not for Digital.]
+

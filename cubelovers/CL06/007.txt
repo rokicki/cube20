@@ -1,0 +1,34 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 18 Feb 87 08:14:06 EST
+Date: 18 Feb 87 07:51:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: new magic version
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+
+
+
+RE:  New versions of MAGIC
+
+1.  The 2/14/87 edition of the "Toy & Hobby World's Show (ie, the NY Toy  Show)
+Daily" announced the planned 1987 additions to the MAGIC line.  It said "Rubik's
+MAgic puzzle, which debuted in October, 1986, is updated with a Masters Edition
+puzzle, Unlink The Rings, featuring 12 panels and multi-color, multi-graphic
+designs on a silvery Mylar-foil background.
+
+Rubik's Magic Strategy Game features the colors of the original puzzle in a
+tic-tac-toe game; the difference is that the pieces are colored black on one
+side and silver on the other, and players can flip opponents' pieces before
+making a move."
+
+2.  As previously noted on this board it is fairly simple to make your own 12
+piece MAGIC.   I am using MAcDraw to experiment with graphic patterns.  I have
+not decided on which graphic(s) I like best yet.
+
+3.  As an aside there are "CLONES"  of MAGIC around and Matchbox is prosecuting.
+ I am not aware of exactly what is protected so using a different number of
+squares or different graphics might be legal.
+
+<beck@ardec-lcss>
+
+............
+------

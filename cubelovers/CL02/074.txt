@@ -1,0 +1,9 @@
+Date: Sunday, 26 April 1981  10:54-EDT
+From: Pat O'Donnell <PAO at MIT-EECS>
+To:   Cube-Lovers at MC
+cc:   PAO at MIT-EECS
+
+May issue of Reader's Digest has a (very) short article on the cube.
+It includes a claim for a French fellow solving the cube in an average
+of 32 seconds.  The article contains almost no technical
+information--mostly historical.

@@ -1,0 +1,19 @@
+From rh@thi.informatik.uni-frankfurt.de  Fri Dec 15 03:39:59 1995
+Return-Path: <rh@thi.informatik.uni-frankfurt.de>
+Received: from riese.informatik.uni-frankfurt.de (riese.thi.informatik.uni-frankfurt.de) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09295; Fri, 15 Dec 95 03:39:59 EST
+Received: from kassandra.thi.informatik.uni-frankfurt.de by riese.informatik.uni-frankfurt.de (4.1/THI-PeLeuck2.2a)
+	id AA07726; Fri, 15 Dec 95 09:40:50 +0100
+Date: Fri, 15 Dec 95 09:40:50 +0100
+From: rh@thi.informatik.uni-frankfurt.de (Roger Haschke)
+Mime-Version: 1.0
+Content-Transfer-Encoding: binary
+Content-Type: text/plain; charset=ISO-8859-1
+Message-Id: <9512150840.AA07726@riese.informatik.uni-frankfurt.de>
+To: cube-lovers@ai.mit.edu
+Subject: unsubscribing ...
+
+can anybody please tell me the correct email-adresse
+for sending an unsubscribe-command?
+
+thanks - Roger
+

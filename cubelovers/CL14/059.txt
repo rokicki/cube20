@@ -1,0 +1,88 @@
+From mschoene@math.rwth-aachen.de  Sun Jan  8 07:50:49 1995
+Return-Path: <mschoene@math.rwth-aachen.de>
+Received: from samson.math.rwth-aachen.de by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23788; Sun, 8 Jan 95 07:50:49 EST
+Received: from hobbes.math.rwth-aachen.de by samson.math.rwth-aachen.de with smtp
+	(Smail3.1.28.1 #11) id m0rQx2I-000MPPC; Sun, 8 Jan 95 13:47 MET
+Received: by hobbes.math.rwth-aachen.de (Smail3.1.28.1 #19)
+	id m0rQx2I-00025cC; Sun, 8 Jan 95 13:47 WET
+Message-Id: <m0rQx2I-00025cC@hobbes.math.rwth-aachen.de>
+Date: Sun, 8 Jan 95 13:47 WET
+From: "Martin Schoenert" <Martin.Schoenert@math.rwth-aachen.de>
+To: BRYAN@wvnvm.wvnet.edu
+Cc: cube-lovers@life.ai.mit.edu
+In-Reply-To: "Jerry Bryan"'s message of Sat, 7 Jan 1995 10:15:52 EST <9501071609.AA16758@life.ai.mit.edu>
+Subject: Re: Re: Cube with GAP
+
+Jerry Bryan wrote in his e-mail message of 1995/01/07 
+
+    Note that this model does not include the face centers.  That is, it
+    is G[C,E] rather than G[C,E,F].  56 numbers would be required to
+    include the face centers.  The distinction between 48 facelets and
+    56 facelets bears on the nitpicky question of whether the set C of
+    rotations is a subgroup of G or not.
+
+Absolutely right.  This part of the GAP documentation was written years
+ago.  These days I represent MG, CG, etc. as permutation groups on 54
+points.  I also changed the numbering, so that the [1..24] represent the
+edges, [25..48] points represent the edges, and [49..54] represent the
+centers.
+
+Jerry continued
+
+                                      What I don't see is how to
+    model the Supergroup in GAP.  It looks like you would have to
+    label each Face center with four numbers so you could see the
+    rotations of the Face centers, but that seems like overkill.
+
+This is also correct.  But GAP doesn't mind those 24 more points.
+
+Jerry continued
+
+    When I write the model out to disk, I only write out 8 corner facelets
+    and 12 edge facelets.  For example, I only write out the front and
+    back corner facelets.  This saves space and converts the model from
+    a facelet model to a cubie model, with the twists implicitly encoded
+    rather than being explicitly encoded via multiplication tables.  It
+    also automatically establishes a frame of reference by which a
+    proof of conservation of twist and flip can be accomplished.
+
+In terms of computational group theory this sequence of 8 corner and
+12 edgde facelets is called a *base* for the permutation group G.
+That is, each element of the group is uniquely determined by the
+images of those 20 facelets.  Of course if you have already proved
+that no single corner can be twisted and no single edge can be flipped,
+you can reduce this to 7 corner and 11 edge facelets.
+
+Mark Longridge wrote in his e-mail message of 1995/01/03
+
+                            ...  I don't know how a normal 4x4x4 could
+    be represented though.
+
+Jerry answered
+
+    I fail to see the problem.  Just number the facelets.  The only
+    problem would then lie in deciding what the generators are  -- i.e.,
+    which kind of slice moves do you accept.  You would also have to
+    decide whether to model the invisible 2x2x2 inside, but again if you
+    did, just number the invisible facelets and include their movements
+    with your generators.
+
+The problem is that many different positions all look solved.  For
+example, you can permute the 4 center facelets of one face or exchange
+two adjacent edges, and the cube still looks solved (of course you cannot
+do all this independently).  So if we take the obvious permutation group
+on the 6*16 points, then a whole subgroup would correspond to what a
+puzzler would consider solved states.  If by a model we mean a group
+whose elements correspond to the different states a puzzler would see,
+and whose identity corresponds to what a puzzler would consider solved,
+then I have no good idea how to model the 4x4x4 cube as a permutation
+group.
+
+Have a nice day.
+
+Martin.
+
+-- .- .-. - .. -.  .-.. --- ...- . ...  .- -. -. .. -.- .-
+Martin Sch"onert,   Martin.Schoenert@Math.RWTH-Aachen.DE,   +49 241 804551
+Lehrstuhl D f"ur Mathematik, Templergraben 64, RWTH, 52056 Aachen, Germany
+

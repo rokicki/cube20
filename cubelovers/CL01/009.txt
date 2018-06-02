@@ -1,0 +1,13 @@
+Date: Tuesday, 2 December 1980  10:37-EST
+From: Jonathan Alan Solomon <SOLOMON at RUTGERS>
+To:   CUBE-LOVERS at MIT-MC
+cc:   Solomon at RUTGERS
+Subject: Source to CUBE to run it locally (!)
+
+Could someone please point to where the source to the CUBE
+program lives? Some users here want to use it and don't
+have access to the net. I have the newest MACLISP, so there
+is no problem there.
+
+Thanks!
+JSol

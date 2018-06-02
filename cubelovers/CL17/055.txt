@@ -1,0 +1,58 @@
+From hazard@niksula.hut.fi  Fri Oct 20 12:29:49 1995
+Return-Path: <hazard@niksula.hut.fi>
+Received: from nukkekoti.cs.hut.fi by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27480; Fri, 20 Oct 95 12:29:49 EDT
+Received: from ummagumma.tky.hut.fi (hazard@ummagumma.tky.hut.fi [130.233.33.120]) by nukkekoti.cs.hut.fi (8.6.12/8.6.11) with SMTP id SAA01720 for <cube-lovers@ai.mit.edu>; Fri, 20 Oct 1995 18:29:45 +0200
+Date: Fri, 20 Oct 1995 18:29:45 +0200
+Message-Id: <199510201629.SAA01720@nukkekoti.cs.hut.fi>
+X-Sender: hazard@pop.niksula.cs.hut.fi
+X-Mailer: Windows Eudora Pro Version 2.1.2
+Mime-Version: 1.0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+To: cube-lovers@ai.mit.edu
+From: Mikko Haapanen <hazard@niksula.hut.fi>
+Subject: Re: Old question about 2 adj edges
+
+>>I want to ask if somebody can tell me how to flip 2 adj. edges (and nothing
+>After buying my first cube, it took me about a week to figure out how
+>The 4x4x4 was a little tougher.  It took me about a week to figure out
+>how to solve everything except two edge cubies which were exchanged.
+>It took me about another year(!) to figure out how to exchange them.
+
+It took me about 6 years. That problem was a little background process in my
+brains. Then i went to the army. In the evenings i used to 'play' with 4x4x4
+until one day. I noticed the same thing as you. 2 flipped edges can be
+solved by turning one inner slice 90 degrees. Since then i haven't
+discovered anythig new about this parity problem. That's why i asked if
+anyone could do it less than 39 turns.
+
+>What I didn't see originally was that there could be invisible
+>movement of the face centers to compensate for the "bad parity" of
+>the edges.  I am very poor at solving the 4x4x4, but here is how I
+
+I have thought the center piece movements too. It must be very hard to see a
+parity from certers, even if they were marked (position and orientation).
+There are so many different 'right' positions too.
+
+This reminds me another old question: 3x3x3 are told to have about 4
+trillion (or whatever) different positions. How many of these positions are
+'solved cube' but with different centerpiece combinations? Once i had 3x3x3
+with 6 different pictures (picture/side). Friends asked me to solve it. When
+i was completed, they laughed at me and pointed the bottom center piece,
+which was out of orientation (i can't remember how many of centers were out
+of order).
+
+>Finally, here is my question.  On the 4x4x4, I get "bad parity" darn
+>near every time.  Why isn't it 50-50 like the situation I have with
+
+I don't know, but i guess: 1/4 you get it right and 3/4 goes wrong. I think
+we must count that there are 2 inner slice states: right and wrong. There
+are also 2 outer slice states: right and wrong (2 corners at wrong
+position). It makes me think that 1/4.
+------Mikko Haapanen------hazard@niksula.hut.fi---------
+Jos tahto siirt‰‰ vuoren, niin tahdon siirt‰‰ tahdon
+Vuorta siirt‰m‰‰n, ett‰ vuoren sis‰‰n n‰‰n -P.Hanhiniemi
+--------------------------------------------------------
+
+
+

@@ -1,0 +1,23 @@
+Date: 4 August 1981 01:21-EDT
+From: Chris C. Worrell  <ZILCH at MIT-MC>
+Subject: Poll
+To: CUBE-LOVERS at MIT-MC
+
+   In line with the recent cubeing contest in Boston, I suggest a poll.
+Such questions as, will be included:
+1. age
+2. average solving time
+3 occupation  (if student, undergrad or grad and major)
+4. solving method
+5. how long it took you physically  working (playing) with the cube  (or some
+   facimile, like a program) to solve the cube the first time, and reliably
+6. how long have you been working with the cube  (say since Jan. '81)
+7. max #of qtw. in method, avg. # of qtw. in method
+ 
+I would not suggest anybody send their answers to the list, because
+1. it would generate a lot of semi-useless garbage in the list,and
+2. you would lose anonymity (which is one of the aspects of a poll)
+
+If anyone can suggest how this could be implemented please pass it on.
+
+                                             Chris Worrell

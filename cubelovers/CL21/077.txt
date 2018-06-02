@@ -1,0 +1,41 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Dec  5 19:07:56 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA00525; Thu, 5 Dec 1996 19:07:56 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 5 Dec 1996 00:23:14 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+Reply-To: Nicholas Bodley <nbodley@tiac.net>
+To: Cube-Lovers@ai.mit.edu
+Subject: Thanks, and an apology, too
+Message-ID: <Pine.SUN.3.95.961204222023.22514C-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ My thanks to the people who replied to my query about Meffert; most said
+he's still in business. Thanks also for updates on the Magic Dodecahedron.
+
+ And... BIG apology for tossing in a "High-ASCII" (?) Latin-1 character! 
+I only proved my optimism (that it would be OK) and my ignorance (that it
+is >not< OK in this List! I'll try to e-mail Alan directly. I would never
+have thought that one character would create a mess. Incidentally, and
+totally off topic, I found the really-obscure Codepage 819 that makes
+MS-DOS totally and directly compatible (no translations to Codepage 850)
+with ISO 8859-1, and installed it. Recommended, but e-mail me if you are
+interested. 
+
+ Btw, I had problems replying to Norman Diamond; his From: e-mail address
+apparently couldn't be found, and my message bounced. Maybe DNS problem?
+
+ [There's just an off-chance that this is double-posted; sorry if so! I
+don't think it will be.]
+
+Regards to all, 
+_  __
+|\ |_)
+| \|_)
+
+
+
+

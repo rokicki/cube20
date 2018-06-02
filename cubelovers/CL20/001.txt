@@ -1,0 +1,25 @@
+From cube-lovers-errors@curry.epilogue.com  Wed May  8 02:22:29 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id CAA04036 for <cube-lovers-outbound@curry.epilogue.com>; Wed, 8 May 1996 02:22:28 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Sender: s2394459@csc.cs.technion.ac.il
+Message-Id: <31903CF4.3470@cs.technion.ac.il>
+Date: Wed, 08 May 1996 09:19:32 +0300
+From: Rubin Shai <s2394459@cs.technion.ac.il>
+X-Mailer: Mozilla 2.01 (X11; I; SunOS 5.5 sun4m)
+Mime-Version: 1.0
+To: Cube-Lovers@ai.mit.edu
+Cc: s2394459@cs.technion.ac.il
+Subject: Rubik's cube
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hi 
+I'm looking for solutions to the 2X2X2 cube.
+I need solution that put the cubiks ONE AFTER THE OTHER.
+Is anyone can help?
+Thanks 
+Shai Rubin
+
+

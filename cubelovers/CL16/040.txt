@@ -1,0 +1,44 @@
+From rodrigo@lsi.usp.br  Wed Jun 28 17:15:45 1995
+Return-Path: <rodrigo@lsi.usp.br>
+Received: from ofelia.lsi.usp.br (lsi.poli.usp.br) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06724; Wed, 28 Jun 95 17:15:45 EDT
+Received: from mozart.lsi.usp.br (mozart.lsi.usp.br [143.107.3.237]) by ofelia.lsi.usp.br (8.6.12/8.6.9) with ESMTP id SAA21488; Wed, 28 Jun 1995 18:13:40 -0300
+Received: (from rodrigo@localhost) by mozart.lsi.usp.br (8.6.12/8.6.9) id VAA12159; Wed, 28 Jun 1995 21:12:54 GMT
+Date: Wed, 28 Jun 1995 14:12:53 +48000
+From: Rodrigo de Almeida Siqueira <rodrigo@lsi.usp.br>
+To: steinark@ifi.uio.no, bagleyd@source.asset.com,
+        Reinaldo Augusto da Costa Bianchi <rbianchi@mozart.lsi.usp.br>
+Cc: cube-lovers@life.ai.mit.edu
+Subject: Rubik Cube... for Windows ?
+In-Reply-To: <199506281753.OAA19377@jaguar.lsi.usp.br>
+Message-Id: <Pine.SGI.3.90.950628140904.12060A-100000@mozart.lsi.usp.br>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+
+On Wed, 28 Jun 1995, steinark@ifi.uio.no wrote:
+
+> id: Email: steinark@ifi.uio.no
+> comments:
+> Just thought I would mention a Windows version Rubic Cube
+> program. It's located at several ftp sites and the file 
+> to look for is called 'cubic.zip'. Has a far better
+> look-and-feel than XRubic I think. It has its own solving
+> algorithm, but this can be rather slow...
+> Check it out. If you don't find it I can probably send it
+> to you some how.
+> 
+> Steinar
+
+Hello Steinar,
+
+Would you tell me where (ftp site) can I find cubic.zip ?
+I would like to try it and put a link in the "Robot can play with the 
+Cube Web homepage" (http://www.lsi.usp.br/~daia/celula/cubo/)
+
+Thank you,
+
+Rodrigo Siqueira
+rodrigo@lsi.usp.br
+(http://www.lsi.usp.br/usp/rod/rod.html)
+

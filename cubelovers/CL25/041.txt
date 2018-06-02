@@ -1,0 +1,97 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Apr 20 15:57:40 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA00263; Mon, 20 Apr 1998 15:57:40 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Apr 20 11:51:47 1998
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Hamiltonian circuits on the cube
+Date: 20 Apr 1998 15:55:44 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <6hfr60$lfq@gap.cco.caltech.edu>
+References: <cube-lovers.009C4C21.E208C3B3.8@ice.sbu.ac.uk>
+
+David Singmaster <david.singmaster@sbu.ac.uk> writes:
+>	The discussion of isoglyphs, etc., has reminded me of a problem which I
+>worked on in the early 1980s but never resolved.  I took an all white cube and
+>traced a Hamitonian circuit through all the 54 facelets.  If you jumble this
+>up, it is essentially impossible to restore.  Indeed there are probably many
+>solutions to the problem.  This led me to ask some questions about such
+>Hamiltonian circuits through the 54 facelets.
+>	A.  How many are there?
+
+>	B.  Are there any such circuits where the pattern is the same on each
+>face?  I thought I could prove that such did not exist, but I think I assumed
+>that the circuit entered and left each face once, but this need not be the
+>case.
+
+The answer to B is "Yes"!!
+
+I was pretty surprised to come up with this within ten minutes of reading
+the question:
+
++--+--+--+
+|42|43|44|
++--+--+--+
+|47|46|45|
++--+--+--+
+|54| 3| 4|
++--+--+--+--+--+--+--+--+--+--+--+--+
+| 1| 2| 5| 6| 7| 8|26|27|40|41|48|53|
++--+--+--+--+--+--+--+--+--+--+--+--+
+|14|13|12|11|10| 9|25|28|39|38|49|52|
++--+--+--+--+--+--+--+--+--+--+--+--+
+|15|16|17|18|21|22|24|29|36|37|50|51|
++--+--+--+--+--+--+--+--+--+--+--+--+
+|33|32|19|
++--+--+--+
+|34|31|20|
++--+--+--+
+|35|30|23|
++--+--+--+
+
+X=====X=====X=====X
+H     H     H     H
+---------------+  H
+H     H     H  |  H
+X=====X=====X==|==X
+H     H     H  |  H
+---------------+  H
+H     H     H     H
+X=====X=====X=====X
+H     H     H     H
+---+  H  +-----+  H
+H  |  H  |  H  |  H
+X==|==X==|==X==|==X=====X=====X=====X=====X=====X=====X==|==X==|==X==|==X
+H  |  H  |  H  |  H     H     H     H     H     H     H  |  H  |  H  |  H
+H  +-----+  H  +-----------------+  H  +-----+  H  +-----+  H  |  H  |  H
+H     H     H     H     H     H  |  H  |  H  |  H  |  H     H  |  H  |  H
+X=====X=====X=====X=====X=====X==|==X==|==X==|==X==|==X=====X==|==X==|==X
+H     H     H     H     H     H  |  H  |  H  |  H  |  H     H  |  H  |  H
+H  +-----------------------------+  H  |  H  |  H  +-----+  H  |  H  |  H
+H  |  H     H     H     H     H     H  |  H  |  H     H  |  H  |  H  |  H
+X==|==X=====X=====X=====X=====X=====X==|==X==|==X=====X==|==X==|==X==|==X
+H  |  H     H     H     H     H     H  |  H  |  H     H  |  H  |  H  |  H
+H  +-----------------+  H  +-----+  H  |  H  |  H  +-----+  H  +-----+  H
+H     H     H     H  |  H  |  H  |  H  |  H  |  H  |  H     H     H     H
+X=====X=====X=====X==|==X==|==X==|==X==|==X==|==X==|==X=====X=====X=====X
+H     H     H     H
+H  +-----+  H  +---
+H  |  H  |  H  |  H
+X==|==X==|==X==|==X
+H  |  H  |  H  |  H
+H  |  H  |  H  +---
+H  |  H  |  H     H
+X==|==X==|==X=====X
+H  |  H  |  H     H
+H  |  H  |  H  +---
+H  |  H  |  H  |  H
+X==|==X==|==X==|==X
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+Smoking cigarettes are bad for you, so smoking cigarettes is bad for you.
+

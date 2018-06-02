@@ -1,0 +1,23 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu May 21 13:24:10 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA13269; Thu, 21 May 1998 13:24:09 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu May 21 12:24:47 1998
+Message-Id: <35646320.2295@ping.be>
+Date: Thu, 21 May 1998 18:23:45 +0100
+From: Geoffroy Van Lerberghe <Geoffroy.VanLerberghe@ping.be>
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Cristoph's Jewel internal mechanism
+
+The Christoph's Magic Jewel is a disguised Rubik's cube (cf. Metamagical
+Themas by Douglas R. Hofstadter p.339 : Stan Isaacs's coloring scheme)
+but what about the internal mechanism? Is it simply a Rubik's cube with
+only edge and centre cubes or is the mechanism different from the
+classic cube.
+I haven't managed to disassemble the Magic Jewel yet.
+
+
+Geoffroy.VanLerberghe@ping.be
+

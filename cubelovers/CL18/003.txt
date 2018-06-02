@@ -1,0 +1,69 @@
+From bagleyd@source.asset.com  Mon Oct 23 13:57:59 1995
+Return-Path: <bagleyd@source.asset.com>
+Received: from source.asset.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17761; Mon, 23 Oct 95 13:57:59 EDT
+Received: by source.asset.com (AIX 3.2/UCB 5.64/4.03)
+          id AA15823; Mon, 23 Oct 1995 13:33:08 -0400
+Date: Mon, 23 Oct 1995 13:33:08 -0400
+From: bagleyd@source.asset.com (David A. Bagley)
+Message-Id: <9510231733.AA15823@source.asset.com>
+To: cube-lovers@life.ai.mit.edu
+Subject: pyraminx-like puzzles (yet again)
+
+Hi
+> Recently I asked the question:
+> >   I have a question, I hope this makes sence. ;)   On a "nxnxn"
+> > tetrahedron with period 2 or period 3 turning or a "nxnxn" octahedron with
+> > period 3 or period 4 turning, can the orientation of any of the center
+> > triangles change when the puzzle is solved?  If so, where does this
+> > start to happen.  I know from "experience" that this is not true on
+> > a pyraminx.
+ 
+ The reported to answer to * was incorrect
+> Well, if you believe proof by example on a simulated puzzle, then
+> Tetrahedron period 2 turning: never happens
+> Tetrahedron period 3 turning: starts when n=4 with center triangle
+> Octahedron period 3 turning: starts when n=4 with center triangle *
+> Octahedron period 4 turning: starts with n=4 with center triangle
+ 
+It should be:
+Octahedron period 3 turning: starts when n=2 with center triangle
+ 
+The case where n = 3 (here there is no one center triangle) was interesting
+because there seemed to be no easy repetition of moves where the colors of
+the puzzle would be solved but the orientation of the triangles would
+be changed.
+ 
+     /\
+    /__\
+   /\C /\
+  /__\/__\
+ /\C /\C /\
+/__\/__\/__\
+ 
+After much experimentation, I found a way of rotating
+3 center triangles on a face which involved 216 moves, (this can be bettered
+by one noting that 2 clockwise rotations = 1 counterclockwise rotation):
+ 
+Repeat 5 times
+{
+  With reference to the top "C" in diagram, turn center to the right and
+    then rotate face clockwise for a total of 42 moves.  One will then get
+    a pattern where only 3 center colors are out of place on 3 different faces.
+  rotate this face clockwise
+}
+rotate this face clockwise
+ 
+New versions of my pyraminx and octahedron puzzles are now out.
+Cheers,
+clockwise
+ 
+New versions of my pyraminx and octahedron puzzles are now out.
+Cheers,
+      --__---------------------------------------------------------------
+     /  \ \   /           David A. Bagley                                \
+    |    \ \ /            bagleyd@source.asset.com                        |
+    |     \//\            Some days are better than other days.           |
+    |     / \ \                -- A short lived character of Blake's 7    |
+     \   /   \_\puzzles   Available at: ftp.x.org/contrib/games/puzzles  /
+      -------------------------------------------------------------------
+

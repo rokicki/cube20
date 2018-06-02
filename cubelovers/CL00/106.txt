@@ -1,0 +1,16 @@
+ACW@MIT-AI 08/15/80 19:27:57 Re: "Monoflips"
+To: CUBE-LOVERS at MIT-MC
+
+M. van der Schel has come up with a very elegant move,
+indeed.  Easy to do, easy to think about.  But he sets
+no records.  A 22-qtw diflip was reported some time
+ago to this mailing list.  It is true that the monoflip
+takes only 10 qtw.  Unfortunately, this does not allow you
+to do a 20-qtw diflip, since the monoflip is only useful
+as a tranform: in other words, when accompanied by its inverse.
+
+Monoflip U Monoflip' U' still has 22 qtw.  I suspect this to be
+a minimum.
+
+   ---Wechsler
+

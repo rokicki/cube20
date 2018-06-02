@@ -1,0 +1,54 @@
+From ybanezs%geds@mhsgate.salem.ge.com  Thu Oct 27 16:22:05 1994
+Return-Path: <ybanezs%geds@mhsgate.salem.ge.com>
+Received: from ns.ge.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04610; Thu, 27 Oct 94 16:22:05 EDT
+Received: from thomas.ge.com by ns.ge.com (5.65/GE Gateway 1.26) with SMTP
+	 id AA15091; Thu, 27 Oct 94 16:02:04 -0400
+Received: from carsdb.salem.ge.com by thomas.ge.com (5.65/GE Internal Gateway 1.26) with SMTP id AA00792; Thu, 27 Oct 94 16:22:01 -0400
+Received: from mhsgate.salem.ge.com by salem.ge.com (4.1/SMI-4.1)id AA29388; Thu, 27 Oct 94 16:21:48 EDT
+Received: by mhsgate.salem.ge.com from NetWare MHS, SMF-70via XGATE 2.12 MHS to SMTP Gateway (XSMTP Module)
+Message-Id: <71F79C380105AED1@mhsgate.salem.ge.com>
+Date: Thu, 27 Oct 94 16:20:08 EST
+From: Ybanez Sheldon <ybanezs%geds@mhsgate.salem.ge.com>
+To: cube-lovers@ai.mit.edu
+Subject: Solution..
+X-Mailer: XGATE 2.12 MHS/SMTP Gateway
+
+I have been able to solve the Cube in under a minute... but that was 
+years ago when my reflexes and memory was better in Junior High... now I 
+pull the old cube out for limbering the fingers... and seeing how much I 
+remember the solutions... now they are so ingrained in me... I no longer 
+remember them as separate moves.... but a conglomeration of twists and 
+turns... 
+
+the book --the title I can't remember-- I originally learned from, showed 
+the solution as a TOP to BOTTOM approach... doing the first top layer... 
+then the center edges... and then completing the last layer...  I noticed 
+then Mihn used the top, bottom, middle approach... when he won the 
+World's Cube solving championship on the show 'THAT"S INCREDIBLE', which 
+was also advocated by the solution book that was available from the 
+address that was included with the original cubes...
+
+so then I was able to solve it either way... finding the latter approach 
+a little faster...  now the Revenge I can solve in about 5 minutes... 
+maybe quicker, but I never really bothered to accurately time myself... I 
+only learned the one way to solve the 4x4x4 cube... from Mihn's book.
+
+Now since I joined this mailing list I have been inundated with all these 
+algorithms.... how do I translate them?  Being a neophyte to cube 
+'theory' its pretty frustrating trying to figure out what all the letters 
+and numbers mean... and what they are trying to achieve....
+
+can anyone help?
+
+thanks in advance...
+
+
+                                                         ,,,
+______________________________________________________  (o o)  _________
++----------------------------------------------------ooO-(_)-Ooo-------+
+| Sheldon Ybanez  [ybanez-s@salem.ge.com]  GE Drive Systems  Salem, VA |
+|     Always "Remember. No matter where you go, there you are." 88     |
++======================================================================+
+
+
+

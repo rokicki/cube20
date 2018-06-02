@@ -1,0 +1,22 @@
+From devo@vnet.ibm.com  Thu Dec 14 12:30:51 1995
+Return-Path: <devo@vnet.ibm.com>
+Received: from VNET.IBM.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24743; Thu, 14 Dec 95 12:30:51 EST
+Message-Id: <9512141730.AA24743@life.ai.mit.edu>
+Received: from GDLVM7 by VNET.IBM.COM (IBM VM SMTP V2R3) with BSMTP id 3486;
+   Thu, 14 Dec 95 12:07:06 EST
+Date: Thu, 14 Dec 95 12:03:41 EST
+From: "Dave Eaton" <devo@vnet.ibm.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Lumination
+
+Has anyone seen a puzzle called Lumination by Parker Bros.  A
+guy at work says he got one from his wife about five years ago.
+It is a tetrahedron (like the Pyraminx) except that instead of
+having any moving parts, it has lights in the four points that
+change color when you rotate the whole puzzle in space.
+
+It sounds really neat.  Does anyone know where I can get one?
+
+Dave Eaton
+
+

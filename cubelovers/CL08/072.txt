@@ -1,0 +1,64 @@
+From dik@cwi.nl  Tue May 19 21:00:38 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA00867; Tue, 19 May 92 21:00:38 EDT
+Received: from steenbok.cwi.nl by charon.cwi.nl with SMTP
+	id AA25906 (5.65b/2.10/CWI-Amsterdam); Wed, 20 May 1992 03:00:29 +0200
+Received: by steenbok.cwi.nl 
+	id AA23701 (5.65b/2.10/CWI-Amsterdam); Wed, 20 May 1992 03:00:27 +0200
+Date: Wed, 20 May 1992 03:00:27 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205200100.AA23701.dik@steenbok.cwi.nl>
+To: cube-lovers@ai.mit.edu, reid@math.berkeley.edu
+Subject: Re:  assorted results
+
+	                                      My program was able to improve
+	"stripes", but i reoriented the pattern first.  perhaps this is why
+	i had better success.
+True.  Orientation of non-symmetric patterns is important because the first
+step is to get at a situation that is also non-symmetric.
+
+	'tis a shame.  the english edition is very good.
+The german edition is also good, but clearly older.  The newer patterns you
+mention are not in the german edition.  (I may note that Christoph Bandelow
+is still selling puzzles.  The 5x5x5 amongst others.)
+
+	R3 L2 F1 R1 U1 L3 F3 B1 U1 B3 U3 L3 U3  (12 + 1)
+	D1 R1 F3 R1 L1 F2 R2 D3 L2 F2 L1 F3  (12 + 0)
+
+	this last one was very nice, since it was completely solved in stage 1!
+Yup.  But the last but one will not improve and is optimal, and in fact solved
+with stage 1 (but you did not find it because you limited your search 12 deep).
+
+	                        I'm trying to think of the best way to do this.
+	unfortunately, the temptation is NOT to think, but to feed every
+	imaginable pattern into the program.  :-)
+How true.  I stopped feeding new patterns.  Currently I am calculating the
+maximal distance in stage 1.  It will take a bit of time because I have to
+consider 2,217,093,120 possibilities.  But I think that the method I have
+is feasible.  My conjecture was that the maximal distance was 11 or 12.
+That was wrong.  It is at least 12 (the superfliptwist needs 12 moves in
+phase 1).  My current conjecture is 12.  Work is in progress, the first
+1,082,565 configurations give the following picture (i.e. all configurations
+without flip):
+Moves	Number
+  0	     1
+  1	     2
+  2	    17
+  3	   134
+  4	  1065
+  5	  8214
+  6	 54919
+  7	269388
+  8	562427
+  9	183730
+ 10	  2668
+The pattern is similar to what was found with the 2x2x2 cube.  The majority
+of configurations requires 2 less than the maximum.  But apparently flips are
+harder to deal with than the rest of phase 1, so I am waiting for more results.
+Note that 12 would improve Kloostermans 42 moves to 37.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+

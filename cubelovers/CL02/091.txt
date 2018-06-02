@@ -1,0 +1,26 @@
+Date: 10 Jun 1981 2327-PDT
+From: Alan R. Katz <KATZ at USC-ISIF>
+Subject: edge flip anyone...
+To: cube-lovers at MIT-MC
+cc: katz at USC-ISIF
+
+Does anyone know of a way to flip two edges without changing anything else,
+ie interchange the FR and FB edges, keeping their same orientation.  If not,
+how about one that will interchange FR and FB edges without disturbing the top
+layer, but can mess up the bottom??
+
+This may have been given a while back, but I couldn't find it looking through
+the old CUBE-LOVERS mail.
+
+Also, GAMES magazine says they have 100 of the old cubes left for $10.95 plus
+$2.50 for postage and handling.  These are the Ideal ones WITHOUT the IDEAL
+stamped on the white face.  Order from:
+			Games Shop
+			515 Madison Ave.
+			New York, NY  10022
+(first come, first serve)
+
+
+
+					Alan
+-------

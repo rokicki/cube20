@@ -1,0 +1,102 @@
+From dik@cwi.nl  Wed Oct 12 21:55:07 1994
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07797; Wed, 12 Oct 94 21:55:07 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id <AA05315@cwi.nl>; Thu, 13 Oct 1994 02:55:06 +0100
+Received: by boring.cwi.nl 
+	id AA21510 (5.65b/3.8/CWI-Amsterdam); Thu, 13 Oct 1994 02:55:05 +0100
+Date: Thu, 13 Oct 1994 02:55:05 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9410130155.AA21510=dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: CFF 34, summary of contents
+
+CFF #34 came out, it ought to have been in June but is a bit late.
+Still, the editors expect the next issue in December.
+
+Summary of contents.
+
+Leo Links: On Folding Puzzles.
+  A discussion about folding puzzles made from paper or cardboard
+  that display a particular figure or text when folded.
+
+Frits Goebel and Bernhard Wiezorke: Problems for Einstein.
+  They discuss a puzzle consisting of 8 octonimo's which is marketed
+  as IQ CREATOR, MAGIC BLOCK or EINSTEIN PUZZLE.  They show a few
+  pretty patterns that can be formed with the 8 pieces.
+
+Vic Stok: Skyline Tetracubes.
+  This discusses figures that can be formed from the 8 different
+  pieces consisting of 4 cubes glued together.
+
+Jacques Haubrich and Nanco Bordewijk: Cube Chains.
+  This discusses a number of puzzles.  Each consists of 27 cubes
+  connected to each other by an elastic string.  The objective is
+  to form a 3x3x3 cube.
+
+Bernhard Wiezorke: On Nob's L-Puzzle.
+  This duscusses Nob's puzzle.  It consists of 10 L shaped pieces,
+  3 squares high, 2 squares wide; all in the same orientation, one
+  such piece 4 squares high (also the same orientation) and one
+  3 square high piece in different orientation (i.e. turned over).
+  The objective is to fill a 7x7 square, turnover of the pieces is
+  not permitted.
+
+Jacques Haubrich: Pantactic Patterns and Puzzles.
+  This discusses an extension of the memory wheel.  On the wheel
+  the digits 0 and 1 are written such that when you look at 3
+  consecutive digits, all 8 different can be created.  This can
+  be generalized to n consecutive digits.  It is well known (since
+  N.G. de Bruijn) that 2^n digits are needed.  An 2-dimensional
+  extension was made by B. Astle who had a 5x5 square with a
+  black-white pattern such that when you look at the 16 different
+  2x2 subsquares you will find all 16 different configurations.
+  C.J. Bouwkamp made this into a puzzle (in the early 70's) as
+  follows: You have 16 2x2 squares with all possible patterns.
+  The puzzle is to put them together in a larger square such that
+  the borders match.  Rotation is *not* permitted.
+
+Torsten Sillke: Three 3x3 Matching-Puzzles.
+  A discussion about three puzzles consisting of 9 squares that
+  have to be put in a 3x3 square where some form of marking has
+  to match.
+
+Jacques Haubrich: Cube 216.
+  The puzzle Gemini consists of 10 pieces where each piece is
+  made by joining two 1x2x2 blocks together.  This is done in
+  all possible ways.  It is known that there are 50 possible
+  ways to pack them in a 4x4x5 block.  Yoshikatsu Hara extended
+  this with 22 pieces that form all possible ways to join two
+  1x3x3 blocks together.  One result is that there are (at
+  least) 11 selections of 12 of these pieces so that they can
+  be packed in a 6x6x6 cube in an unique way.  There are more
+  results and the author asks also for input.
+
+Chris Roothart: Polylambdas.
+  Polylambdas are formed from the 30/60/90 degree triangle.
+  Lambdas can be joined at corresponding edges.  Joining
+  along the hypothenusa is not allowed.  There are 4 dilambdas,
+  4 trilambdas, 11 tetralambdas en 12 pentalambdas.  These 31
+  pieces can fill a parallelogram of 4 by 31 units (the short
+  leg is the unit).  Many other problems are stated.
+
+Columns:
+
+Mark Peters: Books and Magazines (book reviews)
+Edward Hordern: What's Up? (details some new puzzles)
+------
+CFF (Cubism For Fun) is the newsletter published by the
+Nederlands Kubus Club NKC (Dutch Cubists Club).
+
+Membership fee is NLG 25 individual, NLG 80 institutional.
+(USD 1 ~ NLG 1.70).  Applications for membership to the
+treasurer:
+   Lucien Matthijsse
+   Loenapad 12
+   3402 PE  IJsselstein
+   The Netherlands
+
+If you write, please add an international reply coupon
+(can be obtained at your post office).
+
+

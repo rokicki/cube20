@@ -1,0 +1,48 @@
+From JBRYAN@pstcc.cc.tn.us  Tue Feb 20 10:51:48 1996
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from PSTCC4.PSTCC.CC.TN.US by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05232; Tue, 20 Feb 96 10:51:48 EST
+Resent-From: JBRYAN@pstcc.cc.tn.us
+Resent-Message-Id: <9602201551.AA05232@life.ai.mit.edu>
+Received: from pstcc.cc.tn.us by pstcc.cc.tn.us (PMDF V5.0-3 #11457)
+ id <01I1FMFANMA48X1JD9@pstcc.cc.tn.us> for cube-lovers@ai.mit.edu; Tue,
+ 20 Feb 1996 10:50:33 -0400 (EDT)
+Resent-Date: Tue, 20 Feb 1996 10:50:33 -0400 (EDT)
+Date: Tue, 20 Feb 1996 10:50:31 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Cube Musings
+In-Reply-To: <60.1289.5834.0C20A152@canrem.com>
+Sender: JBRYAN@pstcc.cc.tn.us
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.960220104108.539228493B-100000@pstcc.cc.tn.us>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+On Wed, 7 Feb 1996, Mark Longridge wrote:
+
+> Further Cube Musings
+> ====================
+> 
+> We usually think of positions antipodal to start only, but there are
+> positions antipodal to any given position.
+> 
+> Given a small enough subgroup of the cube, i.e. one which we can
+> exhaustively study, it is not hard to determine some examples.
+
+I guess I didn't understand the thrust of this note.  Isn't it a bit simpler?
+
+Let H be some subgroup of G, let A be the set of antipodes of Start within
+H, and let h be some element of H.  Then, don't we simply have that the
+antipodes of h are the set hA, where hA={ha | a in A}? 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+

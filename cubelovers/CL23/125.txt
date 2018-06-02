@@ -1,0 +1,60 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Aug 19 13:29:02 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA07342; Tue, 19 Aug 1997 13:29:01 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From jbryan@pstcc.cc.tn.us Tue Aug 19 13:17:24 1997
+Date: Tue, 19 Aug 1997 13:13:34 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: isoglyphs
+In-Reply-To: <199708190550.BAA21896@life.ai.mit.edu>
+To: michael reid <reid@math.brown.edu>
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <Pine.WNT.3.96.970819130121.-192999I-100000@GN209A.PSTCC.CC.TN.US>
+
+On Tue, 19 Aug 1997, michael reid wrote:
+
+> 
+> > With the pattern generator it's indeed very easy to find the isoglyphs. 
+> 
+> i'm still unclear about what your pattern generator does.  could you
+> describe what it does, for the benefit of those who haven't seen your
+> program?
+> 
+
+
+I'll take a crack at this one.  (The program is great, by the way.)
+
+The basic mode of the pattern generator allows you to specify a pattern
+for one of the 3x3 faces of the cube, and the program finds all the
+positions (unique up to symmetry) where each of the six 3x3 faces has
+this same pattern.  It doesn't really matter which colors you specify in
+your one face, since you are really only specifying a pattern.  For
+example, I have played with corner facelets and center facelet all one
+color and edge facelets all another color, or center facelet one color
+and all the edge and corner facelets another color (yields the 6-spot),
+etc.
+
+The patterns I have played with have very few (or sometimes, no) 
+solutions.  I don't know what happens if you choose a pattern with many,
+many solutions (maybe there really aren't all that many such positions,
+given that all six 3x3 faces have to have the same pattern). 
+
+There is an expanded mode which I haven't played with much yet where you
+can give up to four 3x3 patterns.  Each of the six faces on the cube
+then has to have a pattern that matches any one of the (up to) four
+which you specified.
+
+The so-called pattern editor I have described seems to operate
+essentially instantaneously.  But having generated the position, you can
+then ask the program to find a near-optimal solution using the Kociemba
+algorithm.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

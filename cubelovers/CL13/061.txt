@@ -1,0 +1,27 @@
+From dik@cwi.nl  Tue Nov 15 09:33:44 1994
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20597; Tue, 15 Nov 94 09:33:44 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id <AA18610@cwi.nl>; Tue, 15 Nov 1994 15:33:39 +0100
+Received: by boring.cwi.nl 
+	id AA04373 (5.65b/3.8/CWI-Amsterdam); Tue, 15 Nov 1994 15:33:38 +0100
+Date: Tue, 15 Nov 1994 15:33:38 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9411151433.AA04373=dik@boring.cwi.nl>
+To: BRYAN@wvnvm.wvnet.edu, cube-lovers@life.ai.mit.edu
+Subject: Re: <U, R> Antipode!
+
+ > On 11/14/94 at 23:41:00 Dik.Winter@cwi.nl said:
+
+ > >You mean: F2 U3 D2 L3 D3 R1 U2 B2 R1 B2 R3 D1 L1 D3 R2 U1 D3 (or rather
+ > >its inverse)?  Took Kociemba's algorithm 10 minutes.  I do not yet
+ > >know whether this is minimal.
+
+ > Are you applying Kociemba's algorithm to the <U,R> antipodal positions
+ > in the context of <U,R> or in the context of G?
+
+In the context of G.  I have no idea what Kociemba's algorithm in the
+context of <U,R> should be; hence my question.
+
+dik
+

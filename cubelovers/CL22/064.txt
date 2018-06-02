@@ -1,0 +1,30 @@
+From cube-lovers-errors@oolong.camellia.org  Tue May 27 17:37:53 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA13588; Tue, 27 May 1997 17:37:53 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <199705272118.RAA09157@life.ai.mit.edu>
+Date:     Tue, 27 May 97 17:18:18 EDT
+From: Nichael Cramer <ncramer@bbn.com>
+To: Goyra <Goyra@cheerful.com>
+cc: cube-lovers@ai.mit.edu
+Subject:  Re:  Java Rubik Gallery now open
+
+>From: Goyra <Goyra@cheerful.com>
+>Subject: Java Rubik Gallery now open
+>Date: Tue, 27 May 1997 19:46:27 +0100
+>
+>
+>	Those of you with Java browsers, powerful
+>PCs and fast Internet connections may want to 
+>revisit my Rubik Gallery at
+>
+>	http://www.iol.ie/~goyra/Rubik.html
+> [...]
+
+I freely admit that I tuned in fully expecting to be disappointed.  But this
+is really slick.
+
+N
+
+

@@ -1,0 +1,31 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Sep  2 19:33:10 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA03526; Mon, 2 Sep 1996 19:33:09 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Mon, 2 Sep 1996 22:50:07 +0300 (IDT)
+From: Rubin Shai <s2394459@cs.technion.ac.il>
+X-Sender: s2394459@csc
+To: Assoc Prof W David Joyner <wdj@nadn.navy.mil>
+cc: cube-lovers@ai.mit.edu,
+        Assoc Prof W David Joyner <wdj@coronado.nadn.navy.mil>
+Subject: Re: cube programs, etc
+In-Reply-To: <Pine.GSO.3.95.960831081024.20193D-100000@coronado>
+Message-ID: <Pine.SV4.3.91-heb-2.04.960902222955.16485A-100000@cs.technion.ac.il>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+Hi all 
+I have a computer program that learn to solve the 2X2X2 cube. I mean that 
+after several hours of 'learning' the program knows to solve any legal 
+start position of this cube. Before learning the program solve the cube 
+after about 15 minuets, after learning it takes about 5 seconds.
+The letter from Prof Joyner made me think about the following things:
+1. Does anyone have a program (in C) that can take a move (a string or a 
+line from a file) and show it on the display.
+2. Does anyone know about similar programs to my. Program that 'learn' to 
+solve the cube by themselves.
+Shai
+
+
+

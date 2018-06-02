@@ -1,0 +1,33 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Dec 28 17:34:33 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id RAA03610; Sat, 28 Dec 1996 17:34:33 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <199612281453.OAB14763@klingon.netkonect.net>
+From: Jon Teague <jon@jandj.netkonect.co.uk>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Rubik's Tangle
+Date: Sat, 28 Dec 1996 14:57:49 -0000
+X-MSMail-Priority: Normal
+X-Priority: 3
+X-Mailer: Microsoft Internet Mail 4.70.1155
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+There are four Rubik's Tangles. Each of them
+has 25 pieces and forms a 5x5 square. Once you've
+got all four you can mix all of the pieces up and produce
+a giant 10x10.
+
+I don't know if Dr Bruhns solution on his page 
+<http://www.math.uni-kiel.de/roesler/bruhn/tlsg.htm>
+is correct - once I get to print it out in colour at the
+office I'll see if it matches the tangle I have (# 4).
+
+Jon Teague
+<jon@jandj.netkonect.co.uk>
+
+
+
+

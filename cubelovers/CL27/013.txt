@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 30 16:55:26 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA25175
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 30 Mar 1999 16:55:25 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Inventing your own techniques
+Date: 30 Mar 1999 14:55:07 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7dqokb$43e@gap.cco.caltech.edu>
+References: <cube-lovers.14080.1711.289304.134028@cipr.no_spam.rpi.edu>
+
+wheeler@cipr.rpi.edu (Frederick W. Wheeler) writes:
+>For me, the most fun, and the ultimate challenge, in cubing comes from
+>figuring out how to solve the puzzle in the first place.  I avoid
+>published and posted techniques.  I'd really like to hear from people
+>on this list on how you go about inventing new moves and techniques or
+>how you feel about learning to solve a puzzle on your own.
+
+After I understood conjugation well enough, I have never invented a
+move that I can in all honesty call "new" -- although they may appear
+"new" to others.  The only new part is just applying it to different
+types of moves and seeing what the result is.
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+She ran by screaming "No, I run by moving my feet rapidly, you idiot!"
+

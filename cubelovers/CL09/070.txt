@@ -1,0 +1,26 @@
+From gk1k+@andrew.cmu.edu  Wed Nov 18 22:59:34 1992
+Return-Path: <gk1k+@andrew.cmu.edu>
+Received: from po2.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA10302; Wed, 18 Nov 92 22:59:34 EST
+Received: by po2.andrew.cmu.edu (5.54/3.15) id <AA01154@X> for cube-lovers@ai.mit.edu; Wed, 18 Nov 92 22:59:30 EST
+Received: via switchmail; Wed, 18 Nov 1992 22:59:27 -0500 (EST)
+Received: from pcs16.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q000/QF.kf2l2sm00iV200T9J7>;
+          Wed, 18 Nov 1992 22:57:46 -0500 (EST)
+Received: from pcs16.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr14/gk1k/.Outgoing/QF.Uf2l2rS00iV289Tuo7>;
+          Wed, 18 Nov 1992 22:57:43 -0500 (EST)
+Received: from mms.0.1.873.MacMail.0.9.CUILIB.3.45.SNAP.NOT.LINKED.pcs16.andrew.cmu.edu.sun4c.411
+          via MS.5.6.pcs16.andrew.cmu.edu.sun4c_411;
+          Wed, 18 Nov 1992 22:57:43 -0500 (EST)
+Message-Id: <Yf2l2rO00iV249Tug6@andrew.cmu.edu>
+Date: Wed, 18 Nov 1992 22:57:43 -0500 (EST)
+From: George Cornelius Kuhl <gk1k+@andrew.cmu.edu>
+To: cube-lovers@ai.mit.edu
+Subject: cube question
+Cc: 
+
+what is the cube root of 81?
+
+George
+
+

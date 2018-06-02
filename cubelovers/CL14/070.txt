@@ -1,0 +1,61 @@
+From news@nntp-server.caltech.edu  Tue Jan 10 12:45:58 1995
+Return-Path: <news@nntp-server.caltech.edu>
+Received: from piccolo.cco.caltech.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07564; Tue, 10 Jan 95 12:45:58 EST
+Received: from gap.cco.caltech.edu by piccolo.cco.caltech.edu with ESMTP 
+	(8.6.7/DEI:4.41) id JAA05353; Tue, 10 Jan 1995 09:45:48 -0800
+Received: by gap.cco.caltech.edu 
+	(8.6.7/DEI:4.41) id JAA05375; Tue, 10 Jan 1995 09:45:41 -0800
+To: mlist-cube-lovers@nntp-server.caltech.edu
+Path: nntp-server.caltech.edu!txr
+From: txr@alumni.caltech.edu (Tim Rentsch)
+Newsgroups: mlist.cube-lovers
+Subject: Re: kociemba's algorithm for quarter turns
+Date: 10 Jan 1995 17:45:35 GMT
+Organization: California Institute of Technology CCO Unix cluster
+Lines: 40
+Message-Id: <TXR.95Jan10094535@alumni.cco.caltech.edu>
+References: <9501092224.AA05290=dik@boring.cwi.nl>
+Nntp-Posting-Host: alumni.caltech.edu
+In-Reply-To: Dik.Winter@cwi.nl's message of Mon, 09 Jan 95 23:03:57 GMT
+
+Dik.Winter@cwi.nl writes:
+
+>But it can take long.  Getting a minimal solution if the length is 16
+>or less appears to be doable.  If the length is 19 or more it takes an
+>awfully long time.  What I have found until now is:
+>1.  There are no configurations known that require 21 turns or more,
+>    and I checked an awfully large number.
+>2.  There are known configurations that require 18 turns.
+>The middle part is a grey area.
+
+How hard would it be to write a program to try the following?
+
+1) Initialize set S with a configuration that requires a large number
+   of turns (the max, perhaps).
+
+2) Test the length of all configurations one turn from any
+   configuration in S.
+
+3) If one or more of these has a minimum length longer than the
+   initial position, replace the set S with the set of those
+   configuration with longer length (of course print out useful 
+   intermediate result).
+
+4) If none of the test positions has a minimum length longer
+   than the length of positions in S, replace the set of test positions
+   with positions one more turn away, and test again until 3 works.
+   (Obviously it would be useful to store something about previous
+   results so that work is not redone needlessly.  I think it's
+   easy to figure out what information should be stored, although
+   I haven't done so.)
+
+5) Give up when patience is exhausted.
+
+It would be nice to get a higher lower bound, and this seems
+like a plausible way of doing so.
+
+regards,
+
+Tim Rentsch
+
+

@@ -1,0 +1,50 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Dec 17 12:58:39 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA21072
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 17 Dec 1998 12:58:39 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 16 Dec 1998 23:46:46 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Charlie Dickman <charlied@erols.com>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Newer mechanism? (Was: Re: re-assembling a 2x2x2?)
+In-Reply-To: <v04020a00b29ca31d7c8f@[207.172.132.155]>
+Message-Id: <Pine.BSF.3.96.981216232654.16519H-100000@shell2.tiac.net>
+
+
+ Charlie, I'm just about dead sure my 2^3s (from about 15 (?) years go)
+have no screws. I studied your description, and it seems that the
+mechanism has been redesigned! I described the mechanism of mine in
+considerable (if not painful!) detail, maybe a year and a half ago; it's
+probably in the archives. The keyword "jack" should help to locate the
+post.
+
+ Perhaps a continuing market combined with the difficulty of assembling
+the original design created a need for a new one.
+
+ Would really *love* to know whether there is a newer and different
+mechanism. As a somewhat casual student of these mechanisms, I've come
+to realize that for all "sizes", more than one mechanism is possible.
+
+ I have great admiration for the designers who create these marvelous
+mechanisms. I love the 5^3 as much for its innards (which I regard as
+thoroughly astonishing) as for its essential function.
+
+ I also admire the mathematicians, programmers, and practical users of
+group theory on this List; I have only a faint awareness of what they're
+talking about, but their amazing posts keep my mind properly stretched.
+I feel a bit like a dog listening to his human family discussing, say, a
+trip to Australia (the dog didn't go). However, that's perfectly OK with
+me! My mind is quite good, and to some degree it's circumstance that I'm
+not "with it".
+
+My regards to all,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*  The personal computer industry will have become
+|*  Amateur musician  *|*  mature when crashes become unacceptable.
+--------------------------------------------------------------------------
+

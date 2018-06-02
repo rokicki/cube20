@@ -1,0 +1,21 @@
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Re: Supergroup
+In-Reply-To:  Woods@PARC-MAXC's message of 31 Jul 81 01:01-EST
+Message-Id: <31Jul81 062607 DH51@CMU-10A>
+
+
+	Don Woods's answer is correct.  When the edges and corners
+are in their solved positions, the total face center twist is zero
+modulo 180 degrees.  Thus the number of face centers that are
+twisted 90 degrees must be even.  A proof of this appeared in
+Cube-Lovers last year.
+
+	A process to twist the U face center 180 degrees without
+changing anything else is (U LR UU L'R')^2.  This process comes from
+Singmaster's book.  I sent Cube-Lovers a general procedure for
+solving the supergroup in January.
+
+	If you want a copy of either of these messages, send a note
+to Hoey@CMU-10A.
+

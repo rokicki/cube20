@@ -1,0 +1,38 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Jul  5 20:09:33 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id UAA16504; Fri, 5 Jul 1996 20:09:32 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Sender: ltaylor@pop.kaiwan.com
+Message-Id: <v02130501ae03500ff2a5@[198.178.203.185]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Fri, 5 Jul 1996 17:02:18 -0700
+To: Cube-Lovers@ai.mit.edu
+From: "Larry A. Taylor" <ltaylor@kaiwan.com>
+Subject: Rubik's Cube mailing list
+
+I would be interested in descriptions of algorithms and heuristics used
+for solutions of the Rubik's Cube problem.  I have a copy of the Rubik's
+Math book in which (Freimaster?) the author describes some computer
+work done in England or Wales (was it Thistlewaite?)  There seemed to be
+no way to contact the author, trace the paper, and even a letter to the
+publishers of the book go no clues to the "newsletter" mentioned.
+
+It would be a great benefit to find out more about these computer methods.
+A portion of my dissertation work is based on search over the Rubik's cube
+domain.
+
+What is the status of the legal dispute?  I was able to buy a cube in a regular
+store a short while ago, after apparently being absent for many years.
+
+LAT
+
+Larry A. Taylor, <ltaylor@kaiwan.com>.  UCLA Computer Science Dept., Ph.D.
+candidate <ltaylor@cs.ucla.edu>.  DBA North Circle Software, 13104
+Philadelphia St, Suite 208, Whitter, CA 90601. Bus. phone, (310) 698-2739.
+Fax (310) 698-8164.  <75176.1071@compuserve.com>,  <ltaylo934@aol.com>
+
+
+
+

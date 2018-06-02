@@ -1,0 +1,49 @@
+From JBRYAN@pstcc.cc.tn.us  Tue Feb 13 15:45:47 1996
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from PSTCC4.PSTCC.CC.TN.US by life (4.1/AI-4.10) for /com/archive/cube-lovers id AA04850; Tue, 13 Feb 96 15:45:47 EST
+Resent-From: JBRYAN@pstcc.cc.tn.us
+Resent-Message-Id: <9602132045.AA04850@life>
+Received: from pstcc.cc.tn.us by pstcc.cc.tn.us (PMDF V5.0-3 #11457)
+ id <01I15VO79IYO8WXE00@pstcc.cc.tn.us> for cube-lovers@ai.mit.edu; Tue,
+ 13 Feb 1996 11:27:57 -0400 (EDT)
+Resent-Date: Tue, 13 Feb 1996 11:27:55 -0400 (EDT)
+Date: Tue, 13 Feb 1996 11:27:51 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Large Searches with Small Memory
+In-Reply-To: <Pine.PMDF.3.91.960206130728.538983702A-100000@pstcc.cc.tn.us>
+Sender: JBRYAN@pstcc.cc.tn.us
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.960213111811.539034912C-100000@pstcc.cc.tn.us>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+On Tue, 6 Feb 1996, Jerry Bryan wrote:
+
+> But here follows what I think is a new idea.  What if we
+> formed all products XY for X in C[n] and Y in C[1].  Since
+> C[1] is Q, this is really just the procedure for a standard
+> depth first search.  But we can't store C[n+1].  Can we
+> determine the size of C[n+1] anyway?
+
+As is often the case, there is nothing new under the sun.  I believe that
+the "new" idea I was suggesting is very similar to, or perhaps identical
+with, certain aspects (or all) of Shamir's algorithm.  The best references
+I have found in the archives are as follows: 
+
+   Alan Bawden     27 May 87  Shamir's talk really was about how to 
+                              solve the cube!
+
+   Michael Reid    16 Dec 94  Re: Cyclic Decomposition
+
+   David Moews     23 Jan 95  Shamir's method on the superflip
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+

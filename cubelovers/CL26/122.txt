@@ -1,0 +1,23 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Feb 24 13:57:12 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA08541
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 24 Feb 1999 13:57:12 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19990223234105.19048.rocketmail@web4.rocketmail.com>
+Date: Tue, 23 Feb 1999 15:41:05 -0800 (PST)
+From: "Jorge E. Jaramillo" <kingeorge@rocketmail.com>
+Subject: Number of moves
+To: cube <Cube-Lovers@ai.mit.edu>
+
+A lot has been said about world records solving the
+cube when it comes to time but I don't recall seeing
+anywhere how many moves the person who holds the
+record did.
+Does anyone know?
+
+
+===
+Jorge E Jaramillo
+

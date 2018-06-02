@@ -1,0 +1,103 @@
+From modestr@federal.unisys.com  Mon Apr  8 12:03:25 1996
+Received: from www.han.federal.unisys.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08118; Mon, 8 Apr 96 12:03:25 EDT
+Received: from homer.MCLN.Federal.Unisys.COM by www.han.federal.unisys.com (8.6.12/mls/8.0) 
+	id MAA17345; Mon, 8 Apr 1996 12:03:19 -0400
+Return-Path: <modestr@federal.unisys.com>
+Received: from h3-90.MCLN.Federal.Unisys.COM by homer.MCLN.Federal.Unisys.COM (8.6.12/mls/4.1) 
+	id MAA27608; Mon, 8 Apr 1996 12:06:35 -0400
+Message-Id: <199604081606.MAA27608@homer.MCLN.Federal.Unisys.COM>
+Date: Mon, 08 Apr 96 12:03:28 -0700
+From: Ron Modest <modestr@federal.unisys.com>
+X-Mailer: Mozilla 1.22 (Windows; I; 16bit)
+Mime-Version: 1.0
+To: Cube-Lovers@ai.mit.edu
+Subject: square 1 help
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=iso-8859-1
+
+Regarding swapping two edges on Square-1.
+
+You prompt me to write about something I have been meaning to get around 
+to for a long time.
+
+Long ago I found a way to swap two edges using a complicated sequence.  
+After considerable unsuccessful effort to improve the solution, I bought 
+Richard Snyders amazing book "Turn to 1" from Puzzletts.
+( HTTP://WWW.PUZZLETTS.COM/ )  His solution is essentially the same as 
+mine.  His method of documentation obscures what is really going on and 
+consequently it would be very hard to memorize.  The principal is 
+straight forward and follows these steps.
+
+Move all the edge pieces to the same side in an orderly sequence.
+Turn the side that has all corner pieces, one position.
+Retrace all the moves that brought the edge pieces to the same side.
+Fix any thing that got messed up in the process. (this is what I call 
+collateral damage)
+
+Snyder's solution optimizes the process to minimize the collateral damage 
+but any variation on the steps listed above will work.
+
+
+On a related subject....
+How to get the puzzle into the shape of a cube after initial scrambling.
+Snyders book shows pictures of all possible scrambled shapes.  Each has 
+instructions for making a few turns and the next diagram to refer to.  
+This process may be optimal for getting it into a cube shape but it is 
+nearly impossible to memorize.
+
+I am sure everyone who works with the puzzle learns some shapes that are 
+close to the cube shape but it may seem nearly impossible to generally 
+solve in any orderly way.  Well consider the following strategy:
+
+Collect all the edge pieces on the same side.  They can all be side by 
+side in what Snyder calls the Hoofprint pattern or in the Moon pattern 
+that has two groups of four edges on the same side.  Then move half of 
+the edges to the opposite side.  Then move half of the edges from the top 
+to the bottom and half of the edges from the bottom to the top, but do so 
+in a way that separates them into groups of two.  You are then with a 
+couple of twist of making a cube.
+
+The beauty of the strategy is that to obtain perfect final symmetry, you 
+first take it to a position of maximum asymmetry.  Every turn after that 
+keeps it symmetric.
+
+This method will not generally be the optimum solution but it is straight 
+forward and easily learned.
+
+I said this is related to the previous subject of swapping two edges 
+because both require reaching a position will all the edge pieces on one 
+side.  I might not have ever found the method for swapping two edges if I 
+had not first adopted this method for getting it into a cube shape first.
+
+
+While I am sending out a message let me recommend that everyone include 
+their mail address when the send a message.  Recently a couple of 
+messages did not.  I would have send the author a personal message 
+answering a simple question but didnt want to bother everyone else.  One 
+such question was about obtaining 3x3x3 cubes.  They are available in 
+many chain toy stores including "The Game Keeper" and "LearningSmith".  
+Most puzzles are available from Puzzletts also.
+
+I also notice that several local stores are carrying Rubiks Magic again. 
+ The colors are different than the originals.
+
+
+
+Cube Trivia....
+In 1982 a Worlds Fair was held in Knoxville Tenn. USA..  At the enterance 
+to the Hungarian pavalion was a Rubik's Cube about 4 feet on a side 
+mounted on a pedistal.  At that time a Rubik's Cube was a universially 
+recognized symbol.
+
+
+
+Walter Smith
+near Washington D.C.
+WALTS@FEDERAL.UNISYS.COM
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 11 12:02:16 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA16647
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 11 Aug 1999 12:02:16 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <37ADC0A2.35DC8809@pressenter.com>
+Date: Sun, 08 Aug 1999 12:38:42 -0500
+From: Joe Johnson <jgjohnso@pressenter.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: repairing broken cubes
+
+I recently broke one of the face cubies of my 4X4.  I attempted to
+repair it by drilling a hole for a pin and gluing it together (it broke
+in the "ankle" that holds the "foot" to the top.)  I tried several
+different types of glues and epoxies and nothing seemed to stick very
+well.  I finally used some woodworkers glue and it is holding together
+for now.  I'm being very carefull and cannot do any fast moves with it.
+Does anyone know of a better way to repair these types of breaks.  I
+would not have attempted the repair at all if the cubes were still
+readily available, but since they are out of production I have little
+choice.  This is the second 4X4 I've broken in this manner.
+
+Joe Johnson
+

@@ -1,0 +1,26 @@
+From ACW@yukon.scrc.symbolics.com  Mon Jan 13 22:03:15 1992
+Return-Path: <ACW@yukon.scrc.symbolics.com>
+Received: from YUKON.SCRC.Symbolics.COM by life.ai.mit.edu (4.1/AI-4.10) id AA21059; Mon, 13 Jan 92 22:03:15 EST
+Received: from PALLANDO.SCRC.Symbolics.COM by YUKON.SCRC.Symbolics.COM via INTERNET with SMTP id 761285; 13 Jan 1992 14:40:58-0500
+Date: Mon, 13 Jan 1992 14:38-0500
+From: Allan C. Wechsler <ACW@yukon.scrc.symbolics.com>
+Subject: Re: Rubik's Cube, the minimax number of moves
+To: hoey@aic.nrl.navy.mil, tjj@lemma.helsinki.fi, Cube-Lovers@life.ai.mit.edu
+In-Reply-To: <9201102332.AA13941@sun13.aic.nrl.navy.mil>
+Message-Id: <19920113193832.8.ACW@PALLANDO.SCRC.Symbolics.COM>
+
+I would like to see us develop a programming language for expressing
+cube-solving algorithms in.  Then we could cooperate in trying to find
+an algorithm with smaller and smaller numbers of moves in the worst
+case.
+
+I just completed an exercise I have wanted to try for a while, a rough
+worst-case analysis of my own technique.  It's pretty scary.  It turns
+out that my worst case is 236 qtw.  My algorithm is "bottom-heavy" -- it
+starts with "intuitive" moves for fixing the first few corners.  These
+were the hardest to analyze, but they take the fewest moves.  It
+finishes up with great big macros for the last few fiddles and fixes.
+For example, flipping two edges in place takes 22 qtw.  Obviously a lot
+could be gained from tweaking the earlier part of the algorithm to
+guarantee that I don't need to do this at the end.
+

@@ -1,0 +1,36 @@
+From cube-lovers-errors@curry.epilogue.com  Wed May 29 15:27:35 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id PAA02706 for <cube-lovers-outbound@curry.epilogue.com>; Wed, 29 May 1996 15:27:34 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Sender: mag@void.ncsa.uiuc.edu
+Message-Id: <v0213051badd22441e39e@[141.142.103.218]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 29 May 1996 09:59:23 -0600
+To: cube-lovers@ai.mit.edu
+From: Tom Magliery <mag@ncsa.uiuc.edu>
+Subject: Re: Square 1 Combinations
+
+At 10:11 AM 5/28/96, Michael C. Masonjones wrote:
+>On another note, when I signed up, I mentioned to Alan that I must be
+>crazy enough to join this group since I have a five foot mockup of a
+>rubik's type puzzle as my coffee table.
+
+Neato!
+
+It's long been a carpentry dream of mine to build a giant functioning 3x3x3
+Rubik's Cube.  (Just how giant, who knows, but I've usually envisioned
+about 1-foot cubies.)  Has anyone ever written up plans or built a giant
+cube?
+
+mag
+
+--
+.---o  Tom Magliery, Research Programmer                         .---o
+`-O-.  NCSA, 605 E. Springfield                  (217) 333-3198  `-O-.
+o---'  Champaign, IL 61820          O-        mag@ncsa.uiuc.edu  o---'
+
+
+
+

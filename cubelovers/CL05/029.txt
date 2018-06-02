@@ -1,0 +1,57 @@
+Date: Thu 26 May 83 09:27:30-PDT
+From: ISAACS@SRI-KL.ARPA
+Subject: anybody there; 5x5x5; circular
+To: cube-lovers@MIT-MC.ARPA
+
+  There doesn't seem to be much happening with the cube, but the (at least)
+3 newletters are still being published. Ideals "Rubik's Cube Newsletter" no.
+3 came, marked winter, 1983.  Mostly about contests, also an article on 
+computer cubing and the calendar cube.  Rubik's magazine from Hungary is 
+also on issue 3, with article on contests, other games and toys, and a little
+bit of mathematics.  Singmasters "Cubic Circular" is on issue 5/6 (phisically,
+the forth issur), and is the best of the lot mathematically.  He describes
+and talks some about rotating rings, about Tsukuda's square (and how to 
+solve it), generalized Hungarian rings, the Incredi-ball (equivalent
+to the corners of a Magic Dodecahedron without centers?? anyway, about
+2*10**25 positions), rotating rings of cubes and tetrahedra (STarburst, 
+Kaleido Puzzle, etc), some notes on the 4x4x4 (his suggested order:  2
+opposite face centers, say L and R; Pair up and place the F,C,B edge
+pairs on the L & R faces; D corners; Pair up FD & store them, then pair BD
+edges, then put these edge pairs in place; check parity of U corners - if
+odd, apply U; 3-cycle U edges to get UR & UL edge pairs;  EXAMINE, carefully,
+the parity of the 4 edge pieces at UF&UB - if odd, r2D2l'D2r2, which 4 cycles
+these edges; get all edges together and place; do U corners; do centers with
+3-cycles like [[r,b],U].  phew.  If people are interested, he gives 
+slightly more information on his method, also "Useful moves", and some other
+strategies taken from the literature.  He talks about "Evisceration", 
+that is, the principle of Duality, that if you replace capitals with small
+letters and vice versa, in any move sequence, you turn the cube inside out -
+corners become invisable centers, edges become face centers, etc.  Singmaster
+uses this to transfer knowledge of 3x3x3 to 4x4x4.  He guesses the minimum
+for God's Algorithm on the 4x4x4 to be about 44 "hand moves" or 66
+quarter turns.  (question, from DS: how should we count moves?  "r" is
+really 2 hand moves - Rr followed by R' - while Rr and even Rrl' could be
+counted as a single move.)  The circular talkes about Pyraminx, and gives
+God's Algorithm as between 8 and 17 moves; there was some work on that done
+in the Journal of Recreational Mathematics (a minimum solution was
+presented), but I can't find the issue right off hand.  Also a bunch of
+Pyraminx patterns are given.  There is an article on the prehistory of
+the cube,and a little on the legal problems.  Anyway, this parenthetical
+paragraph is way out of hand - if anybody wants more, or more organized,
+on the Circular, let me know.)
+    The 5x5x5:  Yes, I saw one and played with it (a very little bit) at
+Jerry Slocums' puzzle party.  I also got an add from Meffert for one, and
+have sent him my money, but it hasn't come yet.  Neither has my Skewb, for
+which I sent money half a year ago or so.
+    What else is new?  Well, nothing much.  Sales in the stores are slow,
+and the number of puzzles available has lessened.  Doug Engels rotating
+circles are ready for production, and his manufacturer is mainly waiting
+for the "right time" to release them.  (These are 2 overlapping rotating
+circles, with 3 piece overlap and 21 pieces all together.)  He is trying
+to decide between 2 colorings; if he choses the more difficult one, it 
+is a fairly hard puzzle, very cube like, but harder to get the already
+solved pieces "out of the way".  
+   Sorry this turned out so long and rambling - I was just going to 
+write a short note, and got carried away.  Happy puzzling.
+   -- Stan
+-------

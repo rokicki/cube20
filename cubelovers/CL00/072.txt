@@ -1,0 +1,41 @@
+Date:  4 Aug 1980 1156-PDT
+From: Dave Dyer <DDYER at USC-ISIB>
+Subject: cube permutations
+To: cube-lovers at MIT-MC
+
+
+ I'm not quite satisfied with the numbers that have been quoted
+for various cube groups.  I believe they are probably correct,
+but I haven't seen anything resembling a satisfactory sketch
+of a proof.
+
+Number of Reachable Positions:
+
+  The standard calculation runs like : we have 8 corners that can
+be in all 8! arrangements, and 12 sides that can be in all 12!
+arrangements, except that the total permutation must be even.
+( I'll talk about orientations later)
+  I can accept this figure as an upper bound, but can anyone demonstrate
+that all the positions not ruled out can actually be reached? The only
+way I can think of is an actual construction, which means finding
+a generator for the group (for instance of corner cube positions) and
+showing that its order is 8!.  This is somewhat less than elegant,
+and requires an unspecified bit of magic to 'find' a generator
+for the group.
+  I also don't like the recourse to geometric arguments ( the corners
+and sides can't be interchanged ) but I am willing to accept it.
+
+Number of Reachable orientations:
+
+  A similar line of reasoning is used to argue the number of reachable
+orientations : the amount of twist on all corners and (independantly)
+on all sides is a multiple of 360 degrees.  I haven't seen a demonstration
+that all the not-forbidden orientations are actually reachable.
+
+Finally, I haven't seen a demonstration that the orientation and permutation
+subgroups are indepentant, that is, that you can get to an arbitrarily
+selected location and an arbitrarily selected orientation at the same
+time.  This assumption is the basis for Singmasters claim that there
+are 12 orbits of cubes : ( even-spacial-permutation X even-side-orientation
+X one-of-three-corner-orientation = 2 X 2 X 3 = 12 )
+-------

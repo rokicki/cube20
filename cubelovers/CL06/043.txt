@@ -1,0 +1,98 @@
+Received: from nrl-aic.ARPA (TCP 3200200010) by AI.AI.MIT.EDU 24 Jun 87 03:18:32 EDT
+Return-Path: <hoey@nrl-aic.ARPA>
+Received: Wed, 24 Jun 87 03:12:52 edt by nrl-aic.ARPA id AA18187
+Date: 24 Jun 1987 02:40:53 EDT (Wed)
+From: Dan Hoey <hoey@nrl-aic.ARPA>
+Subject: Groups of the larger cubes
+To: Cube-Lovers@AI.AI.MIT.EDU
+Message-Id: <551515254/hoey@nrl-aic>
+
+Last year Rodney Hoffman cited an article by J. A. Eidswick (in the
+March 1986 Math Monthly) that develops a general approach to analyzing
+several magic polyhedra.  Did anyone else go read this one?  Of
+particular interest is Eidswick's analysis of the larger three-
+dimensional cubes.  The article shows that the only constraints on
+these cubes are the permutation parity constraints implicit in the
+generators and the corner and edge orientation constraints we already
+know about.  Eidswick shows that this even holds for the ``theoretical
+invisible group'', where we imagine that the interior of the magic
+N-cube is a magic (N-2)-cube that must be solved simultaneously.  The
+solution method he presents is to solve the parity problems by applying
+zero or one qtw at each of the floor(N/2) depths, then to work with
+commutators (aka mono-ops) to solve the rest of the cube, piece by
+piece.
+
+As a supplement to that article, here are the number of positions
+G[t](N) of the N^3 magic cube, where t, a subset of {s,m,i},
+indicates the set of traits we find interesting:
+
+    s (for N odd) indicates that are working in the Supergroup, and
+      so take account of twists of the face centers.
+    m (for N > 3) indicates that the pieces are marked so that we
+      take account of the permutation of the identically-colored
+      pieces on a face.
+    i (for N > 3) indicates that we are working in the theoretical
+      invisible group, and solve the pieces on the interior of the
+      cube as well as the exterior.  I will assume that the M and S
+      traits apply to the interior pieces as if they were on the
+      exterior of a smaller cube.
+
+A formula for the number of positions is
+
+               2^A (8!/2 3^7)^B (12!/2 2^11)^C (4^6/2)^D (24!/2)^E
+    G[t](N) =  ---------------------------------------------------
+                                 24^F (24^6/2)^G
+
+The following table gives the values of parameters A-G, depending on
+the traits, and on whether N is even or odd.
+
+        Parameter   Traits  (N odd)              (N even)
+
+(Parity)        A =         (N-1)/2              N/2
+
+(Corners)       B = i       (N-1)/2              N/2
+                    ~i      1                    1
+
+(Edge centers)  C = i       (N-1)/2              0
+                    ~i      1                    0
+
+(Face centers)  D = ~s      0                    0
+                    s,i     (N-1)/2              0
+                    s,~i    1                    0
+
+(Other cubies)  E = i       (N+4)(N-1)(N-3)/24   N(N^2-4)/24
+                    ~i      (N+1)(N-3)/4         N(N-2)/4
+
+(Whole-cube)    F =         0                    1
+
+(Color cosets)  G = m       0                    0
+                    ~m,i    (N^2-1)(N-3)/24      N(N-1)(N-2)/24
+                    ~m,~i   (N-1)(N-3)/4         (N-2)^2/4
+
+In any case, the size of the group is exponential in a polynomial in N;
+the polynomial is cubic if trait "i" is present and quadratic otherwise.
+Here is a table of numeric approximations for cubes up to 10^3.
+
+              Traits excluding s
+ N     {}        {m}       {i}      {m,i}
+ 2  3.674e6   3.674e6   3.674e6   3.674e6
+ 3  4.325e19  4.325e19  4.325e19  4.325e19 
+ 4  7.401e45  7.072e53  3.263e53  3.118e61 
+ 5  2.829e74  2.583e90  6.117e93  5.585e109
+ 6  1.572e116 1.310e148 3.077e170 2.451e210
+ 7  1.950e160 1.484e208 2.982e253 2.072e317
+ 8  3.517e217 2.335e289 3.247e388 1.717e500
+ 9  1.417e277 8.208e372 5.283e529 2.126e689
+10  8.298e349 4.007e477 4.041e738 1.032e978
+
+              Traits including s
+ N     {s}      {s,m}     {s,i}    {s,m,i}
+ 3  8.858e22  8.858e22  8.858e22  8.858e22 
+ 5  5.793e77  5.289e93  2.566e100 2.343e116
+ 7  3.994e163 3.039e211 2.562e263 1.780e327 
+ 9  2.902e280 1.681e376 9.293e542 3.740e702 
+
+Enough, then, of what are essentially Eidswick's results.  In my next
+message, I plan to produce lower bounds for solving these cubes.
+
+Dan

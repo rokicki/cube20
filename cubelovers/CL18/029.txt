@@ -1,0 +1,51 @@
+From walts@federal.unisys.com  Thu Dec 14 10:23:10 1995
+Return-Path: <walts@federal.unisys.com>
+Received: from www.han.federal.unisys.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA15946; Thu, 14 Dec 95 10:23:10 EST
+Received: from homer.MCLN.Federal.Unisys.COM by www.han.federal.unisys.com (8.6.12/mls/8.0) 
+	id KAA05464; Thu, 14 Dec 1995 10:23:08 -0500
+Received: from h3-91.MCLN.Federal.Unisys.COM by homer.MCLN.Federal.Unisys.COM (8.6.12/mls/4.1) 
+	id KAA05516; Thu, 14 Dec 1995 10:25:26 -0500
+Message-Id: <199512141525.KAA05516@homer.MCLN.Federal.Unisys.COM>
+Date: Thu, 14 Dec 95 10:25:01 -0800
+From: "Walter P. Smith" <walts@federal.unisys.com>
+Organization: Installation Services
+X-Mailer: Mozilla 1.22 (Windows; I; 16bit)
+Mime-Version: 1.0
+To: Cube-Lovers@ai.mit.edu
+Subject: Twist Torus
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=iso-8859-1
+
+In Sept. 1992 Mark Longridge described an idea he had for a 
+puzzle.  He called it a Twist Torus.  Well I bought a puzzle that 
+fits his description very closely.  I would have sent this in 
+sooner except that I am new to Cube Lovers.  I bought mine 
+several years ago.  Did he get his design into production or was 
+it independently invented or did someone implement Mark's idea?  
+Will we ever know?  I bought mine in a department store (cant 
+remember which) toy department.  It was not in any packaging and 
+cost less than $2 US..  They only had one.  It was quite by 
+chance that I determined that it is a puzzle.
+
+It will test my ability to describe it in words but here goes.  
+It is torus shaped (dough nut shaped).  At first glance it looks 
+like a bracelet.  It has one slice made the same way a bagel is 
+sliced.  The puzzle can turn along this cut.  There are eight 
+differently colored sections separated by fixed black sections 
+around the circumference of the torus.  Each colored section is 
+subdivided into 4 sub-segments that can turn at right angles to 
+the main circumference.  As a segment is turned, different parts 
+of the segment are brought to the other side of the main cut.
+
+It operates smoothly and is brightly colored.  It is fairly easy 
+to solve but the geometry is novel and interesting.
+
+Does anyone else have one of these?  Does anyone know who 
+manufactured this?  Does anyone know what it is called?
+
+Walt "The Puzzler" Smith
+
+
+
+
+

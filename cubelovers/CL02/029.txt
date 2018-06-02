@@ -1,0 +1,19 @@
+Date: 17 Feb 1981 10:49 PST
+From: McKeeman at PARC-MAXC
+Subject: Re: 4x4x4 cube
+In-reply-to: Your message of 17 Feb 1981 07:54:00-PST
+To: microsoft!zibo at Berkeley
+cc: cube-lovers at MIT-MC
+
+Zibo,
+
+All things are possible in the computer.  My undertanding is that a 4x4x4 is
+being built, but I have not heard that it is yet complete.
+
+The real mind-bender is the continuous Rubik Sphere.  Take a sphere, slice it
+arbitrarily many times.  Now each slice makes a plane of rotation and gives a
+degree of freedom.   The Rubik Cube is a special case for which there is a
+mechanical implementation.
+
+Bill
+

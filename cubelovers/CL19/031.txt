@@ -1,0 +1,63 @@
+From mark.longridge@canrem.com  Sat Feb 24 01:13:35 1996
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18904; Sat, 24 Feb 96 01:13:35 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 20BD28; Sat, 24 Feb 96 00:58:14 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Hamiltonian Circuits
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1310.5834.0C20BD28@canrem.com>
+Date: Sat, 24 Feb 96 00:25:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+
+Mike wrote:
+> there's a general graph theory conjecture that cayley graphs are
+> hamiltonian (i.e. have hamiltonian circuits).
+>
+> if we take the cayley graph formed by generators
+> {F, F', L, L' U, U', R, R', B, B', D, D'}, the conjecture asserts
+> that there is a sequence of  N  quarter turns that visits every
+> position exactly once and returns to START.
+> (here  N  =  43252003274489856000 is the order of the group.)
+
+Here's an easy example:
+
+Hamiltonian Circuit for < u2, r2 >
+12 elements, 12 moves in group to reach each element
+
+         Identity
+         /    \
+    1.  u2    r2  12.
+        |      |
+    2.  r2    u2  11.
+        |      |
+    3.  u2    r2  10.
+        |      |
+    4.  r2    u2  9.
+        |      |
+    5.  u2    r2  8.
+        |      |
+    6.  r2    u2  7.
+         \   /
+         Antipode
+
+Position at  6. is the antipode
+Position at 12. is the identity
+
+Also, I seem to remember that the slice-squared group had 8 elements,
+and if you graphed a route through the elements it formed a cube.
+After drawing such a graph it is not hard to find a hamiltonian
+circuit (using the edges of the cube as a pathway).
+
+This may be true in general for all the platonic solids.
+(I need to re-check "Regular Polytopes" by Coxeter).
+
+So we have 2 examples and no counter-examples of the general graph
+theory Mike mentions.
+
+-> Mark <-
+
+

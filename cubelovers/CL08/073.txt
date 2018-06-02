@@ -1,0 +1,62 @@
+From reid@math.berkeley.edu  Wed May 20 16:06:25 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA27635; Wed, 20 May 92 16:06:25 EDT
+Received: from phnom-penh.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA13051; Wed, 20 May 92 13:06:14 PDT
+Date: Wed, 20 May 92 13:06:14 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205202006.AA13051@math.berkeley.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re:  assorted results
+
+> True.  Orientation of non-symmetric patterns is important because the first
+> step is to get at a situation that is also non-symmetric.
+
+next stage: have the program account for symmetries of the pattern,
+face turns that commute with the pattern, ...
+
+> 	'tis a shame.  the english edition is very good.
+> The german edition is also good, but clearly older.  The newer patterns you
+> mention are not in the german edition.
+
+again, a shame.  i think that these snake patterns are among the most
+interesting things in the book.
+
+>                                             Currently I am calculating the
+> maximal distance in stage 1.  It will take a bit of time because I have to
+> consider 2,217,093,120 possibilities.  But I think that the method I have
+> is feasible.
+
+how much time do you anticipate the job will take?  it seems that we'd
+get a much better improvement (of kloosterman's bound) by calculating
+the maximal distance in stage 2.  of course, this requires going through
+19,508,428,800 possibilities (nearly 9 times as many).  is this feasible?
+also it seems that "god's algorithm" for stage 2 (i.e. face turns are
+restricted to  D, U, B2, F2, L2, R2) would be very similar to
+god's algorithm for the "magic domino," and this similarity should
+become stronger as the patterns get further away from START.
+
+from the pruning tables used in stage 2, dik gives the following maximal
+distances:
+
+> Phase 2:
+> corners:	13
+> edges:		8
+> slice edges:	4
+> corners+slice:	14
+> edges+slice:	12
+
+i was slightly surprised to see a difference between the figures for
+"corners" and those for "corners + slice edges".  but the difference
+between "edges" and "edges + slice edges" is shocking.  so perhaps the
+two "god's algorithms" above are not TOO similar.
+
+> Based on this I expect a maximal distance  [ ... ]
+> in phase 2 of about 16/17.
+
+i'm pretty sure i know a pattern that requires 15 face turns.  i wouldn't
+be all that surprised if 15 was the maximum, although i haven't tested many
+patterns.
+
+mike
+

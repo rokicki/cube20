@@ -1,0 +1,111 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Mon Aug  3 02:57:03 1992
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from mail.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) id AA13101; Mon, 3 Aug 92 02:57:03 EDT
+Received: from canrem.COM ([142.77.253.2]) by mail.uunet.ca with SMTP id <9679>; Mon, 3 Aug 1992 02:46:15 -0400
+Received: from canrem.com by unixbox.canrem.COM
+	id aa15064; Mon, 3 Aug 92 2:39:20 EDT
+Received: by canrem.com (PCB/Usenet Gateway)
+	Path-id <19923.104.88888@dosgate>; 3 Aug 92 (02:30)
+Message-Id: <19923.104.88888@dosgate>
+From: Mark Longridge <mark.longridge@canrem.com>
+Date: 	Sun, 2 Aug 1992 20:00:00 -0400
+To: cube-lovers@ai.mit.edu
+Subject: cube theory
+
+
+I've been doing some research to try and figure out some things
+about the cube. I've also tried (unsuccessfully) to develop a sort
+of CRC or checksum for the cube. With this cube "signature" I could
+then find out which depth each pattern requires. I'm puzzled how
+some computer types managed to find God's Algorithm for the 3x3x3
+squares group. How do you keep track of all the patterns without
+repeating yourself? If it is by holding all patterns in an array
+the array must become huge.
+
+                    Maximum Depth (using q and h moves)
+                    -------------
+
+2x2x2 sq group       4 (24 total states)
+Pyraminx            11 (or 14 including the 3 tips)
+2x2x2               11 (14 using q turns only)
+3x3x3 corners only  11
+3x3x3 sq group      15 (half turns only, don't know if using q improves
+this)
+3x3x2 domino        18 (for 1 solution)
+
+A local maxima is a state where any possible move will bring you closer
+to a solution. This can occur on the 2x2x2 at depth 4 and on the 3x3x3
+at
+depth 3. Note that all possible patterns at maximum depth are local
+maxima,
+however it is surprising that local maxima may occur in patterns much
+closer to the surface.
+
+To date, no work has been done to determine the depth of the
+dodecahedron
+(megaminx) or square 1.
+
+Some questions:
+
+What pattern is an example of local maxima? e.g. 3x3x3 at depth 3
+-> 12-flip, 12-flip 8-twist
+
+        q+h     Depth   Patterns
+2x2x2             1        9
+3x3x3             1       18
+Dodecahedron      1       48
+
+        Analysis of the full cube group
+        -------------------------------
+
+Moves Deep       arrangements (q+h)   arrangements (q only) *
+
+  0                    1                   1
+  1                   18                  12
+  2                  243                 114
+  3                3,240               1,068
+  4            >  48,600              10,011
+
+* Work by Zoltan Kaufmann
+
+Notes:  At 1 move deep each of the 6 sides can turn 3 ways (+ - 2)
+giving 18 distinct patterns
+
+        At 2 moves deep it is redundant to turn the same side again
+        so 5 sides can turn 3 ways so 18x15=270
+        However, with opposite turns order is not significant,
+        e.g. T,D = D,T   F,B = B,F   L,R = R,L
+        since each of these can occur in 9 different ways there are 27
+        redundancies so 270 - 27 = 243
+
+        At 3 moves deep with the first 2 moves on opposite faces don't
+        turn the face used in move one since:
+        T,D,T = T2,D   F,B,F = F2,B   L,R,L = L2,R
+        This can occur in 3x3x3=27 ways for each case so 81 are dropped
+        (Remember the first 2 moves have already been weeded of
+        redundancy!)
+        Also when the 2nd and 3rd moves are of opposite faces
+   e.g. T,R,L = T,L,R  B,R,L = B,L,R   F,R,L = F,L,R   D,R,L = D,L,R
+        T,B,F = T,F,B  D,B,F = D,F,B   L,B,F = L,F,B   R,B,F = R,F,B
+        F,T,D = F,D,T  B,T,D = B,D,T   L,T,D = L,D,T   R,T,D = R,D,T
+
+    since each of these can occur 27 different ways in each of the
+    cases this gives 27x12 = 324 redundancies
+    Thus 243x15 = 3645, removing the redundancies gives 3645-81-324=3240
+
+        At 4 moves deep.... still working on this one! Zoltan Kaufmann
+        has done 4 moves deep using quarter turns, but has anyone
+        calculated farther using q and h turns? I'd be interested in
+        the source code of any programs people have written on finding
+        path-lengths. Also what is an example of a local maxima close
+        to the surface, e.g. 4 moves. I believe Jim Saxe and Dan Hoey
+        have done some work in this regard.
+
+        One more question: What is the maximum number of moves required
+        if you do the 3x3x3 one face last? The best results I've seen
+        are 19 q and h moves.
+        -> Mark Longridge
+--
+Canada Remote Systems  - Toronto, Ontario/Detroit, MI
+World's Largest PCBOARD System - 416-629-7000/629-7044
+

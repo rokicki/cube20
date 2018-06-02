@@ -1,0 +1,24 @@
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU 26 Aug 86 08:05:35 EDT
+Date: 26 Aug 86 07:55:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: HOFSTADTER
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+HOFSTADTER
+
+I haven't noticed any reference to his 3rd book
+which is a reprint of his scientific american
+column with postscripts.  I.E. there are 8pgs of
+new info; trivia, distribution of patterns from
+start, reverse scramblings, measuring
+scrambleness.
+
+METAMAGICAL THEMAS
+by DOUG HOFSTADTER
+BASIC BOOKS
+1985 COPYRIGHT
+ISBN 0-465-04540-5
+PRICE ABOUT $20
+
+PETE     <BECK@ARDEC-LCSS.ARPA>
+------

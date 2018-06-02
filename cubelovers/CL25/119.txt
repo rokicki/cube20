@@ -1,0 +1,28 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug 24 14:00:58 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id OAA02163; Mon, 24 Aug 1998 14:00:57 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Aug 23 14:41:17 1998
+Message-Id: <c=US%a=_%p=INEA_Corporation%l=INEADEV-980823183024Z-3253@proxy.ineacorp.com>
+From: Noel Dillabough <Noel.Dillabough@ineacorp.com>
+To: "Cube-Lovers (E-mail)" <cube-lovers@ai.mit.edu>
+Subject: New version of Puzzler
+Date: Sun, 23 Aug 1998 14:30:24 -0400
+
+The latest version of Puzzler can be found at
+http://www.mud.ca/puzzler/puzzler.html.  In addition to the bug fixes
+that were put in, I have added the most requested features, the ability
+to take back moves, and the ability to enter move macros for cube
+puzzles in standard cubist (UDFBLR) notation.
+
+For those who haven't used the program before, Puzzler is a collection
+of sequential movement puzzles including the cubes (all sizes from 2x2x2
+to 5x5x5), the pyraminx, the impossiball, the skewb, and the megaminx
+puzzle.
+
+Enjoy,
+
+-Noel
+

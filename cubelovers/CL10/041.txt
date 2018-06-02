@@ -1,0 +1,39 @@
+From acw@bronze.lcs.mit.edu  Thu Aug 19 15:06:28 1993
+Return-Path: <acw@bronze.lcs.mit.edu>
+Received: from bronze.lcs.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA15753; Thu, 19 Aug 93 15:06:28 EDT
+Received: by bronze.lcs.mit.edu 
+	id AA27266; Thu, 19 Aug 93 15:04:18 EDT
+Date: Thu, 19 Aug 93 15:04:18 EDT
+From: acw@bronze.lcs.mit.edu (Allan C. Wechsler)
+Message-Id: <9308191904.AA27266@bronze.lcs.mit.edu>
+To: ronnie@cisco.com
+Cc: Dik.Winter@cwi.nl, cube-lovers@life.ai.mit.edu
+In-Reply-To: "Ronnie B. Kon"'s message of Thu, 05 Aug 1993 16:55:36 -0700 <199308052355.AA23583@lager.cisco.com>
+Subject: Diameter of cube group? 
+
+   Date: Thu, 05 Aug 1993 16:55:36 -0700
+   From: "Ronnie B. Kon" <ronnie@cisco.com>
+
+   Disclaimer: this sounds more authoritative than is intended--I really
+   don't know what I'm talking about.
+Don't worry.  Mathematical reasoning stands on its own merits.
+   It couldn't be very pointy.  From the most distant configuration,
+   there are 6 positions immediately before it.  There are 6^2 two steps
+   away, 6^3 three steps, etc.  (well, 6^2 - 1 and 6^3 - ?) actually.
+Very good.  This is a necessary insight, regardless of the exact
+numerical details.  (For example, you mean 12, not 6.)  But the
+possible flaw is that there might be more than one maximally distant
+state; if their sets of neighbors overlap viciously enough, this
+effect could make the tail pointier.  You can make valence-12 graphs
+(not of groups, just arbitrary graphs) that have fairly bumpy
+distance-vs-population functions.  Any argument that rigorously
+constrains N(d) must somehow appeal to the fact that the cube graph is
+a Cayley graph, that is, the graph of a group.
+
+[...]
+
+   This gives me the feeling that Monte Carlo is fairly valid.  (How's
+   that for rigor?)
+
+It's a start.  But we have to use groupness somehow.
+

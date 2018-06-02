@@ -1,0 +1,16 @@
+Date: 1 Aug 1980 11:53 PDT
+From: Lynn.ES at PARC-MAXC
+Subject: Re: cube group theory.
+In-reply-to: Sandeep.Johar's message of 31 July 1980 1413-EDT (Thursday),
+ <31Jul80 141352 SJ61@CMU-10A>
+To: Sandeep.Johar at CMU-10A
+cc: cube-lovers at mit-mc
+
+Singmaster ("Notes on the 'Magic Cube'", p. 12 of edition 4) gives 12 classes or
+"orbits" of assemblies, each one such that the other 11 cannot be reached without
+disassembling the cube.  To quote Singmaster, "This also means that if we
+reassemble the cube at random, there is only a 1/12 chance of being able to get
+back to START," and, "It is advisable to reassemble in the starting pattern."
+Singmaster's notes have several pages of relevant group theory for those
+interested.
+/Don Lynn

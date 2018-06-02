@@ -1,0 +1,38 @@
+From cube-lovers-errors@oolong.camellia.org  Sun Jun  1 21:39:09 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id VAA01501; Sun, 1 Jun 1997 21:39:09 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Sun, 1 Jun 97 19:45:11 EDT
+Message-Id: <9706012345.AA19309@sun34.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: SCHMIDTG@iccgcc.cle.ab.com, cube-lovers@ai.mit.edu
+Subject: Re: Searching and Metrics in (Korf 1997)
+
+I wrote:
+
+>I've read through Rich Korf's paper now, and I have a few ideas on the
+>paper and how the method might be improved...
+
+Greg Schmidt replies:
+
+> ...And so I feel it is necessary to say that any suggestion for improving
+> Korf's method, should take this distinction into account since solving
+> the cube is only incidental to the emphasis of the research work that
+> professor Korf is involved in....
+
+The method I suggested for reusing tables for new heuristics should be
+applicable to any group-theoretic puzzle for which there are
+symmetries mapping generators to generators.  For instance, the N^2-1
+puzzles have the 8-fold symmetry D4, and so could have one set of
+tables used for 16 heuristics.
+
+Given the central nature the memory-performance tradeoff plays in the
+paper, I imagine this is quite relevant to Rich's research.
+
+Of course, I also discussed a number of other topics in that message,
+but I don't think they were the ones you were addressing in your remarks.
+
+Dan
+
+

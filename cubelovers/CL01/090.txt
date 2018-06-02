@@ -1,0 +1,33 @@
+Date:  9 Jan 1981 1648-PST
+From: Dave Dyer <DDYER at USC-ISIB>
+Subject: nomenclature
+To: cube-lovers at MIT-MC
+
+
+ The real problem with RLUDFB is that it is nearly impossible for
+the casual observer to determine if two "transformations" are the
+same or not.   Transformations should be described such that there
+is ONE description of each transformation.  We can't really get all
+the way to the ideal, because there are discinct sequences that lead
+to the same termination.  But we can eliminate a lot of the confusion.
+
+I Propose that all transformations be described in terms of twists
+done by both hands without changing the overall cube orientation.
+
+my proposed primitives are
+	1	"forward" twist of left or right face
+	2	1/2 twist of left or right face
+	3	"backward" of left or right face
+	URF	orient the cube to work on named face,
+		with your right hand. Names are lambda-bound from the
+		start of the transformation.  To instantiating a transformation
+		one can simply substitute the color for the orientation label
+
+notation is <letter><right hand><(optional) left hand>
+
+
+For example, a sprat wrench:
+	 UDLRFB calls it:   RL' U  RL' B   RL' D   RL' F.
+		I call it:  R11 U1 R11 F03 R11 U03 R11 F1
+
+-------

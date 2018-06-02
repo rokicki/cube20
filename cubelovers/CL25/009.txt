@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 17 10:14:50 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id KAA04592; Tue, 17 Mar 1998 10:14:50 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Mar 13 14:48:44 1998
+From: Phil Servita <meister@epilogue.com>
+Sender: meister@khitomer.epilogue.com
+To: cube-lovers@ai.mit.edu
+Subject: not quite blind cubing
+Date: Fri, 13 Mar 98 14:48:43 -0500
+Message-Id:  <9803131448.aa12167@khitomer.epilogue.com>
+
+
+whuang@ugcs.caltech.edu (Wei-Hwa Huang) writes:
+> 
+> Is there anyone who knows some good techniques for blindfold cube-solving?
+> 
+> I can solve the cube in about 7 "peeks" or so, but that's still quite
+> a ways from looking at the cube once and solving it behind one's back.
+
+Back when i was still in college, myself and a friend would occasionally
+perform our "geek party trick", which was that we would sit on the floor, 
+back-to-back, and someone would toss one of us a scrambled cube. Whoever 
+caught it would look at it, make a single quarter-turn on it, and pass it 
+over their shoulder to the other person, who would look at it and make another
+quarter turn, pass it back, and so on. We could solve it in this fashion in 
+just under 2 minutes. 
+
+                                              -phil
+

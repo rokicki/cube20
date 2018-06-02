@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Sep 14 11:21:10 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id LAA16790; Mon, 14 Sep 1998 11:21:10 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <35FC8F60.60A5521D@ibm.net>
+Date: Sun, 13 Sep 1998 20:37:04 -0700
+From: "Jin 'Time Traveler' Kim" <chrono@ibm.net>
+Reply-To: chrono@ibm.net
+To: cube-lovers@ai.mit.edu
+Subject: Rubik's Cube-type puzzles FAQ
+References: <9705131050.AA12905@mentda.me.ic.ac.uk>
+
+Back in February or so I became fairly active in the bulletin board at
+www.rubiks.com.  I found the same questions being repeated over and over
+so with the help of some people I took it upon myself to write a FAQ for
+people.  Due to the type of questions answered I refrained from talking
+about it on the cube lovers list, but someone told me to give it a try
+anyway.  So here it is:
+
+http://www.slamsite.com/chrono
+
+or more specifically,
+
+http://www.slamsite.com/chrono/other/rcfaq006.txt
+
+It's just a very big text file.  Kept it simple to give it that "old
+school" flavor.
+
+Corrections, additions, comments, & criticisms are welcome.  After all,
+what's a FAQ if it provides the wrong answers.
+
+
+
+-- 
+Jin "Time Traveler" Kim
+chrono@ibm.net
+http://www.slamsite.com/chrono
+'95 PGT - SCPOC
+

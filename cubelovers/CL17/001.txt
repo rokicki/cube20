@@ -1,0 +1,186 @@
+From BRYAN@wvnvm.wvnet.edu  Sat Sep  9 09:52:21 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24673; Sat, 9 Sep 95 09:52:21 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R3)
+   with BSMTP id 1908; Sat, 09 Sep 95 09:51:57 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 1333; Sat, 9 Sep 1995 09:51:57 -0400
+Message-Id: <wvmail32.1995sep7.232009.bryan@wvnvm.wvnet.edu>
+Date:      Sat, 9 Sep 1995 09:51:56 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   A Proposal for a More General Definition of Symmetry
+
+Our normal definition of symmetry for Rubik's cube is based
+ultimately on the 48 symmetries of the standard math book
+wire model of a cube, and the 48 symmetries were discovered
+long before Rubik's cube was ever dreamed of.  This note is
+based on the conviction that these 48 symmetries do not really
+capture all that we might think of as "symmetry" when we think
+of Rubik's cube.  This note has the further purpose to propose
+a more general definition of symmetry for Rubik's cube.
+
+I want to start with a couple of really basic concepts.  I think
+every reader of this list knows what a permutation is, namely
+it is a one-to-one onto function on a set.  In the case of a finite
+set as we have with Rubik, a function on a set is one-to-one
+if and only if it onto, so we can sometimes get by with speaking
+only of one-to-one or by speaking only of onto.
+
+But what is a symmetry?  A very standard definition is something
+like "the set of all rigid motions that transform a given geometric
+figure onto itself" (James and James Mathematics Dictionary).
+Another way to say it is that the transformation preserves the
+figure.
+
+Working with that definition, a symmetry almost inevitably may
+be interpreted as a permutation.  With simple geometric figures,
+the permutation would usually be described as being a permutation on
+Euclidean n-space  --  2-space for a square or circle, etc., and
+3-space for a cube or sphere, etc.  Hence, we might think of
+a symmetry as being a special kind of permutation, namely one that
+preserves a geometric figure in Euclidean n-space.
+
+I have had a difficult time finding books that address the issue
+of symmetry vs. permutation to my satisfaction.  It is very hard
+to think of a symmetry abstractly enough that it doesn't simply
+turn into a permutation right before your eyes.
+
+Paul Yale's "Geometry and Symmetry" doesn't really seem to define
+a symmetry (it sort of assumes you know what one is), but it does
+describe the relationship between a symmetry and a permutation.
+I would paraphrase as follows.  Label your geometric figure in
+some fashion  --  e.g., label the edges, label the axes, label
+the vertices, or label *something*.  Then, there is a homomorphism
+between the set of symmetries and the corresponding set of
+permutations on the labels.
+
+But I repeat that it is hard for me to conceive of the set of symmetries
+in a sufficiently abstract fashion that the symmetries themselves
+aren't already permutations on *some* set or other.  So it seems to me
+that Yale could just as well be talking about homomorphisms between
+one set of permutations and another set of permutations as talking
+about homomorphisms between symmetries and permutations.
+
+A couple of quick additional points, and then I will go on:
+1) since we are talking about homomorphisms, it is obvious that
+both the set of symmetries and the set of permutations to which
+they map are groups, and 2) most homomorphisms between symmetries
+and permutations turn out in fact to be isomorphisms.  This latter
+observation gives added weight to the notion that symmetries are
+just a special kind of permutation.
+
+Given all that has been said so far, we could informally say that
+the normal definition of a symmetry is that it is a permutation
+that preserves a geometric figure.  Our more general definition
+will simply be that a symmetry is a permutation that preserves
+some property.  If we were sufficiently liberal in our notion of
+"preserving some property", then most any permutation could be
+interpreted as a symmetry.  We will not be quite that liberal
+by the time we are done, but we will be more liberal than
+would be permitted by the standard 48 math book symmetries of
+the cube.
+
+But what property of Rubik's cube should we try to preserve if we
+want a more general definition of symmetry than the normal one?
+I wish to motivate our definition of that property in several
+steps.
+
+The standard Rubik's cube definition of symmetry for a position X is
+Symm(X) is the set of all m in M such that X=m'Xm, or equivalently
+such that mX=Xm.  M is the set of 48 permutations on the Rubik's
+cube corresponding to the 48 symmetries of a cube.
+
+Write a position Z as Z=XY, where X is the permutation on the
+corners and Y is the permutation on the edges.  We have
+Symm(Z)=Symm(XY)=Symm(X) intersect Symm(Y).  For example, we
+could have Symm(X)=M, Symm(Y)=I, and Symm(Z)=Symm(XY)=I.
+Such a position would look very "symmetrical" because the
+corners would be fixed (or "solved"), although the edges
+would be scrambled.  Most people would consider such a position
+to be more "symmetrical" than one where both the corners and
+edges were scrambled, although we would have Symm(Z)=I
+in either case.
+
+A couple of points before proceeding:  1)  From an information
+theory point of view, Symm(X) and Symm(Y) separately contain
+more information than does Symm(XY).  There is an obvious
+loss of information when we calculate Symm(X) intersect Symm(Y).
+This is a strong indication that Symm(XY) does not tell us
+everything we might like to know about the symmetry of a position.
+2) The set of positions Z=XY for which Symm(X)=M forms a group
+(as does the set of positions for which Symm(Y)=M).  This anticipates
+where we are headed, namely that group membership is the property
+that we should seek to preserve in a more general definition of
+symmetry.
+
+A third (and equivalent) definition for Symm(X) is that Symm(X) is
+the set of all m in M such that X'm'Xm=I.  Most readers will
+recognize X'm'Xm as a commutator.  Per Dan Hoey, we can generalize
+and define CSymm(X) to be the set of all m in M such that X'm'Xm
+is in C, the set of 24 rotations of the cube.  For example, if
+we have Z=XY as before, then CSymm(X)=M means that the corners
+are positioned properly with respect to each other, although they
+might be rotated with respect to the fixed face centers.
+Such a position would look fairly "symmetrical", even to a
+non-cubemeister, even though we might have Symm(Z)=I.
+
+Again, we have the set of all positions for which CSymm(X)=M
+forms a group.  Similarly, the set of all positions for which
+CSymm(Y)=M forms a group, and the set of all positions
+for which CSymm(Z)=CSymm(XY)=M forms a group.
+
+Recall that there are 98 subgroups of M.  For each subgroup K of
+M, there is a corresponding subgroup of G consisting of all the
+K-symmetric positions.  So would could just as well define
+symmetry in terms of these 98 subgroups of G.  But there are far
+more than 98 subgroups of G.  (We don't know how many, and I
+doubt than even GAP could tell us).  Why not simply define
+symmetry in G in terms of subgroup membership in G?  The symmetry
+of a position X is then the set of all subgroups of H of G
+for which X is in H.  And a symmetry operation (in the sense
+that a symmetry is a permutation that preserves something) is
+an operation that preserves subgroup membership.
+
+That pretty much completes my proposal, but I have a few closing
+remarks.
+
+    1) The proposed general definition of symmetry is
+       analogous to the Thistlethwaite algorithm for solving
+       the cube.  Typical cube solutions gradually solve more
+       and more of the cube.  The "more and more of the cube"
+       that gets solved can be characterized as a sequence of
+       nested subgroups.  Thistlethwaite reversed the process
+       and created a sequence of nested subgroups
+       which in turn solves more and more of the cube.  Similarly,
+       the standard definition of symmetry implies a set of 98
+       subgroups of G.  We reverse the process and let all the
+       subgroups of G define symmetry instead.
+
+    2) The proposed general definition of symmetry has the
+       virtue that it includes the standard definition as a
+       special case, since the 98 K-symmetric subgroups of
+       G are in fact subgroups of G.
+
+    3) The proposed general definition of symmetry has the
+       virtue that there is only one position that is
+       "completely symmetric", namely Start itself (the
+       identity permutation).  The standard definition of
+       symmetry has four positions which are "completely
+       symmetric", which to me is an unsatisfactory state
+       of affairs.
+
+       (Recall that we have Symm(X)=M for Start, Pons Asinorum,
+       Superflip, and the composition of Pons and Superflip.
+       I am still bummed out that this is the case while at the
+       same time only Start and Superflip are in the center of
+       G.  This suggests that Superflip is "more symmetric"
+       than Pons.  I wonder if such a suggestion would be
+       supported by my proposed general definition of symmetry?)
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

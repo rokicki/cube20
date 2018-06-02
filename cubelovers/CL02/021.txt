@@ -1,0 +1,65 @@
+Date:  1 February 1981 0651-EST (Sunday)
+From: Dan Hoey at CMU-10A
+To: Cube-lovers at MIT-MC
+Subject:  Analysis of the 4x4x4 cube
+Message-Id: <01Feb81 065108 DH51@CMU-10A>
+
+	The first problem for the 4x4x4 cube is in eliminating
+positions that arise from whole-cube moves.  This was done with the
+3x3x3 by keeping the face-center positions fixed, but there are no
+face centers on the 4x4x4--or there are, but they don't maintain a
+fixed orientation relative to each other.  I standardize the spatial
+orientation by keeping the DBR corner in a fixed position and
+orientation.  A move then consists of twisting one, two, or three
+layers parallel to the U, F, or L face.  Thus F3' is equivalent to
+twisting the B face.  I will refer to the number of layers twisted
+as the "depth" of the move.
+
+	Following David C.  Plummer's notation (31 DEC 1980 1210-EST),
+organize each face of the cube as
+	C L R C
+	R X X L
+	L X X R
+	C R L C.
+I will assume familiarity with David Vanderschel's analysis of the
+3x3x3 case, which was presented in his message of 6 August 1980.
+
+	"C" faces act as they do in the 3x3x3 case, except that one
+of them does not move.  Corner Orientation Parity (COP) is preserved
+and Corner Permutation Parity (CPP) changed by every quarter-twist.
+
+	Depending on the depth, a quarter twist can permute the "L"
+faces in an odd or an even permutation.  Also, "L" faces do not
+change orientation (or move to "R" positions).  Every "R" face is
+determined by the "L" face (on an adjacent side of the cube) with
+which it shares a cubie.  Thus the arguments for EOP and EPP do not
+apply.
+
+	Every quarter-twist is an odd permutation of the "X" faces:
+either one, three, or five four-cycles, depending on the depth.
+Letting XPP be the permutation parity of the "X" faces, the Total
+Permutation Parity TPP=XPP+CPP (mod 2) is preserved by every
+quarter-twist.
+
+	Thus the 4x4x4 cube group has at least six orbits,
+according to COP (mod 3) and TPP (mod 2).  The basic upper bound of
+	7!    Corner Permutations
+	3^7   Corner Orientations
+	24!   L Permutations (which determine the R permutations), and
+	24!   X Permutations,
+divided by six, yields an upper bound (of about 7.072*10^53).  I have
+run Furst's algorithm on the problem, and my program claims that all
+these positions are reachable.
+
+	To calculate the number of reachable color patterns, note
+that there are 4!  permutations of each quadruple of "X" faces which
+are indistinguishable.  However, the TPP constrains the XPP so as to
+reduce this by a factor of two.  Dividing 7.072*10^53 by (4!)^6/2
+yields 7.401*10^45.
+
+	[At this point, you may find it instructive to view the
+message before last, which analyzes the 5x5x5 cube in the context
+of this message and the one immediately preceding.  I regret the
+accidental disorder.  These three are all for now, although I have
+results on tetrahedra, octahedra, and a dodecahedron which I am in
+the process of writing up.]

@@ -1,0 +1,21 @@
+From: Woods.pa @ PARC-MAXC
+Date:  3-Jan-82 18:34:41 PST
+Subject: Re: nuts
+In-reply-to: ALAN's message of 3 January 1982 02:15-EST
+To: Alan Bawden <ALAN at MIT-MC>
+cc: Cube-Lovers at MIT-MC
+
+I've seen the "Nuts" puzzle; I think it is indeed "Drive you nuts",
+but I'm not sure.  I seem to recall that not every (any?) piece
+had all six numbers on it; that is, I think one or more numbers
+were duplicated on one or more pieces.  This of course opens up
+the search space even more in trying to find a set of pieces with
+exactly one solution.  Also, rather than consider which sets
+of pieces (or what fraction of possible sets of pieces) have unique
+solutions, I think it makes more sense to choose a solution and see
+how likely it is that the pieces forming that solution have another
+solved orientation (other than trivial rotations of the whole puzzle).
+That way you at least eliminate all the sets that have NO solution.
+
+	-- Don.
+

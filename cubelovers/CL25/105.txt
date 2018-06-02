@@ -1,0 +1,68 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Aug  1 23:44:12 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id XAA05471; Sat, 1 Aug 1998 23:44:12 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Jul 31 22:28:10 1998
+Date: Fri, 31 Jul 1998 22:28:02 -0400
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199808010228.WAA11081@euclid.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: all 24q maneuvers for superflip
+
+with my new optimal solver, i've calculated all 24q maneuvers for
+superflip.  there are three transformations we can apply to a
+maneuver for superflip, none of which change its length.
+
+     we may conjugate by any cube symmetry.
+     we may cyclically permute the maneuver, i.e. replace
+
+          sequence_1 sequence_2  by  sequence_2 sequence_1
+
+     we may invert the maneuver.
+
+in a previous message (august 7, 1997), i showed that, using these
+three transformations, any maneuver for superflip can be transformed
+into one that begins with one of the ten sequences
+
+     U  R2        U  D' R      U  D  R      U  D  R'     U  R  F
+     U  R  F'     U  R' F      U  R' F'     U' R  F'     U' R' F'
+
+my program took 101 hours to exhaustively search these ten cases.
+there are four inequivalent maneuvers; two were previously known:
+
+R' U2 B  L' F  U' B  D  F  U  D' L  D2 F' R  B' D  F' U' B' U  D'    (24q*)
+U  R2 F' R  D' L  B' R  U' R  U' D  F' U  F' U' D' B  L' F' B' D' L' (24q*)
+
+the two new ones are:
+
+U  D' R  F  U' D' L  D' F  R  U' R  U' D' F  U' F  L  B' U  F' B' L  B' (24q*)
+U  D' R  F' D  L' B  L' U' R' D' B' U' D  L' F  D' R  B' R  U  L  D  B  (24q*)
+
+this last one can be written as
+
+     (U  D' R  F' D  L' B  L' U' R' D' B'   R_rl)^2
+
+where  R_rl  denotes reflection through the R-L plane.
+
+we can also count the total number of 24q maneuvers for superflip.
+note that  U2 = U U  also is  U' U' , so can be cyclically shifted
+in an extra way.  similarly,  U  D' = D' U , so this also accounts
+for an extra cyclic shift.  and the same is true for  U' D'.
+the total number of maneuvers therefore is
+
+28 * 24 * 2 + 28 * 48 * 2 + 28 * 48 * 2 + 26 * 24 * 2 = 7968
+
+where the first factor is the number of cyclic shifts, the second
+factor is the number of cube symmetries we can apply, and the third
+factor is 2, for inversion.  the first and last maneuvers only get
+a factor of 24 for the number of cube symmetries, because a cyclic
+shift by 12q gives the same maneuver in a different orientation.
+
+the total number of 24q sequences is 274575811926317204506464.
+the total number of even positions is 21626001637244928000.
+so even positions have an average of 12696.56 different 24q maneuvers.
+
+mike
+

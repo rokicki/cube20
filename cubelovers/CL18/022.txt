@@ -1,0 +1,42 @@
+From mark.longridge@canrem.com  Sun Dec  3 20:32:36 1995
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27214; Sun, 3 Dec 95 20:32:36 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 201705; Sun,  3 Dec 95 20:17:41 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: <U,R> & G
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1261.5834.0C201705@canrem.com>
+Date: Sun,  3 Dec 95 20:09:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+A while back Jerry asked....
+
+>                   Finally, pick any cube X in <U,R>.  We know
+> |X| in G <= |X| in <U,R>.  Can anybody find a cube X such that
+> |X| in G < |X| in <U,R>?
+
+Well, we basically know the answer is yes. There are elements in
+<U,R> which require less moves if we use all the generators of G.
+
+To be more specific, look the 6 twist pattern in <U,R> which
+requires 22 q turns:
+         ^^^^^^^^^^
+>>  Equivalent to (U1 R1)^35= (R1 U1)^35 & Shift Invariant
+>>  UR11 = U2 R1 U1 R1 U1 R3 U1 R3 U1 R3 U2 R1 U1 R1 U1 R3 U1 R3 U1 R3
+
+After a bit of computer cubing I found:
+
+p183 6 Twist      R1 U3 R2 U3 R1 D3 U3 R1 U3 R3 D2 R3 U3 R1 D3 U3
+                  (18 q, 16 q+h  moves)
+                  ^^^^^
+I'll spare everyone all the gory details. I'm certain there are
+all sorts of other examples, but here is one case where we can
+save 4 q turns. It may be of some small interest to see which
+of the two processes can be executed more rapidly by the human hand.
+
+-> Mark <-
+
+

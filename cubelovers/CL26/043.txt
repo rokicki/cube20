@@ -1,0 +1,156 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov 23 18:13:16 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA19716
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 23 Nov 1998 18:13:15 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19981123071931.2655.rocketmail@send105.yahoomail.com>
+Date: Sun, 22 Nov 1998 23:19:31 -0800 (PST)
+From: Han Wen <hansker@yahoo.com>
+Subject: Method for Solving the Megaminx
+To: Cube-Lovers@ai.mit.edu
+
+Hi,
+
+Well, it took me a 2-3 days, but I finally solved the Megaminx. Whew.
+I know, big deal. It's been done.. many many times... over a decade
+ago. But, I thought some of the moves I found may of interest to some
+of the Megaminx aficionados out there.  So, here it is, I apologize
+for its length:
+
+Solving the Megaminx faces 1-11 are fairly straightforward.
+Ironically, the larger number of faces makes it easier to solve than
+the Rubik's cube, because they provide a lot more "free lanes" to move
+pieces around.  There's actually just one move you need to remember to
+solve these faces.  It's the same move when solving the middle layer
+of the Rubik's cube, when you want to move edge pieces from the bottom
+layer to their respective position in the middle layer.  Namely,
+
+D'R'DRF'RFR'
+
+Solving the last face, however, is another matter. The general
+strategy I followed is the same as some of the standard methods for
+solving the bottom layer of the Rubik's cube.  Namely, I first solve
+the 5 corners, then I solve the 5 edge pieces.  To solve the corners,
+I simply used Sune's move applied with slight modification to the
+Megaminx.  For the remaining edge pieces, I had to develop moves that
+only moved the edge pieces around, while leaving the corners
+unchanged.  Noel Dillabough's Puzzler program was an invaluable tool
+for helping me experiment with various edge moves.  Anyways, the
+following are my notes describing some of the more useful moves I've
+found.  I'm pretty sure they're not the most efficient method for
+solving the Megaminx, but they're the best I could come up with.
+___________________________________________
+Notation for Solving the Last Face corner pieces:
+
+F=Front Face, D=Lower Face, L=Left Face, R=Right Face
+The F and D faces are adjacent
+
+The last layer containing the corners you need to flip/permute should
+be positioned at the D-face
+____________________________________________
+Move for Solving the Last Face corner pieces:
+
+Name: Sune's Double-Swap
+Description: Sune's Rubik's Cube move applied to the Megaminx
+Number of pairs of corners swapped: 2
+Number of corners twisted counterclockwise: 3
+Move: R'D'RD'R'D'3R
+____________________________________________
+Strategy for Solving the Last Face corner pieces:
+
+- Position the corners
+- Twist the corners in place by applying Sune's Double-Swap
+   move twice
+
+============================================
+Notation for Solving the Last Face edge pieces:
+
+F=Front Face, U=Upper Face, L=Left Face, R=Right Face
+The F and U faces are adjacent
+
+X= L'R U2 LR' F2
+X'=L'R U'2 LR' F'2
+X2= X X = (L'R U2 LR' F2) (L'R U2 LR' F2)
+Xa= L'R U2 LR' F'2
+Y= LR' F2 L'R U2
+
+The last layer containing the edges you need to flip/permute should be
+positioned as the F-face or the U-face depending on the move described
+below:
+_____________________________________________
+Moves for Solving the Last Face edge pieces:
+
+Name: F Tricycle 1
+Description: Permutes 3 adjacent edges clockwise on the lower left of
+the F-face
+No. Edges permuted: 3
+No. Edges flipped: 2
+Move: (Xa3 X'2)^2
+
+Name: F Tricycle 2
+Description: Permutes 3 adjacent edges clockwise on the upper half of
+the F-face
+No. Edges permuted: 3
+No. Edges flipped: 2
+Move: (Xa3 X2)^2
+
+Name: U Tricycle 1
+Description: Permutes 3 edges clockwise on the U-face
+No. Edges permuted: 3
+No. Edges flipped: 2
+Move: F' X2 Y'2 F
+
+Name: U Tricycle 2
+Description: Permutes 3 edges counterclockwise on the U-face
+No. Edges permuted: 3
+No. Edges flipped: 2
+Move: F X'2 Y2 F'
+
+Name: Cross-country Tricycle
+Description: Permutes 3 edges across the U and F faces
+No. Edges permuted: 3
+No. Edges flipped: 1
+Move: (X2 X'2)^4
+
+Name: U Bi-Flip 1
+Description: Flips two opposite edges on the U-face
+No. Edges permuted: 0
+No. Edges flipped: 2
+Move: (Xa3 X'2)^3
+
+Name: U Bi-Flip 2
+Description: Flips two adjacent edges on the U-face
+No. Edges permuted: 0
+No. Edges flipped: 2
+Move: (X2 X2 X'2)^5
+
+Name: Cross-country Bi-Flip
+Description: Flips two edges, one on the U-face, one on the F-face
+No. Edges permuted: 0
+No. Edges flipped: 2
+Move: (Xa3 X2)^3
+
+Name: "W"-Cycle
+Description: Permutes all edges on the F-face in a "W" pattern
+No. Edges permuted: 5
+No. Edges flipped: 2
+Move: (X2 X2 X'2)^2
+
+Name: "Figure 8"-Cycle
+Description: Permutes all edges on the F-face in a "Figure 8" pattern
+No. Edges permuted: 5
+No. Edges flipped: 4
+Move: (X2 X2 X'2)^4
+____________________________________________
+Strategy for Solving the Last Face edge pieces:
+
+- You should only need to use F Tricycle and the Bi-Flip moves to
+  completely solve the edges.  The F Tricycle move usually needs
+  to be applied twice.
+
+If anything is vague/unclear please feel free to request clarification.
+
+-Han Wen-
+

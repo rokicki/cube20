@@ -1,0 +1,43 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb  9 15:30:14 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA04382
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 9 Feb 1999 15:30:14 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sun, 7 Feb 1999 21:18:58 +0000
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: reid@math.brown.edu
+Cc: CUBE-LOVERS@ai.mit.edu
+Message-Id: <009D3667.F01254DB.8@ice.sbu.ac.uk>
+Subject: Re: Query on Octagon Cube Edge Parity Problem
+
+	Similar parity problems can be produced by recolouring a cube.  I once
+sold a cube to someone who came back a few minutes later with two centers
+exchanged.  I accused him of taking it apart, but then I fiddled with it and
+got it back right, which amazed me even more.  Then I discovered that two
+opposite faces of the cube were colored red!  Some time later, I had an example
+with two adjacent sides having the same color.
+	In 1980, Tamas Varga showed me some cubes with just two colors and I
+then made up numerous such color variants.  E.g. using just two colors, have
+the three faces of one color meet at an corner, or not meet at a corner (these
+are the only two ways of coloring the faces with two colors, three faces of
+each color).  Also fun is a three color cube - two opposite sides red, two
+opposite sides white and two opposite sides blue.  Then every corner is  red,
+white, blue  - except half of them are red, blue, white.  All these are
+difficult to solve for people who have only done ordinary cubes.
+	In the mid 1980s, Edward Hordern showed me a cube which I recall he
+said Nob Yoshigahara had invented, but my example was made by Marcel Gillen.
+This appear to be a  4^3,  but when turned, it moves eccentrically.
+Examination shows that it is a  3^3 with three layers of pieces glued to three
+adjacent faces.  Edward's original example had no colors, so it took some time
+to solve as one didn't know where pieces went.  Further, the eccentric movement
+causes parts to protrude, making it hard to hold and to move.  All in all, a
+most enjoyable variant.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

@@ -1,0 +1,37 @@
+From rodrigo@lsi.usp.br  Fri Jan 27 21:05:43 1995
+Return-Path: <rodrigo@lsi.usp.br>
+Received: from ofelia (lsi.poli.usp.br) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23203; Fri, 27 Jan 95 21:05:43 EST
+Reply-To: <rodrigo@lsi.usp.br>
+Received: by ofelia (4.1/SMI-4.1)
+	id AA11945; Fri, 27 Jan 95 23:55:05 EDT
+Date: Fri, 27 Jan 1995 23:55:04 -0200 (EDT)
+From: Rodrigo de Almeida Siqueira <rodrigo@lsi.usp.br>
+X-Sender: rodrigo@ofelia
+To: cube-lovers@ai.mit.edu
+Subject: Robot using the Cube - WWW
+Message-Id: <Pine.SUN.3.90.950127234954.11525A@ofelia>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+Yes. We have a robot that knows how to do it!
+
+The World Wide Web page with images of the 2 robots of DAIA
+(Departament of Artificial Intelligence and Automation) of
+LSI (Laboratory of Integrated Systems) at USP (University of
+Sao Paulo, Brazil) is here:
+
+http://www.lsi.usp.br/usp/rod/images/cube/rubik_cube.html
+
+Of course, it's Netscape enhanced.
+This page has also a link to a page I made with the X-Rubik's Cube
+software (xrubik.html in the same address), with inlined images
+of the software.
+
+Have fun.
+
+Rodrigo de Almeida Siqueira
+Webmaster at Universidade de Sao Paulo, Brazil.
+personal URL (full of things):
+http://www.lsi.usp.br/usp/rod/rod.html
+
+

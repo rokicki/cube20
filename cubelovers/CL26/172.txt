@@ -1,0 +1,65 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 16 16:52:10 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA02705
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 16 Mar 1999 16:52:10 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 15 Mar 1999 13:27:05 -0700 (MST)
+From: Paul Hart <hart@iserver.com>
+To: Noel Dillabough <noel@mud.ca>
+Cc: cube-lovers@ai.mit.edu
+Subject: RE: Stickers Re: Oddzon version of the cube
+In-Reply-To: <000801be6c2a$49a18160$030a0a0a@noel>
+Message-Id: <Pine.BSF.3.96.990315131452.7422L-100000@anchovy.orem.iserver.com>
+
+On Thu, 11 Mar 1999, Noel Dillabough wrote:
+
+> On a similar note, old versions of the Rubik's Revenge puzzle are
+> fetching prices over $75 USD.  The puzzles are basically unusable, as
+> they are so stiff and brittle from age that they fall apart.
+
+Really?  I haven't noticed this in my own collection as far as I can see.
+
+> Anyway back to my point, I was wondering how many people on this list would
+> be interested in getting a manufacturer to do a good quality run of 4x4x4
+> cubes?
+
+I think this would be an excellent idea.
+
+> A place in the U.S. called "Puzzlets" was supposed to have a sign up
+> list to create a production run of these cubes, but I have heard that
+> they are no longer in business.
+
+Is Puzzletts out of business?  Their web site is still up at least.  Check
+it out at:
+
+    http://www.puzzletts.com/
+
+[Moderator's note: If you get a response from puzzletts, please contact
+ cube-lovers-request@ai.mit.edu.  I've had several people say they don't
+ answer.]
+
+> Has anyone else found aged, unused 4^3s more brittle than the originals?
+> Even the early ones were usually stiff; I needed to take them apart and
+> apply wax or other lubricant.  And still they broke much too easily, due
+> to the tiny necks on the face centers.
+
+A year or two ago I had the very good fortune of stumbling across a number
+of 4x4x4 cubes that were brand new in their unopened original boxes from
+1982.  Of the two cubes that I personally opened and used extensively, I
+did not notice any unusual stiffness.  The 4x4x4 does suffer from the
+known weak neck in the center pieces that is prone to snapping, but aside
+from that the cubes were in excellent condition and have held up very
+well.  I'm not sure if lubricating the cube will remedy the tendency for
+the neck to break, but perhaps it would since it seems to happen when the
+cube jams slightly.  The first of the two cubes to suffer a broken center
+piece became my spare parts cube that I use to keep the other in good
+running condition.
+
+Paul Hart
+
+--
+Paul Robert Hart        ><8>  ><8>  ><8>        Verio Web Hosting, Inc.
+hart@iserver.com        ><8>  ><8>  ><8>        http://www.iserver.com/
+

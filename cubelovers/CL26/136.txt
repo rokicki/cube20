@@ -1,0 +1,33 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 10 20:15:40 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA10243
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 10 Mar 1999 20:15:39 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sat, 27 Feb 1999 05:00:50 +0100 (MET)
+From: Martin Moller Pedersen <tusk@daimi.au.dk>
+Message-Id: <199902270400.FAA482087@bonestell.daimi.au.dk>
+To: cube-lovers@ai.mit.edu
+Subject: help on 5x5x5 wings
+
+I am trying to solve my new cube the 5x5x5 cube.
+
+I have managed to solve all of it except the wings.
+
+The wings are the y's in the following diagram:
+
+
+ZyZyZ
+yZZZy
+ZZZZZ
+yZZZy
+ZyZyZ
+
+I have many moves for the 3x3x3 but I can't figure out how to apply these moves
+to the wings.
+
+Thanks for all help.
+
+/Martin
+

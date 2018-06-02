@@ -1,0 +1,45 @@
+Date: 17 JUL 1980 1114-EDT
+From: ACW at MIT-MC (Allan C. Wechsler)
+Subject:  Short Introductory Speech
+To: CUBE-LOVERS at MIT-MC
+
+
+Nobody else has made this kind of flame yet, so I
+guess I will.
+
+Welcome to CUBE-LOVERS.  We are devotees of a certain
+mathematical puzzle variously called the Hungarian
+Cube, the Magic Cube, and Rubik's Cube.  It is a hard
+puzzle.  Very intelligent people often take weeks to
+learn to solve it.  Once they have learned, though, they
+can solve it in a few minutes.
+
+The puzzle embodies mathematical sophistication and
+mechanical ingenuity in a pleasing and intriguing
+synthesis.  I have forgotten the Hungarian inventor's
+name, but we should learn it: this person deserves
+our profound respect.
+
+For those who have not yet become Cube Solvers: you
+can only solve the Cube for the first time ONCE.  After
+that, although there are a lot of problems to think
+about, the initial challenge is gone.  So, in the words
+of Mr. Duffey:  SPOILER WARNING!  SPOILER WARNING!
+Messages to this list will often deal with particular
+solution techniques.  If you haven't solved the cube yet,
+and want to do it on your own, reading these messages
+may ruin your fun.
+
+If there is any demand, I am willing to hack up a short
+introduction to Group Theory for Cubans.  Group Theory
+gives us a mathematical language for talking about the
+cube.
+
+Also, if anyone out there knows Hungarian, there are some
+pamphlets we need to translate.  Cubans should inform
+everyone on the list of any written material they know of,
+so that we can compile a bibliography.
+
+Happy cubing,
+
+  ---Wechsler

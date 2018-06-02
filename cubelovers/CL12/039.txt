@@ -1,0 +1,37 @@
+From jkato@tmastb.eec.toshiba.co.jp  Wed Jul  6 07:00:52 1994
+Received: from inet-tsb.toshiba.co.jp by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06244; Wed, 6 Jul 94 07:00:52 EDT
+Received: from tis2.tis.toshiba.co.jp (tis2) by inet-tsb.toshiba.co.jp (5.67+1.6W/2.8Wb)
+	id AA29726; Wed, 6 Jul 94 20:00:23 JST
+Received: from tis4.tis.toshiba.co.jp (tis4) by tis2.tis.toshiba.co.jp (5.67+1.6W/6.4J.6-R05)
+	id AA29247; Wed, 6 Jul 94 20:00:31 JST
+Received: from eecisa by tis4.tis.toshiba.co.jp (5.52/6.4J.6-R06)
+	id AA25259; Wed, 6 Jul 94 20:02:58 JST
+Received: from tmastb.eec.toshiba.co.jp by eecisa.eec.toshiba.co.jp (4.1/6.4J.6-R1)
+	id AA06748; Wed, 6 Jul 94 19:55:10 JST
+Received: by tmastb.eec.toshiba.co.jp (4.0/6.4J.6-R1)
+	id AA05730; Wed, 6 Jul 94 20:00:14 JST
+Date: Wed, 6 Jul 94 20:00:14 JST
+From: jkato@tmastb.eec.toshiba.co.jp (Toshi Kato)
+Return-Path: <jkato@tmastb.eec.toshiba.co.jp>
+Message-Id: <9407061100.AA05730@tmastb.eec.toshiba.co.jp>
+To: Cube-Lovers@ai.mit.edu
+Subject: SBP "Magic sQ"
+
+                                   Sliding Block Puzzle "Magic sQ"
+Fig.1 is incomplete.                      +---+---+---+
+Can you complete a magic square           | 2 | 9 | 4 | 
+with minimum sliding steps?               +---+---+---+
+                                          | 7 | 5 | 3 |
+You, very easy or not?                    +---+---+---+---+
+                                          | 1 | 6 | 8 |   |  Fig.1
+                                          +---+---+---+---+
+------
+                        Toshi(Junk) Kato from Japan
+                        E-mail: jkato@tmastb.eec.toshiba.co.jp
+                        Tel/Fax: +81-467-52-1447
+
+
+
+
+
+

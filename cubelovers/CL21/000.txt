@@ -1,0 +1,86 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Jul  2 00:37:39 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA03069; Tue, 2 Jul 1996 00:37:39 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <31D8CDCC.7AB9@dis.on.ca>
+Date: Tue, 02 Jul 1996 00:20:44 -0700
+From: Mark Longridge <cubeman@dis.on.ca>
+Organization: Computer Creations
+X-Mailer: Mozilla 2.01 (Win16; U)
+Mime-Version: 1.0
+To: cube-lovers@ai.mit.edu
+Subject: Cube Moves
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline; filename="MARK1.TXT"
+
+ > My name is Isidro Costantini, I'm a cube lover since '81.
+
+   Welcome to cube lovers the mailing list.
+
+>  ( Where's a place to check for those formulas? )
+
+Well, I'm not finished yet, but I do archive all the cube formulas
+I get a hold of or compose. Some of the work is with the assistance
+of computers and/or mathematical insight.
+
+http://www.dis.on.ca/~cubeman
+
+>  Another good example is (xchg 3 edges,noFlip) (12) R2 U1 F1 B3 R2
+> F3 B1 U1 R2 (9 moves using your way of counting) and another
+> equivalent: B3 U3 R3 U1 R1 B1 followed by F1 R1 U1 R3 U3 F3
+> (6+6 moves, same position).
+>  Another way of counting could be adding the suffix (1,2 or 3)
+> (counting only clockwise moves) which would preserve parity as well.
+> I would be pleased if some one can tell me about this subject.
+
+The sequence  X = (B3 U3 R3 U1 R1 B1 F1 R1 U1 R3 U3 F3) is a very
+interesting one.
+
+Note that X = B3 [U3 R3] B1 + F1 [R1 U1] F3
+
+The above makes use of conjugates and commutators.
+
+The following is a top view of a megaminx (magic dodecahedron):
+      /\
+    /    \
+  /        \
+  \   U    /
+L  \      / R
+    \____/
+      F
+
+Then the very similar sequence   R+ F+ U+ F- U- R-
+                                 L- U- F- T+ F+ L+
+
+...suffices to also 3-cycle the edges  (uf, lf, rf) on the megaminx.
+
+In this case I don't like the U3 = U- or U' notation.
+Clearly on the megaminx U3 <> U'
+
+Note that each turn of a face is always turned one way and then back.
+The 5-period rotation of a face is never used. In special cases like
+these cube moves from the standard 3x3x3 are directly transferable
+to the megaminx.
+
+I have found that isoflips and isotwists work very well on the
+megaminx.
+
+The shortest flip of 2 adjacent edges uses the same 4 sides
+(so I say "this sequence has face-index 4), is the following:
+
+Note use of L-- and L++ etc to denote 2 one-fifth turns of a face!
+
+It is of the form P U1 P' U' which is another commutator.
+
+L-- R++ F+  U-  R+  U+  L++ R++ U+
+R-- L-- U-  R-  U+  F-  R-- L++ U-
+
+= 18 face turns or 26 one-fifth turns. Perhaps there is some
+improvement to this sequence.
+
+-> Mark <-
+
+
+

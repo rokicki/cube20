@@ -1,0 +1,26 @@
+From ncramer@bbn.com  Fri May 10 21:33:52 1991
+Return-Path: <ncramer@bbn.com>
+Received: from LABS-N.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA26837; Fri, 10 May 91 21:33:52 EDT
+Message-Id: <9105110133.AA26837@life.ai.mit.edu>
+Date:     Fri, 10 May 91 20:45:08 EDT
+From: Nichael Cramer <ncramer@bbn.com>
+To: Ronnie Kon <mindcrf!ronnie@peabody.mindcraft.com>
+Cc: cube-lovers@life.ai.mit.edu
+Subject:  Re:  5by cubes
+
+>Date: Mon, 6 May 91 11:14:02 -0700
+>From: Ronnie Kon <mindcrf!ronnie@peabody.mindcraft.com>
+>Subject: 5by cubes
+>	I suspect this is why there are (and will probably never be) cubes of
+>orders greater than 5.  I believe (though have not proved) that the 5 cube 
+>contains all the complexity that is possible.  Adding more cubies would only
+>increase the amount of time needed to solve.
+
+On the other hand, a 5X (or any cube of odd order) will still have the
+constraints imposed by a fixed center.  As a single example, the 4X here in
+my office is completely "solved" except that two opposite corners are
+swapped.  That's not something that can happen on a cube of odd order (at
+least I don't think so, but I would love to be proved wrong ;).
+
+N
+

@@ -1,0 +1,61 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  2 13:16:04 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id NAA03468; Mon, 2 Jun 1997 13:16:03 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Mon, 2 Jun 1997 10:10:29 -0700
+From: Richard E Korf <korf@cs.ucla.edu>
+Message-Id: <199706021710.KAA21887@denali.cs.ucla.edu>
+To: cube-lovers@ai.mit.edu
+Subject: miscellaneous comments
+
+Dear Cube-Lovers,
+   Here's a few comments on the recent flurry of messages. I guess I owe you all
+an apology for being partly responsible for filling up your mailboxes lately,
+yet here I go, sinning again.
+   Perhaps it is no longer necessary due to the excellent messages by Haym
+Hirsh, Greg Schmidt, and Dan Hoey, but I've written a 20 page survey article on
+artificial intelligence search algorithms that I would be happy to send to
+anyone on request. The first 10 pages cover things like breadth-first search,
+depth-first search, depth-first iterative deepening, A*, and
+Iterative-Deepening-A*. The rest talks about two-player game search and
+constraint satisfaction. When ordering, please specify if you are interested in
+the Rubik's Cube article or the search article, and allow 6 to 8 hours for
+delivery.
+   Regarding the quarter-turn metric, as long as one is careful to eliminate the
+obvious duplicate states as Dan points out, it shouldn't matter much whether you
+use the quarter-turn or face-turn metric.  While solutions are longer in the
+quarter-turn metric, the branching factor, which is the average number of
+operators that apply to a given state, is correspondingly lower. The branching
+factor for the face-turn metric is about 13.34847, and the branching factor for
+the quarter-turn metric should be about 9.
+   Jerry Bryan is right on when he talks about the memory savings from storing
+an entire subgroup, and the importance of efficient indexing.  For my heuristic
+tables, no states are actually stored, just the number of moves to solve them.
+The states are "respresented" by the indexes in the table.
+   Here's the indexing problem.  Write out all the permutations of say 4
+elements, 24 in all, in lexicographic, or any other, order. Now number the
+permutations from 0 to 23.  The problem then is given a permutation of N
+elements, compute its sequential number in your ordering scheme.  The obvious
+algorithms do this in roughly N^2 time, but it would be nice to able to do it
+faster.
+   To put all this in perspective, there are two obvious but impractical
+implementations of "God's algorithm". One is brute-force depth-first
+iterative-deepening search, with no heuristic functions. At a million twists per
+second, this would take about 700,000 years on average, but almost no
+memory. The other is a complete lookup table storing every state. This would be
+very fast once the table was built but would take a few bits for each one of the
+4x10^19 states.  We don't have the time for the former approach, nor the storage
+for the latter.  But by using both a lot of time, and a lot of memory, we can
+find optimal solutions.  Most of the different design choices presented by these
+types of approaches amount to a tradeoff between time and space. It remains to
+be seen what choices lead to the best algorithms.
+
+                                -rich
+
+  
+
+
+
+
+

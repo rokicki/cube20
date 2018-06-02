@@ -1,0 +1,43 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Mon Nov 14 13:19:32 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AB22888; Mon, 14 Nov 94 13:19:32 EST
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <86597-3>; Mon, 14 Nov 1994 13:19:59 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA27347; Mon, 14 Nov 94 13:15:56 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1BE7A7; Mon, 14 Nov 94 13:09:23 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: <U, R> Antipode!
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.864.5834.0C1BE7A7@canrem.com>
+Date: Mon, 14 Nov 1994 11:59:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+ With Jerry's help I have found a process for one of the <U, R>
+antipodes! Note the number of turns required in the h turn metric.
+I applied the turn R1 to the position so the program only needed to
+search 24 q turns deep.
+
+
+First Antipodal Process    (25 q, 20 q)
+UR13 = U2 R1 U3 R2 U3 R2 U3 R1 U2 R3 U1 R3 U3 R1 U1 R2 U1 R3 U1 R3
+
+Also....      UR13 ^ 2 = I
+
+Using current techniques, this required a run of about 11 hours.
+
+ It remains to be seen how the Kociemba algorithm resolves this
+position, and I will try this next.
+
+ Although somewhat unrelated, I found a square's group process
+for 6 X order 2 (the pons asinorum) by hand, which does
+not move the centres:
+
+                U2 B2 L2 U2 D2 L2 F2 T2
+                F2 U2 L2 F2 B2 L2 D2 F2   (16 h, 32 q)
+
+ -> Mark <-
+ email: mark.longridge@canrem.com
+

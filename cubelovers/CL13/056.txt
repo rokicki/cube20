@@ -1,0 +1,33 @@
+From devo@vnet.ibm.com  Mon Nov 14 09:03:16 1994
+Return-Path: <devo@vnet.ibm.com>
+Received: from VNET.IBM.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AB08937; Mon, 14 Nov 94 09:03:16 EST
+Message-Id: <9411141403.AB08937@life.ai.mit.edu>
+Received: from GDLVM7 by VNET.IBM.COM (IBM VM SMTP V2R2) with BSMTP id 7026;
+   Mon, 14 Nov 94 09:02:35 EST
+Date: Mon, 14 Nov 94 08:48:00 EST
+From: "Dave Eaton" <devo@vnet.ibm.com>
+To: cube-lovers@life.ai.mit.edu
+Subject: SYMBOLIC PROGRAMS
+
+I couldn't quickly get a LEX or FLEX working to process the source
+of the symbolic cube program written by Carl Raymond
+(raymond@cps.msu.edu).  Carl's note said "do what you want...",
+so, I did.
+
+I managed to convert his C-and-LEX cube program into REXX.  You
+type in a move sequence and it displays the resulting cycle
+structure.  Exactly what I have always wanted.  I am still
+testing it and working the bugs out, but now I can return to
+my "cube research" (that is, playing around).
+
+If anyone else needs such a straightforward text-mode cube program
+in REXX (instead of C), let me know and I will share it with you...
+after a little more testing.  (Contact me directly, not in this
+group.)  Interpreted REXX is built in on OS/2, VM, MVS, and is
+available (somewhere) for Unix systems, Amiga, and probably others.
+
+A million thanks to Carl.
+
+......Dave Eaton, N2NOQ, Owego NY, devo@vnet.ibm.com
+
+

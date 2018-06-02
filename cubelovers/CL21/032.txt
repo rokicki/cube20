@@ -1,0 +1,41 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Oct 25 16:08:00 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA02317; Fri, 25 Oct 1996 16:08:00 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+Subject: Re: Siamese Rubik's Cubes (was Re: DEAR TANOFF <<<<<<<<<<<<<<<< (fwd))
+Date: 25 Oct 1996 14:02:32 GMT
+Organization: California Institute of Technology, Pasadena
+Message-ID: <54qh9o$4tu@gap.cco.caltech.edu>
+References: <cube-lovers.9610250500.AA13321@jrdmax.jrd.dec.com>
+NNTP-Posting-Host: off.ugcs.caltech.edu
+X-Newsreader: NN version 6.5.0 #2 (NOV)
+
+Norman Diamond 25-Oct-1996 1355 <diamond@jrdv04.enet.dec-j.co.jp> writes:
+>A. Southern misinterpreted M. Velucchi's picture:
+
+>>>    ------
+>>>    |    |
+>>>    |    |
+>>>    -----+-----
+>>>         |    |
+>>>         |    |
+>>>         ------
+
+>Siamese Rubik's cubes share an entire column of cubies, i.e. in the
+>case of two 3x3x3's they share an edge cubie and two corner cubies.
+
+>Cubies cannot move from one cube to the other.  The shared column
+>of cubies cannot be separated or rearranged.  The effect is like
+>bandaging an edge column on one 3x3x3 cube and bandaging an edge
+>column on another 3x3x3 cube and having two identical puzzles.
+
+A "creative" question:
+
+Suppose we want to be able to rotate the 17-cubie faces 180 degrees.
+Can anyone think of a mechanical structure that could achieve this?
+
+
+

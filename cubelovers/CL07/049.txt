@@ -1,0 +1,72 @@
+From @po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu  Sat May 11 03:48:46 1991
+Return-Path: <@po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu>
+Received: from po5.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA02102; Sat, 11 May 91 03:48:46 EDT
+Received: by po5.andrew.cmu.edu (5.54/3.15) id <AA08019> for Cube-Lovers@life.ai.mit.edu; Sat, 11 May 91 03:48:42 EDT
+Received: via switchmail; Sat, 11 May 91 03:48:42 -0400 (EDT)
+Received: from yen.mg.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q002/QF.Uc:u6Sq00aw6I0SUE9>;
+          Sat, 11 May 91 03:47:44 -0400 (EDT)
+Received: from yen.mg.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr18/dn1l/.Outgoing/QF.0c:u6Q:00aw6421n9A>;
+          Sat, 11 May 91 03:47:40 -0400 (EDT)
+Received: from Messages.7.8.N.CUILIB.3.45.SNAP.NOT.LINKED.yen.mg.andrew.cmu.edu.pmax.3
+          via MS.5.6.yen.mg.andrew.cmu.edu.pmax_3;
+          Sat, 11 May 91 03:47:40 -0400 (EDT)
+Message-Id: <Yc_u6Q200aw6M21n0H@andrew.cmu.edu>
+Date: Sat, 11 May 91 03:47:40 -0400 (EDT)
+From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: 5by cubes
+Cc: Cube-Lovers@life.ai.mit.edu
+In-Reply-To: <9105110258.AA29787@boston-harbor>
+References: <9105110258.AA29787@boston-harbor>
+
+I solve the cubes in a way much different than lots that people have explained:
+
+(Don't read if you don't want!)
+
+I pick a "top" side and solve it.
+I put the centers together(on the order 3, this was REAL easy! :-)
+I put the edges together that go from the top to the bottom.
+I solve the bottom 4 corners
+I solve the bottom 4 middles.
+
+depending on which cube, the 2nd and 3rd steps are switched.
+
+I am only having one problem with the 5x5x5 cube, though:
+
+
+X|O|X|X|X
+X|X|X|X|X
+X|X|X|X|X
+X|X|X|X|X
+X|X|X|O|X
+
+looking at the bottom of my cube, the 2 pieces marked O are swaped
+sometimes, so that the face is still a solid color, but the sides are
+swapped.
+
+I also got it to have the swapped pieces near each other:
+
+X|X|X|X|X
+X|X|X|X|X
+X|X|X|X|X
+O|X|X|X|X
+X|X|X|O|X
+
+My question is this:
+
+I can't figure out what causes the swapping.
+Is it the because in this face,
+
+X|X|X|X|X
+X|O|I|O|X
+X|I|X|I|X
+X|O|I|O|X
+X|X|X|X|X
+
+the I's and the O's are in the "wrong" positions, even though they are
+indestingiushable?
+
+Dale Newfield
+

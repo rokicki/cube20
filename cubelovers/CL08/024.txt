@@ -1,0 +1,132 @@
+From Hoffman.El_Segundo@xerox.com  Wed Jan  8 12:07:08 1992
+Return-Path: <Hoffman.El_Segundo@xerox.com>
+Received: from alpha.xerox.com by life.ai.mit.edu (4.1/AI-4.10) id AA06419; Wed, 8 Jan 92 12:07:08 EST
+Received: from AE_Mail_Service_6.ES_AE.Xerox.xns by alpha.xerox.com via XNS id <12287>; Wed, 8 Jan 1992 09:06:44 PST
+X-Ns-Transport-Id: 0000AA00A9AD94E12D0C
+Date: 	Wed, 8 Jan 1992 09:06:16 PST
+From: Hoffman.El_Segundo@xerox.com
+Subject: Re: Square One
+In-Reply-To: "johnf%apollo:com's message of 7 Jan 92 08:45:34 PST (Tuesday)"
+To: johnf@apollo.com
+Cc: cube-lovers@life.ai.mit.edu
+Message-Id: <" 8-Jan-92  9:06:16 PST".*.Hoffman.El_Segundo@Xerox.com>
+
+
+I, too, gave myself Square One for Christmas, and I, too, would love to
+exchange some useful moves.  Here are three that I use.  I need some more!
+
+  -- Rodney Hoffman
+     Hoffman.El_Segundo@Xerox.com
+     or   rodney@oxy.edu
+
+------------------------------------------------------
+
+Conventions used in these descriptions:
+
+  *  These moves start and end in a cube shape.  I always hold the
+     logo to my left, with the two faces which can rotate in front
+     and back.  That means the plane of the 180-degree twist is
+     perpendicular to my face, angling from upper right to lower left.
+     The "front" face is the one I'm looking directly at.
+
+  *  "the smallest increment" as in "Turn the front face cw
+      the smallest increment".   This means the smallest amount
+      that permits the big 180-degree twist that must follow.
+      Note that the angle of turn is not always the same!  Sometimes
+      "the smallest increment" turn is truly the smallest possible
+      increment, that is, the width of an edge piece.  At other
+      times, it may be the width of a corner piece (much larger),
+      or even two or three piece's widths combined.
+
+  *  "to match" as in "Turn the back face to match".
+     This means the front and back faces remain aligned with one
+     another.
+
+  *  "Now do the 180-degree twist."  I move the right half 180
+     degrees, holding the left half fixed.  The logo stays fixed
+     in position and orientation, never moving.
+
+  *  To help in describing the effects of these moves, I will
+     refer to the pieces by number, as follows.  Here I have
+     numbered the pieces clockwise from the upper left corner
+     piece on the front face.  I have numbered the back face
+     similarly, ** as if looking straight through to it **,
+     that is, piece 9 is directly beneath piece 1, piece 10
+     is directly beneath piece 2, etc.:
+
+            Front Face               Back Face
+
+            1   2   3                9  10  11
+	    8       4               16      12
+	    7   6   5               15  14  13
+
+
+------------------------------------------------------
+
+(1) Swaps all 8 corner pieces diagonally directly across in pairs, staying on
+the same faces (front and back).  In my numbering scheme, this move swaps 1
+with 5, 3 with 7, 9 with 13, and 11 with 15.
+
+  (a) Turn the front face cw the smallest increment.
+      Turn the back face to match.  Now do the 180-degree twist.
+
+  (b) Turn the front face ccw the smallest increment.
+      Turn the back face to match.  Now do the 180-degree twist.
+
+  (c) Repeat the (a)(b) combination three times.
+
+  Note:  This entire move, repeated twice, is, of course, an identity.
+
+------------------------------------------------------
+
+(2) Swaps all 8 edge pieces directly across in pairs, staying on the same faces
+(front and back).  In my numbering scheme, this move swaps 2 with 6, 4 with 8,
+10 with 14, and 12 with 16.
+
+  (a) Turn the front face cw the smallest increment.
+      Turn the back face to match.  Now do the 180-degree twist.
+
+  (b) Repeat (a) six times.
+
+  (c) Turn the front and back faces 180 degrees.
+
+  Note:  This entire move, repeated twice, is, of course, an identity.
+
+------------------------------------------------------
+
+(3) Although this move itself is simple to describe, its effect is not. It
+moves four pieces (two large and two small) from the front to the back, and
+vice-versa.
+
+It's easiest to just give a map of the changes:
+
+BEFORE:     Front Face               Back Face
+
+            1   2   3                9  10  11
+	    8       4               16      12
+	    7   6   5               15  14  13
+
+AFTER:      Front Face               Back Face
+
+            11  6  13                9  10   3
+	     8     12               16       2
+	     7 14   1               15   4   5
+
+(Because the back face is never turned in this move, its pieces 9, 10, 15, and
+16 always stay fixed.  They are on the immobile half of the back face, the half
+not moved during the 180-degree twists.)
+
+  (a) Turn the front face cw the smallest increment.
+      Do not turn the back face at all.
+      Now do the 180-degree twist.
+
+  (b) Turn the front face ccw the smallest increment.
+      Do not turn the back face at all.
+      Now do the 180-degree twist.
+
+  (c) Repeat the (a)(b) combination three times.
+
+  Note:  This entire move, repeated five times, is an identity.
+
+------------------------------------------------------
+

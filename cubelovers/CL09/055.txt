@@ -1,0 +1,23 @@
+From bosch@smiteo.esd.sgi.com  Tue Sep 22 12:10:48 1992
+Return-Path: <bosch@smiteo.esd.sgi.com>
+Received: from sgi.sgi.com (SGI.COM) by life.ai.mit.edu (4.1/AI-4.10) id AA27072; Tue, 22 Sep 92 12:10:48 EDT
+Received: from [192.48.193.1] by sgi.sgi.com via SMTP (920330.SGI/910110.SGI)
+	for cube-lovers@ai.mit.edu id AA11832; Tue, 22 Sep 92 09:10:45 -0700
+Received: by smiteo.esd.sgi.com (911016.SGI/920502.SGI.AUTO)
+	for @sgi.sgi.com:cube-lovers@ai.mit.edu id AA02225; Tue, 22 Sep 92 09:10:44 -0700
+From: bosch@smiteo.esd.sgi.com (Derek Bosch)
+Message-Id: <9209221610.AA02225@smiteo.esd.sgi.com>
+Subject: Gaby Games address needed
+To: cube-lovers@ai.mit.edu
+Date: Tue, 22 Sep 92 9:10:44 PDT
+X-Mailer: ELM [version 2.3 PL4]
+
+Does anyone out there in cube-land know the address for Gaby Games?
+They are an Israeli manufacturer of interesting 3-d interlocking wooden
+puzzles.  I have posted this to rec.puzzles, with no help so far.
+
+Derek Bosch
+bosch@sgi.com
+
+
+

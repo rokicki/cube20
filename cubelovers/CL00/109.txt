@@ -1,0 +1,11 @@
+Date: 16 AUG 1980 0338-EDT
+From: MJL at MIT-MC (Matthew Jody Lecin)
+To: CUBE-HACKERS at MIT-MC
+
+Seems the ever popular CUBE is getting places.  In this month's issue
+of one of America's popular men's entertainment magazines there is a picture
+of Zsa Zsa Gabor holding a cube, and a small explanation of what the cube is,
+and who's marketing it, etc.  (Isn't Zsa Zsa Hungarian?) The way she is
+holding her cube you see 2 faces - orange and green - and it is right.
+
+							{Matt}

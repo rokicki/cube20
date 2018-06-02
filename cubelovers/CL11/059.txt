@@ -1,0 +1,32 @@
+From anandrao@hk.super.net  Thu Dec 23 04:29:34 1993
+Return-Path: <anandrao@hk.super.net>
+Received: from hk.super.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10668; Thu, 23 Dec 93 04:29:34 EST
+Received: by hk.super.net id AA16480
+  (5.65c/IDA-1.4.4 for cube-lovers@ai.mit.edu); Thu, 23 Dec 1993 17:29:17 +0800
+Date: Thu, 23 Dec 1993 17:26:41 +0800 (HKT)
+From: Mr Anand Rao <anandrao@hk.super.net>
+Subject: Re: your mail
+To: Jan de Ruiter <jandr@xirion.nl>
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <4326.9312230747@xirion.xirion.nl>
+Message-Id: <Pine.3.07.9312231739.B16225-9100000@hk.super.net>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+
+On Thu, 23 Dec 1993, Jan de Ruiter wrote:
+
+> And now I am proud to present my timing: trrrrr (drum roll)
+> 7 seconds on a Compacq Deskpro 386/33. (and still only brute force!)
+
+Were you travelling at the speed of .999c?
+
+> Now I am ready to try the 10x10.
+> 
+With this algorithm, you should have the solution before the year is out!
+
+Best luck!
+
+
+

@@ -1,0 +1,40 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Dec  3 17:44:19 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id RAA12343; Tue, 3 Dec 1996 17:44:18 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Tue, 3 Dec 1996 11:18:42 -0500
+From: der Mouse <mouse@holo.rodents.montreal.qc.ca>
+Message-Id: <199612031618.LAA12721@Collatz.McRCIM.McGill.EDU>
+To: edwards@city-net.com
+Subject: Re:  Rubic's Revenge
+Cc: cube-lovers@ai.mit.edu
+
+> Does a 5x5 matrix Rubic's [sic] cube exist?  I think I know the
+> general solution, as an extrapolation from the solution to a 4x4.
+
+Yes, a 5-Cube exists; I own one.  And yes, if you can solve the 3-Cube
+and the 4-Cube, no higher order presents any qualitatively new
+challenges to a human.  In theory, the 6-Cube would, because it's the
+first one that has one-visible-face cubies that are not on a plane of
+symmetry.  The 5-Cube has a 3x3 grid of one-face cubies on each face,
+but they are all either (a) face center, (b) non-(a) center slice, or
+(c) non-(a) face diagonal.  On the 4-Cube, the four one-face cubies are
+all face diagonal, and on the 3-Cube, there's only one (face center)
+one-face cubie.  However, at least based on my own experience, I
+believe that these new cubies on the 6-Cube will not add any additional
+challenge - the one-face cubies are one of the easiest parts of the
+cube anyway, and the same basic operations that work for the (c) cubies
+on the 4-Cube (and the (b) and (c) cubies on the 5-Cube) will work
+equally well for these new cubies.
+
+Incidentally, does anyone know if a physical 6-Cube has ever been made?
+If so, and it's not too outrageously priced, I'd be interested in
+buying one.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+
+

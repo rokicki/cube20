@@ -1,0 +1,25 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Feb 25 12:25:52 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA03419; Wed, 25 Feb 1998 12:25:52 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Feb 25 00:39:17 1998
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Taiwanese Invention of the Cube?
+Date: 25 Feb 1998 05:38:19 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <6d0aob$6vq@gap.cco.caltech.edu>
+
+I have heard through multi-generation, unreliable sources that the Cube
+was first invented and patented by a Taiwanese person.  This story
+strikes me as strongly false, but perhaps may have some basis 
+somewhere.  Any guesses?  Perhaps a particularly different sort of
+mechanism was patented?  A trademark?  
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+"...he put a wire in his cap and called himself Marconi."
+

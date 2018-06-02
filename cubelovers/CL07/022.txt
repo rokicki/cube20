@@ -1,0 +1,54 @@
+From hoey@aic.nrl.navy.mil  Mon Nov 12 18:37:55 1990
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA13428; Mon, 12 Nov 90 18:37:55 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA06668; Mon, 12 Nov 90 18:33:25 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Mon, 12 Nov 90 18:38:49 EST
+Date: Mon, 12 Nov 90 18:38:49 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9011122338.AA00219@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: Rubik's Cube reassembly problem and solution
+
+This problem of counting the number of solvable restickerings seems to
+be a lot easier than I had thought, but a lot trickier than you might
+think.
+
+Haym Hirsh sent in a buggy analysis, then corrected himself, but not
+quite enough.  The fix was to account for cases where the stickers
+corresponded to a cube recoloring, but he just multiplied by 30 (cube
+recolorings up to rotational symmetry) rather than by 720 (total cube
+recolorings).  We are dividing by 54!, which includes positions
+differing only by a rotation, so when figuring how many are solvable
+you have to count such positions also.
+
+Another way of figuring this is 6! ways of coloring the face centers,
+then (8! 3^8 12! 2^12)/12 ways of coloring the rest of the cube, then
+9!^6 ways of arranging stickers among identically-colored faces, out
+of 54! ways of arranging stickers randomly.
+
+So the probability that a random restickering will be solvable is
+
+        71107747385251871439716429038520049557443706880000000000
+------------------------------------------------------------------------
+230843697339241380472092742683027581083278564571807941132288000000000000
+
+           40122452017152
+ = ------------------------------  ~ 3.0803 X 10^-16.
+   130253249618151492335575683325
+
+It seems odd to me that this is not the reciprocal of an integer, but
+I guess that's because we are dealing with color cosets rather than
+some cube group.
+
+Haym Hirsch also asked me how to figure out the minimum number of
+stickers to fix to make an unsolvable stickering solvable.  Sounds
+hard to me.  His question arises in the same way that I recall the
+original problem arising: trying to clean up after someone who tried
+to solve the cube by restickering.  Since the adhesive isn't designed
+for moving the stickers around, this leads rapidly to Dik Winter's
+problem: dealing cubes that have lost some of their stickers.
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

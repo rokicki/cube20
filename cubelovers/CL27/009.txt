@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar 29 15:19:18 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA20818
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 29 Mar 1999 15:19:18 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Taking apart the 5^3
+Date: 26 Mar 1999 23:43:35 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7dh637$ea1@gap.cco.caltech.edu>
+References: <cube-lovers.199903211659.LAA04577@Twig.Rodents.Montreal.QC.CA>
+
+der Mouse  <mouse@rodents.montreal.qc.ca> writes:
+>Perhaps there are multiple production runs in existence and some of
+>them come apart more easily this way than others?
+
+This is definitely true.  Mine fell off after a few days -- I eventually
+glued them back on.
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+This new video game can challenge feet (8,7)
+

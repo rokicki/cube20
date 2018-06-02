@@ -1,0 +1,32 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Nov 27 16:05:13 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA16084; Wed, 27 Nov 1996 16:05:12 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 27 Nov 1996 12:56:20 -0800
+From: Don Woods <don@altum.com>
+Message-Id: <199611272056.MAA21078@altum.com>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Rubik's Tangles
+
+Someone (I've deleted the message) recently asked about the Tangles.
+My recollection is that the four puzzles are all the same except for
+permutations of the colors.  That is, each Tangle consists of the 24
+possible distinct pieces, plus one duplicated piece.  Which piece is
+duplicated varies, but the resulting puzzles are the same.  (Oh yeah,
+the pattern of the crossing ropes on each tile is also the same for
+each puzzle.)  Really disappointing, especially since I think there
+were two distinct solutions, and if they'd varied the mix a bit more
+they could've had unique solutions as well as having four truly
+different puzzles.
+
+Also, another fellow and I independently did some analyses about three
+years ago that proved that you cannot make a 10x10 using the four
+combined puzzles.  Presumably the marketing blurb that suggests doing
+so was written by someone who had no clue whether it was possible or
+not.  Again, if they'd varied the puzzles a bit I have no doubt they
+could've made the 10x10 achievable as well.
+
+	-- Don.
+
+

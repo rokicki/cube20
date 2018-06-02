@@ -1,0 +1,27 @@
+From geohelm@pt.lu  Tue Dec 19 02:05:10 1995
+Return-Path: <geohelm@pt.lu>
+Received: from menvax.restena.lu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01608; Tue, 19 Dec 95 02:05:10 EST
+Date: Tue, 19 Dec 95 02:05:08 EST
+Received: from mailsvr.pt.lu by menvax.restena.lu with SMTP;
+          Tue, 19 Dec 1995 8:04:59 +0100 (MET)
+Received: from slip214.pt.lu by mailsvr.pt.lu id aa14245; 19 Dec 95 8:04 CET
+X-Sender: garnich@mailsvr.pt.lu
+X-Mailer: Windows Eudora Version 1.4.4
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Georges Helm <geohelm@pt.lu>
+Subject: cube literature
+Cc: geohelm@pt.lu
+Message-Id:  <9512190804.aa14245@mailsvr.pt.lu>
+
+A list of solutions to Rubik's cube (from 2x2x2 to 5x5x5), pyraminx...
+is available now online at my homepage. There are +/- 600 items. The list
+is 12k.
+http://ourworld.compuserve.com/homepages/Georges_Helm/cubbib.htm
+
+Georges
+Georges Helm           
+geohelm@pt.lu
+
+

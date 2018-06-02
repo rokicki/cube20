@@ -1,0 +1,20 @@
+Date: 2 Aug 1980 12:26 PDT
+From: McKeeman at PARC-MAXC
+Subject: Re: a metric for the cube group.
+In-reply-to: ALAN's message of 2 August 1980 01:55-EDT (yawn)
+To: Alan Bawden <ALAN at MIT-MC>
+cc: CUBE-HACKERS at MIT-MC
+
+Alan,  I enjoyed your presentation.  I am convinced that counting the RLFBUD
+manipulations will not give a metric.  I do not, however, see an easy way to
+compute twists T(M).  I think one gets a metric only if one takes the minimum
+over some set of manipulations.  That is, take a set, AM, of atomic moves
+including their inverses, let AM* be the strings of AM, and |M| be the length
+of M in AM*.  Then
+	D(a, b) = min |M| such that a = bM
+defines a metric.  D(a,b) would sometimes be undefined if AM did not generate
+the whole group.  The recent discussion on shortest solutions is in fact about the
+maximum of such a T(M) for all M in some AM*.
+
+Bill
+

@@ -1,0 +1,25 @@
+Date: Saturday, 29 January 1983  23:33-EST
+From: Leonard N. Foner <TK.FONER @ MIT-OZ>
+To:   Dan Hoey <HOEY @ CMU-CS-A>
+Cc:   Cube-Lovers @ MIT-MC, Tk.Foner @ MIT-OZ
+Reply-to: Foner at MIT-MC
+Subject: The shortest sequence of moves.
+In-reply-to: The message of 28 Jan 1983  03:33-EST from Dan Hoey <HOEY at CMU-CS-A>
+
+Thanx for the solution...  we determined independently that 12 qtw
+seemed to be minimal, but couldn't be absolutely sure.
+
+Since you say with a couple of days of CPU time you could deal with 18
+qtw processes, doesn't this mean that \any/ cube process can be
+checked for minimality?  I can't recall whether the maximum number of
+moves from solved is 17 or 19...  if the former, 18 qtw may be
+unnecessary.  If the latter, then almost every cube process can be
+checked directly, save the absolute longest ones (which are then
+provably 19 anyway, since that's all they can be).  Is my reasoning
+faulty here?  In any case, exactly how much more work in involved for
+each qtw in solving the cube?  In other words, how fast does it grow
+(what's the power on the exponent, if describable this way)?
+
+Thanx much folks.
+
+						<LNF>

@@ -1,0 +1,128 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Jan 30 01:31:45 1997
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id BAA22508; Thu, 30 Jan 1997 01:31:44 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+Subject: Taiwan Cube-Solving Invitational
+Date: 29 Jan 1997 20:13:35 GMT
+Organization: California Institute of Technology, Pasadena
+Message-ID: <5cob1f$jiq@gap.cco.caltech.edu>
+
+This is from China World News, 12/17/1996.
+The translation is mine.  I can't vouch for any facts in
+the article or give any more information.
+(I also find a few of the claims a bit exaggerated
+and redundant, but what do you expect from the media?)
+
+-------------------------
+
+NEW MAGIC CUBE REVEALED; WELCOMING ALL SPEED SOLVERS
+Easy Disassembly Provides a Higher Difficulty of Play;
+Taiwan Hosts Invitational Competition; Throws the Gauntlet
+to USA, Europe, etc.
+
+[TAIPEI] The craze that mesmerized Taiwan is back.  This new
+generation of Rubik's Cube emphasizes its ability to be 
+disassembled and assembled.  Play and difficulty are enhanced.
+This cube researched and developed by Taiwanese won a gold in the
+International Invention Competition (?) in Los Angeles this
+past September.  This new Cube is also the focus of 1997's 
+International Magic Cube Solving Invitational.  The hosts, intending to
+promote basic inventive education, especially welcome youths
+to enter the solving competition and challenge their intelligence.
+
+The Chief Organizer of the sponsor of next year's International Cube 
+Solving Invitational, the Republic of China's Invention Group,
+Chi-Shin (?) Huang [no relation] said that superb inventors always
+have three traits: they're capable of prolonged concentration, 
+stamina, and will.  Most importantly, that have the trait of 
+action: they know what they want to do and they do it.  And this
+is a trait they have in common with cube-solvers.
+
+Huang especially emphasizes that the young people now pick up this
+toy of the previous generation, since the Rubik's Cube is a
+puzzle requiring hand-eye coordination, and in the process of
+solving, not only does it help build spatial abilities and 
+memory, but also trains the brain in pattern recognition and
+organization.  And as far as creativity is concerned, cube solving
+is good practice for sustained concentration and patience.
+
+Jein-Chen Zhu (?), a professor at Taiwan University who has
+written a book analyzing the mathematical principles of the
+cube comments: "This new generation of the Cube is challenging
+because it breaks the rules of the original Cube."  Zhu also
+said that most speed solvers finish the buttom face first,
+and then work towards the upper levels.  Since the new Cube can
+be disassembled and the corner cubies rearranged, the new
+Cube may have no valid solutions with that method.  "Therefore,
+if a solver picks an incorrect starting face, it would be like
+building a bridge on top of a riverbed with hidden sand streams:
+almost impossible.  The solver must be able to make quick decisions
+to finish the solution.
+
+The inventor of the new Cube, Wei-Huang Chang (?) [no relation]
+indicates that the breakthrough in his design is that the Cube
+can now be easily disassembled, allowing players to observe with
+their own eyes the three-dimensional secrets in the structure of
+the versatile cube.  The original inventor of the Cube, Rubik,
+was himself an expert in the field of construction and originally
+invented the cube as a teaching tool.  The new Cube would not
+exist without the original design.
+
+The 1997 Competition is projected to be in September.  The 
+Committee invites any players from Japan, Korea, Mainland China, Europe,
+America, etc. to attend.  No age restriction.  If interested,
+please phone (area code 02) 5812314.  [Country code, Taiwan ROC]
+
+----------------------------------
+
+Magic Cube Solved in 19 Seconds
+WEN-YUNG KAO (?) IS THE FASTEST SOLVER IN TAIWAN
+
+[TAIPEI]"Mr. Cube" Wen-Yung Kao's fastest solving time is nineteen seconds.
+Compared to existing records, he is 2 seconds faster than the 
+world record, 22.95 seconds.  
+
+"A Cube solver must make decisions quickly and correctly!" says
+Kao, who is a successful industrialist by day.  When he solves 
+the cube, all ten of his fingers dextrously spin the cube; in
+the last few seconds of his solution, he finishes the solution 
+without even having to look at the cube, truly a sight to behold.
+
+Kao notes that actually, there's a trick to solving the cube; he
+has had to go through meticulous recordings and observations to
+discover it.  He recalls his first encounter with the cube: a
+friend of his had started up a factory set to making the cube
+and had sent a few to him to play with.  He was immediately 
+hooked and spent umpteen hours testing, taking notes, and 
+recording the path of every little cubie.  After one month,
+he could solve the cube in three minutes.  After half a year
+he was even faster, solving in under one minute.  After 20
+more months he had cut his time down to 25 seconds.
+
+[TAIPEI]Sixteen years ago the cube-solving craze spread the 
+globe.  Due to the complexity of the combinations, a few
+turns could make it difficult to restore to its original
+state, easily discouraging a would-be solver.  Taiwan inventor
+Ji-ren Chang (?) researched the "Gold Key Cube", which 
+can be easily disassembled and reassembled, decreasing the
+feeling of discouragement.
+
+[PHOTO] CEO of a food company, Wen-Yung Kao is Taiwan's fastest
+Cube solver.
+
+[PHOTO] Inventor Ji-Ren Chang's invention "Gold Key" can disassemble
+the Cube.
+
+--------------------------
+
+
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+-------------------------------------------------------------------------------
+Save the earth.  Then Quit and Shut Down.
+
+

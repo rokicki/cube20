@@ -1,0 +1,83 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 11 Dec 86 09:27:35 EST
+Date: 11 Dec 86 08:53:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: SOME CUBES
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+------
+HIGHLIGHTS OF CUBE TYPES WITH AVAILABILITY ( Bandelow's complete compilation is
+9 pages. Supposedly both Slocum and Cecil Smith have more extensive lists.)
+
+I will follow Bandelow/Helm classification guide, ie, 
+  A.  3x3x3 cubes of standard size (57mm edge)
+  B.  size variations of 3x3x3 cube
+  C.  shape variations of the 3x3x3 cube
+  D.  NxN (N not 3) cubes and their relatives
+  E.  other magic polyhedra
+  F.  some other logical puzzles
+  G.  various cube rel;ated products
+
+SOURCES:  PB - Peter Beck, 54 Richwood place, Denville, NJ 07834, add $1
+shipping per order
+                CB  - Christoph Bandelow, Haarholzer Strasse 13, D-4630 Bochum
+1, W Germany
+                GH  - Georges Helm, 22A rue Bommert, 4716 Petange, Luxembourg
+                RH  - Richard Hess, 4100 Palos Verdes Dr. East, Rancho Palos
+Verdes, CA 90274
+
+  A.  3x3x3 cubes of standard size (57mm edge)
+ORIGINAL HUNGARIAN RUBIK'S CUBE (CB $8)
+DELUXE CUBE, bonded plastic instead of stickers, Ideal (PB $3)
+SIAMESE CUBES, 2 standard cubes joined by having one edge in common, Ideal (CB
+$15)
+THERE ARE MANY STICKER VARIATIONS; some are one to one subsitions of cubie
+stickers,  some are pictures that cover a whole cube face, some are puzzles
+(like the calendar cubes), some divide the coloring of cubies so that the 3x3x3
+simulates other cubes (see Hofstadter's articles).  I have not seen any
+references to Penrose Tiling cubie designs.
+NUMBERS, FRUITS, CARDS, FLOWERS, SPORTS BALLS,DIE 1, FEMALE NUDES wonderful,
+taiwan (PB $2)
+
+  B.  size variations of 3x3x3 cube
+50mm, 38mm, 33mm, 31mm, 30mm, 25mm, 20mm - made into keychains and necklaces.
+
+  C.  shape variations of the 3x3x3 cube
+because the cubies always maintain the same in-out orientation relative to the
+center of the cube, cubies can have any surface extension desired.  Therefore
+there are cubes are spherical cubes, cubes with corner pieces trimmed to
+equilateral triangles, some edge pieces are trimmed so that they make a single
+plane presentation (eg, makes a barrel), I HAVE NOT HEARD OF ANY THAT MAKE A
+SOLID SCULPTURE OF THE CUBE, eg, a bust of RUBIK.
+OCTAGONAL PRISM - four parallel edges are trimmed giving an octagonal prism, (CB
+$8)
+MEDIUM MAGIC GLOBE - Sold as Rubik's World, (CB or GH $10)
+MEDIUM MAGIC BALL - sp-herical cube, (PB $2)
+
+  D.  NxN (N not 3) cubes and their relatives
+56mm 2x2x2 RUBIK'S POCKET CUBE, (CB $8)
+OCTAHEDRON 2X2X2 each rotation axis runs through two opposite corners of the
+octahedron, (CB $8)
+TETRAHEDRAL 2X2X2, each rotation axis runs through the centers of two opposite
+edges, (CB $8)
+STAR PUZZLE 2X2X2, similar to tetrahedron with a unicolored tetrahedron attached
+to the center of the big tetrahedron.
+TRICKHAUS 2X2X2, four edges are trimmed leaving a prism, can be arranged to look
+like a house, ie, square base and and roof, (CB $8)
+4x4x4, RUBIK'S REVENGE, if you are lucky $2 at KAYBEE TOY STORES
+5x5x5, ($20 from jerry slocum, see previous msg)
+
+  E.  other magic polyhedra
+SKEWB
+PYRAMINX
+MEGAMINX
+ALEXANDER'S STAR
+IMPOSSI-BALL
+ORB
+HUGARIAN GLOBE, FROM NATURE CO., NIT A CUBE
+MISSINK LINK
+
+  F.  some other logical puzzles
+  G.  various cube related products
+
+<BECK@ARDEC-LCSS>
+------

@@ -1,0 +1,51 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 20 19:26:37 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id TAA15689; Wed, 20 Aug 1997 19:26:36 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From kociemba@hrz1.hrz.th-darmstadt.de Wed Aug 20 19:12:10 1997
+Message-Id: <33FB67F0.3D1C@hrz1.hrz.th-darmstadt.de>
+Date: Wed, 20 Aug 1997 23:56:00 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>
+To: cube-lovers@ai.mit.edu
+Subject: Re: isoglyphs
+References: <199708190550.BAA21896@life.ai.mit.edu>
+
+michael reid wrote:
+
+> i'm still unclear about what your pattern generator does.  could you
+> describe what it does, for the benefit of those who haven't seen your
+> program?
+
+
+Though I used the word "pattern generator" myself I would like to ban it
+now, because the word generator is already uses for maneuvers (solvers
+versus generators). Let's talk about "pattern search".
+
+The pattern search is implemented in principle in the same way as you
+could try to built a pattern manually: First you "remove" all cubies,
+then again you add one after the other to the next free position and
+check if there is any contradiction with the pattern(s) in the Pattern
+Editor. If yes, the cubie is removed and added again in a different
+orientation or location. This is done recursivly, until al positions are
+filled.
+If there is no bug in the code, the pattern search should find *all*
+cubes which are possible with the patterns given in the Pattern Editor.
+> 
+> there's one last pattern for which i could not find any isoglyph.
+> it's the 32 pattern of type
+> 
+> ..*
+> *..
+> ***
+> 
+> all others, except those previously mentioned as impossible (patterns of
+> corner type D, and the 21 and 23 types which we previously discussed)
+> have isoglyphs.  can your program find isoglyphs of this type, or show
+> that none exist?
+
+My program finds no solution, so there also should not exist any.
+
+--Herbert
+

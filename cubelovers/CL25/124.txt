@@ -1,0 +1,48 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug 27 21:08:23 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id VAA26187; Thu, 27 Aug 1998 21:08:23 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <35E5E400.6033@ameritech.net>
+Date: Thu, 27 Aug 1998 17:56:00 -0500
+From: Hana Bizek <hbizek@ameritech.net>
+Reply-To: hbizek@ameritech.net
+To: cube-lovers@ai.mit.edu
+Subject: Re: depicting a cube
+References: <009CB47C.C9309B92.16@ice.sbu.ac.uk>
+
+David Singmaster wrote:
+
+>         With reference to Hana Bizek's reference to how one can show
+> all six faces of a cube, I found the following the most
+> satisfactory.  View the F, U and R faces along the diagonal.  Now
+> imagine the back faces 'exploded' out, i.e. moved outward along the
+> axes.  When they are moved far enough, they can be seen.  The effect
+> is that the cube seems to be suspended in front of a corner and the
+> three back seem to have been projected onto the walls and floor.
+
+
+A mirror can be placed on those walls and floor so that the design's B,
+L and D faces can be reflected off those surfaces. The design would need
+to stand on a glass-topped table, so that the D face can be reflected
+off the  mirrorred floor. The whole setup could be photographed.
+
+Unfortunately, I do not have resources to implement this. I don't even
+own a glass-topped table!
+
+Here is a challenge for the programmers out there. Can you write an
+applet that will slowly rotate my design in order for a viewer to see F,
+B, R, L and U faces, then tilt it upward to expose the D face? Do these
+moves any way you want, just make sure a viewer can see it all.Thank tou
+very much.
+
+You can find three of my designs at
+http://www.ssie.binghamton.edu/~jirif/cube.html. Two designs there are
+cubical. Opposite faces are identical, both in color and geometrical
+pattern. To wit: e. g. F face is exactly identical to B face, etc. This
+property holds for a majority of these designs, but there are
+exceptions.
+
+Hana Bizek {hbizek@ameritech.net}
+

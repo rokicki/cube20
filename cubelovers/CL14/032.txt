@@ -1,0 +1,157 @@
+From BRYAN@wvnvm.wvnet.edu  Fri Dec 23 20:55:24 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA15546; Fri, 23 Dec 94 20:55:24 EST
+Message-Id: <9412240155.AA15546@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 0980; Fri, 23 Dec 94 20:55:21 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5731; Fri, 23 Dec 1994 20:55:21 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Fri, 23 Dec 1994 20:55:19 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   <U,R,U2,R2> Antipodal Processes
+
+Here are the 16 antipodal processes for <U,R,U2,R2>.  Also, as in the
+case of <U,R>, I am including replacement position diagrams that
+include a correction for the Back face so that both the corners and
+edges are up-side-down.  Q+H turners will like these processes because
+of the way turns of the U face alternate with turns of the R face.
+I have performed a few of the processes on a real cube (as opposed to
+on a computer screen), and I find the alternating faces to be
+quite pleasant somehow or other.
+
+
+ 1 R' U  R2 U  R  U2 R  U  R  U2 R' U2 R  U2 R' U2 R2 U  R2 U
+ 2 U' R  U' R2 U' R2 U' R  U' R2 U2 R  U  R  U' R  U  R  U2 R2
+ 3 U  R  U2 R  U' R  U2 R2 U2 R2 U  R  U  R2 U2 R  U' R  U  R2
+ 4 R' U2 R' U  R  U' R2 U' R2 U' R' U  R' U' R' U' R  U' R' U2
+ 5 R' U2 R2 U' R  U2 R' U' R  U  R' U2 R' U2 R' U' R' U2 R  U
+ 6 R  U  R  U' R  U  R2 U  R2 U  R' U' R  U2 R  U2 R  U  R' U
+ 7 R2 U' R  U2 R  U2 R  U' R' U' R  U2 R  U  R2 U  R' U  R  U2
+ 8 U' R' U  R' U  R' U  R2 U' R' U' R' U  R' U  R' U  R2 U' R'
+ 9 R  U2 R' U  R' U  R  U' R  U  R' U2 R' U2 R  U' R  U' R' U2
+10 U' R' U2 R2 U2 R' U  R' U2 R' U' R  U  R' U  R  U' R' U  R2
+11 U' R' U' R' U2 R2 U2 R2 U  R2 U  R2 U' R2 U2 R' U' R  U2 R'
+12 R2 U' R2 U2 R' U' R2 U' R  U  R2 U2 R2 U  R  U2 R  U' R' U
+13 R  U2 R' U' R  U' R' U' R2 U' R  U2 R  U  R2 U  R' U2 R  U
+14 U2 R' U  R2 U' R' U' R2 U' R  U  R' U2 R' U2 R2 U  R' U2 R'
+15 U' R  U2 R' U2 R  U' R  U' R  U2 R' U' R  U2 R2 U  R  U  R2
+16 U' R2 U2 R' U  R' U2 R  U' R2 U2 R' U2 R  U  R2 U' R2 U2 R2
+
+
+
+     BBR                      BBB                      BBL
+     BBB                      BBB                      BBB
+     FBU                      LBD                      RBU
+
+     RUR                      BUB                      BUR
+     UUU                      UUU                      UUU
+     RUU                      RUU                      DUF
+
+ DLU FFL FRB              ULU FFL FRR              DLR FFR URB
+ LLL FFF RRR              LLL FFF RRR              LLL FFF RRR
+ LLL FFU LRD              LLL FFD FRU              LLL FFL URU
+
+     DDB                      DDR                      DDF
+     DDD                      DDD                      DDD
+     DDB                      DDR                      DDB
+
+  -------------------------------------------------------------
+
+     BBD                      BBU                      BBR
+     BBB                      BBB                      BBB
+     LBR                      LBR                      RBB
+
+     UUF                      UUB                      UUL
+     UUU                      UUU                      UUU
+     BUR                      BUR                      LUR
+
+ FLL UFU FRD              FLL UFD BRU              BLF UFF DRU
+ LLL FFF RRR              LLL FFF RRR              LLL FFF RRR
+ LLL FFR URB              LLL FFR DRF              LLL FFU RRD
+
+     DDB                      DDF                      DDF
+     DDD                      DDD                      DDD
+     DDR                      DDR                      DDB
+
+  -----------------------------------------------------------
+
+     BBL                      BBR                      BBU
+     BBB                      BBB                      BBB
+     RBR                      LBU                      FBB
+
+     BUU                      BUR                      RUR
+     UUU                      UUU                      UUU
+     LUB                      LUF                      FUR
+
+ DLF UFU RRF              ULF UFR URB              DLU LFU FRD
+ LLL FFF RRR              LLL FFF RRR              LLL FFF RRR
+ LLL FFD FRU              LLL FFD FRD              LLL FFL BRR
+
+     DDR                      DDR                      DDU
+     DDD                      DDD                      DDD
+     DDB                      DDB                      DDB
+
+  -----------------------------------------------------------
+
+     BBF                      BBU                      BBB
+     BBF                      BBD                      BBU
+     FBR                      LFR                      BRR
+
+     LUU                      UUD                      UFB
+     UUU                      UUB                      DUU
+     UUR                      LUF                      UBF
+
+ ULB LFB URF              FBU BLD RRB              LRL FRR ULU
+ LLL FFB RRR              LLL FFU RRR              LLL FFU BRF
+ LLL FFR BRD              LLL FFR FRR              LLL FFF RRR
+
+     DDD                      DDU                      DDD
+     DDD                      DDF                      DDU
+     DDR                      DDB                      DDD
+
+  --------------------------------------------------------------
+
+     BBL                      BBB                      BBB
+     BBU                      BBU                      BBU
+     DRF                      FRF                      FFD
+
+     FFR                      RDR                      RUB
+     DUU                      FUU                      UUF
+     DBR                      UBB                      FDU
+
+ RRB RRB URU              DRL FRL URU              DLU LRF RRR
+ LLL FFU BRF              LLL FFU FRB              LLL FFB RRR
+ LLL FFU LLF              LLL FFR ULR              LLL FFU LBU
+
+     DDB                      DDB                      DDB
+     DDU                      DDU                      DDU
+     DDU                      DDD                      DDR
+
+  -----------------------------------------------------------
+
+     BBF
+     BBU
+     UFB
+
+     LUU
+     UUF
+     BDR
+
+ BLR DRF DRR
+ LLL FFB RRR
+ LLL FFU RBU
+
+     DDF
+     DDU
+     DDL
+
+
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

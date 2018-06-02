@@ -1,0 +1,32 @@
+From din5w@dot.cs.virginia.edu  Wed May  1 21:39:44 1996
+Return-Path: <din5w@dot.cs.virginia.edu>
+Received: from virginia.edu (mars.itc.Virginia.EDU) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24126; Wed, 1 May 96 21:39:44 EDT
+Received: from archive.cs.virginia.edu by mail.virginia.edu id aa13503;
+          1 May 96 21:39 EDT
+Received: from dot.cs.Virginia.EDU (din5w@dot.cs.Virginia.EDU [128.143.67.21]) by archive.cs.Virginia.EDU (8.7.1/8.6.6) with SMTP id VAA03673 for <cube-lovers@ai.mit.edu>; Wed, 1 May 1996 21:39:10 -0400 (EDT)
+Received: by dot.cs.Virginia.EDU (4.1/SMI-2.0)
+	id AA07207; Wed, 1 May 96 21:39:08 EDT
+Date: Wed, 1 May 1996 21:39:07 -0400 (EDT)
+From: Dale Newfield <din5w@virginia.edu>
+X-Sender: din5w@dot.cs.Virginia.EDU
+Reply-To: DNewfield@virginia.edu
+To: cube-lovers@ai.mit.edu
+Subject: building a Rubik's Revenge
+In-Reply-To: <9605020027.AA17163@quark.geoworks.com>
+Message-Id: <Pine.SUN.3.90.960501213314.6681L-100000@dot.cs.Virginia.EDU>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+I know that I have at least some of the parts from at least one broken 
+Rubik's Revenge lying around somewhere.  I would suspect that I am not 
+alone.  I was wondering if we could satisfy a small portion of the people 
+that do not have such a beast merely by pooling our resources, and 
+building whole puzzles out of the remains of old ones?  So--I'll check to 
+see what I can find, and anyone that likewise has RR carcasses that they 
+wouldn't mind donating to such a purpose, mail me.  Let's see what we can 
+pull off!
+
+-Dale Newfield
+ DNewfield@Virginia.edu
+

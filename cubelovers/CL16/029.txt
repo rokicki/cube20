@@ -1,0 +1,41 @@
+From BRYAN@wvnvm.wvnet.edu  Mon Jun 19 09:57:45 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14163; Mon, 19 Jun 95 09:57:45 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 8039; Mon, 19 Jun 95 09:57:53 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 6101; Mon, 19 Jun 1995 09:57:54 -0400
+Message-Id: <wvmail32.1995jun19.094654.bryan@wvnvm.wvnet.edu>
+Date:      Mon, 19 Jun 1995 09:57:53 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@life.ai.mit.edu>
+Subject:   Re: Crazy Corner Pattern
+In-Reply-To: Message of 06/19/95 at 00:36:00 from mark.longridge@canrem.com
+
+Perhaps I should have quoted a little more from _Symmetry and
+Local Maxima_.  Here is the T-symmetric position given by
+Saxe and Hoey.  In their position, the UFL and RBD corners are
+in place, and the other three pairs are swapped.  The "girdle"
+includes the three pairs that are swapped.  Hence, there
+is an axis of symmetry along the UFL-RBD axis.  The odd number of
+swaps is compensated by an odd number in the edges.  The compensation
+is not required for corners only.
+
+        R D D
+        U U D
+        U U B
+
+ D L L  F F D  L L F  L F F
+ R L L  F F B  L R R  B B F
+ R R B  R B B  U R R  B B U
+
+        U U L
+        U D D
+        F D D
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

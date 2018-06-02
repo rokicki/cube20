@@ -1,0 +1,109 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Tue Jan  4 11:12:37 1994
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23149; Tue, 4 Jan 94 11:12:37 EST
+Message-Id: <9401041612.AA23149@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 1951; Tue, 04 Jan 94 11:12:39 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 0432; Tue, 4 Jan 1994 11:12:39 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 0016; Tue, 4 Jan 1994 11:10:03 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Tue, 4 Jan 1994 11:10:02 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Which is the Real Start?
+
+The net is so wonderful about answering questions, here are a few
+more:
+
+1. Take a standard 3x3x3 Rubik's cube, and remove the corner and
+   center labels to make an Edges Cube.  (I am assuming that the
+   underlying plastic is black.  If the underlying plastic is
+   white and one of the colors on the labels is also white, the
+   Edges Cube is not so pretty).  Scramble the cube.  Give it to
+   a cubemeister to solve.  How will the cubemeister know if the
+   cube is solved?  In other words, how will the cubemeister
+   distinguish Start from Pons Asinorum?
+
+   One answer is that the cubemeister cannot.  Unless the cubemeister
+   saw the cube before it was scrambled, or unless the cubemeister
+   was told which reflection of the colors was Start, there would
+   be no way to tell.  Another answer is that either one is Start --
+   that there are two Starts.   However, if you like this answer,
+   and if you identify the identity with Start, you are in the
+   disquieting situation of having a group with two distinct
+   identities (grin!).
+
+   It is obvious that this problem does not arise if the labels are
+   left on the centers.  Almost as obvious is the fact that the
+   problem does not arise if the labels are left on the corners, even
+   if the labels are removed from the centers.  The corner group
+   cannot be turned inside out by a reflection as can be the edge
+   group.
+
+2. As silly as my second answer is, it leads to a second question.
+   Just what is the 2x2x2 cube?  Or more correctly, how do you
+   know when it is solved?  With any size of cube, if you restrict
+   yourself to quarter-turns, by definition you cannot rotate the cube
+   in space as a single operation.  Yet, a simple quarter-turn sequence
+   such as RL' does rotate the 2x2x2 cube because it is faceless.  Is
+   Start of the 2x2x2 operated on by RL' solved?  If so, you can argue
+   that the 2x2x2 has 24 Starts.  Most people would not.  They would
+   argue that there is only one Start, and that 2x2x2 cubes that differed
+   only by a rotation are equivalent.
+
+3. Combining #1 and #2, I *think* that most people would argue that
+   Start and Pons Asinorum on the Edge Cube are not equivalent,
+   but that simple rotations of the 2x2x2 are equivalent.  If I am
+   correct about "most people", why?  Is a rotation symmetry
+   intrinsically a stronger or weaker symmetry than a reflection
+   symmetry?
+
+4. When I was first posting my results about the Edge Group, and
+   particularly when it first began to sink in what the four equivalence
+   classes with only 24 elements really were, I had a moment of
+   panic.  Since Start and Pons Asinorum differ only by a simple
+   reflection, why had not my version of M-conjugation declared them
+   to be equivalent?  (I speak of "my version of M-conjugation", but
+   the question is no different if you look at Dan Hoey's original
+   M-conjugation).  I think I know the answer, but I will leave the
+   problem as an exercise for the student.  Furthermore, I think the
+   answer to #4 is really the same as the answer to #3.
+
+5. What is a reflection, really?  Here is an exercise to illustrate
+   the question.  Take two identically colored and oriented 3x3x3
+   cubes.  On one, perform F and on the other perform F'.  Examine
+   the two cubes, plus their images in a mirror.  Why are there
+   four distinct cubes rather than only two?  At one level of
+   abstraction, the answer is simple.  Of the four, one is not
+   reflected, one is pre-reflected, one is post-reflected, and one
+   is both pre- and post-reflected.  Is this a sufficient answer,
+   or is there something deeper?
+
+   At this point, I can't help but note Martin Gardner's famous
+   mirror question in Scientific American many years ago:  why
+   does a mirror reverse left and right but not up and down?
+
+6. I found Dan Hoey's postings about the four special states of the
+   Edge Group to be delightful.  Some of the results were based on
+   a computer search of the group, for example the fact that
+   f(I)=(0,9,12,15) could only reasonably be determined from a
+   computer search.  However, the thought occurred to me that most
+   of Dan's results were independent of the computer search, and
+   I was curious precisely which results would stand without the
+   search?  For example, if we identified the group as being
+   rectangular, would we be led to saying which of the four special
+   states were diagonally opposed without the computer search?
+   Without the search, I might be tempted to say that Start and
+   Pons Asinorum were diagonally opposed.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

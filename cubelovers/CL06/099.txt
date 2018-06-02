@@ -1,0 +1,32 @@
+Received: from ardec-lcss.arpa (TCP 30003004013) by AI.AI.MIT.EDU 27 Oct 88 08:36:25 EDT
+Received: by ardec-lcss.arpa id <20801361042@ardec-lcss.arpa> ;
+       Thu, 27 Oct 88 08:35:49 EST
+Date: Thu, 27 Oct 88 08:34:55 EST
+From: BECK@ardec-lcss.arpa
+Subject: RUBIK'S CLOCK
+To: CUBE-LOVERS@ai.ai.mit.edu
+X-VMS-Mail-To: EXOS%"CUBE-LOVERS@MIT-AI"
+Message-ID: <881027083455.20801361042@ardec-lcss.arpa>
+
+
+Subj:   Re: Rubik's Clock
+
+  >   Rubik's latest brain-teasing toy requires a player to get 18
+clocks 
+  >   on both sides of a plastic disc to strike midnight
+simultaneously by 
+  >   twisting wheels that turn some of the hands but not others.  
+
+There are interlocking devices that make the puzzle a "SLIDING BLOCK"
+sequential motion puzzle.
+    
+The puzzle is on sale now in the UK and probably will not see US or
+europe distribution for Xmas 1988.
+
+There are solution book already in print.
+
+Christoph Bandelow tells me that the puzzle is not particular
+challenging and that he does not expect it to be a great success.
+
+
+

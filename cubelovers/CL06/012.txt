@@ -1,0 +1,17 @@
+Received: from nrl-aic.ARPA (TCP 3200200010) by AI.AI.MIT.EDU 27 Apr 87 16:53:27 EDT
+Return-Path: <hoey@nrl-aic.ARPA>
+Received: Mon, 27 Apr 87 16:50:36 edt by nrl-aic.ARPA id AA20059
+Date: 27 Apr 1987 16:47:22 EDT (Mon)
+From: Dan Hoey <hoey@nrl-aic.ARPA>
+Subject: Rubik's Cube
+To: "Aaron R. Coles" <acoles@nsf.arpa>
+Cc: Cube-Lovers@ai.ai.mit.edu
+Message-Id: <546554843/hoey@nrl-aic>
+
+If you happen by the Boston area, you can get Rubik's Revenge at Games
+People Play in Cambridge.
+
+A harder problem is to get an ordinary magic cube.  I haven't seen one
+for sale in years.
+
+Dan

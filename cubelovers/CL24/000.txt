@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Aug 26 21:22:54 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA26831; Tue, 26 Aug 1997 21:22:54 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From walsmith@erols.com Tue Aug 26 21:03:14 1997
+Message-Id: <34037BAB.7923@erols.com>
+Date: Tue, 26 Aug 1997 20:58:19 -0400
+From: Walter Smith <walsmith@erols.com>
+Reply-To: walsmith@erols.com
+To: cube-lovers@ai.mit.edu
+Subject: Got a new shape...?
+
+On 8/15/97 David Goyra asked for ideas for simulated puzzles.
+
+Obviously there are infinite possibilities.  If you want a source of
+inspiration for simulated or real puzzles, I recommend the following
+book:
+
+Shapes, Space and Symmetry
+by Alan Holden
+Dover Publications, Inc.
+
+I got mine at Boarders Bookstores.  It is a book about three dimensional
+shapes.  It discusses symmetry and other properties with a minimum of
+mathematical terms.  It gives instructions (and pictures) on
+constructing many shapes from cardboard or wire.
+
+Any solid shape could be cut (or cuts) parallel to the sides, between
+opposite corners, between opposite edges, along edges or any combination
+of the foregoing.  You will see the shapes of the common puzzles and
+ideas for hundreds more.
+
+Walt Smith
+WALSMITH@EROLS.COM
+

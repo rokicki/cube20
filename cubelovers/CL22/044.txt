@@ -1,0 +1,98 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Apr  4 11:35:52 1997
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id LAA04602; Fri, 4 Apr 1997 11:35:52 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Fri, 4 Apr 1997 09:28:08 -0500 (EST)
+From: Jiri Fridrich <fridrich@binghamton.edu>
+X-Sender: fridrich@bingsun2
+To: Cube-Lovers@ai.mit.edu
+Subject: Pretty patterns with Kociemba (help)
+Message-ID: <Pine.SOL.L3.93.970404092400.8134A-100000@bingsun2>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+I would like to ask for your help to find short algorithms for some
+pretty patterns below. The algorithms are just working algorithms and
+are probably too long. Can anybody apply Kociemba's algorithm to 
+those positions? 
+
+The patterns form a small portion of a very large collection of
+pretty patterns found by Mirek Goljan and Peter Nanasy from Czech
+Republic. The algorithms below are the awkward "outliers" for which
+we were unable to find a reasonably short "logical" algorithm. It
+looks like Kociemba's algorithm is the only chance. 
+
+Thanks in advance for your help!
+
+Jiri Fridrich
+
+P.S.: Visit my speed cubing page at
+http://ssie.binghamton.edu/~jirif. The complete collection of
+pretty patterns will be there soon.
+
+F'R2D'RsF RsF D'R2D F'L2F D'R2D2B LsU'F'      28,23,20  DLV
+U'R B'R'U R'D2F U F U'F'D'U2BsLsD F           22,20,18  U4V
+R2F'D'F2L F'R F R'aF'D B LsDsF'U2             22,19,17  U5V
+F'R2D'RsF RsF D'R2D F'L2F D'R2D2F UsL'U'      28,23,20  LV
+D B'L'B2L B D2B'L'B2L B D'L2B2D2              22,16     L'2
+D2B2D2B2U2F2U R2U F2U2R2D R2D		      26,15	L'8
+FaR2F'aD'aR2U'F2D R2D2F2U F2U                 24,17     L'9
+D2F2L2U2D B R B2R'B'D2R'B'R2B R D             24,17     L'10
+LsF2R2D'FsU'F2sDFsDR2F2Rs                     24,18,13  [SS']
+U L D R2U R U'R B'D B'D'B2D'L'U'              18,16     [VH]
+R'D2R B'U2B R'D2R B'U2B . U B2L BsL2R'FsU2D L'B2U'      [VHH']
+R U'R B'D B'D'B L B'U R'U R U2B2R2L'U         22,19     [VSS']  
+LsF2R2D'FsU'F2sDFsDR2F'L'FsU F'U'BsR                    [SS'H]
+U'R F'R'F L F'DsBsL U'R'D R D'F               18,18,16  [DOO']
+U L D R2U R U'L DsBsR'B L'B'L2B'D'F'          22,20,18  [DVH]
+LsF2R2D'FsU'F2sDFsDR2F'R'DsBR'F'LsU                     [DSS'H]
+B'L'D L'U'BsLsU'R DsR'D R U R'D L             20,20,17  [DHOO']
+B'L F'L2FsR'B R F'LsB'R B2L F L'              20,18,16  [VO]
+LsU FsD F2sU'FsU'F L'FsU F'U'BsR              24,22,16  [SHH']
+R'F2L'D'L F2B D B'D'FsL B L2D L F'R           22,19,18  [SS'O]
+D'L F R U2L U2R2U2L'U R2U R'F'L'D             22,17     [VHO]
+R'F'L BsD'F'D B'L'B L F R'DsBsR U             20,20,17  [DSO']
+LsU FsD F2sU'FsU'F R'DsB R'F'LsU              24,22,16  [DSHH']
+R'D B D R'DsB L B'U'aR B'D'R2B'D'R            20,19,18  [DVSO]
+D F'UsL'DsF UsL2F'L DsF'LsD BsR'D B'R'        26,25,19  [DU3U4]
+U L F'L DsF'LsD BsR'D LsU'L'U'F'aU'BsL F2U    28,27,22  [DU2U3]
+R2sF2R2F2sR2F2.FD'L'DLD'L'DLD'L'DLF'
+FD'L'DLD'L'DLD'L'DLF'. F2sR2sD F2sU2R2sD
+D'F'D F DsB L'D L UsB'D'B R'F'D'F'D           20,20,18  [WORKS(14)]
+U'B2RaU2R'B'U L'B UsR'B U'R B'DsB2R2U         26,22,20  [WS(14)S'(23)]
+R D'F2D F'R F UsF DsF'R2D F D'R D F'D'        23,21,19  [ORKK'S(14)(23)]
+R U'F R'B'D2R'U'BsLsD B L U'R'U'F U'Ls        23,22,19  [DK]
+D'R'BULsB'UB'U'BL'BLB'UB'U'BRsDB'DsF'UsLB     30,30,26  giant meson 1
+L D R2D'L2U B'D'B D'R'D R DsL D'B2D           22,19,18  giant meson 2
+R2L'DBR'D'BLBL'D'B'D2LDL'U'FD'F'RFL'FLF2R'D2U           
+DFRsU'B'D'R'aD'LsBDFD2F2DF'R'B'L'DLBF2RD'R2D        
+
+Notation:
+
+Ra = antislice RL, Fa = FB, etc.
+Fs = slice move FB', Rs = RL', etc.
+F2s = 180 deg. slice move, etc.
+
+The three-tuple in the second column means the number of quarter,
+face, and slice moves. You can Ignore the cryptic notation in square
+brackets.
+
+
+
+**********************************************************************
+|  Jiri FRIDRICH, Research Associate, Dept. of Systems Science and   |
+|  Industrial Engineering, Center for Intelligent Systems, SUNY      |
+|  Binghamton, Binghamton, NY 13902-6000, Tel.: (607) 797-4660,      |
+|  Fax: (607) 777-2577, E-mail: fridrich@binghamton.edu              |
+|  http://ssie.binghamton.edu/~jirif/jiri.html                       |
+**********************************************************************
+
+......................................................................
+
+Remember, the less insight into a problem, the simpler it seems to be!
+----------------------------------------------------------------------
+
+
+

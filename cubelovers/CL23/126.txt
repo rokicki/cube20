@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 20 08:33:01 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id IAA11354; Wed, 20 Aug 1997 08:33:00 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cubeman@idirect.com Wed Aug 20 00:53:03 1997
+Message-Id: <33FA7810.3446@idirect.com>
+Date: Wed, 20 Aug 1997 00:52:32 -0400
+From: Mark Longridge <cubeman@idirect.com>
+To: cube lovers <cube-lovers@ai.mit.edu>
+Subject: Mike Reid's Cube Program 
+
+I've updated my web page to include Mike Reid's cube program.
+ 
+I've also updated my own cube program to save arrangements the way
+Mike's program requires. The MS-DOS source and executables are 
+available at:
+ 
+http://web.idirect.com/~cubeman/rubik.zip
+http://web.idirect.com/~cubeman/miker.zip
+ 
+I guess cubing is back in fashion.
+ 
+P.S. To Herbert Kociemba, your 1.5 version is great!
+

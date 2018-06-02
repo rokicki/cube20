@@ -1,0 +1,72 @@
+From reid@math.berkeley.edu  Mon May 11 20:31:30 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA17723; Mon, 11 May 92 20:31:30 EDT
+Received: from jacobi.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA22739; Mon, 11 May 92 17:31:10 PDT
+Date: Mon, 11 May 92 17:31:10 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205120031.AA22739@math.berkeley.edu>
+To: Dik.Winter@cwi.nl, cube-lovers@life.ai.mit.edu
+Subject: Re:  More on the Cube (2x2x2 in this case).
+
+> Singmaster states that the diameter of the group for the 2x2x2 cube is not
+> known.
+
+in his "cubic circular," issue(s) 5/6 (pages 26, 27) he gives some info
+about this, although it is (at least) third hand information, and therefore
+not necessarily reliable.
+
+> I just did calculate it.
+  ...
+> If we allow half-turns:
+>          1 with  0 moves
+>          9 with  1 moves
+>         54 with  2 moves
+>        321 with  3 moves
+>       1847 with  4 moves
+>       9992 with  5 moves
+>      50136 with  6 moves
+>     227536 with  7 moves
+>     870072 with  8 moves
+>    1887748 with  9 moves
+>     623800 with 10 moves
+>       2644 with 11 moves
+
+he gives the same figures, so they are probably correct.
+
+> If we do not allow half-turns:
+>          1 with  0 moves
+>          6 with  1 moves
+>         27 with  2 moves
+>        120 with  3 moves
+>        534 with  4 moves
+>       2256 with  5 moves
+>       8969 with  6 moves
+>      33058 with  7 moves
+>     114149 with  8 moves
+>     360508 with  9 moves
+>     930588 with 10 moves
+>    1350852 with 11 moves
+>     782536 with 12 moves
+>      90280 with 13 moves
+>        276 with 14 moves
+
+he does not give these, but he does mention that the diameter is 14.
+
+> BTW, calculation did not take very long, only a few (<3) minutes on an FPS
+
+singmaster says that the calculation took "over 51 hours of computer time"!
+ouch!  this was 10 years ago, though.  (what's 51 hours / 3 minutes ?)
+
+the "unix news item" from which singmaster apparently got his info was
+included in a cube-lovers message.  it's in the archives, cube-mail-3,
+sept 15, 1981 in a message from "ISAACS at SRI-KL".
+
+dik's results show that the corners of the 3x3x3 can be "solved" (i.e.
+positioned correctly with respect to one another) in 11 face (respectively
+14 quarter) turns.  it would be nice to know if they can be solved with
+respect to the centers within 11 face (respectively 14 quarter) turns.
+this seems likely.
+
+mike
+

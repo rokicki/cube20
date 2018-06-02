@@ -1,0 +1,20 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr  1 17:01:45 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA05680
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 1 Apr 1999 17:01:45 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: Andrew John Walker <ajw01@uow.edu.au>
+Message-Id: <199904010348.NAA17158@wumpus.its.uow.edu.au>
+Subject: Mike Reid's Solver
+To: cube-lovers@ai.mit.edu
+Date: Thu, 1 Apr 1999 13:48:23 +1000 (EST)
+
+If anyone has compiled a PC version of Mike Reid's program
+set to find optimal solutions in the face turn metric please
+contact me (or better still the list).
+
+Andrew Walker
+
+

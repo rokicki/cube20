@@ -1,0 +1,11 @@
+Date:     7 December 1980 1620-est
+From:     Bernard S. Greenberg       <Greenberg at MIT-Multics>
+Subject:  Re: Maximally distant states
+To:        McKeeman.PA at PARC-Maxc
+Cc:       CUBE-LOVERS at MIT-MC, ALAN at MIT-MC
+
+King of bogosity! Fencepost errors abound. Here's an "even"
+identity transform for you: (R R)^2.  Halfway through
+this transform is ONE state.  There are no "two furthest points
+on the path", there is one.  There ARE, however, two ways out of it.
+And similar to all even identity transforms.

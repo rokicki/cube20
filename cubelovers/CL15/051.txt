@@ -1,0 +1,132 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Feb 22 13:06:05 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA19585; Wed, 22 Feb 95 13:06:05 EST
+Message-Id: <9502221806.AA19585@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 2290; Wed, 22 Feb 95 11:09:14 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 6020; Wed, 22 Feb 1995 11:09:14 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 22 Feb 1995 11:08:56 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Run Times, Storage Requirements, etc.
+
+I have been asked to post some run times, storage requirements, etc.
+related to my recent work.
+
+The current model for the whole cube (which I treat as Q[C,E]  --
+corners and edges, without storing Face centers explicitly) requires
+14 bytes per position.  I know you can identify a position with the
+permutation operation which yields that position when applied to Start,
+but I certainly think of the data base as consisting of positions
+rather than as of operations.
+
+8 corner facelets and 12 edge facelets are stored in
+5 bits each, for a total of 100 bits, or 12.5 bytes.  I waste 4 bits,
+so 13 bytes are required.  I could get by with 7 corner facelets and
+11 edge facelets (saving 10 bits), but it would increase the
+processing time.  Most of the time (but not for every single project!)
+I only store representative elements of M-conjugate classes.
+My representative element function fixes one facelet,
+so I could save 5 bits there (and have done so on some previous
+versions of the model).  However, I wanted to be able to represent
+all cubes in the same format as representative elements (remember that
+representative elements of M-conjugate classes are cubes, too!), so
+I go ahead and store the fixed facelet.  The 14th byte is the length
+of the cube.
+
+I am presently storing cubes of each length in a separate file.  For
+short lengths, it is easy to keep the files on disk instead of tape
+because they are so small.  This greatly assists the backtracking
+process to convert positions to processes.  The files for qturn
+lengths 0 through 8 are on disk.  Length 9 is on one tape, length 10
+is on nine tapes, and length 11 is on eighty-two tapes.  Each tape
+holds about 16 million positions.  All tapes are not exactly the
+same length, so some tapes hold a bit more than 16 million and some
+a bit less.
+
+These are mainframe cartridge tapes.  Their capacity is not all that
+great (225MB) compared to some tapes used for backup on desktop systems,
+but their data transfer rate is as fast or faster than disk  --  4.5 Mbyte
+per second (36 Mbit per second), vastly faster than most desktop backup
+systems I know anything about.
+
+Because the cube positions are segregated into files based on length,
+it is not strictly necessary to store the length at all.  Also, the
+length could be stored in the four "wasted" bits of byte 13.  Or,
+the length could be stored as (length mod 3) to reduce the storage
+requirements to 2 bits.  For this model, I have rejected all such
+accommodations.  For example, the little project I did to compare
+lengths in <U,R> to lengths in <U,R,U2,R2> was greatly assisted by
+having the full length stored explicitly.  Also, it is much easier
+to deal with the sort program I am using when the sort control
+field (which is the cube position) is lined up on byte boundaries.
+So I think the various "wasted" space in the model is a good
+compromise with some practical processing requirements.
+
+When doing normal qturn searches, generating the neighbors of each
+position yields an output file which is initially (before sorting
+and eliminating duplicate positions) 12 times larger than the original
+file.  With the Pons Asinorum-Superflip project, each X in the data
+base is pre-multiplied by PA, Superflip, or their composition rather than
+post-multiplied by qturns, and the output file is exactly the same size
+as the input file.  The output file has to be sorted anyway, but you know
+a priori that there will be no duplicate positions.
+
+For the Pons Asinorum-Superflip project,
+it took about 90 minutes to process and sort each input tape.  For
+Superflip, I had to go all the way to length 11, so it took about
+125 hours to convert 82 input tapes into 82 separate files on 82
+separate output tapes.  (Actually, because all tapes aren't the same
+length, about half the time the output file extended a few feet of
+tape onto a second tape.)  Then, the 82 separate output files had to
+be merged into one large output file spanning 82 tapes.  We have
+24 tape drives, but we only allow 4 to be used by one job.  Hence,
+each merge can only combine 3 files into 1.  (A file can be multiple
+tapes,  read one after the other.)  One bunch of merges
+reduced the 82 files to 28, a second bunch of merges reduced the 28
+files to 10, etc. until only 1 file was left.  Each bunch of merges had
+about 82 input tapes total, and about 82 output tapes total, and
+each bunch of merges took about 10 hours.  However, I had to spread the
+runs over a couple of weeks to keep our operators from shooting me.
+Finally, the 82 tapes for positions 11 moves from Superflip were
+matched against the 82 tapes for positions 11 moves from Start, again
+taking about 10 hours.  (I also checked the shorter lengths along the
+way, but it didn't take anywhere near as long for the shorter lengths).
+
+I never found any "halfway" positions for Superflip (would have required
+going to length 12).  Finding the "halfway" positions for PA+Superflip
+required matching the nine tapes holding positions 10 moves from Start
+against the nine tapes holding positions 10 moves from PA+Superflip.
+Having found them, I then did mini-searches.
+
+First, the "halfway" positions were the root.  After 3 levels, the
+results were matched against the data base for level 7 (which is a disk
+file, not tape!).  The matches at that level became the root for a
+new mini-search that leaped from level 7 to level 4, etc.
+
+The backtracking search was greatly assisted by the "leaping"
+procedure (first suggested to me by Dan Hoey).  The backtracking search
+was also assisted by keeping each length segregated, so that the files
+for lengths close to Start could be small files, and could be on disk.
+
+The backtracking search is still very much complicated by the fact that
+only representative elements are stored, so the backtracking process
+rotates and reflects out from under you as you generate it.  I have a
+solution for the problem.  It amounts to carrying along both
+a cube and the cube's representative element during the backtracking
+search, and applying qturns to the cube rather than to the representative
+element.  (The representative element is still the one that has to be
+matched against the data base.)  In a normal "forward" search where the
+data base is being generated, the qturns are applied to the representative
+elements and new representative elements are calculated immediately.
+The original "unrepresentative" cubes are not used in the forward
+search at all as I now do in the backward search.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

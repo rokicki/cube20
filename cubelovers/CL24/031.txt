@@ -1,0 +1,186 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Oct  1 20:02:37 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id UAA28462; Wed, 1 Oct 1997 20:02:36 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From randall@theory.lcs.mit.edu Wed Oct  1 19:49:18 1997
+Date: Wed, 1 Oct 1997 19:46:08 -0400
+Message-Id: <199710012346.TAA06162@hemp>
+From: Keith H Randall <randall@theory.lcs.mit.edu>
+To: reid@math.brown.edu
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <199710012120.AA25636@theory.lcs.mit.edu> (message from michael
+	reid on Wed, 1 Oct 1997 17:19:02 -0400)
+Subject: Re: God's Number
+
+   Don Dailey, Aske Plaat, and myself have a program that will do a
+complete 22-ply search in about 24 hours on an 8 processor Sun
+machine.  The program measures distance in the QT (quarter-turn)
+metric.
+
+I've run some experiments on random cubes, summarized as follows:
+
+112 random odd cubes:
+20   depth 19
+92   depth 21
+
+57 random even cubes:
+41   depth 20
+16   depth 22
+
+>From this random sample, it seems as if less than 1% of cubes are
+depth 23, let alone more than depth 24.  In fact, the only depth 23
+cubes I know of so far are the twelve cubes 1 move away from the
+superflip.  This fact gives some evidence that God's number is
+probably 24.
+
+By the way, below are solutions and depths for all of the symmetric
+cubes enumerated by Hoey and Saxe in their message of Sun, 14 Dec 80.
+These are obvious cubes to try because they are local maxima, and they
+are all depth 22 or less except for the superflip.  Only one
+representative from each of the 26 conjugacy classes is given.  All
+solutions were obtained from the program, except for the superflip
+solution which is absconded from a post from Reid on Tue, 10 Jan 95.
+All depths are exact minimal depths, i.e. no shorter solutions exist.
+
+M-symmetric cubes
+0	solved
+		--
+12	pons asinorum
+		F F B B L L R R U U D D
+24	superflip
+		R' U U B L' F U' B D F U D' L D D F' R B' D F' U' B' U D'
+20	pons asinorum * superflip
+		F' U' B' R' F R L' D' R L' U D' L' U D' F R B U F
+
+T-symmetric cubes
+22	girdleflip
+		F F U F F B' U R' L B U F D' F F B D' R L' B' D' F
+19	girdleswap
+		F U F R U' L' U' B U' B' R' F' R' L' F' R L L F'
+21	girdleflip * girdleswap
+		F U' L U F' U' B B D B U B' D' R D' R' B' R' D R B'
+22	girdleflip * pons asinorum
+		F F U L F L' D' R L' U' L L U U R F' B D' F' U R' D'
+17	girdleswap * pons asinorum
+		F R F B R' F' B' L D D F F D D R' L' F'
+21	girdleflip * girdleswap * pons asinorum
+		F R' L B R U' R R U' D F' R F' B L B R' F B' U' L'
+20	girdleflip * superflip
+		F U U F' R' U' L F' D F B' L U' L U' F' L U D' F
+21	girdleswap * superflip
+		F R F B U D' F' B R R U F B D' R L D' F' B' U F
+21	girdleflip * girdleswap * superflip
+		F U D B' R' F' D' R' U R' L' B R F U F D B D L' B'
+20	girdleflip * pons asinorum * superflip
+		F F B R' F U' B' R' L D L U' R' U' D F L B' D F
+21	girdleswap * pons asinorum * superflip
+		F U U B D' L' U F F B R' U R B U D' L B U D' L
+21	girdleflip * girdleswap * pons asinorum * superflip
+		F B U F' U' F R B' R' F' U R' U F B U' F' B' U R U'
+
+H-symmetric cubes
+22	plummer
+		F F R B' U L U R F L U' L L B R' D F D B L F D'
+16	six-H
+		F F R R F B' R R L L F' B R R B B
+20	plummer * six-H
+		F F U F' R' B' D' F' R U D L B' U' F' L' B' U' F F
+20	plummer^2 * six-H
+		F F U F R B U F R' U' D' L' B D F L B U' F F
+20	plummer^2 * pons asinorum
+		F R U F D' B B L F L' F' L F R R D' L U B L
+20	plummer^2 * superflip
+		F B U F R L' U' D' L U' D L B L' B' U F D L U
+18	six-H * superflip
+		F R' U D D F' B R F R' L D' F' R' L U L F'
+22	plummer * six-H * superflip
+		F U D F' R L F U D R R L L B' U D F' R L B' R' L
+22	plummer^2 * six-H * superflip
+		F B U F' B' D R' L' U F F B B R' L' D' F' B' D R' L' D'
+22	plummer * pons asinorum * superflip
+		F B R' U' D' R' F' B' R U' D' F F B B L U' D' R' F' B' L'
+
+reference for cube names:
+pons asinorum
+        W B W
+        B W B
+        W B W
+
+O R O   G Y G   R O R   Y G Y
+R O R   Y G Y   O R O   G Y G
+O R O   G Y G   R O R   Y G Y
+
+        B W B
+        W B W
+        B W B
+
+superflip
+        W Y W
+        O W R
+        W G W
+
+O W O   G W G   R W R   Y W Y
+Y O G   O G R   G R Y   R Y O
+O B O   G B G   R B R   Y B Y
+
+        B G B
+        O B R
+        B Y B
+
+plummer
+        Y W Y
+        W W W
+        G W G
+
+W O W   O G R   W R W   R Y O
+O O O   G G G   R R R   Y Y Y
+B O B   O G R   B R B   R Y O
+
+        G B G
+        B B B
+        Y B Y
+
+six-H
+        W W W
+        B W B
+        W W W
+
+O O O   G Y G   R R R   Y G Y
+R O R   G G G   O R O   Y Y Y
+O O O   G Y G   R R R   Y G Y
+
+        B B B
+        W B W
+        B B B
+
+girdle flip (about ULF-DRB axis)
+        W Y W
+        W W R
+        W W W
+
+O O O   G G G   R W R   Y W Y
+Y O O   G G R   G R R   Y Y O
+O B O   G B G   R R R   Y Y Y
+
+        B G B
+        O B B
+        B B B
+
+girdle swap (about ULF-DRB axis)
+        R B B
+        W W B
+        W W Y
+
+B O O   G G B   O O G   O G G
+R O O   G G Y   O R R   Y Y G
+R R Y   R Y Y   W R R   Y Y W
+
+        W W O
+        W B B
+        G B B
+
+
+                                        -Keith
+

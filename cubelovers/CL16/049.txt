@@ -1,0 +1,67 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Jul 12 10:31:12 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA26378; Wed, 12 Jul 95 10:31:12 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 0082; Wed, 12 Jul 95 10:31:11 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5371; Wed, 12 Jul 1995 10:31:11 -0400
+Message-Id: <wvmail32.1995jul12.012001.bryan@wvnvm.wvnet.edu>
+Date:      Wed, 12 Jul 1995 10:31:10 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: Partial Results, Edges only (with Face Centers), Qturns
+In-Reply-To: Message of 07/10/95 at 16:20:29 from BRYAN@wvnvm.wvnet.edu
+
+On 07/10/95 at 16:20:29 Jerry Bryan said:
+
+>The local maximum unique up to M-conjugacy is the 6-H position
+>(see Symmetry and Local Maxima).  I do not yet have a process
+>for the 6-H, but I should be able to have one soon.
+
+I can now give one way to do it as (UD)(RR)(LL)(UD).  It seems too
+simple once you chase it down.  Note that this is *not* the 6-H
+position when you apply the process to the whole cube;  you have
+to omit the corners for this process to yield the 6-H.  Nonetheless,
+the pattern is a nice one when the process is applied to the whole
+cube, one that looks familiar, although I cannot place it.  It is
+*almost* what I described as the "interesting" part of three of the
+10q local maxima on the whole cube, but the "interesting" part of
+the 10q local maxima is (U'D')(RR)(LL)(UD) instead.
+
+It might be noted that the length of this position
+is also 8q on an edges-only-without-centers cube (see my note
+of 8 Dec 1993 22:41:38).  I did not actually provide a process
+for the without-centers case, but the same process
+works for the 6-H edges-only with or without centers for this position.
+Such is not always true.  I have talked about it before, but many
+minimal processes for without-center cubes induce an invisible
+rotation which becomes visible when the Face centers are included.
+
+This is probably as good a time as any to correct an old error, pointed
+out to me by Dan Hoey.  The length of a position without centers is
+the minimum taken over C of the length of the same position with
+centers  --  that is, the minimum of the respective lengths of the
+same position rotated 24 different ways.  For searches without centers
+I store representatives of the form Y=Repr{m'Xmc}.  At one point,
+I said |Y|=min{|Yc|}.  This is certainly not true.  Y is just one
+of the {Yc}, and it is totally arbitrary which one it is.  The difficulty
+is really a notational one.  It is the length of Y without centers
+which is min{|Yc|}, not the length of Y itself (with centers).  But
+I don't have a good way to say "Y without centers" or especially to
+say "length of Y without centers".
+
+But in any case, the most interesting cases to me are the ones where
+the length without centers matches the length with centers, so that the
+minimal process for the without centers case does not induce an
+invisible rotation.  The position at hand is such a case.
+
+Finally, the position is in the anti-slice group (i.e.,
+(UD)(RL)(RL)(UD)), so the position is a local maximum in the
+anti-slice edges only group with a length 4a.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

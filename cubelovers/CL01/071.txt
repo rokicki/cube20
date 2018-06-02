@@ -1,0 +1,18 @@
+Date: 31 DEC 1980 1740-PST
+From: WOODS at PARC-MAXC
+Subject: Re: Bigger & better cubes
+To:   MERRITT at USC-ISIB, cube-lovers at MIT-MC
+
+In response to the message sent  31 Dec 1980 1651-PST from MERRITT@USC-ISIB
+
+And then of course there's the megacube, formed by taking a standard 3x3x3
+cube and replacing each cubie with a 3x3x3 Rubik's cube.  The idea would be
+that each megaface could be twisted as usual, but the megafacies (the faces
+of the smaller 3x3x3 cubes) could be twisted only if they were visible.
+(Otherwise all you really have is a collection of independent 3x3x3 cubes.)
+The orientation of the colors on all the microcubes is the same -- that
+is, the beast starts with all 81 microfacies on a given side being the same
+color.
+
+	-- Don.
+-------

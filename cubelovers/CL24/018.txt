@@ -1,0 +1,33 @@
+From: Allan Wechsler <awechsle@bbn.com>
+To: C.McCaig@queens-belfast.ac.uk
+Cc: cube-lovers@ai.mit.edu
+Subject: 4x4x4 solution
+
+    [C. McCaig:]
+    i recently borrowed a friends 4x4x4, and i know the basic method for
+    solving it.  ie get the 6 centres, pair up all the edges, and then
+    solve for the normal cube.  however, about half the time i end up
+    with a single edge pair inverted and cant figure out a move for
+    reorientating the single edge pair.  usually i break a few pairs
+    and try and reorientate them this way, but this seems rather longwinded...
+    does anyone have a move for this?.  for example, say the green edge
+    is on the blue face, and the blue edge is on the green face...
+    
+What's happened here is that you've got those two edge-cubies
+_exchanged_.  Here's how it works.  Look at any face.  You will see
+eight edge stickers, arranged around the face like eight square
+dancers (or Irish set dancers, if you prefer).  Now I hope you are
+familiar with one or the other of these kinds of folk-dancing, because
+otherwise what I am going to say won't make sense.  Those eight decals
+are either men or women, and no matter how they dance around the cube,
+they will never change sex.  Every edge-cubie on the 444 has one
+permanently male and one permanently female sticker.  If I haven't
+clarified things, at least I've spiced them up a bit.
+
+House around to home.
+
+- -A
+
+------------------------------
+
+Date: Tue, 30 Sep 1997 14:18:17 -0400 (Eastern Daylight Time)

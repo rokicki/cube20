@@ -1,0 +1,17 @@
+Date:  3 JAN 1981 0433-EST
+From: ZILCH at MIT-MC (Chris C. Worrell )
+Subject: oops....
+To: CUBE-LOVERS at MIT-MC
+
+Sorry folks, I missed one possibility.
+In case 2,my algorithm does not account for the configuration reached by
+    L R D^2 R' L' F' B' D^2 F B D^2          14qtws
+
+    (FDL,RDF,BDR,LDB) => (BDR,LDB,FDL,RDF)
+
+Either add this transform to the list given, or when you get to
+this particular configuration execute  C3 twice  24qtws, but still inmy
+range and still along the general lines of the rest of the possibilities.
+
+            Chris Worrell (ZILCH@MIT-MC)
+

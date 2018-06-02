@@ -1,0 +1,64 @@
+From BRYAN@wvnvm.wvnet.edu  Fri Oct  7 14:48:43 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25784; Fri, 7 Oct 94 14:48:43 EDT
+Message-Id: <9410071848.AA25784@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 1254; Fri, 07 Oct 94 10:52:59 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 2941; Fri, 7 Oct 1994 10:52:59 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Fri, 7 Oct 1994 10:52:58 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@ai.mit.edu>
+Subject:   Re: < U, R> Group  -- Q+H
+In-Reply-To: Message of 08/09/94 at 01:48:00 from mark.longridge@canrem.com
+
+Distance    Number     Branching       Number    Branching     Ratio of
+ from         of        Factor           of       Factor       Cubes to
+ Start   W-Conjugate                    Cubes                  W-Conjugate
+           Classes                                              Classes
+
+      0          1                            1                  1
+      1          2          2                 6     6            3
+      2          5          2.5              18     3            3.6
+      3         14          2.8              54     3            3.857
+      4         41          2.929           162     3            3.951
+      5        122          2.976           486     3            3.984
+      6        365          2.992         1,457     2.998        3.992
+      7      1,091          2.989         4,360     2.992        3.996
+      8      3,256          2.984        13,016     2.985        3.998
+      9      9,627          2.957        38,482     2.957        3.997
+     10     28,282          2.938       113,094     2.939        3.9987
+     11     82,243          2.908       328,920     2.908        3.9994
+     12    235,611          2.865       942,351     2.865        3.9996
+     13    654,297          2.777     2,616,973     2.777        3.9997
+     14  1,693,858          2.589     6,774,848     2.589        3.9997
+     15  3,776,718          2.230    15,105,592     2.230        3.9997
+     16  6,058,483          1.604    24,231,019     1.604        3.9995
+     17  4,856,334          0.802    19,421,274     0.802        3.9992
+     18    961,504          0.198     3,843,568     0.198        3.997
+     19     11,954          0.012        47,465     0.012        3.971
+     20         16          0.001            54     0.002        3.375
+
+  Total 18,373,824                   73,483,200                  3.9993
+
+Notice that using Q+H turns instead of Q turns reduces the maximum
+distance from Start from 25 down to 20.
+
+When I first calculated God's Algorithm for <U,R> for Q turns, I calculated
+it for cubes first, then for W-conjugate classes.  In this case, I
+really did it only for W-conjugate classes (problem is four times
+smaller).  The "Number of Cubes" column is then derived by calculating
+the size of each W-conjugate class; no real search is needed to
+obtain the number of cubes if the W-conjugate classes are already
+in hand.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

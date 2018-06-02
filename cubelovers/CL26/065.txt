@@ -1,0 +1,33 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec  8 19:08:13 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA22642
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 8 Dec 1998 19:08:13 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: 	Tue, 8 Dec 1998 18:37:02 -0500 (EST)
+From: Alchemist Matt <monroem@email.unc.edu>
+Reply-To: Alchemist Matt <monroem@email.unc.edu>
+To: Herbert Kociemba <kociemba@hrz1.hrz.tu-darmstadt.de>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Optimal Cube Solver
+In-Reply-To: <366C1ED9.C11@hrz1.hrz.tu-darmstadt.de>
+Message-Id: <Pine.GSO.3.95L.981208183158.13948B-100000@sunny.isis.unc.edu>
+
+This question is directed to both Herbert and Mike Reid in case he's
+reading this list:  With all this discussion of the "Professor Cube"
+lately, how hard would it be to extend either Optimal cube solving program
+to handle 4x4x4 and 5x5x5 cubes in addition to the traditional 3x3x3?
+Considering reasonable table files (50 - 100 mb), how much longer would
+the computation time be extended by.  If either of you would find the time
+to implement this modification, I would be very interested in trying out
+the program.
+
+		Matt
+
+-----------------------------------------------------------------------
+Matthew Monroe				Monroem@UNC.Edu
+Analytical Chemistry      		http://www.unc.edu/~monroem/
+UNC - Chapel Hill, NC                   This tagline is umop apisdn
+-----------------------------------------------------------------------
+

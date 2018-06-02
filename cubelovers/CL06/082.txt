@@ -1,0 +1,29 @@
+Received: from ardec-lcss.arpa (TCP 30003004013) by AI.AI.MIT.EDU 19 May 88 12:32:10 EDT
+Received: by ardec-lcss.arpa id <2020087F051@ardec-lcss.arpa> ;
+       Thu, 19 May 88 12:27:29 EST
+Date: Thu, 19 May 88 12:26:10 EST
+From: BECK@ardec-lcss.arpa
+Subject: cube museum
+To: cube-lovers@ai.ai.mit.edu
+X-VMS-Mail-To: EXOS%"cube-lovers@mit-ai"
+Message-ID: <880519122610.2020087F051@ardec-lcss.arpa>
+
+
+-->   CUBE  MUSEUM  <--
+
+On April 29, 1988 a museum devoted to Rubik's cube opened in  Grand Junction,
+CO.   The museum is run by  Cecil Smith and is located in his home at 329 Ouray
+Ave;  245-6734.
+
+Cecil is primarily a documentor of pretty patterns and has 4,900 cubes in his
+collection.  SO when in Grand Junction don't miss this one of a kind museum.  If
+you know of or have something that should be in this museum please contact
+Cecil.
+
+REFERENCE:  The front page of the May 1, 1988  issue of the Grand Junction, Co
+Daily Sentinel (Vol 96, No 153).
+
+the future is puzzling,
+but  CUBING is forever !!
+
+pbeck@ardec.arpa

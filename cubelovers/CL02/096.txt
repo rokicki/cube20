@@ -1,0 +1,25 @@
+Date: 15 Jun 1981 0954-PDT
+From: ISAACS at SRI-KL
+Subject: re. howtodoit books
+To: cube-lovers at MIT-AI
+
+  I haven't seen the Bantom book, but I will keep an eye open.  Sigmasters
+"Notes on Rubik's Magic Cube" is now out and available (at least in the
+Bay Area), published by Enslow Publishers (Bloy St and Ramsey Ave, Box 777,
+Hillside, N.J. 07205) , lists for $5.95.  Seems to be EXACTLY the "Fifth
+Edition Preliminary Version", as in a photo-copy, although it may have
+some minor corrections and changes.  There is also a solution booklet by
+J.G.Nourse, published by Storc, marketed by Paul N. Weinberg, Mountain View,
+Ca.  And still another solution book privately printed by Kirsten Meiers.
+The solutions (happily) proliferate; each book has variations, most use
+non-BFUDLR notation - in many cases, just diagrams.  Norse intends his
+solution to be "interruptable" - that is, if you drop the cube in the middle,
+or get a telephone call (or your computer beeps), you shouldn't have to start
+over.  Meiers is meant to be easy to do.  Singmasters ( I think), is meant
+to be easy to remember - mostly variations on a few basic algorithms.
+    It would be nice to analyse all these solutions and arrange them for
+speed, ease of action, minimal twists, minimal time, better for right-handers
+etc.etc.
+                 --- Stan
+-------
+

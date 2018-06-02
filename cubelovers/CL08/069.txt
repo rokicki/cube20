@@ -1,0 +1,36 @@
+From dik@cwi.nl  Mon May 18 19:48:28 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA21591; Mon, 18 May 92 19:48:28 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA18208 (5.65b/2.10/CWI-Amsterdam); Tue, 19 May 1992 01:48:27 +0200
+Received: by boring.cwi.nl 
+	id AA25754 (5.65b/2.10/CWI-Amsterdam); Tue, 19 May 1992 01:48:26 +0200
+Date: Tue, 19 May 1992 01:48:26 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205182348.AA25754.dik@boring.cwi.nl>
+To: Don.Woods@eng.sun.com
+Subject: Re: Kociemba's algorithm
+Cc: cube-lovers@life.ai.mit.edu
+
+ > I don't remember from the earlier description; are the searches being done
+ > depth-first or breadth-first?  If breadth-first, then there is no reason to
+ > put an upper limit on the number of moves for finding a phase1 solution,
+ > since the algorithm HAS to solve phase1 in order to find an overall solution.
+I do depth-first.  I think the breadth of the tree is much too large to be
+handled in breadth first fashion (currently I abort the program when it
+reaches a length in phase 1 such that the number of solutions is a few
+million).
+
+ > Once you have an overall solution, of course, the length of phase1+phase2
+ > solution can be used as an upper bound on subsequent phase1 solutions.
+Right.
+
+ > Also, do you reduce the "maximum number of moves" for phase2 based on
+ > solutions already found?  For instance, once you have found a combined
+ > phase1+phase2 solution in 20 moves, then if you find an alternative phase1
+ > solution in 14 moves there is no reason to look deeper than 5 moves in
+ > phase2 (or 6 if you want to find all solutions that tie for minimum length).
+Also done, I do not look for ties.
+
+dik
+

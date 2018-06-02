@@ -1,0 +1,62 @@
+From cosell@bbn.com  Tue Jan  7 15:48:19 1992
+Return-Path: <cosell@bbn.com>
+Received: from WILMA.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA06487; Tue, 7 Jan 92 15:48:19 EST
+Message-Id: <9201072048.AA06487@life.ai.mit.edu>
+Date:     Tue, 7 Jan 92 15:02:18 EST
+From: Bernie Cosell <cosell@bbn.com>
+To: cube-lovers@life.ai.mit.edu
+Subject:  Re:  Hungarian Rings solution?
+
+In rsponse to my request for info about the Hungarian Rings, 
+
+Dik.Winter@cwi.nl writes:
+
+} You don't nood commutators for it, cycles are sufficient (because there
+Dik.Winter@cwi.nl writes:
+
+} You don't nood commutators for it, cycles are sufficient (because there
+} are so many similar colored beads)....
+
+My apologies --- I meant to say "cycles" when I said I had found lots of
+them... And I hate to seem dense, but but I'm still stuck...
+
+} ... If I remember right one useful move
+} is:  turn right ring clockwise two beads, turn left clockwise two beads,
+} turn right anti-clockwise two beads, turn left anti-clockwise two beads.
+} Using them properly will solve the rings.
+
+The 'properly' is the part I'm finding hard.   There seem to be LOTS of
+cycles, but even with that big choice I can't see, quite, how to solve
+the thing.
+
+As far as I can tell, basically ANY set of ring-turns that has a total
+movement of zero seems to define a pretty small cycle.  For example,
+the sequence LnA RnA LnC RnC, for n not a multiple of 5[*], does a
+three-bead cycle: if you look at the upper intersection:
+                        A                     C
+   Intersection --->  C      ======>        B
+                        B                     A
+Where 'A' and 'B' are each n beads away from the intersection [and by
+changing theorder of L/R you reverse the cycle, and by interchanging A
+and C you move the cycle to the other side of the intersection.
+BUT: the problem is that this isn't really a 3-cycle, but rahter _two_
+3-cycles: you also make a central-symmetric move of the beads at the
+bottom intersection.
+   [*] since five is the distance between the intersections, if the
+   rotate is a muiltiple of 5 the intersections interact, things get a
+   little different: it makes a *two* cycle!  In the diagram above
+   [with A five away from C], the move just _swaps_ A & C [and the A'
+   and C' at the lower intersection, too, of course].
+
+Given that my rings are totally non-symmetrically messed up, I can't
+figure out a plan for making forward progress.  I can do lots of
+diffent cycles, but I can't manage to get the rings set up so that the
+cycle at both intersections is useful: if I try to fix something at the
+top intersection I invariably mess up something at the bottom one.
+
+Thanks again for you patience with my rantings.  I feel like I'm
+overlooking something simple [since this wasn't supposed to be all that
+hard a puzzle], but I don't see what it is ...
+
+  /Bernie\
+

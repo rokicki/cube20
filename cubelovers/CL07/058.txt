@@ -1,0 +1,66 @@
+From ncramer@bbn.com  Wed May 15 22:52:53 1991
+Return-Path: <ncramer@bbn.com>
+Received: from LABS-N.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA21390; Wed, 15 May 91 22:52:53 EDT
+Message-Id: <9105160252.AA21390@life.ai.mit.edu>
+Date:     Wed, 15 May 91 22:09:23 EDT
+From: Nichael Cramer <ncramer@bbn.com>
+To: Ronnie Kon <kon@bach.stanford.edu>
+Cc: dn1l+@andrew.cmu.edu, ncramer@bbn.com, Cube-Lovers@life.ai.mit.edu
+Subject:  Re:  ARGGHHH!! [was: 5by cubes]
+
+Ronnie Kon <kon@bach.stanford.edu> writes:
+>I write:
+>>The state of the cube is not:
+>>
+>>X|O|X|X|X                  X|A|X|C|X
+>>X|X|X|X|X                  X|X|X|X|X
+>>X|X|X|X|X     But rather:  X|X|X|X|X
+>>X|X|X|X|X                  X|X|X|X|X
+>>X|X|X|O|X                  X|X|X|B|X
+>>
+>>Where cubie "C" just "looks" like it's in the right place.
+>>
+>>You need an operator that rotates  A->B->C->A.  [...]
+>>
+>>This will very likely leave an inconvenient number of edges flipped.  For
+>>the answer to _this_ problem, see my last post.  ;)
+>
+>I think you must be wrong here (but would love to be proved wrong--I'm no
+>mathematician so group theory is very much beyond me).
+>
+> [Proofs deleted.]
+
+Hi.
+
+I think we're in complete agreement, at least up to here.  (I particularly
+enjoyed your "proof by hardware ;).
+
+I didn't mean to imply that the A->B->C->A operator preserved flipped-ness
+of the Non-Central-Edge[NCE] Cubies.  Moreover, I was being imprecise
+where I said "a NCE cubie is simply flipped"; rather "the cubie *appears*
+as if it were in the right place (i.e. judged by its colors) and flipped".
+As you point out, *really* means that it is in the slot of its "twin".
+
+To recap more succinctly, what I was proposing was a rather pedestrian,
+two-step solution to the original problem.  Starting from the initial
+state in FIG1 (where the cube is completely "solved" except that the
+cubies marked "O" are swapped.  Also they are swapped in such a way that
+the visible face is all a single color).
+
+FIG1: X|O|X|X|X                      FIG2: X|Q|X|Q|X
+      X|X|X|X|X                  	   X|X|X|X|X
+      X|X|X|X|X     A->B->C->A gives:      X|X|X|X|X
+      X|X|X|X|X                  	   X|X|X|X|X
+      X|X|X|O|X                  	   X|X|X|X|X
+
+STEP1] If we then apply the A->B->C->A operator, we end up with the state
+in FIG2, where the cube is completely "solved" except that the cubies
+marked "Q" "appear" to be "simply" flipped.
+
+STEP2] We can then solve this problem, which (imo) is easier.  For example
+see the method that I described in an earlier post; this involves turning
+the non-central plane (containing the flipped cubie) through a quarter turn.
+
+Of course, now that I say it, it seems that the correct course would be to
+*start* with the quarter turn of the non-central plane.  This would leave
+five NCE cubies out of place, but the cube would be in the right orbit.

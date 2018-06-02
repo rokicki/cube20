@@ -1,0 +1,34 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Sep 25 18:05:43 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id SAA07121; Fri, 25 Sep 1998 18:05:42 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <360964EA.D07A79F8@t-online.de>
+Date: Wed, 23 Sep 1998 23:15:22 +0200
+Reply-To: Rainer.adS.BERA_GmbH@t-online.de
+Organization: BERA Softwaretechnik GmbH
+To: "Jorge E. Jaramillo" <kingeorge@rocketmail.com>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: Moves to this pattern
+References: <19980922204717.20206.rocketmail@web1.rocketmail.com>
+From: Rainer.adS.BERA_GmbH@t-online.de (Rainer aus dem Spring)
+
+Jorge E. Jaramillo wrote:
+
+> the pattern I am talking about is: the 4 cubelets
+> that make the vertex formed by FDR are exchanged with
+> the vertex from BDL.
+
+R2 U  R2 U2 B2 D  L2 U2 L2 B2 D' B2 U2
+
+Rainer adS
+
+PS
+If you have a WINTEL system you should download Herbert Kociemba's cube
+program.
+
+[ Moderator's note: Jerry Bryan provides another 13f process,
+R2 U' B2 R2 U2 R2 U' B2 U2 R2 U' B2 U2, which hasn't been proven optimal.
+Steve LoBasso has a longer one. ]
+

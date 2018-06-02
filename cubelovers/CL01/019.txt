@@ -1,0 +1,23 @@
+Date: 5 Dec 1980 00:29 PST
+From: Woods.PA at PARC-MAXC
+Subject: Re: DR's message of 4 DEC 1980 2300-EST
+To: DR at MIT-MC (David M. Raitzin)
+cc: CUBE-LOVERS at MIT-MC
+
+I've hardly ever found two people who solve the same way.  The most
+common method I've found around Stanford is to go for all the edges,
+then the corners.  My own method is to get the top corners, then the
+top edges (via operations like -l r f^2 l -r & similar tweaks) then three of
+the middle edges (via things like l^2 u^2 r^x u^2 l^2, where x=1, 2, or -1),
+then get the other four corners in the right place (requiring at most one
+corner-swap, for which I have a fairly simple macro), then get those four
+corners oriented using the "rFUfuR" commutator macro, which also randomly
+alters the remaining middle edge, then get the last five edges, then flip
+edges as necessary.  My typical time is about 5 minutes.  "Best" times are
+meaningless, since anybody can luck out once or twice; the best measure
+of your solving speed (in my opinion) is your WORST solving time over
+your most recent ten or so attempts.  Of course, for real fun, pick some
+pretty pattern and solve to it without going through the normal solved state!
+
+	-- Don.
+

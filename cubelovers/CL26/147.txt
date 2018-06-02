@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 11 22:12:57 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id WAA15733
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 11 Mar 1999 22:12:56 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 10 Mar 1999 10:43:27 -0500 (EST)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199903101543.KAA28632@Twig.Rodents.Montreal.QC.CA>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Oddzon version of the cube
+
+> [...] made me wonder why stickers are being used at all?  As far as I
+> know, nobody has produced a cube (or variation) where the plastic
+> "cubies" are colored appropriately without relying on stickers.
+
+A while ago, I took the smoothest-acting Cube I have, peeled off all
+the stickers, took the thing apart, and painted all the facicles.
+Et voila! no more sticker problems!
+
+Now, I just need to do that with one of the 5-Cubes I have, the one
+that's suffering from the Dread Orange Sticker Disease; it's already
+lost one orange sticker completely, and about four more are so loose
+that only a piece of masking tape is keeping them with the Cube.
+(Assuming I can figure out how to get it apart non-destructively.)
+
+I agree, it would be much more pleasant if the plastic itself were
+coloured.  But that would require at least six different plastics,
+instead of one, which is probably why it's not done commercially.
+Low volume already makes the things expensive....
+
+On the other hand, I wonder how much more it really would cost to do
+coloured plastics.  Anyone with enough experience in the industry to
+say?
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

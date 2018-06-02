@@ -1,0 +1,22 @@
+Date:  9 Oct 1981 10:55:04 EDT (Friday)
+From: Roger Frye <frye at BBNP>
+Subject: Cube-a-thon
+To: Cube-Lovers at MIT-MC
+Cc: Frye at BBNP
+
+Does anyone have any more details on the following (as clipped
+from Boston Globe 10/8/81):
+  JEFF VANASANO, 15, of the Bronx, beat
+  more than 2000 competitors in a Rubik's
+  cube-a-thon in Jackson Township, N.J.,
+  by solving a Rubik's Cube in 24.67 sec-
+  onds.  Vanasano will go on to the US finals
+  in Los Angeles in November and there will
+  be a world championship next spring.
+I wonder who sponsored the competition, what form the contest
+took, who Vanasano is, what techniques he uses.  I found the
+analysis of Kimmo Eriksson's technique by Lars S. Hornfeldt
+(9 May 1981 08:47-EDT) to be most enlightening, and would
+love to see similar analyses.
+-Roger Frye
+

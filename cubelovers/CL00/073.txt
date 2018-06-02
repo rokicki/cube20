@@ -1,0 +1,21 @@
+Date: 4 August 1980 20:36-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: cube permutations
+To: DDYER at USC-ISIB
+cc: CUBE-LOVERS at MIT-MC
+
+The part of the proof that shows that you can actually reach all the
+configurations in a particular equivalence class is not particularly
+elegant.  Basically, you have to appeal to the details of a particular
+cube solving algorithm.
+
+For example, I have a tool that "flips" two edge cubies in place,
+without desturbing anything else.  This tool shows that I can orient
+the edge cubies in ANY even permutation of the edge cubie faces.  The
+fact that I cannot obtain any odd permutations is a result of the fact
+that a quarter twist is itself an even permutation of the edge cubie
+faces.
+
+Most people can examine their own cube solving tools and see that in
+fact, they are capable of obtaining all the configurations not
+forbidden by the familiar constraints.

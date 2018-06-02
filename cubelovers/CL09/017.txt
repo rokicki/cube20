@@ -1,0 +1,46 @@
+From dik@cwi.nl  Thu Jun 11 18:46:53 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA16508; Thu, 11 Jun 92 18:46:53 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA05569 (5.65b/2.10/CWI-Amsterdam); Fri, 12 Jun 1992 00:46:44 +0200
+Received: by boring.cwi.nl 
+	id AA22860 (5.65b/2.10/CWI-Amsterdam); Fri, 12 Jun 1992 00:46:42 +0200
+Date: Fri, 12 Jun 1992 00:46:42 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9206112246.AA22860.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Re:  Name query.  Actually reminiscences.
+
+ >                                                                  I
+ > regret not having a videotape of Bernie solving the cube in, say, 1978.
+ > (I hope I've got the year right.)
+I think it must be later.  The cube was put on the market in Hungary in 1977
+and first exported in 1980.  Although earlier examples were privately
+exported I presume.
+
+ > While I'm reminiscing, I should confess that my standard corner operator
+ > is still the same as it was then: (FUR)^5, which exchanges two corners,
+ > leaves the rest of the corners alone, and fucks the edges completely.
+Happens to me also.  I still use operators I found myself in favour of
+(shorter) processes found later in books.  I remember them better!
+
+ > I'm interested in hearing other reminiscences from people who actually
+ > solved the cube -- you're disqualified if you learned how to solve it
+ > from somebody else, or from a book.
+I got one for my birthday in 1981 (yes, I was late).  By the end of the party
+it was completely scrambled.  One long night and a long day afterwards had me
+solve the cube.  Although at that moment I had not completely lined up
+procedures to do it.  Later I more or less procedurized it.
+
+Much stranger was my first encounter with Square 1.  As all puzzles it was
+scrambled within minutes after I brought it home.  I tried to solve it, but
+for some reason I did not yet see how to bring it back in the shape of a cube.
+The next day when I came home from work it was in the shape of a cube.  It
+appears that my 8 year old daughter had done that!  Solving the remainder was
+fairly simple.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+

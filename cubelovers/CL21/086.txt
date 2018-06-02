@@ -1,0 +1,31 @@
+From: "The Official Thermo-Fluids Fan Club of the UK. (Andy Southern)" <a.southern@ic.ac.uk>
+Subject: Re: Identify this puzzle please!
+
+At 17:59 05/12/96 -0600, you wrote:
+>I recently acquired a puzzle through the mail and am not sure what it is
+>called.  I'll give a shot at describing it:  It has 14 sides - 8
+>triangles, and 6 squares.  The squares are rotated 45 degrees and each
+>touch 4 other squares at the corners, while their sides match up with 4
+>triangles each.  You could achieve the shape of this puzzle by taking a
+>cube and shaving off the corners to create an equilateral triangle. 
+>There are no markings or words on it.  If anybody knows, please let me
+>know, as I am curious if this is the Magic Dodecahedron I've been
+>reading about.
+>
+>Thanks,
+>Scottie
+>
+>
+>
+
+No, the magic Dodecahedron has 12 regular pentagon faces.
+
+I think you might be talking about Meffret's Creative Challenge, but that is
+the Geodesic versions of those shapes on a sphere.
+
+Andy.
+
+------------------------------
+
+Message-ID: <32A84381.753F@host1.dia.net>
+Date: Fri, 06 Dec 1996 10:02:09 -0600

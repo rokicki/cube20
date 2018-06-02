@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 17 16:04:42 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA07630
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 17 Mar 1999 16:04:42 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <36EFE0A5.3B50AF48@switchview.com>
+Date: Wed, 17 Mar 1999 12:04:37 -0500
+From: Michael Swart <Michael.Swart@switchview.com>
+Organization: Switchview
+To: Roger Broadie <roger.broadie@iclweb.com>, cube-lovers@ai.mit.edu
+Cc: Martin Moller Pedersen <tusk@daimi.au.dk>
+Subject: Re: help on 5x5x5 wings
+References: <00e001be6cdf$a0cabaa0$75c4b0c2@home>
+
+Regarding 5x5x5 wings
+Roger Broadie said:
+> l F' L F l' F' L' F          (Bl, lF, Lf)
+> F2 r2 D R2 D' r2 D R2 D' F2  (Br, Fl, Rf)
+> r' U b U' F2 U b' U' F2 r    (Bl, lF, Fr)
+> R2 U2 l D' l' U2 l D l' R2   (Br, Fl, bR)
+> b L2 D l D' L2 D l' D' b'    (Lb, Fl, fL)
+> l2 U2 r' l U2 l' U2 l U2 r l U2 r' U2 l U2 r l2 U2  (Fl, rF)
+
+Wow, that's a big help.
+I discovered the following long-winded maneuvers a while ago. Changing
+'wings' on D.
+
+RT = (r' D' r D' r' D2 r) (right thingy)
+LT = (l D l' D l D2 l') (left thingy)
+
+1. RT D2 RT D2 LT D2 LT D2     (Fl, Bl)(fL, Fr)  
+2. RT D LT D' RT LT D' RT D LT (fL, bL)(Fl, Br)
+
+(Side note, RT and LT are used by me to get the last squares of the
+fourth layer)
+
+Michael Swart
+Michael.Swart@switchview.com
+

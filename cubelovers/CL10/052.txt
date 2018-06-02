@@ -1,0 +1,85 @@
+From dik@cwi.nl  Mon Aug 30 21:21:35 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22630; Mon, 30 Aug 93 21:21:35 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA03450 (5.65b/3.10/CWI-Amsterdam); Tue, 31 Aug 1993 03:21:25 +0200
+Received: by boring.cwi.nl 
+	id AA08781 (4.1/2.10/CWI-Amsterdam); Tue, 31 Aug 93 03:21:23 +0200
+Date: Tue, 31 Aug 93 03:21:23 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9308310121.AA08781.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu, reid@math.berkeley.edu
+Subject: Re:  Diameter of cube group?
+
+ > in fact, you can eliminate the possibility of starting with F2, R2 or U2,
+ > since these each commute with superfliptwist, and may be done in stage 2.
+ > in other words, if  F2 sequence  =  superfliptwist,  then also
+ > sequence F2  =  superfliptwist.
+
+Right.  I had not considered this in the program (it is still fairly
+general), but it only does mean early termination.
+
+ > also, you need not consider 19 turns in stage 1.  by symmetry, you may
+ > suppose the last face turned is U, which is done in stage 2.
+
+But I have now had different thoughts.  Currently phase 1 checks in 3
+dimensional space.  When a solution is found the program calculates the
+current position for phase two after which it finds a solution in a
+different 3 dimensional space.  (I just though how I might speed up the
+calculations to get to the starting position for the second phase,
+but will not yet elaborate on that; I will first try it out.)  But this
+does not help finding whether there are solutions of 19 turns or less.
+What I am now considering is to have a phase 1 program only, where phase
+1 is done in an additional dimension: the permutation of the corner cubes.
+So to prove the non-existence of a solution of 19 turns or less, this
+program would seek for a phase 1 solution in 4 dimensional space of at
+most 19 turns and next check whether this also solves the edge cubes.
+This would eliminate quite a few dead alleys where the current phase 1
+finds a solution and has still things to do.
+
+ > if you use the fact that U and D commute, L and R commute and F and B
+ > commute, then the number of sequences of length n in stage 1 grows
+ > exponentially, with ratio approximately 13.35.  if the runtime is
+ > proportional to the number of sequences tested in stage 1, (which
+ > may or may not be the case) that would mean testing 18 turns deep
+ > would take approximately 178.18 times as long.  (eliminating the
+ > possibility of starting with F2, R2 or U2 would cut that in half.)
+
+If I use a single phase algorithm, I can eliminate much more!  What I
+see for runtime is not entirely proportional.  When looking at the
+number of configurations done in phase 2, this goes up by factors that
+start in the neighbourhood of 30 and diminish to (probably) ultimately
+the factor you mention.  This indicates that tree pruning is much more
+effective with fewer turns in phase 1.
+
+ > here's something you may have already considered.  if your prune tables
+ > in stage 1 consider only pairs (flip, twist), (flip, location) and
+ > (twist, location), some search paths may be pruned 8 turns early.
+ > (each of these pairs had positions 9 twists from start.)  at the
+ > expense of a lot more memory, you can do some pruning 11 turns early,
+ > by storing tables for triples (flip, twist, location).  you'd probably
+ > have to store these tables in very compressed form, and divide out by
+ > symmetries of the cube that preserve the U-D axis.  it may turn out
+ > that the overhead of processing this compressed information does not
+ > adequately compensate for the improved foresight, but it's worth
+ > considering.
+
+I think the overhead is much to large computation-wise and memory-wise.
+The size of the table would be uncompressed 2217093120 integers in the
+range from 0 to 12.  Factoring out symmetries would reduce it by a factor
+of about 32 (slightly less).  [4 for rotational symmetry, 4 for mirroring
+both U-D and F-B, 2 for inversion.]  Using 3.5 bits per configuration
+this means > 30 MByte.  The machines I am using currently are not able
+to handle that amount of information.  But it is feasable.  If we skip
+inversion (which is most difficult to do) we are at > 60 MByte.  The
+problem remains to adequately number the remaining positions from 1 to
+max.  Some configurations are inert with respect to the rotations and/or
+mirroring.  On the other hand, we need the table in core (do not try
+to do this through disk access!).  Some insightful thoughts are needed
+here.
+
+ > it would be excellent if you could show that 20 face turns is minimal
+ > for superfliptwist!  even finding a shorter solution would be great!
+
+I agree to that!  I have a number of machines, still going strong.
+

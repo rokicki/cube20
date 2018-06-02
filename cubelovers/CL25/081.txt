@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jun  8 15:52:11 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA00875; Mon, 8 Jun 1998 15:52:10 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sat Jun  6 09:39:26 1998
+Message-Id: <3.0.5.16.19980606155910.0f372bfe@ryle.get2net.dk>
+Date: Sat, 06 Jun 1998 15:59:10
+To: cube-lovers@ai.mit.edu
+From: Philip Knudsen <skouknudsen@get2net.dk>
+Subject: 4*4*4 patterns [Re: New member]
+
+> Does anybody have some nice patterns on the 4^3 or 5^3 cube ?
+> [ M: I reported some 4^3 patterns on 15 June 1982.  Have there been
+> others?  Any 5^3 patterns? ]
+
+Maybe you find the following pattern for the 4*4*4 interesting (I'm not
+sure I am using the proper notation, but by Capital letters I mean side
+moves, small letters are slice moves):
+
+R r U2 u2 R2 r2 U3 u3
+F3 L D2 L3 D3 F2 U2 F2 D L D2 L3 F
+L3 F U2 F3 U3 L2 D2 L2 U F U2 F3 L
+D F2 B2 D2 F2 B2 D
+
+The last three lines alone make a similar pattern on a 3*3*3 cube. I have a
+shorter sequense for it somewhere that I can't remember by head. One can
+also make a similar pattern on the 5*5*5, I'll try and dig it out...
+
+Philip K
+

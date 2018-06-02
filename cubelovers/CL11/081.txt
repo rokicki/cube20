@@ -1,0 +1,144 @@
+From hoey@aic.nrl.navy.mil  Tue Jan  4 19:05:27 1994
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17502; Tue, 4 Jan 94 19:05:27 EST
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA07265; Tue, 4 Jan 94 19:05:25 EST
+Date: Tue, 4 Jan 94 19:05:25 EST
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9401050005.AA07265@Sun0.AIC.NRL.Navy.Mil>
+To: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>,
+        <Cube-Lovers@ai.mit.edu>
+Subject: Combining conjugacy classes
+
+Last month Jerry Bryan <BRYAN%WVNVM.BITNET@mitvma.mit.edu> posted a
+sequence of articles about counting the number of M-conjugacy classes
+of Rubik's cube positions.  Having calculated the number of conjugacy
+classes of the corner and edge groups separately, his idea was to
+combine these to calculate the number of conjugacy classes of the
+entire group.  Eventually, he withdrew the calculation, after
+realizing that he had not found enough information to determine the
+answer.  This article is about how we might calculate the answer from
+separate searches of the edge and corner groups.
+
+My first idea is to formalize the concept of symmetry in the conjugacy
+classes that Jerry used in his searches.  Recall that the conjugacy
+class of a position X is defined to be the set of all positions m'Xmc,
+where m is an element of M, the 48-element symmetry group of the cube,
+and c is an element of C, the 24-element subgroup of M consisting of
+rigid rotations of the cube in space.  The reason some positions have
+more symmetry than others is that for some positions, there are
+nontrivial elements m and c such that m'Xmc=X.  The way in which this
+arises can be formalized as a kind of symmetry group of X.
+
+For an edge-group position X, let CSymm(X) be the set of all f in M
+such that X'f'Xf is an element of C.  First, I'll claim that CSymm(X)
+is a subgroup of M [see proof 1, below].  Second, I note that CSymm(X)
+is the set of all m in M such that there exists c in C with m'Xmc=X
+[proof: m'Xmc=X iff X'm'Xm=c'].  Third, I'll claim that if m'Xmc=Y,
+then CSymm(X) and CSymm(Y) are conjugate subgroups of M [proof 2].  So
+when Jerry says that a position X has order-N symmetry, he is saying
+that CSymm(X) has 1152/N elements.  But the identity of CSymm(X) has
+more information than just its size, and I believe this information is
+crucial if we are to combine symmetry groups.  It looks to me as if it
+would be sufficient to record the conjugacy class of CSymm(X), and
+there are only 33 possibilities.
+
+Now the usual symmetry group of X, Symm(X), is defined to be the group
+consisting of all f in M such that X'f'Xf=I [or, equivalently, Xf=fX.
+Symm(X) is the largest group such that X is Symm(X)-symmetric, in the
+sense of the Symmetry and Local Maxima article].  The first step in
+combining the corner and edge sets is to calculate the symmetry groups
+of the rotations of a position X, AllSymms(X)={Symm(Xc) : c in C}.
+This corresponds to computing the symmetry groups of the edges-and-
+centers group from the symmetry groups of the edges group.  I suspect
+there is a way of computing this from CSymm(X), but I do not know it.
+I am not even sure that AllSymms(X) is determined by CSymm(X).  One
+useful experiment would be to calculate CSymm(X) and AllSymms(Xc) for
+all elements of the corner group and see what the correspondence is.
+
+Barring an ability to calculate AllSymms(X) from CSymm(X), we could
+calculate AllSymms(X) directly.  This involves a great number of
+calculations, though: 24 symmetry group calculations for each element
+of the edge group.  My first thought was to try to split the problem
+up further, to deal with the group of permutations separately from the
+group of orientations.  But I abandoned this when I realized there is
+a problem that shows up when we try this with the corner group.  The
+permutation of the corners that takes each cubie to its antipode is
+clearly M-symmetric, and no matter how we decide to measure
+orientation, there is a way to perform this permutation leaving the
+cubies in their `home' orientation.  But there is no way to compose
+the two together in an M-symmetric way.  I suspect the same problem
+arises in the edge group.
+
+But there may be some help from the edge search available in calcu-
+lating AllSymms(X).  For take a position Y in the edges-and-centers
+group; Y is also a rotated position in the edges group, so Y=m'Xmc for
+some X in Jerry Bryan's list.  So for f in Symm(Y), Y'f'Yf=I is an
+element of C, so f is in CSymm(Y).  This says that Symm(Y) is a
+subgroup of CSymm(Y), which is a conjugate of CSymm(X).  So if Symm(Y)
+is nontrivial, then CSymm(X) will also be nontrivial.  So to find the
+symmetry groups of the edges-and-centers group we need only look at
+those positions that have nontrivial groups in Jerry's list (i.e. less
+than order-1152 symmetry), as all the others will have Symm(Y)=I.  So,
+Jerry, do you have the data on how many positions of the edge group
+have less than order-1152 symmetry, and which positions those are?
+
+So, on to finding the symmetry groups of the Rubik's group positions.
+We need to calculate Symm(X) for every element X of the edges-and-cen-
+ters group and Symm(Y) for every element Y of the corners-and-centers
+group, while keeping track of the permutation parity of X and Y.  (The
+permutation parity will be constant over each Symm(X), Symm(Y)).  The
+symmetry groups in the Rubik's group will be the intersections of
+symmetry groups of edge and corner positions of the same parity.  We
+need not keep track of the particular positions here, only the numbers
+for each parity and each (conjugacy class of) symmetry group.  I have
+a program that could produce a table easily enough.  Recently, I took
+a look in Paul B. Yale's _Geometry_and_Symmetry_ and it looks like
+this is the sort of problem we could use the Polya-Burnside theorem
+on.  Unfortunately, I don't understand it yet, and it looks like the
+number of cases here might be too large to conveniently carry out by
+hand.  So it would help to go after this problem computationally.
+
+The rest of this article has the proofs for the claims I mentioned in
+the second paragraph.
+================================================================
+Proof 1: Suppose f, g are elements of CSymm(X); it suffices to show
+that f'g is an element of CSymm(X).
+    X'(f'g)'X(f'g)=X(g'f)X(f'g)
+                  =X'g'(Xgg'ff'X')fXf'g
+                  =(X'g'Xg) g'f (f'X'fX) f'g,
+                  =(X'g'Xg) (f'g)' (X'f'Xf)' (f'g).
+Since we assumed f, g in CSymm(X), X'g'Xg and X'f'Xf must be in C.
+(f'g)' and (f'g) are elements of M that are either both in C or
+neither.  So the product is in C, so f'g is in CSymm(X).  Therefore
+CSymm(X) is a group, QED.
+
+Proof 2: Suppose Y=m'Xmc. First let f be an element of CSymm(X), so
+that X'f'Xf is in C.  I will first show that m'fm is an element of
+CSymm(Y).
+
+Y'(m'fm)'Y(m'fm)=(m'Xmc)'(m'fm)'(m'Xmc)(m'fm)
+                =(c'm'X'm)(m'f'm)(m'Xmc)(m'fm)
+                =c'm'(X'f'X)(mcm'fm)
+                =c'm'(X'f'Xf)(f'mcm'fm)
+All of which are elements of M, with an even number in C. Therefore
+the expression is in C, so m'fm is in CSymm(Y).
+
+Now let g be an element of CSymm(Y), so that Y'g'Yg is in C.  Let
+f=mgm', so f is an element of M such that m'fm is in CSymm(Y).  I will
+show that f is an element of CSymm(X):
+
+X'f'Xf=(mc)(mc)'X'(mm')f'(mm')Xf(f'mcm'fm)(f'mcm'fm)'
+      =(mc)(m'Xmc)'(m'fm)'(m'Xmc)(m'fm)(f'mcm'fm)'
+      =(mc)Y'(m'fm)'Y(m'fm)(f'mcm'fm)'
+      =(mc)Y'g'Yg(f'mcm'fm)',
+
+which is in C, so f is in CSymm(X).
+
+I've shown that for every element f of CSymm(X), m'fm is an element of
+CSymm(Y), and that every element of CSymm(Y) is m'fm for some f in
+CSymm(X).  Therefore CSymm(Y)=m' CSymm(X) m, QED.
+================================================================
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

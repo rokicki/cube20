@@ -1,0 +1,18 @@
+Date: 24 January 1983 16:51 EST
+From: David C. Plummer <DCP @ MIT-MC>
+Subject: Shortest sequence of moves?
+To: FONER @ MIT-MC
+cc: CUBE-LOVERS @ MIT-MC
+
+    Date: Monday, 24 January 1983  13:57-EST
+    From: Leonard N. Foner <TK.FONER @ MIT-OZ>
+    Reply-to: Foner at MIT-MC
+
+    I remember hearing about a program, probably running on the color LISP
+    machine, that could take an arbitrary cube and try to see what the
+    shortest move sequence to its slution is.  Does anyone remember where
+    this program is and how to use it?
+
+Sorry, no such program.  Don't we wish though!!  If we understood
+the mathematics of the cube well enough to write such a program,
+we probably wouldn't have this mailing list anymore.

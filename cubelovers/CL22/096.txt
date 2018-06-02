@@ -1,0 +1,36 @@
+From cube-lovers-errors@oolong.camellia.org  Sun Jun  1 17:21:28 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA00898; Sun, 1 Jun 1997 17:21:28 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+X-Sender: ddyer@10.0.2.1
+Message-Id: <l03020901afb78d8c49ac@[192.0.2.1]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Sun, 1 Jun 1997 14:09:08 -0800
+To: cube-lovers@ai.mit.edu
+From: Dave Dyer <ddyer@netcom.com>
+Subject: new search heuristics
+
+
+I wonder about the local "shape" of the distance heuristics accuracy.  How inaccurate are
+they typically, and how inaccurate can the worst cases be?  Is it typically the case
+that all the estimates for nearby positions are similar, or are there outliers?
+Are the good and bad guesses uniformly distributed, or are they clustered? Depending
+on the shape of the space, I can imagine strategies specifically designed to improve,
+by looking a little harder for a good estimate.
+
+Are there useable heuristics which are guaranteed to overestimate
+distance?  If so, then they could be used in concert with positions
+known to be distant from solved to improve the bounds for A*.  For example,
+with an overestimating heuristic (n) for a position known to be more than 18
+moves from start, we could use 18-n as an independant underestimate of distance
+from start.
+
+---
+My home page:  http://www.andromeda.com/people/ddyer/home.html
+
+
+
+
+

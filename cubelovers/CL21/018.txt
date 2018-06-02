@@ -1,0 +1,30 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Oct  1 14:32:11 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA14238; Tue, 1 Oct 1996 14:32:11 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Tue, 1 Oct 1996 17:19:48 +0100
+From: Riccardo Distasi <ric@irsip.na.cnr.it>
+Message-Id: <9610011619.AA00774@irsip.na.cnr.it>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Subject: Intro to cube group theory?
+
+Dear mathematical cubologists,
+I am creeping on this list since a few months, but I have to admit
+that most of the more advanced mathematical technicalities are beyond
+my understanding, mainly because I lack knowledge of the basic
+facts and terminology about groups.
+
+All I studied about groups was a part of Birkhoff/McLaine's "Algebra"
+some 10 years ago. Is there any good reference on groups where I can
+educate myself?  I would prefer freeware papers over costly and
+hard-to-find (at least in Italy) books. Does anybody have a hint for
+me?  The aim of my training is that of learning about M-conjugacy and
+the Shamir algorithm, and to be able to follow the technical
+discussions about the Rubik cube that appear on this list.
+
+	Riccardo
+--
+Riccardo Distasi, ric@irsip.na.cnr.it
+
+

@@ -1,0 +1,23 @@
+From avm@bgerug51.bitnet  Tue Dec 14 02:42:21 1993
+Return-Path: <avm@bgerug51.bitnet>
+Received: from mserv.rug.ac.be ([157.193.40.37]) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09383; Tue, 14 Dec 93 02:42:21 EST
+Received: by mserv.rug.ac.be id AA28828
+  (5.65c/IDA-1.4.4 for cube-lovers@ai.mit.edu); Tue, 14 Dec 1993 08:42:05 +0100
+Received: from BGERUG51.BITNET by BGERUG51.BITNET (PMDF #12055) id
+ <01H6GP6445K0000WTQ@BGERUG51.BITNET>; Tue, 14 Dec 1993 08:36 N
+Date: Tue, 14 Dec 1993 08:36 N
+From: Anne-Mie Vandermeeren - RUG <AVM@bgerug51.bitnet>
+Subject: Unsunscribe rob@bgerug51.bitnet
+To: cube-lovers@ai.mit.edu
+Message-Id: <01H6GP6445K0000WTQ@BGERUG51.BITNET>
+X-Envelope-To: cube-lovers@ai.mit.edu
+X-Vms-To: IN%"cube-lovers@ai.mit.edu"
+
+Hi,
+
+Please remove rob@bgerug51.bitnet from your mailing list cube-Lovers
+
+Thanks,
+Anne-Mie Vandermeeren
+Postmaster for BGERUG51
+

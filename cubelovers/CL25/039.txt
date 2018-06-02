@@ -1,0 +1,68 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Apr 15 17:12:21 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id RAA17446; Wed, 15 Apr 1998 17:12:21 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Apr 15 16:25:48 1998
+Date: Wed, 15 Apr 1998 16:29:26 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: John Burkhardt <jburkhardt@mediaone.net>
+Cc: "Cube-Lovers@ai.mit.edu" <Cube-Lovers@ai.mit.edu>
+Subject: RE: A workable 6x6x6 cube design (probably)
+In-Reply-To: <01BD658D.8DD543C0@jburkhardt.ne.mediaone.net>
+Message-Id: <Pine.BSF.3.96.980415160127.28862D-100000@shell2.tiac.net>
+
+ Am I missing something? The geometrical description seemed plausible
+and fine, but unless I'm far off base, it seems that some quite-clever
+mechanical design is essential. Fairly sure that Douglas Hofstadter
+noted in passing (I think in Go"del (G"odel ? :), Escher, Bach...) that
+a physical prototype of the 6^3 has been built.
+
+ I have pulled apart and studied all "sizes" from the 2^3 to the 5^3,
+and the innards of each are rather different; the 5 is based on the 3,
+but the 4 (Rubik's Revenge) has a ball inside, as probably most List
+readers know. The innards of the 2 are quite distinctive, again; (also,
+borderline impossible to assemble/disassemble!). It's remarkable how a
+simple increment of one, so to speak, has such a profound effect on the
+basic internal design.
+
+ My awareness of most abstruse corners of math. is quite comparable with
+that of, let's say, a turtle. However, I do know modest bits about
+formal kinematics, four-bar linkages, and some underlying principles of
+the linkage variety of mechanical analog computers, for instance, so my
+ignorance is somewhat better that that of a rock. I also know the
+innards of mechanical calculators rather well.
+
+ However, with such non-qualifications, I suspect that there is no
+theory of such mechanisms as we find inside our cubes and related
+puzzles. Mathematicians seem to be able to handle braids (Emil Artin?)
+rather well, and knots seem to be doing well, but I really doubt that
+there's any significant theory that can be used to develop a design such
+as the innards of a 5^3.
+
+ Ordinary geometry, I feel fairly confident, is of relatively little
+help. One can at least define the geometry of the requisite constraints
+and "freedoms" of motion, but to create the requisite shapes, seems to
+me, requires a special and clever kind of mind.
+
+ Honestly, I'd welcome having big holes figuratively shot through my
+contentions! I'm sure I'd learn something.
+
+ For limited (and probably very costly) prototype runs, the technology
+that goes by various names such as 3-D printing, rapid prototyping, and
+(ugh!) stereolithography should do well to create the shapes. (Seems to
+me it's a fairly formidable challenge to a CAD program to create some
+of the weird shapes, but I plead ignorance!
+
+ (The "stereo" part of that long word is fine, but it's really
+stretching a point to think of it as writing on stone.)
+
+My best to all,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*  When will the non-word "alot" first be listed
+|*  Amateur musician  *|*  in a dictionary? Maybe 2030?
+--------------------------------------------------------------------------
+

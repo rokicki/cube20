@@ -1,0 +1,53 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Jun  1 01:40:27 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id BAA08881 for <cube-lovers-outbound@curry.epilogue.com>; Sat, 1 Jun 1996 01:40:26 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sat, 1 Jun 1996 01:01:26 -0400 (EDT)
+From: Nicholas Bodley <nbodley@sunspot.tiac.net>
+To: Wei-Hwa Huang <whuang@cco.caltech.edu>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: Another subscriber
+In-Reply-To: <4om779$aip@gap.cco.caltech.edu>
+Message-Id: <Pine.SUN.3.91.960601005206.2474H-100000@sunspot.tiac.net>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+On 31 May 1996, Wei-Hwa Huang wrote:
+
+{Snips}
+
+> der Mouse <mouse@collatz.mcrcim.mcgill.edu> writes:
+> >In my opinion mechanical designs for the 7 and above will have to be
+> >fundamentally different from those for the 6 and below, because that's
+
+
+
+> There's a really simple solution to this.  Just don't make the 7 slices
+> evenly spaced.
+
+
+> -- 
+> Wei-Hwa Huang, whuang@cco.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+_____________________
+
+ Large corner cubies, and rectangular edge pieces to match, when seen 
+face-on, right?
+
+ Has anyone worked out the innards? Perhaps a further extension of the
+scheme used for the 5^3? (If so, the retaining "foot" on a corner cubie
+would have a truly wondrous shape! The "foot" of a 5^3 is quite
+impressive.)
+
+ I should have read this earlier; it might have saved bitspace from my 
+mad electronic/mechanical scheme! :) It would also be quieter...
+
+My best to all,
+
+NB   Nicholas Bodley   Autodidact & Polymath  |*| Keep smiling! It makes |
+      Waltham, Mass.   Electronic Technician  |*|   people wonder what   |
+     nbodley@tiac.net    Amateur musician     |*|  you have been up to.  |
+-------------------------------------------------------------------------*
+
+
+

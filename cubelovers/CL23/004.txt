@@ -1,0 +1,40 @@
+From cube-lovers-errors@oolong.camellia.org  Tue Jun 10 15:16:08 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id PAA11728; Tue, 10 Jun 1997 15:16:08 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Tue, 10 Jun 1997 13:07:15 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Some Face Turn Numbers
+In-reply-to: <Pine.PMDF.3.95.970605215908.177208C-100000@PSTCC6.PSTCC.CC.TN.US>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-id: <Pine.WNT.3.96.970610130029.-18327A-100000@ER123A.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+X-X-Sender: jbryan@PSTCC6.pstcc.cc.tn.us
+
+
+On Thu, 5 Jun 1997, Jerry Bryan wrote:
+
+>                                         The following table gives the
+> best known results for face turns.  The results through depth 7 have been
+> calculated (my message of 19 July 1994).  The rest are based on Dan Hoey's
+> recursion formula PH[n] = 6*2*PH[n-1] + 9*2*PH[n-2] for n>2, where PH[n]
+> is the number of face turns which are n moves from Start 
+
+Rats, here is a little correction.  I think my meaning was clear from
+the overall context of the note, but Dan's formula is an upper bound, so
+it should read PH[n] <= 6*2*PH[n-1] + 9*2*PH[n-2] for n>2.  For depth 0
+through 7, my table provided exact values.  As I hope was clear from the
+context, my table included upper bounds rather than exact values for
+depths greater than 7.  My apologies. 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+

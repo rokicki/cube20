@@ -1,0 +1,72 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri May 22 19:06:21 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id TAA17343; Fri, 22 May 1998 19:06:21 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri May 22 19:02:24 1998
+Date: Fri, 22 May 1998 18:59:24 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Cube Mailing List <Cube-lovers@ai.mit.edu>
+Subject: Magic Jack
+Message-Id: <Pine.BSF.3.96.980522182519.9037C-100000@shell2.tiac.net>
+
+
+ Sorry if my memory's faulty, but I don't recall any recent mention of
+the Magic Jack. This is a 3-cubed, 3-D array of 26 small cubes
+constrained by an outer cage to slide past their neighbors. At first
+glance, it looks like a Rubik's Cube, but immediately one realizes it's
+quite different. It's about the same size. Disassembly looks impossible
+unless the outer "cage" is cut. 
+
+ As you'd expect, it's a 3^3 array, but with one position empty. It's a
+3-D analog of the 15 Puzzle. The individual cubes are not connected in
+any sense to their neighbors. While the moves in a 15 Puzzle are in one
+plane and easily defined by amateur mathematicians, in the Magic Jack,
+there are many more possible ways of moving a given cube to another
+position.
+
+ Also, not surprisingly, cube moves are strictly translational.
+
+ The fun begins when one attempts to create patterns. Each cube has
+specific surface markings. The simplest configuration creates an
+exterior in which all cubes have a random, fine-grained, glittery
+diffraction-grating-like surface. More complicated, and difficult, are
+the colored patterns, which when solved, create (iirc) a continuous path
+around the whole puzzle. There are three, I'm fairly sure; one creates a
+message. Solving is made more difficult by the fact that most cube
+faces are obscured by their neighbors.
+
+ As to its intrinsic mathematical difficulty, I'm not close to being
+well informed/educated enough to judge. The practical problem of hidden
+faces does add to the practical difficulty, and the number of "degrees"
+of freedom for a given cube (from 3 to 6, depending on position)
+certainly increases the available choices.
+
+ I saw this puzzle at Games People Play in Cambridge; it's a German
+import. Quality of construction was good, although there was no
+detenting, and it could be easier to move the cubes. It might actually
+be easier to constrain potential interferers, and let gravity do the
+work. The difficulty was essentially caused by other cubes' getting out
+of position, not poor quality. Price in the store is $25.
+
+ Not sure whether they're interested in mail orders, but it might be
+worth a try. While I have no connections with G.P.P., perhaps it
+wouldn't be out of order to give some info.:
+
+ The Games People Play
+ 1100 Massachusetts Ave. (Abbreviation = Mass. is OK!)
+ Cambridge, Mass. 02138
+ (617) 492-0711
+
+ Afaik, they had possibly as many as a dozen in stock.
+
+ G.P.P. also periodically imports 5^3s from Germany, perhaps not from
+Dr. Bandelow. They have a nice collection of movable-piece puzzles.
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*  Are you designing an icon for a GUI?
+|*  Amateur musician  *|*  China has been doing it for millennia.
+--------------------------------------------------------------------------
+

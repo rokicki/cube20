@@ -1,0 +1,95 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Nov 13 14:26:35 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA05543; Thu, 13 Nov 1997 14:26:34 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From tenie1@juno.com Thu Nov 13 13:02:44 1997
+To: Cube-Lovers@ai.mit.edu
+Date: Thu, 13 Nov 1997 10:01:41 -0800
+Subject: 6x6x6 cube design
+Message-Id: <19971113.100159.5094.0.tenie1@juno.com>
+From: tenie1@juno.com (Tenie Remmel)
+
+I am attempting to design a 6x6x6 cube.  My idea to make it structurally
+sound is to attach both the center cubies and the middle edge cubies to
+a ball in the center.  Then all other pieces are wedged behind those.  I
+think that extending from the 5x5x5 design the same way the 4x4x4 was
+extended from the 3x3x3 design would be way too flimsy, mainly because
+the centers would have to be attached via long, thin struts which are
+apt to break easily unless made out of metal, which would make the thing
+way too heavy.  The width of the cubies probably could not be more than
+14 or 15 mm; if they were larger, the cube would be quite big and so it
+would be difficult to manipulate.
+
+Unfortunately the ball would be quite complicated, with six or even nine
+tracks in it instead of just three as in the 4x4x4 cube.  It might have
+to be made of metal instead of plastic (it shouldn't be too heavy if it
+is hollow).  Also the 152 pieces will be a real pain to put together...
+
+Of course, even if it can be built, does anyone know how to solve it?
+
+Here is a rather crude diagram of a cross section through the center of
+the cube.  Actually it is just a quarter of a cube.
+------------------------------------------------------------------------
+
+ aaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbcccccccccccccccccccc
+ aaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbcccccccccccccccccccc
+ aaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccc
+ aaaa......aaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccc
+ aaaa..............bbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccc
+ aaaaaaaa................bbbbbbbbbbbbbbbbbbbbcccccccccccccccc
+ aaaaaaaa....................bbbbbbbbbbbbbbbbcccccccccccccccc
+ ................................bbbbbbbbbbcccccccccccccccccc
+ ..................................bbbbbbccccccbbbbbbbbcccccc
+ ....................................bbccccccbbbbbbbbbbcccccc
+ ..............................cccc..ccccccbbbbbbbbbbbbbbbbbb
+ ..............................ccccccccccbbbbbbbbbbbbbbbbbbbb
+ ................................cccccc....bbbbbbbbbbbbbbbbbb
+ ..................................cccccc....bbbbbbbbbbbbbbbb
+ ....................................cccc......bbbbbbbbbbbbbb
+ ..............................................bbbbbbbbbbbbbb
+ ................................................bbbbbbbbbbbb
+ ................................................bbbbbbbbbbbb
+ ..................................................bbbbbbbbbb
+ ..................................................bbbbbbbbbb
+ ..................................................bbbbbbaaaa
+ ....................................................bbbbaaaa
+ ....................................................bbbbaaaa
+ ....................................................aaaaaaaa
+ ....................................................aaaaaaaa
+ ......................................................aaaaaa
+ ..............................................aaaa....aaaaaa
+ ..............................................aaaa....aaaaaa
+ ..............................................aaaaaaaaaaaaaa
+ ..............................................aaaaaaaaaaaaaa
+
+------------------------------------------------------------------------
+BTW, Does anyone have experience with TurboCAD?  Can it be used to
+design this type of thing?  It sure would be easier to use a computer
+program than to use graph paper.
+
+I believe that the 6x6x6 is the largest mechanically possible, because
+with the 7x7x7 and higher cubes, the corner cubies aren't attached to
+anything at all!  Is this correct?
+
+Also what is the mechanism for a 2x2x2 cube?  Could it be extended to
+make a more stable 4x4x4 and/or 6x6x6 cubes...
+
+And how about a GigaMinx, a 5x5 version of the MegaMinx magic pentagonal
+dodecahedron, with five pieces on each edge, 31 pieces on each face
+(5 corners, 11 edges and 11 central pieces), 242 pieces total.  I would
+draw a diagram if it wasn't so hard to make a pentagon out of chars...
+
+--Tenie Remmel (tenie1@juno.com)
+
+[ Moderator's note:  The purported impossibility of a Rubik's 7^3 has been
+  discussed and refuted repeatedly on this list, and several mechanisms
+  have been proposed for it; see the archives.  It is not true that the
+  corner cubies "aren't attached to anything".  Each corner will be attached
+  to at least two edge cubies, though not always the same two edge cubies.
+  You should also look in the archives to find descriptions of the 2^3, some
+  as recently as 28 July.  Unfortunately, I haven't been able to understand
+  it.  I'd like to see a clear description, as I haven't got a 2^3 handy to
+  try myself.  -Dan ]
+

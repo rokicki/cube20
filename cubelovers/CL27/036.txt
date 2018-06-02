@@ -1,0 +1,25 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr  8 11:48:13 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id LAA29548
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 8 Apr 1999 11:48:12 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: WaVeReBeL@webtv.net
+Date: Wed, 7 Apr 1999 09:02:51 -0700 (PDT)
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Keyboard cube [WAS Re: Wrist pains]
+Message-Id: <28684-370B81AB-994@mailtod-123.bryant.webtv.net>
+In-Reply-To: whuang@ugcs.caltech.edu (Wei-Hwa Huang)'s message of 3 Apr
+	1999 00:22:20 GMT
+
+How about giving the player a choice between using a default
+configuration, or customizing his/her own buttons, like in certain home
+video games such as Street Fighter?
+
+Another cool feature would be two simultaneous cubes, so players can
+battle head to head, also like Street Fighter.  (I really like Street
+Fighter)
+
+-Alex Montilla-
+

@@ -1,0 +1,23 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jan 21 21:15:14 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA00483
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 21 Jan 2000 21:15:14 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: ronald.fletterman@t-online.de (Ronald Fletterman)
+To: cube-lovers@ai.mit.edu
+Subject: solutions of 4x4x4 and 5x5x5 cubes
+Date: Thu, 16 Dec 1999 17:49:15 +0100
+Message-Id: <11ye5b-07iT68C@fwd01.sul.t-online.de>
+
+dear cube lovers, i can offer methods to resolve the standard 4x4x4
+and 5x5x5 cubes to anyone interested. please make this an email
+message to all.
+
+tks & b.rgds. ronald l. fletterman 
+
+[Moderator's note: I apologize for the month-long outage that
+ cube-lovers has just experienced.  I can't offer any extenuating
+ circumstances, but I'll try to be more diligent in the future. -Dan ]
+

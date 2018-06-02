@@ -1,0 +1,50 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Aug 10 08:38:50 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA15904; Wed, 10 Aug 94 08:38:50 EDT
+Message-Id: <9408101238.AA15904@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 1777; Tue, 09 Aug 94 23:18:07 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 0972; Tue, 9 Aug 1994 23:18:07 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Tue, 9 Aug 1994 23:18:06 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <Cube-Lovers@ai.mit.edu>
+Subject:   Re: < U, R> Group
+In-Reply-To: Message of 08/09/94 at 01:48:00 from mark.longridge@canrem.com
+
+On 08/09/94 at 01:48:00 mark.longridge@canrem.com said:
+
+>  I leave it to Jerry or Dan to check my results. I checked up to 2
+>moves deep by hand and verified 10 different positions. What I don't
+>understand is how Jerry manages to look at so many cube positions:
+
+>On full 3x3x3 cube,   7     100,803,036     13.231  (new)
+
+>  Using 10 bytes to store a single cube position would still
+>need over 1 billion bytes, or am I missing something?
+
+Well, when I deal with the big problems I want to solve to the
+bitter end, I use the M-conjugate and centerless cube tricks
+I have described at much too great length in the past.  This one
+is a quick and dirty program using no conjugate tricks.  The
+only real "trick" is that I externalize the data.  I decided
+long ago that the problems I wanted to solve were too big to
+keep in memory.  Hence, I keep everything in simple (but large)
+flat files and sort and merge the files like crazy.  In this quick
+and dirty program, the cube itself is 13 bytes and the level is
+1 byte, for a total of 14 bytes per cube.  I guess that makes
+the file size about 1.4 gigabytes (10^9).  I am
+leery of using the word "billion" on E-mail forums because
+E-mail is international and "billion" means 10^12 in some
+countries.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

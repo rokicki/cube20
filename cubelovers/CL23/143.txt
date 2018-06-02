@@ -1,0 +1,268 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Aug 26 21:10:39 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA26778; Tue, 26 Aug 1997 21:10:38 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From jbryan@pstcc.cc.tn.us Tue Aug 26 16:33:22 1997
+Date: Tue, 26 Aug 1997 16:29:44 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Open and Closed Subgroups of G
+In-Reply-To: <199708252135.RAA25741@cyber1.servtech.com>
+To: cube-lovers@ai.mit.edu
+Reply-To: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Message-Id: <Pine.WNT.3.96.970826120155.-226699M-100000@GN209A.PSTCC.CC.TN.US>
+
+On Mon, 25 Aug 1997, christopher f. chiesa wrote:
+
+> 
+> Jerry, judging from the fact that you were ABLE to go into a lot of
+> details, it strikes (humble, little ol', un-group-theory-educated) me that
+> perhaps you "read too much into" Hofstadter's remark about "giving up
+> hard-earned progress" -- either that, or _I_ have for years been reading
+> TOO LITTLE into the remark!
+> 
+> To wit, Jerry, although I can't really follow all the stuff about groups
+> and subgroups and closure and all that, I think it suffices at the
+> layman's level to say that "you certainly make it SOUND" as though there
+> are a multitude of non-trivial cases in which one DOESN'T "have to give up
+> hard-earned progress" en route to a solution of the (3^3) Cube.
+> 
+> Me, I don't get it.  Seems to me that Hofstadter was speaking from
+> the simple perspective of the uneducated layman who, by hook or by
+> crook, manages after hours/days/weeks of effort to solve, say, the
+> TOP LAYER of the cube.  To the layman, at this point, ANY turn of ANY face 
+> other than U itself, or D which does not directly interact with it, is
+> going to constitute "giving up hard-earned progress!"  Now, maybe,
+> from the perspective of all that math I can't follow, a simple "quarter
+> turn of any face other than U or D" at this point does NOT constitute
+> "giving up progress," but I assure you, the poor fellow who's just solved
+> the top layer for the first time is going to have a HEART ATTACK if you so
+> much as walk up and give the R face a quarter turn.  And I'm pretty sure
+> it was from THAT simplistic perspective that Hofstadter was speaking.
+> 
+> Does this conflict with YOUR interpretation, Jerry?  I'd hate to think I
+> blew all this hot air into the mailinglist over NOTHING. :-)
+> 
+> Is there a layman-comprehensible description of "the Thistlethwaite
+> algorithm" available anywhere (preferably for free, preferably online)?
+> I've been hearing about it for years but have never seen any details.
+> 
+
+I'll take a crack at a number of your questions. 
+
+There are probably a lot of people on the list who are not conversant
+with group theory, but I'll bet essentially everybody knows at least a
+little bit about basic set theory.  I'm old enough that when I was
+taking algebra in high school in the early 60's, "new math" was all the
+rage. It turns out that "new math" was really just set theory. 
+
+Many traditionalists were aghast that this wierd "new math" stuff was
+being taught.  Never mind that it was hundreds of years old.  And never
+mind that set theory is the foundation of nearly all modern mathematics. 
+For example, most formal treatments of the concept of a function view a
+function as a set of ordered pairs (which has to satisfy certain rules). 
+
+Anyway, sets are just collections of objects where the basic rule is
+that for any object you can unequivically determine that the object
+either is or is not in the set.  We might write a set as something like
+{a,b,c} where the braces denote the set and the elements a, b, and c are
+listed within the braces.  We often give names to sets, as in A={a,b,c}. 
+And finally, we have subsets, where for example {a,b}, {a,c}, {a}, etc.
+are subsets of {a,b,c}.  Subsets can have names as well.  For example,
+we might say B={a,b} and then we would say that B is a subset of A.
+
+If you know what sets are, then it's easy to talk about groups. 
+Oversimplifying slightly, a group is just a set, an operation on that
+set, and a short list of rules.  As a simple example, the real numbers
+and addition form a group.  The real numbers are the set and addition is
+the operation.  Exactly what the short list of rules is does not matter
+for now, but be assured that real numbers and addition do comply with
+the required rules for a group.
+
+Just as there are subsets of sets, there are subgroups of groups.  For
+example, the rational numbers form a subset of the real numbers.
+Similarly, the rational numbers and addition form a subgroup of real
+numbers and addition.  The integers form a subset of the rational
+numbers.  The integers and addition form a subgroup of the rational
+numbers and addition.
+
+It is very common to be a little sloppy and simply identify a group as
+being the set if the operation is well understood.  So we might say that
+the integers form a group if it is well understood that we are talking
+about addition as being the group operation.  So I will be a little
+sloppy myself to make my sentences a little shorter. 
+
+Not every subset is a subgroup.  For example, the set of even integers
+is a subgroup of the integers, but the set of odd integers is not a
+subgroup of the integers.  If you add two even integers together, the
+result is an even integer.  But if you add two odd integers together,
+the result is not an odd integer.  One of the group rules is that if you
+combine two elements from the set together, then the result must also be
+in the set or else you don't have a group.
+
+In the case of the cube, the set is the collection of all positions
+which can be reached by scrambling the cube in all possible ways, and
+the operation is "followed by".  For real numbers and addition, we might
+write x+y to indicate adding x and y together.  For cube positions, we
+might write XY to mean "X followed by Y".  Even though it is not
+multiplication in the every day sense of real numbers, XY is often
+called a product and the "followed by" operation is often called
+multiplication.
+
+Basic operations on the cube consist of twisting one face.  These
+operations are called F, B, U, D, L, and R if you twist the Front, Back,
+Up, Down, Left, and Right faces clockwise by 90 degrees.  The respective
+counterclockwise twists are called F', B', U', D', L', and R'.  The
+respective 180 twists are called F2, B2, U2, D2, L2, and R2.  For 180
+degree twists, it doesn't matter whether your twist is clockwise or
+counterclockwise. 
+
+Notice, for example, that FF=F2.  That is "F followed by F" is the same
+thing as turning the Front face by 180 degrees.  Also, F'F'=FF=F2, etc.,
+and FFF=F' (90+90+90 degrees clockwise is the same thing as 90 degrees
+counterclockwise), etc.
+
+There are many ways to define a group or a subgroup.  One of the more
+common ways is in terms of generators.  The generator notation is <S>,
+where S is some set or list of elements.  For example, with the integers
+and addition, we might define a subgroup as <3>.  This means {3, 3+3,
+3+3+3, ...} so <3> is the group of all integers which are divisible by
+3.
+
+One of the rules for groups is that every element in the set must have
+an opposite, usually called an inverse.  For example, with integers and
+addition the opposite of 3 is -3, and the opposite of -3 is 3.  The
+generator notation automatically includes inverses.  So if we write <3>
+for integers and addition, it is the same as writing <3,-3>.  So we
+could write <3> or <-3> or <3,-3> and it would all mean the same thing,
+namely {..., -6, -3, 0, 3, 6, ...}.  (To simplify things, I lied
+slightly in the previous paragraph when I left out the negative numbers. 
+Groups require inverses, and with addition the way you get inverses is
+to include the negative numbers.) 
+
+With the cube, the way you get inverses is that F' is the inverse of F
+and F is the inverse of F', etc.  F2 is its own inverse, so we would
+write (F2)'=F2. 
+
+Given all that, the way we would write generators for the cube group
+would be as <F,B,U,D,L,R>.  Remember that we do not have to include F',
+B', etc. because they are included automatically.  On the other hand, if
+you are left handed you might want to write the generators as
+<F',B',U',D',L',R'> and you would not have to include F, B, etc. because
+they would be included automatically.  Also, you do not have to include
+F2, B2, etc. because we can get F2 as FF, we can get B2 as BB, etc. 
+
+The <F,B,U,D,L,R> notation essentially says the following.  Beginning
+with a cube which is solved (which is at Start), we get the cube group
+by combining together the F, B, U, D, L, and R operations in all
+possible ways.  This is just another way of saying that we would
+scramble the cube in all possible ways by turning all six of the faces
+in all possible ways. 
+
+We now have enough definitions and notations in place to start talking
+about Thistlethwaite's algorithm.  Consider what it means to say <U>. 
+This means that you can twist the Up face any way you want, but you
+can't twist any of the other faces.  This also means that the group is
+{U,UU,UUU,UUUU}. 
+
+If you are new at this, you ought to have a few questions.  For example,
+where is U'?  Well, U' is the same thing as UUU, so U' is included (270
+clockwise is the same thing as 90 degrees counterclockwise).  Where is
+U2?  Well, U2 is the same thing as UU, so U2 is included.  What about
+UUUUU and UUUUUU etc.?  Well, UUUU is the same thing as not twisting at
+all (360 degrees clockwise is the same thing as not twisting), so
+UUUUU=U, UUUUUU=UU, etc.  No matter how you twist, as long as you
+confine yourself to the Up face, there are only four possible positions.
+
+UUUU is normally written as I (for the identity).  Every group must have
+an identity.  For addition, the identity is zero.  For the cube, we
+normally just write I.  It should be obvious, for example, that UU'=I
+and that U'U=I.  That is, if you twist the Up face 90 degrees clockwise
+and immediately twist the Up face 90 degrees counterclockwise, you are
+back where you started. 
+
+Now, let's go back to the idea of solving the bottom two layers of the
+cube first, then solving the Up layer.  It is very likely that after
+solving the bottom two layers, the Up layer would look very scrambled. 
+But we might get very lucky and discover that Up layer was already in
+<U>.  That is, it might already be in one of the four positions, U, UU,
+U'=UUU, or I.  If the Up layer were already at I by accident, then the
+whole cube would already be solved.  If it were in one of the other
+three positions, then we could finish solving the cube by simply
+twisting the Up face and there would be no need to disturb either of the
+bottom two layers.
+
+The Thistlethwaite algorithm accomplishes the same sort of thing, except
+that it is by design rather than by luck. 
+
+We have already considered the group <F,B,U,D,L,R> where you scramble
+the cube in any way you want using any twist of any face.  Now, consider
+the group <F2,B2,U,D,L,R>.  What this means is that starting with a
+solved cube, we scramble it any way we want by making any twists we want
+of the U, D, L, and R faces, but for the F and B faces we can only make
+180 degree twists.  It turns out that by so doing, we cannot reach as
+many positions as we can if we allow 90 degree twists of all six faces. 
+Hence, we would say that <F2,B2,U,D,L,R> is a subgroup of <F,B,U,D,L,R>. 
+
+A key point of the <F2,B2,U,D,L,R> subgroup is that if we can create a
+position in it by using only the indicated moves, than we can also
+reverse the process and solve any position in it by using only the
+indicated moves.
+
+A position in the <F2,B2,U,D,L,R> subgroup is "somewhat solved" in much
+the same sense that a cube with the bottom layer solved is "somewhat
+solved", but a position in <F2,B2,U,D,L,R> still looks pretty scrambled. 
+There is some disagreement among Cube-Lovers as to whether you can look
+at a scrambled cube and determine easily whether it is in
+<F2,B2,U,D,L,R> or not.  I will leave that question unaddressed for the
+purposes of this note.
+
+The real point is that suppose that you were in <F,B,U,D,L,R> and by
+some clever strategy or other managed to get your cube into
+<F2,B2,U,D,L,R>.  You would have made some hard won progress. 
+Furthermore, you could solve the cube without giving up any of your hard
+won progress because you could solve the cube without making any more 90
+degree F and B moves.  This is very much unlike the situation of solving
+by layer, where inevitably you must give up some hard won progress.  It
+was thinking along these lines that led me to think in terms of closed
+and open groups, namely those where you can or cannot proceed without
+giving up any of your hard won progress.
+
+The Thistlethwaite algorithm tells you how to get from <F,B,U,D,L,R> to
+<F2,B2,U,D,L,R>.  It continues by a progression of subgroups that goes
+something like <F2,B2,U2,D2,L,R> and then <F2,B2,U2,D2,L2,R2> on its way
+to Start.  So Thistelthwaite is trying to get into a position where 90
+degree turns are no longer necessary and the solution can be completed
+using only 180 degree moves.
+
+Let's go back to the <U> subgroup just for a minute, where
+<U>={I,U,U2,U'}.  <U2> is a subgroup of <U> where <U2>={I,U2}.  As a
+silly example of the Thistlethwaite technique, we could go from <U> to
+<U2> and then on to I.  For example, suppose we were at U, which is in
+<U>.  Since we are bound and determined to get into <U2>, we could make
+the move U which takes us into <U2> and we could complete the solution
+by making the move U2.  Hence, we have solved the position U with two
+moves (namely U U2) when one would have sufficed (namely U').  As silly
+as this example is, it is illustrative of the way in which
+Thistlethwaite's method is suboptimal, and how Thistlethwaite's method
+can be improved. 
+
+Finally, I think the most elegant sequence of closed subgroups is more
+in the vein of starting with a corner and working your way out from the
+corner by layer. For example, you might first solve a 2x2x2 subcorner of
+a 3x3x3, then solve the other three faces.  This approach does not
+inherently involve any preference for 180 degree turns.  I like it
+because I do not like counting 180 degree turns.  The trouble with this
+approach is that, for example, <U,R,F> is an awfully big group to solve
+all at one go. Mike Reid has suggested breaking down <U,R,F> into
+<U2,R,F> etc. to make the problem manageable, but then we are back into
+using 180 degree turns. 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

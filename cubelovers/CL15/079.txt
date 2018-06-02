@@ -1,0 +1,66 @@
+From BRYAN@wvnvm.wvnet.edu  Fri Apr 14 23:33:20 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02160; Fri, 14 Apr 95 23:33:20 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4917; Fri, 14 Apr 95 21:12:54 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 4876; Fri, 14 Apr 1995 21:12:54 -0400
+Message-Id: <wvmail32.1995apr14.210216.bryan@wvnvm.wvnet.edu>
+Date:      Fri, 14 Apr 1995 21:12:53 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: Repetitive Application of Elements of Q*
+In-Reply-To: Message of 04/14/95 at 17:06:48 from BRYAN@wvnvm.wvnet.edu
+
+The astute reader will have noticed that there *has* to be an error
+in the table as it was originally posted.  It is impossible for there
+to be two distinct sequences of length 2, because there is only
+one position unique up to M-conjugancy which is only one qturn from
+Start.  All of the lengths in the original table except for one were
+short by one.  I had two programs  --  one to generate the sequences
+to a file, and a second to analyze the sequences.  The first program
+did not write Start to the file, resulting in all the sequences
+except one being one short.  Here follows the correction.
+
+                       (Incorrect)    (Correct)
+
+>     Operation         Length         Length
+>                         of             of
+>                       Sequence       Sequence
+
+
+>       F*                11            12
+>       U*                10            11
+>       L*                 7             8
+>       R*                 3             4
+>       D*                 9            10
+>       B*                 2             2   !!
+>       F'*                7             8
+>       U'*               10            11
+>       L'*                4             5
+>       R'*                6             7
+>       D'*                7             8
+>       B'*                2             3
+
+>To take a little more interesting case, I tried i(F*D'*) ^ n.  In this
+>case, there were 63 unique elements in the sequence, and then the
+>8-th through the 63-rd elements repeated.  Hence, the final cycle had
+>56 elements rather than the 2 elements of the simpler cases.
+
+Similarly, here there were 64 unique elements in the sequence, with the
+9-th through the 64-th elements repeated.  The final cycle still
+(correctly) had 56 elements.  The length of the final cycle has to be
+even, of course, since qturns are odd.
+
+> = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+>Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+>Associate Director, WVNET                            (304) 293-5540 fax
+>837 Chestnut Ridge Road                              BRYAN@WVNVM
+>Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

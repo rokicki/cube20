@@ -1,0 +1,86 @@
+From hoey@aic.nrl.navy.mil  Wed Jun 24 15:45:56 1992
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA23541; Wed, 24 Jun 92 15:45:56 EDT
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA09989; Wed, 24 Jun 92 15:45:51 EDT
+Date: Wed, 24 Jun 92 15:45:51 EDT
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9206241945.AA09989@Sun0.AIC.NRL.Navy.Mil>
+To: MONET01@mizzou1.missouri.edu, cube-lovers@life.ai.mit.edu
+Subject: Re: Ultimate cube
+
+MONET01@mizzou1.missouri.edu writes of a cube that
+
+    ``looks like someone took a knife to a normal solved cube and cut
+    a diagonal 'x' through each face and folded the flaps back down
+    the sides.  This leads to a cube where opposing centers have an
+    'x' that has four colors in a mirror image.  (It is hard to
+    describe, sorry.)''
+
+I would appreciate a few more details.  I think the color scheme of
+each face you describe is something like
+
++-----+-----+-----+
+|.1111|11111|1111.|
+|44.11|11111|11.22|
+|4444.|11111|.2222|
++-----+-----+-----+
+|44444|.111.|22222|
+|44444|44.22|22222|
+|44444|.333.|22222|
++-----+-----+-----+
+|4444.|33333|.2222|
+|44.33|33333|33.22|
+|.3333|33333|3333.|
++-----+-----+-----+
+
+where 1,2,3, and 4 are distinct colors, but there are still several
+ways to make the colors on different faces match up.  Look at a
+corner, where the colors are
+
+    +-------+
+   /a.bbbbb/c\
+  /aaa.bbb/ccc\
+ /aaaaa.b/ccccc\
++-------+.......+
+ \fffff.e\ddddd/
+  \fff.eee\ddd/
+   \f.eeeee\d/
+    +-------+
+
+That is, one corner is colored a/b, another c/d, and the third e/f,
+where I expect some of a,b,c,d,e,f will be the same color.
+
+One possibility was pictured in Hofstatder's Scientific American
+article of February, 1981.  It had b=c,d=e,f=a and used twelve colors.
+Jim Saxe and I were impressed by its wasteful use of color and its
+failure to exhibit edge orientation.  From your remarks about turning
+it over, I suspect this isn't what you mean.
+
+You may be talking about the cube in which a=d,b=e,c=f which uses six
+colors.  I would say it is as if you cut an 'x' on a cube and
+exchanged each triangle with the other triangle on the same edge of
+the cube.  That is a reasonably good coloring.  It isn't really
+necessary to solve it twice, though.  To find out whether a given
+corner goes on the top or bottom, look at the two colors that the
+corner shares with the top face center.  Either the corner will have
+the two colors in the same order as the top, or they will be reversed,
+and that determines whether that corner goes on the top or bottom.
+That tells you where the third color on that corner goes, and the
+last color is determined by elimination.
+
+There is an even more interesting coloring that uses only four colors.
+In this coloring a=c=e and the other three colors are distinct.  Jim
+Saxe and I came up with this coloring in our discussions of
+Hofstatder's article.  It isn't quite symmetric enough, since its
+reflection is a coloring in which b=d=f, a slightly different pattern.
+Our discussions then led to the Tartan coloring we talked about in our
+article of 16 February 1981.
+
+The only cube in the archives called the Ultimate Cube is the one that
+has ``over 43 quintillion solutions.''  It has all six sides colored
+the same.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

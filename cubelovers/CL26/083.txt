@@ -1,0 +1,20 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Dec 18 15:30:11 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA25304
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 18 Dec 1998 15:30:10 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <5B9619E72C59D211B22100A0C99CC4632EEE9E@www.evangel.edu>
+From: "CRAWFORD, SCOTT" <CRAWFORDS@evangel.edu>
+To: Cube-Lovers@ai.mit.edu
+Subject: Snake
+Date: Thu, 17 Dec 1998 19:50:21 -0600
+
+This may be a little off topic, but I've recently fell in love with the
+snake, making many shapes I'd never even thought of.  Are there any websites
+or archives of different snake patterns?
+
+Thanks
+Scotte
+

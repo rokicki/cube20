@@ -1,0 +1,20 @@
+Date: 3 January 1982 23:05-EST
+From: Alan Bawden <ALAN at MIT-MC>
+To: CUBE-LOVERS at MIT-MC, Woods.pa at PARC-MAXC
+
+Well, my memory is very clear on the point that each nut had all 6
+numbers since my solution depended on that fact.  But sure, if we can
+answer your extended problem all the better.
+
+You mention rotations as a symmetry of a solution, which reminds me of
+another kind of symmetry that is relevant to exactly what is meant by
+"a set of nuts".  Clearly the values of the integers inscribed on the
+pieces have no effect of the character of the solution.  If someone
+broke into your house one night an erased all the 1's and replaced
+them with 2's and replaced all the 2's with 1's, they wouldn't have
+damadged your puzzle in any way (ignoring that you may have memorized
+the solution by number, but that's your fault for chosing a bad way to
+remember the solution).  So applying any of the 6! permutations of 6
+things to the numbers leaves your "set of nuts" fixed (relative to
+eachother).  The manufacturers's choice of numbering is thus at least
+partially arbitrary.

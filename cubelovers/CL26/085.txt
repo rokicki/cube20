@@ -1,0 +1,65 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Dec 21 14:52:35 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA01635
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 21 Dec 1998 14:52:34 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sun, 20 Dec 1998 16:41:43 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Roger Broadie <roger.broadie@iclweb.com>
+Cc: Cube Mailing List <Cube-Lovers@ai.mit.edu>,
+        Charlie Dickman <charlied@erols.com>, Mark Glusker <glusk@sgi.com>
+Subject: Re: Newer mechanism? (Was: Re: re-assembling a 2x2x2?)
+In-Reply-To: <002c01be2a01$f6ba7020$7ac4b0c2@home>
+Message-Id: <Pine.BSF.3.96.981220161825.27653I-100000@shell2.tiac.net>
+
+
+On Thu, 17 Dec 1998, Roger Broadie wrote:
+
+(Interesting to read about the lawsuit...)
+
+}Nicholas Bodley <nbodley@tiac.net> wrote (17 December 1998)
+
+}inside of a 4x4x4.  The Taiwanese version is less clearly described -
+}the internal faces are said to form a tongue and groove mechanism -
+}but probably also had an internal spider like the conventional 3x3x3 -
+}is this Nicholas Bodley's version?
+
+In the mechanism I know for a 2X2X2 Cube, at its center is a piece like
+a jack, that is, one of the pieces in the traditional game, but without
+the knobs at the ends. You could also think of it as three rods
+intersecting at a common point, and mutually orthogonal; it's as if you
+had plus and minus x, y, and z axes defined by the directions of the
+rods. These create the axes of revolution for one half relative to the
+other.
+
+The cubies are hollow, and their mating faces have curved cutaways. To
+keep the cubies from moving too far from each other, 12 "clips" extend
+from the center outward. If you think of a deeply-grooved pulley, cut
+pie-style into quarters, you have a general idea. The curved-cutout
+edges of the cubies fit between two curved, parallel sides of the
+"clips".
+
+Finally, the "clips" are kept engaged with the cubies either directly by
+square cross-section extensions of the center "jack", or by hollow
+square rods that pivot on (smaller) cylindrical extensions. Just as the
+ball in a 4^3 is locked to one half, the "jack" is, also.
+
+The big problem with this mechanism is that unless the parts can deform
+sufficiently without breaking (the actual case; they can do so), it's
+impossible to assemble or to disassemble as molded. If it were made of
+metal, it couldn't be assembled without design changes.
+
+Illustrations are really needed here; this mechanism is a challenge to
+describe understandably!
+
+I'd think that the internal ball uses a variant of the tongue and groove
+scheme, if it's like the 4^3.
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*  The personal computer indusztry will have become
+|*  Amateur musician  *|*  mature when crashes become unacceptable.
+--------------------------------------------------------------------------
+

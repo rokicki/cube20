@@ -1,0 +1,99 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug 25 11:47:21 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA18038; Mon, 25 Aug 1997 11:47:21 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From jbryan@pstcc.cc.tn.us Wed Aug 20 12:41:14 1997
+Date: Wed, 20 Aug 1997 12:37:38 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Open and Closed Subgroups of G
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.970820122826.19610A-100000@PSTCC6.PSTCC.CC.TN.US>
+
+I am going to use the terms open and closed with a certain trepidation. 
+These terms may already have a conventional meaning in group theory of
+which I am not aware.  If so, my apologies in advance.  Anyway,... 
+
+The Hofstadter articles about the cube in Scientific American many years
+ago made one point very strongly.  Namely, that in solving the cube by
+hand you often temporarily have to give up hard won progress.  For
+example, suppose you solve the cube bottom layer first, middle layer (the
+middle between the top and bottom) second, and the top layer last. (This
+isn't the way I do it, and I doubt that anybody does it in quite this way,
+but it makes for a good example.) 
+
+Using this method, it is almost certain that you will have to disturb the
+bottom layer to solve the middle layer, and it is almost certain that you
+will have disturb the bottom and middle layers to solve the top layer.
+(It's an interesting exercise to characterize those few positions where
+you wouldn't have to disturb previously solved layers to complete your
+task.) 
+
+The set of positions where the bottom layer is fixed constitute a group,
+as do those positions where the two bottom layers are fixed.  Hence, the
+series of plateaus involved in this particular solution define a sequence
+of nested subgroups. 
+
+The Thistlethwaite algorithm reverses the roles of the solution algorithm
+and the sequence of nested subgroups.  Instead of a solution algorithm
+defining a sequence of nested subgroups, a sequence of nested subgroups
+defines a solution algorithm.  In some ways, I think this is a distinction
+without a difference;  it is more like two sides of the same coin. 
+
+However, I think there is one really fundamental difference with the
+Thistlethwaite algorithm.  Namely, you never have to give up any of your
+"hard won progress". That is, after you make it to a particular subgroup
+in the nested sequence, no subsequent move takes you out of that subgroup.
+So let's define any subgroup of G having this property as closed, and any
+subgroup which is not closed as open.  To be a little more specific, a
+closed subgroup is a subgroup such that for every position in the
+subgroup, there is a maneuver back to Start which never leaves the
+subgroup. 
+
+I am a quarter-turner, but I think that perhaps closed subgroups are an
+argument which has not yet been specifically articulated for counting
+half-turns as one move. That is, many of the subgroups which are used in
+Thistlethwaite and Thistlethwaite-like algorithms forbid quarter-turns
+along one or more axes at some point in the process.  Restricting
+quarter-turns assists your sequence of nested subgroups all to be closed
+subgroups.  It seems to me that such an approach leads very naturally to
+counting half-turns as one move.
+
+Finally, when I first read about Thistlethwaite's algorithm, I naively
+assumed that the algorithm's maneuvers from the next to last subgroup in
+the sequence to the last subgroup in the sequence (namely to Start itself)
+were minimal in G. This is clearly not true in general.  The first example
+I remember where this began becoming clear to me was the <U,R> group. We
+could solve a cube as G -> <U,R> -> I, although the jump from G to <U,R>
+is quite a big jump.  But a minimal maneuver in <U,R> is certainly not
+necessarily minimal in G. 
+
+Let's call a subgroup H of G a closed minimal subgroup if every minimal
+maneuver in H is also minimal in G.  <U,R> is closed, but it is not closed
+minimal.  I have tried to think about which subgroups of G are clearly
+closed minimal.  I can't think of many.  In fact the only examples I can
+think of are subgroups generated as <s>, where s is a syllable or
+syllables along the same axis. So <F>, <F2>, <F,B>, <F2,B>, and <F2,B2>
+and their conjugates are closed minimal subgroups.  (Well, I and G are
+closed minimal, but it hardly seems fair to count them.)
+
+This whole area was discussed rather thoroughly in the recent spate of
+messages about Korf's paper and Kociemba's algorithm, but without using
+the terms closed or closed minimal. I do not believe any of the subgroups
+which were discussed were claimed to be closed minimal, although I think
+essentially all of them were closed. The most interesting subgroup which
+was discussed was Mike Reid's co-called T, which is the intersection of
+<F,B,U2,D2,R2,L2> with its conjugates.  I wonder if Mike's T subgroup is
+closed minimal? 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+[Moderator's note: This message has been delayed by a clerical error
+ on my part.--Dan]
+

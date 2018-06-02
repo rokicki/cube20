@@ -1,0 +1,89 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Sun Dec  5 21:27:02 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA13028; Sun, 5 Dec 93 21:27:02 EST
+Message-Id: <9312060227.AA13028@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 8009; Sun, 05 Dec 93 20:56:33 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 6791; Sun, 5 Dec 1993 20:56:33 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 9969; Sun, 5 Dec 1993 20:54:05 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Sun, 5 Dec 1993 20:54:04 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   God's Algorithm, 24-fold Symmetry, Edges of 3x3x3
+
+I just finished tabulating the results with 24-fold symmetry for
+the edges of the 3x3x3 cube.  I have added them to the table
+I posted earlier today which had 1152-fold symmetry.
+
+A couple of reminders.  In the case of 1152-fold symmetry, most but not
+all of the equivalence classes have exactly 1152 elements.  In the case
+of 24-fold symmetry, every equivalence class has exactly 24 elements.
+Thus, you can almost, but not quite, get from the 1152-fold column
+to the 24-fold column by multiplying by 48.  Also, my program actually
+generated the 1152-fold column.  However, it did not generate the
+24-fold column.  That would have taken far too long.  Rather, I generated
+the 24-fold column from the 1152-fold column by determining the sizes
+of all the equivalence classes.  Finally, note that the total figure
+for the 24-fold symmetry column can be calculated as
+40,874,803,200 = [12!(2^12)/2] / 24, so the total is correct.
+
+            Results using q-turns only
+
+      Distance            Number of            Number of
+     from Start           Nodes using          Nodes using
+                         1152-fold Symmetry    24-fold Symmetry
+
+          0                        1                   1
+          1                        1                  12
+          2                        5                 114
+          3                       25               1,068
+          4                      215               9,759
+          5                    1,860              88,144
+          6                   16,481             786,500
+          7                  144,334           6,916,192
+          8                1,242,992          59,623,239
+          9               10,324,847         495,496,593
+         10               76,993,295       3,695,351,994
+         11              371,975,385      17,853,871,137
+         12              382,690,120      18,367,613,703
+         13                8,235,392         395,043,663
+         14                       54               1,080
+         15                        1                   1
+
+       Total             851,625,008      40,874,803,200
+
+
+            Results using q-turns and h-turns
+
+      Distance            Number of          Number of
+     from Start           Nodes using        Nodes using
+                         1152-fold Symmetry   24-fold Symmetry
+
+          0                        1                 1
+          1                        2                18
+          2                        9               243
+          3                       75             3,240
+          4                      919            42,359
+          5                   11,344           538,034
+          6                  139,325         6,666,501
+          7                1,664,347        79,820,832
+          8               18,524,022       888,915,100
+          9              167,864,679     8,056,929,021
+         10              582,489,607    27,958,086,888
+         11               80,930,364     3,883,792,136
+         12                      314             8,827
+
+      Total              851,625,008    40,874,803,200
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

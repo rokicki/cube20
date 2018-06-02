@@ -1,0 +1,44 @@
+From pbeck@pica.army.mil  Wed May 22 10:23:37 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA03468; Wed, 22 May 91 10:23:37 EDT
+Date:     Wed, 22 May 91 10:16:47 EDT
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  slide
+Message-Id:  <9105221016.aa14580@FSAC1.PICA.ARMY.MIL>
+
+
+
+ANNONCEMENT OF "SLIDE" - A Sliding Block Puzzle Simulation Program
+
+DESCRIPTION:  "SLIDE"  is a Sliding Block Puzzle Simulation Program
+based on the book "Sliding Block Puzzles", by Ed Hordern, 1986 Oxford
+University Press.  It comes on one 360K floppy with an instruction
+booklet.  The booklet tells you how to install the program, how to use
+it (program does have help files) and how to add your own puzzles.  It
+is in color and REQUIRES a mouse to move the pieces.
+
+It has all of hordern's puzzles including the background notes for
+each, eg, name, producer.  The program gives you the minimum number of
+moves, the object of the puzzle and a randomized version to test your
+skill.
+
+The version I have was obtained at the 11th International Puzzle Party
+3/30/91 and is mostly bug free.  The author is in the process of
+updating it and will make updates available at cost (for now anyhow).
+
+I recommend  "SLIDE" for everyone with a PC who enjoyed Hordern's
+book.
+
+PRICE:    50 dutch Guilders
+SOURCE:  H.J.M. van Grol (Rik) (the author),  
+               van Hogendorpstraat 1a,  
+               2515 NR DEN HAAG, 
+               The Netherlands
+COMPUTER REQUIREMENTS:  MS-DOS machine with one 360K floppy minimum;
+can use 1.2 MB and harddisk if available.  REQUIRES a mouse.  Best
+with EGA, okay with VGA, needs user defined configuration for Herc or
+CGA.
+
+
+

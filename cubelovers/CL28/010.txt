@@ -1,0 +1,49 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 21 22:01:15 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id WAA28642
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 21 Sep 1999 22:01:15 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <37D16494.DE65A654@pressenter.com>
+Date: Sat, 04 Sep 1999 13:27:32 -0500
+From: Joe Johnson <jgjohnso@pressenter.com>
+To: "Cube-Lovers@AI.MIT.EDU" <Cube-Lovers@ai.mit.edu>
+Subject: 5X5X5 challenge
+
+I recently bought my first 5X5X5 Rubik's Cube (from  Meffert's) and when
+I received it, the first thing I noticed was that the stickers had
+little grooves in them and all of them on each face were lined up in the
+same direction.  After I learned how to solve the cube for color I
+decided to try to solve it so that all of the little grooves lined up.
+After much hard work I finally got it and can repeat the solution.  It
+is a wonderful challenge after you've grown tired of solving it the
+'normal' way!  I won't give the solution unless I see that there is
+interest in it here in this list
+
+Joe Johnson.
+
+[Moderator's note: See "Supergroup" in the archives.  If you want to
+experience the full measure of complication, mark the a corner of
+twelve facelets on each face in this pattern:
+
+    +-----+-----+-----+-----+-----+
+    |     |     |     |     |     |
+    |     |     |     |     |     |
+    +-----+-----+-----+-----+-----+
+    |     |     |     |     |     |
+    |     |   .'|`.   |   .'|`.   |
+    +-----+-----+-----+-----+-----+
+    |     |   `.|.'   |   `.|.'   |
+    |     |     |     |     |     |
+    +-----+-----+-----+-----+-----+
+    |     |     |     |     |     |
+    |     |   .'|`.   |     |     |
+    +-----+-----+-----+-----+-----+
+    |     |   `.|.'   |     |     |
+    |     |     |     |     |     |
+    +-----+-----+-----+-----+-----+
+
+and make them line up afterwards.  You'll learn something surprising
+about the center facelets. --Dan ]
+

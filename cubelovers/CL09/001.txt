@@ -1,0 +1,39 @@
+From @mitvma.mit.edu:hans@freyr.research.ptt.nl  Fri May 29 13:21:10 1992
+Return-Path: <@mitvma.mit.edu:hans@freyr.research.ptt.nl>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) id AA09766; Fri, 29 May 92 13:21:10 EDT
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 3176; Fri, 29 May 92 13:22:18 EDT
+Received: from research.ptt.nl by MITVMA.MIT.EDU (Mailer R2.08 R208004) with
+ BSMTP id 8330; Fri, 29 May 92 13:22:17 EDT
+Received: from dnlunx.research.ptt.nl (DNLUNX) by research.ptt.nl (PMDF #12085)
+ id <01GKLFC81PO0DQGQ2Q@research.ptt.nl>; Fri, 29 May 1992 19:21 +0100
+Received: by gefjon.dnl (4.1/SMI-4.1) id AA03306; Fri, 29 May 92 19:20:23 +0200
+Date: Fri, 29 May 92 19:20:22 MET DST
+From: J.M.Kloosterman@research.ptt.nl (Hans Kloosterman)
+Subject: Lower-bound Kociemba's algorithm
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <9205291720.AA03306@gefjon.dnl>
+X-Envelope-To: cube-lovers@life.ai.mit.edu
+X-Mailer: ELM [version 2.3 PL11]
+
+Dik Winter writes:
+
+> Using this result and the result by Hans Kloosterman the diameter of the
+> cube group is at most 37.  I conjecture the maximal path length in phase 2
+> of Kociemba's algorithm is 16, although the requirements on computer time
+> cq. memory do inhibit calculations at this moment (only in memory would be
+> feasible, but that requires 500 to 1000 MByte and computation time would be
+> about one day).  This figure of 16 would reduce the upperbound of the groups
+> diameter to 28.
+
+Unfortunately Dik's conjecture for phase 2 is too optimistic.
+Recall the maximum distances of the 4 stages of my algorithm:
+ 1.  7 moves within the group <R, L, F, B, U,D>
+ 2. 10 moves within the group <R, L, F2,B2,U,D>
+ 3.  8 moves within the group <R2,L2,F2,B2,U,D>
+ 4. 18 moves within the group <R2,L2,F2,B2,U,D>
+
+(Stage 3 and 4 together requires at most 25 moves.)
+
+These number of moves are minimal and cannot be improved within their
+group of moves. (Stage 2 can also not be improved using all moves.)

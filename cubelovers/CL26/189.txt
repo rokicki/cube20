@@ -1,0 +1,29 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 17 19:17:00 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA09149
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 17 Mar 1999 19:16:59 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: WaVeReBeL@webtv.net
+Date: Wed, 17 Mar 1999 15:41:21 -0800 (PST)
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Speed cubing results - March 99
+Message-Id: <18576-36F03DA1-15@mailtod-122.bryant.webtv.net>
+In-Reply-To: Wayne Johnson <sausage@zeta.org.au>'s message of Wed, 17 Mar
+	1999 10:54:39 +1100
+
+As far as timing is concerened, do you include a preview before the
+timer is started, or is it done "cold" (No looking at all before the
+timer starts)?  If a preview is allowed, how long do you get?  Is there
+a standard for this that everyone is going by?  For longer times this
+shouldn't matter too much, but for record keeping and fast times such as
+Jiri's 14 seconds, I can see how a few seconds in the begining can
+really make a difference.  Is there a FAQ about this?
+
+Also, are you people timing yourselves or do you have someone to do it?
+I do it myself.  It doesn't affect my time too much, but I can shave off
+a second or two if someone else does it.
+
+-Alex-
+

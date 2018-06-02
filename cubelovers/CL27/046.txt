@@ -1,0 +1,71 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Apr 12 17:15:33 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA18027
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 12 Apr 1999 17:15:32 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sat, 10 Apr 1999 02:39:35 -0400 (EDT)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199904100639.CAA26973@Twig.Rodents.Montreal.QC.CA>
+To: Cube-Lovers@ai.mit.edu
+Subject: Cube-manipulation programs
+
+Well, with the current discussion going on about Cube manipulation
+programs, I'll toss out my minor contribution the genre.
+
+It's a C program that takes simple text lines describing maneuvers and
+prints out a text representation of the resulting cube, together with
+its cycle structure.  (I specifically chose to make it text-only
+because I'm comparatively often on text-only links.)  It also allows
+you to define names for operations and then use them as primitives.
+
+A sample transcript, which defines the Spratt wrench as an operator and
+then uses it to flip the four F-face edges:
+
+> .set WRENCH (SLICER F)4
+`WRENCH' defined
+> WRENCH F2 WRENCH F2
+Cube:
+              u u u
+              u u u
+              u f u
+        l l l f u f r r r b b b
+        l l f l f r f r r b b b
+        l l l f d f r r r b b b
+              d f d
+              d d d
+              d d d
+Cycles: (uf)+ (lf)+ (fr)+ (fd)+ [2]
+Already centered
+>
+
+Another example:
+
+> F SLICER F'
+Cube:
+              u f u
+              u f u
+              u u u
+        l l l f f f r r r b l b
+        l l f r d d b r r b u b
+        l l l f f f r r r b u b
+              d d d
+              d b d
+              d b d
+Cycles: (u,b,d,f) (ub,bd,rf,fl) [4]
+Centred: (ul,fl,fu,df,bd,rd,rb,ru,rf,dl,bl) (ulb,flu,dlf,bld) (ubr,fur,dfr,bdr) [44]
+>
+
+The numbers in [ ] are the smallest power to which that operator must
+be raised to get the identity.
+
+While I don't expect it ever attain the popularity of slick graphics
+programs, there may be a few people interested in it; if anyone is, you
+have only to drop me a line asking for a copy....
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

@@ -1,0 +1,16 @@
+Date:  6 MAR 1981 0849-EST
+From: JURGEN at MIT-MC (Jonathan David Callas)
+Subject: Cube Solver
+To: DAN at MIT-ML
+CC: CUBE-LOVERS at MIT-MC
+
+I have a program written in pascal that won't *SOLVE* the cube but
+will manipulate it. It will also find the order of a given move.
+It was written by Tom Davis (of this list) and modified by me.
+It should run on any USCD system with no hassles, and very minor
+ones for any other sort of pascal. Since Tom was giving the program out before,
+I shall assume that there is no problem with distributing this version.
+If you (or anyone else) wants acopy, write me (Jurgen at MC) & I'll send
+you a copy.
+			-- Happy cubing,
+			-- Jurgen at MC

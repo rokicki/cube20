@@ -1,0 +1,8 @@
+Date: 21 Jul 1981 0908-PDT
+From: ISAACS at SRI-KL
+Subject: More problem
+To: CUBE-HACKERS at MIT-MC
+
+  Well, then.  How about four of the six quarter twists? Three?
+   -- Stan
+-------

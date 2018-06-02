@@ -1,0 +1,28 @@
+From cube-lovers-errors@curry.epilogue.com  Fri May 31 02:24:27 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id CAA06383 for <cube-lovers-outbound@curry.epilogue.com>; Fri, 31 May 1996 02:24:26 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <9605310001.AA29475@SSD.intel.com>
+Cc: cube-lovers@ai.mit.edu
+Subject: realizing 7x7x7 or larger cubes
+In-Reply-To: Your message of "Thu, 30 May 96 15:23:58 EDT."
+             <199605301923.PAA18428@Collatz.McRCIM.McGill.EDU> 
+Date: Thu, 30 May 96 17:00:59 -0700
+From: Scott Huddleston <scotth@ssd.intel.com>
+
+
+>In my opinion mechanical designs for the 7 and above will have to be
+>fundamentally different from those for the 6 and below, because that's
+>the point at which the "buried" corner of a corner cubie extends past
+>the surface of the face during a face turn and thus it's not possible
+>to build the thing as rigid pieces connected to a central mechanism, at
+>least not without cutting away part of some face-center cubies.
+
+One solution to this dilemma is to let some of the "cubies" become
+"brickies" (i.e., rectangular bricks instead of cubes).  In this approach,
+there's no limit in principle on N to how large an NxNxN puzzle you could
+build with the standard mechanism.  There is, of course, the lower limit 
+you just described to how small the corner cubies could become.
+
+

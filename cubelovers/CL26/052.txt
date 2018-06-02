@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Dec  3 20:49:15 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA03518
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 3 Dec 1998 20:49:14 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 3 Dec 1998 17:47:33 -0500
+Message-Id: <00096300.C22092@scudder.com>
+From: Jacob_Davenport@scudder.com (Jacob Davenport)
+Subject:  (5x5x5) edge parity corrections
+To: Cube Lovers <Cube-Lovers@ai.mit.edu>
+
+I don't like the edge parity correction move that I use in my solution, and
+I'm hoping that someone can give me a better one.
+
+The parity problem is found in 5x5x5 cubes (and 4x4x4 cubes, I understand)
+when two of the edges right next to the corners (which I call "wings") are
+switched.  Some fairly simple moves can get all three edges in line with
+each other, but half the time two wings need to be switched.  By the time I
+figure this out when doing a 5x5x5 cube, I've solved most of it, and my
+parity fixing move messes up many of the edges I've been working on.
+
+How do other people fix this problem?
+
+-Jacob
+

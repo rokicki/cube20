@@ -1,0 +1,61 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Sat Jun  3 03:39:09 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03320; Sat, 3 Jun 95 03:39:09 EDT
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <174124-7>; Sat, 3 Jun 1995 03:40:48 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA02923; Sat, 3 Jun 95 03:35:21 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1E504D; Sat,  3 Jun 95 03:29:35 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Super Groups
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1148.5834.0C1E504D@canrem.com>
+Date: Sat, 3 Jun 1995 04:14:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+Notes on the various Super-Groups
+---------------------------------
+
+I have calculated the size of the super-groups for various subgroups
+of the cube. I have suffixed the standard group names with the
+letter c to show that the centre orientations are significant.
+
+The groups are (ranked smallest to largest):
+
+Size (slice)       =         768
+Size (slicec)      =      24,576     Size (slicec) / Size (slice)   = 32
+
+The following reference confirms this calculation and expounds further
+on the nature of the slice group...
+
+The Slice Group in Rubik's Cube,
+by David Hecker, Ranan Banerji
+Mathematics Magazine, Vol. 58 No. 4 Sept 1985
+
+Size (antisl)      =       6,144
+Size (antislc)     =      49,152     Size (antislc) / Size (antisl) =  8
+
+Size (sq)          =     663,552
+Size (sqc)         =   5,308,416     Size (sqc) / Size (sq)         =  8
+
+Size (ur)          =  73,483,200
+Size (urc)         = 587,865,600     Size (urc) / Size (ur)         =  8
+
+Size (cube)  =     43,252,003,274,489,856,000
+Size (cubec) = 88,580,102,706,155,225,088,000
+
+Size (cubec) / Size (cube) = 2,048
+
+The case of the super squares group (sqc) is interesting. It is only
+possible to rotate opposite centres 180 degrees. There are actually
+8 centres in the super square's group:
+
+(1 way)    Identity
+(1 way)    All 6 centres rotated 180 degrees
+(3 ways)   2 opposite centres rotated 180 degrees
+(3 ways)   2 pairs of opposite centres rotated 180 degrees
+
+-> Mark <-
+

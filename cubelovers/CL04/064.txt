@@ -1,0 +1,179 @@
+Date:  9 August 1982 0737-EDT (Monday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Invisible Revenge
+Message-Id: <09Aug82 073740 DH51@CMU-10A>
+
+When you have seen Rubik's Revenge, have you seen everything?
+Maybe not.
+
+
+                    Supergroups
+
+There is some confusion about the meaning of the term Supergroup
+for the larger cubes.  There are two issues at stake:
+
+        (1) In the 4^3 and larger cubes, there are pieces that may
+            be permuted but are colored the same.  Are positions
+            that differ only in the permutation of identically-
+            colored facets to be considered distinct?
+
+        (2) In all odd-sized cubes, each face has a center facet
+            that may be twisted.  Are positions that differ only in
+            the twist of face centers to be considered distinct?
+
+If the answer to (1) is `no', the puzzle is not a group, but a
+collection of cosets.  I find this interesting only in that it is
+understood by the masses, and then the answer to (2) is `no'.
+
+If the answer to both (1) and (2) is `yes', we have what I would
+call the Supergroup.  I mark my cubes so that I can distinguish
+patterns in this group.  I discussed a way of doing this for the
+3^3 in my message of 9 January 81 0551-EST.  For Rubik's Revenge, I
+use a similar procedure, except now two spots must be cut out on
+each face:
+        +-----------------------+
+        |     |     |     |     |
+        |     |    *|*    |     |
+        |-----+-----+-----+-----|
+        |     |    *|*    |     |
+        |     |     |    *|*    |
+        |-----+-----+-----+-----|
+        |     |     |    *|*    |
+        |     |     |     |     |
+        |-----+-----+-----+-----|
+        |     |     |     |     |
+        |     |     |     |     |
+        +-----------------------+
+Also, I now arrange the faces T-symmetrically, with the spots
+toward the girdle.
+
+Jim Saxe first brought it to my attention that we may answer `yes'
+to (1) and `no' to (2).  We get a group that ignores face center
+orientation.  This is probably what people mean when they say there
+is no Supergroup for Rubik's Revenge:  This is the group of the
+puzzle, and the Supergroup (as I have defined it) is the same for
+the 4^3.  But in the 5^3 this group is distinct both from the
+Supergroup and from the Color Cosets.
+
+
+                    The 57th Piece
+
+Alan Bawden, in his message of 5 June 82, despaired of explaining
+the mechanical workings of Rubik's Revenge.  I will now rush in.
+
+If you take your Rubik's Revenge apart (as described in Ronald B.
+Harvey's message of 19 May 82, not recommended by Alan Bawden), you
+will find that the cubies ride around on a sphere:  the mysterious
+57th piece.  Only the face centers are connected to the sphere;
+they have flanges that hold the edges in place, and the centers and
+edges have flanges that hold the corners in place.  The tricky part
+is the linkage between the sphere and the face center cubies.
+
+The four center cubies of a face have extensions that together form
+a mushroom-shaped plug.  Each plug extends from the center of the
+face inward and is cut in quarters lengthwise.  There are six
+sockets on the sphere in which these plugs will fit and may rotate,
+but may not be pulled out.  This is sufficient to implement a
+puzzle isomorphic to the 3^3, namely the 4^3 where we allow only
+face twists.
+
+The other necessity for a 4^3 is to be able to twist the six center
+slices, which we name after their adjacent faces.  To accomplish
+this, there are grooves in the sphere that form three orthogonal
+great circles.  Each groove has the cross section of half of a
+socket, and includes the four half-sockets that correspond to a
+center slice.  When we twist one of those center slices, the
+half-plugs formed by pairs of face centers in that slice ride
+around the sphere in the grooves.  Of course there is an adjacent
+center slice; when it is moved, it takes the sphere with it.  The
+reason the grooves cannot have the cross-section of a socket is
+that then, when we twisted half the cube with respect to the other,
+the sphere might turn forty-five degrees, preventing center slice
+twists along the other great circles.
+
+When you twist the U center-slice of your cube, does the sphere
+move or stay fixed?  To find out without taking the cube apart,
+hold the cube by the D center slice and repeatedly twist the U
+center slice clockwise. Don't touch the U or D faces while doing
+this.  Mostly, the U face will turn and the D face will stay fixed,
+because the cubie-cubie friction is greater than the cubie-sphere
+friction.  Eventually, however, you will either see the U face lag
+behind the U center slice, or the D face move to follow the U
+center slice.  If the U face lags, the sphere is not moving; if the
+D face moves, the sphere is moving.
+
+I will take this opportunity to mention another feature of the
+interior sphere:  It has screws in it.  I took my screws out, but
+the sphere didn't come apart.  Then I put them back in, on the
+`don't screw with it' principle.  Perhaps they are there so Rubik's
+Revenge won't float?  This issue was raised by Tom Davis (12 August
+80) back when people were interested in solving the 3^3 underwater.
+The last I heard, Richard Pavelle (25 July 1980) was able to solve
+the cube with only five gulps of air.  I imagine some of the
+30-second whiz kids can solve Rubik's Cube while completely
+submerged.  But Rubik's Revenge?  Don't hold your breath.
+
+
+                    The Mechanical Invisible Group
+
+Alan Bawden's message posed an interesting question about the 57th
+piece, which I will state somewhat differently.  Suppose we paint
+the sockets of the sphere according to the colors of the face
+centers that inhabit them.  Then we mix up Rubik's Revenge and
+solve it.  Must the sockets still match their face centers?
+
+The answer is no.  In fact, the sphere may be in any of the
+twenty-four positions consistent with it having once matched the
+face centers.  To show this, we will show how to perform a
+ninety-degree whole-cube move of the outside without moving the
+sphere.  This is equivalent to turning the sphere ninety degrees,
+and we can repeat the procedure and its conjugates to move the
+sphere to any of its twenty-four positions.
+
+In order to twist Rubik's Revenge without moving the sphere, we
+place the cube in a position such that the U, F, and R center
+slices do not move the sphere and restrict ourselves to the moves:
+
+U1                      Clockwise quarter twist of the U face
+U2                      Clockwise quarter twist of the U half
+                                (face and center slice together)
+D1                      Clockwise quarter twist of the D face
+U1',U2',D1'             Counterclockwise quarter twists
+R1,R2,L1,R1',R2',L1'    Likewise for R
+F1,F2,B1,F1',F2',B1'    Likewise for F
+
+The move is actually fairly simple.  The tricky part is moving the
+L center slice cubies without moving the sphere.  To do this,
+remember the eight-flip
+
+        X = (R1 L1 U1 D1 F1 B1)^2
+
+from the 3^3.  This exchanges the L and R center slices in the 4^3,
+allowing us to cycle the L center slice cubies in the R center
+slice.
+
+        R2 L1' X R2 R1' X
+
+is a sphere-fixing whole-cube move taking 24 qtw after cancellation.
+
+
+                    The Theoretical Invisible Group
+
+So much for tawdry reality.  As Allan C. Wechsler pointed out on 6
+August 82, we can imagine a 4^3 puzzle that contains a 2^3 on the
+inside.  If we solve the outside, must the inside be solved?  The
+process shown above for the 57th piece implies not, for that
+process performs the RL antislice on the 2^3 with respect to the
+outside.  Can any move of the 2^3 be accomplished?  Elementary
+group theory says no, for odd permutations of the Rubik's Revenge
+edge cubies are also odd permutations of the 2^3's cubies.
+
+I ran the Furst, Hopcroft, and Luks algorithm on the problem.  It
+turns out that the permutation parity is the only restriction on
+what can be done with the 2^3.  Thus if we solve the outside, the
+inside may be in any one of the (8! 3^7)/2 positions obtainable in
+an even number of quarter twists on a 2^3 puzzle.  This in
+particular includes all whole-cube moves of the 2^3.
+Unfortunately, I don't know any simple processes for whole-cube
+moves or for turning two adjacent faces.

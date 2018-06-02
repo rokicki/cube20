@@ -1,0 +1,55 @@
+From cube-lovers-errors@curry.epilogue.com  Sun Feb  9 17:45:35 1997
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id RAA12140; Sun, 9 Feb 1997 17:45:34 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sun, 9 Feb 1997 16:54:42 -0500 (EST)
+From: Dale Newfield <din5w@cs.virginia.edu>
+Reply-To: DNewfield@cs.virginia.edu
+To: cube-lovers@ai.mit.edu
+Subject: Re: Broken Cube
+In-Reply-To: <32F99BFC.7299@ibm.net>
+Message-Id: <Pine.SUN.3.90.970206150433.26015M-100000@dot.cs.Virginia.EDU>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+On Thu, 6 Feb 1997, Jin Time Traveler Kim wrote:
+> I got this brilliant idea that I could make something similar, so out 
+> came the hacksaw....  After about an hour and a half of cutting I 
+> realized that I had completely ruined a perfectly good cube.
+
+I finally got around to building a bandaged pair of cubes 
+ XXX
+ XXX
+ XXXXX
+   XXX
+   XXX
+
+and a bandaged 5-cube
+
+ XXX XXX
+ XXX XXX
+ XXXXXXX
+   XXX
+ XXXXXXX
+ XXX XXX
+ XXX XXX
+
+I agree--the process was very painful and very full of black shavings, 
+but now that I am done, I am very pleased with the final result. :-)
+
+The impetus for this fit of cube-construction came from the book "The 
+book of ingenious & diabolical puzzles" by Jerry Slocum and Jack Botermans.
+
+Also resulting from the same fit are a round cube with what look like two 
+2x2x2's sticking out of it, and a regular cube in which two opposite 
+corners and all the adjacent pieces are round.
+
+All of these came after taking a good look at pages 124 and 125 of this 
+book--a page full of a very interesting collection of sequential movement 
+puzzles.  Thie is a really neat book that will make any collector drool, 
+so keep your eyes out for it :-)
+
+-Dale
+
+

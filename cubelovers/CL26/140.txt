@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 10 22:50:04 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id WAA10715
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 10 Mar 1999 22:50:04 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 9 Mar 1999 19:08:55 +0000
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: weidhaas1@llnl.gov
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009D4DE8.BDBAD646.12@ice.sbu.ac.uk>
+Subject: Re: Oddzon version of the cube
+
+	Re: coloured cubies.
+	I only ever saw one version of the cube where the black plastic ccubies
+had painted faces.  The colours were rather paler than on the ordinary cubes
+and one colour was violet.  I can't find it immediately, but I should find it
+if I stop an look.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

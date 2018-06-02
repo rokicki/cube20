@@ -1,0 +1,46 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Dec 19 03:26:06 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id DAA08315; Thu, 19 Dec 1996 03:26:05 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 19 Dec 1996 03:24:12 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Nichael Cramer <nichael@sover.net>
+cc: David Singmaster Computing & Maths South Bank Univ <david.singmaster@sbu.ac.uk>,
+        cube-lovers@ai.mit.edu
+Subject: Re: Cube stickers
+In-Reply-To: <v03007801aedcfb5855f8@[204.71.18.82]>
+Message-ID: <Pine.SUN.3.95.961219031245.16252K-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ I've had the same luck, but I thought it was lubricant that had migrated;
+I'm reasonably sure I tried lubricating my "5". Lubricant could turn
+adhesive into a gel, I think. 
+
+ Why the orange ones only? I think the reason is that they are a different
+pigment (mine's fluorescent, pretty sure!) on a different backing, perhaps
+plastic, while the others might be a high-quality paper; the plastic might
+require a different kind of adhesive.  (Then, again, maybe when the maker
+shopped around for sheets of colored adhesive sheet stock, what was
+available at a a good price might not have included orange...) 
+
+ It's just possible that the molding compound included a few percent
+lubricant, and that interacted with the adhesive to create a gel. Consider
+what happens to the adhesive on masking tape when you apply it to
+plasticized PVC (vinyl) and leave it there for a few weeks or longer. The
+plasticizer (which, I understand, is a actually low-vapor-pressure
+solvent)  migrates into the adhesive. Migration of plasticizer is a
+problem with plasticized PVC. (Any flexible vinyl is plasticized; rigid
+vinyl is quite stiff!))
+
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+

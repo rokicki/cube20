@@ -1,0 +1,25 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 28 13:09:57 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA21740
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 28 Sep 1999 13:09:57 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: HarLikin@aol.com
+Message-Id: <1bb80147.251b137f@aol.com>
+Date: Thu, 23 Sep 1999 01:24:15 EDT
+Subject: Skewb corner malfunctions
+To: Cube-Lovers@ai.mit.edu
+
+    After a hard day of solving the skewb for the first time it started to
+become loose in my hands and eventually fall apart. As I put it back together
+I noticed that the problem was that one of the four corners which are
+connected to the internal mechanism would unscrew whenever it was rotated
+counter clockwise, eventually causing it to move far enough away from the
+mechanism as to cause the pieces to fall away. Is this a problem which has
+been encountered by other regular Skewbers? If anyone knows what sort of
+mechanism usually keeps the corner attached properly and/or how to fix such
+an error I would be grateful.
+
+-Terrence
+

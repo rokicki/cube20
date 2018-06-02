@@ -1,0 +1,25 @@
+From latto@lucid.com  Fri May 10 22:55:59 1991
+Return-Path: <latto@lucid.com>
+Received: from lucid.com by life.ai.mit.edu (4.1/AI-4.10) id AA28273; Fri, 10 May 91 22:55:59 EDT
+Received: from boston-harbor ([192.43.175.1]) by heavens-gate.lucid.com id AA03012g; Fri, 10 May 91 19:54:56 PDT
+Received: by boston-harbor id AA29787g; Fri, 10 May 91 22:58:29 EDT
+Date: Fri, 10 May 91 22:58:29 EDT
+From: Andy Latto <latto@lucid.com>
+Message-Id: <9105110258.AA29787@boston-harbor>
+To: mindcrf!ronnie@peabody.mindcraft.com
+Cc: Cube-Lovers@life.ai.mit.edu
+In-Reply-To: Ronnie Kon's message of Mon, 6 May 91 11:14:02 -0700 <9105061814.AA22955@peabody.mindcraft.com>
+Subject: 5by cubes
+
+
+> On the other hand, I would be willing to pay a fair amount of money for
+> an order 21 cube. :-)
+
+You can't make an order 21 cube, or any cube of order 7 or higher.
+When you turn the top layer of such a cube by 45 degrees, the corner
+cubie will not touch the other layers at all, so there's
+no way to keep it attached, and it will fall off.
+
+						Andy Latto
+						latto@lucid.com
+

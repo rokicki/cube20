@@ -1,0 +1,101 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun  5 16:29:27 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id QAA07123; Thu, 5 Jun 1997 16:29:27 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+Subject: Re: 5x5x5 practical Q's
+Date: 5 Jun 1997 19:48:39 GMT
+Organization: California Institute of Technology, Pasadena
+Message-ID: <5n756n$po3@gap.cco.caltech.edu>
+References: <cube-lovers.Pine.LNX.3.95.970602113347.18268C-100000@dot.mcis.washington.edu>
+NNTP-Posting-Host: hedono.ugcs.caltech.edu
+X-Newsreader: NN version 6.5.0 #3 (NOV)
+
+
+Yes, I was part of the Freecell Project, and it was indeed achieved
+by many people working in parallel.
+
+The rest of this mail will probably be uninteresting to the
+advanced Cube-lovers on this list.  "Cubism for Dummies"?  
+
+David Barr <davidb@u.washington.edu> writes:
+>I don't understand what ARA'R' means.
+
+This is basically the commutator.
+
+A and A' represent a sequence of moves and the inverse of said sequence.
+R and R' represent a sequence of moves and the inverse of said sequence.
+
+The general technique is to discover sequences A and R that
+intersect in as few pieces as possible, then the sequence ARA'R'
+will only involve those pieces.  I.e., suppose sequence A does:
+  (1) an action J on set X and
+  (2) an action K on set Y.
+Suppose sequence R does:
+  (3) an action L on set Y and
+  (4) an action M on set Z.
+X, Y, and Z are disjoint; so, Y is defined as the intersection
+of the two sets that A and R operate on.
+Ao, the sequence ARA'R' becomes
+  (1) actions J and J' on set X.
+  (2) actions K, L, K', L' on set Y.
+  (3) actions M and M' on set Z.
+The actions on X and Z cancel out, and you end up with KLK'L' on set Y.
+If set Y is small, K and L are necessarily simple.
+
+Here's an example (take out your cube now):
+
+I use this following sequence to flip two edge cubies on the same slice:
+
+1.  Position the cube so that the edge cubies are at FL and FR.
+2.  RF'UR'F
+3.  Move the center slice to the right.
+4.  F'RU'FR'
+5.  Move the center slice to the left.
+
+The two edge cubies are now flipped.
+
+In this example, A = RF'UR'F, and R (sorry for the redundant notation,
+hope it doesn't confuse anyone) = Moving the center slice.
+
+If you watch the center slice closely during RF'UR'F, you'll 
+notice that all that sequence does is to flip the FR cubie
+while maintaining the rest of the center slice.
+
+It also creates a lot of junk on the top and bottom faces, 
+but since the R sequence only involves the center slice,
+that junk gets restored in step 4, when we reverse RF'UR'F.
+
+To reiterate, our steps are:
+A  : flip an edge cubie, creating some junk
+R  : move the center slice so that another edge is there
+A' : remove that junk, flipping another edge cubie you just positioned
+R' : move that center slice back.
+
+
+It is my feeling that a algorithm consisting only of a few basic
+moves and the ARA'R' technique is the most elegant algorithm of all.
+(Sorry, God.)
+
+Parity of the face pieces aside, the algorithms I use to solve the
+3x3x3, the 4x4x4, and the 5x5x5 are almost completely based on
+this method.  They appear very impressive to an onlooker; because
+of the complexity of A and R, it often appears as if I am messing
+up the cube, then bringing it back to a slightly more ordered
+state, then bringing it back to chaos, then ordering it again,
+etc., etc,. until the cube is solved.  The order in which I
+solve the cube (corners, paired edges, corner faces, edge faces,
+center edges, corner units, face centers) contributes to 
+this effect.
+
+(Similarly, the most impressive way of assembling a jigsaw puzzle
+is to look at each piece one by one and place each one where it
+belongs, instead of isolating the edge pieces first, etc.)
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+-------------------------------------------------------------------------------
+Question everything.  Learn something.  Answer nothing.  -- Engineer's Motto
+
+

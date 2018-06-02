@@ -1,0 +1,82 @@
+From xirion!jandr@relay.nl.net  Mon Mar  7 05:38:41 1994
+Return-Path: <xirion!jandr@relay.nl.net>
+Received: from sun4nl.NL.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA15552; Mon, 7 Mar 94 05:38:41 EST
+Received: from xirion by sun4nl.NL.net via EUnet
+	id AA19748 (5.65b/CWI-3.3); Mon, 7 Mar 1994 11:38:38 +0100
+Received: by xirion.xirion.nl id AA08619 (5.61/UK-2.1);
+          Mon, 7 Mar 94 11:37:25 +0100
+From: Jan de Ruiter <jandr@xirion.nl>
+Date: Mon, 7 Mar 94 11:37:25 +0100
+Message-Id: <8619.9403071037@xirion.xirion.nl>
+X-Organization:  Xirion Unix Software & Consultancy bv
+		 Burgemeester Verderlaan 15 X
+		 3454 PE  De Meern
+		 The Netherlands
+X-Phone: 	 +31 3406 61990
+X-Fax: 		 +31 3406 61981
+To: cube-lovers@life.ai.mit.edu
+
+To anandrao@HK.Super.NET
+Subject: Re: your mail
+Cc: cube-lovers@life.ai.mit.edu
+In-Reply-To: <Pine.3.07.9402251654.A20452-b100000@hk.super.net>
+
+>
+>On Fri, 18 Feb 1994, Jan de Ruiter wrote:
+>> 
+>> Sorry about not reporting this earlier, but my search for solutions for
+>> Rubiks Tangle 10x10 confirms the finding of Don Woods: no solutions!
+>> 
+>[snip]
+>> we could re-define the puzzle as follows:
+>>   find which four pieces to duplicate in order to find solutions for
+>>   the 10x10.
+>> If the number of solutions varies depending on the choice, you could
+>> even add a restriction:
+>>   find which four pieces to duplicate in order to find a set which has
+>>   the minimum number of solutions for the 10x10.
+>        ^^^^^^^
+>The kind Mr. Rubik has already done that - the minimum is - ZERO!
+
+Correct, but I think you know what I mean: minimum >= 1
+
+>The revised problem can be solved fairly easily using your program ( I
+>don't know, though, how long it takes to run to completion for the 10*10
+>case)
+
+More than a week
+
+>      - try to place only 99 tiles  out of the 100 given tiles. You may
+>have several sub-solutions. It is then easy to determine for each of these
+>sub-solutions which tile you need to complete the 10*10 mosaic.
+
+I am sorry, but I have to disagree on this. It is not that simple.
+
+If you managed to place 99 pieces, you have already placed three or even
+all four of the duplicated pieces (depending on which one is left over)
+If you placed three, there are tree possibilities for the piece we need:
+- it is nonexistent (illegal colour combinations): no solution
+- it is one of the duplicated pieces: this means two of the four puzzles
+  will be identical which is OK, but not so nice, or
+- it is any other piece: we found a good solution
+
+If you placed all four duplicated pieces already, any solution you find
+will not satisfy the conditions of the puzzle (i.e. precisely four duplicated
+pieces).
+
+And in both cases you have not solved:
+   which four pieces to duplicate in order to find solutions for the 10x10.
+but:
+   which four pieces to duplicate in order to find solutions for the 10x10,
+   with the restriction that three of them must be identical to any three
+   taken from the set of four duplicates given by Rubik.
+
+Solving the puzzle without this restriction requires a different approach.
+I was thinking of starting the program with 5 of each (120 pieces), and after
+placing the 5th duplicated piece remove the rest of the duplicates from
+the remaining pieces, and see if this leads to a solution. As soon as back-
+tracking removes the 5th duplicate, all other duplicates must be made
+accessible again.
+
+	Jan
+

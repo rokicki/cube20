@@ -1,0 +1,47 @@
+From ccw@eql12.caltech.edu  Fri Feb 10 19:14:16 1995
+Return-Path: <ccw@eql12.caltech.edu>
+Received: from EQL12.Caltech.Edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05888; Fri, 10 Feb 95 19:14:16 EST
+Date:    Fri, 10 Feb 95 16:14:11 PST
+From: ccw@eql12.caltech.edu
+Message-Id: <950210161411.25007867@EQL12.Caltech.Edu>
+Subject: I have a non-standard Pyraminx. (its magic number is 5)
+To: cube-lovers@ai.mit.edu
+X-St-Vmsmail-To: ST%"cube-lovers@ai.mit.edu"
+
+It is a shallow cut Dodecahedron.
+Could this be one of the "Five Pyraminxes"?
+I don't remember what it's official name is, though I thought it was
+the Master Pyraminx.  (I will have to check my collection at home)
+
+I only ever sow these once, in J.C Penny's, thankfully I bought one.
+
+I always viewed this as a combining of 2 puzzles, Alexander's Star and
+a round one, whose name escapes me at the moment.
+
+My copy of this puzzle has 2 yellow and 2 red faces.  I think they ran
+out of colors.
+This means that if I am not carefull I can appear to have 2 edges switched.
+This is more apparant then real because the stickers for each face have
+ridges which can be used to make the proper choice.
+
+There are 12 faces, which can be independantly turned by 72 degrees.
+Faces do not move with respect to each other.
+There are 20 corners which can only be in Even Permutations.
+Corners are like the cube, trios can be spun in the same direction, pairs
+can be spun in opposite directions.
+There are 30 edges which can only be in Even Permutations.
+Edges can flipped in pairs, just like the normal cube.
+
+
+group size should be
+                       20     30
+        30!    20!    3      2
+        --- *  --- * ---  * ---
+        2       2     3      2
+
+        Edge   Corn  Spin   Flip
+
+for the supergroup, increase by a factor of
+         12
+        5
+

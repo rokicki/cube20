@@ -1,0 +1,93 @@
+From cube-lovers-errors@curry.epilogue.com  Wed May 29 15:25:56 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id PAA02702 for <cube-lovers-outbound@curry.epilogue.com>; Wed, 29 May 1996 15:25:56 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 29 May 1996 10:56:15 +0100
+Message-Id: <9605290956.AA05172@mecmdb.me.ic.ac.uk>
+X-Sender: ars2@mecmdb.me.ic.ac.uk
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: CUBE-LOVERS@ai.mit.edu
+From: "We Love Stress Analysis." <a.southern@ic.ac.uk>
+Subject: Ultimate Rubik's Cube. (how to make a 4x4x4)
+X-Mailer: <PC Eudora Version 1.4>
+
+I was thinking about something similar to this a while back.
+
+I asked (as did many others) about 4x4x4s, but soon after I sent that E-mail 
+I realised that I was holding one with a few extra pieces.
+
+If we can consider a 3x3x3 Rubik's cube as a 2x2x2 with mid-edges and 
+centres, in effect we can reverse this and ignore the centres and mid-edges 
+of a 3x3x3 thus making it into a 2x2x2. 
+
+Anyone who wanted a 2x2x2 could just pull the stickers from the central 
+columns and rows of a 3x3x3. As this makes those pieces indistinguishable, 
+they are no longer part of the puzzle.
+
+the relationship between 4x4x4 and 3x3x3 is slightly harder, but the above 
+is true for 4x4x4 and 2x2x2 (but if ANYONE tries that with a 4x4x4, I'll hit 
+them!!!!!!!).
+
+A more common cube than the 4x4x4 is the 5x5x5 (which is still in 
+production, c/o Uwe Meffret). This can be transformed from a 5x5x5 into a 
+4x4x4 by removing the central lines of stickers. It can also be transformed 
+into a 3x3x3 (why anyone would want to.................) by removing columns 
+& rows 2&4 from each side, and 2x2x2 (I won't bother saying it.........) by 
+removing columns and rows 2,3,&4 from each side.
+
+Higher orders of cubes aren't in production, but apparently do exist in 
+cyberspace, These would display similar properties.
+
+The pattern is simple: smaller cubes with odd number of pieces per side can 
+be incorporated with other pieces to form larger cubes with odd number of 
+pieces per side. etc. etc. etc. 
+
+2x2x2 + (extras) = 3x3x3
+2x2x2 + (extras) = 4x4x4
+3x3x3 + 4x4x4 + (extras) = 5x5x5
+
+
+I'm sure there is some mathematical proof to what I am trying to say, but 
+I'm no mathematician.
+
+It might start off: 
+
+                        Pieces          Jump(from last)         used before:    
+2x2x2                   8                       8                            
+   0
+3x3x3                   26                      18                             8
+4x4x4                   56                      30                           
+   8       
+5x5x5                   98                      42                           
+   74
+6x6x6                   152                     54                           
+  ??? 
+
+I would say that the ultimate Rubik cube was in fact the 2x2x2 because it 
+features in all the solutions. However, based on this logic, the 8086 is the 
+ultimate P.C. as any P.C. can run 8086 software, but an 8086 can't run 80386 
+software................
+
+
+
+
+
+I hope this E-mail hasn't been too scatter brained...................
+
+
+
+Andy.
+
+
+
+
+
+
+
+Fact: did you know that British Airways has more Super-Sonic flying time 
+than any air force in the world??
+
+
+

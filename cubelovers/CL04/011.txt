@@ -1,0 +1,73 @@
+Date: 17 May 1982 17:30-EDT
+From: Allan C. Wechsler <ACW at MIT-AI>
+Subject: Reactions to 4^3.
+To: CUBE-LOVERS at MIT-AI
+
+
+Bernie and I have divided the double-takers into three major
+classes:
+
+1. "Oh, a four-by-four cube!"
+
+2. "Oh, a four-sided cube!"
+
+(and the best of all)
+
+3. "Oh, a four-dimensional cube!"
+
+One of the contributors to this list inadvertently made
+error #3 by calling the 4x4x4 a "C^4".  Which brings me to
+an interesting question.  What would a four-dimensional
+cube really be like?  Let's just start with a 2x2x2x2.  It
+would have sixteen hypercubies, all of the "corner" type.
+Each hypercubie presents to the outside world four
+three-dimensional hyperstickers.
+
+The 2^4 has eight three-dimensional hyperfaces, presumably
+each its own color.  I like the idea of using black and
+violet along with the traditional red, yellow, orange,
+blue, green, and white.  We can call the hyperfaces Back,
+Front, Up, Down, Left, Right, In, and Out.  In is across
+the puzzle from Out.  I doesn't touch O, but does touch
+all the  other  hyperfaces.
+
+The 2^3 can be seen as two square slabs stuck together.  Of
+course, they aren't really "square" since they have
+thickness.  A move consists of rotating one of these
+squares with respect to the other.
+
+Similarly, the 2^4 is two cubical hyperslabs stuck
+together.  Of course, they aren't really cubical since they
+have hyperthickness.  A move consists of rotating one of
+these cubes with respect to the other.  
+
+While the two slices of a 2^3 can only have four relative
+positions, the hyperslices of a 2^4 can have twenty-four
+different alignments.  There are twenty-four corresponding
+twists.  One is the null twist, which consists of just
+sitting and looking at the thing.  (In this case, this is
+not such a trivial operation!)  Then there are six
+different quarter-twists, as opposed to two in the 3D case.
+Then there are, get this, eight "third-twists", which when
+repeated three times bring the slice home.  These have no
+analog in the 3D puzzle.  The remaining nine twists are
+half-twists, three of one kind and six of another.
+
+As in the three-dimensional case, the half-twists and
+third-twists are all products of quarter-twists.  If we
+regard one of the sixteen hypercubies as fixed (without
+loss of generality, if you'll believe that) then there are
+twenty-four different quarter-twists in all.  Twelve of
+these are inverses of the other twelve, but selecting the
+twelve "clockwise" ones is a lot harder than it is in the
+three-dimensional case.  My intuition fails me.
+
+I haven't tried to apply the Furst-Hopcroft-Luks algorithm
+to this monster.  At most there are 6^15*15! =
+4.7*10^11*1.3*10^12 = (very roughly) 6*10^22.  I suspect
+that some kind of parity, trinity, or quaternity argument
+will reduce this by a factor of two, three, or four.  
+
+Yours with a headache,
+
+   --- Allan

@@ -1,0 +1,17 @@
+Received: from BFLY-VAX.BBN.COM (TCP 20026200235) by AI.AI.MIT.EDU 27 Apr 87 17:56:43 EDT
+To: Dan Hoey <hoey@nrl-aic.ARPA>
+cc: "Aaron R. Coles" <acoles@note.nsf.gov>, Cube-Lovers@ai.ai.mit.edu, 
+    dm@bfly-vax.bbn.com
+Subject: Re: Rubik's Cube
+In-reply-to: Your message of 27 Apr 1987 16:47:22 EDT (Mon).
+	     <546554843/hoey@nrl-aic>
+Date: 27 Apr 87 17:55:18 EDT (Mon)
+From: dm@bfly-vax.bbn.com
+
+
+> A harder problem is to get an ordinary magic cube.  I haven't seen one
+> for sale in years.
+
+Yard sales.  Even if you don't find one for sale at the sale, you can
+probably ask the person running the sale if they have one they
+wouldn't mind selling.

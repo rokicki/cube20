@@ -1,0 +1,28 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Jul 26 16:39:05 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA19300; Fri, 26 Jul 1996 16:39:05 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <01BB7B0E.AA2487E0@dialup-17.flnet.com>
+From: Christopher Pelley <ck1@flnet.com>
+To: "'Cube Lovers'" <Cube-Lovers@ai.mit.edu>
+Subject: Ray-traced cubes
+Date: Fri, 26 Jul 1996 16:22:18 -0400
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+For those interested in three-dimensional graphics of Rubik's Cubes, I =
+have made a few nice-looking images and put them at:
+
+	http://www.flnet.com/~ck1
+
+The images are 1024x768 JPEG files.  They were inspired by a ray-traced =
+image I found on America Online a couple years ago.  There is also a =
+scanned image of cube advertisements from the early 80's.  Enjoy!
+
+Chris Pelley
+ck1@flnet.com
+
+
+

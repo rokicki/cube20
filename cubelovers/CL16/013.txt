@@ -1,0 +1,58 @@
+From mreid@ptc.com  Tue May 30 15:39:31 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25072; Tue, 30 May 95 15:39:31 EDT
+Received: from ducie by ptc.com (5.0/SMI-SVR4-NN)
+	id AA11138; Tue, 30 May 95 15:37:29 EDT
+Received: by ducie (1.38.193.4/sendmail.28-May-87)
+	id AA15624; Tue, 30 May 1995 12:29:29 -0400
+Date: Tue, 30 May 1995 12:29:29 -0400
+From: mreid@ptc.com (michael reid)
+Message-Id: <9505301629.AA15624@ducie>
+To: cube-lovers@ai.mit.edu
+Subject:   Re: AntiSlice Under M-conjugacy (and a problem with slice)
+Content-Length: 1649
+
+jerry writes
+
+[ ... ]
+
+> >> >>       Level       Positions     Strong      Weak        Total
+> >> >>                                Local Max   Local Max   Local Max
+> >> >>
+> >> >>         6            184           1          35          36
+> >>
+> >> >beg the obvious question:  what is that strong local maximum,
+> >> >which is unique up to symmetry?
+
+[ ... ]
+
+> Try instead, (L2R2)(U2D2)(F'B')(U2D2)(L2R2)(F'B').
+> 
+> This is a very pretty pattern which may well have a name, but I
+> don't know what the name is.  Also, it is its own inverse.
+> 
+> Is the length 12h in <Q,H>?  Is it a local maximum (strong or otherwise)
+> in <Q,H>?   Is the length 20q in <Q>?  Is it a local maximum in <Q>?
+
+no, yes (otherwise), no, and yes, respectively.
+
+we have seen this pattern several times recently.  this is one of 
+those positions with 16 symmetries.  i called it "four pluses" in my 
+message of may 11 (although i gave it in a different orientation)
+
+)     four pluses                 ( R2 F2 R2 U'D F2 R2 F2 UD' )
+
+in fact, this maneuver is minimal in both the quarter turn and the
+face turn metrics, so its length is  16q, 10f.  it is a weak local
+maximum in the face turn metric; one can check that no minimal
+maneuver ends with the face turn R.  however, using the 16 symmetries
+which preserve the  U-D axis, and inversion, we can give minimal
+maneuvers which end with turns of any of the six faces.  this shows
+that it's a weak local maximum in the face turn metric.  local
+maximality in the quarter turn metric follows in a similar manner.
+
+also, mark pointed out on april 16 that this position lies in the
+center of the antislice group.
+
+mike
+

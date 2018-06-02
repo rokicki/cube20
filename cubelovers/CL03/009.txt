@@ -1,0 +1,25 @@
+Date: 17 August 1981 11:34-EDT
+From: Allan C. Wechsler <ACW at MIT-AI>
+Subject:  12q relations.
+To: CUBE-LOVERS at MIT-AI
+
+
+    I12-1	FR' F'R   UF' U'F    RU' R'U
+    I12-2	FR' F'R   UF' F'L    FL' U'F
+    I12-3	FR' F'R   UF' UL'    U'L FU'
+
+I can't believe I'm the first person to notice this:
+
+Suppose we only know I12-1 and I12-2.  Then we have
+
+I12-1'			U'RUR'F'U (FR'F'RUF')'
+(I12-1')(I12-2)		U'RUR'F'U (FR'F'RUF')' (FR'F'RUF') F'LFL'U'F
+Reduce:			U'RUR'F'U F'LFL'U'F
+Conjugating by (U'RUR'F'U)', we get 
+			F'LFL' U'FU'R UR'F'U
+But this is just the RL mirror image of
+			FR'F'L UF'UL' U'LFU'
+
+This is exactly I12-3.  So there are really only two independent 12q
+identities, and the third can be deduced from them.
+

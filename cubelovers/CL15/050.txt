@@ -1,0 +1,38 @@
+From BRYAN@wvnvm.wvnet.edu  Tue Feb 21 14:31:14 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01060; Tue, 21 Feb 95 14:31:14 EST
+Message-Id: <9502211931.AA01060@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4023; Tue, 21 Feb 95 13:20:15 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 3261; Tue, 21 Feb 1995 13:20:16 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Mon, 20 Feb 1995 20:11:50 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Pons Asinorum Superflipped Halfway Positions (corrected)
+
+As Mike Reid pointed out, the sequences were backwards.  The error was
+a human error on my part interpreting the output of the backtracking
+program which converted positions to processes.  The error occurred
+when I moved the output of the program to E-mail.  Each individual
+qturn operator needs to be inverted as in the following corrected table.
+
+ 1. L  R' D  R' L  F' R  B  U  F
+ 2. L  R' D  R' L  F' U  F  R  B
+ 3. U  D' L  D' U  F' D  B  R  B
+ 4. F  B' U' F  B' D  F  L  D  B
+ 5. U  D' F' U  D' R  B' R' U' R'
+ 6. U  D' L  D' U  F' R' B' D' B'
+ 7. F  B' L' F  B' D  F  D  R  D
+ 8. F  B' L' F  B' D  R  U  F  D
+ 9. U  D' B  U  D' L' D' L' F' R'
+10. B' B' F' U  D' R' F' D' B' U'
+
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

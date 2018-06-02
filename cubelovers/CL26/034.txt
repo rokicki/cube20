@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Nov 19 13:41:00 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA03513
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 19 Nov 1998 13:40:59 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19981117105414.18936.rocketmail@attach1.rocketmail.com>
+Date: Tue, 17 Nov 1998 02:54:14 -0800 (PST)
+From: "Jorge E. Jaramillo" <kingeorge@rocketmail.com>
+Subject: The Cylinder
+To: cube <Cube-Lovers@ai.mit.edu>
+
+I was checking the Rubik official website and I was
+surprised not to find one product that I seem to find
+here (I live in Colombia South America) fairly
+easily. I am talking about the cylinder.
+When I first saw it I bought it and thought it was
+going to be some amazing and tricky to solve puzzle,
+it ended up being a 3x3 cube with the corners cut, so
+corner cubelets only have 2 colors and there are two
+types of borders, 8 borders with the usual two colors
+and 4 with only one.
+
+Does it mean that this cube was "invented" by some
+manufacturer other than Mr Rubik and that is not so
+common?
+===
+Jorge E Jaramillo
+
+[Moderator's note: I own such a puzzle, but I would call its shape
+ an octagonal prism, rather than a cylinder.  On mine, the solved
+ position is not an octagonal prism because one beveled face is
+ rotated 90 degrees, forming a decahedron whose faces are six
+ rectangles and four irregular hexagons. I don't remember whether
+ it was originally manufactured this way or whether I altered the
+ color tabs. ]
+

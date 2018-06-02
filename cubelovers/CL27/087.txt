@@ -1,0 +1,35 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue May 11 15:16:14 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA21349
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 11 May 1999 15:16:14 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Sender: davidb@u.washington.edu
+Message-Id: <373875FF.5EBFA011@iname.com>
+Date: Tue, 11 May 1999 11:25:03 -0700
+From: David Barr <davidbarr@iname.com>
+To: WaVeReBeL@webtv.net, cube-lovers@ai.mit.edu
+Subject: Re: "Negative" Turning
+References: <11000-3733527C-9578@postoffice-123.bryant.webtv.net>
+
+The reason that "negative turning" is necessary is because the prior
+turn did not get the faces lined up exactly.  Let's look at the sequence
+"R U".  You turn the right face a quarter turn, then you turn the upper
+face a quarter turn.  If you make the R turn a fraction of inch too far,
+then the cube will correct itself when you try to make the U turn.  But
+if you make the R turn a fraction of an inch too short, the upper face
+will lock if you first try to turn it clockwise.  The "negative turn"
+doesn't lock up because it is counterclockwise.  When you then start to
+turn the U face counterclockwise it straightens up the R face so that
+the U face is free to turn in either direction.
+
+"Negative turning" is sometimes necessary, but a better solution is to
+always either overturn or underturn by a fraction of an inch depending
+on which way you plan on making the next turn.  So if you are planning
+on turning "R U", make sure your "R" is a fraction of an inch past a
+quarter turn, but if you are planning to turn "R U'", make sure your "R"
+is a fraction of an inch short of a quarter turn.
+
+David
+

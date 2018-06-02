@@ -1,0 +1,21 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Oct  6 21:04:33 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA29479; Mon, 6 Oct 1997 21:04:32 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Cube-Lovers-Request@ai.mit.edu Mon Oct 6 21:02:21 1997
+Date: Mon, 6 Oct 1997 21:02:21 -0400 (EDT)
+Message-Id: <06Oct1997.210221.Cube-Lovers@AI.MIT.EDU>
+From: Cube Lovers Moderator <Cube-Lovers-Request@AI.MIT.EDU>
+To: Cube-Lovers@AI.MIT.EDU
+Subject: 4x4x4 solution -- [Digest v23 #170]
+
+Cube-Lovers Digest         Mon, 6 Oct 1997      Volume 23 : Issue 170
+
+Today's Topic:
+                           4x4x4 solution
+
+----------------------------------------------------------------------
+
+Date: Wed, 1 Oct 1997 23:26:34 -0400 (EDT)

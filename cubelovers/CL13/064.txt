@@ -1,0 +1,95 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Nov 23 17:02:19 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07588; Wed, 23 Nov 94 17:02:19 EST
+Message-Id: <9411232202.AA07588@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 8645; Wed, 23 Nov 94 17:02:27 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 4727; Wed, 23 Nov 1994 17:02:27 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 23 Nov 1994 17:02:26 -0500 (EST)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   <U,R> Q vs. Q+H Distance to Start -- All Positions
+
+This is the same chart as before except that it is in terms of all
+cube positions in <U,R> rather than in terms of W-conjugacy classes.
+
+At the same time, I will take the opportunity to correct an error
+in the previous posting.  Permitting Q+H moves rather than just
+Q moves can save up to 10 moves (e.g., 25 moves with Q and 15 moves
+with Q+H, 24 moves with Q and 14 moves with Q+H, and 22 moves with
+Q and 12 moves with Q+H).  My thanks to Dan Hoey for spotting this error.
+
+
+                         Q+H Distance from Start
+
+
+      0 1 2  3  4   5   6    7    8     9    10    11     12     13      14
+    0 1
+    1   4
+    2   2 8
+Q   3     8 16
+    4     2 24 32
+D   5       12 64  64
+i   6        2 48 160 128
+s   7          16 160 384  256
+t   8           2  80 480  896  512
+a   9              20 320 1344 2048  1024
+n  10               2 120 1120 3584  4590  2032
+c  11                  24  560 3552  9168 10128  4016
+e  12                   1  164 2232 10519 22736 21820   7788
+   13                       20  880  7904 29732 54624  46332  14700
+f  14                           192  3904 25890 80606 128248  96324   25528
+r  15                            16  1184 15238 79970 210684 293572  187112
+o  16                                 177  5900 54398 234536 536474  641412
+m  17                                  12  1280 25164 181514 663960 1310584
+   18                                       150  7192  96478 564998 1791466
+S  19                                         8  1072  31288 321242 1613572
+t  20                                              58   5186 107919  902990
+a  21                                                    296  17192  269272
+r  22                                                      1    592   32122
+t  23                                                                   782
+   24                                                                     8
+   25
+
+                         Q+H Distance from Start
+
+           15      16      17      18    19 20
+    0
+    1
+    2
+Q   3
+    4
+D   5
+i   6
+s   7
+t   8
+a   9
+n  10
+c  11
+e  12
+   13
+f  14
+r  15   39764
+o  16  328532   49916
+m  17 1286534  464878   34914
+   18 2960340 2069994  393142    8230
+S  19 4333614 5277159 1974444  107256   166
+t  20 3846819 7828346 5215618  562494  2252
+a  21 1881664 6123940 6933978 1349768 10712
+r  22  405221 2181984 4071140 1328952 19411 32
+t  23   23010  232088  779418  462831 12969 12
+   24      92    2714   18612   23981  1936  8
+   25       2               8      56    19  2
+
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

@@ -1,0 +1,67 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Aug 31 16:01:10 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA18411; Sat, 31 Aug 1996 16:01:09 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Authentication-Warning: coronado.nadn.navy.mil: wdj owned process doing -bs
+Date: Sat, 31 Aug 1996 08:42:30 -0400 (EDT)
+From: Assoc Prof W David Joyner <wdj@nadn.navy.mil>
+X-Sender: wdj@coronado
+To: cube-lovers@ai.mit.edu
+cc: Assoc Prof W David Joyner <wdj@coronado.nadn.navy.mil>
+Subject: cube programs, etc
+In-Reply-To: <199608301638.SAA11650@helen.cli.di.unipi.it>
+Message-ID: <Pine.GSO.3.95.960831081024.20193D-100000@coronado>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+Hello cube lovers:
+ 
+Several things:
+1. I have written computer programs in maple
+for (a) the skewb,(b) the rainbow masterball,
+(c) the 3x3 Rubik's cube, and (d) the 4x4 Rubik's
+cube. You must have maple (http://www,maplesoft.com)
+to run it and the program simulates any move of one of 
+the above puzzles using maple's 3-d graphics. The idea is
+that, using one of these programs, you can
+"virtually" make a move, the program draws the
+cube in 3-space, and maple allows you to rotate
+the cube around with your mouse (assuming you have 
+the windows version of maple).
+  These programs do not solve the puzzle, only
+simulates the moves. It appears to be possible, with
+some work, to link these programs with gap to
+provide a solution as well, but I don't have the
+time to do that.
+
+2. Andrew Southern from London (whom I've lost touch with) 
+and I worked out a fairly simple collection of moves to 
+help solve the rainbow masterball. These are available.
+   Apparently 2-cycle exist on the masterball, unlike
+the Rubik's cube. We do not know of a relatively
+short expression for one. If anyone out there knows
+of one please let me know.
+
+3. This stuff can be found on my www page
+
+http://www.nadn.navy.mil/MathDept/wdj/myhome.html
+
+under "computer programs" and "Rubik's cube like
+puzzles". If there are any problems loading them
+I'll try to help.
+                          - David
+
+PS: FYI, Ishi Press International has moved recently.
+They are having a puzzle sale as well (their phone is
+(800)859-2086 or (415)323-6996). I think they have
+some cheap skewbs. Also, on a recent business
+trip I stopped by Puzzletts store in downtown
+Seattle - the best puzzle or game store I've ever seen.
+Their www address has been posted recently
+in this list so I won't repeat it.
+
+
+
+

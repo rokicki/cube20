@@ -1,0 +1,21 @@
+ACW@MIT-AI 07/16/80 15:08:09 Re: Cubespeak
+To: CUBE-HACKERS at MIT-MC
+I would like to see some talk about a good language for
+describing cube manipulations.  I know Bernie has one that
+he swears by, but I would rather not see the discussion
+START with everybody giving their favorite cubespraak...
+this can get confusing, dogmatic, counterproductive, nobody
+listens, etc.  So let's keep the "My language is better than
+your language" to a minimum at first, and see what desiderata
+people consider as basic.
+
+My first contribution is:  I think that turning the cube over,
+rotating it, etc., without performing any twists -- that is,
+all the things that you could do just as well to a solid block of
+wood -- SHOULD be considered manipulations in their own right.
+This includes performing a mirror reversal.  Why?  So that
+manipulations that only differ in starting orientation will not
+have representations that look completely different.
+
+   ---Wechsler
+

@@ -1,0 +1,12 @@
+Received: from Louie.UDEL.EDU by MC.LCS.MIT.EDU 27 Jan 86 12:33:53 EST
+Received: from ccvax1 by Louie.UDEL.EDU id a005979; 27 Jan 86 12:32 EST
+Received: by vax1.acs.udel.edu (4.12/4.7)
+	id AA09563; Mon, 27 Jan 86 11:42:48 est
+Date: Mon, 27 Jan 86 11:42:48 est
+From: TOMCHANY <jethro%vax1.acs.udel.edu@Louie.UDEL.EDU>
+Message-Id: <8601271642.AA09563@vax1.acs.udel.edu>
+To: cube-lovers@mc.lcs.mit.EDU
+
+Please add me to your mailing list concerning THE CUBE and other puzzles.
+					Thank you,
+						M. Tomchany

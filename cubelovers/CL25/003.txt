@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 11 13:07:59 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA14544; Wed, 11 Mar 1998 13:07:59 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Mar 11 07:40:13 1998
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Blindfold Cube-solving
+Date: 11 Mar 1998 12:39:04 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <6e60l8$2bc@gap.cco.caltech.edu>
+
+Is there anyone who knows some good techniques for blindfold cube-solving?
+
+I can solve the cube in about 7 "peeks" or so, but that's still quite
+a ways from looking at the cube once and solving it behind one's back.
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+Smoking cigarettes are bad for you, so smoking cigarettes is bad for you.
+

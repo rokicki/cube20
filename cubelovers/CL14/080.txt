@@ -1,0 +1,75 @@
+From dik@cwi.nl  Tue Jan 10 18:20:52 1995
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA28829; Tue, 10 Jan 95 18:20:52 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id <AA22679@cwi.nl>; Wed, 11 Jan 1995 00:09:41 +0100
+Received: by boring.cwi.nl 
+	id <AA08275@cwi.nl>; Wed, 11 Jan 1995 00:09:40 +0100
+Date: Wed, 11 Jan 1995 00:09:40 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9501102309.AA08275=dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu, txr@alumni.caltech.edu
+Subject: Re: kociemba's algorithm for quarter turns
+
+ > Dik.Winter@cwi.nl writes:
+ > >But it can take long.
+
+Note the word *long*.  There is a 20-turn sequence for superflip.
+I have tried for shorter sequences using Kociemba's algorithm.
+(The 20-turn sequence does not take so awfully long to find,
+something like a day on this machine * perhaps).  I started
+the program 12 November 1993 at 12:03.  At 11 December 11:58
+it had searched phase1 up to length 16.  Alas, the machine
+crashed on 16 December 22:14.  The problem is the awfully
+large number of solutions that come out of phase 1 and that
+have to be checked &.  To wit:
+Length phase 1	    number	complete solutions
+	 8	         0
+	 9	         0
+	10	      3072	L=23, L=22
+	11	     61568	L=21
+	12	    792256
+	13	   8695488	L=20
+	14	  87912832
+	15	 841171136
+	16	7765525280 %
+The following solutions were successively found:
+L=23: F1 B1 R1 F2 R2 U3 D1 F1 R1 L1 B2 D1 F2 B2 D3 B2 D1 B2 U2 R2 B2 D1 B2
+L=22: F1 B1 R1 F2 R2 U3 D1 F1 R3 L1 U1 R2 F2 D3 B2 D3 R2 L2 U3 F2 D2 L2
+L=21: F1 B1 R1 U2 B2 U3 D3 R2 B3 R1 L1 U1 F2 L2 D2 B2 D3 F2 D1 L2 D1
+L=20: F1 B1 U2 R1 F2 R2 B2 U3 D1 F1 U2 R3 L3 U1 B2 D1 R2 U1 B2 U1
+
+So the next step is 17 in phase 1 with at most 2 turns in phase 2.  I will
+start the program again sometime.
+
+So we find more than a month for a single configuration.  And for this
+we need not check neighbors as the configuration is at a local maximum.
+I have another file with longuish configuration.  That is from a period
+when I tried random configurations, the results were:
+turns	#conf
+  16	    1
+  17	   24
+  18	  248
+  19	 1429
+  20	 8481
+total	10183
+This has also taken an awfully long time to do (I think it was about 2
+months).  I let the program stop as soon as it had found a solution of
+20 turns or less.  All random configurations were solved, but many of
+the 20 turn configurations have shorter solutions.
+
+So yes, it can be done, but:
+ > 5) Give up when patience is exhausted.
+this will come up before anything useful can be concluded I think.
+
+Unless something can be done to reduce the numbers.  It is possible
+because there are configurations that will come up many times during
+the process, but I do not yet know what to do about that within a
+reasonable amount of memory.
+--
+*  The machine is one processor of a Cray SMP: a 66 MHz Sparc.
+&  The number is much larger than what I found with other configurations,
+   for 15 turns about 800 times as large as the second largest.
+%  Estimated, there was overflow.  It can be off an integer
+   multiple of 4294967296.
+

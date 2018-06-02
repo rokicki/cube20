@@ -1,0 +1,71 @@
+From cube-lovers-errors@curry.epilogue.com  Sun Dec  1 00:58:31 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA05105; Sun, 1 Dec 1996 00:58:30 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sat, 30 Nov 1996 12:44:03 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: AirWong@aol.com
+cc: cube-lovers@ai.mit.edu
+Subject: Re: Dirty Cubes
+In-Reply-To: <961128223838_1985119134@emout20.mail.aol.com>
+Message-ID: <Pine.SUN.3.95.961130121830.21486G-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ Any self-respecting cube is made of plastic that >should< not be affected
+by isopropyl alcohol; but don't use it on an unknown plastic, especially
+if you don't want to lose that particular Cube. All except the center
+"jack" structure should be cleanable with (hand) dishwashing detergent;
+don't soak the pieces.
+
+ Rubbing alcohol has other substances in its formulation that could attack
+plastic; better to use 91% or 99% grade from a drugstore; shop around for
+price. I have seen 91% isopropyl alcohol at maybe 8 times the price it
+should be. Figure maybe $3 US per pint tops. It ignites fairly easily, by
+the way! Do be careful. 
+
+ Cleaning will remove all the lubricant, so you'll probably want to
+restore it. So far, silicone spray (note that it's not spellled "silicon" 
+spray; a chemist knows the difference) seems to be the best. If you have
+the Cube apart, consider silicone lubricating grease, also, but it should
+not contain other substances that would attack the plastic. (If applying
+it to a shiny surface removes the gloss when it's wiped off after sitting
+there for a short time, don't use it!). I have heard recommendations for
+silicone stopcock grease, which would be a scientific lab. item, as a
+joint grease for plastic recorders, but for those you want something that
+>won't< allow motion with light forces.
+
+ As to keeping dust out: A lubricant that isn't sticky will help; possibly
+finely powdered Teflon, or the white powdered lock lubricant that used to
+be (and might still be) on the market. Otherwise, it's a matter of
+avoiding a dusty environment!
+
+ In the Navy, we called it Preventive Maintenance, seems to me. (It was a
+while ago!) Routine disassembly for cleaning maybe once or twice a year
+seems reasonable. Fortunately, the "3" (and bigger ones) come apart
+gracefully. The Pocket Cube does not! (It also hates to be reassembled as
+well. Wonder whether it's assembled with special jigs and tools, or do the
+assemblers simply suffer?)
+
+On Thu, 28 Nov 1996 AirWong@aol.com wrote:
+
+}Hello All!
+}
+}How do you keep the original Rubik's cube (3X3X3) clean? If you've ever taken
+}apart the cube, you know what I'm talking about. The dust gets inside and
+}builds up over time. Is there any way to keep the dust out?
+}
+}Aaron Wong
+
+ My best to all,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+

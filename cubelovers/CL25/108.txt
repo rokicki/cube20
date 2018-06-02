@@ -1,0 +1,111 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug  6 11:20:35 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id LAA21031; Thu, 6 Aug 1998 11:20:34 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Aug  5 13:41:35 1998
+Date: Wed, 05 Aug 1998 13:41:10 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: superflip  composed with  four spot
+In-Reply-To: <199808021247.IAA08734@cauchy.math.brown.edu>
+To: michael reid <reid@math.brown.edu>
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <SIMEON.9808051310.B@muahost.pstcc.cc.tn.us>
+
+On Sun, 02 Aug 1998 08:47:44 -0400 michael reid
+<reid@math.brown.edu> wrote:
+
+> with my new optimal solver, i can show that the position
+>
+>      superflip  composed with  four spot
+>
+> is exactly 26 quarter turns from start.  this gives a new lower bound
+> for the diameter of the cube group.  the previous lower bound, 24q, was
+> from the position superflip, and was first established by jerry bryan.
+
+Nobody has said so yet on the list, but I think this is
+exciting news for Cube-Lovers, both the fact that a new
+lower bound has been discovered for the diameter of the
+cube group, and the fact that a new (and very long) local
+maximum has been found by means other than computer search.
+
+It seems to me that Mike's proof might provide an outline
+for a method for looking for other local maxima.  I have
+not at this point been able to use his method to find other
+local maxima, but here is how it might work.
+
+
+> proposition 1.  superflip  composed with  four spot  is a local
+>                 maximum in the quarter turn metric.
+>
+> proof.  we need to show that any quarter turn takes us closer to
+>         start.  the 12 different twists split up into two different
+>         types under the symmetry of this position:  {U, U', D, D'}
+>         and {R, R', F, F', L, L', B, B'}.  we claim that any maneuver
+>         for superflip composed with four spot must contain twists of
+>         both types.  a maneuver consisting only of twists in
+>         {U, U', D, D'} clearly cannot produce this position.  also,
+>         a maneuver consisting only of twists in
+>         {R, R', F, F', L, L', B, B'} cannot flip any edges.  thus
+>         both twist types must occur.
+
+More generally, for any position x, calculate Symm(x)=K,
+where K is as usual the subgroup of all k in M such that
+x=k'xk, and where M is the group of 48 symmetries of the
+cube.  Conjugation by K and grouping the elements of Q into
+conjugate equivalence classes induces a partition on Q, the
+set of twelve quarter turns.  In Mike's case, the partition
+is {Q1,Q2} where Q1={U, U', D, D'} and Q2={R, R', F, F', L,
+L', B, B'}.
+
+The process I am going to describe is much simpler if we
+confine ourselves to 2-way partitions of Q, such as Mike's
+case.  I think the process I am descibing can be
+generalized to more than 2-way partitions of Q, but some of
+the steps get more complicated.  So for now we confine
+ourselves to subgroups K of M which induce at most a 2-way
+partition of Q.
+
+Roughly speaking, this means that we need to find positions
+that are fairly symmetric.  I have been meaning for a long
+time to calculate a table of partitions of Q for each of the
+possible 98 subgroups of M. Perhaps Mike's new result will
+provide sufficient motivation to perform the calculations.
+
+The next hurdle is that we must find positions x such that
+x is not in <Q1> or <Q2>, so that a maneuver for x must
+contain quarter turns from both Q1 and Q2.  Mike's position
+certainly satisfies this criterion.   Notice that if we get
+this far, we can say that a maneuver for x must contain at
+least one element from Q1 and at least one element from Q2,
+but the elements from Q1 and Q2, respectively, need not
+necessarily appear at the end of the maneuver.  Also, by
+the definition of Q1 and Q2, *any* maneuver from Q1 and Q2
+can appear in a maneuver for x by K-conjugation.
+
+So far, so good.  I would go about this type of a search by
+determining which subgroups K of M induce a 2-way partition
+of Q, and then by thinking about what a K-symmetric
+position must look like.  But here's the rub -- the part I
+cannot figure out *in general".  In order to get the
+elements of Q1 and Q2 to the end of the maneuver for x, we
+need positions which may be cyclically shifted, either in
+the normal sense or in Mike's new sense where the part of
+the maneuver that is shifted is conjugated by K.
+
+There is a good bit of discussion in the archives about
+cyclical shiftiness.  I'm going to go back and re-read that
+discussion to see if it helps with this problem.  But any
+position x whose symmetry group induces a 2-way partition
+{Q1,Q2} on Q, where x is not in <Q1> or <Q2>, and where x
+is cyclically shiftable (possibly with K-conjugation of
+the shifted part) is a local maximum in the quarter turn
+metric.
+
+----------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+
+
+

@@ -1,0 +1,54 @@
+From bagleyd@source.asset.com  Fri May 27 13:46:56 1994
+Return-Path: <bagleyd@source.asset.com>
+Received: from source.asset.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA28346; Fri, 27 May 94 13:46:56 EDT
+Received: by source.asset.com (AIX 3.2/UCB 5.64/4.03)
+          id AA64537; Fri, 27 May 1994 13:42:15 -0400
+Date: Fri, 27 May 1994 13:42:15 -0400
+From: bagleyd@source.asset.com (David A. Bagley)
+Message-Id: <9405271742.AA64537@source.asset.com>
+To: cube-lovers@ai.mit.edu
+Subject: xrubik
+
+
+Hi
+  I just finished up "xrubik", a UNIX-X Rubik's cube.  It has been tested
+on Linux, SunOS, and HP-UX.  It currently resides on ftp.x.org at
+/contrib/games/puzzles.  Here's the blurb from the README in that 
+directory:
+-------------------------------------------------------------
+xrubik has been converted from xmrubik.
+  New features:
+        hold down control key to move whole cube
+        letters that represent colors can now be changed in mono-mode
+  Bug fix:
+        when xmrubik did not recognize when the cube was solved nontrivially
+        (i.e. the number of cubes on an edge > 1  OOPS.)
+ 
+The /R5contrib/xmpuzzles:
+xmpyramid       xmoct           xmskewb
+xmcubes         xmtriangles     xmhexagons
+are currently being changed to exclude Motif dependencies.
+The Motif versions will no longer be maintained.
+ 
+The proposed collection includes:
+SLIDING BLOCK PUZZLES
+xcubes:         expanded 15 puzzle
+xtriangles:     same complexity as 15 puzzle
+xhexagons:      2 modes: one ridiculously easy, one harder than 15 puzzle
+ 
+ROTATIONAL 3D PUZZLES
+xrubik:         a nxnxn rubik's cube
+xpyramid:       a nxnxn tetrahedron (a nxnxn pyraminx)
+                with Period 2, Period 3, and Combined cut modes
+xoct:           a nxnxn octahedron with Period 3, Period 4, and Combined cut
+                modes
+xskewb:         a cube with diagonal cuts
+The rest of the platonic solids (the dodecahedron and the icosahedron) seem
+too hard for me.
+ 
+These programs do not have self-solvers like "magiccube" (Motif) or
+"puzzle" (X).
+-----------------------------
+Have fun
+David (the newbie)
+

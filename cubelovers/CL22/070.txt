@@ -1,0 +1,76 @@
+From cube-lovers-errors@oolong.camellia.org  Thu May 29 00:28:49 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id AAA18145; Thu, 29 May 1997 00:28:48 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <338CEAA0.6CBB@idirect.com>
+Date: Wed, 28 May 1997 19:32:00 -0700
+From: Mark Longridge <cubeman@idirect.com>
+Organization: Computer Creations
+X-Mailer: Mozilla 2.01 (Win16; U)
+MIME-Version: 1.0
+To: Nichael Cramer <ncramer@bbn.com>
+CC: cube-lovers@ai.mit.edu
+Subject: Re: [gknauth:  Professor cracks Rubik's cube mystery]
+References: <199705281233.IAA05016@life.ai.mit.edu>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Nichael Cramer wrote:
+> 
+> [Simply passing along bits --N]
+> 
+> ----- Forwarded message # 1:
+> 
+> Date: Wed, 28 May 97 08:13:32 EDT
+> From: gknauth@BBN.COM
+> Subject: Professor cracks Rubik's cube mystery
+> 
+> > From: Andy Lee <alee@worldstreet.com>
+> 
+> Professor cracks Rubik's cube mystery
+> 
+> LOS ANGELES (May 27, 1997 5:43 p.m. EDT) - A University of California
+> computer science professor has solved the long-standing mystery of Rubik's
+> cube, university officials said Tuesday.
+> 
+> Richard Korf found a way to line up the colored squares of the cube in an
+> average 18 moves and a maximum of 20, officials said without explaining
+> exactly how it is done.
+> 
+> Rubik's cube, launched in the 1970s by the Hungarian Erno Rubik, became a
+> worldwide phenomenon, with people spending hours trying to manipulate it
+> into color-coordinated rows.
+> 
+> Korf is due to reveal his method at a national conference on artifical
+> intelligence July 28 in Providence, Rhode Island.
+> 
+> Copyright 1997 Nando.net, Agence France-Presse
+> 
+> ----- End of forwarded messages 
+Let's say the cube-lovers of the world are skeptical...
+
+Are we talking about q turns or q+h turns?
+My own conjecture (which I have kept to myself until now) was that Mike Reid's
+12-flip pattern in 24 q turns was the antipode in q turns only. I have no
+proof of this fact.
+ 
+It is possible Professor Korf has found a totally new approach to the rubik
+problem. Dik Winter (months and months before) never did find any position on
+the 3x3x3  which required more than 20 moves in the q+h metric. 
+ 
+Conventional wisdom (using Kociemba type algorithms) was that the god's algorithm
+for the standard 3x3x3 cube was intractible.
+ 
+In case case, without more evidence, this news message does not add to the
+existing level of cube knowledge. 
+ 
+I'm still waiting and watching for any optimal solutions to the Megaminx 
+spot patterns!
+ 
+Perhaps Professor Korf has a mathematical proof. It does seem unlikely that he
+sifted through all the possible positions.
+ 
+-> Mark
+
+

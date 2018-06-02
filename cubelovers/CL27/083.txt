@@ -1,0 +1,23 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri May  7 17:25:58 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA06644
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 7 May 1999 17:25:58 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: "Chris and Kori Pelley" <ck1@home.com>
+To: "Cube Lovers" <cube-lovers@ai.mit.edu>
+Subject: Darth Maul 2x2x2 Cube
+Date: Fri, 7 May 1999 08:05:46 -0400
+Message-Id: <LLBBJDCFCKLJHGBBOAGOAEHKCEAA.ck1@home.com>
+
+I've put a couple photos of the new Darth Maul Cube on my home page, in case
+anybody hasn't seen it yet.  The cube turns very smoothly, and is basically
+just an oversized 2x2x2.  I was surprised to discover they are made by
+OddzOn.
+
+http://www.chrisandkori.com/darthmaul.htm
+
+Chris Pelley
+ck1@home.com
+

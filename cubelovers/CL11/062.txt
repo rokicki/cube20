@@ -1,0 +1,40 @@
+From the archives:
+
+>      We include a description of 71 local maxima, which we believe
+> to be all of the local maxima that can be proven using known
+> techniques other than exhaustive search.
+
+Oh well, I used an exhaustive search. p160 is 10 moves long in the htw
+metric, and each of the moves ( T2, D2, F2, B2, L2, R2 ) all bring
+one to a position requiring nine 180 degree twists, thusly....
+
+4 H + T2 =      L2, R2, F2   B2, T2, L2   R2, B2, F2   (9)
+4 H + D2 =      L2, R2, F2   B2, D2, L2   R2, B2, F2   (9)
+4 H + F2 =      B2, D2, L2   R2, F2, L2   R2, F2, T2   (9)
+4 H + B2 =      F2, D2, L2   R2, F2, L2   R2, F2, T2   (9)
+4 H + L2 =      R2, D2, L2   F2, B2, L2   F2, B2, T2   (9)
+4 H + R2 =      L2, D2, L2   F2, B2, L2,  F2, B2, T2   (9)
+
+----------------------------------------------------------------------
+
+I did discover an interesting property of the "Cube in a cube" pattern
+I didn't notice before.
+
+p7a  Cube in a cube   U2 F2 R2 U3 L2 D1 (B1 R3) ^3 B1 D3 L2 U3  (15)
+
+Let's say you are entertaining some cube guests at a cube party and
+the topic is (cube) patterns. Your guests are impressed with the
+efficiency of the well-memorized process. You would like to go on
+to the next pattern but you don't quite remember how the inverse
+goes. No problem! Rotate the whole cube so TOP becomes BACK then
+BACK becomes DOWN, and finally FRONT becomes RIGHT. Simply repeat
+the process p7a and your reputation as a cube expert is saved. ;->
+
+This same idea works for the 6 X order 3 pattern as well.
+
+And now for an unsymmetric local maximum!!
+
+(Just kidding)
+
+  -> Mark <-
+

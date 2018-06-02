@@ -1,0 +1,60 @@
+Date: 2 August 1980 01:55-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject:  a metric for the cube group.
+To: CUBE-HACKERS at MIT-MC, McKeeman at PARC-MAXC
+
+First off, a metric is a function (call it D) that assigns a
+non-negitive number to every pair of points in some set.  This number
+is to be thought off as the distance between those two points.  The
+function must satisfy the following:
+
+For all a, b and c
+1) D(a,b) >= 0
+2) D(a,b) = D(b,a)
+3) D(a,b) = 0 if and only if a = b
+4) D(a,b) + D(b,c) >= D(a,c)
+
+(Number 4 is usually called the "triangle inequality".  It is the
+constraint that most makes D act like a distance, and not something
+random.)
+
+We wish to construct a metric on the set of all attainable cube
+configurations.  So from now on, those lower case letters will
+represent cube configurations.
+
+Now we have recently been talking a lot about methods of counting the
+number of "twists" that it takes to perform certain manipulations of
+the cube.  We have been looking for a function (call it T) that
+assigns a non-negitive integer to each manipulation.  I claim that it
+is obvious that any such function should satisfy the following:
+
+For all M and N
+1) T(M) >= 0
+3) T(M) = 0 if and only if M = I	(I is the identity manipulation)
+4) T(M) + T(N) >= T(MN)
+
+(We adopt the convention of using upper case letters to represent
+manipulations.  Also we shall use M' to denote the inverse manipulation
+from M.)
+
+Now manipulations can be applied to configurations to yeild other
+configurations.  We use aM to denote the configuration resulting from
+applyint the manipulation M to the configuration a.  (Note that
+(aM)N = a(MN), so we may omit the parens and simply write aMN.)
+
+Now how may we use our twist measuring function T to obtain a metric
+on the configurations?  Again I think it is obvious that we wish the
+relationship D(a,aN) = T(N) to be true for all configurations a, and
+all manipulations N.
+
+It is easy to show that given that D(a,aN) = T(N), metric property
+number 1 is equivalent to twist measure property number 1.  Similarly
+for numbers 3 and 4.  But what about metric property number 2?
+
+Well, if T(N) = D(a,aN), and D(a,aN) = D(aN,a) (property 2!), and
+a = aNN', then we have that T(N) = D(aN,aNN') = T(N').  So the missing
+property of twist measures must be that T(N) = T(N').
+
+So this means that if we agree that T(L) = 1, and we like metrics
+(how can we use words like "distance" unless we have a metric?), then
+T(LLL) = T(L') = T(L) = 1.  We can argue about T(LL) some other time!

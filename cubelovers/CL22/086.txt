@@ -1,0 +1,37 @@
+From cube-lovers-errors@oolong.camellia.org  Sat May 31 16:03:06 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id QAA27651; Sat, 31 May 1997 16:03:06 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <v03010d09afb5e34786e9@[204.71.18.82]>
+In-Reply-To: <199705300024.RAA18247@denali.cs.ucla.edu>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Sat, 31 May 1997 10:26:59 -0400
+To: Cube-Lovers@ai.mit.edu
+From: Nichael Lynn Cramer <nichael@sover.net>
+Subject: Website [was: Description of algorithm for ...]
+Cc: Richard E Korf <korf@cs.ucla.edu>, joemcg3@snowcrest.net, chrono@ibm.net,
+        Hoey@aic.nrl.navy.mil, kociemba@hrz1.hrz.th-darmstadt.de,
+        hirsh@cs.rutgers.edu
+
+Because of interest I've run into from friends elsewhere, I'm planning to
+collect the (useful) messages from this thread and hang them on a (possibly
+short-term) page on my website.
+
+Of course, this all assumes that there are no objections from the
+"participants"; in particular if you are in the CC list above, I'm
+currently planning to include one of your messages.  (Similarly, I'll be
+including any future "relevant" messages, again assuming the poster doesn't
+object.)
+
+Any other (relevant) matter is welcome.
+
+
+Nichael                                 "Pull down...
+nichael@sover.net                           ...tear up."
+http://www.sover.net/~nichael/                    -D. Martin
+
+
+
+

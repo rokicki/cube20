@@ -1,0 +1,32 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Oct 16 22:51:41 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA02682; Wed, 16 Oct 1996 22:51:41 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 17 Oct 1996 01:49:55 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9610162349.AA04173=dik@bever.cwi.nl>
+To: cube-lovers@ai.mit.edu, pbeck@pica.army.mil
+Subject: Re: largest cube
+
+ > I would like to revisit the question of
+ > what is the largest (number of slices)
+ > size cube that can be made.  As I
+ > recollect the center spindle mechanism
+ > has been analyzed and the conclusion
+ > was a 5x5x5.
+
+If I remember well the limit was not order 5 but 6, and not due to
+the mechanism but only because during turning the corner cubes will
+extend so much outside the cube that they are held by only 2 neighbours.
+*But* this holds only if your requirement is that all cubelets have the
+same size.  When you allow cubelets to grow when going from the center
+you can get larger (although I think even in that case there will be
+a limit, right now I am too lazy to think about it even further).
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland, +31205924131
+home: bovenover 215, 1025 jn  amsterdam, nederland; http://www.cwi.nl/~dik/
+
+

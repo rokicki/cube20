@@ -1,0 +1,93 @@
+From mreid@ptc.com  Tue Dec 27 19:49:45 1994
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06219; Tue, 27 Dec 94 19:49:45 EST
+Received: from ducie.ptc.com by ptc.com (5.0/SMI-SVR4-NN)
+	id AA18097; Tue, 27 Dec 94 19:48:22 EST
+Received: by ducie.ptc.com (1.38.193.4/sendmail.28-May-87)
+	id AA16989; Tue, 27 Dec 1994 20:00:04 -0500
+Date: Tue, 27 Dec 1994 20:00:04 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9412280100.AA16989@ducie.ptc.com>
+To: Cube-Lovers%ai.mit.edu@ptc.com
+Subject: Normal Subgroups of G
+Content-Length: 3023
+
+jerry writes
+
+[ ... ]
+
+>                                                             My
+> first question is that Frey and Singmaster do not state that At and
+> Af are normal subgroups of G.  It seems obvious that they are.
+
+indeed.
+
+> However, is the formal argument that (for example) At is a normal
+> subgroup of Ac and Ac is a normal subgroup of G; hence, At is a
+> normal subgroup of G?
+
+but this argument is not valid.  your question might be rephrased:
+
+if  H  is a normal subgroup of  G  and  K  is a normal subgroup of  H,
+does it follow that  K  is a normal subgroup of  G ??
+
+the answer is no.  here's an easy counterexample:
+
+let  G  be the alternating group  A_4,  H  the subgroup of order 4
+{e, (1 2)(3 4), (1 3)(2 4), (1 4)(2 3)},  and  K  the subgroup
+{e, (1 2)(3 4)}.  it is easy to see that  H  is normal  in  G  and
+K  is normal in  H.  however, if  x  is any three cycle (for example),
+xK != Kx.
+
+[ ... ]
+
+>                         "Sane" is a term used by Frey and Singmaster
+> in their proof of conservation of twist and flip.  In general, it
+> is easy to see if a cubie is twisted or flipped when it is home,
+> but it is not so easy to see if it is twisted or flipped when it
+> is not home.  Their proof (and the others I have seen) define a
+> frame of reference so that you can tell if a cube is twisted or
+> flipped when it is not home.  A cubie which is not twisted or
+> flipped in this frame of reference is sane.
+
+here's a completely different proof of "conservation" which doesn't
+use any frame of reference.
+
+instead of thinking of permutations of edge cubies, think of
+permutations of the facelets of the edges.  any quarter turn
+induces two four cycles of these edge facelets, which is an even
+permutation.  thus, any legal position has an even permutation
+of the edge facelets.  however, a single flipped edge is just
+a two cycle of edge facelets, an odd permutation, and therefore
+is not a legal position.
+
+my proof for conservation of twist is slightly more sophisticated,
+but i think it's worthwhile.
+
+the group of legal corner states may be viewed as a subgroup of the
+wreath product  S_8 wr C_3.  we have a natural homomorphism
+
+               S_8 wr C_3  --->  C_3              (*)
+defined  by
+               (s, c_1, ... , c_8) |-->  c_1 + ... + c_8
+
+(the cyclic group  C_3  is written additively).  it is easy to see
+that this is a homomorphism, but it uses the fact that  C_3  is abelian.
+(in general, we have a natural homomorphism
+
+               G wr H  --->  H^ab  ( =  H / [H, H] )
+
+defined in the same way.)
+
+conservation of corner twist is equivalent to saying that all legal
+corner states are in the kernel of the map given in  (*).  however,
+any quarter turn has order 4, so its image in  C_3  must be the
+identity.  thus all quarter turns lie in the kernel, and therefore
+the same is true of all legal positions.
+
+(actually, i've cheated slightly here.  we actually need a frame of
+reference in order to view the group of corner states as a subgroup of
+S_8 wr C_3.)
+
+mike
+

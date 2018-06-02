@@ -1,0 +1,36 @@
+From BRYAN@wvnvm.wvnet.edu  Tue Jan 10 23:43:25 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA19401; Tue, 10 Jan 95 23:43:25 EST
+Message-Id: <9501110443.AA19401@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 9498; Tue, 10 Jan 95 23:13:03 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5520; Tue, 10 Jan 1995 23:13:03 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Tue, 10 Jan 1995 23:13:02 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@life.ai.mit.edu>
+Subject:   Re: kociemba's algorithm for quarter turns
+In-Reply-To: Message of 01/11/95 at 00:09:40 from Dik.Winter@cwi.nl
+
+On 01/11/95 at 00:09:40 Dik.Winter@cwi.nl said:
+
+>Note the word *long*.  There is a 20-turn sequence for superflip.
+
+I think we have a winner.  I compared the data base for level 0
+through 9 against the same data base superflipped, with no
+matches.  That should mean that there is no 18-turn or less
+sequence for superflip.
+
+Adding in level 10 will take a bit longer.  Also, there
+is some minor new programming involved in this particular effort.
+When I do get level 10 added in, and do get a match, that should
+be a complete validation of the new programming, and complete
+confirmation that the 20-turn sequence is minimal.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

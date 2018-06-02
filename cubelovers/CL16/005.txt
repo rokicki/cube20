@@ -1,0 +1,67 @@
+From BRYAN@wvnvm.wvnet.edu  Tue May 23 14:39:03 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from LCS.MIT.EDU (mintaka.lcs.mit.edu) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24587; Tue, 23 May 95 14:39:03 EDT
+Received: from wvnvm.wvnet.edu by MINTAKA.LCS.MIT.EDU id aa14844;
+          23 May 95 14:07 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 3063; Tue, 23 May 95 14:04:04 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 6221; Tue, 23 May 1995 14:04:04 -0400
+Message-Id: <wvmail32.1995may22.150528.bryan@wvnvm.wvnet.edu>
+Date:      Tue, 23 May 1995 14:04:03 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@lcs.mit.edu>
+Subject:   M-conjugacy vs. C-Conjugacy in Slice and Antislice
+
+On 20 May, I said the following:
+
+>I doubt that Mark's theory about GAP using C-conjugacy for slice
+>instead of M-conjugacy is correct.  I already have 50 positions
+>to 23 for GAP, and using C-conjugacy would just make my results
+>larger.  For example, RL' and R'L are M-conjugate positions,
+>but not C-conjugate positions.
+
+We already know from Martin Schoenert that GAP is using neither
+M-conjugacy nor C-conjugacy, but <slice>-conjugacy.  But my
+statement about C-conjugacy vs. M-conjugacy was completely incorrect
+in any case.
+
+Dan Hoey pointed out to me that RL' and R'L in fact *are* C-conjugates
+under 180 degree rotation around the U-D axis.
+
+We can observe that R and R' are not C-conjugates, nor are L' and L,
+which suckered me into stating that RL' and R'L are not.  But
+rewrite R'L as LR' since opposite face moves commute.  Now, RL'
+and LR' are clearly C-conjugate.
+
+In fact, I have now verified with a quick search program that
+all M-conjugates in the slice group are also C-conjugates.  Hence,
+there are 50 C-conjugate classes in slice, just as there are
+50 M-conjugate classes.
+
+In retrospect, I don't think the search program was necessary.
+Suppose X and Y are M-conjugates in the slice group.  Then,
+they can be written as M-conjugate sequences.  That is, they
+can be written so that the individual slice moves are respective
+M-conjugates for some fixed m in M.  (The fact that it might be
+possible also to write them so that the individual slice moves
+are not respective M-conjugates for some fixed m in M is
+irrelevant.)  Furthermore, write the sequence for X so that the
+clockwise half of each slice is written prior to the
+counter-clockwise half of the slice.  The sequence for
+Y with individual slice moves being respective M conjugates of
+X may or not have this property.  But if not, then simply reorder
+the halves of the slices of Y to put the clockwise half first, and Y
+will still be piecewise M-conjugate with X.  Then, the piecewise
+M-conjugate slices are also C-conjugate, and therefore the X and
+Y positions are C-conjugate.
+
+Antislice is totally different.  For example, RL is M-conjugate to
+R'L', but it not C-conjugate.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

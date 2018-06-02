@@ -1,0 +1,70 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Oct  1 20:49:17 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id UAA28649; Wed, 1 Oct 1997 20:49:16 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From roger.broadie@iclweb.com Wed Oct  1 19:12:26 1997
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: <Cube-Lovers@ai.mit.edu>
+Subject: Re: 4x4x4 solution
+Date: Thu, 2 Oct 1997 00:09:47 +0100
+Message-Id: <19971002000735.AAA23683@home>
+
+I'm tempted to try a little more analysis of the parity constraints on
+the 4x4x4 cube, though no doubt it's all been done before.  As der
+Mouse said,
+
+A slice turn produces a 4-cycle on the edges and two 4-cycles on the
+face centres; a face turn produces a 4-cycle on the face centres and
+two 4-cycles on the edges (and a 4-cycle on the corners, which may or
+may not be relevant).
+
+I think it is very relevant. We can set the effects out as follows:
+
+Turn		Piece		Cycle(s)	Parity
+------          -------         --------        -------
+
+Slice		edge		1x4		odd
+		centre		2x4		even
+
+Face		edge		2x4		even
+		centre		1x4		odd
+		corner		1x4		odd
+
+The consequence is that the parity of the centre pieces depends
+entirely on the number of face turns - any slice turns do not affect
+the parity of these pieces since the changes they introduce will be of
+even parity.  For face turns, the changes to the parity of the corner
+pieces and the centre pieces are the same.  Hence if the corner pieces
+are in place, the centres will be in an even permutation, and that will
+not be changed even if the edge pieces are in an odd permutation, which
+was the essence of Clive McCaig's original question. Nor will that be
+changed by any turn of a central slice to bring them back to an even
+permutation.
+
+I the corners are correct (which I guess is the normal situation when
+the problem with the swapped edge pieces shows up) then, though I say
+so with some hesitation, I do not think Jerry Bryan is right in saying
+that the pair of swapped edge pieces will be matched by a pair of
+swapped centre pieces.  For example, the process I quoted switches edge
+pieces, and though it has no visible effect on the centre pieces, it
+does in fact change the positions of the centre pieces on the front
+face (if I have correctly identified the results of a bit of hasty work
+with little Post-it stickers).  However, the whole block of four
+rotates through 180 degrees, which is two 2-cycles and thus of even
+parity.  Edwin Saesen could mark the centre pieces, get them back to
+their original position and still find the edge pieces swapped, but
+that will not prevent his correcting the edge pieces, and then, if he
+wants to, correcting the centre pieces with even-parity processes.
+
+Luckily, for the 4x4x4, we do not have to worry about twists for the
+edge pieces or the centre pieces, since that is fixed geometrically for
+each position they can occupy.  When an edge piece is in its home
+position it must be the right way round.  When it moves to its
+next-door position it must flip.  I imagine this is the point behind
+Allan Wechsler's charming square-dancing analogy.  The centre pieces
+always present the same corner to the central intersection of the face.
+
+Roger Broadie
+

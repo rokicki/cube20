@@ -1,0 +1,52 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 19 19:31:58 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA18275
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 19 Mar 1999 19:31:57 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Fri, 19 Mar 1999 16:21:33 -0500 (Eastern Standard Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re : RE: parity pairs
+In-Reply-To: <009D558A.B96AC759.280@ice.sbu.ac.uk>
+To: Cube Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <SIMEON.9903191633.A@GN209A.PSTCC.CC.TN.US>
+
+On Fri, 19 Mar 1999 12:16:04 +0000 David Singmaster
+<david.singmaster@sbu.ac.uk> wrote:
+
+> 	Conway noted the two mirror-image orientations of the standard colour
+> pattern (W/Y, B/G, R/O).
+
+W/Y, B/G, R/O is the "differ by yellow" standard, which I prefer as
+"the" standard.  However, there are also references in Cube-Lovers
+archives to W/B, R/O, and Y/G as a standard or as the tournament
+standard.  I have no idea who gets to be the standards body to select
+"the" standard.
+
+But as one example of why I like the W/Y, B/G, R/O standard, many of
+the local maxima at 12q from Start are only "somewhat symmetric", but
+the eye's sense of symmetry in looking at them can be much stronger.
+The reason is that the eye (or my eye, at least) can easily identify
+W/Y as the "same" color, B/G as the "same" color, and R/O as the
+"same" color.  And when such identifications are made, the symmetry
+of many of the 12q local maxima is much stronger than it would be
+otherwise.  I really haven't looked at them with any other color
+scheme, but I can't imagine that the apparent symmetry would look as
+strong otherwise.
+
+Also, in all the various discussions about stickers, falling off and
+otherwise, there have been comments about cubes where it is hard to
+tell the colors apart, depending on the exact colors which are used,
+how faded the colors are with age, etc.  I guess my experience has
+been pretty positive in that my stickers have not fallen off and with
+one notable exception, the colors seem easy to distinguish.  The
+exception is that with my 2x2x2 Pocket Cube, it is very difficult to
+distinguish the orange from the red stickers unless I have very, very
+good lighting conditions.  This particular cube has always been this
+way.  I can think of no reason that a 2x2x2 should be this way as
+compared to a 3x3x3 or a 4x4x4, but it does seem to be the case.
+
+----------------------------------------
+Jerry Bryan
+

@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jan  2 00:51:34 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id AAA06440; Fri, 2 Jan 1998 00:51:34 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Jan  1 08:00:23 1998
+Message-Id: <199801011258.OAA17338@mail2.dial-up.net>
+From: "Frederik Strauss" <fstrauss@icon.co.za>
+To: "Cube Lovers" <Cube-Lovers@ai.mit.edu>
+Subject: Re: 5x5x5
+Date: Wed, 31 Dec 1997 04:17:14 +0200
+
+>From: Bryan Main <bmain@caddscan.com>
+>Subject: Re: 5x5x5
+
+>problems.  However, can I solve the middle pieces without destroying the
+>edges?  As of yet I haven't found a way to keep the one side I have
+
+Yes, as a matter of fact that is the current method I use to solve it,
+e-mail me if you want the moves.
+
+Cu
+Fred
+
+fstrauss@icon.co.za
+

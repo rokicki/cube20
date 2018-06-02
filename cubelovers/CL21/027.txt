@@ -1,0 +1,76 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Oct 16 14:01:16 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA01742; Wed, 16 Oct 1996 14:01:15 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <v02110102ae8a98f867c5@[129.139.180.185]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 16 Oct 1996 08:54:11 -0500
+To: cube-lovers@ai.mit.edu
+From: Peter Beck <pbeck@pica.army.mil>
+Subject: largest cube
+
+HI folks,
+
+I would like to revisit the question of
+what is the largest (number of slices)
+size cube that can be made.  As I
+recollect the center spindle mechanism
+has been analyzed and the conclusion
+was a 5x5x5.
+
+There is a new mechanism used in the
+MOZAIKA puzzle (info below).  I wonder
+if anybody has analyzed it to determine
+what configurations of cubes it could
+be used for.
+
+PS  This mechanism also seems to answer
+the question of whether or not the cube
+is a sliding block puzzle on a spherical
+surface or a solid rotating puzzle.
+
+
+********************************
+*  "MOZAIKA" is a spherical sliding block
+*  puzzle like Rubik's cube with a new
+*  mechanism.  I have only seen the 3x3x3
+*  version.  It has 2 types of pieces
+*  (the third, a sphere in the center appears to be
+*  unnecessary):  a triangular piece analogous
+*  to the cubes corner and a rectangular piece
+*  analogous to the center piece , using 2 of
+*  these to make an edge piece.  The puzzle
+*  thus has 3 orthogonal equators made up of
+*  the rectangular pieces and the corners.
+*
+*  These pieces interlock to form a spherical
+*  surface - the center is hollow.  The interlock
+*  method is that the corner pieces have a rail
+*  that the rectangular pieces ride on.  The
+*  corner pieces are held in space by the
+*  rectangular pieces (sorry for poor description).
+********************************
+*  FROM:  J&R DESIGNS
+*       1126 SOUTH STREET
+*        POB 315
+*        NILES, MICHIGAN 49120
+*  COST:  US $15
+*    + $3 POSTAGE USA OR $5 OVERSEAS
+*
+********************************
+
+   THE FUTURE IS PUZZLING, but CUBING IS FOREVER !!!
+
+Peter Beck,aka, Just Puzzles,  201-625-4191 answering machine
+
+  a cube WEB site;2/27/96 - <http://admin.dis.on.ca:80/~cubeman/>
+......................................................
+my  career site - updated 5/31/96 <http://qa.pica.army.mil:80/~pbeck/>
+......................................................
+last modified  31 May 1996
+
+
+
+

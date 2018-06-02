@@ -1,0 +1,26 @@
+Received: from ucbvax.Berkeley.EDU (TCP 1200400116) by AI.AI.MIT.EDU 19 Jun 87 06:03:20 EDT
+Received: by ucbvax.Berkeley.EDU (5.57/1.26)
+	id AA19637; Fri, 19 Jun 87 02:41:59 PDT
+Received: from USENET by ucbvax.Berkeley.EDU with netnews
+	for cube-lovers@ai.ai.mit.edu (cube-lovers@ai.ai.mit.edu)
+	(contact usenet@ucbvax.Berkeley.EDU if you have questions)
+Date: 19 Jun 87 03:18:06 GMT
+From: duke!mps@mcnc.org  (Michael P. Smith)
+Organization: Duke University, Durham NC
+Subject: Palindromes
+Message-Id: <9794@duke.cs.duke.edu>
+Sender: cube-lovers-request@ai.ai.mit.edu
+To: cube-lovers@ai.ai.mit.edu
+
+
+I was waiting for someone in the recent discussion on palindromes to
+refer to this book but no one did ...
+	PALINDROMES & ANAGRAMS  Howard W. Bergerson, Dover 1973.
+It has hundreds of palindromic sentences longer than those posted, as
+well as palindromic poetry, etc.  No section on palindromes
+constructed of palindromic letters, though.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Michael P. Smith		"Ungate me, vi, I've met a gnu!"
+mps@duke.cs.duke.edu
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _

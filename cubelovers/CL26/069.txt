@@ -1,0 +1,42 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Dec  9 17:00:48 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA26848
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 9 Dec 1998 17:00:47 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Creative ways of solving the cube
+Date: 9 Dec 1998 15:48:18 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <74m642$lb5@gap.cco.caltech.edu>
+References: <cube-lovers.199812042200.RAA02263@pike.sover.net>
+
+Nichael Lynn Cramer <nichael@sover.net> writes:
+>This is not a formal solution, but --say when I want to kill some time-- I
+>often find it entertaining to solve the 5X cube in "ascending spirals".
+
+Although I don't play with my 5x5x5 much, I do play with the 3x3x3 a lot
+and have entertained myself by solving it in many different ways.
+
+The canonical methods:
+  1.  First level, second level, third level
+  2.  Centers, corners, edges
+
+After much more understanding, however, I now try different techniques
+for entertainment.  In order of approximate difficulty:
+  0.  Solve to a particular state (pons asinorum, super-flip)
+  1.  Corners, edges, centers
+  2.  Edges, corners, centers (rather disorienting)
+  3.  First level, third level, center slice
+  4.  One face at a time, with no regard to correct cubie placement
+        as long as the color is correct (this is fun)
+  5.  Solve to a particular subgroup (half-turn group, anti-slice group)
+        then stay in that subgroup
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+"I'd like to have the same quest again, sir."
+

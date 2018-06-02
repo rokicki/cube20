@@ -1,0 +1,61 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Nov 13 16:27:44 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA04550; Wed, 13 Nov 1996 16:27:44 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 13 Nov 1996 16:13:57 -0500 (EST)
+From: Michael C Masonjones <mcmj@blazetech.com>
+X-Sender: mcmj@world.std.com
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Square 1
+In-Reply-To: <9611121909.AA31489@milo.cfw.com>
+Message-Id: <Pine.SGI.3.93.961113151157.4794B-100000@world.std.com>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+On Tue, 12 Nov 1996, Carey wrote:
+
+> Hello,
+> I'm working on a solution to the Square 1 puzzle.  Does anyone know the
+> maximum number of moves required?  Also I'm looking for the minimum number
+> of moves required to solve it if you have three consecutive edge wedges.
+> 
+> Pete Carey
+> g-carey@cfw.com
+> 
+I assume this means a permutation of three edge wedges.
+I can do it in 8 flips through the center divisor, the most convenient way
+I've found to count moves on Square-1.
+
+Start with the permutation on top (in the square/square configuration,
+of course).  Position top and bottom squares so that the left side of the
+top edge wedge facing you lies above the central turning slot and the
+right side of the bottom edge wedge lies below the same slot.  (If you
+flip through the center, you still have square configurations, top and
+bottom).
+
+T+n = rotate top n/12 of a turn counterclockwise, as seen from top..
+T-n = ..........................clockwise............
+B+n, B-n are the same for the bottom face when looking at it from the
+bottom.
+F = flip through center slot.
+
+Try this:
+F T+3 F T-1 B-1 F T-2 B+1 F T-3
+F T+3 F T-1 B-1 F T-2 B+1 F T+3
+
+Notice that half of this produces two 2-permutations.
+
+I'm curious if anyone speed cubes Square 1.  My average is about 1:35,
+with a best time of 1:15 for partial fluke.  I can always do it in under 2
+minutes for the worst parity situation.  How does this compare?  There
+have got to be faster people out there, because I can only do the regular
+Rubik's cube in 55 seconds on average, which is pretty slow by this
+group's standards.
+
+					Mike Masonjones.
+					mcmj@blazetech.com
+
+
+

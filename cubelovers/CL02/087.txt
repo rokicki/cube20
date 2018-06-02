@@ -1,0 +1,56 @@
+Date: 15 May 1981 0456-PDT
+Sender: OLE at DARCOM-KA
+Subject: New pseudo-cube
+From: Ole at DARCOM-KA (Ole J. Jacobsen)
+To: Cube-lovers at MIT-MC
+Cc: Oyvind
+Message-ID: <[DARCOM-KA]15-May-81 04:56:31.OLE>
+
+Pardon me if this object has been described before, but I don't remember
+seeing it. While browsing for cubes in a local store here in Newcastle
+the other day, I came accross a new "cube" which I shall try to describe
+and I invite you all to think of a good name for it.
+
+First of all let me point out that this new toy is really just a Rubik's
+Cube with some modification with respect to coloring and construction.
+Imagine taking your normal cube and making 4 vertical slices along the
+corner diagonals. Your top and bottom faces would now look like:
+
+                           ---
+                          /   \
+                          I   I
+                          \   /
+                           ---
+
+(sorry about poor ratio, but I hope you get the idea) Now recolor the new
+faces and voila, your new toy is complete. The construction has the following
+consequences:      1. The object is no longer symmetrical, U and D faces
+                      are different from L R F and B.
+                   2. The "corners" have only got TWO colors, but act as
+                      corners of the Rubik's Cube, the mechanics is identical.
+                   3. Four new "edges" which I will call wedges have appeared
+                      in the middle layer. These have only ONE color, but as
+                      you will discover when using your edge moves: the orient-
+                      ation matters. Edges and wedges may be interchanged.
+
+I will now describe the coloring of my particular cube, note that there are 10
+different colors. The U face is blue and the D face is white. Then starting at
+the 6'o clock edge column (i.e 1/3 of the F face) we have: GOLD(e),ORANGE(w),
+RED(e),PURPLE(w),YELLOW(e),PINK(w),GREEN(e),LIGHT BLUE(w). (Where e=edge and
+w=wedge colums respectively). I chose this particular orientation because it
+makes red=left and green=right which is nice. Note however that this "cube"
+may be reassembled in various legal patterns since the edge column/wedge column
+neighbouring properties are not forced. This further complicates solving since
+there in no way of knowing which sequence the "corners" and edges go in layer1
+unless you have a map. Once this is known, solving is straight forward, but
+as said the wedges will confuse you. Qestion: Is there some way of deter-
+mining the parity etc, such that the object may be solved without a map
+of layer one?  I invite comments from Jim and Dan. If it is the case
+that these pseudo-cubes (how about Rubik's Drum) are not available in
+the US, I can send one or two samples. The drums are made in Taiwan and
+are not as well finished or as smooth turning as Ideals cubes. Random
+twisting produces very strange shapes and the Cruxi Plummeri et Cristmani
+are simply out of this world.
+OK, thats it. Hope this made sense, but this thing is more difficult to
+describe that its predecessor,- so forgive me if I haven't succeeded.
+Cheers      OLE

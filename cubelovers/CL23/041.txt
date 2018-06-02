@@ -1,0 +1,166 @@
+From cube-lovers-errors@oolong.camellia.org  Sat Jul  5 20:21:49 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id UAA00582; Sat, 5 Jul 1997 20:21:48 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <199707052054.QAA25375@life.ai.mit.edu>
+Date: Sat, 5 Jul 1997 16:58:20 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: optimal cube solver
+
+the recent work by rich korf on finding optimal solutions has prompted
+me to try my hand at writing an optimal cube solving program.  so far,
+i've done this for the face turn metric.  a description of my program
+follows.
+
+let  H  denote the intermediate subgroup  <U, D, F2, R2, B2, L2>  which
+we've seen before.  we'll use distances to this intermediate subgroup
+for our pruning tables (or "pattern databases").  calculating these
+distances involves doing a breadth first search on the coset space
+H \ G , and storing these distances in memory.  (i've written this as
+a right coset space, rather than a left coset space.)  this search has
+been done several times, by dik winter and by myself.
+
+some review.  positions in  H  are characterized by the following.
+corners cannot change orientation; their  U  or  D  facelet remains on
+the  U  or  D  face.  similar, edges cannot change orientation.
+furthermore, the four U-D slice edges remain in the U-D slice.
+therefore, cosets in  H \ G  are described by triples  (c, e, l),
+where  c  denotes corner orientation,
+       e  denotes edge orientation
+and    l  denotes the location of the four U-D slice edges.
+
+there are  3^7 = 2187 possible corner orientations,
+          2^11 = 2048 possible edge orientations
+         / 12 \
+and      \  4 / = 495 possible U-D slice edge locations.
+
+all combinations are possible, so there are  2187 * 2048 * 495 =
+2217093120  cosets.  since this is too many configurations to store
+in memory, we use symmetry to to reduce this number.
+
+there are 16 symmetries of the cube that preserve the U-D axis, and
+therefore the intermediate subgroup H.  rather than store all the
+cosets, we'll just store one of each up to symmetry.  actually, this
+is slightly more complicated than necessary; instead, we could just
+divide the corner coordinate by symmetry.  this is what i did in my
+message of january 7, 1995.  however, i encountered a pitfall along
+the way.  i discovered (very late in the development stage) the need
+for very large transformation tables.  although i continued with the
+same approach at that time, i gave two options for overcoming this
+problem:
+
+>       i) only use the 8 symmetries that preserve my choice of
+>          12 edge facelets.
+> 
+>      ii) combine the two coordinates edge and location into a single
+>          coordinate and divide this coordinate by the 16 symmetries.
+
+of these, clearly the second is the better choice, since it utilizes
+more symmetry.  this new edge coordinate has  2048 * 495 = 1013760
+possibilities.  up to symmetry, there are 64430 possibilities.  we
+need room for  64430 * 2187 = 140908410  cosets in memory.  for each
+of these, we store its distance to the identity coset.  this is an
+integer between 0 and 12 (inclusive), so each is stored in half a
+byte.  thus the whole table requires 67 megabytes.
+
+essentially, what we're doing here is changing coordinates from
+(c, e, l)  to  (c, e', s),  where  e'  is our new edge coordinate,
+and  s  is a symmetry coordinate.  some cosets have multiple
+coordinates in this new system, but that causes no harm.
+
+a breadth first search of this space takes under 11 minutes.  the
+increase in speed is partially due to a more powerful computer, and
+partially due to switching to "backward searching" (or "bidirectional
+search") at the optimal time.
+
+we'll also use distances to the intermediate subgroups
+<F, B, U2, R2, D2, L2>  and  <R, L, F2, U2, B2, D2>.  we don't need to
+store additional coset spaces, since we can derive that information
+from our first coset space.  note that the cube rotation C_UFR takes
+the subgroup  <U, D, F2, R2, B2, L2>  to the subgroup
+<F, B, U2, R2, D2, L2>.  therefore it transforms the first coset space
+into the second coset space.  furthermore, it preserves distances, so
+the one pattern database suffices for all three applications.
+
+an attractive feature of this approach is that it uses the 16
+symmetries to reduce the size of the pattern database, and then uses
+the remaining symmetry of the cube in applying it in different
+orientations.
+
+these are the only pruning tables my program currently uses.  note that
+they cannot "see the entire group".  specifically, let
+H_0 = <U, D, F2, R2, B2, L2>,  H_1 = <F, B, U2, R2, D2, L2>,
+H_2 = <R, L, F2, U2, B2, D2>,  and let  T  denote the intersection of
+these three subgroups.  for a given position, the three distances to
+these subgroups depend only upon the corresponding coset in  T \ G .
+thus  T  might be thought of as a "target subgroup".
+
+this target subgroup  T  is interesting.  it consists of those positions
+that "look like" they're in the "square group"  <F2, L2, U2, B2, R2, D2>,
+i.e.  F  and  B  colors mix only with each other, and similarly for
+R  and  L , and also for  U  and  D.  however, this is strictly larger
+than the square group; it contains the square group as a subgroup of
+index 6.
+
+the searching is done in the way that korf describes as "IDA*" (or at
+least the "ID" part of that terminology).  we traverse the tree of all
+sequences of length 1, hoping to find a solution.  that generally fails,
+so we continue to sequences of length 2, and so forth, until a solution
+is found.  the "A*" part of the algorithm is to use the pruning tables
+to avoid searching large parts of the tree that are guaranteed not to
+bear fruit.
+
+in his paper, korf uses the expected value of his heuristic functions to
+get an estimate of how effective they are at pruning the search tree.
+actually, he should subtract 1 from this expected value, since we must
+generate (at least partially) the top node of a subtree that gets pruned.
+this is only a rough estimate; getting a more precise figure is a delicate
+matter which i won't address here.  korf reports an expected value of 8.878.
+i generated 10 million random cubes (i did not use the long sequence of
+random twists method) and got an expected value of 9.941.
+
+my program generates slightly more than 500000 nodes per second.  korf
+generates them at 700000 per second, so i've got more overhead per
+node.  however, it generates many fewer nodes, since it prunes the
+search tree more efficiently.
+
+i solved korf's ten random cubes, and found all minimal solutions,
+rather than stopping at the first.  this entailed one complete search
+through length 16f, three through length 17f and six through length 18f.
+the position at distance 16f has a unique minimal solution, as do the
+three positions at distance 17f.  of the six positions at distance 18f,
+one has a unique minimal solution, one has 3 minimal solutions, two
+have 4 minimal solutions and two have 6 minimal solutions.  the total
+run time for these was just under 198 hours.  korf estimates 4000 hours
+for the same search, so on these positions, my program is twenty times
+as fast.  my computer has a 200 MHz pentium pro processor, and is
+configured with 128 megabytes of RAM.
+
+i'd expect a similar increase in performance for most positions, but
+not all.  for example, positions inside the target subgroup  T  run
+very slowly, as do positions very close to it.  hopefully, most of
+these are close enough to start, so that searches don't have to go very
+deep.  i suspect that there are probably also positions that give korf's
+program difficulty.
+
+as you can see, i've made only minor modifications to korf's method.
+the only differences are:
+1. use different pattern databases that allow more efficient pruning.
+2. apply the same pattern database in multiple orientations.
+3. allow a target subgroup larger than just the identity.
+
+it's clear that more experimentation is needed with different pattern
+databases.  for any subgroup  K  of  G , we could consider distances
+to that subgroup.  it seems likely that we want small subgroups, so
+that the average distance is large.  for this reason, using symmetry
+to reduce the size of the database is an important tool.  i encourage
+others to experiment with different subgroups.
+
+more results to come ...
+
+mike
+
+
+

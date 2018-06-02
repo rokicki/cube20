@@ -1,0 +1,95 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Thu May 25 19:56:07 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16697; Thu, 25 May 95 19:56:07 EDT
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <173224-6>; Thu, 25 May 1995 19:55:56 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA17756; Thu, 25 May 95 19:50:36 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1E382E; Thu, 25 May 95 18:46:58 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: GAP notes
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1142.5834.0C1E382E@canrem.com>
+Date: Thu, 25 May 1995 18:41:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+On 05/22/95 at 11:13:00 Martin Schoenert said:
+
+>GAP's 'NumberConjugacyClasses' follows the general usage in
+> group theory.
+>The conjugacy class of an element <g> of <G> is the set of elements <h>
+>that are G-conjugated to <g> (i.e., there exists an element <x> in <G>,
+>such that <x>^-1 * <g> * <x> = <h>).
+
+On  05-24-95 (18:16) Jerry Bryan said:
+
+>Just to give an example that I am familiar with, suppose the group
+>in question were M itself.  Then, NumberConjugacyClasses should yield
+>10, because the 48 elements in M yield 10 conjugacy classes under
+>M-conjugation.  If anybody who has GAP also has defined M, you
+>might give it a try.
+
+Ok... let's define C in the context of GAP:
+
+c := Group(
+    ( 1, 3, 8, 6)( 2, 5, 7, 4)( 9,33,25,17)(10,34,26,18)(11,35,27,19)
+    (20,12,36,28)(21,13,37,29)
+    (46,48,43,41)(44,47,45,42)(38,30,22,14)(39,31,23,15)(40,32,24,16),
+    ( 9,11,16,14)(10,13,15,12)( 1,17,41,40)( 4,20,44,37)( 6,22,46,35)
+    (2,18,42,39)(7,23,47,34)
+    (30,32,27,25)(28,31,29,26)(19,43,38,3) (21,45,36,5) (24,48,33, 8)
+);;
+
+M is the same as C but with the central reflection:
+
+m := Group(
+    ( 1, 3, 8, 6)( 2, 5, 7, 4)( 9,33,25,17)(10,34,26,18)(11,35,27,19)
+    (20,12,36,28)(21,13,37,29)
+    (46,48,43,41)(44,47,45,42)(38,30,22,14)(39,31,23,15)(40,32,24,16),
+    ( 9,11,16,14)(10,13,15,12)( 1,17,41,40)( 4,20,44,37)( 6,22,46,35)
+    (2,18,42,39)(7,23,47,34)
+    (30,32,27,25)(28,31,29,26)(19,43,38,3) (21,45,36,5) (24,48,33, 8),
+    (1,8)(3,6)(2,7)(4,5)
+    (17,24)(19,22)(18,23)(20,21)
+    (9,16)(11,14)(10,15)(12,13)
+    (25,32)(27,30)(26,31)(28,29)
+    (33,40)(35,38)(34,39)(36,37)
+    (41,48)(43,46)(42,47)(44,45)
+);;
+
+Then we have
+
+Size (c) = 24
+NumberConjugacyClasses (c) = 5
+
+Size (m) = 48
+NumberConjugacyClasses (m) = 10
+
+These results concur with Dan's message from Tue, 28 Dec 93 18:40:52 EST
+from the archives.
+
+We can also use GAP to calculate the size of the M-conjugacy class of
+a given element:
+
+Size (ConjugacyClass (m, cross4)) = 3
+
+Here we see there are three possible 4 Cross order 2 patterns.
+
+I've tried dabbling in some GAP programming. Say we are looking for an
+element in the slice group with 4 variants under M-conjugacy....
+
+a := 0;
+x := 0;
+z := Elements (slice);
+
+repeat
+  a := a+1
+  x := Size (ConjugacyClass (m, Random (slice)));
+until a = 768 or x = 4
+
+This short program found no elements of size 4 in the slice group.
+
+-> Mark <-
+

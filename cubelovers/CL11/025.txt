@@ -1,0 +1,208 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Tue Dec 14 21:23:57 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24330; Tue, 14 Dec 93 21:23:57 EST
+Message-Id: <9312150223.AA24330@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 1767; Tue, 14 Dec 93 20:53:27 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 0071; Tue, 14 Dec 1993 20:53:27 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 7374; Tue, 14 Dec 1993 20:50:53 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Tue, 14 Dec 1993 20:50:51 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: Symmetry
+In-Reply-To: Message of 12/13/93 at 22:31:31 from hoey@aic.nrl.navy.mil
+
+On 12/13/93 at 22:31:31 hoey@aic.nrl.navy.mil said:
+
+>In the absence of face centers, there is another kind of reduction
+>that takes account of the 24 possible positions of the resulting
+>collection of edges in space.  So two positions X and Y are considered
+>equivalent if
+>    X = m' Y m c
+>where m is a rotation or reflection in M, and c is a rotation.
+
+>My understanding of Jerry Bryan's method is that he combines "m c"
+>into a single rotation or reflection, and factors out the reflection
+>on both sides.  It seems to me that what he calls a "color rotation"
+>is premultiplication, while a "cube rotation" is postmultiplication.
+>[I am somewhat uncertain of this, because it doesn't explain how there
+>can be a 1252-element symmetry group when face centers are present, so
+          ^^^^
+          should be 1152
+
+>perhaps I'm missing something crucial.]
+
+I just reread "Symmetry and Local Maxima".  Let's see if I can make
+some sense of this.  I believe "pre-multiplication" and
+"post-multiplication" are correct.  In my computer model, the
+corner facelets are simply numbered from 1 to 24, and any configuration
+of the corners is an order-24 row vector.  The rotation and reflection
+operators are also order-24 row vectors, again with each cell simply
+containing a number from 1 to 24.
+
+In almost anybody's programming language you would copy an order-24
+row vector with something like
+
+     For i = 1 to 24  B(i) = A(i)
+
+Well, if P is a rotation operator, you could perform a rotation
+two ways.  I guess one is pre-multiplication and one is
+post-multiplication.
+
+    1)  For i = 1 to 24  B(i) = A(P(i))
+    2)  For i = 1 to 24  B(i) = P(A(i))
+
+(As an aside, this illustrates the question I raised in my previous
+post about "which is the operator and which is the thing being
+operated on?"  Is P operating on A, or is A operating on P?)
+
+In fact, if what I am doing is properly called pre- and post-
+multiplication, then I am doing both as a part of a single,
+composite operator.  I.e.,
+
+       For i = 1 to 24  B(i) = P(A(P(i)))
+
+More completely, there are 24 rotations, P1 through P24, so the
+actual loop looks something like
+
+       For j = 1 to 24 for k = 1 to 24
+             for i = 1 to 24 Bj,k(i) = Pj(A(Pk(i)))
+
+Finally, if Q is a reflection (actually, if Q1 is the identity and
+Q2 is the reflection), then we have
+
+      For j = 1 to 24 for k = 1 to 24 for m = 1 to 2
+             for i = 1 to 24 Bj,k,m(i) = Qm(Pj(A(Qm(Pk(i)))))
+
+I believe this loop calculates Dan Hoey's M.  In my data base, I
+store the minimum of Bj,k,m over j = 1 to 24, k = 1 to 24, and
+m = 1 to 2.  I tend to call the minimum of Bj,k,m a canonical
+form.  I am not sure if that is the best terminology.  The
+minimal element is not any simpler than any other.  It is just
+that I need a function to choose an element from a set, and
+picking the minimal element seems very natural.  Any other
+element would do as well, provided I could always be sure of
+picking the same element.
+
+Also, my criterion for equivalence is slightly
+different (but isomorphic, I think) than the one described by
+Dan Hoey.  Suppose A and B are two cubes.
+Rather than mapping A to B or B to A in M, I map both A and B
+to their respective canonical forms.  A and B are equivalent if
+their respective canonical forms are equal.
+
+I hasten to add that the actual loop in the program is a bit
+more complex than the one shown above.  The one above would
+be far too slow. The actual loop is several hundred times
+faster.
+
+Now, as to the centers.  I still sometimes have a certain doubt
+about the centers.  They are fixed, so how can you reduce the
+problem (i.e., increase the size of the equivalence classes)
+by both rotating the cube and rotating the colors (by both pre-
+and post-multiplication)?
+
+In my computer model for the centers, I simply number center facelets
+from 1 to 6, and the centers are stored as an order-6 row vector.
+The centers are disjoint from the corners (as well as from the edges),
+so there is no problem in numbering one set of objects from 1 to 24 and
+another from 1 to 6.
+
+I define a set of 24 rotation operators P* on the centers, corresponding
+to the 24 rotation operators P on the corners, and a set of 2 reflection
+operators Q* on the centers, corresponding to the 2 reflection operators
+Q on the corners.  Then, if C is an order-6 row vector representing
+the centers, I calculate Dj,k,m = Q*m(P*j(C(Q*m(P*k)))) anytime
+I calculate Bj,k,m = Qm(Pj(A(Qm(Pk)))).
+
+   (Read the asterisks above as superscripts.  I am not intending
+    the multiplication operation which the asterisk denotes in
+    many programming languages.)
+
+Hence, I rotate and reflect the centers right along with the corners.
+But there are only 24 distinct states for the centers, and each can
+occur with any canonical form for the corners.  Hence, the "corners
+plus centers" data base is exactly 24 times larger than
+the "2x2x2" data base.
+
+My model for the cube seems to start out 24 times larger than
+everybody else's.  However, by storing only the canonical form
+for each equivalence class, and since most of the equivalence
+classes have 1152 elements, my data base seems to end up about
+48 times smaller than everybody else's.  This fact seems to
+remain true, even when the "fixed centers" are added in.
+
+I am not sure if this answers Dan's question about my model
+with centers added.  Effectively, I am using a "fixed corners"
+representation of the cube, and rotating the centers.  Each
+equivalence class for the corners under M has (up to) 1152
+elements, and each equivalence class for the centers under
+M has only 24 elements.  But it doesn't seem to matter.
+(Up to) 48 different configurations of the corners within
+M share each configuration of the centers.
+
+Since I am in this deep, let me finish explaining certain details
+of my model.  I don't really store all 24 elements of each
+row vector.  I really just store 8.  That is, I store the
+facelets for the front and back face.  The other 16 facelets
+can be reconstructed from the first 8.  In effect, storing
+a number from 1 to 24 stores both the location of each cubie
+and its twist.  Finally, I really, really only store 7 elements.
+In the canonical form, the first element is always 1, so there
+is no reason to store it.  Thus, a data base record for the
+2x2x2 looks like
+
+    CCCCCCC,L
+
+where the CCCCCCC are the seven elements representing the canonical
+form, and L is the corresponding level.
+
+When you add the centers, I started out with notion that the
+order-6 row vector for center only has 24 possible states.  Thus,
+it can be encoded as a number from 1 to 24.  This lead to the
+following
+
+    CCCCCCC,L,R
+
+where CCCCCCC and L are as before, and R is an index encoding
+the orientation of the centers.  But this can be improved upon
+even further.  With my model for the corners plus centers, each
+distinct value of CCCCCCC will occur exactly 24 times, and each
+distinct value of CCCCCCC is already represented in my data
+base for the 2x2x2.  Hence, I can have the exact same number of
+(longer) records, and encode the corners of the 3x3x3 as
+
+    CCCCCCC,L,L1 L2 L3 .... L23 L24
+
+where CCCCCCC is as before, L is the level of CCCCCCC in the
+2x2x2, and L1 through L24 are the levels of CCCCCCC in the corners
+of the 3x3x3 when the index of the position of the centers with
+respect to the corners is 1 through 24, respectively.  Hence, my
+data base for the corners of the 3x3x3 has the same number of
+records as the data base for the 2x2x2, and is physically only
+four times larger.
+
+>With regard to the edge cube, I should mention that no one has
+>mentioned a 9 QT process for the all-flip nor a 15 QT process for the
+>pons-asinorum-all-flip.  Of course, the latter would be somewhat more
+>interesting, being the longest optimal sequence.
+
+I will work on these two cases, but it will take some time.  My model
+is very good at storing a great many states of the cube very
+compactly, but it does not encode processes at all.  I will have
+to extract the processes by hand.  This is quite easy in my
+data bases for the 2x2x2 and corners of 3x3x3.  But it is quite
+hard for the edges because the data base is 4.2 gigabytes.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

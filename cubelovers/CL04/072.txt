@@ -1,0 +1,41 @@
+Mail-from: SU-NET host SU-SHASTA rcvd at 16-Aug-82 1204-PDT
+Date: Monday, 16 Aug 1982 12:04-PDT
+To: cube-lovers at Mit-mc
+Subject: Cube Mechanics
+From: Tom Davis <davis@Shasta at Sumex-Aim>
+
+I finally found a 4x4x4 cube a couple of days ago, and have a couple of
+interesting observations.  Forgive me if I repeat anything said so far,
+but I have been ignoring everything on this list having to do with the
+4^3 cube for fear of any sort of spoilers.
+
+Using my 3^3 knowledge, I found it fairly easy to get it almost solved.
+Half the time, however, I got it to the state where everything was
+solved except that two adjacent edge cubies were flipped.  I finally
+convinced myself by means of a somewhat involved (and probably
+fallacious) "proof" that I would have to exchange them before I could
+solve the cube.
+
+My first observation is simply a trivial proof of that fact that I
+discovered immediately after I took the cube apart for the first time
+to see what was inside -- it is mechanically impossible to put the cube
+back together with the cubies flipped (but not exchanged).  Some
+similar parity-type arguments can be made about possible configurations
+of the center cubies.  What is interesting is that this presents a new
+method of proving things about configurations -- if one can dream up a
+mechanical model of a cube with different guts, it may be obvious that
+some sorts of things are impossible.  The cube simply has to behave the
+same way externally.  I wonder if there are nice ways to look at the
+various parity-trinity features of the three-cube by looking at it
+using a different model of the internal mechanics.
+
+My second observation is that although a 5^3 and a 6^3 may someday
+appear on the market, the 7^3 will be pretty tricky to build.  When one
+of the faces of a 7^3 is turned 45 degrees, the corner will lie
+completely outside the original cube.  Any mechanical linkage will be
+complicated indeed.  Maybe a cube could be built with little
+microprocessors inside each cubie controlling little arms and hooks to
+grab adjacent cubie faces ...
+
+  -- Tom Davis
+

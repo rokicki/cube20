@@ -1,0 +1,43 @@
+From anandrao@hk.super.net  Wed Dec 15 20:27:19 1993
+Return-Path: <anandrao@hk.super.net>
+Received: from hk.super.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18806; Wed, 15 Dec 93 20:27:19 EST
+Received: by hk.super.net id AA23068
+  (5.65c/IDA-1.4.4 for cube-lovers@ai.mit.edu); Thu, 16 Dec 1993 09:26:47 +0800
+Date: Thu, 16 Dec 1993 09:17:27 +0800 (HKT)
+From: Mr Anand Rao <anandrao@hk.super.net>
+Subject: Re: Description of Tangle, Part 2
+To: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+Cc: cube-lovers@ai.mit.edu, don.woods@eng.sun.com,
+        acw@riverside.scrc.symbolics.com
+In-Reply-To: <Ah3pFFq00WC7IfvNQd@andrew.cmu.edu>
+Message-Id: <Pine.3.07.9312160925.B22126-b100000@hk.super.net>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+Just because no non-brute-force method has been found, does not make this
+puzzle any less intersting. As we have been told that there is a
+solution, it is exciting to search for one, even by brute force methods.
+The real challenge is to find a brute-force method with sufficient insight
+to solve the problem within a reasonable time-frame. All the algorithms so
+far are exponential. We may never find a linear algorithm for this
+problem. The idea is to find one algorithm that can be used in actual
+practice. We can then bury this puzzle into the archives, for the next
+generation to pick up!
+  >  > (Thanks for the pointers to the Apr 92
+discussion)
+> I agree with the concensus expressed in the archives that this puzzle is
+> inherently "not that great" because no non-brute-force method has been
+> found/seems to exist.
+> 
+> -Dale
+> 
+Is this the reason why Rubik has gone into hiding? I haven't seen any
+puzzle from him after this set of 4 released in 1990/1991. I tried to
+contact the Hong Kong office of Matchbox which gets Rubik's puzzles in
+China, but they have closed shop. Matchbox UK said that they have
+discontinued this line. If anyone has found another source for Rubik's
+puzzles, or discovered anyone else who has taken the responsibility of
+giving us sleepless nights, please let me know!
+
+
+

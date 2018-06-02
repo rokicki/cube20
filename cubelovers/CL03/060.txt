@@ -1,0 +1,21 @@
+Date: 20 Oct 1981 10:26:57 EDT (Tuesday)
+From: Roger Frye <frye at BBNP>
+Subject: Do It in the Dark
+To: Cube-Lovers at MIT-MC
+Cc: frye at BBNP
+
+I have constructed a tactile cube by epoxying buttons, snaps, paper
+clips and Q-tip stems to a store-bought cube.
+
+It takes me about 20 minutes to solve with my eyes closed as opposed
+to about 5 minutes with my eyes open.  Maybe Conway cheats in his
+5 look solution by feeling colors.
+
+I minimize search times by always working faces in a fixed order
+and by orienting colors (i.e. textures) before moving cubies on the
+last face.  But the ability to see (i.e. feel) the back of the cube
+doesn't compensate for my as yet poorly developed tactile pattern
+recognizer.
+
+- Roger Frye
+

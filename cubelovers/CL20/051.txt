@@ -1,0 +1,50 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Jun  8 14:31:38 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA16775 for <cube-lovers-outbound@curry.epilogue.com>; Sat, 8 Jun 1996 14:31:37 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: ba05133@binghamton.edu
+X-Authentication-Warning: bingsun2.cc.binghamton.edu: ba05133 owned process doing -bs
+Date: Fri, 7 Jun 1996 15:27:55 -0400 (EDT)
+X-Sender: ba05133@bingsun2
+To: Rob Hochberg <hochberg@dimacs.rutgers.edu>
+Cc: CUBE-LOVERS@ai.mit.edu
+Subject: Re: Speed cubing
+In-Reply-To: <199606061304.JAA20500@dimacs.rutgers.edu>
+Message-Id: <Pine.SOL.L3.93.960607151737.27398A-100000@bingsun2>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+My name is Jiri Fridrich and I am the champon of Czechoslovakia from 1982.
+I won the championship with time 23.55. When I was at my best, I was able
+to solve the cube in 17 seconds on average (average from 10 consecutive
+runs). Even today, after all those years, I can solve the cube in 20
+seconds on average. I am using about 150 different algorithms and need 60
+moves on average. 
+
+Just for the record: The 1983 champion of Czechoslovakia, Robert Pergl,
+won with 17.04. There must be *many* guys out there who can solve the cube
+consistently below 20 sec :-) 
+
+Jiri
+
+On Thu, 6 Jun 1996, Rob Hochberg wrote:
+
+> 
+> I've heard about some pretty fast people who've claimed to 
+> have averages in the low 20's, but I haven't seen them perform.
+> 
+> My buddy from high school, Scott Evans, now living in Austin,
+> averages about 25 seconds these days.  He's the fastest active
+> cubist I've seen in the last 10 years.  I'm at about 28 seconds.
+> 
+> Anyone else?
+> 
+> Rob hochberg@dimacs.rutgers.edu
+> 
+> 
+> 
+
+
+

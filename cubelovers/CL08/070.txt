@@ -1,0 +1,28 @@
+From dik@cwi.nl  Mon May 18 22:07:37 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA25373; Mon, 18 May 92 22:07:37 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA20122 (5.65b/2.10/CWI-Amsterdam); Tue, 19 May 1992 04:07:27 +0200
+Received: by boring.cwi.nl 
+	id AA26407 (5.65b/2.10/CWI-Amsterdam); Tue, 19 May 1992 04:07:26 +0200
+Date: Tue, 19 May 1992 04:07:26 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205190207.AA26407.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Kociemba's algorithm
+
+I did some more and found fast algorithms.  The most amazing one was for
+the configuration with two 2x2x2 cubes embedded in the cube:
+	( 9+ 6=15): U1 L2 D1 R1 B3 R1 B3 R1 B3 D3 L2 U1 R2 F2 U2
+This looks remarkably like a random sequence of moves.  I find especially
+the part R1 B3 R1 B3 R1 B3 intriguing!
+
+(For der Mouse.  I lost your e-mail address.  I can provide you with the
+program.  And for everybody, it is available, although I still do not like
+the input method.)
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+

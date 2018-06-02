@@ -1,0 +1,35 @@
+From mmoss@panix.com  Mon Apr  4 17:30:58 1994
+Return-Path: <mmoss@panix.com>
+Received: from panix.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10263; Mon, 4 Apr 94 17:30:58 EDT
+Received: by panix.com id AA12590
+  (5.65c/IDA-1.4.4 for cube-lovers@life.ai.mit.edu); Mon, 4 Apr 1994 17:30:47 -0400
+From: Matthew Moss <mmoss@panix.com>
+Message-Id: <199404042130.AA12590@panix.com>
+Subject: About Rubix's tetrahedron...
+To: cube-lovers@life.ai.mit.edu (Cube Mailing List)
+Date: Mon, 4 Apr 1994 17:30:46 -0400 (EDT)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 811       
+
+Here's a question for y'all.....
+It's about the tetrahedron puzzle from Rubix (I forget the real name).
+[the one with legal moves consisting of removing a 4-piece tetrahedron from
+ a 10-piece and putting it back on in different orientation]
+
+Anyway, mine is pretty loosed up, and occassionally when I am working on it,
+one piece will come loose and go skitting across the floor.
+
+There's no way I can remember the orientation it had on there. Has any study
+been done or does someone know if I put that piece back on, will it still be
+solveable if it's orientation is wrong (ie, different than it was before it
+fell off)?
+
+Do you understand my question? (I hope I'm not too confusing...)
+
+I've been thinking about implementing this via computer, just to test this
+out, but I thought I'd ask y'all first.
+
+Thanx.
+

@@ -1,0 +1,40 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Mon Dec 27 02:33:51 1993
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from mail.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27687; Mon, 27 Dec 93 02:33:51 EST
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <53769(1)>; Mon, 27 Dec 1993 02:01:14 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA18888; Mon, 27 Dec 93 02:00:05 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 18F5BD; Mon, 27 Dec 93 01:58:20 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Local Maxima Revisited
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.656.5834.0C18F5BD@canrem.com>
+Date: 	Mon, 27 Dec 1993 00:58:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+                Some thoughts on Local Maxima
+                -----------------------------
+
+   I have verified that the position I call "6 H order 2 type 2"
+is a local maximum.
+
+p175 6 H order 2 type 2  T2 B2 L2 T2 D2 L2 F2 T2              (8)
+
+A rare example of a pattern with symmetry level 2, perhaps even
+the only one of this type, and also the most symmetric of the
+6 H patterns.
+
+Nothing new here, as this was noted formerly by David Singmaster
+in one of the Cubic Circulars and by Jim Saxe & Dan Hoey in the
+archives.
+
+Somewhat more interesting is the conclusion that the pattern
+4 H order 2, or H's on the F,R,B,L faces (oriented like the
+letter H) is also a local maximum, at least in the square's
+group.
+
+p160 4 H order 2 Type 2  B2 D2 (L2 R2 F2) ^2 T2 F2           (10)
+

@@ -1,0 +1,29 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jan  5 21:48:30 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA25102; Mon, 5 Jan 1998 21:48:29 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Jan  4 10:49:11 1998
+Message-Id: <Version.32.19980104102220.00f2a460@mail.interlog.com>
+Date: Sun, 04 Jan 1998 10:23:51 -0500
+To: cube-lovers@ai.mit.edu
+From: Aaron Weintraub <aaweint@interlog.com>
+Subject: Re: a Rubiks Xmas
+In-Reply-To: <v02140b01b0cd629638a2@[205.230.130.11]>
+
+Kristin,
+
+Not to brag or anything, but I first solved the cube when I was 7 years
+old.  I'm 22 now and still haven't lost interest.
+
+-Aaron
+
+At 10:21 AM 12/29/97, Kristin wrote:
+>anyone know any kids younger than 9 that can solve the
+>cube?  I'm sure there are younger cubists out there...  but
+>I sure was impressed.
+>
+>-Kristin
+>kristin@wunderland.com
+

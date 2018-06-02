@@ -1,0 +1,62 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Nov 15 23:21:58 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id XAA21060; Sat, 15 Nov 1997 23:21:57 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From roger.broadie@iclweb.com Thu Nov 13 19:09:04 1997
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: "Geoffroy Van Lerberghe" <Geoffroy.VanLerberghe@ping.be>,
+        "Cube-Lovers" <Cube-Lovers@ai.mit.edu>
+Subject: Re: Cubes in London, plus OddzOn, clones and colours
+Date: Fri, 14 Nov 1997 00:07:33 -0000
+Message-Id: <19971114000519.AAA4398@home>
+
+London's most famous toy-shop is Hamley's in Regent St.  On the fourth
+floor they have a wall of OddzOn cubes at 39.00 pounds each, together
+with snakes and magics.
+
+I say OddzOn because that is the name given in the copyright notice at the
+back of the instruction booklet, although in this country that name appears
+nowhere else. The packaging (a rectangular cardboard casing with a clear
+central panel holding the cube at an angle) gives the distributors as
+Toybrokers Ltd.  This cube sometimes appears in the British Toys 'R' Us,
+and my family bought one in Jenners, the big Edinburgh department store,
+this summer.  I  wouldn't rate it as highly as the Ideal cubes.
+
+I had a quick look for clones in the sort of shop in London that I have
+seen them in in the past, but found none.  I bought a couple of Taiwanese
+clones in Dublin a few weeks ago - they came in a cube-sized cardboard box
+with a picture of a cube on the front with two yellow centre pieces, five
+green edge pieces and five red corner pieces.  I did not complain that the
+cube inside did not match this picture.  I tried both the sample on display
+and one of the cubes which I later bought.  They turned quite well.  I did
+not try the other one until I got it home, when to my annoyance I found it
+much stiffer.  The colours are rather dull, but yellow and white are
+opposite, which I prefer, because then the colours of the opposite faces
+seem to have a sensible connection helping recognition of a piece that is
+in the opposite face to its home face. They cost 35.00 Irish pounds each .
+
+Among various other puzzle, Hamleys also has those from Meffert, including
+the skewb and an annoying dodecahedron - the colours are duplicated at
+opposite poles.  So does Toys 'R' Us.  What I have not been able to find is
+the 5x5x5 that is shown on the Meffert packaging.
+
+The OddzOn cube is the one that is associated with the www.rubiks.com site,
+which reproduces the instruction booklet and uses the same logo in chubby
+capitals.  Rubik himself is clearly involved - he is quoted on the site.
+
+I had concluded that Ideal Toys (the US company) had gone out of business,
+having failed to find any reference to it currently.  There is a British
+company Ideal Toys (UK) Limited, but that is a subsidiary of Triumph Adler
+AG.  There was a company The Ideal Toy Company Limited,  but that was
+dissolved, as was CBS Toys Limited, which may have been connected.
+
+OddzOn Products Inc appears to be a subsidiary of Hasbro Inc.
+
+I have a suspicion that Ideal may have deliberately adopted the
+yellow-opposite-green configuration to create a new colour arrangement that
+would help them expunge clones by relying on their trade dress.
+
+Roger Broadie
+

@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 30 19:54:57 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id TAA24798; Tue, 30 Dec 1997 19:54:57 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Dec 29 10:42:38 1997
+Date: Mon, 29 Dec 1997 10:27:04 -0500
+Message-Id: <00115225.001706@scudder.com>
+From: jdavenport@scudder.com (Jacob Davenport)
+Subject: Re: 5x5x5
+To: "Cube Lovers" <Cube-Lovers@ai.mit.edu>
+
+My way of solving the 5x5x5 has been to think about the cube in 3x3x3
+terms.  When I solve a 3x3x3, I do top corners, bottom corners, top
+and bottom edges at the same time, and then middle edges.
+
+When I do a 5x5x5, I think of the middle corners (those cubies
+directly diagonal from the center) as corners to the 3x3x3, ignoring
+completely the outside edges, and I solve them so that all the middle
+corners are aligned like a 3x3x3 would be aligned.  Then I solve the
+middle edges (those cubies directly next to the center) like I would
+solve the edges from 3x3x3 cubes.  This leaves the nine cubies in the
+center of each face sovled.
+
+I then use a move which many people use when solving a 4x4x4 to get
+all the edge pieces together without disturbing the center squares.
+This finally leaves me with messed up corners, solved center squares,
+and the three edges on each side together.  I then view this as a
+3x3x3 and solve that using my normal method.  The only drawback is
+that I sometimes cannot get the edges to all work together, and the
+reason is that I have inadvertantly switched two middle corners, and
+it takes a long time for me to fix them.
+
+If anyone wants more information on this solution, I'll spell it out
+in detail on my web page.
+
+-Jacob Davenport
+
+http://wunderland.com/wts/jake
+

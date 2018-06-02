@@ -1,0 +1,63 @@
+From hoey@aic.nrl.navy.mil  Fri Dec 13 14:50:15 1991
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA17846; Fri, 13 Dec 91 14:50:15 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA01668; Fri, 13 Dec 91 14:50:04 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Fri, 13 Dec 91 14:50:03 EST
+Date: Fri, 13 Dec 91 14:50:03 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9112131950.AA06512@sun13.aic.nrl.navy.mil>
+To: TEE LUNS <tee@ecf.toronto.edu>
+Cc: Cube-Lovers@life.ai.mit.edu
+Subject: Big groovy cubes, revisited
+
+Tee Luns writes:
+
+> ... one of the last posts in cube-mail-7 triggered something in me
+> head.  The suggestion was to use a fresnel saw to cut all the
+> cubelets out of a single chunk of material....
+
+Well, I'm glad that my silly ideas triggered something.  Sometimes I
+wonder if they are as amusing to read as they were to write.
+
+> ... why not a simple dovetail?
+
+Certainly a dovetail would do it.  I guess when I got to sharpening
+the fresnel saw I didn't know when to quit.
+
+> ... have the dovetail/cubelet pair separate, ... screw the dovetails
+> (which are already in their grooves) onto the last couple of
+> cubelets.
+
+Surprisingly enough, this is just how Rubik's Revenge is put together.
+One of the center cubelets (perhaps always on the blue side) has a
+screw that joins the outside of the cubelet to its dovetail.  You can
+usually find locate it by the dimple in the colored sticker.
+
+> If the dovetails go right to the surface, one has to be *VERY*
+> careful....  The solution is to make the dovetail taper off at its
+> ends....  This will lead to holes at the surface though, so the cube
+> won't be too pretty.
+
+In the 7^3 and larger, they have to go through the surface, and even
+if they were squared-off dovetails they wouldn't match the color of
+the adjacent square except in the solved position.  Unless of
+course we make the outer layers thicker, as Dale Newfield mentioned
+when we were discussing this back in May.
+
+>    A novelty with this approach though is that no centre is
+> required.  We could build a hollow 3x3x3 cube with face centres
+> hollow, and see right through the cube....
+
+>    But, if we had the smaller odd-sized cubes trapped inside, not
+> only would they help hold the outer layers together, if we made the
+> cubelets mostly transparent, we'd be able to see what we've had to
+> imagine in the past. Now that'd be one heck of a puzzle.
+
+Wow, I want one!  But I don't think the material really needs to be
+transparent, as long as the face center pieces are hollow.  It would
+help let light in, though.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

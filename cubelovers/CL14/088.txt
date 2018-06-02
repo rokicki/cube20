@@ -1,0 +1,47 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Jan 11 13:47:48 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24849; Wed, 11 Jan 95 13:47:48 EST
+Message-Id: <9501111847.AA24849@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 2821; Wed, 11 Jan 95 13:40:35 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 1926; Wed, 11 Jan 1995 13:40:35 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 11 Jan 1995 13:40:34 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject:   Re: two stage filtration
+In-Reply-To: Message of 01/07/95 at 19:43:27 from mreid@ptc.com
+
+On 01/07/95 at 19:43:27 mreid@ptc.com said:
+
+>each configuration is stored with 2 bits of memory and thus the whole
+>space consumes about 42 megabytes.  each configuration is assigned
+>one of 4 values:
+
+>        distance is currently unknown
+>        distance = current search depth
+>        distance = current search depth - 1
+>        distance < current search depth - 1
+
+This little table reminded me of something I had meant to say about
+storing the whole cube space in about 10^18 cells.  In principle,
+under the Q turn metric it would be possible for each cell to contain
+only one bit by storing (depth mod 4)/2.  However, in *building*
+the solution I think you would need a value in the cell meaning
+essentially "distance is currently unknown".  Hence, you would need
+at least three separate values and therefore at least two bits.
+After the table were complete, it might be possible to reduce the
+two bits down to one.  Even then,  you might want to be able to
+identify those small percentage of cells which were empty, in which
+case you would need two bits anyway.  Under the Q+H metric,  you
+would need two bits in any case to store (depth mod 3), and the
+fourth bit pattern would be available to represent "distance is
+currently unknown" or "empty cell" as appropriate.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

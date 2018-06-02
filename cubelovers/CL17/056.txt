@@ -1,0 +1,24 @@
+From geohelm@pt.lu  Fri Oct 20 12:46:33 1995
+Return-Path: <geohelm@pt.lu>
+Received: from menvax.restena.lu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA28602; Fri, 20 Oct 95 12:46:33 EDT
+Date: Fri, 20 Oct 95 12:46:32 EDT
+Received: from telinf1.pt.lu by menvax.restena.lu with SMTP;
+          Fri, 20 Oct 1995 17:11:19 +0100 (MET)
+Received: from slip9.pt.lu by telinf1.pt.lu id aa15691; 20 Oct 95 17:11 CET
+X-Sender: geohelm@mailsvr.pt.lu
+X-Mailer: Windows Eudora Version 1.4.4
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Georges Helm <geohelm@pt.lu>
+Subject: Re: Old question about 2 adj edges
+Message-Id:  <9510201711.aa15691@telinf1.pt.lu>
+
+ how to flip 2 adj. edges (and nothing else) in 4x4x4 cube?
+
+r^2 U^2 r l' U^2 r' U^2 r U^2 r l U^2 l' U^2 r U^2 l r^2 U^2
+
+Georges
+geohelm@pt.lu
+
+

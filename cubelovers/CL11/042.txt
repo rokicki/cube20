@@ -1,0 +1,71 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Fri Dec 17 00:56:31 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA11504; Fri, 17 Dec 93 00:56:31 EST
+Message-Id: <9312170556.AA11504@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 0779; Fri, 17 Dec 93 00:56:36 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 9437; Fri, 17 Dec 1993 00:56:36 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 3544; Fri, 17 Dec 1993 00:54:02 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Fri, 17 Dec 1993 00:54:00 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Some Additional Distances in the Edge Group
+
+It is now known that using the qturn metric, Start has a
+unique antipode in the edge group, namely Mirror-Image-
+of-Edges-Flipped.  The antipode is 15 qturns from Start.
+Also, I have a complete data base of equivalence classes
+in the edge group documenting the distance from Start for
+each configuration of the edges.
+
+It seems to me that given these two facts, some additional
+distances can be determined.  For example, it is possible
+to determine the distance from any configuration to
+Mirror-Image-of-Edges-Flipped.  Let Z be a sequence of operators
+that converts Start to Mirror-Image-of-Edges-Flipped, and let
+A be any configuration of the edges.  Then apply Z' to A, look
+up the result in the data base of distances from Start, and
+that will be the distance from A to Mirror-Image-of-Edges-Flipped.
+
+The reason is quite simple.  Let P be a sequence which takes
+Z'(A) to Start.  Then, Z'PZ takes A to Mirror-Image-of-Edges-Flipped.
+This is a very nice use of conjugates.
+
+Another consequence of this result is the following:  suppose you
+began with Mirror-Image-of-Edges-Flipped and performed a
+breadth-first exhaustive search.  Start would be antipodal, and
+the number of nodes at each level of the tree would be identical
+to the existing tree which begins at Start.
+
+In addition, all of the above applies to Mirror-Image-of-Start
+and Edges-Flipped with respect to each other.  They are
+mutually antipodal, and are 15 qturns apart.  A tree built with
+either at the root would have exactly the same number of nodes
+at each level as the existing tree with Start at the root.
+
+Finally, the distance of any configuration from Mirror-Image-of-Start
+or Edges-Flipped can be determined.  Let Y be a sequence of operators
+which converts Start to Mirror-Image-of-Start, and let X be a sequence
+of operators that converts Start to Edges-Flipped.  Let A be any
+cube.  Then, the distance of A from Mirror-Image-of-Start
+is the same as the distance of Y'(A) from Start, and
+the distance of A from Edges-Flipped is the same
+as the distance of X'(A) from Start.
+
+I have the sensation in describing this that the Edge group is
+square, with Start and Mirror-Image-of-Edges-Flipped 180 degrees
+apart, and Mirror-Image-of-Start and Edges-Flipped at the other
+two corners of the square.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

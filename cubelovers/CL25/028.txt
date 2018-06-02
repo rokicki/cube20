@@ -1,0 +1,740 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Apr  1 10:55:58 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id KAA10617; Wed, 1 Apr 1998 10:55:57 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Mar 29 18:20:22 1998
+Date: Sun, 29 Mar 1998 18:20:42 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: All the Partial Isoglyphs
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.980329181553.328319A-100000@PSTCC6.PSTCC.CC.TN.US>
+
+I have been able to calculate all the partial isoglyphs a little more
+quickly than expected.  I can report that there are 10 continuous partial
+isoglyphs and 130 non-continuous partial isoglyphs, unique up to symmetry.
+
+Here is a breakdown of how the solid faces can be arranged.
+
+      97 - two solid faces, opposite to each other
+      11 - two solid faces, adjacent to each other
+      25 - one solid face
+       1 - three solid faces, mutually adjacent to each other
+       2 - three solid faces, not mutually adjacent to each other
+       3 - four solid faces, other two opposite to each other
+       1 - four solid faces, other two adjacent to each other
+     ---
+     140
+
+The partial isoglyphs are all included in the chart which follows.  If
+nothing is listed with respect to the manner in which the solid faces are
+arranged, then there are two solid faces opposite to each other.
+Otherwise, the arrangement of the solid faces is listed explicitly.
+
+This chart follows the same format as the previous one I posted for all
+the isoglyphs, except that this time I included only a single
+representative glyph for each partial isoglyph, rather than the complete
+equivalence class of glyphs.
+
+
+000
+0X0
+000
+
+ 00
+
+D B2 F2 D U' L2 R2 U'  (8)  continuous
+
+
+
+
+000
+0X0
+00X
+
+ 01
+
+ (none)
+
+
+
+
+000
+0X0
+0X0
+
+ 02
+
+D B2 L2 R2 F2 U' L2 B2 F2 R2  (10)               not
+D' B2 F2 D U L2 R2 U'  (8)                       not
+F2 D2 B2 D U L2 D' U'  (8)                       not
+B2 D U' L2 D U'  (6) *                           not
+D B2 D L2 . B F' D2 R' B2 R2 D' U F L R'  (15)   not
+
+
+
+
+000
+0X0
+0XX
+
+ 03
+
+L2 U2 B2 D' B2 R2 D2 B2 R2 U' B2 L2 U2 R2 U'  (15)  not
+
+
+
+
+000
+0X0
+X0X
+
+ 05
+
+D U F2 D' L2 . B' F U2 L' D U' F2 R2 F' L R'  (16) not
+D B2 L2 R2 F2 U' L2 B2 F2 R2 U2  (11)              not
+L2 F2 U B2 F2 U2 B2 F2 U' F2 R2  (11)              not
+
+
+
+
+000
+0X0
+XXX
+
+ 07
+
+D' B2 F2 D' U L2 R2 U'  (8)  continuous
+
+
+
+
+000
+0XX
+0X0
+
+ 0A
+
+L2 D2 R2 F2 U2 R2 F2 U2 F2 U2  (10)  not
+D B2 D' U' L2 R2 U2 R2 U'  (9)       not
+
+
+
+
+000
+0XX
+0XX
+
+ 0B
+
+B2 L2 U2 L2 U' L2 B2 D2 F2 U F2 R2 U2 R2 U'  (15)  not
+
+
+
+
+000
+0XX
+X00
+
+ 0C
+
+F2 L2 U2 L2 U L2 F2 D2 B2 U' B2 R2 U2 R2 U'  (15) not
+
+
+
+
+000
+0XX
+X0X
+
+ 0D
+
+L2 D2 R2 F2 U2 R2 F2 U2 F2  (9)            not
+B2 R2 F2 D U B2 L2 F2 L2 D U  (11)         not
+F2 R2 B2 D' U' B2 R2 F2 R2 D' U'  (11)     not
+
+
+
+
+000
+0XX
+XX0
+
+ 0E
+
+L2 U2 F2 D F2 R2 D2 F2 R2 U F2 L2 U2 R2 U'  (15)   not
+R2 U2 F2 D' F2 L2 U2 B2 R2 U' B2 R2 U2 R2 U'  (15) not
+F2 U2 R2 U F2 D2 F2 R2 D' F2 R2 D2 F2 R2 U'  (15)  not
+
+
+
+
+000
+0XX
+XXX
+
+ 0F
+
+B2 D U' L2 D U  (6) *   not
+
+
+
+
+000
+XXX
+000
+
+ 18
+
+D2 U2  (2) *               continuous
+D' U  (2) *                continuous
+L2 F2 L2 R2 F2 R2  (6) *   not
+F2 U2 B2 F2 U2 F2  (6) *   not
+
+
+
+
+000
+XXX
+00X
+
+ 19
+
+ (none)
+
+
+
+
+000
+XXX
+0X0
+
+ 1A
+
+D F2 R2 B2 F2 R2 D' U R2 U'  (10)       not
+D' B2 U2 B2 L2 R2 D2 F2 L2 R2 D'  (11)  not
+L2 B2 F2 R2 D' U2 L2 B2 F2 R2 U'  (11)  not
+U' L2 R2 U2 L2 R2 U'  (7) *             not
+
+
+
+
+
+000
+XXX
+0XX
+
+ 1B
+
+B2 D2 L2 U' F2 D2 F2 L2 D F2 L2 U2 B2 R2 U'  (15)  not
+
+
+
+
+000
+XXX
+X0X
+
+ 1D
+
+L2 B2 F2 R2 D U2 L2 B2 F2 R2 U'  (11) not
+F2 U L2 R2 D2 L2 R2 U' F2  (9)        not
+
+
+
+
+000
+XXX
+XXX
+
+ 1F
+
+D  (1) *    continuous
+D2  (1) *   continuous
+
+
+
+
+00X
+0X0
+X00
+
+ 24
+
+D' L2 F2 U2 B2 R2 U2 L2 D U' R2 U'  (12)  not
+
+
+
+
+00X
+0X0
+X0X
+
+ 25
+
+ (none)
+
+
+
+
+00X
+0X0
+XX0
+
+ 26
+
+B2 L2 D U F2 L2 D U F2 R2  (10)      not
+L2 D' U' F2 D U . L R' U2 L R  (11)  not
+D' U' F2 D' U . L R' U2 L R  (10)    not
+U' B2 L2 D2 R2 F2 U2 F2 R2 U'  (10)  not
+
+
+
+
+00X
+0X0
+XXX
+
+ 27
+
+L2 D2 R2 B2 U R2 B2 D2 L2 F2 U' F2 D2 R2 U'  (15)  not
+
+
+
+
+
+00X
+0XX
+XX0
+
+ 2E
+
+ (none)
+
+
+
+
+00X
+0XX
+XXX
+
+ 2F
+
+L2 D2 B2 D B2 L2 U2 B2 L2 D' B2 R2 U2 R2 U'  (15)   not
+
+
+
+
+00X
+XX0
+00X
+
+ 31
+
+L2 F2 L2 R2 F2 R2 U2  (7) *  not
+
+
+
+
+00X
+XX0
+0X0
+
+ 32
+
+F2 D2 L2 U B2 D2 B2 L2 D' B2 L2 U2 F2 R2 U'  (15)  not
+
+
+
+
+00X
+XX0
+0XX
+
+ 33
+
+D F2 R2 B2 F2 R2 D' U R2 U  (10)    not
+
+
+
+
+00X
+XX0
+X0X
+
+ 35
+
+F2 L2 D2 R2 D' R2 F2 D2 B2 D' B2 R2 U2 R2 U'  (15)  not
+
+
+
+
+00X
+XX0
+XX0
+
+ 36
+
+
+ (none)
+
+
+
+
+00X
+XX0
+XXX
+
+ 37
+
+L2 U2 F2 D F2 R2 U2 F2 R2 D' F2 L2 D2 R2 U'  (15)  not
+B2 U2 F2 L2 D L2 D2 R2 B2 D B2 D2 F2 R2 U'  (15)   not
+F2 R2 D2 L2 D L2 F2 U2 F2 D F2 R2 U2 R2 U'  (15)   not
+
+
+
+
+
+00X
+XXX
+00X
+
+ 39
+
+U2 F2 U L2 . B' F U2 R' F2 R2 D U' B L R'  (15) not
+B2 L2 R2 F2 D' L2 B2 F2 R2 U'  (10)             not
+B2 U' B2 L2 R2 F2 D' F2  (8)                    not
+
+
+
+
+
+00X
+XXX
+0X0
+
+ 3A
+
+B2 U2 R2 U' B2 D2 B2 R2 D B2 R2 D2 B2 R2 U'  (15) not
+
+
+
+
+
+00X
+XXX
+0XX
+
+ 3B
+
+L2 D2 L2 F2 U2 R2 B2 U2 F2  (9)        not
+U' R2 B2 R2 D F2 D' R2 B2 R2 U  (11)   not
+B2 R2 F2 D' U' B2 L2 F2 R2 D' U'  (11) not
+
+
+
+
+
+00X
+XXX
+X00
+
+ 3C
+
+D' L2 B2 U2 F2 R2 U2 L2 D' U R2 U'  (12) not
+F2 R2 D U L2 B2 R2 B2 D' U' F2 R2  (12)  not
+D' R2 B2 U2 B2 R2 U2 R2 D' U R2 U'  (12) not
+
+
+
+
+00X
+XXX
+X0X
+
+ 3D
+
+ (none)
+
+
+
+
+00X
+XXX
+XX0
+
+ 3E
+
+B2 L2 D2 B2 R2 F2 L2 U2 F2 R2  (10)  not
+D' U' L2 D' U . B F' D2 B F  (10)    not
+U2 L2 . B' L2 D2 U2 R2 F' R2  (9)    not
+D2 L2 . B' D2 L2 R2 U2 F' R2  (9)    not
+
+
+
+
+
+00X
+XXX
+XXX
+
+ 3F
+
+R2 U2 F2 D' F2 L2 D2 B2 R2 D B2 L2 D2 R2 U'  (15)  not
+
+
+
+
+
+0X0
+XXX
+0X0
+
+ 5A
+
+D F2 R2 F2 D' U R2 F2 R2 U'  (10)         not
+B2 F2 D2 L2 R2 D B2 F2 U2 L2 R2 U'  (12)  not
+
+
+
+
+0X0
+XXX
+0XX
+
+ 5B
+
+ (none)
+
+
+
+
+0X0
+XXX
+X0X
+
+ 5D
+
+B2 F2 L2 R2 D B2 F2 L2 R2  (9)   not
+B2 F2 L2 R2 D2 B2 F2 L2 R2  (9)  not
+
+
+
+
+
+0X0
+XXX
+XXX
+
+ 5F
+
+D' L2 B2 F2 R2 U' L2 B2 F2 R2  (10)  not
+L2 B2 D' B2 L2 R2 F2 U' F2 R2  (10)  not
+
+
+
+
+
+0XX
+XX0
+X0X
+
+ 75
+
+F2 D2 B2 L2 D L2 U2 L2 F2 D F2 U2 F2 R2 U'  (15)  not
+
+
+
+
+
+0XX
+XX0
+XXX
+
+ 77
+
+R2 D2 B2 D' B2 R2 D2 F2 L2 D F2 R2 U2 R2 U'  (15) not
+
+
+
+
+
+0XX
+XXX
+XX0
+
+ 7E
+
+D' R2 F2 U2 F2 R2 U2 R2 D U' R2 U'  (12)  not
+
+
+
+
+0XX
+XXX
+XXX
+
+ 7F
+
+ (none)
+
+
+
+
+X0X
+0X0
+X0X
+
+ A5
+
+D2 R2 U2 L2 R2 U2 R2 U2  (8)  not  (four solid, other two opposite)
+D2 L2 F2 L2 R2 F2 R2 U2  (8)  not
+
+
+
+
+
+X0X
+0X0
+XXX
+
+A7
+
+D' B2 U' L2 . B' F U2 R' D U' B2 L2 B L R'  (15)                not
+B2 L2 R2 F2 D' U2 L2 B2 F2 R2 U'  (11)                          not
+U2 F2 D' U' R2 U2 . R B2 F L' R D L' B2 F2 R B  (17)            not *1
+D2 L2 B2 R2 U' F2 L2 D U' . R B2 U' F' D2 U' R F2 D L' R2  (20) not *2
+B2 R2 F2 U' L2 U . R B D2 B' R' D' R' F2 L R2 B2 U'  (18)       not *2
+D F2 L2 F2 D' U' R2 D' R2 . B' D2 B' D' L' U L2 R' U' R'  (19)  not *2
+D' L2 R2 D' U' B2 F2 U'  (8)                                    not
+F2 L2 D2 B2 U2 B2 F2 R2 F2 U2  (10)                             not
+F2 D' F2 D B2 U B2 F2 U2 L2 U F2 . R B U' B2 U B' R'  (19)      not
+D' F2 R2 B2 F2 R2 D' U R2 U  (10)                               not
+
+      *1  two solid faces, adjacent
+      *2  one solid face
+
+
+
+
+
+
+X0X
+0XX
+XXX
+
+ AF
+
+D . F' D2 U2 B R B' D2 U2 F L' D'  (12) *                  continuous *1
+R2 U2 . L B L U R' U R' D' F' D'  (12) *                   not *2
+L2 U2 R2 D2 R2 U2  (6) *                                   not *4
+U F2 D U2 L2 U' F2 . L' U' F D2 U L' F2 U2 B' R  (17)      not *3
+D B2 D' U2 . F D F U' R' U F' U' R' U' B2  (15)            not *2
+F2 U' L2 U L2 U' B2 . L' U' B U2 B' U L' F2 D' R2  (17)    not
+R2 D' R2 U' R2 U . R U L F2 D2 L' U' B' D B D  (17)        not *2
+L2 U2 R2 D2 R2 . B' L' B' U' F U' F D R D F2  (16)         not *2
+B2 D2 B2 U2 F2 L2 D' . F' D' L' U L' U R B R  (16)         not *2
+L2 U2 R2 F2 D2 R2 F2 D2 F2 U2  (10)                        not
+F2 L2 U2 B2 D R2 . B' L' D' L' D' B' U' B' F U' B U2  (18) not
+R2 D2 B2 D2 F2 U . F' D' L' D' B D L D F' R2  (16)         not *3
+U F2 L2 U2 L2 F2 R2 D' U' . B' D' L' B' R' B' R B L  (18)  not *2
+B2 L2 . B' D' L' U B' R2 U' L F' D' F  (13)                not *2
+B2 R2 F2 L2 U2 F2 R2 U2 F2 U2  (10)                        not
+
+          *1 three solid faces mutually adjacent
+          *2 one solid face
+          *3 two solid faces adjacent
+          *4 four solid, other faces opposite
+
+
+
+
+
+
+X0X
+XXX
+X0X
+
+ BD
+
+D B2 F2 D' U L2 R2 U'  (8)                  continuous
+D2 B2 D2 U2 F2 U2  (6) *                    not *4
+R2 . F' U2 L2 D2 B2 L2 U2 R2 F' R2  (11) *  not *2
+F2 D2 L2 . F D2 U2 B' R2 U2 F2  (10) *      not *3
+F2 R2 U2 . B' D2 U2 F D2 R2 F2  (10) *      not *1
+D2 U2 B2 U2 R2 . F' D2 U2 B L2 U2 F2  (12)  not *5
+L2 D' U' B2 F2 D' U' R2  (8)                not
+L2 D2 R2 . B' U2 F U2 L2 U2 F R2 F'  (12)   not *5
+B2 F2 L2 R2 U' B2 F2 D2 L2 R2 U'  (11)      not
+L2 R2 U2 B2 F2 U B2 F2 U2 L2 R2 U'  (12)    not
+L2 R2 D2 L2 B2 U B2 F2 D' F2 R2 U2  (12)    not
+D B2 L2 B2 D U' R2 F2 R2 U'  (10)           not
+
+      *1 - three solid faces, not mutually adjacent
+      *2 - four solid faces, other two faces adjacent
+      *3 - two solid faces, adjacent
+      *4 - four solid faces, other two faces opposite
+      *5 - one solid face
+
+
+
+
+
+X0X
+XXX
+XXX
+
+ BF
+
+D' U R2 F2 D U' . R' D U' B' L2 B D' U R'  (15) continuous
+L2 D U . B D' B' U' L2 D L D L' D2  (13)        continuous *1
+B2 D U' L2 D' U  (6) *                          not
+D B2 U2 . L' U2 B2 D2 R' D  (9) *               not *2
+R2 D U' . B D' B' D' U R D R  (11) *            not *2
+F L R' D2 L' R F  (7) *                         not *2
+L2 U2 . B U2 L2 D2 F D2  (8) *                  not *1
+L2 . F L R' D2 L' R F L2  (9) *                 not *2
+U2 L2 D2 . B' L2 U2 R2 F'  (8) *                not *1
+L2 D U' . F' L F D' U L' B' L'  (11) *          not *2
+F2 U2 L2 D2 . B' L2 U2 R2 F  (9) *              not *2
+D2 . B' L' R D2 L R' B' D2  (9) *               not *3
+R2 U2 . B D2 L2 U2 F D2  (8) *                  not *1
+U2 B2 U2 L2 U2 . B D2 R2 U2 F' D2  (11)         not *2
+D . R B2 F2 L' U' L B2 F2 R'  (10) *            not *2
+D . R' B F' U R' U' B' F R  (10) *              not *2
+D . F' R' B' L' D' L B R F  (10) *              not *1
+B2 D L2 U . R U R' F U2 L D' L B'  (13)         not *2
+R2 D . F D' F' R2 D' B' D B  (10) *             not *1
+D F2 D R2 . F R2 D2 R2 F R2 D F2 D'  (13)       not *2
+D' F2 U2 B2 U2 F2 D'  (7) *                     not
+F2 R2 U2 . B' U2 R2 U2 B' U2 F2  (10) *         not *2
+F2 D2 . F D2 R2 D2 F D2 R2 F2  (10) *           not *2
+B2 R2 U' L2 U R2 B2 R2 U F2 U' R2  (12)         not
+D L2 B2 F2 R2 U' L2 B2 F2 R2  (10)              not
+F' L2 R2 B2 L2 R2 F'  (7) *                     not
+L2 . B L' B' D2 R' B' R B D2 L'  (11) *         not *1
+D U' . B F' U' B' F R2 D' U F'  (11) *          not
+
+       *1 - 2 solid, adjacent
+       *2 - 1 solid
+       *3 - 3 solid, not mutually adjacent
+
+
+
+
+XXX
+XXX
+XXX
+
+ FF
+
+ (none)
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

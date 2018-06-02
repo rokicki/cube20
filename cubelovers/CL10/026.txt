@@ -1,0 +1,44 @@
+From ronnie@cisco.com  Thu Aug  5 19:55:48 1993
+Return-Path: <ronnie@cisco.com>
+Received: from lager.cisco.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23537; Thu, 5 Aug 93 19:55:48 EDT
+Received: from localhost.cisco.com by lager.cisco.com with SMTP id AA23583
+  (5.67a/IDA-1.5 for <cube-lovers@life.ai.mit.edu>); Thu, 5 Aug 1993 16:55:37 -0700
+Message-Id: <199308052355.AA23583@lager.cisco.com>
+To: acw@bronze.lcs.mit.edu (Allan C. Wechsler)
+Cc: Dik.Winter@cwi.nl, cube-lovers@life.ai.mit.edu
+Subject: Re: Diameter of cube group? 
+In-Reply-To: Your message of "Thu, 05 Aug 1993 17:02:45 EDT."
+             <9308052102.AA22841@bronze.lcs.mit.edu> 
+Date: Thu, 05 Aug 1993 16:55:36 -0700
+From: "Ronnie B. Kon" <ronnie@cisco.com>
+
+Disclaimer: this sounds more authoritative than is intended--I really
+don't know what I'm talking about.
+
+
+It couldn't be very pointy.  From the most distant configuration,
+there are 6 positions immediately before it.  There are 6^2 two steps
+away, 6^3 three steps, etc.  (well, 6^2 - 1 and 6^3 - ?) actually.
+
+This is necessarily so, as if any of the configurations reachable with
+two twists (for example) are closer in than (max - 2) steps then you
+could reach the maximum configuration by getting there and then doing
+the two steps.
+
+This gives me the feeling that Monte Carlo is fairly valid.  (How's
+that for rigor?)
+
+				Ronnie
+
+> I wonder about the validity of your Monte Carlo analysis.  It seems
+> to be based on an intuition about how fast the number of configurations
+> falls off with the distance from SOLVED.  I share the intuition, but
+> I'm not sure I can rigorize it, and that makes me cautious.
+> 
+> What prevents a group from having a "pointy tail", that is, a "corridor"
+> of elements at increasing distances from the identity?  In fact, does
+> the number of elements as a function of distance have to be unimodal?
+> Could this function have a "waist"?  Intuitively, this sounds
+> impossible, but I am wondering what constraints on such functions are known.
+> 
+

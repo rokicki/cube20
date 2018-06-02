@@ -1,0 +1,101 @@
+From walts@federal.unisys.com  Tue Apr 30 07:42:15 1996
+Received: from www.han.federal.unisys.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12966; Tue, 30 Apr 96 07:42:15 EDT
+Received: from homer.MCLN.Federal.Unisys.COM by www.han.federal.unisys.com (8.6.12/mls/8.0) 
+	id HAA14387; Tue, 30 Apr 1996 07:42:12 -0400
+Return-Path: <walts@federal.unisys.com>
+Received: from h3-105.MCLN.Federal.Unisys.COM by homer.MCLN.Federal.Unisys.COM (8.6.12/mls/4.1) 
+	id HAA22489; Tue, 30 Apr 1996 07:45:42 -0400
+Message-Id: <318626DD.291E@federal.unisys.com>
+Date: Tue, 30 Apr 1996 07:42:38 -0700
+From: Walt Smith <walts@federal.unisys.com>
+X-Mailer: Mozilla 2.0 (Win16; I)
+Mime-Version: 1.0
+To: cube-lovers@ai.mit.edu
+Subject: Rubiks Revenge
+X-Url: http://home.netscape.com/
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Rubiks Revenge presents several difficult cases when the last few pieces are 
+reached.
+
+There has been discussion on this over the years but it does not seem to have 
+reached closure.
+
+Mark Longridges list of best known solutions, 
+(http://admin.dis.on.ca:80/~cubeman/cmoves.txt) lists some of these but here 
+are some improved solutions of my own and additional operators that are 
+needed to solve it.
+
+If the center four are done on all sides and the edge pieces are paired up, 
+it can be can be treated like a 3x3x3 Rubik Cube.  Several cases come up at 
+the end that can not occur on a 3x3x3.  If the corners are done and the last 
+few edges are left for last, four cases occur.  Here are my methods that are 
+shorter than any others I have seen.
+
+Case 1.  The last three edges can be solved with 3x3x3 techniques.
+
+Case 2.  Two edge pairs are swapped. (swaps RF and RB)
+
+        d2  R2  d2  rR2  d2  r2     (7)
+
+        This is based on combining the following two sequences:
+        (d2  R2)2  d2     and    (d2  r2)2
+
+        Each of these is useful in itself.
+
+        This is shorter than Marks Longridges p4.
+        (Marks p4 is mislabeled Opp.  It should be Adj and p5 should be 
+        labeled Opp)
+
+Case 3.  A single edge pair is flipped.  (flips BL)
+
+        L2
+        d1
+        R2  d1  R2  d3  L2  u3  B2  u2  B2  u3
+        B2  R2  B1  r3  B3  R2  B1  r1  B1     (21)
+
+This is shown in four groups because it proceeds in stages.  The second move 
+fixes the parity, the first along with 3rd through 12th fix the faces and the 
+last group of moves fix the edges.
+This is shorter than Marks p3.
+
+
+Case 4.  Both Case 2 and Case 3 exist.  The flipped edge pair might be one of 
+the swapped edge pairs or it might not be.  Obviously this can be solved by 
+using the techniques of Case 2 and 3 applied separately.  I have always 
+thought that it should be possible to find an operator that is shorter than 
+the sum of these two and possibly shorter that Case 3.  I have not done as 
+much study on this case as the others.
+
+
+If you want to solve the corners last (avoids Case 3 and 4), you may still 
+need to solve Case 2 but you may also need to swap two corner pieces.  This 
+can be done by applying  Case 2 then fixing the edges then corners.  This 
+will take about 40 turns.  The following does it quicker.
+(swaps LDB and LDF with the bottom cubie faces remaining bottom faces.)
+
+        R3  D1  L1  D3  R1
+        D2  L3  D1  L1  D2
+        L1  U3  r2   F2  r2  fF2  r2  f2  U1  L2    (21)
+
+It is listed in three groups to make it easier to memorize as it proceed in 
+three stages.
+This is shorter than the sequence in Mark Jeays on-line solution at
+http://qlink.queensu.ca/~4mj/rr.html  ( or link from Mark Longridges home
+http://admin.dis.on.ca:80/~cubeman/ )
+
+
+I do not have any books on Rubiks Revenge.  If someone out there does, please 
+see how these solutions compare.  If anyone has shorter solutions, either 
+that they have developed or found in books please submit them so Mark L. can 
+improve his list (and so I can improve my technique).  
+
+Also Marks p1 does not work.  Can anyone fix it?
+
+
+
+Walter Smith
+near Washington D.C.
+walts@federal.unisys.com
+

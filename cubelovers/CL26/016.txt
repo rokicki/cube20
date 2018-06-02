@@ -1,0 +1,39 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Oct  8 19:47:11 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id TAA24896; Thu, 8 Oct 1998 19:47:10 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 8 Oct 1998 16:45:31 +0100
+From: David Singmaster       <david.singmaster@sbu.ac.uk>
+To: cube-lovers@ai.mit.edu
+Message-Id: <009CD663.86DEF2D6.16@ice.sbu.ac.uk>
+Subject: Nicholas Bodley's message of 22 Sep 1998.
+
+	Nicholas Bodley's message reminds me of when I wrote about the Cube in
+1978 or early 1979, I think in the Observer, which seems to have been the first
+article outside Hungary.  I mentioned that the mechanical problem seemed even
+harder than the mathematical problem and this led to about six submissions of
+mechanisms from readers.  All but one of these were clearly impossible, but the
+last was Rubik's mechanism with slight differences - e.g. he had the undersides
+of the centers rounded.  The submitter of this was a UK patent agent with
+obvious mechanical aptitude.
+	However, one of my students, who had bought a cube from me, told me
+that a friend rang her up and asked if she had seen the hoax article about a
+cube that moved in all directions.  The friend had just proven that such an
+object was impossible.  My student had to disabuse her.
+	When the cubes first came out of Hungary, we didn't know what the
+mechanism was and they were too precious to fiddle with.  Roger Penrose said he
+had one face center piece come undone and he carefully wrapped thread around
+the exposed part of the screw and worked the screw into place and pulled on the
+thread to screw the screw  back into the central piece.  Sometime in late 1978,
+a friend had trouble with his cube and took a screwdriver to it and discovered
+the cover plates and the screw heads inside!
+	Enough for now.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

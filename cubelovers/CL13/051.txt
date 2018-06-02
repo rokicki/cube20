@@ -1,0 +1,35 @@
+From hoey@aic.nrl.navy.mil  Thu Nov 10 08:43:46 1994
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03006; Thu, 10 Nov 94 08:43:46 EST
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA22346; Thu, 10 Nov 94 08:43:35 EST
+Date: Thu, 10 Nov 94 08:43:35 EST
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9411101343.AA22346@Sun0.AIC.NRL.Navy.Mil>
+To: "Derek Bosch" <bosch@smiteo.esd.sgi.com>
+Cc: cube-lovers@life.ai.mit.edu
+Subject: Re: Symbolic cube program
+
+> Since I received many requests for it, here it is.  It is a
+> uuencoded, compressed, tar file.
+
+The cube lovers archives contain over two megabytes of readable
+discussions on the cube.  In the interests of keeping them readable, I
+ask that binary files and programs be distributed using some other
+channel: private email, ftp, web, or whatever.  Please let Cube-Lovers
+remain a _discussion_ list for cube topics.
+
+I am aware that alternative distribution methods are not supplied
+by Alan Bawden in his maintenance of the Cube-Lovers list and
+archives.  Please consider that encouragement to provide such
+methods, rather than an excuse to use this list for the purpose.
+
+I am also aware that the recent program was not much larger than some
+of the discussion articles on the list.  Nonetheless, it does not
+contribute to the discussion, and imposes a burden on those of us who
+subscribe for the discussion.  The revised versions and larger
+programs to follow would impose a growing burden on the list.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

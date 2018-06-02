@@ -1,0 +1,17 @@
+From: andyb@dartvax.UUCP
+Newsgroups: net.puzzle
+Subject: Rubik's cube cornered
+Message-ID: <307@dartvax.UUCP>
+Date: Tue, 25-Oct-83 00:03:36 EDT
+Article-I.D.: dartvax.307
+Posted: Tue Oct 25 00:03:36 1983
+Date-Received: Tue, 25-Oct-83 08:53:25 EDT
+Lines: 7
+
+It is possible to solve the corners of the Rubik's Cube in no more
+than 11 turns.  Over 4/5 of all possible patterns can be solved in
+9 turns or fewer, but over half take a full 9 turns.  Ten turns are
+enough to solve more than 99.9% of all scrambled states.  (Only
+2,644 states require 11 turns).
+ 
+This from L. John Kelley, solver of the Magic Pyramid.

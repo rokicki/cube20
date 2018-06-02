@@ -1,0 +1,33 @@
+From gej@spamalot.mfg.sgi.com  Thu Jan  5 20:58:47 1995
+Return-Path: <gej@spamalot.mfg.sgi.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05251; Thu, 5 Jan 95 20:58:47 EST
+Received: from sgigate.sgi.com by ptc.com (5.0/SMI-SVR4-NN)
+	id AA02280; Thu, 5 Jan 95 20:57:14 EST
+Received: from spamalot.mfg.sgi.com by sgigate.sgi.com via ESMTP (940627.SGI.8.6.9/911001.SGI)
+	 id RAA17897; Thu, 5 Jan 1995 17:58:31 -0800
+Received: by spamalot.mfg.sgi.com (940816.SGI.8.6.9/930416.SGI)
+	 id RAA02633; Thu, 5 Jan 1995 17:58:06 -0800
+From: gej@spamalot.mfg.sgi.com (Gene Johannsen)
+Message-Id: <199501060158.RAA02633@spamalot.mfg.sgi.com>
+Subject: Re: kociemba's algorithm for quarter turns
+To: mreid@ptc.com (michael reid)
+Date: Thu, 5 Jan 1995 17:58:05 -0800 (PST)
+Cc: cube-lovers%life.ai.mit.edu@ptc.com
+In-Reply-To: <9501052212.AA04664@ducie.ptc.com> from "michael reid" at Jan 5, 95 05:12:18 pm
+X-Mailer: ELM [version 2.4 PL23]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 8bit
+Content-Length: 223       
+
+> 
+> for much too long now, i've meant to implement kociemba's algorithm
+
+	I'm new to the list, and I've seen Kociemba's Algorithm
+	referred to several times.  Where can I find some more
+	information on it?
+
+	Thanks.
+
+gene
+

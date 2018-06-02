@@ -1,0 +1,27 @@
+Date: 23 Sep 1981 1554-PDT
+From: HOROWITZ at USC-ISIF
+Subject: question for cube-lovers
+To:   cube-lovers at MIT-AI
+
+Minh Tai, a high school senior in the Los Angeles area who can do
+the cube in average 50 seconds  proposes the following problem:
+
+Is it possible to make every face have either a Z or an S
+(two colors, one forming the Z pentomino)?
+
+He signs himself with a quick routine for six T's as follows:
+(U2 R' L)2 (B2 D2)3
+
+
+   ------!----!-------
+   ! x   ! x  !      !
+   !                 !
+   ------!----!-------
+   !     ! x  !      !
+   !                 !
+   ------!----!------
+   !                 !
+   !        x      x !
+   ------!-----!------
+-------
+

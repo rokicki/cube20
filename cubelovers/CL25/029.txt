@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Apr  3 17:18:01 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id RAA16814; Fri, 3 Apr 1998 17:18:01 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Apr  1 06:05:52 1998
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: new to list
+Date: 1 Apr 1998 09:19:33 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <6ft0r5$6kj@gap.cco.caltech.edu>
+References: <cube-lovers.01BD5821.7C9449E0@jburkhardt.ne.mediaone.net>
+
+John Burkhardt <jburkhardt@mediaone.net> writes:
+>The Dodecahedron puzzle is really amazing.  It was actually harder
+>than the 5x5x5 cube.  IT took me about 3 hours to work it out!  I
+>think once you know the 3x3x3 then all the same moves do similar
+>things and you can easily solve 4x4x4 or 5x5x5 with variations.  Of
+>course there are some cool things you can do with these.
+
+Really??  I found the Dodecahedron significantly easier than the 4x4x4.
+The Dodecahedron gives more "space" for moves...
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+Smoking cigarettes are bad for you, so smoking cigarettes is bad for you.
+

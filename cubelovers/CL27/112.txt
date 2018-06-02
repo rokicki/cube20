@@ -1,0 +1,54 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jul  2 13:23:14 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA15540
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 2 Jul 1999 13:23:13 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Reply-To: <noel@mud.ca>
+From: "Noel Dillabough" <noel@mud.ca>
+To: "Cube Lovers List (E-mail)" <cube-lovers@ai.mit.edu>
+Subject: Solution for the size 2 octahedron
+Date: Thu, 1 Jul 1999 17:48:12 -0400
+Message-Id: <000001bec441$c8879680$29f5ddce@laptop>
+
+After playing with the size 2 corner moves based octahedron, I found that
+the solution for most of the edges is trivial, just a matter of putting them
+into place using standard puzzle moves.  The only part of the puzzle that
+needs a special move is the final step that you may be left with a pair of
+faces that need to be switched:
+
+The following represent a tip of the octahedron, and sides A and B must be
+switched
+
+     R->
+     |
+_____|______
+     |
+  A  |  B
+
+
+The following move accomplishes this:
+
+Down
+Rotate Counterclockwise
+Up
+Rotate Twice
+Down
+Rotate Twice
+Up
+Rotate Twice
+Down
+Rotate Clockwise
+
+The "Up" and "Down" moves refer to the right half of the octahedron, cut
+through the middle of the tip and leaving the left half steady.  The Rotate
+moves refer to rotating the tip in place.
+
+Anyone with a good notation for this and the size 3 corners based
+octahedron, or the side based size 2 or 3 octrahedra let me know.
+
+[Moderator's note: Isn't a corners-based octahedron just a face-based cube
+ with the corners flattened and the faces made pointy?  I think BFTDLR or
+ BFUDLR would work for notation. --Dan]
+

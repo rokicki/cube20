@@ -1,0 +1,31 @@
+Date: Tue, 15 Apr 86 04:40:29 EST
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  Cube-Lovers moves!
+To: CUBE-LOVERS@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].27214.860415.ALAN>
+
+The Cube-Lovers mailing list has moved from MIT-MC to MIT-AI.  All this
+really means is that the archives are in a new place.  Sending mail to
+Cube-Lovers@MIT-MC and Cube-Lover-Request@MIT-MC will still work, although
+it will be infinitesimaly faster if you mail to Cube-Lovers@MIT-AI and
+Cube-Lover-Request@MIT-AI instead.
+
+(Please do not take this move as an opportunity to start spreading false
+rumors about the status of MIT-MC.  I am moving Cube-Lovers from MC to AI
+because I am -personally- moving to AI, and it is thus convenient for the
+mailing list to move with me.  There will be a machine named MIT-MC for
+years and years to come.)
+
+For the record:  Old cube-lovers mail is archived on MIT-AI in the
+following places:
+
+AI:ALAN;CUBE MAIL0	;oldest mail in forward order
+AI:ALAN;CUBE MAIL1	;next oldest mail in forward order
+AI:ALAN;CUBE MAIL2	;more of same
+AI:ALAN;CUBE MAIL3	;still more of same
+AI:ALAN;CUBE MAIL4	;yet more
+AI:ALAN;CUBE MAIL	;recent mail in reverse order
+
+Files can be FTP'd from MIT-AI without an account.  Unfortunately the
+archives are way too large to be conveniently mailed by either computer or
+physical mail.

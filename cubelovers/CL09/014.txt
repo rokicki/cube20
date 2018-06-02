@@ -1,0 +1,38 @@
+From alan@ai.mit.edu  Thu Jun 11 15:20:31 1992
+Return-Path: <alan@ai.mit.edu>
+Received: from august (august.ai.mit.edu) by life.ai.mit.edu (4.1/AI-4.10) id AA09200; Thu, 11 Jun 92 15:20:31 EDT
+Received: by august (4.1/AI-4.10) id AA04098; Thu, 11 Jun 92 15:21:19 EDT
+Date: Thu, 11 Jun 92 15:21:19 EDT
+Message-Id: <9206111921.AA04098@august>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+To: Kees.Goet@rcl.wau.nl, STEFANO@agrclu.st.it
+Cc: Cube-Lovers@ai.mit.edu
+In-Reply-To: "Kees Goet - Landbouwuniversiteit, Afd. I&D"'s message of Thu, 11 Jun 1992 08:41 GMT +01:00 <01GL2YSCT30W9ED95T@RCL.WAU.NL>
+Subject: Please do not bother everybody with administrative requests
+
+   Date: Thu, 11 Jun 92 14:36 CET
+   From: STEFANO BONACINA <STEFANO@agrclu.st.it>
+   Could anyone tell me how can I unsubscribe from this mailing list?
+   Thanks in advance.
+   Stefano
+
+   Date: Thu, 11 Jun 1992 08:41 GMT +01:00
+   From: "Kees Goet - Landbouwuniversiteit, Afd. I&D" <Kees.Goet@rcl.wau.nl>
+   Could somebody please remove me from this list.
+   Thanks in advance.
+   Kees Goet.
+
+As everyone is informed when they subscribe, administrative requests should
+be directed to Cube-Lovers-Request@AI.MIT.EDU (me).  Even if you lost my
+original greeting message, the "-Request" suffix is a sufficiently
+widespread convention for mailing lists that you should have tried it
+first, before bothering the entire mailing list.
+
+STEFANO@agrclu.st.it, I have removed you.
+
+Kees.Goet@rcl.wau.nl, I will be sending you separate mail about your
+subscription.
+
+				- Alan
+

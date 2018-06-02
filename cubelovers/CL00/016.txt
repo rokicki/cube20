@@ -1,0 +1,15 @@
+Date: 17 JUL 1980 1420-EDT
+From: RP at MIT-MC (Richard Pavelle)
+Subject: the cross design
+To: CUBE-LOVERS at MIT-MC
+
+Does anyone know a transformation (or series of) which will produce
+the following pattern on each face where X and O are two different colors.
+
+	|X O X|
+	|O O O|
+	|X O X|
+
+I think this may not be possible which brings me the question which
+is how one can say whether a particular arrangement is or is
+not possible.

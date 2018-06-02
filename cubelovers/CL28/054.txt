@@ -1,0 +1,235 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 21 16:15:00 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA14884
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 21 Dec 1999 16:15:00 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 14 Dec 1999 21:56:29 -0500 (EST)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199912150256.VAA02345@Twig.Rodents.Montreal.QC.CA>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: WTD: Rubik's Cube Program w/MACROS
+
+>>> I'm looking for a Rubik's cube program that will allow you to
+>>> manipulate the cube and allow you to record MACRO sequences and
+>>> execute them at any time.
+>> [...]
+> Can anyone on Cube-lovers give a pointer to a cube manipulator with
+> macro capability?
+
+I wrote one that might qualify, depending on what the original poster
+actually wants.
+
+You can do things like this (commentary in [[ ]] markers)
+
+% twist
+> R F2
+Cube:
+              u u f
+              u u f
+              b d d
+        l l r d f f l r r u b b
+        l l r d f f l r r u b b
+        l l r d f f l r r u b b
+              f u u
+              d d b
+              d d b
+Cycles: (ur,br,dr,fl,fr) (uf,df) (ubr,bdr,ufl,dfr,fdl,fur) [30]
+Already centered
+[[ The unfolded cube view shows the result of R F2; the cycle
+decomposition is also printed, along with the smallest power that it
+needs to be raised to to give the identity - I can't offhand recall the
+group-theory term for this number.  The "Already centered" line is
+related to something I'll demonstrate later. ]]
+> .set t LAST
+`t' defined
+[[ Define "t" as a name for this transformation. ]]
+> t2
+Cube:
+              u u f
+              u u f
+              u u f
+        l l r b f d r l l d b b
+        l l r b f d r r r f b b
+        l l l u f d r r r f b b
+              f d b
+              d d u
+              d d u
+Cycles: (ur,dr,fr,br,fl) (ubr,ufl,fdl) (urf,drb,frd) [15]
+Already centered
+[[ Do two `t' operations. ]]
+> t6
+Cube:
+              u u u
+              u u f
+              u u u
+        l l l f f f r r r b b b
+        l l r d f f l r r u b b
+        l l l f f f r r r b b b
+              d d d
+              d d b
+              d d d
+Cycles: (ur,br,dr,fl,fr) [5]
+Already centered
+[[ Do six `t' operations.  Produces a five-cycle on edges. ]]
+> SLICER
+Cube:
+              u f u
+              u f u
+              u f u
+        l l l f d f r r r b u b
+        l l l f d f r r r b u b
+        l l l f d f r r r b u b
+              d b d
+              d b d
+              d b d
+Cycles: (u,b,d,f) (ub,bd,df,fu) [4]
+Centred: (ul,fl,dl,bl) (ur,fr,dr,br) (ulb,flu,dlf,bld) (ubr,fur,dfr,bdr) [4]
+[[ SLICER is the R-L slice turned in the direction it would turn if you
+did an R turn but turned the center slice with the face.  (SLICEL is
+therefore equivalent to SLICER', the inverse of SLICER.  The "Centred"
+line shows the cycle decomposition of the move resulting from taking
+the given move and then concatenating it with a whole-cube move that
+returns all face-center cubies to their home cubicles - in this case,
+we can see that this is... ]]
+> SLICER CUBEL
+Cube:
+              b u b
+              b u b
+              b u b
+        l l l u f u r r r d b d
+        l l l u f u r r r d b d
+        l l l u f u r r r d b d
+              f d f
+              f d f
+              f d f
+Cycles: (ul,fl,dl,bl) (ur,fr,dr,br) (ulb,flu,dlf,bld) (ubr,fur,dfr,bdr) [4]
+Already centered
+[[ As promised.  Note the cycle decomposition matches the "Centred:"
+line from the previous example. ]]
+> SLICER U
+Cube:
+              u u u
+              f f f
+              u u u
+        f d f r r r b u b l l l
+        l l l f d f r r r b u b
+        l l l f d f r r r b u b
+              d b d
+              d b d
+              d b d
+Cycles: (u,b,d,f) (ub,bd,df,lu)+ (ur,uf)+ (ulb,ubr,urf,ufl) [8]
+Centred: (ul,fu,fr,dr,br,ur,fd,fl,dl,bl) (ulb,fur,lfd,ldb)+ (ubr,frd,drb)+ (ufl)+ [180]
+[[ The move of which the Spratt wrench is the fourth power. ]]
+> LAST 4
+Cube:
+              u b u
+              l u u
+              u u u
+        l u l f f f r r r b u b
+        l l l f f f r r r b b b
+        l l l f d f r r r b d b
+              d f d
+              d d d
+              d b d
+Cycles: (ub)+ (ul)+ (fd)+ (bd)+ [2]
+Already centered
+[[ The wrench itself. ]]
+> .set wrench (SLICER U) 4
+`wrench' defined
+[[ This could also have been ".set wrench LAST", since the last thing
+we did was the fourth power of SLICER U.  Parentheses group, so that
+the 4 takes the fourth power of the concatenation within them, as
+opposed to "SLICER U 4", which is SLICER concatenated with U 4. ]]
+> wrench U wrench U'
+Cube:
+              u b u
+              u u u
+              u f u
+        l l l f u f r r r b u b
+        l l l f f f r r r b b b
+        l l l f f f r r r b b b
+              d d d
+              d d d
+              d d d
+Cycles: (ub)+ (uf)+ [2]
+Already centered
+[[ A classic double-edge-flipper.  Note how we can use "wrench" as if
+it were a primitive.  To make the structure pellucid, it really should
+be written "wrench U wrench' U'", but wrench is its own inverse.  For
+an example where it's not... ]]
+> R B2 R' U' B2 U
+Cube:
+              b d d
+              u u u
+              u u f
+        r l l f f r u b b r b u
+        r l l f f f r r r u b b
+        d l l f f f r r u l l l
+              d d d
+              d d d
+              b b b
+Cycles: (ub,ur,br,bl,db) (ulb,rbd,bru) (urf)+ (ldb)- [15]
+Already centered
+> .set sct LAST
+`sct' defined
+> sct F sct' F'
+Cube:
+              u u u
+              u u u
+              f u f
+        l l u l f r u r r b b b
+        l l l f f f r r r b b b
+        l l l f f f r r r b b b
+              d d d
+              d d d
+              d d d
+Cycles: (ufl)- (urf)+ [3]
+Already centered
+[[ This happens to be one of my personal favorites for twisting
+corners, largely because it's one I developed completely on my own,
+deliberately setting out to develop a way of twisting corners, and my
+fingers know it well.  Note how this differs from... ]]
+> sct F sct F'
+Cube:
+              r b b
+              u u d
+              l u f
+        b l f u f r u b l u l d
+        r l l f f f r r b u b u
+        b l l f f f r r b r r d
+              d d d
+              d d d
+              l b u
+Cycles: (ub,br,db,ur,bl) (ulb,bru,rbd) (ufl)+ (urf)+ (ldb)+ [15]
+Already centered
+[[ ...which is a mess. ]]
+>
+
+The program has other facilities as well.  You can set a mode whereby
+each input line, rather than being applied to a clean cube, is applied
+to the last-printed cube; this is what you'd want if you wanted to try
+actually solving a cube using it.  There are also ways to save and load
+files containing user-defined transformations.  Twenty transformations
+are predefined: the six face quarter-turns, the six quarter-turns of
+the whole cube, the six SLICEx turns, NOOP (which has no effect), and
+LAST (which refers to the operation that carries a clean cube into the
+last-printed cube).  Parentheses group, numeric suffixes repeat what
+they apply to, ' takes the inverse, and * `centers' - it takes what it
+applies to and concatenates it with whole-cube rotations as necessary
+to return the face-center cubies to their home cubicles.
+
+The program is 1308 lines long (34106 bytes) and does require gcc to
+compile (it uses nonlocal gotos, nested functions a la Pascal, and
+block expressions with nested functions to get lambda functions), but
+other than that it should be fairly portable - there's stuff that's
+compiler-dependent but not much that's OS-dependent, I think.  I'll be
+happy to mail a copy to anyone who wants; if anyone cares to put it up
+to be generally fetchable, that's fine with me.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

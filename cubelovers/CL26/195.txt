@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 18 19:04:31 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA14621
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 18 Mar 1999 19:04:31 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 18 Mar 1999 07:35:57 -0500 (EST)
+From: Jiri Fridrich <fridrich@binghamton.edu>
+To: WaVeReBeL@webtv.net
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: Speed cubing results - March 99
+In-Reply-To: <18576-36F03DA1-15@mailtod-122.bryant.webtv.net>
+Message-Id: <Pine.SOL.L3.93.990318072843.17846C-100000@bingsun1>
+
+
+I recommend that we accept the same rules as during the 1st (and the last)
+world championship. We had a chance to pick up the cube and look at it for
+15 seconds. It was then returned to the table and the actual solving
+followed. Most competitors actually needed only 5-10 sec. to figure out
+the first couple of moves.
+
+Timing? I think most of us when we practice do the timing ourselves.
+
+I have one more point regarding the average. We should standardize
+this as well. For example, one can solve the cube 12 times, remove the
+worst and the best time and average the remaining 10. Or, do you want to
+list all the times during a practice and average them together?
+
+Jiri
+
+*********************************************
+ Jiri FRIDRICH, Research Scientist
+ Center for Intelligent Systems
+ SUNY Binghamton
+ Binghamton, NY 13902-6000
+ Ph/Fax: (607) 777-2577
+ E-mail: fridrich@binghamton.edu
+ http://ssie.binghamton.edu/~jirif/jiri.html
+*********************************************
+

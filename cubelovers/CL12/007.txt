@@ -1,0 +1,21 @@
+From @mitvma.mit.edu:SHERE@SLACVM.BITNET  Tue Mar 15 14:08:27 1994
+Return-Path: <@mitvma.mit.edu:SHERE@SLACVM.BITNET>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25112; Tue, 15 Mar 94 14:08:27 EST
+Message-Id: <9403151908.AA25112@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 0921; Tue, 15 Mar 94 14:08:19 EST
+Received: from SLACVM.SLAC.STANFORD.EDU (NJE origin MAILER@SLACVM) by
+ MITVMA.MIT.EDU (LMail V1.1d/1.7f) with BSMTP id 7886; Tue,
+ 15 Mar 1994 14:08:18 -0500
+Received: by SLACVM (Mailer R2.08 R208004) id 1497;
+          Tue, 15 Mar 94 11:07:04 PST
+Date: Tue, 15 Mar 1994   11:04 -0800 (PST)
+From: SHERE%SLACVM.BITNET@mitvma.mit.edu
+To: cube-lovers@life.ai.mit.edu
+Subject: Mailing List
+
+Hello, would you please add me.. shere@slac.stanford.edu .. to your
+mailing list?  I've forgotten some of my key moves and am trying
+to brush up.  I've downloaded your archived mail.  Where might I
+find a GZ decompression utility?  Anyway, thanks.  Lee
+

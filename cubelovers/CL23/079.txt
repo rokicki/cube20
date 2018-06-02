@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Jul 29 15:10:58 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA11199; Tue, 29 Jul 1997 15:10:57 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From CFolkerts@compuserve.com Tue Jul 29 14:09:01 1997
+Date: Tue, 29 Jul 1997 13:58:09 -0400
+From: Corey Folkerts <CFolkerts@compuserve.com>
+Subject: Re: 2^3 Reassembly
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Message-Id: <199707291358_MC2-1BDB-4183@compuserve.com>
+
+Nicholas Bodley writes:
+
+> The cubies are kept together by 12 "clips". These fit into the cutout
+>arcs; when you assemble the Cube, you put two cubies next to each other
+>(they touch) and fit this "clip" so that it keep s them together. To
+>install it, you move the clip away from the imaginary geometrical center
+>of the whole puzzle. 
+
+My 2^3 has these 12 clips as I discovered when it first burst. However, I
+would like to confirm something. Nine of my clips are identical, the 1/4
+circle shape. However, its the other three that are causing me trouble. One
+of them is identical to the other nine except that on one of the two planes
+it has a very small notch cut out of it. The notch is an arc and I'm
+guessing it is probably about 1 mm deep. The other two have one of the 1/4
+planes identical to the first nine, but the second plane extends far
+beyond, doubling the "height" of the clip. If viewed from the side which
+has the extended plane it is a diamond instead of a 1/4 circle.  All of the
+other internal pieces are identical to your description
+
+        I would like to know if everyone else has these altered clips in
+their 2^3s.
+
+        Corey Folkerts
+
+

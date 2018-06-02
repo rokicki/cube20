@@ -1,0 +1,66 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  2 17:31:46 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA04143; Mon, 2 Jun 1997 17:31:46 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <3393319D.774B@ibm.net>
+Date: Mon, 02 Jun 1997 13:48:29 -0700
+From: Jin "Time Traveler" Kim <chrono@ibm.net>
+Organization: The Fourth Dimension
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+MIME-Version: 1.0
+To: cube-lovers@ai.mit.edu
+Subject: Re: 5x5x5 practical Q's
+References: <3.0.32.19970601235733.0068d4f0@pop.radix.net>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Hersch Pilloff wrote:
+> 
+> Hello,
+> 
+> I'm proud to say that after significant quantities of blood, sweat, and
+> tears, I have finally solved the 5x5x5 cube.  I used some techniques from
+> the good old 3x3x3 cube as well as some general techniques I've found
+> useful over the past (often of the form A R A' R' where A is a set of
+> rotations preserving one face and R is a rotation of that face).  One
+> problem I faced along the way and have not been able to solve to my
+> satisfaction is an issue of parity.  I often put the big cube in a state
+> where exactly two "equivalent" off-center edge pieces on the upper face
+> were interchanged with one another.  They had the correct orientation, I
+> simply needed to switch the two pieces.  I would like to know if anyone has
+> an effective means of dealing with this situation.
+> 
+> It was immediately apparent that the ARA'R' technique would not work
+> because interchanging two pieces requires a change in parity which the
+> ARA'R' won't produce.  I tried interchanging "identical" pieces from the
+> interior of the cube and then returning to the top face to see if any
+> change had resulted.  This was met with only marginal sucess-- after enough
+> fiddling I was able to produce two pairs of interchanged, properly
+> oriented, off-center edge pieces on the upper face which I could, after
+> some further manipulation, handle with an ARA'R' scheme.  Still, this isn't
+> very satisfactory to me because I don't much like the idea of having to
+> randomly interchange pieces until I produce a workable situation without
+> any more definite strategy.  Undoubtedly, most of you have been more
+> successful at this endeavor than I have, so I'd appreciate any available
+> wisdom.
+> 
+> Thanks,
+> Mark Pilloff
+> 
+> P.S.  I'm not using my usual account.  If you email a reply to me, please
+> send it to mdp1@uclink4.berkeley.edu and not whatever return address is
+> listed above or below.  Or just mail the list-- I'm on that as well.
+
+I found that the solution book for the Rubik's Revenge was also a very
+useful tool to solving the 5x5x5. The only pieces I had to figure out
+myself through trial and error were the interior face pieces that have
+edge contact with the middle piece (i.e. four pieces that including the
+center piece would make a Plus "+" sign).
+
+-- 
+Jin "Time Traveler" Kim
+chrono@ibm.net
+VGL Costa Mesa
+
+

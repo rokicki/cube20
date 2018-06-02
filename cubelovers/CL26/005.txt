@@ -1,0 +1,56 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 22 19:05:00 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id TAA18829; Tue, 22 Sep 1998 19:05:00 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sat, 19 Sep 1998 09:13:58 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Two-face and three-face subgroups
+In-Reply-To: <199809151621.MAA19286@Twig.Rodents.Montreal.QC.CA>
+To: der Mouse <mouse@rodents.montreal.qc.ca>
+Cc: Cube Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <SIMEON.9809190958.A@GN209A.PSTCC.CC.TN.US>
+
+On Tue, 15 Sep 1998 12:21:58 -0400 (EDT) der Mouse
+<mouse@rodents.montreal.qc.ca> wrote:
+
+> I've been playing with the two-face subgroup [%] of the 3-Cube and got
+> to wondering - how much work has been done on the two-face and
+> three-face subgroups?  Certainly the two-face subgroup "feels" like a
+> much smaller object than even the 2-Cube (though perhaps more tedious
+> for human solution), perhaps about the size of the Pyraminx.
+>
+
+The <U,R> subgroup has been explored fairly thoroughly.  For
+example, look in the archives 8/31/1994 for a summary of the
+first complete God's Algorithm search of this particular
+subgroup.  There are a number of articles in the archives
+thereafter.  <U,R> has been searched in both the quarter turn
+metric and the face turn metric, and local maxima have been
+investigated as a part of the search.
+
+<U,R> has a very small branching factor and a corresponding
+large diameter of 25 in the quarter turn metric, at least I
+think it's a large diameter for such a small group. Until Mike
+Reid recently showed that the diameter of G in the quarter turn
+metric was at least 26, the diameter of <U,R> was the largest
+known for the 3x3x3 cube or any of its subgroups.
+
+Frey and Singmaster's book discusses both two face and three
+face subgroups, among other things giving their sizes.
+
+To my knowledge, no God's Algorithm searches have been performed
+for the three face subgroups.
+
+We have |<U,R>|=73483200, so <U,R> is slightly smaller than the
+corners group at 88179840.  The 2x2x2 is 24 times smaller than
+the corners group, at 3674160.  However, I am of the school
+of thought that tends not to equate the size of the group (or
+search space, for problems that are not actually groups) with
+the difficulty of the problem.
+
+----------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+

@@ -1,0 +1,93 @@
+From hoey@aic.nrl.navy.mil  Tue Jan  4 21:36:19 1994
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23585; Tue, 4 Jan 94 21:36:19 EST
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA07661; Tue, 4 Jan 94 21:36:18 EST
+Date: Tue, 4 Jan 94 21:36:18 EST
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9401050236.AA07661@Sun0.AIC.NRL.Navy.Mil>
+To: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>, Cube-Lovers@ai.mit.edu
+Subject: Re: Which is the Real Start?
+
+Jerry Bryan <BRYAN%WVNVM.BITNET@mitvma.mit.edu> has some more questions.
+
+> Take a standard 3x3x3 Rubik's cube, and remove the corner and
+> center labels to make an Edges Cube.... Scramble..., how will
+> the cubemeister distinguish Start from Pons Asinorum?
+> ... if you identify the identity with Start, you are in the
+> disquieting situation of having a group with two distinct identities
+> (grin!).
+
+The problem is that we would not be dealing with a _group_ then, but a
+collection of cosets of M.  Just as in the edge `group', we deal with
+either    1) a less-symmetric group in which one of the edges never
+moves, or 2) a larger group in which we distinguish positions that
+differ by rigid motions of the cube, or
+          3) a non-group in which we consider cosets--equivalence
+classes of group #2, where group elements that differ by rigid motions
+are equivalent.  You have got a lot of mileage out of working with
+group #2 to save duplication among symmetries, then reducing to
+non-group #3.  But what you lose is the group structure of the object
+you are studying.  Instead, you have to work in the large group and
+then deduce information about the cosets.  All in all, though, I'm
+very glad of it, for the lost symmetries of group #1 were sorely
+missed.
+
+For most of the other questions, mouse@collatz.mcrcim.mcgill.edu
+provides satisfactory answers.  However, strictly speaking we should
+not call an equivalence class to be a group element (unless it is a
+coset of a normal subgroup, and neither C nor M is normal in the large
+group).  I'll admit I've also abused the term when considering
+distances in the ``edge group'', as if all 24 rotations of a position
+were the same element of some group.  But when we start dealing with
+the distinction between fixed and movable cubes I think we need to
+start being more careful.
+
+[ mouse also mentions that quarter-turn ``usually doesn't include
+  slice turns on the 3-Cube, but on the 4-Cube and higher, they must
+  of necessity be included.''  I'll take that as an argument for
+  eccentric slabism: a QT rotates any 1xNxN slab except a central slab
+  of an odd-edged cube.  As opposed to cutism, where a QT consists of
+  a rotation of part of the cube with respect to the other. ]
+
+Other questions:
+>  ...since Start and Pons Asinorum differ only by a simple
+>  reflection, why had not my version of M-conjugation declared them
+>  to be equivalent?
+
+Your versino treats positions X,Y for which m'Xmc=Y (m in M, c in C)
+as equivalent.  If you instead determine when m'Xmn=Y (m,n in M) you
+would find them equivalent.  This is equivalent to changing the loop
+in your version of M-conjugacy.
+
+>      For j = 1 to 24 for k = 1 to 24 for m = 1 to 2
+>             for i = 1 to 24 Bj,k,m(i) = Qm(Pj(A(Qm(Pk(i)))))
+
+so that the two occurrences of Qm need not be the same.
+
+> (I speak of "my version of M-conjugation", but the question is no
+> different if you look at Dan Hoey's original M-conjugation).
+
+No, I didn't use M-conjugation except for a cube with a fixed
+orientation in space [or equivalently, with face centers].  So in the
+original concept of M-conjugation that Jim Saxe and I put together,
+Start and Pons Asinorum don't just differ by a reflection.
+
+> I found Dan Hoey's postings about the four special states of the
+> Edge Group to be delightful....  However, [without the results on
+> distances] if we identified the group as being rectangular, would we
+> be led to saying which of the four special states were diagonally
+> opposed without the computer search?  Without the search, I might be
+> tempted to say that Start and Pons Asinorum were diagonally opposed.
+
+Well, really the `group' is in the shape of a sphenoid, a word I
+learned yesterday for a tetrahedron whose three pairs of opposite
+edges are equal.  [Or equivalently, a tetrahedron whose edges are face
+diagonals of a rectangular prism.]  But it might be more accurate to
+consider it as a large ball of string with a bunch of symmetries.
+Calling it a rectangle or sphenoid may lead us to ignore the structure
+that is not representable in Euclidean space.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

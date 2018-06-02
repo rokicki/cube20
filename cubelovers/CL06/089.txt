@@ -1,0 +1,11 @@
+Received: from MITVMA.MIT.EDU (TCP 2227000003) by AI.AI.MIT.EDU  1 Jul 88 14:41:46 EDT
+Received: from MITVMA.MIT.EDU by MITVMA.MIT.EDU (IBM VM SMTP R1.1) with BSMTP id 7176; Fri, 01 Jul 88 14:39:20 EDT
+Received: from SNYPLABA.BITNET (KILGORBL) by MITVMA.MIT.EDU (Mailer X1.25) with
+ BSMTP id 7175; Fri, 01 Jul 88 14:39:20 EDT
+Date:     FRI, 01 Jul 88 14:36:38 EST
+To:       cube-lovers@ai.ai.mit.edu
+From:     KILGORBL%SNYPLABA.BITNET@MITVMA.MIT.EDU
+Subject:  Hope this is correct?
+
+
+SUBSCRIBE CUBE-LOVERS Brian Kilgore

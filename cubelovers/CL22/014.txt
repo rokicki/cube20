@@ -1,0 +1,33 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Jan  9 00:25:55 1997
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA06650; Thu, 9 Jan 1997 00:25:55 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 9 Jan 1997 00:25:05 -0500
+Message-Id: <199701090525.AAA13431@pool.info.sunyit.edu>
+X-Sender: millerd1@sunyit.edu
+X-Mailer: Windows Eudora Version 1.4.4
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: Cube-Lovers@ai.mit.edu
+From: David Lee Winston Miller <millerd1@sunyit.edu>
+Subject: Cube page
+
+Hi,
+
+Just thought you might want to know about my Rubik's Cube page(s).  You can
+find it at:
+
+    http://www.sunyit.edu/~millerd1/RUBIK.HTM
+
+It is mainly a demo on solution searching and algorithms.
+
+Thanks,
+
+David Lee Winston Miller
+
+David Lee Winston Miller   Mail: millerd1@sunyit.edu   Homepage:
+http://www.sunyit.edu/~millerd1
+
+
+

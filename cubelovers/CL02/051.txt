@@ -1,0 +1,7 @@
+Date: Monday, 16 March 1981  19:28-EST
+From: Pat O'Donnell <PAO at MIT-EECS>
+To:   cube-lovers at mc
+Subject: other orbits
+
+Has anyone investigated what kinds of patterns exist in the other 11
+orbits?

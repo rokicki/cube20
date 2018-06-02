@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug 21 18:46:52 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA22876; Thu, 21 Aug 1997 18:46:51 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From kociemba@hrz1.hrz.th-darmstadt.de Thu Aug 21 18:12:32 1997
+Message-Id: <33FCB0F1.3E08@hrz1.hrz.th-darmstadt.de>
+Date: Thu, 21 Aug 1997 23:19:45 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>
+To: cube-lovers@ai.mit.edu
+Subject: Re: isoglyphs
+
+michael reid wrote:
+
+> here are several other applications that your pattern finder should
+> be able to handle easily:
+> 
+> 1. classify all "snakes".  you've already done the part where they
+>    consist only of faces of type 42; there's also face type 4D to
+>    consider.
+
+There are 57 different patterns, which have face type 42 or 4D. I don't
+think I should list generators for them here. The pattern-computation
+with my program took only about 3 minutes on a PC with 486 processor, so
+anybody who wants could repeat the computation and then create
+generators for the patterns he/she(?) is interested in.
+
+> 2. confirm my results on the "czech check" problem, i.e. classify all
+>    patterns that have exactly eight squares correct on each face.
+
+Cube Explorer finds 56 patterns, which confirms your result.
+
+> and they are certainly many other applications.  these three come
+> to mind immediately.  it looks like i'll have to find a windows machine
+> to try out your program; it sure sounds excellent.
+
+And I thought, window machines are very popular....
+
+--Herbert
+

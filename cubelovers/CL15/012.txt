@@ -1,0 +1,72 @@
+From BRYAN@wvnvm.wvnet.edu  Sat Jan 21 17:03:15 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05451; Sat, 21 Jan 95 17:03:15 EST
+Message-Id: <9501212203.AA05451@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 3609; Sat, 21 Jan 95 12:46:20 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 3611; Sat, 21 Jan 1995 12:46:20 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sat, 21 Jan 1995 12:44:42 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "der Mouse" <mouse@collatz.mcrcim.mcgill.edu>
+Cc: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: superflip in quarter turn metric
+In-Reply-To: Message of 01/21/95 at 09:05:55 from ,
+           mouse@Collatz.McRCIM.McGill.EDU
+
+On 01/21/95 at 09:05:55 der Mouse said:
+>> The superflip is especially amenable to a "two half depth search".
+>> Normally, you would have to build one tree with Start at the root,
+>> and a second tree with X at the root, where X is the position you
+>> were testing.  But a search tree with superflip at the root is
+>> identical to a search tree with Start at the root except that the
+>> superflip tree has each element superflipped as compared to the
+>> respective element of the tree with Start at the root.
+
+>Isn't this equally true of any other position, except that the
+>conversion from a Start-rooted tree's position to an X-rooted tree's
+>position is more complicated than just superflipping?  Just think of
+>your tree, instead of describing positions as "cubie <x> in cubicle
+><y>", as describing positions as "cubie that started in cubicle <x> in
+>cubicle <y>".
+
+I am taking the liberty of CC'ing Cube-Lovers as well.  A search tree
+giving distances from Start calculates d(I,IY) for all positions IY
+in the domain of inquiry.  With an X-rooted tree, distances are of
+the form d(X,XZ) for all positions XZ in the domain of inquiry.
+In general, it is not the case that d(I,IY)=d(X,XY).  Hence,
+we cannot simply take Z=Y, and elements of the form XY do not produce
+the X-rooted tree.  Therefore, to perform
+two half-depth searches to connect I and X, you really do have to
+construct a standard Start-rooted tree as well as an X-rooted tree.
+You are looking for a position IY=XZ such that |IY|=|XZ|=|X|/2.
+
+However, in the case of the Superflip E, it is the case that
+d(I,IY)=d(E,EY).  Hence, in order to construct an
+E-rooted tree, it is sufficient to calculate all elements of
+the form EY from your existing I-rooted tree of the form IY.
+
+>Or are you storing only M-conjugate-class representatives, and I'm
+>exposing my ignorance of basic group theory? :-)
+
+Yes, I am storing only M-conjugate-class representatives, but that
+isn't the problem (see above).  However, it does make the processing
+a bit less trivial than I have indicated.  For every Y in the
+Start-rooted tree, I first form EY, then {m'(EY)m}, and finally
+Repr{m'(EY)m}.  These representatives are sorted and then compared
+against all the Y's (which are themselves representative elements,
+of course).  We are looking for some V and W such that
+Repr{m'(IV)m}=Repr{m'(EW)m}, and this will be a "half-way" position.
+What I *really* want is some V such that Repr{m'(IV)m}=Repr{m'(EV)m}.
+It seems to me that all half way positions should be "symmetric"
+in this fashion, but I cannot prove it.  The recent discussions
+by Mike Reid and Mark Longridge about the 24q superflips are
+suggestive in this regard.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

@@ -1,0 +1,158 @@
+From JBRYAN@pstcc.cc.tn.us  Tue Feb  6 13:15:48 1996
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from PSTCC4.PSTCC.CC.TN.US by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06910; Tue, 6 Feb 96 13:15:48 EST
+Resent-From: JBRYAN@pstcc.cc.tn.us
+Resent-Message-Id: <9602061815.AA06910@life.ai.mit.edu>
+Received: from pstcc.cc.tn.us by pstcc.cc.tn.us (PMDF V5.0-3 #11457)
+ id <01I0W7H2EIZK8WWAHI@pstcc.cc.tn.us> for cube-lovers@ai.mit.edu; Tue,
+ 06 Feb 1996 13:17:49 -0400 (EDT)
+Resent-Date: Tue, 06 Feb 1996 13:17:49 -0400 (EDT)
+Date: Tue, 06 Feb 1996 13:17:44 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Large Searches with Small Memory
+Sender: JBRYAN@pstcc.cc.tn.us
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.960206130728.538983702A-100000@pstcc.cc.tn.us>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+I have access to less computing resources than I used to have. 
+As a result, I have been thinking about ways to conduct large
+searches with less memory.  There are no results here, just
+some thoughts.
+
+I will assume a quarter turn metric.  It would be easy to
+generalize the proposals below to other metrics, but I will
+not do so.
+
+We let C[n] be the set of all positions of length n.  C[0] is
+just {Start}, and C[1] is just Q, the set of twelve quarter
+turns.  We let T[n] be the union of C[k] for k in 0..n.
+
+We assume that any computerized breadth first search for God's
+Algorithm would build (in turn) C[0], C[1], etc., and would
+store each C[k] in memory in some reasonable indexed and
+searchable data structure.  The details of the data structure
+do not (I think) matter for the purposes of this note.
+
+We assume that the primary constraint on the search is memory
+size rather than time.  These days, most anybody has access to
+a machine (or machines) where a problem can be allowed to run
+for hundreds or thousands of hours if necessary.  A 486 or
+Pentium on your desk would serve nicely, and a UNIX work
+station would be even better.  I have used both a 486 (running
+OS/2 for multitasking) and a UNIX work station in this manner. 
+The machines could be used for other things while the cube
+problems were running.
+
+We assume that n is the largest n for which we can store C[n]. 
+We assume that if we can store C[n], we can also store T[n]. 
+For all practical purposes, T[n] and C[n] are about the same
+size close to Start because C[n] is a little more than nine
+times larger than C[n-1].
+
+With this structure in hand, we could form all products XY for 
+X and Y in T[n].  We would simply form the products; we would 
+not try to store them.  But having done so, we would have created 
+all positions in T[2n].  In some ways, this is not very useful.  
+That is, in general we would not know the length of any 
+particular XY, nor would we know the size of C[k] for k in
+n+1..2n. 
+
+But as we formed the products, we could check them against any
+position of interest, or against a small set of positions of
+interest.  We could then determine if any of the interesting
+positions were in T[2n], and thus bound their length.  (We
+assume that none of the interesting positions are in T[n]. 
+Otherwise, we could determine their length directly and none
+of these Draconian measures would be necessary.)  Such a 
+half-depth search has been discussed quite a few times before in
+Cube-Lovers.
+
+But here follows what I think is a new idea.  What if we
+formed all products XY for X in C[n] and Y in C[1].  Since
+C[1] is Q, this is really just the procedure for a standard
+depth first search.  But we can't store C[n+1].  Can we
+determine the size of C[n+1] anyway?
+
+Try the following.  The length of each XY is either n-1 or
+n+1.  Verify which case we have by reference to C[n-1], and
+throw away the products of length n-1.  But if the length of
+XY is n+1, do we count it, or do we not?
+
+The problem is that we might have XY=VW for X and V in C[n], Y
+and W in C[1], X not equal V, and Y not equal W.  Which do we
+count and which do we not?  Actually, there may be up to
+twelve such products, so we need a way uniquely to determine
+which product to count and which not to count.
+
+Suppose we have XY in hand and wish to know whether to count
+it.  Form all products (XY)Z for Z in C[1].  There are twelve
+such products, and at least one of them will be in C[n].  We
+assume that C[1] can be ordered (probably already is) by our
+data structure.  Hence, we count XY only if Y'=Z*, where Z* is
+the first Z such that XY(Z) is in C[n].  (Strictly speaking,
+we would not have to form all products XY(Z).  We would stop
+once we found the first Z such that (XY)Z was in C[n].  We
+would then either have Y'=Z*, or we wouldn't.  But this only
+reduces the number of products down from twelve to an average
+of six.) 
+
+It seems to me that this procedure would work in principle,
+but I am not sure how practical it would be.  The problem is
+that there would be a lot of products XY(Z) to calculate and
+test.  Is there any shorter method to determine whether or not
+to count XY?
+
+I normally write my sets C[k] out to a file.  Any analysis I
+wish to do is then run against the file after the fact.  With
+the new procedure I am describing, any analysis of C[n+1]
+would have to be done as the products were being formed.
+
+We can use a similar procedure to determine the size of
+C[n+2], C[n+3], etc. up through C[2n], but things get more
+complicated and more impractical.
+
+For C[n+2], form all XY for X in C[n] and Y in C[2].  All such
+products are in C[n-2], C[n], or C[n+2].  As before, we look
+up XY in C[n-2] and in C[n], and throw it away if it is
+already there.  We then form all XY(Z) for Z in C[2] (there
+will be 114 such products), and count the product only if
+Y'=Z*, where Z* is the first Z in C[2] such that XY(Z) is in
+C[n].  But this case is even more time consuming than the
+C[n+1] case because we will on the average have to look at 57
+products (57=114/2).
+
+     As an aside, I have considered creating C[n+1] as the
+     product of XY with X in C[n-1] and Y in C[2], rather than
+     as the product of XY with X in C[n] and Y in C[1], even
+     before running out of memory to store the results.  We
+     still have to check for positions whose length is less
+     than n+1, and we still have to check for duplicate
+     positions of length n+1.  But using C[n-1] and C[2] 
+     would automatically eliminate from the search duplicate
+     positions such as ZRR'=Z or ZRL=ZLR.  Or better still,
+     perhaps to create C[n+1] we should take X from C[n/2] and
+     Y from C[(n/2)+1]?  Has anybody tried anything like that?
+
+C[n+3] gets worse still.  If we form all XY for X in C[n] and
+Y in C[3], the length of XY may be n-3, n-1, n+1, or n+3.  We
+dispose of the n-3 and n-1 cases as before, but then we would
+have to have a way to distinguish between the n+1 and n+3
+cases.  I think the procedure becomes truly impractical at
+this point.
+
+Anyway, that's it.  Has anybody ever tried anything along the
+lines I have outlined for a problem too big to store?  If so,
+did it work? 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+

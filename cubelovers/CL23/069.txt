@@ -1,0 +1,26 @@
+From: Mark Glusker <glusk@mechcad3.engr.sgi.com>
+
+This process has improved dramatically over the past few years.  The 
+materials are now quite durable.  It is not necessarily cheaper to use
+stereo lithography: it is best for small parts with lots of detail-per-
+cubic-inch. Simple parts or large parts are best fabricated using 
+conventional machining methods. If you are making a part to be used as a
+master for a mold, don't forget to enlarge the original by several percent
+(depending on the final material) to account for molding shrinkage.
+
+Despite the improvements in this field, the best stereo lithography part
+is still not nearly as good as a well machined part.  It's very much
+like the difference between a well printed photograph and a scanned image
+printed on a good laserwriter.  Used appropriately, it is a great tool
+but Bridgeport is not about to go the way of Friden or Monroe.
+
+{Bridgeport is a very-famous maker of milling machines; Friden and Monroe
+were once-vital makers of mechanical desktop calculators; they are now
+history. -nb}
+
+ [Mark also wrote:]
+
+--
+Mark Glusker, glusk@sgi.com
+>From glusk@mechcad3.engr.sgi.com Sun Jul 27 19:13:05 1997
+Date: Sun, 27 Jul 1997 16:04:04 -0700 (PDT)

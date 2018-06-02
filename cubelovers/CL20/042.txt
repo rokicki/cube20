@@ -1,0 +1,126 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Jun  6 23:33:56 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id XAA11090 for <cube-lovers-outbound@curry.epilogue.com>; Thu, 6 Jun 1996 23:33:55 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 06 Jun 1996 12:23:05 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Compact Cube Representation for Shamir and Otherwise
+In-Reply-To: <9606020417.AA04623@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.960605165955.9735B-100000@PSTCC6.PSTCC.CC.TN.US>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+On Sun, 2 Jun 1996 hoey@aic.nrl.navy.mil wrote:
+
+> Jerry writes of the standard S24 x S24 model, which uses 48 bytes per
+> position without packing.  He also has a "supplement" representation
+> that uses one facelet from each edge and corner, for 20 bytes.  He
+> packs them into 13 bytes on tape.
+> 
+> The way I did it the last time I worked on brute force was to
+> pack eight twelve-bit fields:
+
+The way I count it, Dan's result is twelve bytes of eight bit bytes.  So
+Dan has bested me by one byte (but see below). 
+
+> 
+>      The orientations in two twelve-bit fields (2^11 and 3^7),
+
+It looks like you are only storing the orientation of eleven of the 
+twelve edge cubies.  The orientation of the twelfth can be inferred from 
+the orientation of the first eleven.  On the other hand, you could store 
+all twelve and still fit in twelve bits.  It also looks like you are only 
+storing the orientation of seven of the eight corner cubies.  Again, the 
+orientation of the eighth can be inferred from the orientation of the 
+first seven.  This time it matters.  That is, 3^7 will fit in twelve 
+bits, but 3^8 will not, if I am counting it right. 
+
+> Also, postmultiplying by a fixed permutation can be done with table
+> lookup without unpacking.  I used this feature for twelve permutations
+> of particular interest.
+> 
+> I am somewhat rusty on the implications of using this representation
+> in conjunction with Shamir's algorithm.  I think it provides an
+> ordering of the permutations that enables at least an approximation to
+> the random access you need, then you unpack it and do a better job.
+
+I think that unpacking would be required to build and traverse the "Shamir
+tree", but the unpacking that would be required should be relatively easy. 
+
+I have always been reluctant to form compositions of packed formats
+because it seemed both messy and slow to have to unpack both permutations
+which are being composed and then to repack the result.  In principle,
+what you have to do is about the same as what you have to do in building
+and traversing the "Shamir tree" with packed formats.  But in practice it
+seems a lot messier to unpack two permutations and to repack their 
+composition than to simply unpack one permutation as you traverse a tree. 
+
+Dan seems to have solved the problem for certain specific cases (and for 
+post-multiplying only) via table lookup.  It is not clear to me that 
+table lookup could be used for the more general case of multiplying any 
+permutation by any other permutation.
+
+I have always known that the supplements of the corners and edges could be
+reduced by one byte each unpacked, down to seven bytes for the corners and
+down to eleven bytes for the edges.  The missing bytes could always be
+reconstructed, but I didn't want to bother.  Now, it occurs to me that
+working with the supplements alone and never expanding them back to S24 x
+S24, there is really no reason ever to reconstruct the missing bytes. 
+Hence, we can have an eighteen byte representation unpacked.  The eighteen
+byte representation easily packs down to twelve bytes (same as Dan's). 
+
+We could surely do better if we tried.  Log2(|G|) is about 65.22, so we
+should be able to represent each position in 66 bits, or in 9 bytes.  But
+I don't think the packing required would be worth the trouble. 
+
+66 bits is the theoretical minimum to represent |G| positions if the
+positions are independent.  But the positions are not really independent
+(e.g., M-conjugacy).  I'm not sure exactly what the best we can do
+actually is. 
+
+My Shamir program is going to represent each position as a pair of indices
+(i1,i2).  i2 will be a single byte containing 1..48 and indexing M.  i1
+will be two or three bytes indexing a table of representatives of
+M-conjugacy classes.  The table in turn will consist of eighteen byte
+supplements of permutations less the last edge and the last corner cubie. 
+A two-byte index will cover quarter turns through level 6 of the tree
+(there are 18,395 representatives at level 6).  A three-byte index will
+cover quarter turns through level 9 of the tree (there are 14,956,266
+representatives at level 9).  I am dubious that I will even get into the
+three byte index business.  It will simply take too long.  That is, a two
+byte index through level 6 will allow level's 7 through 12 to be
+calculated.  It may well take too long to go any further than that. 
+
+Anyway, (i1,i2) means m'[i2]X[i1]m[i2].  The indices (i1,i2) will be
+sorted according to the lexicographic order of m'[i2]X[i1]m[i2].  The
+"Shamir tree" will be built with the indices as the leaf nodes.  The
+effective storage required for each position will be maybe five bytes or
+so because you have to count the table of representatives in any honest
+accounting of memory requirements.  Thus, the tree structure itself will
+be the biggest consumer of memory. 
+
+This approach will not require any packing or unpacking, but it will
+require lots of extra multiplying of permutations.  However, at most
+points in the processing, it will not be necessary to multiply the entire
+permutation.  Multiplying a single cell of the vector will usually suffice
+for comparing vectors, traversing the tree, etc. 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+
+
+
+
+
+

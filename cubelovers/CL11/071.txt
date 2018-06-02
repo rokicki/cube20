@@ -1,0 +1,72 @@
+From xirion!jandr@relay.nl.net  Mon Jan  3 02:29:28 1994
+Return-Path: <xirion!jandr@relay.nl.net>
+Received: from sun4nl.NL.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21848; Mon, 3 Jan 94 02:29:28 EST
+Received: from xirion by sun4nl.NL.net via EUnet
+	id AA18380 (5.65b/CWI-3.3); Mon, 3 Jan 1994 08:29:22 +0100
+Received: by xirion.xirion.nl id AA22110 (5.61/UK-2.1);
+          Mon, 3 Jan 94 08:29:37 +0100
+From: Jan de Ruiter <jandr@xirion.nl>
+Date: Mon, 3 Jan 94 08:29:37 +0100
+Message-Id: <22110.9401030729@xirion.xirion.nl>
+X-Organization:  Xirion Unix Software & Consultancy bv
+		 Burgemeester Verderlaan 15 X
+		 3454 PE  De Meern
+		 The Netherlands
+X-Phone: 	 +31 3406 61990
+X-Fax: 		 +31 3406 61981
+To: cube-lovers@ai.mit.edu
+
+To: Don.Woods@eng.sun.com, cube-lovers@ai.mit.edu
+Subject: RE: 10x10 Tangle
+
+>Hm.  Well, I split up the 10x10 Tangle exhaustive search and ran it on
+>several machines over Christmas break, getting the 90 days of compute
+>time done in about 10.
+>
+>And turned up no solutions.
+
+My program is a bit faster, but as I have less machines at my disposal
+and I started a bit later, my programs are still running.
+Up until now they did not produce a solution either. I am starting
+to get worried.
+
+>There could of course be a bug in my program, but the same code with
+>minor changes finds the same solutions as others have found for the 5x5.
+
+The same goes for me.
+
+>                 I did doublecheck that the 100 tiles matched the info
+>posted to Cube-Lovers re which tiles are duplicated in the four 5x5s;
+>I have no way of checking whether that info was correct.
+
+I have the puzzles myself, and checked the info in the message from
+Dale I Newfield (15 Dec 1993), which quotes the archives.
+I can assure you: those are indeed the duplicate pieces.
+
+>
+>Has anyone out there ever heard definitely that someone has found a
+>solution to the 10x10?  Is it possible that the makers of Tangle (Matchbox,
+>using Rubik's name under license) merely claimed that such a solution
+>exists, without actually verifying it?  (Seems pretty sleazy if so,
+>but then, having Tangles 2-4 be merely color permutations of #1 is
+>pretty weak in the first place.)
+>
+
+I thought about that too, but considered that the choice for precisely
+those four duplicate pieces could be dictated by the desire to have
+a solution for the 10x10.
+
+>I also tried adding some extra tiles for the 10x10, and it began finding
+>solutions okay.
+
+Question: did you add pieces at random, or did you add more duplicate
+pieces?
+In the latter case you may have found the duplications that should have
+been made to get a solvable 10x10.
+That in turn would show there could not exist an argument disallowing
+10x10 (as claimed by Dik Winter), unless that argument is based on the
+particular colouring of the four duplicated pieces...
+
+	-- Jan
+
+

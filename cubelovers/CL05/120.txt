@@ -1,0 +1,16 @@
+Received: from SUMEX-AIM.ARPA (TCP 1200000070) by AI.AI.MIT.EDU  4 Nov 86 17:48:42 EST
+Date: Tue 4 Nov 86 14:43:05-PST
+From: Haym Hirsh <HIRSH@SUMEX-AIM.ARPA>
+Subject: SF Bay area availability of Rubik things
+To: cube-lovers@AI.AI.MIT.EDU
+cc: hirsh@SUMEX-AIM.ARPA
+In-Reply-To: <861104170610.5.DCP@KOYAANISQATSI.S4CC.Symbolics.COM>
+Message-ID: <12252334415.75.HIRSH@SUMEX-AIM.ARPA>
+
+Rubik's magic was available at the local Sears (Palo Alto/Mtn View) for
+around $8, but they are out of stock now.  It is currently available
+at Norney's in the same mall for around $13.
+
+A few 5x5x5 Rubik's cubes were available at Games and Things in the
+Stanford shopping center about a week ago for around $20.
+-------

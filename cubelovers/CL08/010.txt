@@ -1,0 +1,19 @@
+From pbeck@pica.army.mil  Tue Dec  3 11:52:11 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA10810; Tue, 3 Dec 91 11:52:11 EST
+Received: by FSAC1.PICA.ARMY.MIL id aa11374; 3 Dec 91 11:33 EST
+Date:     Tue, 3 Dec 91 11:26:50 EST
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Cc: pbeck@pica.army.mil
+Subject:  rubik's tangle, etc
+Message-Id:  <9112031126.aa10408@FSAC1.PICA.ARMY.MIL>
+
+
+looking for nyc source of rubik's tangle, xv, dice, triamid
+
+any suggestions??
+
+thanks in advance
+
+

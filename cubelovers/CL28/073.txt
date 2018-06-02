@@ -1,0 +1,44 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb 15 15:14:59 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA05123
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 15 Feb 2000 15:14:58 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <200001252022.PAA12063@garnet.sover.net>
+Date: Tue, 25 Jan 2000 15:24:11 -0500
+To: Cube-Lovers@ai.mit.edu
+From: Nichael Cramer <nichael@sover.net>
+Subject: A Simple Rubik's Race Page.
+In-Reply-To: <PLEJLGAOLFCFHLCEEHHBAENGCAAA.keyoung3@vt.edu>
+References: <387C51CD.706ED535@ibm.net>
+
+The recent flurry of messages surround the revitalization of this list
+finally prompted me to finish up (well, mostly...) something that's been
+sitting around on my back burner for some time.
+
+A few years back, I happened to pick up (for 10cents) a copy of the Rubik's
+Race game at a local rummage sale.  Having never seen the game before, I
+posted a description of the game to this list.
+
+That posting --living on in the archives of this list-- seems to be just
+about the only reference to the game on the 'net.  Consequently, every six
+months or so I get a message from someone wanting more information about
+the game or --more likely-- want to know where they can get a copy.
+
+Anyway, I thought it might be useful to throw together a small "Rubik's
+Race" webpage.  I still need to get to a scanner, so none of the promised
+pictures are there (yet).  But the page contains a description of the game
+and a Java Applet to allow the viewer to play a "solitaire" version of the
+game.
+
+   http://www.sover.net/~nichael/puzzles/rubrac/index.html
+
+Enjoy
+Nichael
+
+--
+Nichael Cramer
+nichael@sover.net                    My Child is an Honour
+http://www.sover.net/~nichael/        Student at Hogwarts
+

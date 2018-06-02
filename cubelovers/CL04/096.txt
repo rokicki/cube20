@@ -1,0 +1,21 @@
+From: Yekta Gursel <YEKTA>
+To:   ALAN, CSD.Tajnai at SU-SCORE
+Re:   "Pentominoes"...
+
+   GABRIEL toy company markets a nice set of pentominoes under the name
+"HEXED".  They are the makers of the puzzles "Hi-Q" and "PYTHAGORAS".  The 
+latter is a nice set of "tangrams" if you  are interested in them.  You should
+be able to get any of these in any well stocked toy store ( like Toys 'R Us ).
+If you are interested in getting solutions for them, me ( Yekta Gursel ) and
+a friend of mine ( Douglas Macdonald ) wrote a program on a microcomputer to 
+solve any pentomino problem.  The description of the program appeared in
+November 1979 issue of BYTE.  It is written for a COMMODORE PET, but can be
+adopted toi any microcomputer relatively easily.  If you do not have access to
+a microcomputer we can print the solutions out for you just for the cost of
+paper and postage ( a few dollars ).  If you are interested please let me
+know.  My network address is YEKTA@MIT-MC.
+
+
+[ ALAN: If anybody asks about pentominoes, you can refer them to me... Thanks!]
+
+Date: 25 November 1982 05:12-EST

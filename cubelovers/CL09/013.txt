@@ -1,0 +1,18 @@
+From STEFANO@agrclu.st.it  Thu Jun 11 10:14:42 1992
+Return-Path: <STEFANO@agrclu.st.it>
+Received: from pol88a (pol88a.polito.it) by life.ai.mit.edu (4.1/AI-4.10) id AA25505; Thu, 11 Jun 92 10:14:42 EDT
+Received: from AG-IN by POLITO.IT (PMDF #12666) id
+ <01GL3B97N2G095MMGN@POLITO.IT>; Thu, 11 Jun 1992 14:38 GMT+1
+Date: Thu, 11 Jun 92 14:36 CET
+From: STEFANO BONACINA <STEFANO@agrclu.st.it>
+Subject: Signoff
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <40E32DA5DC3F00DAC9@agr04.ST.IT>
+X-Organization: SGS-THOMSON Microelectronics
+X-Envelope-To: cube-lovers@life.ai.mit.edu
+X-Vms-To: IN%"cube-lovers@life.ai.mit.edu"
+
+Could anyone tell me how can I unsubscribe from this mailing list?
+Thanks in advance.
+Stefano
+

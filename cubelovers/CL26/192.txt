@@ -1,0 +1,51 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 18 13:40:33 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA12366
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 18 Mar 1999 13:40:33 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <36F09AFF.752D8854@ibm.net>
+Date: Wed, 17 Mar 1999 22:19:44 -0800
+From: "Jin 'Time Traveler' Kim" <chrono@ibm.net>
+Reply-To: chrono@ibm.net
+To: skouknudsen@get2net.dk
+Cc: cube-lovers@ai.mit.edu
+Subject: Some more Rubik's Revenge notes
+References: <199902251022.LAA13413@bednorz.get2net.dk>
+
+Check that, the Korea cube is definitely of poorer quality than either
+Macau or Hong Kong yet at the same time has its own merits.  The reason
+that the cube felt more like it was going to break was because the
+middle "wing" cubelets and corner cubelets are "hollow."  The material
+is also softer, but somehow it feels like the corner pieces are sturdier
+than the earlier ones made in Macau and Hong Kong.  I am assuming it was
+made later because seldom are puzzles made of higher quality in later
+runs, especially when the tooling is probably more expensive and when
+the print run is so short.  But all 3 versions wear the same "(c) I.T.C.
+1982" (Ideal Toy Company?) with the different "Made in..." markings.
+
+Anyway, the puzzle was easily disassembled without the need to remove a
+screw (There IS no screw unlike the others).  Just like popping open a
+standard cube.  Looser tolerances went into making this piece so this
+was not a difficult task.  Like I said, the corner cubelets actually
+feel sturdier than the others but the overall the plastic used is much
+softer and tolerances aren't tight.  Of course, this makes for an easier
+turning puzzle but tends to "stick" a lot because of the hollow pieces.
+If these "hollows" were somehow smoothed in, this would be a pleasure to
+work on instead of the stiffer (and more break prone) Macau and Hong
+Kong cubes.  As it is, the center windows tend to bind easily against
+each other and I think ultimately it will break just as easily (if not
+more easily) than the Macau or Hong Kong deals.  Oh yeah, the Korea
+Revenge also feels slightly lighter than the Macau or Hong Kong cubes
+for obvious reasons.
+
+Hmmm... I think I'll cc the cube list with this.  Might be interesting
+to some.  I wonder how I could squeeze some of this into the Cube FAQ...
+
+--
+Jin "Time Traveler" Kim
+chrono@ibm.net
+http://www.slamsite.com/chrono
+'95 PGT - SCPOC
+

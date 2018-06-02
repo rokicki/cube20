@@ -1,0 +1,44 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 30 14:02:52 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA24505
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 30 Mar 1999 14:02:51 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Reply-To: <noel@mud.ca>
+From: "Noel Dillabough" <noel@mud.ca>
+To: "Cube Lovers (E-mail)" <Cube-Lovers@ai.mit.edu>
+Cc: <WaVeReBeL@webtv.net>
+Subject: RE: Wrist pains
+Date: Mon, 29 Mar 1999 23:42:38 -0500
+Message-Id: <000001be7a68$23427d20$040a0a0a@laptop>
+In-Reply-To: <10861-36FC8F7D-5994@mailtod-121.bryant.webtv.net>
+
+<cut>
+[ Moderator's note: Dame Kathleen Ollerenshaw is mentioned in Singmaster's
+  notes as being one of the first to develop cubist's thumb; Roger
+  Frye also got a wrist sprain as he mentioned on this list in 1981.
+  Repetitive stress injury is nothing to play with, and continuing
+  only makes recovery take longer, so stop now! Switch to a simulator.
+  Simulators I've seen are somewhat less convenient to use than a real
+  cube (though I haven't seen the recent ones), but if that's the case
+  I hope this motivates you to change that sorry state. -- Dan ]
+
+
+As a programmer, I am no stranger to repetitive stress related aches and
+pains.  I even had cubist's thumb way back :)  My simulator, puzzler, has
+mainly a mouse interface and this given enough time can cause you to be
+rather sore as well.  I was wondering if anyone had an idea for a "hands on
+keyboard" approach that would allow you to naturally move the puzzles'
+slices.
+
+There is a macro interface for the cubes to enter moves in UDFBLR notation,
+but I am thinking of something that you could, with practice, manipulate a
+cube in realtime using a keyboard.
+
+Any ideas would be appreciated and I'll try my best to implement the best
+one.  If simulators "felt" like a cube when you used them they would be more
+fun (and move without jamming etc)
+
+-Noel
+

@@ -1,0 +1,62 @@
+From mreid@ptc.com  Thu Jan 12 19:36:23 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23412; Thu, 12 Jan 95 19:36:23 EST
+Received: from ducie.ptc.com by ptc.com (5.0/SMI-SVR4-NN)
+	id AA08082; Thu, 12 Jan 95 19:34:56 EST
+Received: by ducie.ptc.com (1.38.193.4/sendmail.28-May-87)
+	id AA25588; Thu, 12 Jan 1995 19:47:42 -0500
+Date: Thu, 12 Jan 1995 19:47:42 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9501130047.AA25588@ducie.ptc.com>
+To: cube-lovers@ai.mit.edu
+Subject: superflip
+Content-Length: 1768
+
+i've also done some searching for short maneuvers for superflip,
+although not to the extent that dik has.  i was never really
+satisfied with my efforts to exploit its symmetry and centrality.
+however, i've recently had some new thoughts about this which
+look promising.
+
+consider two cases:
+
+case 1:
+suppose that there is a minimal sequence for superflip which
+contains a half-turn.  then, by applying  R' U2 to superflip,
+we've moved  3q  (or  2f )  closer to start.
+
+case 2:
+otherwise, every minimal sequence contains only 90 degree turns.
+then either  R' U'  gets us  2q  (or  2f )  closer to start,
+or  R' U  gets us  2q  (or  2f )  closer to start.  (and probably
+both do.)
+
+it would be nice to reduce this latter case to only one of  R' U'
+or  R' U .  can anyone do this?
+
+
+this was how i found the  24q  sequence for superflip.  i figured
+that case 1 was fairly likely, so i tested the position
+
+        superflip  R' U2
+
+kociemba's algorithm found in succession  11 + 22 = 33q,
+11 + 20 = 31q,  12 + 17 = 29q,  13 + 14 = 27q,  13 + 12 = 25q,
+which gives superflip in  28q.  there was no improvement for quite
+some time until depth 17 in stage 1 when it found  17 + 6 = 23q.
+it searched for several days more and finished depth 17 and depth 18
+in stage 1.  i was about to give up when i saw that it found
+19 + 2 = 21q,  to give superflip in  24q.
+
+here's a nice (and quite surprising application) of the above
+use of symmetry and centrality:
+
+when searching for superflip in the face turn metric, it's
+sufficient to search through depth 17 in stage 1!
+
+suppose we have a  19f  sequence for superflip.  then, by considering
+parity, some turn must be a half-turn.  now we may suppose (as above)
+that the last two face turns are  U R2 ,  which is in stage 2!
+
+mike
+

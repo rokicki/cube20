@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 26 18:37:05 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA12529
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 26 Mar 1999 18:37:05 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Fri, 26 Mar 1999 03:46:13 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: David Singmaster <david.singmaster@sbu.ac.uk>
+Cc: jbryan@pstcc.cc.tn.us, cube-lovers@ai.mit.edu
+Subject: Colors under Na vapor lamps (Was: RE: Re : RE: parity pairs)
+In-Reply-To: <009D5A93.46B93D17.11@ice.sbu.ac.uk>
+Message-Id: <Pine.BSF.3.96.990326034101.27875Z-100000@shell2.tiac.net>
+
+On Thu, 25 Mar 1999, David Singmaster wrote:
+
+}	If one really wants trouble with cube colors being indistinguishable
+}try solving under a sodium vapor street lamp.  I found this gave two colors:
+}grey and greyer!
+
+Here in the northeastern US, high-pressure sodium (Na) vapor lamps are
+common; they have a much broader spectrum that the essentially
+monochromatic low-pressure lamps. The latter are rather strange! They're
+also more efficient, I'm fairly sure. I haven't looked at a cube under
+the h.p. lamps, though.
+
+|*  Nicholas Bodley   *|*  Autodidact & Polymath * Electronic Tech. (ret.)
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*
+|*  Amateur musician  *|*
+

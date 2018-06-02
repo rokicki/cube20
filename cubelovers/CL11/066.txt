@@ -1,0 +1,83 @@
+From hoey@aic.nrl.navy.mil  Tue Dec 28 14:17:02 1993
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24468; Tue, 28 Dec 93 14:17:02 EST
+Received: from sun30.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA19858; Tue, 28 Dec 93 14:16:50 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun30.aic.nrl.navy.mil; Tue, 28 Dec 93 14:16:49 EST
+Date: Tue, 28 Dec 93 14:16:49 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9312281916.AA25640@sun30.aic.nrl.navy.mil>
+To: Cube-Lovers@life.ai.mit.edu
+Cc: Jerry Bryan <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Subject: Re: Some Additional Distances in the Edge Group
+
+In his message of Fri, 17 Dec 1993 00:54:00 EST, Jerry Bryan
+<BRYAN%WVNVM.BITNET@mitvma.mit.edu> makes some observations on the
+distances between the following positions in the edge group:
+
+    I = Solved,
+    P = Pons Asinorum (or Mirror),
+    E = All edges flipped, and
+    PE = P E = Pons Asinorum with all edges flipped.
+
+[I _will_ continue to use permutation multiplication as we have done
+so in this group since its inception.  I realize that this agrees with
+some textbooks and is backwards from others, but it would be far more
+confusing to write these functionally all the time.]  Jerry's
+brute-force search has shown that d(I,PE)=15, and he notes that
+conjugation by E shows us that d(P,E)=15 as well.  He concludes:
+
+> I have the sensation in describing this that the Edge group is
+> square, with Start and Mirror-Image-of-Edges-Flipped 180 degrees
+> apart, and Mirror-Image-of-Start and Edges-Flipped at the other
+> two corners of the square.
+
+Well, it's not quite a square, since d(I,P)=12 and d(I,E)=9, according
+to Jerry's message of Wed, 8 Dec 1993 10:02:15 EST.  Conjugation will
+similarly show that d(E,PE)=12 and d(P,PE)=9.  So we are dealing with
+a rectangle.  The sides of the rectangle are 9 and 12, and the
+diagonal is 15: a most fortuitous set of numbers, in that we can
+actually embed such a rectangle in the Euclidean plane!
+
+We can map the positions of the edge group to 4-tuples of distances.
+For any position X, let
+
+    f(X)=(d(I,X), d(E,X), d(P,X), d(PE,X)).
+
+If f(X)=(a,b,c,d), then conjugation shows us that f(X E)=(b,a,d,c),
+f(X P)=(c,d,a,b), and F(X PE)=(d,c,b,a).  So the set of quadruples has
+the symmetries of the rectangle.
+
+We know f(I)=(0,9,12,15).  What is more, the earlier results on
+symmetry show us that I is at a local maximum distance from E, P, and
+PE.  So, letting I1 be the unique (up to M-conjugacy) position
+adjacent to I, we have F(I1)=(1,8,11,14).  (This destroys Euclidean
+embeddability.)  An analogous result holds for the unique neighbor of
+each corner of the rectangle.
+
+We also have Jerry's results of Wed, 8 Dec 1993 22:41:28 EST and
+23:16:50 EST that H (the 6-H pattern) and HE=H E are at distances 8
+and 13 from start, respectively.  Since H is an M-conjugate of P H,
+this gives us f(H)=(8,13,8,13).  [Note: there are two distinct
+M-conjugates of H, call them H and Hbar.  This distinction is
+important when we compose permutations: H H = I, but H Hbar = P.  So
+we have to be careful when conflating M-conjugates.] We can by
+symmetry find f(H1)=(7,12,7,12) for H's unique neighbor H1.
+
+What quadruples are possible?  If f(X)=(a,b,c,d), and X is not one of
+the eight corners and neighbors, we have
+
+         max(2,9-b,12-c,15-d) <= a <= min(14,9+b,12+c)
+
+with constraints on b, c, and d from symmetry.  A quick hack tells me
+there are 7836 such quadruples.  I wonder how many of them are
+realized?  If it's fairly few, I would like to see a diagram of
+quadruples, with lines between those quadruples that represent
+adjacent positions (adjacent quadruples differ by at most one in each
+coordinate).  Maybe with the number of positions for each quadruple,
+too.  I have an idea that such a diagram might tell us something about
+the problem, or at least look pretty.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

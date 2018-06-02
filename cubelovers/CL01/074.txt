@@ -1,0 +1,56 @@
+Date:  1 JAN 1981 1315-EST
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  several subjects
+To: CUBE-LOVERS at MIT-MC
+
+ 
+One last try!! What I meant was the 12 sided frob built out of
+pentagons. And after refering to better and better dictionaries I
+discovered this thing is called a pentagonal dodecahedron, and I
+meant the faces to be the points of rotation.  Perhaps McKeeman
+thought I meant the rhombic dodecahedron, and subsequent messages
+got me confused and I jumped the gun without thinking very
+heavily.
+
+Woods: Could you please send the manipulations for "baseball,"
+"snake," and "cube-in-cube" for the benifit of those who do not
+have Singmaster. Please use prime notation (R' instead of (lower
+case) r) for counterclockwise twists since that seems to be the
+notation currently in use in this list.
+
+In general, my opinion is that it would be nice if people would
+send along the short algorithms that are known. ZILCH's 50 and 70
+qtw algotithms are a little too long, but anything under 36
+should probably be sent. I know it may be a spoiler, but (1)
+there seem to be several configurations mentioned and perhaps
+some people don't have time to find nice fast ways to get there,
+(2) it reduces needless duplication of effort, (3) parts of the
+algorithm (or the algorithm itself) might serve as a subroutine
+for other algorithms under development.
+
+On the concept of the higher order "cubes:"
+	N dimensions
+	has a reasonable geometric interpretation (maybe it
+		doesn't have to have this condition?)
+	built out of some number of "cubies" of dimension N
+	Each "cubie" is in turn a "cube," perhaps of a different
+		order than the larger cube (eg, a 3x3x3 cube
+		whose cubies are 5x5x5)
+	Each "cubie" of the "cubie" is a "cube," ad infinitum as
+		desired 
+	In addition to all this, each faclet is a "cube" of
+		dimension N-1, ad infinitum (at least until the
+		dimensions run out!!)
+
+The thing I am doing is trying to PHYSICALLY construct a higher
+order (flavor: dimension 3, cubical, order 5, cubies are "atomic"
+(ie, not cubes in themselves), faclets are atomic). Personally, I
+think half the fun is being able to hold one of the beasties and
+mung it by twisting.
+
+ACW: I think it would be instructive to have an short intro to
+Group Theory for Cubist. This would benefit newcomers to the
+mailing list, and people who hack the cube and want to know some
+of the theory behind the cube. (5-10K characters if you can keep
+it down to that. If not, send it when machines are generally
+lightly loaded.) I vote: plase do.

@@ -1,0 +1,66 @@
+From hoey@aic.nrl.navy.mil  Tue Dec 28 18:42:22 1993
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04472; Tue, 28 Dec 93 18:42:22 EST
+Received: from sun30.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA06105; Tue, 28 Dec 93 18:40:52 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun30.aic.nrl.navy.mil; Tue, 28 Dec 93 18:40:52 EST
+Date: Tue, 28 Dec 93 18:40:52 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9312282340.AA25691@sun30.aic.nrl.navy.mil>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Cube Rotations
+Cc: CRSO.Cube@canrem.com
+
+mark.longridge@canrem.com (Mark Longridge) writes:
+
+> Perhaps my description of the rotations was unclear...
+
+Yes.
+
+> ...Perhaps it is better to use the form
+> old FACE A -> new FACE A
+> old FACE B -> new FACE B
+
+> Where the faces A & B are adjacent.
+
+That will serve to uniquely identify a rotation, but it's somewhat
+verbose.  Worse, it does not suffice to uniquely identify a symmetry
+from the group of rotations and reflections, M.  I find it's far more
+informative to identify a rotation or reflection as a permutation of
+the faces, in cycle format.  There are only ten kinds:
+
+Even rotations:          I=Identity (1),
+                (FRT)(BLD)=120-degree rotation (8),
+                  (FB)(RL)=180-degree orthogonal rotation (3).
+
+Odd rotations:      (FRBL)=90-degree rotation (6), 
+              (FB)(TR)(DL)=180-degree diagonal rotation (6).
+
+Even reflections: (FR)(BL)=diagonal reflection (6),
+                (FRBL)(TD)=90-degree glide reflection (6),
+                  
+Odd reflections:      (FB)=orthogonal reflection (3),
+                  (FRTBLD)=60-degree glide reflection (8),
+              (FB)(RL)(TD)=central reflection (1).
+
+In case it isn't clear, the cycle notation for (e.g.) a 120-degree
+rotation (FTL)(BDR) means that the F, T, L, B, D, and R faces move to
+the T, L, F, D, R, and B, locations, respectively.  The only thing I'm
+afraid of with this notation is that someone will think I'm describing
+a magic-cube process rather than a whole-cube move.
+
+So when you say Top->Down, Front->Left, I would say (TD)(FL)(BR) for
+the 180-degree diagonal rotation, to distinguish it from (TD)(FLBR)
+the 90-degree glide reflection.
+
+> ....wait a second, I don't think faces A & B have to be
+> adjacent for the rotation to be unambiguous. Any 2 faces
+> should do!
+
+No, you're back to your original bogosity.  Knowing the destinations
+of two opposite faces doesn't give you any more information than
+knowing the destination of one (unless you go breaking the axles).
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

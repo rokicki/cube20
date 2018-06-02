@@ -1,0 +1,15 @@
+Date:	  17 July 1980 2228-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  The Higher Crosses
+To:	  CUBE-LOVERS at MIT-MC
+
+For the amusement of the experienced cubemeister, and the
+education of those desirous of learning the Art, I have here
+produced a Description of the Methods, as I have used,
+for the production of the Cruces Plummeri & Christmani.
+These are the elegant configigurations of lid Crosses
+of which we spoke earlier today.
+
+**********************************************************************
+I herein describe the algorithms for construction of
+the higher (Plummer, Christman) crosses from a solved position.

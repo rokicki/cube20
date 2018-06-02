@@ -1,0 +1,80 @@
+From mschoene@math.rwth-aachen.de  Tue Jun 20 09:29:59 1995
+Return-Path: <mschoene@math.rwth-aachen.de>
+Received: from samson.math.rwth-aachen.de by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23574; Tue, 20 Jun 95 09:29:59 EDT
+Received: from hobbes.math.rwth-aachen.de by samson.math.rwth-aachen.de with smtp
+	(Smail3.1.28.1 #11) id m0sO2bG-000MPBC; Tue, 20 Jun 95 14:40 MET DST
+Received: by hobbes.math.rwth-aachen.de (Smail3.1.28.1 #19)
+	id m0sO2bF-00026zC; Tue, 20 Jun 95 14:40 WET DST
+Message-Id: <m0sO2bF-00026zC@hobbes.math.rwth-aachen.de>
+Date: Tue, 20 Jun 95 14:40 WET DST
+From: "Martin Schoenert" <Martin.Schoenert@math.rwth-aachen.de>
+To: Cube-Lovers@ai.mit.edu
+Cc: BRYAN@wvnvm.wvnet.edu
+In-Reply-To: "Jerry Bryan"'s message of Sun, 18 Jun 1995 15:55:22 -0400 (EDT) <wvmail32.1995jun18.154620.bryan@wvnvm.wvnet.edu>
+Subject: Re: Re: A Third Way to Calculate the Real Size of Cube Space?
+
+Looking through the old messages about the real size of the cube group,
+it appeared to me that no one has shown a proof for the Polya-Burnside
+theorem.  Since it is not difficult to prove, I decided to write one up.
+
+In the following I will use TeX notation for formulae, i.e., formulae
+are included in '$' signs, '{}' are used to group terms, '^' is used
+for superscripts, and '_' for subscripts.
+
+If $g \in G$, then I denote the set of elements that are really
+equivalent to $g$ by $g^M$.  Jerry denotes this set by {m'gm},
+but $g^M$ is the more common notation in group theory.
+
+The sum $\sum_{g \in h^M}{1/|g^M|}$ is simply 1, since it is the sum over
+all elements in one M-conjugacy class (h^M) of 1 over the length of
+that M-conjugacy class.  Thus the sum $\sum_{g \in G}{1/|g^M|}$ is the
+number of M-conjugacy classes.
+
+Now we need a standard lemma from group theory, which tells us that the
+length of a class $g^M$ of an element $g$ under the action of a group $M$
+is equal to the size of the group $M$ divided by the size of the subgroup
+of those elements of $M$ that fix $g$ (more precisely the index of that
+subgroup in $M$, since the lemma is true, even if $M$ is infinite).
+
+So using Jerry's notation this lemma gives $1/|g^M| = |Symm(g)|/|M|$.
+Applying that to the above formula we see that the number of
+M-conjugacy classes in $G$ is $\sum_{g \in G} {|Symm(g)|/|M|}$
+Or, after a trivial change, $1/|M| \sum_{g \in G} {|Symm(g)|}$.
+
+Assume that $(g^m == g)$ is 1 if $g^m$ is equal to $g$ and 0 otherwise.
+Then we have $|Symm(g)| = \sum_{m \in M}{(g^m == g)}$.
+Thus the number of M-conjugacy classes is
+$1/|M| \sum_{g \in G} \sum_{m \in M} {(g^m == g)}$.
+
+Now we can simply change the order of the two summations, so we get
+$1/|M| \sum_{m \in M} \sum_{g \in G} {(g^m == g)}$.
+
+But of course $\sum_{g \in G} {(g^m == g)}$ is obviously the number of
+fixpoints of $m$.  So we obtain the Polya-Burnside lemma: ``The number of
+M-conjugacy classes is the average number of fixpoints of the elements
+of $M$ w.r.t. their operation on $G$''.
+
+However, here the operation is special, so we can simplify even further.
+$g^m$ here means $m^{-1} g m$, so $(g^m == g)$ means $(m^{-1} g m == g)$,
+which is equivalent to $(m == g^{-1} m g)$ (multiply the equation first
+by $m$ and then by $g^{-1}$ from the left), which is $(m == m^g)$.
+
+So the number of M-conjugacy classes is
+$1/|M| \sum_{m \in M} \sum_{g \in G} {(m == m^g)}$.
+
+But $\sum_{g \in G} {(m == m^g)}$ is simply the size of the subgroup of
+those elements in $G$ that fix $m$.  This is the centralizer of
+$m$ in $G$.  So the number of M-conjugacy classes is finally
+$1/|M| \sum_{m \in M} |Centralizer(G,m)|$.
+
+This is the formulation that I used to compute the real size of the cube
+group with GAP.
+
+Have a nice day.
+
+Martin.
+
+-- .- .-. - .. -.  .-.. --- ...- . ...  .- -. -. .. -.- .-
+Martin Sch"onert,   Martin.Schoenert@Math.RWTH-Aachen.DE,   +49 241 804551
+Lehrstuhl D f"ur Mathematik, Templergraben 64, RWTH, 52056 Aachen, Germany
+

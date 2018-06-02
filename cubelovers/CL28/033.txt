@@ -1,0 +1,31 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct 26 17:14:19 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA00743
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 26 Oct 1999 17:12:53 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v0151011fb42deac8cf03@[207.229.148.209]>
+Date: Sat, 16 Oct 1999 02:46:11 -0600
+To: Cube-Lovers@ai.mit.edu
+From: slapdash@enteract.com (Russ Perry Jr)
+Subject: 2x2x4 cube-like puzzle?
+
+Somewhere I ran across mention of a 2x2x4 cube, made from a 4x4x4 with
+some pieces glued together.  It gave a link:
+
+>http://hjem.get2net.dk/philip-k/puzzles/puzzlist.htm
+
+There was no pic as the referring doc said, but it says it was made by
+Greg Stevens -- is Greg around here and/or are there actually pix out
+there somewhere?
+
+On the other hand, another site (http://www.puzzleshop.de ??) has pix
+of what appears to actually be a 2x2x4 puzzle in its Puzzle Museum.
+How does that work?
+
+//*================================================================++
+||  Russ Perry Jr   2175 S Tonne Dr #105   Arlington Hts IL 60005  ||
+||  847-952-9729    slapdash@enteract.com    VIDEOGAME COLLECTOR!  ||
+++================================================================*//
+

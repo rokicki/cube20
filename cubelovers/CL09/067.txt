@@ -1,0 +1,49 @@
+From alan@ai.mit.edu  Sun Nov  8 17:00:39 1992
+Return-Path: <alan@ai.mit.edu>
+Received: from corn-pops (corn-pops.ai.mit.edu) by life.ai.mit.edu (4.1/AI-4.10) id AA03727; Sun, 8 Nov 92 17:00:39 EST
+Received: by corn-pops (4.1/AI-4.10) id AA03768; Sun, 8 Nov 92 17:00:08 EST
+Date: Sun, 8 Nov 92 17:00:08 EST
+Message-Id: <9211082200.AA03768@corn-pops>
+From: Alan Bawden <Alan@lcs.mit.edu>
+Sender: Alan@lcs.mit.edu
+To: Dik.Winter@cwi.nl
+Cc: Cube-Lovers@ai.mit.edu
+In-Reply-To: Dik.Winter@cwi.nl's message of Sun, 8 Nov 1992 22:15:14 +0100 <9211082115.AA21833.dik@boring.cwi.nl>
+Subject: Where are the archives?
+
+   Date: Sun, 8 Nov 1992 22:15:14 +0100
+   From: Dik.Winter@cwi.nl
+   Can somebody tell me where the cube-lovers archives are maintained at this
+   moment?
+
+Such questions should be addressed to Cube-Lovers-Request@AI.MIT.EDU.  But
+since you asked publicly, I might as well answer publicly as well.
+
+If you are interested in the archives of the Cube-Lovers mailing list:
+
+Using FTP, connect to FTP.AI.MIT.EDU, login as "anonymous" (any password),
+and in the directory "pub/cube-lovers" you will find the nine (compressed)
+files "cube-mail-0.Z" through "cube-mail-8.Z".
+
+Archive vital statistics (when uncompressed):
+
+	   File		   From		   To	     Size (bytes)
+	   ----		   ----		   --	     ------------
+	cube-mail-0	12 Jul 80	23 Oct 80	185037
+	cube-mail-1	 3 Nov 80	 9 Jan 81	135719
+	cube-mail-2	10 Jan 81	 3 Aug 81	138566
+	cube-mail-3	 3 Aug 81	 3 May 82	137753
+	cube-mail-4	 4 May 81	11 Dec 82	139660
+	cube-mail-5	11 Dec 82	 6 Jan 87	173364
+	cube-mail-6	10 Jan 87	13 Apr 90	216733
+	cube-mail-7	12 Oct 90	 9 Sep 91	137508
+	cube-mail-8	 1 Nov 91	25 May 92	171205
+
+In addition, the file "recent-mail" contains a copy of the currently active
+section of the archive.  (Unfortunately, due to the way mail works here at
+the AI Lab, it is not possible to have new mail accumulate directly into
+this file, so there may be some delay before a new message arrives here.)
+Finally, the file "README" contains the information you are currently reading.
+
+				- Alan
+

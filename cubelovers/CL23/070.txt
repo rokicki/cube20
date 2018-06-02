@@ -1,0 +1,43 @@
+From: Mark Glusker <glusk@mechcad3.engr.sgi.com>
+
+ I just received some stereo lithography parts last week that were made of
+polycarbonate.  It is finally possible to use that process for more than
+just verifying the shape of objects.  However, if you wanted to replicate
+a cube (I assume you mean a Rubik-like mechanism)  you would need to do
+lots of post-finishing to remove the "raster" ridges from the parts so
+they will move smoothly against one another.  This post-finishing is done
+by hand and will certainly affect your final tolerances.
+
+ I use ProEngineer (on a Silicon Graphics workstation, naturally) which
+can automatically generate an STL file, the standard data format used by
+the stereo lithography vendors.  There are lots of vendors around here,
+and several have relationships with prototype die casters for limited
+production runs of parts (5 to 100 pieces, typically).
+
+  {At this point, Mark offered help; however, since the help was a
+personal offer to me, I don't want to post his comments directly.  -nb}
+
+{snip}
+
+ ... I could go on for quite some time on this subject! 
+
+ There are similar digital processes for replicating flat metal parts from
+a CAD file, with similar economic tradeoffs, in this case related to
+perimeter-per-area of part.  That would be a great way to replicate a
+missing piece of a mechanical calculator,... {Here, Mark's helpful
+comments were welcome, but off-topic for this List. -nb}
+Regards,
+
+Mark
+
+ 
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+
+

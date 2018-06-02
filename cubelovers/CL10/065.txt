@@ -1,0 +1,159 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Sat Dec  4 21:07:09 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01155; Sat, 4 Dec 93 21:07:09 EST
+Message-Id: <9312050207.AA01155@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 2589; Sat, 04 Dec 93 21:07:14 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 1511; Sat, 4 Dec 1993 21:07:14 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 4894; Sat, 4 Dec 1993 21:04:25 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Sat, 4 Dec 1993 21:04:23 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   God's Algorithm for the 2x2x2 Pocket Cube
+
+I want to post my God's Algorithm results for the 2x2x2 cube.
+These results generally speaking replicate other results that have
+been posted here as far back as ten to twelve years ago.
+
+In order to make my numbers make sense, I need to explain how I count
+the states of the 2x2x2 cube.  As has been posted here several times
+previously, the number is (7!)(3^6)=3,674,160.  Actually, I prefer
+the formulation (7!)(3^7)/3=3,674,160 because the latter formulation
+clearly reflects that all the cubies can be rotated but that
+rotational orientation of the last one is determined by the
+rotational orientation of the others.  But in any case, this
+calculation is based on the following.  Let any one cube be fixed
+in location and rotational orientation.  Then, there are
+7! ways to arrange the other seven cubes, and (3^7)/3 ways to
+rotate them.
+
+But there is another way to look at it.  Fix none of the cubes.
+Rather,  choose one to be the upper,left,front one, pick a second
+one to be the upper,right,front one, etc., so that there are 8!
+ways to arrange the eight cubes and (3^8)/3  ways to rotate them.
+We have 8!(3^8)/3=88,179,840, which is exactly twenty-four
+times larger than 3,674,160.
+
+The reason is that the 3,674,160 figure implicitly assumes
+that cubes that differ only in orientation of the overall
+cube are equivalent, and there are twenty-four ways to orient
+the cube in space (i.e., the order of the rotation group of
+the cube is 24).
+
+Conversely, the 88,179,840 figure implicitly assumes that
+cubes that differ only in orientation of the overall cube
+are distinct.  They can be made equivalent by applying the
+rotation group of the cube to form equivalence classes, and
+there will be exactly 3,674,160 equivalence classes.  Hence,
+the two ways of counting are isomorphic.  However, I do
+prefer to characterize the "things" that the 3,674,160 figure
+counts as equivalence classes, and I call 3,674,160 the
+number of nodes using 24-fold symmetry.
+
+Finally, I apply a second order-24 rotation group (I will explain
+how you can have a two order-24 rotation groups on the same cube
+in a follow-up post) and an order-2 reflection group.  Hence, the
+number of nodes to represent the entire search tree for the 2x2x2
+cube should be 88,179,840/(24*24*2)=76,545, where the 76,545 figure
+represents the number of equivalence classes and each equivalence
+class includes 24*24*2=1152 elements.  As it turns out, a few of
+the equivalence classes contain fewer than 1152 elements, so that
+the total number of nodes in the search tree is slightly larger
+than 76,545, namely 77,802.
+
+The tables of results below include figures both for 24-fold symmetry
+and for 1152-fold symmetry.  My search tree was for 1152-fold symmetry
+only.  I then sort of "backed in" to the results for 24-fold symmetry
+by calculating the size of each equivalence class.  Calculating a
+search tree with 77,802 nodes representing equivalence classes, then
+calculating the size of each equivalence class, was much faster than
+calculating a search tree with 88,179,840 nodes or one with
+3,674,160 nodes.
+
+The little exercise with calculating the size of each equivalence
+class was very gratifying in at least two respects.  First, it let
+me explain the disconcerting difference between 76,545 and 77,802.
+Second, it let me confirm that my results were the same as everyone
+else who had gone before.
+
+                Results Using Both q-turns and h-turns
+
+        Distance           Number of          Number of
+        from               Nodes              Nodes
+        Start              using              using
+                           24-fold            1152-fold
+                           symmetry           symmetry
+
+          0                       1                  1
+          1                       9                  2
+          2                      54                  5
+          3                     321                 19
+          4                    1847                 68
+          5                    9992                271
+          6                   50136               1148
+          7                  227536               4915
+          8                  870072              18364
+          9                 1887748              39707
+         10                  623800              13225
+         11                    2644                 77
+      -----                 -------              -----
+      Total                 3674160              77802
+
+
+
+                Results Using Only q-turns
+
+        Distance             Number of          Number of
+        from                 Nodes              Nodes
+        Start                using              using
+                             24-fold            1152-fold
+                             symmetry           symmetry
+
+          0                       1                  1
+          1                       6                  1
+          2                      27                  3
+          3                     120                  6
+          4                     534                 17
+          5                    2256                 59
+          6                    8969                217
+          7                   33058                738
+          8                  114149               2465
+          9                  360508               7646
+         10                  930588              19641
+         11                 1350852              28475
+         12                  782536              16547
+         13                   90280               1976
+         14                     276                 10
+      -----                 -------              -----
+      Total                 3674160              77802
+
+
+
+                Results Using Only h-turns
+
+        Distance           Number of          Number of
+        from               Nodes              Nodes
+        Start              using              using
+                           24-fold            1152-fold
+                           symmetry           symmetry
+
+          0                       1                  1
+          1                       3                  1
+          2                       6                  1
+          3                      11                  2
+          4                       3                  2
+      -----                 -------              -----
+      Total                      24                  7
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

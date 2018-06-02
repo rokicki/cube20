@@ -1,0 +1,74 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct  6 15:05:42 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id PAA07299; Tue, 6 Oct 1998 15:05:41 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sun, 27 Sep 1998 20:35:33 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Corners Only, Ignoring Twist
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Reply-To: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Message-Id: <Pine.PMDF.3.95.980927193742.73560A-100000@PSTCC6.PSTCC.CC.TN.US>
+
+I have been playing around with the idea of trying to calculate God's
+Algorithm all the way to the bitter end for the group which results from
+ignoring all twists of the corners and flips of the edges.  It's a pretty
+big group.  The order is |G|/(3^7)/(2^11), which is about 9.7*10^12, call
+it about 10^13 to make it a round number.  (Another way to calculate it is
+8!12!/2.)
+
+This is probably right at the bare edge, maybe even slightly past the bare
+edge, of the size of problem I can handle right now, which makes it a
+worthy endeavor.  Also, it would provide a lower limit on the diameter of
+G (although the limit might not be any better than the ones we already
+have), which again makes it a worthy endeavor.
+
+Such a result might be suitable as the estimator function required by IDA*
+searches.  The distance from Start in the no-twist, no-flip group would
+certainly be a lower bound for every position where twist and flip *are*
+considered.  My only hesitation about suggesting this group as a suitable
+IDA* estimator function is that there are obvious pathological cases such
+as the superflip where this function would be a very poor estimator.
+
+In developing a no-twist, no-flip version of the program, I decided to try
+it out on the corners only case.  Here are the results.
+
+
+Distance
+ from           Patterns     Positions
+Start
+
+
+  0q                   1               1
+  1q                   1              12
+  2q                   5             114
+  3q                  24             876
+  4q                 119            4931
+  5q                 301           12972
+  6q                 364           15066
+  7q                 166            6300
+  8q                   3              48
+
+
+
+Distance
+ from           Patterns       Positions
+Start
+
+ 0f                    1               1
+ 1f                    2              18
+ 2f                    9             243
+ 3f                   68            2646
+ 4f                  302           12516
+ 5f                  418           17624
+ 6f                  170            7080
+ 7f                   14             192
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

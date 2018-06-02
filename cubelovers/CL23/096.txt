@@ -1,0 +1,75 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Aug  5 15:30:18 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA24768; Tue, 5 Aug 1997 15:30:18 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From reid@math.brown.edu Tue Aug  5 14:31:16 1997
+Message-Id: <199708051827.OAA07000@life.ai.mit.edu>
+Date: Tue, 5 Aug 1997 14:33:36 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: 20f maneuvers for superfliptwist
+
+because of the historical interest in the pattern superfliptwist, i
+decided to find all  20f  maneuvers for it.  this took about 114 hours
+of searching, using the symmetry reductions i described in an earlier
+message.
+
+by "all" maneuvers, i mean that any 20 face turn sequence for
+superfliptwist can be transformed in to one on my list by conjugating
+by one of the 24 symmetries that fix superfliptwist, or by inverting
+the sequence and conjugating by the cube rotation  C_U , and perhaps
+again by one of the 24 symmetries.  some extra processing by hand
+was required to eliminate inverse pairs.  hopefully i haven't made
+any errors here.  the list of maneuvers is
+
+
+   U  R  F' B  U' D' F  U' D  F  L  F' L' U  R  D  F  U  R  L   (20f, 20q)
+   U  F  D  L  U  R' F' R  F  U' D  F  U' D' F' B  L  U  R  L   (20f, 20q)
+
+   U  R' F' U' F' R' B' D2 R' D  R  L' B  R  F  B2 R' U' B  D'  (20f, 22q)
+   U  F  L  D  L  F  R  U2 F  U' F' B  R' F' R2 L' F  D  R' D'  (20f, 22q)
+   U  R' U' D  F' U' F2 B' U  L  F' R  L' U  B  L  B  U  F  R2  (20f, 22q)
+   U  R' U' D  F' U' B' R' F' R  U  F2 R  U  B  L  B  U  F  R2  (20f, 22q)
+   U  F  L  D  L  F  R  U2 F  U' F' B  R' F' L' U' R' U  F  R2  (20f, 22q)
+   U  F  R' F' L' U' R' U' D  F' U  F2 R  U  L  B  L  U  F  R2  (20f, 22q)
+   U  F  D  L  D  F  R  L' U' L  F  U2 D' F' U' F' B  R' F  R2  (20f, 22q)
+   U  F  D  L  D  F  R  U2 F  R  U' R' D' F' U' F' B  R' F  R2  (20f, 22q)
+
+   U  R  B  D2 L  B  R' D' R' B  L' D2 L  B' D2 R' F  B2 D' R   (20f, 24q)
+   U  R' B  L2 U' L2 U' B  U' L2 D  R  B  D  F  U2 R' L' B' R'  (20f, 24q)
+   U  F  B' R' U2 L  U' R2 B' L' F2 U' R' D' L2 U  D  B  D' B   (20f, 24q)
+   U  R  L2 F  U  F  U  F  L  D2 L' D' L  U' D  F2 B  L' F  R2  (20f, 24q)
+   U  R  L' B' R' F  R' F' B' D2 F  U  B  L2 D  R  U2 B  D' B2  (20f, 24q)
+   U  R' U2 D  F  B' R  F' R' F2 R  U  B  U  B  U  R2 L  B  L2  (20f, 24q)
+   U  R' B  R  U' L' U2 B' R2 L' D  B2 L  U' B  R  F  U  B  L2  (20f, 24q)
+   U  R' D2 B' U' F2 R' D' L' U2 R  L  B  L' B  R  F  B' D' R2  (20f, 24q)
+   U  F  D  L  U  F' R  U2 B  R' L2 U' F2 R' F' L  U  L' F  R2  (20f, 24q)
+   U  F2 R' U' F' R' L2 U  B  U  L' F  B' U2 D  L  U' D' B  R2  (20f, 24q)
+   U  F' B' L  F  B2 U' D  L' B  U  B  R' L2 D' B' R' D2 B  R2  (20f, 24q)
+
+   U  R2 B  L' U2 B' R' L  F2 D  F  L2 D  R' F2 D' R  L' U2 B   (20f, 26q)
+   U  F  R' L  D  B  R2 U2 L2 D' R' D' R  L2 U' F  L  D2 B  R2  (20f, 26q)
+   U  F2 L  D  B' R  L2 F' R' F' L2 B2 R2 U  F  R' L  D  B  R2  (20f, 26q)
+
+   U  F2 R' L' U  F' U' D2 B2 U' B  D  R' L2 D2 L2 D2 F  U2 B'  (20f, 28q)
+
+
+the maneuver that herbert kociemba found is equivalent to the  28q
+maneuver.
+
+the two maneuvers that are  20q  long can be obtained from one another
+by inverting the first, then cyclically shifting the antislice to the
+end of the maneuver, and then reorienting.
+
+the first of the  26q  maneuvers is quite interesting.  it can also be
+written as
+
+      (U  R2 B  L' U2 B' R' L  F2 D   C_UF)^2
+
+where  C_UF  is a cube rotation about the UF - DB edge axis (as in
+bandelow's book).
+
+mike
+

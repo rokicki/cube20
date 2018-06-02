@@ -1,0 +1,52 @@
+From hoey@aic.nrl.navy.mil  Sun Dec  3 14:46:32 1995
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12457; Sun, 3 Dec 95 14:46:32 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA01617; Sun, 3 Dec 95 14:46:31 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Sun, 3 Dec 95 14:46:30 EST
+Date: Sun, 3 Dec 95 14:46:30 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9512031946.AA24122@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: Generating Rubik's Cube
+
+On the probability that two random elements will generate the entire
+cube group, I wrote:
+
+> ... a random pair of elements has nearly a 75% probability of
+> generating the cube.  At least, I'm pretty sure that's an upper
+> bound, and I don't see any reason why it shouldn't be fairly tight.
+> That's for the group where the whole cube's spatial orientation is
+> irrelevant.  I think it's more like 56% (9/16) if you also need to
+> generate the 24 possible permutations of face centers.
+
+I can now answer the spatial orientation part of the question, and
+it's much lower.  We're talking about C, the 24-element group of
+proper motions of the whole cube.  If we select two elements at random
+with replacement, the probability is only 3/8 that they will generate
+the whole group.
+
+The kinds of motions that can take part in a generating pair are a
+90-degree rotation about an axis, a 120-degree rotation about a major
+diagonal, and a 180-degree rotation about a minor diagonal.  Note that
+the last kind fixes two major diagonals and an axis.  Two motions
+generate C iff they are
+
+    (48 ways) a 120 and a 180, unless they fix the same major diagonal,
+    (48 ways) a 180 and a 90, unless they fix the same axis,
+    (24 ways) two 90s at right angles, or
+    (96 ways) a 90 and a 120.
+
+The number comes out so even I suspect there's something deeper going
+on than the exhaustive analysis I used.
+
+As for generating the (fixed-face) Rubik's group, I still suspect that
+two elements almost always generate the entire group unless they are
+both even.  Anyone who has a Sims's-algorithm implementation handy
+could help out with a Monte-carlo approximation to see if this is
+approximately right.  Or, I wonder, is there a way of getting an exact
+number, perhaps with the help of GAP?
+
+Dan                                     posted and e-mailed
+Hoey@AIC.NRL.Navy.Mil
+

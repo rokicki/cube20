@@ -1,0 +1,67 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 29 15:00:41 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA22498
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 29 Dec 1998 15:00:41 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 29 Dec 1998 02:22:08 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+Reply-To: Nicholas Bodley <nbodley@tiac.net>
+To: Jono <bagelboyj@geocities.com>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Other Cubes
+In-Reply-To: <3685267B.D1459EC7@geocities.com>
+Message-Id: <Pine.BSF.3.96.981229015425.28800A-100000@shell2.tiac.net>
+
+
+On Sat, 26 Dec 1998, Jono wrote:
+
+}Hi, cube lovers. I have a few questions.
+}Does anyone know if Erno Rubik is still alive?
+
+Quite likely. There's a Website that might help you find out:
+
+http://www.rubiks.com
+
+Try a Web search (I like the meta-search engines; Metasearch and
+Metafind are a couple).
+
+}About 4 years I vaguely remember seeing a large star-shaped
+}rubiks puzzle.
+
+It might well have bees Alexander's Star. As to finding one, sorry to
+say, I can't help. Rather sure it wasn't a Rubik design, though. It was
+harder to manipulate mechanically than one might like. Not sure, but I
+think I've seen it it a store. You might try a Web puzzle dealer.
+ (...Puzzletts.com ?)
+
+} Does anyone know where I can find one? I am also looking for a 4x4x4
+}and a 5x5x5 cube. Where can I find one?
+
+For the 5^3, in addition to Meffert, as Dan said, Dr. Christoph
+Bandelow, in Germany, was selling them, as well, I'm almost certain. The
+store [The Games People Play] on Mass. Ave. in Cambridge, Mass., might
+have them in stock. Sorry, but I've lost track of Dr. Bandelow's
+address.
+
+My general impression is that there's enough interest in the 5^3 to have
+revived production, although it could have been just one big run. Fwiw,
+(honestly, not much!), my experience regarding the 4^3 agrees with Dan's
+comments.
+
+
+}[ Moderator's note: Cube-lovers-request gets a lot of requests for
+}  information on finding 4^3 and 5^3 puzzles.  I'm pretty sure there
+}  is no source of 4^3 puzzles, except for the occasional auction.
+}  Last I heard Uwe Meffert sells 5^3 puzzles at
+}  http://www.ue.net/mefferts-puzzles/ --Dan ]
+}
+
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*  The personal computer industry will have become
+|*  Amateur musician  *|*  mature when crashes become unacceptable.
+--------------------------------------------------------------------------
+

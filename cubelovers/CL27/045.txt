@@ -1,0 +1,47 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Apr 12 14:10:19 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA16364
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 12 Apr 1999 14:10:19 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sat, 10 Apr 1999 00:38:26 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: WaVeReBeL@webtv.net
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: Lubricant
+In-Reply-To: <10861-36FC90D4-6028@mailtod-121.bryant.webtv.net>
+Message-Id: <Pine.BSF.3.96.990410002626.16640C-100000@shell2.tiac.net>
+
+
+On Sat, 27 Mar 1999 WaVeReBeL@webtv.net wrote:
+
+}Many people have suggested different lubricants on their web pages.
+}Many have referred to silicon.  Where can I get this?  What other ones
+}are good?  Where can I find them?
+
+White powder, used like graphite, sometimes for locks? Possibly
+Tri-Flow (tm), which (iirc) is a Teflon (tm) particle suspension.
+
+I experimented with quite a variety of lubricants, found a good one,
+and then one of the periodic disruptions of my life came along and I
+failed to note which it was! :(
+
+"Teflon" is a Du Pont trade name for PTFE, polytetrafluoroethylene.
+
+Btw, in case you do a Web search, watch "silicon" vs. "silicone".
+The chemist who coined the term "silicone" was wildly optimistic
+about people's ability to keep the two straight. Silicon, the
+chemical element, is gray, opaque to visible light, brittle like
+glass, and a lousy lubricant. You don't normally see it, nor can you
+normally buy it.
+
+Silicones are chemical compounds that include the chemical element,
+silicon.
+
+|*  Nicholas Bodley   *|*  Autodidact & Polymath * Electronic Tech. (ret.)
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*  Silicon oil and grease do not exist.
+|*  Amateur musician  *|*  IC chips made of silicone do not exist.
+--------------------------------------------------------------------------
+

@@ -1,0 +1,35 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug  4 21:26:36 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA20319; Mon, 4 Aug 1997 21:26:36 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cubeman@idirect.com Mon Aug  4 20:14:53 1997
+Message-Id: <33E6709C.4277@idirect.com>
+Date: Mon, 04 Aug 1997 20:15:25 -0400
+From: Mark Longridge <cubeman@idirect.com>
+To: cube lovers <cube-lovers@ai.mit.edu>
+Subject: Megaminx a.k.a. Supernova
+
+Has anyone ever written a simulation of the Megaminx for the PC?
+ 
+I'm thinking about Megaminx moves and I'm on the verge of writing
+a simulation from scratch (starting with my file for GAP), to
+help myself to compose sequences for patterns.
+ 
+I am particularly interested in processes for the 10-spot and 
+12-spot.
+ 
+Ultimately I should write one, something with coarse face movement,
+algebraic move entries like  ( F+ B- )^12 with whole megaminx
+rotations.
+
+This is interesting to me as it lies outside of recorded cube
+literature. 
+ 
+Mark
+Web Page At: http://web.idirect.com/~cubeman
+ 
+I've also managed to compile Mike Reid's ANSI C cube solver for
+MS DOS using DJGPP. It makes good use of DPMI.
+

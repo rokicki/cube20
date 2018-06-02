@@ -1,0 +1,24 @@
+From geohelm@pt.lu  Mon Dec 18 01:59:51 1995
+Return-Path: <geohelm@pt.lu>
+Received: from menvax.restena.lu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21445; Mon, 18 Dec 95 01:59:51 EST
+Date: Mon, 18 Dec 95 01:59:50 EST
+Received: from mailsvr.pt.lu by menvax.restena.lu with SMTP;
+          Mon, 18 Dec 1995 7:59:44 +0100 (MET)
+Received: from slip116.pt.lu by mailsvr.pt.lu id aa10286; 18 Dec 95 7:59 CET
+X-Sender: geohelm@mailsvr.pt.lu
+X-Mailer: Windows Eudora Version 1.4.4
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Georges Helm <geohelm@pt.lu>
+Subject: Re: Generating Rubik's Cube
+Message-Id:  <9512180759.aa10286@mailsvr.pt.lu>
+
+It is Bandelow Christoph: Inside Rubik's cube and beyond
+
+>>  or BANDEMEISTER (sp?) "Beyond R. Cube"
+>
+Georges Helm           
+geohelm@pt.lu
+
+

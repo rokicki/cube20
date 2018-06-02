@@ -1,0 +1,48 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Tue Jan 11 16:07:24 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from mail.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01871; Tue, 11 Jan 94 16:07:24 EST
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <57202(4)>; Tue, 11 Jan 1994 14:27:37 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA09812; Tue, 11 Jan 94 13:52:09 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 190BA3; Tue, 11 Jan 94 13:41:58 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Andras Mezei's Book
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.692.5834.0C190BA3@canrem.com>
+Date: 	Tue, 11 Jan 1994 12:18:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+A while back I reported on the list of cube books available at the
+Library of Congress. At the time, I did not realize the
+significance of #2:
+
+2. 85-109601: Mezei, Andras.  Magyar kocka, avagy, Meg mindig ilyen
+     gazdagok vagyunk? /  Budapest : Magveto, c1984.  473 p. : ill.
+     ; 21 cm.
+
+Digging through some old magazines I reread the cube article in
+the March 1986 issue of "Discover" magazine. In this issue
+John Tierney talks to Rubik himself. The article itself is
+excellent, showing pictures of Rubik's first wooden prototype,
+and having discussions on the Golden Age of the Cube when
+only Rubik had access to his invention.
+
+I learned that Andras Mezei (a Budapest writer) wrote a book and a
+play called "The Hungarian Cube". This chronicles the debacle
+that occured when the Hungarians attempted to expand their
+operations to meet the huge demand, rather than farm the work
+to other factories. Andras writes: "Everyone made money on the
+cube except the Hungarians".
+
+Does anyone on Cube-Lovers have this book? Judging by the size
+of the book, and the fact that it's illustrated, I think it
+would be a worthy addition to any cubist's library, even more
+so if there exists an english translation. If not, I feel
+encouraged enough to get an English-Hungarian dictionary and
+read it anyway!
+
+  -> Mark
+

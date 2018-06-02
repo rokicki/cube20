@@ -1,0 +1,25 @@
+From dik@cwi.nl  Sat May 30 18:12:35 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA10599; Sat, 30 May 92 18:12:35 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA26864 (5.65b/2.10/CWI-Amsterdam); Sun, 31 May 1992 00:12:31 +0200
+Received: by boring.cwi.nl 
+	id AA02915 (5.65b/2.10/CWI-Amsterdam); Sun, 31 May 1992 00:12:30 +0200
+Date: Sun, 31 May 1992 00:12:30 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205302212.AA02915.dik@boring.cwi.nl>
+To: J.M.Kloosterman@research.ptt.nl
+Subject: Re:  Lower-bound Kociemba's algorithm
+Cc: cube-lovers@life.ai.mit.edu
+
+ > I have done an exhaustive search and none of the 6 situations of 18 moves
+ > could be reduced to 17 moves (within the group of <R2,L2,F2,B2,U,D>).
+ > For the case you want to verify, one of them is:
+ >  
+ >    L2 U R2 B2 U2 B2 L2 D2 L2 F2 D' L2 B2 F2 L2 F2 U' D
+ >  
+Of course I verified it ;-).  This one does indeed kill Kociemba's algorithm.
+On a fast processor (65 MHz SPARC) with a larger limit database than Kociemba
+is using himself (the database is about 5 MByte for the second phase), it took
+3 hours 15 minutes to find a minimal solution.  Of 18 moves.
+

@@ -1,0 +1,74 @@
+From din5w@dot.cs.virginia.edu  Thu May  2 13:28:00 1996
+Return-Path: <din5w@dot.cs.virginia.edu>
+Received: from virginia.edu (mars.itc.Virginia.EDU) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA19430; Thu, 2 May 96 13:28:00 EDT
+Received: from archive.cs.virginia.edu by mail.virginia.edu id aa24452;
+          2 May 96 13:27 EDT
+Received: from dot.cs.Virginia.EDU (din5w@dot.cs.Virginia.EDU [128.143.67.21]) by archive.cs.Virginia.EDU (8.7.1/8.6.6) with SMTP id NAA12062 for <cube-lovers@ai.mit.edu>; Thu, 2 May 1996 13:27:35 -0400 (EDT)
+Received: by dot.cs.Virginia.EDU (4.1/SMI-2.0)
+	id AA08122; Thu, 2 May 96 13:27:33 EDT
+Date: Thu, 2 May 1996 13:27:30 -0400 (EDT)
+From: Dale Newfield <din5w@virginia.edu>
+X-Sender: din5w@dot.cs.Virginia.EDU
+Reply-To: DNewfield@virginia.edu
+To: cube-lovers@ai.mit.edu
+Subject: TripleCross by Binary Arts
+In-Reply-To: <199605020540.BAA17826@zaphod.caz.ny.us>
+Message-Id: <Pine.SUN.3.90.960502112226.7956E-100000@dot.cs.Virginia.EDU>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+I've been investigating for month or so, now the size and shape of the 
+group represented by this puzzle...There are 18! positions, of course, 
+although I have yet to do any meaningful investigation in regards to what 
+interesting sub-groups exist, or even how many orbits there are in that 
+group, as 18! is a very large number (and I've been doing all of this 
+work with home-spun tools...I really need to get ahold of GAP and see 
+what it can do :-).  Instead I've been doing most of my investigations 
+with respect to a fairly arbitrary subgroup--that of distinguishable 
+positions (On the actual puzzle there are 9 indestinguishable blank 
+tiles, and 3 indestinguishable tiles that each contain one orange dot).
+In this group there are just under 3 billion possible positions: 
+18!/(9!*3!).  One of the things that I am currently trying to do is, 
+using a breadth first search, simply expand the entire graph from start, 
+to see how many of these positions are in the same orbit as start, and 
+thus to find out experimentally how many orbits there are.  I have not 
+really begun the analytical process of looking into these groups yet.  I 
+can encode a position (theoretically ~31.5 bits of information) into a 32 
+bit unsigned long, along with a 2 bit number representing which direction 
+to go to get to start.  I've gone through many iterations, but now I 
+believe that I have built a system in which any given position in the 
+breadth first search queue takes up 4.5 bytes (on average), and in the 
+hashtable that stores the unique positions that popped out of the queue, 
+takes up about the same size.  This means that the entire graph can be 
+laid out in less than 13 gig of space.  This means that the problem is 
+solvable with enough money thrown at it, but is just beyond most of our 
+reaches right now (I have this running on a machine w 512M of memory, 
+and 1.2 Gig of swap...(Once the job runs into swap it crawls)...so if 
+there are 12 orbits I should find out before this run is through.)
+
+As well, I have built a java applet that allows one to play with the 
+device.  My goal was to include a "Solve" button that would show a person 
+a path toward a solved state.  Actually my goal was to be able to give up 
+and "reset" the physical toy back into a start state if I so desired so 
+that I can play with it without fear... although the ability to put in 
+macros in the applet was quite useful...
+
+Anyway, any comments are welcome.
+
+Binary Arts has a site: http://www.puzzles.com/
+
+the TripleCross can be seen on this page:
+http://www.puzzles.com/catalog/b3c1d1.htm
+
+and a link to my TripleCross game is
+http://www.cs.virginia.edu/~din5w/tc/
+although it is far from complete, and I would appreciate people not 
+making links to it yet. (Or telling binary arts people right now--they 
+might not like it.)
+
+
+Sorry this note was so rambling.
+
+-Dale Newfield
+
+

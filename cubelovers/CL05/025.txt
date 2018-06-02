@@ -1,0 +1,80 @@
+Date: 24 February 1983 1815-EST (Thursday)
+From: Dan Hoey at CMU-CS-A
+To: Cube-Lovers at mit-mc
+Subject: Whole-Cubing
+Message-Id: <24Feb83 181536 DH51@CMU-CS-A>
+
+When we describe cube positions, we typically fix the position of
+the face centers.  This avoids counting different positions of the same
+pattern more than once.  But suppose we wished to distinguish between
+different positions of a pattern?  How should we form this group G*
+of spatially oriented patterns?
+
+A simple way of generating G* is to adjoin generators for C, the
+motion group of the cube, to generators for G, the usual Rubik
+group.  Generators for C were discussed in early Cube-Lovers mail
+as I, J, and K, three orthogonal quarter-twists of the whole cube
+in space, although there was some disagreement about which was
+which.  We generate G with B, F, U, D, L, and R as usual.
+Unfortunately, the two kinds of generators are not conjugates,
+which was a nice thing about our generators for G.  Also the
+generators do not interact very strongly.  If we have an identity
+on {IJKBFUDLR}, the substring on {IJK} must be an identity in C,
+and there is a simple way of transforming the substring on {BFUDLR}
+to be an identity in G.
+
+In @i<Winning Ways>, Berlekamp, Conway, and Guy described another
+way of generating G*, by appending the slice moves, which they name
+by mnemonic greek letters; this labeling scheme was also reported
+in Hofstadter's column.  Here we have some stronger interaction
+between the two kinds of generators, but they are still two
+different kinds:  they are not conjugate.  This has never really
+bothered the English, though; they gratuitously include half-twists
+as generators as well.
+
+I thought up a scheme involving what I will call depth-2 moves
+named B2, F2, U2, D2, L2, and R2.  Readers of my reports on the
+4^3 and 5^3 cubes will find these familiar.  Essentially, a depth-2
+move is performed by turning a face together with its adjacent
+center slice.  Thus F2 involves holding the B face immobile and
+turning the rest of the cube a quarter-turn clockwise, as seen
+from the front.
+
+Clearly the depth-2 moves are M-conjugate.  Unfortunately, they do
+not generate all of G*, nor even all of G.  This can be seen easily
+by noticing that each depth-2 move is an even permutation of the
+edge cubies, while G includes odd permutations of edges.  We can
+look at this a different way by observing that a depth-2 move is
+the same as a vanilla depth-1 move of the opposite face together
+with a whole-cube quarter-twist.  Thus we can perform any depth-1
+process using depth-2 moves, and observe the spatial orientation of
+the cube at the end.  If we performed an odd number of depth-2
+moves, then there were an odd number of whole-cube moves, so the
+cube cannot be in its home orientation at the end.
+
+So just what group do the depth-2 moves generate?  It turns out
+that they generate precisely half of G*, the half that contains
+even edge permutations.  Suppose we want to produce such a position
+in G*.  First operate in G, simulating depth-1 moves as described
+above, to produce a position that is an even number of whole-cube
+moves from the desired one.  Then use M-conjugates of the process
+	F2 L2 D2' B2' D2' F2 L2 B2 L2 U2' F2' D2' R2' B2,
+which performs a whole-cube third-twist.  [This was derived from
+identity I14-4].  Since all the even whole-cube moves are generated
+from third-twists, this is all you need.
+
+What can we do about generating all of G* with a set of conjugate
+generators?  Sad to say, that is impossible.  For supposing we had
+such generators, their cycle structures would have to be the same;
+in particular, they would have to have the same permutation
+parities.  Applying an odd number of such generators would yield
+those parities, and applying an even number would yield even parity
+on every kind of cubie.  But G* includes four different parity
+classes:
+		Face centers	Edges	Corners
+		    even	even	even
+		    even	odd	odd
+		    odd		even	odd
+		    odd		odd	even
+so at most half of G* can be generated with a set of conjugate
+generators.

@@ -1,0 +1,119 @@
+From mark.longridge@canrem.com  Tue Oct 31 01:27:02 1995
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09622; Tue, 31 Oct 95 01:27:02 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1FBDC8; Tue, 31 Oct 95 01:11:34 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Spotty Megaminx Revisited
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1257.5834.0C1FBDC8@canrem.com>
+Date: Tue, 31 Oct 95 01:02:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+Notes on the Spot Patterns on the Megaminx
+------------------------------------------
+
+Number the faces of the megaminx 1 through 12. Here are all the
+possible permutations of the 12 centres:
+
+dod := Group(
+   (2,3,4,5,6) (7,8,9,10,11),
+   (1,4,10,9,2)(5,11,12,8,6)
+  );;
+
+Size (dod) = 60;
+
+NumberConjugacyClasses (dod) = 5;
+
+Elements (dod);
+
+[ (),                                             0   spot
+ ( 2, 3, 4, 5, 6)( 7, 8, 9,10,11),                2   5-cycles = 10
+ ( 2, 4, 6, 3, 5)( 7, 9,11, 8,10),                2   5-cycles = 10
+ ( 2, 5, 3, 6, 4)( 7,10, 8,11, 9),                2   5-cycles = 10
+ ( 2, 6, 5, 4, 3)( 7,11,10, 9, 8),                2   5-cycles = 10
+ ( 1, 2)( 3, 6)( 4, 8)( 5, 9)( 7,10)(11,12),      6   2-cycles = 12
+ ( 1, 2, 3)( 4, 6, 9)( 5, 8,10)( 7,12,11),        4   3-cycles = 12
+ ( 1, 2, 6)( 3, 8, 5)( 4, 9, 7)(10,12,11),        4   3-cycles = 12
+ ( 1, 2, 8, 7, 5)( 3, 9,12,11, 4),                2   5-cycles = 10
+ ( 1, 2, 9,10, 4)( 5, 6, 8,12,11),                2   5-cycles = 10
+ ( 1, 3, 2)( 4, 9, 6)( 5,10, 8)( 7,11,12),        4   3-cycles = 12
+ ( 1, 3, 9, 8, 6)( 4,10,12, 7, 5),                2   5-cycles = 10
+ ( 1, 3)( 2, 4)( 5, 9)( 6,10)( 7,12)( 8,11),      6   2-cycles = 12
+ ( 1, 3,10,11, 5)( 2, 9,12, 7, 6),                2   5-cycles = 10
+ ( 1, 3, 4)( 2,10, 5)( 6, 9,11)( 7, 8,12),        4   3-cycles = 12
+ ( 1, 4,10, 9, 2)( 5,11,12, 8, 6),                2   5-cycles = 10
+ ( 1, 4,11, 7, 6)( 2, 3,10,12, 8),                2   5-cycles = 10
+ ( 1, 4, 3)( 2, 5,10)( 6,11, 9)( 7,12, 8),        4   3-cycles = 12
+ ( 1, 4, 5)( 2,10, 7)( 3,11, 6)( 8, 9,12),        4   3-cycles = 12
+ ( 1, 4)( 2,11)( 3, 5)( 6,10)( 7, 9)( 8,12),      6   2-cycles = 12
+ ( 1, 5, 7, 8, 2)( 3, 4,11,12, 9),                2   5-cycles = 10
+ ( 1, 5, 6)( 2, 4, 7)( 3,11, 8)( 9,10,12),        4   3-cycles = 12
+ ( 1, 5,11,10, 3)( 2, 6, 7,12, 9),                2   5-cycles = 10
+ ( 1, 5, 4)( 2, 7,10)( 3, 6,11)( 8,12, 9),        4   3-cycles = 12
+ ( 1, 5)( 2,11)( 3, 7)( 4, 6)( 8,10)( 9,12),      6   2-cycles = 12
+ ( 1, 6, 2)( 3, 5, 8)( 4, 7, 9)(10,11,12),        4   3-cycles = 12
+ ( 1, 6, 8, 9, 3)( 4, 5, 7,12,10),                2   5-cycles = 10
+ ( 1, 6)( 2, 5)( 3, 7)( 4, 8)( 9,11)(10,12),      6   2-cycles = 12
+ ( 1, 6, 5)( 2, 7, 4)( 3, 8,11)( 9,12,10),        4   3-cycles = 12
+ ( 1, 6, 7,11, 4)( 2, 8,12,10, 3),                2   5-cycles = 10
+ ( 1, 7, 2, 5, 8)( 3,11, 9, 4,12),                2   5-cycles = 10
+ ( 1, 7, 9)( 2, 6, 8)( 3, 5,12)( 4,11,10),        4   3-cycles = 12
+ ( 1, 7,10)( 2, 8, 9)( 3, 6,12)( 4, 5,11),        4   3-cycles = 12
+ ( 1, 7)( 2,11)( 3,12)( 4, 8)( 5, 6)( 9,10),      6   2-cycles = 12
+ ( 1, 7, 4, 6,11)( 2,12, 3, 8,10),                2   5-cycles = 10
+ ( 1, 8, 3, 6, 9)( 4, 7,10, 5,12),                2   5-cycles = 10
+ ( 1, 8)( 2, 6)( 3, 7)( 4,12)( 5, 9)(10,11),      6   2-cycles = 12
+ ( 1, 8, 5, 2, 7)( 3,12, 4, 9,11),                2   5-cycles = 10
+ ( 1, 8,10)( 2, 9, 3)( 4, 6,12)( 5, 7,11),        4   3-cycles = 12
+ ( 1, 8,11)( 2,12, 4)( 3, 9,10)( 5, 6, 7),        4   3-cycles = 12
+ ( 1, 9, 6, 3, 8)( 4,12, 5,10, 7),                2   5-cycles = 10
+ ( 1, 9)( 2, 3)( 4, 8)( 5,12)( 6,10)( 7,11),      6   2-cycles = 12
+ ( 1, 9, 7)( 2, 8, 6)( 3,12, 5)( 4,10,11),        4   3-cycles = 12
+ ( 1, 9, 4, 2,10)( 5, 8,11, 6,12),                2   5-cycles = 10
+ ( 1, 9,11)( 2,12, 5)( 3,10, 4)( 6, 8, 7),        4   3-cycles = 12
+ ( 1,10, 8)( 2, 3, 9)( 4,12, 6)( 5,11, 7),        4   3-cycles = 12
+ ( 1,10, 2, 4, 9)( 5,12, 6,11, 8),                2   5-cycles = 10
+ ( 1,10, 7)( 2, 9, 8)( 3,12, 6)( 4,11, 5),        4   3-cycles = 12
+ ( 1,10)( 2,11)( 3, 4)( 5, 9)( 6,12)( 7, 8),      6   2-cycles = 12
+ ( 1,10, 5, 3,11)( 2,12, 6, 9, 7),                2   5-cycles = 10
+ ( 1,11, 8)( 2, 4,12)( 3,10, 9)( 5, 7, 6),        4   3-cycles = 12
+ ( 1,11, 9)( 2, 5,12)( 3, 4,10)( 6, 7, 8),        4   3-cycles = 12
+ ( 1,11, 3, 5,10)( 2, 7, 9, 6,12),                2   5-cycles = 10
+ ( 1,11, 6, 4, 7)( 2,10, 8, 3,12),                2   5-cycles = 10
+ ( 1,11)( 2,12)( 3, 7)( 4, 5)( 6,10)( 8, 9),      6   2-cycles = 12
+ ( 1,12)( 2, 7)( 3,11)( 4,10)( 5, 9)( 6, 8),      6   2-cycles = 12
+ ( 1,12)( 2, 8)( 3, 7)( 4,11)( 5,10)( 6, 9),      6   2-cycles = 12
+ ( 1,12)( 2, 9)( 3, 8)( 4, 7)( 5,11)( 6,10),      6   2-cycles = 12
+ ( 1,12)( 2,10)( 3, 9)( 4, 8)( 5, 7)( 6,11),      6   2-cycles = 12
+ ( 1,12)( 2,11)( 3,10)( 4, 9)( 5, 8)( 6, 7)       6   2-cycles = 12
+
+Number    Pattern
+------    -------
+
+ 1        0 spots
+24        2 five-cycles  (10 spot)
+15        6 two-cycles   (12 spot)
+20        4 three-cycles (12 spot)
+--
+60   orientations of the dodecahedron, 24 ten-spots, 35 twelve-spots
+
+
+>>  I suspect various 12-spots are possible. I have no idea how to
+>> easily permute centre pieces on the megaminx.
+>
+> Indeed.  Every rotation of the center skeleton is possible (if you
+> consider the remainder fixed...).  So there are 12 centers that can
+> come out at top; for each center at top you have 5 possible positions
+> of the remainder leading to 60 configurations.  Of these 24 are
+> 10-spots, 1 is the solved puzzle, so the remainder (35) is 12-spots.
+> dik
+
+ Well, I was confused how there could be 35 twelve-spots (at first),
+but I am happy to confirm Dik's memory.
+
+-> Mark <-
+
+

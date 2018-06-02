@@ -1,0 +1,85 @@
+From BRYAN@wvnvm.wvnet.edu  Thu Feb 16 03:12:38 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23166; Thu, 16 Feb 95 03:12:38 EST
+Message-Id: <9502160812.AA23166@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 8706; Wed, 15 Feb 95 21:47:09 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 6982; Wed, 15 Feb 1995 21:47:09 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 15 Feb 1995 21:47:07 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Start-rooted vs. X-rooted Search Example
+
+It's a fool's errand, I suppose, but in light of our recent discussions,
+I created an X-rooted data base up through level 5, where X is the
+representative element of {m'Fm}.  Here are the results compared to
+a standard Start-rooted data base.  It is most important to realize that
+both data bases contain only representative elements, and that the
+results with total cubes are derived from the representative elements
+by calculating the sizes of the conjugacy classes.
+
+                  Start-                             Repr{m'Fm}-
+                  Rooted                             Rooted
+
+                       Representative                   Representative
+ Level        Cubes      Elements               Cubes     Elements
+
+ 0               1             1                 12         1
+ 1              12             1                115         6
+ 2             114             5              1,068        25
+ 3           1,068            25             10,011       219
+ 4          10,011           219             93,840     1,978
+ 5          93,840         1,978            878,880    18,395
+
+Performing the search in this fashion, it seems to me that there are
+only four positions for which the search would look the same as for
+Start -- Start itself, the Superflip, the Pons Asinorum, and the
+composition of the Superflip with Pons Asinorum.
+
+Martin Shoenert and Mark Longridge have convinced me that the Pons
+Asinorum and the composition of the Superflip with Pons Asinorum
+are not in the center of the cube group.  But I still believe that
+the search space for all four position looks essentially the same
+because these are the only four positions for which the associated
+symmetry group is M.  That is, it is only these four positions for
+which X=m'Xm for all m in M.
+
+It was in this sense  --  that the search space structure using
+representative elements is the same for Start and for superflip  --
+that I meant that two half-depth searches using representative elements
+were easy for the superflip, but would be harder for other positions.
+
+Here is a question for Dik Winter and Mike Reid (and my apologies
+if I have asked this before): have you tried your Kociemba's
+algorithm programs for the composition of Pons Asinorum with
+superflip?  I would find the results to be *very* interesting.
+
+Finally, as one last fool's errand, I performed the search for
+the first five levels again, this time using cubes instead of
+representative elements.  With this last search, the results are
+the same whether the root of the search is Start or something
+else, which is the point both der Mouse and Martin Schoenert
+were making.  In this chart, "level" has to be interpreted as
+"distance from root", not "distance from Start".
+
+              Start-            Repr{m'Fm}-
+              Rooted              Rooted
+
+ Level        Cubes                 Cubes
+
+ 0               1                      1
+ 1              12                     12
+ 2             114                    114
+ 3           1,068                  1,068
+ 4          10,011                 10,011
+ 5          93,840                 98,840
+
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

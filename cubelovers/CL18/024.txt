@@ -1,0 +1,27 @@
+From csstto@alpcom.it  Wed Dec  6 06:16:17 1995
+Return-Path: <csstto@alpcom.it>
+Received: from nic.alpcom.it by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14301; Wed, 6 Dec 95 06:16:17 EST
+Received: from monviso.alpcom.it by ALPcom.it (PMDF V4.3-10 #4712)
+ id <01HYHH3ABBHS0017KF@ALPcom.it>; Wed, 06 Dec 1995 11:14:08 +0000 (GMT)
+Received: by monviso.alpcom.it (950911.SGI.8.6.12.PATCH825/940406.SGI)
+ id LAA09416; Wed, 6 Dec 1995 11:14:06 GMT
+Date: Wed, 06 Dec 1995 11:14:06 +0001 (GMT)
+From: "C.S.S.T. Torino" <csstto@alpcom.it>
+Subject: Information request
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <Pine.3.89.9512061120.A9263-0100000@monviso.alpcom.it>
+X-Envelope-To: cube-lovers@life.ai.mit.edu
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+
+ How it is possible to access to "Cube lovers at MIT"  ? 
+ Do we need a password ?
+
+ Thank You and best regards
+    Domenico Inaudi
+
+
+

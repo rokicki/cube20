@@ -1,0 +1,11 @@
+Date:  5 December 1980 19:10 est
+From:  Greenberg.Symbolics at MIT-Multics
+Subject:  Re: That 28 move Plummer Cross
+To:  Plummer.SIPBADMIN at MIT-Multics (David C. Plummer)
+cc:  Cube-Lovers at MIT-MC
+In-Reply-To:  Message of 5 December 1980 18:48 est from David C. Plummer
+
+It is a corollary of what Plummer just said, that
+the "maximally distant" configuration, which is God's number of
+moves (the maximal length of God's algorithm) would then be
+no more than 28 moves from home (bounding God's number thusly).

@@ -1,0 +1,71 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Jan 22 15:35:46 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA02733
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Sat, 22 Jan 2000 15:35:46 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <387C51CD.706ED535@ibm.net>
+Date: Wed, 12 Jan 2000 02:05:01 -0800
+From: "Jin 'Time Traveler' Kim" <chrono@ibm.net>
+To: Cube-Lovers@ai.mit.edu
+Subject: Rubik's Revenge by Oddzon
+References: <000701bf442c$151f8420$ea023dd4@wschwi>
+
+Oddzon recently decided to manufacture a limited run of Rubik's
+Revenges.  My understanding is that they originally made 250 for sale
+but the cubes were so popular that they made another 250.  All 500
+initial cubes are gone.
+
+Here's the URL to the Rubik's page about the status of the Revenge:  It
+will return to production.
+
+http://www.rubiks.com/revenge.html
+
+I recently picked up a couple of these prototype Revenges to compare
+them to the original Ideal runs of the early 80's.  As far as I can
+tell, Ideal had two different sets of Revenges made.  The first set is
+from Macau.  Its mechanism is initially quite stiff and squeaks a lot
+when turned.  This can eventually loosen up to a pretty smooth turning
+mechanism.  It's made of stiff plastic which leads me to believe that
+this would be the one more easily broken due to the potential
+brittleness of the pieces.  The other Revenge is manufactured in Korea. 
+This particular cube is made from a softer plastic and turns much more
+smoothly than the Macau cube when brand new.  The drawback of the Korea
+cube IMHO is that the cubelets are hollow.  Although both sets of cubes
+seem to be injection molded, the Korean cube has "cheaped out" and left
+the cubes hollow, which in my experience causes quite a bit of binding
+in teh cube unless the planes of rotation are perfectly aligned. 
+Neither puzzle is what I would consider a pleasure to work with.
+
+Enter the Oddzon Cube.  It didn't come in a fancy box at all; just in a
+simple plastic baggie and taped shut.  While the turning itself is a bit
+rough feeling, the puzzle doesn't seem to bind at all and very little
+pressure is required.  The plastic seems to be similar to the Korean
+cube's softness but the cubelets are not hollow, which means no binding
+and very forgiving about not having perfect alignment.  Unfortunately it
+appears that the puzzle currently suffers from Oddzon's really cheap
+laminated paper stickers.  According to their web site this puzzle is
+only a prototype, so maybe they will improve the mechanism as well as
+stick to using purely plastic stickers in their final production cubes. 
+This will be THE Revenge I play with, not just because it will be in
+production, but because it is by far the best feeling.  
+
+If anybody doubts my claim to the puzzle's smoothness, I will gladly
+send them one of my Oddzon Revenges.  I am willing to part with two of
+them just so you can get a feel for the mechanism.  I will choose two
+people to receive the cubes (chosen at my discretion) for an
+evaluation.  If you don't think the puzzle is smooth, just mail it back
+to me and I'll cover the postage.  However if you find the cube as good
+as I do, be so kind as to mail me the cost of the cube and postage
+(about 24 bucks).  
+
+Please don't take this as an advertisement, but rather an endorsement
+from someone who has found the ultimately Revenge cube to date.  
+
+-- 
+Jin "Time Traveler" Kim
+chrono@ibm.net
+http://www.chrono.org
+'91/'95 PGT - SCPOC
+

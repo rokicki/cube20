@@ -1,0 +1,39 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb 24 17:38:27 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id RAA01098; Tue, 24 Feb 1998 17:38:26 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue Feb 24 05:49:14 1998
+Date: Tue, 24 Feb 1998 11:48:55 +0100 (MET)
+From: Christian <C.Eggermont@inter.nl.net>
+X-Sender: ceggermo@hengstdal.nijmegen.inter.nl.net
+Reply-To: Christian <C.Eggermont@inter.nl.net>
+To: cube-lovers@ai.mit.edu
+Subject: RE: Rubik lawyers up in arms over website -- Digest v23 #279]
+In-Reply-To: <009C2024.8A2B6B63.8@ice.sbu.ac.uk>
+Message-Id: <Pine.SUN.3.91.980224114558.20791B-100000@hengstdal.nijmegen.inter.nl.net>
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist wrote:
+
+> 	Norman Diamond refers to the patents expiring.  However, Rubik
+> only had a Hungarian patent.  As a result, the various Rubik companies
+> took legal action under copyright law, and copyright lasts much
+> longer.
+
+I think the following URL will answer most questions and resolves the
+issue:
+
+http://www.csun.edu/~hcmth014/comicfiles/copyright.html
+
+> 	Perhaps I should hassle Seven Towns about the use of my notation!
+
+Mmm interesting Idea... (-:
+
+Christian
+
+---------------------------------------------------
+E-Mail: C.Eggermont@inter.NL.net
+Homepage: http://www.inter.nl.net/users/C.Eggermont
+---------------------------------------------------
+

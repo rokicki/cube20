@@ -1,0 +1,13 @@
+Date: 29 JUL 1981 2107-EDT
+From: RMC at MIT-MC (R. Martin Chavez)
+To: CUBE-LOVERS at MIT-MC
+
+     If it's at all possible, I would very much like
+to be added to the Cube-lovers mailing list.  Though
+I will not go so far as to call myself a "cube-meister", 
+I have spent a great deal of time developing my own
+personalized algorithm (without the book.)  I can solve
+the cube in about five minutes (don't laugh), yet I
+still need to discover an operator for swapping a pair of
+edges and a pair of corners.
+     Thanks....

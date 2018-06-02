@@ -1,0 +1,36 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Nov  4 14:13:43 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA13736; Mon, 4 Nov 1996 14:13:42 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+To: mlist-cube-lovers@nntp-server.caltech.edu
+From: Wei-Hwa Huang <whuang@cco.caltech.edu>
+To: Cube-Lovers@AI.MIT.EDU
+Subject: Re: Book on Bandaged Cubes
+Date: 4 Nov 1996 16:37:13 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 17
+Message-ID: <55l63p$kuh@gap.cco.caltech.edu>
+References: <cube-lovers.199611040235.AA111104943@hpcc01.corp.hp.com>
+NNTP-Posting-Host: accord.cco.caltech.edu
+X-Newsreader: NN version 6.5.0 #12 (NOV)
+
+Stan Isaacs <isaacs@hpcc01.corp.hp.com> writes:
+
+>For those who haven't seen articles on this, bandaged cubes are regular
+>Rubik's cubes with some edges taped together.  If you tape 2 cubies, 
+>one corner and one edge, that is an "A-block".  If you tape an edge and a
+>center, that's a "B-block".  2 corners and an edge (3 cubies) is a "C-block.
+>And so on - he has notation for all the bandage possibilities, and 
+>discusses (as far as I can tell) all the interesting variations in a 
+>3x3x3.  (He leaves 4x4x4 and 5x5x5 bandaged cubes for a later time.)
+
+Does he cover non-adjacent bandages; for example, two corner cubies?
+
+
+-- 
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+-------------------------------------------------------------------------------
+Not technically an "evil alum".
+
+

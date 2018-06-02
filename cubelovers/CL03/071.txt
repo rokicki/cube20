@@ -1,0 +1,12 @@
+Date:  5 Nov 1981 0954-PST
+From: ISAACS at SRI-KL
+Subject: Rubic's Sphere
+To: CUBE-LOVERS at MIT-MC
+
+   One of my favorite pretty patterns on the Sphere is the "universe", from
+"Unscrambling the cubE": every edge and corner flipped/twisted in place; the
+each adjacent pair of corners twisted towards each other.  Forms a nice, 
+symmetric pattern of each face "exploded" outward from its center, which
+is more visible on the sphere than the cube.
+---Stan
+-------

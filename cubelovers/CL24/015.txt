@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 30 12:12:19 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA19848; Tue, 30 Sep 1997 12:12:18 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From C.McCaig@Queens-Belfast.AC.UK Tue Sep 30 05:39:44 1997
+From: C.McCaig@queens-belfast.ac.uk
+Date: Tue, 30 Sep 1997 10:27:55 GMT
+To: cube-lovers@ai.mit.edu
+Message-Id: <009BB113.FAA1EEF6.44@a1.qub.ac.uk>
+Subject: 4x4x4 solution
+
+i recently borrowed a friends 4x4x4, and i know the basic method for
+solving it.  ie get the 6 centres, pair up all the edges, and then
+solve for the normal cube.  however, about half the time i end up
+with a single edge pair inverted and cant figure out a move for
+reorientating the single edge pair.  usually i break a few pairs
+and try and reorientate them this way, but this seems rather longwinded...
+does anyone have a move for this?.  for example, say the green edge
+is on the blue face, and the blue edge is on the green face...
+
+thanks.
+
+clive 
+---
+clive mccaig
+queens university belfast
+northern ireland
+

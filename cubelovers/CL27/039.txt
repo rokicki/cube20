@@ -1,0 +1,152 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr  8 20:23:30 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA01802
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 8 Apr 1999 20:23:29 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 8 Apr 99 19:45:22 EDT
+Message-Id: <9904082345.AA16179@aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: Jerry Bryan <jbryan@pstcc.cc.tn.us>, Cube Lovers <cube-lovers@ai.mit.edu>
+Subject: Conjugation done right [Re: Inventing your own techniques]
+
+First, let's make sure everyone remembers that we're using  X' as an
+abbreviation for  X^(-1)  for inverses of permutations.  People really
+should read the archives, at <ftp://ftp.ai.mit.edu/pub/cube-lovers>
+so they know this sort of thing, but that's getting to be a lot to
+ask.  Still, remember that address, because it's a good place to go
+for things you forgot about the list (in fact, it would be nice if the
+README mentioned that cube-lovers-request@ai.mit.edu is the e-mail
+address for administrative requests to the list management, just in
+case someone loses their greeting message.)
+
+Jerry Bryan wrote:
+
+> A process of the form Y'XY is called a conjugate, and in particular is called
+> the conjugate of X by Y.  Note that YXY' is also a conjugate, and in particular
+> is called the conjugate of X by Y'.  This can be a little confusing because a
+> few books (incorrectly in my opinion) call YXY' the conjugate of X by Y.
+
+I tried to explain this a while ago, but it's such a subtle,
+counterintuitive point that I had better try again.  One form of
+conjugate is correct, and the other form is incorrect, but just which
+is correct depends on how you write function composition.  The point is
+that there are two schools of function composition, "leftward" and
+"rightward", and the choice of your function composition determines
+how you define conjugates.  It's surprising that a notational
+convention can have this sort of effect, but we'll see it does.
+
+First, I'll describe the two schools of composition.  It will be
+convenient to consider a set  X  and two permutations  f  and  g  on
+X.  Let  h:X->X  be the unique permutation that satisfies  h(x) = f(g(x))
+for all  x  in  X.  We could let  f, g,  and  h  be any functions, not
+just permutations, but we will need for them to be permutations later,
+when we use the group structure.
+
+How do we write  h  in terms of  f  and  g?  The rightward school says
+h = g f.  This is the way we have been writing things on cube-lovers
+all along: we write  g f  for applying a permutation  g  to something
+and then applying  f  to the result.  But remember that we write
+h(x) = f(g(x)),  which is to say that  (g f)(x) = f(g(x)).  The fact
+that the order of  f  and  g  depends on the parenthesization is often
+considered ugly, so some seriously rightward people write the function
+name after the arguments: That is to say,  they write  (x)f  instead
+of  f(x),  (x)g  instead of  g(x),  and  (x)h = ((x)g)f = (x)(g f).
+This makes function composition a kind of associative law.  If you're
+seeing this for the first time, I'm sure you consider it a bizarre and
+useless and gratuitously confusing complication, but I assure you that
+rightward functions are in wide use in some branches of the
+mathematical community, chiefly in abstract algebra.  But cube-lovers
+was started by computer programmers, not algebraists, and programmers
+have  f(x)  very tightly wired into their minds and parsers.  So
+cube-lovers uses rightward composition with leftward functions, and we
+say  (g f)(x) = f(g(x)).  As for swapping the order of  f  and  g,  we
+just get over it, but there are some people out there who will call us
+disfunctional.
+
+The leftward composition school takes a different approach: they say
+h(x)=f(g(x))  means  h = f g.  When you follow a cube process written
+by these people, you have to perform it from the right to the left.
+This is also a little hard to get used to, but at least we have an
+"associative" rule,  (f g)(x) = f(g(x)),  with  f  and  g  in the same
+order, without having to write our functions after the arguments.  For
+this reason, most mathematicians other than algebraists find leftward
+composition to be more natural.  You probably learned leftward
+composition in calculus or whenever.  But on cube-lovers no-one wanted
+to write all their cube processes from right to left, so we've pretty
+much forgotten about leftward composition on the list.  Remember,
+though, leftward composition is pretty standard for a lot of
+mathematics, and it works better for the way we write functions, so
+you can't really call it wrong.  And there are people who say that if
+we are going to write our functions to the left we also ought to
+compose them to the left.
+
+So far so good.  The rightward and leftward schools write the
+composition of functions in opposite orders, but either way the
+permutations still form a group under composition.  As long as you
+don't mix them, it shouldn't change anything else, should it?  But it
+really does change the definition of conjugation.  (Remember
+conjugation?  This is a message about conjugation.)
+
+Suppose we have a group  G,  not necessarily a permutation group.
+Conjugation is one way of mapping  G  to a permutation group, where
+the set being permuted is the set of group elements of G.  For an
+element  s,  I'll define the right conjugate of  s,  R_s,  as the
+permutation for which  R_s(g) = s' g s  for all  g  in  G.  Similarly,
+the left conjugate of  s,  L_s  is defined by  L_s(g) = s g s'  for
+all  g.  It's important to notice that in either case, conjugation by
+a product is the composition of conjugations.  For letting  s  and  t
+be two specific elements of  G,  we can carry out manipulations that
+hold for all elements  g  of G.  I'll calculate with the left
+conjugate in the left column and the right conjugate in the right
+column:
+
+    L_s(g) = s g s';                R_s(g) = s' g s;
+
+    L_t(g) = t g t';                R_t(g) = t' g t;
+
+    L_st(g) = (st) g (st)'          R_st(g) = (st)' g (st)
+            = s t g t' s'                   = t' s' g s t
+            = L_s(t g t')                   = R_t(s' g s)
+            = L_s(L_t(g))                   = R_t(R_s(g))    (*)
+
+
+These calculations were carried out using the group operation of  G,
+independently of how we write function composition.  But let's look at
+how we write the composition in our two notations.
+
+In the rightward composition that cube-lovers has been using all
+along, (*) shows that  L_st = L_t L_s  and  R_st = R_s R_t.  So the
+mapping  s |-> L_s  is an _antihomomorphism_--it reverses the order of
+multiplication--but  s |-> R_s  is a homomorphism.  Homomorphisms are
+a lot nicer than antihomomorphisms, so we should use right conjugation
+all the time, right?
+
+But consider the people who use leftward composition, (f g)(x)=f(g(x)).
+So the function composition in (*) is now written  L_st = L_s L_t  and
+R_st = R_t R_s.  So with leftward composition, _left_ conjugation is
+the homomorphism, and _right_ conjugation is the antihomomorphism.
+
+It is so very convenient for conjugation to be a homomorphism that
+people who use rightward composition always use right conjugation, and
+people who use leftward composition always use left conjugation (unless
+they think it doesn't matter and guess wrong).  We're rightward
+composers on cube-lovers, so conjugation by  s  is  g |-> s' t s,  but
+remember that most math texts (other than algebra) will use the
+leftward composition, and so they will correctly use left conjugation,
+g |-> s g s'.
+
+I learned this from Jim Saxe, when I tried using left conjugation in
+the Symmetry and Local Maxima message.  Jim told me that unless I
+wanted to start using leftward composition I had better use right
+conjugation, but I was pretty sure it really didn't matter.  Jim just
+splained and splained until he got across how much it really does
+matter, and why the only right answer is different in different books.
+Now I've done it for you, and I hope it helps.
+
+And they said that consistency was the hobgoblin of little minds....
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

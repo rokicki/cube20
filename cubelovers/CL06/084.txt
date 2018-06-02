@@ -1,0 +1,229 @@
+Received: from ardec-lcss.arpa (TCP 30003004013) by AI.AI.MIT.EDU  3 Jun 88 10:00:38 EDT
+Received: by ardec-lcss.arpa id <2080015B041@ardec-lcss.arpa> ;
+       Fri,  3 Jun 88 09:59:01 EST
+Date: Fri,  3 Jun 88 09:56:08 EST
+From: BECK@ardec-lcss.arpa
+Subject: cube memorabilia
+To: cube-lovers@ai.ai.mit.edu
+X-VMS-Mail-To: EXOS%"cube-lovers@mit-ai"
+Message-ID: <880603095608.2080015B041@ardec-lcss.arpa>
+
+Hi CUBE-LOVERS,
+
+I am a "collector" of Rubik's cubes and other magic polyhedra.  As a
+collector I am not only interested in the puzzles themselves but also
+in the literature about them, the packaging of them and the
+merchandise/events that traded on the popularity of the cube.    Below
+is a crude taxonomy with  items I have identified.  I would appreciate
+criticism of the taxonomy and additions to the specific items . 
+ Also, if anybody has or knows where to obtain any items of this genre
+please let me know.   Since I am not personally a collector of most
+books, articles or solution algorithms about the cube (Bandelow, Helm,
+Singmaster, et al are doing that) please do not provide citations
+unless they are especially noteworthy.
+
+TAXONOMY for RUBIK'S CUBE ITEMS (5/26/88 REV)
+
+0.  CUBE PATENTS
+0.1  US PATENT#3,081,089,  william Gustafson, 1958
+0.2  Frank Fox, 1970
+0.3  US PATENT#  , LARRY Nichols, 1972  
+0.4  HUGARIAN PATENT, ERNO RUBIK, 1975
+0.5  JAPANESE PATENT,  Terutoshi Ishige, 1976
+
+1.  RUBIKOID PUZZLES - see photo on page 138/139 of "PUZZLES OLD &
+NEW"  (PON) by Jerry Slocum & Jack Botermans
+
+2.  CUBE EPHEMERA  -   
+2.1 ADVERTISING - 
+2.1.1  counter display boxes; I have for 20mm keychain size cubes and
+for the 3x3x3, Rubik's Revenge, Alexander's Star, and Missing Link ITC
+solution books.
+2.1.2 CATALOGS & FLYERS
+2.1.2.1 BANDELOW'S CATALOG
+2.1.2.2 MEFFERT'S FLYERS
+2.2 PACKAGING -
+2.2.1  cardboard diplay box used by ITC for original cube shrink
+wrapped
+2.2.2  clear plastic display cylindrical dome for black plastic base
+used by ITC for DELUXE cube
+2.3  ANNOUNCEMENTS OF CUBE RELATED EVENTS, EG, CONTESTS,  CONFERENCES,
+2.3.1  A contest announcement -> BUDAPEST INTERNATIONAL - HAVE A GO  
+  WITH RUBIK, CHALLENGE THE WORLD CHAMPION, it also has a photo Rubik
+holding a cube and one of Singmaster wearing a cube T-shirt; OBTAINED
+FROM DAVID SINGMASTER
+2.3.2  1987 (11/18-11/28) puzzle exhibition (expsoition casse-tete) by
+Marcel Gillen & Carlo Gitt in Luxembourg
+
+3.  BOOKS - not my area of interest
+
+4.  ARTICLES - not my area of interest
+
+5.  CLUBS/NEWSLETTERS/MUSEUM/EXHIBITS
+5.1   On April 29, 1988 a museum devoted to Rubik's cube opened in
+ Grand Junction, CO.   The museum is run by  Cecil Smith and is
+located in his home at 329 Ouray Ave;  245-6734.   REFERENCE:  The
+front page of the May 1, 1988  issue of the Grand Junction, Co Daily
+Sentinel (Vol 96, No 153).Press release of opening
+5.2  Wally Webster's exhibit in Kirkland, WA.  Press release of
+
+6.  SOLUTION ALGORITHMS INCLUDING COMPUTER PROGRAMS
+6.1  A 33RPM LP record with a solution to the cube:  "How to Solve the
+Cube Puzzle", The Marko Van Eckelen's Method - Guiness 36 second
+record holder; Gateway Records (GSLP-4506)^), GENCOM INC, POB 5087,
+FDR STATION, NY, NY 10150
+6.2  COMPUTER PROGRAMS
+6.2.1  cartridge for RADIO SHACK TRS-80 microcomputer called "COLOR
+CUBES";  sold with the cartridge, book, and keyboard cover.
+
+7.   PRETTY PATTERNS
+
+8.  CUBE ACCESSORIES  -  
+8.1 REPLACEMENT STICKERS
+8.1.1 cube covers; PON
+8.1.2 CUbe Mates (Cinderella Co., POB 265, Skykesville, MD 21784) is a
+set of 54 lettered stickers to put on your cube in order to play word
+games;  CC# 5&6, pg 5
+8.1.3  (Eidolon LTD, Vancouver V6B 3X9); a)  computer font numbers,
+ b) solid silver foil
+8.1.4  (Steven Mfg Co, Hermann MO 65041); large selection
+8.2 REPAIR/BUILD-A-CUBE KIT; PON
+
+9.  FAN ITEMS  -  
+
+9.1  DECALS - 
+9.1.1  An oval shaped 5"x3" decal with a picture of the cube in the
+center, saturn on the left, earth on the right and written at the top
+is "I do the cube" and at the bottom "RUBIK'S CUBE CLUB"; OBTAINED
+FROM DAVID SINGMASTER in 1986
+9.1.2  A sticker of the cube approximately 1 1/2" by SANDYLION, 340
+Alden road, Markham, Ontarion, Canada L3R 4C1,  416/475-0554.
+9.2  A thin rubberized magnet approximately 1 1/2".
+9.3  CAR STRIPS - A car strip (goes on inside of window) that says
+'CUBISTS DO IT IN 52 MOVES"; OBTAINED FROM DAVID SINGMASTER in 1986
+9.4  BUMPER STICKERS
+9.5  BUTTONS- I "heart" Rubik's cube & buttons with sayings and
+pictures of cubes from Singmaster in 1986;  PON
+9.6  Hungarian POSTAGE STAMP & FIRST DAY COVER (6/4/82), PON &CC# 5&6,
+pg 28
+9.7  CLOTHING  - 
+9.7.1  A childs Tee shirt with a picture of a cube above which is
+ written 'RUBIK'S CUBE"; OBTAINED FROM DAVID SINGMASTER in 1986
+9.7.2  A mans necktie; black with a cube on it;  PON
+9.7.3  A childs halloween costume, size large (12-14), fits an 8-10
+year old, from Collegeville Flag & MFG Co., Collegville, PA 19426 (I
+have some for trade)
+9.7.4  Sew on patch from ITC cube club; PON
+9.8  Ink stamp - I have a rubber ink pad stamp of a cube
+9.9  POSTER OF THE JIGSAW PUZZLE
+9.10  CUBE IN BOTTLE; PON
+9.11  CUBE SMASHER; PON
+9.12  UTILITARIAN ITEMS TRADING ON CUBE -  
+9.121 COASTERS - A set of coasters to put glasses on:  Six 3"x3"
+lucite pieces with 9 silk screened squares each colored one of the
+colors of a cube, comes in a lucite holder and is called "Cubics
+Coasters in Six Winning Colors", a quality product from Caryl Craig
+Studios, c 1982, Box 2221 Sepulveda, CA 91343 (I got mine from Greg
+Stevens in 1987)
+9.12.2  PENCILS with I "heart" Rubik's cube printed on them; PON
+9.12.3  SHOELACES in both 27" & 40" lengths made in Taiwan for
+Goodties of LA, CA.  Imprinted with a solution algorithm (Greg Stevens
+has for trade)
+9.12.4  LUNCH BOXES
+9.12.5  BOOK BAGS - I have a red canvas briefcase type bag
+9.12.6  COFFEE CUPS
+9.12.6.1  "IT'S A Mugs GAme",  plain white mug with decals pasted on
+One says " IT'S A Mugs GAme", another is of a mixed cube, and another
+is of a cube at start. Mug made in UK;  CC#3&4, PG11 (I got mine from
+Bandelow in 1988)
+9.12.7  NOTE PADS;  CC#3&4, PG11
+9.12.8  ERaser - I have 1" cube rubber pencil eraser
+9.12.9  Duvet (comforter) cover; Amsterdam; CC# 5&6, pg 5
+9.12.10  Greeting card,  HALLMARK "150B 905-3" bought in 1988;  HAPPY
+BIRTHDAY, SON;  has a picture of a cat in a checkered sweater holding
+a cube like item in one hand with a saying "a little bit of genius".
+9.12.11  Hot plate -  white ceramic tile with a decal pasted on (BR is
+registered mark).  The picture is of a women sitting on a mixed cube
+thinking of how to solve the cube.  The floor is littered with paper
+notes of failed solution attempts.  Tile is german, decal ?  (I got
+mine from Bandelow in 1988)
+9.13  GAMES/TOYS  -
+9.13.1  Jigsaw puzzles
+9.13.1.1  "Cube Twister", BOX COVER a single 9x9x9 cube; PON
+9.13.1.2  "Cube Twister", box cover has many cubes;
+one version has "rubik's cube" as part of box markings other does not
+but it has a disclaimer denying any connection with ITC or Rubik
+9.13.1.3  "RUBIK'S ZIG ZAW PUZZLE" from ITC
+9.13.2  Rubik's Race a board game,  ITC,  CC#3&4, PG 8
+9.13.3  Rubik's Challenge/Mill "GAME" is a tic-tac-toe variant played
+on the surface of a cube, ITC;  CC#3&4, PG 8
+9.13.4  "Color Match" a color card strategy board game marketed by
+ITC, does not use a cube.  Object of game is to match colored squares
+in a 3x3 grid, like doing one side of a cube.
+
+10.  CULTURAL IMPACT
+10.1     MUSIC
+10.1.1  "Mr. Rubik" recorded by the Barron Knights and released by
+Epic as a single EPC A 1596 and on the LP
+10.1.2  "TRICK IN THE MIDDLE" by Bea Muszty and Andras Dobay:  Start
+Records SP5 70537;  CC#3&4, PG 2
+10.1.3  "The Cube" by Mike Brady and the Cubettes, australian, has a
+video clip with dancers;  CC#3&4, PG 2
+10.2    POETRY 
+10.2.1  "A Rubric on Rubik Cubics" by Claude Shannon;  1st mention
+CC#3&4, PG 2 - printed in CC# 7&8, pg 36
+10.3    APPEARANCE IN ADVERTISEMENTS/MOVIES - 
+10.3.1 movies -  MOONSTRUCK
+10.3.2   cartoon strips
+10.3.3  POLITICAL CARTOONS
+10.3.3.1  NY Daily News Sunday magazine section of 2/7/88 cartoon by
+Jeff MacNelly called "I.R.S.  TAX REFORM CUBE",  frustrated looking
+person holding a cube that has IRS type things written on it in place
+of stickers.
+10.3.4  crossword puzzles  
+10.3.5  ARVEY paper & supplies,  3351 West Addison, Chicago, IL 60618
+used pictures of cube in their April 1988 sales flyer whose theme was
+an "AMAZING SALE"                     
+10.4   TV SHOWS ABOUT (Greg Stevens has a tape of 10.4.3-10.4.5 for
+trade)
+10.4.1  BBC TV appearance by Rubik and Nicholas Hammond (a cube
+solver) on Swap-Shop 24 January 81,  CC#1, pg 15
+10.4.2 NBC TV show "That's Incredible" covered the US speed
+championship which took place on 13 November 1981 and was aired on 7
+December 1981.  Minh Thai won with a time of 26.04 seconds.  CC#2, pg
+4
+10.4.3  Interview with Rubik on the TV show "the Rich & Famous"
+10.4.4  Episode ?? of "Night Court" TV show with Bull Shannon playing
+with cube.
+10.4.5  An RC Cola TV commercial that uses a 4x4x4 cube as focus.
+10.5  BOOKS
+10.5.1  a novel entitled "Rubik's Cube" by Leela Dutt, published by
+Gee & Son LTD, Dendigh, Clwyd, Wales, 1984;  CC# 7&8, pg 46
+10.5.2  "THE Berenstain Bears and TOO MUCH TV",  ISBN 0-394-86570,
+RANDOM HOUSE 1984, $1.95;  lesson is that there are things to do
+besides watching TV like solving a cube puzzle,  2 picture plates
+include a cube.
+10.6  jokes
+10.6.1  CUBIC SICK JOKE:  What goes "click-click -  have done it?",  A
+blind man doing Rubik's cube. - Oh No! Not Another 1000 Jokes for
+KIds, Ward Lock, London, 1983, (Michael Kilgarriff ???);  CC# 7&8, pg
+45
+10.7     EDUCATION CURRICULAR
+10.8   NEW WORDS
+10.8.1  CUBITIS MAGIKIA, N.  A severe mental disorder accompanied by
+itching of the fingertips,  which can be relieved only by prolonged
+contact with a multicolored cube originating in Hungary and Japan.
+ Symptoms often last for months.  Highly contagious.   - METAMAGICAL
+THEMAS, ISBN 0-465-04540-5, Douglas Hofstadter, pg 301
+10.8.2  SKEWB, N.  The name given by D Hofstadter to a magic polyhedra
+puzzle invented by Tony Durham.  The puzzle is cube shaped with for
+planes of movement corresponding to the diagnols of the cube.  -
+ METAMAGICAL THEMAS, ISBN 0-465-04540-5, Douglas Hofstadter, pg 341
+10.8.3  TWOBIK
+
+
+
+-->  thanks for any inputs/corrections or general comments.
+
+<pbeck@ardec.arpa>
+

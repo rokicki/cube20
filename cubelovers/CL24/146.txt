@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jan 30 13:08:04 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA13119; Fri, 30 Jan 1998 13:08:03 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Jan 29 05:57:13 1998
+Message-Id: <34D05FEC.B6FE6B14@ibm.net>
+Date: Thu, 29 Jan 1998 02:54:37 -0800
+From: "Jin 'Time Traveler' Kim" <chrono@ibm.net>
+To: Cube-Lovers@ai.mit.edu
+Subject: Rubik's Cube FAQ
+References: <9801281031.ZM27368@neuhelp.corp.sgi.com>
+
+Is there such a thing as a Rubik's-type puzzle FAQ?  There is interest among
+several people who wish to create one (specifically for www.rubiks.com) but if
+there's already another that exists, there's no reason to duplicate effort if
+it's not necessary.  If anybody knows of such a FAQ, please let me know.
+
+--
+Jin "Time Traveler" Kim
+chrono@ibm.net
+VGL Costa Mesa / Puente Hills
+http://www.geocities.com/timessquare/alley/9895
+http://www.slamsite.com
+

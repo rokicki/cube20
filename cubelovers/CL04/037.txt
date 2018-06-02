@@ -1,0 +1,42 @@
+Date: 5 June 1982 01:07-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: 4x4x4 mechanics
+To: CUBE-LOVERS at MIT-MC
+
+I had a small accident the other day.  I dropped Dave Plummer's 4x4x4 cube and
+broke one of the center cubies (sorry about that Dave).  This gave me an
+opportunity to closely examine the insides of the beastie.  I can't possibly
+describe it through the mail (I can barely describe it in person), but there is
+an interesting problem raised by the insides:
+
+Inside of a 4x4x4 cube is a 57th piece.  It is not permanently connected to any
+of the cubies.  (The center cubies are free to slide back and forth in slots
+cut in the center piece.  The rest of the cubies are held in by the centers.)
+It is impossible to determine by examining the outside of a cube exactly what
+orientation the center piece has.  However, it IS deterministic how the center
+piece will move under a certain twist.  When twisting a face, the center piece
+stays fixed with respect to the other 3 layers of the cube.  When doing an
+"equatorial" twist, the center piece can follow only one of the halves of the
+cube (as determined by it's orientation).  (I believe I have just constrained
+things enough so that you can figure out exactly how the thing moves on your
+own.) 
+
+Thus there is an even larger permutation group to the 4x4x4 (beyond the
+supergroup problem where the identities of the center cubies are considered)
+that includes the center piece.  Call this the "hypergroup".  And since the
+center piece has a 3 element symmetry group there is another group beyond that
+("superhypergroup"?) that takes that into account.
+
+Now the first question to consider about the hypergroup is:  Is it really
+larger than the original group or supergroup?  In other words:  When you have
+solved the 4x4x4, does the center piece necessarily return to its original
+position?  How about if you solve the cube in the hypergroup?
+
+A problem with this problem, is that you cannot learn how to manipulate the
+orientation of the center piece without taking your cube apart to look at the
+thing.  (I DON'T recommend that.  My experience with Plummer's cube has taught
+me that those center pieces are fragile.)  
+
+Anybody have any insights into the problem?
+
+				-Alan

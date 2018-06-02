@@ -1,0 +1,33 @@
+From nichael@sover.net  Fri Dec 15 09:30:19 1995
+Return-Path: <nichael@sover.net>
+Received: from maple.sover.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA19435; Fri, 15 Dec 95 09:30:19 EST
+Received: from [204.71.18.82] (st32.bratt.sover.net [204.71.18.82]) by maple.sover.net (8.6.12/8.6.12) with SMTP id JAA02760; Fri, 15 Dec 1995 09:29:57 -0500
+Message-Id: <v02120d04acf726db1fd4@[204.71.18.82]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Fri, 15 Dec 1995 09:37:19 -0400
+To: Andy Kinsman 66672 <kinsman@ycc.kodak.com>, cube-lovers@ai.mit.edu
+From: nichael@sover.net (Nichael Lynn Cramer)
+Subject: Re: Twist Torus [small picture]
+
+At 8:50 AM 15/12/95, Andy Kinsman 66672 wrote:
+>Since I have both the puzzle in hand and a camera attached to
+>my computer... here is a picture of the torus puzzle, slightly
+>missaligned for effect.
+
+Sigh...
+
+Please don't mail stuff like this to a list.  If you want to distribute it,
+fine; I'm sure there are people who are glad to have it.  In that case
+either set up an FTP site or --lacking that-- post an
+announcement/invitation and let those who want things like this send you
+mail and then you can post to them directly.  But the last thing most of us
+need on a dreary friday morning is another 50k bit-bomb in our mailbox.
+
+
+Nichael                          "... and they opened their thesaurus
+nichael@sover.net                      and brought forth gold,
+http://www.sover.net/~nichael        and frankincense and myrrh."
+
+
+

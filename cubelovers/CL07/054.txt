@@ -1,0 +1,160 @@
+From hoey@aic.nrl.navy.mil  Mon May 13 14:46:09 1991
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA10029; Mon, 13 May 91 14:46:09 EDT
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA21231; Mon, 13 May 91 14:43:49 EDT
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Mon, 13 May 91 14:46:06 EDT
+Date: Mon, 13 May 91 14:46:06 EDT
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9105131846.AA12000@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers@ai.mit.edu
+Subject: Very silly ways of building very large cubes (was Re: 5by cubes)
+Organization: Navy Center for Applied Research in AI
+
+Andy Latto <latto@lucid.com> wrote:
+
+>You can't make an order 21 cube, or any cube of order 7 or higher.
+>When you turn the top layer of such a cube by 45 degrees, the corner
+>cubie will not touch the other layers at all, so there's
+>no way to keep it attached, and it will fall off.
+
+Then "Dale I. Newfield" <dn1l+@andrew.cmu.edu> responded:
+
+>There is no law that says that the cubes have to be the same size.
+
+and showed that by making the outer layers thicker, we can increase
+the size of the cube.  There is another way around Andy Latto's con-
+cern, and that is that we can--at least in theory--design a physical
+cube that lets pieces overhang, such as corners that touch only two
+surfaces, and yet still holds the pieces so they cannot be removed.
+
+This idea (which came up in talks with Jim Saxe about a decade ago) is
+to slice up the cube with a fresnel saw.  A fresnel saw is used to cut
+a piece of glass into two fresnel lenses out of pieces of glass, and
+you find them in the same stores that sell plaid paint and jelly-
+doughnut cookie cutters.  (In case you don't know what a fresnel lens
+(pronounced freh-NEL) is, for this note it's sufficient to think of it
+as a surface with small concentric circular grooves in it.  Kind of
+like those old vinyl recordings people used to listen to, except that
+the grooves are circular instead of spiral, and the grooves don't
+wiggle back and forth.)
+
+Now if you have two surfaces with mating grooves--each one has a ridge
+that fits in each of the other's grooves--when you put them together
+you can twist one with respect to the other, but you can't slide one
+across the other, because the grooves are locked together.  There is
+one thing you can do that we don't want: you can lift one slab away
+from the other.
+
+The solution now is to get a *very* *sharp* fresnel saw, that cuts
+hooked grooves that interlock with each other.  You get surfaces with
+cross sections that look somewhat like
+
+                            hook-in surface                    
+       _________       _______________________       _________       
+\     /         \     /           .           \     /         \     /    
+ |   |           |   |            |            |   |           |   |
+ |   |  __       |   |  __        .        __  |   |       __  |   |     
+ |   |    \      |   |    \       |       /    |   |      /    |   |     
+  \   \___/|      \   \___/|      .      |\___/   /      |\___/   /      
+   \       |       \       |      |      |       /       |       /       
+    \_____/         \_____/       .       \_____/         \_____/        
+        _____           _____________________           _____           
+       /     \         /          |          \         /     \          
+      | ___   \       | ___       .       ___ |       /   ___ |
+      |/   \   \      |/   \      |      /   \|      /   /   \|
+       \__  |   |      \__  |   axis    |  __/      |   |  __/
+            |   |           |    of     |           |   |       
+            |   |           | rotation  |           |   |
+___________/     \_________/             \_________/     \_____
+
+                           hook-out surface
+
+except that the surfaces are closer, so the hooked grooves are engaged
+with each other.  (Now we see why we need a fresnel saw, so that we
+can cut the two mating surfaces in one cut, and avoid the problem of
+trying to assemble two separated pieces (though we could get around
+that difficulty messily with glue)).
+
+So we may cut up a 2n+1 x 2n+1 x 2n+1 cube with a fresnel saw, to make
+a large Rubik's cube.  The only really touchy point is the need to
+make the ``direction'' of each cut match the direction of the other
+cuts at that ``depth.''  Here, direction refers to whether the hook-in
+surface faces toward the nearest parallel side or away from that side,
+and ``depth'' refers to the distance from the nearest parallel side.
+This ensures that when we permute cubies around the directions of the
+groove hooks will not change, so the grooves will always mate.
+
+If n is large, then pieces of one slab will overhang at each turn, so
+you can see the grooves on a whole surface of a corner, or on two
+surfaces of an edge piece.  But you can't pull the piece off, because
+it won't move straight with respect to the rest of the cube, only in
+curved trajectories.  We have to keep the fresnelling small with
+ respect to the size of the cubies, and the tolerances are pretty
+tight, but that's the regime we theoretical engineers are working in.
+(I'd like to mention that cubes made with this method also have the
+nice feature that there's a 2n-1 x 2n-1 x 2n-1 Rubik's cube on the
+inside, so you can play with the theoretical invisible group while
+you're at it.)
+
+Now what about cubes of even side?  The fresnel saw cuts two surfaces
+that mate to each other but not to themselves.  How can we get a
+surface that mates to itself?  I think the answer is that we can't.
+But this doesn't mean we are out of luck, as there are several ways of
+fixing up the center cuts of these cubes.  Perhaps easiest way is to
+embed a 2x2x2 cube in the center of the original solid cube, and use
+it to hold the octants together.  Unfortunately, this method requires
+an appeal to the existence of even-sided cubes, rather than teaching
+us how to build them.
+
+The other ways of finessing the center cut involve the thin-center-
+slab approach.  You know you can simulate a 2x2x2 pocket cube with the
+corners of a regular 3x3x3 Rubik's cube, and similarly you can
+simulate any even cube with a larger odd cube.  Also, we can make that
+center slab very thin, so it becomes part of the supporting structure
+rather than a significant part of the cube.  We also remove the cor-
+ners from the center slab, so it does not protrude from the cube.  We
+may even make covers for the cubies slabs adjacent to the center, to
+cover up the crack where the center slab lives.  We are ready to cube!
+
+Or are we?  The thin-center-slab suffers from the partial-twist
+problem.  We can see this in the simulation of the 2x2x2 by a 3x3x3.
+If you try to simply ignore the center slabs, you can end up with the
+corners being aligned with each other but with a center slab twisted
+by 45 degrees.  This makes it impossible to turn the corners except in
+the plane parallel to the oblique slab.  If we shrink the center slab
+enough that it becomes unnoticeable, we will still be unable to twist
+the cube except in one direction except by breaking the center slab.
+
+The first solution to the partial-twist-problem is to select one of
+the eight near-central cubies, a cubie that abuts the center slabs on
+three sides.  We then glue the adjacent parts of the center slabs to
+that cubie.  Then when we turn along the center slice(s), the glued
+part of the thin center slab will follow the selected cubie, and will
+push the rest of the thin center slab along.  This is a modification
+of the solution that is taken inside Rubik's Revenge, as I described
+to this group in my Invisible Revenge article of 9 August 1982.
+
+I like this solution except for one thing.  It destroys the symmetry
+of the cube, by selecting one specialized octant that the center slab
+must follow.  There is one more solution, though, that keeps the cube
+symmetric, which is *even* *sillier* than the thin center slab itself.
+Let us now visualize the center slab.  It has the corners removed, so
+it is in the shape of a disc.  The disc is cut in a grid pattern by
+the cuts from perpendicular planes.  Now suppose we cut each slab in a
+second grid pattern, with the grid at a 45 degree offset from the
+original.  With such a center slab, the cube can be twisted if each
+slab grid is in the correct position, or if some are at a 45 degree
+offset from the correct position.
+
+And how shall we prevent turns of less than a 45 degrees?  Gears!
+Embed tiny gears in each fragment of the center slab, that contact
+tiny toothed tracks in the adjacent slabs on both sides.  This will
+force the center slab to turn at exactly half the angular rate of one
+half of the cube with respect to the other.  Thus when the off-center
+slabs of the cube are aligned, the center slab will be at one of the
+positions that allows twisting.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

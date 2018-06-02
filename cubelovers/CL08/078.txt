@@ -1,0 +1,18 @@
+From dik@cwi.nl  Sun May 24 10:23:12 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA06406; Sun, 24 May 92 10:23:12 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA19523 (5.65b/2.10/CWI-Amsterdam); Sun, 24 May 1992 16:22:55 +0200
+Received: by boring.cwi.nl 
+	id AA07622 (5.65b/2.10/CWI-Amsterdam); Sun, 24 May 1992 16:22:55 +0200
+Date: Sun, 24 May 1992 16:22:55 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205241422.AA07622.dik@boring.cwi.nl>
+To: anneke@fwi.uva.nl, cube-lovers@life.ai.mit.edu, reid@math.berkeley.edu
+Subject: Re:  New upper bound on God's algorithm for Rubik's cube
+
+I retract my earlier message.  There is something definitely wrong!
+(All that idle time wasted...)  I have to reconsider!
+
+dik
+

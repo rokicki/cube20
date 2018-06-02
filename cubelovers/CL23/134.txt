@@ -1,0 +1,60 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 20 21:46:19 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA16469; Wed, 20 Aug 1997 21:46:18 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From tim@mail.htp.com Wed Aug 20 21:13:21 1997
+From: tim@mail.htp.com (Tim Mirabile)
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: 5x5x5 Solution
+Date: Thu, 21 Aug 1997 01:09:43 GMT
+Organization: http://www.webcom.com/timm/
+Message-Id: <33fc8852.2330703@mail.htp.com>
+References: <Resent.199708201632.RAA08938@mail.iol.ie>
+In-Reply-To: <Resent.199708201632.RAA08938@mail.iol.ie>
+
+The method I use is inefficient I'm sure, but I was able to solve the 5x5x5
+right away only learning one specialized move.
+
+First I solve the 3x3x3 centers on all six sides using mostly
+intuitive methods, with an occasional 3x3x3 move (turning the two
+outer slices together on each twist to simulate a 3x3x3) thrown in.  I
+usually work on the "corner centers" first, then the "edge centers",
+just like I would on a 3x3x3.
+
+Then I solve the "outer" corners (holding the three center slices together),
+followed by the "center" edge pieces (holding the two outer slices together)
+also using purely 3x3x3 methods.
+
+Then I work on the "off center" edge pieces using moves like r1 U2 r3 U2
+or l3 U2 l1 U2.  This messes up a row of center pieces but if you do
+it three times total they are restored, and 5 of the off center edges
+are permuted.  I usually improvise by making a twist or two to get the
+edges I want to permute in the right place, followed by reversing
+these afterward.  I also work with the slightly messed up centers at
+times making sure that I restore them later as I permute other sets of
+edges.
+
+Finally I use one 4x4x4 specific move from Mark Longridge's page at
+http://web.idirect.com/~cubeman/revenge.txt which also explains the extended
+notation.  (http://web.idirect.com/~cubeman/ is his main page of course).
+
+The move I use is this:
+
+p3:  Flip UF edge pair:   r2 (D2 l1)^2 D1 l3 r3 d2 l1 r1 D3 l3 r3 d2 B2 r1
+B2 l3 B2 l1 B2 r2
+
+On the 5x5x5, this not only flips (and swaps) the edges, but swaps two
+center pieces.  But if you hold the edges you want to flip at UB
+instead of UF, and do (p3) U2 (p3) U2 (p3), the edges will be flipped
+and the centers restored.  You can also improvise here if you need to
+flip more than one pair - messing up centers with the first flip and
+restoring them with the second.  Since these edges here are swapped as
+well as flipped, you can also use these moves to swap a single pair of
+edges.
+
+--
+Webmaster, tech support - ICD/Your Move Chess & Games: http://www.icdchess.com/
+The opinions of my employers are not necessarily mine, and vice versa.
+

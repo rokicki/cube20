@@ -1,0 +1,37 @@
+From dik@cwi.nl  Tue Jan  7 16:13:50 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA07462; Tue, 7 Jan 92 16:13:50 EST
+Received: by charon.cwi.nl with SMTP; Tue, 7 Jan 1992 22:13:46 +0100
+Received: by boring.cwi.nl ; Tue, 7 Jan 1992 22:13:43 +0100
+Date: Tue, 7 Jan 1992 22:13:43 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9201072113.AA06247@boring.cwi.nl>
+To: cosell@bbn.com, cube-lovers@life.ai.mit.edu
+Subject: Re:  Hungarian Rings solution?
+
+ > Dik.Winter@cwi.nl writes:
+ > } You don't nood commutators for it, cycles are sufficient (because there
+ > } are so many similar colored beads)....
+I have already been chastised that what I described are commutators.  Of course
+they are.  Not only is my thinking bad late at night, but apparently my
+spelling is atrocious :-).
+
+ > As far as I can tell, basically ANY set of ring-turns that has a total
+ > movement of zero seems to define a pretty small cycle.  For example,
+ > the sequence LnA RnA LnC RnC, for n not a multiple of 5[*], does a
+ > three-bead cycle: if you look at the upper intersection:
+ >                         A                     C
+ >    Intersection --->  C      ======>        B
+ >                         B                     A
+ > Where 'A' and 'B' are each n beads away from the intersection [and by
+ > changing theorder of L/R you reverse the cycle, and by interchanging A
+ > and C you move the cycle to the other side of the intersection.
+ > BUT: the problem is that this isn't really a 3-cycle, but rahter _two_
+ > 3-cycles: you also make a central-symmetric move of the beads at the
+ > bottom intersection.
+True.  But if you prefix the move by a (series of moves) that makes the upper
+three of an identical color (and postfix by its inverse), you will not see
+the difference between a true cycle.  At least that is how I always did the
+final part.  (Correctly coloring the two lobes is in fact easy; you better
+start with that.)
+

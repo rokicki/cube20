@@ -1,0 +1,16 @@
+Date: 10 MAR 1981 0556-EST
+From: ACW at MIT-AI (Allan C. Wechsler)
+Subject: edge cubie rotation
+To: korner at UTEXAS-11
+CC: CUBE-LOVERS at MIT-AI
+
+
+My basic triple-edge tool is FFRL'UUR'L.  It rotates three edges that
+all lie in one equator.  Manipulation hint: move that equator instead
+of doing RL' and R'L.
+
+Something like Kim's tool can be obtained by setting up with RL'U and
+finishing with U'LR'. All together: RL'U FF RL' UU R'L U'LR'.
+
+   ---Wechsler
+

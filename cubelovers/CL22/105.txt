@@ -1,0 +1,44 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  2 13:10:15 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id NAA03408; Mon, 2 Jun 1997 13:10:15 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+From: SCHMIDTG@iccgcc.cle.ab.com
+Date: Sun, 1 Jun 1997 22:03:44 -0400 (EDT)
+To: cube-lovers@ai.mit.edu
+Message-Id: <970601220344.2140c63e@iccgcc.cle.ab.com>
+Subject: Re: Searching and Metrics in (Korf 1997)
+
+Dan Hoey wrote:
+
+>The method I suggested for reusing tables for new heuristics should be
+>applicable to any group-theoretic puzzle for which there are
+>symmetries mapping generators to generators.  For instance, the N^2-1
+>puzzles have the 8-fold symmetry D4, and so could have one set of
+>tables used for 16 heuristics.
+>
+>Given the central nature the memory-performance tradeoff plays in the
+>paper, I imagine this is quite relevant to Rich's research.
+
+I suppose it depends upon where one is willing to draw the line with
+respect to so called "weak methods" (i.e. search techniques that don't
+rely on information about the problem domain).  If the methods are specific
+only to group theoretic puzzles, I think they are interesting and useful,
+but somewhat less relevant to advancing the state of the art of weak methods
+as applied to larger classes of problems.  I'm under the impression that
+Rich's research is focused on the latter, as opposed to the goals of the
+typical hard-core cube enthusiast.
+
+By the way, if someone is aware of a paying full-time research position
+focusing only on solving the cube, and related, puzzles, please let me
+know and I'll sign up tomorrow! :)
+
+Having said that, I think the table optimization you described is a very
+clever way to take advantage of symmetries for these types of problems.
+Eventually, I hope that the knowledge gained by this, and related, threads
+can be synthesized into a new algorithm that surpasses all previous cube
+solving program.  Now that would be exciting to cube-lovers!
+
+-- Greg
+
+

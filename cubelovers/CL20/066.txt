@@ -1,0 +1,61 @@
+From:	SMTP%"kristin@tsi-telsys.com" 10-JUN-1996 04:00:41.88
+To:	Norman Richards <orb@cs.utexas.edu>, CUBE-LOVERS@ai.mit.edu
+CC:	
+Subj:	Methods (Re: Speed cubing)
+
+At 3:09 PM 6/7/96, Norman Richards wrote:
+> Here is a quick overview of my solution:
+>
+> 1. do the top face. 4 corners then any 3 edges. (intuitive)
+> 2. align bottom corner pieces. (pattern)
+> 3. rotate bottom corner pieces so the correct color is showing (pattern)
+> 4. place the remaining 4 bottom edges and the missing top edge (intuitive)
+> 5. put the 4 middle edge pieces in the correct positions (intuitive)
+> 6. rotate edge pieces as needed (pattern)
+
+my method:
+
+1. do top corners. I always start with white. (intuitive)
+2. do bottom corners.
+        2a. bring bottom corner color onto bottom face (one of 2 patterns)
+        2b. orient bottom corners with each other (one of 2 patterns)
+3. fill in all but one edge on top and bottom (intuitive)
+4. fill in last edge (pattern)
+5. solve middle ring of edges (usually 2 patterns)
+
+The only person I have ever met used this same method was Minh,
+the winner of the first U.S. championship. The only differences between
+our methods was that he had more patterns memorized for step 5. I
+typically do one pattern, which gets me close, and then finish it up
+with one more pattern - where Minh could look at that last ring and
+instantly know a pattern that would bring the cube into it's final
+solved state. His hands were also a lot faster than mine.
+
+The beauty of this method is that there is very little to memorize -
+and although it doesn't give me very many 20 second times, it's
+always well under a minute. In both steps 2a and 2b, one of the
+two pattern options comes up more than 90% of the time - and
+you can just do that pattern twice if you want, so you really only
+have to know one pattern if you are willing to loose a few seconds
+10% of the time. Since the pattern in step 4 is one of the patterns
+in step 5, my solution can get you a solved cube reasonably quickly
+with only 4 memorized patterns. And with a bit more memorization
+it can begin to screeeeeem. For some reason I haven't really had much
+need for speed solving these days - under a minute is just fine to keep
+up my reputation.
+
+-K.
+
+
+
+Strange, I always staer with WHITE aswell!!
+
+Anyway, I`ll try that way but I always
+
+1.  Position and orient all white corners and pieces
+2.  Position and orient bottom corners.
+3.  Position and orient remaing bottom and middle slice pieces.
+
+
+
+

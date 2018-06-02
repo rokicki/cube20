@@ -1,0 +1,52 @@
+From hoey@aic.nrl.navy.mil  Fri Oct 28 11:38:16 1994
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29189; Fri, 28 Oct 94 11:38:16 EDT
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA17190; Fri, 28 Oct 94 11:38:15 EDT
+Date: Fri, 28 Oct 94 11:38:15 EDT
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9410281538.AA17190@Sun0.AIC.NRL.Navy.Mil>
+To: "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Cc: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+Subject: Cube colors and face names
+Keywords: Rubiksong, Varga, Colors, Humor
+
+> Singmaster designates the faces as Up, Down, Right, Left, Front, and
+> Back.  The names are chosen so that no two of the faces start with
+> the same letter.  There have been some latter day efforts to rename
+> Up as Top so that all the faces have names beginning with
+> consonants.
+
+Yes, this is the main reason for using Top, because of the Rubiksong
+introduced by Varga that I described (unfortunately with many typos)
+on 22 Feb 90 (<ftp:://ftp.ai.mit.edu/pub/cube-lovers/cube-mail-6.gz>
+is a URL that I hope works--anyone who is actually able to point and
+click on this, please let me know).
+
+But there's another reason.  Remember the annoying feature that the
+color assignments to faces were never standardized?  The first cube I
+bought had red opposite yellow, blue opposite white, and orange
+opposite green (I think).  Even though in later days most cubes are
+manufactured with opposite faces ``differing by yellow''--red opposite
+orange, blue opposite green, and yellow opposite white--there does not
+seem to be a standard for the handedness of the coloring.  This has
+long been a problem on cube-lovers, where everyone starts out asking
+``I've got my cube solved except a blue sticker on the white face, a
+white sticker on the green face, and a green sticker on the blue
+face,'' and the puzzle becomes trying to figure out where those faces
+are.  (This was fixed in Square 1, where they printed a full-color
+instruction book coordinated with the puzzle).
+
+My modest proposal is to define the Standard Earth-Tone Cube, which
+has the faces in standard and easily remembered places.  The colors
+are taupe, dun, fawn, beige, loam, and roan.  This supports the use of
+Top over Up, because ``taupe'' is so much more evocative than
+``umber''.  ``Dun'' is also a major win, and I wish I had better names
+for the other faces.
+
+I have yet not tried painting such a cube, because I can't figure out
+which color is which.
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

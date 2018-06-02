@@ -1,0 +1,37 @@
+From dik@cwi.nl  Sun May 17 21:03:44 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA19309; Sun, 17 May 92 21:03:44 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA06061 (5.65b/2.10/CWI-Amsterdam); Mon, 18 May 1992 03:03:35 +0200
+Received: by boring.cwi.nl 
+	id AA23353 (5.65b/2.10/CWI-Amsterdam); Mon, 18 May 1992 03:03:34 +0200
+Date: Mon, 18 May 1992 03:03:34 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205180103.AA23353.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu, keng@zcar.asd.sgi.com
+Subject: My program is too fast ;-).
+
+I have posted a bit on my version of Kociemba's program, and I can only
+conclude that my program is too fast.  After doing the superfliptwist,
+the superflip and the supertwist I thought about trying those configurations
+where Singmaster's notes did not give a solution better than 21 moves.
+I find now that it takes more time to enter the configurations than what
+the program needs to solve it!  Upto now I found the following (I will not
+give the exact moves, as I think Kociemba wants to publish a bit more about
+this):
+superflip:	20 moves
+supertwist:	16 moves
+superfliptwist:	20 moves
+Walker's 6+:	17 moves (was 22)
+Walker's 6X:	19 moves (was 25)
+Walker's worm:	14 moves (was 23)
+
+Initialization time for the program is 2.5 minutes.  But it finds solutions
+after only a few seconds!  If you have a configuration that you think is at
+a large distance from start, mail it and I will disprove it ;-).
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+

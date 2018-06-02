@@ -1,0 +1,22 @@
+From diamond@jit081.enet.dec.com  Wed Jul 28 20:13:19 1993
+Return-Path: <diamond@jit081.enet.dec.com>
+Received: from enet-gw.pa.dec.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01523; Wed, 28 Jul 93 20:13:19 EDT
+Received: by enet-gw.pa.dec.com; id AA04792; Wed, 28 Jul 93 17:13:17 -0700
+Message-Id: <9307290013.AA04792@enet-gw.pa.dec.com>
+Received: from jit081.enet; by decwrl.enet; Wed, 28 Jul 93 17:13:18 PDT
+Date: Wed, 28 Jul 93 17:13:18 PDT
+From: 29-Jul-1993 0914 <diamond@jit081.enet.dec.com>
+To: cube-lovers@life.ai.mit.edu
+Apparently-To: cube-lovers@life.ai.mit.edu
+Subject: Re: Hint wanted for 4x4x4
+
+Ronnie B. Kon asked for a hint but not a solution.  So here is a hint.
+
+If I understood correctly your descriptions of two transforms which you
+asserted to be equivalent, then in fact they are not equivalent.
+(Of course, if I didn't understand your descriptions correctly, then
+this isn't a hint.)
+
+-- Norman Diamond      diamond@jit081.enet.dec.com
+[Digital did not write this.]
+

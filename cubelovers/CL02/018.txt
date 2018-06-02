@@ -1,0 +1,16 @@
+Date: 29 JAN 1981 0344-EST
+From: BSG at MIT-AI (Bernard S. Greenberg)
+Mailed-by: BSG @ MIT-Multics
+Subject:  Lisp Machine Cubesys Improvements
+To: CUBE-LOVERS at MIT-MC
+
+
+Largely due to the newfound coincidence of relentless Lisp Machine
+hacking with my job, I have added a slew of features to Lisp Machine
+Cubesys, viz., all kinds of New Window System and flavor hacking.  It is
+now completely mouse-oriented, all moves are made by mousing menu items,
+OR by mousing at cube-sides on the display (either display) to turn
+faces, left mouse button for left (ccw) turn, etc.!  To find out more
+about it, load it in the usual way, (load "bsg;cubpkg >"), invoke it
+in the usual way ((cube)), and type the HELP key (or mouse the HELP
+menu item). Have fun, -bsg

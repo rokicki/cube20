@@ -1,0 +1,93 @@
+From alan@curry.epilogue.com  Mon Oct 31 16:31:07 1994
+Return-Path: <alan@curry.epilogue.com>
+Received: from curry.epilogue.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AB14288; Mon, 31 Oct 94 16:31:07 EST
+Received: (from alan@localhost) by curry.epilogue.com (8.6.8/8.6.6) id QAA11987; Mon, 31 Oct 1994 16:34:39 -0500
+Date: Mon, 31 Oct 1994 16:34:39 -0500
+Message-Id: <31Oct1994.155118.Alan@LCS.MIT.EDU>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+To: brett@math.toronto.edu, cube-lovers@ai.mit.edu
+In-Reply-To: Brett Stevens's message of Mon, 31 Oct 1994 14:35:34 -0500 (EST) <9410311936.AA07023@life.ai.mit.edu>
+Subject: Administrivia
+
+   Date: Mon, 31 Oct 1994 14:35:34 -0500 (EST)
+   From: Brett Stevens <brett@math.toronto.edu>
+   I joined this list in the middle of an ongoing discussion
+   on shift invariance.  can someone fill me in with the important
+   definitions and what has already been discussed  (if it is not 
+   too much work)
+
+This is what the archives are for!
+
+Some of you old-timers may have forgotten where the archives are, and it's
+been a while (several years) since I reminded everybody about the existence
+of Cube-Lovers-Request, so I have included the standard greeting message I
+send to all new subscribers below.
+
+Some quick administrative observations while I have your attention:
+
+Today are 151 entries on the main mailing list.  Some of those entries are
+local redistribution lists.  I estimate there are about 160 of us.
+
+We celebrated our 14 birthday last July.  I'd bet we are among the top ten
+oldest active mailing lists on the Internet.
+
+I periodically get requests for FTP archives of cube-related material other
+than our mailing list archives (simulators and other programs, tables of
+results, catalogs of merchandise, etc.)  I am not aware of any such
+centralized collection of Cubist stuff.  If someone knows of such a
+collection, or would like to organize one, or simply has a list of cube
+related resources on the network, I'd like to hear from them.
+
+My policy on advertising: Since Cube-Lovers is an unmoderated mailing list,
+I really have no control over what is sent here, but I do complain to
+people who send advertising that isn't obviously Cube related.  And I
+reserve the right to start complaining about -all- advertising should it
+ever get out of hand.
+
+------- Begin Greeting Message -------
+
+Our addresses are Cube-Lovers@AI.MIT.EDU for submissions and
+Cube-Lovers-Request@AI.MIT.EDU for administrivia.
+
+Please note that Cube-Lovers-Request is processed by a human being, not a
+computer program (such as LISTSERV or Majordomo).  If your request is not
+instantly processed, it is because I don't spend my entire life reading my
+electronic mail.  I do know how to interpret many of the commands typically
+sent to such programs, but I would prefer it if instead you can remember to
+address me in complete sentences.
+
+If you are interested in the archives of the Cube-Lovers mailing list:
+
+Using FTP, connect to FTP.AI.MIT.EDU, login as "anonymous" (any password),
+and in the directory "pub/cube-lovers" you will find the thirteen (compressed)
+files "cube-mail-0.gz" through "cube-mail-12.gz".
+
+Archive vital statistics (when uncompressed):
+
+	   File		   From		   To	     Size (bytes)
+	   ----		   ----		   --	     ------------
+	cube-mail-0	12 Jul 80	23 Oct 80	185037
+	cube-mail-1	 3 Nov 80	 9 Jan 81	135719
+	cube-mail-2	10 Jan 81	 3 Aug 81	138566
+	cube-mail-3	 3 Aug 81	 3 May 82	137753
+	cube-mail-4	 4 May 81	11 Dec 82	139660
+	cube-mail-5	11 Dec 82	 6 Jan 87	173364
+	cube-mail-6	10 Jan 87	13 Apr 90	216733
+	cube-mail-7	12 Oct 90	 9 Sep 91	137508
+	cube-mail-8	 1 Nov 91	25 May 92	171205
+	cube-mail-9	28 May 92	 7 Jan 93	155755
+	cube-mail-10	20 Mar 93	 6 Dec 93	171881
+	cube-mail-11	 6 Dec 93	18 Feb 94	349772
+	cube-mail-12	24 Feb 94	 5 Sep 94	181193
+
+In addition, the file "recent-mail" contains a copy of the currently active
+section of the archive.  (Unfortunately, due to the way mail works here at
+the AI Lab, it is not possible to have new mail accumulate directly into
+this file, so there may be some delay before a new message arrives here.)
+Finally, the file "README" contains the information you are currently reading.
+
+				- Alan
+
+------- End Greeting Message -------
+

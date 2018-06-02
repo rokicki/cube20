@@ -1,0 +1,48 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jul 31 17:38:54 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id RAA22750; Thu, 31 Jul 1997 17:38:53 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From ponder@austin.ibm.com Thu Jul 31 16:55:58 1997
+Date: Thu, 31 Jul 1997 15:52:23 -0500
+From: ponder@austin.ibm.com (Ponder)
+Message-Id: <9707312052.AA16660@roosevelt.austin.ibm.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Rubik's octahedron's etc.
+Cc: ponder@austin.ibm.com
+
+
+I have a Rubik's Cube and a Megaminx Dodecahedron. There
+are some tetrahedral puzzles available but they do not
+correspond precisely to the Rubik's cube, in that they do
+not have well-defined center pieces and the corners are
+freely rotating. As far as I can tell, nobody has an octa-
+hedron or an icosahedron that works on these principles
+either.
+
+Its hard to expect the puzzle companies to come out with
+anything like these since they're in it for a profit. I
+heard that Meffert's company closed down before they could
+produce most of the puzzles they intended. Does anyone
+have designs for puzzles like these that could be built in
+a machine-shop? (Preferably that you've already patented,
+to eliminate any legal concerns!!). I imagine I could try
+to hack something together, but it would take an awful lot
+of trial-and-error especially since some internal designs
+would hold together better than others.
+
+I'm publishing a paper in the Journal of Recreational
+Mathematics on solving these other puzzles, but it would
+be real nice to have demo models, even if it takes some
+work. The Octahedron is particularly interesting because
+it forbids edge-flips and it would be more convincing if
+I do more than show it on paper.
+
+Thanks,
+
+	Carl Ponder
+	ponder@austin.ibm.com
+
+
+

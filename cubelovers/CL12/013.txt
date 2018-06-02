@@ -1,0 +1,53 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Sun Apr 10 23:27:13 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25591; Sun, 10 Apr 94 23:27:13 EDT
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <89406(1)>; Sun, 10 Apr 1994 23:26:36 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA12271; Sun, 10 Apr 94 23:25:00 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 19A24A; Sun, 10 Apr 94 21:41:28 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: More Shifting
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.739.5834.0C19A24A@canrem.com>
+Date: Sun, 10 Apr 1994 17:39:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+More Notes on Invariant Shifting
+--------------------------------
+
+Let us define a process as "Shift Invariant" if it results in the same
+displacement even after a series of left or right shifts. That is,
+from a process of length N we can generate N-1 processes which
+result in the same displacement by shifting the process. Sometimes
+the processes generated are not all unique!
+
+e.g. P8   2 x ORDER 2: (symmetry level 3)
+     D2 F2 T2 F2 B2 T2 F2 T2
+  (8)
+
+Q: Is this the longest such process?
+
+A: No.
+
+The following processes are also shift invariant:
+
+2 Swap                   D2 R2 D2 R2 D2 R2 (6)
+(symmetry level 12, SI level 2)
+
+p21  2 H                 L2 R2 B2 L2 R2 F2 (6)
+(symmetry level 6, SI level 6)
+
+Amazingly, the process p3 (found using Dik Winter's program) is actually
+a series of 20 processes which all result in the same displacement!
+
+p3   12 flip             R1 L1 D2 B3 L2 F2 R2 U3 D1 R3 D2 F3 B3 D3 F2 D3
+                            R2 U3 F2 D3 (20)
+(symmetry level 1, SI level 20)
+
+Since p3 is shift invariant, we can easily shift the 3 consecutive half
+turns to the beginning without fear of altering the end result:
+  L2 F2 R2 U3 D1 R3 D2 F3 B3 D3 F2 D3 + R2 U3 F2 D3 R1 L1 D2 B3
+

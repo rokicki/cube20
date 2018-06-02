@@ -1,0 +1,25 @@
+Date: 10 Aug 1980 1709-PDT
+From: Davis at OFFICE-3
+Subject: A solution subroutine
+To:   cube-lovers at MIT-MC
+
+Someone in an earlier message suggested that it might be a good idea
+to keep a list of various interesting move combinations.  My
+particular set of algorithms for solving the cube includes one which
+flips two side cubies in place, and leaves all the others fixed.  The
+method I had been using to do this up until now was 26 twists long,
+and I think that it was fairly standard -- find a set of moves which
+flips one edge in place and randomizes the rest of the faces, then move
+another side into the same position and invert it.  Others that I
+talked to since then have indicated that they used the same method.
+
+Anyway, today I found a 22 quarter-twist version which does the same thing.
+I would be interested if anyone has found shorter ones; I am also
+interested in seeing the various other primitive transformations that
+others use to solve the cube.  Using the FBUDRL notation, here is my
+sequence:
+
+   (F'U')^3(FU)^2L'U'LR'FFL'RU'LFF
+
+  -- Tom Davis
+-------

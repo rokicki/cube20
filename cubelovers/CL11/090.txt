@@ -1,0 +1,48 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Sat Jan  8 18:47:56 1994
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA13806; Sat, 8 Jan 94 18:47:56 EST
+Message-Id: <9401082347.AA13806@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 5459; Sat, 08 Jan 94 15:13:25 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 3153; Sat, 8 Jan 1994 15:13:25 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 8475; Sat, 8 Jan 1994 15:10:53 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Sat, 8 Jan 1994 15:10:52 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Calculating |G\M| (Three Typos)
+
+I have found three typos in my article from this morning.  Two are
+trivial, and I would not have bothered to report them.  One of them
+is fundamental, and I feel obliged to report a correction.
+
+
+>for all X in GC[m]\B and all GE[n]\B.  For a while I thought it was
+                      and for all Y in GE[n]\B
+
+
+
+>We can now say that GC\B is partitioned into GC[1]\B, GC[2]\B, ...
+>through GC\B[10] and similarly for GE\B.  Unfortunately, using
+         GC[10]\B
+
+
+
+
+>   For a fixed m and n, |BClass(X)[m] * BClass(Y)[n]| is constant
+                         |(BClass(X)[m] * BClass(Y)[n])\M|
+>   for all X in GC[m]\B and all Y in GE\[n]\B, where GC[m] is
+>   the set of all X in GC such that CSind(X)=m and GE[n] is the set
+>   of all Y in GE such that CSind(Y)=n.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

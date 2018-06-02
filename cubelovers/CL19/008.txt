@@ -1,0 +1,40 @@
+From JBRYAN@pstcc.cc.tn.us  Tue Feb  6 12:24:07 1996
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from PSTCC4.PSTCC.CC.TN.US by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02724; Tue, 6 Feb 96 12:24:07 EST
+Resent-From: JBRYAN@pstcc.cc.tn.us
+Resent-Message-Id: <9602061724.AA02724@life.ai.mit.edu>
+Received: from pstcc.cc.tn.us by pstcc.cc.tn.us (PMDF V5.0-3 #11457)
+ id <01I0W5NR906Y8WWAHI@pstcc.cc.tn.us>; Tue, 06 Feb 1996 12:25:57 -0400 (EDT)
+Resent-Date: Tue, 06 Feb 1996 12:25:57 -0400 (EDT)
+Date: Tue, 06 Feb 1996 12:25:56 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Group/graph status?
+In-Reply-To: <199602052319.AA10033@leibniz.cs.arizona.edu>
+Sender: JBRYAN@pstcc.cc.tn.us
+To: Richard Schroeppel <rcs@cs.arizona.edu>
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <Pine.PMDF.3.91.960206122214.538983702F-100000@pstcc.cc.tn.us>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+On Mon, 5 Feb 1996, Richard Schroeppel wrote:
+
+> Has anyone tabulated the number of positions are reachable (from the
+> initial cube) in one move, two moves, etc.?  Is the diameter of the
+> graph known?
+
+In the quarter turn metric, the number of positions has been tabulated 
+out to eleven moves from Start.  The diameter of the graph is known to be 
+at least 24 quarter turns because there is one position whose length has 
+been verified to be 24q.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+

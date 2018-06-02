@@ -1,0 +1,10 @@
+Date:  5 December 1980 21:15 est
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re:  Re: That 28 move Plummer Cross
+To:  Dave Dyer <DDYER at USC-ISIb>
+cc:  cube-lovers at MIT-MC
+In-Reply-To:  Message of 5 December 1980 19:24 est from Dave Dyer
+
+No.  It is DEFINITIONALLY a local maximum, because any move moves it
+"closer". DCP was asserting its candidacy for the "ultimate" maximum, if
+not its fact.

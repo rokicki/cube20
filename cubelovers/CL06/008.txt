@@ -1,0 +1,106 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 19 Feb 87 08:36:06 EST
+Date: 19 Feb 87 08:18:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: magic construction
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+
+
+
+RE: CONSTRUCTION
+
+Since I have suggested that people might want to take their MAGICs apart I have
+prepared the following directions.  I would appreciate comments as to their
+clarity and completeness.  
+
+...................................
+For those of you who would like to take MAGIC apart and then put it back
+together here are some hints.  First get out your tools, a heavy duty paper clip
+or a nut pick will do (black electrical tape is helpful for keeping the strings
+in place when putting it back together) and then pull the string over the corner
+of a square (strings do break, the weak point is the crimp so minimize the
+pulling and stretching you do by the crimp also when you reassemble put the
+crimp in the middle of a long channel).  Keep doing this until the puzzle is
+completely disassembled. 
+
+If you failed to take notes you may have missed the following.  The loops of
+string (they are actually nylon fishline and they are redundant, ie, each path
+is taken by two strings, with 16 strings in all) are threaded through the
+channels, one set of strings takes the long path on the front face and the other
+set of strings takes the short path on the front face (the opposite is true on
+the back face OR adjacent square) with both sets of strings going in the same
+direction on the same face.    Thus the strings on the front faces are
+perpendicular to those on the back face of the same square.   NOTE:  The strings
+are not really redundant.  They are placed to maximize lateral stability (twist
+of the squares).  This is done by having the strings (there are two) of a given
+channel routing form the same sandwiching order where they cross over to the
+next square.  The string that uses the long channel and the string that uses the
+short channel cross at separarte points.  Each string criss crosses itself at
+this point (making 4 string segments at the cross over point) with one part of
+itself in the NE channel and its other part in the NW channel.  The stability is
+gained by having the NE going string sandwiched between the NW going string (or
+vice versa) for both crossover points, ie , sets of strings.   Both patterns
+shown below are used on the same set of three squares (THIS UNIT IS CALLED A
+TRIPLET.).  
+
+               string #1 in                    string #2 in
+        SHORT channel ON TOP       LONG channel ON TOP 
+             for squares 1&3              for squares 1&3
+               ---- ---- ----             ---- ----  ----
+              |/ \  |   / \|/ \   |            |   / \|/ \   |   / \|   TRIPLET
+HAS BOTH
+              |\  \ | /   /|\   \ |   AND   | /   /|\  \  | /   /|   STRING
+PATTERNS
+              | \  \|/   / |  \  \|            |/   / |  \  \|/   / |
+              |  \ /|\ /   |   \ /|            |\ /   |   \ /|\ /   |
+               ---- ---- ----             ---- ----  ----
+
+After having made two triplets there will be two squares free.  They are used to
+join the triplets.  Place one of this extra squares between the two triplets,
+ie, where the "AND" is in the diagram above and thread the strings through the
+channels as if this square was the middle square of a triplet (REMEMBER THAT the
+STRINGS GO ONLY ONE WAY ON each face OF A SQUARE).  THEREFORE, THE ENDS OF THE
+PREVIOUSLY MADE TRIPLETS WILL BE THE ENDS OF THIS NEW TRIPLET ALSO.  THIS WILL
+CAUSE THESE ENDS TO HAVE TWICE AS MANY STRINGS AS THE MIDDLE SQUARES OF THE
+TRIPLETS AND IN FACT IF YOU LOOK AT MAGIC YOU WILL SEE THAT THE NUMBER OF
+STRINGS IN THE CHANNELS ALTERNATES FROM SINGLE DENSITY TO DOUBLE DENSITY, ie,
+either 2 or 4.
+
+
+
+CUSTOMIZATION OF MAGIC
+
+In the disassembly process an easy thing to do is to break the circularity of
+the puzzle by removing one square, leaving a chain of seven squares.  This can
+be done by lifting the strings off a single density square.  The square will
+come out but its strings will stil be entangled with the puzzle.  You will now
+have to temporarily lift strings off the adjacent squares to disentangle them. 
+This can be done easily.  You now have a chain of seven squares.  Each hinge can
+be manipulated without the constraint of being connected as a loop. A basic
+hinge between two squares has the following motions:
+NOTE:  The flipping of the pieces changes the direction of the squares as shown
+by the arrows.
+
+       POSITION  1                  folded  A            folded  B
+________  _______          _________         _________
+sq 1 TOP      sq 2 top           sq 1 on bot          sq 2 on bot
+  >>>>>>          >>>>>>             sq 2 on top          sq 1 on top
+________  _______          _________         _________
+
+
+      POSITION  2       >>>>>       A unfolded          B unfolded
+                                              ________          _________
+                                               SQ 1 TOP             SQ 2 TOP
+                                                <<<<<<<<               <<<<<<<
+                                               ________          _________
+                                               ________          _________
+                                                SQ 2 TOP             SQ 1 TOP
+                                                  >>>>>>>                >>>>>>>
+                                               ________          _________
+
+The robustness of this hinge permits the making of all possible planar patterns
+that has each square butting up to the edge of another square.
+
+
+<beck@ardec-lcss>
+------

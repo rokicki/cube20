@@ -1,0 +1,21 @@
+Received: from REAGAN.AI.MIT.EDU (CHAOS 13065) by AI.AI.MIT.EDU 18 Aug 89 12:55:36 EDT
+Received: from XN.LL.MIT.EDU (INTERNET|129.55.1.1) by REAGAN.AI.MIT.EDU via INTERNET with SMTP id 251335; 18 Aug 89 12:55:18 EDT
+Received:  by XN.LL.MIT.EDU; Fri, 18 Aug 89 12:21:29 EDT
+Date: Fri, 18 Aug 89 12:21:29 EDT
+From: rp@XN.LL.MIT.EDU (Richard Pavelle)
+Posted-Date: Fri, 18 Aug 89 12:21:29 EDT
+Message-Id: <8908181621.AA18188@XN.LL.MIT.EDU>
+To: cube-lovers@ai.ai.mit.edu
+Subject: the 3x3
+
+I took some time off this week and began playing with the cube to
+teach one of my kids how to solve it. I had not tried for perhaps 5
+years. To my surprise I had forgotten a few transformations while
+recalling a few which are "equally difficult". It took about 10 hours
+to get back to the stage where I can solve it in about 3 minutes
+except for the flip of two opposite edges. I recall that we discussed,
+in this forum, a nice procedure for this move many years ago and I
+wonder whether anyone recalls it.
+
+Also, to what extent have others shared my experience of forgetting
+moves?

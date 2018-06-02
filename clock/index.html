@@ -1,0 +1,117 @@
+<html><head><title>Rubik's Clock</title></head>
+<body>
+<h1>
+Rubik's Clock has now been solved!
+</h1>
+Inspired by the optimal solvers written by a number of people,
+and Jakob Kogler's surprising proof of God's Number (12),
+I decided see how well a "coset solver" would work on this problem.
+It turns out, surprisingly well!
+<p>
+The Rubik's Clock has 12^14 or 1,283,918,464,548,864 positions.
+Even if we solve a million positions a second, we'd need more than
+41 years to evaluate them all.  Luckily, we can both reduce the
+number of positions to individually consider using symmetry, and
+we can solve them much faster than that.  In total it took about
+three days on a couple of desktops to calculate the following
+distance distribution:
+<pre>
+ 0                     1
+ 1                   330
+ 2                51,651
+ 3             4,947,912
+ 4           317,141,342
+ 5        14,054,473,232
+ 6       428,862,722,294
+ 7     8,621,633,953,202
+ 8   101,600,180,118,726
+ 9   528,107,928,328,516
+10   613,251,601,892,918
+11    31,893,880,879,492
+12                39,248
+-- ---------------------
+   1,283,918,464,548,864
+</pre>
+No wonder distance-12 positions were so hard to find!
+<p>
+The subgroup we used held the front cross fixed, but permitted all
+possible movements of the back cross and corner clocks; this subgroup
+has size 12^9 or 5,159,780,352.  By Langrange's theorem, this
+means there were 12^14/12^9 or 12^5 (248,832) cosets to consider.
+This is precisely the number of positions of the front cross.
+Each coset, defined by one position of the front cross, consists of
+the set of all possible positions of the corners and back cross.
+Our coset solver will optimally solve all five billion positions in
+one execution.
+<p>
+But a quarter-million cosets is a lot.
+An equivalence relation can be defined between different front cross
+positions based on symmetry and modular arithmetic.  From symmetry,
+we know that we can relate a position with its left-right mirror image;
+the distance distribution of the coset for a particular front cross
+position is identical to that of its mirror image.  Similarly, we can
+take 90 degree rotations of the entire clock into account.  Finally,
+there is an isomorphism between positions when you multiply each clock
+by any integer relatively prime to the number of hours, this gives
+another potential reduction.  When only considering the front cross,
+this means for a particular front cross position, there can be up
+to 31 other positions that are equivalent (in terms of their distance
+distribution in the coset due to a 1:1 mapping among elements of the
+two cosets).  It's a fairly trivial Perl program to compute
+representative front cross elements for each of these equivalence
+classes, and there turns out to be exactly 9,906 of these.  So
+instead of solving 248,832 unique cosets, we only need solve 9,906.
+<p>
+Unlike most twisty puzzles, the moves on the clock commute; they
+can be executed in any order.  Another way to say this is that the
+group is Abelian.  This makes solving the puzzle, and analysis of
+the group, much easier.  For the Rubik's clocks, moves can be
+partitioned into two sets---those that affect the front cross, and
+those that affect the back cross.  In our case, our coset solver
+considers all possible ways to solve the front cross, with respect
+to the impact on the corner clocks, completely ignoring any moves that
+affect the back clocks.  For a given coset (defined by a particular
+front cross position), this generates a set of distances for all
+positions with a solved front cross, and a particular setting of the
+corner clocks.  There are only 12^4 or 20,736 possible corner
+settings so a depth-first or breadth-first search guided by a 
+cross-solving pruning table can quickly enumerate all of these.
+Our coset solver uses iterated depth-first search.
+<p>
+Once we have distances for all permutations of the corners with a
+solved front cross (and no impact on the back cross), we can then
+consider only moves that affect the back cross, to enumerate all
+optimal solutions to positions in the coset.  Again, since the
+group is Abelian, we only need consider each move once, scanning
+the distance table (with five billion entries) and extending it
+based on executions of that move.  Once we've done this for all
+moves, our distance table is complete and ready to sum.
+<p>
+Some tricky bit hacks can be used to handle the inner loop of
+the table extension.  The source code I used is
+<a href="clockcoset11.cpp">here</a> for your perusal; I plan to
+document it as a literate program soon.  In sum, the program took
+less than three minutes a coset to run, using one core; I was
+able to run one of these programs on each core over the 9,906
+cosets and sum the results to get the table above.
+<p>
+But how do we know the program is free of bugs?  To help test
+the program, I made it general enough to work for any value of
+hours (the number of positions of each clock) from 2 to 12.  I
+then explored the Rubik's Clock state space for all of these
+sizes using this coset program, and also wrote simpler, slower
+programs that enumerated the state space using other methods.
+I was able to exhaustively verify the full distances for sizes
+2 and 3, and was able to confirm the lower distance values for
+the remaining sizes.  In addition, I used the OptClock program
+to validate that the distance-12 positions found actually take
+12 moves to solve.
+<p>
+The 39,248 distance-12 positions are given
+<a href="dist12.txt">here</a>; they are all in OptClock format,
+which gives the clock settings of the front, row by row,
+followed by the clock settings of the back cross only, row by
+row.  Surprisingly, there are distance-12 positions with as
+many as six clocks already solved; there are distance-12 positions
+with only four distict values on the clocks.
+</body>

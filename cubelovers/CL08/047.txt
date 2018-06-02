@@ -1,0 +1,41 @@
+From Don.Woods@eng.sun.com  Sun Apr 19 02:58:44 1992
+Return-Path: <Don.Woods@eng.sun.com>
+Received: from Sun.COM by life.ai.mit.edu (4.1/AI-4.10) id AA28800; Sun, 19 Apr 92 02:58:44 EDT
+Received: from Eng.Sun.COM (zigzag-bb.Corp.Sun.COM) by Sun.COM (4.1/SMI-4.1)
+	id AA25155; Sat, 18 Apr 92 23:58:35 PDT
+Received: from colossal.Eng.Sun.COM by Eng.Sun.COM (4.1/SMI-4.1)
+	id AA23499; Sat, 18 Apr 92 23:58:43 PDT
+Received: by colossal.Eng.Sun.COM (4.1/SMI-4.1)
+	id AA04381; Sat, 18 Apr 92 23:58:42 PDT
+Date: Sat, 18 Apr 92 23:58:42 PDT
+From: Don.Woods@eng.sun.com (Don Woods)
+Message-Id: <9204190658.AA04381@colossal.Eng.Sun.COM>
+To: ccw@eql.caltech.edu, cube-lovers@ai.mit.edu, pl1x+@andrew.cmu.edu
+Subject: Re: Some solutions to Rubik's Tangle have been found.
+
+> From: Peter Andrew Lopez <pl1x+@andrew.cmu.edu>
+> I love cubes
+> But i'll never admit it!
+> cube-annonymous
+
+In addition to being self-contradicting (and misspelled), the above seems
+to have nothing to do with the subject of Rubik's Tangle.
+
+Lest this message suffer the same flaw, I'll add that I too was unable to
+come up with any mathematical or intuitive method for solving the Tangle.
+I solved mine by computer.  (I've always been fairly good at finding ways
+to prune a bushy search tree down to manageable size.)  I have Tangle #1
+and can confirm it has exactly two solutions (ignoring overall rotations
+of the 5x5 array, of course).
+
+I haven't had a chance to examine closely the other Tangles.  How do they
+differ from #1?  Do they use a different pattern of connectivity on the
+tiles?  Do they have a different mix of the permutations?  (#1 has each
+4-color permutation exactly once, except for one permutation which appears
+twice.)  I hope they do not simply permute the colors relative to #1; that
+would be dull since they would then be identical puzzles, and collecting
+more than one would be silly except for the purpose of building the 10x10
+combined puzzle.
+
+	-- Don.
+

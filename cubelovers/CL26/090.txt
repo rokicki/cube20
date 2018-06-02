@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Dec 24 11:35:18 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id LAA09905
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 24 Dec 1998 11:35:17 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 23 Dec 1998 19:07:26 -0500
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199812240007.TAA28326@adams.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Optimal Cube Solver
+
+herbert writes
+
+> Is it necessary to use the table for the map from the "sliceedges" to
+> the 1680 "4 out of 8"-coordinate at all?
+
+no, i guess the "4 out of 8" coordinate is not really needed.
+good point.  the tradeoff would be one extra table lookup versus
+having tables that are 455K larger.  i don't know if there's a clear
+choice between these two options, but either is much better than the
+6 megabytes i'm using now!
+
+mike
+

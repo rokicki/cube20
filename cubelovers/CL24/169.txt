@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Feb 19 15:32:08 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA16096; Thu, 19 Feb 1998 15:32:08 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From zingmast@sbu.ac.uk Wed Feb 18 13:38:54 1998
+Sender: zingmast@sbu.ac.uk
+Date: Wed, 18 Feb 1998 18:36:07 +0000
+From: David Singmaster <zingmast@sbu.ac.uk>
+To: cube-lovers@ai.mit.edu
+Message-Id: <009C2024.8A2B6B63.8@ice.sbu.ac.uk>
+Subject: RE: Rubik lawyers up in arms over website -- Digest v23 #279]
+
+	Norman Diamond refers to the patents expiring.  However, Rubik
+only had a Hungarian patent.  As a result, the various Rubik companies
+took legal action under copyright law, and copyright lasts much
+longer.
+	Perhaps I should hassle Seven Towns about the use of my notation!
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

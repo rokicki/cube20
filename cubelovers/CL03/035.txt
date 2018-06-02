@@ -1,0 +1,141 @@
+From: ARPAVAX.sjk at Berkeley
+To: isaacs@sri-kl
+Subject: in case you haven't seen this ...
+
+Article 16:
+>From csvax:mhtsa!harpo!chico!esquire!psl Wed Sep  9 17:16:32 1981
+Subject: Rubik's Cube
+Newsgroups: net.games
+
+Want to knoe how far away you can get from the solution on a Rubik's Cube?
+
+
+   A Simple Lower Bound
+
+As everybody knows, the number of discrete configurations of the 3x3x3
+Rubik's Cube is:
+
+(8! * 12! * 3^8 * 2^12) / 12 = 4x10^19 = 43,252,003,274,489,856,000
+
+One approach to a lower bound is to calculate the maximum possible number
+of configurations you can reach with a particular number of moves and then
+see how many moves you would have to make to reach the number above.
+
+With no moves at all you get 1, the starting position.  The first move gets
+you 18, (any one of six faces turned one of three ways).  The next move
+gets you 18*15, (no point in turning the same face twice in a row), for a
+total of 1+18+270 configurations reached after two moves.  A table of these
+values looks like:
+
+	      ---------possible configurations---------
+moves                 new   % max                 total
+ 0                      1   0.0%                      1
+ 1                     18   0.0%                     19
+ 2                    270   0.0%                    289
+ 3                   4050   0.0%                   4339
+ 4                  60750   0.0%                  65089
+ 5                 911250   0.0%                 976339
+ 6               13668750   0.0%               14645089
+ 7              205031250   0.0%              219676339
+ 8             3075468750   0.0%             3295145089
+ 9            46132031250   0.0%            49427176339
+10           691980468750   0.0%           741407645089 Notice that
+11         10379707031250   0.0%         11121114676339 not until 17
+12        155695605468750   0.0%        166816720145089 moves has the
+13       2335434082031250   0.0%       2502250802176339 total number
+14      35031511230468750   0.1%      37533762032645089 of possible
+15     525472668457031250   1.2%     563006430489676339 configurations
+16    7882090026855468750  18.2%    8445096457345145089 exceeded the
+17  118231350402832031250 273.4%  126676446860177176339 maximum.
+
+So there is no possible way to reach some configurations in fewer than
+17 moves.  However, this analysis has assumed that each configuration
+generated was a NEW one, but there are MANY cases where this will not
+be so.  A simple example is turning one face 180 degrees, the opposite
+face 180 degrees, and then repeating those two moves -- four moves that
+get us to an old, familiar configuration.  If we factor out the sequences
+that involve these opposite face identities the minimum number of moves
+becomes 18.  Needless to say there are still lots of useless move sequences,
+but detecting them becomes a lot trickier.
+
+
+   A Rumored Upper Bound
+
+Rumor has it that a computer program exists, (attributed to Thistlethwaite),
+that provably will solve any Cube configuration in at most 41 moves.
+
+
+   Narrowing it Down
+
+So the answer is somewhere between 18 and 41.  How do you get further?  One
+way is to write a computer program that tries every sequence of moves until
+it has generated every possible configuration at least once.  That sounds
+easy, and it is, but such a program would take a \\\L O N G/// time to run.
+However, if we limit the problem a little by considering a Cube that is two
+squares on a side (2x2x2), we have a chance of learning something.
+
+
+   2x2x2 Cube
+
+By the same considerations stated above we can get a lower bound for the
+2x2x2 Cube.  There are 7! * 3^6 = 3,674,160 configurations and, since we
+can limit ourselves to moving only three "orthogonal" sides of the 2x2x2
+cube, on the n-th move you could reach 9 * 6^(n-1) new configurations thus
+we find that with 8 moves you could reach at most 3,023,307 and with 9 you
+could reach at most 18,139,851.  (Note that this doesn't have the problem with
+opposite side moves that the 3x3x3 cube has.)
+
+Because the 2x2x2 cube is relatively simple we can actually run a program
+to try all the possible move sequences and compare our bound with fact.
+Listed below are the findings
+
+
+	 ------new configurations-------    total configurations
+moves    -----possible----  ---actual---    ---possible --actual
+	   number      %    number   %          number    number
+ 0              1     0.0%       1  0.0%             1         1
+ 1              9     0.0%       9  0.0%             9        10
+ 2             54     0.0%      54  0.0%            63        64
+ 3            324     0.0%     321  0.0%           387       385
+ 4           1944     0.0%    1847  0.0%          2331      2232
+ 5          11664     0.3%    9992  0.3%         13995     12224
+ 6          69984     1.9%   50136  1.4%         83979     62360
+ 7         419904    11.4%  227536  6.2%        503883    289896
+ 8        2519424    68.6%  870072 23.7%       3023307   1159968
+ 9       15116544   411.4% 1887748 51.4%      18139851   3047716
+10       90699264  2468.6%  623800 17.0%     108839115   3671516
+11      544195584 14811.4%    2644  0.071%   653034699   3674160
+
+Interestingly enough there are 2,644 configurations that require eleven
+moves to reach a solution; this is less than one tenth of one percent of
+the total configurations!
+
+It's also interesting that it's better than a 50-50 bet that a randomly
+ordered 2x2x2 cube can be solved in exactly nine moves, (it's not clear
+how to turn this into a profitable bar bet, however).
+
+Noticing that there are only 321 new configurations after three moves
+instead of 324 leads us to guess that there are six non-trivial sequences
+of six moves that end with the original configuration, (why?).
+
+These results came from a C program running on a VAX 11/780 and even
+though the 2x2x2 cube is simple compared to the 3x3x3 it took a lot of
+time.  The figures for 11 moves took over 51 hours of cpu time.
+
+If you'd like to make a 2x2x2 cube with which to experiment you can simply
+take all the little labels off a 3x3x3 cube except the ones on the corners
+and then ignore the unlabeled cubes.
+
+Here's one sequence that gets you to one of the 2,644 configurations:
+    f r f r f d2 f d- f d2 r2    f = rotate front face 90 degrees
+				 r = rotate right face 90 degrees
+				d2 = rotate "down" face 180 degrees
+				d- = rotate "down" face 270 degrees
+
+
+   So Where's That Leave Us?
+
+I just thought of a dandy way to get the answer for the 3x3x3 cube, but
+the margins on this news item are a little too small for me to include it ...
+
+-------

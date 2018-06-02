@@ -1,0 +1,247 @@
+From JBRYAN@pstcc.cc.tn.us  Thu Feb 15 10:41:04 1996
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from PSTCC4.PSTCC.CC.TN.US by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA00157; Thu, 15 Feb 96 10:41:04 EST
+Resent-From: JBRYAN@pstcc.cc.tn.us
+Resent-Message-Id: <9602151541.AA00157@life.ai.mit.edu>
+Received: from pstcc.cc.tn.us by pstcc.cc.tn.us (PMDF V5.0-3 #11457)
+ id <01I18MLFP5KI8WYZ5B@pstcc.cc.tn.us> for cube-lovers@ai.mit.edu; Thu,
+ 15 Feb 1996 10:39:58 -0400 (EDT)
+Resent-Date: Thu, 15 Feb 1996 10:39:58 -0400 (EDT)
+Date: Thu, 15 Feb 1996 10:39:54 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Shamir on Breadth First Searches
+Sender: JBRYAN@pstcc.cc.tn.us
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.960215102318.539108975F-100000@pstcc.cc.tn.us>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+Armed with some newfound understanding of Shamir's method,
+I would like to revisit the issue of large searches in
+small memory.  However, I will be proposing the
+application of Shamir's method in a slightly different
+form than it has been applied before.
+
+The best discussion of Shamir's method in the archives is
+probably Alan Bawden's note of 27 May 87 "Shamir's talk
+really was about how to solve the cube!".  The thrust of
+Shamir's talk was how to determine the minimal solution
+for a given position in a reasonable time and with a
+modest (relatively speaking!) amount of memory.
+
+My take on the Shamir's method is two-fold.  First, let
+T[n] be the set of positions no greater than n moves from
+Start, and let x be the position in question.  Shamir's
+method first involves taking the intersection of T[n] with
+xT[n].  If the intersection is null, then x is greater
+than 2n moves from Start.  Otherwise, the distance from
+Start can be determined rather easily.  This is our old
+friend which I call the half-depth search.
+
+The efficacy of a half-depth search is dependent on n.  A
+reasonable n of say 5 or 6 only permits testing x up to a
+distance of about 10 or 12 moves from Start.
+
+The second component of Shamir's method is the clever
+part.  You store T[n] and create sort of a virtual T[2n]
+which doesn't have to be stored.  You do the same thing
+with xT[n] to create a virtual xT[2n].  Forming the
+intersection of T[2n] with xT[2n] lets you test positions
+up to a distance of 4n from Start while only storing T[n]
+and xT[n].  So for n=5, we can test for distances up to 20
+moves from Start.
+
+My primary interest lies in creating T[n] for the largest
+possible n, rather than testing for particular positions. 
+Hence, I want to talk about just the portion of Shamir's
+method that lets us get from a real T[n] to a virtual
+T[2n].
+
+Let me start be reviewing my understanding of key points
+of Shamir's method.  Given two sets of positions S and T,
+Shamir tells us how to form all the products st for s in S
+and t in T with the products being created in
+lexicographic order.  The storage required is order N
+rather than order N^2 (provided of course that the
+products are only created and are not stored).
+
+For the algorithm to work, T itself has to be in
+lexicographic order.  I don't think S has to be in
+lexicographic order (see below).  But S and T may well be
+the same set, and in any case there is no loss of
+generality in requiring that S be in lexicographic order
+as well.
+
+Furthermore, T must be stored as a tree, and we might just
+as well store S as a tree, too.
+
+Alan gives an excellent description of the required tree
+structure.  The structure itself is a very old concept and
+is not unique to Shamir's method.  It could be used, for
+example, to store a dictionary for a spell-checker.  Such
+a tree would branch 26 ways (American alphabet) for each
+of the 26 possible first letters.  The tree would branch
+again in up to 26 ways for the second letter and for each
+subsequent letter, etc.
+
+For Shamir's tree, the "letters" are (usually one byte)
+numbers defining the permutations, where the permutation
+is simply a vector listing (in order) the values of the
+permutation.
+
+Choose a particular s[j] in S and consider all the
+products (s[j])(t[k]) for t[k] in T and for k in 1..n. 
+There is some ordering of the t[k] values which will put
+the {s[j])(t[k]) values in proper lexicographic order. 
+The t[k] values themselves are obviously not in
+lexicographic order, and may indeed appear to be in a 
+"random" order.  But the order is far from random; it is
+quite carefully considered.  The genius of Shamir's method
+is that it tells us exactly how to accomplish the proper
+ordering of the t[k] values to yield lexicographic
+ordering of the {s[j])(t[k]) values.
+
+Notice that the required order of the t[k] values is
+different for each s[j].  My brief description of the
+magic is that (s[j])' is used as a template to tell us how
+to traverse the T tree to make the t[k] values come out in
+the required order to make the (s[j])(t[k]) values come
+out in lexicographic order.  See Alan's note for
+additional details.
+
+(Alan doesn't mention (s[j])' explicitly, but that is what
+it comes down to.  Shamir reverse engineers s[j], runs it
+backwards if you will, to figure out how to make
+(s[j])(t[k]) come out right.)
+
+The rest of the algorithm is a little fuzzy to me, but
+here is how I think it has to work.  Suppose S contains m
+elements and T contains n elements.  What we have done so
+far is to create a single sequence of products
+(s[j])(t[k]) for some particular, fixed s[j].  The
+sequence contains n elements (one for each t in T), and is
+in lexicographic order.
+
+We must produce m such sequences, one for each s[j]. 
+Then, we must perform an m-way merge of the m sequences. 
+The result of our merge is the desired sequence of
+products st in lexicographic order.  It is the fact of
+this merge that leads me to believe that the s values do
+not have to be in lexicographic (or any other particular)
+order.
+
+If m is very large (more than a few dozen), such a merge
+is not quite so easy as it sounds, and it is the details
+of the merge that are most fuzzy to me in Alan's note. 
+The merge would normally be accomplished by forming an
+ordered queue containing the first element of each
+sequence.  The first element would be popped off the
+queue, then the next element from that sequence would be
+calculated and put into the queue.
+
+The tricky part is that the queue has to be kept ordered. 
+It has to be ordered in the first place.  Then, when an
+element is popped off and a new element added, the new
+element has to be added in the correct place.  Hence, I
+would probably implement the queue itself as another tree,
+separate from the S and T trees.
+
+Now, we return to our main discussion.  Let Q[k] be the
+set of positions which are k quarter turns from Start.  (I
+used C[k] in my last note).  Q[1] is just Q, the set of 12
+quarter turns.  Store each Q[k] for k in 0..n in its own
+"Shamir tree".
+
+Create a virtual Q[n+1] as the lexicographically ordered
+set of products st for s in Q[n] and t in Q[1].  Shamir
+does not do everything for us.  We have to do some of the
+work ourselves at this point.
+
+The first issue is that some of the products will be
+duplicate.  But the lexicographical ordering makes the
+duplicates easy to detect.  So detect the duplicates and
+throw them away.
+
+The second issue is that some of the products are in 
+Q[n-1] rather than in Q[n+1].  But since Q[n-1] is also in
+lexicographical order, we can keep a finger or toe pointed
+to Q[n-1], scanning through it in step with the products
+which are generated.  Any product which is found in Q[n-1]
+is not counted as being in Q[n+1].
+
+Creating virtual Q[n+2] is like unto creating virtual
+Q[n+1].  We form products from Q[n] and Q[2].  An
+additional complication is that our fingers and toes must
+point to and step along both Q[n] and Q[n-2] looking for
+products which are shorter than n+2 quarter turns, and
+which therefore are not to be counted.
+
+Now comes the really interesting part  --- creating
+virtual Q[n+3].  We form the products from Q[n] and Q[3]. 
+As we create the products, we must track along through the
+Shamir trees for Q[n-3], Q[n-1], and Q[n+1].  But the
+Shamir tree for Q[n+1] is virtual, and isn't really there!
+
+Here is how we do it.  We must create virtual Q[n+1] and
+virtual Q[n+3] at the same time, keeping them more or less
+in step, with Q[n+1] equal to or one step ahead of Q[n+3]. 
+That way, we have the one real element available of the
+virtual Q[n+1] that we need to test the virtual Q[n+3]
+against.  As a really *old* programmer, I would describe
+what we are doing with Q[n+1] and Q[n+3] as a match/merge.
+
+Given the requirement to generate Q[n+1] as we generate
+Q[n+3], there is no real reason to generate Q[n+1] by
+itself.  If we have enough fingers and toes to point to
+and count everything, we might just as well produce Q[n+1]
+and Q[n+3] on the same pass of the data.  For that matter,
+we might just as well get Q[n+1], Q[n+3], through Q[2n-1]
+on the same pass.  Similarly, we might as well get Q[n+2],
+Q[n+4], through Q[2n] on the same pass.
+
+This is all very simple in principle.  But in my
+experience, keeping track of all those pointers and
+counters is a real pain to program.
+
+Can we go again?  That is, can we go from Q[2n] to Q[4n]? 
+I think not.  Shamir's method requires that of the S and T
+trees, at least the T tree really be there.  We have to
+traverse it many times and in all kinds of orders.  Being
+there virtually is not enough.
+
+Finally, what about local maxima?  We cannot detect local
+maxima by forming Xq for a position X and for all q in Q,
+testing to see of all Xq are closer to Start.  (The Xq are
+not in lexicographical order.)  I am thinking about the
+following as a way to find local maxima, but it may be
+bogus.  See what you think.
+
+Suppose a position in one of the virtual Q[n+k]'s that we
+are creating is not the product of any st for s in Q[n]
+and t in Q[k+2].  For example, suppose there is an element
+p in Q[n+1] which is not the product of any st for s in
+Q[n] and t in Q[3].  (We could find all such p easily in
+our scan of the virtual Q[n+k] trees.)  Could we say that
+all such p are local maxima?  I am not sure.
+
+This method works for sure to find local maxima in Q[n-1]
+when creating Q[n+1].  In fact, this method is the way I
+find local maxima with my large tape searches.  That is,
+the method works when you are only going one step ahead. 
+If you use Q[n] and Q[1] to create Q[n+1], then all the
+products are in Q[n+1] or Q[n-1], and any element of 
+Q[n-1] which is not a product of Q[n] and Q[1] is a local
+maximum.  But can we say that any element of Q[n+1] that
+is not a product of Q[n] and Q[3] is a local maximum?  I
+just don't know.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+

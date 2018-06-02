@@ -1,0 +1,21 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug  9 14:41:59 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA08180
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 9 Aug 1999 14:41:59 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Fri, 6 Aug 1999 18:18:42 -0400
+Message-Id: <003D9A41.C22092@scudder.com>
+From: Jacob_Davenport@scudder.com (Jacob Davenport)
+Subject: Re: 5x5x5
+To: Cube-Lovers@ai.mit.edu
+
+Sure.  You can find my full solution to the 5x5x5 at
+http://www.wunderland.com/WTS/Jake/5x5x5.html.  You will want
+to skip ahead to section on solving the "Wings" as I've
+been calling them, namely the Sixth Step--Wings to Edges.
+Let us know when you get to Step Eight.
+
+-Jacob Davenport
+

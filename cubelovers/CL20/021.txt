@@ -1,0 +1,43 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Jun  1 00:18:13 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA08704 for <cube-lovers-outbound@curry.epilogue.com>; Sat, 1 Jun 1996 00:18:13 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <2.2.32.19960601020111.009ebee0@greatdane.cisco.com>
+X-Sender: ronnie@greatdane.cisco.com
+X-Mailer: Windows Eudora Pro Version 2.2 (32)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Fri, 31 May 1996 19:01:11 -0700
+To: Scott Huddleston <scotth@ssd.intel.com>
+From: "Ronnie B. Kon" <ronnie@cisco.com>
+Subject: Re: realizing 7x7x7 or larger cubes
+Cc: cube-lovers@ai.mit.edu
+
+At 05:00 PM 5/30/96 -0700, Scott Huddleston wrote:
+>
+>>In my opinion mechanical designs for the 7 and above will have to be
+>>fundamentally different from those for the 6 and below, because that's
+>>the point at which the "buried" corner of a corner cubie extends past
+>>the surface of the face during a face turn and thus it's not possible
+>>to build the thing as rigid pieces connected to a central mechanism, at
+>>least not without cutting away part of some face-center cubies.
+>
+>One solution to this dilemma is to let some of the "cubies" become
+>"brickies" (i.e., rectangular bricks instead of cubes).  In this approach,
+>there's no limit in principle on N to how large an NxNxN puzzle you could
+>build with the standard mechanism.  There is, of course, the lower limit 
+>you just described to how small the corner cubies could become.
+
+I've had this dream of making cubies which attach (via bars or perhaps
+electromagnets) to their neighbors, with the smarts to detect the torque of
+a turn and release until the turn has been completed.  You could then sell
+corner cubies, edge cubies, face cubies, and internal cubies one-at-a-time
+and people could build their own puzzles as large as they wanted.
+
+I'll buy enough for an order 10 cube if anyone cares to make this.  :-)
+
+                        Ronnie
+
+
+

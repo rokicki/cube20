@@ -1,0 +1,63 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  2 22:08:35 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id WAA04759; Mon, 2 Jun 1997 22:08:34 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Mon, 2 Jun 97 18:58:59 EDT
+Message-Id: <9706022258.AA28762@sun13.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: cube-lovers@ai.mit.edu
+Subject: Indexing (was Re: miscellaneous comments)
+In-Reply-To: <199706021710.KAA21887@denali.cs.ucla.edu>
+
+Rich Korf wrote:
+
+>    Here's the indexing problem.  Write out all the permutations of
+> say 4 elements, 24 in all, in lexicographic, or any other,
+> order. Now number the permutations from 0 to 23.  The problem then
+> is given a permutation of N elements, compute its sequential number
+> in your ordering scheme.  The obvious algorithms do this in roughly
+> N^2 time, but it would be nice to able to do it faster.
+
+I thought everyone knew this, but it seems not.  The procedure is
+this: Make a fresh copy of P and its inverse Pinv, represented as
+arrays on [0..N-1].  For k from N-1 down to 1, do
+
+            i = Pinv[k];
+            Pinv[P[k]] = i;
+            P[i] = P[k].
+
+The loop invariant is that P[0..k] is a permutation on [0..k] and
+Pinv[0..k] is its inverse.
+
+Conceptually, you are exchanging P[k-1] with P[Pinv[k-1]] to turn P
+into the identity permutation.  But instead, you leave stuff in the
+part of the P and Pinv arrays that you don't need to use because you
+decrement k.  That stuff you leave records what exchanges you (would
+have) made, so it encodes the index in a variable base: 0<=P[k]<=k and
+you take the sum (P[k] k!) to get the index.  The permutation parity
+is |{k : P[k]==k}| mod 2.
+
+This requires O(N) operations on integers of size O(N log N), so the
+time is O(N^2 log N).  But if we don't charge extra for the integer
+size, it's an O(N) algorithm.  If you're using the index to lookup
+something in a table that exceeds the integer size you usually need to
+split the index into integer-sized subindices anyway (one tells you
+which byte in the file, another tells you which file on the disk,
+another tells you which disk...).
+
+Oh, and you can run the algorithm in reverse to convert the
+variable-base index back into a permutation.  (This part doesn't need
+Pinv).  If you fill the P[k] with Random[0..k] and do this, you get a
+fair shuffle.  (I wish programs would randomize their cubes this way.
+Somehow I never trust the 100 random turns.)
+
+I think the only reason people don't think of this balking at the
+initial overhead of making a copy of P and calculating its inverse.
+But then we go and spend quadratic time searching for the bits and
+pieces we need.
+
+Dan
+[ Still working on part 3...]
+
+

@@ -1,0 +1,60 @@
+From: bquigley@dimacs.rutgers.edu
+
+		   WORKSHOP ON GROUPS AND COMPUTATION 
+
+		   Rutgers University, June 7-9, 1995 
+
+
+Computational group theory is an interdisciplinary field involving the use of
+groups to solve problems in computer science and mathematics.  The workshop
+will explore the interplay of research which has taken place in a number of
+broad areas: 
+
+	Symbolic algebra which has led to the development of algorithms for
+	group--theoretic computation and large integrated software packages
+	(such as Cayley, Magma and Gap).
+
+	Theoretical computer science which has studied the complexity of
+	computation with groups.
+
+	Group theory which has provided new tools for understanding the
+	structure of groups, both finite and infinite. 
+
+	Applications of group computation within mathematics or computer
+	science, which have dealt with such diverse subjects as simple groups,
+	combinatorial search, routing on interconnection networks of
+	processors,  the analysis of data, and problems in geometry and
+	topology. 
+
+The primary workshop theme is to understand the algorithmic and mathematical
+obstructions to efficient computations with groups. This will require an
+assessment of algorithms that have had effective implementations and recently
+developed algorithms that have improved worst--case asymptotic times.  Many
+algorithms of these two types depend heavily on structural properties of
+groups (such as properties of simple groups in the finite case), both for
+motivation and correctness proofs, while other algorithms have depended more
+on novel data structures than on group theory.
+
+The scientific program will consist of a limited number of invited lectures
+and short research announcements, as well as informal discussions and software
+demonstrations.  Although it is likely that individual talks will have a
+theoretical or practical focus, it has become increasingly recognized since
+the first DIMACS Workshop on Groups and Computation that there are no clear
+dividing lines between theory and practice. Experience has shown that a
+thorough discussion of implementation issues produces a deeper understanding
+of the mathematical underpinnings for group computations, leading both to new
+algorithms and to improvements of existing ones.  Some background for these
+discussions will be obtained through software produced by several
+participants. 
+
+Organizers are  
+
+	Larry Finkelstein (Northeastern Univ.; {\tt laf@ccs.neu.edu}),
+
+	William M. Kantor (Univ. of Oregon; {\tt kantor@bright.uoregon.edu}) and
+
+	Charles C. Sims (Rutgers Univ.; {\tt sims@math.rutgers.edu}).  
+
+Contact the organizers or DIMACS for information about attending.
+
+

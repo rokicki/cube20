@@ -1,0 +1,131 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  2 17:32:10 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA04147; Mon, 2 Jun 1997 17:32:10 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <3393350F.6541@hrz1.hrz.th-darmstadt.de>
+Date: Mon, 02 Jun 1997 23:03:11 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>
+X-Mailer: Mozilla 3.0 (Win95; I)
+MIME-Version: 1.0
+To: cube-lovers@ai.mit.edu
+CC: Richard E Korf <korf@cs.ucla.edu>
+Subject: Detailed explanation of two phase algorithm
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Reading the many contributions in the mailing list in the last days, I
+state, that the insight im my two phase algorithm solving the cube
+ranges from misunderstood to partly understood, so I will add some more
+really detailed explanation here.
+
+The memory requirements for the search algorithm are of the order
+O(d*log b), where b is the branching factor and d is the solution depth,
+so it definitely is not breadth-first search with O(b^d) nor is it
+bidirectional search with O(b^d/2).
+The "log b" is no misprint, it is due to the special situation when
+dealing rotational puzzles.
+
+The orientations of the corners, the edges and the position of the four
+middleslice edges are mapped to {0,1,...,3^7-1},{0,1,...,2^11-1} and
+{0,1,...,12*11*10*9/4! -1} by appropriate functions in phase1.
+Every state of the cube is represented by a triple (x,y,z) in stage1,
+and a face turn maps this triple to another triple (x',y',z').
+
+Let us denote (x0,y0,z0) for the triple, when arriving in the subgroup
+<U,D,R2,L2,F2,B2>. All elements of this subgroup have this same triple
+(x0,y0,z0), because neither edge nor corner orientations can be changed
+here and the four middleslice edges stay in their position too (only
+their permutation changes, but the mapping function for z ignores the
+permutation).
+
+Before applying the search algorithm we use the inverses of the mapping
+functions to create lookup-tables for each coordinate, so that a face
+turn can be performed with three table lookups, which is very effective.
+
+The three heuristic functions in phase1 also are table-based. From a
+pair (x,y) we compute the index i=3^7*y + x which will be a unique
+number out of {0,1,...,3^7*2^11-1}. At tableposition i we store the
+minimum number of moves we need to get from (x,y) to (x0,y0), ignoring
+the z coordinate. Of course this minimum number never is greater than
+the number of moves to go from (x,y,z) to (x0,y0,z0), so it is accurate
+for the use in an IDA* type search. The other two tables for (x,z) and
+(y,z) are constructed in a corresponding way.
+Because these minimum-number never exceed 9 in phase 1, 4 bits will do
+per tableentry.
+
+Now I *try* to describe the search algorithm for phase1. The
+implementation in my program has slight modifications, but they would
+not improve the readability of the description. For example I omit the
+part how to reduce the branching factor forbidding  the move sequences
+RR2 or UDU etc.
+During the search algorithm, we only store the current state (x,y,z).
+Instead of storing the node path we store the applied move sequence,
+which is equivalent but more adopted for our problem. We use 1 Byte for
+every move. Let denote the list for the move sequence with A, A[i] then
+is the i's element of the list. The sequence is stored in reverse order,
+A[0] holds the last move of the solving sequence when a solution is
+found. The iteration depth is denoted with L1.
+
+1. On initialization set L1=1, i=0, A[0]=0.
+
+2. Apply a face turn to (x,y,z) using the generated lookup tables, the
+face turn according to the number A[i]: If A[i]==0, apply U. When we
+write 0:U for that the following table shows what faceturn(s) to apply: 
+
+O:U, 1:U, 2:U, 3:UR, 4:R, 5:R, 6:RF, 7:F, 8:F, 9:FD, 10:D, 11:D, 12:DL,
+13:L, 14:L, 15:LB, 16:B, 17:B, 18:B.
+
+In the case  A[i]=18 all branches  had been handled and this last B move
+resets the cube to the state of the node where it came from at the
+current depth -1. We reset A[i] to 0, increment i and goto 3. then.
+
+If A[i]<18 increment A[i].Then compute the indices for the heuristic
+tables using the triple (x,y,z) and check, if the current depth (which
+is L1-i) plus the tablevalue v (which is a heuristic for the minimum
+length to solve the cube from this state) exceeds L1, which is
+equivalent to v>i. If that happens for any of the three tables, we prune
+that branch and goto 2., to generate the next node of the same depth.
+
+If v<=i, we first check, if i=0. In this case the current depth is the
+iteration depth L1 and we have found a solution for phase1, because v=0
+only can happen for all three heuristic tables, when we are in state
+(x0,y0,z0). Goto phase2 then.
+But if i>0, we have to generate the node at the current length + 1. We
+decrement i and goto 2.  
+
+3. If i==L1 now, we have searched the complete tree with lenght L1. In
+this case we increment L1, set A[i]=0 and goto 2. to build again our
+first depth-one node. 
+If i<L1 we also goto 2. to build our next node at depth L1-i.
+
+If you analyze the preceeding phase1 algorithm you will see that it is
+indeed just an IDA* with lowerbound heuristic functions based on tables.
+
+When we have found a solution in phase1, from the list A we construct
+the maneuver sequence, apply it to the cube and are in <U,D,R2,L2,F2,B2)
+now. With the help of new mapping functions we construct a triple
+(a,b,c), where a,b, and c represent now the permutation of the 8
+corners, the 8 edges outside the UD-slice and the four edges in the
+UD-slice. Almost everything is analog to phase1, most important that we
+have a maximum L2MAX for the iteration lenght L2 (except for the first
+search in phase2), because we can assume L1+L2<N when we already have
+found a solution with length N=L1'+L2'. Because of the maximum iteration
+lenght the search can fail, in this case we go directly to 2. of phase1,
+else we print out the solution and go to 2. of phase1.
+Because N decreases and L1 increases, L2MAX decreases, and when we have
+L2MAX=0 (we will not have time to wait for that in most cases) we have
+found an optimal solution.
+
+It seems very difficult to establish an upper bound for the maneuver
+length for the algorithm except for the first solution, because the
+maximum length in phase1=12 and in phase2=18.
+If you still have any question about the algorithm, please ask. If
+myself would be interested if you have any idea how to improve the
+performance of the algorithm, using for examples symmetries of the cube
+or the asymmetry of phase2.
+
+Herbert
+
+
+

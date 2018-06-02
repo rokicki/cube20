@@ -1,0 +1,24 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Feb  5 15:45:07 1997
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id PAA01726; Wed, 5 Feb 1997 15:45:07 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 5 Feb 1997 18:19:35 +0200 (IST)
+From: Rubin Shai <rubins@cs.technion.ac.il>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Subject: Magazines about the Rubik cube
+In-Reply-To: <Pine.PMDF.3.91.961114075359.20973G-100000@PSTCC6.PSTCC.CC.TN.US>
+Message-ID: <Pine.GSO.3.95-heb-2.07.970205181509.19224B-100000@csd>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+Hi all
+I'm going to write a report about a program that learn to solve the 2X2X2
+Rubik cube by itself.
+Does anyone know a magazine that will publish this kind of stuff?
+
+Shai
+
+
+
+

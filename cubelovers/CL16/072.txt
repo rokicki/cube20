@@ -1,0 +1,79 @@
+From ccw@eql12.caltech.edu  Sun Aug 20 18:32:21 1995
+Return-Path: <ccw@eql12.caltech.edu>
+Received: from eql12.caltech.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06278; Sun, 20 Aug 95 18:32:21 EDT
+Date:    Sun, 20 Aug 95 15:32:15 PDT
+From: ccw@eql12.caltech.edu
+Message-Id: <950820153215.26204902@eql12.caltech.edu>
+Subject: "Cubism For Fun" Rumor.  (and Dinosaur cube info)
+To: cube-lovers@ai.mit.edu, pbeck@pica.army.mil, dik@cwi.nl,
+        rik@dutncp8.tn.tudelft.nl, ronnie@cisco.com
+X-St-Vmsmail-To: ST%"cube-lovers@ai.mit.edu"
+
+(Note: The second half of this message lists a place to purchase
+Rubiks Dinosaur Cube)
+
+Can anyone confirm or refute this rumor?
+If true, can enough information be provided to allow ordering?
+I heard this rumor last night (or was it this morning :) at a puzzle party.
+
+
+Rumor:
+The Nederlands Kubus Club (NKS, Dutch Cubists Club) has been receiving
+a lot of orders for reprints of their newsleter "Cubism For Fun" (CFF).
+Because of this, they are going to do a massive (1 time?) reprint of all
+of the newsletters, but only enough to fill orders received by September 1.
+
+
+Questions:
+Where do I send my order?
+How much for a full set of reprints? (#1 through current)
+How much for a full set of the selected English translations from
+the early issues?
+How much additional would shipping and handling be (to U.S.A.)?
+What shipping service will be used?  (in the U.S., only the U.S. Mail
+is allowed to deliver to Post Office Boxes)
+What are the current membership fees and info?
+What is the official name of the Dutch currency?  (so I can tell the bank
+what to turn my dollars into.)
+Is there any person/address that email inquiries could be sent to?
+(in case the one below is no longer valid)
+
+
+Background (from Cube-Lovers archives):
+The first 12 issues of CFF were in Dutch, thereafter in English.
+Selected older articles may be available in English translations.
+<pbeck@pica.army.mil>
+CFF issue number 35 was published in December 1994. <dik@cwi.nl>
+At that time, Dik reported that one of the editors was
+<rik@dutncp8.tn.tudelft.nl>
+
+
+Rubiks Dinosaur Cube:
+While searching old Cube-Lovers mail to see if any information had been
+posted about the above, I noticed that <ronnie@cisco.com> asked where
+the Rubiks Dinosaur Cube might be purchased.  I did not see any answers
+posted.  I just bought one of these last week.  I got it from
+        Gametrends
+        36 W. Colorado Bl.      (actually in a side alley)
+        Pasadena, CA
+        818-577-1882
+I believe the price is $13.99.  Before posting this, I confirmed that they
+will take phone orders.
+If you order one, I suggest you have them test it first.  Make sure all
+8 corners turn when in the initial position.  The first one I got had 2
+pieces stuck together which I could not free up.  I had to return it.
+
+For those who don't know what this puzzle is...
+It is a cube.  All 8 corners turn, rotating 3 edge pieces at a time.
+There are 12 visible pieces which are the edges of the cube.
+Each face has cuts accross it which look like an "X".  In the solved
+position, each face is a solid color.
+The name Dinosaur seems to mean nothing, except that there are extra
+Dinosaur decorations on the box.  (Can you say Jurassic Park?)
+
+
+Thanks.
+Chris Worrell
+ccw@eql.caltech.edu     (current)
+ccw@alumni.caltech.edu  (permenant)
+

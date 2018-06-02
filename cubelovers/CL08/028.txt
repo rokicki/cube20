@@ -1,0 +1,71 @@
+From hoey@aic.nrl.navy.mil  Fri Jan 10 18:35:28 1992
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA29653; Fri, 10 Jan 92 18:35:28 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA00290; Fri, 10 Jan 92 18:32:36 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Fri, 10 Jan 92 18:32:35 EST
+Date: Fri, 10 Jan 92 18:32:35 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9201102332.AA13941@sun13.aic.nrl.navy.mil>
+To: tjj@lemma.helsinki.fi (Timo Jokitalo), Cube-Lovers@life.ai.mit.edu
+Subject: Re: Rubik's Cube, the minimax number of moves
+Keywords: Upper-Bounds, Thistlethwaite, RCC, NoRMC
+
+tjj@lemma.helsinki.fi (Timo Jokitalo) asks
+
+> I wonder how large the necessary tables for Thistlethwaite's method
+> for the cube are?  I seem to recall reading that there were a few
+> hundred entries....
+
+Well, this is the information from Singmaster's _Notes_on_Rubik's_
+_Magic_Cube_ (1980).  Thistlethwaite's method is to work from group to
+subgroup as follows:
+
+    G0: <F,B,L,R,T,D>
+    G1: <F^2,B^2,L,R,T,D>
+    G2: <F^2,B^2,L^2,R^2,T,D>
+    G3: <F^2,B^2,L^2,R^2,T^2,D^2>
+    G4: <I>
+
+The following table shows the number of cosets (the index of each
+subgroup in the next larger group).  Then I include the number of HT
+moves proven, anticipated, and best possible, from the 1980 N_o_R_M_C.
+Finally, I include the number of HT claimed in the 1987 R_C_C.  It is
+interesting to note that the improvement did not occur where
+Thistlethwaite anticipated it.
+
+Step | Number of Cosets  |     Number of HT, 1980      | #HT, 1987
+     |                   |  Proven  Anticipated  Best  |   Proven
+     |                   |                             |
+  1  | G0:G1 =     2,048 |     7        7         7    |      7 
+  2  | G1:G2 = 1,082,565 |    13       12        10    |     13
+  3  | G2:G3 =   663,552 |    15       14 ?      13 ?  |     15
+  4  | G3:G4 =    29,400 |    17       17        15 ?  |     15
+-----+-------------------+-----------------------------+-----------
+               Total HT  |    52       50 ?      45 ?  |     50
+               Total QT  |   101       97 ?      87 ?  |     97
+
+I had thought the tables contained one entry for each coset, and so
+there would be over a million entries for step 2.  However, I was
+surprised just now to notice in N_o_R_M_C that tables were only needed
+in step 4, and then only 172 entries, so there must be some
+abbreviation or algorithmic approach.  Of course, when Knuth's
+students improved step 4, they may have changed it to use a huge
+lookup table; I don't know.  Still, this is much better than the
+situation I expected in my note two days ago.
+
+In listing QT I assume that in we can require steps 1, 2, and 3 to
+each end with a quarter-turn.  So the number of QT is at most three
+less than twice the number of HT.
+
+> And, more important, have they been published, or does anyone have
+> them in an electronic format?
+
+The bibliography in N_o_R_M_C mentions Thistlethwaite's algorithms as
+being in typescript, but I don't know if they were available by
+request, and I don't know anyone who has them.  I don't know anything
+about the improvements by Knuth's students, and there's nothing in
+the R_C_C bibliography that looks like a Stanford tech report.
+
+Dan
+

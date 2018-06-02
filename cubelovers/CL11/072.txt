@@ -1,0 +1,44 @@
+From Don.Woods@eng.sun.com  Mon Jan  3 05:45:40 1994
+Return-Path: <Don.Woods@eng.sun.com>
+Received: from Sun.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23952; Mon, 3 Jan 94 05:45:40 EST
+Received: from Eng.Sun.COM (zigzag.Eng.Sun.COM) by Sun.COM (4.1/SMI-4.1)
+	id AA10025; Mon, 3 Jan 94 02:45:24 PST
+Received: from colossal.Eng.Sun.COM by Eng.Sun.COM (4.1/SMI-4.1)
+	id AA09005; Mon, 3 Jan 94 02:43:43 PST
+Received: by colossal.Eng.Sun.COM (5.0/SMI-SVR4)
+	id AA14295; Mon, 3 Jan 94 02:45:35 PST
+Date: Mon, 3 Jan 94 02:45:35 PST
+From: Don.Woods@eng.sun.com (Don Woods)
+Message-Id: <9401031045.AA14295@colossal.Eng.Sun.COM>
+To: cube-lovers@ai.mit.edu, jandr@xirion.nl
+Subject: Re: 10x10 Tangle
+Content-Length: 1209
+
+> My program is a bit faster, but as I have less machines at my disposal
+> and I started a bit later, my programs are still running.
+
+Incidentally, I would be interested in seeing your program.  (And am
+willing to send you mine.)  I'm always willing to learn something about
+how to make combinatorial searches more efficient.
+
+> >I also tried adding some extra tiles for the 10x10, and it began finding
+> >solutions okay.
+> 
+> Question: did you add pieces at random, or did you add more duplicate
+> pieces?
+
+I just gave it 5 of each piece, instead of 4 of most pieces and 5 of some.
+It churned out positions pretty quick that way!  But since this involved
+giving it more than 100 tiles to draw from, it says nothing about Dik Winter's
+claimed impossibility proof.
+
+It's a shame, really.  I'll bet that it would be possible to come up with
+four Tangles that (a) really are different instead of being simple color
+permutations of each other, (b) each have a unique solution (not counting
+rotations) instead of two, and (c) can be combined to form a 10x10 that has
+a unique solution.  Well, strike the "unique" from (c) and I'd make the bet;
+but with the "unique" I certainly wouldn't bet against it!
+
+	-- Don.
+
+

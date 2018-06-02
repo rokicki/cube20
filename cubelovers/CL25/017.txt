@@ -1,0 +1,29 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 25 15:19:48 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA28021; Wed, 25 Mar 1998 15:19:48 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Mar 25 02:37:53 1998
+Date: Wed, 25 Mar 1998 08:37:42 +0100
+Message-Id: <199803250737.IAA30286@dataway.ch>
+To: Cube-Lovers@ai.mit.edu
+From: Geir Ugelstad <ugelstad@dataway.ch>
+Subject: Jiri's system for solving Rubiks's cube
+
+hello cube-lovers
+
+For all of you that haven't been into Jiri's home page at 
+http://ssie.binghamton.edu/~jirif, you should realy look into it!
+Bouth the method and presentation is of very high standard!
+I bought myself a system in 1982 but I was so dissapointed that I
+trow it In the garbage just after.  With the system I bought in 1982 
+it was not possible to make it faster than 2-3 minutes.  With Jiri's
+system it should be possible in about 17 sec.!
+
+Ys Geir Ugelstad
+
+PS: Question to Jiri.  How far are you able to do the foreplanning
+the 15 sec.  before the time start to run?  Hopefully longer than
+"Place the four edges from the first layer"?
+

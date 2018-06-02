@@ -1,0 +1,12 @@
+Date:     2 December 1980 1040-est
+From:     Bernard S. Greenberg       <Greenberg at MIT-Multics>
+Subject:  Re: Source to CUBE to run it locally (!)
+To:       SOLOMON at Rutgers
+Cc:       CUBE-LOVERS at MIT-MC, Solomon at Rutgers
+
+I repeat for all those interested, the :CUBE program, designed
+and implemented by yours truly, lives in the BSG directory on
+AI. The file .INFO.;CUBE INFO describes, at its end, the organization
+of the source modules.  I will give anyone any reasonable amount
+of help bringing it up elsewhere, and would very much like
+to know if you succeed with it.  -bsg

@@ -1,0 +1,89 @@
+From hoey@aic.nrl.navy.mil  Wed Dec 29 17:43:47 1993
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12501; Wed, 29 Dec 93 17:43:47 EST
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA05575; Wed, 29 Dec 93 17:43:28 EST
+Date: Wed, 29 Dec 93 17:43:28 EST
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9312292243.AA05575@Sun0.AIC.NRL.Navy.Mil>
+To: Cube-Lovers@life.ai.mit.edu
+Cc: Jerry Bryan <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Subject: Correction Re: Some Additional Distances in the Edge Group
+
+A couple of days ago, I said that proofs are a good idea.  I'll say it
+again today with a redder face.
+
+Yesterday I discussed the edge group positions
+
+    I = Solved,
+    P = Pons Asinorum (or Mirror),
+    E = All edges flipped, and
+    PE = P E = Pons Asinorum with all edges flipped
+
+and the function from the edge group to 4-tuples of distances
+
+    f(X)=(d(I,X), d(E,X), d(P,X), d(PE,X)).
+
+I wrote:
+
+?? If f(X)=(a,b,c,d), then conjugation shows us that              ??
+?? f(X E)=(b,a,d,c), f(X P)=(c,d,a,b), and F(X PE)=(d,c,b,a).     ??
+?? So the set of quadruples has the symmetries of the rectangle.  ??
+
+The first sentence is incorrect, though the argument as a whole is
+reparable.
+
+First, I'll do what I should have done yesterday, and define the
+distance function d(X,Y).  We want the minimum length process Z such
+that X Z = Y.  But premultiplying both sides by X', we have Z = X' Y.
+So I define d(X,Y)=Length(X' Y).  From the properties of the length
+function (Length(I)=0, Length(X)=Length(X'), and
+Length(X Y)<=Length(X) + Length(Y)) we can conclude that d(X,Y) is a
+metric.
+
+Suppose f(X)=(a,b,c,d).  I claim f(E X)=(b,a,d,c), f(P X)=(c,d,a,b),
+and F(PE X)=(d,c,b,a).
+
+Proof: To show f(E X)=(b,a,d,c), first observe that I=I', E=E', and
+P E = E P.
+
+    d(I,E X) = Length(I' E X) = Length(E' X) = d(E,X),
+    so d(E,E X) = d(I, E E X) = d(I,X);
+    d(P,E X) = Length(P' E X) = Length((PE)' X) = d(PE,X)
+    so d(PE,E X)=d(P,E E X)=d(P,X).
+
+To show that f(P X)=(c,d,a,b), exchange P and E in the above argument.
+To show that f(PE X)=(d,c,b,a), use both occurrences of the argument.
+QED.
+
+So the idea of yesterday's message is correct, but I had X E, X P, and
+X PE instead of E X, P X, and PE X, respectively.  I would show you a
+counterexample to yesterday's formulation, but it turns out there is
+none.  I claim that f(X,E)=f(E,X), f(X,P)=f(P,X), and f(X,PE)=f(PE,X).
+
+Proof: Recall that E commutes with every element of the Rubik cube
+group, so f(X E)=f(E X).  It turns out that ``up to M-conjugacy'', P
+commutes with every element of the edge group as well.  For P performs
+a mirror-reflection of the edges, and so can be regarded as an element
+of M acting on the edge group.  So P' X P = Xbar is an M-conjugate of
+X, and X P = P Xbar.  Since Length(X) agrees on M-conjugates, so does
+d(X,Y), and so f(X), so f(X P)=f(P Xbar) = f(P X).  Finally,
+f(X PE) = f(X P E) = f(E X P) = f(P E X) = f(PE X). QED.
+
+So it turns out it that the statement about f was true.  But I am no
+less embarrassed for asserting it, for I had no reason to think it
+would be true.  It's only rescued by the surprising commutativity of
+the Pons Asinorum.
+
+Finally, I would like to note something that I nearly included in
+yesterday's message, but yanked when I decided it was false:
+f(X')=f(X).  Now I'll prove it:
+
+Proof:  For W among {I,E,P,PE}, we have X W = W Xbar, for Xbar an
+M-conjugate of X.  So
+     d(X,W)=Length(X'W)=Length(W'Xbar')=Length(W'X')=d(W,X').
+QED.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

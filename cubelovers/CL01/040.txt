@@ -1,0 +1,39 @@
+Date:  7 DEC 1980 0724-EST
+From: DCP at MIT-MC (David C. Plummer)
+Subject: maximally distant state, setting the record straight
+To: MJA at MIT-MC
+CC: CUBE-LOVERS at MIT-MC
+
+    Date:  7 DEC 1980 0108-EST
+    From: MJA at MIT-MC (Michael J. Aramini)
+
+    well it is possible that to maximally distant states are half twist apart
+WRONG! (I assume you meant "two" for "to" and typo'ed). Read 
+ALAN's previous message. In the half twist metric, there exist 
+odd distances away, and there exist even distances away. A QTW
+takes the cube from odd to even or from even to odd. The maximally
+distant state is the state such that the fewest number of QTW
+required to solve it is maximized. This must be odd OR even, and
+thus, two states that are maximally distant must be both odd or
+both even, which means the distance between them is even, or an
+EVEN number of QTW. A single QTW is ODD, and thus cannot separate
+maximal states.
+    also if you count half twists as one twist (i dont, but its
+    still worth thinking about) does that change the set of
+    maximally distant states?
+Maybe it does, maybe it doesn't. It is much harder to tell because
+counting half twists has no analog to the QTW odd/even property of
+distance, and this is one reason several of us don't count half twists.
+For example, (R L R) and (L [RR]) are equivalent manipulations, but in
+half twist counting, one is three and the other is two moves. (assume []
+means grouping two moves into one.)
+
+    also it is possible that there exists states for which all directions
+    lead closer to home (and twist put the cube in a state closer to home)
+    but the state is not necessarily maximally distant (to use
+    a continous analogy, think of think of a hill in a funtion of
+    two variables, that is not necessarily the maximum value of the
+    function)
+We have been saying this all along! Simple example: (RRLL UUDD FFBB)
+is a local max (any twist takes you closer), and it is definitely not
+absolute max (abs max must be at least 21 from combinatoric arguments).

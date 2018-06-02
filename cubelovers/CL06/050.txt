@@ -1,0 +1,46 @@
+Received: from nrl-aic.ARPA (TCP 3200200010) by AI.AI.MIT.EDU 30 Jul 87 15:51:13 EDT
+Return-Path: <hoey@nrl-aic.ARPA>
+Received: Thu, 30 Jul 87 15:47:50 edt by nrl-aic.ARPA id AA22816
+Date: 30 Jul 1987 15:46:10 EDT (Thu)
+From: Dan Hoey <hoey@nrl-aic.ARPA>
+Subject: Planar positions of Rubik's Magic
+To: Cube-Lovers@AI.AI.MIT.EDU
+Message-Id: <554672771/hoey@nrl-aic>
+
+    PLANAR POSITIONS OF RUBIK'S MAGIC, THE 8 SQUARE PUZZLE
+
+    by P Beck and D Hoey,  July 1987
+       <BECK@ARDEC-LCSS.ARPA> or <PBECK@ARDEC.ARPA>,
+       <HOEY@NRL-AIC.ARPA>
+
+This is a catalog of the 96 planar positions of the 8-square Rubik's
+Magic puzzle.  The list is based on two rules for positioning the eight
+squares.
+
+RULE 1--Placement:  Let the pieces be numbered from 1 to 8.  Any planar
+position must consist of squares in the pattern
+
+                ``2x4''       or      ``3x3''
+
+                A B C D                A B C
+                H G F E                H E D
+                                       G F
+
+where A,B,C,D,E,F,G,H is a cyclical rearrangement of 1,2,3,4,5,6,7,8.
+These patterns can also be rotated or reflected.
+
+Both the 2x4 and the 3x3 patterns have eight rotations and reflections,
+and there are eight possible assignments of the numbers 1-8 to the
+letters A-H.  However, a 180-degree rotation of the 2x4 is equivalent
+to a reassignment of the numbers.  So there are only 32 different 2x4
+positions, while there are a full 64 of the 3x3 positions.
+
+RULE 2--Orientation:  The pieces fit together as if the four edges
+of each unrotated piece were
+
+         +-b-+                                +-d-+
+labeled  a O c  for odd-numbered pieces, and  a E c  for even-numbered
+         +-d-+                                +-b-+
+
+pieces, and the small letters must match where neighbors abut.
+

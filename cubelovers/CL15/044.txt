@@ -1,0 +1,42 @@
+From Cube-Lovers-Request@AI.MIT.EDU  Thu Feb 16 15:27:33 1995
+Received: from life.ai.mit.edu by ptc.com (5.0/SMI-SVR4-NN)
+	id AA22606; Thu, 16 Feb 95 15:27:33 EST
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for mreid@ptc.com id AA24045; Thu, 16 Feb 95 14:47:58 EST
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <173018-2>; Thu, 16 Feb 1995 14:49:03 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA13116; Thu, 16 Feb 95 14:44:44 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1D0491; Thu, 16 Feb 95 00:59:06 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Corrections
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1050.5834.0C1D0491@canrem.com>
+Date: Thu, 16 Feb 1995 00:49:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+Content-Length: 447
+Status: R
+
+
+>The tips (or small vertices) can rotate independently, and the larger
+>turn includes the rotation of the adjacent 2 edge pieces and single
+>middle piece.
+
+This should read:
+
+The tips (or small vertices) can rotate independently, and the larger
+turn includes the rotation of the adjacent 3 edge pieces and 3
+middle pieces.
+
+...or approximately 29 nonillion (29^30).
+
+This should read:
+
+ ...or approximately 29 nonillion (29*10^30).
+
+-> Mark <-
+
+[ This message was missing from the mailer archive for some reason.
+  I have added it manually.  - Cube-Lovers Moderator ]
+

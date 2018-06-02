@@ -1,0 +1,39 @@
+From tjj@lemma.helsinki.fi  Mon Nov  4 12:00:58 1991
+Return-Path: <tjj@lemma.helsinki.fi>
+Received: from funet.fi by life.ai.mit.edu (4.1/AI-4.10) id AA19455; Mon, 4 Nov 91 12:00:58 EST
+Received: from lemma.Helsinki.fi by funet.fi with SMTP (PP) 
+          id <25881-0@funet.fi>; Mon, 4 Nov 1991 19:00:44 +0200
+Received: by lemma.helsinki.fi (5.57/Ultrix3.0-C) id AA02272;
+          Mon, 4 Nov 91 19:00:41 +0200
+Date: Mon, 4 Nov 91 19:00:41 +0200
+From: tjj@lemma.helsinki.fi (Timo Jokitalo)
+Message-Id: <9111041700.AA02272@lemma.helsinki.fi>
+To: cube-lovers@ai.mit.edu
+Subject: Square One
+
+
+Hi everyone!
+
+Well, now I finally had time to try and solve my Square One. After 
+hours and hours of pondering it is now finally done. (For the first time ever -
+I noticed the leaflet with instructions on how to get it to square one only
+after I'd done a few rotations.) Now what needs to be done is to polish
+the 'method' a bit (a lot), and find out if I was just lucky this time...
+
+Altogether, it seems to be quite a nice puzzle, although at first I thought
+that it was _very_ ugly and unpleasant. (But not half as ugly and unpleasant as
+'Rubik's Dice'. Perhaps I'm clumsy, but It's awful: whenever I get
+somewhere with it, I touch it a bit too hard, all the plates fall to the
+bottom and I throw the thing back to the corner in disgustment. Opinions?)
+
+But: does anyone have the number of configurations for it? I tried to count
+them, and got something like 2.8 E 13, but very probably there are a few
+factors of two or something missing. It's also a bit tricky to decide on when
+two configurations are different. (I mean, should one count as different a
+configuration reached by rotating, say, the top layer by 30 degrees? Sometimes,
+yes, but sometimes it seems a bit funny to do so.)
+
+	Timo (tjj@rolf.helsinki.fi)
+
+
+

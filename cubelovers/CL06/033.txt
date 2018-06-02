@@ -1,0 +1,50 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 16 Jun 87 09:09:03 EDT
+Date: 15 Jun 87 15:20:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: DUTCH CLUB
+To: "cube-lovers" <cube-lovers@mit-ai>
+cc: beck
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+
+
+
+SUBJECT :  Review of "Cubism For Fun" newsletter; the newsletter of the "Dutch
+Cubists Club"
+
+
+1.   The dutch cubists club is alive and well.   It is probably the only
+organized group of people still collecting and distributing information about
+Rubik's cube and related combinatorial and geometrical puzzles.  
+
+2.  This spring in order to improve contacts between cubists they started
+publishing their newsletter in english (issue #14 dated 3/87).  The newsleter is
+distributed free to members of the club.   Membership for 1987 is  US$5.   A
+photocopied set of the newsletters, issues 1-13, written in DUTCH is also
+available for  US$7.    To order either of these send a POSTAL MONEY ORDER to: 
+Anton Hanegraaf,  Heemskerkstraat,  6662 AL ELST,  The Netherlands.
+
+3.  The table of contents from issue #14 follows (it is 14 double sided folded 8
+1/2 x 11 sheets, making a 28 page newsletter):
+
+INTRODUCTION
+LETTER FROM THE PRESIDENT - KLAAS STEENHUIS
+SECRETATIAL REPORT - GUUS RAZOUX SCHULTZ
+DUTCH CUBISTS DAY - ANTON HANEGRAAF
+CALL FOR PAPERS
+MORE ABOUT RUBIK'S MAGIC - GUUS RAZOUX SCHULTZ
+THE ALGORITHM USED BY MARC WATERMAN - ANNEKE TREEP & MARC                       
+WATERMAN
+COMPUTERS IN SRVICE OF THE CUBE-KNOWLEDGE - KLAAS STEENHUIS
+UPPER-TABLE BY HOME COMPUTER - BEN JOS WALBEEHM
+SHORT HISTORY OF THE UPPER TABLE - ANTON HANEGRAAF
+IMPROVEMENTS TO THE UPPER TABLE
+LETTERS TO THE EDITOR
+LIST OF MEMBERS
+
+4.  If anybody would like further details please ask!
+
+CUBING IS FOREVER      PETER BECK
+
+<BECK@ARDEC-LCSS>  OR  <PBECK@ARDEC>
+....................
+------

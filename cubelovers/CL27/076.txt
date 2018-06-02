@@ -1,0 +1,89 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon May  3 17:26:27 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA18386
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 3 May 1999 17:26:27 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199905031954.VAA24148@bednorz.get2net.dk>
+From: "Klodshans" <klodshans@get2net.dk>
+To: sausage@zeta.org.au
+Date: Mon, 3 May 1999 20:52:12 +0000
+Subject: Re: Rubiks Magic Strategy Rules
+Reply-To: klodshans@get2net.dk
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <372A817B.5825@zeta.org.au>
+
+Wayne wrote:
+> Does anyone know how to play the Rubiks Magic Strategy game? I just
+> bought it second hand and while there's some rough instructions on the
+> back, the manual is missing and we don't know how to start off.
+
+The game is similar/equivalent to Rubik's Eclipse. The rules are as
+follows:
+
+-------------------------------------------------------------------------
+
+Set Up:
+At the beginning of the game, the board is empty. One player
+takes the 8 circle pieces, and the other player takes the 8 square
+pieces.
+
+Objective:
+To win the game you must get 3 of your game pieces of the same
+color (black or silver) in a "locked" row, either vertically, horizontally
+or diagonally. A row of 3 is "locked" when none of the game pieces
+in it can be flipped onto an adjacent square, because all the
+adjacent squares are occupied.
+
+Rules of play:
+Players alternate in taking turns. The Circle player starts the game
+by placing a circle piece, either side up, somewhere on the board.
+Subsequently, starting with the Square players's first move, each
+player's turn consist of two actions: Flip and Place,  _in that order._
+
+Flip:
+On each turn, the player must flip _any_ one of their opponent's
+pieces already on the board. Flipping a piece means moving it to
+any adjacent vacant square (horizontally or vertically, but not
+diagonally) while _reversing_ the sides. The grey becomes black
+and vice versa.
+
+Place:
+Each player must, on each turn, then place one of their pieces,
+either side up, on any vacant square on the board, _even if this
+results in a winning line for the opponent._
+
+Note: A player _must_ flip an opponent's piece, even if this may
+result in a winning line for the opponent.
+
+If it is not possible to flip any of their opponent's pieces, the player
+still goes on to placing a piece of their own.
+
+Play goes on in this manner, with each player first flipping any of
+their opponent's pieces (not necessarily the last one placed),
+before placing a piece of their own. This means once placed on the
+board,, players will never touch their own pieces again, but they
+can change position and color of their opponent's pieces.
+
+A player may leave an opponent's row of 3 without loosing the
+game (provided it is not "locked").
+
+Winning the Game:
+The first player to archieve a "locked" vertical, horizontal, or
+diagonal line of 3 of their _own_ game pieces, all with the same
+color (black or silver), is the winner. A "locked" line is one in which
+none of the 3 game pieces can be flipped because all the adjacent
+squares are occupied.
+
+If the game continues until the last piece is placed on the board,
+and both players end up with a winning line, or neither player has
+won, the game is a draw.
+
+-------------------------------------------------------------------------
+______________________________________
+Philip K
+E-mail: philipk@bassandtrouble.com
+E-mail: klodshans@get2net.dk
+web:    http://hjem.get2net.dk/philip-k
+

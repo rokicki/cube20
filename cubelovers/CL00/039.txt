@@ -1,0 +1,20 @@
+Date:	  19 July 1980 1524-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  :cube feature
+To:	  CUBE-LOVERS at MIT-MC
+
+Ok, everybody wants a way to tell :CUBE "I have a cube like
+so and so, solve it".  The reason I have avoided doing this
+(other than laze) is that you may specify a non-reachable
+state.  (Duplicate cubies, or purple faces, etc. are easy
+to check for).  I am not convinced that there is any
+better or faster check for an inconsistent/unreachable
+cube than trying to solve it and blowing out: lest
+we find such a check (other possibility: run the program once
+silently and once loudly; if the first time fails
+(no, i will not make it list all cubes it cant solve)
+give an error), all internal breakpoints become
+user errors.
+
+The second issue is what is the best language
+to specify a configuration in? Comments?

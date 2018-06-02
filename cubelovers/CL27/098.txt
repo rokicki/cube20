@@ -1,0 +1,43 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri May 21 13:55:13 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA07307
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 21 May 1999 13:55:13 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 20 May 1999 20:41:56 -0700 (PDT)
+From: Tim Browne <ue451@victoria.tc.ca>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Huge Cube!
+In-Reply-To: <015101bea311$641f58a0$60c4b0c2@home>
+Message-Id: <Pine.GSO.3.95.iB1.0.990520203555.13333A-100000@vtn1>
+
+On Thu, 20 May 1999, Roger Broadie wrote:
+
+> The big one that you have works pretty well and makes a handsome
+> display object.  There is also a normal-sized cube also with tiles
+> that is about the most horrible to turn I have ever met - the
+> shop-keeper even felt compelled to warn of the fact me in advance.
+
+The most problematic ones I've come across so far are the "Wisdom" Ball
+(everything has to be lined up exactly right), Alexander's Star (same),
+and the Pyramorphix (same). It's a neat puzzle, but it seems to have a
+mind of its own, many times forcing you to turn a half/direction you don't
+want to and gets jammed constantly. When you finally do get past the jams,
+it's completely unexpected and flies at super speed. On top of this, the
+centres are so sharp that when it happens, it often cuts your fingers. Has
+anyone managed to come up with a fix for this? My guess is all that would
+need to be done to fix all of these problems would be to make the edges of
+the centre pieces more rounded, but I can't be sure about that.
+
+
+> Then there is also a key-ring sized cube (30 cm) [...]
+
+Uh... I think you mean 30Mm cube, don't you? :-) L8r.
+
+-- 
+ Victoria Animart - American Prices, Canadian Currency. |       HIT Jedi
+         http://www.focus-asia.com/home/animart         | Use the Force, Mike!
+--------------------------------------------------------+-----------------------
+            "No thanks. I'm trying to cut down." - Michael Garibaldi
+

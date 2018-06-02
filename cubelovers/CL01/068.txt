@@ -1,0 +1,13 @@
+Date: 31 Dec 1980 1545-PST
+From: Dave Dyer <DDYER at USC-ISIB>
+Subject: bigger&better cubes
+To: cube-lovers at MIT-MC
+
+
+ Clearly, we must not be deterred by mere mechanical limitations!
+I'm sure a color bit-mapped raster could do a dandy job of displaying
+cube-like objects in any size and geometry you can imagine.  If you
+must have a physical cube, how about a box with LCD's on all faces
+(in six colors?), pressure sensors to detect what ytou want to twist,
+and a uP inside to do all the work.
+-------

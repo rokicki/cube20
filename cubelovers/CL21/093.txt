@@ -1,0 +1,36 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Dec  9 19:58:14 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA12873; Mon, 9 Dec 1996 19:58:14 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Mon, 9 Dec 1996 18:47:07 -0200 (EDT)
+From: Rodrigo de Almeida Siqueira <delirium@ime.usp.br>
+X-Sender: delirium@farofa
+To: cube-lovers@ai.mit.edu
+Subject: Cool Robot Of The Week
+Message-ID: <Pine.SUN.3.91.961209183924.2757A-100000@farofa>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+Hello Cubers,
+
+The Laboratory of Integrated Systems (at Polytechnic School, Univ. of Sao 
+Paulo) has just recieved the "Cool Robot Of The Week" unofficial 
+recognition from NASA HQ for "Chip and Dale", a pair of robots that can 
+deal and solve the Rubik's Cube!
+
+For more information on the Robots and MPEG, GIF and JPG files with the 
+images, check the URL:
+
+   http://www.lsi.usp.br/~daia/celula/cubo/
+
+
+Rodrigo Siqueira.
+rodrigo@lsi.usp.br
+delirium@ime.usp.br
+
+Here goes the message:
+
+---------- Forwarded message ----------
+Date: Mon, 9 Dec 1996 14:11:56 -0500

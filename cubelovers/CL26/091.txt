@@ -1,0 +1,66 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Dec 28 12:21:48 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA17014
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 28 Dec 1998 12:21:48 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Dec 27 13:14:59 1998
+Message-Id: <003301be31c4$60a798e0$335755ca@Uwe.ue.net>
+From: uwe@ue.net (Uwe Meffert)
+To: "Cube-Lovers" <Cube-Lovers@ai.mit.edu>
+Subject: ADDITIONAL FEATURES FOR OUR PUZZLE SITE
+Date: Mon, 28 Dec 1998 01:47:54 +0800
+
+
+Requesting Help:
+
+For 1999 I will be adding a lot of additional interactive puzzles &
+games to the "Meffert's World of Puzzles" site in several puzzle
+categories enabling a person to challenge a friend or send an
+interactive  puzzle greeting.
+
+Each Puzzle Challenge will be made available for 30 days, with actual
+time taken to solve it being relayed back to the challenger.  After the
+Puzzle Challenge is received, the challenge can be accepted or rejected
+or a counter challenge made.
+
+Puzzle Games will also be available online.  I am hoping to have a very
+large range of categories from very simple games & puzzles such as
+electronic tik tak toe (from single layer to triple layer) with some
+additional new features, the traditional 8 and 15 piece sliding puzzles
+with talking help function, the Orbix & Orbix Junior (12 & 6 lights in 3
+colors) Electronic Reversy etc. etc. etc. to more complex puzzles &
+games.
+
+Whilst I have developed some of these already I will need a lot of help
+from puzzlers worldwide to make this the best FREE interactive really
+Great Puzzle and Games site for 1999.
+
+Please spread the word to anyone you know that can contribute and other
+puzzle site Web Editors that may let me use some of their existing
+puzzles.
+
+I hope to have very unique graphics and concepts to really popularize
+puzzles again, this time as a Free service over the Internet.   To
+appeal to the majority of the people the puzzles must not be too hard,
+yet still be challenging.
+
+Also, I am presently looking for a new Web Editor for our site, our
+present Webmaster Andrew Southern is unfortunately fully tied up until
+July with his studies,  please pass the word along to anyone you think
+my be suitable.
+
+Many Thanks
+
+
+Warm regards and a Very Happy New Year to All.
+Uwe
+
+Uwe Meffert
+P.O. Box 24455, Aberdeen, Hong Kong.
+Tel. 852-2518-3080, Fax. 852-2518-3282
+Email:- uwe@ue.net
+Sites: www.bloodpressure.org,  www.cmd-diagnostics.com
+           www.ue.edu www.ue.net www.ue.net/mefferts-puzzles
+

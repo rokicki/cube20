@@ -1,0 +1,28 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Oct 25 19:23:26 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA26857
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 25 Oct 1999 19:23:26 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3803289F.8337B0D5@zeta.org.au>
+Date: Tue, 12 Oct 1999 23:25:03 +1100
+From: Wayne Johnson <sausage@zeta.org.au>
+To: Cube-Lovers@ai.mit.edu
+Subject: Working with plastics
+References: <37134515.4AD5@zeta.org.au>
+
+If anyone has ever been interested in learning how to work with plastics to
+make your own puzzle designs/prototypes, make interesting modifications to
+your cubes, or you want to be able to learn how to repair your puzzles; I
+have just completed the Twisty megasite.
+
+This is located at:
+http://www.zeta.org.au/~sausage/twistymegasite/
+
+I have quite a lot of new and original resource material here, so it might
+be well worth keeping an eye on it.
+
+Thanks,
+Sausage
+

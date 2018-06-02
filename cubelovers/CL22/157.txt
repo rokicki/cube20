@@ -1,0 +1,56 @@
+From cube-lovers-errors@oolong.camellia.org  Sun Jun  8 17:54:41 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA06037; Sun, 8 Jun 1997 17:54:41 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Sun, 8 Jun 1997 10:31:06 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+cc: Tony Davie <ad@dcs.st-and.ac.uk>, cube-lovers@ai.mit.edu
+Subject: Virtual cubes that you can feel
+In-Reply-To: <Pine.WNT.3.96.970604085505.-409527D-100000@ER123A.PSTCC.CC.TN.US>
+Message-ID: <Pine.SUN.3.95.970608101917.11440J-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+On Wed, 4 Jun 1997, Jerry Bryan wrote:
+
+{Snips}
+}
+}But by contrast, my personal experience is that graphics cube
+}manipulation programs have less charm than the real thing.  There is
+}just something nice about the feel of the thing in your hands, and in
+}its obvious 3-D solidness. 
+
++ + +
+
+ In a recent issue of EE Times, the newspaper for EEs, was a short article
+that points out that we are getting closer to having force-feedback
+interfaces for our (personal) computers; these already exist in research
+machines.
+
+ In such interfaces, you can feel the virtual objects; there are electric
+motors (or the equivalent) to generate computer-controlled forces
+according to the positions of the various parts of the mechanism; combined
+with data about the position and the location of the virtual object, the
+motors turn on when you "make contact" with the virtual object.
+
+ I see no reason why we couldn't define a virtual cube with on-screen
+graphics to let us see it; we would then have the sensation of
+manipulating it. There would be no need for a mechanism (sad to say!) to
+hold the cubies together. (I love the innards...) 
+
+ Of course, there would be a reset button, and provisions to preset any
+arbitrary configuration. This would take some of the fun out of cube
+manipulation, naturally. 
+
+My best regards,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+

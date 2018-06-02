@@ -1,0 +1,20 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri May  1 10:45:38 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id KAA06031; Fri, 1 May 1998 10:45:37 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri May  1 01:54:06 1998
+From: Andrew John Walker <ajw01@uow.edu.au>
+Message-Id: <199805010552.PAA00579@wumpus.its.uow.edu.au>
+Subject: Square like groups
+To: cube-lovers@ai.mit.edu
+Date: Fri, 1 May 1998 15:52:34 +1000 (EST)
+
+	Does anyone have any information on patterns where each
+face only contains opposite colours, but are not in the square
+group?  L' R U2 L R' may be an example. If square moves
+are applied to such patterns to form new groups, how many such groups
+exist?
+	Andrew Walker
+

@@ -1,0 +1,36 @@
+Date: 23 May 1982 16:15:19 EDT (Sunday)
+From: Winston Edmond <edmond at BBN-UNIX>
+Subject: Re: A missing transformation for C^4
+In-Reply-to: Your message of 23 May 1982 01:48 EDT
+To: Alan Bawden <ALAN at MIT-MC>
+Cc: Cube-Lovers at MIT-MC, Edmond at BBN-UNIX, Mann at BBN-UNIX
+
+   The 4x4x4 cube does indeed have a "parity" problem.  It may be described
+approximately thusly:
+   Look at one face of the cube.  Number the cubies across one edge as 1, 2,
+3, 4.   It can be shown that an edge cubie of type two can be either in
+a type 2 position unflipped or in a type 3 position flipped.
+   Next, assuming that the top three planes (or slices) are correct, that
+the corners of the last face are correct, and that the proper color is up for
+all of the edge cubies, then the edge cubies in group 2 and those in group 3
+either have the same "parity" or opposite parity.  The parity groups for the
+edge cubies are defined as 
+            a                           a
+	b       d                   b       c
+	    c                           d
+and any of the twelve variations of each obtainable by one or more rotations
+of three elements at a time.  (Each letter represents a different color.)
+   When solving the cube, the cubies of group 2 and group 3 will either end up
+with the same or opposite parity.  If the parity is the same, the cube can be
+solved straightforwardly.  (I assume people have discovered the transforms that
+invert the parity of both groups at the same time.)
+   However, when the parity is opposing, there is only one "transform" that
+will correct the problem.  People accustomed to thinking of a useful transform
+as one which performs some limited rearrangement of cubies while leaving
+everything basically unchanged will find that none of their transforms is
+sufficient to solve the problem.
+   Credit goes to Bill Mann for discovering the "transform" that solves the
+problem.  I leave it up to him to describe the solution if he wishes to.
+ -WBE
+
+

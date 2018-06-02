@@ -1,0 +1,66 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Nov 12 16:10:33 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA02082; Tue, 12 Nov 1996 16:10:33 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <199611121842.NAA17030@life.ai.mit.edu>
+From: Pete Beck <pbeck@pica.army.mil>
+To: cube-lovers@ai.mit.edu
+Subject: Fw: [Dan Galvin:  Thought for Tuesday, Nov 12, 1996]
+Date: Tue, 12 Nov 1996 13:32:50 -0500
+X-Msmail-Priority: Normal
+X-Priority: 3
+X-Mailer: Microsoft Internet Mail 4.70.1155
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+
+
+----------
+> To: pbeck@qa.pica.army.mil
+> Subject: [Dan Galvin:  Thought for Tuesday, Nov 12, 1996]
+> Date: Tuesday, November 12, 1996 12:40 PM
+> 
+> 
+> ----- Forwarded message # 1:
+> 
+> Received: from postal.tamu.edu by COR6.PICA.ARMY.MIL id ab27608;
+>           12 Nov 96 9:44 EST
+> Received: from postal (postal.tamu.edu [128.194.103.24]) by
+postal.tamu.edu (8.7.5/8.7.5) with SMTP id IAA13954; Tue, 12 Nov 1996
+08:35:44 -0600 (CST)
+> Received: from TAMVM1.TAMU.EDU by TAMVM1.TAMU.EDU (LISTSERV-TCP/IP
+release
+>           1.8b) with spool id 9135 for TFTD-L@TAMVM1.TAMU.EDU; Tue, 12
+Nov 1996
+>           08:33:52 -0600
+> Received: from TAMVM1 (NJE origin SMTPH@TAMVM1) by TAMVM1.TAMU.EDU (LMail
+>           V1.2a/1.8a) with BSMTP id 5159; Tue, 12 Nov 1996 04:02:02 -0600
+> Received: from tam2000.tamu.edu by tamvm1.tamu.edu (IBM VM SMTP V2R2)
+with TCP;
+>           Tue, 12 Nov 96 04:02:01 CST
+> Received: (from galvin@localhost) by tam2000.tamu.edu (8.8.2/8.8.2) id
+EAA02104
+>           for TFTD-L@TAMVM1.TAMU.EDU; Tue, 12 Nov 1996 04:02:02 -0600
+(CST)
+> Approved-By:  Dan Galvin <galvin@TAM2000.TAMU.EDU>
+> Message-ID:  <199611121002.EAA02104@tam2000.tamu.edu>
+> Date:         Tue, 12 Nov 1996 04:02:02 -0600
+> Reply-To: Dan Galvin <galvin@tam2000.tamu.edu>
+> Sender: THOUGHT FOR THE DAY <TFTD-L@TAMVM1.TAMU.EDU>
+> From: Dan Galvin <galvin@tam2000.tamu.edu>
+> Subject:      Thought for Tuesday, Nov 12, 1996
+> To: Multiple recipients of list TFTD-L <TFTD-L@TAMVM1.TAMU.EDU>
+> 
+>                                                                       *
+> Easiest Color to Solve on a Rubik's Cube:
+>         Black.  Simply remove all the little colored stickers on the
+>         cube, and each of side of the cube will now be the original
+>         color of the plastic underneath -- black.  According to the
+>         instructions, this means the puzzle is solved.
+>                 -- Steve Rubenstein
+> 
+> ----- End of forwarded messages
+
+

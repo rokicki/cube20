@@ -1,0 +1,11 @@
+CMB@MIT-ML 07/15/80 15:06:58
+To: cube-lovers at MIT-MC
+I had known about the center faces being turnable for a while, and have a cube
+that I have marked up so I could work on solving the center face problem.  In
+general, I solve the cube except for the center faces (since that was what I
+already knew how to do), and then have three transforms:  one that will turn
+any center face 180 degrees and leave everything else unchanged, one that will
+turn one center face 90 in one direction, and an adjacent center face 90 in
+the other direction, and the last turns two adjacent center faces 90 in the
+same direction.   My transforms are rather long and rep(it)*ous.
+

@@ -1,0 +1,7 @@
+Date: 21 February 1981 00:14-EST
+From: Ed Schwalenberg <ED at MIT-AI>
+Subject: A lighter note
+To: Greenberg.Symbolics at MIT-MULTICS
+cc: CUBE-HACKERS at MIT-AI
+
+Isn't this the C-Machine that you all are working on?

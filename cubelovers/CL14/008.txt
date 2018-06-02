@@ -1,0 +1,43 @@
+From ccw@eql12.caltech.edu  Fri Dec 16 13:55:58 1994
+Return-Path: <ccw@eql12.caltech.edu>
+Received: from EQL12.Caltech.Edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22563; Fri, 16 Dec 94 13:55:58 EST
+Date:    Fri, 16 Dec 94 10:54:10 PST
+From: ccw@eql12.caltech.edu
+Message-Id: <941216105410.25001944@EQL12.Caltech.Edu>
+Subject: A comment on Cyclic Decomposition
+To: cube-lovers@life.ai.mit.edu, mark.longridge@canrem.com
+X-St-Vmsmail-To: ST%"cube-lovers@life.ai.mit.edu"
+
+Mark Longridge proposes looking for processes that can be expressed
+in the form
+         (S1 S2 S3... SX) ^N = Goal State
+ He calls such a processes "Cyclicly Decomposable".
+
+I think that the results would be far richer if there was also allowed
+to be one cube rotation in the subprocess.
+
+I know of 2 examples.
+I will use a * after a move to represent a full cube move.
+
+I am a little rusty on this one, and I don't have a cube here to verify it,
+but
+        (L' R F*) ^ 6           (12q)
+is (or should be, if I remember it correctly) the Pons Asinorum.
+We also know that this pattern takes at best 12q, so it is actually optimum.
+The existance of this process has always made me wonder how many
+different ways there are to do the Pons, especially with different face
+effects in the Supergroup.
+
+The other one is my favorite process.
+        (L D L' R' F'*)^4       (16q)
+This twists 3 corners on one face.
+I suspect this one is also optimum as I have never heard of a process that
+twists 3 corners in less than 16q.
+It has one very interesting feature, L' R' F'* can be done as 1 combined
+two-hand motion.
+A casual observer may think you are only turning the cube and not see the
+face turns involved.  This makes the process look magic, achieving a state
+in far fewer apparant moves then people think is possible.
+This process is so fast and easy to remember that it is what I use while
+solving.
+

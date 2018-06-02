@@ -1,0 +1,93 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Fri Nov 11 16:55:11 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08434; Fri, 11 Nov 94 16:55:11 EST
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <86964-5>; Fri, 11 Nov 1994 16:54:37 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA18346; Fri, 11 Nov 94 16:51:10 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1BE0A3; Fri, 11 Nov 94 16:43:17 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: <U, R> Searches
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.858.5834.0C1BE0A3@canrem.com>
+Date: Fri, 11 Nov 1994 15:36:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+
+Jerry asks, in his message of Sun, 6 Nov 1994 09:15:37 (EST):
+
+>This is not a shift invariance question, but rather two
+>questions about your searches.  One question is, do you perform
+>separate searches for q-turns and h-turns, or only for h-turns?
+
+The <U, R> group searches are q-turns only, but if I see a way to
+compress it a bit by eye I do so. For example:
+
+UR2 = U3 R3 U3 R2 U1 R1 U1 R3 U3 R1 U1 (R1 U3)^2 R3 U3
+
+...was reduced to
+
+UR2 = U2 R3 U3 R2 U1 R1 U1 R3 U3 R1 U1 (R1 U3)^2 R3
+
+> The second question is, how on earth do you keep track
+> of all those processes in your searches?
+
+ With the computer hardware I'm using (486-DX40 with 4 megs) and
+my current algorithm I created a file "ur.dat" which is a flat
+ascii file. It contains all the processes which generate distinct
+positions up to 12 q turns. I also have the file "ursum.is" which
+contains all the `cubesums' for each element of <U, R>.
+
+ My program "x3bin.exe" loads the "ursum.is" database into memory
+and it does a binary search on the cubesums to try and find a
+match for the current position. If not found, it turns the
+current cube and tries again, with longer and longer sequences
+until a match is found.
+
+ Using this method I have found a process for all <U, R> positions
+with the longest being 22 q turns (so far). The hardest positions
+can take as long as a couple of hours. I have no idea what the
+antipodes look like at this time, but I'll probably try the
+random approach soon.
+
+
+Jerry continues:
+
+>p183 6 Twist      R1 U3 R2 U3 R1 D3 U3 R1 U3 R3 D2 R3 U3 R1 D3 U3
+>                  (18 q  or  16 h  moves)
+                    ^^^^^^^^^^^^^^^^^^^^^
+
+ This process was found using the Kociemba algorithm in a program
+written by Dik Winter, which I ran on a Sun4. This program uses
+h turns in it's searches and uses all 6 generators.
+
+ After inspecting the original process found by the program,
+I was able to manually reduce it somewhat, resulting in p183 above.
+
+The original process....
+
+Solution (13+ 4=17): R1 U1 D1 R3 U1 R1 D2 R1 U1 R3 U1 D1 R3 U1 R2 U1 R2
+That is (or as Dan would say i.e.) 13 h turns in phase 1 and 4 turns
+in phase 2. Hmmm, looks like I used the inverse of the original.
+
+
+Jerry Continues:
+
+>I have been asked how I search
+>so many positions.  I have answered the question before, but I guess
+>another part of the answer that I haven't mentioned is that I don't
+>keep up with processes at all, only positions. If I am asked to provide
+>processes, I can do so, but it is a very painful task.  I have thought
+>about keeping up with processes, but I am quite sure that if I did
+>so it would reduce the number of positions I could search.
+
+ Well, that explains the fact you counted the number of antipodes but
+had no processes for them, but do you know what they look like?
+If you can tell me what one of the 87 positions at 25 q turns
+looks like, I should be able to generate a sequence for it.
+
+-> Mark <-
+Email: mark.longridge@canrem.com
+

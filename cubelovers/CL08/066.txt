@@ -1,0 +1,27 @@
+From reid@math.berkeley.edu  Mon May 18 09:02:04 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA29031; Mon, 18 May 92 09:02:04 EDT
+Received: from jacobi.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA10968; Mon, 18 May 92 06:02:02 PDT
+Date: Mon, 18 May 92 06:02:02 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205181302.AA10968@math.berkeley.edu>
+To: cube-lovers@ai.mit.edu
+Subject: kociemba's algorithm
+
+after a long struggle, it appears that i finally have kociemba's
+algorithm working properly, with the improvement that dik mentioned.
+the first pattern i tested was "anaconda" (bandelow's terminology),
+which dik called "walker's worm" (singmaster's terminology?).
+(i think that's the same pattern.)  within 10 minutes, most of which
+was initializing tables, the program produced the following 14 quarter
+turn maneuver, which is better (in the quarter turn metric) than the two
+maneuvers bandelow gives in his book.  here it is:
+
+anaconda: (14 qt) B1 R1 D3 R3 F1 B3 D1 F3 U1 D3 L1 F1 L3 U3.
+
+more results as they come in.  my program isn't quite finished yet;
+hopefully i won't screw it up attempting to improve it.
+
+mike
+

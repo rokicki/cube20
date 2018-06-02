@@ -1,0 +1,50 @@
+Date: 27 Jul 1981 1111-EDT
+From: PDL at MIT-DMS (P. David Lebling)
+To: DUFTY at MIT-MC
+Cc: CUBE-LOVERS at MIT-MC
+In-reply-to: Message of 27 Jul 81 at 1029 EDT by DUFTY@MIT-MC
+Subject: Regional Cubing Championship
+Message-id: <[MIT-DMS].205137>
+
+According to the Boston Globe, the fastest times were;
+
+	48.31 sec. - Jonathan Cheyer, 10
+	51.16 sec. - Jeffery Varafano, 14
+	51.59 sec. - Peter Pezaris, 11
+(these are for the "junior" division; under 17).  The fastest
+"seniors" were;
+
+	69.64 sec. - Herbert H. Thorp, 17
+	69.83 sec. - Charles Hawes
+	77.26 sec. - Rick Miranda
+
+Jordan Marsh says they sell about 2000 cubes per week.  As the
+Jordan Marsh V.P. who was standing next to me said, "You can't
+buy this kind of publicity!"
+
+The competition was organized reasonably well, consisting of
+three rounds:
+
+	1) The qualifying round consisting of being able to 
+solve a cube in under three minutes.  No official timing other
+than "under three minutes" was done in this round.  About 20
+people were tested per qualifying round, and from 20-30% qualified.
+The cubes were allegedly "broken in" in advance, and all had the
+same color orientation.  They were re-randomized between rounds.
+
+	2) Those who qualified in the first round were given two
+tries to solve a random cube in under two minutes.
+
+	3) Three "patterned" cubes were solved (presumably everyone
+got the same patterns).  I didn't see this round so I don't know
+the details of it.
+
+	My impression of the qualifying rounds was that those who
+qualified differed from those who didn't largely in speed.  They
+didn't seem to use any macros I haven't seen, they just did them
+extremely fast and rarely paused more than fractions of a second
+to decide what to do next.  The fact that the three top finishing
+juniors all had better times than the three top-finishing seniors
+indicates that competitive cubing is a young person's game.
+
+

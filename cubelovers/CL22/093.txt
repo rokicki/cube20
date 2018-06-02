@@ -1,0 +1,113 @@
+From cube-lovers-errors@oolong.camellia.org  Sat May 31 19:11:01 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id TAA28175; Sat, 31 May 1997 19:11:01 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Sender: Haym Hirsh <hirsh@cs.rutgers.edu>
+Date: Sat, 31 May 97 19:07:01 EDT
+From: Haym Hirsh <hirsh@cs.rutgers.edu>
+Reply-To: Haym Hirsh <hirsh@cs.rutgers.edu>
+To: Dan Hoey <Hoey@aic.nrl.navy.mil>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: More on Korf's method
+In-Reply-To: Your message of Fri, 30 May 97 23:15:17 EDT
+Message-ID: <CMM-RU.1.5.865120021.hirsh@athos.rutgers.edu>
+
+> Thanks very much for the explanation.  It agrees with my understanding
+> of the paper, as far as that goes.  But do you have a succinct
+> explanation of what makes IDA* more tractable than A*?  That's the
+> part I missed.
+
+Here are a couple of attempts to explain why and how IDA* is a win over A*.
+In my attempt to generate a description for the layman I tried to err
+on the side of saying too much rather than too little -- my apologies
+if I belabor the obvious for anyone.
+
+The highest-level explanation is that A* may need to store a number of
+intermediate results whose number is some exponential function of the
+length of the solution -- e.g., b^l: l is the solution length, b,
+roughly speaking, is the number of new cubes you can get from a given
+cube, aka the "branching factor", and "^" means exponentiation --
+whereas IDA* will only store a number of intermediate results whose
+number is a linear function of the solution length -- e.g., b*l.  The
+apparent paradox is that, to do this, IDA* does redundant work --
+exploring some intermediate results many times because of its inferior
+"bookkeeping".  However, it is usually the case that the extra work is
+more than paid off by memory savings.  This is particularly true for
+Rubik's cube, since the higher the branching factor (i.e., roughly 18
+for the cube if you count crudely), the less the redundant work.
+
+In a bit more detail, the difference between A* and IDA* is similar to
+the difference between breadth-first search and depth-first iterative
+deepening.  Imagine you want to generate all cubes that are reachable
+in d steps from the start.  What you can do is generate all cubes that
+are one step away, then generate all that are one step away from those
+that are one step away (resulting in a list of all that are two steps
+away), then all that are one step away from those that are two steps
+away (resulting a list of all that are three steps away), etc.  At the
+final step in this process you have a list of all cubes that are d-1
+steps away, and you generate all cubes that are one step away from any
+item in this list.  This generates all cubes that are d steps away.
+The process is known as breadth-first search.  It's main problem is
+that the list of all cubes that are d-1 steps away will have size
+roughly b^(d-1).
+
+Depth-first search, on the other hand, generates all cubes that are
+one step away from start, puts all but one of them (i.e., b-1 of them)
+on a list, and takes the one that wasn't placed on the list and
+(recursively) generates all cubes that are d-1 steps away from it.
+When you are done with this first depth-one cube, take one of the
+other cubes that are one step from start (which is one of those
+stashed away in the afore-mentioned list) and do the same thing,
+generating, in turn, all cubes that are d-1 steps away from it.  This
+continues until all the items that were put on the list have been
+explored -- i.e., they have had all cubes at depth d-1 from them
+returned.  This is depth-first search.  Because at each recursion
+level it saves only b-1 things, at worst it winds up saving roughly
+(b-1)*d cubes in its search.
+
+Now imagine you have a cube that you know is at most (but not
+necessarily exactly) d steps from the start, and you want to know what
+the shortest solution to it is.  One approach would be to do a
+breadth-first search to depth 1 and see if you have it, continue to
+depth 2 and see if you have it, etc., until you reach depth d.  A
+second possible approach would appear to be to use depth-first search
+to depth d, but this is not guaranteed to give a shortest solution.
+To see this, imagine that the cube is two moves from start, but it is
+also four moves away if you make the wrong first move.  If the result
+of that wrong first move is the cube that depth-first search chooses
+to "expand" first (with the "correct" one waiting its turn on the list
+of cubes to be seen later if you haven't found your cube), you will
+find your desired cube via the depth-four solution.  You didn't find
+the depth-two solution.
+
+This problem with depth-first search leads to the idea of depth-first
+iterative deepening.  The basic idea of iterative deepening is simple.
+First do a depth-first search to depth 1.  If you haven't found it,
+throw away all your work and start over, doing a depth-first search to
+depth 2.  Again, if you haven't found it, throw away all your work and
+start over, doing a depth-first search to depth 3.  This continues,
+until you hit the right depth for finding it.  This process is
+guaranteed to find the shortest solution, but seems silly,
+regenerating everything you did in the previous depth-first search
+when you add one to the depth.  The interesting observation that makes
+this a win is that the percent of overall effort spent on previous
+depths is only a small fraction of the effort spent on the final
+depth-first search.  So you penalize yourself a little redundancy, but
+are rewarded with much more modest and realistic memory requirements.
+
+The step from this to A* vs IDA* is actually not too large.  The basic
+idea is to use depth-first search, but instead of using a depth bound
+d, instead don't go any farther from a cube if the sum of the number
+of steps to get to it plus the guess on how many more steps are needed
+to get to a solved cube exceeds some threshold.  You start with a
+small threshold, and slowly keep increasing it, each time starting
+over again from scratch, until the threshold is just barely high
+enough to find the solution.  If you do this in the correct way (for
+example, upping the threshold each time in the appropriate fashion
+based on the values you observed in your previous iteration), you can
+prove that the solution IDA* finds is the shortest possible (as long
+as the solution-length guesser never over-estimates the correct value).
+
+
+

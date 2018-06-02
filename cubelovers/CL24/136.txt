@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jan 19 23:57:43 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id XAA09847; Mon, 19 Jan 1998 23:57:42 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Jan 19 05:27:26 1998
+Date: Mon, 19 Jan 1998 10:25:32 +0000 (GMT)
+From: Jonathan Tuliani <jont@dcs.rhbnc.ac.uk>
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: MEGAMINX
+Message-Id: <Pine.OSF.3.96.980119102221.31083B-100000@platon>
+
+I'm glad my comments regarding MEGAMINX seemed to have sparked interest.
+As someone points out, and as I realised over the weekend, there are of
+course 15 pairs of `twin' edges, not 10 as I stated before.  Of course the
+conjecture I made (suggested by one correspondent to be true, but well
+beyond my group theory) would mean there are then 2^{15-1} = 16384
+`distinct' complete solutions to this version of the puzzle!
+
+I'll ask my friend where he got the MEGAMINX and the instruction booklet
+from.  He said there were a fair few other similar puzzles there as well.
+
+Jonathan Tuliani
+
+Date: Mon, 19 Jan 1998 18:14:56 +0000 (GMT)

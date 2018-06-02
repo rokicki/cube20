@@ -1,0 +1,27 @@
+Date: 24 July 1981 2220-EDT (Friday)
+From: Dan Hoey at CMU-10A
+To: Cube-Hackers at MIT-MC
+Subject:  A new problem
+Message-Id: <24Jul81 222049 DH51@CMU-10A>
+
+
+        Suppose you buy a new cube and the arrangement of the
+colors is different from your old cube.  Naturally, you want the
+new one to be like the old, so you decide to switch the colortabs
+around.
+
+A.  What is the smallest number of faces you have to recolor?
+
+B.  What is the smallest number of colortabs you have to move?
+
+        Note the hidden variable:  the permutation of the new cube
+with respect to the old one.  This variable has thirty values,
+including the identity.  There are two kinds of answers I am
+interested in.
+
+1.  A minimax value -- a recoloring algorithm and a proof of its
+        optimality.
+
+2.  A probability distribution of optimal recolorings.
+
+        Any takers?

@@ -1,0 +1,45 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu May 21 17:26:51 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id RAA13891; Thu, 21 May 1998 17:26:50 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu May 21 14:06:58 1998
+Message-Id: <19980521180258.25636.qmail@hotmail.com>
+From: "Philip Knudsen" <philipknudsen@hotmail.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Cristoph's Jewel internal mechanism
+Date: Thu, 21 May 1998 11:02:57 PDT
+
+The Jewel is basically an octahedron, but the vertex pieces are absent.
+This does not make the puzzle easier. Apart from the jewel i also have a
+taiwanese and a polish made octahedreon (with vertex pieces). A third
+version exists, made by Uwe Meffert, but quite rare. The turning quality
+of the jewel is very close to that of the polish made octahedron, so i
+believe that is where the jewel originates (Correct me if i'm wrong,
+Christoph!)
+The disassembled polish octahedron has a mechanism very close to that of
+the Pyraminx puzzle, also by Uwe Meffert. It is not a cube mechanism.
+
+>The Christoph's Magic Jewel is a disguised Rubik's cube (cf.
+Metamagical
+>Themas by Douglas R. Hofstadter p.339 : Stan Isaacs's coloring scheme)
+>but what about the internal mechanism? Is it simply a Rubik's cube with
+>only edge and centre cubes or is the mechanism different from the
+>classic cube.
+>I haven't managed to disassemble the Magic Jewel yet.
+>
+>Geoffroy.VanLerberghe@ping.be
+
+____________________________________
+Philip K
+recording and performing artist
+Vendersgade 15, 3th
+DK - 1363 Copenhagen K
+Phone:  +45 33932787
+Mobile: +45 21706731
+E-mail: philipknudsen@hotmail.com
+E-mail: skouknudsen@get2net.dk
+E-mail: skouknudsen@email.dk
+E-mail: 4521706731@sms.tdm.dk (leave subject blank!)
+

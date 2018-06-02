@@ -1,0 +1,22 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Dec  9 00:04:32 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA10753; Mon, 9 Dec 1996 00:04:31 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sun, 8 Dec 96 19:18:28 EST
+Message-Id: <9612090018.AA11386@MIT.MIT.EDU>
+X-Sender: dokon@po9.mit.edu (Unverified)
+X-Mailer: Windows Eudora Pro Version 2.1.2
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Dennis Okon <dokon@mit.edu>
+Subject: Re: Mark Longridge's Web Page
+
+I just found out that Mark's page is now at: http://web.idirect.com/~cubeman/
+
+- Dennis Okon
+dokon@mit.edu
+
+
+

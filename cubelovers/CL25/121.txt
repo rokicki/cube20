@@ -1,0 +1,96 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug 24 15:32:46 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id PAA02566; Mon, 24 Aug 1998 15:32:45 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sun, 23 Aug 1998 23:19:35 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: "Basic" vs. Superflipped Positions
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.980823231032.2685A-100000@PSTCC6.PSTCC.CC.TN.US>
+
+I recently commented on the fact that half of Mike Reid's X-symmetric
+positions were "basic" and the other half were superflipped versions of
+the first half.  I further commented that this was true for all positions
+associated with any symmetry group -- half are "basic", and the other half
+are superflipped versions of the first half.  Well, I am not quite sure
+that this is true in general.  Or more correctly, I am not sure you can
+always tell the "basic" version apart from the superflipped version.
+
+Consider any two positions x and xf, where f is the superflip.  We would
+say that x is the "basic" position and xf is the superflipped position.
+But if we define y=xf, then y is the "basic" position and yf is the
+superflipped position, and it is also true that x=yf.
+
+So which is the "basic" position, x or y? It appears that there is no way
+to tell.  Yet when you look at X-symmetric positions, it is trivial for
+the eye to see which ones are "basic", and which ones are superflipped.
+So what is going on here?
+
+I briefly (*very* briefly) hoped to find a unique subgroup H of G with
+index 2 which did not contain superflip.  Then, it would have been natural
+to call H the "basic" positions and Hf the superflipped positions.  But it
+is well known to Cube-Lovers that the only subgroup of G with index 2 is
+the subgroup consisting of those positions where are an even number of
+quarter turns from Start.  And this subgroup does contain the superflip.
+Therefore, there seems to me to be little possibility of a general way to
+distinguish between "basic" positions and superflipped positions.
+
+Upon further reflection, it seems to me that there is a natural way to
+tell "basic" positions apart from superflipped positions for some symmetry
+groups but not for others.  I have not examined all 98 symmetry groups (33
+symmetry classes) of the cube in this regard, but I have looked at a few
+of them, and can give a few examples.
+
+Before looking at examples, we need to look at a subtle but important
+point.  We may think of a position x as consisting of corners and edges
+separately, so that x=x[c]*x[e].  Similarly, we may look at the symmetry
+of the corners and the edges separately, as in Symm(x[c]) and Symm(x[e]).
+The equation that relates the symmetries is
+Symm(x)=Symm(x[c]*x[e])=Symm(x[c]) intersect Symm(x[e]).  But because
+Superflip affects only the edges, we need consider only Symm(x[e]) when we
+compare "basic" positions to superflipped positions.
+
+Example 1.  Suppose Symm(x[e])=M.  Then it seems natural to view the
+position as "basic" if all four edge facelets on each face are the same
+color, and to view the position as superflipped otherwise. The eye sees
+this distintion very clearly.
+
+Example 2.  Suppose Symm(x[e])=X1.  X1 is the symmetry group in Dan Hoey's
+taxonomy which preserves the U-D axis.  X2 and X3 are conjugate subgroups
+preserving the F-B and R-L axes, respectively.  X is the symmetry class
+consisting of X1, X2, and X3.  All of Mike Reid's X-symmetric positions
+are in particular X1-symmetric.  For X1, it seems natural to view the
+position as "basic" if all four edge facelets on the U and D faces are the
+same color, and to view the position as superflipped otherwise.  For X2,
+the same rule would apply to the F and B faces.  FOr X3, the same rule
+would apply to the R and L faces.  The eye sees this distinction very
+clearly.
+
+Example 3.  Suppose Symm(x[e])={i,v}, where v is the central inversion.
+For such a position, any particular edge cubie could be placed anywhere,
+but each edge cubie would have to be placed diametrically opposite its
+diametrically opposed edge cubie.  For example, if cubie uf were placed in
+the rd cubicle, then cubie db would have to be placed in the lu cubicle,
+etc.  Also, for Symm(x[e]) to be {i,v} the edges could not have any
+additional symmetry.  In this case, I don't think there is any natural way
+to distinguish between a "basic" position and a superflipped position.
+
+Example 4. Suppose Symm(x[e])=I={i}.  In other words, the edges have no
+symmetry.  In this case, I don't think there is any natural way to
+distinguish between a "basic" position and a superflipped position.
+
+Example 5. Suppose Symm(x[e])={i,c_u2}, where c_u2 is a 180 degree whole
+cube rotation around the U-D axis.  In this case, the position would be
+"basic" if opposite edge facelets on the U face were the same color and if
+opposite edge facelets on the D face were the same color, and would be
+superflipped otherwise.  The eye sees this distinction very clearly.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

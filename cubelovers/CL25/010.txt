@@ -1,0 +1,33 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 17 10:46:50 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id KAA04737; Tue, 17 Mar 1998 10:46:50 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sat Mar 14 03:49:32 1998
+Message-Id: <3.0.3.32.19980313231431.00835810@netcom13.netcom.com>
+Date: Fri, 13 Mar 1998 23:14:31 -0800
+To: Mark Atwood <zot@ampersand.com>
+From: Ray Tayek <rtayek@netcom.com>
+Subject: Re: Blindfold Cube-solving
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <v667ljbvbk.fsf@colon.dev.ampersand.com>
+
+At 01:47 PM 3/12/98 -0500, Mark Atwood wrote:
+>...
+>I have heard of something like "cubes for the blind". Probably either
+>have a different textured material attached to each cubie face, or a
+>Braille glyph embossed into each cubie face.
+>...
+
+my wife teaches blind kids. do you know where i could get some braile cubes?
+
+thanks
+
+Ray (will hack java for food) http://home.pacbell.net/rtayek/
+hate Spam? http://www.compulink.co.uk/~net-services/spam/
+
+[ Moderator's note:  There are quite a few notes in the archives about
+  adding tactile labels to cubes.  Adding characters in Braille should
+  be about the easiest thing to do--I'm sure she has a DYMO embosser. ]
+

@@ -1,0 +1,13 @@
+Date: Sat 26 Nov 83 22:35:59-EST
+From: Tai <Jin@COLUMBIA-20.ARPA>
+Subject: cube solvers
+To: cube-lovers@MIT-MC.ARPA
+cc: Jin@COLUMBIA-20.ARPA
+
+
+hi, are there any programs out there that solve the cube?  i would like
+to get a copy of the source if possible.  also, are there any general
+methods for solving the cube?
+
+thanks...tai
+-------

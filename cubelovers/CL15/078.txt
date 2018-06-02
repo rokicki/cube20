@@ -1,0 +1,73 @@
+From mreid@ptc.com  Fri Apr 14 17:30:05 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29204; Fri, 14 Apr 95 17:30:05 EDT
+Received: from ducie by ptc.com (5.0/SMI-SVR4-NN)
+	id AA11438; Fri, 14 Apr 95 17:22:59 EDT
+Received: by ducie (1.38.193.4/sendmail.28-May-87)
+	id AA04391; Fri, 14 Apr 1995 16:03:31 -0400
+Date: Fri, 14 Apr 1995 16:03:31 -0400
+From: mreid@ptc.com (michael reid)
+Message-Id: <9504142003.AA04391@ducie>
+To: cube-lovers@ai.mit.edu, mark.longridge@canrem.com, CRSO.Cube@canrem.com
+Subject: more on the slice group
+Content-Length: 2394
+
+mark's post got me thinking ...  i made a quick hack for the slice
+group (which is easy to represent by fixing the corners).  my
+figures concur with his.  i wanted to see the number of local maxima.
+
+  90 degree     number of      number of
+ slice turns    positions     local maxima
+
+      0              1              0
+      1              6              0
+      2             27              0
+      3            120              0
+      4            287              0
+      5            258             24
+      6             69             69
+
+as i'd hoped, there are local maxima at distance 5.  one such is:
+
+          (FB') (RL') (U'D) (R2L2)       =
+          (R2L2) (F'B) (RL') (UD')       =
+          (R'L) (FB') (RL') (F'B) (U'D)  =
+          (U'D) (F'B) (RL') (U'D) (F'B)  =
+          (R'L) (UD') (F'B) (RL') (FB')
+
+(actually i think all are equivalent to this one under symmetries
+of the cube.)
+
+this is especially interesting because it is a local maximum in the
+full cube group (quarter turn metric) at distance  10q.  according
+to jerry bryan's results, there are no local maxima within  9q
+of start, so this gives the closest local maximum.  (there may well
+be others.)
+
+
+i also calculated for the other slice metric.  in this metric,
+neighbors can have the same distance from start, so a "strong"
+local maximum is a position all of whose neighbors are strictly
+closer to start.  a "weak" local maximum is a position none of
+whose neighbors are further from start.
+
+ 90 or 180 degree     number of     number of strong    number of weak
+   slice turns        positions       local maxima       local maxima
+
+        0                  1               0                   0
+        1                  9               0                   0
+        2                 51               0                   0
+        3                247               0                   7
+        4                428               0                 212
+        5                 32               8                  32
+
+the strict local maxima are all equivalent under symmetries of
+the cube.  they are the composition of pons asinorum with any
+of the eight positions called "six dots".
+
+in the same way, local maxima (within the antislice group) in the
+90 degree antislice metric are local maxima in the full cube group
+(quarter turn metric).  perhaps mark will tell us more about this.
+
+mike
+

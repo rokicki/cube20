@@ -1,0 +1,44 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov  7 13:52:09 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA26675; Fri, 7 Nov 1997 13:52:07 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cubeman@idirect.com Thu Nov  6 23:15:29 1997
+Message-Id: <34629664.2B5E@idirect.com>
+Date: Thu, 06 Nov 1997 23:17:40 -0500
+From: Mark Longridge <cubeman@idirect.com>
+To: cube lovers <cube-lovers@ai.mit.edu>
+Subject: Availablility of Rubik's Cube
+
+I've followed the thread about the availibility of Rubik's Cubes.
+ 
+Ideal Toy is once again manufacturing Rubik's Cube for the mass market. 
+New packaging (with the correct number of permutations) has been 
+purchased by myself in a Canadian Toys R Us store just recently.
+
+I know nothing of the Oddz-On cubes, but the new Ideal Toy cubes are
+wonderful. The new cubes sport a new logo and brighter colours, but
+they use the same colour arrangement as the Ideal Cubes of old.
+
+There is also an official site for Rubik's Cube at http://www.rubiks.com
+Unfortunately they are not answering their mail and are attracting a
+mostly younger crowd. They are also using Karl Hornell's rubik's cube
+java applet (sporting the incorrect colour arrangement I might add) 
+without giving any mention of Karl's name. It is an exact byte for 
+byte copy. Although Karl does give out the Rubik's Cube java applet
+as freeware, I think he deserves credit from the Ideal web site.
+
+As for my own web site (which does sport Karl's java applet with the
+correct standard colouration, and also BEFUDDLER support!) I intend
+to record the entire chronology of all the cube contests from every
+country, including all the records from the World Championships.
+
+My Rubik's Cube web page is currently http://web.idirect.com/~cubeman
+
+If anyone has any information about the cube contests I have missed,
+please email me. Thanks!
+
+-> Mark Longridge <-
+The Cubeman of the Internet
+

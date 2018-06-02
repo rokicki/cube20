@@ -1,0 +1,25 @@
+From wft@math.canterbury.ac.nz  Wed Jun 10 00:37:06 1992
+Return-Path: <wft@math.canterbury.ac.nz>
+Received: from CANTVA.CANTERBURY.AC.NZ by life.ai.mit.edu (4.1/AI-4.10) id AA08570; Wed, 10 Jun 92 00:37:06 EDT
+Received: from math.canterbury.ac.nz by csc.canterbury.ac.nz (PMDF #12052) id
+ <01GL2137V0CW90NKNZ@csc.canterbury.ac.nz>; Wed, 10 Jun 1992 16:36 +1200
+Received: by math.canterbury.ac.nz (4.1/SMI-4.1) id AA27010; Wed,
+ 10 Jun 92 16:36:33 NZS
+Date: Wed, 10 Jun 92 16:36:33 NZS
+From: wft@math.canterbury.ac.nz (Bill Taylor)
+Subject: Name query.
+To: Cube-Lovers@life.ai.mit.edu
+Message-Id: <9206100436.AA27010@math.canterbury.ac.nz>
+X-Envelope-To: Cube-Lovers@life.AI.MIT.EDU
+
+Can anyone tell me:-
+
+Why is the "Pons Asinorum" pattern so called ?
+
+---------------------------------------------------------------------
+      Bill Taylor              wft@math.canterbury.ac.nz 
+
+Artificial intelligence beats real stupidity.
+---------------------------------------------------------------------
+
+

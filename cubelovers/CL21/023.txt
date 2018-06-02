@@ -1,0 +1,102 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Oct  2 21:06:02 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id VAA02598; Wed, 2 Oct 1996 21:06:02 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 2 Oct 1996 20:14:55 -0400
+From: der Mouse <mouse@holo.rodents.montreal.qc.ca>
+Message-Id: <199610030014.UAA03565@Collatz.McRCIM.McGill.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: Re: cube programs, etc
+
+> Date: Mon, 2 Sep 1996 22:50:07 +0300 (IDT)
+
+Guess who's going through backed-up mail... :-)
+
+> I have a computer program that learn to solve the 2X2X2 cube.  I mean
+> that after several hours of 'learning' the program knows to solve any
+> legal start position of this cube.  Before learning the program solve
+> the cube after about 15 minuets, after learning it takes about 5
+> seconds.
+
+Interesting.  Is the program available?
+
+> The letter from Prof Joyner made me think about the following things:
+> 1. Does anyone have a program (in C) that can take a move (a string
+>    or a line from a file) and show it on the display.
+
+Well, I have something of the sort, though it's for the 3-Cube.  For
+example, here's first turning the R face once, then illustrating the
+Spratt wrench, first defining a slice turn (and checking it), then
+using it to write the wrench more simply than it would be if done
+directly with the primitives.
+
+% twist
+> R
+Cube:
+              u u f
+              u u f
+              u u f
+        l l l f f d r r r u b b
+        l l l f f d r r r u b b
+        l l l f f d r r r u b b
+              d d b
+              d d b
+              d d b
+Cycles: (ur,br,dr,fr) (ubr,bdr,dfr,fur) [4]
+Already centered
+> .set SLICER CUBER R' L
+`SLICER' defined
+> SLICER
+Cube:
+              u f u
+              u f u
+              u f u
+        l l l f d f r r r b u b
+        l l l f d f r r r b u b
+        l l l f d f r r r b u b
+              d b d
+              d b d
+              d b d
+Cycles: (u,b,d,f) (ub,bd,df,fu) [4]
+Centred: (ul,fl,dl,bl) (ur,fr,dr,br) (ulb,flu,dlf,bld) (ubr,fur,dfr,bdr) [4]
+> (SLICER U) 4
+Cube:
+              u b u
+              l u u
+              u u u
+        l u l f f f r r r b u b
+        l l l f f f r r r b b b
+        l l l f d f r r r b d b
+              d f d
+              d d d
+              d b d
+Cycles: (ub)+ (ul)+ (fd)+ (bd)+ [2]
+Already centered
+> 
+
+> 2. Does anyone know about similar programs to my. Program that
+>    'learn' to solve the cube by themselves.
+
+Someone I know once wrote such a program in Lisp.  (Incidentally, this
+was also one of the most stunning examples of hot-spot hand-tuning I
+ever saw.  It represented the cube as a bunch of conses pointing to one
+another, no leaves at all.  The "apply a rotation" call worked by
+juggling links with rplaca and rplacd.  I rewrote this one call in
+assembly (approximately the same number of lines of code, incidentally)
+and got three orders of magnitude, a factor of a thousand, speed
+improvement in the overall program.)
+
+The program was somewhat interesting in that it solved the cube by
+experimenting and discovering macros, somewhat akin to the way humans
+tend to.
+
+I don't know whether this program still exists anywhere.  If anyone
+cares I can try to find out.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     01 EE 31 F6 BB 0C 34 36  00 F3 7C 5A C1 A0 67 1D
+
+

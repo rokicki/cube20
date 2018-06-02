@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 16 17:55:07 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA04015
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 16 Mar 1999 17:55:07 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <714F77ADF9C1D111B8B60000F863155102DD6DAD@tbjexc2.tbj.dec.com>
+From: Norman Diamond <Norman.Diamond@dec-j.co.jp>
+To: cube-lovers@ai.mit.edu
+Subject: Old 4^3s
+Date: Tue, 16 Mar 1999 09:45:38 +0900
+
+Noel Dillabough [noel@mud.ca] didn't write, but his message contained:
+
+>[Moderator's note: Has anyone else found aged, unused 4^3s more brittle than
+> the originals? Even the early ones were usually stiff; I needed to take
+> them apart and apply wax or other lubricant.  And still they broke much
+> too easily, due to the tiny necks on the face centers.  Perhaps the only
+> advantage aged, used cubes have is that the stiff ones whose owners didn't
+> lubricate them are long broken. --Dan]
+
+Nob Yoshigahara told me that he had designed a correction for the original
+design of the 4^3 cubes so that they would not fall apart.
+
+In my experience, early 4^3s easily fell apart, and then when a cubie hit the
+floor it easily broke.  In my experience, later 4^3s don't easily fall apart.
+I would guess that the manufacturer accepted Nob-sensei's advice.
+
+-- Norman.Diamond@dec-j.co.jp
+[Speaking for Norman Diamond not for Compaq]
+

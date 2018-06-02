@@ -1,0 +1,19 @@
+Date: 30 May 1982 04:52:01-PDT
+From: decvax!duke!uok!mwm at Berkeley
+Date-Sent: Wed May 26 19:09:15 1982
+To: duke!decvax!ucbvax!cube-lovers@ai
+Subj: Diameter of the group
+
+I just saw a letter on the list that talked about finding the diameter
+of the group for 4^3.  This implies (to me, anyway) that somebody out there
+knows something about the diameter of the group for 3^3. Since I just started
+getting mail from the list, I missed any discussion that may have happened on
+that topic, and would appreciate it if someone would send me the apporpriate
+information, or tell me which archive the discussion is in.
+
+	Thanx in advance,
+	mike meyer
+
+
+
+

@@ -1,0 +1,34 @@
+From: Nichael Cramer <nichael@sover.net>
+To: Edwin Saesen <ERCO@compuserve.com>
+Cc: CUBE <CUBE-LOVERS@ai.mit.edu>
+Subject: Re: 4x4x4 solution -- [Digest v23 #159]
+
+On Wed, 1 Oct 1997, Edwin Saesen wrote:
+
+> On my 4x4x4 I also had a problem of having two pairs of edges
+> exchanged which simply can't happen on a 3x3x3.
+
+I find it most convienent to think of this situation as the following:
+
+One of the "center-slices" containing one of the "swapped" edge pieces is
+rotated by 90 degrees.
+
+(This is roughly analogous to the the 3X case where the whole cube is
+solved except for two corners and two edge pieces being --respectively--
+swapped.  The problem is that the unfinished face is 90dg out of phase.)
+
+Rotate that center-slice by 90 degrees and re-solve from there.
+
+This is surely not the most efficient (i.e. shortest) solution; but it is
+conceptually straight forward.
+
+
+Nichael Cramer
+work: ncramer@bbn.com
+home: nichael@sover.net
+http://www.sover.net/~nichael/
+
+------------------------------
+
+Return-Path: <cube-lovers-request@life.ai.mit.edu>
+Date: Wed, 1 Oct 1997 16:23:14 -0400

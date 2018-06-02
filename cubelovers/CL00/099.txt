@@ -1,0 +1,13 @@
+Date: 10 AUG 1980 2154-EDT
+From: MJL at MIT-MC (Matthew Jody Lecin)
+To: CUBE-HACKERS at MIT-MC
+
+In the September issue of OMNI, in the "Games" section is a 2 page
+introduction to the cube, complete with a few sketches showing a
+solved cube, an example of rotating one side, and an example of a really
+RANDOMIZED cube.
+	For those of us not familiar with the cube (I still can't find
+one...sigh) this article was very enlightening.  It also includes the
+address from which one can get Singmaster's "Notes on the Magic Cube".
+
+							{Matt}

@@ -1,0 +1,51 @@
+From mschoene@math.rwth-aachen.de  Sat Dec 10 09:21:41 1994
+Return-Path: <mschoene@math.rwth-aachen.de>
+Received: from samson.math.rwth-aachen.de by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09060; Sat, 10 Dec 94 09:21:41 EST
+Received: from hobbes.math.rwth-aachen.de by samson.math.rwth-aachen.de with smtp
+	(Smail3.1.28.1 #11) id m0rGSde-000MPHC; Sat, 10 Dec 94 15:19 MET
+Received: by hobbes.math.rwth-aachen.de (Smail3.1.28.1 #19)
+	id m0rGSdd-0000PvC; Sat, 10 Dec 94 15:19 PST
+Message-Id: <m0rGSdd-0000PvC@hobbes.math.rwth-aachen.de>
+Date: Sat, 10 Dec 94 15:19 PST
+From: "Martin Schoenert" <Martin.Schoenert@math.rwth-aachen.de>
+To: cube-lovers@life.ai.mit.edu
+In-Reply-To: "Jerry Bryan"'s message of Thu, 8 Dec 1994 15:02:33 -0500 (EST) <9412082002.AA14755@life.ai.mit.edu>
+Subject: Re: Re: Models for the Cube
+
+I wrote in my e-mail message of 1994/12/07
+
+    But C is not the largest such group.  The largest such group is M, i.e.,
+    the full group of symmetries of the entire cube.  This is the reason why
+    I prefer to view G as a subgroup of MG, which is the semidirekt product
+    of M and G, even though I realize that MG is not physically realizable.
+
+Jerry Bryan answered in his e-mail message of 1994/12/07
+
+    But can't you speak of conjugates such as m'gm without regard to G
+    being a subgroup of MG?  I agree that MG seems like a very useful group,
+    and it is a very nice model of what is going on.  But doesn't g in G
+    imply m'gm in G whether I ever heard of MG or not?
+
+Yes I certainly could.  I think it is only a matter of taste.
+
+You seem to favor the physical model.  There the reflection has no
+real realization, and it makes sense to distinguish between the
+rotations and the reflection.
+
+I look at the problem more from the computational aspect.  I view
+the whole thing as a permutation group, and then there is no real
+reason to distinguish between the rotations and the reflection
+(both being ordinary permutations on 54 points).
+
+And when working with those groups in GAP, it is certainly a lot more
+convenient to work in MG and treat all of M uniformly, then to work in
+CG and to handle the reflection specially.
+
+Have a nice day.
+
+Martin.
+
+-- .- .-. - .. -.  .-.. --- ...- . ...  .- -. -. .. -.- .-
+Martin Sch"onert,   Martin.Schoenert@Math.RWTH-Aachen.DE,   +49 241 804551
+Lehrstuhl D f"ur Mathematik, Templergraben 64, RWTH, 52056 Aachen, Germany
+

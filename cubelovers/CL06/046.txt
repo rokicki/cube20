@@ -1,0 +1,16 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 29 Jun 87 12:08:58 EDT
+Date: 26 Jun 87 12:45:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: 
+To: "cube-lovers" <cube-lovers@mit-ai>
+cc: mailer!<pbeck@ardec>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+From:	CLSTR1::SYSTEM       26-JUN-1987 12:13
+To:	BECK
+Subj:	Undeliverable mail
+
+ ----Transcript of session follows----
+Mail could not be delivered in 3 days to <beck@ardec-lcss.arpa>
+
+ ----Unsent message follows----
+Date: 23 Jun 87 11:48:00 EST

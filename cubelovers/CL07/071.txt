@@ -1,0 +1,13 @@
+From meister@gaak.lcs.mit.edu  Sat Sep  7 00:18:53 1991
+Return-Path: <meister@gaak.lcs.mit.edu>
+Received: from gaak.LCS.MIT.EDU by life.ai.mit.edu (4.1/AI-4.10) id AA22169; Sat, 7 Sep 91 00:18:53 EDT
+Received: by gaak.LCS.MIT.EDU 
+	id AA13124; Sat, 7 Sep 91 00:18:10 EDT
+Date: Sat, 7 Sep 91 00:18:10 EDT
+From: meister@gaak.lcs.mit.edu (phil servita)
+Message-Id: <9109070418.AA13124@gaak.LCS.MIT.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: waiting for the bounces...
+
+
+

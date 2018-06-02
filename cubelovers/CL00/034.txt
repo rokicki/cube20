@@ -1,0 +1,76 @@
+ACW@MIT-AI 07/19/80 01:42:56 Re:   Where to get them in the Boston Area, Cube Language.
+To: CUBE-LOVERS at MIT-MC
+
+"Games People Play" on Mass Ave, near the fork where Mt. Auburn
+St. branches off, carred them the last I knew.  According to
+rumor, the domestic product ("Rubik's Cube"), selling for
+about $7, is mechanically inferior to the Hungarian import,
+costing $15.  I don't know how everyone feels about money,
+but to me, not having to fight with the thing would be worth
+the extra $8.
+
+Bernie's explanation of how to achieve the Plummer and Christman
+Crosses is a prime example of why we need a cube language.
+
+Since no one has proposed anything, I will jump into the fray.
+
+Center the cube at the origin of a 3-d coordinate system.  The
+axes of the coordinate system protrude from the centers of the faces.
+
+Make a hitch-hiker's gesture with your right hand and point the thumb
+along the X axis.  Imagine rotating the WHOLE CUBE one quarter turn
+in the direction your curled fingers are pointing.  I call this operation
+"I".  (The X axis is the horizontal axis that does not skewer you.)
+
+If the cube was lying on a table, "I" would roll it toward you.
+
+Now point up, along the Y axis, with your thumb.  A quarter-rotation
+in the direction your curled fingers point is the operation I call "J".
+
+The Z axis goes right through your belly.  A quarter turn around it
+I call "K".  Actually, K=IIIJI.
+
+To simplify things a little, we define I'=III, J'=JJJ, and K'=KKK.
+In general, M' is M done backwards.  If we call the do-nothing
+manipulation "1", then MM'=M'M=1.
+
+For my own nefarious reasons I define "H" as the operation (unachievable
+in real life) of REFLECTING the cube right-to-left through the YZ plane.
+We note H'=H.
+
+Twisting the front (Z=1) face 90 degrees counter-clockwise I call
+"T".
+
+One more piece of notation: For any manipulations M and N, I write
+M'NM as N[M], reading this as if N were a function: "N of M".
+
+Note M[1]=M.
+
+Examples:
+
+T[I] means "Twist the top face"
+T[II]=T[JJ] means "Twist the back face"
+T[I'] means "Twist the bottom face"
+T'[J] means "Twist the left face CLOCKWISE"
+T[I] T'[I'] J' means "Rotate the floor-parallel center-slice a
+	quarter turn counter-clockwise as seen from above."
+
+Note that (MN)'=N'M', and (N[M])'=N'[M].
+
+Also notice that (MN)[P] = M[P] N[P].
+
+To do the Pons Asinorum checkerboard:
+
+Set Q= (TT)[J] (TT)[ZJ] "Half turn body-slicing center-slice."
+
+Then the Pons is Q Q[J] Q[K].
+
+Does anybody see what I'm getting at or am I a lone, mad
+genius?
+
+Set Q= T[J] T[J'].
+
+Then (Q Q[J])^3 is quite pretty.
+
+  ---Wechsler
+

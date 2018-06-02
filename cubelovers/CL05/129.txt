@@ -1,0 +1,17 @@
+Received: from REAGAN.AI.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 3 DEC 86  17:04:45 EST
+Received: from PIGPEN.AI.MIT.EDU by REAGAN.AI.MIT.EDU via CHAOS with CHAOS-MAIL id 14155; Wed 3-Dec-86 17:04:49 EST
+Date: Wed, 3 Dec 86 17:04 EST
+From: Alan Bawden <Alan@AI.AI.MIT.EDU>
+Subject: BITNET Redistribution of Cube-Lovers
+To: Cube-Lovers@AI.AI.MIT.EDU
+Message-ID: <861203170452.2.ALAN@PIGPEN.AI.MIT.EDU>
+
+I'm looking for someone on BITNET to volunteer to maintain a BITNET
+redistribution list for the Cube-Lovers mailing list.  This is necessary
+because the machine that's acting as the Internet/BITNET gateway,
+WISCVM.WISC.EDU, is swamped with mailing list mail.  List administrators
+(like me) are being asked to set up redistribution lists to help lighten
+the load.  If we can set one up for Cube-Lovers then WISCVM will only have
+to relay each message to one host instead of the current 20 or so.
+
+If you're willing and able to take this on, please let me know.

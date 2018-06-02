@@ -1,0 +1,65 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Apr  9 19:43:01 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA08480
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 9 Apr 1999 19:43:00 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+To: "Jorge E. Jaramillo" <jejarami@usa.net>
+Cc: cube <Cube-Lovers@ai.mit.edu>, Roger.Broadie@iclweb.com
+Subject: Cube Explorer 1.5 by Herbert Kociemba
+In-Reply-To: <000701be8238$8c026820$92121fc8@lucentmd>
+Message-Id: <SIMEON.9904091829.A@pavilion.pstcc.cc.tn.us>
+Date: Fri, 9 Apr 1999 18:04:29 -0400 (Eastern Daylight Time)
+
+On Thu, 08 Apr 1999 22:24:23 -0500 "Jorge E. Jaramillo" <jejarami@usa.net>
+wrote:
+
+> Well done Mr. Broadie and keep up the good work, please let the list know
+> when you have the Windows version  ready. ;-)
+
+Another alternative for Windows is Herbert Kociemba's Cube Explorer 1.5, which
+is easily found with Web based search engines, and which I think can also be
+found on the download section of the Cube-Lovers site.
+
+Cube Explorer 1.5 does not allow you to type in a maneuver directly, which I
+think is what you are after. But it will do something just about as good, and
+in some ways even better. It will read in a standard ASCII text file which
+contains maneuvers in standard Singmaster notation (the BFUDLR notation), and
+it will then show you the end product.  The file can contain any (reasonable)
+number of maneuvers, and the program will show you the end product for each
+maneuver all in one fell swoop (or swell foop, if you prefer).
+
+One thing Cube Explorer 1.5 does not support that you may be looking for is to
+manipulate the cube and look at each intermediate position.  But that's usually
+not what I am looking for.  I am usually looking for the end product of a
+maneuver.  (Of course, you could put each intermediate position into your ASCII
+text file.)
+
+You can create the ASCII text file for Cube Explorer 1.5 by typing maneuvers
+into the file with the text editor of your choice.  But most typically I just
+cut and paste maneuvers out of an E-mail into the text file, and then have Cube
+Explorer 1.5 read the file.  It's much easier and less error prone than typing
+the maneuvers myself.
+
+Here is a case where Cube Explorer 1.5 may be "even better".  Take a
+Cube-Lovers message with lots of maneuvers, cut and paste the whole thing into
+an ASCII text file, and read the file into Cube Explorer 1.5.  Instantly, you
+see the positions for all the maneuvers.  You don't even have to worry about
+deleting the extraneous non-maneuver text from the E-mail.  For example, take
+Mike Reid's lists of minimal maneuvers for highly symmetric positions, or take
+my lists of local maxima and put them into Cube Explorer 1.5 in this fashion.
+The results are quite pretty.  There are many other messages in the Cube-Lovers
+archives with lots of pretty patterns, but these two come to mind quickly.
+
+(By the way, converting BFUDLR strings to a graphical representation of a
+position is an extremely useful feature of Cube Explorer 1.5, but it has
+several other nice features. For example, you can give it a graphical
+representation of a position and get back very quickly --  in a matter of
+seconds -- a very good suboptimal maneuver for that position.)
+
+----------------------------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+

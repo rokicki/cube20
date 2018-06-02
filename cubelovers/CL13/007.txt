@@ -1,0 +1,109 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Mon Oct  3 05:48:56 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07705; Mon, 3 Oct 94 05:48:56 EDT
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <102162-2>; Mon, 3 Oct 1994 05:49:15 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA01841; Mon, 3 Oct 94 05:46:17 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1B2945; Mon,  3 Oct 94 05:23:07 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: < U, R > Processes
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.808.5834.0C1B2945@canrem.com>
+Date: Mon, 3 Oct 1994 01:13:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+Alas, no antipodes yet, but some interesting results nonetheless.
+Process UR8 improves on the best known process for a certain
+quad-twist in the U layer at 20 q turns. Table 3 in Winning Ways
+gives a 22 q turn process.
+
+The following results should be particularly interesting to
+the physical cube solver as it is easier to execute a sequence
+of 2 adjacent sides compared to a sequence using 3 or more
+sides, which may require some re-orienting of the cube. I will
+measure the "face index" of a process by the number of different
+sides used in a certain cube sequence. Such a measure could be
+used to evaluate the relative elegance of two equally long
+processes with respect to their face indices.
+
+
+Jerry Bryan mentions:
+>                         Also, the global maxima are of length 25.
+> Does this tell us anything about the Q-turn length of the global
+> maxima for the full cube group?
+
+Well, that reminds me of one of the hardest patterns that Dik Winter
+tried to find an optimal sequence for:
+
+p141a alternate method   F1 R1 L2 U3 R2 L3 U3 D2 R2 F1 D1 B1 D1 F2 U3
+of Superfliptwist + 6 X        R3 D3 F2 D2 L2
+**This process was one of the hardest ever to reduce to 20 moves,
+requiring  over 19 hours on an SGI R4K Indigo, 28 q turns**
+
+My own $.02 worth is that an antipode for the full group of the 3x3x3
+cube is probably deeper than an antipode for the < U, R > group.
+
+
+        Optimal Sequences for < U, R > group elements (positions)
+        ---------------------------------------------------------
+
+Edge 3-cycle
+UR1 = U3 R1 U2 (R1 U1)^2 R2 U3 R3 U3 R2 U1                 (16 q, 13 h)
+
+Double adjacent edge swap
+UR2 = U3 R3 U3 R2 U1 R1 U1 R3 U3 R1 U1 (R1 U3)^2 R3 U3     (18 q, 17 h)
+
+Diagonal Corner twist
+UR3 = U1 R1 U3 R1 U3 R2 U1 R1 U1 R3 (U3 R1)^2 U2 R3 U3 R3  (20 q, 18 h)
+
+Double opposite edge swap, also in sq group 24 q, 12 h
+UR4 = R2 U2 R3 (U2 R2)^2 U2 R3 U2 R2                       (20 q, 11 h)
+
+Edge 7-cycle, equivalent to (U1 R1)^15
+UR5 = U3 R1 U3 R3 U3 R1 U2 R3 U1 R3 U2 R1 U3 R3 (U3 R1)^2  (20 q, 18 h)
+
+Corner Tri-Twist
+UR6 = (U3 R3)^2 U1 R1 U3 R3 U3 R2 U1 R2 U3 R3 U3 R1 U1 R3  (20 q, 18 h)
+
+Corner Quad-Twist, Flat style
+UR7 = R1 U3 (R1 U1)^2 (R3 U3)^2 R2 U3 R1 U1 R3 U3 R1 U3 R3 (20 q, 19 h)
+
+Corner Quad-Twist, Arms & Legs style                       (20 q, 20 h)
+UR8 = R1 U1 R3 U1 R3 U3 R1 U1 R1 (U3 R3)^2 (U1 R1)^2 U3 R3 U3
+
+ML Doodle Position
+UR9 = (U2 R2)^2 U2 R3 U1 R2 (U3 R2)^2 U1 R1                (22 q, 14 h)
+Same position found by hand: (a non-optimal 24 q, 15 h)
+      (U2 R2)^3 U1 R1 (U2 R3)^2 U2 R1 U1
+
+4 Opp Corner Swap, also in sq group at 26 q, 13 h
+UR10 = U3 R3 (U1 R1)^2 U2 R3 U1 R1 (U2 R2)^2 U1 R3 U1      (22 q, 17 h)
+
+        Other Subgroups within reach
+        ----------------------------
+
+11. |<U, R2, L2>|              = 2^12 3^4 5^2 7   =             58060800
+12. |<U2, R, L2>|              = 2^12 3^4 5^2 7   =             58060800
+17. |<U, R2, F2>|              = 2^8 3^5 5^2 7    =             10886400
+21. |<U, R2, L2, D2>|          = 2^13 3^4 5^2 7   =            116121600
+22. |<U, R2, L2, D>|           = 2^15 3^4 5^2 7^2 =           3251404800
+
+I welcome any proposed < U, R > group antipodes. I haven't really
+looked for anything exotic like < U, R > positions which are
+shift invariant, or even if such a beast is possible!
+
+Of course I already mentioned that...
+
+        U2 R2 U2 R2 U2 R2 = R2 U2 R2 U2 R2 U2
+
+...but aside from that nothing comes to mind.
+
+Generally when there are elements which occur in both the square's
+group AND the < U, R > group the latter is the shorter in q turns.
+
+ -> Mark <-
+ Email: mark.longridge@canrem.com
+

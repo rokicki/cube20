@@ -1,0 +1,41 @@
+Date: 23 August 1982 1623-EDT (Monday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Hypermove lower bounds
+CC: James Saxe at CMU-10A
+Message-Id: <23Aug82 162336 DH51@CMU-10A>
+
+There is an easy lower bound on the number of hypermoves needed to
+solve Rubik's Revenge.  If we distinguish like-colored face
+centers, let us fix the BL center of the D face, permitting only
+the shallow moves B1, F1, U1, U3, L1, R1, and their inverses, and
+the deep moves F2, U2, R2, and their inverses.  Let us compute the
+number of hypermoves needed to solve just the face centers of
+Rubik's Revenge.  A shallow hypermove can achieve SF = 4^6 = 4096
+different face center positions.  A deep hypermove can achieve
+DF = 7! 3^6 = 3674160 different face center positions.  So in four
+hypermoves, at most
+	1 + (SF + DF) + 2 SF DF + (SF + DF) SF DF + 2 SF DF SF DF
+	       = 453,021,789,719,303,692,337
+face center positions can be achieved.  Since this is fewer than
+the
+	23! = 25,852,016,738,884,976,640,000
+face center positions of Rubik's Revenge, some face-center
+positions will require at least five hypermoves.
+
+If like-colored face centers are not distinguished, the best lower
+bound I can find using this method is three hypermoves.  If stomach
+cubies are considered, I think both bounds increase by one, since
+only deep moves can touch them.
+
+It seems strange that this method relies only on the face center
+solution.  Similar arguments about edges are not as good, because
+so many edge positions are achievable using shallow hypermoves.
+Corners are practically irrelevant, since they can be fixed using
+only shallow hypermoves.
+
+With respect to the question of odd sequences of hypermoves, Jim
+Saxe mentions that ``it is plausible that sequences of the form
+SDSDS may be sufficient while sequences of the form DSDSD may
+not.''  I would like to add the further plausibility that both
+types may be sufficient, while neither may suffice alone.

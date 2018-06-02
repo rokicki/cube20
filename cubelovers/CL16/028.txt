@@ -1,0 +1,82 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Sun Jun 18 23:54:16 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23716; Sun, 18 Jun 95 23:54:16 EDT
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <177456-5>; Sun, 18 Jun 1995 23:55:59 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA07947; Sun, 18 Jun 95 23:50:23 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1E77E1; Sun, 18 Jun 95 23:47:31 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Re: Crazy Corner Pattern
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1167.5834.0C1E77E1@canrem.com>
+Date: Mon, 19 Jun 1995 00:36:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+>>I'm trying to find the 1 pattern with M-class size of 4 of the
+>>corners group.
+>>The only pattern that I can find is 4 alternate corners twisted
+>>clockwise which is in the twist orbit.
+
+>>It does not seem to be any pattern with just corners twisted in
+>>place.
+
+>>Jerry, if you could *please* identify this pattern before I go
+>>nuts...... !
+
+>The position is called T-symmetric in Dan's taxonomy (actually,
+>there are four T subgroups of M, T1 through T4).  The symmetry
+>is related to opposite corners, e.g., the UFL-DRB axis,
+>which is why there are four T subgroups.
+
+>Also, the position is Q-transitive, so you can check it out
+>in _Symmetry and Local Maxima_.  I quote ".... each edge on the
+>girdle may be swapped with the diametrically opposite edge,
+>provided that the corners on the girdle are swapped with
+>their opposites as well."   Here, you would fix the edges and
+>pay attention only to the swapping of the corners.
+
+Hmmmmm, that's very interesting.
+
+Below is my interpretation of "...corners on the girdle are swapped
+with their opposites as well." Let's call it pattern X.
+
+        D U D
+        U U U
+        D U D
+F L B   R F L   B R F   L B R
+L L L   F F F   R R R   B B B
+F L B   R F L   B R F   L B R
+        U D U
+        D D D
+        U D U
+
+If I understand the terminology correctly, then for this pattern
+X = |{m'Xm}|=3 and |Symm(X)|=16, same as the 4 spot.
+Also X = |{c'Xc}|=3.
+
+But perhaps this is not the same pattern....
+
+Let's call this next cube arrangement pattern Y.
+
+        F U U
+        U U U
+        D U L
+R L B   R F B   D R R   B B D
+L L L   F F F   R R R   B B B
+U L L   F F U   L R F   L B F
+        D D B
+        D D D
+        R D U
+
+Y = |{m'Ym}|=4 and |Symm(Y)|=12, and Y=|{c'Yc}| = 4
+
+This pattern was created by swapping 3 pairs of diametrically opposite
+corners, which is in the *swap* orbit on a normal cube, but since we
+are dealing with corners of Rubik's cube and ignoring edges we can
+realize permutations with an odd number of pairs of corners swapped.
+
+-> Mark <-
+

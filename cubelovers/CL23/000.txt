@@ -1,0 +1,51 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  9 19:04:20 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id TAA09819; Mon, 9 Jun 1997 19:04:20 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <3.0.1.32.19970609160106.00ade4a0@sdgmail.ncsa.uiuc.edu>
+X-Sender: mag@sdgmail.ncsa.uiuc.edu
+X-Mailer: Windows Eudora Pro Version 3.0.1 (32)
+Date: Mon, 09 Jun 1997 16:01:06 -0500
+To: cube-lovers@ai.mit.edu
+From: Tom Magliery <mag@ncsa.uiuc.edu>
+Subject: Re: Designations for the cubes (proposal)
+In-Reply-To: <Pine.SUN.3.95.970608112014.11440Q-100000@sunspot.tiac.net>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+
+At 11:31 AM 6/8/97 -0400, Nicholas Bodley unabashedly said:
+>
+> Peter (Reitan, I think; sorry) (who is not Karen) brought up the
+>clumsiness of such designations as "5X5X5". I find these downright clumsy
+>to type (although the Caps Lock key helps). In my private world, I simply
+>refer to the Pocket Cube as "[the] two", the original Rubik's as "[the]
+>three", Revenge as "[the] four", and the biggest available as "[the]
+>five". 
+>
+> I think that provided we understand that we are referring to the
+>well-known family of true cubes, it should be OK simply to refer to "the
+>three", for instance. Granted, these names require more keystrokes, but
+>numerals should be OK, as in "the 3".
+
+I have another suggestion, which might be slightly less likely to require
+explanation to a newcomer.  I know how to *pronounce* it, but I'm not sure
+how I would recommend *spelling* it.  (Considerations include terseness,
+ease of typing -- which is of course not the same thing!, and likeliness to
+be mispronounced by a reader.)
+
+The pronunciation is three-bye, four-bye, five-bye, ...
+
+Possible spellings include:
+	3by, 4by, 5by, ...
+	3-by, 4-by, 5-by, ...
+	3x, 4x, 5x, ...
+	three-by, four-by, five-by, ...
+
+mag
+-- 
+.---o  Tom Magliery, Research Programmer         (217) 333-3198  .---o
+`-O-.  NCSA, 605 E. Springfield      O-       mag@ncsa.uiuc.edu  `-O-.
+o---'  Champaign, IL 61820       http://sdg.ncsa.uiuc.edu/~mag/  o---'
+
+

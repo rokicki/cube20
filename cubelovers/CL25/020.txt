@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 26 15:10:34 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA01187; Thu, 26 Mar 1998 15:10:33 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Mar 26 10:47:00 1998
+Date: Thu, 26 Mar 1998 15:36:25 +0000
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: skouknudsen@email.dk
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009C3C55.665587E6.39@ice.sbu.ac.uk>
+Subject: RE: 5^3 quiz
+
+Bandelow's leaflet, which he encloses with the 5^3, states that the
+mechanism was invented by Udo Krell, of Hamburg(?).  I haven't seen
+the patent but perhaps Bandelow has details.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

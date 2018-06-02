@@ -1,0 +1,23 @@
+Date: 11 SEP 1980 0016-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: How do you maximally randomize a cube?
+To: CUBE-HACKERS at MIT-MC
+
+
+I am interested in maximally distant states of the cube.  I have often
+wondered just what a maximally distant state would look like.  I also
+wonder HOW MANY of them there are!
+
+Interesting fact (offered without proof (it's not hard)):
+
+Assuming we are counting quarter-twists.  If I hand you a cube in a
+maximally distant state, and ask you to solve it in as few twists as
+possible, you don't have to think at all in order to know what to do
+first!  ANY first twist will bring it closer to home (after that it
+gets harder).
+
+Call a state with this property a "local maximum".  Any maximally
+distant state is also a local maximum.  Also, any symmetric state is a
+local maximum.  This doesn't mean that a maximally distant state is
+symmetric, but it does get you thinking along those lines!
+

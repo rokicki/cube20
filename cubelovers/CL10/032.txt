@@ -1,0 +1,28 @@
+From @uccvma.ucop.edu:MJTOL@UCCMVSA.BITNET  Sat Aug  7 04:25:18 1993
+Return-Path: <@uccvma.ucop.edu:MJTOL@UCCMVSA.BITNET>
+Received: from uccvma.ucop.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14988; Sat, 7 Aug 93 04:25:18 EDT
+Message-Id: <9308070825.AA14988@life.ai.mit.edu>
+Received: from UCCVMA.UCOP.EDU by uccvma.ucop.edu (IBM VM SMTP V2R2)
+   with BSMTP id 1516; Thu, 05 Aug 93 16:24:06 PDT
+Received: from UCCMVSA.BITNET (NJE origin MJT$OL@UCCMVSA) by UCCVMA.UCOP.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 8037; Thu, 5 Aug 1993 16:24:06 -0700
+Received: by UCCMVSA.BITNET Thu, 05 Aug 93 16:23:29 PST
+Date: Thu, 05 Aug 93 16:23:29 PST
+From: "Michael Thwaites" <MJTOL%UCCMVSA.bitnet@uccvma.ucop.edu>
+To: cube-lovers@life.ai.mit.edu
+Subject:  cube tail?
+
+
+> What prevents a group from having a "pointy tail", that is,
+> a "corridor" of elements at increasing distances from the
+> identity?  In fact, does the number of elements as a
+> function of distance have to be unimodal?  Could this
+> function have a "waist"?  Intuitively, this sounds
+> impossible, but I am wondering what constraints on such
+> functions are known.
+>
+It seems to me it can't be too pointy. Working backwards, the
+number of arrangements working from the end has to explode
+(probably in symetry) with the number of arrangements form the
+start.
+

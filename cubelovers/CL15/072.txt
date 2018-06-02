@@ -1,0 +1,275 @@
+From BRYAN@wvnvm.wvnet.edu  Thu Mar 23 01:17:30 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA26885; Thu, 23 Mar 95 01:17:30 EST
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 5739; Thu, 23 Mar 95 00:30:04 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 1930; Thu, 23 Mar 1995 00:30:04 -0500
+Message-Id: <wvmail32.1995mar18.200228.bryan@wvnvm.wvnet.edu>
+Date:      Thu, 23 Mar 1995 00:29:47 -0500 (EST)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Some Thoughts on Representative Elements
+
+I would like to make some comments on representative elements, but
+first there are some preliminaries.
+
+In some of his recent notes, Martin Schoenert has carefully
+distinguished between processes, operations, and states. For
+the purposes of this note, I wish to distinguish between
+processes and operations on the one hand, and states on the
+other hand.  For this one note alone, I will always use
+upper case letters for processes and operations, and lower
+case letters for states.
+
+In functional notation, we often (e.g., calculus) see such things
+as y=F(x).  "Function" is synonymous with "operation", and I will
+use the two terms somewhat interchangeably.  In calculus, function
+composition is often written something like y=FoG(x)=F(G(x)),
+where the "o" is the best simulation I can do in E-mail of the
+typical function composition symbol.
+
+As has been discussed several times in this forum, the FoG type
+of notation is interpreted right-to-left, but in group theory
+we more typically write GF for function composition, and it is
+interpreted left-to-right.  With the left-to-right notation,
+the function argument (if it is written) can be written on the
+right as y=GF(x) or on the left as y=(x)GF.  I gather that most
+of Cube-Lovers do not like the latter convention, but I am
+going to use it anyway.  Indeed, as long as we are utterly
+rigorous in our upper-case/lower-case convention, we can
+dispense with the parentheses and write y=xGF (or simply
+y=xF if the function F is a single function).  Parentheses
+can then be used for grouping without any ambiguity that they
+might be denoting arguments.
+
+We let G be the cube group and g be the set of cube states.  We
+can observe that each X in G is a function on g.  Furthermore,
+each X in G is a one-to-one function from g onto g.  Hence,
+each inverse X' exists.  These facts are so obvious that they
+are virtually never stated.  But we are about to talk about
+representative elements, and things are much less well behaved
+when we talk about representatives.
+
+One more preliminary:  the idea that a state can be identified
+with the operation which effects the state when applied to Start
+can be expressed as x=iX.  Hence, there is a one-to-one
+correspondence between g and G, and we have |g|=|G|.  Again,
+things get much more unruly when we start talking about
+representatives.  Also, we can define the composition of the
+states x and y as xy=(iX)(iY)=i(XY)=iXY, and this equation
+defines an obvious isomorphism between g and G.
+
+We will use * as the symbol for a selection function on the
+M-conjugacy classes of g.  We will write * as a postfix operator
+so that it reads left-to-right with the rest of our operators.
+We have x*=Repr{N'xN} for all N in M, the set of 48 rotations
+and reflections.
+
+Note that * is not uniquely determined.  There are
+approximately |M| ^ (|G| / |M|) possible choices for *, which is a
+truly large number when compared with |G|.  It is conceivable
+that we might be able to prove some result for one particular
+choice of * that would not be true for every choice of *.  In
+general, however, we will assume that * is fixed but arbitrary.
+
+* is a function from g into (but not onto) g.  We let g* be the
+set of representative states, and * is a function from g onto g*.
+The function * does not have an inverse, but if we consider * to
+be a relation, then the inverse relation *' simply maps each
+representative x* in g* back to the entire M-conjugacy class
+of x*.
+
+Consider the restriction of * to the set g*.  At this point, *
+is not very useful, because it is simply the identity.
+
+Define the set Q* as
+
+   Q* = {F*, R*, L*, B*, U*, D*, F'*, R'*, L'*, B'*, U'*, D'*}
+
+This set is near and dear to my heart, because it is how I obtain
+nearly all my results.  We will say more about inverses very soon,
+but it should be observed immediately that it is not the case that
+(F*)'=F'*, nor that (R*)'=R'*, etc.
+
+Each of the twelve elements in Q* are functions from g into g*.
+Much more interesting is the restriction of each element of Q*
+to g*, so that they are functions from g* into g*.  We are treating
+each Q* as composed and not to be decomposed.  You could think of
+elements of g that are not also elements of g* appearing briefly
+and virtually between the Q and the *, but each Q* is to be
+treated as from g* into g* without being decomposed.
+
+Can we do something like define the group G*=<Q*>?  The answer
+is no.  I assume it will be totally obvious to many of you why not,
+but I have to think about it for a bit.  Martin commented that
+the set of representatives could not be a group because the
+number of representatives does not divide the size of G.  But
+it seems to me that Martin's argument only says that the representatives
+are not a subgroup of G.  It seems to me that it does not say that
+there could not be a group constructed from the representatives.
+But nonetheless, I think it is quite easy to show that there is
+no way to make G* into a group.
+
+Before I go on, I suspect that many of you will object to me using
+the generator notation G*=<Q*>, even with the caveat that G* is not
+a group.  I probably agree, but I am not sure how else to convey
+the same idea quite so compactly.  I simply want to define G* as the
+set of all compositions of elements of Q*.  The compositions are
+all well defined, although they behave terribly.  And G* must be
+finite, because g* is finite and there are only finitely many
+functions that can be defined on a finite set.
+
+I find the following argument that G* is not a group (and cannot
+be made into a group) compelling, although there might well
+be simpler arguments.  Do any of the functions Q* have inverses?
+In order to do so, they would have to be one-to-one from g* onto
+g*.  But i=i*, so i is in g*, and there is only one of the twelve
+elements of Q* which maps onto i.  Hence, at least eleven of the
+twelve elements of Q* are not onto g*, and therefore do not have
+inverses.  It is trivial do choose * in such a way that all twelve
+elements of Q* are not onto g*.  However, I have not been able to
+decide if there is way to choose * such that one of the elements
+of Q* is onto g*.  No doubt, somebody out there will have a
+trivial proof one way or the other. In any case, the general lack
+of inverses in Q* shows that G* cannot be made into a group.
+
+Even though G* is not a group, it is nonetheless an interesting
+structure.  We can think of a "Cayley graph-like" structure where
+we connect nodes in g* with arcs from Q*.  I am not sure if such
+a structure is properly called a Cayley graph, so just to be
+safe I will call it a Cayley* graph.
+
+As we have already seen, the identity state i*=i has only one
+neighbor in our Cayley* graph.  Are there any other such states?
+Dan Hoey and Jim Saxe's _Symmetry and Local Maxima_ suggests
+that there might be 72 such states, namely those states which
+they call Q-transitive.  A Q-transitive state has the characteristic
+that all its neighbors are M-conjugate.  However, some of the
+Q-transitive states are themselves M-conjugate, so the 72 states
+collapse somewhat in our Cayley* graph.
+
+There are 4 states which are M-symmetric,
+and these states are distinct in our Cayley* graph.  There are
+20 states which are H-symmetric but not M-symmetric, but these
+states collapse into 10 states in our Cayley* graph.  There are
+48 states which are T-symmetric but not M-symmetric, but these
+states collapse into 12 states in our Cayley* graph.  Hence, there
+are 26=4+10+12 nodes in our Cayley* graph which have only
+one neighbor.  These figures are given right at the end of _Symmetry
+and Local Maxima_.  They are also given by Martin Schoenert
+in _Re: Re: Re: Re: Models of the Cube_ on 1 February 1995.
+
+It has been thoroughly discussed that |X| = |X*| for all X in G.
+But of more import for the way I build my data bases is the question
+of whether for every x in g, will x* appear in my data base, given
+that I generate the data base as i<Q*>.  In other words, can any
+x* of length n be decomposed into i(Q_1*)(Q_2*)...(Q_n*)?  I find
+this to be one of those things that is obvious yet is hard to
+explain.  Hence, I will borrow the following explanation that
+was given to me by Dan Hoey.  (Dan's version is much more elegant
+than mine.  Any crud in the following is mine, not Dan's.)
+
+First of all, every x* in g* either is the identity or else has
+a neighbor in g which is closer to Start.  If it is the identity, it
+is in (and indeed is the root of) the data base.  Otherwise, we call
+the neighbor y and calculate y*.  Again, y* is either the identity
+or else has a neighbor which is closer to Start.  In this manner,
+we can backtrack our way to Start from any x*.  However, there is
+not (yet) a guarantee that a forward search will find traverse
+the same path forwards and find x*, and hence not (yet) a proof
+that any of the path to x* except i itself is in the data base.
+
+We note that if y is a neighbor of x in g, then it is immediate
+that x is a neighbor of y as well.  We need the same thing in g*
+in order to get a forward search that corresponds to the backwards
+search.  That is, we need to show that if y* is a neighbor of x* in
+g*, then x* is a neighbor of y*.  We now show that if y* is a
+neighbor of x* in g*, then x* is a neighbor of y* in g*.
+
+Observe that if v* = w* (i.e., if v and w are M-conjugates), then
+the neighbors of v and w are respective M-conjugates as well.
+Assume x* is not the identity and let y be a neighbor which is
+closer to Start.  Then y* has a neighbor z with z*=x*.  Hence, if
+y* is in the data base, then x* is in the data base, and we have
+neighbors in both directions.
+
+I think of the preceding result as follows.  Even though the functions
+in G* are not individually ("locally") onto, the functions in G* are
+collectively ("globally") onto.  Hence, there is an arc _from_ every
+node in the Cayley* graph, and there is an arc _to_ every node in the
+Cayley* graph, and you can get from anywhere to anywhere in the graph.
+
+The Cayley* graph is not a homomorphism of the Cayley graph (G* is
+not a subgroup of G, and is not even a group), but I think of G* as
+sort of passing the duck test for a homomorphism.  That is, it
+looks like a homomorphism and smells like homomorphism, even though
+it isn't.  (Personal opinion is that the duck test often fails in
+this manner).  But G* is a collapsing of G which does encode an
+enormous amount of information about G.
+
+Roughly speaking, there are two definitions of permutation.  The
+more informal definition is simply than a permutation is an
+arrangement (or re-arrangement) of objects  ---  e.g., the number
+of permutations of n objects taken r at a time.  The more formal
+definition is that a permutation is a function on a set which is
+one-to-one and onto.  Note that function on a finite set is
+one-to-one if and only if it is onto, so in dealing with the
+cube we can be a little sloppy at times and speak only of onto
+or only of one-to-one.
+
+All the elements in G are permutations and G is finite.  It is
+therefore trivial to show that for every X in G, there is
+some integer n such that X^n=I.  This means, among other things,
+that there exists some integer n such that i(X^n)=i (from Start,
+repeat a process enough times and you will return to Start) and
+y(X^n)=y (from any position, repeat a process enough times and you
+will return to the same position).  The least such n for each
+X is the order of X, and considerable discussion has occurred
+in this forum concerning the order of various elements of G.
+
+Once again, things become a bit more unruly when we talk about
+G* instead of G.  The elements of G* are not permutations because
+they are not onto.  So consider what happens when we calculate
+something like (X*)^n.  As a specific example, consider
+i(R*)^n.
+
+If iR*=r', then i(R*)^n simply oscillates back and forth between
+i and r'.  But if * is chosen so that iR* does not equal r', then
+all bets are off.  i(R*)^n will enter a loop eventually, but it
+will never return to i.  To understand its exact behavior, we would
+have to be specific rather than arbitrary about the definition of *.
+Similarly, x*(R*)^n might well never return to x*, but it would
+loop eventually.  These "eventual loops" rather remind me of
+strange attractors.
+
+My data bases are of the form i<Q*>, for example iR*L'*U'*R'*, etc.
+As I have discussed before, backtracking through such a structure
+is a bit tricky.  Suppose, for example that you have x* in hand
+and wish to backtrack to i.  The way to do it that works best for
+me is as follows:  begin with x*; find x*(Q_1)* that is closer to
+Start;  find x*(Q_1)(Q_2)* that is closer to start (most definitely
+NOT x*(Q_1)*(Q_2)*);  find x*(Q_1)(Q_2)(Q_3)* that is closer to
+Start (most definitely NOT x*(Q_1)*(Q_2)*(Q_3)*; etc.  It is
+doable in the fashion I said NOT to do, but it is extremely
+tricky.  You will have the sensation (as I have described before)
+that your solution is rotating and reflecting out from under you.
+The first way is much easier to keep up with.
+
+Finally, how big is G*?  Remember that g and G are the same size.
+Write the restriction of G* to i as iG*.  There is clearly a
+one-to-one mapping between g* and iG*, and indeed we can identify
+g* with iG* in the same manner in which we identify g with G.
+But in iG*, all the elements of Q* are equivalent.  When
+we allow the domain of G* to be the entirety of g*, then the elements
+of Q* are not equivalent.  Hence, there are at least eleven more elements
+in G* than in g*. I don't know how to calculate the size of G*.  But
+when Dan Hoey calculated the real size of the cube space, he
+calculated the size of g*, not the size of G*.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

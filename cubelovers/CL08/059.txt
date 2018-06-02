@@ -1,0 +1,47 @@
+From hoey@aic.nrl.navy.mil  Tue May 12 11:03:38 1992
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA05297; Tue, 12 May 92 11:03:38 EDT
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA04073; Tue, 12 May 92 11:03:34 EDT
+Date: Tue, 12 May 92 11:03:34 EDT
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9205121503.AA04073@Sun0.AIC.NRL.Navy.Mil>
+To: Cube-Lovers@life.ai.mit.edu
+Cc: Dik.Winter@cwi.nl, reid@math.berkeley.edu (michael reid)
+Subject: Diameter of the 2^3 cube and the 3^3 corners
+
+I sent the results of a quarter-turn analysis of these puzzles to
+Cube-Lovers in several messages during August, 1984.  I modified a
+program written by Karl Dahlke to get these results.  I counted both
+positions and local maxima at every distance up to the diameter of 14
+quarter-turns.  In case you don't have the archives handy, here are
+the results:
+
+  Quarter        2^3 Puzzle           Corners of 3^3 Puzzle
+   Turns   Positions  Local Maxima   Positions  Local Maxima
+____________________________________________________________
+     0            1        0                1           0
+     1            6        0               12           0
+_____2___________27________0______________114___________0___
+     3          120        0              924           0
+     4          534        0             6539           0
+_____5_________2256________0____________39528___________0___
+     6         8969        0           199926         114
+     7        33058       16           806136         600
+_____8_______114149_______53__________2761740_______17916___
+     9       360508      260          8656152       10200
+    10       930588     1460         22334112       35040
+____11______1350852____34088_________32420448______818112___
+    12       782536   402260         18780864     9654240
+    13        90280    88636          2166720     2127264
+____14__________276______276_____________6624________6624___
+
+The first column agrees with Dik Winter's findings.  As Michael Reid
+surmised, the diameters of the two groups are the same.
+
+My hazy recollection is that the 2^3 program ran for a few minutes on
+a Vax 750, while the corners program took a couple of hours.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

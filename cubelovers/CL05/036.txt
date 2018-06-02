@@ -1,0 +1,23 @@
+Date: 27 June 1983 19:04 EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  Bizarre Bricks
+To: CUBE-LOVERS @ MIT-MC
+
+A bizarre variant of the "bricks" described by Isaacs last week is
+currently sitting on the front desk of the SIPB office at MIT.  Imagine
+that you took three cubies along any edge of a cube and welded them
+together (perhaps by taping over the cracks as Singmaster suggests).  Now
+imagine that you perform the same mutilation on a second cube.  Now imagine
+that you arrange to \share/ the same 1 x 1 x 3 cubie between the two cubes.
+The resulting arrangement looks like this from above:
+
+XXX
+XXX
+XXXXX
+  XXX
+  XXX
+
+A moment's thought should convince you that sharing the 1 x 1 x 3 cubie has
+done \nothing/ to increase the difficulty of the puzzle.  Amazing what
+lengths puzzle manufacturers will go to to try and squeeze a few more bucks
+out of the Cube Craze.

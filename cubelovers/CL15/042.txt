@@ -1,0 +1,42 @@
+From mreid@ptc.com  Thu Feb 16 09:48:16 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04895; Thu, 16 Feb 95 09:48:16 EST
+Received: from ducie by ptc.com (5.0/SMI-SVR4-NN)
+	id AA20708; Thu, 16 Feb 95 09:46:37 EST
+Received: by ducie (1.38.193.4/sendmail.28-May-87)
+	id AA08579; Thu, 16 Feb 1995 10:01:11 -0500
+Date: Thu, 16 Feb 1995 10:01:11 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9502161501.AA08579@ducie>
+To: cube-lovers@ai.mit.edu, bryan@wvnvm.wvnet.edu
+Subject: superflip  composed with  pons asinorum
+Content-Length: 807
+
+jerry asks
+
+>                               have you tried your Kociemba's
+> algorithm programs for the composition of Pons Asinorum with
+> superflip?
+
+after superflip, this is probably the second most likely candidate
+for an antipode.  there are only 4 positions which are fixed by
+all 48 symmetries of the cube.  they are:
+
+start,
+superflip,
+pons asinorum, and
+the composition of superflip and pons asinorum.
+
+obviously start is of no interest and neither is pons asinorum.
+
+my quarter turn version found this in less than one minute:
+
+B3 L1 D1 L1 F3 U3 D3 L1 B3 D3 F3 R1 L3 F3 U1 D1 L2 U1 D1 B2    22q, 20f
+
+so this position is at least as close to start as superflip.
+
+i've tested (but not yet extensively) all the local maxima given by
+hoey and saxe.  i'll give a report on these some time soon.
+
+mike
+

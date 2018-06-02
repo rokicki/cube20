@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 22 15:28:37 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA04251
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 22 Dec 1998 15:28:36 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 22 Dec 1998 16:40:58 +0900 (JST)
+Message-Id: <199812220740.QAA00692@soda3.bekkoame.ne.jp>
+To: cube-lovers@ai.mit.edu
+From: Ishihama Yoshiaki <ishmnn@cap.bekkoame.ne.jp>
+Subject: 5DRubikCube
+
+I have made simulation of 5D RubikCube(2x2x2x2x2).
+This is consisted of 2x2x2x2x2=32  5DCubes.
+This is for Macintosh only.
+I will not convert this program to java because it is too troublesome.
+It is on my HomePage.
+
+//----------------------------------------//
+
+Ishihama Yoshiaki (Tokyo Japan)
+E-mail: ishmnn@cap.bekkoame.ne.jp
+HomePage : http://www.asahi-net.or.jp/~hq8y-ishm/
+
+//----------------------------------------//
+
+[Moderator's note: This is the third announcement of this website this
+ month.  For all further developments, check the website. ]
+

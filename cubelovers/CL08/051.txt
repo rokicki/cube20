@@ -1,0 +1,66 @@
+From reid@math.berkeley.edu  Wed Apr 29 04:37:32 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA07345; Wed, 29 Apr 92 04:37:32 EDT
+Received: from beirut.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA13934; Wed, 29 Apr 92 01:37:26 PDT
+Date: Wed, 29 Apr 92 01:37:26 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9204290837.AA13934@math.berkeley.edu>
+To: cube-lovers@ai.mit.edu
+Subject: an upper bound on god's number
+
+in an earlier message, i promised to pass along any information
+i obtained about progress on the upper bound for the length of
+god's algorithm.  i've received a copy of the article "rubik's
+cube in 42 moves" by hans kloosterman, which i summarize below.
+
+first here are some caveats:
+
+* i haven't verified this algorithm.
+* throughout, `move' refers to any turn of a single face.
+  i don't know what bound is achieved in the quarter-turn metric.
+* it may be the case that this algorithm has been improved.
+  please let me (and cube-lovers) know if you have more information.
+
+
+"rubik's cube in 42 moves"  by  hans kloosterman
+
+the algorithm used here is a slight variant of thistlethwaite's
+algorithm.  we work through a chain of subgroups:
+
+G_0 = < F, B, L, R, U, D >   ( full group )
+
+G_1 = < F2, B2, L, R, U, D >
+
+G_2 = < F2, B2, L2, R2, U, D >
+
+G_3 = subgroup of G_2 in which all U-cubies are in the U face
+      (thus all D-cubies are in the D face and all U-D slice
+      cubies are in the U-D slice)
+
+G_4 = { 1 }.
+
+there are four stages:  stage i reduces our pattern from G_{i-1} to G_i.
+
+the indices of the subgroups are:
+
+( G_0 : G_1 ) = 2048 = 2^11
+( G_1 : G_2 ) = 1082565 = 3^9 * 5 * 11
+( G_2 : G_3 ) = 4900 = 2^2 * 5^2 * 7^2
+( G_3 : G_4 ) = 3981310 = 2^14 * 3^5
+
+the maximum number of moves in the stages are 7, 10, 8 and 18
+respectively, for a maximum total of 43 moves.  however, in
+the worst-case scenario of stages 3 and 4, it was checked that
+no position actually required 26 moves; i.e. we can arrange a
+cancellation between the two stages.  thus stages 3 and 4
+together require 25 moves at most, which gives the final
+figure of 42 moves.
+
+it seems to me that a lot of work was done on an algorithm
+for restoring the "magic domino" (the 2x3x3 puzzle), and
+these results were applied to stages 3 and 4.
+
+
+mike
+

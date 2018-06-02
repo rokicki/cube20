@@ -1,0 +1,62 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 30 19:30:45 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA25856
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 30 Mar 1999 19:30:45 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <370168C9.9ECB5992@whitewolf.com.au>
+Date: Wed, 31 Mar 1999 10:14:01 +1000
+From: Ryan Heise <ryan@whitewolf.com.au>
+To: noel@mud.ca
+Cc: "Cube Lovers (E-mail)" <Cube-Lovers@ai.mit.edu>, WaVeReBeL@webtv.net
+Subject: Keyboard cube [was: Re: Wrist pains]
+References: <000001be7a68$23427d20$040a0a0a@laptop>
+
+Noel Dillabough wrote:
+
+> As a programmer, I am no stranger to repetitive stress related aches and
+> pains.  I even had cubist's thumb way back :)  My simulator, puzzler, has
+> mainly a mouse interface and this given enough time can cause you to be
+> rather sore as well.  I was wondering if anyone had an idea for a "hands on
+> keyboard" approach that would allow you to naturally move the puzzles'
+> slices.
+
+I had some ideas on this once. The first keyboard layout below is easier
+to learn but the second would be faster once you had mastered it.
+
+[QWERTY keyboard]
+
+1)
+
+U = r
+U'= u
+D'= f
+D = j
+
+R = 7
+R'= m
+L'= 4
+L = v
+
+F = h
+F'= g
+B'= y
+B = t
+
+2)
+
+Any mappings using this set of keys:
+
+  er  ui
+asdf  jkl;
+
+The simulator input key should be configurable so you can try out these
+variations once its written. If you want help implementing it, feel free
+to ask me - just in case I ever have some free time on my hands!
+
+--
+Ryan Heise
+
+http://www.progsoc.uts.edu.au/~rheise/
+

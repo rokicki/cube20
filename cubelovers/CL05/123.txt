@@ -1,0 +1,55 @@
+Received: from MC.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 6 NOV 86  15:06:54 EST
+Received: from nrl-aic (TCP 3200200010) by MC.LCS.MIT.EDU  6 Nov 86 15:02:30 EST
+Date: 6 Nov 1986 13:41:48 EST (Thu)
+From: Dan Hoey <hoey@nrl-aic.ARPA>
+Subject: Magic
+To: Cube-lovers@mit-mc.ARPA
+Message-Id: <531686509/hoey@nrl-aic>
+
+I have three macros for transforming 2x4 rectangles.  To solve the
+puzzle, I use two of them followed by a seven-flip macro that changes a
+2x4 shape into a 3x3-1 shape (beats me how BECK can call this a
+``2x3x3'').  Took me a couple of half-days to solve it.
+
+I have found 32 different 2x4 rectangles.  I think that is all of them,
+but I haven't got any proofs, nor even a decent mathematical model for
+deciding when a flip is possible.
+
+I am trying to understand how the strings work.  First, it looks like
+there is twice as much string as necessary; each string is doubled.  I
+guess that this duplication has no effect on the puzzle except for
+durability, but until I can dyke one out can't be sure.  I'm concerned
+that the string may be one double loop, so I'm looking for a good way
+to make sure the thing doesn't unstring entirely when I cut one.
+
+Each side of each piece has four short channel segments and four long;
+half are occupied with string.  If you continue each segment across
+each hinge to the next piece, you get eight channels composed of
+alternating long and short segments.  Again, four of the eight channels
+are occupied.  In the positions I've seen, each of the channels
+contains eight pairs of segments.
+
+But Magic is more complicated than that--the strings do not always
+follow a channel from piece to piece.  On half of the pieces, there is
+an extra loop of string that wraps back onto the piece without
+following the channel to the next piece.  I don't know what function
+this serves.
+
+If a good model of the string interactions can be developed, we may be
+able to make an attack on the doughnut problem based on the length of
+string channels.  In the doughnut, there are four ten-pair channels and
+four six-pair channels.  We may be able to show that the string wouldn't
+reach one, and would exceed the other.  More likely, the model will
+prohibit the doughnut more directly.
+
+There is another string-related question I am wondering about.  I have
+noticed some of the string-pairs getting twisted.  I wonder how bad
+this can get.  Does anyone have an operation that can be repeated to
+make the twists tighter and tighter?  Are these puzzles built for
+obsolescence?
+
+I have been considering Magic metrics, but it's a difficult problem.
+Counting flips is easy enough, but how do you count a move that skews a
+parallelogram?  Are such skew moves necessary?
+
+Dan

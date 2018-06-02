@@ -1,0 +1,53 @@
+From reid@math.berkeley.edu  Sun Aug 29 04:26:41 1993
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10214; Sun, 29 Aug 93 04:26:41 EDT
+Received: from jacobi.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA05585; Sun, 29 Aug 93 01:26:31 PDT
+Date: Sun, 29 Aug 93 01:26:31 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9308290826.AA05585@math.berkeley.edu>
+To: Dik.Winter@cwi.nl, cube-lovers@life.ai.mit.edu
+Subject: Re:  Diameter of cube group?
+
+> But I have not the time right now to check.  I am busy trying to prove
+> that 20 is minimal for superfliptwist.  I have already found that there
+> is no 19 turn solution with 16 turns in phase 1.  That took about 48
+> hours (distributed over 6 machines).  Now I am doing the same for 17
+> turns in phase 1; which wil obviously take much longer.  (And yes, I
+> took the precaution of allowing as the first turn only F, F2, R, R2,
+> U, U2 in phase 1.  When I go to 19 turns in phase 1, I can skip 18,
+> I need only F, F2, R and R2, I think.)
+
+in fact, you can eliminate the possibility of starting with F2, R2 or U2,
+since these each commute with superfliptwist, and may be done in stage 2.
+in other words, if  F2 sequence  =  superfliptwist,  then also
+sequence F2  =  superfliptwist.
+
+also, you need not consider 19 turns in stage 1.  by symmetry, you may
+suppose the last face turned is U, which is done in stage 2.
+
+if you use the fact that U and D commute, L and R commute and F and B
+commute, then the number of sequences of length n in stage 1 grows
+exponentially, with ratio approximately 13.35.  if the runtime is
+proportional to the number of sequences tested in stage 1, (which
+may or may not be the case) that would mean testing 18 turns deep
+would take approximately 178.18 times as long.  (eliminating the
+possibility of starting with F2, R2 or U2 would cut that in half.)
+
+here's something you may have already considered.  if your prune tables
+in stage 1 consider only pairs (flip, twist), (flip, location) and
+(twist, location), some search paths may be pruned 8 turns early.
+(each of these pairs had positions 9 twists from start.)  at the
+expense of a lot more memory, you can do some pruning 11 turns early,
+by storing tables for triples (flip, twist, location).  you'd probably
+have to store these tables in very compressed form, and divide out by
+symmetries of the cube that preserve the U-D axis.  it may turn out
+that the overhead of processing this compressed information does not
+adequately compensate for the improved foresight, but it's worth
+considering.
+
+it would be excellent if you could show that 20 face turns is minimal
+for superfliptwist!  even finding a shorter solution would be great!
+
+mike
+

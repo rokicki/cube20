@@ -1,0 +1,58 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep 17 20:27:13 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id UAA14346; Thu, 17 Sep 1998 20:27:13 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: "Chris and Kori Pelley" <ck1@home.com>
+To: "Cube Lovers" <cube-lovers@ai.mit.edu>
+Subject: DOGIC solution
+Date: Mon, 14 Sep 1998 18:01:56 -0400
+Message-Id: <000a01bde02b$49b5aae0$da460318@CC623255-A.srst1.fl.home.com>
+
+Using Noel Dillabough's PUZZLER program for MS Windows, I was able to verify
+the basic moves needed to solve the new DOGIC puzzle.
+
+SPOILER WARNING!  If you wish to solve the puzzle yourself, read no further.
+
+
+What seems fairly obvious is that the DOGIC is essentially a superset of
+Impossi-Ball, which is basically the corners of MegaMinx.  On DOGIC,
+however, these corners have been flattened and could more properly be called
+"centers."  Using classic 3x3x3 techniques, you can position and orient
+these pieces using the following moves:
+
+Center 3-cycle:
+
+(R' U L U') (R U L' U')
+
+Center orientation (pair):
+
+(R' D R) (F D F') U'
+(F D' F') (R' D' R) U
+
+Note that these faces refer to the large pentagons and must be "translated"
+to fit the dodecahedral nature of DOGIC.  R, U, and L form a horseshoe, and
+F intersects all three.  The D face is not really D, in fact it touches the
+U face at one point.
+
+The remaining triangular pieces turn out to be fairly trivial, and any two
+can be swapped with the simple sequence:
+
+R u R' u'
+
+In this case, R is a large pentagon and u is any intersecting smaller
+pentagon.
+
+A general strategy would be to manually place the top "centers" followed by
+their adjacent centers (if you have solved ImpossiBall this should not be
+difficult).  Then apply the first two moves above to complete the remaining
+centers.  Finally, place all the smaller triangles with the third move.
+
+Despite having more permutations than most magic puzzles, DOGIC seems to be
+fairly easy to solve.
+
+Chris Pelley
+ck1@home.com
+http://www.chrisandkori.com
+

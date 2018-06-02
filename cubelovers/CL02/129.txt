@@ -1,0 +1,5 @@
+Date: 2 August 1981 19:41-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+To: CUBE-LOVERS at MIT-MC
+
+This is a test message that should NOT get forwarded!

@@ -1,0 +1,61 @@
+From BRYAN@wvnvm.wvnet.edu  Sun Nov 20 12:56:36 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA13248; Sun, 20 Nov 94 12:56:36 EST
+Message-Id: <9411201756.AA13248@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 2796; Sun, 20 Nov 94 12:56:30 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 7514; Sun, 20 Nov 1994 12:56:30 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sun, 20 Nov 1994 12:56:26 -0500 (EST)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <dlitwin@geoworks.com>
+Cc: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: Antipode
+In-Reply-To: Message of 11/14/94 at 13:54:31 from dlitwin@geoworks.com
+
+On 11/14/94 at 13:54:31 dlitwin@geoworks.com said:
+
+>        Despite having read all of the archives, I still don't know what an
+>antipode is.  I suspect I'd have to know more about group theory, but can
+>you briefly describe what one is (you may want to CC the cube-lovers list
+>as well, in case more don't understand the term).
+
+I guess the most limited definition is two points on the opposite sides
+of a sphere, at the ends of a diameter  -- e.g., the north pole and
+the south pole.  However, the definition need not be limited to
+three dimensions (points on the opposite ends of a diameter of a
+circle are sometimes referred to as antipodes, I think) nor to
+circles and spheres (I have seen opposite corners of a square
+referred to as antipodes).
+
+Generalizing further, antipodes are "opposite" or "maximally distant"
+points of any sort of structure, depending on what "opposite" or
+"maximally distant" mean in the context at hand.  With respect to
+Rubik's cube, antipodes of Start are states which are maximally
+distant from Start, and it is a matter of great interest what that
+maximal distance might be.
+
+I have to admit to a certain discomforture with one aspect of the way
+we tend to refer to antipodes in the Rubik's cube.  Most Rubik
+structures that have been investigated do not have a single point which
+is maximally distant from Start; rather, they have several or many
+maximally distant points, and all the maximally distant points are
+called antipodes.  I would be more comfortable using "antipode" only
+when the maximally distant point is unique.  One example where the
+maximally distant point is unique is the subgroup consisting of
+edges only (no corners or centers) where only Q-turns are allowed.
+In this case, the maximally distant point has been called the
+"unique antipode".  The description "unique antipode" seems
+redundant somehow  --  "antipode" ought to imply "unique", but that
+has not been the custom on Cube-Lovers.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

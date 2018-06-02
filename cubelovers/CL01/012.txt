@@ -1,0 +1,16 @@
+Date:  3 December 1980 0050-EST
+From: James.Saxe at CMU-10A (C410JS30)
+To: CUBE-LOVERS at MIT-MC
+Subject:  28 qtw Plummer Cross
+CC: James.Saxe at CMU-10A
+Message-Id: <03Dec80 005058 JS30@CMU-10A>
+
+First,
+
+    F (LL RR) F B (LL RR) F.
+
+Now, rotate the whole cube 1/4 turn clockwise about the up-down axis
+(so that the top stays on top and the right side becomes the front)
+and finish up with
+
+    F (LL RR) F B (LL RR) F  (UU DD).

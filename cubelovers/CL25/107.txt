@@ -1,0 +1,31 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug  3 13:19:38 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id NAA11416; Mon, 3 Aug 1998 13:19:38 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Aug  3 02:10:51 1998
+Date: Mon, 3 Aug 1998 00:24:35 -0400
+Message-Id: <00273C38.001706@scudder.com>
+From: Jacob_Davenport@scudder.com (Jacob Davenport)
+Subject: Web address for solving the 5^3
+To: cube-lovers@ai.mit.edu
+
+I have created a page with a description of how I solve the 5x5x5.
+Please check out www.wunderland.com/wts/jake.  Although I did spend a
+fair amount of time on this page, I certainly consider it a first
+draft, and I would appreciate any comments about it, either those
+involving clarity of the explanation, or even better moves that would
+perform the same functions.  Be warned that it is a long page,
+although I'm sure you expected that.
+
+One person wrote to me and said that he had all but two cubies solved.
+I suspect his difficulty was "parity" which I cover in my Sixth Step.
+I'm sure there are many good solutions to the 5x5x5, just as there are
+for the 3x3x3, so if you have a half-solved cube you may need to scrap
+your work if you want to use my solution.
+
+Good luck.
+
+-Jacob
+

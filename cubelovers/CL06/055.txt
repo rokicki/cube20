@@ -1,0 +1,52 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU  3 Sep 87 08:58:50 EDT
+Date: 3 Sep 87 08:38:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: dutch newsletter #15
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+
+
+SUBJECT :  Review of "Cubism For Fun" newsletterissue #15; the newsletter of the
+"Dutch Cubists Club";  in english starting with issue 14 
+
+1..  The table of contents >> annotated << from issue #15, august 87 follows (it
+is 8 double sided folded 8 1/2 x 11 sheets, making a 32 page newsletter):
+
+INTRODUCTION
+LIVING WITH A CUBIST  BY  LUKAS  SCHOONHOVEN 
+RUBIK'S MAGIC'S CUBE  BY  RONALD FETTERMAN  < HOW TO FOLD RUBIK'S               
+               MAGIC INTO A CUBE<
+LENGTH DATA FOR UPPER TABLE PROCESSES  BY  ANTON  HANEGRAAF
+MARC WATERMAN'S ALGORITHM , PART; CONTINUED FROM ISSUE 14 
+                 - ANNEKE TREEP & MARC  WATERMAN
+THE MAGIC NUMBER CUBE  BY  WALLY  WEBSTER > MARKING WITH NUMBERS A              
+3X3X3 RUBIK'S CUBE SO THAT ALL OF THE 3X3 VERTICALS AND                      
+HORIZONTALS ADD UP TO 42<<
+THE MAGIC MOSAICS BY RONALD FETTERMAN  > SIMILAR TO THE CATALOGUE               
+     OF RUBIK'S MAGIC POSITIONS POSTED ON CUBE LOVERS WITH A                    
+  DIFFERENT NOTATION AND WITH THE ADDITION OF A                                 
+      NOMENCLATURE AND A MOVE SEQUENCE TO GET TO EACH ONE                       
+    FROM START<<
+MAGIC AND AND IS NHO MAGIC BY TOM VERHOEFF  > A GROUP THEORY                    
+            ANALYSIS OF RUBIK'S MAGIC<
+MAGIC VARIATIONS BY PETER BECK >PREVIOUSLY POSTED TO CUBE LOVERS<
+PRETTY CUBIC PATTERNS  BY  ANNEKE TREEP
+NEWS AND LETTERS TO THE EDITOR  >  a list of collectors wanting to trade        
+                        cubes/puzzles;  a statement that Guus Schultz has built 
+                               MAGICs where the number of squares is not a
+multiple                                   of "4" <<
+LIST OF MEMBERS
+
+2.   Membership for 1987 is  US$5.   A photocopied set of the newsletters,
+issues 1-13, written in DUTCH (in the feature selected articles will be
+available in english) is also available for  US$7.    To order either of these
+send an 'INTERNATIONAL"  POSTAL MONEY ORDER to:  Anton Hanegraaf, 
+Heemskerkstraat,  6662 AL ELST,  The Netherlands.
+
+3.  If anybody would like further details please ask!
+
+CUBING IS FOREVER      PETER BECK
+
+<BECK@ARDEC-LCSS>  OR  <PBECK@ARDEC>
+
+------

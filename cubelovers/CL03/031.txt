@@ -1,0 +1,17 @@
+Date: 10 Sep 1981 1447-PDT
+From: ISAACS at SRI-KL
+Subject: cube query
+To: cube-lovers at MIT-MC
+
+   The 2x2x2 cube is solved in the corner sub-group, ignoring the (non-existent)
+edges.  The so-called "Dinman Style" cube (probably meant to be "diamond")
+has the corners cut off and everything stretched to make a somewhat distorted
+rhombicuboctahedron (the six center facies are square; the corners are now
+triangles, and the old edges are rectangles).  Solving this involves only
+positioning moves - all orientation (twisting) is invisible.  Thus these
+two cubes involve two "pure" subgroups.  Can anyone design (by either cutting,
+recoloring, or even inventing new mechanisms) cubes or pseudo-cubes which
+only involve edge-type moves, or which only involve twisting, with
+positioning ignored? 
+   --- Stan Isaacs
+-------

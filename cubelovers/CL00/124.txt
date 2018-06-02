@@ -1,0 +1,13 @@
+ACW@MIT-AI 08/29/80 13:24:04
+To: Cube-hackers at MIT-MC
+
+    Date: 29 AUG 1980 1316-EDT
+    From: ACW at MIT-AI (Allan C. Wechsler)
+
+
+      On this coast we have a colorful slang term for randomizing the
+    cube.  Hint: the command to randomize the cube in Bernie's
+    :CUBE program is "F".
+
+       ---Wechsler
+

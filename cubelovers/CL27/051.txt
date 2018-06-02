@@ -1,0 +1,28 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr 15 16:59:24 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA29551
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 15 Apr 1999 16:59:24 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 14 Apr 1999 15:44:11 +0100
+From: David Singmaster Computing <david.singmaster@sbu.ac.uk>
+To: jburkhardt@mediaone.net
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009D6A16.1B1880B4.26@ice.sbu.ac.uk>
+Subject: RE: Different versions of the Ideal cube
+
+	Ideal certainly did use oriental suppliers when the Great Cube Craze
+was on and I recall several qualities of cube appeared here.  I can't remember
+for sure if they ever sold the open cornered versions.  I definitely don't
+recall examples with markedly different colors.  When Rubik's Fourth Dimension
+was launched here, I saw that they were using distinctly poor quality cubes,
+presumably from China or thereabouts.  One person at the launch said hers broke
+within an hour.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

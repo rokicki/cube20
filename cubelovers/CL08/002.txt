@@ -1,0 +1,22 @@
+From ronnie@cisco.com  Fri Nov  1 21:24:02 1991
+Return-Path: <ronnie@cisco.com>
+Received: from lager.cisco.com by life.ai.mit.edu (4.1/AI-4.10) id AA19529; Fri, 1 Nov 91 21:24:02 EST
+Received: by lager.cisco.com; Fri, 1 Nov 91 17:36:38 -0800
+Date: Fri, 1 Nov 91 17:36:38 -0800
+From: Ronnie Kon <ronnie@cisco.com>
+Message-Id: <9111020136.AA16266@lager.cisco.com>
+To: ccw@eql.caltech.edu, cube-lovers@ai.mit.edu
+Subject: Re:  What is the smallest cube which has all possible types of pieces?
+
+
+I made essentially the same assertion some months back (about the 5x5x5
+being the last "interesting" cube), and someone pointed out that there
+is a position in even order cubes which has no parallel in odd order cubes--
+that where all the corner cubies are correct, but all the edge cubies on
+the top layer are wrong.  The presence of the fixed center cubie makes it
+clear that the edge cubies are really all wrong.
+
+Boy it's great to get cube mail again.
+
+				Ronnie
+

@@ -1,0 +1,22 @@
+Date: 3 August 1980 02:20-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: more on metrics
+To: McKeeman at PARC-MAXC
+cc: CUBE-HACKERS at MIT-MC
+
+Yes, it is true that the four conditions I gave for twist measures
+don't guarentee that the function will behave anything like the kind
+of complexity measure we are looking for.  I was only trying to show
+how some of the properties you might expect of a twist measure could
+be used to generate a metric, so I didn't actually need strong enough
+properties to ensure reasonable twist measures.  The additional property
+I have been using to assure reasonability is the following:
+
+5) For all M, if T(M) > 1, then there exists an N such that
+0 < T(N) < T(M) and T(N) + T(N'M) = T(M).
+
+Note that N'M has the property that 0 < T(N'M) < T(M) (easy to show)
+so the two manipulations N and N'M are both "simpler" than M.  We can
+thus easily show that any manipulation M can be expressed as the
+product of T(M) twists (where a twist is defined as a manipulation
+such that T(N) = 1).

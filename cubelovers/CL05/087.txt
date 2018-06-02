@@ -1,0 +1,26 @@
+From: Alan Bawden <ALAN%mit-mc.arpa@CSNET-RELAY>
+Subject:  Has anybody heard of this?
+To: CUBE-LOVERS%mit-mc.arpa@CSNET-RELAY
+
+    Date: Thu 10 Oct 85 16:21:40-PDT
+    From: Haym Hirsh <HIRSH at SUMEX-AIM.ARPA>
+    ...
+    3.  (forward to cube-lovers if necessary)  I hear there is a textbook
+    on group theory using Rubik's Cube for all its examples (or some such
+    gimmick).  Have you heard anything about it?
+    ...
+
+Not I.  Anyone else?  I'd be interested in seeing this myself.
+
+
+
+There was a book published a few years ago which had one chapter
+dealing with the cube.
+
+Groups and Geometry - Peter Neumann, Gabrielle A. Stoy, & E. C. Thompson
+  The Mathematical Institute - Oxford University
+  The last chapter is "The Group Theory of the Hungarian Magic Cube".
+
+Dan Nichols
+-------
+

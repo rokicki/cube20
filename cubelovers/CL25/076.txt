@@ -1,0 +1,33 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu May 28 12:18:52 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA02019; Thu, 28 May 1998 12:18:51 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed May 27 16:46:38 1998
+From: David A Bagley <bagleyd@gwyn.tux.org>
+Message-Id: <199805272042.QAA15526@gwyn.tux.org>
+Subject: Updated 3x3x3x3 (Rubik's Tesseract)
+To: cube-lovers@ai.mit.edu
+Date: Wed, 27 May 1998 16:42:53 -0400 (EDT)
+Cc: charlied@erols.com
+
+Hi All
+
+A new version of Charlie Dickman's Rubik Tesseract program and its
+accompanying documentation is now available from http://www.tux.org/~bagleyd/
+(under the heading of "Neat 4D stuff I wish I wrote" :) ).
+This latest version contains a general solution to unscramble an
+arbitrarily scrambled Rubik Tesseract as well as some improved bells and
+whistles.  The solution is given in the docs and is also implemented in
+the Macintosh program.
+
+All mail about the Tesseract docs and program should be addressed to
+Charlie Dickman <charlied@erols.com>.
+
+-- 
+Cheers,
+ /X\  David A. Bagley
+(( X  bagleyd@bigfoot.com  http://www.tux.org/~bagleyd/
+ \X/  xlockmore and more   ftp://ftp.tux.org/pub/tux/bagleyd
+

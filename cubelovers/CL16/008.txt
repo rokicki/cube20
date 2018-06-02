@@ -1,0 +1,36 @@
+From BRYAN@wvnvm.wvnet.edu  Wed May 24 17:14:08 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from LCS.MIT.EDU (mintaka.lcs.mit.edu) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14808; Wed, 24 May 95 17:14:08 EDT
+Received: from wvnvm.wvnet.edu by MINTAKA.LCS.MIT.EDU id aa11446;
+          24 May 95 16:40 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 2982; Wed, 24 May 95 16:36:42 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 7958; Wed, 24 May 1995 16:36:43 -0400
+Message-Id: <wvmail32.1995may24.155259.bryan@wvnvm.wvnet.edu>
+Date:      Wed, 24 May 1995 16:36:30 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@lcs.mit.edu>
+Subject:   Re: AntiSlice Under M-conjugacy (and a problem with slice)
+In-Reply-To: Message of 05/22/95 at 11:13:00 from ,
+           Martin.Schoenert@math.rwth-aachen.de
+
+On 05/22/95 at 11:13:00 Martin Schoenert said:
+
+>GAP's 'NumberConjugacyClasses' follows the general usage in group theory.
+>The conjugacy class of an element <g> of <G> is the set of elements <h>
+>that are G-conjugated to <g> (i.e., there exists an element <x> in <G>,
+>such that <x>^-1 * <g> * <x> = <h>).
+
+Just to give an example that I am familiar with, suppose the group
+in question were M itself.  Then, NumberConjugacyClasses should yield
+10, because the 48 elements in M yield 10 conjugacy classes under
+M-conjugation.  If anybody who has GAP also has defined M, you
+might give it a try.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

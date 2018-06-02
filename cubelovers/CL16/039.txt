@@ -1,0 +1,55 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Jun 28 12:52:18 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20782; Wed, 28 Jun 95 12:52:18 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4454; Wed, 28 Jun 95 10:09:51 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 0089; Wed, 28 Jun 1995 10:09:52 -0400
+Message-Id: <wvmail32.1995jun28.094805.bryan@wvnvm.wvnet.edu>
+Date:      Wed, 28 Jun 1995 10:09:51 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: Re: A Third Way to Calculate the Real Size of Cube Space?
+In-Reply-To: Message of 06/20/95 at 14:39:00 from ,
+           Martin.Schoenert@Math.RWTH-Aachen.DE
+
+I guess I am going to have to break down and get a copy of GAP.  It
+is truly impressive how much GAP can do so easily.
+
+My interpretation of Martin's GAP program is that it implements the
+general outline of the algorithm I described, except that GAP was
+able to calculate the number of K-symmetric permutations in a very
+simple and direct way, whereas I was going to have to puzzle each one
+out by hand.
+
+The heart of Martin's program appears to be the following, and I have
+a couple of questions.
+
+
+>        # compute how many elements have at least this symmetry group
+>        number := Size( Centralizer( G, rep ) );
+
+The first question is:  how does the Size function work?  As a simpler
+example than the one above, what if you simply say Size(G)?  I am
+naively assuming that G is specified to GAP in terms of generators
+only, and that it makes no attempt to actually represent each element
+of G (too big!).  And I have seen snippets of GAP libraries for G
+posted by Mark Longridge, and they look like generators.  I have been
+in several group theory books lately, and I don't recall seeing
+a general algorithm presented for determining the size of a finite
+group based on its generators.
+
+The second question is like unto the first:  how does the
+Centralizer function work?  In this particular case, we don't
+really need the Centralizer, we only need the Size of the Centralizer,
+but the question remains in either case.  Surely, GAP does not
+literally try each element of G and each element of rep to see
+which elements commute (too big again).  So what is the general
+algorithm?
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

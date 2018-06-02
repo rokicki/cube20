@@ -1,0 +1,72 @@
+From BRYAN@wvnvm.wvnet.edu  Fri Oct 20 09:41:53 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17398; Fri, 20 Oct 95 09:41:53 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R3)
+   with BSMTP id 6647; Fri, 20 Oct 95 09:18:21 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 6141; Fri, 20 Oct 1995 09:18:21 -0400
+Message-Id: <wvmail32.1995oct20.084246.bryan@wvnvm.wvnet.edu>
+Date:      Fri, 20 Oct 1995 09:18:20 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject:   Re: Old question about 2 adj edges
+In-Reply-To: Message of 10/20/95 at 13:00:30 from hazard@niksula.hut.fi
+
+On 10/20/95 at 13:00:30 Mikko Haapanen said:
+
+>I want to ask if somebody can tell me how to flip 2 adj. edges (and nothing
+>else) in 4x4x4 cube?
+
+That reminds me of a question I have been meaning to ask for a long time.
+But first here is some context, involving some reminisces about when
+I first figured out how to solve the cube.
+
+After buying my first cube, it took me about a week to figure out how
+to solve everything except two edges cubies which were flipped.  It took
+me about another week to figure out how to unflip them.  Since then, I have
+discovered that about half the time, my method of solution yields two
+flipped edge cubies which have to be unflipped, and about half the time
+it doesn't.  Fair enough  --  50-50 chance, I guess.  (When I am in
+practice, I can see the flipped edge cubies coming, and can compensate
+as a part of the process of getting the last few edge cubies in place,
+but I am seldom really in practice.)
+
+The 4x4x4 was a little tougher.  It took me about a week to figure out
+how to solve everything except two edge cubies which were exchanged.
+It took me about another year(!) to figure out how to exchange them.
+
+On the 3x3x3, I solve the corners first, then the edges.  I use the
+same general method on the 4x4x4, except that there are four face
+centers (if you can call them that) on each face to deal with.  So
+I solve the corners first, which establishes a frame of reference.
+Then, I solve the face centers with respect to the frame of reference
+established by the corners.  Finally, I solve the edges.  All the
+operators are identical or similar to the ones I use for the 3x3x3.
+
+For the longest time, I thought that a parity argument made one
+exchange of the edges impossible, and I was just sure that somebody
+was taking my cube apart and putting it back together when I wasn't
+looking.  I went through two or three cycles of taking it apart
+myself and putting it back together in Start, scrambling it, and
+trying to solve it, all in one sitting, before I was convinced that
+you really could have just one exchange of the edges.
+
+What I didn't see originally was that there could be invisible
+movement of the face centers to compensate for the "bad parity" of
+the edges.  I am very poor at solving the 4x4x4, but here is how I
+do it.  When I get the "bad parity", I make one slice move (doesn't
+disturb the corners), and then solve the face centers again without
+simply undoing the once slice move and without worrying about the
+edges.  Then, upon solving the edges the second time, there is
+"good parity" and all is well.
+
+Finally, here is my question.  On the 4x4x4, I get "bad parity" darn
+near every time.  Why isn't it 50-50 like the situation I have with
+flips on the 3x3x3?
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

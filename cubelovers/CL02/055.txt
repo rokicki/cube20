@@ -1,0 +1,85 @@
+Date: 22 March 1981 0829-EST (Sunday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at mit-mc
+Subject:  No short relations and a new local maximum
+Message-Id: <22Mar81 082919 DH51@CMU-10A>
+
+	Well, the gigabyte (well, 300Mb) came in, and brute force is
+having its day.  I have a little program that generates all positions
+accessible from a given position in a given number of quarter-twists.
+With the increased storage available here, I was able to run it to five
+quarter-twists.
+
+	The first important fact to emerge is that there are exactly
+105046 different positions at a distance of at most 5 qtw from START.
+This has two consequences to the argument given in my message on the
+Supergroup, part 2 (9 January 1981 0629-EST).  Note that the results
+here pertain to the usual group of the cube, rather than the
+Supergroup, since the program does not keep track of face-center
+orientations.
+
+	The first consequence is that there are exactly 93840 positions
+exactly 5 qtw from START.  The message cited above proved the
+inequality P[5] <= 93840; this is now known to be an equality.
+
+	The second consequence is that there are no relations
+(sequences that lead back to START) of length 10, with the exception of
+those that follow from the relations FFFF = FBF'B' = I (and their
+M-conjugates).  This is because relations of length 10 would reduce
+P[5], which is not the case.  There are, however, relations of length
+12; the only known ones are FR'F'R UF'U'F RU'R'U [given in Singmaster]
+and its M-conjugates.
+
+	These results can be extended to the Supergroup, by noting that
+the set of observed positions places a lower bound on the number of
+Supergroup positions at a distance of 5 qtw, while the upper bound
+given in the cited message relies on the relations FFFF = FBF'B' = I,
+which are relations in the Supergroup.
+
+	A particular result which may be of greater interest to readers
+of this list concerns the relation between symmetry and local maxima.
+In our message on the subject (14 December 1980 1916-EST) Jim Saxe and
+I mentioned that the six-spot pattern is not a local maximum, as
+verified by computer.  [The same program was used, but only four-qtw
+searches were needed.]
+
+	With five-qtw searches, it became possible to check another
+conjecture, using an approach that Jim suggested.  The four-spot
+pattern
+
+		U U U
+		U U U
+		U U U
+
+	R R R	B B B	L L L	F F F
+	R L R	B F B	L R L	F B F
+	R R R	B B B	L L L	F F F
+
+		D D D
+		D D D
+		D D D
+
+is solvable in twelve qtw, either by (FFBB)(UD')(LLRR)(UD') or by its
+inverse, (DU')(LLRR)(DU')(FFBB).  It is immediate that a twelve qtw
+path from this pattern to START can begin with a twist of any face in
+either direction.  The program was used to verify that there are no ten
+qtw paths.  (It generated the set of positions attainable at most five
+qtw from START and the set of positions obtainable from the four-spot
+in at most five qtw, and verified that the intersection of the two sets
+is empty.)  Thus the four-spot is exactly twelve qtw from START and all
+its neighbors are exactly eleven qtw from START, proving that the
+four-spot is a local maximum.  (Worried that there might be an eleven
+qtw solution to the four-spot?  Send me a note.)
+
+	This is the first example of a local maximum which cannot be
+shown to be a local maximum on the basis of its symmetry.  To be more
+precise, let us define a "Q-symmetric" position to be a position whose
+symmetry group is Q-transitive.  This extends the terminology developed
+in "Symmetry and Local Maxima".  In that message, we showed that all
+Q-symmetric positions, except the identity, are local maxima.  Until
+now, these were the only local maxima known.  The four-spot, however,
+is not Q-symmetric; the position obtained by twisting the U or D face
+of the four-spot is not M-conjugate to the position obtained by
+twisting any of the other faces.  This lays to rest the old speculation
+that one might find all local maxima, and thereby bound the maximum
+distance from START, by examining Q-symmetric positions.

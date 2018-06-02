@@ -1,0 +1,26 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Dec 10 11:06:20 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id LAA14361; Tue, 10 Dec 1996 11:06:20 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-ID: <32AE4BFB.7907@idirect.com>
+Date: Wed, 11 Dec 1996 00:51:55 -0500
+From: Mark Longridge <cubeman@idirect.com>
+X-Mailer: Mozilla 2.01 (Win95; U)
+MIME-Version: 1.0
+To: cube-lovers@ai.mit.edu
+Subject: Shortest possible Megaminx 2-flip
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+I believe I have calculated the shortest possible 2 flip for the
+Megaminx (Rubikian Dodecahedron):
+ 
+R- F- U+ L- U- L+ F+ R+
+L+ F+ U- R+ U+ R- F- L-
+ 
+16 face turns & 16 unit turns.
+ 
+-> Mark <-
+
+

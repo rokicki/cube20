@@ -1,0 +1,33 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Nov 18 17:23:08 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA29198
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 18 Nov 1998 17:23:06 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19981114070437.9789.rocketmail@attach1.rocketmail.com>
+Date: Fri, 13 Nov 1998 23:04:37 -0800 (PST)
+From: "Jorge E. Jaramillo" <kingeorge@rocketmail.com>
+Subject: RE: Moves to this other pattern
+To: David Singmaster <david.singmaster@sbu.ac.uk>, <Cube-Lovers@ai.mit.edu>
+
+Maybe (although I don't think so since some people
+already answered what I was asking) I made a mistake
+when describing the position I wanted to accomplish.
+What I wanted was:
+      L B R
+      L B R
+      L B R
+F F F T T T F F F D D D
+L L L T T T R R R D D D
+B B B T T T B B B D D D
+      L F R
+      L F R
+      L F R
+
+And until now the best solution is:
+F B L F2 T D- L2 B- T- D- F2 R- T- D L- R D
+
+===
+Jorge E Jaramillo
+

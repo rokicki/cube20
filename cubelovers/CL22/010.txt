@@ -1,0 +1,35 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Dec 30 00:44:06 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA06684; Mon, 30 Dec 1996 00:44:05 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sun, 29 Dec 1996 14:03:06 +0100
+From: Rob Hegge <R.F.Hegge@mp.tudelft.nl>
+Subject: Re: Rubik's Tangle -> a new one
+To: Cube-Lovers@ai.mit.edu
+Message-id: <9612291303.AA21898@sumatra.mp.tudelft.nl>
+Content-transfer-encoding: 7BIT
+X-Sun-Charset: US-ASCII
+
+> There are four Rubik's Tangles. Each of them
+> has 25 pieces and forms a 5x5 square. Once you've
+> got all four you can mix all of the pieces up and produce
+> a giant 10x10.
+I have read somewhere that this is not possible.
+
+> I don't know if Dr Bruhns solution on his page 
+> <http://www.math.uni-kiel.de/roesler/bruhn/tlsg.htm>
+> is correct - once I get to print it out in colour at the
+> office I'll see if it matches the tangle I have (# 4).
+> 
+> Jon Teague
+> <jon@jandj.netkonect.co.uk>
+
+Actually there are 5 now, a new one is on sale in the US:
+It contains 9 pieces, all of them are double sided with the
+ropes in 3D, i.e. the pieces are not flat as compared to the
+other 4 sets.
+
+Rob Hegge
+
+

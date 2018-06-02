@@ -1,0 +1,17 @@
+Date: 5 Jun 1982 10:44:47-PDT
+From: decvax!minow at Berkeley
+To: ucbvax!cube-lovers@mit-ai
+
+Subject:  Rubic's Domino
+I found one (for $11.00) at Games People Play in Cambridge.  Made in
+Hungary, not by Ideal.
+
+Haven't solved it yet.  The notes say you should be able to solve it
+in 15 minutes.  It is a 3x3x2 construction; one face white; one black.
+Each cube is numbered as on a domino.  The object is to get the numbers
+and colors arrainged.
+
+Martin Minow
+decvax!minow at berkeley
+
+

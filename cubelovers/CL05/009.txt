@@ -1,0 +1,23 @@
+Date:  5 Jan 1983 1802-PST
+From: ISAACS at SRI-KL
+Subject: Other news
+To: CUBE-LOVERS at MIT-MC
+
+   The new RUBIK'S magazine is out.  Not as interesting (to me) as the first.
+Several articles on the Snake, on cube contests, and some on other games.
+A computer flow-chart for the game Awari, and an analysis of Chinese Rings
+are included.  The most interesting cube articles are one on how disordered
+a cube can get; and one on pretty patterns in other cube universes (ie, when
+an edge is flipped, what symmetric patterns are there). 
+  If you haven't seen it, the book "INside Rubik's Cube and Beyond" by
+Christoph Bandelow is very good.  It's translated from German, and contains
+a fairly technical discussion of the Mathematical Model, solving in the
+supergroup, other magic polyhedra, a detailed flowchart of a cube-solving
+program (which also checks the input for legality), and a comprehensive 
+Maneuver Index, which contains, among other things, a complete catalog of
+3-cycles.  It includes an index, a bibliography, and a good section of
+colored pictures in the center (including one of a 5x5x5!!!). Recomended.
+   I've also heard a rumor that the solution to "Masquerade" has been
+written (and maybe published).  Has anyone heard anything of this?
+  -- Stan
+-------

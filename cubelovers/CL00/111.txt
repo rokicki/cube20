@@ -1,0 +1,20 @@
+Date: 16 Aug 1980 1053-PDT
+From: Stuart McLure Cracraft <McLure at SRI-KL>
+Subject: Singmaster's method
+To: Greenberg.Multics at MIT-MULTICS
+cc: cube-lovers at MIT-MC
+In-Reply-To: Your message of 16-Aug-80 1245-PDT
+
+Well, it does have a copyright on the method itself so I doubt
+it would be reasonable to type the thing in. It is rather long too.
+
+Briefly, he first puts the U edges in place and then the U corners.
+One face is a single color now. He turns over the cube so that it
+is on the bottom and puts the middle layer edges correcty in place
+and then makes the U edges into an even permutation.
+Then he puts the U edges in place and then the U corners.
+Finally he orients the U corners. And supposedly it is solved
+at that point. I haven't had much luck with the method though.
+
+He claims that this method takes less then 200 moves.
+-------

@@ -1,0 +1,19 @@
+Date: 17 Feb 1981 1622-PST
+From: Steve Saunders <SAUNDERS at USC-ISIB>
+Subject: Rubik-like sphere
+To: Cube-Lovers at MIT-MC
+
+And if you color it continuously, why not have continuous moves, too? For
+instance, a smooth twist about an axis (like twisting a rubber ball that's
+glued to sticks at its poles -- carries meridians into spirals), or a smooth
+bending (like pushing one of those poles sideways while holding the other
+fixed -- makes parallels not parallel).  I suspect that the groups resulting
+from some sets of smooth motions would be very simple, but some might have
+interesting interactions.  A problem with all this smoothness (a feature?) is
+that it would enable approximate solutions, iterative converging infinite
+"solutions", and disputes about whether SOLVED has in fact been reached --
+none of which occur with the real Rubik's.
+
+		Steve
+
+-------

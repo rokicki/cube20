@@ -1,0 +1,37 @@
+From mreid@ptc.com  Sat Dec 17 14:53:48 1994
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AB28037; Sat, 17 Dec 94 14:53:48 EST
+Received: from ducie.ptc.com by ptc.com (5.0/SMI-SVR4-NN)
+	id AA09900; Sat, 17 Dec 94 14:52:32 EST
+Received: by ducie.ptc.com (1.38.193.4/sendmail.28-May-87)
+	id AA27879; Sat, 17 Dec 1994 15:03:32 -0500
+Date: Sat, 17 Dec 1994 15:03:32 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9412172003.AA27879@ducie.ptc.com>
+To: cube-lovers%life.ai.mit.edu@ptc.com
+Subject: planning in permutation groups
+Content-Length: 866
+
+here is some more info on the algorithm i briefly described yesterday.
+
+the paper i have is "planning and learning in permutation groups", by
+fiat, moses, shamir, shimshoni and tardos.  it appeared in the 30th
+annual symposium on foundations of computer science, pp 274-9.
+
+the paper mentions that they have calculated all identities of length 16
+(they count face turns).  this means that the algorithm was successfully
+implemented for the list  L  of all configurations within 4 face turns
+of start!
+
+also, alan gives a much more detailed description of this algorithm
+in the archives.  see his message of may 27, 1987 "shamir's talk really
+was about how to solve the cube!"  (cube-mail-6)
+
+i encourage people to look up the paper and/or alan's message.  this is
+an exciting development, and the lack of attention this idea has
+received is a shame.
+
+regards,
+
+mike
+

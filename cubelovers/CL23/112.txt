@@ -1,0 +1,54 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug 15 20:32:05 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id UAA18522; Fri, 15 Aug 1997 20:32:05 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From reid@math.brown.edu Fri Aug 15 19:48:02 1997
+Message-Id: <199708152344.TAA05912@life.ai.mit.edu>
+Date: Fri, 15 Aug 1997 19:49:54 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: isoglyphs
+
+perhaps i am missing something, but doesn't
+
+     D2 R2 U2 D2 R2 U D   (12q, 7f)
+
+produce an isoglyph of type 4D ?
+
+are there any isoglyphs of type 21 or 23 ?  i haven't found any.
+each has three possible patterns:
+
+...     .*.         .*.
+***     .**         ***
+***  ,  ***   and   *.* ,
+
+.*.     ...         ...
+.*.     **.         .*.
+*.*  ,  *.*   and   *** .
+
+i hadn't even considered chiral versus achiral isoglyphs.  indeed,
+all the "continuous" isoglyphs given by herbert are chiral.
+achiral isoglyphs certainly exist, for example
+
+     D2 R2 U' B' L  B  U  B  L  F2 R  D' L2 U2 B2 D    (22q, 16f)
+
+of type 11; pattern
+
+*..
+***
+***
+
+and others can be derived from this.  i suspect that there is no
+chiral form of this isoglyph, but i'm not absolutely certain.
+
+another interesting note is that the inverses of the "continuous"
+isoglyphs are also isoglyphs; in fact the same pattern, perhaps in
+a different orientation.  however, there is at least one (probably
+more) isoglyph whose inverse is not an isoglyph.  instead of giving
+it right here, i'll challenge other readers to find it/them.
+
+mike
+
+

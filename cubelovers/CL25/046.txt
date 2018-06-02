@@ -1,0 +1,66 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr 23 20:24:58 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id UAA05974; Thu, 23 Apr 1998 20:24:58 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Apr 23 20:22:45 1998
+Date: Thu, 23 Apr 98 20:21:11 EDT
+Message-Id: <9804240021.AA11374@sun28.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: cube-lovers@ai.mit.edu
+Cc: whuang@ugcs.caltech.edu
+Subject: Re: Hamiltonian circuits on the cube
+
+I wrote: 
+    "...send me e-mail before I hack again!"
+
+Too late.  The only chiral Hamiltonian isopaths are the two we've
+already seen, and:
+                        +---+---+-@-+---+-@-+---+
+                        | @@@@@   @@|@@@@@@   @@|
+                        + @ + @ +   +   +   + @ +
+                        | @   @@@@@@|@@@@@@   @ |
+                        + @ +   +   +   + @ + @ +
+                        |@@   @@@@@@|@@   @@@@@ |
+            +---+---+-@-+---+-@-+---+-@-+---+---+
+            | @@@@@   @@|@@@@@@   @@|
+            + @ + @ +   +   +   + @ +
+            | @   @@@@@@|@@@@@@   @ |
+            + @ +   +   +   + @ + @ +
+            |@@   @@@@@@|@@   @@@@@ |
++---+---+-@-+---+-@-+---+-@-+---+---+
+| @@@@@   @@|@@@@@@   @@|
++ @ + @ +   +   +   + @ +
+| @   @@@@@@|@@@@@@   @ |
++ @ +   +   +   + @ + @ +
+|@@   @@@@@@|@@   @@@@@ |
++---+-@-+---+-@-+---+---+
+
+I actually generated all the continuous chiral isopaths, and the
+following is the other extreme--the only one with nine disjoint paths.
+Yet one of the paths goes through one third of the facelets.
+
+                        +-@-+-@-+---+-@-+-@-+-@-+
+                        |@@   @@@@@@|@@   @   @ |
+                        +   +   +   +   + @ + @ +
+                        |@@   @@@@@@|@@@@@@   @@|
+                        + @ + @ +   +   +   +   +
+                        | @   @   @@|@@@@@@   @@|
+            +-@-+-@-+---+-@-+-@-+-@-+---+-@-+-@-+
+            |@@   @@@@@@|@@   @   @ |
+            +   +   +   +   + @ + @ +
+            |@@   @@@@@@|@@@@@@   @@|
+            + @ + @ +   +   +   +   +
+            | @   @   @@|@@@@@@   @@|
++-@-+-@-+---+-@-+-@-+-@-+---+-@-+-@-+
+|@@   @@@@@@|@@   @   @ |
++   +   +   +   + @ + @ +
+|@@   @@@@@@|@@@@@@   @@|
++ @ + @ +   +   +   +   +
+| @   @   @@|@@@@@@   @@|
++-@-+-@-+-@-+---+-@-+-@-+
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

@@ -1,0 +1,17 @@
+From ACW@riverside.scrc.symbolics.com  Fri Apr 24 14:34:12 1992
+Return-Path: <ACW@riverside.scrc.symbolics.com>
+Received: from RIVERSIDE.SCRC.Symbolics.COM by life.ai.mit.edu (4.1/AI-4.10) id AA20016; Fri, 24 Apr 92 14:34:12 EDT
+Received: from TRANTOR.SCRC.Symbolics.COM by RIVERSIDE.SCRC.Symbolics.COM via INTERNET with SMTP id 797732; 24 Apr 1992 14:33:30-0400
+Date: Fri, 24 Apr 1992 14:33-0400
+From: Allan C. Wechsler <ACW@riverside.scrc.symbolics.com>
+Subject: Some solutions to Rubik's Tangle have been found.
+To: ccw@eql.caltech.edu, Cube-Lovers@ai.mit.edu
+In-Reply-To: <920418201450.2b6009a5@EQL.Caltech.Edu>
+Message-Id: <19920424183328.2.ACW@TRANTOR.SCRC.Symbolics.COM>
+
+I hope I'm not wasting too many people's time, but... can you describe
+the Rubik's Tangle puzzle for those of us who haven't seen it?  Your
+description was interesting, but I wonder about your statement that it
+can't be solved without a computer.  Perhaps you just didn't have the
+right insight.
+

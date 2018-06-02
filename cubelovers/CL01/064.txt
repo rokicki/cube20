@@ -1,0 +1,49 @@
+Date: 31 Dec 1980 0729-EST
+From: ZILCH at MIT-DMS (Chris C. Worrell )
+To: CUBE-LOVERS at MIT-MC
+Subject: relatives of the plummer cross
+Message-id: <[MIT-DMS].177333>
+
+   
+Two relatives  of the plummer cross which people may find interesting
+are given here:
+
+The first is called a baseball.
+
+      lL U L
+      L U U
+      L L L
+F F F U U U B R B D B D
+L L F U F F R R B D B B
+F L F U F U B B B D D D
+      R D R
+      D D R 
+      R R R
+ 
+
+I do this one in 50 qtw though I know how to shorten it to 42.
+
+The second is called a cube in a cube.
+
+      L L L
+      U U L
+      U U L
+F L L F F U B B B D D D
+F L L F F U B R R B B D
+F F F U U U B R R B B D
+      R R R
+      R D D
+      R D D
+
+
+I do this one in 70 qtw, though I could reduce it to 62.
+
+These configurations both have two minor variants
+which leave the essential nature of the configuration the same.
+these other patterns are obtained by twisting the FUL AND BDR
+corners. Both of these patterns were devised by people at Caltech.
+
+               Chris Worrell (ZILCH @MIT-AI)
+
+
+

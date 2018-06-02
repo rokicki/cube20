@@ -1,0 +1,48 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug 24 14:37:46 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id OAA02331; Mon, 24 Aug 1998 14:37:46 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sat Aug 22 20:18:25 1998
+Message-Id: <35DF587E.6C0D@ameritech.net>
+Date: Sat, 22 Aug 1998 18:47:10 -0500
+From: Hana Bizek <hbizek@ameritech.net>
+Reply-To: hbizek@ameritech.net
+To: cube-lovers@ai.mit.edu
+Subject: designs from Rubik's cubes
+
+Hi, fellow cube-lovers
+I am a recent member of the cube-lovers mailing list. I would like to
+help me answer this question: has any of you constructed, or does anyone
+of you know someone who has constructed, a composite, pleasant,
+geometrical design on a set of Rubik's cubes? The design is a three
+dimensional {but not necessarily cubical} structure that exhibits some
+symmetry on all its faces. Such designs are quite different from the
+picture-like structures built by Jacob Davenport. I saw his pictures
+when I consucted an ongoing web search to answer the above question. So
+far I was not successful, and so I seek your help.
+I am the author of these designs. I know they can be done because I have
+done them. I do not have a web page of my own yet, but a friend of mine
+kindly offered to put three of these designs on his web page. They may
+be seen at http://www.ssie.binghamton.edu/~jirif/cube.html. This should
+open my friend's speed cubing page. My designs are there under the
+heading "Hana Bizek's cube art."  Yes, Jirka Fridrich is a speed cubist,
+which is an art in itself. You will find other interesting things there,
+including a signature of Erno Rubik.
+A photo of a design has one flaw; you can only see three faces of the
+design. What does the rest of the design look like? Answer: sometimes
+opposite faces of the design are exactly identical, both in color and
+geometrical pattern. One of my designs in Jirka's page, the so-called
+ctyrsprezi design, is such a design. It has four colors only on its six
+faces. Why this should be so is a cornerstone of the design theory. The
+reason is explained in my book,"Mathematics of the Rubik's cube design,"
+published last year. amazon.com has it online.
+Well, O better end this message, or it will itself deberate into a book.
+Any help you can offer in my search for a "cube sculptor" will be
+gratefully appreciated. And of course I stand by these designs and
+will answer any questions. My name is Hana M. Bizek and my email address
+is hbizek@ameritech.net. Thank you very much.
+I will be looking forward to hearing from you.  Best regards,
+Hana
+

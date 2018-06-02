@@ -1,0 +1,89 @@
+From BRYAN@wvnvm.wvnet.edu  Sat Dec 17 11:10:56 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17733; Sat, 17 Dec 94 11:10:56 EST
+Message-Id: <9412171610.AA17733@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 5988; Sat, 17 Dec 94 11:10:53 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 3919; Sat, 17 Dec 1994 11:10:54 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sat, 17 Dec 1994 11:10:52 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   How Big is Big?
+
+Some of the notes in the last day or two about whether or not ten levels
+deep is too large to search reminded me of a note I have been meaning
+to send for a long time.  Just how big is 4.3*10^19, and can we ever
+hope to search it all?
+
+First of all, 4.3*10^19 is really about 10^18.  That is, we could safely
+confine ourselves to searching M-conjugate classes, and there are about
+0.9*10^18 classes, which we might as well call about 10^18.  But how big
+is that?
+
+Suppose were trying to buy enough disk space.  I claim that you
+could store each position in a byte with clever indexing.  Actually,
+you could store each position in 5 bits, or 5/8 of a byte, but leave
+it as a byte per position.  Let's say that you can purchase
+a gigabyte for about 1,000 U.S. Dollars (10^12 bytes for about
+10^3 USD).  (We are buying good quality used disks for mainframes
+for about 1,000 USD per gigabyte; new prices are closer to 4,000 or
+5,000 USD per gigabyte.  Both SCSI and IDE disks for the desktop,
+PC or UNIX, are just now down to around 500 USD per gigabyte, and I
+have seen firesale type prices closer to 300 USD per gigabyte).
+
+At 10^3 USD per 10^12 bytes, the cost would be 10^9 USD per 10^18
+bytes.  Well, 10^9 USD is a lot of money, but it is a lot less
+than the cost of going to the moon, or the cost of an aircraft carrier.
+In fact, Bill Gates could afford it if he so chose.
+
+There are other ways to think about the problem.  The size of
+chess is about 10^75 states, and Go is about 10^120 states.  The
+standard 3x3x3 Rubik's cube is vastly smaller than either of these.
+In fact, Go (and maybe chess, I can't remember for sure) is usually
+described as being bigger than the universe.
+
+A handy number in these types of comparisons and in determining "how big
+is the universe" is Avogadro's number, which is about 6*10^23.
+Avogadro's number is the number of molecules (or atoms, for substances
+which occur atomically) in the gram molecular weight of a substance.
+For example, molecular hydrogen has a molecular weight of 2, so
+2 grams of hydrogen contain 6*10^23 molecules.  Iron is atomic with
+an atomic weight of 56, so 56 grams of iron contain about 6*10^23
+atoms.  If you had 56 grams of iron, and if you could store magnetically
+each cube position in no more than 6*10^5 iron atoms, then you could
+store the whole Rubik's cube.
+
+By comparison to the size of the universe, the mass of the sun is
+about 10^30 grams, consisting mostly of atomic hydrogen, so there
+are about (10^30)*(10^23)=10*53 hydrogen atoms in the sun.  I can't
+remember for sure, but I think there are about 10^11 stars in the
+Milky Way.  If the sun is typical star, that would leave about
+10^64 hydrogen atoms in the Milky Way.  I don't know how many galaxies
+there are, but we are clearly getting close to the size of Chess
+at 10^75 being about the same as the size of the universe, and of Go
+at 10^120 being much larger than the size of the universe.  Rubik's
+cube is small potatoes.
+
+A couple of more items: the human genome is being mapped.  I cannot
+remember the exact size of the problem, but I do remember when I
+read about it that it was a larger problem than Rubik's cube.  Finally,
+the Chronicle of Higher Education had an article in the last few weeks
+about particle physicists and the Internet.  Traditionally, these people
+send hundreds or thousands of magnetic tapes to each other via standard
+mail (snail mail to E-mail folks  --  but mailing magnetic tapes can
+yield tremendous data transfer rates if you actually calculate bytes
+per second).  According to the article,
+the physicists are already sending gigabytes over the Internet.  They are
+planning soon to start sending petabytes (10^15) over the Internet.
+10^15 is getting interesting close to the size of Rubik's cube
+(never mind that I thought that the proper term for 10^15 bytes was
+terabytes.)
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

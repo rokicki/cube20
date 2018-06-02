@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov  7 14:46:43 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA26878; Fri, 7 Nov 1997 14:46:43 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From davidbarr@iname.com Fri Nov  7 02:09:32 1997
+Sender: davidb@davidb.concentric.net
+Message-Id: <3462BE64.3F20493A@iname.com>
+Date: Thu, 06 Nov 1997 23:08:20 -0800
+From: David Barr <davidbarr@iname.com>
+Organization: Medweb
+To: Tenie Remmel <tenie1@juno.com>, Cube-Lovers@ai.mit.edu
+Subject: Re: Better way to flip a middle edge?
+References: <19971106.151149.11046.0.tenie1@juno.com>
+
+Tenie Remmel wrote:
+
+> Is there a short way to flip a middle edge cubie without disturbing the
+> top layer or the other middle edges?  I mean, better than replacing it
+> with one from the bottom and then putting it back in the correct
+> orientation, which takes 15 moves.
+>
+> --Tenie Remmel (tenie1@juno.com)
+
+ Take a look at http://ssie.binghamton.edu/~jirif/Mike/middle.html.  I
+think this is the sequence you want:
+
+2) R2 D2 F' R2 F D2 R D' R
+
+This sequence flips the cubie on the front-right edge without disturbing
+the upper face or the other middle edges.
+
+--
+mailto:davidbarr@iname.com
+http://www.concentric.net/~Davebarr/
+

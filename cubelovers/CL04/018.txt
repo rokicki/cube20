@@ -1,0 +1,35 @@
+Date: 22 May 1982 22:53:41 EDT (Saturday)
+From: Bernie Cosell <cosell at BBN-UNIX>
+Subject: A missing transformation for C^4
+To: cube-lovers at mc
+
+I take back my statement about solving the cube, also: I do have one transform
+that is the product of an order-3 centers-only cycle and an order-5 edges-only
+cycle, and I can use that transform to do very nearly everything...except for
+one maneuver.  If the normal layout of the edges on one face is:
+        a b
+      h     c
+      g     d
+        f e
+Then, when I try to solve the cube, once in a while I end up with one of the
+following two equivalent forms:
+        ~a ~b                 c  b
+       h      c     or      h      a
+       g      d             g      d
+         f  e                 f  e
+I have not yet fully determined exactly which of the two identical edges of
+each color is where.  In particular, I strongly suspect that the first form
+is really `~b ~a' (that is, if you think of the two edges together as a single
+C^3 edge, then that edge was flipped), while I suspect that the second form is
+correctly rendered.
+
+I have found that if I do sensible things to the cube, I can mostly work until
+the cows come home and not fix the thing, but if I screw up a transform and
+then have to recover from a somewhat scrambled mess, more often than not it
+comes out OK when I get the cube back in shape.  sigh.  right now I'm working
+on a group-theoretic analysis to try to get some idea for what type of move or
+conjugate I have to be looking for in order to make the thing work out.
+
+    /Bernie
+
+

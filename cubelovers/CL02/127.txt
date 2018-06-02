@@ -1,0 +1,8 @@
+From these some equivilences may be deduced:
+DL'F'D2R'D'R = L'D2F' = BD'B'D2L'F'D
+DF'R'DRD'FD' = FL'F'L =D'LD'BDB'L'D
+FR'F'RUF' = U'RUR'F'U = UF'L'ULU'
+
+Unfortunatly these equivilences only generate the 3 identities of 
+length 12 , using the idea that midpoint of an identity must be the
+unique maximum along the path of the transform.

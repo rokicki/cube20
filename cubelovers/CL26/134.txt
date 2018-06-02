@@ -1,0 +1,36 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 10 15:49:18 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA04363
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 10 Mar 1999 15:49:18 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Fri, 26 Feb 1999 09:06:55 -0500 (Eastern Standard Time)
+From: Dale Newfield <din5w@cs.virginia.edu>
+Reply-To: DNewfield@cs.virginia.edu
+To: cube-lovers@ai.mit.edu
+Subject: RE: Fwd: Request for spectacular cube-solving  -  Can anyone  help ?
+In-Reply-To: <3.0.32.19990225085830.00963b40@mail.spc.nl>
+Message-Id: <Pine.WNT.4.03.9902260905060.-424545@biff.cs.virginia.edu>
+
+On Thu, 25 Feb 1999, Christ van Willegen wrote:
+> Hey! _I'm_ already teaching my blind friend how to solve a cube!
+> We marked the colors of the cube with braille letters spelling
+> 1 - 6 dots. We're having a terribly hard time to teach him to solve
+> it. It's fun, though...
+
+How difficult is it to read braille when the characters are in arbitrary
+orientations?  Have you thought of using some other coding technique that
+might prove more easy to distinguish in any orientation?  (Any idea what
+that might be?)
+
+-Dale
+
+[Moderator's note: I'm inordinately proud of my own invention, which I
+thought I mentioned years ago but can't find in the archives: Wire
+symbols glued to a destickered cube, polished to a high gloss.  The
+symbols are blank opposite dot, square opposite circle, and plus
+opposite X.  The supergroup is marked by a cutout at a corner of each
+face center and the adjacent cubies.  I can solve it behind my back,
+but when I lent it to a blind computer scientist, he gave up. --Dan]
+

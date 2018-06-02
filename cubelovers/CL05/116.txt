@@ -1,0 +1,35 @@
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU  6 Oct 86 08:44:03 EDT
+Date: 6 Oct 86 08:19:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: rubiks magic
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+RUBIK'S MAGIC:
+
+1.  In the NYC area the puzzle is available from Macy's for $10.
+2.  Matchbox Toys         "is the distributor"
+     141 West Commercial Ave
+     Moonachie, NJ 07074
+     212/696-5400
+3.  HOTLINE:  sat & sun from 9am to 5pm until April 26, 1987.  1800-843-1202, NJ
+RES 1800-843-1203
+4.  Repairs from matchbox $3
+5.  The mechanism is similar to a 2-dimensional Jacobs ladder.
+6.  Trivial observations:
+   a.  The puzzle has a front and back.
+   b.  For three intersecting rings the 8 squares have to be arranged as a 2x3x3
+and not as a 2x4.  
+7.  It is a good puzzle.
+
+           /                       \
+          |\                      / |
+          |   \         /      /   |
+          |\   |\     /\    /|  /|
+          |   \|   \/    \/  |/  |
+           \  |\   |\    /|  /|  /                <BECK@ARDEC-LCSS>
+             \|   \|  \/  |/  |/
+               \   |\  |  /|  /
+                  \|  \|/  |/
+                    \  |  /
+                      \|/    
+------

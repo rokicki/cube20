@@ -1,0 +1,38 @@
+Received: from CSNET-RELAY.ARPA by AI.AI.MIT.EDU 26 Aug 86 00:54:03 EDT
+Received: from dartmouth by csnet-relay.csnet id ah03666; 25 Aug 86 22:00 EDT
+Received: by dartmouth.EDU (4.13D/2.3D)
+	id AA19439; Mon, 25 Aug 86 21:13:13 edt
+Date: Mon, 25 Aug 86 21:13:13 edt
+To: cube-lovers@AI.AI.MIT.EDU
+From: Andy Behrens <andyb%dartmouth.edu@CSNET-RELAY.ARPA>
+Subject: Re: Paraphernalia
+References: <8608191515.AA23076@EDDIE>
+Organization: Dartmouth College, Hanover, NH
+
+The blue-covered book that Paul (pm@harvard.HARVARD.EDU) refers to is
+probably David Singmaster's pamphlet Notes_on_Rubik's_'Magic_Cube'.  It
+is 60 pages long, and includes sections on the basic mathematical
+problem, some of the simple subgroups, pretty patterns, algorithms to
+restore the cube in the shortest number of moves.  It lists many
+processes for flipping and rotating edges and corners.
+
+If the book is still in print, it is available from
+
+      Enslow Publishers
+      Bloy St. and Ramsey Ave.
+      Hillside, New Jersey 07205     (USA)
+      -- ISBN 0-89490-043-9
+
+      or
+
+      David Singmaster & Co.
+      66 Mount View Road
+      London N4 4JR     (UK)
+      -- ISBN 0-907395-00-7
+
+					Andy Behrens
+
+{astrovax,decvax,ihnp4,linus,harvard}!dartvax!andyb.UUCP
+andyb@dartmouth.EDU
+andyb%dartmouth@csnet-relay.ARPA
+

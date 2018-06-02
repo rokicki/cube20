@@ -1,0 +1,54 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun 26 15:40:18 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id PAA06801; Thu, 26 Jun 1997 15:40:17 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Thu, 26 Jun 1997 07:44:43 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: David Singmaster Computing & Maths South Bank Univ <david.singmaster@sbu.ac.uk>
+cc: cube-lovers@ai.mit.edu, notation@vax.sbu.ac.uk, for@vax.sbu.ac.uk,
+        4^3@vax.sbu.ac.uk, and@vax.sbu.ac.uk, 5^3@vax.sbu.ac.uk
+Subject: Hidden cubies; Spaceball
+In-Reply-To: <009B653D.9EE57540.331@vax.sbu.ac.uk>
+Message-ID: <Pine.SUN.3.95.970626073036.5876A-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ Reading David Singmaster's recent posts, it seems almost obvious to me
+that (for the ambitious, which I'm definitely not!), computer simulations
+that are unhindered by real-world mechanical constraints and opacity can
+permit manipulation of the normally-hidden (and physically-nonexistent)
+internal cubies. It's very likely that a new collection of maneuvers would
+need to be developed for this.
+
+ I haven't thought much about coloring the internal faces of the outer
+cubies...
+
+ Incidentally, if this weren't the cube-lovers' List, I would have split
+that first sentence into a few shorter ones.
+
+ Sorry if "cubie" is not the most-preferred term; should be no great
+problem.
+
+ On another topic, it seems to me that an ideal device for controlling a
+computer-simulated Cube (or other similar puzzle) would be the Spaceball,
+a ball that you can grip. It senses torque around all three mutually-
+orthogonal axes, as well as "translational" force along those axes. It's
+not a consumer item; not sure it's still being made. I'm reasonably sure
+of the tradename. It was/is used with workstations. "Spaceball" sounds
+much like the name of a puzzle.
+
+ (I expect some astute reader to tell me that the MIT Media Lab did just
+this thing 5 years ago!)
+
+My best to all,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+

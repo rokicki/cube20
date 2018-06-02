@@ -1,0 +1,9 @@
+DMM@MIT-ML 08/30/80 18:41:24 Re: DAL@ucla-security's msg of 27-Aug
+To: cube-lovers at MIT-MC
+Genereally, I have found themacros supplied by DAL to be quite useful,
+but t|ere are a few bugs i've noticed. First of all, oC8&C9,
+I believe DAL has the cw & ccw notations reversed.
+Regarding C7:	What is M? I have not seen it referenced anywhere.
+and last, in maco EB: the last move is f, not F.
+(I`guess it was the 5 beers and 2 Drambuies.)
+

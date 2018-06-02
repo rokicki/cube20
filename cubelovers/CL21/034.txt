@@ -1,0 +1,83 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Oct 26 00:18:08 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA03251; Sat, 26 Oct 1996 00:18:08 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Fri, 25 Oct 1996 23:47:50 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+cc: Cube-Lovers@ai.mit.edu
+Subject: Re: Siamese Rubik's Cubes (was Re: DEAR TANOFF <(fwd))
+In-Reply-To: <54qh9o$4tu@gap.cco.caltech.edu>
+Message-ID: <Pine.SUN.3.95.961025224506.14991A-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+On 25 Oct 1996, Wei-Hwa Huang wrote:
+
+}Norman Diamond 25-Oct-1996 1355 <diamond@jrdv04.enet.dec-j.co.jp> writes:
+}>A. Southern misinterpreted M. Velucchi's picture:
+
+{Snips}
+
+}A "creative" question:
+}
+}Suppose we want to be able to rotate the 17-cubie faces 180 degrees.
+}Can anyone think of a mechanical structure that could achieve this?
+
+ Here's hoping that this "stream of consciousness with revisions" style is
+acceptable!:
+
+ I can conceive of such a structure, but whether it could be made to work
+decently is quite open to doubt. It would have a great many pieces; the
+whole top layer would have to consist of cubies with two physical parts,
+one that would travel to its new location, and the other which would
+remain behind.  Holding the whole works together while rotating it is
+difficult enough, but reliably reattaching the two parts of each cubie
+once the rotation was complete is borderline crazy!
+
+ Of course, all edge and corner cubies would need to be two-part.
+
+ If someone is ambitious enough to attempt such a design, it would be very
+costly and out of the question for mass production.
+
+ It might help if a tool (such as a Torx (TM) wrench) were provided to
+insert into both "face-center" cubies (or the common corner cubie) to
+unlock the top layer from its underlying parts and to lock the top-layer
+cubies together. However, just a clamping frame to hold the top layer
+together would make sense, IMO. 
+
+ A strictly-mechanical solution is at least borderline impractical, but
+shrewd design with rare-earth magnets might help.
+
+ Dismantle a regular Cube to see what would be involved. An edge cubie has
+a "foot" that extends below the top layer, as does a corner cubie. These
+"feet" would have to be left behind once a move began.
+
+ It's really nice to have all the unlocking and reattaching taken care of
+"automatically" by just the twisting shear force created by gripping the
+Siamese Cube, but for such a move as this, that's a formidable luxury.
+
+ If I were an experienced mechanical engineer, I'd say it just isn't
+practical. However, it is great fun to think of how it could be done. (If
+e-mail had a universal graphics format, illustrations would be nice, but I
+honestly don't feel that ambitious!) I also suspect that when it came time
+to design in detail, new conceptual problems would arise which might be
+extremely difficult to overcome. Consider, for instance, that if you don't
+use a clamping frame, the mere act of locking the top layer together has
+to hold the corner cubies in place. The locking pieces need to be operated
+by sliding members passing through the neighboring edge cubies, and that's
+not all, by far.
+
+ My regards to all,
+
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*      the 2000th anniversary of the year 0.
+--------------------------------------------------------------------------
+
+
+

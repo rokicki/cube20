@@ -1,0 +1,46 @@
+From boland@sci.kun.nl  Mon Oct 30 07:48:01 1995
+Return-Path: <boland@sci.kun.nl>
+Received: from wn1.sci.kun.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06686; Mon, 30 Oct 95 07:48:01 EST
+Received: from canteclaer.sci.kun.nl by wn1.sci.kun.nl via canteclaer.sci.kun.nl [131.174.132.34] with SMTP 
+	id NAA19553 (8.6.10/2.14) for <cube-lovers@ai.mit.edu>; Mon, 30 Oct 1995 13:48:00 +0100
+Message-Id: <199510301248.NAA19553@wn1.sci.kun.nl>
+To: cube-lovers@ai.mit.edu
+Subject: Exchanging just four edges in antislice impossible?
+Date: Mon, 30 Oct 95 13:47:59 +0100
+From: Michiel Boland <boland@sci.kun.nl>
+
+Hello all,
+
+can anyone provide an easy proof of the fact that it is
+impossible to exchange just four edges using just antislice
+moves, whilst leaving everything else fixed? (We're talking
+about the 3x3 cube of course.)
+
+Another way of putting it: why are the 2xH and 4-dot patterns
+not in the antislice group?
+
+I have thought about this a little, but not hard enough to find
+an answer. I looked it up in Singmaster's Notes but could not
+find a satisfying explanation either.
+
+Here is some more background.
+
+The antislice group is contained in the group of all positions
+that are symmetric under `cube half-turns' (the subgroup of M
+containing I,(FB)(LR),(FB)(UD) and (UD)(LR)). This group has
+(8*4*12*8*4*3*2^2)/2 = 73728 elements.
+
+It can be shown that in the antislice group, the orientation of
+the corners is determined by the edge positions [I am willing to
+explain this, but it is much easier visualized than written
+down], which means that the antislice group contains at most
+73728/3=24576 elements.
+
+But apparently the antislice group contains just 6144 elements,
+which is a factor 4 below the abovementioned number. This factor
+4 is explained by the fact above, which I am trying to prove.
+-- 
+Michiel Boland <boland@sci.kun.nl>
+University of Nijmegen
+The Netherlands
+

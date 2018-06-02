@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Oct 14 15:47:40 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA02169
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 14 Oct 1999 15:47:39 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3804B185.A055DA64@u.washington.edu>
+Date: Wed, 13 Oct 1999 09:21:25 -0700
+From: David Barr <davidb@u.washington.edu>
+To: Daniel B Knights <knights@panther.middlebury.edu>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: 3-Cube in 1 One-Look
+References: <Pine.A41.4.02.9910041844460.182270-100000@puma.middlebury.edu>
+
+Daniel B Knights wrote:
+> So, has anyone else tried this?  I'm curious to know what method someone
+> else uses.  I use my 15 minutes of studying time to plan out where I'm
+> going to need to move the pieces.  I wonder if anyone with better memory
+> skills can just memorize the locations of all the pieces and then work out
+> the entire solution with their eyes closed.
+
+There was discussion of blindfolded solving during March 98 on this
+list.  At that time no one was able to do it.  You may be the first.
+
+David
+

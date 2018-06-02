@@ -1,0 +1,31 @@
+From whuang@cco.caltech.edu  Tue Jan 10 16:44:58 1995
+Return-Path: <whuang@cco.caltech.edu>
+Received: from piccolo.cco.caltech.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22169; Tue, 10 Jan 95 16:44:58 EST
+Received: from accord.cco.caltech.edu by piccolo.cco.caltech.edu with ESMTP 
+	(8.6.7/DEI:4.41) id NAA00237; Tue, 10 Jan 1995 13:44:49 -0800
+From: whuang@cco.caltech.edu (Wei-Hwa Huang)
+Received: by accord.cco.caltech.edu 
+	(8.6.7/UGCS:4.41) id NAA23853; Tue, 10 Jan 1995 13:44:47 -0800
+Message-Id: <199501102144.NAA23853@accord.cco.caltech.edu>
+Subject: Re: SKEWB
+To: cube-lovers@life.ai.mit.edu
+Date: Tue, 10 Jan 1995 13:44:47 -0800 (PST)
+In-Reply-To: <199501101808.KAA07315@holonet.net> from "ishius@holonet.net" at Jan 10, 95 10:08:07 am
+X-Mailer: ELM [version 2.4 PL22]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 495       
+
+> 
+> If you're familiar with the SKEWB,
+> I would like to know whether it's harder or easier than the classic 3x3x3
+> Rubik's Cube (I suspect it's simpler, but it has fewer symmetries).
+
+It took me a while to give out a working algorithm from it.  Surprizingly
+my moves have very little use on Rubik's, and if the SKEWB wasn't as
+simple as it was it would be really tough to work out.  Fortunately,
+due to its simplicity I need to remember only one code sequence.
+(Solution posted on request.)
+
+

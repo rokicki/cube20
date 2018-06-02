@@ -1,0 +1,123 @@
+From BRYAN@wvnvm.wvnet.edu  Tue Jun 27 23:22:41 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23088; Tue, 27 Jun 95 23:22:41 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 1105; Tue, 27 Jun 95 23:22:51 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 9315; Tue, 27 Jun 1995 23:22:51 -0400
+Message-Id: <wvmail32.1995jun27.215050.bryan@wvnvm.wvnet.edu>
+Date:      Tue, 27 Jun 1995 23:22:50 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Constructing K-symmetric Cubes
+
+This is a followup on several recent messages concerning the
+question of K-symmetric cubes, where K is one of the
+98 subgroups of M.
+
+We recall that a permutation is a special kind of function,
+namely a one-to-one and onto function on a set.  A very
+common technique used with functions is to restrict the
+domain to a (usually proper) subset of the original domain.
+In the paradigm of a function as a general rule, the general rule
+is applied to the subset of the domain to obtain the restriction
+of the function.  In the paradigm of a function as a set of ordered
+pairs, the restriction is simply a (usually proper) subset of the
+set of ordered pairs.  A restriction of a permutation is usually
+not a permutation (certainly not a permutation on the original
+domain), but it is still a function.
+
+We will treat a permutation on the cube as a set of restrictions
+(functions) of the several cubicles.  We take as our first example
+the function UFL->UFL.  Unlike cycle notation, it is not
+assumed that the other cubicles are fixed;  rather, the other
+function values are undefined (e.g., URF->?).
+
+Let X be any function (not necessarily a permutation) whose domain
+is some subset of the cubicles.  We define Symm(X) in the standard
+fashion  --  Symm(X) is the set of all m in M such that
+m'Xm=X.  If X is the function UFL->UFL, we have Symm(X)=AT4, not
+Symm(X)=M as you might expect.  AT4 is a subgroup in Dan's taxonomy
+containing six elements, and which has an axis of symmetry along
+the UFL-DBR axis.
+
+This definition of Symm(X) perhaps requires a minor bit of
+justification.  In a function composition such as FG (left-to-
+right notation) or G(F(x)) (right-to-left "calculus" notation),
+it is sometimes taken as a convention that the range of F must
+match the domain of G.  But we can also take the restriction of
+G to the intersection of the range of F with the domain of G,
+and we do so.  Having done so, Symm(X) is well defined.
+
+We wish to build an M-symmetric permutation containing the
+function UFL->UFL, but Symm(UFL->UFL)=AT4 is not a very
+auspicious start.  Rather, we define the conditions under which
+a function is K-symmetric is follows.  A function X is K-symmetric
+if the union of the K-conjugates k'Xk is a function.
+
+Given this definition, the only M-symmetric function on UFL is
+in fact UFL->UFL, so we really have made a good start.  Furthermore,
+any M-symmetric permutation that contains UFL->UFL must also
+contain all the M-conjugates of UFL->UFL, and the union of the
+M-conjugates is simply the identity permutation on the corners.
+
+The fact that Symm(UFL->UFL)=AT4 can be of some benefit in our
+investigations.  In particular, the fact that |AT4|=6 means that
+there are 8 M-conjugates, so taking all the M-conjugates of
+UFL->UFL means that all 8 corners are specified.
+
+Our next example will be UFL->LUF (a twist of the corner).  In
+this case, we have Symm(X)=ET4.  ET4 is the subgroup of M in
+Dan's taxonomy which contains 3 elements including the identity
+plus the 1/3 and 2/3 rotations around the UFL-DBR axis.
+
+Of more import, UFL->LUF is not M-symmetric.  However, it is both
+C-symmetric (C is the set of 24 rotations) and H-symmetric
+(H is the set of 12 even rotations and 12 odd reflections).  As
+an aside, we note that it is not A-symmetric, where A is the set
+of 24 even rotations and reflections.  But since it is both
+C-symmetric and H-symmetric, there is not a unique largest
+subgroup K for which we can say it is K-symmetric.
+
+It is easy to see that UFL->LUF is not M-symmetric.  The set of
+M-conjugates contains both UFL->LUF and UFL->FLU, so the union
+of the M-conjugates is not a function.  We can see the same thing
+from the fact that |ET4|=3.  Since |ET4|=3, there are 16 M-conjugates,
+but there are only 8 corners to represent the 16 M-conjugates.
+
+Since UFL->LUF is C-symmetric, let's see if we can build a
+C-symmetric permutation.  There are 8 C-conjugates (a good
+start!), and the 8 C-conjugates twist each of the 8 corners
+by 1/3 in the same direction.  Hence, this is a C-symmetric
+but not M-symmetric permutation.  Of course, it is an "illegal"
+position in the sense that it is not in the same orbit
+as Start.
+
+In the same manner, we can build a K-symmetric permutation for
+any K.  We start with a K-symmetric function on a single
+cubicle. (A function which is K-symmetric is L-symmetric for
+any L which is a subgroup of K).  We include all
+K-conjugates.  If the cube is completely specified, we stop.
+Otherwise, we choose another K-symmetric function for any
+previously unspecified cubicle, add in the new K-conjugates,
+and so forth, repeating until the entire permutation is
+specified.
+
+Needless to say, this construction process suffers from not
+preserving orbit.  Additional steps must be taken to assure that
+the constructed position is in the desired orbit (usually, the
+Start orbit).  And some orbits do not have representatives from
+some subgroups, for example it is well known that there are
+no C-symmetric but not M-symmetric permutations in the Start
+orbit.
+
+To use Dan's adjectives, this process very quickly can become
+long, mechanical, and boring.  But I now see how to build a
+K-symmetric permutation for any K.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

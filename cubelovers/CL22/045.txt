@@ -1,0 +1,32 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Apr 15 13:20:28 1997
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id NAA18947; Tue, 15 Apr 1997 13:20:28 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <199704151245.NAA02212@mail.iol.ie>
+From: Goyra <Goyra@cheerful.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Java cubes
+Date: Tue, 15 Apr 1997 10:53:27 +0100
+X-MSMail-Priority: Normal
+X-Priority: 3
+X-Mailer: Microsoft Internet Mail 4.70.1155
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+
+	Yo!
+
+	The world's largest collection of Java
+Rubik puzzles is now under construction at
+
+	http://www.iol.ie/~goyra/Rubik.html
+
+All comments are appreciated. An up-to-date Java 
+browser is required.
+
+				Goyra
+
+
+

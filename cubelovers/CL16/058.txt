@@ -1,0 +1,38 @@
+From munafo@vgi.com  Mon Jul 24 14:59:46 1995
+Return-Path: <munafo@vgi.com>
+Received: from vgi.com (hoss.vgi.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16862; Mon, 24 Jul 95 14:59:46 EDT
+Received: from frank.vgi.com ([1.0.2.139]) by vgi.com (4.1/SMI-4.1)
+	id AA11341; Mon, 24 Jul 95 14:59:42 EDT
+Received: by frank.vgi.com (1.38.193.4/SMI-4.1)
+	id AA06570; Mon, 24 Jul 1995 15:00:02 -0400
+Date: Mon, 24 Jul 1995 15:00:01 -0400 (EDT)
+From: Robert Munafo <munafo@vgi.com>
+X-Sender: munafo@frank
+To: CUBE-LOVERS List <Cube-Lovers@ai.mit.edu>
+Subject: Little keychain cubes
+Message-Id: <Pine.HPP.3.90.950721204433.19487B-100000@frank>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+Sort of a strange question -- but at this point I don't know who else to ask. 
+
+Does anyone know how I could get more of those little 25-cm 3x3x3 cubes that
+used to be sold on a keychain for about US $3.00? I checked a few toy and
+novelty stores in my area, including Games People Play near MIT in Cambridge
+(and they weren't very nice about giving me a useful answer either)... 
+
+Barring that, has anyone successfully made their own cubes? Since the 3x3x3
+is relatively simple in design I suppose the tolerances wouldn't be all that
+bad. 
+
+I'd like to get a bunch of small cubes so I can keep a bunch of cubes in
+different configurations. 
+
+Yes, I am reading through the 15-year backlog and am only up to mid-December
+1980. I did some grep -i searches for "key\ *chain", "mold" and "cast"  but
+found nothing helpful. 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Davis' principle 36:   Research-then-transfer doesn't work.
+- - - - Robert P Munafo - - -  munafo@vgi.com - - - +1.617.276.8960 - - -
+

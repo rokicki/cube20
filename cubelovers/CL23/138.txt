@@ -1,0 +1,55 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug 21 16:12:37 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA21460; Thu, 21 Aug 1997 16:12:35 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From jbryan@pstcc.cc.tn.us Thu Aug 21 16:11:04 1997
+Date: Thu, 21 Aug 1997 16:07:30 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: isoglyphs
+In-Reply-To: <199708210406.AAA21524@life.ai.mit.edu>
+To: michael reid <reid@math.brown.edu>
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <Pine.WNT.3.96.970821151359.-226699B-100000@GN209A.PSTCC.CC.TN.US>
+
+On Thu, 21 Aug 1997, michael reid wrote: 
+
+> here are several other applications that your pattern finder should
+> be able to handle easily:
+> 
+
+
+> 2. confirm my results on the "czech check" problem, i.e. classify all
+>    patterns that have exactly eight squares correct on each face.
+
+If I understand your question correctly, and if I am using Herbert's
+program correctly, there are 54 such isoglyphs unique up to M-conjugacy.
+3 of them involve only corners as the incorrect facelet, and 51 of them
+involve only edges as the incorrect facelet.
+
+(I am assuming that by definition the center facelet is always correct,
+thus eliminating the 6-spot from consideration.  If you count the
+6-spot, then there are of course 2 such isoglyphs unique up to
+M-conjugacy.) 
+
+If you tell Herbert's program to consider only continuous isoglyphs with
+exactly eight squares correct on each face, there are 3 such isoglyphs
+unique up to M-conjugacy. 1 of them involves only corners as the
+incorrect facelet, and 2 of them involve only edges as the incorrect
+facelet.  (I suppose you would say that the other 51 are discontinuous.) 
+
+Herbert's program only lists positions which are unique up to
+M-conjugacy. Here's a modest suggestion.  It might be nice for the
+program to list the size of the M-conjugacy class for each such
+position.  That way, you could count both "positions" and "patterns",
+where I am using "position" to mean any element of G and "pattern" to
+mean an M-conjugacy class (or a representative thereof). 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

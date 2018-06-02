@@ -1,0 +1,19 @@
+From imp@kolvir.solbourne.com  Fri Oct  9 17:59:44 1992
+Return-Path: <imp@kolvir.solbourne.com>
+Received: from Solbourne.COM by life.ai.mit.edu (4.1/AI-4.10) id AA25966; Fri, 9 Oct 92 17:59:44 EDT
+Received: from kolvir.Solbourne.COM by Solbourne.COM (4.1/Solbourne-4.1)
+	id AA16499; Fri, 9 Oct 92 15:59:44 MDT
+Received: from localhost by kolvir.Solbourne.COM (4.1/SMI-4.1)
+	id AA06857; Fri, 9 Oct 92 15:59:40 MDT
+Message-Id: <9210092159.AA06857@kolvir.Solbourne.COM>
+To: cube-lovers@ai.mit.edu
+Subject: Quick question....
+Date: Fri, 09 Oct 1992 15:59:40 MDT
+From: Warner Losh <imp@kolvir.solbourne.com>
+
+I was wondering if there were any X programs out there that allowed
+one to play with a rubic's cube (3x3x3 ... nxnxn) on a workstation?
+Archie didn't seem to know of any.
+
+Warner
+

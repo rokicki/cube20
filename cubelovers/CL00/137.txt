@@ -1,0 +1,20 @@
+Date:  10 September 1980 18:12 edt
+From:  Greenberg at MIT-Multics (Bernard S. Greenberg)
+Subject:  Re: randomizing
+Sender:  Greenberg.Multics at MIT-Multics
+To:  Alan R. Katz <KATZ at USC-ISIf>
+cc:  cube-lovers at MIT-MC
+In-Reply-To:  Message of 10 September 1980 18:00 edt from Alan R. Katz
+
+My personal theory on making a cube as hard to solve as possible
+is as follows: Put the cube in
+some very complex pretty, regular, pattern, such as the Plummer's
+Cross with centers trebly rotated, or the Pons Asinorum on that
+which looks like the simple Pons:  the challenged cubemeister
+will INVARIABLY say, "Oh,
+this, this is just one of those and solved like this" and go through
+a long hairy procedure, hopefully the wrong one,
+or make an error, or try hard at understanding it, and so forth.
+In short, s/he will take MORE time trying to undo what s/he perceives
+as a "simple" hairy hack than a straightforward application of
+solve-from-random technology.

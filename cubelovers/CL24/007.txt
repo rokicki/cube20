@@ -1,0 +1,132 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep  4 17:02:06 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id RAA24202; Thu, 4 Sep 1997 17:01:53 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From jbryan@pstcc.cc.tn.us Thu Sep  4 12:54:09 1997
+Date: Thu, 04 Sep 1997 12:50:11 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Open and Closed Subgroups of G
+In-Reply-To: <199709031702.NAA20567@cyber1.servtech.com>
+To: "christopher f. chiesa" <lvt-cfc@servtech.com>
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <Pine.WNT.3.96.970904120838.-229605B-100000@GN209A.PSTCC.CC.TN.US>
+
+On Wed, 3 Sep 1997, christopher f. chiesa wrote:
+
+> 2) Is there a notion, has anybody done any work, on Cube states which
+>    are each other's "duals?"  I define the "dual" of a Cube state X as
+>    that Cube state reached by performing, on a "solved" Cube, the same
+>    sequence of turns/moves which "solve" Cube state X.  In other words,
+>    define a sequence of turns which transforms the Cube from state X
+>    to "solved," then apply that sequence again to the "solved" cube to 
+>    arrive at state Y.  State Y is then the "dual" of state X.  Ques-
+>    tions abound:
+
+The concept of "dual" which you are describing is standard in group
+theory (and be extension, in cube theory).  A "dual" is properly called
+an inverse.  If you have a sequence of turns which creates a position,
+the inverse sequence consists of writing the turns in reverse order, and
+converting clockwise turns to counterclockwise turns and vice versa.  So
+the inverse of FRU' is UR'F'.  If there are multiple sequences for a
+position (and most typically there are), you can do the same thing for
+any such sequence. 
+
+Also, a position can be described in terms of which cubies have gone
+where.  For example, you might have something like
+ 
+              flu  -->  fur
+              fur  -->  frd
+              frd  -->  fdl
+              fdl  -->  flu
+
+(flu is the front-left-up cubie etc.  Standard Singmaster notation uses
+lower case letters for cubies and upper case letters for the moves
+themselves.)
+
+You could get the inverse by reversing the arrows like so.
+
+ 
+              flu  <--  fur
+              fur  <--  frd
+              frd  <--  fdl
+              fdl  <--  flu
+
+More commonly, you would write the inverse by swapping the cubie
+designations between the left and right side of the arrows like so.
+
+ 
+              fur  -->  flu
+              frd  -->  fur
+              fdl  -->  frd
+              flu  -->  fdl
+
+
+I don't know what you mean by "any work", but here are some standard
+information about inverses.  The length of a position X is the same as
+the length of its inverse X', where length is the minimum number of
+moves to create the position.  If X' is the inverse of X, then X is the
+inverse of X'.  The symmetry of an inverse X' is the same as the
+symmetry of a position X (see Symmetry and Local Maxima in the archives
+for a discussion of symmetry).  A local maximum is a position such that
+no matter which move you make, you will be one move closer to Start.  It
+is not necessarily the case that the inverse of a local maximum is also 
+a local maximum. 
+
+
+> 
+>       - does each state have EXACTLY ONE dual?  Or many, depending on
+>         the specific sequence (as we know, there are many) of moves
+>         performed in solving state X ?  
+
+Yes, inverses are unique, both for groups in general, and for cubes in
+particular.
+
+> 
+>       - are there states which are their OWN duals?  (Yes, clearly; 
+>         the trivial "checkerboard" pattern arising from a single 180-
+>         degree turn of each face, is its own dual)
+
+You have answered your own question.  Many positions are their own
+inverse.  Some of them are much more complicated than the one which you
+describe.
+
+> 
+>       - a state which is its own dual, is a "two-cycle" with the 
+>         "solved" state: perform the generating sequence on either and
+>         get to the other.  Are there "three-cycles?"  "Four-cycles?"
+>         etc.?
+> 
+
+The proper term for the concept you are describing is order.  If you
+repeat a maneuver n times from Start and return to Start, then the
+position is of order n.  (Strictly speaking, the order of a position is
+the smallest n which will work.  Obviously, if n will work then so too
+will 2n, 3n, etc.)  There are many different orders for which there are
+cube positions of that order. One of David Singmaster's early Cubic
+Circulars (I don't have the reference handy) had a table of possible
+cube orders and how many positions there were of each order.
+
+The term cycle is also very important in group theory (and by extension
+in cube theory).  Suppose you look at a scrambled cube and determine
+that cubie a has gone to cubie b's place, cubie b has gone to cubie c's
+place, and cubie c has gone to cubie a's place, then a, b, and c form a
+3-cycle.  The way I have defined this particular 3-cycle, you could
+write it as (a,b,c), as (b,c,a), or as (c,a,b).  This so-called cycle
+notation is circular, so it does't really matter which you write first. 
+However, (a,c,b) is a different cycle than (a,b,c).  In fact, (a,c,b) is
+the inverse of (a,b,c).  Just for emphasis, (a,b,c) is not like an
+ordered pair (or really an ordered triple in this case).  (a,b,c) means
+a goes to b, b goes to c, c goes to a.
+
+As an example of a cycle in purely cube terms, the cycle for the example
+I gave earlier would be (flu,fur,frd,fdl), so it is a 4-cycle. 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

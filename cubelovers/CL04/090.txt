@@ -1,0 +1,37 @@
+Date: 25 Oct 1982 0846-PDT
+From: ISAACS at SRI-KL
+Subject: megaminx; octahedron
+To: cube-lovers at MIT-MC
+
+  The Megaminx is now on sale in the San Francisco Bay Area.  It is,
+as pictured, a dodecahedron with each face twistable in fifths, and
+containing 5 corners, 5 edges, and a center.  Instead of 12 different
+colors it seems to have 10, with the red and yellow duplicated; that 
+means you can have a parity problem at the end if you exchange the
+duplicate edges.  Solving seems to be pretty straightforward, except
+new edge moves must be developed - the "slice" moves aren't very
+effective.
+  I also found an octahedron much more analogous to the cube then the
+one with the 9 triangular faces (and independent vertices).  ON this
+one there is a triangular center, 3 diamond shaped corners, and longish
+edges on each face.  The centers are equivalent to the corners of a cube,
+but monochromatic; the corners of the octahedron are equivalent to the
+centers of a cube, but have 4 colors.  You can solve it with supergroup
+cube moves, but it can be solved more efficiently, I think, by doing
+the corners first (matching up the colors), then the edges, then the centers.
+Needed are moves that move edges without twisting corners (do we
+have any good corner moves that don't rotate centers on a cube?)
+  One final puzzle that has come out - it's called Inversion, and it's
+a sliding block cube.  There are 19 identical cubies, each colored half
+red and half blue (3 faces each) and arranged around the edges of a cube
+with one extra empty space.  They are held in place by a Rubiks-like
+mechanism through the centers of the big cube.  Thus each edge of the big
+cube has 3 of the little cubes, or 2 of them plus a space.  The little
+cubes are each in one of the 8 possible orientations; One orientation
+is represented by one cubie, 3 orientations by 2 cubies each, and 4
+orientations by 3 cubies each.  The idea is to slide the cubies around
+the edges of the big cube so that the outside is all red or all blue,
+or some other regular pattern;  Inverting from (say) red to blue means
+sliding all cubies to more-or-less the diagonal opposite positions.
+   -- Stan
+-------

@@ -1,0 +1,26 @@
+From cube-lovers-errors@oolong.camellia.org  Fri May 30 14:28:22 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id OAA22894; Fri, 30 May 1997 14:28:22 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <338F18FB.22DC@snowcrest.net>
+Date: Fri, 30 May 1997 11:14:19 -0700
+From: Joe McGarity <joemcg3@snowcrest.net>
+Reply-To: joemcg3@snowcrest.net
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+MIME-Version: 1.0
+To: "Mailing List, Rubik's Cube" <cube-lovers@ai.mit.edu>
+Subject: The rest of us
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+I hope that I am not alone in that much of Prof. Korf's description is a
+little over my head.  Perhaps the Professor or others can recomend books
+on AI or group theory to those of us whose education only goes as far as
+trigonometry.  This is a very interesting subject and I find myself
+wanting to understand it better.  Is there anything out there aimed at
+the beginner?  If so I would very much like to see it.
+
+
+
+

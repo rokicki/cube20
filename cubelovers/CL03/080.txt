@@ -1,0 +1,78 @@
+Date:  7 December 1981 1911-EST (Monday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at mit-mc
+Subject:  Brute Force Report: The fourteen-qtw identities
+Message-Id: <07Dec81 191129 DH51@CMU-10A>
+
+	Several messages in August of this year [mail to
+Hoey@CMU-10A for copies] concerned short identities of the cube,
+i. e. processes which return the cube to solved.  Later in that
+month I assisted David Plummer in a brute force attack on the
+problem.  We had plans to investigate all the positions up to eight
+qtw, but unfortunately became busy on other projects.  I have
+finally come up with enough time to analyze and report the data
+from the seven-qtw search.
+
+	There are 8,221,632 cube positions at a distance of seven
+quarter-twists from solved, and 9,205,558 positions at seven or
+fewer qtw.  By recording cases of different seven-qtw processes
+yielding the same position, a complete list of fourteen-qtw
+identities is obtained.  The task is then to reduce the list to
+exclude multiple instances of equivalent identities.
+
+	We call two identities equivalent when one can be obtained
+from the other by some combination of the following operations:
+
+	- uniformly relabeling the twists according to a rotation
+		or reflection of the cube,
+	- cyclically permuting the twists,
+	- reversing the order of the twists and inverting each one,
+		and
+	- substituting a sequence x for a sequence y, where xy' is
+		a shorter identity.
+
+The first three criteria are easily implemented on a computer.  The
+fourth can be performed for the shortest identities, those
+equivalent to F^4 and FBF'B', but I know of no algorithm to detect
+all cases of equivalence due to substitution of the longer
+identities.  My strategy was to reduce the (several thousand)
+identities by computer for the simple kinds of equivalence, and
+then to look by hand for substitution equivalence between the
+fourteen identities then remaining.  I found three equivalences,
+listed at the end of this note, but the possibility remains that
+some of the following identities are equivalent.  The list is,
+however, complete (modulo bugs and cosmic rays).
+
+	Identities equivalent to the first six on this list were
+independently discovered by Chris C.  Worrell; I follow his
+numbering for them.  Identities I14-5 through I14-7 do not hold in
+the Supergroup, because they twist face centers as noted in the
+brackets.
+
+I14-1   BF' UB'U'F UL' BU'B'U LU'
+I14-2   B UBL' B'D'BD LB'U' L'B'L
+I14-3   BB U BB UD' RR U' RR U'D
+I14-4   BUB'U' L'FL UBU'B' L'F'L
+I14-5   (BB UD B U'D')^2                    [Supergroup BB]
+I14-6   BF' U B'F  LR' UD' F' U'D  L'R      [Supergroup UF']
+I14-7   BF  U B'F' LR' UD  F' U'D' L'R      [Supergroup UF']
+I14-8   BF' UFRU'R'B'U'B'RBUR'
+I14-9   BF' UFRU'B' UD' F'U'R'FD
+I14-10  (BUBU'L'B') R (BLUB'U'B') R'
+I14-11  (BUBU'L'B') D'R'B' DLD'RD
+
+	The twelve-qtw identity I12-2 = (BUBU'L'B') (B'D'B'DLB) can
+be substituted into identities I14-10 and I14-11 to yield:
+
+I14-10a  (B'L'D'BDB) R (BLUB'U'B') R'
+I14-10b  (BUBU'L'B') R (B'D'B'DLB) R'
+I14-10c  (B'L'D'BDB) R (B'D'B'DLB) R'
+I14-11a  (B'L'D'BDB) D'R'B' DLD'RD
+
+Identity I14-10c can be obtained from I14-10 [by shifting seven
+places and reflecting the cube through the UD plane] but I14-10,
+I14-10a, and I14-10b are mutually inequivalent when twelve-qtw
+identities are ignored.  The same holds for I14-11 and I14-11a.
+Strangely enough, I14-11a can also be transformed to I14-11 by
+substituting with the identity (BDBD'R'B') (B'U'B'URB), which is
+equivalent to I12-2.

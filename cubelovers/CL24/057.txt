@@ -1,0 +1,56 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov  3 12:42:36 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA29514; Mon, 3 Nov 1997 12:42:36 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From mouse@Rodents.Montreal.QC.CA Sun Nov  2 06:52:25 1997
+Date: Sun, 2 Nov 1997 06:51:36 -0500 (EST)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199711021151.GAA27954@Twig.Rodents.Montreal.QC.CA>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Categorization of cube solving programs
+
+>> Class 3:	A program that when given a specific instance of the
+>> 		cube, attempts to [solve it]  [eg, Kociemba]
+>> Class 4:	A program which attempts to [find an algorithm to solve
+>> 		arbitrary cubes].
+
+> In retrospect, Class 4 programs are not necessarily more
+> sophisticated than Class 3 programs especially when one considers
+> that the latter should be be able to produce a macro-table solution
+> by solving for a sufficient set of specific sequences.
+
+Sure...but who picks the specific instances for them?
+
+> Richard Korf points out a suggestion by Jon Bently that the learning
+> program can be be interleaved with the solving program, as
+> co-routines, and only running the learning program when a new macro
+> is needed to solve a particular problem instance.
+
+This means that the solving program has to imagine macros, try to
+choose a useful one, determine whether it's actually possible (you
+gotta keep the program from trying to produce, for example, a single
+edge flipper).  You also have to decide when it's worth trying for a
+macro and when it's better to just hit the (sub)problem with brute
+force.  I would expect all these problems to be quite hard.
+
+>> I wish to speak to the last sentence of the Class 4 description.
+>> Back in my larval stage (mid-'80s), someone at a lab I worked for
+>> build a Class 4 program in Franz Lisp.  [...]
+
+>> I have no idea whether the program still exists in any form.  I do
+>> believe I can still reach its author, if anyone would like me to
+>> inquire.
+
+> It would be interesting to compare the approach of this program to
+> Korf's learning program.  If the program is still available I suggest
+> it would make a quite excellent addition to the cube lovers archive.
+
+I'll send off a missive to the author.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

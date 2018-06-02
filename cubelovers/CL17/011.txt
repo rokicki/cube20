@@ -1,0 +1,52 @@
+From boland@sci.kun.nl  Sun Sep 24 19:44:45 1995
+Return-Path: <boland@sci.kun.nl>
+Received: from wn1.sci.kun.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10253; Sun, 24 Sep 95 19:44:45 EDT
+Received: from canteclaer.sci.kun.nl by wn1.sci.kun.nl via canteclaer.sci.kun.nl [131.174.132.34] with SMTP 
+	id AAA21239 (8.6.10/2.13) for <cube-lovers@ai.mit.edu>; Mon, 25 Sep 1995 00:44:43 +0100
+Message-Id: <199509242344.AAA21239@wn1.sci.kun.nl>
+To: "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject: Re: Order problems 
+In-Reply-To: Your message of "Sun, 24 Sep 95 18:35:36 -0400."
+             <wvmail32.1995sep24.182035.bryan@wvnvm.wvnet.edu> 
+Date: Mon, 25 Sep 95 00:44:40 +0100
+From: Michiel Boland <boland@sci.kun.nl>
+
+Jerry wrote:
+>I would be curious to hear how you are doing your search.  It is
+>trivial to see how to calculate the order of a particular
+>position.  However, it is not obvious to me how to find a
+>position of a particular order.  I hope it is not the case that
+>it is in the archives and I just haven't seen it.
+
+I use a simple brute-force method, that is, I compute the order
+of each transform and the number of quarter turns. If there is
+already a transform with that order & number of qt, I forget all
+about it and go to the next transform.
+
+I have the C source available for anyone who wants to peek at it.
+
+Note that (almost) all transforms start with UxRx, since you
+have to twist two adjacent faces in order to get something with
+order other than 1, 2 or 4. That saves a bit of time.
+
+On my PC, i finished all transforms of length 6 (quarter- and
+half turns), and did some of length 7. Fortunately, as I
+mentioned earlier, I managed to get it to work on a somewhat
+faster machine, and am now waiting for the results of that. I am
+searching all transforms of 10 quarter turns or less.
+
+A process with order 110 must have an even number of quarter
+turns, since the permutation on the edges has to be even (the
+only possibility is to have an 11-cycle on the edges, which is
+an even permutation).
+Therefore, since there are no processes with order 110 with 6 or
+less quarter turns, this proves that the one of length 8 is
+indeed the shortest possible.
+
+Cheers,
+
+-- 
+Michiel Boland <boland@sci.kun.nl>
+University of Nijmegen
+The Netherlands
+

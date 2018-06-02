@@ -1,0 +1,23 @@
+From ronnie@cisco.com  Wed Jun 10 15:12:01 1992
+Return-Path: <ronnie@cisco.com>
+Received: from wolf.cisco.com by life.ai.mit.edu (4.1/AI-4.10) id AA01827; Wed, 10 Jun 92 15:12:01 EDT
+Received: from lager.cisco.com by wolf.cisco.com with TCP; Wed, 10 Jun 92 12:11:36 -0700
+Message-Id: <9206101911.AA01765@wolf.cisco.com>
+To: wft@math.canterbury.ac.nz (Bill Taylor)
+Cc: Cube-Lovers@life.ai.mit.edu
+Subject: Re: Name query. 
+From: ronnie@cisco.com
+Date: Wed, 10 Jun 92 12:11:35 PDT
+Sender: ronnie@cisco.com
+
+> Can anyone tell me:-
+> 
+> Why is the "Pons Asinorum" pattern so called ?
+
+Pons Asinorum is Latin for "Asses' Bridge," and is the name of the
+proposition that the base angles of an isoceles triangle are equal.
+It is more generally any test of ability imposed upon the inexperienced
+or ignorant.
+
+			Ronnie (who has xwebster)
+

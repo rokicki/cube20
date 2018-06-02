@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr 15 19:31:56 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA00230
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 15 Apr 1999 19:31:55 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: Douglas Zander <dzander@solaria.sol.net>
+Message-Id: <199904142338.SAA14966@solaria.sol.net>
+Subject: Building a twisty puzzle (fwd)
+To: cube-lovers@ai.mit.edu (cube)
+Date: Wed, 14 Apr 99 18:38:20 CDT
+
+ In the US there exists a magazine called, "Inventor's Digest"  which
+ I have a subscribtion to and which is currently running a series of
+ articles about building prototypes from molds.  It would probably be
+ just what you are looking for.  It explains the whole process.  If you
+ want, I can get subscription information for you or information on how
+ to order individual articles.  You may wish to look in your local
+ library to see if they carry the magazine (au = australia?) but I'm
+ not sure your country would carry it.  If you want I will send you
+ excerpts just ask.  (is this something the whole list would want to find
+ out about?)
+
+--
+ Douglas Zander                | 
+ dzander@solaria.sol.net       |
+ Shorewood, Wisconsin, USA     |
+
+[ Moderator's note: I doubt we have that many molder/fabricator people
+  on the list (but I could be wrong).  It's also somewhat questionable
+  how large typed-in excerpts can be before we run into copyright
+  problems.  So I'd suggest people who are looking for excerpts should
+  contact Douglas Zander at the above address.  Subscription/ordering
+  information is more generally useful and less problematic, so please
+  send cube-lovers that info. --Dan ]
+

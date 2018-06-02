@@ -1,0 +1,38 @@
+From: Dave Lavery <dave.lavery@hq.nasa.gov>
+To: delirium@ime.usp.br, rbianchi@lsi.usp.br, fferraz@lsi.usp.br,
+    briand@lsi.usp.br
+Cc: dave.lavery@hq.nasa.gov
+Subject: Cool Robot Of The Week
+
+Congratulations!  The Chip and Dale robots have been selected as "The Cool
+Robot Of The Week" for December 9-15, 1996.
+
+The honor of being listed as "Cool Robot Of The Week" is bestowed upon
+those robotics-related web sites which portray highly innovative solutions
+to robotics problems, describe unique approaches to implementing robotics
+system, or present exciting interfaces for the dissemination of
+robotics-related information or promoting robotics technology. This award
+carries absolutely no monetary value, official recognition, assumed
+support, or tangible benefit, other than swamping your web site with a few
+dozen extra hits for a week. But everyone else was putting up their "Cool
+Site Of The Millenia" lists, so we figured it was our turn too...
+
+Anyway, to find out more about your listing, see the "Cool Robot Of The
+Week" web site at:
+http://ranier.hq.nasa.gov/telerobotics_page/coolrobots.html
+
+Congratulations once again, and we hope that in some small way this "honor"
+will bring some more recognition to your work.
+
+-----------------------------------------------
+Dave Lavery
+Telerobotics Program Manager
+NASA Headquarters, Code SM
+e-mail: dave.lavery@hq.nasa.gov
+http://ranier.hq.nasa.gov/telerobotics.html
+-----------------------------------------------
+
+
+
+
+

@@ -1,0 +1,22 @@
+From hoey@aic.nrl.navy.mil  Mon Dec  6 10:20:06 1993
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04222; Mon, 6 Dec 93 10:20:06 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA05273; Mon, 6 Dec 93 10:19:01 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Mon, 6 Dec 93 10:19:00 EST
+Date: Mon, 6 Dec 93 10:19:00 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9312061519.AA01483@sun13.aic.nrl.navy.mil>
+To: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Cc: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject: Re: God's Algorithm, 24-fold Symmetry, Edges of 3x3x3
+
+These results look very interesting, though I haven't had time to
+examine them closely, nor even (in a few cases) quite understand them.
+I especially like to see the categorization by symmetry class.
+
+I was somewhat startled to see the unique antipode of the 3x3x3 edges
+in the quarter-turn metric.  Do you know what pattern that is?
+
+Dan
+

@@ -1,0 +1,36 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Jan 14 19:00:40 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id TAA05544; Wed, 14 Jan 1998 19:00:40 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Jan 14 13:43:31 1998
+Date: Wed, 14 Jan 1998 13:42:20 -0500 (Eastern Standard Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Performance Analyzers for Cube (and other) Programs
+To: cube-lovers@ai.mit.edu
+Reply-To: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Message-Id: <Pine.WNT.3.96.980114133501.-824401J-100000@GN209A.PSTCC.CC.TN.US>
+
+[Moderator's note:  Please reply directly to Jerry.]
+
+This is a little off topic, but many cube searching programs run for
+dozens or hundreds of hours and we are always interested in speeding
+them up.  The best speed ups usually come from algorithm improvements,
+but I am also interested in more mundane program improvements.
+
+Through the years, I have used various tools, usually for FORTRAN,
+usually on mainframes, which will analyze a running program, telling you
+where (which routines, which lines of source code) the program is
+spending its time.  I am now running mostly C programs, mostly on a PC.
+I confess I am clueless as to what performance analysis tools might be
+available in this environment.  (I use Borland C++ if it matters.)  Any
+suggestions would be gratefully accepted.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

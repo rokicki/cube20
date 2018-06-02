@@ -1,0 +1,77 @@
+From alan@curry.epilogue.com  Fri Nov  3 02:39:27 1995
+Return-Path: <alan@curry.epilogue.com>
+Received: from curry.epilogue.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16466; Fri, 3 Nov 95 02:39:27 EST
+Received: (from alan@localhost) by curry.epilogue.com (8.6.8/8.6.6) id CAA18206; Fri, 3 Nov 1995 02:39:27 -0500
+Date: Fri, 3 Nov 1995 02:39:27 -0500
+Message-Id: <3Nov1995.011909.Alan@LCS.MIT.EDU>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+To: Cube-Lovers@ai.mit.edu
+In-Reply-To: Kathryn Kelly's message of Fri, 3 Nov 1995 01:00:07 -0500 (EST) <Pine.3.89.9511030038.A3828-0100000@ixc>
+Subject: Magazine Spam
+
+First off, let me apologize for sending a message that has nothing
+whatsoever to do with Rubik's Cube.  But I know from private electronic
+mail that many of you were very annoyed by the six copies of the "magazine
+club" advertisement that were distributed through Cube-Lovers during the
+last month.  I've been urging people to just sit tight and ignore the
+messages, because it wasn't entirely clear where the mail was actually
+coming from.  All that appeared certain was that the ads were being
+gatewayed through an Internet Service Provider in New York named "American
+Network, Inc" (domain name IXC.NET).
+
+Recently I've been talking to the responsible folks at American Network.
+They are quite apologetic about the whole thing, but apparently the
+miscreant is working through accounts that they give away free for the
+asking.  So they actually have no way to track the jerk down.  They don't
+even know how many of their accounts might all belong to the same person!
+This whole experience has apparently woken them up to what a -bad- idea
+that is, and they're going to stop.
+
+Besides cleaning up their act about granting free anonymous accounts,
+they also tracked down the post office box number that the miscreant uses
+for his business.  And they have a request:
+
+   Date: Fri, 3 Nov 1995 01:00:07 -0500 (EST)
+   From: Kathryn Kelly <kkelly@ixc.ixc.net>
+   ...
+   We wish you to do something for us.
+   We have the address where the individual sending out this
+   material receives his physical mail.
+   Please send a letter of complaint to the postmaster at
+      Postmaster
+      Staten Island NY 10312
+   Regarding the person at this address:
+      Magazine Club Inquiry Center
+      Att. Internet Services Department
+      P. O. Box 120990
+      Staten Island NY 10312 0990
+
+So those of you who really want to complain to somebody, here's your
+chance.  Compose a nice letter to the Postmaster at the address above
+explaining that the folks running the business at that P.O.Box are engaging
+in anti-social behavior on the Internet.  Unfortunately, I don't believe
+there is anything -illegal- about what this jerk is doing (although it is
+closely analogous to some things that are illegal to do with a telephone),
+so it wont work to demand that the Postmaster actually -do- anything, but
+work up a good complaint anyway.
+
+Finally, I urge you all -not- to respond to this message in public.  If you
+have further thoughts on Internet advertising, electronic mailing list
+administration, or clever acts of revenge, you can send them to -me-, but
+don't CC your message to Cube-Lovers as a whole.  The whole point here is
+to keep Cube-Lovers relatively free of off-topic mail.  As the list
+administrator I get to send out occasional administrivia such as this
+message because I do actual -work- to keep the list running.  
+
+And yes, I am still working on some new list management technology that
+should eliminate problems like this in the future.  (And yes, I know all
+about MajorDomo, listserv, and their relatives -- you don't need to
+enlighten me about them.)
+
+			- Alan (Cube-Lovers-Request@AI.MIT.EDU)
+
+(I never imagined when Dave Plummer and I started this list in 1980 that
+one day I'd be spending significant time trying to prevent people from
+using it to sell magazines.  Amazing.)
+

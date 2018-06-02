@@ -1,0 +1,51 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jun  7 15:49:59 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA24758
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 7 Jun 1999 15:49:59 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Standard file format for Rubik's Cube is just about ready
+Date: 7 Jun 1999 13:48:49 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7jgik1$d5d@gap.cco.caltech.edu>
+References: <cube-lovers.199906041117.HAA05009@life.ai.mit.edu>
+
+"David Byrden" <David@byrden.com> writes:
+>I have one question that I want to ask now. This
+>language needs a "default colour scheme". I
+>understand that one way of colouring a Rubik's
+>Cube was much more common than the others,
+>but I don't know which one. Can anyone specify it
+>exactly for me?
+
+The most common color scheme was
+ White opposite Blue,
+ Green opposite Yellow,
+ Red opposite Orange.
+ If you hold Yellow as Front and Red as Up, then Blue is Right.
+
+Color "purists" have complained about this, preferring
+ White opposite Yellow,
+ Blue opposite Green,
+ Red opposite Orange.
+ -- note that each pair is the same color except for some "Yellow" added.
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+If all my friends jumped off a cliff... what reason is there for me to live?
+
+[Moderator's note: You say white opposite blue was common, but when
+ was that?  My experience and other reports lead me to believe that
+ what you call the "purist" color scheme was most common in 1985 (viz
+ _Rubik's_Cubic_Compendium_) and I don't recall seeing any change
+ since.  It also is reportedly most common in the chirality you
+ describe, which is called the BOY version because blue, orange, and
+ yellow appear in that order clockwise around a corner.  The mirror
+ image coloring is called YOB (a Cockney term for a yokel).  I don't
+ know of any cute naming schemes for the enantiomorphs in color
+ schemes in which the blue, orange, and yellow faces do not all
+ meet--Dan ]
+

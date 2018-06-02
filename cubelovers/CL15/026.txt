@@ -1,0 +1,12 @@
+From @ibm.co.hennepin.mn.us:WF5435@CO.HENNEPIN.MN.US  Thu Feb  2 13:38:26 1995
+Return-Path: <@ibm.co.hennepin.mn.us:WF5435@CO.HENNEPIN.MN.US>
+Received: from IBM.CO.HENNEPIN.MN.US by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27718; Thu, 2 Feb 95 13:38:26 EST
+Message-Id: <9502021838.AA27718@life.ai.mit.edu>
+Received: from CO.HENNEPIN.MN.US by IBM.CO.HENNEPIN.MN.US (IBM MVS SMTP V3R1)
+   with BSMTP id 0229; Wed, 01 Feb 95 13:00:31 CST
+Date: Wed,  1 Feb 95 13:00:07  CST 
+To: cube-lovers@life.ai.mit.edu
+From: <JILL.LYONS@co.hennepin.mn.us>
+
+SUBSCRIBE cube-lovers-request Jill Lyons
+

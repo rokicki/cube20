@@ -1,0 +1,28 @@
+Date: 31 DEC 1980 0330-EST
+From: ACW at MIT-MC (Allan C. Wechsler)
+Subject: Groups and Cayley Graphs
+To: CUBE-LOVERS at MIT-MC
+
+If there is any popular response I will write
+a short introduction to Group Theory for Cubists.
+
+= - = - = - = - = - = - = - = - = - = - = - = - =
+
+Problem: the cube is known to have "small mountains",
+states that are locally maximally distant from the
+home state but not globally so.  The Pons Asinorum
+is an example: it has been proved (a refreshing relief
+from unmitigated conjecture) to be 12 qtw from home
+and all its neighbors are closer.
+
+The cube's Cayley graph in its six generators is vertex-
+transitive (all the states look the same) like all Cayley
+Graphs.  In addition, because all the generators are
+conjugate in the big group (quarter-twists plus whole-
+cube motions) the Cayley graph is edge-transitive
+(all transitions between adjacent states look the same).
+
+Can anyone find a small example of an edge-transitive
+graph that has local maxima that are not global?
+
+    ---Wechsler

@@ -1,0 +1,42 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Dec  4 22:36:51 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA16757; Wed, 4 Dec 1996 22:36:50 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 4 Dec 1996 06:56:55 -0500
+From: der Mouse <mouse@holo.rodents.montreal.qc.ca>
+Message-Id: <199612041156.GAA16203@Collatz.McRCIM.McGill.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: Re:  Rubik's Revenge
+
+>> And yes, if you can solve the 3-Cube and the 4-Cube, no higher order
+>> presents any qualitatively new challenges to a human.
+
+> Depends on what you mean by a "challenge."  Average puzzlers who
+> found relatively ordinary algorithms for the 3-cube and 4-cube will
+> discover that they must find one new algorithm for the 5-cube, but it
+> will be easy.
+
+Are you referring to center-slice non-face-center cubies?  If so, well,
+"duh, I missed that".  Dunno why it didn't register on me that the
+5-Cube is the first one with such cubies, but it is.
+
+I suppose it's just that to me, all eight non-face-center face cubies
+on the 5-Cube "feel the same", so I didn't notice the difference.
+(That's also why I think the "new" face cubies on the 6-Cube will not
+be a challenge.  What algorithm _are_ you referring to?)
+
+> Consider that the 4-cube (and 5-cube) can be made harder by forcing
+> the centre (or inner ring) cubies of each face to be oriented.
+
+True, of course; putting a picture (or equivalent) on the face of the
+Cube makes anything above the 2-Cube at least somewhat harder.  But
+AFAICT this doesn't explain your first statement, about needing a new
+algorithm for the 5-Cube....
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+
+

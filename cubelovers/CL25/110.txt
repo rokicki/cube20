@@ -1,0 +1,40 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 12 10:43:50 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id KAA16420; Wed, 12 Aug 1998 10:43:49 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Aug  6 23:33:59 1998
+Date: Thu, 6 Aug 1998 23:33:52 -0400
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199808070333.XAA03183@chern.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: superflip composed with six spot
+
+another position to consider is  superflip  composed with  six spot,
+since its maneuvers also have a corresponding cyclic shifting property.
+until recently, i didn't know any 24q maneuvers for this position, so
+i had planned to do an exhaustive search through 24q.  however, by
+looking at the new 24q maneuvers for superflip, i was able to modify
+one to get a 24q maneuver for superflip composed with six spot:
+
+D' R  L' F  L' F  B  U' B  L' F' U  F' U  D  R' U  R' F' D  L' U  D  F' (24q*)
+
+as a result, i only did a partial 24q search, namely for maneuvers that
+contain a half turn.  up to cyclic shifting and symmetry, the only such
+maneuvers are
+
+R' U  D  R' U  F' D  R' B  U' L' U' F' D  F' B' D' R' F  D  F  D' R2 (24q*)
+
+and a suitable reorientation of the inverse maneuver.  (the inverse
+position is the same pattern, but in a different orientation.)
+
+superflip composed with six spot also requires 20f:
+
+U2 F  B' R  F  L2 F2 D  B2 D2 R2 B' L2 F' D2 R2 D' B  R  B2  (20f*)
+
+no maneuver is simultaneously minimal in both metrics; this is a
+consequence of the partial 24q search.
+
+mike
+

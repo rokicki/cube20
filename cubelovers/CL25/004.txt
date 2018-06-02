@@ -1,0 +1,39 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 11 14:44:29 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA14952; Wed, 11 Mar 1998 14:44:29 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Mar 11 13:58:59 1998
+Date: Wed, 11 Mar 1998 13:58:48 -0500 (EST)
+From: Jiri Fridrich <fridrich@binghamton.edu>
+To: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Blindfold Cube-solving
+In-Reply-To: <6e60l8$2bc@gap.cco.caltech.edu>
+Message-Id: <Pine.SOL.L3.93.980311134754.22079A-100000@bingsun1>
+
+I believe that solving the cube blindfolded in one shot is very difficult
+if not impossible. One could memorize the orientation of all cubies and
+their permutation. Then use algorithms for turning the cubes without
+moving them, and then algorithms for permuting them. One would need to
+define orintation of cubies on the cube and then the permutation
+algorithms would have to preserve that orientation. This system would
+presume one really long "peek" and excellent memory, of course :)
+
+Using my system (http://ssie.binghamton.edu/~jirif), I could probably
+bring down the number of peeks to four with some practice ... Of course,
+seven is no sweat.
+
+Jiri
+
+*********************************************
+ Jiri FRIDRICH, Research Scientist
+ Center for Intelligent Systems
+ SUNY Binghamton
+ Binghamton, NY 13902-6000
+ Ph/Fax: (607) 777-2577
+ E-mail: fridrich@binghamton.edu
+ http://ssie.binghamton.edu/~jirif/jiri.html
+*********************************************
+

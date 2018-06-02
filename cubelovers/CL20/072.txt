@@ -1,0 +1,35 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Jul  1 00:53:25 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id AAA24630 for <cube-lovers-outbound@curry.epilogue.com>; Mon, 1 Jul 1996 00:53:24 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sun, 30 Jun 1996 21:05:13 -0300
+From: FERNANDO VON REICHENBACH <reichen@cnea.edu.ar>
+Message-Id: <199607010005.VAA31570@cnea.edu.ar>
+To: Cube-Lovers@ai.mit.edu
+Subject: Counting moves
+
+  My name is Isidro Costantini, I'm a cube lover since '81.
+  I used to have some cube meetings here in Buenos Aires and we have
+some interesting formulas. We disserted about how to count cube moves,
+and finally decided that any double move (ie: R2) are TWO moves instead
+of one. This was because there are a lot of even/odd properties when
+you count moves in that way. I'm quite surprised that when I checked
+some pages and moves aren't count in that way. For example, to flip two
+edges in it's place will always take an even number of moves (14)
+(I'll put the shortest formula we have in parenthesis) (always counting
+X2 as two moves)  Any 3 edges xchg (12) or Flip 2 corners (14) or
+Xchg 3 corners (8) is even.  Any [Xchg 2 corners And Xchg 2 edges] is 
+always odd (ie: R1 U3 L1 U2 R3 U1 R1 U2 R3 L3 U1 = 13 counting U2 as two)
+  I have a collection of all the combinations of these nonFliping
+corner/edges exchange ODD formulas in one face, some of them are of 17
+or more movements and I wonder if there are any better than we did.
+  ( Where's a place to check for those formulas? )
+  Another good example is (xchg 3 edges,noFlip) (12) R2 U1 F1 B3 R2
+F3 B1 U1 R2 (9 moves using your way of counting) and another equivalent:
+B3 U3 R3 U1 R1 B1 followed by F1 R1 U1 R3 U3 F3 (6+6 moves, same position)
+  Another way of counting could be adding the suffix (1,2 or 3) (counting
+only clockwise moves) which would preserve parity as well.
+  I would be pleased if some one can tell me about this subject.
+
+

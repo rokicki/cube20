@@ -1,0 +1,17 @@
+From reid@math.berkeley.edu  Mon Aug 23 04:10:58 1993
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14953; Mon, 23 Aug 93 04:10:58 EDT
+Received: from jacobi.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA19047; Mon, 23 Aug 93 01:10:56 PDT
+Date: Mon, 23 Aug 93 01:10:56 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9308230810.AA19047@math.berkeley.edu>
+To: cube-lovers@life.ai.mit.edu
+Subject: Re:  Diameter of cube group?
+
+> Continuing and waiting for a config that requires 21 turns, dik
+
+here's a pattern to try:
+first do 6 checkerboards of order 2 (F2 B2 R2 L2 U2 D2) and then do
+superfliptwist.  in other words, the group product of these two elements.
+

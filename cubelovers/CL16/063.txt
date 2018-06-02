@@ -1,0 +1,48 @@
+From munafo@vgi.com  Fri Jul 28 17:15:16 1995
+Return-Path: <munafo@vgi.com>
+Received: from vgi.com (hoss.vgi.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04926; Fri, 28 Jul 95 17:15:16 EDT
+Received: from frank.vgi.com ([1.0.2.139]) by vgi.com (4.1/SMI-4.1)
+	id AA12063; Fri, 28 Jul 95 17:13:58 EDT
+Received: by frank.vgi.com (1.38.193.4/SMI-4.1)
+	id AA26397; Fri, 28 Jul 1995 17:14:15 -0400
+Date: Fri, 28 Jul 1995 17:14:09 -0400 (EDT)
+From: Robert Munafo <munafo@vgi.com>
+X-Sender: munafo@frank
+To: CUBE-LOVERS List <Cube-Lovers@ai.mit.edu>
+Subject: Re: IQubes
+In-Reply-To: <648@puzzles.demon.co.uk>
+Message-Id: <Pine.HPP.3.90.950728164023.22293A-100000@frank>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+Sounds like a 3-d analogue of the "15-puzzle". I have one which is called
+"MagicJack", and is imported from Germany.  I bought mine at Games People
+Play on Mass Ave. in Cambridge MA, USA (+1.617.492.0711). 
+
+The cubies have varying numbers of sides colored silver, red, and green.
+There are three different ways to "solve" it. The silver way is easiest; the
+green way requires you to match up patterns on each facelet to make a
+continuous loop, conceptually sinilar to Rubik's Tangle. The red solution
+also requires a continuous loop, and there are symbols that must be matched
+up too, making it harder to find a pattern that is valid. 
+
+I haven't scrambled mine yet, because I haven't had time to write down 
+the initial pattern.
+
+On Tue, 25 Jul 1995, Yerry Felix wrote:
+> 
+> On another note, a while back Games & Puzzles Magazine reviewed a cube 
+> called IQube. It comprised a cage containing 26 cubelets, there are two 
+> variants, one with 3 * 2 colours on the individual cubelets and another 
+> one with 2 * 3 colours. A few days later a friend of mine brought in an 
+> ancient cube (about 10 years old) which was made to the same principle, 
+> but with only one colour on one of the faces of the cubelets inside and the other 
+> 5 sides are black. Would anyone know who manufactured these? 
+> 
+> -- Yerry Felix
+> Games & Puzzles Magazine
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Davis' principle 46:   Avoid design in requirements.
+- - - - Robert P Munafo - - -  munafo@vgi.com - - - +1.617.276.8960 - - -
+

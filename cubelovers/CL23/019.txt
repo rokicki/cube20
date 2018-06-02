@@ -1,0 +1,153 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun 19 21:55:51 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id VAA07813; Thu, 19 Jun 1997 21:55:51 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <199706200151.AA15092@world.std.com>
+To: "cube-lovers@ai.mit.edu" <cube-lovers@ai.mit.edu>
+Subject: Square One Solution
+Date: Thu, 19 Jun 97 21:53:07 -0500
+From: Mike Masonjones <mcmj@world.std.com>
+X-Mailer: E-Mail Connection v2.5.03
+
+Cube Lovers,
+
+This is long, but complete solutions are long.  I even left quite a bit of
+the boring and obvious stuff out, and it still took me 3 hours to write it. 
+Any errors, let me know.  I hope this satisfies.
+
+Apparently I have the least extracurricular life of all of you, since I know
+how to solve Square One much quicker than any reports I've seen here.  Quite
+a dubious honor, I suspect.  Anyway, here goes my solution, which with a
+little practice, guarantees a solution within 75-100 seconds for someone who
+can do The Cube in about 55-60 seconds (assuming there's a correlation in
+hand speed from puzzle to puzzle).
+
+The solution is completely my own, as is the notation.  Sorry if it offends
+anyone.
+
+1. Start by getting to the cube state for the top and bottom faces.  Ignore
+the middle slice til the very end.  This can be most efficiently done by
+memorizing a table. A pretty good (but not error-free) one is on the only
+square-one web site in existence that I know of. Sorry, you'll have to find
+the site yourself with a browser, since I can't look it up right now.  I
+have a scheme written down somewhere that is quite a bit easier to memorize,
+but why should I take the fun away from any of you looking for the solution
+yourselves.  If there is a big response to this letter, then I will dig out
+my easy table.  
+
+Tables are difficult to memorize, so I usually just try to get to a six
+pointed star on one side and all the little wedges plus the remaining 2 big
+wedges on the other.  It is easy to get to one of the five possible states
+that result, thus requiring memorization of only 5 solutions to get back to
+a cube.  This method takes about 5-10 seconds longer, an average, than the
+table technique.  
+
+Using a notation where L represents a large wedgie, and S a small wedgie,
+the five possible states can be written as:
+
+1) bottom = LLLLLL, top = LLSSSSSSSS
+2) bottom = LLLLLL, top = LSLSSSSSSS
+3) bottom = LLLLLL, top = LSSLSSSSSS
+4) bottom = LLLLLL, top = LSSSLSSSSS
+5) bottom = LLLLLL, top = LSSSSLSSSS
+
+For cases 1),3),5), rotate the top face so that it will be sliced
+symmetrically between the two L pieces when the center is flipped.  The next
+move in each of these cases involves moving the top face one way and the
+bottom face the other, when looking from the front.  (Front will be the term
+used from now on to denote the end nearest you of the central cut through
+which flipping occurs (a 180 turn of one half of the cube)).  After a flip,
+cases 1) and 5) should give two barrel shapes (LLSSLLSS), top and bottom. 
+You should aim in case 3) for two tomahawk (LLSSLSLS) shapes.  Any self-
+respecting cubist should be able to get home from here.
+
+Cases 2 and 4 are a little more complicated.  For both cases align the top
+so that the left half of the top face reads, going clockwise, SLSSS.  Flip
+right side.  Now rotate the bottom so that when you flip with the right hand
+, the top will read SlSSSSSLL starting from the front and going clockwise. 
+Now rotate the top 1/12 turn counterclockwise and the bottom so it reads
+LLLLSSL going clockwise from the front and flip again.  Now you're in an
+easy state to get home from (LLLLSSSS on top and LLSLSSLS on bottom).
+
+2. Now that you're in a cube state top and bottom, get all the wedgies on
+their correct side (top and bottom face all the same color, respectively). 
+This is very straightforward and intuitive.  I usually start with one large
+wedgie, and sequentially put in one at a time next to it going around a face
+until you get down to one S wedgie stuck on the wrong side.  Sometimes it is
+easier to do LSL on one half of the top, and then do LSL on the other, and
+then putting in the second to last S between the groups.
+
+Now position the top face so that the Odd S wedgie (O) is positioned as
+LSLOLSLS going clockwise from the front.  Put the bottom odd wedgie in front
+with the bottom square skewed from the top (bottom should read LSLSLSLO
+going clockwise from the front).  Now do FT4B1FT-4B-1FT4B1FT-3F, where F =
+flip with right hand, Bx = turn bottom face clockwise x/12 of a turn, B-x =
+same thing counterclockwise, Tx, T-x mean similar things.
+
+3. Now get L's positioned.
+
+Case 1. No L's are correctly adjacent to each other.  Position top and
+bottom (top = LSLSLSLS, bottom = SLSLSLSL, each going clockwise from front).
+ Now go
+FB3FT-3B-3FT3F, turn the whole puzzle 180 degrees so that the back of the
+central cut is now the front, and repeat the move.
+
+Case 2. Two sets of adjacent pairs are out of whack, one on top, and one on
+bottom.
+Do the move for case 1 once, with the components of the pairs in question
+all nearest the front.
+
+Case 3. Only one adjacent pair correct.  Position the top so that the
+correctly adjacent pair (denoted as A) is positioned as ASASLSLS, and the
+bottom reads LSLSLSLS (same conventions as before).  Now do FB-3FB3FB-3FB3F.
+
+Case 4. Only one pair incorrect.  Position the top (with the incorrect pair)
+so that the correctly adjacent pair is positioned as LSASASLS, and the
+bottom reads LSLSLSLS.  Do the move in Case 3 twice with a T3 between
+instances.
+
+Case 5. One side is OK, the other has no correct adjacent pairs.  Bad side =
+top.  top = LSLSLSLS, bottom = LSLSLSLS.  Do the move in Case 3 twice with
+T6 between instances.
+
+4. Now check for parity.
+
+With the L's in place it is easy to identify whether you need to change the
+parity of the system.  It should take an even number of switches to right
+the S's at this stage.  A cycle of three is even, since it would take two
+switches to fix it.  A cycle of two or four is odd.  If the overall parity
+is odd, do the following:
+starting with top = LSLSLSLS, bottom = LSLSLSLS, go FT3B3FT1B2FT2B2FT-
+2FT2B2FT3B2FT-3B-3T-3B-1FT-2B-2F
+This may not be the optimum way, but it preserves the corners, and it's easy
+to remember the path.  (Try it)
+
+5. Place the S's (they should already be on their correct face). The most
+useful moves are the below: All permutations of S's can be solved with
+application of a maximum of three of these short moves in sequence, combined
+with the appropriate turns in between to set things up.  
+
+Move 1. Start with top = LOLSLSLO, bottom = LOLSLSLO, where O = pairs that
+will be switched on a given side.  Do FT-3FT1B1FT2B-1F. Repeated twice with
+a T3 between makes a three-cycle on the top side.
+
+Move 2. top = LSLOLSLO, bottom = LSLOLSLO, O definition same as Move 1.  Do
+FT1B1FT6FT-1B-1F.
+
+There may be quicker solutions than applying these moves for a 4-cycle/2-
+cycle combination or a 4-cycle/4-cycle combination, where you have to apply
+3 moves in succession. I'd like to hear about suggestions.  I haven't
+investigated it too much since these modes come up so rarely.
+
+6. Fix middle slice.  If square shaped but wrong, do FT6B6F. Otherwise,
+position the bad half on the right, and do FB6FB6F.
+
+Congratulations, you have a solved Square One.
+
+Happy cubing.  
+
+Mike Masonjones
+
+
+

@@ -1,0 +1,20 @@
+From MULL4195@splava.cc.plattsburgh.edu  Wed Jun 14 16:17:44 1995
+Return-Path: <MULL4195@splava.cc.plattsburgh.edu>
+Received: from splava.cc.plattsburgh.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29070; Wed, 14 Jun 95 16:17:44 EDT
+Received: from splava.cc.plattsburgh.edu by splava.cc.plattsburgh.edu (PMDF
+ V4.2-11 #3312) id <01HRPAOJ7EWG8WYOF1@splava.cc.plattsburgh.edu>; Wed,
+ 14 Jun 1995 16:17:58 EST
+Date: Wed, 14 Jun 1995 16:17:58 -0500 (EST)
+From: John Mullen <MULL4195@splava.cc.plattsburgh.edu>
+Subject: 
+To: Cube-Lovers@ai.mit.edu
+Message-Id: <01HRPAOJ87UA8WYOF1@splava.cc.plattsburgh.edu>
+Organization: SUNY at Plattsburgh, New York, USA
+X-Envelope-To: Cube-Lovers@ai.mit.edu
+X-Vms-To: IN%"Cube-Lovers@ai.mit.edu"
+X-Vms-Cc: MULL4195
+Mime-Version: 1.0
+Content-Transfer-Encoding: 7BIT
+
+signoff cube-lovers
+

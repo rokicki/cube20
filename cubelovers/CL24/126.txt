@@ -1,0 +1,21 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jan 15 12:55:44 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA09053; Thu, 15 Jan 1998 12:55:44 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Jan 15 09:34:15 1998
+X-Sender: ddyer@10.0.2.1
+Message-Id: <l03020905b0e2b255bd83@[192.0.2.1]>
+Date: Wed, 14 Jan 1998 10:23:42 -0800
+To: Cube-Lovers@ai.mit.edu
+From: Dave Dyer <ddyer@netcom.com>
+Reply-To: Dave Dyer <ddyer@netcom.com>
+Subject: save a cube for the price of a stamp
+
+My trusty 4x4x4 has died.  I urgently need 2 replacement "1-sided"
+cubelets, preferably white and yellow.  I'm hoping someone has a
+similarly defunct 4x4x4 that they saved for sentimental reasons (or to
+admire the amazing internal mechanism) and will send me some spare
+parts.
+

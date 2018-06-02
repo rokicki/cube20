@@ -1,0 +1,19 @@
+From jxs3704@hertz.njit.edu  Thu Feb 23 10:47:47 1995
+Return-Path: <jxs3704@hertz.njit.edu>
+Received: from hertz.njit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27189; Thu, 23 Feb 95 10:47:47 EST
+Received: (from jxs3704@localhost) by hertz.njit.edu (8.6.10/8.6.9) id KAA13328; Thu, 23 Feb 1995 10:47:45 -0500
+Date: Thu, 23 Feb 1995 10:47:45 -0500 (EST)
+From: Codey <jxs3704@hertz.njit.edu>
+To: cube-lovers@life.ai.mit.edu
+Subject: software for Rubik's cube
+Message-Id: <Pine.ULT.3.91.950223104552.12897A-100000@hertz.njit.edu>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+	Does anyone know if there is any software to assist in solving 
+the original Rubik's cube?  I just dug my cube up a couple weeks ago and am
+still having problems solving it.  Thanks.
+
+-Codey
+
+

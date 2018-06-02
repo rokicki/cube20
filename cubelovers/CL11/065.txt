@@ -1,0 +1,37 @@
+From dik@cwi.nl  Mon Dec 27 18:43:04 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24660; Mon, 27 Dec 93 18:43:04 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA15198 (5.65b/3.12/CWI-Amsterdam); Tue, 28 Dec 1993 00:43:03 +0100
+Received: by boring.cwi.nl 
+	id AA25571 (4.1/2.10/CWI-Amsterdam); Tue, 28 Dec 93 00:43:02 +0100
+Date: Tue, 28 Dec 93 00:43:02 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9312272343.AA25571.dik@boring.cwi.nl>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re:  Group theory basics (Re: Symmetry)
+
+One additional remark:
+
+ > > Well, if P is a rotation operator, you could perform a rotation
+ > > two ways.  I guess one is pre-multiplication and one is
+ > > post-multiplication.
+
+ > >     1)  For i = 1 to 24  B(i) = A(P(i))
+
+ > I would write this as B = P A, and say that A is premultiplied by P,
+ > or equivalently that P is postmultiplied by A.
+
+There is quite a bit of confusion about this.  When permutation
+groups are considered; even text-books do not agree.  When A and P
+are permutations you can find both that P A means: apply P first, A next,
+but also: apply A first, P next.  (The first meaning comes from the pure
+group theorists, the second meaning more from the algebra inclined.)
+
+Sorry to confuse the issue, but when I read such texts I have always to
+think hard to get at the intended meaning.  I think the functional
+notation is much clearer and leads to less confusion.
+
+Of course, doing notations for cube rotations the group theorists
+notation is applied, but when doing abstract operations...
+

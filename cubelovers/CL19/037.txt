@@ -1,0 +1,43 @@
+From isaacs@hpcc01.corp.hp.com  Mon Mar 18 18:46:45 1996
+Return-Path: <isaacs@hpcc01.corp.hp.com>
+Received: from paloalto.access.hp.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22316; Mon, 18 Mar 96 18:46:45 EST
+Received: from hpcc01.corp.hp.com by paloalto.access.hp.com with ESMTP
+	(1.37.109.16/15.5+ECS 3.3) id AA006382803; Mon, 18 Mar 1996 15:46:43 -0800
+Received: by hpcc01.corp.hp.com
+	(1.37.109.16/15.5+ECS 3.3) id AA121182802; Mon, 18 Mar 1996 15:46:43 -0800
+From: Stan Isaacs <isaacs@hpcc01.corp.hp.com>
+Message-Id: <199603182346.AA121182802@hpcc01.corp.hp.com>
+Subject: Re: Orbix
+To: din5w@cs.virginia.edu (Dale Newfield)
+Date: Mon, 18 Mar 96 15:46:41 PST
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <31487128.68F9@cs.virginia.edu>; from "Dale Newfield" at Mar 14, 96 2:19 pm
+Mailer: Elm [revision: 70.85.2.1]
+
+
+> 
+> I just saw a commercial for a puzzle called "Orbix."  It was a sphere 
+> covered with (I think) 12 colored reflector-like circles, each with a 
+> button in the center.  They said that there are 4 levels.  It seemed to 
+> be much like "luminations."  I'm sure that I will buy the first one I 
+> find. :-)
+> -Dale Newfield
+
+No, its more like "Light's Out", on a sphere.  It's a nice puzzle
+(although the first one I bought had a broken button, so I had to
+exchange it.)  It cost about $20 at Toys-R-Us.  The surface of the
+sphere has 12 lights/buttons, dodecahedrally arranged.  When you push
+one, in the first puzzle, the 6 surrounding lights change their parity
+- if they're on, they go out and vice versa.  The goal is to get all
+the lights on, after some random starting pattern.  
+
+The other puzzles have a different combination of which lights go on
+when you press a light: I think the second turns out the 6 on the
+opposite side from the one pressed, and only do so if the pressed
+light was orignally off (or something like that).  Obviously, I
+haven't had time to study the details much yet.
+
+The puzzle feels nice, looks good, and should be worth the $20.  
+
+ -- Stan Isaacs
+

@@ -1,0 +1,49 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Jul 30 15:23:06 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA15891; Wed, 30 Jul 1997 15:23:05 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From whuang@ugcs.caltech.edu Wed Jul 30 14:13:18 1997
+To: Cube-Lovers@AI.MIT.Edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: 2^3 Reassembly
+Date: 30 Jul 1997 18:09:49 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <5ro01d$as6@gap.cco.caltech.edu>
+References: <cube-lovers.199707291358_MC2-1BDB-4183@compuserve.com>
+
+Corey Folkerts <CFolkerts@compuserve.com> writes:
+>Nicholas Bodley writes:
+>> The cubies are kept together by 12 "clips". These fit into the cutout
+>>arcs; when you assemble the Cube, you put two cubies next to each other
+>>(they touch) and fit this "clip" so that it keep s them together. To
+>>install it, you move the clip away from the imaginary geometrical center
+>>of the whole puzzle. 
+>My 2^3 has these 12 clips as I discovered when it first burst. However, I
+>would like to confirm something. Nine of my clips are identical, the 1/4
+>circle shape. However, its the other three that are causing me trouble. One
+>of them is identical to the other nine except that on one of the two planes
+>it has a very small notch cut out of it. The notch is an arc and I'm
+>guessing it is probably about 1 mm deep. The other two have one of the 1/4
+>planes identical to the first nine, but the second plane extends far
+>beyond, doubling the "height" of the clip. If viewed from the side which
+>has the extended plane it is a diamond instead of a 1/4 circle.  All of the
+>other internal pieces are identical to your description
+
+>        I would like to know if everyone else has these altered clips in
+>their 2^3s.
+
+I believe so.  Those "special" serve the same purpose as the protruding
+octants on the 4^3 internal ball -- to anchor one of the blocks in
+each plane.  Otherwise, one of the planes of "clips" may be offset 
+45 degrees (not obvious from the outside), and the other planes
+become unturnable.  Make sure that one weird clip is in each
+plane before assembly.
+
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+I hate formication.  It should be abolished entirely.
+

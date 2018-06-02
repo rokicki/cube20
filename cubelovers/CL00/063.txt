@@ -1,0 +1,21 @@
+Date: 31 Jul 1980 16:44 PDT
+Sender: McKeeman.PA at PARC-MAXC
+Subject: Re:  The shortest solution?
+In-reply-to: ALAN's message of 31 July 1980 13:06-EDT
+To: Alan Bawden <ALAN at MIT-MC>
+From: (Bill) McKeeman
+cc: CUBE-HACKERS at MIT-MC, Lynn.ES
+
+A lower bound on the number of twists can be derived as follows:  There are
+4.3*10^19 distinct reachable arrangments of the cube.  Suppose the moves are
+restricted to the (more than sufficient) set RLFBUD.  Then there are at most six
+independent choices at each step and the number of reachable places is bounded
+by 6^n.  That gives
+	6^25 < 4.3*10^19 < 6^26,
+or 26 moves as the (probably unachievable) minimum.  If all single-hand-motion
+twists,  R RR RRR L LL .... DDD are allowed, there are 18 choices, giving
+	18^15 < 4.3*10^19 < 18^16,
+or 16 moves as a minimum.  This isn't very interesting since Singmaster has
+examples 18 twists away.  If the orientation of the center squares is also
+considered, then the combinatoric is 8.8*10^22, and the minima are, respectively,
+30 and 19.

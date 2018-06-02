@@ -1,0 +1,66 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Fri Dec 17 14:25:29 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08679; Fri, 17 Dec 93 14:25:29 EST
+Message-Id: <9312171925.AA08679@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 7700; Fri, 17 Dec 93 14:25:17 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 8890; Fri, 17 Dec 1993 14:25:14 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 2064; Fri, 17 Dec 1993 14:22:36 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Fri, 17 Dec 1993 14:22:34 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: Size of the Cube Group
+In-Reply-To: Message of 12/17/93 at 11:21:51 from ,
+           BRYAN%WVNVM.BITNET@mitvma.mit.edu
+
+On 12/17/93 at 11:21:51 Jerry Bryan said:
+
+>However, the alert reader should have noticed a problem.  Why did I
+>not divide by 2 to take into account the fact that odd edge
+>permutations can only occur with odd corner permutations and vice
+>versa?  Actually, I did, but the division by 2 cancelled.  The reason
+>it canceled is slightly tricky.  Also, remember that we are talking
+>about equivalence classes, not specific cube configurations.  Any
+>equivalence class has both even and odd members, depending on how
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+>the members are rotated.  Hence, any corner equivalence class can be
+>matched up with any edge equivalence class, assuming the rotations
+>are compatible.  But you still have to worry about "dividing by 2",
+>as follows.
+
+It is pretty bad when you have to followup with
+corrections to your own posts.  I hurried to complete the previous
+post before lunch, and just didn't think clearly enough  --  till I
+had time to think *during* lunch.  Let's try this again.
+
+A qturn of the whole cube (a 90 degree rotation of the whole cube)
+is odd.  However, if you think of a qturn rotation of the whole cube
+as disjoint between edges and corners, a qturn rotation of the
+corners is even, and a qturn rotation of the edges is odd.  Hence,
+for any equivalence class of the corners under M, either the whole
+equivalence class is even, or the whole equivalence class is odd.
+For any equivalence class of the edges under M, half of the equivalence
+class is even and half is odd.  Thus, any equivalence class of the
+corners can occur with any equivalence class of the edges, but with only
+half the members of the edge equivalence class  --  namely those with
+the same parity.
+
+I believe my calculations were correct, but a piece of the justification
+was not.  I hope I am not still missing something.  You do have to
+"divide by 2", and my calculations do indeed "divide by 2" as previously
+described, but the parity of edges vs. the parity of corners was
+incorrect in the previous post.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

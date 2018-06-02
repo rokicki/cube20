@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 18 14:41:45 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA12540
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 18 Mar 1999 14:41:45 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: C.McCaig@queens-belfast.ac.uk
+Date: Thu, 18 Mar 1999 09:56:55 GMT
+To: Cube-Lovers@ai.mit.edu
+Message-Id: <009D54AE.1E20C937.3@a1.qub.ac.uk>
+Subject: Re: Speed cubing results - March 99
+
+
+> As far as timing is concerened, do you include a preview before the
+> timer is started, or is it done "cold" (No looking at all before the
+> timer starts)?  If a preview is allowed, how long do you get?  Is there
+> a standard for this that everyone is going by?
+
+i usually do it cold.  i use the layer-by-layer method, so a preview
+isnt really all that advantageous.  i've tried jiri's method, but i
+couldnt get used to it, and only once managed to break 60 secs with it.
+
+> Also, are you people timing yourselves or do you have someone to do it?
+> I do it myself.  It doesn't affect my time too much, but I can shave off
+> a second or two if someone else does it.
+
+i just use my watch, with the alarm set to go off, and the display reading
+the seconds (so the alarm goes off at :00) and then look when i've
+completed the cube.
+
+> -Alex-
+
+Clive
+
+--
+Clive McCaig
+Dept. Applied Mathematics
+Queens University Belfast
+Northern Ireland
+

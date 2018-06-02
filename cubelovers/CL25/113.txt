@@ -1,0 +1,95 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 19 22:57:36 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id WAA17267; Wed, 19 Aug 1998 22:57:36 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Aug 19 17:10:15 1998
+Date: Wed, 19 Aug 1998 17:09:54 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: minimal maneuvers for X symmetric positions
+In-Reply-To: <199808182028.QAA24353@euclid.math.brown.edu>
+To: michael reid <reid@math.brown.edu>
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <SIMEON.9808191754.D@GN209A.PSTCC.CC.TN.US>
+
+
+On Tue, 18 Aug 1998 16:28:28 -0400 michael reid
+<reid@math.brown.edu> wrote:
+
+> X  is the subgroup of the cube symmetry group which preserves
+> the U-D axis.  there are 128 positions which have X symmetry:
+>
+>      the UR edge can go in any of the 8 positions  UR, RU, DR,
+>      RD, UL, LU, DL, LD; this determines the location of the
+>      edges UB, UL, UF, DR, DB, DL, DF.
+>
+>      the FR edge can go in any of the 4 positions FR, RF, BL, LB;
+>      this determines the location of the edges FL, BR, BL.
+>
+>      the UFR corner can go in any of the 4 positions UFR, UBL,
+>      DRF, DLB; this determines the location of all the corners.
+>
+> any combination of these is possible, which gives 128 positions.
+> 4 of the positions have more symmetry, namely M symmetry.
+> (these positions are  start, superflip, pons asinorum, and
+> pons asinorum composed with superflip.)
+>
+> minimal maneuvers for the other positions are:
+>
+> 1.  F2 R  L' D2 F2 D2 R' L  F2 D2  (16q*, 10f*)
+>
+> 2.  U  F' B' R2 U' D' F' B  U  D  R2 F  B  D'  (16q*, 14f)
+>     U  F2 U2 F2 R  L  F2 U2 F2 U2 R' L' U   (13f*, 20q)
+>
+
+I don't think Mike has said so explicitly, but he appears to
+have adopted a very useful convention from Herbert Kociemba's
+Cube Explorer 1.5.  To wit, Cube Explorer 1.5 flags the length
+of a maneuver with an asterisk when the length has been shown to
+be minimal. Cube Explorer 1.5 operates only in face turns, so it
+omits the q or f designation of units.
+
+But for example, Cube Explorer 1.5 might show the length of a
+cube upon which it is operating as (13) meaning 13f, then later
+in the search show the length as (12), and still later show the
+length as (12)* to show that 12 face moves have been proven to
+be minimal. The only difference between Mike's style and Cube
+Explorer's style is that Cube Explorer puts the asterisk outside
+the parentheses.
+
+I loaded Mike's E-mail into Cube Explorer to take a quick look
+at the X symmetric positions.  Many of them are familiar to
+readers of this list, and all of them are quite pretty.
+(Loading Mike's E-mail into Cube Explorer "just worked".  I
+didn't have to edit it at all to remove extraneous text.  Cube
+Explorer's maneuver reader seems to have a remarkable ability to
+extract maneuvers in BFUDLR notation which are imbedded in other
+extraneous text.)  If you have Cube Explorer 1.5 (and you
+should!), I would encourage you similarly to load Mike's X
+symmetric patterns into it and take a look.
+
+The patterns look as expected for patterns which preserve the
+U-D axis. The U and D faces are the same pattern.  The F, R, B,
+and L faces are the same pattern and may be described as
+being in the same orientation with respect to rotations of the
+square.
+
+For positions #1 through #62, the U and D faces may be described
+as being symmetric with respect to the symmetries of the square.
+They range from being solid, to having one dot, to being a +, to
+being an X, etc.  All are glyphs.
+
+Positions #63 through #124 are essentially the first 62
+positions composed with superflip.  I had never noticed it, and
+I don't *think* it has been described on the list, but for every
+symmetry group, half of the corresponding positions can be
+described as "basic" positions and the other half can be
+described as the basic positions composed with superflip.  That
+is, if Symm(x)=K, then Symm(xf)=Symm(fx)=K, where x is any
+position and f is the superflip.
+
+----------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+

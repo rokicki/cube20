@@ -1,0 +1,52 @@
+From JBRYAN@pstcc.cc.tn.us  Tue Feb 20 16:06:52 1996
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from PSTCC4.PSTCC.CC.TN.US by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02988; Tue, 20 Feb 96 16:06:52 EST
+Resent-From: JBRYAN@pstcc.cc.tn.us
+Resent-Message-Id: <9602202106.AA02988@life.ai.mit.edu>
+Received: from pstcc.cc.tn.us by pstcc.cc.tn.us (PMDF V5.0-3 #11457)
+ id <01I1FXF1NAVY8X1JD9@pstcc.cc.tn.us> for cube-lovers@ai.mit.edu; Tue,
+ 20 Feb 1996 16:05:42 -0400 (EDT)
+Resent-Date: Tue, 20 Feb 1996 16:05:42 -0400 (EDT)
+Date: Tue, 20 Feb 1996 16:05:34 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Group/graph status?
+In-Reply-To: <9602132109.AA28288@poster>
+Sender: JBRYAN@pstcc.cc.tn.us
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.960220154604.539228493L-100000@pstcc.cc.tn.us>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+On Tue, 13 Feb 1996, michael reid wrote:
+
+> jerry bryan was counting (and storing) positions close to start
+> on magnetic tape.  he gave figures for positions within 7 face
+> turns on july 19, 1994 and positions within 11 quarter turns on
+> february 4, 1995.  (jerry, how many reels of tape did this take?)
+
+It was a little better than 100 tapes.  It was roughly 20GB of data.  I
+stored 14 bytes per position (could have done it in 13 bytes, but I stored
+the lengths with each permutation).  Each "position" was really a
+representative of an equivalence class of M-conjugates (usually)
+containing 48 elements.  Hence, it took about 14/48 bytes (about 2.33
+bits) to store each position.  This isn't too shabby, but it is nowhere as
+compact as the coding scheme discussed in the "How Big is Big?" thread. 
+
+> 
+> the diameter isn't known.  the best lower bounds are 20 face turns,
+> or 24 quarter turns, both from considering the position "superflip".
+> the best upper bounds are 29 face turns, or 42 quarter turns.
+
+A 24q process is known for superflip.  It is known that superflip is
+greater than 19f.  Is a 20f process known for superflip?
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+

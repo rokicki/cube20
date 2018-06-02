@@ -1,0 +1,37 @@
+From BRYAN@wvnvm.wvnet.edu  Thu May 18 10:17:25 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24497; Thu, 18 May 95 10:17:25 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 8692; Thu, 18 May 95 09:29:25 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5434; Thu, 18 May 1995 09:29:25 -0400
+Message-Id: <wvmail32.1995may18.085543.bryan@wvnvm.wvnet.edu>
+Date:      Thu, 18 May 1995 09:29:24 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <mreid@ptc.com>, "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject:   Re: more on the slice group
+In-Reply-To: Message of 05/11/95 at 17:57:14 from mreid@ptc.com
+
+On 05/11/95 at 17:57:14 mreid@ptc.com said:
+
+>jerry asks about  P-symmetric  positions.  coincidentally, i happened
+>to investigate these a few weeks back, and here's what i found:
+>(i calculated by hand, so i'd be grateful for any confirmation.)
+
+>there are 128  P-symmetric  positions, 4 of which are  M-symmetric.
+
+I can confirm your count.  These positions are called X class positions
+in Dan's taxonomy.  That is, there are 124 positions Y unique up to
+M-conjugancy for which Symm(Y)=X1 or Symm(Y)=X2 or Symm(Y)=X3, where
+X1, X2, and X3 are the three conjugate subgroups of M in Dan's
+taxonomy of subgroups which contain sixteen elements. Hence, we
+describe the 124 positions as being class X positions.  The 4
+M-symmetric positions are also X-symmetric, but we don't count them
+as class X.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

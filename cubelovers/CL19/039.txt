@@ -1,0 +1,52 @@
+From JBRYAN@pstcc.cc.tn.us  Tue Mar 26 08:32:56 1996
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from pstcc6.pstcc.cc.tn.us by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA11793; Tue, 26 Mar 96 08:32:56 EST
+Received: from PSTCC6.PSTCC.CC.TN.US by PSTCC6.PSTCC.CC.TN.US
+ (PMDF V5.0-4 #11457) id <01I2SDSB87TS000GWT@PSTCC6.PSTCC.CC.TN.US> for
+ cube-lovers@ai.mit.edu; Tue, 26 Mar 1996 08:32:33 -0500 (EST)
+Date: Tue, 26 Mar 1996 08:32:33 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Electronic Citations
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.960326082354.21917A-100000@PSTCC6.PSTCC.CC.TN.US>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+If I may be permitted a slightly off subject posting ....
+
+Much materal is now online (such as Cube-Lovers) that was never online
+before, and much of the online material is being cited in research and
+other papers.  I just ran across the best source I have seen for how to
+cite such material -- http://www.taft.cc.ca.us/www/tc/tceng/mla.html. 
+
+Since Cube-Lovers is E-mail and archives of E-mail, here is an excerpt 
+that addresses citations for E-mail:
+
+
+E-mail, Listserv, and Newslist Citations
+
+     Give the author's name (if known), the subject line from the posting 
+in quotation marks, and the address of the listserv or newslist, along 
+with the date.  For personal e-mail  listings, the address may be omitted.
+
+  
+Bruckman, Amy S.  "MOOSE Crossing Proposal."  mediamoo@media.
+     mit.edu (20 Dec. 1994).
+
+Seabrook, Richard H. C.  "Community and Progress."  cybermind
+     @jefferson.village.virginia.edu (22 Jan. 1994) <p>
+
+Thomson, Barry.  "Virtual Reality."  Personal e-mail (25 Jan. 
+     1995).
+
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+

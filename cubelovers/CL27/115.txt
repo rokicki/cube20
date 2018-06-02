@@ -1,0 +1,33 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Jul  6 19:03:51 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA07257
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 6 Jul 1999 19:03:51 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <377E55CC.3C4F@ameritech.net>
+Date: Sat, 03 Jul 1999 13:26:20 -0500
+From: Hana Bizek <hbizek@ameritech.net>
+Reply-To: hbizek@ameritech.net
+To: cube-lovers@ai.mit.edu
+Subject: New web page
+References: <377E509B.39A5@ameritech.net>
+
+To my fellow cube-lovers:
+
+Josef Jelinek and I have made a web page devoted to the cube. He
+contributed cube solution algorithms, accompanied by graphics and I
+contributed 12 of my 3-dimensional designs, many of them recent. That
+means they were constructed after my book was published in 1997. I also
+sketch another problem resulting from these designs, that of fractals.
+You may find all this in our URL: http://cube.misto.cz.
+
+Any comments, criticism, etc would be appreciated. I still did not get
+my question answered, either by you or by the search engines. It is
+this: Is there anyone, on or off the web, who has created something
+similar to what I have done? I know about the people at Wunderland, and
+have seen thir work; however, what I have done is different.
+
+Thank you very much for any input you can provide.
+Hana M. Bizek
+

@@ -1,0 +1,25 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Oct  6 22:28:22 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id WAA29717; Mon, 6 Oct 1997 22:28:22 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Cube-Lovers-Request@ai.mit.edu Mon Oct 6 22:27:32 1997
+Date: Mon, 6 Oct 1997 22:27:32 -0400 (EDT)
+Message-Id: <06Oct1997.222732.Cube-Lovers@AI.MIT.EDU>
+From: Cube Lovers Moderator <Cube-Lovers-Request@AI.MIT.EDU>
+To: Cube-Lovers@AI.MIT.EDU
+Subject: 4x4x4 solution -- [Digest v23 #171]
+
+Cube-Lovers Digest         Mon, 6 Oct 1997      Volume 23 : Issue 171
+
+Today's Topic:        Pieces of broken cubes:
+
+                    Rubik's Revenge (Clarified)
+                      My Revenge is Complete
+                    Piece for a Rubik's Revenge
+                     Piece for Alexander's Star
+
+----------------------------------------------------------------------
+
+Date: Thu, 02 Oct 1997 08:01:03 -0700

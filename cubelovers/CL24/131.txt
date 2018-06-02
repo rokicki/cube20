@@ -1,0 +1,69 @@
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: "Cube-Lovers" <Cube-Lovers@ai.mit.edu>
+Cc: "Jonathan Tuliani" <jont@dcs.rhbnc.ac.uk>
+Subject: Re: MEGAMINX
+Date: Sat, 17 Jan 1998 22:54:40 -0000
+
+In my opinion Jonathan is quite right in his analysis of the problem and
+its solution.  When cubes or similar puzzles are coloured ambiguously, it
+is always possible that the puzzle will be in an apparently impossible
+configuration which must be cured by a move which changes identically
+coloured pieces in an invisible way.  I am lucky enough to have a
+dodecahedron puzzle from the 80s called the Supernova, which was made in
+Hungary and sold in the UK by Pentangle.  That used twelve different
+colours, and the problem did not arise.  Perhaps the instructions for the
+Megaminx were originally written for this form.
+
+Other puzzles can show similar effects - the variant of the cube with the
+vertical edges bevelled so that it is octagonal in horizontal cross-section
+has edge-pieces in the middle horizontal slice that have only one colour,
+so their orientation is ambiguous and the top and bottom edge-pieces can
+appear to have impossible flip states, such a single edge-piece flipped.
+
+Jonathan remarks that every sequence of moves seems to rotate 3 edges
+cyclically.  The reason (as usual) is to be found in parity considerations.
+A single turn of  a face of the dodecahedron yields two 5-cycles, one of
+the edge-pieces and one of the corners.  Both these are even permutations,
+and it is therefore impossible to create a permutation of odd parity by any
+combination of turns.  Hence a 3-cycle is the minimum possible, and a
+single 2-cycle is impossible.
+
+Obviously any 3-cycle of edges can in principle be conjugated into a form
+to solve Jonathan's problem, but I thought I'd look for a process for a
+3-cycle of edge-pieces which would take one piece from the bottom into the
+top and preserve orientation (in the sense that the faces in the top and
+bottom remain so).  I don't have the instruction booklet that goes with the
+Megaminx, so I don't know what notation it used, or indeed what anyone else
+may have used for this puzzle, so with the usual apologies if I'm ignoring
+a standard notation:
+
+Position the puzzle on a table, so there is a horizontal top plane and
+bottom plane, and turn it so that one of the faces in the top band directly
+faces you.  Call that face F, the top T, the two faces on either side of F
+respectively Ru on the right and Lu on the left, and the two faces in the
+lower band that join in the centre Rl on the right and Ll on the left (i.e.
+u=upper and l=lower).  The arrangement of faces you see is thus (nb use a
+non-proportionally spaced typeface);
+
+                 T
+
+          Lu     F      Ru
+
+             Ll      Rl
+
+                 D
+Then
+
+Rl Ll' T Ru Lu' F^2 Ru' Lu  T' Ru Lu' F^-2 Ru' Lu  Ll Rl'
+
+does (TRu, TF, Drl).
+
+Yes, you can swap pairs of edges - this is an even permutation which can be
+composed out of 3-cycles, and in general any even number of swaps is
+possible.
+
+Roger Broadie
+
+------------------------------
+
+Date: Sun, 18 Jan 1998 02:28:59 +0100 (MET)

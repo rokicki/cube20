@@ -1,0 +1,23 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov 17 22:44:50 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id WAA01939; Mon, 17 Nov 1997 22:44:49 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Nov 17 10:58:38 1997
+Date: Mon, 17 Nov 1997 15:57:19 GMT
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: cubeman@idirect.com
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009BD6F9.F2D7ACBC.209@ice.sbu.ac.uk>
+Subject: Re: Cube Colours
+
+	According to what I wrote in my Cubic Circular 3/4 of Summer 1982, the
+cubes used in the World Championship were of the +/- yellow BOY pattern.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

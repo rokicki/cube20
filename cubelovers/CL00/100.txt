@@ -1,0 +1,37 @@
+Date:	  10 August 1980 2252-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  Edge-cubie flipping algorithms
+To:	  Davis at OFFICE-3, CUBE-LOVERS at MIT-MC
+
+Here is my (and my apprentice :cube's) 2-edge-cubie-flipping subroutine,
+which was named the "Spratt Wrench technique" after the fellow I was
+talking to while cubing when I discovered it.  It is 24 quarter turns,
+but is frumiously easy to perform rapidly blindfolded.
+
+It is impossible to express it in FDRUBL (or FBURDL or FLUDBR or
+whatever we're calling Singmaster-notation; let the euphony of the
+acronym be the issue).  Let F be the usual, front clockwise.  Let Q
+(please dont pounce on me for introducing a notation) be rotating the
+floor-parallel centerslice clockwise as viewed from heaven above.
+
+(It is clearly not IMPOSSIBLE to express it in FLURBD or BRULFD or
+whatever, but it would be like analyzing a 4-voiced composition in terms
+of frequencies instead of harmonies.)
+
+Formula:    (FQ)^4(QF)^4
+
+The sequence (FQ)^4 is called a right-handed Spratt Wrench;
+(FQ^-1)^4 is a left-handed one.  Studying the effect of both of these
+(which are used non-paired in other phases of my cube solution (the
+sequence given above is used only during the final cadenza)) is
+worthwhile; the equivalence of the formula above to ((rh wrench)(turn
+the cube over)(lh wrench)), the form in which I first used it,
+is due to ALAN.
+
+The elegant formula above is best executed by a right-handed person, who
+will grasp the Cube from above with his/her left hand, and use his/her
+right hand to alternately turn the FRONT (which we will allow to face
+right, for ease of manipulation), and the lower layer and two layers
+alternately (while holding the top) to accomplish the Q moves.  This
+procedure can be done with great grace and rapidity, esp.  on the Ideal
+cubes.

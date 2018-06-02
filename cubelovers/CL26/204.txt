@@ -1,0 +1,49 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar 22 13:38:42 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA22950
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 22 Mar 1999 13:38:42 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sat, 20 Mar 1999 06:50:39 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Uwe Meffert <uwe@ue.net>
+Cc: der Mouse <mouse@rodents.montreal.qc.ca>,
+        Cube-Lovers <cube-lovers@ai.mit.edu>
+Subject: Re: Taking apart the 5^3
+In-Reply-To: <001001be7220$d2f8e740$0237a8c0@uwe>
+Message-Id: <Pine.BSF.3.96.990320064432.15379L-100000@shell2.tiac.net>
+
+
+On Fri, 19 Mar 1999, Uwe Meffert wrote:
+
+}>I found it more effective to turn a "thick slice" (ie, the outer two
+}>slices turned together) about 45 degrees, then pry with my thumb
+}>between the corner and wing of the turned slice....
+
+}That procedure is not recommended as it voids the implied warranty and has
+}the danger of permanently stripping the thread inside the center of the
+}cube.
+}
+}If you must take the cube apart do so by prying off one of the center small
+}squares and then loosening one of the screws, which later after re-assembly
+}should be re-tightened.
+
+Since I was the first to suggest this method, I'll retract the advice.
+Indeed, it would be really unfortunate to strip the threads in the
+plastic that hold a screw in place.
+
+Mr. Meffert is, and has been, a formidable inventor and manufacturer of
+cube-like puzzles for quite some time, for those who don't recognize his
+name. I'd follow his advice; definitely! Do note that he said "loosen",
+not "remove" the screw. I posted recently about special care in
+reinserting a removed screw.
+
+My regards to all...
+NB
+
+|*  Nicholas Bodley   *|*
+|*   Waltham, Mass.   *|*
+|*  nbodley@tiac.net  *|*
+|*  Amateur musician  *|*
+

@@ -1,0 +1,19 @@
+From tjj@lemma.helsinki.fi  Wed Apr 29 05:39:47 1992
+Return-Path: <tjj@lemma.helsinki.fi>
+Received: from funet.fi by life.ai.mit.edu (4.1/AI-4.10) id AA08033; Wed, 29 Apr 92 05:39:47 EDT
+Received: from lemma.Helsinki.FI by funet.fi with SMTP (PP) 
+          id <07580-0@funet.fi>; Wed, 29 Apr 1992 12:38:37 +0300
+Received: by lemma.helsinki.fi (5.57/Ultrix3.0-C) id AA20924;
+          Wed, 29 Apr 92 12:38:45 +0300
+Date: Wed, 29 Apr 92 12:38:45 +0300
+From: tjj@lemma.helsinki.fi (Timo Jokitalo)
+Message-Id: <9204290938.AA20924@lemma.helsinki.fi>
+To: cube-lovers@ai.mit.edu, reid@math.berkeley.edu
+Subject: Re: an upper bound on god's number
+
+Do you have the article by Hans Kloosterman in emailable form? If not,
+where could I obtain a copy?
+
+	Timo
+	tjj@rolf.helsinki.fi
+

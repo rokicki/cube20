@@ -1,0 +1,87 @@
+From BRYAN@wvnvm.wvnet.edu  Thu May 11 03:58:11 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04002; Thu, 11 May 95 03:58:11 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 9222; Wed, 10 May 95 22:38:33 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 9300; Wed, 10 May 1995 22:38:33 -0400
+Message-Id: <wvmail32.1995may10.085448.bryan@wvnvm.wvnet.edu>
+Date:      Wed, 10 May 1995 22:38:32 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject:   Re: more on the slice group
+In-Reply-To: Message of 05/09/95 at 12:11:02 from hoey@AIC.NRL.Navy.Mil
+
+On 05/09/95 at 12:11:02 hoey@AIC.NRL.Navy.Mil said:
+
+>No, the 4-spot pattern is also a local maximum at 12 qtw, although its
+>symmetry group is of order 16.  Jim Saxe and I reported this on 22
+>March 1981, in "No short relations and a new local maximum".
+
+Argh!  After Dan and Mike pointed this out,  I did remember having seen
+it in the archives.  Worse still, Dan pointed it out again on
+3 August 1992.  But since it has come up, let's take a brief look
+at the 22 March 1981 note.
+
+>    With five-qtw searches, it became possible to check another
+>conjecture, using an approach that Jim suggested.  The four-spot
+>pattern
+>
+>           U U U
+>           U U U
+>           U U U
+>
+>    R R R  B B B  L L L  F F F
+>    R L R  B F B  L R L  F B F
+>    R R R  B B B  L L L  F F F
+>
+>           D D D
+>           D D D
+>           D D D
+>
+>is solvable in twelve qtw, either by (FFBB)(UD')(LLRR)(UD') or by its
+>inverse, (DU')(LLRR)(DU')(FFBB).  It is immediate that a twelve qtw
+>path from this pattern to START can begin with a twist of any face in
+>either direction.  The program was used to verify that there are no ten
+>qtw paths.  (It generated the set of positions attainable at most five
+>qtw from START and the set of positions obtainable from the four-spot
+>in at most five qtw, and verified that the intersection of the two sets
+>is empty.)  Thus the four-spot is exactly twelve qtw from START and all
+>its neighbors are exactly eleven qtw from START, proving that the
+>four-spot is a local maximum.
+>
+
+Call the 4-spot s.  Then, the twelve neighbors form two M-conjugacy
+classes:  N1={sL,sL',sF,sF',sR,sR',sB,sB'} and N2={sU,sU',sD,sD'}.
+Also, we have s'=s.  Dan and Jim's solution starts in N1 and ends with
+a quarter-turn from N2, and since s'=s, we can say "or vice versa".
+Hence, we can start a solution with any of the twelve quarter turns,
+and therefore s is a local maximum.
+
+There are other positions with the same symmetry characteristics as
+the 4-spot.  That is, there are other positions for which the
+symmetry group contains sixteen elements.  There are only three subgroups
+of M containing sixteen elements, and the three subgroups are M conjugate.
+The three M-conjugates of the 4-spot position correspond to the three
+conjugate subgroups of M containing sixteen elements.  But what of
+other positions with the same symmetry group?  For example, if the
+edges of the 4-spot are all flipped, is the position a local maximum?
+I don't know, but it is interesting to see how far we can get without
+knowing a process.
+
+Call the 4-spot with all edges flipped t.  Then, we certainly have
+t'=t.  Is this true of all positions whose symmetry group contains
+sixteen elements?  Also, we certainly have the twelve neighbors
+forming M-conjugacy classes similar to those for s, N1 with eight
+elements and N2 with four.  Is this true of all positions whose symmetry
+group contains sixteen elements?  Finally, a solution either starts in
+N1 or starts in N2.  If starting in N1 implies ending with a
+quarter-turn from N2 or vice versa, then t is a local maximum.
+Can we prove such a thing without actually finding a solution?
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

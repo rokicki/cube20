@@ -1,0 +1,142 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 12 14:57:16 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA18330
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 12 Mar 1999 14:57:15 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <36E7D039.265049BA@marlboro.edu>
+Date: Thu, 11 Mar 1999 09:16:25 -0500
+From: Jim Mahoney <mahoney@marlboro.edu>
+Organization: Marlboro College
+To: Martin Moller Pedersen <tusk@daimi.au.dk>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: help on 5x5x5 wings
+References: <199902270400.FAA482087@bonestell.daimi.au.dk>
+
+Martin Moller Pedersen wrote:
+>
+> I am trying to solve my new cube the 5x5x5 cube.
+> I have managed to solve all of it except the wings.
+> The wings are the y's in the following diagram:
+>
+> ZyZyZ
+> yZZZy
+> ZZZZZ
+> yZZZy
+> ZyZyZ
+>
+> I have many moves for the 3x3x3 but I can't figure out how to apply these moves
+> to the wings.
+
+Hi Martin.
+
+Here's an excerpt from a longer disucussion of the NxNxN cube
+which I posted to cube-lovers some time ago.  Other folks have
+done similar work, and published consistent results.
+
+In what follows a "cubie" is one of the small, colored cubes
+that make up the NxNxN, a "slice" is an NxN plane of the cube
+(even if the inside cubies don't exist), and an "orbit" is
+a set of cubies which can be moved into each other's places,
+like the corners or edges.  The method below can be made
+to work for any kind of orbit, including the "wings" you ask about.
+
+Good luck,
+
+ Jim Mahoney
+
+-- excerpt from http://www.marlboro.edu/~mahoney/cube/NxN.txt --
+
+=====================================================================
+(VI) How to Cycle Three Cubies  =====================================
+=====================================================================
+
+The basic idea is to find a move sequence that will (1) take a chosen
+cubie off from its "hot seat" on a chosen slice *without* (here's
+the trick) disturbing any other cubie on that slice.  The rest
+of the cube can be completely scrambled by this operation.  Then (2)
+rotate the chosen slice, (3) undo step (1), putting the original
+cubie back into its original slice and undo whatever changes were
+made to the other cubies, and (4) undo step 2.
+
+The sequence always of the form
+   A R A' R'
+where "A" is step 1, "R" is a rotation of a single slice, and
+the ' mark means, as usual, the inverse operation.
+
+Here's a detailed example, using the Corner orbit of a 3x3x3 cube,
+with the top layer as the "chosen slice" and the cubie marked "1" in
+the unfolded sketch of a cube below as the focus of attention. In
+eight moves the cubies in locations 1, 2, and 3 will trade places.
+
+The starting position:
+
+             U
+    a  -  1  - 2 - d -        (a,1,2,d,e,3,g,h) are a Corner orbit.
+    |  L  |  F | R | B
+    e  -  3  - g - h -        (U, D, L, R, F, B) are the possible
+             D                clockwise rotations.
+
+
+ (1) Get "b" off the chosen slice, without disturbing any other
+     cubie on that slice.  Replace it with the cubie that you
+     want to put in its place.
+
+                 e  -  a  - 2 - d -
+ ->   L  ->      |     |    |   |
+                 3  -  1  - g - h -
+
+
+                 e  -  a  - 2 - d -
+ ->   D  ->      |     |    |   |
+                 h  -  3  - 1 - g -
+
+
+                 a  -  3  - 2 - d -
+ ->   L'  ->     |     |    |   |           After L D L'
+                 e  -  h  - 1 - g -
+
+      The top layer was (a,b,c,d); now it is (a,f,c,d).
+      "b" has been taken off the top slice, and "f" is in its place.
+
+ (2) Rotate the chosen slice to place a new cubie in the hot seat.
+
+                 3  -  2  - d - a -
+ ->   U  ->      |     |    |   |           After (L D L') U
+                 e  -  h  - 1 - g -
+
+
+ (3) Undo step 1, which pops the chosen cubie "b" back to its
+      original slice, *and* (here's the key part), restore (nearly) all
+      other cubies to their original locations, since none of the
+      disturbed ones were on the slice that rotated in step (2).
+
+                    3  -  1  - d - a -
+ -> L D' L' ->      |     |    |   |        After (L D L') U (L D' L')
+                    e  -  2  - g - h -
+
+
+ (4) Undo step 2, restoring the chosen slice back to its original
+position.
+
+                    a  -  3  - 1 - d -
+   ->  U'  ->       |     |    |   |        After (L D L') U (L D' L') U'
+                    e  -  2  - g - h -
+
+So the move sequence to cycle corners (1,2,3) is simply
+(L D L') U (L D' L') U'   (reading left to right).
+
+With a few extra moves before this sequence (which should be undone
+afterwards) to arrange the cubies which should be moved into the
+places which are actually modified by this operation (or a similar
+one), this trick and its variations can be used to put back all 8
+corners into their proper places.
+
+And with a bit of exploration, this same idea can be used to cycle
+three cubies of any type, in any orbit, on any layer, without
+disturbing anything else.  For the Edge-Singles on the 3x3x3, for
+example, to bring an edge off the top slice without disturbing
+anything else on top, step (1) can be S D S', where "S" vertical is a
+rotation of a center slice.
+

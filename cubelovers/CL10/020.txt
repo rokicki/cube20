@@ -1,0 +1,33 @@
+From ronnie@cisco.com  Fri Jul 30 00:46:55 1993
+Return-Path: <ronnie@cisco.com>
+Received: from lager.cisco.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01754; Fri, 30 Jul 93 00:46:55 EDT
+Received: from localhost.cisco.com by lager.cisco.com with SMTP id AA12561
+  (5.67a/IDA-1.5 for <Cube-Lovers@life.ai.mit.edu>); Thu, 29 Jul 1993 21:46:49 -0700
+Message-Id: <199307300446.AA12561@lager.cisco.com>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: Hint wanted for 4x4x4 
+Date: Thu, 29 Jul 1993 21:46:48 -0700
+From: "Ronnie B. Kon" <ronnie@cisco.com>
+
+Thanks to all who responded.  I haven't yet got what I consider a
+solution for my problem (shift a slice and resolve is my current
+method which is slow and ugly) but at least I understand my problem
+slightly better.
+
+A few questions:
+
+1.  What is the definition of parity by which commutators are even,
+but slice turns are odd?  I haven't been able to come up with a
+cube-wide parity.  (I know no group theory).
+
+2.  How many orbits does the order 4 cube have?  I can only think of
+three (twirling a corner cubie).  Then again, I haven't painted the
+facelets yet, so there could be orbits I haven't begun to see
+involving them.
+
+3.  Would an order 6 cube have any challenge beyond the order 4?  I
+think the answer is no--if you are able to solve the 3-cube and the
+4-cube you can solve any cube.
+
+
+

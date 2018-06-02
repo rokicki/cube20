@@ -1,0 +1,30 @@
+From pl1x+@andrew.cmu.edu  Sat Apr 18 23:43:08 1992
+Return-Path: <pl1x+@andrew.cmu.edu>
+Received: from po5.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA27728; Sat, 18 Apr 92 23:43:08 EDT
+Received: by po5.andrew.cmu.edu (5.54/3.15) id <AA15421> for cube-lovers@ai.mit.edu; Sat, 18 Apr 92 23:43:00 EDT
+Received: via switchmail; Sat, 18 Apr 1992 23:42:59 -0400 (EDT)
+Received: from pcs6.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q002/QF.sdwCjum00WBK80fmhS>;
+          Sat, 18 Apr 1992 23:41:47 -0400 (EDT)
+Received: from pcs6.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr19/pl1x/.Outgoing/QF.cdwCjt:00WBKA51bdz>;
+          Sat, 18 Apr 1992 23:41:45 -0400 (EDT)
+Received: from mms.0.1.873.MacMail.0.9.CUILIB.3.45.SNAP.NOT.LINKED.pcs6.andrew.cmu.edu.pmax.ul4
+          via MS.5.6.pcs6.andrew.cmu.edu.pmax_ul4;
+          Sat, 18 Apr 1992 23:41:45 -0400 (EDT)
+Message-Id: <IdwCjt600WBK851bVp@andrew.cmu.edu>
+Date: Sat, 18 Apr 1992 23:41:45 -0400 (EDT)
+From: Peter Andrew Lopez <pl1x+@andrew.cmu.edu>
+To: cube-lovers@ai.mit.edu, ccw@eql.caltech.edu (Chris Worrell)
+Subject: Re: Some solutions to Rubik's Tangle have been found.
+Cc: 
+In-Reply-To: <920418201450.2b6009a5@EQL.Caltech.Edu>
+References: <920418201450.2b6009a5@EQL.Caltech.Edu>
+
+I love cubes
+
+But i'll never admit it!
+
+cube-annonymous
+
+

@@ -1,0 +1,127 @@
+From mouse@collatz.mcrcim.mcgill.edu  Fri May 12 10:35:18 1995
+Return-Path: <mouse@collatz.mcrcim.mcgill.edu>
+Received: from Collatz.McRCIM.McGill.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06674; Fri, 12 May 95 10:35:18 EDT
+Received: (root@localhost) by 22790 on Collatz.McRCIM.McGill.EDU (8.6.10 Mouse 1.0) id KAA22790; Fri, 12 May 1995 10:35:04 -0400
+Date: Fri, 12 May 1995 10:35:04 -0400
+From: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Message-Id: <199505121435.KAA22790@Collatz.McRCIM.McGill.EDU>
+To: cube-lovers@life.ai.mit.edu
+Subject: Re: unsubscrib
+Cc: patrick@athos.med.auth.gr
+
+Since Patrick <patrick@athos.med.auth.gr> went public with his[%]
+complaint, I'll defend publicly, even though neither one is really
+on-topic for cube-lovers.  I hope Alan won't get too upset, and I
+really hope this doesn't turn into a flamewar; cube-lovers has been
+notably free of them in the time I've been on it.
+
+[%] Gender assumed from the given name.
+
+> I have a complaint to make about the way mr. Allan Bawden
+(Whose name you consistently misspell, incidentally, thus being rather
+rude to him yourself.  You also make many (other) spelling mistakes,
+but this one you make consistently.)
+> treats cube-lovers.
+
+> 1)Alot of people are not sure how to join a group when they start out
+> to join one.  In fact in most cases the people are new to the
+> Internet , and in order to learn how to do things in the famous net ,
+> they can join a news group .
+> (I am not sugesting that joining a news group teaches them about the
+> internet but its one of the things they can do)
+
+You seem to be under the impression that cube-lovers is a "news group".
+It's not; it's a mailing list.  If you don't know the difference and
+can't find anything local to explain it, send me mail privately and
+I'll try to explain it.
+
+Yes, it's true, that's one of the things newbies can do.  But that does
+not mean that it's a good thing to do, nor that it's reasonable to try
+to do it without first learning the correct way to do it.
+
+And when someone stumbles into a milieu without having first bothered
+to learn the rudiments of etiquiette as practiced therein, I don't feel
+it's unreasonable to meet that someone with a certain degree of
+rejection.
+
+> 2)Now if Mr Allan responds to their mistakes very rudly ,e.g
+
+I notice your address is in Greece, so I'll excuse this on grounds of
+ignorance.  In English, one does not use titles (such as Mr.) with
+given names.  It would be just "Alan" (not "Allan", since he's Alan
+Bawden, not Allan Bawden), or "Mr. Bawden".
+
+>>    Date: Mon,  8 May 95 09:11:57 DST
+>>    From: Frank=Lindgreen%DATLING%HHASPR@lng.hha.dk
+>>    Subject: unsubscribe
+>>    To: CUBE-LOVERS@life.ai.mit.edu
+>>    Cc: 
+>> 
+>>    unsubscribe
+>> 
+>> For crying out loud, do -not- send administrative requests to the
+>> -entire- mailing list.  You're the third idiot to make this mistake
+>> recently, so I guess I really do have to bother everybody myself
+>> with a reminder.
+
+> 3)"you're the third idiot--" etc I mean one gets quite upset about
+> the whole thing and one begins to question if it's worth it joining
+> the news group if they are so rude.
+
+I don't consider it excessive to be a little harsh to people who are
+being that rude.  When Frank=Lindgreen%DATLING%HHASPR@lng.hha.dk was
+subscribed to the list to begin with, he[%] was sent a document
+explicitly describing how to unsubscribe.
+
+[%] Gender assumed from what looks like a given name in the address.
+
+If a _subscribe_ request goes to the whole list, it's still someone
+stumbling in in ignorance.  But at least it can mostly be excused as
+ignorance.  An _unsubscribe_ request can't; anyone with cause to send
+an unsubscribe request must already have subscribed, and thus been told
+the correct way to unsubscribe.
+
+> 4)I sugest Mr. Allan be firm but polite . It's best to keep the
+> correspondence bussness - like. In that way we still remain friends
+> ,and quite understand what is expected of us to do.
+
+I suggest you cut "Mr. Allan" some slack.  I have participated in and
+mailing lists for many years now, and overall, Alan Bawden is one of
+the best list admins I've ever seen.  Yes, it would be better if he[%]
+could remain firm and polite in the face of such provocation.  But
+(apparently unlike you) I don't expect perfection from him.
+
+[%] Again, gender assumed from the given name.  (English needs a good
+    gender-neutral animate set of pronouns.)
+
+Perhaps that merely reflects on the poor crop of list admins available.
+I don't think so; I certainly doubt I would do much better.  Perhaps
+you feel you could do better; I invite you to try.  Start up a list of
+your own and see how it goes.
+
+>> THINK! THINK! THINK!  If
+> 5) It sounds like Mr. Allan thinks that the qube member doesn't
+> think.
+
+I'm inclined to agree.  If Frank=Lindgreen%DATLING%HHASPR@lng.hha.dk
+had thought enough to bother rereading the instructions sent when he
+subscribed to the list, or even had bothered to learn basic netiquette
+for Internet mailing lists in general, he would have known better than
+to send the unsubscribe request to the whole list.
+
+> For people interested in cubing thats an insult.  We think of
+> ourselves as people who can think --on an overage better than most
+> people.
+
+"can think" != "do think".  As is often amply demonstrated on the net.
+
+>> Send all administrative requests to:
+>>   Cube-Lovers-Request@AI.MIT.EDU
+>> Everybody got that?
+
+This is important enough to bear re-quoting, I feel.
+
+					der Mouse
+
+			    mouse@collatz.mcrcim.mcgill.edu
+

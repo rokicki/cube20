@@ -1,0 +1,44 @@
+Date:  8 January 1981 20:06 cst
+From:  VaughanW.REFLECS at HI-Multics (Bill Vaughan)
+Subject:  Befuddled by BFUDLR
+To:  CUBE-LOVERS at MIT-MC
+cc:  VaughanW.REFLECS at HI-Multics
+
+This is a plea for another notation.
+
+BFUDLR is sufficient to describe anything. So what? It's about  as
+readable  as  a  LISP  s-expression,  as  rich as the average grad
+student, and (my particular gripe) it's impossible to  express  an
+elegant sequence in it and keep any of the elegance.
+
+I want to keep this short, so I'll only give a few  examples.  The
+first  is the Sprat Wrench. BFUDLR calls it: RL'URL'BRL'DRL'F. But
+the way most everyone does it, it's: (XU)*4, where X  means  "move
+the LR slice clockwise as viewed from the left."
+
+The next example (I don't know its name) flips all top and  bottom
+edges.  BFUDLR  calls  it:  LRUDFBLRUDFB. Interesting, but this is
+nicer: (R-B-)*3, where "foo-" means "foo antislice" and is done by
+twisting  foo and its adjacent slice clockwise 1qtw, then twisting
+foo another qtw.
+
+A move yielding (RF, BL, RB) has been published (Don Woods  6  Jan
+81)  in  BFUDLR  as: BRL'D'RRDR'LB'RR. Now where's the symmetry in
+that? But annotate the same move BXB'RR.BX'B'RR  (X  as  in  first
+example)  and  you can see how pretty it is. And it's a lot easier
+to remember.
+
+The key is  that  the  fixed  orientation  of  the  center  cubies
+shouldn't  be  a  sacred  cow.  Often, keeping a corner cubie as a
+fixed point will yield a far more natural notation.
+
+The commonest  compound  moves:  slice,  antislice,  and  possibly
+Singmaster's   Y   and  Z  commutators,  should  have  specialized
+notations. A move that I use commonly in solving  the  cube  is  a
+monotwist:   Y(f,r)*2.L.Y'(f,r)*2.L'.   That's  a  lot  harder  to
+understand as: FR'F'RFR'F'RLR'FRF'R'FRF'L'.
+
+I don't have good notations to offer for slice and antislice. What
+I  do with paper and pencil involves overstrikes that my CRT can't
+handle.  Something  nice  and  linear  is  needed,  with  all  the
+characters in ASCII. Any suggestions, anyone?

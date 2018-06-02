@@ -1,0 +1,55 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 25 Aug 87 15:14:27 EDT
+Date: 25 Aug 87 14:58:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: TILING BOOKS
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+
+
+BOOK OF INTEREST
+
+Tilings and Patterns  by Branko Grunbaum and G. C. Shephard
+from w. h. Freeman and Co,  1987,    ISBN   0-7167-1193-1
+......................
+FROM THE PREFACE:   
+_______________________________
+ORGANIZATION OF THE BOOK
+------------------------------------
+The book falls naturally into two parts.  The first, up to and including Chapter
+7, can be used as the text for a geometry course at the undergraduate level -
+...   The first few sections of chapter 1 are fundamental, however, chapter 2
+deals mostly with tilings in which the tiles are regular polygons.  ...   The
+general theory of tilings is presented in chapters 3 and 4, these chapters are
+rather more technical than the rest of the book, and ...    In chapter 5 we
+begin our discussion of the theory of patterns; this continues in chapter 7. 
+...
+
+the second part (chapters 8-12) presents detailed surveys of various aspects of
+the subjects of patterns and tilings.  These include colored patterns and groups
+of color symmetry, tilings by polygons, tilings in which the tiles are unusual
+in a topological sense, as well as, a detailed and self-contained account of the
+intriguing topic of aperiodic tilings.  ...
+_____________________________
+TABLE OF CONTENTS
+1  BASIC NOTIONS
+2  TILINGS BY REGULAR POLYGONS AND STAR POLYGONS
+3  WELL-BEHAVED TILINGS
+4  THE TOPOLOGY OF TILINGS
+5  PATTERNS
+6  CLASSIFICATIONS OF TILINGS WITH TRANSIVITY PROPERTIES
+7  CLASSIFICATION WITH RESPECT TO SYMMETRIES
+8  COLORED PATTERNS AND TILINGS
+9  TILINGS BY POLYGONS
+10 APERIODIC TILINGS
+11 WANG TILES
+12 TILINGS WITH UNUSUAL HINDS OF TILES
+REFERENCES
+
+...........................................
+
+This is a great book on the subject with plenty of pictures for those of us who
+can't visualize well.  
+
+beckardec-lcss.arpa
+33333333###################
+------

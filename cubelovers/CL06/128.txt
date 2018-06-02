@@ -1,0 +1,26 @@
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU; 22 Mar 90 09:08:06 EST
+Received: from ANDREW.CMU.EDU by mintaka.lcs.mit.edu id aa17299;
+          22 Mar 90 8:58 EST
+Received: by andrew.cmu.edu (5.54/3.15) id <AA02634> for Cube-Lovers@ai.ai.mit.edu; Thu, 22 Mar 90 08:58:05 EST
+Received: via switchmail; Thu, 22 Mar 90 08:58:00 -0500 (EST)
+Received: from clementon.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q003/QF.Ia2BbHa00Xoa80MU9=>;
+          Thu, 22 Mar 90 08:57:42 -0500 (EST)
+Received: from clementon.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr10/bg11/.Outgoing/QF.sa2BbDW00Xoa81MG8d>;
+          Thu, 22 Mar 90 08:57:35 -0500 (EST)
+Received: from VUI.Andrew.3.20.CUILIB.3.45.SNAP.NOT.LINKED.clementon.andrew.cmu.edu.rt.r3
+          via MS.5.6.clementon.andrew.cmu.edu.rt_r3;
+          Thu, 22 Mar 90 08:57:35 -0500 (EST)
+Message-Id: <Ma2BbDO00XoaM1MG0f@andrew.cmu.edu>
+Date: Thu, 22 Mar 90 08:57:35 -0500 (EST)
+From: "Brian E. Gallew" <bg11+@andrew.cmu.edu>
+To: Cube-Lovers@ai.ai.mit.edu
+Subject: Cube opinions needed
+
+My friend's group is looking at buying a NeXT.  Unfortunately, they do not have
+the opportunity for hands-on evaluation and are looking for all the opinions
+the can get to help them make their decision.  If you have an opinion, be it
+good, bad, or ugly, please send it to:
+
+       arnold@freezer.it.udel.edu

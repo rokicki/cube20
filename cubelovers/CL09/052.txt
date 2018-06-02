@@ -1,0 +1,27 @@
+From mb8d+@andrew.cmu.edu  Mon Sep 21 21:31:25 1992
+Return-Path: <mb8d+@andrew.cmu.edu>
+Received: from po3.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA08728; Mon, 21 Sep 92 21:31:25 EDT
+Received: by po3.andrew.cmu.edu (5.54/3.15) id <AA01154> for cube-lovers@ai.mit.edu; Mon, 21 Sep 92 21:31:22 EDT
+Received: via switchmail; Mon, 21 Sep 1992 21:31:21 -0400 (EDT)
+Received: from pcs6.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q003/QF.EejZvxe00WBKA0jcIg>;
+          Mon, 21 Sep 1992 19:47:17 -0400 (EDT)
+Received: from pcs6.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr25/mb8d/.Outgoing/QF.QejZvYK00WBKA8jY9B>;
+          Mon, 21 Sep 1992 19:46:44 -0400 (EDT)
+Received: from mms.0.1.873.MacMail.0.9.CUILIB.3.45.SNAP.NOT.LINKED.pcs6.andrew.cmu.edu.pmax.ul4
+          via MS.5.6.pcs6.andrew.cmu.edu.pmax_ul4;
+          Mon, 21 Sep 1992 19:46:44 -0400 (EDT)
+Message-Id: <0ejZvYC00WBK48jY0m@andrew.cmu.edu>
+Date: Mon, 21 Sep 1992 19:46:44 -0400 (EDT)
+From: Matthew John Bushey <mb8d+@andrew.cmu.edu>
+To: cube-lovers@ai.mit.edu
+Subject: cubes are great
+Cc: 
+
+
+Does anyone out there know what is the cubed root of 81?
+
+Just wondering....
+
+

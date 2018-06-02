@@ -1,0 +1,35 @@
+Date: Thu, 14 May 87 18:24:57 EDT
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  TOC Seminar--Adi Shamir--Friday, May 22, 2:00PM
+To: CUBE-LOVERS@AI.AI.MIT.EDU
+Message-ID: <200230.870514.ALAN@AI.AI.MIT.EDU>
+
+This one is even better than the last seminar announcement I forwarded to
+this list!  (And -this- time, REMEMBER:  replying to this message will
+-not- send mail that Shamir will get; it will only send everyone on
+Cube-Lovers a piece of junk mail.)
+
+
+		       DATE: Friday, May 22, 1987
+                       TIME: Refreshments: 1:45PM
+                             Lecture:      2:00PM
+		      PLACE: NE43-512A
+
+			    HOW TO SOLVE THE CUBE
+
+				 Adi Shamir
+				Applied Math
+		       The Weizmann Institute, Israel
+
+   Given k generators for a permutation group G, it is easy to verify that a
+permutation belongs to G but NP-complete to find a short representation of
+the permutation as a product of the generators.  In this talk we describe a
+new algorithm for computing the shortest representation which significantly
+improves the time/space complexities of previous algorithms.  The new
+algorithm is particularly interesting in the context of Rubik's cube since it
+makes it possible to solve previously intractable problems such as finding
+the shortest sequence of moves which fixes a given state or the optimal
+subroutine for permuting certain subcubes, in just 2^40 time and 2^20 space,
+compared to 2^80 time in previous algorithms.
+
+Host:  Prof. Ron Rivest

@@ -1,0 +1,189 @@
+Date:  6 APR 1981 1501-EST
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  Japan frob revisted (180+ lines)
+To: CUBE-LOVERS at MIT-MC
+
+
+This is a long overdue re-explanation of the Japanese frob. Hoey
+and Saxe at CMU gave several comments and suggestions.
+
+PART I -- Try again
+===================
+
+Take a hollow cylinder (like a doubly unlidded coffe can), cut it
+open and unravel it. We now have something like
+
+	xxxxxxxxx
+	|	|
+	b	|	where the cut was made along the x
+	o	t	and top and bottom are where the
+	t	o	lids used to be
+	t	p
+	o	|
+	m	|
+	|	|
+	xxxxxxxxx
+
+The supporting structure corresponds roughly to the lids of the
+can.
+
+
+	LL    "   '   ""   '   "	RR
+	LLLLLL" B ' B "" B ' B " B  RRRRRR
+	LL    "   '   ""   '   "	RR
+	LL    "   '   ""   '   "	RR
+	LL    "   '   ""   '   "	RR
+	LL    " B ' B "" B ' B "	RR
+	LL    "   '   ""   '   "	RR
+	LL    "   '   ""   '   "	RR
+	LL    "   '   ""   '   "	RR
+	LLLLLL" B ' B "" B ' B " B  RRRRRR
+	LL    "   '   ""   '   "	RR
+	LL    "   '   ""   '   "	RR
+	LL    "   '   ""   '   "	RR
+	LL    " B ' B "" B ' B " 	RR
+	LL    "   '   ""   '   "	RR
+	LL    "   '   ""   '   "	RR
+	LL    "   '   ""   '   "	RR
+	LLLLLL" B ' B "" B ' B " B  RRRRRR
+	LL    "   '   ""   '   "	RR
+	LL    "   '   ""   '   "	RR
+
+(In the three dimensional case, the top and bottom of this
+picture are connected together.)
+
+L is the left part of the supporting structure, and R is the
+right. They are firmly connected to each other, and are therefore
+fixed in space with respect to each other. They are really
+circular, but this is a view of the outside. B are the balls. The
+balls can move left or right by being PLUNGED. The only allowed
+plunge in the above diagram is to move the supporting structure
+to the left (or equivalently the barrel to the right). With
+respect to the barrel, only the balls in the first, third and
+fifth rows (refered to as columns in previous message) are
+affected. The diagram would now look like
+
+	LLL B B B B B RRR
+	L     B B B B   R
+	LLL B B B B B RRR
+	L     B B B B   R
+	LLL B B B B B RRR
+
+Balls move vertically by by moving either of the two " ' "
+sections vertically, and the balls within that section stay fixed
+in space with respect to each other and the section, but not
+fixed with respect to the other balls (within the context of one
+turn) or the supporting structure.
+
+Thus the moves are:
+
+	PLUNGE RIGHT or LEFT, whichever is appropriate
+	  (or move barrel LEFT or RIGHT)
+	and MOVE LEFT or RIGHT section UP or DOWN
+
+My suggestion was that in the between move state, the barrel was
+centered in the plungers, so the PLUNGE move is HALF-PLUNGE LEFT
+or RIGHT (both of which are apporpriate), then do the vertical
+move, then UN-HALF-PLUNGE.
+
+PART II -- Hoey's comments to my original message
+=================================================
+[Hoey  28 March 1981 1500-EST]
+
+Is the move you designate by
+
+	|   |
+	A   A   A   A   A
+	 \   \
+	  A   A   A   A
+	 /   /
+	A   A   A   A   A
+	 \   \
+	  A   A   A   A
+	 /   /
+	A   A   A   A   A
+	|   |
+really the permutation that takes
+	 |   |				 |   |
+	 1   2   3   4   5		 6   7   3   4   5
+	  \   \				  \   \
+	   6   7   8   9		  10  11   8   9
+	  /   /				  /   /	
+	10  11  12  13  14	to	15  16  12  13  14
+	  \   \				  \   \
+	  15  16  17  18		  19  20  17  18
+	  /   /				  /   /
+	19  20  21  22  23		 1   2  21  22  23
+	 |   |				 |   |				?
+Do you mean to imply that moves of the form
+	|   |					|   |
+	X   X   X   X   X		X   X   X   X   X
+	 \   \				       /   /
+	  X   X   X   X			  X   X   X   X
+	   \   \			       \   \
+	X   X   X   X   X	or	X   X   X   X   X
+	   /   /			       /   /
+	  X   X   X   X			  X   X   X   X
+	 /   /				       \   \
+	X   X   X   X   X		X   X   X   X   X
+	|   |					|   |
+(whatever they mean) are prohibited (as primitives, at least) by
+the construction of the barrel?
+
+[Both answers are YES]
+
+PART III -- Comments later that night
+=====================================
+
+[In response to the updated description
+Hoey  20 March 1981 1836-EST]
+
+	First, it should be made clear that in (either) plunged
+position, the two " ' " sections rotate freely; i. e. it is not
+necessary to plunge in between.  For instance, one could solve by
+counting plunges, but not rotations.  Jim suggested that it might
+be "neater theoretically", but I think it smells of the half-twist
+metric.
+
+	Second, the inclusion of permutation diagrams will make the
+puzzle clear to anyone who doesn't understand the mechanics.
+Something like I gave in the last message, but with all
+permutations given, the note that "\|/" are only comments, and the
+description of the goal:  move Black to 5,14,23, and make the sets
+1-4, 6-9, 10-13, 15-18, and 19-22 each a solid color.
+
+	I ran this through the Furst/Hopcroft/Luks algorithm, and
+found that in the Supergroup (all balls distinct) you get the
+alternating group on 23 balls:  all even permutations.  Thus if any
+two balls are indistinguishable, you can get all configurations.
+Saxe remarks that there is only fourfold symmetry:  Reflection
+left-to-right and up-to-down.  Their composition is in fact
+achievable:  turn the whole puzzle upside down, while continuing to
+face the front of it.  Strangely enough, this is an ODD permutation:
+it takes you to the other orbit!
+
+[Hoey  28 March 1981 2143-EST    Subject:  Simpler and harder toy]
+
+	Try taping the center two rings together.  Thus A is
+always performed with C, and B with D.  The same set of
+permutations is achievable!
+
+[I assume the proof is an enumeration of states by the above
+algorithm.]
+
+PART IV -- Developments by Alan Bawden (ALAN@MC), Allan Wechsler
+(ACW@AI) and myself.
+================================================================
+
+Alan Bawden sat down patiently one night (Tuesday March 31 1981,
+I  think) and discovered the necessary TOOL (or concept)
+(singular !!) that is needed to solve the toy. I will not give a
+spoiler here. Getting most of it is rather easy. The last few
+balls take a little extra work. Alan told me the concept, and the
+next day I successully solved it. Alan solved it later that day,
+and soon Allan Wechsler solved it a few days later (signified by
+his yelp to this mailing list). The three of us solve it slightly
+differently (s)o like the cube, there are personal sovling
+styles). We now solve it reliably, including the last few balls.
+
+Happy what-ever-ing...

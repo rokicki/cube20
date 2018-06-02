@@ -1,0 +1,18 @@
+Date:  5 September 1981 1446-EDT (Saturday)
+From: Bob.Walker at CMU-10A
+To: cube-lovers at mit-mc
+Subject:  Snake: **SPOILER**
+Message-Id: <05Sep81 144605 BW80@CMU-10A>
+
+I am new to the list, and in reading the archives, I found that
+the transform for my favorite pattern was listed incorrectly.
+Specifically, I refer to the Don Woods' message of 6 January which
+listed transforms for the Snake, Worm, and Baseball (I think).
+Anyway, the transform listed for the Snake was incorrect.  What is
+listed IS a pretty pattern, merely the wrong one.  The blurb about
+how to "hack" your way to the Snake, however, is correct.  The
+proper transform to achieve the snake (from Singmaster) is:
+ 
+            * * * S P O I L E R * * *
+ 
+Snake:     B R L' D' R R D R' L B' R R + U B B U' D R R D'

@@ -1,0 +1,11 @@
+Received: from ngp.utexas.edu (TCP 1200000076) by AI.AI.MIT.EDU 20 May 87 11:06:33 EDT
+Date: Wed, 20 May 87 10:05:20 CDT
+From: jknox@ngp.utexas.edu (John W. Knox)
+Posted-Date: Wed, 20 May 87 10:05:20 CDT
+Message-Id: <8705201505.AA00538@ngp.utexas.edu>
+Received: by ngp.utexas.edu (5.51/5.51)
+	id AA00538; Wed, 20 May 87 10:05:20 CDT
+To: ALAN@ai.ai.mit.edu, CUBE-LOVERS@ai.ai.mit.edu
+Subject: Re:  TOC Seminar--Adi Shamir--Friday, May 22, 2:00PM
+
+

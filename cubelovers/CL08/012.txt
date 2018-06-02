@@ -1,0 +1,30 @@
+From pbeck@pica.army.mil  Wed Dec 11 09:20:29 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA08205; Wed, 11 Dec 91 09:20:29 EST
+Date:     Wed, 11 Dec 91 9:09:07 EST
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  collectors directory
+Message-Id:  <9112110909.aa13900@FSAC1.PICA.ARMY.MIL>
+
+
+The world of MECHANICAL PUZZLE collecting is getting organized. 
+ Jerry Slocum is compiling a directory of collectors, also designers,
+buyers, sellers.  If you want to be included there is a form to fill
+out (hardcopy).  The form has to be to Jerry by 1/15/92 to be
+included.  This is a non-commercial venture and I am unaware of any
+extended plans.
+
+To get a form contact Jerry:
+  JERRY SLOCUM
+  257 SOUTH PALM DRIVE
+  BEVERLY HILLS, CA 90212 USA
+  PHONE & FAX  310/273-2270
+
+I assume form can be FAXed.  I have copies so if need be I can mail
+you one.
+
+PS:  There is classification for computer puzzles but not one for
+computer solutions/helper programs, eg, cube simulations & non
+physically realizable cubes, like 10x10x10.
+

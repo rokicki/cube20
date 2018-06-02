@@ -1,0 +1,58 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov 10 11:32:49 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA14072; Mon, 10 Nov 1997 11:32:48 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cubeman@idirect.com Sun Nov  9 23:05:52 1997
+Message-Id: <34668899.248A@idirect.com>
+Date: Sun, 09 Nov 1997 23:07:53 -0500
+From: Mark Longridge <cubeman@idirect.com>
+To: cube lovers <cube-lovers@ai.mit.edu>
+Cc: joyner.david@mathnt1.sma.usna.navy.mil
+Subject: Megaminx, the 10-spot and GAP
+
+First of all, the STANDARD colour arrangement used by Ideal Toy is as
+follows:
+
+UP      = White
+DOWN    = Blue
+FRONT   = Yellow
+BACK    = Green
+LEFT    = Red
+RIGHT   = Orange
+
+All the official Ideal Toy 2x2x2, 3x3x3 & 4x4x4 cubes used this
+arrangement.
+Even my 5x5x5 cube is the same.
+
+
+Secondly, I have at last resolved the 10-spot pattern for the megaminx
+in GAP. I created the process m1a which is the sequence of operators
+to generate the 10-spot. I had no C_U operator, so it was more
+difficult than I thought it would be.
+
+To see all the gory details surf to the following URLs
+(These are all GAP text files)
+
+http://web.idirect.com/~cubeman/dodeca.txt   describes the megaminx
+http://web.idirect.com/~cubeman/megaop.txt   describes operators
+http://web.idirect.com/~cubeman/spot.txt     generates the 10-spot
+
+Note that after executing spot.txt (which loads the other necessary
+files) in gives the order of process m1a correctly as 5.
+
+This generator uses all of the megaminx operators except the top and
+bottom faces, so it is a pretty good test of the correctness of the
+all of dodeca.txt, megaop.txt, and spot.txt
+
+I believe this is the first simulation of the megaminx generating
+the 10-spot although Dr. David Joyner is very close! His work is
+more graphically interesting (using Maple to generate 3d pics
+of the megaminx) but his operators to rotate the whole megaminx
+are cooked. However, we have both verified that processes
+m2, m3 and m3a are correct and have been graphed correctly using
+Maple.
+
+-> Mark <-
+

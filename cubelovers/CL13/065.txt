@@ -1,0 +1,39 @@
+From BRYAN@wvnvm.wvnet.edu  Tue Nov 29 14:24:02 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04706; Tue, 29 Nov 94 14:24:02 EST
+Message-Id: <9411291924.AA04706@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 5515; Tue, 29 Nov 94 14:00:58 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 7319; Tue, 29 Nov 1994 14:00:59 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Tue, 29 Nov 1994 14:00:58 -0500 (EST)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Antipodes Revisited
+
+I received the following from David Singmaster, forwarded with
+permission.
+
+>        I thought I remembered that antipodes is actually singular!  In fact
+>it is singular in Greek but English recognizes both antipodes and antipode.
+>But the Antipodes means the region on the earth opposite to where one is and
+>is construed as a plural though its sense is singular.  So antipodes is
+>actually not too bad a word for all the points which are maximally far away
+>and antipode should be reserved for the case where there is a unique
+>maximally distant point.
+
+Prior to my first post on this subject, I consulted a mathematics
+dictionary.  This time, I consulted an English dictionary as well.
+It indicates that "antipode" is a back formation from the Greek
+"antipodes", and that the pronunciation is anglicized as "AN-ti-POHD".
+There is a separate entry for "antipodes". (It seems unusual for a
+dictionary to have a separate entry for a plural form.)  The plural
+pronunciation retains its Greek form as "an-TIP-uh-DEEZ".
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET          illegitimati      (304) 293-5540 fax
+837 Chestnut Ridge Road                nil           BRYAN@WVNVM
+Morgantown, WV 26505               carborundum       BRYAN@WVNVM.WVNET.EDU
+

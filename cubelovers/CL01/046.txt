@@ -1,0 +1,21 @@
+Date: 7 December 1980 16:58-EST
+From: Alan Bawden <ALAN at MIT-MC>
+To: CUBE-LOVERS at MIT-MC, Greenberg at MIT-MULTICS
+cc: ELLEN at MIT-MC
+
+To sum up everything we know:
+
+1) A Symetric position is a local maximum.
+2) A maximally distant state is a local maximum.
+3) If Plummer's cross is 28 Qs away from home, then it is a local maximum.
+
+All the other implications that have been flying around are unproven
+as far as I know.  I welcome PROOFS of anything else that I might not
+be aware of.  The volume of air-headed speculation on this subject has
+reached the point where the MC mailer is so overloaded with gubbish
+that a "CUBE-LOVERS Digest" is being considered.  Now that is just
+plain silly given that NORMALLY we only get one or two pieces of mail
+a week through this list.  If you don't understand why one of the
+three facts above are true, DON'T send mail to the whole list!  Look
+through the old mail (they are all explained there) or send JUST ME a
+question, and I will try and answer it.

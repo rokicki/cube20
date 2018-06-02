@@ -1,0 +1,69 @@
+From scotth@ssd.intel.com  Fri Oct 20 19:17:28 1995
+Return-Path: <scotth@ssd.intel.com>
+Received: from SSD.intel.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23016; Fri, 20 Oct 95 19:17:28 EDT
+Received: from inchgower.ssd.intel.com by SSD.intel.com (4.1/SMI-4.1)
+	id AA12613; Fri, 20 Oct 95 16:17:06 PDT
+Message-Id: <9510202317.AA12613@SSD.intel.com>
+To: Michiel Boland <boland@sci.kun.nl>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Embedding G in a symmetrical group 
+In-Reply-To: Your message of "Fri, 20 Oct 95 02:41:55 BST."
+             <199510200141.CAA03659@wn1.sci.kun.nl> 
+Date: Fri, 20 Oct 95 16:17:04 -0700
+From: Scott Huddleston <scotth@ssd.intel.com>
+
+
+>It is clear that the group G of the cube (the one with
+>4.3252x10^19 elements) can be embedded in a
+>symmetrical group, e.g. S_48, since each move of the cube can be
+>seen as a permutation of 48 objects. Hence, there is a smallest
+>number n such that G can be embedded in S_n. I'm curious to find
+>out what this number is.
+>
+>It can be shown with some counting arguments that n>=32 (I'm
+>happy to write these down but it's nicer if you thought about
+>this first). I would be surprised if n=32 but you never know.
+>-- 
+>Michiel Boland <boland@sci.kun.nl>
+>University of Nijmegen
+>The Netherlands
+
+My permutation group memory is rusty.  Is it the "degree" of G you're
+asking for?
+
+I also get n = 32 as the smallest |S_n| divisible by |G|.  I suspect
+one can argue |G| must divide |A_n| (still requiring only n >= 32),
+and if we can argue |G|*12 must divide |S_n| (accounting for all
+parities of edges and corners) we get n >= 33.
+
+On the flip side, I'll assert G has degree <= 42 (which is less than
+the obvious representation in S_48).  If anyone can prove me either
+right or wrong, please do so.  My assertion is based on the following
+hand-waving argument:
+
+G is a wreath product (or some kind of product) of the following
+subgroups:
+A:  S_8   8! corner positions
+B:  3^7   3^7 corner orientations
+C:  A_12  12!/2 edge positions
+D:  2^11  2^11 edge orientation
+
+Clearly subgroup A has degree 8 and C has degree 12.  
+
+I claim (wave hands wildly:-) that BxD has degree at most 22, since it
+can be embedded in an S_22.  I use every even factor of 22! for a component
+of 2^11, and every third factor of 22! for a component of 3^7.  
+
+Divisibility arguments suggest some smaller S_n might embed 2^11x3^7,
+but I don't know whether such embeddings can be realized.  This is an
+obvious area to consider for lowering the upper bound on degree(G).  By
+divisibility we can conceivably embed 2^11x3^7 in an S_18, but not in
+an S_17.
+
+Finally, the degree of a wreath(?) product is bounded by the sum of
+the degrees of the multiplicands, hence 
+degree(G) <= 8 + 12 + 22 = 42.
+
+If this (alleged) degree 42 construction is valid, is 42 minimal?  I
+strongly doubt it.
+

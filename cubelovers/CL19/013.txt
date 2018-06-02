@@ -1,0 +1,26 @@
+From Robert_Buckley@orkney.fc.uhi.ac.uk  Tue Feb 13 10:32:57 1996
+Return-Path: <Robert_Buckley@orkney.fc.uhi.ac.uk>
+Received: from torridon.uhi.ac.uk by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AC22547; Tue, 13 Feb 96 10:32:57 EST
+Received: from fc.uhi.ac.uk (fc-gw.uhi.ac.uk [194.35.192.4]) by torridon.uhi.ac.uk (8.6.8.1/8.6.13) with SMTP id PAA01309 for <cube-lovers@ai.ai.mit.edu>; Tue, 13 Feb 1996 15:02:49 GMT
+Date: Tue, 13 Feb 96 15:00:01 0
+From: Robert_Buckley@orkney.fc.uhi.ac.uk (Robert Buckley)
+Organization: UHI Project Office
+Subject: Subscribe
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <9571.ensmtp@fc.uhi.ac.uk>
+Priority: normal
+X-Mailer: ExpressNet/SMTP v1.1.5
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+
+subscribe
+
+
+--
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+         Sent via ExpressNet/SMTP(tm), Internet Gateway of the Gods!
+               ExpressNet/SMTP (c)1994-95 Delphic Software, Inc.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+

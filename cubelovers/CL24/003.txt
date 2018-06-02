@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Sep  1 23:26:56 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id XAA05957; Mon, 1 Sep 1997 23:26:56 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From SCHMIDTG@iccgcc.cle.ab.com Mon Sep  1 16:50:08 1997
+From: SCHMIDTG@iccgcc.cle.ab.com
+Date: Mon, 1 Sep 1997 16:46:33 -0400 (EDT)
+To: cube-lovers@ai.mit.edu
+Message-Id: <970901164633.20217b13@iccgcc.cle.ab.com>
+Subject: Re[2]: Open and Closed Subgroups of G
+
+Oh, and I forgot to mention...
+
+My ultimate goal of understanding parity would be such that someone could
+hand me an arbitrary permutation puzzle and I'd be able to examine it and
+determine from the set of legal moves both the parity constraints and also
+be able to construct a parity test valid from any given puzzle state.
+
+I find it interesting that the method seems to differ across puzzles.
+For example, 15 puzzle parity can be determined by the number of pairwise
+exchanges required to solve the puzzle, whereas with the cube, it seems
+a more direct approach is possible by examining cubie orientations with
+respect to marked cubicles.
+
+Still, I'm somewhat mystified.
+
+Regards,
+
+-- Greg Schmidt
+

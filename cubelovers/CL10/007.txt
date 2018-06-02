@@ -1,0 +1,63 @@
+From dik@cwi.nl  Sun Jun 13 19:53:20 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA19146; Sun, 13 Jun 93 19:53:20 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA25903 (5.65b/3.8/CWI-Amsterdam); Mon, 14 Jun 1993 01:53:19 +0200
+Received: by boring.cwi.nl 
+	id AA19557 (4.1/2.10/CWI-Amsterdam); Mon, 14 Jun 93 01:53:16 +0200
+Date: Mon, 14 Jun 93 01:53:16 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9306132353.AA19557.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Contents of CFF31
+
+Last Friday I received issue #31 of Cubism For Fun.  A short summary of
+the contents:
+
+1.  Short articles by Jan de Geus and Frans de Vreugd about Cube Day 1992.
+2.  An article by Herbert Kociemba about a classification of pretty
+    patterns on the cube.
+3.  Reflections by Tom Verhoeff about puzzles and computers.
+4.  Announcement by Koos Verhoef and Tom Verhoeff of a contest *.
+5.  A short article by Jaques Haubrich about Rubik's Tangle and how to
+    position 24 parts in a cube like way (four on a side).
+6.  An article by Jan Verbakel about the creation of castles with solid
+    pentominoes.
+7.  A short article by Trevor Wood on the pecking of octacubes.
+8.  A short article by Jaques Haubrich about a difficult packing problem.
+9.  An article by David Singmaster about a gathering in Atlanta in honor
+    of Martin Gardner.  (Nearly the whole puzzling world appears to have
+    been there.)
+10. A new contest by Anton Hanegraaf.
+11. Announcement of the 13th Dutch cube day on August 22 in Amsterdam.
+    This day is next to the 13th International Puzzle Party.
+
+*   This is an interesting puzzle indeed.  Consider the densest sphere
+    packing in 3D.  This is the packing where you start with a lattice
+    of spheres based on a triangular lattice, and put on top of it another,
+    similar, lattice such that each sphere of the new layer fits in a hole
+    in the lower layer.  Add more layers.  Pick from that all possible
+    configurations of 4 connected spheres.  There are 25 such
+    configurations.  The puzzle is to create from these 25 pieces a
+    pyramid with a side of 8 spheres (which contains 120 spheres), with
+    a hole at the center that consists of a pyramid with a side of 4
+    spheres (remember those sums of triangular numbers!).  It is not
+    known whether there is a solution.  The authors tell how they have
+    a TRS-80 now running 5 years on this problem, using backtracking
+    techniques.  Until now the first 6 pieces did not move.  The could
+    fit 24 pieces already 521,010 times.  The puzzle was first announced
+    at the previous Cube Day.
+
+CFF is a newsletter published by the Nederlandse Kubus Club NKC (Dutch
+Cubists Club).  It appears a bit irregular, but a few times a year.
+Yearly membership fee is now NLG 25.- (Dutch Guilders) which amounts to
+approximately $ 15.-.  Information:
+	Anton Hanegraaf
+	Heemskerkstraat 9
+	6662 AL  Elst
+	The Netherlands
+(sorry, there is no e-mail address).
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+home: bovenover 215, 1025 jn  amsterdam, nederland; e-mail: dik@cwi.nl
+

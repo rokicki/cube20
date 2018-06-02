@@ -1,0 +1,33 @@
+From wft@math.canterbury.ac.nz  Wed Jan 29 04:27:21 1992
+Return-Path: <wft@math.canterbury.ac.nz>
+Received: from CANTVA.CANTERBURY.AC.NZ by life.ai.mit.edu (4.1/AI-4.10) id AA11553; Wed, 29 Jan 92 04:27:21 EST
+Received: from math.canterbury.ac.nz by csc.canterbury.ac.nz (PMDF #12052) id
+ <01GFW95D1YZK9IB0HC@csc.canterbury.ac.nz>; Wed, 29 Jan 1992 17:00 +1300
+Received: by math.canterbury.ac.nz (4.1/SMI-4.1) id AA29423; Wed,
+ 29 Jan 92 17:00:01 NZD
+Date: Wed, 29 Jan 92 17:00:01 NZD
+From: wft@math.canterbury.ac.nz (Bill Taylor)
+Subject: subgroups
+To: Cube-Lovers@ai.mit.edu
+Cc: wft@cantva.canterbury.ac.nz
+Message-Id: <9201290400.AA29423@math.canterbury.ac.nz>
+X-Envelope-To: Cube-Lovers@AI.MIT.EDU
+
+On 14 Jan 1992,  Allan C. Wechsler posted
+
+>Regarding the meta-approach of descending through a series of subgroups,
+>how much leverage does properly selecting the chain give you?  It seems
+>like the jump from <F2,B2,...> to <F2,B2,L2,R2,...> is pretty large.
+>There are probably other paths through the subgroup lattice.
+>
+>Does anyone have a table of subgroups?
+
+There hasn't been any response to this, seemingly, which is a pity.
+
+In any event, I would like to know of any other well-known subgroups.
+There are the slice group; double-slice group; U group; square group;
+anti-slice group. How many others are there not mentioned here, that 
+people know of ?
+
+
+

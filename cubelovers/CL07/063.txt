@@ -1,0 +1,18 @@
+From phygillen@cs8700.ucg.ie  Mon Jun 24 12:19:58 1991
+Return-Path: <phygillen@cs8700.ucg.ie>
+Received: from mcsun.EU.net by life.ai.mit.edu (4.1/AI-4.10) id AA13541; Mon, 24 Jun 91 12:19:58 EDT
+Received: by mcsun.EU.net via EUnet;
+	id AA29698 (5.65a/CWI-2.95); Mon, 24 Jun 91 18:19:53 +0200
+Received: from swift by macneill.macneill.cs.tcd.ie id aa19206;
+          24 Jun 91 17:14 GMT
+Received: from cs8700.ucg.ie by cs.tcd.ie with PMDF#10597; Mon, 24 Jun 1991
+ 17:11 +0100
+Date: Mon, 24 Jun 91 17:08 GMT
+From: Patsy Gillen <PHYGILLEN@cs8700.ucg.ie>
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <CEE94BE780219C6C@cs.tcd.ie>
+X-Envelope-To: cube-lovers@ai.ai.mit.edu
+X-Vms-To: IN%"cube-lovers@ai.ai.mit.edu"
+
+SUBCRIBE Rubic's Patrick Gillen
+

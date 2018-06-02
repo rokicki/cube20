@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 15 08:40:06 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id IAA13901
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 15 Dec 1998 08:40:05 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Sender: bosch@sgi.com
+Message-Id: <3675637C.6231@sgi.com>
+Date: Mon, 14 Dec 1998 11:14:04 -0800
+From: Derek Bosch <bosch@sgi.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: re-assembling a 2x2x2?
+
+Well, I accidentally managed to pop apart my Rubik's Mini-Cube,
+aka the 2x2x2...  Are there any easy instructions on getting it
+back together?  I'd rather not force it...
+
+D
+-- 
+Derek Bosch        "A little nonsense now and then
+(650) 933-2115      is relished by the wisest men"... W.Wonka
+bosch@sgi.com
+

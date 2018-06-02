@@ -1,0 +1,33 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr 22 18:11:24 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA15583
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 22 Apr 1999 18:11:23 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <B11CE48E1A39D211BB540080C8646221013D92@is.intralan.demon.co.uk>
+From: Paddy Duncan <PaddyD@intralan.co.uk>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Lubricant
+Date: Tue, 20 Apr 1999 21:27:31 +0100
+
+WD-40 will make it stick REALLY badly! Please don't do it.  Not
+because it will dissolve the plastic (although it might), but because
+it's too thin. Also I have seen in the past a problem with the kind of
+solvents in this kind of product where it seems to 'realise' any small
+cracks in plastic, causing it to just fall to bits the next day.
+Silicone grease sounds good to me.
+
+         Paddy Duncan
+      Systems Engineer
+       Intralan (UK) Ltd
+
+[ Moderator's note: I'll remind you that last month Alex Montilla
+  suggested (for low-quality tiled cubes), "If you use WD-40, it'll
+  eat away at the plastic resulting in really smooth turning.  It'll
+  be great for about 3-4 weeks of daily cubing, but the WD-40 will
+  take its toll, and the cube will start falling apart.  But for a few
+  bucks every 3-4 weeks is worth it to me."  So WD-40 is bad for the
+  cube, but possibly good for the turning, at least temporarily.
+  That's the way the cubie crumbles.  --Dan ]
+

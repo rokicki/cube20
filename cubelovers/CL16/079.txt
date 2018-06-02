@@ -1,0 +1,43 @@
+From dik@cwi.nl  Tue Aug 22 20:37:47 1995
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA26829; Tue, 22 Aug 95 20:37:47 EDT
+Received: from bever.cwi.nl by charon.cwi.nl with SMTP
+	id <AA01110@cwi.nl>; Wed, 23 Aug 1995 02:37:42 +0200
+Received: by bever.cwi.nl 
+	id AA23269 (5.65b/3.8/CWI-Amsterdam); Wed, 23 Aug 1995 02:37:42 +0200
+Date: Wed, 23 Aug 1995 02:37:42 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9508230037.AA23269=dik@bever.cwi.nl>
+To: ccw@eql12.caltech.edu, cube-lovers@ai.mit.edu
+Subject: Re: "Cubism For Fun" Rumor
+Content-Length: 980
+
+ > Summarizing information I received from Rik van Grol, Editor of CFF.
+
+I add some information:
+
+ > Rik estimated the cost as 145 Dutch Guilders, though this is unconfirmed.
+ > Club membership (1995) 30 Guilders.
+ > Orders to Treasurer of the club.  (same address as in archives)
+
+# 1-13 NLD 20,- (these are in Dutch, no translation available), the remainder
+is in English and sold per year (NLD 5,- for each issues, #25 counts as 5
+issues):
+#14-16 NLD 15,- (1987)
+#17-19 NLD 15,- (1988)
+#20-22 NLD 15,- (1989)
+#23-25 NLD 35,- (1990)
+#27    NLD  5,- (1991)
+#28-30 NLD 15,- (1992)
+#31-32 NLD 10,- (1993)
+#33-35 NLD 15,- (1994)
+
+#26 was never issued (or was it 27?, I disremember).  Total cost English
+issues only: NLD 125,-; including Dutch issues NLD 145,-.  So Rik's
+estimate is correct.  1995 has upto now #36 and #37.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland, +31205924098
+home: bovenover 215, 1025 jn  amsterdam, nederland; e-mail: dik@cwi.nl
+

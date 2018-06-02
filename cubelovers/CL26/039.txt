@@ -1,0 +1,45 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 20 15:16:19 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA08664
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 20 Nov 1998 15:16:18 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <m0zglGw-000Co3C@pc0067.pica.nl>
+Date: Fri, 20 Nov 1998 08:46:30 +0100 (CET)
+From: Bas de Bakker <basde.bakker@pica.nl>
+To: Cube-Lovers@ai.mit.edu
+In-Reply-To: <SIMEON.9811191506.A@GN209A.PSTCC.CC.TN.US> (message from Jerry
+	Bryan on Thu, 19 Nov 1998 15:00:06 -0500 (Eastern Standard Time))
+Subject: Re: The Cylinder
+References:  <SIMEON.9811191506.A@GN209A.PSTCC.CC.TN.US>
+
+>>>>> "Jerry" == Jerry Bryan <jbryan@pstcc.cc.tn.us> writes:
+
+[About the octagonal "cube"]
+
+    Jerry> I haven't played with it in a long time.  But my best
+    Jerry> recollection is that it can be solved basically the same
+    Jerry> way as a 3x3x3 cube, except that *I think* (don't remember
+    Jerry> for sure) that the color scheme permits invisible swaps of
+    Jerry> identically colored pieces which can make the puzzle seem
+    Jerry> "impossible" to solve unless you realize that the
+    Jerry> identically colored pieces must be swapped.
+
+Your recollection is not exact.  There are no identically colored
+pieces to swap, but you can swap complete columns consisting of two
+"corners" (what would have been corners on the cube) and one "edge"
+without noticing.
+
+In fact, if you create an even permutation of those columns, there is
+no problem.  But if you create an odd permutation, it will become
+impossible to solve the upper layer.
+
+Presuming you solve cubes in layers, the easiest way out is to not
+start at one of the octagonal layers (which seems the most natural
+way), but to start with a "side" layer.  If you do it this way, it
+will always be possible to solve the last layer.
+
+I hope I'm making myself at least somewhat clear,
+Bas.
+

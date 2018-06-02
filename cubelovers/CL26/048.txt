@@ -1,0 +1,94 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Dec  2 14:51:54 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA24883
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 2 Dec 1998 14:51:53 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 30 Nov 1998 23:39:25 -0500
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199812010439.XAA11918@euclid.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: asymmetric local maxima
+
+based on the previous analysis, i can now give 2 asymmetric positions
+that are local maxima, namely
+
+     1-7-twist composed with four spot, and
+     1-7-twist composed with four spot composed with superflip.
+
+all previous examples of local maxima had some symmetry (although
+jerry bryan recently gave a bunch of new local maxima at distance 12q;
+perhaps these contain some other examples.)
+
+to show that a position is locally maximal, i must give a minimal
+maneuver that ends with each possible quarter turn.  bear in mind
+that  F2 = F F = F' F'.
+
+1-7-twist composed with four spot:
+ F  L' U' B' L  U' D  L2 U  R' U' R  F' U' L' F  D  B' U' F2        (22q*)
+ U' R' D  L  F' U' L' B  U' B' U  F2 U' D  F  R' U' F' L  R2        (22q*)
+ D' L  B' D' L' F  B2 D' F' U  B  R' D' B' L  D' L' D  R2 U         (22q*)
+ F  B2 L' U' B' L  U' D  L2 U  R' U' R  F' U' L' F  D  B' U'        (22q*)
+ R' U  L' F  B  D' F  L' D  B' L  F' L' F  D' B  D' B  L' U  R' B   (22q*)
+ U' F  L' U' B' L  D  R' U' R  L2 F' U' L' F  U' D  F2 U  B'        (22q*)
+ U' R' D  L  F' U' L' B  U' B' U  F2 U' D  F  R' U' F' R2 L         (22q*)
+ U' F' L  U' L' U  R2 U' D  R  B' U' R' F  B2 U' F' D  B  L'        (22q*)
+ F' U' F  B2 L' U' B' L  U' D  L2 U  R' U' R  F' U' L' F  D         (22q*)
+ L  B' D' L' F  B2 D' F' U  B  R' D' B' L  D' L' D  R2 U  D'        (22q*)
+
+1-7-twist composed with four spot composed with superflip:
+ R' D' R  B' R  L  F  U2 D' R  L' U  B' R' L  U' B  U' R  F2     (22q*)
+ B  U' R  U' F  B' R' U  F' B  U2 D' L  F  B  R' B  D' B' R2     (22q*)
+ B  D  R  B  R  L' U  F' B' L' F  L  D' B2 U  R' B  L  B  D' U   (22q*)
+ F  U' R' L  F' U  R  L' U2 D' B  R  L  F' R  D' R' F2 L  U'     (22q*)
+ U' D2 L  F  B  R' F  U' F' R2 B  D' L  D' F  B' L' D  F' B      (22q*)
+ U' F  L' F  B  R  U' D2 F  B' D  L' F' B  D' L  D' F  R2 B'     (22q*)
+ U' F  L2 B' D' B  L' F  B  R  U2 D' F' B  U  L' F  B' U' L      (22q*)
+ B' D  R  L' U' D2 F  R  L  B' R  U' R' B2 L  D' F  D' R  L'     (22q*)
+ R  L' D  F' R' L  D' F  D' R  B2 L' U' L  B' R  L  F  U' D2     (22q*)
+
+these positions are also strong local maxima in the face turn metric.
+
+1-7-twist composed with four spot:
+ U  D' B2 D  F' D' F  R' D' B' R  U  L' D' R2 L  F' D' R' F   (20f*)
+ F  L' U' B' L  U' D  L2 U  R' U' R  F' U' L' F  D  B' U' F2  (20f*)
+ U' R' B  D  F' U' F  B2 L' U' B' L  U' D  L2 U  R' U' R  F'  (20f*)
+ F' U' L' B  U' B' U  F2 U' D  F  R' U' F' R2 L  U' L' D  R   (20f*)
+ D  R' D' R  B' D' L' B  U  F' D' F  B2 R' D' B' R  U  D' R2  (20f*)
+ F  B2 D' F' U  B  R' D' B' L  D' L' D  R2 U  D' R  F' D' R'  (20f*)
+ D' L  B' D' L' F  B2 D' F' U  B  R' D' B' L  D' L' D  R2 U   (20f*)
+ D' B  D  F2 B  R2 B2 D  F2 B' D  B  D' R2 U2 B2 U2 D2 F' U2  (20f*)
+ F  B2 L' U' B' L  U' D  L2 U  R' U' R  F' U' L' F  D  B' U'  (20f*)
+ L2 U  R2 B  D2 B  L2 U' F' B2 D  F  D' R2 L2 D2 B2 L2 D' B   (20f*)
+ B  L2 U  F' L2 U' F' B  U  F  D' L2 U  F2 D  F2 D' R2 U2 B2  (20f*)
+ U' F  L' U' B' L  D  R' U' R  L2 F' U' L' F  U' D  F2 U  B'  (20f*)
+ U' R' D  L  F' U' L' B  U' B' U  F2 U' D  F  R' U' F' R2 L   (20f*)
+ D2 F2 U' L2 U  L2 D  B2 U' L  D  R  L' D' B2 L' D  B2 R  L2  (20f*)
+ U' F' L  U' L' U  R2 U' D  R  B' U' R' F  B2 U' F' D  B  L'  (20f*)
+ F' U' F  B2 L' U' B' L  U' D  L2 U  R' U' R  F' U' L' F  D   (20f*)
+ F2 B  R2 D  F' R2 D' F' B  D  F  U' R2 D  F2 U  F2 U' L2 D2  (20f*)
+ L  B' D' L' F  B2 D' F' U  B  R' D' B' L  D' L' D  R2 U  D'  (20f*)
+
+1-7-twist composed with four spot composed with superflip:
+ R  L  F' L  U' L' F2 R  D' B  D' R' L  B' D  R  L' U' D2 F   (20f*)
+ R' D' R  B' R  L  F  U2 D' R  L' U  B' R' L  U' B  U' R  F2  (20f*)
+ R  L  F  U' D2 R' L  D  B' R  L' D' B  D' L  F2 R' U' R  F'  (20f*)
+ R  F' L  U' L' F2 R  D' B  D' R' L  B' D  R  L' U' D2 F  R   (20f*)
+ B  U' R  U' F  B' R' U  F' B  U2 D' L  F  B  R' B  D' B' R2  (20f*)
+ F' B  D' L  D' F  R2 B' U' B  R' F  B  L  U' D2 F' B  D  R'  (20f*)
+ F  D' B' R2 D' F  R  U  B' L  D2 B  R2 U2 B2 U' R  L2 B  U   (20f*)
+ R2 U' F  B2 R  U  R  D' L' B2 D' R  B  U  L' F  D2 L  B2 U2  (20f*)
+ F  U' R' L  F' U  R  L' U2 D' B  R  L  F' R  D' R' F2 L  U'  (20f*)
+ U' D2 L  F  B  R' F  U' F' R2 B  D' L  D' F  B' L' D  F' B   (20f*)
+ B  L  U  L  D' R' F2 D' L  F  U  R' B  D2 R  F2 U2 R2 U' B2  (20f*)
+ U' F  L' F  B  R  U' D2 F  B' D  L' F' B  D' L  D' F  R2 B'  (20f*)
+ U' F  L2 B' D' B  L' F  B  R  U2 D' F' B  U  L' F  B' U' L   (20f*)
+ D' F2 B  R  D  R  U' L' F2 U' R  F  D  L' B  U2 L  F2 D2 L2  (20f*)
+ B' D  R  L' U' D2 F  R  L  B' R  U' R' B2 L  D' F  D' R  L'  (20f*)
+ R  L' U' D2 F  R  L  B' R  U' R' B2 L  D' F  D' R  L' F' D   (20f*)
+ R  L' D  F' R' L  D' F  D' R  B2 L' U' L  B' R  L  F  U' D2  (20f*)
+ F  D' R  B2 L' U' L  B' R  L  F  U' D2 R' L  D  B' R  L' D'  (20f*)
+
+mike
+

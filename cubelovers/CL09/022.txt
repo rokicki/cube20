@@ -1,0 +1,51 @@
+From STEVENS@macc.wisc.edu  Tue Jun 23 07:59:22 1992
+Return-Path: <STEVENS@macc.wisc.edu>
+Received: from vms3.macc.wisc.edu by life.ai.mit.edu (4.1/AI-4.10) id AA05161; Tue, 23 Jun 92 07:59:22 EDT
+Received: from VMSmail by vms3.macc.wisc.edu; Mon, 22 Jun 92 09:19 CDT
+Message-Id: <22062209193919@vms3.macc.wisc.edu>
+Date: Mon, 22 Jun 92 09:19 CDT
+From: PAul STevens - MACC - 2-9618 <STEVENS@macc.wisc.edu>
+Subject: Re: reminiscences
+To: CUBE-LOVERS@life.ai.mit.edu
+X-Vms-To: IN%"cube-lovers@life.ai.mit.edu",STEVENS
+
+reid@math.berkeley.edu writes:
+ 
+>well, i've droned on long enough.  anyone else got any interesting stories?
+ 
+ 
+I think my solution may be considered cheating; but I was pretty proud of
+it.  I had almost decided to give up on the thing.  But I had just
+designed and built an 8080 'computer'.  It had 2k bytes of 2102's and
+had to be programmed with binary switches and whenever the program
+clobbered itself the entire program had to be re-entered in binary.
+ 
+So I wrote a program to look for combinations of moves that left most
+of the cube alone and only moved a few cubelets.  I studied the best of
+these at great length and managed to combine some into 'better' moves,
+eventually finding some that moved only three or so cubelets.  These
+were then combined into a solution.  A rather god-awful solution I
+think.  But my fingers learned the moves and I have never abandoned them
+for fear of becoming totally confused.  The same ugly solution has been
+passed on for at least one generation and perhaps will persist for
+hundreds of years.
+ 
+I still don't know what a group or commutator or ... is except what I
+have deduced from reading mail from this group.  I get the front face
+corners exactly right, the back corners in the proper position, and then
+the back corners rotated properly.
+ 
+Finally the edges go where they belong one at a time, first on the
+front and back and finally the four on the sides/top/bottom.
+ 
+I have noticed a lack of discussion of cubes that have pictures on
+them such that the entire cube can be right except that a single
+center can be upside-down.  I have also painted a 4x4x4 so that the
+center 4 squares on each face have to be in the proper position.  Every
+time I solve this cube I have to rediscover how it is done.  My fingers
+refuse to learn it for me.
+ 
+Behind the back?  You gotta be kidding!
+ 
+                   PAul
+

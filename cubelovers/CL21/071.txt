@@ -1,0 +1,49 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Dec  3 23:34:02 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id XAA14205; Tue, 3 Dec 1996 23:34:02 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Tue, 3 Dec 1996 21:54:18 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Norman Diamond 04-Dec-1996 0859 <diamond@jrdv04.enet.dec-j.co.jp>
+cc: Cube-Lovers@ai.mit.edu
+Subject: 6-cube and Hofstadter; Meffert
+In-Reply-To: <9612040008.AA29913@jrdmax.jrd.dec.com>
+Message-ID: <Pine.SUN.3.95.961203214340.27176B-100000@sunspot.tiac.net>
+
+
+ Around 1985, I think, I was browsing through a book by Douglas
+Hofstadter, most likely his _Metamagical Themas_; buried deep within it
+was a comment (I think without attribution) that a prototype of the 6-cube
+had been built, and a paper design for the 7-cube existed. Digging through
+the archives for this mailing list might also yield something.
+
+ He also said that almost all the Magic Dodecahedrons had been melted down
+for their plastic, because each one used about $2 worth. This is one of
+the sadder pieces of news I have heard.
+
+ Does anyone know whether Uwe M=E8ffert (Meffert, if your char. set isn't
+ISO 8859-1 compatible [See Moderator's Note]) is still in business? He's
+Swiss, and was (and might still be) primarily an aquaculturist.
+
+ The 6-cube would be fun to manipulate and solve, but what I'd really love
+to see is its innards! The insides of the 5-cube are awe-inspiring... 
+
+Regards to all,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+[ Moderator's Note: Actually, I would prefer it if people didn't use
+  extended ISO 8859 characters (or MIME, or PGP) in sending messages to
+  Cube-Lovers.  This message got to the Cube-Lovers inbox quite mangled
+  because of the presence of an 8-bit character in Meffert's name.  I undid
+  the damage, and I agree that this -should- just have worked, and perhaps
+  someday soon it -will-, but for now, it just doesn't work.  The the
+  extent that it is possible, I request that Cube-Lovers subscribers stick
+  to submitting messages formatted in plain ASCII.  Thanks!  - Alan ]
+

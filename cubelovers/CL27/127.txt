@@ -1,0 +1,35 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug  5 21:35:14 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA26880
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 5 Aug 1999 21:34:58 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Reply-To: <noel@mud.ca>
+From: "Noel Dillabough" <noel@mud.ca>
+To: "Cube Lovers List \(E-mail\)" <cube-lovers@ai.mit.edu>
+Subject: JPuzzler
+Date: Sat, 31 Jul 1999 11:06:34 -0400
+Message-Id: <000001bedb68$878eb170$020a0a0a@NOEL>
+
+I have finished the last touches on JPuzzler, the Java port for Puzzler for
+Windows.  Many people with other operating systems asked if I was going to
+port the program and well, this is it.
+
+Speed is an issue.  The program runs very well on a PPro200 or better, but I
+believe the video card that is used makes the biggest difference because on
+a PII-300 with a basic video card the program ran slower.
+
+JPuzzler was written in 100% pure Java so it should work on any Java
+compatible browser but for now it has only been tested on Netscape 4.5+ and
+Internet Explorer 4+.  I don't have access to other hardware, so I am
+particularly interested in hearing from players with Macintosh computers, or
+any flavour of XWindows.
+
+All 17 puzzles from Puzzler are implemented and I will probably add more in
+the future; suggestions and criticism are welcome.
+
+http://www.mud.ca/puzzler/JPuzzler/JPuzzler.html
+
+-Noel
+

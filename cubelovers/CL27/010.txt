@@ -1,0 +1,65 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar 29 18:40:48 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA21466
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 29 Mar 1999 18:40:47 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: wheeler@cipr.rpi.edu (Frederick W. Wheeler)
+Message-Id: <14080.1711.289304.134028@cipr.no_spam.rpi.edu>
+Date: Mon, 29 Mar 1999 18:03:11 -0500 (EST)
+To: Cube-Lovers@ai.mit.edu
+Subject: Inventing your own techniques
+
+
+I've been reading Cube-Lovers e-mail for a few months now and am
+enjoying it very much.  It is one of the great benefits of the
+Internet that people with a common interest, but spread so far apart,
+can so easily communicate like this.
+
+For me, the most fun, and the ultimate challenge, in cubing comes from
+figuring out how to solve the puzzle in the first place.  I avoid
+published and posted techniques.  I'd really like to hear from people
+on this list on how you go about inventing new moves and techniques or
+how you feel about learning to solve a puzzle on your own.
+
+I vaguely remember how I learned to solve the 3x3x3 back in the early
+80's.  I was in 8th grade at the time; now I'm in 25th grade.
+According to my family I quite thoroughly infatuated by the puzzle at
+the time.  Solving one side was faily easy and then I was able to get
+2 and 3 sides, but with a disorganized and perhaps even random method.
+
+I heard from a friend (who had a solution book) that the key to
+solving the top and bottom was a set of special moves that allowed you
+to manipulate the bottom corner pieces without affecting the top side.
+I set out to find these moves on my own and did.  I would carefully
+record the position and orientation of each corner piece, then move a
+top corner out of position and then back into position in a different
+way and check how the bottom side changed.  This led to a few
+sequences which I could repeatedly apply to solve the bottom corners.
+
+The rest was fairly easy, except for the situation in which two edges
+were flipped.  I had to have someone show me a move to get past this
+point.  I couldn't figure it out.  Otherwise, I had a 50% chance of
+solving on any given attempt.
+
+Now I have a 4x4x4 and a 5x5x5 cube as well.  I've been able to solve
+these primarily using extensions of the techniques I learned for the
+3x3x3 and a few new extras, but only to a point.  I'm now stuck if one
+pair of "wing" pieces are switched.  If two pairs are switched, I can
+solve it, but not if only one are switched.  Again, I solve it 50% of
+the times I set out.
+
+Of course, there was at least on posted solution for this very problem
+to this list a couple of weeks ago.  I saved it to a folder just in
+case I decide to resort to it, but in the mean time want to figure
+this out on my own.
+
+Regards,
+Fred Wheeler
+
+--
+Fred Wheeler
+wheeler@cipr.rpi.edu
+www.cipr.rpi.edu/wheeler
+

@@ -1,0 +1,34 @@
+From mreid@ptc.com  Wed Feb 21 18:14:30 1996
+Return-Path: <mreid@ptc.com>
+Received: from poster (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03956; Wed, 21 Feb 96 18:14:30 EST
+Received: from ducie.ptc.com by poster (5.x/SMI-SVR4-NN)
+	id AA03108; Wed, 21 Feb 1996 18:10:02 -0500
+Message-Id: <9602212310.AA03108@poster>
+Received: by ducie.ptc.com
+	(1.38.193.4/16.2.nn) id AA11210; Wed, 21 Feb 1996 18:41:32 -0500
+Date: Wed, 21 Feb 1996 18:41:32 -0500
+From: michael reid <mreid@ptc.com>
+To: CRSO.Cube@canrem.com, cube-lovers@ai.mit.edu
+Subject: Re:  < U, F, R > group
+
+mark writes
+
+> I am working on an engine to search optimal paths for < U, F, R > but
+> it's not done yet. It's certainly within the bounds of computibility:
+> 
+> Size (u_f_r) = 170,659,735,142,400 (hmmm, 170 trillion maybe not!)
+
+it should be possible to write a good searching program for this
+subgroup.  use the filtration
+
+              <U, F, R> ,  <U, F2, R2> ,  <>
+
+(which is just the last two stages of the three stage filtration i
+gave on may 22, 1992), and a kociemba-type searching method.
+i don't know if it will be feasible to find optimal paths, but
+this technique should get pretty close.
+
+let us know what you find out!
+
+mike
+

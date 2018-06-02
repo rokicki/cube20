@@ -1,0 +1,47 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 25 14:32:49 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA08105
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 25 Mar 1999 14:32:49 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sun, 21 Mar 1999 11:59:19 -0500 (EST)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199903211659.LAA04577@Twig.Rodents.Montreal.QC.CA>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Taking apart the 5^3
+
+>>>> I found it more effective to turn a "thick slice" (ie, the outer
+>>>> two slices turned together) about 45 degrees, then pry with my
+>>>> thumb between the corner and wing of the turned slice....
+
+> That procedure is not recommended as it voids the implied warranty
+
+(a) doesn't this depend on the manufacturer?  (b) doesn't taking it
+apart at all do that anyway?
+
+> and has the danger of permanently stripping the thread inside the
+> center of the cube.
+
+I can't see how.  Based on how I saw my cube move as I did this, I
+don't believe it's putting significant stress on any of the face-center
+cubies.  Remember, what I said to do was to push the wing cubie away
+from the corner cubie, not vice versa; the only face cubie anywhere
+near the operation is the one you're prying towards, and the wing cubie
+is pivoting around that, not prying past it.
+
+> If you must take the cube apart do so by prying off one of the center
+> small squares and then loosening one of the screws,
+
+After disassembling my cube, I remembered this advice, and tried to get
+one of the face centers off.  Even with the cube disassembled, I
+desisted for fear of breaking the plastic rather than the glue join.
+
+Perhaps there are multiple production runs in existence and some of
+them come apart more easily this way than others?
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

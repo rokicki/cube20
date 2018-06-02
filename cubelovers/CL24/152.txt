@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb  3 16:10:34 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA25347; Tue, 3 Feb 1998 16:10:34 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue Feb  3 15:49:29 1998
+Message-Id: <01a501bd30e5$5e06f440$da460318@CC623255-A.srst1.fl.home.com>
+From: "Chris and Kori Pelley" <ck1@home.com>
+To: <cube-lovers@ai.mit.edu>
+Subject: Re: Lights Out Cube
+Date: Tue, 3 Feb 1998 15:50:28 -0500
+
+>I just heard there's a new puzzle out in the U.S. called "Lights Out Cube".
+
+Yes the cube is by the makers of Lights Out.  It is available here in the
+U.S. at places like Target and Wal-Mart.  It's quite a conversation piece
+because people often ask if it's an electronic Rubik's Cube!  Of course it's
+just a 3-D version of the Lights Out game.  It's fun because the puzzles get
+progressively more difficult, plus there is a multi-player mode.
+
+Chris Pelley
+ck1@home.com
+

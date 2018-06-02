@@ -1,0 +1,46 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Dec 14 15:00:05 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA11876
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 14 Dec 1998 15:00:04 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 10 Dec 1998 23:04:10 -0500
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199812110404.XAA03343@cauchy.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: fixing edge parity on 4x4x4
+
+several people have posted maneuvers for "fixing" the edge parity
+on rubik's revenge.  i haven't seen any maneuvers as short as
+mine (although there might be some disagreement about "length").
+recall that i am using the notation  _R_  (R underscored) to mean
+turn the outer two layers together.
+
+to switch the two UF edges:
+
+_R2_  B2 L U2  l  U2  r'  U2  r  U2 F2  r  F2  _L'_  B2  _R2_
+
+side effects: rotates the set of 4 U centers by 180 degrees.
+also makes a 4-cycle of internal (0 faces visible) cubies.
+
+if you're not concerned about moving centers, use
+
+_(R2 B)_  u  _(B' D2 B)_  u'  _B_  l  _(B2 D2 R2)_
+
+here,  _( ... )_  means the whole thing inside the parentheses
+is underlined.
+
+the maneuver that i normally use, since it's appropriate for
+my solving method, is
+
+U2  (r  U2)^5
+
+which makes a 4-cycle of edges in the  r-slice  (and also
+rotates the set of 4 U centers by 180 degrees).  this one
+is short and easy to remember!
+
+these maneuvers all work well on the 5x5x5 also.
+
+mike
+

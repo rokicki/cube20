@@ -1,0 +1,24 @@
+From: Jacob_Davenport@scudder.com (Jacob Davenport)
+Subject: Re: Middle layer last?
+To: "'Cube Lovers'" <cube-lovers@ai.mit.edu>
+
+1.  I learned the solution of top, middle, and then bottom many years ago.
+I forgot most of it, so when I asked Kristin Looney to remind me how to do
+the cube, she showed me her solution, which is top corners, bottom corners,
+top and bottom edges at the same time, then middle edges.  It is a much
+easier solution to do and to teach.  A variant of it can be found at
+http://www.unc.edu/~monroem/rubik.html, although in this variant he is more
+rigid about how to solve the top and bottom edges.  So, I'd forget your
+original method of top/middle/bottom, because it does not revel in the
+corner/edge dichotomy of the cube.  I only use top/middle/bottom when
+solving cubes with complicated patterns, such as those at
+http://www.wunderland.com/WTS/Kristin/CustomCubes.html.
+
+2.  The shortest, pratical, method for solving the cube, in my opinion, is
+the one discussed above.  Kristin, who does not have incredibly fast hands,
+did very well in speed cube competitions when pitted against people who had
+hot hands but the top/middle/bottom solution.  Also, I can teach someone
+this solution in an hour.
+
+-Jacob
+

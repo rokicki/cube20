@@ -1,0 +1,49 @@
+From cube-lovers-errors@curry.epilogue.com  Sun Nov  3 21:44:47 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id VAA11881; Sun, 3 Nov 1996 21:44:46 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: Stan Isaacs <isaacs@hpcc01.corp.hp.com>
+Message-Id: <199611040235.AA111104943@hpcc01.corp.hp.com>
+Subject: Book on Bandaged Cubes
+To: cube-lovers@ai.mit.edu
+Date: Sun, 3 Nov 96 18:35:43 PST
+Mailer: Elm [revision: 70.85.2.1]
+
+I just got a book that might be very interesting to cube lovers.  It's 
+called "Bandaged Cubes", by Dieter Gebhardt.  Some cube lovers may 
+already know Dieter and about bandaged cubes, from articles in the 
+CFF magazine; this is all about bandaging in one place.  He presents
+notation and classification, and discusses many types, the 
+group-theory of them, and how to solve them.  It even has color pictures
+of some of the variations.
+
+One type is the C-block cube (also called "Rigit Edge Cube"), which is 
+just half of the Siamese cube recently discussed here.
+
+For those who haven't seen articles on this, bandaged cubes are regular
+Rubik's cubes with some edges taped together.  If you tape 2 cubies, 
+one corner and one edge, that is an "A-block".  If you tape an edge and a
+center, that's a "B-block".  2 corners and an edge (3 cubies) is a "C-block.
+And so on - he has notation for all the bandage possibilities, and 
+discusses (as far as I can tell) all the interesting variations in a 
+3x3x3.  (He leaves 4x4x4 and 5x5x5 bandaged cubes for a later time.)
+
+Anyway, if you get tired of Rubik's cube itself, these offer dozens
+of variations, each with its own quirks and limitations, and many 
+chances for new discoveries.
+
+According to CFF, the booklet can be bought from Dieter for $24 (DM 36)
+(including postage) at:
+	Dieter Gebhardt
+	Norikerstrasse, 23, D-90402
+	Nurnberg, GERMANY
+
+Its 100 pages, with 74 figures and 4 color plates.
+
+I highly recommend it.  Every Cube-lover should have a copy.  (Of course, 
+now I need a cheap source of blank cubes to tape.)
+
+ -- Stan Isaacs
+
+

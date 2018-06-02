@@ -1,0 +1,52 @@
+From ybanezs%geds@mhsgate.salem.ge.com  Fri Oct 28 15:57:15 1994
+Return-Path: <ybanezs%geds@mhsgate.salem.ge.com>
+Received: from ns.ge.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14911; Fri, 28 Oct 94 15:57:15 EDT
+Received: from thomas.ge.com by ns.ge.com (5.65/GE Gateway 1.26) with SMTP
+	 id AA01985; Fri, 28 Oct 94 15:36:26 -0400
+Received: from carsdb.salem.ge.com by thomas.ge.com (5.65/GE Internal Gateway 1.26) with SMTP id AA01096; Fri, 28 Oct 94 15:57:11 -0400
+Received: from mhsgate.salem.ge.com by salem.ge.com (4.1/SMI-4.1)id AA16210; Fri, 28 Oct 94 15:57:08 EDT
+Received: by mhsgate.salem.ge.com from NetWare MHS, SMF-70via XGATE 2.12 MHS to SMTP Gateway (XSMTP Module)
+Message-Id: <90439D380105AED1@mhsgate.salem.ge.com>
+Date: Fri, 28 Oct 94 15:56:21 EST
+From: Ybanez Sheldon <ybanezs%geds@mhsgate.salem.ge.com>
+To: cube-lovers@ai.mit.edu, bryan@wvnvm.wvnet.edu
+Subject: Re: Speed Cubing
+Return-Receipt-To: <ybanezs%geds@mhsgate.salem.ge.com>
+X-Mailer: XGATE 2.12 MHS/SMTP Gateway
+
+>Has any analysis of speed cubing been performed in the sense of how
+>many twists were performed?  How many twists does somebody accomplish
+>in under 45 seconds or in 22.95 seconds?
+
+
+
+I too had wondered this...  and in what way was the solved cube 
+'scrambled' for most of you cubists know that all scrambling is not 
+equal...  I have found some of my quickest times involved arriving at the 
+solution much sooner than expected by not needing to perform some 
+auxiliary, but essential and long routines....   Could these world record 
+times have been accomplished with random scrambling..... I have always 
+pondered how fast I would have completed the cube if I was handed the 
+'same' cube that Minh 'flew' on.... A move count would be very 
+interesting indeed.... 
+
+With the right equipment and a good copy of the world record video 
+tape... it may be conceivable to actually count the moves.... 
+
+In the Hey day of cubing, during a younger version myself, I also found 
+by making a good guess at which way to solve the cube (ie.. Top to bottom 
+or
+top, bottom, then middle) I could easily cut a few seconds off my S.T. 
+(solution time)...  but I can't for the life of me remember the 
+criteria..
+
+
+                                                         ,,,
+______________________________________________________  (o o)  _________
++----------------------------------------------------ooO-(_)-Ooo-------+
+| Sheldon Ybanez  [ybanez-s@salem.ge.com]  GE Drive Systems  Salem, VA |
+|     Always "Remember. No matter where you go, there you are." 88     |
++======================================================================+
+
+
+

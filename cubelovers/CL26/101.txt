@@ -1,0 +1,97 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jan  7 13:53:48 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA29288
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 7 Jan 1999 13:53:47 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 6 Jan 1999 23:02:32 -0500
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199901070402.XAA18140@cauchy.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Your Optimal Solver
+
+herbert writes
+
+> You use the lines similar to
+>
+> if (p_node[1].remain_depth<DIST) continue;
+>
+> which means tree pruning and we apply the next move in this depth.
+>
+> An analysis shows, that the case (p_node[1].remain_depth<DIST-1) also
+> happens quite often (while p_node[1].remain_depth<DIST-n can never occur
+> for n>1 except at the very beginning of the search). In this case, if we
+> for example had applied the move R, we need not to check R2 and R' any
+> more but we can continue with another axis.
+
+interesting idea.  when i get a chance i'll see if i can also get a
+performance boost using this idea.
+
+for quarter turns, there is something similar i can do, but this is
+only because of the method i used for quarter turns.  namely, i
+don't ever do  R R , instead, i do  R2  and count it as two moves.
+if applying the move  R  results in a branch of the tree that gets
+pruned, then we do not have to try  R2.
+
+however, if i used a different method for quarter turns, where i only
+make one move at a time, then the  R2  branch would be a sub-branch
+of the  R  branch.  thus it would be pruned automatically.
+this suggests that it might be better to use this latter method for
+searching the tree.  (the only reason i didn't do this is that i
+wanted to use one function for both quarter turns and face turns.)
+
+another idea, suggested to me by rich korf, is to use the line
+
+     if ((node.remain_depth < ELEVEN) && (node.remain_depth < DIST))
+        continue;  /*  prune this branch  */
+
+where  ELEVEN  is just the constant 11, and  DIST  is the macro to
+look into the big table for the distance of the current coset.
+if the first part of the expression is  TRUE , then we evaluate
+the second part.  in this case we did a tiny bit of extra work
+to evaluate the first part.  but if the first part is  FALSE ,
+then we save some work by not looking into the table.  we lose
+a little bit of pruning (there are some cosets at distance 12)
+but this is very small.  rich explained (if i understood correctly)
+that every look into the big table is expensive, because it will
+pull a small piece of the table into cache.  but this piece
+is unlikely to be used again soon, so it probably displaced some
+more useful stuff from cache.  the DIST macro is also a complicated
+expression, so it is also expensive in that way.  when i tried this,
+i didn't measure any significant performance boost (< 1%).  but the
+cache benefit would be more noticeable for longer searches, so
+perhaps my test was just too short.  it also depends upon your DIST
+macro (or corresponding code); i think rich had more processing to
+do besides looking into the table.  and it may also depend on the
+size of your secondary cache.
+
+i do have this in my huge optimal solver, so it must have given
+some improvement there, but i don't remember how much.  i had to
+do lots of tweaking for performance issues on this program.
+
+herbert, if you have a program that uses the exact same coordinates
+as mine, you will find it amusing to try the positions
+
+*  position created by  R2 F' R2 F2 D2 F' R2 F2 R2 D2 F' D2 F'
+*  inverse of the above position.
+
+and noticing the huge difference.  because of this, i thought
+about maybe solving either the input position or its inverse,
+depending upon which should be faster.  my experiments showed
+that it wasn't easy to predict which would be easier by looking
+only at the distances of the 3 initial cosets.  but perhaps
+doing a mini-search on each, and looking at how many nodes
+they spawn would give a better guess.
+
+of course, we can't expect to get the kind of performance boost
+suggested by the extreme example above, but we might get something.
+
+then i had a more ambitious idea:  maybe we could prune the search
+tree by having the program realize "the inverse of this position is
+too far from start".  the conclusion i eventually arrived at was that
+it wouldn't be possible to keep track of the coset of the inverses
+by using transformation tables.  so this idea probably won't work.
+
+mike
+

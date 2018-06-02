@@ -1,0 +1,87 @@
+From cube-lovers-errors@oolong.camellia.org  Tue May 13 12:38:16 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id MAA03375; Tue, 13 May 1997 12:38:16 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Tue, 13 May 1997 11:50:30 +0100
+Message-Id: <9705131050.AA12905@mentda.me.ic.ac.uk>
+X-Sender: ars2@mentda.me.ic.ac.uk
+X-Mailer: Windows Eudora Light Version 1.5.2
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: "Andrew R. Southern" <a.southern@ic.ac.uk>
+Subject: Re: Extra-long Rubik's magic rings
+
+At 07:53 12/05/97 -0400, you wrote:
+>As I recollect the 12 panel Magic Rings was called the Master's Edition. 
+>Since they have been out of manufacture for quite awhile suggest you buy it
+>when you see it.
+>
+>The 8 panel edition has been released by ODDZON and is in some toy stores
+>along with some other Rubik's items.
+>
+>As some of you might remember there also was a 4 panel magic sold.  If you
+>have ever taken one apart you know that any multiple of 4 is possible. 
+>Awhile back I posted intstructions on CUBE LOVERS for restringing and or
+>making your own variant.  The panels are just 2 pieces of plastic with the
+>design sandwiched in bewteen.  They are not glued but held together by the
+>strings.
+>
+>
+>Does anybody know where to get I BET YOU CAN"T ?? a variant made with
+>hexagon panels.
+>
+
+I must point out at this point that the magic's stringing pattern actually
+revovles around just two patterns, which are equivalent to each other in
+some positions.
+
+These patterns actually only require three tiles. Three tiles will not make
+a circuit, but they will make a nice line or L-shape. 
+
+For a bit of real(?) excitment(??) you could try to make one out of just two
+panels. This is highly possible, as I did it back when I was 12 or 13 in
+Senior school. The secret is that you loop one of the "Ligaments" as I used
+to call them back around one panel twice. I cannot remember whether or not
+this could go around for ever or whether it had a definiate start and end
+point, but it certainly confused my classmates.
+
+I also know that it is possible to add just two panels onto an ordinary
+Rubik's Magic, creating a 2x5 array, which I don't have to say, is not
+exactly divisible by four. This was fully functional, but when it was folded
+in half, it did not go into "Loop" or "Tie Fighter", it went into "Fish"
+from either side, unless the last two squares were folded in before folding
+along the centre line. I called this the "Diabolical Edition" because it was
+harder than the Master Edition, and I made about four of them for members of
+my old school (Blue Coat, Liverpool).
+
+loop:
+!--!
+!__!
+
+tie fighter:
+\/\/
+/\/\
+
+Fish:
+\/-\
+/\_/
+
+I also created a "master Edition" from Two ordinary magics when someone drew
+freehand the "Sandwich Filler" pieces of paper. 
+
+But my Piece de Resistance is the 64-panelled monstrousity that used to take
+me an hour to solve, and was a complete work-out as there was so much
+to-and-fro ing of the entire magic. I had to use the pictures from 12
+magics, and is just an extension of the master editions solution. When it is
+in a 32x2 state, it was higher than my (then) best friend, and you require
+quite substantial floor space to solve it.
+
+-Andy Southern
+(The artist formerly known as the Unofficail Thermo-Fluids Fan Club of the UK).
+
+
+
+
+

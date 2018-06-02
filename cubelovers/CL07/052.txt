@@ -1,0 +1,62 @@
+From @po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu  Mon May 13 00:51:55 1991
+Return-Path: <@po5.andrew.cmu.edu:dn1l+@andrew.cmu.edu>
+Received: from po5.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) id AA26112; Mon, 13 May 91 00:51:55 EDT
+Received: by po5.andrew.cmu.edu (5.54/3.15) id <AA11195> for Cube-Lovers@life.ai.mit.edu; Mon, 13 May 91 00:51:46 EDT
+Received: via switchmail; Mon, 13 May 91 00:51:46 -0400 (EDT)
+Received: from kwacha.mg.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q003/QF.Ac=VfYC00aw4I0SXg3>;
+          Mon, 13 May 91 00:49:43 -0400 (EDT)
+Received: from kwacha.mg.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr18/dn1l/.Outgoing/QF.Ec=VfSO00aw44igFVQ>;
+          Mon, 13 May 91 00:49:34 -0400 (EDT)
+Received: from Messages.7.8.N.CUILIB.3.45.SNAP.NOT.LINKED.kwacha.mg.andrew.cmu.edu.pmax.3
+          via MS.5.6.kwacha.mg.andrew.cmu.edu.pmax_3;
+          Mon, 13 May 91 00:49:34 -0400 (EDT)
+Message-Id: <Uc=VfSG00aw40igFNs@andrew.cmu.edu>
+Date: Mon, 13 May 91 00:49:34 -0400 (EDT)
+From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: 5by cubes
+Cc: Cube-Lovers@life.ai.mit.edu
+In-Reply-To: <9105110258.AA29787@boston-harbor>
+References: <9105110258.AA29787@boston-harbor>
+
+Excerpts from internet.cube-lovers: 10-May-91 5by cubes Andy
+Latto@lucid.com (383)
+
+>You can't make an order 21 cube, or any cube of order 7 or higher.
+>When you turn the top layer of such a cube by 45 degrees, the corner
+>cubie will not touch the other layers at all, so there's
+>no way to keep it attached, and it will fall off.
+
+
+There is no law that says that the cubes have to be the same size.
+
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+----+---+--+-+--+---+----
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+----+---+--+-+--+---+----
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+----+---+--+-+--+---+----
+XXXX|XXX|XX|X|XX|XXX|XXXX
+----+---+--+-+--+---+----
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+----+---+--+-+--+---+----
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+----+---+--+-+--+---+----
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+XXXX|XXX|XX|X|XX|XXX|XXXX
+
+JUST AS AN EXAMPLE.
+

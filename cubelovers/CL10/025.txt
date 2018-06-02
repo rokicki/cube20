@@ -1,0 +1,25 @@
+From acw@bronze.lcs.mit.edu  Thu Aug  5 17:03:17 1993
+Return-Path: <acw@bronze.lcs.mit.edu>
+Received: from bronze.lcs.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16999; Thu, 5 Aug 93 17:03:17 EDT
+Received: by bronze.lcs.mit.edu 
+	id AA22841; Thu, 5 Aug 93 17:02:45 EDT
+Date: Thu, 5 Aug 93 17:02:45 EDT
+From: acw@bronze.lcs.mit.edu (Allan C. Wechsler)
+Message-Id: <9308052102.AA22841@bronze.lcs.mit.edu>
+To: Dik.Winter@cwi.nl
+Cc: cube-lovers@life.ai.mit.edu
+In-Reply-To: Dik.Winter@cwi.nl's message of Tue, 3 Aug 93 03:10:22 +0200 <9308030110.AA23300.dik@boring.cwi.nl>
+Subject: Diameter of cube group?
+
+I wonder about the validity of your Monte Carlo analysis.  It seems
+to be based on an intuition about how fast the number of configurations
+falls off with the distance from SOLVED.  I share the intuition, but
+I'm not sure I can rigorize it, and that makes me cautious.
+
+What prevents a group from having a "pointy tail", that is, a "corridor"
+of elements at increasing distances from the identity?  In fact, does
+the number of elements as a function of distance have to be unimodal?
+Could this function have a "waist"?  Intuitively, this sounds
+impossible, but I am wondering what constraints on such functions are known.
+
+

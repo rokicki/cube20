@@ -1,0 +1,14 @@
+From this state it is relatively easy to get to another, very interesting
+state: namely the 4X4X4 appears to be completely solved except that two
+opposite corners are exchanged.  (Again, this is obviously impossible on
+the 3X3X3.)
+
+Left as an exercise for the reader.      ;)
+
+
+Nichael
+ncramer@bbn.com            Dr Pepper: It's not just for breakfast any more.
+
+
+
+

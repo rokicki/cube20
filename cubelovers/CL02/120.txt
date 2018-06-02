@@ -1,0 +1,26 @@
+Date: 30 Jul 1981 16:59 PDT
+From: Woods at PARC-MAXC
+Subject: Misc Cube replies
+In-reply-to: recent messages
+To: RMC at MIT-MC (R. Martin Chavez), CWH at MIT-MC (Carl W. Hoffman)
+cc: CUBE-LOVERS at MIT-MC
+
+To RMC:
+
+The proper way to get yourself added to any of the large lists at MIT is to
+send a message to <name-of-list>-REQUEST, e.g., CUBE-LOVERS-REQUEST. 
+Likewise for getting yourself removed from the list.  Also, a macro for
+swapping two corners and two edges (all on the same face, and without
+flipping any of them), is (UUFLF')*5.  There are probably shorter ones,
+but I like this one because it requires remembering only a very short
+sequence, making it easier to do when stoned/drunk/tired/etc.
+
+To CWH:
+
+I don't believe you can rotate a single center facie 180 degrees
+without changing anything else, which means you can make a lot of
+confusion for someone by inverting the diamond and coming up with
+a cube that appears to have only one center facie flipped.
+
+	-- Don.
+

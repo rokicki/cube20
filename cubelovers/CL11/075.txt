@@ -1,0 +1,158 @@
+From Don.Woods@eng.sun.com  Mon Jan  3 19:50:59 1994
+Return-Path: <Don.Woods@eng.sun.com>
+Received: from Sun.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA28614; Mon, 3 Jan 94 19:50:59 EST
+Received: from Eng.Sun.COM (zigzag.Eng.Sun.COM) by Sun.COM (4.1/SMI-4.1)
+	id AA24247; Mon, 3 Jan 94 16:50:55 PST
+Received: from colossal.Eng.Sun.COM by Eng.Sun.COM (4.1/SMI-4.1)
+	id AA22695; Mon, 3 Jan 94 16:49:20 PST
+Received: by colossal.Eng.Sun.COM (5.0/SMI-SVR4)
+	id AA16535; Mon, 3 Jan 94 16:51:07 PST
+Date: Mon, 3 Jan 94 16:51:07 PST
+From: Don.Woods@eng.sun.com (Don Woods)
+Message-Id: <9401040051.AA16535@colossal.Eng.Sun.COM>
+To: cube-lovers@ai.mit.edu
+Subject: tangled cube
+X-Sun-Charset: US-ASCII
+Content-Length: 2449
+
+Well, a pleasant surprise!  It _is_ possible to take a set of 24 distinct
+tiles from any Rubik's Tangle, and use them to tile the surface of a 2x2x2
+cube such that all touching ropes match.  And the solution is unique!
+
+I'll include the solution below, after some blank lines to avoid spoiling it
+for anyone who wants to try solving the puzzle without seeing the answer...
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+First, a hint.  If you look at any face of the cube, and look at the two
+pairs of colors at any edge of that face, the two pairs will be the same.
+That is, if one tile touches a cube edge with colors red-blue, the adjacent
+tile on that face touching the same edge will also touch the edge with red-
+blue.  I see no obvious reason why the solution should have this property,
+but it does.
+
+Solution below.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+Solution: Note that there is also a correlation between the color pairs that
+occur within a face, and the color pairs that occur at the edges of that face.
+Also, the orientation of every tile is the same relative to the adjacent of
+the cube that the tile touches.  This makes it relatively easy to reconstruct
+the solution manually.
+
+           BR   BR                     
+          G..G G..Y                    
+          R..Y Y..B                    
+           YB   GR                     
+                                       
+           YB   GR                     
+          G..R R..Y                    
+          R..B B..B                    
+           YG   YG                     
+                                       
+ GR   GR   YG   YG   BY   BY   RB   RB 
+Y..Y Y..B B..B B..R R..R R..G G..G G..Y
+R..B B..G G..R R..Y Y..G G..B B..Y Y..R
+ BG   YR   RY   BG   GB   RY   YR   GB 
+                                       
+ BG   YR   RY   BG   GB   RY   YR   GB 
+Y..R R..B B..G G..R R..Y Y..G G..B B..Y
+R..G G..G G..Y Y..Y Y..B B..B B..R R..R
+ BY   BY   RB   RB   GR   GR   YG   YG 
+                                       
+           RB   RB                     
+          Y..Y Y..G                    
+          B..G G..R                    
+           GR   YB                     
+                                       
+           GR   YB                     
+          Y..B B..G                    
+          B..R R..R                    
+           GY   GY                     
+

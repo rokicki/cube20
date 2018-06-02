@@ -1,0 +1,29 @@
+Received: from XN.LL.MIT.EDU (TCP 1200400012) by AI.AI.MIT.EDU  1 Mar 89 22:24:54 EST
+Received:  by XN.LL.MIT.EDU; Wed, 1 Mar 89 23:14:14 EDT
+Date: Wed, 1 Mar 89 23:14:14 EDT
+From: rp@XN.LL.MIT.EDU (Richard Pavelle)
+Posted-Date: Wed, 1 Mar 89 23:14:14 EDT
+Message-Id: <8903020314.AA17583@XN.LL.MIT.EDU>
+To: cube-lovers@ai.ai.mit.edu
+Subject: Impossible object puzzle
+
+A "former friend" of a "former friend" passed on to me a puzzle which
+appears to be impossible to solve. I do not know its name nor who
+makes it. It is also hard to describe but here goes: It is a clear box
+about (1.5")^3. Inside are three (3/4) yellow planes which intersect
+in the center of the box and extend to the sides.
+____
+| x |
+|   -----    
+|    0  |
+|_______|
+
+Here is a picture of the 3/4 plane. The "x" and "0" are holes which
+will be explained. The box contains three identical blue objects which
+look like half dumbbells. They will fit through the "0" hole but only
+the shaft will fit into the "x" hole. The puzzle is to insert each of
+the three shafts into each of the three "x" holes.
+
+It is easy to get one in and I once got two in. But to get all three
+in simultaneously seems impossible. Does anyone know whether this
+puzzle can be solved and add more info on who makes it, etc?

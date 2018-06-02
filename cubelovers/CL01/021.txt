@@ -1,0 +1,30 @@
+Date: 5 Dec 1980 1038-PST (Friday)
+From: Mike at UCLA-SECURITY (Michael Urban)
+Subject: Cube approach survey?
+To: cube-lovers at mc
+
+  Top edges, top corners, middle edges, bottom edges, bottom
+corner placing, bottom corner orientation.  Takes me about 4
+minutes, but I'm out of practice.   None of the steps requires
+any real unusual tools.  I suspect I got in the habit of
+solving the cube in that order because the initial challenge
+was "get one face".  Then I realized that the next step must
+surely be "get one face so that it matches the center
+faces of the sides".  
+  The beauty of the cube is that, unlike Instant Insanity
+or its cousins, the Cube's solutaion can not be stumbled
+across by accident.  Instead, it's a learning experience,
+as you learn to manipulate things, then to manipulate
+cubies without messing up what you already have
+done.  This gets progressively more sophisticated as
+more of the cube comes into place.  Definitely the
+most satisfying puzzle I've ever dealt with.  However,
+I'd be interested to find out how many as-yet-unsolved
+Cubes are sitting even now on the shelves of disgusted customers
+who thought they were great puzzlists because they solved Soma,
+but weren't patient enough to figure out how to get those
+last two corner cubies oriented right.
+
+	Mike
+-------
+

@@ -1,0 +1,22 @@
+From dik@cwi.nl  Tue Jan  7 10:14:17 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA26150; Tue, 7 Jan 92 10:14:17 EST
+Received: by charon.cwi.nl with SMTP; Tue, 7 Jan 1992 16:14:05 +0100
+Received: by boring.cwi.nl ; Tue, 7 Jan 1992 16:14:01 +0100
+Date: Tue, 7 Jan 1992 16:14:01 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9201071514.AA05644@boring.cwi.nl>
+To: cosell@bbn.com, cube-lovers@life.ai.mit.edu
+Subject: Re:  Hungarian Rings solution?
+
+You don't nood commutators for it, cycles are sufficient (because there
+are so many similar colored beads).  If I remember right one useful move
+is:  turn right ring clockwise two beads, turn left clockwise two beads,
+turn right anti-clockwise two beads, turn left anti-clockwise two beads.
+Using them properly will solve the rings.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+

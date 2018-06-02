@@ -1,0 +1,20 @@
+From @cunyvm.cuny.edu:Matt_Drobel@Novell.COM  Tue Jun 29 11:02:15 1993
+Received: from CUNYVM.CUNY.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01717; Tue, 29 Jun 93 11:02:15 EDT
+Received: from ns.Novell.COM by CUNYVM.CUNY.EDU (IBM VM SMTP V2R2) with TCP;
+   Mon, 28 Jun 93 15:58:19 EDT
+Received: by ns.Novell.COM (4.1/SMI-4.1)
+	id AA12073; Mon, 28 Jun 93 13:58:30 MDT
+Received: by MHS.Novell.COM id 259C7D7D810A02D0; Mon, 28 Jun 93 13:58:29 MDT
+Return-Path: <MDROBEL@MHS.Novell.COM>
+Return-Receipt-To: Matt_Drobel@novell.com
+Precedence: special-delivery
+To: cube-lovers%ai.mit.edu@cunyvm.cuny.edu
+Message-Id: <4E917D7D010A02D0@MHS.Novell.COM>
+Subject: <None>
+From: Matt_Drobel@novell.com (Drobel, Matthias)
+Date: Mon, 28 Jun 93 13:55:57 MDT
+Total-To: cube-lovers%ai.mit.edu@cunyvm.cuny.edu 
+
+signoff cube-lovers
+
+

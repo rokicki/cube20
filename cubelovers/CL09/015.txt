@@ -1,0 +1,35 @@
+From gls@think.com  Thu Jun 11 17:11:55 1992
+Received: from mail.think.com (Mail1.Think.COM) by life.ai.mit.edu (4.1/AI-4.10) id AA12924; Thu, 11 Jun 92 17:11:55 EDT
+Return-Path: <gls@Think.COM>
+Received: from Strident.Think.COM by mail.think.com; Thu, 11 Jun 92 16:52:32 -0400
+From: Guy Steele <gls@think.com>
+Received: by strident.think.com (4.1/Think-1.2)
+	id AA18593; Thu, 11 Jun 92 16:52:31 EDT
+Date: Thu, 11 Jun 92 16:52:31 EDT
+Message-Id: <9206112052.AA18593@strident.think.com>
+To: ronnie@cisco.com
+Cc: wft@math.canterbury.ac.nz, Cube-Lovers@life.ai.mit.edu
+In-Reply-To: ronnie@cisco.com's message of Wed, 10 Jun 92 12:11:35 PDT <9206101911.AA01765@wolf.cisco.com>
+Subject: Name query. 
+
+   From: ronnie@cisco.com
+   Date: Wed, 10 Jun 92 12:11:35 PDT
+
+   > Can anyone tell me:-
+   > 
+   > Why is the "Pons Asinorum" pattern so called ?
+
+   Pons Asinorum is Latin for "Asses' Bridge," and is the name of the
+   proposition that the base angles of an isoceles triangle are equal.
+   It is more generally any test of ability imposed upon the inexperienced
+   or ignorant.
+
+The term also carries the connotation that the test is in fact
+of the simplest and most elementary kind.  If you can't prove
+the Pons Asinorum of geometry, then you don't know even the most
+elementary concept of geometry--i.e., as a geometer, you know as
+much as a donkey.  And if you cannot form the Pons Asinorum
+pattern, you sure don't know much about cubing.
+
+--Guy Steele
+

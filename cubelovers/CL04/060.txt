@@ -1,0 +1,21 @@
+Date: 6 August 1982 19:51-EDT
+From: Allan C. Wechsler <ACW at MIT-AI>
+Subject: Invisible group of the 4^3
+To: CUBE-LOVERS at MIT-AI
+
+
+The 4^3 doesn't have a supergroup in the sense of the 3^3 --
+the orientations of the ceter cubies are determined by their positions.
+
+However, there is one fairly natural adjunct group that people might 
+try thinking about and solving.  A 4^3 shows 24 center cubies,
+24 edge cubies, and eight corner cubies.  But if it were really
+a solid cube chopped up by parallel slices, it would have eight
+more cubies buried inside.  Call them stomach cubies.  The eight
+stomach cubies form a 2^3 buried in the 4^3.  They move when you
+twist slices.  Can people come up with tools to frob the
+stomach cubies without disturbing the visible cubies?  What is
+the order of the adjunct group?
+
+   --- Allan
+

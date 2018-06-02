@@ -1,0 +1,165 @@
+From hoey@aic.nrl.navy.mil  Sun Dec 17 02:41:05 1995
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02259; Sun, 17 Dec 95 02:41:05 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA24181; Sun, 17 Dec 95 02:41:02 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Sun, 17 Dec 95 02:41:02 EST
+Date: Sun, 17 Dec 95 02:41:02 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9512170741.AA27424@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers@life.ai.mit.edu, rusin@washington.math.niu.edu (Dave Rusin)
+Newsgroups: sci.math
+Subject: Presenting Rubik's Cube
+References: <mschoene.817657981@astoria> <1995Nov29.054118.9651@cs.rit.edu> <9511291210.Hoey@aic.nrl.navy.mil> <49ihhd$j20@muir.math.niu.edu>
+
+A few weeks ago I mentioned the old problem of finding a presentation
+of the Rubik's cube group in terms of the usual generators.  This was
+posed by Singmaster over 15 years ago, and as far as I know has never
+been addressed.  I've made some progress.
+
+I work using a specially selected set of generators, rather than the
+usual generators given for the cube.  First I give presentations
+separately for the permutation groups of the corners and edges, and
+the orientation groups of the corners and edges.  Then I join the
+permutation groups with their respective orientation groups to form
+the wreath groups, which describe the possible motions of the
+respective piece types.  I join the two wreath groups in such a way
+that the permutation parity of the two is equal.  Finally, I discuss a
+method of converting to the usual generators.
+
+In Coxeter and Moser's _Generators and Relations for Discrete Groups,
+2nd ed_ I found Coxeter's presentation 6.271 for the symmetric group
+on {1,2,...,n}, n even.  With a modest change of variables, his
+presentation is on generators
+    v=(1 2) and s=(2 3 ... n)                                ((1))
+and relators
+    v^2,
+    v s^(n-2) (v s^-1)^(n-1),
+    (s^-1 v s v)^3, and
+    ((s^-1 v)^i (s v)^i)^2,            i=2,...,n/2-1.        ((2))
+Here n will be 8 or 12 to present the group of the permutations of
+corners or edges, respectively.
+
+The orientation group of the corners (or edges) is the direct product
+of n-1 cyclic groups, which can be presented with generators
+         r_0=(1)+(2)-
+         r_1=(1)+(3)-, ...,
+     r_(n-2)=(1)+(n)-,      ((3))
+where (k)+ indicates a reorientation of piece k in place and (k)-
+indicates the inverse reorientation.  The relators here are
+     r_i^d,            (d=3 (corners) or 2 (edges)), and
+     r_i r_j r_i^-1 r_j^-1,            0 <= i < j <= n-2.     ((4))
+
+I generate the wreath group with the union of the generators ((1,3)).
+The added relators
+     v r_0 v r_0
+     v r_i v r_0 r_i                   i=1,...,n-2,
+     s^-1 r_i s^i r_(i+1)^-1           i=0,...,n-3, and
+     s^-1 r_(n-2) s^i r_0^-1                                 ((5))
+will permit moving the r_i to the end of a word, after which the
+previous relators ((2)) and ((4)) may be used to manipulate the parts
+separately, just as a Rubik's cube solvers can perform any needed
+permutations before reorientations.
+
+In the wreath group, the r_i are conjugate to each other.  The third
+line of ((5)) may be used to define r_k = s^-k r_0 s^k, so I eliminate
+r_1,...,r_(n-1) and write r_0 as r.  The last line of ((5)) is then a
+consequence of s^(n-1)=e, which is implied by ((2)), according to
+Coxeter.  The conjugacy also lets me rewrite ((4)) as
+     r^d,            (d=3 (corners) or 2 (edges)), and
+     s^-j r s^j r' s^-j r' s^j r,      j=1,...,(n-2)/2.      ((6))
+
+As the discussion turns to working with corners and edges together, I
+write cs,cr and es,er for the respective generators.  I use a single
+generator v that acts on both corners and edges, to ensure that the
+corner permutation has the same parity as the edge permutation.  Since
+any identity in {v,cs,cr} must use an even number of v's, the identity
+will hold in the when the v operates on edges as well; similarly for
+{v,es,er} operating on the corners.
+
+To present the whole cube group, I use all five generators, relators
+((2,5,6)) for both corners and edges, and new relators
+    es cs es' cs', er cs er cs', es cr es' cr', er cr er cr'
+to make the two kinds of generators commute, so they may be separated
+in a word.  According to GAP, the complete set of relators is
+    er^2,
+    v^2,
+    cr^3,
+    er cr er cr^-1,
+    er cs er cs^-1,
+    es cr es^-1 cr^-1,
+    es cs es^-1 cs^-1,
+    (v cr)^2,
+    (v er)^2,
+    cr cs cr cs^-1 cr^-1 cs cr^-1 cs^-1,
+    (er es er es^-1)^2,
+    cs cr^-1 cs^-1 v cs cr cs^-1 v cr,
+    cs^-1 cr^-1 cs v cs^-1 cr cs v cr,
+    (es er es^-1 v)^2 er,
+    (es^-1 er es v)^2 er,
+    cr cs^2 cr cs^-2 cr^-1 cs^2 cr^-1 cs^-2,
+    (cs^-1 v cs v)^3,
+    (er es^2 er es^-2)^2,
+    (es^-1 v es v)^3,
+    cr^-1 cs^-2 v cs^2 cr cs^-2 v cr cs^2,
+    cr^-1 cs^2 v cs^-2 cr cs^2 v cr cs^-2,
+    er es^-2 v es^2 er es^-2 v er es^2,
+    er es^2 v es^-2 er es^2 v er es^-2,
+    cr cs^3 cr cs^-3 cr^-1 cs^3 cr^-1 cs^-3,
+    ((cs^-1 v)^2 (cs v)^2)^2,
+    (er es^3 er es^-3)^2,
+    ((es^-1 v)^2 (es v)^2)^2,
+    cs^-3 v cs^3 cr cs^-3 v cr cs^3 cr^-1,
+    cs^3 v cs^-3 cr cs^3 v cr cs^-3 cr^-1,
+    (es^3 er es^-3 v)^2 er,
+    (es^-3 er es^3 v)^2 er,
+    (cs^-2 v cs^-1 v cs v cs^2 v)^2,
+    (es^-2 v es^-1 v es v es^2 v)^2,
+    (er es^4 er es^-4)^2,
+    (es^-4 er es^4 v)^2 er,
+    (es^4 er es^-4 v)^2 er,
+    v cs^6 (v cs^-1)^7,
+    (es^-3 v es^-1 v es v es^3 v)^2,
+    (er es^5 er es^-5)^2,
+    (es^5 er es^-5 v)^2 er,
+    (es^-5 er es^5 v)^2 er,
+    (es^4 v es^-4 v es^-1 v es v)^2,
+    v es^10 (v es^-1)^11,                                     ((7))
+which has 43 relators of total length 597.  It is apparently beyond
+GAP's ability to verify that these relators present the cube group,
+though I have verified some smaller wreath groups.
+
+This presentation is of course in terms of generators {v,es,er,cs,cr},
+not the generators {F,B,L,R,T,D} natural to the cube. But they can be
+translated as follows.  Each quarter-turn Q can be expressed as a word
+w(Q) over {v,es,er,cs,cr}, and adding the relators
+
+    F' w(F), B' w(B), L' w(L), R' w(R), T' w(T), D' w(D)     ((8))
+
+will create a presentation on eleven generators
+{v,es,er,cs,cr,F,B,L,R,T,D}.  I estimate that the added relators will
+be under 70 letters each, and probably less.  If it is desired to
+completely eliminate {v,es,er,cs,cr}, that may be done by replacing
+each of {v,es,er,cs,cr} with processes in terms of F,B,L,R,T,D,
+throughout ((7,8)).  My understanding of the current state of the
+software is that the processes will probably be less than 30
+quarter-turns each.  This would yield a presentation of 49 relators
+and perhaps 2000 letters.  It should be possible to improve this quite
+a bit.  I would suggest:
+
+    1. Choosing the corner and edge numbering to reduce the
+           rewriting blowup,
+    2. Allowing w(Q) to use previously-related Q's as well as
+           {v,es,er,cs,cr}.
+    3. Adding new relators to abbreviate higher powers, especially
+           of es and cs, in the presentation.
+    4. Introducing short relators such as F^4=FBF'B'=e to cut down on
+           the general verbosity of the relators.
+
+But improvement to the level of actual comprehensibility may require
+new ideas.  Perhaps Dave Rusin's "clearer statement" of the question
+may help, if I can figure out what it means.
+
+Dan                                        posted and e-mailed
+Hoey@AIC.NRL.Navy.Mil
+

@@ -1,0 +1,112 @@
+From @uconnvm.uconn.edu:dmoews@xraysgi.ims.uconn.edu  Fri Feb 23 00:39:22 1996
+Return-Path: <@uconnvm.uconn.edu:dmoews@xraysgi.ims.uconn.edu>
+Received: from UConnVM.UConn.Edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06036; Fri, 23 Feb 96 00:39:22 EST
+Received: from venus.ims.uconn.edu by UConnVM.UConn.Edu (IBM VM SMTP V2R2)
+   with TCP; Fri, 23 Feb 96 00:39:17 EST
+Received: from xraysgi.ims.uconn.edu by venus.ims.uconn.edu (4.1/SMI-4.1)
+	id AA04295; Thu, 22 Feb 96 16:36:36 EST
+Received: by xraysgi.ims.uconn.edu (931110.SGI/911001.SGI)
+	for @venus.ims.uconn.edu:cube-lovers@life.ai.mit.edu id AA10513; Fri, 23 Feb 96 00:39:02 -0500
+Date: Fri, 23 Feb 96 00:39:02 -0500
+From: dmoews@xraysgi.ims.uconn.edu (David Moews)
+Message-Id: <9602230539.AA10513@xraysgi.ims.uconn.edu>
+To: cube-lovers@life.ai.mit.edu, dmoes@xraysgi.ims.uconn.edu
+Subject: Implementing Shamir's method
+
+
+Since there seems to be a surge of interest in Shamir's method, I
+thought I would mention a few points about it and my implementation
+of it:
+
+1.  How the group must be represented in order to use Shamir's method.
+
+We suppose that elements of our group G are represented by ordered
+tuples, which can be ordered lexicographically; we want to generate
+the list ST in this lexicographical order.  Suppose that we have an element
+s of S, and elements t and u in T which first differ in coordinate i.  For 
+Shamir's method to work, we need to be able to order st and su given
+only the length i initial segments of t and u.  This is true for
+permutation groups if we represent them as acting on {1,...,n}
+(st compares to su as s(t(i)) compares to s(u(i)).)
+It is also true for the wreath products occurring in the cube group:
+suppose G = H wr K, where H is a permutation group acting on {1,...,n},
+and K is a product of cyclic groups with index set {1,...,n}.  Then
+if we write an element g of G as  ( g(1), ..., g(n), g'(1), ..., g'(n) ),
+the g(i)'s being in {1,...,n} and the g'(i)'s in the cyclic groups,
+we can write
+
+( h(1), ..., h(n), h'(1), ..., h'(n) ) ( k(1), ..., k(n), k'(1), ..., k'(n) )
+= 
+( h(k(1)), ..., h(k(n)), h'(k(1)) + k'(1), ..., h'(k(n)) + k'(n) ).
+
+Hence if t and u's first difference is in t(i) != u(i), st and su compare
+as s(t(i)) and s(u(i)), and if t and u's first difference is in t'(i) != u'(i),
+st and su compare as s'(t(i)) + t'(i) and s'(u(i)) + u'(i).
+
+Since you do a lot of composition in Shamir's method, I felt it best to
+leave the permutations unpacked.  I used the wreath product representation
+above, with H = S_8 x S_12 and K = (Z/3Z)^8 x (Z/2Z)^12.  Each permutation
+then used 8 + 12 + 8 + 12 = 40 bytes.  All members of both S and T must be
+stored in memory (see below.)  This used up a lot of memory.  (You could,
+of course, also represent the cube group as a permutation group on the 48
+facelets.)
+
+2.  The data structure for T.
+
+Jerry Bryan has alluded to this.  I used a tree each of whose leaves
+contained a member of T, and each of whose internal nodes contained
+an index indicating which tuple coordinate was being branched on, a
+value of this coordinate for each son, and pointers to each son.
+I also included a pointer to the father to make traversal easier.
+The data structure for T does not change during the algorithm; you
+can use it with more than one S at once.
+
+3.  The data structure for S.
+
+By traversing the T tree approriately, we can output the sequence
+X(s) = (lexicographical sort of {st | t in T}) for each s.  For all elements s
+of S, we need to store s itself, and a marker to show our position in X(s)
+(for me, this was just a pointer to the T tree.)  
+
+We also need enough structure to make merging the X(s)'s easy.  I used a 
+`tree of losers' (cf. Knuth, Chapter 5.)  Since there seems to be
+some uncertainty about this, I will go into detail. Let S = {s_0, ..., s_(N-1)}.
+The tree will then have 2N nodes: N internal ones, 0 through N-1, and N
+leaves, N through 2N-1.  Each internal node i contains a pointer to a leaf.
+The leaves contain the actual s_j's, as well as the pointers to T.  Node i 
+has nodes 2i and 2i+1 as sons if 0<i<N; node 0 has only node 1 for a son.  
+(Since these relations are fixed, no tree traversal pointers need be stored.)  
+Leaf N+j always corresponds to s_j.  The tree is initialized by conducting an 
+elimination tournament: the leaves are initialized with the first elements of 
+the X(s_j)'s, and sons repetitively battle for their fathers, the lesser value 
+always winning, i.e., initializing the father's pointer.  After the tournament 
+is finished (the overall winner ending up in both nodes 0 and 1) we 
+simultaneously, for all i=1,...,N-1, reinitialize node i's pointer from its 
+other son, i.e., the loser of the battle that was just played for node i.  
+After we do this, each value occurs exactly once in a leaf and once in an 
+internal node (everybody in a tournament, except the winner, loses exactly one 
+game.)
+
+The advantage of using losers instead of winners is that it makes updating
+the tree easy.  Suppose each internal node i points to leaf N + a_i.  To
+update, we output the first element of X(s_a_0) and advance X(s_a_0).  We
+can then execute the following loop to update the tree:
+
+     i := floor((N + a_0)/2)
+     while i > 0 do
+         if the next element of X(s_a_0) is greater than the next
+            element of X(s_a_i)
+             then swap a_i and a_0 (we have a new loser)
+         i := floor(i/2)
+     od
+
+As you see, we perform many comparisons between the first elements of the 
+X(s_i)'s.  It is convenient to store the next element of X(s_i) in
+the data structure with s_i.  This uses up much more memory (a comparable 
+amount with that taken by S and T themselves) but does speed up the program 
+somewhat.
+
+-- 
+David Moews                             dmoews@xraysgi.ims.uconn.edu
+
+

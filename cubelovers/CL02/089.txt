@@ -1,0 +1,48 @@
+Date: 18 May 1981 1046-EDT (Monday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Drum info
+Message-Id: <18May81 104634 DH51@CMU-10A>
+
+
+	Most of this note is pretty straightforward application of
+the known cube properties, but if you want to know about the
+drum....
+
+	The drum shows everything you see on a regular cube except
+the orientation of the four truncated edges, or wedges.  Because the
+(invisible) edge parity is preserved, each visible position of the
+drum corresponds to 2^4/2 cube positions.  Thus there are
+5.406x10^18 drum positions.
+
+	To count the number of solutions, note that as in the
+normal cube, the face centers force each edge to its home position
+and orientation.  In addition, each corner has a facelet that says
+whether it is top or bottom and fixes the corner's orientation.
+This means that solved positions are obtained from each other by
+permuting top corners, bottom corners, and wedges.  But the three
+cubies on a diagonal face must match, and so the three permutations
+are the same.  Only even permutations are achievable in this way
+(since the cube of an odd permutation is odd) and there are 4!/2=12
+of these.  One easy process that goes from one solved position to
+another is FF RR FF BB RR BB.
+
+	I asked Ole Jacobsen what he meant when he said of the
+wedges that "as you will discover when using your edge moves:  the
+orientation matters."  It turns out this is because he solves by
+layers:  top-middle-bottom, and doesn't know which way to orient the
+edges in the middle so that the edges on the bottom will have the
+right parity.  There are several ways out of that problem; one is to
+turn the drum sideways and solve left-middle-right.
+
+	The problem of solving without knowing the order of the
+wedges is trickier.  Solving sideways is one method:  do the left
+side any way; on the right side there two possibilities, one of
+which will work.  (This is Bernie Greenberg's suggestion, modified
+so you don't need to memorize the whole map.)
+
+	One interesting thing to do with a drum is to turn it into
+baseball.  Using colored tape and disassembly, change the colors and
+positions so that the wedges appear in the UF, DF, BL, and BR
+positions when the colors match.  On a baseball, there are only two
+solved positions.

@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Dec  9 15:20:18 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA26381
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 9 Dec 1998 15:20:17 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 8 Dec 1998 23:36:23 -0500
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199812090436.XAA00765@euclid.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: meffert's web site and puzzles
+
+i'm glad to hear that uwe effert is still making puzzles.
+i hope this means he'll make that master pyraminx (which
+was once planned) in which edges can also turn!
+
+and while i'm dreaming ... how about a higher order pyramid,
+preferably also of the edge-turning as well as peak-turning
+variety?  david byrden's web site has some puzzles i'd like
+to see made: the icosahedron, the octahedral "oddity", ...
+
+any chance of making any of these?
+
+mike
+

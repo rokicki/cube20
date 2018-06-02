@@ -1,0 +1,70 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Sun Apr 10 23:26:50 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25590; Sun, 10 Apr 94 23:26:50 EDT
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <89026(2)>; Sun, 10 Apr 1994 23:26:15 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA12263; Sun, 10 Apr 94 23:24:59 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 19A249; Sun, 10 Apr 94 21:41:27 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: More Sq Notes
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.738.5834.0C19A249@canrem.com>
+Date: Sun, 10 Apr 1994 17:37:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+Additional Notes on Squares Group Patterns
+------------------------------------------
+
+Note that p80a, p99a and p108a are 2 DOT patterns,
+all of the form U1 (swap edges & corners in U and D faces)  D3
+           or   U1 (swap edges & corners in U and D faces)  D1
+           or   D1 (swap edges within U and edges within D) D3
+
+P66a alternate method    F2 R2 U2 F2 R2 U3 D3 B2 L2 F2 B2 U1 D1
+ (13)
+p67a alternate method    F2 R2 F2 U3 D3 L2 B2 D2 L2 B2 U1 D1 B2
+ (13)
+
+p80a alternate method    U1 F2 R2 L2 U2 D2 F2 U2 D3
+  (9)
+p99a alternate method    U1 R2 F2 B2 U2 D2 R2 D1
+  (8)
+
+P100a alternate method   F2 U2 D2 F2 R2 L2 D1 F2 R2 L2 B2 U1
+ (12)
+p108a alternate method   R2 F2 B2 L2 D1 R2 U2 R2 L2 U2 R2 D1
+ (12)
+p130a alternate method   F2 R2 F2 B2 U1 D1 F2 R2 D2 F2 L2 U3 D3
+ (13)
+p133a alternate method   R2 U1 F2 R2 L2 U2 D2 F2 U2 D3 R2
+ (11)
+
+A) In general, any sequence of half turns which swaps edges and
+corners in the U and D faces can be sanwiched between a single quarter
+turn of U and a single quarter turn of D. Such a process would lead to
+a square's group position.
+
+B) Furthermore, any sequence of half turns which swaps edges within U
+and
+edges within D can be sanwiched between a single quarter turn of U or D
+and a single quarter turn of U or D. Once again, such a process would
+lead to a square's group position.
+
+Here is an example of a position which takes over twice as many half
+turns as full group moves:
+
+        L2 T2 L2 T2 L2 T2 F2 L2 T2 F2 T2 R2 B2     (13)
+        U1 F2 R2 L2 B2 D1                           (6)
+
+As discussed in point A above, sequences which move all elements of
+the U face to the D face and also move all elements of the D face
+to the U face (excepting the centres naturally) appear as 2 DOT
+patterns on the cube. This makes sense, as the initial quarter
+turn in process p80a must be balanced by another quarter turn.
+Since all of the elements subjected to the quarter turn are now
+in the D face, we must turn that face a quarter turn to remain
+in the squares group.
+

@@ -1,0 +1,32 @@
+Date: 31 July 1980 13:06-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+To: RP at MIT-MC
+cc: CUBE-HACKERS at MIT-MC
+
+    Date: 31 JUL 1980 1006-EDT
+    From: RP at MIT-MC (Richard Pavelle)
+
+    IS IT POSSIBLE?
+
+The Singmaster notes claim that Thistlethwaite had an 85 twist
+algorithm in an addenda dated November 30, 1979.  I presume that since
+then Thistlethwaite has continued to cube-hack, so why not 50 (or even
+41)?
+
+It should be noted that Singmaster insists on counting a 180 twist as
+ONE twist, so I presume that the 85 number is measured that way.  How
+is Gardner counting?
+
+It is certainly possible.  If you count twists Singmaster's way, you
+can show that there are positions at least 18 twists away from home.
+There is nothing to suggest that this might not in fact be the
+maximum.  So there might be room for Thistlethwaite to lower his
+number all the way to 18!
+
+(If you count 180 twists as TWO twists, then a similar proof shows
+that there are positions 21 twists away from home.  In a past message
+I reported that some of us had proved the existence of positions as
+far away from home as around 30.  I believe that the reasoning that
+led to such a high number was incorrect.  (Although I cannot prove
+that there AREN'T positions that far away, I now believe that I have
+never seen a proof that there ARE.))

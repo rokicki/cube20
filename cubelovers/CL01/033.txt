@@ -1,0 +1,14 @@
+Date:  6 DEC 1980 1748-EST
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  food for twisting
+To: CUBE-LOVERS at MIT-MC
+
+
+Here is a piece of food for thought: why can't there be two (in
+general more than one) maximally distant point). For example, the
+24 Plummer Crosses and the "every edge flipped" configuration.
+
+And the obvious question is: how far apart are these maximally
+distant types. Between different types is probably more
+interesting than between different "reflections" of the same
+type.

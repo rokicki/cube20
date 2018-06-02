@@ -1,0 +1,93 @@
+From nichael@sover.net  Sun Apr  7 15:36:20 1996
+Return-Path: <nichael@sover.net>
+Received: from maple.sover.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10461; Sun, 7 Apr 96 15:36:20 EDT
+Received: from [204.71.18.82] (st32.bratt.sover.net [204.71.18.82]) by maple.sover.net (8.7.4/8.7.3) with SMTP id PAA09328; Sun, 7 Apr 1996 15:36:09 -0400 (EDT)
+Message-Id: <v02120d01ad8c75515682@[204.71.18.82]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Sat, 6 Apr 1996 15:36:52 -0400
+To: Aaron Weintraub <aaweint@io.org>, cube-lovers@ai.mit.edu
+From: nichael@sover.net (Nichael Lynn Cramer)
+Subject: Re: Square-1 question
+
+At 4:41 PM 4/5/96, Aaron Weintraub wrote:
+>Hi...
+>
+>I recently got a hold of a Square-1 puzzle and have been trying to solve it.
+>I can get to the point where it's done, but two edges on one side are
+>swapped.  How do I swap them back?  Is this a parity problem?  Every move I
+>have that swaps edges does TWO pairs are a time, so I can't get there with
+>what I have.  Or can I?  Any help would be appreciated.
+>
+>-Aaron
+
+The quick answer is, yes, in spite of appearances you are actually very far
+from finished.
+
+A quick hint is attached below.  (This is only a hint in that it's been two
+or three years since I worked with a Square One.  At that time I kept notes
+and was going to write up a complete solution but I don't think I ever got
+around to doing it [Alan?  Do you remember?]  If I can find those, or can
+remember more complete details --time to get the Sq1 back out-- I'll pass
+along more details.]
+
+
+---
+---
+-0--
+---
+---
+---
+--
+--
+---
+---
+---
+---
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+---
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+
+Hint:  You're right that you need to swap two pairs together.  The issue
+here is that you need to simultaneously swap a pair of edges (the
+triangular pieces) and a pair of corners (the quadrilaterals).  And, yes,
+you can actually do this. ;-)
+
+In short, in this state the corners only _appear_ to be in the correct
+locations.
+
+An analoguous case can occur on the 4X cube where the cube appears to be
+_almost_ complete except that two edge peices are flipped.  Again, it looks
+like you're close to done, but more accurately you're almost completely
+diametrically "across the space of solutions".
+
+Nichael
+nichael@sover.net                                               __
+http://www.sover.net/~nichael              Be as passersby   -- IC
+
+
+

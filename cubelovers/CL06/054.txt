@@ -1,0 +1,27 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 27 Aug 87 08:10:48 EDT
+Date: 27 Aug 87 08:06:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: FRACTALS
+To: "cube-lovers" <cube-lovers@mit-ai>
+cc: beck
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+
+BOOK OF INTEREST
+
+THE BEAUTY OF FRACTALS  by  H.-O. PEITGEN & P.H. RICHTER
+  from SPRINGER-VERLAG  1986,   ISBN  3-540-15851-0  OR ISBN 0-387-15851
+
+......................
+FROM THE FLAP:   This book is an unusual attempt to publicize the field of
+Complex Dynamics, ...  .  
+
+In 88 full color pictures, and many more black and white illustrations, the
+authors present variations of a theme whose repercussions reach far beyond the
+realms of mathematics.  
+...........................................
+
+This is agreat first book on the subject with plenty of pictures for those of us
+who can't visualize well.
+
+beckardec-lcss.arpa
+------

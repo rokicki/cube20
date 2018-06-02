@@ -1,0 +1,75 @@
+From hoey@aic.nrl.navy.mil  Mon Dec 13 22:31:38 1993
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02377; Mon, 13 Dec 93 22:31:38 EST
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA25974; Mon, 13 Dec 93 22:31:31 EST
+Date: Mon, 13 Dec 93 22:31:31 EST
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9312140331.AA25974@Sun0.AIC.NRL.Navy.Mil>
+To: Cube-Lovers@ai.mit.edu
+Subject: Symmetry
+
+I suppose it's time for a few observations on symmetry.  After all,
+tomorrow is the thirteenth anniversary of "Symmetry and Local Maxima."
+
+As Jerry Bryan notes, we can perform the "R" turn by rotating the cube
+to put the R face in front, performing "F", and undoing the rotation.
+But we can also perform "R'" by reflecting the cube in a left-to-right
+mirror, performing "L", and undoing the reflection.  Thus conjugation
+can be extended to use the 48-element group of rotations and
+reflections, which we call M.
+
+In the absence of face centers, there is another kind of reduction
+that takes account of the 24 possible positions of the resulting
+collection of edges in space.  So two positions X and Y are considered
+equivalent if
+    X = m' Y m c
+where m is a rotation or reflection in M, and c is a rotation.
+
+My understanding of Jerry Bryan's method is that he combines "m c"
+into a single rotation or reflection, and factors out the reflection
+on both sides.  It seems to me that what he calls a a "color rotation"
+is premultiplication, while a "cube rotation" is postmultiplication.
+[I am somewhat uncertain of this, because it doesn't explain how there
+can be a 1252-element symmetry group when face centers are present, so
+perhaps I'm missing something crucial.]
+
+But I think we are at least conceptually better off dealing with M
+when dealing with conjugation, because it takes account of the
+essential similarity between clockwise and anticlockwise turns.  Alan
+Bawden mentioned back in 1980 that certain positions with sufficient
+symmetry were local maxima (in terms of distance from start), on the
+grounds that any clockwise or anticlockwise turn gives us essentially
+the same position.  Jim Saxe and I formalized the notion in a paper
+entitled "Symmetry and Local Maxima" that we posted on 14 December
+1980.  [You can find it in /pub/cube-lovers/cube-mail-1.Z on
+FTP.AI.MIT.Edu].
+
+We had some hope that some of these local maxima might turn out to be
+global maxima.  My hopes for that have been somewhat low in recent
+years.  That is perhaps my best excuse for not noticing immediately
+that the single global maximum for the edge group turns out to be one
+of these symmetric local maxima.  In fact, all four of the positions
+with 24-element equivalence classes appear in the list of M-symmetric
+positions.
+
+The paper on Symmetry and Local Maxima also catalogues the positions
+that have 48-element equivalence classes and 72-element equivalence
+classes.  The The former are the H-symmetric positions, "Six-H" and
+"Six-H with all edges flipped".  The latter are the twelve T-symmetric
+positions.  For T-symmetry, the set of flipped edges may be any of
+{none, girdle-edges, off-girdle-edges, or all}; the set of edges
+exchanged with their antipodes may be any of the four as well.  But if
+we choose "none" or "all" for all both choices we get one of the four
+M-symmetric positions with 24-element equivalence classes, so only
+twelve of the sixteen possibilities have 72-element equivalence
+classes.
+
+With regard to the edge cube, I should mention that no one has
+mentioned a 9 QT process for the all-flip nor a 15 QT process for the
+pons-asinorum-all-flip.  Of course, the latter would be somewhat more
+interesting, being the longest optimal sequence.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

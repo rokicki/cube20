@@ -1,0 +1,42 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Oct  8 19:04:05 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id TAA24808; Thu, 8 Oct 1998 19:04:04 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 8 Oct 1998 15:11:54 +0100
+From: David Singmaster       <david.singmaster@sbu.ac.uk>
+To: cube-lovers@ai.mit.edu
+Message-Id: <009CD656.72A81016.35@ice.sbu.ac.uk>
+Subject: Davenport's pattern
+
+	The pattern given by Jacob Davenport is what I called a cube in a cube
+in a cube.  I discovered this in 1979 or 1980 and was very pleased with it.
+Indeed, I used the cube in a cube as the logo of the late and much lamented
+David Singmaster Ltd. in 1980-1982 (approx. dates since I'm not where my
+records are).  The pattern is in my Notes.  There
+are various ways to generate the pattern, but the one that I can remember uses
+what Roger Penrose called the Y-commutator, which has the form  FR'F'R.  The
+reason this is the Y-commutator is that it affect the three edges adjacent to a
+corner and the corner and its three adjacent corners.  I.e. the affected pieces
+form a Y, while the pieces affected by the ordinary commutator  FRF'R'  form a
+Z.  Combining three Y-commutators as follows:  FR'F'R  RU'R'U  UF'U'F  gives a
+process that twists the corner and the three adjacent edges as a unit and
+twists an adjacent corner the opposite direction.  NOTE - I'm doing this from
+memory and I have a suspicion that the middle group may need to be inverted??
+	By moving the odd corner to the right place adjacent to the opposite
+corner and applying the inverse of the above, one gets the same sort of pattern
+at the opposite corner and the odd corner has been restored.  Now one 3-cycles
+the centers, as is easily done by a commutator of slice moves, and one has the
+cube in a cube.  Now one can twist the two opposite corners to get the cube in
+a cube in a cube, though I find this not as visually dramatic as the cube in a
+cube.
+	Someone - Mike Reid ? - sent me a minimal method for one of these
+patterns, but it's not very memorable.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

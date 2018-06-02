@@ -1,0 +1,37 @@
+From cube-lovers-errors@oolong.camellia.org  Tue Jun  3 14:53:33 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id OAA01666; Tue, 3 Jun 1997 14:53:33 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+X-Sender: ad@talisker
+Message-Id: <v01520d01afb9ee177570@[138.251.192.26]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 3 Jun 1997 16:52:46 +0100
+To: cube-lovers@ai.mit.edu
+From: Tony Davie <ad@dcs.st-and.ac.uk>
+Subject: FreeCell
+
+Could someone describe the FreeCell puzzle for us non-windows people?
+
+
+                                                     _____
+                                                    /    /\
+Tony Davie                Computer Science         /    /  \
+Tel: +44 1334 463257      St.Andrews University   /    /    \
+Fax: +44 1334 463278      North Haugh            /    /  /\  \
+ad@dcs.st-and.ac.uk       St.Andrews            /    /  /  \  \
+                          Scotland             /    /  /\   \  \
+                          KY16 9SS            /    /  /  \   \  \
+                                             /    /__/____\   \  \
+                                            /              \   \  \
+http://www.dcs.st-and.ac.uk/~ad/Home.html  /________________\   \  \
+                                           \                     \  \
+                                            \_____________________\ /
+
+In theory, there is no difference between theory and practice, but
+in practice there is a great deal of difference.
+
+
+
+

@@ -1,0 +1,70 @@
+From cube-lovers-errors@oolong.camellia.org  Tue Jul 15 13:18:50 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id NAA10963; Tue, 15 Jul 1997 13:18:49 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Tue, 15 Jul 1997 17:57:11 +0200
+From: Rob Hegge <R.F.Hegge@MP.TUDelft.NL>
+Subject: Description of hockey puck puzzle
+To: cube-lovers@ai.mit.edu
+Message-id: <9707151557.AA06449@sumatra.mp.tudelft.nl>
+Content-transfer-encoding: 7BIT
+X-Sun-Charset: US-ASCII
+
+
+The hockey puck puzzle is a flat disk with a diameter of about 9 cm
+or 3.5 inches and a thickness of about 2.5 cm or 1 inch. It basically
+consists of a circle (the hart) and a "ring" surrounding the circle.
+The circle is cut into two equal halves like "(|)". The two halves are
+connected so that you can turn one half upside down, while holding the
+other half. The ring is cut (from front to back) into 12 equal wedges,
+each of which is attached to the circle by a dovetail so that the ring
+with the wedges can be moved around the circle. One can also flip six
+wedges including one half of the circle around so that afterwards those
+6 wedges and the half circle face backwards. Thus the puzzle is similar
+to a puzzle called saturn (which has only 8 wedges ?). The type of moves
+reminds me of moves possible on square-1.
+
+In the puzzle I own the 12 wedges on the front are numbered from 1 to 12
+and on the back with the letters of "hockeypuzzle", while the left half
+circle contains the letters "pu" and right half circle the letters "ck"
+as shown below. I do not have it here so this was straight from memory.
+
+    front:        back:
+
+     12 1             c k
+   11     2         o     e
+ 10    |    3     h    |    y
+       |             pu|ck
+  9    |    4     p    |    e
+    8     5         u     l
+      7 6             z z
+
+The three "|" denote the cut through the circle.
+A flip as described above would give for instance
+
+     12 k             c 1      
+   11     e         o     2   
+ 10    |    y     h    |    3   
+       |ck           pu|    
+  9    |    e     p    |    4  
+    8     l         u     5       
+      7 z             z 6
+
+
+while then a clockwise turn of the ring for one wedge would give:
+
+     11 12            1 2
+   10     k         c     3
+  9    |    e     o    |    4
+       |ck           pu|    
+  8    |    y     h    |    5
+    7     e         p     6
+      z l             u z
+
+For a rotational puzzle it is not that difficult.
+
+Rob
+
+
+

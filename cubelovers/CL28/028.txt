@@ -1,0 +1,19 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Oct 14 19:52:23 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA03105
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 14 Oct 1999 19:52:22 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 22 Sep 1999 02:22:00 -0400
+From: Kevin Young <keyoung3@vt.edu>
+Subject: Rubiks Magic: Create A Cube
+To: Cube-Lovers@ai.mit.edu
+Message-Id: <4.2.0.58.19990922022037.00a62530@mail.vt.edu>
+
+Anyone having notes on or knows a solution to solving this version of
+Rubiks magic and making it a cube, I'd appreciate info on it.
+
+Thanks,
+Kevin M. Young
+

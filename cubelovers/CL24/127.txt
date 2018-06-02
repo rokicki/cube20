@@ -1,0 +1,119 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jan 16 16:29:01 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA14189; Fri, 16 Jan 1998 16:28:59 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Jan 16 12:59:32 1998
+Date: Fri, 16 Jan 1998 17:58:10 +0000 (GMT)
+From: Jonathan Tuliani <jont@dcs.rhbnc.ac.uk>
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: MEGAMINX
+Message-Id: <Pine.OSF.3.96.980116175549.13054B-100000@platon>
+
+The following is based on an email I sent recently to Kurt Endl.  He says that
+he does not have time to work on this at present, and, with a thesis to write,
+nor do I!  I expect that someone has heard of this and the answer is
+known--I am new to this discussion group.  Otherwise, hopefully
+someone will find it sufficiently interesting to think it through.
+
+I was delighted to be given a MEGAMINX this Christmas, together with
+Kurt Endl's instruction booklet.  I resolved to attempt the puzzle
+without looking in the booklet, at least at first.
+
+My approach was similar--I built a solution in layers, starting
+at the bottom (which I shall call the north pole, consistent with the
+notation in the latter part of the book) and proceeding, layer by
+later towards the south pole.  I was successful in my efforts until I
+reached the south cap, at which point I became stuck.  My problem was to
+position and orient the south pole edges.  Try as I might, the best I
+could do was to reach a position where two south pole edges needed to be
+exchanged.  And try as I might, I could not find a way to do this.
+
+After a week, I gave up and turned to the instructions.  I was delighted
+to see that their approach was similar to mine, and fascinated by the
+simple moves L_{**}, L^{**}, R_{**} and R^{**} used.  My
+methods were, of course, far less elegant.
+
+I was able to start at section 8, `Setting the South Pole
+edges'.  The procedure for setting the edges affects the southern
+equatorial corners, which you then arrange later.  My layer-by-layer
+approach had, of course, already set these corners correctly before
+attempting the south pole edges (and indeed before setting the southern
+equatorial edges).  Perhaps this was the key?  Having the southern
+equatorial corners set should not affect the validity of the book's method,
+which should work with any arrangement of these corners.  But following
+the instructions, I was unable to position the last two south pole edges
+correctly.  The statement ``The remaining two South Pole edges will be
+correctly placed again at the same time'' on page 21, section 8 of the
+instructions must be incorrect--here after all was a counterexample!  My
+last two south pole edges needed to be exchanged.
+
+I ignored the problem for the time being.  I oriented the two edges
+correctly, with them still in the wrong positions.  I was then able to
+complete the MEGAMINX, positioning and orienting the southern equatorial
+and south pole corners as in the instructions.  The result was a complete
+MEGAMINX, except that it appeared that two little triangular stickers,
+each on the border of the southern cap, had been exchanged.
+
+After some thought, I have found a way out of this problem.  I believe
+that this is a detail that may be required for solution in some
+circumstances that is not in this instruction booklet.  I will try to
+describe what I think went wrong.
+
+The twelve faces of the MEGAMINX are coloured using only six colours, with
+opposite faces bearing the same colour.  Thus, each edge piece has an
+`identical twin' on the opposite side of the completed MEGAMINX.  When
+solving the MEGAMINX from a totally jumbled position, these twins are
+indistinguishable and may therefore be assigned either to their own
+original position, or to their twin's position at random.  In this sense
+the solution of MEGAMINX is not unique.  (Strictly, the solution may still
+be unique but we have not proved conclusively that it is so, and have
+demonstrated reason to believe that it may not be.)
+
+Now, suppose we return to the two edges I wished to exchange.  Imagine
+them as south pole edges also in adjacent faces.  Turn the MEGAMINX so
+that the two faces concerned are in the left and right positions (using
+your terminology).  We need to exchange these edges, but the problem we
+have is that every sequence of moves seems to rotate 3 edges cyclicly,
+rather than exchange a pair!  For example, the book uses L_{**} or R_{**} to
+bring one of the two edges concerned down into the front southern
+equatorial edge (``...the edge we have misused so brutally...''), and the
+same moves to move it back up again.  But these moves, together with any I
+can find, cycle 3 edges.  How can moves cycling 3 edges be used to
+exchange just 2 edges?  I was stuck.
+
+The solution comes from the `identical twins' I talked about before.
+Suppose one of the two edges I'm interested in is, say, yellow/blue, and
+the other yellow/orange, so the southern pole is yellow.  Tucked away on
+the opposite side of MEGAMINX is *another* yellow/blue edge.  By a simple
+sequence of moves, this may be brought into the postion of the front
+southern equatorial edge.  Now consider cycling these three edges.  As two
+of the edges are identical, cycing these three edges *looks* like a swapping
+of just two edges!  Now we return to the other side of MEGAMINX the twin
+of the piece that was originaly there.  (Some fixing of the MEGAMINX is
+required to repair the damage caused by bringing an edge from the opposite
+side of the MEGAMINX to the front and sending it's twin back, but this
+isn't too hard.) Now, having apparently `swapped' two adjacent edges, we
+can proceed as per the instructions and complete the MEGAMINX.  This I
+have done.
+
+Have any other people encountered this problem, or was I just
+extremely unlucky?  The question arising is, of course, just how many
+solutions of MEGAMINX are there?  There are 10 of these `identical
+twin' edge pairs.  I reckon swapping just one twin pair is not possible in
+a complete solution, but that swapping any even number of twins may be
+(unproven), and so there are 512 solutions, each of which would be
+distinct if 12 different colours had been used on the original puzzle.
+Does anyone fancy having a stab at this conjecture?
+
+Jonathan Tuliani
+
+Mathematics Department
+Royal Holloway, University of London
+Egham
+Surrey TW20 0EX
+U.K.
+
+jont@dcs.rhbnc.ac.uk
+

@@ -1,0 +1,35 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun 30 21:31:40 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id VAA19022; Mon, 30 Jun 1997 21:31:39 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Mon, 30 Jun 1997 20:01:16 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Inverses of Local Maxima
+In-reply-to: <Pine.WNT.3.96.970630120803.-397377S-100000@ER123A.PSTCC.CC.TN.US>
+To: cube-lovers@ai.mit.edu
+Message-id: <Pine.PMDF.3.95.970630195729.131305D-100000@PSTCC6.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+
+On Mon, 30 Jun 1997, Jerry Bryan wrote:
+
+> 
+> I have some small progress.  I can report that for the corners-only
+> group, there are local maxima for which the inverse is not a local
+> maximum.
+> 
+
+There is a minor interesting point that might be added.  When we find a
+local maximum x for which |S(x)|<12, we can form a new, longer local
+maximum qx for suitable q in Q.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+

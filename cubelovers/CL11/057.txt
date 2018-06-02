@@ -1,0 +1,101 @@
+From hoey@aic.nrl.navy.mil  Wed Dec 22 13:58:45 1993
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA11979; Wed, 22 Dec 93 13:58:45 EST
+Received: from sun1.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA20803; Wed, 22 Dec 93 13:58:43 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun1.aic.nrl.navy.mil; Wed, 22 Dec 93 13:58:42 EST
+Date: Wed, 22 Dec 93 13:58:42 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9312221858.AA08479@sun1.aic.nrl.navy.mil>
+To: Cube-Lovers@ai.mit.edu
+Subject: The 4^3 and 3^4 Rubik puzzles
+Organization: Naval Research Laboratory, Washington, DC
+
+[ Cube-Lovers,
+
+  There has recently been a discussion on Usenet group rec.puzzles
+  about some cube topics.  There were a few pieces of new information,
+  such as that you can now get Ishi's 5^3 cubes in a lot of places (I
+  got mine in Learningsmith's) for about $35.  Here's a message I sent
+  that's relevant to some Cube-Lovers topics.
+
+  By the way, I'm still working through Jerry Bryan's articles on his
+  brute-force program and his approach to symmetry.  I hope to get a
+  reply out soon.
+]
+
+eric@gsb002.cs.ualberta.ca (Holleman Eric) wrote:
+
+> By the way, I found the Revenge somewhat easier than the Cube, and I
+> don't think that it was because of my familiarity with the earlier
+> puzzle.
+
+x87bennett@gw.wmich.edu (Joe) wrote:
+
+> From my experience, if you can solve a Rubik's Revenge, you can
+> solve the Cube very easily.  Once you get each of the middle 2 cubes
+> on each edge to match, and all 4 center cubes on each face to match,
+> it works exactly like a Rubik's cube.
+
+and alan@saturn.cs.swin.oz.au (Alan Christiansen) wrote:
+
+> I have both. I solved both. The 4x4x4 is a superset of the 3x3x3.
+> ie by fixing all the face centres and then pairing all edges you are
+> left with a 3x3x3 cube, except that when you have solved this 3x3x3
+> there may be a single pair of edges flipped. This is impossible
+> on a real 3x3x3. Fixing this requires a middle layer to be rotated
+> 1/4 revolution and then all the bits put back.
+
+> I cant see how it can be [any] easier than a 3x3x3.
+
+I, too, found the 3^3 easier than the 4^3.  But I can imagine ways in
+which a solver could find the 4^3 easier.  Let us first consider a 4^3
+with the faces fixed, the edges together, and the correct simulated
+edge flip parity.  I would solve this as if it were a 3^3, and a lot
+of people do.  But another solver might find it easier to take
+advantage of the extra moves that are not possible on a 3^3.  To take
+a concrete example, it could be that the solver has a hard time with
+flipping edges by pairs, as is needed to solve the 3^3.  On the 4^3
+you can flip one edge at a time.  So the solver would find the 4^3
+position easier than the corresponding position on a 3^3.  If the
+solver finds this so much easier that it overcomes the difficulty of
+putting the faces and edges together--or in fact puts the faces and
+edges together in the course of solving the corners and the edge
+positions--then the 4^3 could be easier.  It depends on the solution
+procedure.
+
+alan@saturn.cs.swin.oz.au (Alan Christiansen) continues:
+
+> ANyway the real reason I am writing this is that I have written
+> a cube simulator. 
+> It can simulate 3x3x3 4x4x4 5x5x5 .... cubes.
+> I am working on 4x4x4x4 cube simulation.
+
+This is interesting, as there is more than one way to model the
+four-dimensional cube problem.  Consider the 3^4 cube.  It has eight
+hyper-faces, each in the shape of a cube.  One model of this puzzle is
+that you could turn any face of any hyper-face as if it were a face of
+a 3^3 Rubik's cube.  In a second model, you cannot move part of a
+hyper-face, but can turn each hyper-face as if it were a solid cube in
+space.  A third model allows either kind of move.
+
+These models are different from each other.  The second model permits
+the face centers of the hyper-faces to move around, whereas in the
+first model only edges and corners move.  In the first model, odd
+permutations of corners are possible, which is not true in the second
+model.  Of course, the third model is the closure of the first two.
+
+According to Hofstatder's column reprinted in _Metamagical_Themas_,
+there is an unpublished 1982 manuscript by H J Kamack and T R Keane
+entitled ``The Rubik Tesseract''.  They calculated the size of the
+group of the 3^4 puzzle, but I don't know which model was used.
+
+Alan Christiansen indicates he has gone directly to the 4^4 puzzle.  I
+don't know which model he plans, or if the models become more similar
+with the extra possibilities inherent in the larger cube.  I don't
+even know whether he plans to figure out how big the groups are or
+whether they are identical.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

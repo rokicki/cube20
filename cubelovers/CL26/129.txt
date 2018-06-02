@@ -1,0 +1,42 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar  9 12:30:38 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA29026
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 9 Mar 1999 12:30:37 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v04020a07b2fb4082cb5b@[134.9.13.42]>
+In-Reply-To: <4.1.19990224195654.0092e1c0@mail.vt.edu>
+References: <36D3B818.E20EFCD6@ibm.net> <199902192002.OAA04117@solaria.sol.net>
+Date: Thu, 25 Feb 1999 10:06:33 -0800
+To: Kevin Young <keyoung3@vt.edu>
+From: Patrick Weidhaas <weidhaas1@llnl.gov>
+Subject: Re: Oddzon version of the cube
+Cc: RUBIK cube group <cube-lovers@ai.mit.edu>
+
+Kevin Young wrote:
+
+>...  I bought a Rubik's cube last year in a
+>toy store.  This was the newest version made by Oddzon.  I noticed that
+>there was a clear sticker overtop of each of the colored stickers.  In less
+>than a month this clear sticker peeled up....
+
+Kevin,
+
+I do not have an answer for you, but your email made me wonder why stickers
+are being used at all? As far as I know, nobody has produced a cube (or
+variation) where the plastic "cubies" are colored appropriately without
+relying on stickers. Is that process so much more expensive, or do the
+toy-makers want to give their customers a chance to cheat by switching the
+stickers in case they can't get the puzzle solved?
+
+Patrick
+
+------------------------------------------------------------------
+Patrick P. Weidhaas                     e-mail: weidhaas1@llnl.gov
+Parallel I/O Project                    voice: 925-422-7704
+Lawrence Livermore National Laboratory  fax:   925-422-6287
+P.O. Box 808,  L-560
+Livermore, CA 94551-0808
+
+

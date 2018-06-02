@@ -1,0 +1,21 @@
+Date:  7 Aug 1982 1501-PDT
+From: ISAACS at SRI-KL
+Subject: POLYCUBE (on IBM PC)
+To: cube-lovers at MIT-MC
+
+  I got the POLYCUBE program mentioned in the latest Scientific American
+cube article, which has from 1x1x1 up to 7x7x7 cubes on the IBM Personal
+Computer.  I found it disappointing.  It doesn't show the back of the
+cube, making solving it VERY difficult.  It should also allow user-defined
+shorthand, so one could build macros (or simply define better notation).
+The notation is good for the general case, but hard for the 3^3 case and
+down - it is a general X-Y-Z notation, R or L direction, 1-n layer.
+Thus RX1 is our "R"; "ZL1" = U', etc. The colors are pretty.  You can
+save a cube on disk if you haven't finished solving it, but only one.
+   Why doesn't someone design and write a general group-theory puzzle
+simulation program.  Draw any pattern (2 or 3 dimensions) on a screen, 
+associate it with a matrix, name some permutations in the matrix for
+moves, and you should have any conceivable (drawable) rotating axis
+puzzle modeled.
+  -- Stan
+-------

@@ -1,0 +1,51 @@
+Date: 12 Aug 1980 15:10 PDT
+From: McKeeman at PARC-MAXC
+Subject: Singmaster's talk at Stanford
+To: Cube-lovers at MIT-MC
+
+David talked at ICME (Int. Conf. Math. Ed.) in Berkeley on 8/11 about using the
+cube to teach group theory.  He talked to some Rubniks at Stanford this noon.
+Among the tidbits:
+
+Notes on Rubik's 'Magic Cube', Fifth Edition, Preliminary Version, 75 pgs., $5.
+Including: A Detailed Step-By-Step Solution, Thistlewaite's Best Algorithm (52
+moves), Conway's Monoswop, Rubik's Duotwist and much more.   Write:
+David Singmaster, Polytechnic of the South Bank, London, SE1 0AA, UK.
+
+He brought a 3x3x2 domino version, and a 2x2x2 Stanford homebrew which is
+apparently nearly identical to a Japanese patent showed up.  The 2x2x2 is
+conceptually just a pasting of big overlapping corners on the standard 3x3x3
+version although the one we saw was nicely machined in brass and some kind of
+ivory-like material.
+
+Singmaster counts double twists, e.g., R^2, as single moves.  He doesn't see much
+use for the IJK whole-cube moves.
+
+The Thistlewaite algorithm goes from subgroup to subgroup as follows:
+
+Starting with a random cube, reachable by
+      closure(F,B,R,L,U,D) = the full group
+7 moves to a cube reachable by
+      closure(F,B,R,L,U^2,D^2)
+13 moves to a cube reachable by
+      closure(F,B,R^2,L^2,U^2,D^2)
+15 moves to a cube reachable by
+      closure(F^2,B^2,R^2,L^2,U^2,D^2)
+17 moves to a cube reachable by
+      the identity
+----
+52 moves total.  Singmaster expects the 17 to be 15 by the time he returns to
+London.
+
+The Hungarians have cube races. A contestant take his/her cube out of its box
+and unscrambles the judges' randomizing in about 50 seconds.   Apparently they
+file and lubricate their cubes with loving care to reach such speeds.
+
+The U.S. made white cubes violate no patents because Rubik never applied for
+foreign rights.  Hmmmm.   Is that ethical?
+
+Bill
+
+
+
+

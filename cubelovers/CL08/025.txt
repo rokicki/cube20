@@ -1,0 +1,104 @@
+From GOFFJEFFREYM@bvc.edu  Wed Jan  8 16:51:55 1992
+Return-Path: <GOFFJEFFREYM@bvc.edu>
+Received: from snoopy.bvc.edu ([147.92.2.2]) by life.ai.mit.edu (4.1/AI-4.10) id AA15544; Wed, 8 Jan 92 16:51:55 EST
+Received: from bvc.edu by bvc.edu (PMDF #12446) id
+ <01GF2UNCTVTC94DUAR@bvc.edu>; Wed, 8 Jan 1992 15:51 CST
+Date: Wed, 8 Jan 1992 15:51 CST
+From: The Phantom <GOFFJEFFREYM@bvc.edu>
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <01GF2UNCTVTC94DUAR@bvc.edu>
+X-Vms-To: IN%"cube-lovers@life.ai.mit.edu"
+
+	Another miscellaneous thought on the dovetail topic.  The way I
+understand it is that each piece is dovetailed into the surrounding pieces. 
+I.E. on the 3x3x3 the face-centers are dovetailed into the edges which are
+dovetailed into the corners.  Now, the maximum radius of the dovetailing circle
+permits this all the way out to 5x5x5, but at 6x6x6, a piece hangs outside the
+dovetail radius.
+	The master design could work still.  First of all, keep those cubes
+nested together.  Second of all, dovetail the inner cubes outward, so the whole
+damn thing holds.  Last, and certainly not least, in the case of the 6x6x6, I
+think that we can add in another circle of dovetails at the radius which would
+support a 7x7x7 cube.
+
+	This is really hard to explain without graphics, but try to imagine
+this.  Each dovetail ring will be a simple circle.  Draw a 3x3 grid, and
+superimpose a circle with a radius of 1.5 grids.  Now, that will be
+the inside of the dovetail, 1/3 of the way into the face.  For a 5x5 grid,
+repeat the 3x3 procedure and do the same for the 5x5, except at 2.5 grids
+radius.  That represents the next layer of the cube.
+
+	Keeping the original Rubik concept of faces-edges-corners nesting in
+mind, we keep building out this way.  It probably will be damn inconvenient to
+build the 7x7x7 cube this way, but I am reasonably sure that it will hold
+together and still retain all the necessary movements from the original cube. 
+
+	In the case of the 5x5x5 cube, it will look like this:
+
+abcba
+bdedb
+cefec
+bdedb
+abcba
+
+a is held by 2 b's.
+b is held by c and d.
+c is held by e.
+d is held by 2 e's.
+e is held by f.
+
+The only real weak spot is c, but it is surrounded by b's and an e.
+
+	The 7x7x7 cube will look like this:
+
+abcdcba
+befgfeb
+cfhihfc
+dgijijd
+cfhihfc
+befgfeb
+abcdcba
+
+a is held by 2 b's.
+b is held by c and e.
+c is held by d and f.
+d is held by g.
+e is held by 2 f's.
+f is held by h and g.
+g is held by i.
+h is held by 2 i's.
+i is held by j.
+j is the center.
+
+Again, the problem shows up in d, g, and i.  I think that this is unavoidable,
+but since the 3x3x3 cube holds together in much the same way, I think that it
+should be about as a 5x5x5 cube is compared to the 3x3x3 cube.  Not much
+difference.  The only problem that I have had with my 5x5x5 cube is the edge
+cubies, and as I have noted, the middle and third edges should be the problems,
+since everything else is buried within a face.
+
+	I haven't built a prototype yet, but once I get finished with this
+semester of college (my last one), I intend to start working on this in between
+job-hunting and paying off loans.  If anyone is interested in this idea, I
+would like to start correspondence on this topic.
+
+	I have some diagrams available, but they don't come over too well in
+ASCII.  If you would like a copy of my preliminaries, please E-Mail me at the
+following addresses.  Thank you for your consideration.
+
+*************************************************************************
+*					*				*
+*	Internet: goffjeffreym@bvc.edu	*	Hailing From:		*
+*		  			*				*
+*					*	Storm Lake, IA 50588	*
+*	Snail: Box 260 BVC		*	Home of Happiness	*
+*					*				*
+*************************************************************************
+*                                                    	*
+*	'Dr. Floyd, you are not a very practical man.'	*
+*	'Look out there.  Tell me what's practical.'	*
+*                                                   	*
+*	-2010						*
+*							*
+*********************************************************
+

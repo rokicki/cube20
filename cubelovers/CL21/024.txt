@@ -1,0 +1,61 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Oct  3 01:05:43 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id BAA03062; Thu, 3 Oct 1996 01:05:43 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 3 Oct 1996 07:05:35 +0200
+Message-Id: <1.5.4.16.19961003070403.41ef5388@mailsvr.pt.lu>
+X-Sender: geohelm@mailsvr.pt.lu
+X-Mailer: Windows Eudora Light Version 1.5.4 (16)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: Assoc Prof W David Joyner <wdj@nadn.navy.mil>
+From: Georges Helm <geohelm@pt.lu>
+Subject: Re: Intro to cube group theory?
+Cc: Cube-Lovers <cube-lovers@ai.mit.edu>
+
+At 18:43 01/10/1996 -0400, you wrote:
+
+>I think the best book is Bandelow's Inside Rubik's cube and beyond,
+>which might be in a local library. I have lecture notes for a
+>course I'm teaching on the Rubik's cube which I can send you
+>for free. Also, a group-theorist friend of mine has several
+>hundred copies of an elementary group theory book (printed
+>by the US government and I think free) available - you can
+>email me or him (Prof Gaglione, amg@nadn.navy.mil) if you're
+>interested. Finally, Puzzletts is still selling Singmaster's 
+>Notes on the Rubik's cube, though they are also out of
+>print. - David Joyner
+>
+
+I think a very helpful book is
+
+Handbook of Cubic Math by
+Alexander H. Frey, Jr. + David Singmaster
+
+Contents:
+
+Preface 
+   1.Introduction 
+   2.A Cubik Orientation 
+   3.Restoring the Cube 
+   4.The What, Why, and How of Cube Movements 
+   5.Improved Restoration Processes 
+   6.The Cube Group and Subgroups 
+   7.Permutation Structures and the Order of Groups 
+   8.Advanced Restoration Methods 
+   9.Epilogue 
+A. A Small Catalogue of Processes 
+B. Solutions to Exercises 
+Index 
+
+It was published by Enslow publishers
+
+Georges
+         
+geohelm@pt.lu
+http://www.geocities.com/Athens/2715
+http://ourworld.compuserve.com/homepages/Georges_Helm
+
+
+

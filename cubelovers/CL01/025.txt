@@ -1,0 +1,10 @@
+Date:  5 Dec 1980 1624-PST
+From: Dave Dyer <DDYER at USC-ISIB>
+Subject: Re:  Re: That 28 move Plummer Cross
+To: Greenberg.Symbolics at MIT-MULTICS
+cc: cube-lovers at MIT-MC
+In-Reply-To: Your message of 5-Dec-80 1910-PST
+
+
+ Not true!  It may be just a local maximum.
+-------

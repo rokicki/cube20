@@ -1,0 +1,59 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jul 28 15:20:07 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA04297; Mon, 28 Jul 1997 15:20:06 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From chrono@ibm.net Mon Jul 28 14:58:51 1997
+Message-Id: <33DCE54F.5463@ibm.net>
+Date: Mon, 28 Jul 1997 11:30:39 -0700
+From: "Jin \"Time Traveler\" Kim" <chrono@ibm.net>
+Reply-To: chrono@ibm.net
+Organization: The Fourth Dimension
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: 2^3 Reassembly
+References: <199707280518_MC2-1BB6-48C8@compuserve.com>
+
+Corey Folkerts wrote:
+> 
+> My 2^3 burst into pieces while I was playing around with it a while
+> back. I was amazed and intrigued by the number of internal pieces it
+> contained; many more than the 3^3.  Anyway, after a couple minutes I
+> got it all put back together, and started playing with it again. One
+> problem: when I attempted to rotate the cube on one of the axes, it
+> gave me a lot of resistance. If I continued to force it, the whole
+> thing burst and was reduced once again to a pile of little black
+> plastic pieces. After a few more random tests, I examined the pieces
+> and noticed, as I'm sure many have, that some of the small internal
+> pieces are slightly different than the others.  This fact leads me to
+> believe that the 'special' pieces need to be oriented correctly with
+> respect to each other in order for the cube to work correctly.  I
+> would be most appreciative if someone could please inform the manner
+> in which they need to be placed.
+> 
+>         Thanks in advance,
+>         Corey Folkerts
+
+You have experienced a problem which has led me to purchase a total of
+FOUR 2x2x2 cubes.  Not even of my own undoing either.  In two cases,
+friends attempted to play with the cube and disassembled them, and were
+unable to properly reassemble them.  I have pieces of each in separate
+boxes, minus several pieces each.  In one case I dropped it, it flew
+open, and I DID manage to reassemble it properly.  But it ALSO fell
+victim to a careless reassembly by a friend who also carelessly
+disassembled it.  That one I reassembled AGAIN and gave it to someone. 
+They later told me they "broke" it, which means it's in pieces and since
+they live 450 miles away, I can't exactly help them.  I have a fourth,
+still in its bag, untouched by human hands.  Oh yes, and I bought a
+fifth one (actually, it was the fourth, so the untouched one is
+technically the fifth) but I had to return it and get another one (the
+fifth) because it had been disassembled before and reassembled
+incorrectly (the pieces only turned on one axis).
+
+-- 
+Jin "Time Traveler" Kim
+chrono@ibm.net
+VGL Costa Mesa
+http://www.geocities.com/timessquare/alley/9895
+http://www.slamsite.com
+

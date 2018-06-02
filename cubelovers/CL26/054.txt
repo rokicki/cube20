@@ -1,0 +1,42 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Dec  4 13:17:06 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA05373
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 4 Dec 1998 13:17:05 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 3 Dec 1998 23:58:19 -0500 (EST)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199812040458.XAA26116@Twig.Rodents.Montreal.QC.CA>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: (5x5x5) edge parity corrections
+
+> The parity problem is found in 5x5x5 cubes (and 4x4x4 cubes, I
+> understand) when two of the edges right next to the corners (which I
+> call "wings") are switched.
+
+Yes, it does occur equally on the 4-Cube.  Though I have never seen
+one, I feel certain that similar parity problems will occur on all
+higher-order Cubes as well, though above order 5 there will be multiple
+distinct types of "wings", each of which will have its own comparable
+potential problem.
+
+Note that the problem goes away entirely if cube faces are marked such
+that symmetrically placed face cubies are not visually
+indistinguishable, because the parity problem in question always occurs
+in conjunction with a similar parity problem on face cubies, but the
+latter is invisible on most cubes.
+
+> [...] half the time two wings need to be switched.
+
+> How do other people fix this problem?
+
+Most briefly, how I do it is to make a single quarter-turn of a slice
+containing one of the wing pieces involved, then fix up the damage by
+moving wings back into place using commutators rather than slice moves.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

@@ -1,0 +1,76 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct 12 20:07:12 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA21764
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 12 Oct 1999 20:07:11 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 4 Oct 1999 18:47:12 -0400 (EDT)
+From: Daniel B Knights <knights@panther.middlebury.edu>
+To: Cube-Lovers@ai.mit.edu
+Subject: 3-Cube in 1 One-Look
+Message-Id: <Pine.A41.4.02.9910041844460.182270-100000@puma.middlebury.edu>
+
+Hi all, I'm new to this list, and new to the cube as well - only got my
+first one in March.
+Of course, now it doesn't leave my side.
+
+I have seen a few Cube-Lovers emails about solving the cube in a minimum
+number of looks. Here is a system that I use to solve the cube in 1 look,
+with 10-25 minutes of studying time. (Please excuse my lack of knowledge
+of terminology/group theory.)
+_________________________________________________
+
+When most people solve the cube they do it by decomposing the whole
+problem into successively more specific subgroups. (e.g. first layer
+edges, first layer corners, second layer edges, etc.) I say "successively
+more specific" because the moves someone would use to position the first
+few pieces are very simple and intuitive, usually changing (but not
+solving) the unsolved pieces in the cube. As one approaches the solved
+state, one uses much more specialized algorithms that affect only the
+remaining unsolved pieces.
+
+For "multiple-look" purposes, this is a great approach. Often the smaller
+the subgroup of pieces affected by an algorithm, the larger the number of
+moves in that algorithm, and since there is usually no perceived order to
+the unsolved pieces, there is no benefit to preserving them with lengthy
+specialized moves.
+
+To a person visualizing an entire solution in his or her head, however,
+these types of moves are very expensive in terms of memory. Instead I
+begin from the start using specialized moves that affect as little of the
+cube as possible. I might start off with an algorithm to permute 3 corners
+(hopefully putting at least two of them in the correct place/orientation)
+while leaving the other 5 corners and all 12 edges untouched.
+
+In fact, by the time I have all of the corners solved, the edge pieces are
+in exactly the same random configuration as when I started! (with the
+possible exception of having interchanged exactly 2 of them.) The solution
+has then been decomposed into 2 nearly independent problems.  The moves I
+use are mostly single-layer permutations with
+some commutators mixed in when necessary.
+
+One can get the corners solved after applying 5 or 6 move sequences, and
+then solve the edges with an additional 7 or 8 sequences. (This has
+nothing to do with the number of moves used to solve the cube. In fact,
+when I solve it with my eyes closed, I average 150-200 moves!)
+_____________________________________________________
+
+The Rules:
+I would consider it cheating to use a pen and paper. Basically, you have
+to sit down with a random cube and look at it for a while without
+manipulating it. Then close your eyes and start solving. When you next
+open them, it should be solved. (You don't get to "practice" the moves
+before you go.)
+_____________________________________________________
+
+So, has anyone else tried this?  I'm curious to know what method someone
+else uses.  I use my 15 minutes of studying time to plan out where I'm
+going to need to move the pieces.  I wonder if anyone with better memory
+skills can just memorize the locations of all the pieces and then work out
+the entire solution with their eyes closed.
+
+Dan Knights
+Middlebury College
+http://www.middlebury.edu/~knights/
+

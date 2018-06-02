@@ -1,0 +1,71 @@
+From dik@cwi.nl  Mon Jun  8 16:38:55 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA20835; Mon, 8 Jun 92 16:38:55 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA09864 (5.65b/2.10/CWI-Amsterdam); Mon, 8 Jun 1992 22:38:52 +0200
+Received: by boring.cwi.nl 
+	id AA12813 (5.65b/2.10/CWI-Amsterdam); Mon, 8 Jun 1992 22:38:51 +0200
+Date: Mon, 8 Jun 1992 22:38:51 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9206082038.AA12813.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: How big is the Magic Domino?
+
+Having done a number of calculations on maximal distances I thought about
+getting at newer pastures.  The Magic Domino.  The results follow in the
+next mailing, this post discusses a bit about the information found there.
+I added to the next mail also the previous results for the 2x2x2 and the
+corners of the 3x3x3 together with some additional results not presented
+previously.  There are for each puzzle five columns.  The first one
+enumerates the number of moves, the next two give the results if both
+quarter and half turns are accepted as moves, the last two give the
+information if only quarter turns are accepted (of course, on the Domino
+this distinction is there only for the U and D faces, the others know
+half turns only).  For each case there are two columns, the first giving the
+number of positions requiring the stated number of moves, the second
+column gives the number of local maxima (i.e. each move brings you closer
+to a solution).
+
+There are three tables for the Domino.  The one you want to pick depends
+on how you view the puzzle.  The first view is that there is only one
+solution with on top 1 to 3 running from left back to right back.  The
+second view is that rotation of the puzzle makes different configurations
+indistinguishable, so the total number of configuration is (8!)^2 / 4.
+An alternative way to look at it is that there are 4 solutions.  One the
+standard solution, the others obtained by rotating the domino along the
+UD axis.  The distinction between the two views is only a factor of four
+in the number of configurations for the different path-lengths.  Finally,
+we can view as a solution the configuration with on top 1 to 3 running from
+right back to left back in stead of the other way around.  Actually this
+solution is not worse than the other, because, if we turn over a solved
+Domino we go from one to the other.  This view can also be expressed by saying
+there are 8 solutions.  I give results for all three cases.  The numbers upto
+(and including) path-length 2 have been checked by hand.
+
+Some remarkable observations.
+
+When we compare the tables for 1 solution and those for 4 solutions we see
+that for short path-lengths the number of configurations is multiplied by
+4.  On the other hand, for long path-lengths the number of configurations
+is equal!  We can say that rotation of the Domino has only a short range
+effect.
+
+On the other hand, if we compare both with the 8-solutions tables we see that
+the latter allows shorter solutions in general, so mirroring has a long
+range effect.
+
+Each of the 6 calculations on the Magic Domino took 2 to 2.5 hours on one
+processor of an SGI 4D-420S.  The program is completely memory bound (and
+the cache does not help).  It needs at least 31 MByte of core (and must be
+resident) otherwise you will get no results at all in reasonable time.  I
+tried it on the 32 MByte FPS; while it will happily give results initially
+at some stage it will not longer run.  Not only that it will not walk either,
+and also not crawl.  It is just sitting there paging in and paging out (a
+phenomenon known as page thrashing).  I found that the program would get
+less than 0.005 % of the CPU on an otherwise unloaded machine.
+
+The program would enable me to write a 27901440 byte file that would assist
+in an optimal solver for the Domino.
+
+dik
+

@@ -1,0 +1,45 @@
+From awechsle@bbn.com  Thu Feb 15 11:20:11 1996
+Return-Path: <awechsle@bbn.com>
+Received: from chaplin.bbn.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02896; Thu, 15 Feb 96 11:20:11 EST
+Received: from chara.BBN.COM (CHARA.BBN.COM [128.33.161.114]) by chaplin.bbn.com (8.6.12/d4m-bbn) with ESMTP id LAA20529; Thu, 15 Feb 1996 11:20:10 -0500
+From: Allan Wechsler <awechsle@bbn.com>
+Received: by chara.BBN.COM (8.6.10) id LAA03366; Thu, 15 Feb 1996 11:20:09 -0500
+Date: Thu, 15 Feb 1996 11:20:09 -0500
+Message-Id: <199602151620.LAA03366@chara.BBN.COM>
+To: tmartin@accucomm.net
+Cc: Cube-Lovers@ai.mit.edu
+In-Reply-To: <199602151206.MAA09438@accucomm.net> (tmartin@accucomm.net)
+Subject: Re: Resolution of the cube
+Reply-To: awechsle@bbn.com
+
+   Date: Thu, 15 Feb 1996 12:06:18 GMT
+   From: "Thomas H. Martin" <tmartin@accucomm.net>
+
+   My son has dug out my cube and has a burning interest in it now.  Also, he
+   has revived my interest in it.  My question is, is there somewhere I can get
+   the solution for him?  
+
+   Tommy Martin
+   Dublin, GA
+   tmartin@accucomm.net
+
+Now you've pushed my button.
+
+When the cube first came out, a bunch of us at MIT were wild to solve
+it.  There were _no_ published solutions.  At least three or four of
+us solved the cube by ourselves, independently.  We twisted and
+turned, drew arcane diagrams to show what went where, and although it
+sometimes took a couple of weeks, we each managed it.
+
+Then the books started to come out, and as far as I can tell, no one
+ever solved it independently again.
+
+The cube is a solvable puzzle.  It is challenging, but it eventually
+yields to analysis and experimentation.  Why don't you and your son
+_not_ cheat, and actually solve the thing?  You'll be the first to do
+it on your own for more than a decade.
+
+What fun is it to read the answer from a book?
+
+-A
+

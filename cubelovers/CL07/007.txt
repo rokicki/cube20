@@ -1,0 +1,34 @@
+From alan@ai.mit.edu  Thu Oct 18 17:06:55 1990
+Return-Path: <alan@ai.mit.edu>
+Received: from wheat-chex (wheat-chex.ai.mit.edu) by life.ai.mit.edu (4.1/AI-4.10) id AA02418; Thu, 18 Oct 90 17:06:55 EDT
+From: alan@ai.mit.edu (Alan Bawden)
+Received: by wheat-chex (4.1/AI-4.10) id AA03710; Thu, 18 Oct 90 17:06:51 EDT
+Date: Thu, 18 Oct 90 17:06:51 EDT
+Message-Id: <9010182106.AA03710@wheat-chex>
+To: cube-lovers
+Subject: Archives again
+
+I hate to bother you folks again so soon, but naturally the AI Lab chose
+today to reorganize how anonymous FTP access worked.  Here are the updated
+instructions for accessing the Cube-Lovers archives:
+
+Connect to TRIX.AI.MIT.EDU, login as "anonymous" (any password), and in the
+directory "pub/cube-lovers" you will find the seven (compressed) files
+"cube-mail-0.Z" through "cube-mail-6.Z".  
+
+Archive vital statistics (when uncompressed):
+
+	   File		   From		   To	     Size (bytes)
+	   ----		   ----		   --	     ------------
+	cube-mail-0	12 Jul 80	23 Oct 80	185037
+	cube-mail-1	 3 Nov 80	 9 Jan 81	135719
+	cube-mail-2	10 Jan 81	 3 Aug 81	138566
+	cube-mail-3	 3 Aug 81	 3 May 82	137753
+	cube-mail-4	 4 May 81	11 Dec 82	139660
+	cube-mail-5	11 Dec 82	 6 Jan 87	173364
+	cube-mail-6	10 Jan 87	13 Apr 90	216733
+
+(Unfortunately, due to the way mail works here at the AI Lab, it is not
+possible to have the current active archive accumulate anywhere where
+anonymous FTP can pick it up.)
+

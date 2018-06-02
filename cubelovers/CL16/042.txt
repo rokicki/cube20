@@ -1,0 +1,76 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Mon Jul  3 14:15:29 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06658; Mon, 3 Jul 95 14:15:29 EDT
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <181839-4>; Mon, 3 Jul 1995 14:16:59 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA20583; Mon, 3 Jul 95 14:11:12 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1E9C06; Mon,  3 Jul 95 14:04:58 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Crazy Corner Pattern Revisited
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1182.5834.0C1E9C06@canrem.com>
+Date: Mon, 3 Jul 1995 14:59:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+Jerry writes:
+
+>                In their position, the UFL and RBD corners are
+>in place, and the other three pairs are swapped.  The "girdle"
+>includes the three pairs that are swapped.  Hence, there
+>is an axis of symmetry along the UFL-RBD axis.  The odd number of
+>swaps is compensated by an odd number in the edges.  The compensation
+>is not required for corners only.
+>
+>        R D D
+>        U U D
+>        U U B
+>
+> D L L  F F D  L L F  L F F
+> R L L  F F B  L R R  B B F
+> R R B  R B B  U R R  B B U
+>
+>        U U L
+>        U D D
+>        F D D
+
+Much is explained! (And this is all the way back in file "cube01" in
+the archives, Date: 14 December 1980 1916-EST).
+
+What does the 1916- mean in front of EST???
+
+If we put the edges in place in Jerry's (and Dan's) position
+then we have a position M-conjugate to the one I posted.
+(re-posted below).
+
+        F U U
+        U U U
+        D U L
+R L B   R F B   D R R   B B D
+L L L   F F F   R R R   B B B
+U L L   F F U   L R F   L B F
+        D D B
+        D D D
+        R D U
+
+Jerry Continues:
+
+>...there is an axis of symmetry along the UFL-RBD axis.  The odd
+>number of swaps is compensated by an odd number in the edges.
+>The compensation is not required for corners only.
+
+Great! We both concur that this pattern is in the swap orbit.
+There is another position with M-class 4 in the twist orbit,
+but that one is *utterly* impossible unless one corner twists
+on it's own (perhaps due to desperate cube turning?)
+
+There are 2 other types of position with M-class 4, and that is
+pinwheels and pinwheels + pons asinorum.
+
+-> Mark <-
+
+(I must be cubing too much, 1916-EST has to be 7:16 pm Eastern
+Standard Time).
+

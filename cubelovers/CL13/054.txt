@@ -1,0 +1,98 @@
+From BRYAN@wvnvm.wvnet.edu  Sat Nov 12 01:48:27 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA28036; Sat, 12 Nov 94 01:48:27 EST
+Message-Id: <9411120648.AA28036@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 3576; Fri, 11 Nov 94 22:06:56 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 0554; Fri, 11 Nov 1994 22:06:55 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Fri, 11 Nov 1994 22:06:49 -0500 (EST)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@life.ai.mit.edu>
+Subject:   Re: <U, R> Searches
+In-Reply-To: Message of 11/11/94 at 15:36:00 from mark.longridge@canrem.com
+
+On 11/11/94 at 15:36:00 mark.longridge@canrem.com said:
+
+> With the computer hardware I'm using (486-DX40 with 4 megs) and
+>my current algorithm I created a file "ur.dat" which is a flat
+>ascii file. It contains all the processes which generate distinct
+>positions up to 12 q turns. I also have the file "ursum.is" which
+>contains all the `cubesums' for each element of <U, R>.
+
+I have considered keeping a file of processes, either in parallel
+with my file of positions, or together in the same file.  However,
+I have always rejected the idea because it would take too much
+storage for the very large searches I want to accomplish.
+Also, since I only store representative elements of equivalent
+classes in my data base, it is hard to know what a "process"
+means (see below).
+
+> Using this method I have found a process for all <U, R> positions
+>with the longest being 22 q turns (so far). The hardest positions
+>can take as long as a couple of hours. I have no idea what the
+>antipodes look like at this time, but I'll probably try the
+>random approach soon.
+
+Interesting approach, and very different than what I do.  I simply
+do a "game theory" type tree search of positions (*not* processes)
+with Start at the root of the tree.  I have to search the whole
+depth of the tree rather than half the depth of the tree, as you do.
+(I could obviously verify the depth of one particular position with
+two half-depth searches, but I confess I have never been very
+interested in "particular positions".  I want to search the whole
+tree.)
+
+I tend to think of the processing required for whole tree searches
+as "global" because you cannot determine anything about
+one particular position except in the context of the other
+positions down to the same level of the tree.  By contrast, there
+is some interesting processing that you can do that is "local";
+e.g.,  conjugate class sizes, symmetry group determination, etc.
+can be determined on a position by position basis without
+regard to any other position.  Such "local" processing is generally
+much easier than the "global" processing.  "Local" processing
+is O( N ) and requires essentially no memory. "Global" processing
+is O( N log(N) ) if you are efficient, maybe O(N^2) if you are not,
+and is very consumptive of memory.  As I have said before, I solve
+the memory problem by externalizing the data to files and sorting
+the files.
+
+Saying that I have a hard time converting positions into processes
+doesn't mean that I cannot do so.  The process for a given position
+can be extracted from a data base of positions by backtracking
+from the position back to Start.  However, I have two difficulties.
+
+One is that I store only representative elements of equivalence
+classes (of the form {m'Xmc} for centerless cubes, or M-conjugate
+classes of the form {m'Xm} for cubes with centers)}.  That means
+that as you backtrack, the process you are determining (backwards)
+will rotate and reflect out from under you.  For example, suppose we
+have Repr{m'Xm}=f'Xf for some fixed f in M.  If Xq for some q in Q
+is a neighbor of X which is one move closer to Start than X,
+then we might have Repr{m'(Xq)m}=g'(Xq)g for some fixed g in M.
+But f and g need not be, and usually aren't, the same.
+
+It might be noted in passing that there is duality between the
+symmetry of a position X and a process P=p1 p2 ... pn which produces
+X.  That is, if f is a fixed element of M, then we have
+f'Xf = f'Pf = f'(p1)f f'(p2)f ... f'(pn)f.
+
+The second problem is that my files are so large that I have to
+keep them on magnetic tape.  If I need to find a process, I first
+find a sequence of positions (really, a sequence of representative
+elements) on the tapes (hard to search tapes!), and copy the
+positions to a small disk file.  From that point, it is not
+especially hard to run a program to display the positions in
+sequence and determine the process.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

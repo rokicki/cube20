@@ -1,0 +1,16 @@
+Received: from Gamay.ms by ArpaGateway.ms ; 01 MAR 85 08:55:07 PST
+Date: 1 Mar 85 08:54:47 PST (Friday)
+From: Hoffman.es@XEROX.ARPA
+Subject: 5-by-5-by-5
+To: Cube-Lovers@MIT-MC.ARPA
+cc: Hoffman.es@XEROX.ARPA
+
+Anyone have a written solution algorithm for the 5-by-5-by-5 cube?  I
+got mine a year and a half or so ago from Meffert in Hong Kong by mail
+order.  After a couple of weeks of just trying out "pretty patterns" on
+it, I finally got up the nerve to mess it up.  Well, of course, it's
+never been altogether solved since.  (I was never a great cube wizard.)
+It sits on display as the base of my cube tower, with those few nagging
+cubies out of place.  I haven't touched it in many months.
+
+--Rodney Hoffman

@@ -1,0 +1,131 @@
+Date:  2 September 1982 0755-EDT (Thursday)
+From: Dan Hoey at CMU-10A
+To: ISAACS at SRI-KL
+Subject:  Re: Hypermove Lower Bounds
+CC: Cube-Lovers at MIT-MC
+In-Reply-To:  ISAACS@SRI-KL's message of 31 Aug 82 12:22-EST
+Message-Id: <02Sep82 075524 DH51@CMU-10A>
+
+    Date: 31 Aug 1982 1022-PDT
+    From: ISAACS at SRI-KL
+
+    Could you explain to me how you got the formula of your message
+    of 23 Aug.
+
+There are SF different shallow hypermoves and DF different deep
+hypermoves, and two similar hypermoves in succession can be
+collapsed into one.  The formula expresses the number of
+alternating sequences of length at most four, which is the sum of
+the ``Number'' column below.
+
+        Length   Type    Number
+        0                1
+        1        S       SF
+        1        D       DF
+        2        SD      SF * DF
+        2        DS      SF * DF
+        3        SDS     SF^2 * DF
+        3        DSD     SF * DF^2
+	4        SDSD    SF^2 * DF^2
+	4        DSDS    SF^2 * DF^2
+
+    I can see more-or-less what you're doing, but I haven't been
+    able to parse the formula.
+
+Well, I did leave out the multiplication signs.
+
+    Also, I haven't seen your notation before.  I take it that "U3"
+    is equivalent to "D1'", except hold the D1 in place.
+
+Right.  I used this notation in "Lower Bounds for the 4x4x4" on 2
+June and "Invisible Revenge" on 9 August.
+
+    How do you represent half twists?  Only by two quarters, or is
+    there a shorthand?
+
+There is U3^2, not much of a shorthand.  For the U slice move, I
+hinted at U21'.
+
+    From a group theory perspective, is it easier to talk about
+    hypermoves than slice moves?
+
+Hypermoves are a curiosity that Jim Saxe dreamed up.  Any sequence
+of depth 1 (or 3) moves is a single hypermove, as is any sequence
+of depth 2 moves.  I assume you mean to ask whether it's easier to
+talk the way I usually talk, in terms of what I will call "twist
+moves" to distinguish them from "slice moves".
+
+The question boils down to what set of generators (moves) you want
+to use when counting the length of a process.  This topic was
+endlessly rehashed in 1980 when people were trying to decide
+whether to call a half-twist a single move or two.  Jim Saxe nearly
+sent a message in 1980 about using only two generators to solve
+Rubik's cube.  [As I recall, computer failure trashed the message
+and he never retyped it.]  Certainly we can all do slices and
+half-twists.  The question is how many moves to charge for such an
+operation.  The richer the set of generators, the fewer the number
+of moves, but the more complex the explanation of the generators.
+
+I use the "quarter-twist" convention for the 3^3.  The generators
+are 90-degree rotations of faces.  This seems natural, because it
+is the minimal set that satisfies the following criteria.
+
+    1.  Every possible cube position can be created using these
+            generators, up to whole-cube moves.  This is a basic
+            criterion.
+    2.  The inverse of every generator is a generator.  This is
+            necessary so that we have a metric.
+    3.  Any position that can be reached by performing part of a
+            generator is a generator.  This criterion ties the
+            mechanical operations used in the cube to the
+            permutation group.  Otherwise we could have generators
+            like FUF and F'U' and perform F with their composition.
+            Charging two moves for F in that circumstance is
+            somewhat bizarre.  
+    4.  Every M-conjugate of a generator is a generator.  This is
+            an aesthetic consideration.  We could leave out the D
+            and D' twists and still solve the 3^3, but that breaks
+            up the symmetry of the puzzle.
+
+Why do I want the generator set to be minimal?  Well, we could make
+it maximal, but then we would have ``over 3 billion'' generators.
+What I am looking for is a canonical set, and minimality seems like
+the best way of choosing among metrics.  Thus we exclude slice
+moves as generators because they are not necessary.
+
+For the 3^3, this set is particularly fortunate, because the
+converse of criterion 4 holds:  Every two generators are
+M-conjugate.  This allows us to identify some local maxima without
+long computations (14 December 1980) and to tighten lower bounds
+using parity principles (9 January 1981).
+
+    Will that also be true on the 5^3, 6^3, etc?
+
+I would just as soon stick with a compatible metric.  This is not
+to say that there cannot be abbreviations for these moves, simply
+that for the sake of asking ``how many moves does this take'' we
+count the number of quarter-twists.
+
+We unfortunately don't have the converse of criterion 4 for cubes
+larger than 3^3.  For the 4^3, for instance, there are two flavors
+of move:  deep and shallow.  Dave Plummer (26 September 1981)
+described certain positions of the 4^3 as local maxima, but I have
+convinced him that we cannot demonstrate the truth of that
+assertion using known techniques other than exhaustive search.  My
+note of 2 June was able to use only one kind of parity in the lower
+bound argument.  Both problems are due to the lack of the converse.
+
+    From a solving perspective, it seems clumsy.
+
+I'll agree that the generators are few in this scheme, but it is
+possible to generate macros.  For instance, consider describing a
+slice move on the 3^3 cube.  Singmaster uses the notation Fs to
+denote the F1B1' = F12'3 slice move.  We can now also talk about
+the F12' slice move, which is how everyone actually does the move.
+I think this is much easier to remember than Allan Wechsler's IJK
+notation (introduced 18 July 1980) or Doug Landauer's HPS notation
+(27 August 1980) for dealing with whole-cube moves.
+
+I'm still not too happy about the state of RubikSong, but I think
+it's a matter of human engineering, and I like to stick with the
+mathematics.

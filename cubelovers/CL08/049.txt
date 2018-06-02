@@ -1,0 +1,57 @@
+From Don.Woods@eng.sun.com  Fri Apr 24 17:56:26 1992
+Return-Path: <Don.Woods@eng.sun.com>
+Received: from Sun.COM by life.ai.mit.edu (4.1/AI-4.10) id AA27121; Fri, 24 Apr 92 17:56:26 EDT
+Received: from Eng.Sun.COM (zigzag-bb.Corp.Sun.COM) by Sun.COM (4.1/SMI-4.1)
+	id AA27750; Fri, 24 Apr 92 14:56:15 PDT
+Received: from colossal.Eng.Sun.COM by Eng.Sun.COM (4.1/SMI-4.1)
+	id AA24248; Fri, 24 Apr 92 14:56:17 PDT
+Received: by colossal.Eng.Sun.COM (4.1/SMI-4.1)
+	id AA22010; Fri, 24 Apr 92 14:56:22 PDT
+Date: Fri, 24 Apr 92 14:56:22 PDT
+From: Don.Woods@eng.sun.com (Don Woods)
+Message-Id: <9204242156.AA22010@colossal.Eng.Sun.COM>
+To: ACW@riverside.scrc.symbolics.com
+Subject: Description of Rubik's Tangle
+Cc: Cube-Lovers@ai.mit.edu
+
+> From: Allan C. Wechsler <ACW@riverside.scrc.symbolics.com>
+> I hope I'm not wasting too many people's time, but... can you describe
+> the Rubik's Tangle puzzle for those of us who haven't seen it?  Your
+> description was interesting, but I wonder about your statement that it
+> can't be solved without a computer.  Perhaps you just didn't have the
+> right insight.
+
+I would love to hear an insight that makes this puzzle tractible in real
+time (hours rather than days) by hand.  Here's a brief description of
+Tangle #1; as I said in my earlier posting, I don't know how the other 3
+differ, though I'm pretty sure they each have the same number of tiles.
+
+Tangle #1 consists of 25 square tiles, each of which has four colored
+ropes crossing it in the following pattern.  (Note: This may be mirror
+imaged, since I'm working from memory.)
+
+	---------------------
+	|     @       #     |
+	|     @       #     |
+	|$$    @      # %%%%|
+	|  $    @    %#%    |
+	|   $    @ %% #     |
+	|    $    %@  #     |
+	|    $  %%  @@#     |
+	|    %%%      #@@   |
+	|%%%% $       #  @@@|
+	|     $       #     |
+	|     $       #     |
+	---------------------
+
+The connection marked with $ actually wanders around the tile a bit more,
+but the connectivity is as shown.  The object is to place the tiles in a
+5x5 array such that wherever two tiles touch the colors of the ropes match.
+In Tangle #1 each permutation of colors occurs once, with one permutation
+occurring twice.
+
+The box says that if you get all four Tangles, you can put them together
+to make a 10x10 array under the same color-matching constraints.
+
+	-- Don.
+

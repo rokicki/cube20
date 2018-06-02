@@ -1,0 +1,27 @@
+From mouse@collatz.mcrcim.mcgill.edu  Sun Apr  7 09:27:42 1996
+Return-Path: <mouse@collatz.mcrcim.mcgill.edu>
+Received: from Collatz.McRCIM.McGill.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04677; Sun, 7 Apr 96 09:27:42 EDT
+Received: (root@localhost) by 1565 on Collatz.McRCIM.McGill.EDU (8.6.12 Mouse 1.0) id JAA01565 for cube-lovers@ai.mit.edu; Sun, 7 Apr 1996 09:27:39 -0400
+Date: Sun, 7 Apr 1996 09:27:39 -0400
+From: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Message-Id: <199604071327.JAA01565@Collatz.McRCIM.McGill.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: Re:  Square-1 question
+
+> I recently got a hold of a Square-1 puzzle and have been trying to
+> solve it.  I can get to the point where it's done, but two edges on
+> one side are swapped.  How do I swap them back?  Is this a parity
+> problem?  Every move I have that swaps edges does TWO pairs are a
+> time, so I can't get there with what I have.  Or can I?
+
+I'm not familiar with Square-1...but if, as seems lkely, it's a square
+that you have to get into some arrangement, then consider turning the
+whole puzzle 90 or 180 degrees and trying again; that may introduce an
+odd permutation and thus make a solution possible.  Or depending on the
+definition of "solved" - as I say, I don't know the puzzle - maybe go
+for a mirror-reflected state.
+
+					der Mouse
+
+			    mouse@collatz.mcrcim.mcgill.edu
+

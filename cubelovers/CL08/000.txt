@@ -1,0 +1,63 @@
+From ccw@eql.caltech.edu  Fri Nov  1 19:10:26 1991
+Return-Path: <ccw@eql.caltech.edu>
+Received: from EQL.Caltech.Edu by life.ai.mit.edu (4.1/AI-4.10) id AA16260; Fri, 1 Nov 91 19:10:26 EST
+Date:     Fri, 1 Nov 91 15:49:59 PST
+From: ccw@eql.caltech.edu (Chris Worrell)
+Message-Id: <911101154959.23403c64@EQL.Caltech.Edu>
+Subject:  What is the smallest cube which has all possible types of pieces?
+To: cube-lovers@ai.mit.edu
+
+Some cube discussion has started in rec.games.misc.  I am trying to
+re-direct it to rec.puzzles, or hopefully cube-lovers.
+
+This is a copy of what I posted to rec.games.misc and rec.puzzles.
+
+Message follows:
+------------------------------------
+Newsgroups: rec.games.misc, rec.puzzles
+Subject: Re: Rubik's Wonderful Madness
+Followups-to: rec.puzzles
+
+johnf@apollo.hp.com (John Francis) writes...
+>
+>The 5x5x5 cube is the largest "interesting" cube from a solvers viewpoint.
+>The corner cubelets of cubes of all sizes can be solved the same way.
+>Similarly with the edge-centre cubelets of odd-sized cubes, etc., etc.
+>The 5x5x5 does not actually require any new solving techniques (if you can
+>solve a 3x3x3 and a 4x4x4 you can solve a 5x5x5), but it is the smallest
+>cube that contains cubelets of all possible types.
+
+Actually the 7x7x7 has a type of piece that the 5x5x5 does not have.
+This is a "face" piece which is not on a main diagonal of the face, nor
+on the main horizontal or vertical.  These pieces come in 2 flavors,
+right-handed and left-handed (but I am not sure which should be called which).
+
+----------------------
+|A |B |C |D |  |  |  |      The 2x2x2 has types A
+----------------------      The 3x3x3 has types A, D, K
+|  |E |F |G |  |  |  |      The 4x4x4 has types A, B(C), E(I)
+----------------------      The 5x5x5 has types A, B(C), D, E(I), G(J), K
+|  |H |I |J |  |  |  |      The 6x6x6 has types A, B, C, E, F, H, I
+----------------------      The 7x7x7 has types A-K
+|  |  |  |K |  |  |  |
+----------------------      B and C are distinct at size 6+, but the same
+|  |  |  |  |  |  |  |          sorts of procedures work on both.
+----------------------      Similarly for E & I.
+|  |  |  |  |  |  |  |      Similarly for G & J.  For odd sizes 7+.
+----------------------      Similarly for H & F. These are related
+|  |  |  |  |  |  |  |          by mirror imaging.  Not by slice renumbering,
+----------------------          like the above.
+
+Types F & H only start appearing at size 6.  There are 24 of each of these
+pieces, and a type F can not be mixed with a type H.
+
+
+Discussions about the Rubik's cube and related puzzles should probably be
+directed to rec.puzzles rather than rec.games.misc.
+
+There is also a mailing list for theses topics.
+cube-lovers@ai.mit.edu
+Send mail to cube-lovers-request@ai.mit.edu to be added.
+Some sites may also see this as a newsgroup mlist.cube-lovers. But do not
+post to this group.
+

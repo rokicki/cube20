@@ -1,0 +1,63 @@
+From news@nntp-server.caltech.edu  Sun Sep 24 09:54:40 1995
+Return-Path: <news@nntp-server.caltech.edu>
+Received: from chamber.cco.caltech.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA15598; Sun, 24 Sep 95 09:54:40 EDT
+Received: from gap.cco.caltech.edu by chamber.cco.caltech.edu with ESMTP 
+	(8.6.12/DEI:4.41) id GAA19960; Sun, 24 Sep 1995 06:54:38 -0700
+Received: by gap.cco.caltech.edu 
+	(8.6.7/DEI:4.41) id GAA27751; Sun, 24 Sep 1995 06:54:35 -0700
+To: mlist-cube-lovers@nntp-server.caltech.edu
+Path: whuang
+From: whuang@cco.caltech.edu (Wei-Hwa Huang)
+Newsgroups: mlist.cube-lovers
+Subject: Re: Alexander's Star
+Date: 24 Sep 1995 13:54:34 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 42
+Message-Id: <443nuq$r35@gap.cco.caltech.edu>
+References: <9509150340.AA15388@quark.geoworks.com>
+Nntp-Posting-Host: accord.cco.caltech.edu
+X-Newsreader: NN version 6.5.0 #12 (NOV)
+
+dlitwin@geoworks.com (David Litwin) writes:
+
+
+>	While we are on the subject of the Alexander's star, I have never
+>been entirely satisfied with the arrangment of its solution.  I've noticed
+>that most people who look at it don't even know it is solved and I have to
+>explain that the solution is that all the stickers of pieces laying in a
+>common plane around the points are the same color.  Hard to say, but I can
+>point it out to people.  
+>	To this end I have spent some time trying to find a more satisfying
+>solution, one more visually clear and simple.  I've only come up with one
+>alternative that I consider reasonable, and it isn't as pure as I would
+>like.
+
+>	This solution involves grouping colors in the depressions of the
+>star.  The main problem lies in the fact that the edges come together in
+>groups of three, but there are 10 stickers of each color so at some point
+>having all the depressions of the star a single color breaks down.  For
+>this reason I choose one color (White is my preference) to be an exception
+>and have it remain in the original configuration, i.e. all in two parallel
+>planes.  With the rest of the colors, I group them in groups of five: three
+>in one depression, and two in an adjacent depression with the third color
+>of this second depression being one of a white.  The result of this is a
+>set of interlocking "diamonds" that group visually because the are of the
+>same color.  Unrolled, the star would look like this (this should just fit
+>on a display of 80 columns):
+
+>	I haven't found a nice way of having more solid depressions than this.
+
+>	Has anyone else found any nice solutions?
+
+>	Dave Litwin
+
+I came up with this solution independently.  I also liked on that picked two
+opposite depressions on the star and made sure they contained one of each
+color.  That allowed me to fill each of the other 18 depressions with
+homogenous colors.
+
+-- 
+   -- Wei-Hwa Huang (whuang@cco.caltech.edu)
+Homepage (under construction): http://www.ugcs.caltech.edu/~whuang/
+Microsoft: small and limp.
+

@@ -1,0 +1,54 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Jun  5 19:50:57 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA07832 for <cube-lovers-outbound@curry.epilogue.com>; Wed, 5 Jun 1996 19:50:56 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 5 Jun 96 18:32:29 EDT
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9606052232.AA22039@sun34.aic.nrl.navy.mil>
+To: Nicholas Bodley <nbodley@sunspot.tiac.net>,
+        Wei-Hwa Huang <whuang@cco.caltech.edu>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Fragile parts in 4^3
+
+On 1 Jun 1996, Wei-Hwa Huang wrote:
+
+{Mostly snipped}
+
+> As another aside, I don't understand the rationale behind the canonical
+> 4x4x4 design.  It would seem to me that it's better to have two rings of
+> grooves in each dimension, so that the face pieces could have "fatter"
+> legs and not break off as easily.
+
+If the center pieces had one leg each (instead of a 1/4-leg) you would
+have _one_ groove around each equator (instead of _half_ a groove).
+Remember, it's important that the inner sphere stay in sync with at
+least one of the sets of face centers so that after you've finished
+the turn you will be able to turn in an orthogonal direction.  I don't
+know how that would work with the turns of the face.  You might need
+a switch that looks kind of like the following where two equators meet:
+
+            I
+            I     * * *
+            I *           *
+============O===============O========
+          * I                 *
+            I
+        *   I                   *
+        *   I                   *
+        *   I                   *
+            I
+          * I                 *
+            O               O
+            I *           *
+            I     * * *
+            I
+
+where the legs live at the "O" positions when a turn is not in
+progress.  But this looks dangerous to me; I think there is a lot of
+potential for derailment.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+

@@ -1,0 +1,30 @@
+From BRYAN@wvnvm.wvnet.edu  Mon Jun 19 14:04:49 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29637; Mon, 19 Jun 95 14:04:49 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 0056; Mon, 19 Jun 95 13:41:52 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 3719; Mon, 19 Jun 1995 13:41:52 -0400
+Message-Id: <wvmail32.1995jun19.133523.bryan@wvnvm.wvnet.edu>
+Date:      Mon, 19 Jun 1995 13:41:51 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   3x3x3 Cubes for Sale
+
+For the first time in years, I have seen 3x3x3 cubes for sale in a
+store.  (For American readers, the store is Hills, which is a regional
+chain which competes against WalMart and Kmart.  The price is $8.97 --
+U.S. dollars.)  The box has a note signed by Erno Rubik, and gives
+the proper size of the cube group.  Also, and I couldn't see inside
+the box to verify this, the Face centers seemed to be marked in such
+a way as to support the Supergroup.  Rubik's note about the size of
+the  problem says it is 4^4 times bigger than the regular problem.
+The manufacturer (or maybe distributor?) is Matchbox Toys (or is it
+Matchbook Toys?).
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

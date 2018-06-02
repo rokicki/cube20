@@ -1,0 +1,20 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Dec 13 17:24:01 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA15877
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 13 Dec 1999 17:24:01 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <001701bf4163$a712fb30$d80c13ac@ste04w0001.ste04.icl.co.uk>
+From: "Roger Broadie" <Roger.Broadie@iclweb.com.icl.co.uk>
+To: <Cube-Lovers@ai.mit.edu>
+Cc: <HarLikin@aol.com>
+Subject: Re: Megaminx 2 edge swap
+Date: Wed, 8 Dec 1999 10:04:43 -0000
+
+The current Megaminx uses only six colours.  We had a discussion about
+the ambiguities this creates in January 1998, to be found in the
+archives in cube-mail-24.
+
+Roger Broadie
+

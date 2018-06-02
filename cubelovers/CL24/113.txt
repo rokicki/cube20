@@ -1,0 +1,40 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 30 18:20:01 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA24605; Tue, 30 Dec 1997 18:20:00 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Dec 29 08:34:36 1997
+Message-Id: <3.0.3.32.19971229083148.0055d700@caddscan.com>
+Date: Mon, 29 Dec 1997 08:31:48 -0500
+To: Cube-Lovers@ai.mit.edu
+From: "Bryan Main" <bmain@caddscan.com>
+Subject: Re: 5x5x5
+In-Reply-To: <1.5.4.16.19971226100243.1137cba4@mailsvr.pt.lu>
+
+At 10:03 AM 12/26/97 +0100, Georges Helm wrote:
+>I have a German book by Kurt ENDL on how to solve the whole bunch of 2x2x2,
+>3x3x3, 4x4x4 and 5x5x5 cubes.
+>I have a xeroxed copy of a solution by myself.
+>I do upper middles, edges, corners.
+>Then 2d, 3d and 4th layer edges.
+>Then 2d, 3d and 4th layer middles.
+>Then last layer corners and finally last layer edges.
+>
+>Sometimes parity is uneven, i,e, there remain 2 edges to swap, and
+>there is a move I use to resolve that problem without disturbing the
+>rest of the cube by Helmut GEMBITZKY.
+>
+>Georges Helm
+
+I just got one of these for christmas and had a question or two.  First is
+there a cube program so I can play with it and not destroy all the work I
+have done?  And I have solved one side, and all of the edges without much
+problems.  However, can I solve the middle pieces without destroying the
+edges?  As of yet I haven't found a way to keep the one side I have
+finished and move one of the center pieces on another side.  I don't want
+moves, I just want to know if it is possible to solve this way or if I
+need to start looking at another way to solve it.
+
+bryan
+

@@ -1,0 +1,64 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Feb 24 15:56:12 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA08933
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 24 Feb 1999 15:56:11 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <36D3B818.E20EFCD6@ibm.net>
+Date: Wed, 24 Feb 1999 00:28:08 -0800
+From: "Jin 'Time Traveler' Kim" <chrono@ibm.net>
+Reply-To: chrono@ibm.net
+To: cube-lovers@ai.mit.edu
+Subject: Acquiring rare puzzles
+References: <199902192002.OAA04117@solaria.sol.net>
+
+This may be common knowledge to many of you on this list, but I thought
+I'd mention these and give everyone a fair shot (as well as maybe
+angering some who used it as a resource to locate some harder to find
+pieces).
+
+1) If you are looking for some rare pieces like the Revenge, Megaminx,
+Alexander's Star, these items often come up for auction at
+
+http://www.ebay.com
+
+In the three weeks or so that I've been actively participating in
+auctions, I've seen several of each of the following: Rubik's Revenge,
+Alexander's Star, Missing Link, Megaminx, and Whippit.  I've also seen
+Skewb, 5x5x5, Rubik's Magic, Pyraminx, Mickey's Challenge, and any
+number of others come up for bidding.  Haven't seen a Rubik's Domino
+(2x3x3), though.  For a general idea of what's there, try doing a search
+for the key word "rubik" at the site.  That's just for starters.  I even
+saw a Cuboctahedron (yes, just a shaved down 3x3x3 cube) go for over 60
+dollars.  Incredible.  Using eBay I have personally added two more
+Revenges to my collection.
+
+
+
+2) There is also someone on the net who seems to be contacting people
+directly and trying to sell a stock of puzzles he ran across.  His
+email is jo_schumacher@[see moderator's note].  Try emailing him for
+availability and pricing.  For example, he was last selling mint
+Revenges for $109 and Alexander's Stars for $70.  I haven't bought
+anything from him yet so consider it an "at your own risk" venture.
+  
+-- 
+Jin "Time Traveler" Kim
+chrono@ibm.net
+http://www.slamsite.com/chrono
+'95 PGT - SCPOC
+
+[ Moderator's note: At least one person on the list has complained
+  about getting spam from schumacher, and it sure looked like spam to
+  me.  I certainly can't countenance sending e-mail to offer goods for
+  sale to list members who haven't indicated a willingness to receive
+  such an offer.  When it comes to spammers, "at your own risk"
+  includes "at the risk of helping to make this medium unusable.
+
+  I usually steer the numerous requests from people seeking Rubik's
+  Revenge to ebay (and to yard sales, and to simulations).  But note
+  that the FTC says that internet auctions are the growth zone for
+  Internet fraud.  This can be somewhat mitigated by sending your
+  money through an escrow agent--see ebay for information on that. ]
+

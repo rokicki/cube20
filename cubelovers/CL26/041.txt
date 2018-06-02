@@ -1,0 +1,34 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov 23 13:45:28 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA18663
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 23 Nov 1998 13:45:28 -0500 (EST)
+Message-Id: <199811231845.NAA18663@mc.lcs.mit.edu>
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Nov 20 22:15:27 1998
+Date: Fri, 20 Nov 1998 22:13:38 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Cc: "Jorge E. Jaramillo" <kingeorge@rocketmail.com>,
+        cube <Cube-Lovers@ai.mit.edu>
+Subject: Re: Re : The Cylinder
+In-Reply-To: <SIMEON.9811191506.A@GN209A.PSTCC.CC.TN.US>
+
+Uwe Meffert had a printed color catalogue around 1985 that showed some
+very interesting moving-piece "group theory" puzzles (is that a proper
+term?). Although I have a copy safely stashed somewhere, I don't know
+where.
+
+I'm just about sure that one was a cylinder, possibly in three layers
+like layer cake; it also, iirc, had maybe three more "cutting planes"
+that were spherical sectors bounded by the cylinder. Rotating the pieces
+would exchange top and bottom.
+
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*  The personal computer industry will have become
+|*  Amateur musician  *|*  mature when crashes become unacceptable.
+--------------------------------------------------------------------------
+

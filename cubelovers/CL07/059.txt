@@ -1,0 +1,78 @@
+From there the solution should be straightforward (e.g. two intersecting
+3-cycles).
+
+Finally, it seems clear that this entire problem --and all the subsequent
+discussion-- maps directly onto a virtually identical problem on the 4by
+cube (i.e. simply be removing the center planes).
+
+>Note that you get an apparant parity reversal by flipping the cubies, but
+>this does not actually move anything.  In other words, no amount of
+>flipping and moving will allow you to end up moving A->B->C->A.  That's
+>why I solve edges first.
+
+Again, perhaps I'm missing the point, but if you don't care about how
+the flipping comes out, the A->B->C->A  3-cycle is certainly doable:
+
+For example:
+
+[WARNING: EVEN MORE BORING STUFF AHEAD!!   ;]
+
+(I have no idea how to show this notationally, so I'll try pictorially.)
+
+                         |
+1]                    2] V                  3]
+ X|A|X|C|X             X|Y|X|C|X           ->Z|Z|Z|Z|Z
+ X|X|X|X|X             X|Y|X|X|X             X|Y|X|X|X
+ X|X|X|X|X             X|Y|X|X|X             X|Y|X|X|X
+ X|X|X|X|X             X|Y|X|X|X             X|Y|X|X|X
+ X|X|X|B|X             X|A|X|B|X             X|A|X|B|X
+
+
+4]                   5]                     6]
+ Z|A|Z|Z|Z             X|B|X|X|X             X|B|X|X|X
+ X|X|X|X|X             X|X|X|X|X             X|X|X|X|X
+ X|X|X|X|X             X|X|X|X|X             X|X|X|X|X
+ X|X|X|X|X             X|X|X|X|X             X|X|X|X|X
+ X|X|X|B|X             Z|Z|Z|A|Z           ->?|?|?|?|?
+   ^
+   |                  [Rotate Face           
+                       one-half turn]
+
+      >---
+7]        \           8]                    9]
+ X|B|X|X|X \           X|B|X|X|X             Z|C|Z|Z|Z
+ X|X|X|X|X |           X|X|X|X|X             X|X|X|X|X
+ X|X|X|X|X |           X|X|X|X|X             X|X|X|X|X
+ X|X|X|X|X V           X|X|X|X|X             X|X|X|X|X
+ ?|?|?|?|?             Z|Z|Z|C|Z<-           X|X|X|B|X 
+      
+ [Rotate next-                              [Rotate Face
+  to-bottom                                  one-half turn]
+  plane 1/4 Turn]
+
+                            <----
+10]                   11]        \          12]
+  Z|C|Z|Z|Z             Z|C|Z|Z|Z \           Z|C|Z|Z|Z
+  X|X|X|X|X             X|X|X|X|X |           X|X|X|X|X
+  X|X|X|X|X             X|X|X|X|X |           X|X|X|X|X
+  X|X|X|X|X             X|X|X|X|X ^           X|X|X|X|X
+->?|?|?|?|?             ?|?|?|?|?             X|X|X|A|X<-
+
+                        [Rotate next-
+                         to-bottom
+                         plane 1/4 turn]
+
+    |
+13] V                 14]                   15]
+  Z|Z|Z|Z|Z             X|Y|X|B|X<-           X|C|X|B|X
+  X|Y|X|X|X             X|Y|X|X|X             X|X|X|X|X
+  X|Y|X|X|X             X|Y|X|X|X             X|X|X|X|X
+  X|Y|X|X|X             X|Y|X|X|X             X|X|X|X|X
+  X|C|X|A|X             X|C|X|A|X             X|X|X|A|X
+                                                ^
+                                                |
+
+
+                         Cub.E.D
+
+

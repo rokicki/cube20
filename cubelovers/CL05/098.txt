@@ -1,0 +1,12 @@
+From the introductory section:
+
+	"This article is an attempt to put some algebraic order
+	into the business of solving cubelike puzzles.  Ideally,
+	an algebraic theory would unfold that would, in an 
+	elementary way, yield highly efficient algorithms for all 
+	such puzzles.  The work here is a step in that direction."
+
+Included in the applications section are the tetrahedron, octahedron,
+dodecahedron, icosahedron, and the general n X n X n cube.
+
+--Rodney Hoffman

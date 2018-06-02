@@ -1,0 +1,38 @@
+Date: 15 DEC 1980 1851-EST
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  Administrata and an Algorithm
+To: CUBE-LOVERS at MIT-MC
+CC: ELLEN at MIT-MC, DUFFEY at MIT-MC
+
+
+First the Administrata. CUBE-LOVERS came close to a crisis this
+weekend. There were thoughts of having it digested, but DUFFEY
+came through and made some very valuable suggestions. What
+happened is that the Hoey-Saxe message was long enough to confuse
+the mailer, and it ended up sending it twice. It took at least an
+hour and a half to send, so the mailer response was terrible.
+Things have been reorganized to help make things more efficient,
+and we really thank DUFFEY for doing this. In the future, please
+limit your messages to one to two thousand characters. If you
+must send long messages, please break it up into sections and
+send a piece every hour or so. Please keep this mailing list
+winning. Thanks.
+
+Now for the algorithm. Hoey and Saxe mentioned an H pattern. By a
+simple method of doing it, it can be done as follows:
+
+    FF (LLRR) BB (LLRR) RR (UUDD) LL (UUDD) DD (FFBB) UU (FFBB)
+and after removing the NOPs
+==> FF (LLRR) BB (LL)      (UUDD) LL (UU)      (FFBB) UU (FFBB)
+which is another 28 mover. But I have found another way to do IT:
+
+(UD LLRR FFBB UD) (FFBB LR FFBB L'R') ==> 24 QTW
+
+Hoey and Saxe said that the Pons Asinorum is the only local
+maximum that is PROVEN not to be a global maximum. It still is,
+but if somebody can prove that Global Max must be larger than 24
+(it is currently at 22), then this would be another example. The
+other possibility is to find a faster algorithm to this pattern.
+
+I have an intuitive sense that the global maximum is an even
+distance away. I cannot prove it. Can anybody?

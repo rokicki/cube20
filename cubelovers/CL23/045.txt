@@ -1,0 +1,117 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jul 10 00:56:16 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id AAA12818; Thu, 10 Jul 1997 00:56:16 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <199707100450.AAA14097@life.ai.mit.edu>
+Date: Thu, 10 Jul 1997 00:54:58 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: all minimal maneuvers for superflip (face turn metric)
+
+i can now give all minimal maneuvers for superflip in the face turn
+metric.  recall that there are three operations we may apply to any
+maneuver for superflip which give another maneuver of the same length:
+
+1. we may conjugate the maneuver by any symmetry of the cube.
+2. we may cyclically shift the maneuver; i.e. replace
+
+      sequence_1 sequence_2     by     sequence_2 sequence_1
+
+3. we may replace the maneuver by its inverse.
+
+my original search (january 1995) for superflip in 19 face turns was
+divided into 16 cases.  since i used my (unhacked) version of kociemba's
+algorithm, the search through each case produced maneuvers for superflip,
+and 8 of these cases found maneuvers of length 20f.  i previously reported
+that these were each equivalent to dik winter's maneuver, using the three
+operations above.  however, i was mistaken about this; there were two
+different maneuvers which differ only very slightly.
+
+to facilitate an exhaustive search through 20f, i'll use a result of a
+previous search.
+
+proposition.  any maneuver for superflip in 20f contains a 180 degree
+              face turn.
+proof.  otherwise the maneuver would be 20 quarter turns long.  however, i
+        did an exhaustive search through 20q and found no maneuvers.  qed.
+
+(in fact, this quarter turn result was later improved by jerry bryan, who
+showed that superflip is not within 22q of start, and therefore is exactly
+24q from start.)
+
+now the symmetry reductions show that we may take the first two face turns
+to be  U R2 .  my program exhaustively searched the position   superflip U R2
+through 18f.  it took 35 hours, and found 30 maneuvers, which came in two
+different types:
+
+     U R2 F B R B2 R U2 L B2 R U' D' R2 F   R' L  B2 U2 F2   (20f)
+     U R2 F B R B2 R U2 L B2 R U' D' R2 F   D2 B2 U2 R' L    (20f)
+
+note that these are the same except for the last 5 face turns.  (this gives
+the relation   R' L B2 U2 F2 R L' U2 B2 D2  = identity; alternatively, the
+same sequence produces  (f++)(d++)  in the supergroup.)
+
+from this, we can count the exact number of 20f sequences for superflip.
+both of the above may be cyclically shifted in 23 different ways.  we get
+23 different ways, instead of 20, because there are three separate pairs
+of consecutive twists of opposite faces.  we'd consider
+
+     sequence_1  U D  sequence_2     and     sequence_1  D U  sequence_2
+
+to be the same, but we wouldn't consider
+
+     U  sequence  D     and     D  sequence  U
+
+to be the same.  yet cyclic shifting of these last two produces the same
+maneuver.
+
+we can also conjugate by any of the 48 symmetries of the cube, and we can
+also invert any of the maneuvers.  all these operations produce different
+maneuvers, so we get a total of  2 * 23 * 48 * 2 = 4416  different maneuvers.
+
+by counting, the number of different sequences of length  <= 19f  is about
+82 times as many positions the cube has.  thus a position has, on average,
+82 maneuvers of length  <= 19f, although superflip has 0.  the number of
+different sequences of length  20f  is about 1016 times the number of
+positions, so a position has, on average, 1016 different maneuvers of
+length 20f.  superflip has more than 4 times that many.
+
+here are the 30 solutions my program found for  superflip U R2.  hopefully
+i haven't made any mistakes this time.  they should all be equivalent to
+one of the two listed above.
+
+     U R2    F  U2 F2 D2 R' L  U  R2 F' B' R  D2 L  F2 R  D2 R  D    (20f)
+     U R2    F  B  R  B2 R  U2 L  B2 R  U' D' R2 F  R' L  B2 U2 F2   (20f)
+     U R2    F  B  R  B2 R  U2 L  B2 R  U' D' R2 F  D2 B2 U2 R' L    (20f)
+     U R2    F  R' L  F2 D2 B2 U  R2 F' B' R  D2 L  F2 R  D2 R  D    (20f)
+     U R2    F2 L2 F  D2 R  L  D  R2 D  F2 U  R2 D  F' B' D2 L  D'   (20f)
+     U R2    F2 L2 F' U2 R' L' U' R2 U' F2 D' R2 U' F  B  U2 L' D'   (20f)
+     U R2    F2 L2 B  D2 R' L' D  F2 U  R2 D  F2 D  F  B  D2 R  D'   (20f)
+     U R2    F2 L2 B' U2 R  L  U' F2 D' R2 U' F2 U' F' B' U2 R' D'   (20f)
+     U R2    F' U2 B2 D2 R  L' D' R2 F' B' R' B2 R' D2 L' B2 R' D    (20f)
+     U R2    F' B' R  D2 L  F2 R  D2 R  U  D  R2 F  U2 F2 D2 R' L    (20f)
+     U R2    F' B' R  D2 L  F2 R  D2 R  U  D  R2 F  R' L  F2 D2 B2   (20f)
+     U R2    F' R  L' B2 D2 F2 D' R2 F' B' R' B2 R' D2 L' B2 R' D    (20f)
+     U R2    U  B2 D  R2 U  F' B' U2 L  F2 R2 B2 U' D  B  U2 R  L    (20f)
+     U R2    U  B2 D  R2 U  F' B' U2 L  U' D  R2 B2 L2 B  U2 R  L    (20f)
+     U R2    U  R  L  U2 F  L2 F2 R2 U' D  L  U2 F' B' U  R2 D  F2   (20f)
+     U R2    U  R  L  U2 F  U' D  F2 R2 B2 L  U2 F' B' U  R2 D  F2   (20f)
+     U R2    U2 L2 F' B  R  F2 U' D' F  L2 B  U2 F  L2 F  R  L  F2   (20f)
+     U R2    B  R' L  B2 U2 F2 D  R2 F' B' R  U2 L  B2 R  U2 R  D    (20f)
+     U R2    B  D2 B2 U2 R' L  D  R2 F' B' R  U2 L  B2 R  U2 R  D    (20f)
+     U R2    B' R  L' F2 U2 B2 U' R2 F' B' R' F2 R' U2 L' F2 R' D    (20f)
+     U R2    B' D2 F2 U2 R  L' U' R2 F' B' R' F2 R' U2 L' F2 R' D    (20f)
+     U R2    D  F2 U  R2 U  R  L  U2 F  L2 F2 R2 U' D  L  U2 F' B'   (20f)
+     U R2    D  F2 U  R2 U  R  L  U2 F  U' D  F2 R2 B2 L  U2 F' B'   (20f)
+     U R2    D  F2 U  R' L' U2 B  L2 F2 R2 U' D  R  U2 F  B  U  F2   (20f)
+     U R2    D  F2 U  R' L' U2 B  U' D  F2 R2 B2 R  U2 F  B  U  F2   (20f)
+     U R2    D  F2 D  F  B  D2 R  U  D' R2 F2 L2 B  D2 R' L' D  F2   (20f)
+     U R2    D  F2 D  F  B  D2 R  B2 R2 F2 U  D' B  D2 R' L' D  F2   (20f)
+     U R2    D  F' B' D2 L  U  D' R2 F2 L2 F  D2 R  L  D  R2 D  F2   (20f)
+     U R2    D  F' B' D2 L  B2 R2 F2 U  D' F  D2 R  L  D  R2 D  F2   (20f)
+     U R2    D2 L2 F  B' L  B2 U  D  B  D2 B  L2 F  D2 B  R' L' B2   (20f)
+
+mike
+
+

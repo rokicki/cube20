@@ -1,0 +1,47 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jun 19 11:15:07 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA27099; Fri, 19 Jun 1998 11:15:07 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Jun 19 03:22:16 1998
+Message-Id: <3.0.5.16.19980619094150.0c8f65de@ryle.get2net.dk>
+Date: Fri, 19 Jun 1998 09:41:50
+To: cube-lovers@ai.mit.edu
+From: Philip Knudsen <skouknudsen@get2net.dk>
+Subject: New Puzzle: "Dogic"
+
+I just received a new Puzzle called "Dogic - Test Your Logic".
+It's in the shape of an Icosahedron, and moves in the following manner: 5
+triangles can rotate around their common vertex somewhat like the Impossiball.
+Each triangle is again subdivided into 4 smaller triangles which move
+separately, i.e. one can also rotate 5 smaller triangles around the same
+vertex. Thus there are 60 "vertex" triangles and 20 "middle" triangles, the
+latter are in fact equivalent to the Impossiball. The "vertex" triangles
+are unicolored, the "middle" triangles have three colours. The whole Puzzle
+has twelve colours, one for each vertex.
+
+  I count the number of distinguishable positions:
+
+  20! 3^19 60!
+  ------------  =  2,199110779324 x 10^82
+   2 5!^12 60
+
+I'm not sure these calculations are correct, but if they are, this Puzzle
+is at the very top of Mark Longridge's "Great Cosmic Ranking List", even
+above the good old 5x5x5 Cube!
+The Puzzle is very well "Made In Hungary". A true must for anyone who likes
+cube-type Puzzles. Available from Spielkiste/Germany, check out:
+www.twfg.de/puzzle/default.htm
+
+
+Philip Knudsen
+Recording and Performing Artist
+Vendersgade 15, 3th
+DK - 1363 Copenhagen K
+Denmark
+Phone:  +45 33932787
+Mobile: +45 21706731
+E-mail: skouknudsen@get2net.dk
+E-mail: philipknudsen@hotmail.com
+

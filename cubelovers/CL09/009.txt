@@ -1,0 +1,21 @@
+From dik@cwi.nl  Mon Jun  8 20:48:48 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA28679; Mon, 8 Jun 92 20:48:48 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA26132 (5.65b/2.10/CWI-Amsterdam); Tue, 9 Jun 1992 02:48:46 +0200
+Received: by boring.cwi.nl 
+	id AA13958 (5.65b/2.10/CWI-Amsterdam); Tue, 9 Jun 1992 02:48:46 +0200
+Date: Tue, 9 Jun 1992 02:48:46 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9206090048.AA13958.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Magic Domino part3
+
+Considering my previous fiasco, I have now incorporated the changes needed to
+make the magic domino calculating program working into the program that
+calculated the corners on a 3x3x3 cube.  The results still match, which
+gives me confidence that the algorithms are correct indeed.  Moreover,
+it reduced the time to do the 3x3x3 corner calculations to 8 minutes.
+
+dik
+

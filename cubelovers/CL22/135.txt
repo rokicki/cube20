@@ -1,0 +1,62 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun  5 01:28:40 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id BAA05396; Thu, 5 Jun 1997 01:28:40 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <199706050527.BAA20605@life.ai.mit.edu>
+Date: Thu, 5 Jun 1997 01:25:33 -0400
+From: michael reid <reid@math.brown.edu>
+To: Hoey@aic.nrl.navy.mil, cube-lovers@ai.mit.edu,
+        kociemba@hrz1.hrz.th-darmstadt.de
+Subject: Re: Detailed explanation of two phase algorithm
+
+dan writes
+
+> One final thing, which I'm not sure ever got asked, much less
+> answered, is that Mike Reid did an exhaustive search of the subgroup
+> <T,D,F2,R2,B2,L2> (7 Jan 1995).  Did this verify that the optimal
+> face-turn process for each element of the subgroup is a word on those
+> generators?  Or are there shortcuts that use forbidden quarter-turns?
+
+i guess i didn't ask this explicitly, but i certainly thought about it.
+there's no reason to preclude the existence of such shortcuts.
+i posted the antipodes for this subgroup, so anyone who wants to search
+for shortcuts can do so.  in fact, herbert gives a shortcut for the
+first position.
+
+herbert replies
+
+) There definitely are shortcuts with quarter turns. I just tried the
+) first of the antipodes of phase2 Mike Reid gave (7 Jan 1995) with 18
+) moves. They usually are hard to solve with the algorithm, but because of
+) the asymmetrie of stage2, conjugation with moves, that turn the whole
+) cube lead to a much easier to solve state. Within less than a minute a
+) had  the generator B R2 U2 L2 R2 B2 F' . U' R2 U F' D2 R2 B' D F' D'
+) (17).
+) It would be interesting, if it is possible to reduce all of the
+) antipodes of phase2 to 17 moves, which would reduce algorithms upper
+) bound for the maneuver length.
+
+yes, it would be interesting, but it would not improve the upper bound.
+recall that i already gave the upper bound of 29 face turns.  to do
+this, one must verify that the antipodes in stage 2 can be avoided by
+choosing the last turn in stage 1 properly.  specifically, if
+sequence R'  reduces the position to the intermediate subgroup
+<U,D,F2,R2,B2,L2> , then so does  sequence R .  the last face turn
+in stage 1 is always a quarter turn of either F, L, B or R.  so we
+can always change the direction of this quarter turn, if necessary.
+my program verified that by making the proper choice, we can avoid the
+positions at distance 18f.
+
+however, the same approach can probably improve the upper bound in
+the quarter turn metric (currently 42q).  here the antipodes in stage 2
+are at distance 30q.  in fact, the diameter of the whole cube group
+is probably less than that (24q ???), so most of the positions at large
+distance have shortcuts.  there are a lot of these positions to test,
+and finding shortcuts isn't always easy.
+
+this is all discussed in my message "new upper bounds" of jan 7 1995.
+
+mike
+
+

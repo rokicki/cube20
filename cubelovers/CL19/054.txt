@@ -1,0 +1,51 @@
+From diamond@jrdv04.enet.dec-j.co.jp  Wed May  1 21:50:39 1996
+Return-Path: <diamond@jrdv04.enet.dec-j.co.jp>
+Received: from jnet-gw-1.dec-j.co.jp by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24426; Wed, 1 May 96 21:50:39 EDT
+Received: by jnet-gw-1.dec-j.co.jp (8.6.12+win/JNET-GW-951211.1); id KAA12155; Thu, 2 May 1996 10:53:17 +0900
+Message-Id: <9605020151.AA08313@jrdmax.jrd.dec.com>
+Received: from jrdv04.enet.dec.com by jrdmax.jrd.dec.com (5.65/JULT-4.3)
+	id AA08313; Thu, 2 May 96 10:51:33 +0900
+Received: from jrdv04.enet.dec.com; by jrdmax.enet.dec.com; Thu, 2 May 96 10:51:37 +0900
+Date: Thu, 2 May 96 10:51:37 +0900
+From: Norman Diamond  02-May-1996 1049 <diamond@jrdv04.enet.dec-j.co.jp>
+To: cube-lovers@ai.mit.edu
+Apparently-To: cube-lovers@ai.mit.edu
+Subject: Re: Where to get the Rubik's Revenge
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+David Litwin writes:
+
+>"The Official Thermodynamics Fan Club of the UK." writes:
+>> p.s. I'm sure this is a common question, but I have many 3x3x3, and one 
+>> 5x5x5, can I still get a 4x4x4 anywhere? would anyone consider selling one 
+>> to me?
+
+>	The last time I bought one was in 1993 in Tokyo (at Tokyu Hands
+>department store).  I'll be visiting again soon and will check to see if
+>they still have any.  This is the only place I've been able to find them,
+
+Seibu and Hakuhinkan used to have them too.  But the distributor took them
+off the market last year and they are no longer available.  (This is 4x4x4.)
+
+>	The 5x5x5 is more widely available, try:
+>Peter Beck
+>pbeck@pica.army.mil
+>	or
+>Dr. Christoph Bandelow
+>An der Wabeck 37
+>58456 Witten
+>Germany
+
+Indeed Dr. Bandelow is the designer and source of much of this stuff.
+Ask for his catalog, which is in English.
+
+The best puzzle store now in Tokyo is Moebius, between Ichigaya and Kudanshita
+subway stations.  They have one 5x5x5 in stock at the moment, though it
+traversed through Taiwan on its way here.  They also just got in a bunch of
+stuff from Jean-Claude Constantin (but unfortunately no more transformations
+of Rubik-style shapes).
+
+-- Norman Diamond           diamond@jrdv04.enet.dec-j.co.jp
+[Speaking for Norman Diamond not for Digital.]
+

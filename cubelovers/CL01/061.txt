@@ -1,0 +1,30 @@
+Date: 29 Dec 1980 23:54 PST
+From: McKeeman at PARC-MAXC
+Subject: Re: The higher order cubes (just the 4x4x4 for now) [93 lines]
+In-reply-to: DCP's message of 30 DEC 1980 0144-EST
+To: DCP at MIT-MC (David C. Plummer)
+cc: CUBE-LOVERS at MIT-MC
+
+David,
+
+Interesting thoughts.
+
+It seems to me that the icosahedron is a more attractive physical target than the
+dodecahedron.  It has 12 shear planes.  A move would be a 72o rotation of a
+five-triangle subsection.  My intuition is that it is buildable more or less along
+the line of the Rubik cube, except that the fixed axes point at vertices instead of
+center faces.
+
+The dual of the 2x2x2 cube seems to be an octahedron with shear planes along its
+edges.  
+
+More generally slice a sphere a buncha times.  The cuts are shear planes.  Don't
+let it fall apart (there is the trick!).  Now paint the surface pieces.  Now twist to
+mix.
+
+The actual shape does not seem to matter much.  It is the interaction of the shear
+planes that makes the puzzle.
+
+Happy sphereing,
+
+Bill	

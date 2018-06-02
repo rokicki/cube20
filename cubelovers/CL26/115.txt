@@ -1,0 +1,25 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Feb 11 21:17:42 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA23979
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 11 Feb 1999 21:17:41 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3.0.3.32.19990210083221.0092a700@cscan02.caddscan.com>
+Date: Wed, 10 Feb 1999 08:32:21 -0500
+To: Cube-Lovers@ai.mit.edu
+Reply-To: <bmain@caddscan.com>
+From: Bryan Main <bmain@caddscan.com>
+Subject: Puzzle Stores in London area
+
+I'll be going to the london/cambrige area in a few days and was wondering
+if anyone knew where there are any puzzle stores that have cube puzzles.
+I'm not really looking for 3x3x3 cubes since I have enough, mainly I'm
+looking for the other ones like pyrimix, megamix etc.  thanx in advance.
+
+bryan
+
+[Please respond directly to Bryan; if there are particularly
+worthwhile and non-repettive suggestions he can send them to
+cube-lovers --Moderator ]
+

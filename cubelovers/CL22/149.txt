@@ -1,0 +1,63 @@
+From cube-lovers-errors@oolong.camellia.org  Fri Jun  6 21:24:01 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id VAA11751; Fri, 6 Jun 1997 21:24:00 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <33984270.3E2C@hrz1.hrz.th-darmstadt.de>
+Date: Fri, 06 Jun 1997 19:01:36 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>
+X-Mailer: Mozilla 3.0 (Win95; I)
+MIME-Version: 1.0
+To: cube-lovers@ai.mit.edu
+Subject: Re: Detailed explanation of two phase algorithm
+References: <970605193206.214149bd@iccgcc.cle.ab.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Greg wrote:
+> 
+> I do not believe your phase1 is *exactly* IDA* as I think there is a
+> subtle difference.  IDA* limits search depth based on reaching a
+> cost threshold whereas phase1 simply iterates uniformaly at depth
+> 1, 2, ... N pruning nodes within the bounds of the current search depth.
+> At the start of a search, IDA* consults its heuristic function to determine
+> the initial threshold.  As IDA* examines nodes, it keeps track of the
+> minimum cost of any node that exceeded the current threshold.  It uses
+> that as the cost threshold for the next repeated search.  So IDA* could
+> conceivably choose 2, 4, 5, 7, .. N for a sequence of cost threshold's
+> (as opposed to 1, 2, ... N) during the search.
+> .....
+> 
+> I don't know to what extent, if at all, this difference is signficant.  Of
+> course if it turns out that in phase1, one always happens to exceed the
+> current threshold by 1 for the cube problem, then I think the two algorithms
+> would effectively behave identically for this problem.  I don't know if this
+> is in fact the case.  But I would say that an initial depth limit computed
+> from your pruning tables from the initial cube state would start you off
+> searching at a depth greater than one with no loss of optimality.
+
+I hardly can imagine a problem, where it makes any practical difference,
+if you start with an initial treshhold determined by the heuristic
+function for the initial cube state (let's denote it h0) or just start
+with a treshhold of 1: In the latter case all depth 1 nodes will be
+pruned immediately, and you generate exactly b*(h0-1) nodes, before you
+start the search with treshhold h0, b denoting the branching factor.
+Because h0<=9 in phase1 and b=18 for the first node, you generate at
+most 162 nodes too much, which from a practical point of view is
+nothing. In the general case, h0<=N, where N is the minimal solution
+length, and you generate at most (N-1)*b nodes too much - so it really
+makes no difference.
+
+Does it make a difference if you increase the treshhold to the cost of
+the lowest-cost node, that was pruned during the iteration or just
+increase the treshhold by 1, if you start the next iteration? In case of
+the cube, this question seems a bit academical. I can't believe, that it
+is possible to omit a certain iteration depth >h0, though I must admit
+that I found no obvious proof for that using the properties of the
+heuristic functions in phase1 or phase2 (and it only depends on these
+functions).
+
+Herbert
+
+
+

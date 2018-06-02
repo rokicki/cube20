@@ -1,0 +1,151 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jul 31 10:28:00 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id KAA29897; Fri, 31 Jul 1998 10:27:59 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Jul 30 14:17:23 1998
+Message-Id: <199807301816.OAA14197@life.ai.mit.edu>
+Date:     Thu, 30 Jul 98 14:16:38 EDT
+From: Nichael Cramer <ncramer@bbn.com>
+To: cube-lovers@ai.mit.edu
+Cc: nichael@sover.net
+Subject:  "Hints" for Solving the 5X
+
+Since you 1] posted to this list and 2] have a 5X and have solved it
+the past, I'm going to make the assumption that really want is not
+necessarily a cook-book for solving the 5X, but enough hints to get
+you started in the right direction.
+
+If I'm wrong about this, you can stop here.  ;-)  If not, below is
+high-level description of a scheme for solving the 5X that assumes
+1] that you're 3X3X3-literate and 2] leaves unspecified the details of
+the three other simple operations that you'll need.
+
+(Now, this is far from elegant; and certainly not anything like a
+maximal solution.  But at least it will 1] get your cube solved and 2]
+at least you thinking about these things again.)
+
+
+
+
+---
+Step 1:
+
+First, ignore everything except the corner cubies, the center (face)
+cubies and the center-edge cubes.
+
+Now, paying attention to those cubies only, pretend that you're
+dealing with a 3X and "solve" it.
+
+
+---
+Step 2: Solve the non-center edge-cubies [NCEC].
+
+First devise an operator that allows you to cyclically-swap three of
+the NCECs (i.e. without messing with any of the previously solved
+cubies).  With a little clever permutation, this single operation will
+allow you to complete this step (but see Step 2A below).
+
+(Note that since a NCEC _has_ to be in its correct orientation when it
+is in its corrected location --i.e. a correctly placed NCEC can't be
+simply flipped as can a center-edge cubie in a 3X-- you can complete
+this step using this single operation.)
+
+
+Step 2A: There is one wrinkle at this point.
+
+It is possible to be in an "orbit" in which you can apparently "solve"
+all of the NCECs except for two.  If you reach this point, leave the
+two unsolved NCEC alone for the moment.  They will be easier to solve
+after completing the next step.
+
+
+---
+Step 3: Solve the remaining non-center face cubies [NCFC].
+
+Similar to the above, devise two operators: one that allows you to
+cyclically-swap three "corner-like" NCFCs and one that allows you to
+cyclically-swap three "edge-like" NCFCs (i.e. without in either case
+disturbing the previously-solved cubies).
+
+Again with a little clever permutation you should be able to complete
+this step with this single operation.
+
+(Note that since, for a given color, all four "center-like" NCFCs are
+pretty much interchangable --as are all four "edge-like" NCFCs.  This
+means that that any "bogus" symetries are invisible.  What this means
+is that, by saving this step 'til last, you don't risk getting all the
+way to the and finding out you're in some non-standard "orbit" that
+you have to back out of.)
+
+
+---
+Step 2A Continuted:
+
+Assuming that you've got this far, you should now be in a state where
+the entire cube is solved except for --at most-- two NCECs.
+
+In short, this state of affairs means that your cube is a wrong
+"orbit"; i.e. there is a "hidden" symmetry among that cubies that
+allows your cube to appear to be more nearly solved than it is.
+
+The quickest way to get your cube in the "correct orbit" is as
+follows:
+
+Choose one of the "internal" slices that contains one of non-solved
+NCECs (by "internal", I mean a slice that is neither a face slice nor
+one that contains a center cubie).
+
+Now rotate that internal slice by a quarter turn (i.e. by 90 degrees)
+in either direction.
+
+Now what you want to do is solve remaining cubies from its current
+situation.
+
+The tricky part here is keeping everything straight.  There are a
+couple of things that you can do help this.
+
+1] If possible, you can first manipulation the NCECs in such a way
+that the two unsolved NCEC share the same slice and are on the same
+face.  Then it will be possible --when performing the quarter-turn as
+described above-- to bring one of the unsolved NCEC into its correct
+location.
+
+Once that is done, you will now have exactly three unsolved
+NCECs.  Since these must necessarily be a cyclic permuation, you
+should be able to solve these without further ado.
+
+Now, all that remains is solving the remaining newly scrambled
+face-cubies.
+
+
+2] If you are unable to position the two unsolved NCEC as described
+above, proceed as follows:
+
+>From the current state, (i.e. after performing the quarter-turn
+on the internal slice) re-solve the newly shuffled face-cubies
+*while*being*sure*not*to*disturb*any*other*cubies!
+
+Once you have all the faces solved, you should now have four NCEC in
+the wrong locations, along the single internal slice.  Using the
+operation that you developed in Step 2 above, this should be easy to
+solve.
+
+
+---
+Step 4:  Place your newly-solved cube in a prominent place on your
+desk and assume a smug demeanor when asked about it.
+
+
+
+Hope this helps
+Nichael
+
+
+--
+Nichael Cramer
+work: ncramer@bbn.com
+home: nichael@sover.net
+http://www.sover.net/~nichael/
+

@@ -1,0 +1,63 @@
+Received: from ATHENA (TCP 2222000047) by AI.AI.MIT.EDU  8 Jun 87 12:04:17 EDT
+Received: by ATHENA (5.45/4.7)
+	id AA20441; Mon, 8 Jun 87 11:51:27 EDT
+From: <eric@ATHENA.MIT.EDU>
+Received: by THESEUS.MIT.EDU (5.45/4.7) id AA19656; Mon, 8 Jun 87 11:51:08 EDT
+Message-Id: <8706081551.AA19656@THESEUS.MIT.EDU>
+To: cube-lovers@ai.ai.mit.edu
+Reply-To: eric@athena.mit.edu
+Subject: Info on Dmitri Borgmann books
+Date: Mon, 08 Jun 87 11:51:05 EDT
+
+Brian Matthews asked for information about Dmitri Borgmann books.  Here it is.
+Dmitri Borgmann published three books:
+
+	Language On Vacation (An Olio of Orthographical Oddities)
+		Copyright 1965.  Published by Charles Scribner's Sons
+
+	Beyond Language (Adventures in Word and Thought)
+		Copyright 1967.  Published by Charles Scribner's Sons
+
+	Curious Crosswords (edited and annotated by Borgmann)
+		Copyright 1970.  Published by Charles Scribner's Sons
+
+_Language on Vacation_ is a paperback.  _Beyond Language_ is a hardcover.
+_Curious Crosswords_ is a large format paperback.  So far as I know, all three
+have been out of print for years and it's unlikely they'll be reprinted.
+But, there's good news -- you can get them all as follows:
+
+_Curious Crosswords_ and _Language on Vacation_ are available for $7.00 each
+from
+
+	National Library Publications
+	Box 73
+	Brooklyn, NY 11234
+
+Don't forget to add 10 percent for postage and handling.  I got my copies
+from this place and had no trouble with them.  _Beyond Language_ can only
+be found by combing used book stores, which I did for several years.  Then
+I found two of them!  If you promise to love the book, I'll send you one of
+them for $10.00.  Please note that it is missing its cover, but is otherwise
+in perfect condition.
+
+If you are a maniac about the peculiarities of language, all three of these
+are must-buys.  You should also consider subscribing to the journal "Word
+Ways" for $15.00 a year.  It's a quarterly 64-page journal devoted to the
+kind of stuff Dmitri Borgmann writes about (weird spellings, words with
+greatest number of vowels, pangrams, dictionaries, etc., etc.).  You can
+order a subscription from Faith W. Eckler, Spring Valley Road, Morristown,
+New Jersey 07960.
+
+By the way, Dmitri Borgmann died last year of a heart attack.  It was a
+great blow to logologists everywhere.  "Word Ways" has been running
+memorial issues filled with unpublished articles by him.
+
+Hope this helps!
+
+Eric Albert (eric@athena.mit.edu)
+12 Abbott Street
+Medford, MA 02155
+(617) 396-2424
+
+
+

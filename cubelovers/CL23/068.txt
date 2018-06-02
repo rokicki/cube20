@@ -1,0 +1,125 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun Jul 27 21:38:21 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA29673; Sun, 27 Jul 1997 21:38:20 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From nbodley@tiac.net Sun Jul 27 20:25:05 1997
+Date: Sun, 27 Jul 1997 20:21:46 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+Reply-To: Nicholas Bodley <nbodley@tiac.net>
+To: Cube Mailing List <Cube-Lovers@ai.mit.edu>
+Cc: Javier Susaeta <javier.susaeta@nexo.es>,
+        Mark Glusker <glusk@mechcad3.engr.sgi.com>
+Subject: Making parts for puzzles (somewhat off-topic) (medium length)
+Message-Id: <Pine.SUN.3.95.970727195118.18187D-100000@sunspot.tiac.net>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ For reasons I'm not certain of, but probably having to do with a case of
+brain fade caused by not eating a proper breakfast (I live alone!), I
+posted a short article to the wrong mailing list, no less. It was to an
+unmoderated list that goes to people interested in mechanical calculators,
+so the few replies I have had so far found it interesting. 
+
+ I do hope this is not too far off-topic; I have included replies that
+contain material that would be helpful to anyone who has any ideas for
+making new or replacement parts, and has access to the technologies.
+
+ The length is not hopeless...
+
+
+Subject:  Rapid Prototyping and conceivable Cube reissues
+
+ (Posted 09:53 AM 27/07/97 -0700 with follow-up (by gracious permission)
+from a couple of people who >do< know what they're talking about.)
+
+ This is close to being peripheral to the topics of the List, but it might
+be worth pointing out that it is now possible by several methods to
+"print" solid objects in 3 dimensions from digital data in the proper
+format. I'm fairly sure it's even possible to make molds.
+
+ These processes are sometimes known as Rapid Prototyping, and (betraying
+linguistic ignorance or lack of concern) something like 3-D Lithography.
+("Lithography" has roots meaning writing on stone.) (I suggest Solid
+Object Synthesis...)  The field is still evolving and improving.
+
+ The data files for these processes are ordinarily created by CAD
+(Computer-Aided Design/Drafting) programs. The programs create the data
+for numerous thin slices of an object.
+
+ The data for a slice directs the machine to make a solid counterpart, and
+the object is created progressively by creating a bonded stack of the
+requisite number of slices. (I shouldn't go into how, but one early method
+uses a pool of photopolymer and a flat "stage" that progressively moves
+deeper into the pool. A bright UV light source positioned by the data
+triggers polymerization (solidifies).)
+
+ My point is that it is now considerably less expensive and much quicker
+than it used to be, to make a prototype of a puzzle design, although the
+materials used for this process (afaik) don't have the requisite
+durability yet. With copyrights taken care of, it might be possible to
+make limited numbers of given designs. It would (at present) be too costly
+to make individual puzzles by these processes, but the economics could
+change in a decade.
+
+ Whether it is possible to pour melted plastic into molds to make the
+pieces of a Cube-like puzzle is at present very doubtful, but it might be,
+in the future. (Rattlebacks, also known as celts, look just like
+solidified poured plastic.)
+
+ It's unfortunate that the economics that make possible the affordable
+production of large numbers of such puzzles as the 4^3 also mean that
+starting another production run has to be economically justified.
+
+ Let's hope that the tooling for manufacturing such miracles as the 5^3
+and the Magic Dodecahedron is preserved! 
+
+ Failing that, at least any CAD files for doing numerical machining of the
+molding dies really ought to be kept and backed up.
+
+ Hope I'm not too far off-topic.
+
+{"afaik" = "as far as I know", pointed out as a courtesy to non-native
+users of English}
+
+{END of the text I posted to the wrong List -nb}
+
+* * *
+
+{The following replies are posted with the gracious permission of their
+respective authors. }
+
+
+Here's a reply from Javier Susaeta<javier.susaeta@nexo.es>:
+
+Yes, I have read a bit about rapid prototyping and believe that it has a
+tremendous potential. I cannot tell you where I read it, but I remember a
+case where a complete intake manifold was designed by CAD/CAM and then a
+single copy was (slowly) built, layer by layer, with one of the just-born
+rapid-prototyping machines. The material used was aluminium powder plus a
+plastic agglomerant.
+ Once the manifold was "finished" it was baked in an oven in order to
+eliminate the agglomerant and weld together the metal particles. The result
+was not so solid as a cast aluminium manifold, but nevertheless perfectly
+usable.
+
+ (Referring to more details, Javier said:)
+
+ I remember having read it in internet, a few months ago.  The intake
+manifold was for a specially-built big diesel of a bulldozer or a similar
+machine. I am not sure, but perhaps it was from Caterpillar or a similar
+US company. They resorted to rapid prototyping because of costs.  It was a
+very special engine, and they needed 1 (yes, one) intake manifold. The
+fixed costs for a single casting were enormous, and a manifold is so
+convoluted that machining it out of a block of metal was impossible. So
+they resorted to this new technique. 
+
+Regards
+
+Javier Susaeta
+
+   Here's some more on the topic, from Mark Glusker:
+
+Date: Sun, 27 Jul 1997 14:33:36 -0700 (PDT)

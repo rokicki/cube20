@@ -1,0 +1,32 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Wed Dec 15 13:04:34 1993
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from mail.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25770; Wed, 15 Dec 93 13:04:34 EST
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <55713(9)>; Wed, 15 Dec 1993 11:01:33 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA20478; Wed, 15 Dec 93 11:00:22 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 18E5F0; Wed, 15 Dec 93 10:58:09 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Part 2
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.620.5834.0C18E5F0@canrem.com>
+Date: 	Wed, 15 Dec 1993 09:58:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+Hmmmm, a little inconsistent (sp?) with the notation there.
+I usually only use U when quoting the processes of others.
+
+I'm going to try tackling the 1152-fold symmetry idea
+later tonight.
+
+When looking for CD-type processes I find it helps to think
+in terms of distinct states you pass through in approaching
+the goal state. Sort of like factoring a composite pattern
+into simpler ones you add together.
+
+Rotating the cube in space definitely helps too.
+
+-> Mark
+

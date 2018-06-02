@@ -1,0 +1,98 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 24 Dec 86 11:41:58 EST
+Date: 24 Dec 86 11:38:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: magic review article
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+I have written a review of MAGIC for the  "World Game Review", edited and
+published by Michael Keller, 3367-I north Chatam Road, Ellicott City, MD 21043,
+$8 for 4 issues.   It as you can tell is based on the CUBE-LOVERS list dialog. 
+If anybody would like to comment or make recomMend any additions or deletions
+please forward your suggestions to me  ,<BECK@ARDEC-LCSS>.
+
+A REVIEW OF RUBIK'S MAGIC
+BY Peter Beck,  Dec 24, 1986
+
+The Hungarian Government two years ago approved Rubik's plans for a private
+business, Rubik Studio, to develop designs for what Mr. Rubik hopes will be a
+wide range of items including puzzles.  Rubik's Magic is its first commercial
+venture.  It is being manufactured and marketed by Matchbox and is generally
+available at prices ranging from $9-$15, $7 on sale.  Matchbox's deal with 
+Rubik was based on a three-to-five year plan that includes the development and
+marketing of more advanced versions of Magic.
+
+Like the cube, MAGIC is good for playing with and relieving the fidgets.  It is
+palm-sized and made up of eight 2"x1/4" squares ,of impact-resistant transparent
+plastic, folding up into a 1"x2"x4" block which easily fits into a shirt or
+jacket pocket.  Unlike the cube it can be maneuvered into a plethora of
+different geometrical shapes which makes it more fun and pleasureful to
+manipulate than the cube.    Any of the various geometrical variations look 
+good on the coffee table and your guests can make magical discoveries as they
+play with it.
+
+The object of the puzzle is to manipulate the squares from their original
+pattern (henceforth known as pattern #1) to pattern #2.  In pattern #1 the
+squares form two equal rows (i.e., 2x4 arrangement) and spread across one side
+is a depiction of three unconnected rainbow-colored rings printed on a black
+background.  By folding, flipping, flopping and flapping the squares, which are
+linked by an ingenious hinge, we arrive at pattern #2 which is three
+intersecting rings on the reverse side.
+
+Even though Magic has many interesting 3-dimensional geometric shapes, e.g.,
+cube, A-frame house, 1x2 box with lid, both named patterns occur when the puzzle
+is in its planar or flat state.  To go from pattern #1 to #2 there are two
+operators necessary in the 2x4 arrangement to position the squares for the
+operator that transforms the puzzle into the 3x3 minus a corner arrangement that
+displays the three intersecting rings pattern.  When the puzzle is in the 2x4
+arrangement with pattern #1 correct, the squares can be rearranged by either
+folding it on the long axis to make a loop which can be rotated or by flipping
+the 2 ends towards the center and then by un-flipping the puzzle on the opposite
+side in a perpendicular direction to the flipping.  In order to display the
+solved puzzle it is now necessary to flip and flap and flop the puzzle (6 moves)
+into the 3x3 minus a corner arrangement.  It should be noted that it is possible
+to be in a 2x4 arrangement where you cannot get to pattern #1 with only the two
+2x4 operators of above.  You will either need to use the operator that changes
+the puzzle to the 3x3 or develop another operator.
+
+For those of you who would like to take it apart and then put it back together
+here are some hints.  Tools required:  a paper clip.  Each loop of string is
+twisted around three squares in a path like this:
+ 
+               ---- ---- ----            ---- ----  ----
+              |/ \  |  / \ | / \  |           |  / \ |/  \  |  / \ |
+              |\  \ | /   /|\   \ |   or     | /   /|\   \ | /   /|
+              | \  \|/   / | \   \|           |/   / | \   \|/   / |
+              |  \ /|\  /  |  \  /|           |\  /  |  \  /|\  /  |
+               ---- ---- ----            ---- ----  ----
+ 
+16 loops of string (actually nylon fishline) are used to make the hinges that
+hold the squares together.  The loops of string are all the same length.and are
+not tangled in any way.  For each string, there is another string that lies in
+the same channels.  When stringing a loop through the channels, there is a
+choice at the points where the string passes from one square to the next: Which
+string is closer to the center of the square?  That question is answered
+differently for the two strings running throught the same channels.  Strings
+don't lie in crossing channels on the same side of a square. (That describes how
+the two pairs of loops go on the same triple and how two triples interact on
+their common end square.)
+
+Now that you have decomposed the puzzle into its component parts why don't you
+customize it before reassembly.  (The squares each decompose into two clear
+plastic covers and a piece of paper with the design printed on it which are held
+together by the strings and not glue.).   So what about some original designs,
+maybe even Penrose tiling?  How about adding additional squares?  
+
+For the more mathematically inclined it has been noted that the sameness of the
+string length is what restricts the arrangements of the squares.  Can you prove
+that the Donut, 3x3 with center missing, is impossible?  Can you invent a
+nomenclature and metric for counting moves?   
+
+The future exists, first in the imagination, then in the will and fianlly in
+reality.
+
+ACKNOWLEDGEMENT:  The above was written with the passive participation of with
+CUBE-LOVERS computer bulletin board at MIT;  	MILNET ADDRESS
+<CUBE-LOVERS@MIT-AI>.  Thanks to all who participated in the MAGIC dialog to
+date.
+
+------

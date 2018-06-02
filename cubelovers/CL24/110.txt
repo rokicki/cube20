@@ -1,0 +1,54 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Dec 25 23:43:21 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id XAA05224; Thu, 25 Dec 1997 23:43:20 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Dec 25 19:23:57 1997
+Date: Thu, 25 Dec 1997 19:22:44 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: "Jin 'Time Traveler' Kim" <chrono@ibm.net>
+Cc: Cube Mailing List <Cube-lovers@ai.mit.edu>
+Subject: Re: Return of the Cube?
+In-Reply-To: <349F637D.4DA23A12@ibm.net>
+Message-Id: <Pine.BSF.3.96.971225190234.4737G-100000@shell2.tiac.net>
+
+ Jin Kim's comment, with which I heartily agree, leads me to wonder
+whether some entrepreneur might support small-scale manufacture of a
+very well-made 3^3, on the order of the Ideal deluxe Cube (I have
+forgotten what they called it).
+
+ That Cube had a redesigned mechanism (it differed only in the details)
+that would tolerate much more misalignment, before making a maneuver,
+than the typical Cubes. It had attached plastic colored tiles instead of
+stickers, and was made of an excellent "engineering plastic".
+
+ There are commercially-available materials that are self-lubricating,
+and these could be used for the wearing surfaces. The pivots could be
+true bearings, that is to say, like those in a typical piece
+of machinery. (The Ideal Cube might have had such.} Tests to 250,000
+revolutions might be reasonable.
+
+ Whether it makes sense to try to improve upon that already very-good
+design, I can't say.
+
+ Consider chess, go, checkers or dominoes. I think the Cube quite
+rightly should take its place with them.
+
+ Imho, the Cube and its direct derivatives are the most ingenious
+mechanisms ever invented.
+
+On Mon, 22 Dec 1997, Jin 'Time Traveler' Kim wrote:
+
+{Lots snipped}
+
+} A piece like the Cube is Timeless.
+--
+}Jin "Time Traveler" Kim
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  ----------------Amateur musician--------------
+|*  nbodley@tiac.net <<<-- Possible change to nbodley@shore.net; will let
+oodles of folks know if I do. I'd try to overlap by a month or so to give
+time to change over. Apologies in advance if so! Hope I don't have to.
+

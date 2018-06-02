@@ -1,0 +1,49 @@
+Received: from MCC.COM (TCP 1200600076) by AI.AI.MIT.EDU  1 Mar 89 05:01:57 EST
+Date: Wed 1 Mar 89 04:00:05-CST
+From: Clive Dawson <AI.CLIVE@MCC.COM>
+Subject: Force Field
+To: cube-lovers@ai.ai.mit.edu
+Message-ID: <12474493626.38.AI.CLIVE@MCC.COM>
+
+I acquired a cube puzzle called Force Field a few weeks
+ago which I don't recall having seen discussed on this
+list.  It's called Force Field (by Mattel), and it consists
+of 8 cubies, each measuring about 1" on a side, and each
+solid black.  The idea is to arrange these 8 cubies into
+a 2x2x2 cube.  This sounds and looks trivial, until you
+learn that there are magnets attached to some (but not all)
+of the inner surfaces of the cubies.  This means that 
+the sides of two cubies may:
+
+	a) repel each other
+	b) attract each other but jog off-center (since
+	    the magnets are not necessarily at the center of the side)
+	c) neither attract nor repel each other (if magnets
+	   don't exist on both of the sides involved)
+	d) attract each other and stay perfectly aligned
+
+The final 2x2x2 cube has to hold together perfectly, without one
+or more of the cubies popping out.  Furthermore, it is not enough
+to juxtapose the sides with no magnets, since the final cube has
+to be placed in a special stand which balances it on one of
+its corners.  This is the acid test-- the cube might look ok when
+resting on the table, but in order to survive in the stand, all
+internal sides must actively attract each other with perfect
+alignment.
+
+I finally had to resort to temporary labels on the cubies in order
+to systematically search for a solution.  One of the first things
+you learn is that each cubie has 3 magnets, precisely the number
+required.  This cuts down the search space tremendously: since the
+3 sides with magnets must be internal, this constrains a particular 
+corner of each cubie be at the center of the large cube.  But it
+still involves over 33 million possible positions (3^8)*(7!).
+
+I'd be interested to hear if any of you folks have played with this,
+and if anybody has developed a procedure for putting the cube together
+which does not involve labeling, which is what I'm working on now.
+
+Happy cubing,
+
+Clive
+-------

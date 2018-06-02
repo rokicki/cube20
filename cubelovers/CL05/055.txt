@@ -1,0 +1,12 @@
+Date: Tue 24 Jul 84 15:30:18-PDT
+From: Haym Hirsh <HAYM@SU-SCORE.ARPA>
+Subject: God's number
+To: cube-lovers@MIT-MC.ARPA
+
+Can anyone verify a rumor - that some Princeton student, as an
+undergraduate thesis, solved the problem of how far from start one
+can get (i.e., the longest sequence God's algorithm would give for
+any position)?  The number I heard was 26.
+
+Haym
+-------

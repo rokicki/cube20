@@ -1,0 +1,24 @@
+Date:  4 Jun 1982 1531-PDT
+From: ISAACS at SRI-KL
+Subject: Winning Ways
+To: cube-lovers at MIT-MC
+
+  The book "Winning Ways" by Berlekamp, Conway, and Guy is finally out.
+(A puzzlists' dream - to get 4^3 one day, and Winning Ways the next.)
+It seems, on quick scanning, to be all rumor had it to be.  It's sort
+of a sequel to Conway's "On Numbers and Games", and contains a more
+understandable of his Nimbers (Surreal Numbers), with lots of examples
+applied to game analysis.  There are chapters on many puzzles, including
+one on Rubik's Cube.  Also included are sliding block puzzles, Instant
+Insanity, Life, Sprouts, Polyominoes and Polyiamonds, Wire puzzles, 
+Chinese Rings, peg jumping, etc, etc.  An almost encyclopaedic 
+collection of puzzles and games (of certain types) from a mathematical
+standpoint.  With plenty of humor and puns.  The only problem is its
+price - about $20 for each of the two volumes, in paperback. (When the
+hardback comes out later this year, it's supposed to be about $60 per
+volume.)  The 4 sections are "Spade Work" and "Change of Hearts" in the
+first volume (on "Games in General"), and "Games in Clubs" and "Solitaire
+Diamonds" (puzzles) in Vol. 2. ("Games in Particular).  Academic Press.
+Don't miss it.
+   --- Stan
+-------

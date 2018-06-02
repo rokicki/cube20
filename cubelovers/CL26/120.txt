@@ -1,0 +1,63 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb 23 11:10:32 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id LAA03941
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 23 Feb 1999 11:10:32 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19990222194015.5998.rocketmail@send105.yahoomail.com>
+Date: Mon, 22 Feb 1999 11:40:15 -0800 (PST)
+From: pete beck <just_puzzles@yahoo.com>
+Subject: Cubes in the news (was: Request for spectacular cube-solving...)
+To: David Singmaster <david.singmaster@sbu.ac.uk>, cube-lovers@ai.mit.edu
+
+It must be the age of the CUBE.
+
+Pete Beck
+----------------
+from Yahoo! News Technology Headlines Monday February 22 1:19 PM ET
+
+Corrected: Rubik Cube Whiz Offers Millennium Bug Solution
+
+LONDON (Reuters) - A man who solved the riddle of Rubik's cube has
+invented a test kit to detect where the millennium computer bug will
+strike.
+
+At the age of 12, Patrick Bossert shot to fame when he worked out his
+own solution to the mystifying cube and wrote a bestseller about it
+that sold 1.5 million copies.
+
+Now 30, he and a team of software experts at London-based WSP Business
+Technology have developed Delta-T Probe, a program that can work out
+whether microchips embedded in electronic equipment are likely to fail
+on January 1, 2000.
+
+Delta-T works by electronically detecting equipment to identify chips
+that process date and time, making it likely to malfunction when 1999
+becomes 2000.
+
+``Only a small percentage of systems will fail to recognize the next
+millennium, but finding out which ones might go wrong is a huge and
+costly process,'' said Bossert, technical director at WSP Business
+Technology, a unit of consulting engineering group WSP Group Plc.
+
+Bossert estimates hundreds of millions of chips are buried deep inside
+equipment in Britain. The chips control devices such as security
+systems, fire alarms, production lines, medical equipment and
+telecommunications.
+
+Bossert expects one in 500 embedded systems will take equipment back
+in time to Jan. 1, 1900, causing equipment to fail.
+
+British supermarket chain Sainsbury's Plc is among major companies
+that have tested Delta-T. Sainsbury's said a trial run at one of its
+stores in Devon, southwestern England, had been a success.
+
+
+
+Hi, this is Pete Beck's personal e-mail site, a.k.a. Just Puzzles is a
+hobby mail order seller of "Mechanical puzzles" specializing in
+Rubik's Cube type puzzles. HOME is at
+<www.freeyellow.com/members4/justpuzzles/> - post POB 267, Wharton NJ
+07885, answering machine is 973-625-4191. Current as of 10 Nov 1998.
+

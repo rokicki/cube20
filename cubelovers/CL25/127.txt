@@ -1,0 +1,54 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug 31 17:11:38 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id RAA10141; Mon, 31 Aug 1998 17:11:38 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <35E8A9ED.72BA@ameritech.net>
+Date: Sat, 29 Aug 1998 20:25:01 -0500
+From: Hana Bizek <hbizek@ameritech.net>
+Reply-To: hbizek@ameritech.net
+To: cube-lovers@ai.mit.edu
+Subject: Re: Depicting a cube
+References: <006a01bdd226$d0495920$551a2bcb@mercury>
+
+Bill Webster wrote:
+
+>
+> If static, generated images are acceptable, (i.e. if the pattern is more
+> important to your sculpture than its physical realisation in plastic),
+
+
+Oh no! Please remember that those are Rubik's cubes. Their "physical
+realization" is usually that they are stacked together to form larger
+cubes. If *that* was all to the design problem, I wouldn't have the
+nerve to make a posting to the cube-lovers msiling list. Some of its
+members are first-class mathematicians.
+
+I feel that an explanation of what I call the design problem is in
+order. Ther goal of this problem is to create, by conventional cube
+manipulation, a composite pleasant geometrical design on a set of
+Eubik's cubes. The basic algorithm consists of three simple steps:
+1} construct patterns on individual cubes
+2} make sure that the colors match properly from cube to cube {color
+control}
+3} stack the cubes together.
+You start with a set of solved cubes. If you have scrambled cubes, you
+need to solve them. That is just one excellent reason why you *must*
+solve the Rubik's cube comopletely. Being able to solve only one side is
+woefully inadequate.
+
+Don't  forget color control. Without it you don't have a design. This
+unavoidable aspect of the design problem further complicates the design
+algorithm. It is a little bit like chess. You try to consider two or
+three moves ahead of your opponent to achieve a winning strategy..,. or
+create a viable design from a set of Rubik's cubes.
+
+The last step is easy. It is sort of like a three-dimensional jigsaw
+puzzle. The patterned cubes you constructed are part of this jigsaw.
+
+Here, in a nutshell, is a  description of the design problem. Please,
+get our your Rubik's cubes and start twiddling.
+
+Good luck,  Hana
+

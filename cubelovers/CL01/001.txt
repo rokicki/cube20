@@ -1,0 +1,16 @@
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  Christman Cross
+To: CUBE-HACKERS at MIT-MC
+
+
+Greetings, to those who are still on this list!!
+
+I have discovered a rather fast method of doing the Christman
+Cross. It can be done in 22 quarter twists, and I think it can be
+optomized down into 20. When I ask somebody what the current
+representation for transforms is, I will send the HOW along.
+
+((NOTE: This means the Plummer Cross can be done in 44 QTwists))
+
+((((REMARK: For those who count Half Twists [[**sigh**]] as one
+MOVE, this algorithm is a mere 16 MOVES))))

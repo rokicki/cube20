@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Apr  9 13:52:13 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA05408
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 9 Apr 1999 13:52:13 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: WaVeReBeL@webtv.net
+Date: Sat, 27 Mar 1999 00:03:32 -0800 (PST)
+To: Cube-Lovers@ai.mit.edu
+Subject: Lubricant
+Message-Id: <10861-36FC90D4-6028@mailtod-121.bryant.webtv.net>
+
+Many people have suggested different lubricants on their web pages.
+Many have referred to silicon.  Where can I get this?  What other ones
+are good?  Where can I find them?
+
+-Alex Montilla-
+
+[Moderator's note: I skipped sending this message two weeks ago
+ because discussing cube lubrication with someone complaining of RSI
+ symptoms seemed like a bad idea.  Then I got a large pile of
+ interface-related messages.  But now that the backlog is mostly sent
+ out, we might want to return to considering what lubricants to use.
+
+ The lubes I remember from the archives are vaseline (greasy, erodes
+ plastic slowly), soap (temporary), candle wax (drips flakes), and
+ molybdenum disulfide (doesn't help, destroys cube quickly).  The only
+ silicone product I've used is Armor-All, which is a protectant that
+ provides a very little lubrication.  Does anyone know what silicone
+ Alex is discussing? Any other good ideas on lubricants? -- Dan ]
+

@@ -1,0 +1,24 @@
+From: alan@ai.mit.edu (Alan Bawden)
+Date: Fri, 12 Oct 90 16:03:05 EDT
+To: cube-lovers
+Subject: Surprise!
+
+That's right.  Cube-Lovers has returned from the dead.  Due to various
+hardware, software and personal crises, Cube-Lovers has been down since
+sometime last spring.  I'm sure that many of you didn't even notice, given
+what a low-volume list this has become.
+
+Our "official" addresses remain Cube-Lovers@AI.AI.MIT.EDU for submissions
+and Cube-Lovers-Request@AI.AI.MIT.EDU for administrivia.  (Actually, you
+will find that using simply "...@AI.MIT.EDU" will work just as well.)
+
+Since this is the first message to this list after moving it to a new
+machine with a different mailer, I expect that many addresses on the list
+have ceased to function.  If I were you, I wouldn't send any mail here for
+about a week -- just to give me a chance to process all the bounces I'm
+about to get.
+
+The archives are currently unavailable, but I hope to have them available
+for FTP soon.
+
+

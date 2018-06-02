@@ -1,0 +1,49 @@
+From cube-lovers-errors@oolong.camellia.org  Fri May 30 19:43:03 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id TAA23535; Fri, 30 May 1997 19:43:02 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Fri, 30 May 97 19:41:15 EDT
+Message-Id: <9705302341.AA06714@sun34.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: chrono@ibm.net
+Cc: cube-lovers@ai.mit.edu
+Reply-To: hoey@aic.nrl.navy.mil
+Subject: Re: The rest of us
+
+> Prof. Korf's solution to the Cube sounds like it basically maps all
+> possible iterations within a given number of steps.  Once you know all
+> the possible combinations given the maximum number of turns, you can
+> then just compare a scrambled cube to the map and see if it falls within 
+> one of the available templates.
+
+No, you've misunderstood.  Rich doesn't attempt to "map all possible
+iterations" (by which you seem to imply some sort of preprocessing so
+as to be able to recognize any position at a given depth).  After all,
+according to his estimate of the median, there should be over 10^18 of
+them at depth 18f, and finding them all would take his program many
+thousands of years.
+
+Instead, he takes advantage of knowing what the target cube is by
+using a measure called a "heuristic".  A heuristic estimates how far a
+given process is from solving the cube, such as the "oriented distance
+from home" (ODH) that appears in the archives.  Then if you have tried
+7f turns and you know it will take at least 12f more, you know you're
+on the wrong track, and look elsewhere.
+
+But there are lots and lots of wrong tracks, and you need to recognize
+and discard them quickly.  The ODH isn't that good an estimate, so it
+doesn't discard enough of them--it would still take 250 years to
+search for one position.  Finding better ways of estimating how far
+you are from the goal is what the research is about.
+
+So just because he says it's "brute force" doesn't mean you list all
+the positions in advance.  You definitely need to know what the goal
+position is for Rich's approach to work.  In particular, his method
+does not seem to be applicable to finding what the furthest position
+is.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+
+

@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Sep 23 19:54:38 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id TAA26229; Wed, 23 Sep 1998 19:54:38 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19980922213222.29513.rocketmail@web1.rocketmail.com>
+Date: Tue, 22 Sep 1998 14:32:21 -0700 (PDT)
+From: "Jorge E. Jaramillo" <kingeorge@rocketmail.com>
+Subject: Is it only mine?
+To: cube <Cube-Lovers@ai.mit.edu>
+
+In order to solve the cube faster I developed a
+method that would turn a lot the middle faces. I
+don't know how you call them in this list I am
+talking about the face between Top and Bottom, the
+face between Right and Left and even the face between
+Front and Back.
+Well after twisting it a few times my cube came
+undone, fell apart and I thought "Damn made in Taiwan
+cubes" (although the ones I can buy here do not say
+where are they made). I was going through my second
+cube in a short while (I just regained interest in
+the cube a short while ago after say 15 years) and it
+fell apart again. I took off the plastic color of the
+center cubelet that came apart and found a screw and
+a spring that keeps the screw tight. I re screwed it
+but did not have any glue at hand so I kept on
+playing without the color of the center cubelet I was
+doing one of these center face moves and saw how the
+screw was turning counterclockwise in other words the
+way that makes the cube fall apart. Needless to say I
+had to re design my method.
+This long story is to ask if all the cubes are built
+this way or only the ordinary ones I can buy here?
+Thanks.
+
+
+===
+Jorge E Jaramillo
+

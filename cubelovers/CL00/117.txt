@@ -1,0 +1,27 @@
+Date: 24 AUG 1980 1623-EDT
+From: RP at MIT-MC (Richard Pavelle)
+Subject: Plumbers Cross?
+To: CUBE-LOVERS at MIT-MC
+
+There have been discussions of Plummer's Cross which I believed to be
+unique. Lets have an almost visual representation such as the following
+for one face:
+
+X Y X
+       def
+Y Y Y  ===  (Y,X)
+
+X Y X
+					(O,B)
+Then Plummer's Cross looks like   (W,G) (G,R) (B,Y) (Y,O)
+					(R,W)
+
+(and this gives the coloring of my cube as well). The point about this
+configuration which I am stressing is that opposite sides have no colors
+in common.
+
+Now I find there is a second cross for which the point above is not valid.
+This cross takes a form			(Y,G)
+				  (R,B) (O,W) (W,O) (B,R)
+					(G,Y)
+Is this known by any Cubists out there?

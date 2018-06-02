@@ -1,0 +1,34 @@
+From dik@cwi.nl  Sat May 16 21:14:18 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA03345; Sat, 16 May 92 21:14:18 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA14373 (5.65b/2.10/CWI-Amsterdam); Sun, 17 May 1992 03:14:15 +0200
+Received: by boring.cwi.nl 
+	id AA20529 (5.65b/2.10/CWI-Amsterdam); Sun, 17 May 1992 03:14:14 +0200
+Date: Sun, 17 May 1992 03:14:14 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9205170114.AA20529.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Kociemba's algorithm
+
+I have implemented it based on his description.  I am not yet completely
+satisfied, but can give some results.  Both are the best I found after a
+run of about 30 minutes.  (The numbers are first the number of moves to
+get at [F^2,R^2,B^2,L^2,U,D], second the numbr of moves to complete.)
+
+Superflip:
+(11+10=21): F B R U^2 B^2 U' D' R^2 B' R L U F^2 L^2 D^2 B^2 D' F^2 D L^2 D
+
+Supertwist:
+(7+9=16): F R^2 L^2 U^2 D^2 F^2 B' R^2 U F^2 B^2 R^2 L^2 U^2 D' L^2
+
+So clearly the supertwist is not even close to the opposite of start!
+
+Currently the program needs still a bit of hand-tuning.  I am looking how
+I can improve that.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+dik@cwi.nl
+

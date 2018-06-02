@@ -1,0 +1,186 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Nov 10 06:10:31 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id GAA04442; Tue, 10 Nov 1998 06:10:31 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Sender: bosch@sgi.com
+Message-Id: <36477CAE.446B@sgi.com>
+Date: Mon, 09 Nov 1998 15:37:18 -0800
+From: Derek Bosch <bosch@sgi.com>
+To: Han Wen <hansker@yahoo.com>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Query for Corners-First Method Rubik Solution
+References: <19981104032938.14284.rocketmail@send102.yahoomail.com>
+
+Here's the method I use to solve Rubik's Cube in 30 seconds or less.
+
+My notation is as follows:
+
+  F  = turn front face clockwise 90 degrees.
+  F' = turn front face counter-clockwise 90 degrees.
+  F" = turn front face 180 degrees.
+
+  U = turn top face clockwise 90 degrees.
+  R = turn right face   "      "    "
+  L = turn left face    "      "    "
+  B = turn back face    "      "    "
+  D = turn bottom face  "      "    "
+
+  ^  = move middle slice 90 degrees up.
+  v  = move middle slice 90 degrees down.
+
+OK.  Now the order I do things is corners, edges on two OPPOSITE sides (Right
+and Left), followed by the middle slice edges.
+
+(1) Corners:
+  I solve my corners a bit wierdly, but I find it is really fast.  I position
+any four corners of the same color on a side.  I don't care what colors are
+on the adjoining faces right now, as I fix them later.
+
+(1a)
+  Once I have the 4 corners of the same color, I turn the cube so that those
+colors are on the down face.  Now there are a few combinations that can occur
+on the top face:
+
+  All corners on top face same color:   Goto (1b)
+
+  Three corners need to rotate clockwise (position like below o=no rotate)
+                                         (+ = needs clockwise rotation)
+					 (- = needs counter-clkwise rot.)
+       + +     Move: R'U"RUR'UR    and goto (1b)
+       + o
+
+  Three corners need counter-clockwise rotate:
+
+       - o     Move: RU"R'U'RU'R'  and goto (1b)
+       - -
+  One corner needs clockwise rotate, One needs counter-clockwise rotate:
+
+  3 cases:
+       + -     Move: RU"RU"RUR"    and goto (1b)
+       o o
+
+       - +     Move: RUR'U'F'U'F   and goto (1b) 
+       o o
+
+       o -     Move: R'URUBU'B'    and goto (1b)
+       + o
+
+   Two corners need clockwise rotate, Two need counter clockwise:
+
+   2 cases:
+       + -     Move R"U"RU"R"      and goto (1b)
+       - +
+
+       - +     Move RUR"F'R"UR'    and goto (1b)
+       - +
+
+(1b)
+   Now, you should have two opposite sides, with the corners of those
+   two sides the proper color.
+
+   We have to correct the 4 remaining sides to get corners in the right
+   place, before we can move onto edges.  To do this, count the number
+   of sides that have the upper pair of corners the same color.  Also
+   counter the number of sides that have the lower pair of corners the
+   same color.
+
+   All four sides (upper and lower) corner pairs match.  Goto (2)
+
+   No sides' corner pairs match.   Do Move R"F"R".  Goto (2)
+    
+   One Bottom corner pair matches.
+      Move that corner pair to the Down-Left position.
+      Move R"UR"U'R"UR"U'R.  Goto (2)
+   One Top corner pair matches.  Turn Cube over, and do previous moves.
+
+   One Top and one Bottom pair matches.
+      Move both corner pairs to the front face.
+      Move R"UR"U"F"UF".  Goto (2)
+
+   All Bottom pairs match.
+      Move R"UR"U"F"UF"U"L"UL".  Goto (2)
+   All Top pairs match.  Turn Cube over, and do previous move.
+
+   All Bottom pairs match.  One Top pair match.
+      Move Top Pair to Left-Upper position.
+      Move R"UR"U'R"F"U'F"UF".  Goto(2)
+   All Top pairs match.  One Bottom pair match.  Turn Cube over, and do prev.
+
+(2)  Solving two Opposite Sides.
+   Now, all the corners should be solved.  You should move the center of
+   each cube to its respective corners, to get an X on each side (at least
+   on two opposite sides).  From now on orient the cube so that the two 
+   opposite sides are right and left.
+
+(2a)
+   Solve three edges on the left face with the following moves.   
+
+   U'^U -  moves the edge piece in the Front-Down position to the Up-Left
+             position.
+   UvU' -  moves the edge piece in the Back-Down position to the Up-Left
+             position.
+
+   This is easier done with a cube in your hand, and try and see how this
+works.  This will mess up the centers and edges in the middle slice, as well
+as the Up-Right edge.  Don't worry about this.  As long as you keep this 
+orientation, and rotate the left face to get ready for a new edge to be moved
+you can solve three out of four of the edges on the left face.
+
+(2b)
+  Solve four edges on the right face:
+  First, rotate the left face, so that the unsolved edge is in the Up-Left
+     position.
+
+  Then, using the following moves, solve all four edges (similarly to step 2a).
+
+   U^U' -  moves the edge piece in the Front-Down position to the Up-Right
+             position.
+   U'vU -  moves the edge piece in the Back-Down position to the Up-Right
+             position.
+
+(2c)
+  Solve remaining edge on left face:
+  2 cases (other than already solved):
+    edge in place, needs to be flipped:  Use U'vUvUvU'
+
+    otherwise, move edge to Down-Front position, using v or ^.
+       if the front color (of the DF edge) is the same as the left face color,
+					 Use U'vU"vU'
+       else Use vU^U"^U
+
+(3)
+  Solve middle slice edges.
+  First use ^ or v to position middle slice centers in proper faces.
+
+(3a) Position edges:
+  3 cases (other than all in place):
+     only three edges out of place:
+        position cube such that DF needs to go to UB and UB needs to go to UF.
+        Use ^U"vU".
+     all four edges need to move:
+        if UF needs to go to DB, Use ^F"B"vF"B".
+     otherwise, position so that UF needs to go to UB, Use U'^^U'^^.
+
+(3b) Flip required edges:
+   3 cases (other than no flips needed).
+     all four need flipping, use FR'F'^U^U^U^UFRF'
+
+     two edges need flipping, both on same face.  Turn cube so that these
+       edges are the UF and UB edges.  use ^U^U^U"vUvUvU"
+     otherwise, turn cube so UB and DF need flipping, use F"^U^U^U"vUvUvU"F"
+
+That should do it.  I apologize for the roughness of this solution.  I think
+diagrams would help it a lot.  If you have any criticism or ideas that could
+help this solution become more readable, let me know.
+
+Note, this solution is very close to Jeff Verasano (sp) and
+Minh Thai's methods...
+
+D
+-- 
+Derek Bosch        "A little nonsense now and then
+(650) 933-2115      is relished by the wisest men"... W.Wonka
+bosch@sgi.com
+

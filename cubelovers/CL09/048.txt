@@ -1,0 +1,45 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Tue Sep 15 17:14:06 1992
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from mail.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) id AA11012; Tue, 15 Sep 92 17:14:06 EDT
+Received: from canrem.COM ([142.77.253.2]) by mail.uunet.ca with SMTP id <10252>; Tue, 15 Sep 1992 17:13:51 -0400
+Received: from canrem.com by unixbox.canrem.COM
+	id aa27586; Tue, 15 Sep 92 17:06:45 EDT
+Received: by canrem.com (PCB/Usenet Gateway)
+	Path-id <199215.104.106005@dosgate>; 15 Sep 92 (16:56)
+Message-Id: <199215.104.106005@dosgate>
+From: Mark Longridge <mark.longridge@canrem.com>
+Date: 	Mon, 14 Sep 1992 20:00:00 -0400
+To: cube-lovers@ai.mit.edu
+Subject: pyraminx revisited
+
+
+                Notes on the Pyraminx
+                ---------------------
+
+According to Dr. Ronald Turner-Smith there are 5 different Pyraminx
+puzzles, all of different complexity. The following are listed in
+order from easiest to hardest (to the best of my knowledge):
+
+Pyraminx Star: Easiest of all pyraminx??
+               A simplification of the popular pyraminx because of the
+               little uni-coloured (usually grey or silver) tetrahedrons
+               on the 3 middle pieces of each face. Effectively all
+               middle pieces on this pyraminx are the same colour!
+
+Snub Pyraminx: Same as standard pyraminx with tips removed
+
+Popular Pyraminx: The standard pyraminx of which appeared in vast
+                  quanities after the cube caught on.
+
+Senior Pyraminx: This is a mystery puzzle. No one seems to know anything
+                 about it, yet Turner-Smith's book refers to it and
+                 gives the maximum number of moves for it! It is between
+                 the Popular Pyraminx and Master Pyraminx in difficulty.
+
+Master Pyraminx: All the moves of the standard pyraminx plus 180 degree
+                 turns of the edges (just the strip, not the whole face)
+                 446,965,972,992,000 combinations. Interestingly in
+--
+Canada Remote Systems  - Toronto, Ontario, Canadas
+World's Largest PCBOARD System - 416-629-7000/629-7044
+

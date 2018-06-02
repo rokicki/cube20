@@ -1,0 +1,141 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 22 18:09:16 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id SAA18211; Tue, 22 Sep 1998 18:09:15 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 17 Sep 1998 00:03:47 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: More on Calculating Weak Local Maxima
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.980916234641.7009A-100000@PSTCC6.PSTCC.CC.TN.US>
+
+In the process of adding the code to my God's Algorithm program to
+calculate weak local maxima in the face turn metric, I realized that the
+algorithm I posted previously to do so was incomplete in one subtle but
+very important respect.  This message will provide the missing piece to
+the algorithm.
+
+I have posted much of this before, but my program is in general jumping
+ahead by more than one move at a time.  For example, suppose we can store
+all the positions up to five moves from Start.  Then, we can determine all
+the positions which are eight move s from Start by calculating all the
+products xy where x is a position of length five and y is a position of
+length three.
+
+Obviously, just because the length of x is five and the length of y is
+three does not mean that the length of xy is eight.  In fact, the length
+of xy could be anywhere from two through eight.  To determine the true
+length of xy, we compare xy to the stored positions of length two, three,
+four, and five.  In addition, we compare xy to the calculated positions of
+length six and seven, which are calculated in the same manner as is xy.
+If xy fails to match all such shorter positions, then its length is indeed
+eight.
+
+Next we focus on the quarter turn metric.  For some fixed q in Q, the set
+of twelve quarter turns, what is the length of xyq if the length of xy is
+eight with the length of x equal to five and the length of y equal to
+three?  First of all, it must be either seven or nine.  Second of all, the
+length of yq must be either two or four.  If the length of yq is two, then
+we know that the length of xyq must be seven.  But if the length of yq is
+four, then we are still not sure.  The reason is that there might be some
+u not equal to x of length five and some v not equal to y of length three
+such that xy=uv, but where the length of vq is two.  If so, then the
+length of xyq is the same as the length of uvq which is seven.
+
+The basic idea is that if z=xy where the length of x is five and the
+length of y is three, then there may be many, many x and y pairs of length
+five and three respectively whose product yields z.  The length of zq is
+nine only if for every such y the length of yq is four.  Even if all but
+one yq is of length four, it only takes one yq of length two to spoil the
+pudding, as it were.
+
+The mechanism which I have posted previously to capture this concept is
+the Ends-with function E(z).  E(z) is defined to the be set of all moves
+with which a minimal maneuver for z can end.  So in the case at hand,
+since the length of z is eight, the length of zq is nine only if E(z) does
+not contain q'.  E(z) can be calculated in the case at hand as the union
+of E(y) taken over all the y values of length three which can be composed
+with an x of length five to create z.  Therefore, to say that E(z) does
+not contain q' is the same thing as saying that none of the E(y) contain
+q'.
+
+So far, so good and there is nothing new here which I haven't posted
+before.  But let's consider the exact same issue in the face turn metric.
+If the length of x is five and the length of y is three, then the length
+of xy can be in the range of two through eight as before.  And as before,
+if we compare xy with all positions of length two through seven without
+finding a match, then the length of xy is indeed eight.
+
+But this time we need to consider xyf, where f is some fixed face turn in
+the set Q+H of twelve quarter turns and six half turns.  What is the
+length of xyf?  For starters, it is either seven or eight or nine.  Also,
+the length of yf is two or three or four.
+
+If the length of yf is two, then the length of xyf is guaranteed to be
+seven.
+
+If the length of yf is three, then the length of xyf is guaranteed to be
+no more than eight.  But the length nevertheless might be seven, because
+as in the quarter turn case, there may be some u of length five and some v
+of length three such that uv=xy, but such that the length of vf is only
+two.  If so, the length of xyf is the same as the length of uvf which is
+guaranteed to be seven.
+
+The definition of Ends-with is the same in the face turn case as in the
+quarter turn case, namely E(z) is the set of all face turns with which a
+minimal maneuver for z can end.  If z=xy then E(z) can be calculated as
+the union of E(y) over all the y value s of length three which can be
+combined with an x value of length five to form z.  To say that the length
+of zf is at least eight is the same thing is saying that E(z) does not
+contain f' which is the same thing as saying that none of the E(y) contain
+f'.
+
+Next, let's suppose that indeed E(z) does not contain f'.  We are still
+left with the issue of whether the length of z is eight or nine, having
+eliminated seven as a possibility.  The test is still the length of all
+the yf, with a length of two having been eliminated as a possibility.  If
+all of the yf are of length 4, then xyf is of length nine.  But if even so
+many as one of the yf are of length three, then xyf is of length 8.
+
+The mechanism I have posted before to capture this concept is the
+Ends-with2 function.  E2(z) is a little tricky to describe.  Informally,
+we might say that E2(z) is the set of all f in Q+H with which z can end
+without changing it's length.  It is probably better to say that E2(z) is
+the set of all f in Q+H such that the length of zf' is the same as the
+length of z.  The technique which I have posted before (and which I must
+now correct) to calculate E2(z) is to form the union of E2(y) over all y
+values of length three which can be combined with an x value of length
+five to form z.
+
+If the length of zf is eight or nine, then this mechanism is fine.  But if
+the length of zf turns out to be seven, there is a problem.  That is,
+there may be one y where the length of yf is two and where E(y) contains
+f, and there may be another y where the length of yf is is three and where
+E2(y) contains f.  In such a case, both E(z) and E2(z) would contain f.
+Hence, we must always calculate E(z) prior to calculating E2(z), and we
+must omit from E2(z) any f values which are already contained in E(z).
+
+With this correction, everything works.  A local maximum is a position z
+for which |E(z)|+|E2(z)|=18, a strong local maximum is a local maximum z
+for which |E(z)|=18 and |E2(z)|=0, and a weak local maximum is a local
+maximum z for which |E(z)| < 18 and |E 2(z)| > 0.  All my examples have
+been specific to y values of length 3 for clarity of exposition, but the
+calculation of E(z) and E2(z) is totally general, and is the union of E(y)
+and E2(y), respectively, over all y values which can be used to form a z
+of the form z=xy, and with any values which are in E(z) omitted from
+E2(z).
+
+Finally, my programs also calculate a Starts-with and a Starts-with2
+function, which are defined analogously.  The same correction must be made
+to the Starts-with2 function as was made for the Ends-with2 function.
+Equivalently, we can define S(z)=E'(z') and S2(z)=E2'(z'), where E' and
+E2' are the set of all inverses of the elements of E and E2, respectively.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

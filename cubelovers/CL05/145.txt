@@ -1,0 +1,39 @@
+Date: Mon, 29 Dec 86 00:31:25 EST
+From: Marty Connor <MDC@AI.AI.MIT.EDU>
+To: CUBE-LOVERS@AI.AI.MIT.EDU
+cc: BOTTLENECK@AI.AI.MIT.EDU
+Message-ID: <134690.861229.MDC@AI.AI.MIT.EDU>
+
+There is a new puzzle named the "Bottleneck" from a company called
+Groton Ltd. in Fitchburg, MA. It looks impossible to solve but they
+claim it can be done. It consists of an ordinary glass bottle and a 
+solid plastic rod which fits closely within the bottle. There is a 
+marble in the bottle but the rod is held in the bottle by a screw 
+and nut as shown below:
+
+          |   |
+          |   |
+          |   |
+         ||   ||
+         ||   ||
+         ||   ||
+        / |   | \
+       /  |   |  \
+      /   |   |   \
+     |    |   |    |
+     |    |   |    |
+     |    |   |    |
+     | |==|===|=|| |    ----  Threaded screw and nut go thru threaded rod
+     |    |   |    |
+     |    |   |    |
+     |             |
+     |   __        |
+     |  (  )       |    ----  Marble
+     ---------------
+
+The object is to remove the marble. It is fairly easy to remove the nut
+but it is very difficult to turn the screw. It apparantly can be done
+without inserting a tool between the bottleneck and the rod. 
+
+It costs about $10.00 and is available from Games People Play in Cambridge 
+and Miscellanea in Acton. Has anyone tried it?

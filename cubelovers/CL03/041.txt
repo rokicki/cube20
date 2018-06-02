@@ -1,0 +1,16 @@
+Date: 23 September 1981 0005-EDT (Wednesday)
+From: Guy.Steele at CMU-10A
+To: cube-lovers at MIT-MC
+Subject:  The Cube in the Comics
+Message-Id: <23Sep81 000559 GS70@CMU-10A>
+
+The "Ferd'nand" comic strip for 9/22/81 features the cube.
+(For those who don't see this strip: it's pure mime, with no word balloons.
+Panel 1: Ferd'nand sits in an armchair, struggling with a (scrambled) cube.
+Panel 2: In disgust he throws it out of a window.
+Panel 3: The cube sits on the lawn.  Ferd'nand turns away, but still is
+	 glaring over his shoulder at the cube.
+Panel 4: Fred'nand is sitting on the grass where the cube had landed,
+	 struggling away again.
+Know the feeling?)
+--Guy

@@ -1,0 +1,60 @@
+From reid@math.berkeley.edu  Wed Jan 22 02:29:03 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu ([128.32.183.94]) by life.ai.mit.edu (4.1/AI-4.10) id AA24953; Wed, 22 Jan 92 02:29:03 EST
+Received: from skippy.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA03361; Tue, 21 Jan 92 23:27:28 PST
+Date: Tue, 21 Jan 92 23:27:28 PST
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9201220727.AA03361@math.berkeley.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Rubik's cube dice tops (Spoiler)
+Cc: ronnie@cisco.com
+
+a while ago (last month), Dan (hoey@aic.nrl.navy.mil) writes:
+
+> Last week ronnie@cisco.com (Ronnie Kon) challenged us to find Rubik's
+> cube patterns with dice pips for 1, 2, and 3 on the three pairs of
+> opposite sides.  He claimed it could be done in fourteen HST, where
+> one HST is a turn of a face or center slice by 90 or 180 degrees.  I
+> responded that it could be done in thirteen HST.  Here is how.  I will
+> use this opportunity to practice the enhanced Varga Rubiksong I
+> described (unfortunately with many typos) on 22 Feb 90.
+
+> The (only such) pattern is the composition of Four-Spot and Laughter.
+> We have long known the processes
+
+[ description deleted ]
+
+> This uses only 13 HST.  This is also the shortest process I know of in
+> the normal metric: 18 QT, which is not so bad for the combination of
+
+here's a shorter way.  in the "flubrd" notation, use:
+
+              D' F^2 R U^2 F^2 B^2 D^2 R^2 L' F^2 U' D^2
+
+which is 11 "HST" (which i call "slice turns").  this is also 12
+"face" turns, but 20 quarter turns.  this can also be done in only 14
+quarter turns as follows:
+                            F^2 U D F B U D F B U D F B'     (*)
+
+note that this can easily be obtained from the well-known manuever for
+"laughter":
+                              ( F B  C_U )^6                (**)
+
+where  C_  means "turn the whole cube" (as in Bandelow's book).  note
+that this manuever reorients the cube.  then manuever (*) is just the
+"flubrd" translation of the manuever  M_F (**) M_F'  (without the cube
+reorientation), where  M_  means "turn the middle slice," again, as in
+Bandelow's book.
+
+here's a question for those out there with 5x5x5 cubes: have you
+noticed that the stickers seem to be more happy on the floor than on
+the facelets of the cube?  the more i use my cube, the more restless
+they seem to become.  does anyone know of a good cure for this?  i'm
+thinking of taking them all off, cleaning off the glue (or gum or
+whatnot) and gluing them back on, using a stronger glue.  anyone have
+any suggestions for what kind of glue?  i'll let you know how my
+experiment works.
+
+mike
+

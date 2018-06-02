@@ -1,0 +1,19 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Feb  5 13:30:56 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA02690; Thu, 5 Feb 1998 13:30:55 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From hoey@AIC.NRL.Navy.Mil Thu Feb  5 12:17:12 1998
+Date: Thu, 5 Feb 98 12:16:55 EST
+Message-Id: <9802051716.AA02692@sun33.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: cube-lovers@mc.lcs.mit.edu
+Subject: Test
+
+This is a test of cube-lovers forwarding.  It shouldn't go to anyone
+but the administrator, but if it does, that's a mistake.
+
+    Dan Hoey
+    Interim Cube-lovers administrator
+

@@ -1,0 +1,61 @@
+From pbeck@pica.army.mil  Fri Nov 15 14:59:13 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA19757; Fri, 15 Nov 91 14:59:13 EST
+Received: by FSAC1.PICA.ARMY.MIL id aa20060; 15 Nov 91 10:46 EST
+Date:     Fri, 15 Nov 91 10:39:21 EST
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@ai.mit.edu
+Subject:  book review
+Message-Id:  <9111151039.aa18635@FSAC1.PICA.ARMY.MIL>
+
+
+
+SHAPING SPACE; A POLYHEDRAL APPROACH
+M Senechal, G Fleck eds.
+284 pp, Birkhauser, 1988 
+$49.95, ISBN 0-8176-3351-0
+
+REVIEW BY:
+  Peter Beck;  Rubik's Cube Collector
+
+Other reviews:
+  SCITECH BOOK NEWS, V12, APR 88, P3
+  AMERICAN SCIENTIST, V77, JAN 89, P72
+
+Shaping Space, the book, was inspired by the Shaping Space Conference
+held at Smith College in April 1984.  The content of the book
+addresses itself to an interdisciplinary readership and should be
+considered as a cornerstone book in guiding any level of reader on an
+exploration of the Polyhedron Kingdom.   It encourages readers to
+experience polyhedra directly, by including recipes for construction
+as well as numerous illustrations (188 line and 174 halftone
+illustrations). 
+
+The book is organized in five parts with parts 1,2 &5 of greater
+interest to the beginning explorer.
+
+Part 1 is an introduction to polyhedra which includes a chapter on
+making polyhedra ,ie, Chapter 2 "Five Recipes for Making Polyhedra."
+Part 2 is an interdisciplinary overview of polyhedra which includes a
+chapter on "Milestones in the History of Polyhedra" (chapter 4), a
+chapter on "Polyhedra and Crystal Structures" (chapter 5),and a
+chapter on "Spatial Perception and Creativity" (chapter 7), and
+concludes with a chapter on "Why Study Polyhedra?" (chapter 8).  
+Part 3 is about the roles of polyhedra in science. 
+Part 4 is the theory of polyhedra. 
+Part 5 is a discussion on incorporating the teaching of polyhedra in
+the curriculum.  Included in part 5 is a resource guide that is
+organized in the following categories:
+A.  Architecture
+B.  Art
+C.  Geometry
+D.  Instructional and Recreational Materials
+E.  Science
+F.  Symmetry
+
+In addition to the resource guide each chapter has its own list of
+references.  The book has a comprehensive index of 10 pages and it
+also has a list of the conference contributors addresses.
+
+
+

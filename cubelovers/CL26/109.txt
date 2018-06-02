@@ -1,0 +1,35 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb  2 19:27:15 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA19586
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 2 Feb 1999 19:27:15 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <36B77B8B.2A223AA5@sgi.com>
+Date: Tue, 02 Feb 1999 14:26:19 -0800
+From: Derek Bosch <bosch@sgi.com>
+To: "Collins, Lindon" <lindon.collins@lmco.com>
+Cc: "'Cube Lovers'" <cube-lovers@ai.mit.edu>
+Subject: Re: Middle layer last?
+References: <B1F50FC23BE7D1119DA700805FBB672C870B@swnd01>
+
+well, if you want "simple", the only two moves you really need
+are:
+
+ the edge 3-cycle...  U2^U2v  (UB->DF->UF)
+ and the 2-edge flip...  ^U^U^U2vUvUvU2  (flips UF and UB)
+
+assuming you are holding the cube so that the left and right faces are solved
+(where ^ is moving the middle slice up, and v is moving the middle slice down)
+
+note, once you get used to those moves, you can create variations that move
+and flip, like:
+
+U'^U'^U2vU'vU
+
+these are also REALLY ergonomic - very easy to do rapidly...
+-- 
+Derek Bosch        "A little nonsense now and then
+(650) 933-2115      is relished by the wisest men"... W.Wonka
+bosch@sgi.com
+

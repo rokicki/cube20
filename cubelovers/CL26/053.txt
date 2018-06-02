@@ -1,0 +1,43 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Dec  4 11:30:15 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id LAA05048
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 4 Dec 1998 11:30:14 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19981204043241.26555.rocketmail@send106.yahoomail.com>
+Date: Thu, 3 Dec 1998 20:32:41 -0800 (PST)
+From: Han Wen <hansker@yahoo.com>
+Subject: Re: Method for Solving the Professor's Cube (5x5x5)
+To: Steve LoBasso <slobasso@dtint.com>
+Cc: Cube-Lovers@ai.mit.edu
+
+Hi,
+
+> To move the 4th layer mid centrals into place:
+>
+> central D-face bm to central F-face dm: F l D l' D' F'
+>
+This is a stunningly elegant move.  You've reduce the difficulty in
+solving the 4th layer by an order of magnitude.  I tried this move
+out, actually it swaps two centrals:
+
+F-face md <-> D-face lM (mid central swap)
+F-face rd <-> D-face lf (right central swap)
+
+Beautiful move.
+
+There is one particular move that I haven't figured out yet.  It pops
+up occasionally when I solve the edges of the D-layer.  Sometimes I
+end up with every cubie in place except for two right centrals on
+adjacent faces. For example: F-face rD and L-face Lf.  The two pieces
+only need to be swapped.  No flipping is needed.  Does anyone know how
+to perform this move?  I've been beating the Puzzler program for a
+while, but I have been unsuccessful so far.
+______________________________________________
+Han Wen
+Applied Materials
+3050 Bowers Ave, MS 1145
+Santa Clara, CA  95054
+e-mail: Han_Wen@amat.com / hansker@yahoo.com
+

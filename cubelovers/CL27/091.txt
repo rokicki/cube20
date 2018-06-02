@@ -1,0 +1,36 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue May 18 20:21:45 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA20507
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 18 May 1999 20:21:45 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Reply-To: <jburkhardt@mediaone.net>
+From: "John Burkhardt" <jburkhardt@mediaone.net>
+To: <cube-lovers@ai.mit.edu>
+Subject: "The" Hungarian cube ??
+Date: Tue, 18 May 1999 05:41:10 -0400
+Message-Id: <000301bea112$904d7070$3cca8018@octopod.ne.mediaone.net>
+
+I recently bought a rubik's cube from someone.  It was in a blue cardboard
+box that has Hungarian all over it.  The closest thing to a logo says:
+"Politoys" and under that it reads: Hungary Budapest.  On one side of the
+box there is a long three paragraph description which I can't read and it's
+signed by E. Rubik.
+
+When I opened it up I found a cube that looks in every way identical to the
+Ideal version of the rubik's cube.  Same colors.  Same "Rubik's cube" logo
+in the center white square.
+
+Does anyone know if this is, in fact, a very early version of the cube or
+did someone put an Ideal cube in this box?  What was the first and original
+cube?  The guy who sold it to me is also very curious.  Could it be that
+Ideal took over and this is a later production that was begin sold in
+Hungary?  I'm wondering then why there is no indication of "Ideal" anywhere
+on it.
+
+-John
+
+[ See ftp://ftp.ai.mit.edu/pub/cube-lover/cube-mail-0.gz for
+  discussions of early Hungarian and American cubes.  -- Dan ]
+

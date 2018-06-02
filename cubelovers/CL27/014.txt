@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 30 18:05:07 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA25385
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 30 Mar 1999 18:05:07 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 30 Mar 1999 16:25:51 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Noel Dillabough <noel@mud.ca>
+Cc: "Cube Lovers (E-mail)" <Cube-Lovers@ai.mit.edu>, WaVeReBeL@webtv.net
+Subject: RE: Wrist pains
+In-Reply-To: <000001be7a68$23427d20$040a0a0a@laptop>
+Message-Id: <Pine.BSF.3.96.990330162309.7585E-100000@shell2.tiac.net>
+
+
+On Mon, 29 Mar 1999, Noel Dillabough wrote:
+
+}Any ideas would be appreciated and I'll try my best to implement the best
+}one.  If simulators "felt" like a cube when you used them they would be more
+}fun (and move without jamming etc)
+
+Can you imagine force-feedback joystick technology? Hooray for the
+reset button! I very recently tried a demo at a computer store;
+pleasant surprise.
+
+|*  Nicholas Bodley   *|*  Autodidact & Polymath * Electronic Tech. (ret.)
+|*   Waltham, Mass.   *|*
+|*  nbodley@tiac.net  *|*
+|*  Amateur musician  *|*
+--------------------------------------------------------------------------
+

@@ -1,0 +1,30 @@
+From cube-lovers-errors@oolong.camellia.org  Mon May 12 21:52:48 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id VAA00981; Mon, 12 May 1997 21:52:48 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Tue, 13 May 1997 02:50:14 BST
+From: David Singmaster Computing & Maths South Bank Univ <david.singmaster@sbu.ac.uk>
+To: Goyra@cheerful.com
+CC: cube-lovers@ai.mit.edu
+Message-ID: <009B42D0.D8685A60.2@vax.sbu.ac.uk>
+Subject: RE: Strange new Rubik puzzle in Java
+
+	What Goyra is describing as 'Strange new Rubik puzzle in Java' is
+clearly based on the fact that one can inscribe a cube in a dodecahedron
+using 8 of the dodecahedron's vertices.  This is pretty well known and one
+can probably see versions of it in some of the books on polyhedra.
+Adapting a cube to having a dodecahedral appearance was certainly considered
+in the 1980s, thoguh I can't remember if anybody ever made them for sale
+- e.g Greg Stevens or Jean-Claude Constantin.  I don't have any in my 
+collection, so I'd be grateful to hear hpw to get one.
+	Incidentally, a 2x2x2 version is being made in Spain in the shape
+of Mickey Mouse's head (and perhaps Donald Duck's head).  These are
+supposed to be coming on the market here soon.
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+
+

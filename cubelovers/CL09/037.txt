@@ -1,0 +1,75 @@
+From hoey@aic.nrl.navy.mil  Thu Aug 20 13:51:38 1992
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA16858; Thu, 20 Aug 92 13:51:38 EDT
+Received: from sun30.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA19935; Thu, 20 Aug 92 13:51:25 EDT
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun30.aic.nrl.navy.mil; Thu, 20 Aug 92 13:51:25 EDT
+Date: Thu, 20 Aug 92 13:51:25 EDT
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9208201751.AA14111@sun30.aic.nrl.navy.mil>
+To: Allan C Wechsler <ACW@riverside.scrc.symbolics.com>,
+        wft@math.canterbury.ac.nz (Bill Taylor)
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: subgroups
+
+On 14 Jan 1992,  Allan C. Wechsler posted
+
+>Regarding the meta-approach of descending through a series of subgroups,
+>how much leverage does properly selecting the chain give you?  It seems
+>like the jump from <F2,B2,...> to <F2,B2,L2,R2,...> is pretty large.
+>There are probably other paths through the subgroup lattice.
+
+>Does anyone have a table of subgroups?
+
+As far as selecting the chain goes, I have been meaning to look into
+that a bit.  Of course, since Bill posted, the results of Hans
+Kloosterman, Michael Reid, and Dik Winter have shown that you indeed
+get a lot of leverage.  I would like to get some idea of the possible
+group towers, for a more general approach to selecting which towers
+give you leverage.  But what I haven't been able to figure out is how
+to figure out which coset of G1 wrt G2 you're in.  I've been able to
+figure it out for specific groups, but if we wanted to do this for a
+lot of chains, we would need to do coset identification given G1 and
+G2 as a table of strong generators.  We could in fact ensure that the
+strong generators of G1 form a subset of those of G2.  Is that a hard
+thing to do?
+
+More to the point, I've heard that the FHL algorithm should more
+properly be called Sims's algorithm and that Furst, Hopcroft, and Luks
+mostly analyzed the performance.  I haven't read anything by Sims on
+it, though.  Is there a good reference that treats this sort of
+algorithm in a more general setting?  I have toyed with implementing
+the Jerrum improvements to FHL, but it is a mighty complicated beast.
+Also, a talk announced in the archives mentioned 1987 work by Akos
+Seress that was supposed to be an improvement, but I don't know
+whether it got published.  Anyway, if not, do you know if there is a
+good general way of finding out which coset a given position is in.
+
+On 29 Jan 1992, wft@math.canterbury.ac.nz (Bill Taylor) posted
+
+> There hasn't been any response to this, seemingly, which is a pity.
+
+For some reason, I never saw Bill's message.  I just noticed it when
+comparing my files against the archives.  [ Archives seekers note: the
+archives have moved to FTP.LCS.MIT.EDU (18.26.0.36), still in
+directory /pub/cube-lovers. ]
+
+> In any event, I would like to know of any other well-known subgroups.
+> There are the slice group; double-slice group; U group; square group;
+> anti-slice group. How many others are there not mentioned here, that 
+> people know of ?
+
+There were some tables in Singmaster with more examples, and there are
+the stuck-faces groups that I wrote about on 21 July 1981.  I seem to
+recall there was some non-obvious equivalence between two groups,
+perhaps the slice group and the antislice group.  But a general list
+of popular subgroups would be interesting.  Of course a list of *all*
+the subgroups would have, um, over three beelion of them.  I suspect
+it has more than 4.3x10^19.  Does anyone know a good way of counting
+how many subgroups there are?  Or even a way of estimating the number?
+By comparison, the symmetries of the cube form a 48-element group with
+98 subgroups.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

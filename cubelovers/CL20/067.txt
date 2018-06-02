@@ -1,0 +1,61 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Jun 13 23:31:29 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id XAA06498 for <cube-lovers-outbound@curry.epilogue.com>; Thu, 13 Jun 1996 23:31:28 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Sender: mrhip@palladium.corp.sgi.com
+Message-Id: <31C09129.41C6@corp.sgi.com>
+Date: Thu, 13 Jun 1996 15:07:37 -0700
+From: "Jason K. Werner" <mrhip@palladium.corp.sgi.com>
+X-Mailer: Mozilla 2.01S (X11; I; IRIX 5.3 IP22)
+Mime-Version: 1.0
+To: CUBE-LOVERS@ai.mit.edu
+Subject: Re: fastest hands in the midwest...
+X-Url: http://www.corp.sgi.com/
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+On Jun 5, 18:02, Kristin Looney wrote:
+> Subject: fastest hands in the midwest...
+> > By the way, I can do the cube in 1 minute 26 seconds.
+> > How does that compare with everyone else!
+>
+> 37.72 won me the midwest championship, my best official time was
+> 35.30 seconds which placed me 5th in the country. I think it was 1981.
+> Now?  I don't get timed very often, but it's still usually under a minute.
+>
+> I guess it is like riding a bicycle.
+>
+> Anyone else on this list from those contest days?  Minh Thai - are you
+> out there?  How about Jeff Verasono? or David P. Conrady?  I've often
+> wondered what that crazy guy with the bright maroon hair ended up
+> doing with his life...
+
+I was in two different contests; one was at Six Flags Magic Mountain in
+southern California, the other was at some mall in L.A.  I was never fast
+enough to get to any of the finalist rounds, but it was fun all the same.
+
+Minh Thai was at the contest at the mall; Ideal had him there to promote it.  I
+happened to have a Revenge on me at the time, and he thought he'd demonstrate
+to the crowd his solution for it.  He managed not to solve it, but rather
+shatter it in about 10 seconds flat.  Not bad, eh?  :)
+
+	-Jason
+
+-- 
+Jason K. Werner, Silicon Graphics
+U.S. Field Operations I/S Sys Admin
+mrhip@corp.sgi.com, 415-933-6397
+"I will choose free will".....Neil Peart
+"These go to eleven".....Nigel Tufnel
+
+
+               __          __   __          __         _
+               \ \        / /   \ \        / /        | |
+                \ \  /\  / /__   \ \  /\  / /__  _ __ | |
+                 \ \/  \/ / _ \   \ \/  \/ / _ \| '_ \| |
+                  \  /\  /  __/    \  /\  / (_) | | | |_|
+                   \/  \/ \___|     \/  \/ \___/|_| |_(_)
+			FREE SPEECH ON THE INTERNET!
+
+

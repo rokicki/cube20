@@ -1,0 +1,51 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb  2 17:56:32 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA19088
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 2 Feb 1999 17:56:32 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 1 Feb 1999 17:16:54 -0500
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199902012216.RAA07304@chern.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Query on Octagon Cube Edge Parity Problem
+Cc: hansker@yahoo.com
+
+> I ran into an unusual scenario with the Octagon cube recently where
+> only ONE edge piece was flipped and all the other pieces were
+> positioned and oriented properly. This is bizarre of course, because
+> with a Rubik's cube, this is an impossible scenario; there must be a
+> minimum of TWO edge pieces flipped.
+
+the "octagon" puzzle has some "edges" with only one visible face.
+namely, these are the  U-D layer edges on a cube, which were shaved
+when the cube was modified in shape.  these edges have no visible
+orientation, so flip one of these along with the edge that's
+definitely in the wrong orientation.
+
+in a similar way, it's possible to get positions that appear to have
+the wrong permutation parity.  there are four vertical columns of
+two corners and an edge each.  these do not have any fixed "home"
+location, so that any permutation of these also constitutes a "solved"
+state.  (well, at least most people would consider it to be solved.)
+but swapping two of these columns creates an odd permutation parity.
+thus you can swap two columns, and also swap a pair of edges or
+corners, which gives the impression of incorrect parity.
+
+for a simple example, do  R2 F2 R2  from the solved position.
+the edges  UF  and  DF  have been swapped, and it looks like nothing
+else has happened.  in fact, the  FL  column has been swapped with
+the  BR  column as well.
+
+mike
+
+[Moderator's note: I hadn't noticed that this had such an obvious
+ answer.  Thanks also to Jon Ferro, Steve LoBasso, der Mouse,
+ Guy N. Hurst, Michael Ehrt, and Christ van Willegen for also
+ providing the answer.  I've selected Mike Reid's, since he points out
+ the other notable ambiguity of the Octagon.
+
+ What wasn't noted is that the Spratt wrench can be used to flip the
+ noted edge along with three of the ambiguous edges. --Dan]
+

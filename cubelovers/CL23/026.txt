@@ -1,0 +1,42 @@
+From cube-lovers-errors@oolong.camellia.org  Wed Jun 25 13:29:10 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id NAA08775; Wed, 25 Jun 1997 13:29:10 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Wed, 25 Jun 1997 18:11:31 BST
+From: David Singmaster Computing & Maths South Bank Univ <david.singmaster@sbu.ac.uk>
+To: cube-lovers@ai.mit.edu
+Message-ID: <009B651B.AC285B40.328@vax.sbu.ac.uk>
+Subject: Pilloff's query about 5^3;  Korf's method.
+
+	I've been away and have just seen email for late May and early June.
+	Pilloff asks about getting the parity of the edges correct on the 5^3.
+As he notes, the commutators cannot solve this.  Examining the basic moves,
+one sees that the rotation of a inner face changes the parity of the edges
+while conserving the parity of some pieces, but not of others.  However, the
+pieces whose parity is not conserved are the pieces next to the centre and 
+there are four apparently identical copies of these, so one can simulate
+an exchange by a 3-cycle with two pieces the same.  
+	Hence one wants to apply a rotation of an inner face.  What one does
+is to move the two edges into the same inner face.  Then rotate the face.  Then
+make a 3-cycle of the edges.  This produces an exchange of edges - and rather
+messes up the centre pieces.  Then put things back.
+	The edges go   A B C D  to  D A B C  to  B A C D.
+	Because this is relatively easy to do, but messes up the centres, I
+normally do the edges and corners first and then put centres in place.
+	
+	Re: Korf.  Someone has said it reminds them of alpha-beta pruning.
+It reminds me of branch and bound search.  Both are older names for the general
+process of using information about the remainder of the problem to estimate
+the number of steps for a solution via a partial solution.
+
+	Going back to Pilloff's query, I have several methods in my files for
+exchanging two edges without moving anything else (I think, but that seems to
+contradict what I said about parities??)
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+
+

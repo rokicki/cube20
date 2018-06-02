@@ -1,0 +1,64 @@
+From cube-lovers-errors@oolong.camellia.org  Sun Jun  1 21:39:51 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id VAA01513; Sun, 1 Jun 1997 21:39:51 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Sun, 01 Jun 1997 21:06:18 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Description of algorithm for finding minimal-move solutions to
+ Rubik's Cube
+In-reply-to: <199705300024.RAA18247@denali.cs.ucla.edu>
+To: Richard E Korf <korf@cs.ucla.edu>
+Cc: Cube-Lovers@ai.mit.edu
+Message-id: <Pine.PMDF.3.95.970601204814.90493J-100000@PSTCC6.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+
+On Thu, 29 May 1997, Richard E Korf wrote:
+
+>    For example, if we consider just the corner cubies, there are only about 88
+> million possible states they could be in (8!x3^7). We exhaustively build and
+> store a table, using breadth-first search, that tells us the minimum number of
+> moves needed to solve just the corner cubies from every possible combination,
+> ignoring the edge cubies.  This value ranges from 0 to 11 moves, averages 8.764
+> moves, and requires only 4 bits per state. (We could reduce this further using
+> an idea of Dan Hoey's published in this list awhile ago.)  This table only has
+> to be computed once, taking about a half hour, and requires about 42 megabytes
+> of memory to store (a megabyte is 1048576 bytes).
+
+I have an old program, developed on a 286 PC with a 10MB harddisk, which
+stores the entire solution for the corners in about 2.5MB.  Details are in
+the archives, but it uses representatives of the form Repr{m'Xmc}.  The
+representatives consitute the solution of the 2x2x2 and take about .625MB.
+The remaining storage is in a format I call Repr{m'Xmc}*C to take care of
+the corners of the 3x3x3.  However, I would guess that even though this
+format would save a great deal of memory, it would also very much slow
+your program down, rather than speeding it up, because of the rather
+arcane indexing required. 
+
+This brings up a point which I think has been taken for granted in the
+archives but which I think has never been spelled out in detail. In its
+most simple-minded form, a search involves storing both permutations and
+distances from Start.  But sometimes you can get by with storing only the
+permutations, and sometimes you can get by with storing only the
+distances.
+
+In this case, you are storing the entire corner group, and therefore you
+can get by with storing only the distances.  That is, you have obviously
+developed an easy-to-calculate function and an inverse to map between the
+corner permutations and an index set, say 1..|GC| or maybe 0..|GC-1|. 
+Hence, you don't need to store the permutations themselves.  My
+Repr{m'Xmc} technique stores only a subset of the permutations.  There is
+a one-to-one correspondence between the subset which is stored and an
+index set, but it is not very easy to calculate (actually, it involves
+some binary searching).
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+

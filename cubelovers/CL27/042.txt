@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Apr  9 17:58:59 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA07206
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 9 Apr 1999 17:58:59 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <370E49B3.E058A9D8@u.washington.edu>
+Date: Fri, 09 Apr 1999 18:40:51 +0000
+From: David Barr <davidb@u.washington.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Lubricant
+References: <10861-36FC90D4-6028@mailtod-121.bryant.webtv.net>
+
+>  [ ... Does anyone know what silicone
+>  Alex is discussing? Any other good ideas on lubricants? -- Dan ]
+
+I think most auto parts stores sell a silicone spray lubricant.  I don't
+know what the brand names are.  I have used this on my cubes and it
+works well.  After you first apply it, the cube will seem stiff, but if
+you keep turning it for a while it starts working.
+
+David
+

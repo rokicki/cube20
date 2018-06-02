@@ -1,0 +1,45 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov 17 21:35:42 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA01646; Mon, 17 Nov 1997 21:35:41 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Nov 17 04:26:22 1997
+Message-Id: <34700D89.24426818@ibm.net>
+Date: Mon, 17 Nov 1997 01:25:29 -0800
+From: "Jin 'Time Traveler' Kim" <chrono@ibm.net>
+Organization: The Fourth Dimension
+To: Cube-Lovers@ai.mit.edu
+Subject: Color schemes revisited
+References: <cube-lovers.Pine.SUN.3.90.970206150433.26015M-100000@dot.cs.Virginia.EDU> <5dlt1c$baq@gap.cco.caltech.edu>
+
+An interesting thing to note regarding the color patterns on cubes...
+on the Rubik's Cube home page (http://www.rubiks.com) a picture is
+displayed showing Dr. Rubik himself holding a mixed cube in his hand.
+On a whim I decided to figure out what the color scheme of the cube
+was.
+
+If you wish to figure out yourself without being told, or if you just
+want to try to refute my guess (I'm no stranger to being wrong) then
+don't read the "answer" to the puzzle that's below my .sig.
+Otherwise, if you can't be bothered with minor trivialities like this
+one (it's really not that difficult to figure out the colors anyway)
+then read on.
+
+--
+Jin "Time Traveler" Kim
+chrono@ibm.net
+VGL Costa Mesa
+http://www.geocities.com/timessquare/alley/9895
+http://www.slamsite.com
+
+
+
+I determined that the color scheme of the cube held in Erno Rubik's hand is:
+Front: Red
+Back: Orange
+Left: Green
+Right: Blue
+Top: White
+Bottom: Yellow
+

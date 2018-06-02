@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Apr 13 13:25:11 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA21055
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 13 Apr 1999 13:25:10 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 13 Apr 1999 16:19:14 +0100
+From: David Singmaster Computing <david.singmaster@sbu.ac.uk>
+To: noel@mud.ca
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009D6951.D5AB9641.72@ice.sbu.ac.uk>
+Subject: RE: Wrist pains
+
+	When I went to a meeting on RSI problems, the speaker mentioned 'mouse
+finger' which is about as debilitating as the white finger suffered by people
+who use pneumatic drills (or jack-hammers).  When the speaker went to one
+small computer design firm, she found two people suffering from it, one having
+essentially lost the use of his right hand and having had to change to using
+his left hand!
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

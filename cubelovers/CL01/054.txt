@@ -1,0 +1,29 @@
+Date: 10 DEC 1980 0834-EST
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  A configuration symmetric wrt the first QTW
+To: CUBE-LOVERS at MIT-MC
+
+
+I believe the following is symmetric in the sense that any QTW
+will bring you closer to home:
+	All corners are rotate, and letting + indicate clockwise
+	and - counterclockwise, each face has the following
+	corner configuration
+		+-
+		-+
+	(and all the edges are intact)
+	a total map of the cube corners might look like
+		   +-
+		   -+
+		+- -+ +- -+
+		-+ +- -+ +-
+		   +-
+		   -+
+Each face is essentially the same: edges OK and all corners
+rotated so that opposite corners are rotated in the same
+direction. It is rather intuitive to me that rotating a face
+clockwise is the same as rotating the face counterclockwise. This
+fulfills the condition needed for maximality, but what flavor of
+symmetric is it (if the symmetry is easily describable). Also,
+does anybody have a 28 QTW algorithm (OR LESS!!) to go between
+solved and this position.

@@ -1,0 +1,52 @@
+From hoey@aic.nrl.navy.mil  Thu Aug 26 10:31:05 1993
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA11231; Thu, 26 Aug 93 10:31:05 EDT
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA21721; Thu, 26 Aug 93 10:30:57 EDT
+Date: Thu, 26 Aug 93 10:30:57 EDT
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9308261430.AA21721@Sun0.AIC.NRL.Navy.Mil>
+To: Alan@lcs.mit.edu, cube-lovers@ai.mit.edu
+Subject: Tartan reborn (Re: Tools lost in the mists of time...)
+In-Reply-To: <25Aug1993.204955.Alan@LCS.MIT.EDU>
+Organization: Navy Center for Applied Research in AI
+
+Alan Bawden mentioned the joy of rediscovering his lost cube-solving
+techniques.  This happened to me about three years ago for an unusual
+reason.  I've become active in science fiction fandom, and fans
+determine where the World Science Fiction Convention (Worldcon) is
+held each year by running miniature political campaigns.  A friend of
+mine was bidding for Glasgow, and she asked if I had any `plaid
+things'.  I told her I had a plaid Rubik's cube, and a political
+strategy was born.  The plaid cube is of course the Tartan, which Jim
+Saxe and I discovered and described in this group on 16 February 1981
+(see archives).  I blanked some old cubes, and figured out how to use
+spray paint to efficiently create Tartan cubes.  I produced a half
+dozen or so, and they make good conversation pieces at conventions.
+
+Unfortunately, I seem to be the only convention-going science fiction
+fan who can *solve* a Tartan (with the possible exception of Phil
+Servita <meister@gaak.lcs.mit.edu> who as I recall figured out an
+effective method but wearied in its execution).  So I would see a
+scrambled Tartan at a convention party, and fix it, and put it down,
+and five minutes later it would be scrambled again.  I quickly found
+out how rusty I was, and through the enforced practice I've gotten
+about as good as I was a decade ago.  But some of the Glasgow
+promoters took Tartan cubes over to the UK, and those cubes just never
+get solved.  I sent them instructions for solving it, but I don't know
+if any of them have figured out the instructions.
+
+Well, eventually they told me they really wanted something mere
+mortals could deal with, and I painted some pieces of wood plaid that
+they could use for doorstops.  I was surprised, though, to find that
+to make a plaid pattern going around a corner, if you only have four
+colors of paint, it seems the *only* thing you can do is use a
+coloring locally identical to the Tartan.
+
+As for the cubes in the UK, I expect to get there in 1995.  For it
+seems the clever ploy worked, and the fans voted to have the 1995
+Worldcon in Glasgow.  I'm sure they owe it all to the Tartan.  Sure.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

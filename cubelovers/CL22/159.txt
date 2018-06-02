@@ -1,0 +1,40 @@
+From cube-lovers-errors@oolong.camellia.org  Sun Jun  8 17:54:20 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA06033; Sun, 8 Jun 1997 17:54:19 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Sun, 8 Jun 1997 09:27:57 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Cube Mailing List <Cube-Lovers@ai.mit.edu>
+Subject: Special-purpose hardware for solving cubes, etc.
+Message-ID: <Pine.SUN.3.95.970608091821.11440D-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ If I keep my facts straight, Deep Blue used quite a good supply of
+special-purpose ICs ("chips"), designed specifically for searching ahead
+in chess. Scanning the recent messages in the List about searches, as a
+relatively-uninformed amateur, I wonder whether some special-purpose ICs
+could be designed to help with some of the algorithms you are discussing.
+
+ These days, there are some excellent software tools for designing
+practical Application-Specific ICs (ASICs); while I have no specific
+details to offer, it seems likely that part of the computational task
+could be offloaded onto hardware. The recent emergence of single chips
+that contain lots of memory and some processing should be considered, for
+it is likely that such chips would be much more useful/powerful than those
+with little or no memory. 
+
+ By any chance, is IBM looking for new sub-worlds to conquer?
+
+My best regards to all,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+

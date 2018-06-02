@@ -1,0 +1,72 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 12 17:23:13 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA18928
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 12 Mar 1999 17:23:13 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3.0.32.19990311084938.00953240@mail.spc.nl>
+Date: Thu, 11 Mar 1999 08:49:39 +0100
+To: DNewfield@cs.virginia.edu, cube-lovers@ai.mit.edu
+From: Christ van Willegen <c.v.willegen@spcgroup.nl>
+Subject: RE: Fwd: Request for spectacular cube-solving  -  Can anyone help ?
+
+At 09:06 26-2-1999 -0500, Dale Newfield wrote:
+>On Thu, 25 Feb 1999, Christ van Willegen wrote:
+>> Hey! _I'm_ already teaching my blind friend how to solve a cube!
+>> We marked the colors of the cube with braille letters spelling
+>> 1 - 6 dots. We're having a terribly hard time to teach him to solve
+>> it. It's fun, though...
+>
+>How difficult is it to read braille when the characters are in arbitrary
+>orientations?  Have you thought of using some other coding technique that
+>might prove more easy to distinguish in any orientation?  (Any idea what
+>that might be?)
+
+It's not the characters that count, just the numbers of dots. And it
+seems to be reasonably easy to read the number of dots in any
+position.
+
+Besides, it was the easiest and quickest thing we could think of.
+
+The problem with (most) blind people is lack of 3D concepts (I'd
+almost put a Duh! here). I know I solve the first layer of the
+cube with insight in the movement of cubelets. I've had lots of
+trouble describing what I do to my friend! Diagrams are impossible
+to draw, so you'd have to describe in words _exactly_ where cubelets
+are to be placed w.r.t. the rest of the cube before a formula can
+be applied.
+
+Too bad we didn't have any time to practise, yet. But we will!
+
+>
+>-Dale
+>
+>[Moderator's note: I'm inordinately proud of my own invention, which I
+>thought I mentioned years ago but can't find in the archives: Wire
+>symbols glued to a destickered cube, polished to a high gloss.  The
+>symbols are blank opposite dot, square opposite circle, and plus
+>opposite X.  The supergroup is marked by a cutout at a corner of each
+>face center and the adjacent cubies.  I can solve it behind my back,
+>but when I lent it to a blind computer scientist, he gave up. --Dan]
+
+That's also a nice idea. I might try that if the braille dots thing
+doesn't work. Do you have pictures of this thing on-line?
+
+[Moderator's reply: No pics, but the above description should get you
+ pretty close.  The only symbols you might want help with are
+    Dot: Made with a short tight spiral of wire,
+    Plus and X: Double-outlined so that they can be made with a
+         continuous strand of wire, end to end.
+ After gluing them down, I put an extra cover of cement to protect the
+ wire and blunt the sharp ends.  Silicone protectant ("Armor All" TM in
+ the US) gives it a good feel.  I used steel wire about .2mm thick,
+ like a paperclip, but perhaps I should stay vague so you will invent
+ your own variation. ]
+
+Dr. Bandelow! Please adjust your machines to make cubes like this :-)
+
+[But building it is half the fun! --Dan]
+
+Christ van Willegen
+

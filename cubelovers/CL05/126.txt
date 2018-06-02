@@ -1,0 +1,87 @@
+From what I have seen of the puzzle, your model seems to correctly
+specify necessary conditions for puzzle movement.  I have some
+additional constraints, below.
+
+    Each pair of squares is bound together by two loops of string (nylon
+    fishing wire, actually).
+
+This is acceptable for a model, though the physical puzzles I have seen
+are have twice as much wire on half of the squares as on the others.  I
+don't know why, and I am nearly ready to take one apart just to verify
+my several curiosities about the construction.
+
+    ... Only the square on the right (the rotor) will move. Keep the left
+    square (the stator) fixed.  Flip the rotor ....
+    You have moved the rotor all the way around the stator.  At some point,
+    each edge of both served as the hinge.  This amazing orbit is the basis
+    for the bewilderingness of the puzzle.  The path is a bizarre
+    three-dimensional cloverleaf.
+
+This corresponds with my understanding of two-square interaction.
+Thanks for nailing it down.
+
+    I think that I have now given all the "laws of motion" of the puzzle.
+
+There is something more, because each square has *two* neighbors.
+Consider a stator with two rotors.  There are two ``bizarre three-
+dimensional cloverleaves'' about the stator, but both rotors move in
+the same b3dc.  Furthermore, they cannot pass each other in their
+common b3dc.  Thus if one goes around more than a complete revolution,
+the other must make a net advance in the same direction.
+
+    Since the laws are all local, governing the motion of one adjacent
+    pair of squares, there is no obvious invariant that forbids the
+    doughnut.
+
+I think I can demonstrate one, given the fact that the pieces are
+joined in a cycle.  Let us tie each pair of adjacent squares together
+as in your model.  We notice that in the starting position, each of the
+occupied channels is occupied by two wires, one for each neighbor of
+the square.  Suppose we dyke out a loop from the left neighbor, and
+splice the left neighbor's connections into the right neighbor's loop.
+Then do this all the other duplicate loops.  I believe we end up with a
+puzzle held together by four pieces of wire, each (* 8 (sqrt 2)) units
+long.  One of them is drawn below, assuming transparent squares.  I
+believe that this puzzle will move in the same way as the original one.
+
+         ---- ---- ---- ---- 
+        |/\  |    |/\  |    |
+        |\ \ |   /|  \ |    |
+        | \ \|  / |   \|    |
+        |  \ |\/  |    |\   |
+         ---- ---- ---- ---- 
+        |   \|    |  /\| \  |
+        |    |\   | /  |\ \ |
+        |    | \  |/   | \ \|
+        |    |  \/|    |  \/|
+         ---- ---- ---- ---- 
+
+Now put away the dykes and try to fold the puzzle into a doughnut.  If
+you succeed, you will have formed two (* 10 (sqrt 2)) wires and two
+(* 6 (sqrt 2)) wires:
+
+         ---- ---- ----          ---- ---- ----
+        |/\  |    |/\  |        |    |/\  |    |
+        |\ \ |   /|  \ |        |   /|  \ |    |
+        | \ \|  / |   \|        |  / |   \|    |
+        |  \ |\/  |   /|        | /  |    |\   |
+         ---- ---- ----          ---- ---- ----
+        |   \|    |  / |        |/   |    | \  |
+        |   /|    | /  |        |\   |    |  \ |
+        |  / |    |/   |        | \  |    |   \|
+        | /  |    |\   |        |  \ |    |   /|
+         ---- ---- ----          ---- ---- ----
+        |/   |  /\| \  |        |   \|    |  / |
+        |\   | /  |\ \ |        |    |\   | /  |
+        | \  |/   | \ \|        |    | \  |/   |
+        |  \/|    |  \/|        |    |  \/|    |
+         ---- ---- ----          ---- ---- ----
+
+Changing the string lengths is a little more magic than I expect from
+Rubik.
+
+My thanks to John Robinson for encouraging me to believe that the
+string-length criterion has merit.  He tells me Andy Latto has a
+similar proof.
+
+Dan

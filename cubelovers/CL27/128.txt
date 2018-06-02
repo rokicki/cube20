@@ -1,0 +1,121 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug  6 11:10:06 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id LAA28883
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 6 Aug 1999 11:10:05 -0400 (EDT)
+Message-Id: <199908061510.LAA28883@mc.lcs.mit.edu>
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 3 Aug 1999 02:11:45 -0700 (PDT)
+From: Tim Browne <ue451@victoria.tc.ca>
+To: Cube-Lovers@ai.mit.edu
+Subject: Notes on the Bandaged Cube... combinations and other musings.
+In-Reply-To: <v04003a09b3a0062a6a87@[128.192.40.243]>
+
+I just picked up a bandaged cube the other day, and I get the feeling that
+this might be one of the few puzzles which would beat even the Square-1
+for solving difficulty. For those of you who haven't seen this nightmare
+of a cube, Hendrik Haak has a picture of it in the museum section of his
+Puzzle Shop (he calls it a "Bicube"). After playing around with it for a
+bit, I figured I'd try and work out the number of possible combinations.
+The cube is constructed from a standard Rubik's Cube mechanism, so all the
+standard Rubik's Cube restrictions apply here.
+The cube is made up of 13 pieces. One of them is created by fusing an edge
+piece between 2 centres, effectively turning it into a 2x2 piece. Because
+of this piece, 2 axes of motion are effectively cut off permanently,
+making a maximum of 4 axes of rotation. There are 4 pieces which are made
+up by fusing an edge to a centre, 7 pieces are a corner/edge fusion,
+leaving us with one standard corner piece. These fusions make the puzzle
+much more difficult than it first appears, as the contortions of all of
+these 1x2 pieces effectively block axes of rotation which were easily
+accessible only a quarter turn ago, sometimes getting so bad as to make
+the only available axis the one you just turned, in some extreme cases
+even forcing you to back out following exactly the same path you used to
+enter the current state. Needless to say, this makes solving the puzzle
+very frustrating indeed. Anyhoo, back to the combinations...
+Two of the centres are effectively locked into place for all time, leaving
+us with 4 edge/centre fusions which can be rotated one of 4 ways, giving
+us a factor of 4^4 combinations. Piece rotations in place are impossible.
+The first potential restriction would be creating more than one area where
+only the corner cube could fit, but the 2x2 piece makes this an
+impossibility. The second would be potential collisions between pieces.
+There are 5 pairs of adjacent sides where you have a 1:16 chance of a
+conflict, and 2 ways of creating a double conflict, so we reduce this
+amount by 5*256/16-2=82, leaving us with 174 possible arrangements of the
+edge/centre fusions.
+The edge/corner fusions and the lone corner piece will be handled
+together. The corner piece can be placed into any one of 8 corner slots,
+while the edge/corner fusions fit tightly into the remaining slots
+surrounding it, giving us a factor of 8!=40,320 combinations. Now for the
+restrictions... let's start with a simple swap first. Let's take an
+example side. Like numbers in the table are bandaged together.
+
+112
+345
+345
+
+Would it be possible to swap piece 1 and piece 3? Given the restrictions
+carried over from the Rubik's Cube, the only way you can swap a pair of
+edges or a pair of corners is if you also swap either a second pair of the
+same type, or a pair of its opposite. To see this latter case, rotate a
+slice of a solved cube 90 degrees either way and then "reconstruct" it
+using your favourite patterns. God's Algorithm in this case is expressly
+prohibited. Since the corners and edges are fused, a swap of one expressly
+implies a swap of the other, so this is OK.
+How about swapping pieces 3 and 5? This one's a bit more difficult. Not
+only are you swapping the pieces, but you're rotating them as well. When
+you swap these 2, both edge pieces are inverted, maintaining the even
+parity, so that's OK... the corner half of piece 3 is given a positive
+rotation, while the corner half of piece 5 is given a negative rotation.
+Modulo 3 parity is maintained, so this is also OK, meaning the whole swap
+is OK. Swapping any 2 edge/corner fusions on the cube can be broken down
+into a compound movement of either of these, so any of these pieces can be
+swapped with any other similar piece without restriction.
+The second potential restriction happens with edge/centre fusions. In
+certain special cases, the centres can rotate in such a way they they box
+in a 1x1x1 area, limiting it to 1 possible place. This can happen in one
+of two possible ways, bringing our combinations from 174x40,320 down to
+172x40,320 + 2x5,040.
+The final possible restriction happens when we swap an edge/centre fusion
+with an edge/corner fusion. What happpens when we swap pieces 4 and 5? So
+you don't have to scroll back, here it is again...
+
+122       122
+345  -->  344  ?
+345       355
+
+There are 3 problems with this: 1) you're swapping a single pair of edge
+pieces, 2) you're flipping a single edge piece, and 3) You're rotating a
+single corner in place, *all* of which are definite no-no's on the Rubik's
+Cube, either solo or in any combination, so you definitely can't do it
+here. The corner rotation can be accounted for easily enough by rotating
+the 1x1x1 piece in place to compensate, which you've probably noticed that
+I conveniently left out of all calculations to this point, to save
+multiplying and dividing by 3 unnecessarily. ALL of these problems can be
+compensated for by either simply not doing it, or by doing the same thing
+with another set, giving us 2 pairs of swapped edges and 2 edges flipped,
+compensating for the corner rotation again with the 1x1x1. This
+effectively slashes the potential combinations in half, bringing us down
+to 86x40,320 + 1x5,040 = (86x8+1)x5,040 = 689 x 5,040 =
+
+    5040
+     689
+    ----
+   45360
+  403200
+ 3024000
+--------
+ 3472560 possible combinations.
+
+Most puzzles of this type are difficult because of the sheer number of
+combinations. This is perhaps the only one of this type which is so
+difficult because of its limits. If you want to take it apart and put it
+back together randomly, you've got a 1 in 6 1/1920th chance of doing so
+correctly, perhaps this puzzle's one advantage over the cube. However, if
+you want to tough it out and devise a pattern for it, then you'll need to
+work out 172x8+2 = 1,378 patterns to get it back to its default shape,
+followed by at least 6 more patterns to restore the edge/corner fusions to
+their proper positions, making at least 1,384 patterns to work out for a
+general solution. I've graciously decided to leave this as an exercise for
+the reader. ;-) L8r.
+

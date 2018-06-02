@@ -1,0 +1,22 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Dec  2 20:31:57 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA27103
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 2 Dec 1998 20:31:57 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 2 Dec 1998 00:49:45 -0500
+Message-Id: <0008F2BF.C22092@scudder.com>
+From: Jacob_Davenport@scudder.com (Jacob Davenport)
+Subject: Re: Method for Solving the Professor's Cube (5x5x5)
+To: Cube Lovers <Cube-Lovers@ai.mit.edu>
+
+It is difficult.  I also took a long time to solve it, but I used a very
+different solution.  Check out www.wunderland.com/WTS/Jake/5x5x5.html for
+my solution.  Perhaps you can combine the best moves of both solutions to
+find a way of solving this interesting puzzle that you find most pleasing.
+If you do use my solution and have any comments about how I can make it
+better, either in my writing or my moves, please let me know.
+
+-Jacob
+

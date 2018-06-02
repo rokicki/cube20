@@ -1,0 +1,96 @@
+From BRYAN@wvnvm.wvnet.edu  Sat Jun 17 00:35:23 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23622; Sat, 17 Jun 95 00:35:23 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 9876; Sat, 17 Jun 95 00:35:32 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 4531; Sat, 17 Jun 1995 00:35:32 -0400
+Message-Id: <wvmail32.1995jun16.232735.bryan@wvnvm.wvnet.edu>
+Date:      Sat, 17 Jun 1995 00:35:31 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   10q Local Maxima Positions
+
+1. (UU)  (F'B')(RL)(RL)(FB)
+2. (UD') (F'B')(RL)(RL)(FB)
+3. (UD)  (F'B')(RL)(RL)(FB)
+
+4. (UD')(FB')(LR')(FB')(FB')
+
+#4 is the one Mike Reid already found in the slice group.  #3 is the
+one I already found in the antislice group.  #1, #2, and #3 are
+obviously closely related.  #1 and #2 appear not to be in either
+slice or antislice, but I have been fooled before by alternative
+sequences which yield the same position.
+
+#1, #2, and #3 all have the property that |{m'Xm}|=6 and
+|Symm(X)|=8.  As has already been discussed, #4 has the
+property that |{m'Xm}|=24 and |Symm(X)|=2.
+
+The symmetry groups for #1, #2, and #3 are of a type Dan Hoey's
+taxonomy calls class P, class S, and class AX, respectively.
+These particular classes are hard to describe succinctly without
+introducing a lot of notation.  But in all three cases, the symmetry
+groups (subgroups of M such that X=m'Xm} consist of four rotations
+and four reflections, and have as an axis of symmetry one of
+the three major axes of the cube (U-D, F-B, or R-L).  There
+are three groups P1, P2, P3 with axis of symmetry U-D, F-B,
+and R-L, respectively, and similarly for S1, S2, and S3, and
+for AX1, AX2, and AX3.
+
+For #4, we have Symm(X)=HV in Dan's taxonomy, where HV={i,v}, and
+where i is the identity in M and v is the central inversion in M.
+If proper typography were available, the i and the v would be
+upper case script letters to follow Frey and Singmaster.
+
+There are relatively few positions in all of cube space
+for which Symm(X)=Pi or Symm(X)=Si or Symm(X)=AXi (i in 1..3).
+There are only 10 P positions through level 10 in the search tree (of which
+just one is a local maximum).  There is only one S position through
+level 10, and only one AX position through level 10, both of
+which are of course local maxima.  The positions
+are not Q-transitive, but the positions look "symmetric", and they
+fulfill the (incorrect) intuition that "symmetric" positions must
+be local maxima.  We have no reason to say that other P or S or AX
+positions further down the search will be local maxima.
+
+I find position #4 extremely intriguing.  In general, HV is not
+very strong symmetry, and there are relatively speaking, quite
+a few HV positions in cube space.
+
+We could create an HV position as follows.
+Put any edge cubie anywhere (say UF in RD).  Put the "opposite"
+cubie in the "opposite" cubicle (DB in LU in this case).  Continue
+for the remaining edge cubies, and then do the same thing for the
+corners, remembering only to make sure the edges and corners have
+the same parity.  You can easily make an HV position that looks
+quite "random" to the casual glance, and in fact most HV positions
+don't look very "symmetric".
+
+But Mike's position looks very "symmetric" at a casual glance, as
+if its symmetry must be much stronger than HV.  I certainly would
+not have expected to find an HV position as a local maximum close
+to Start.  I think the "look" of Mike's position as "symmetric",
+and the fact that it is a local maximum close to Start are
+related.  Without getting too long winded, I think the reasons
+are two-fold.  First, the corners and edges have much stronger
+symmetry separately than they do collectively.  Second, the
+symmetry looks much stronger if you ignore the centers (i.e.,
+if you ignore the rotational positioning of the cubies), perhaps
+in the sense of Dan's CSymm function.  For example, the corners
+are properly positioned with respect to each other, even though
+they are not properly positioned with respect to the fixed face
+centers.
+
+In the next few days, I intend to calculate Symm(X)
+for the corners and edges separately for Mike's position, as
+well as calculating CSymm(X) for the corners and edges
+separately and combined.  I think the results will be
+enlightening.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

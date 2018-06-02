@@ -1,0 +1,25 @@
+Date: 29 Jun 1982 2232-PDT
+From: ISAACS at SRI-KL
+Subject: Twisting Cube
+To: CUBE-LOVERS at MIT-MC
+
+  Take a cube(3x3x3) and re-color it in two colors, as follows:
+Make 2 opposite faces with color 1 in the center, and color 2 on the
+rest.  Call them "dots".  Take another pair of opposite faces and make
+the 4 corners color 2 and the cross color 1.  Call them "pluses".
+Finally take the last pair and make an "H" with color 1 and the 2
+edges NOT adjacent to "dots" color 2.  Call them "H's".  In this cube,
+every edge is the same, so is each corner, and the centers.  The result
+is a cube where you only have to solve orientation problems, and never
+need to position any cubie.  However, it's not quite the entire orientation
+sub-cube - if you flip all 12 edges, you can't tell the difference.  Can
+anybody come up with a coloring (2 or 3 colors - the centers could all be
+colored with a different color from the edges and corners.  In fact, I guess
+you could use 6 colors; the only necessity is for all edges to be the same,
+and all corners the same. )... come up with a coloring which uses the
+complete twisting sub-group.
+   By the way, an elegant solution to the "edge-only" cube is to recolor
+an Octahedron Cube so it is vertex centered.  Much nicer than peeling all
+the corners of a regular cube.
+   --- Stan
+-------

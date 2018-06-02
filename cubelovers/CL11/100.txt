@@ -1,0 +1,41 @@
+From ishius@ishius.com  Fri Jan 14 14:17:29 1994
+Return-Path: <ishius@ishius.com>
+Received: from holonet.net (giskard.holonet.net) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25577; Fri, 14 Jan 94 14:17:29 EST
+Received: from DialupEudora (ishius@localhost) by holonet.net (Anton Dovydaitis) with SMTP
+	id LAA17654; Fri, 14 Jan 1994 11:13:42 -0800
+Date: Fri, 14 Jan 1994 11:13:42 -0800
+Message-Id: <199401141913.LAA17654@holonet.net>
+To: Cube-Lovers@ai.mit.edu
+From: ishius@ishius.com (Ishi Press International)
+Sender: ishius@ishius.com (Unverified)
+Subject: 4x4x4 and 5x5x5 cubes.
+
+I've been getting a lot of requests for 4x4x4 cubes, and we're looking into
+getting them.  However, I have a couple questions.
+
+1) Why are 4x4x4 cubes so interesting?  Do the additional symmetries make for
+   interesting questions, are they more fun, or easier to solve?
+
+2) It appears to me that if you know how to solve the 3x3x3 Rubik's cube,
+   then you can easily solve the 5x5x5 rubiks (i.e., the solution is
+   derivative).  For example, you can treat the inner 3x3 faces of the 5x5x5
+   as a single 3x3x3 cube.  Alternately, you can treat the edges/faces along
+   with the the middle three slices combined into a single slice as its own
+   3x3x3 cube, and this would not really disturb the "inner face" 3x3x3 cube.
+   Is this really so, or am I missing something? Is the 5x5x5 cube simply
+   the group product of two 3x3x3 cubes and one or two sub-groups of a 3x3x3,
+   or is it more complex than that?  How does this relate to the 4x4x4?
+
+I do have a Bachelor's degree in mathematics and am familiar with abstract
+algebra.  I appreciate any light you can shed on these questions.  I would
+like to be able to converse intelligently about the cubes; that is why I
+subscribed to this list.
+
+Anton Dovydaitis
+
+========================================================================
+Ishi Press International        800/859-2086 voice, 408/944-9110 FAX
+76 Bonaventura Drive            ishius@ishius.com           The Americas
+San Jose, CA  95134             ishi@cix.compulink.co.uk    Europe
+
+

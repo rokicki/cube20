@@ -1,0 +1,118 @@
+From JBRYAN@pstcc.cc.tn.us  Thu Mar  7 13:54:55 1996
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from pstcc6.pstcc.cc.tn.us by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18982; Thu, 7 Mar 96 13:54:55 EST
+Received: from PSTCC6.PSTCC.CC.TN.US by PSTCC6.PSTCC.CC.TN.US
+ (PMDF V5.0-4 #11457) id <01I225GG71DS000HG1@PSTCC6.PSTCC.CC.TN.US> for
+ cube-lovers@ai.mit.edu; Thu, 07 Mar 1996 13:53:23 -0500 (EST)
+Date: Thu, 07 Mar 1996 13:53:22 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Shamir and M-Conjugacy
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.960307134730.22609A-100000@PSTCC6.PSTCC.CC.TN.US>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+With most of my large breadth-first searches of God's Algorithm, I have
+used M-conjugacy, where M is the set (and group) of 48 rotations and
+reflections of the cube.  Using M-conjugacy reduces the size of the
+problem by about 48 times, and allows me to search one or two levels
+deeper than would be possible without M-conjugacy. 
+
+I haven't even written a basic program for Shamir's method yet, but it
+occurs to me that if Shamir's algoritm could be combined with M-conjugacy,
+tremendous benefits would accrue. 
+
+As before, we define Q[n] to be the set of positions which are n quarter
+turns from start, and T[n] to be the union of Q[k] for k in 0..n.  I have
+been thinking in terms of using Shamir's method on T[5] to get Q[6]
+through Q[10].  But T[5] isn't exactly tiny as it contains 105046
+elements.  Plus, we already have Q[0] through Q[11] calculated by other
+means, so we wouldn't be learning anything new. 
+
+Define Q*[n] to be the set of representative elements of M-conjugacy
+classes of length n, and T*[n] to be the union of Q*[k] for k in 0..n. 
+T*[5] only contains 2229 elements, which is much more manageable than
+105046 elements.  T*[6] contains 20624 elements.  This is still quite
+manageable, and might well permit us to calculate Q[12], which would be
+something new.  T*[7] contains 192153 elements.  This is right on the bare
+edge (maybe past the bare edge) of what could be handled on most machines. 
+But if we could handle it, we possibly could calculate Q[13] and Q[14] --
+a really major advance in our knowledge of God's algorithm. 
+
+I haven't yet figured out entirely how to marry Shamir's method with
+M-conjugacy.  But let me provide a general outline of what would have to
+be done, and identify the major problem areas. 
+
+Without repeating all the details, recall that we can in theory modify
+Shamir's method to calculate T[2n] (and all the respective Q[k]'s) as the
+product (T[n] x T[n]).  Very, very roughly speaking, we seek to calculate
+T*[2n] as the product {T*[n] x T*[n]).  But there are many, many
+complications along the way. 
+
+Here are some preliminaries.  
+
+First, given a representative X in Q*[n], we can calculate its entire
+M-conjugacy class as {m'Xm | m in M}.  I usually just write this set as
+{m'Xm}.  In group theory, an element m'Xm is often written as X^m and the
+set {m'Xm} is often written as X^M.  I will adopt the group theory
+notation to some extent in the remainder of this paper. 
+
+Given Q*[n], we can create Q[n] by simply expanding the M-conjugacy
+classes for each X in Q*[n].  In most of my work, the Q[n] which is thus
+created is sort of virtualized -- created but not stored.  I will denote
+the virtualized version of Q[n] as Q*^M[n] to distinguish it from the real
+version.  Notice that we do have Q*^M[n]=Q[n], so Q*^M[n] can serve as a
+surrogate for Q[n] most anytime we need it to.  Similarly, we denote the
+virtualized version of T[n] as T*^M[n]. 
+
+Second, we define * to be a function (not a permutation) which can be
+composed with permutations to calculate a representative element.  We
+define X* to be Repr(X), which is really Repr{X^M}.  So we can have such
+things as XY* or (X*)(Y*). 
+
+I have generally implemented X* as min{X^M}.  By this, we mean place X^M
+in lexicographic order, and choose the first element.  Basing the
+representative element of X^M on lexicographic order fits in well with
+Shamir's method. 
+
+We now return to the idea of calculating T*[2n] as the product (T*[n] x
+T*[n]).  We first note that the product of representatives is not
+necessarily a representative, so we would have to calculate (T*[n] x
+T*[n])* to assure that all we have is representatives. 
+
+We also note that if we simply calculate all the products st* for s and t
+in T*[n], we will have about 48 times too few products.  On the other
+hand, if we calculate st* for s and t in T*^M[n], we will have about 48
+times more products than we need.  What is required is to calculate st*
+for s in T*[n] and t in T*^M[n].  In other words, we expand the
+equivalence classes for t but not for s. 
+
+In a sense, this is what I have always done for my non-Shamir searches,
+except that I have only advanced by one level of the search at a time. 
+That is, I have calculated (Q*[n] x Q*^M[1])* to get to Q*[n+1].  But
+remember that Q*^M[1] is just Q[1], which in turn is just Q, the set of
+quarter turns. 
+
+That was the sanitized version.  The dirty version is that you have to
+calculate (in lexicographic order) o'(s(m'tm))o, for all o in M, for all m
+in M, and for all t in T*[n].  The s is a fixed element of T*[n], and the
+results for all s in T*[n] are merged in standard Shamir fashion. 
+Finally, these products will include representatives and
+non-representatives alike, and you have to keep only representatives and
+throw away the non-representatives. 
+
+Calculating these products is trivial.  Getting them to come out in
+lexicographic order is the hard part.  As I said at the beginning, I am
+not sure I know how to do it yet.  But I have some ideas about it that I
+will be sharing. 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+

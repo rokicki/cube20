@@ -1,0 +1,29 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jul 31 11:16:22 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id LAA00122; Fri, 31 Jul 1998 11:16:21 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Jul 30 17:34:13 1998
+Message-Id: <35C0C750.9D29907D@t-online.de>
+Date: Thu, 30 Jul 1998 21:19:44 +0200
+Reply-To: Rainer.adS.BERA_GmbH@t-online.de
+Organization: BERA Softwaretechnik GmbH
+To: Cube Mailing List <Cube-Lovers@ai.mit.edu>
+Subject: Corrections
+References: <35BE13D0.874D8E6D@t-online.de>
+From: Rainer.adS.BERA_GmbH@t-online.de (Rainer aus dem Spring)
+
+Sorry:
+
+\subsubsection*{2 Twisted Rings}
+$L_{12}^2 F_{12}^{-1} L_{12}^{-1} F_{12} L_{12}^{-1} U_{12} B_{12}^{-1}
+U_{12}
+B_{12} U_{12}^2  (B^{-1} U^2 B R^{-1} D^2 R)^2$
+
+not ... U^2 R)^2$
+
+Rainer adS
+
+U was "unten", i.e., German for down.
+

@@ -1,0 +1,37 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Tue Jan  3 02:39:05 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08669; Tue, 3 Jan 95 02:39:05 EST
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <123884-5>; Tue, 3 Jan 1995 01:55:18 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA25721; Tue, 3 Jan 95 01:51:24 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1C6CAC; Tue,  3 Jan 95 01:22:30 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Centres
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.932.5834.0C1C6CAC@canrem.com>
+Date: Tue, 3 Jan 1995 00:05:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+Jerry Bryan asks:
+
+>      ... doesn't the center of GE (and of G) in fact consist
+> of more than just the Superflip and the identity?  Does it
+> not also include the Pons Asinorum and the composition of
+> the Pons Asinorum and the Superflip?
+
+Hmmm, I don't think so...
+
+ The centre commutes with every process, and the Pons Asinorum
+just doesn't.
+
+E.g.   R1 + F2 B2 U2 D2 L2 R2  <>  F2 B2 U2 D2 L2 R2 + R1
+
+
+I think Martin has scoped out all the possible centres in other
+subgroups.
+
+-> Mark <-
+

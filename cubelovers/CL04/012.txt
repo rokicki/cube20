@@ -1,0 +1,32 @@
+Date:     17 May 1982 2218-edt
+From:     Ronald B. Harvey           <RHarvey at MIT-MULTICS>
+Subject:  4x4x4 solution
+To:       cube-lovers @ mit-mc
+
+Amazing! I log in after working on my cube for an hour or so tonight in
+order to announce my solution and I find another solution!
+
+As previously stated, I use S to put edges into place.  This is done to
+totality after I have put all of the corners together.
+
+Now comes the hard part - all of the centers.  The tools that I have to work
+on centers work on 4 or eight center cubies on opposite faces, plus, on
+the 4-cubie swap version, two pair of edge cubies get swapped.  After
+having a few edges swap (these are now treated like 3x3x3 edges...),
+I usually replace these so I can undo the complex conjugations more
+reliably.
+Now that I can solve it, I going to search for tools that do finer
+things, like double swaps for centers or edges without munging
+the other centers or edges.
+
+BTW, I have had the tools all weekend - it has just taken this long to
+get the proper perspective in order to set up the proper conjugations...
+
+Has anyone solved the construction problem?  Is Ideal's version similar
+to Plummer's design of last December? Who DID do Ideal's version?
+
+Any truth to the rumor (that I just started) that the reason that it has
+taken Ideal so long to actually start selling the things was that they
+were working on a solution booklet all this time? (They DO offer one)
+
+ - Ron

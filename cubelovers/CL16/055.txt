@@ -1,0 +1,38 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Jul 19 21:47:46 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04627; Wed, 19 Jul 95 21:47:46 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 8401; Wed, 19 Jul 95 21:47:48 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 8646; Wed, 19 Jul 1995 21:47:48 -0400
+Message-Id: <wvmail32.1995jul19.214439.bryan@wvnvm.wvnet.edu>
+Date:      Wed, 19 Jul 1995 21:47:47 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Level 11, Edges-with-Face-Centers, Qturns
+
+ Level   M-Conjugacy   Branching  Lcl     Positions   Branching  Lcl
+            Classes      Factor   Max                   Factor   Max
+
+   0               1               0              1               0
+   1               1      1.000    0             12     12.000    0
+   2               5      5.000    0            114      9.500    0
+   3              25      5.000    0           1068      9.368    0
+   4             215      8.600    0           9819      9.194    0
+   5            1886      8.772    0          89392      9.104    0
+   6           16902      8.962    0         807000      9.028    0
+   7          150442      8.900    0        7209384      8.934    0
+   8         1326326      8.816    1       63624107      8.825    2
+   9        11505339      8.675    0      552158812      8.678    0
+  10        96755918      8.410          4643963023      8.411
+  11       750089528      7.752         36003343336      7.753
+
+Note that there are no local maxima at level 9, although one showed
+up at level 8.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

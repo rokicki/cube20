@@ -1,0 +1,56 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Oct  1 19:36:41 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA14676; Tue, 1 Oct 1996 19:36:40 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Authentication-Warning: coronado.nadn.navy.mil: wdj owned process doing -bs
+Date: Tue, 1 Oct 1996 18:43:19 -0400 (EDT)
+From: Assoc Prof W David Joyner <wdj@nadn.navy.mil>
+X-Sender: wdj@coronado
+To: Riccardo Distasi <ric@irsip.na.cnr.it>
+cc: Cube-Lovers <cube-lovers@ai.mit.edu>
+Subject: Re: Intro to cube group theory?
+In-Reply-To: <9610011619.AA00774@irsip.na.cnr.it>
+Message-ID: <Pine.GSO.3.95.961001183755.19887A-100000@coronado>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+
+On Tue, 1 Oct 1996, Riccardo Distasi wrote:
+
+> Dear mathematical cubologists,
+> I am creeping on this list since a few months, but I have to admit
+> that most of the more advanced mathematical technicalities are beyond
+> my understanding, mainly because I lack knowledge of the basic
+> facts and terminology about groups.
+> 
+> All I studied about groups was a part of Birkhoff/McLaine's "Algebra"
+> some 10 years ago. Is there any good reference on groups where I can
+> educate myself?  I would prefer freeware papers over costly and
+> hard-to-find (at least in Italy) books. Does anybody have a hint for
+> me?  The aim of my training is that of learning about M-conjugacy and
+> the Shamir algorithm, and to be able to follow the technical
+> discussions about the Rubik cube that appear on this list.
+> 
+
+I think the best book is Bandelow's Inside Rubik's cube and beyond,
+which might be in a local library. I have lecture notes for a
+course I'm teaching on the Rubik's cube which I can send you
+for free. Also, a group-theorist friend of mine has several
+hundred copies of an elementary group theory book (printed
+by the US government and I think free) available - you can
+email me or him (Prof Gaglione, amg@nadn.navy.mil) if you're
+interested. Finally, Puzzletts is still selling Singmaster's 
+Notes on the Rubik's cube, though they are also out of
+print. - David Joyner
+
+
+> 	Riccardo
+> --
+> Riccardo Distasi, ric@irsip.na.cnr.it
+> 
+> 
+
+
+

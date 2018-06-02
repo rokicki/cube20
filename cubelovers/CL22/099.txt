@@ -1,0 +1,39 @@
+From cube-lovers-errors@oolong.camellia.org  Sun Jun  1 21:38:37 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id VAA01493; Sun, 1 Jun 1997 21:38:36 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Sun, 01 Jun 1997 18:20:28 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Description of algorithm for finding minimal-move solutions to
+ Rubik's Cube
+In-reply-to: <338F7124.73A6@hrz1.hrz.th-darmstadt.de>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Reply-to: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Message-id: <Pine.PMDF.3.95.970601180849.90493F-100000@PSTCC6.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+
+On Sat, 31 May 1997, Herbert Kociemba wrote:
+
+> Dik Winter proved, that 12 moves always suffice to get to this subgroup.
+> 
+> Michael Reid proved, that 18 moves always suffice in this subgroup.
+
+If I interpret this correctly, what you have at this point is a
+Thistlethwaite algorithm with G -> <U,D,R2,L2,F2,B2> -> I, proving that
+any position can be solved in no more than 30f moves.  Is this the correct
+interpretation?  But more importantly, is there anything in the part of
+your algorithm where you combine stage1 and stage2 which would establish
+an upper bound which is less than 30f? 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+

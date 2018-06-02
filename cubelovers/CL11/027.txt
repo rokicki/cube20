@@ -1,0 +1,69 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Wed Dec 15 11:07:13 1993
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from mail.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17433; Wed, 15 Dec 93 11:07:13 EST
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <55767(2)>; Wed, 15 Dec 1993 10:52:33 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA18531; Wed, 15 Dec 93 10:50:45 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 18E5EA; Wed, 15 Dec 93 10:46:24 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Lib of Congress
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.618.5834.0C18E5EA@canrem.com>
+Date: 	Wed, 15 Dec 1993 09:38:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+I Pulled this list from the Library of Congress. The hungarian
+book I've never seen before (#2), and #3 and #4 are new to me.
+"Zen of Cubing" may be interesting, has anyone read this one?
+
+
+ITEMS 1-4 OF 11               SET 15: BRIEF DISPLAY           FILE: LOCI
+                                (DESCENDING ORDER)
+
+
+1. 86-8699: Buvos kocka. English.  Rubik's cubic compendium /  Oxford
+     ; New York : Oxford University Press, 1987.  xi, 225 p. : ill.
+     (some col.) ; 23 cm.
+     LC CALL NUMBER: QA491 .B8813 1987
+2. 85-109601: Mezei, Andras.  Magyar kocka, avagy, Meg mindig ilyen
+     gazdagok vagyunk? /  Budapest : Magveto, c1984.  473 p. : ill.
+     ; 21 cm.
+    LC CALL NUMBER: QA491 .M49 1984
+3. 82-72610: Feder, Happy Jack.  Zen of cubing : in search of the
+     seventh side /  1st ed.  South Bend, Ind. : And Books, c1982.
+     100 p. : ill. ; 21 cm.
+     LC CALL NUMBER: PN6231.R78 F42 1982
+4. 82-3755: O'Grady, Miles.  You can kick the cube] : the cube hater's
+     handbook /  New York, N.Y. : Penguin Books, 1982.  p. cm.
+     NOT IN LC COLLECTION
+5. 82-1264: Bandelow, Christoph.  Inside Rubik's cube and beyond /
+     Boston : Birkhauser, c1982.   120, [5] p., [6] leaves of plates :
+     ill. (some col.) ; 23 cm.
+     LC CALL NUMBER: QA491 .B2613 1982
+6. 81-85850: Schlafly, Roger.  The complete cube book /  Chicago :
+     Regnery Gateway, c1982.  vi, 51 p. : ill. ; 21 cm.
+     LC CALL NUMBER: QA491 .S34 1982
+7. 81-81556: Taylor, Don.  Mastering Rubik's cube : the solution to the
+     20th century's most amazing puzzle /  1st American ed.  New York :
+     Holt, Rinehart and Winston, 1981, c1980.  31 p. : ill. ; 22 cm.
+     LC CALL NUMBER: QA491 .T38 1981
+8. 81-21650: Varasano, Jeffrey, 1966-  Conquer the cube in 45 seconds /
+     New York : Bell Pub. Co. : Distributed by Crown Publishers, c1981.
+     48 p. : ill. ; 21 cm.
+     NOT IN LC COLLECTION
+9. 81-16682: Varasano, Jeffrey, 1966-  Jeff conquers the cube in 45
+     seconds : and you can too] /  New York : Stein and Day, 1981. p.cm.
+     NOT IN LC COLLECTION
+10. 81-12525: Frey, Alexander H.  Handbook of cubik math /  Hillside,
+     N.J. : Enslow Publishers, c1982.  viii, 193 p. : ill. ; 23 cm.
+     LC CALL NUMBER: QA491 .F73 1982
+11. 80-27751: Singmaster, David.  Notes on Rubik's magic cube /
+     Hillside, N.J. : Enslow Publishers, 1981.  vi, 73 p. : ill.; 24 cm.
+     LC CALL NUMBER: QA491 .S58 1981
+
+More to follow
+ -> Mark <-
+

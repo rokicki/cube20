@@ -1,0 +1,23 @@
+Date: 26 September 1981 14:08-EDT
+From: David C. Plummer <DCP at MIT-MC>
+Subject:  ZILCH's 4x4x4 center block exchange
+To: CUBE-LOVERS at MIT-MC
+
+Just a clarification (and a discussion promoter, perhaps).  I can
+believe it is possible to put the center 2x2 blocks of a 4x4x4
+cube into any relative position.  But, there is still only one
+way to solve it.  This is because the relative position in the
+solved state is determined by the corners.  I guess this allows
+for a new class of pretty patterns, especially DOTS:
+	DOTS as we know it in  the 3x3x3 (two sets of three; one
+	  set clockwise, the other couterclockwise) 
+	DOTS (two sets of three; both (counter)clockwise)
+	DOTS (two sets of three; similar to BASEBALL)
+	DOTS (three sets of two; like Christman's Cross)
+	DOTS (three sets of two; pairs opposite) (a local max)
+	DOTS (three sets of two; all pairs adjacent)
+	DOTS (one set of six; similar to the checkboard obtained
+	  by Plummer's Cross + dots + pons)
+	etc.
+
+Anybody want to take a shot at trying to catalog all the local maxima?

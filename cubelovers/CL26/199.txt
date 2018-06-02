@@ -1,0 +1,25 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 19 12:02:52 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA16859
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 19 Mar 1999 12:02:51 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Fri, 19 Mar 1999 11:14:58 +0000
+From: David Singmaster Computing <david.singmaster@sbu.ac.uk>
+To: c.v.willegen@spcgroup.nl
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009D5582.3042380C.305@ice.sbu.ac.uk>
+Subject: RE: Fwd: Request for spectacular cube-solving  -  Can anyone help ?
+
+	It is true that some blind people have limited 3-D perception, but a
+colleague once told me he came into a graduate student room and heard the only
+blind student in his class explaining subdivisions in n-dimensions to the other
+students!
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

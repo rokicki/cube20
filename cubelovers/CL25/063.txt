@@ -1,0 +1,21 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed May  6 09:18:29 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id JAA18760; Wed, 6 May 1998 09:18:18 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue May  5 13:57:15 1998
+Message-Id: <19980505174802.8836.qmail@hotmail.com>
+From: "Philip Knudsen" <philipknudsen@hotmail.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Revenge and the 5x5x5
+Date: Tue, 05 May 1998 10:48:00 PDT
+
+I suggest people with 5x5x5 that tend to fall apart try and fasten the
+small screw underneath the center caps. This might help, at least it did
+on mine. Mine didn't fall apart though, it just got loose, and sometimes
+the pieces between the corners and the centres would sort of make a
+wrong twist. After i tightened the screws that problem disappeared.
+
+Philip K
+

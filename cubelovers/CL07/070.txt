@@ -1,0 +1,63 @@
+From dik@cwi.nl  Thu Aug 22 20:44:41 1991
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA12611; Thu, 22 Aug 91 20:44:41 EDT
+Received: by charon.cwi.nl with SMTP; Fri, 23 Aug 1991 02:37:55 +0200
+Received: by paring.cwi.nl via EUnet; Fri, 23 Aug 91 02:37:50 +0200
+Date: Fri, 23 Aug 91 02:37:50 +0200
+From: dik@cwi.nl
+Message-Id: <9108230037.AA00481@paring.cwi.nl>
+To: Cube-Lovers@life.ai.mit.edu, dn1l+@andrew.cmu.edu
+Subject: Re:  New "CUBE"
+
+ > I found a fun new cube, sorta.
+ > It is called Square 1.
+ > it rotates in WIERD ways.
+Yes, it is also on sale in Europe.
+ > 
+ > it is a challenge to return to the state of being a cube, much less to
+ > solve it.
+True.  To solve it when it is a cube, knowledge of the magic domino is
+sufficient.  But it might even be that restoring it to cube form is not
+much more dificult than the magic domino.  I do not know yet.  When my
+cube got in disorder, by some magical moves it was restored to cube form;
+not by me, but by my 8 year old daughter, I still do not know how.
+ > 
+ > My friend calls it "unfriendly."
+That is uncalled for.
+ > 
+ > the way it is set up, it is a cube, with a center band that has one
+ > split.  the two faces on either side of it that are split into the
+ > normal three on a side, but the pieces meet at the center, i.e.: the
+ > side ones are wedges, and the corners are almost-squares with the point
+ > not on the outside being the center.
+Something is missing from this description.  I think it can best be
+explained based on the MagiBall that came some years ago from Austria.
+The MagiBall consists of two halves that can be rotated with respect to each
+other.  But only rotates of 180 degrees make sense.  Further it has four bands
+of moving pieces.  Movement of the bands is perpendicular to the rotations
+of the halves.  Each band has 8 pieces.  When the halves are rotated with
+respect to each other, the "left" half of an upper band is connected to the
+"right" half of a lower band.  This creates two puzzles, each with 16 pieces.
+Now consider that ball; remove the inner two bands (leaving only the uppermost
+and lowermost band).  Next go through the bands clockwards when you look from
+above.  Alternatingly glue two pieces in a band together and skip a piece.
+This will leave you in each band with four double size pieces.  Ignoring
+the middle layer of the new cube, this is the new cube (but the middle layer
+is easily dealt with).  Now what was missing from the description is that the
+centre angle of a cornerpiece is exactly twice the center angle of a wedge.
+
+I have some algorithms to do cycles on three corner pieces and also for
+three wedge pieces.  The latter are fairly long however.  And they all only
+work if the puzzle is already in cube form.
+ > 
+ > it is fun.
+ > 
+ > I was told it will be out at christmas, but I bought it in a store
+ > called Games Unlimited in Squirrel Hill, a neighborhood of Pittsburgh. 
+ > Buy one from someone, and fry your brain.
+ > 
+ > Enjoy.
+ > 
+ > Dale
+ > 
+

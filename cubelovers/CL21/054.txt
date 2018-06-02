@@ -1,0 +1,74 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Nov 16 21:51:20 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id VAA00394; Sat, 16 Nov 1996 21:51:19 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Sat, 16 Nov 1996 07:24:20 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Cube-Lovers@ai.mit.edu
+Subject: Non-cubical Rubik cousins; physical realizability
+In-Reply-To: <13Nov1996.162951.Alan@LCS.MIT.EDU>
+Message-ID: <Pine.SUN.3.95.961116063942.13366F-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ (My subject line is a spur-of-the-moment phrase; not deeply considered.)
+
+ I just got to wondering whether some people have considered theoretical
+larger analogs of the Magic Domino (btw, would somebody please manufacture
+some Magic Dominoes? Binary Arts?). To get back on topic, these would be
+Cube-like puzzles with such "cubie counts" ("Dimensions") as 3X3X4, 3X4X4,
+etc. Whether these are trivial, I haven't yet thought out; making real,
+physical ones might not be simple. If this topic is covered in the
+archives, I apologize; in such a case, could someone recommend non-obvious
+keywords or names? 
+
+ Is there an agreed-upon concise way of defining the
+"size/count/dimensions" of a Cube; i.e., a 2X2X2 is a Pocket Cube, a 4...
+is Rubik's Revenge, etc.? How about "order-3" for a regular Rubik's, or
+simply (given proper context) "n", so that "2" signifies Pocket, "4"
+Revenge, etc.? Perhaps it's just a personal reaction, but I find it
+cumbersome to type "5X5X5" more than a few times, for instance.
+
+ Thinking about this brings up another topic, and probably a difficult one
+to completely characterize. Given any arbitrary puzzle composed of cubies,
+is it always possible to create a mechanism to realize that specific
+puzzle physically?
+
+ As far as I know (and here I stick my neck waaaaay out!), there is no
+theory of mechanisms in the general case that would, for instance, say
+whether an order-2 is realizable (as we know, it can be made, and has
+been); the Magic Domino is more of a challenge, imho, in that it isn't as
+easy to say whether such a structure can be made. 
+
+ Some matters affecting realizability are relatively easy to anticipate,
+such as the matter of holding the corner cubies in place in a "7"  (with
+all cubies of equal size) when one plane is rotated with respect to the
+other six. Other matters are a question of what's reasonable to design
+mechanically; while theoretically possible, some structures might not be
+at all practical, because of such problems as cumulative friction, lack of
+rigidity, and dimensional tolerances. Such real-world considerations
+(unfortunately!) muddy the waters until a really good mind comes along to
+settle the mud.
+
+ A preliminary guess at an answer to the question is that probably all
+"low-order" collections of cubies are realizable, but we are far from
+having a theory of mechanisms that tells us how to design the innards.
+
+ I maintain that the mechanism of the ordinary Rubik's Cube is the most
+ingenious simple one ever invented; I have studied mechanisms to a fair
+degree. (A good competitor is the programmable pushbutton combination lock
+that has five buttons in a row. This is mechanical, digital, programmable,
+combinatorial, and sequential.)
+
+Hope and trust this hasn't been a waste of bitspace!
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*      the 2000th anniversary of the year 0.
+--------------------------------------------------------------------------
+
+
+

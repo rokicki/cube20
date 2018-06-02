@@ -1,0 +1,29 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 10 19:40:41 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA05581
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 10 Mar 1999 19:40:41 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Fwd: Request for spectacular cube-solving - Can anyone help ?
+Date: 26 Feb 1999 20:52:13 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7b71ht$3pp@gap.cco.caltech.edu>
+References: <cube-lovers.3.0.32.19990225085830.00963b40@mail.spc.nl>
+
+Christ van Willegen <c.v.willegen@spcgroup.nl> writes:
+>Would a team of 3-4 blind people competing to solve the cube be
+>considered 'spectacular'? I think juggling is too hard. I'll ask
+>my gf, though (she knows how to juggle a bit, _and_ how to solve
+>the cube).
+
+How about team solving?  n people, n cubes, everyone makes one move
+and passes the cube to the left.  Repeat.  :-)
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+"Pop", "Soda", or "Coke"?  http://www.ugcs.caltech.edu/~almccon/pop_soda/
+

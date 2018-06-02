@@ -1,0 +1,14 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 11 Jun 87 08:52:17 EDT
+Date: 11 Jun 87 08:37:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: INFO RQST ON DOMINOES
+To: "cube-lovers" <cube-lovers@mit-ai>
+cc: beck
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+
+
+I picked up the following on AI-LIST.  
+
+<beck@ardec-lcss>
+.......................
+Date: 8 Jun 87 19:46:16 GMT

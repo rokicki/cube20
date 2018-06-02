@@ -1,0 +1,56 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Sep 29 13:08:14 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA14569; Mon, 29 Sep 1997 13:08:14 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From reid@math.brown.edu Sun Sep 28 14:45:54 1997
+Message-Id: <199709281845.OAA08068@life.ai.mit.edu>
+Date: Sun, 28 Sep 1997 14:46:39 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: idea for smaller optimal solver
+
+a number of people have told me that they don't have 80Mb of RAM on their
+computers, so that my optimal solver won't work on their machine.  here's
+an idea for an optimal solver that uses much less memory; it should fit
+within 16Mb, or 20Mb at the most.  of course, it's a space/time tradeoff,
+but perhaps will still be fairly good.
+
+in my current program, i use distances to the subgroup
+
+     H  =  <U, D, F2, R2, B2, L2>
+
+as my "heuristic" function.  there is another subgroup,  H'  , which
+contains  H  as a subgroup of index 8.  H'  is the subgroup of all
+elements of  H  composed with all (valid) flips of U-D slice edges.
+
+another way to describe  H'  is the subgroup of all elements where
+the U face has only the colors U and D, and the same for the D face.
+from this latter description, we see that if  H1' , H2'  and  H3'
+are the three orientations of this subgroup, then their intersection
+is the subgroup of elements that "look like" they're in the square
+group.  this is the same target subgroup that my current program has.
+
+the subgroup  H'  also has 16 symmetries.  using this to reduce the
+size of the pattern database, and storing each entry with 4 bits,
+it should take about 8.5Mb.  my current program also has about 8.5Mb
+of transformation tables (but 3Mb of these are not used while searching).
+the transformation tables will probably be slightly smaller (certainly
+no larger), so it seems plausible that this could run with 16Mb of RAM.
+
+what about running time?  in his paper, rich korf hypothesizes that
+the number of nodes generated should be roughly proportional to the
+inverse of the size of the pattern databases.  this suggests that
+using the smaller tables above would result in about 8 times as many
+nodes as my current program.  this isn't bad, especially given that
+the branching factor (6 + 3 * sqrt(6) = 13.348469  for face turns,
+9.3736596  for quarter turns) is larger than this.  so this approach
+would be within 1 turn of my current program.
+
+i don't foresee having enough spare time anytime soon to program this,
+so i'll just post it here and maybe someone who is interested will
+program this.
+
+mike
+

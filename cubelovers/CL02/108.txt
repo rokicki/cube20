@@ -1,0 +1,11 @@
+Date: 18 July 1981 17:39-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Conserve computrons!
+To: CUBE-LOVERS at MIT-MC
+cc: Pasco at PARC-MAXC
+
+cube-lovers-request@mit-mc is the mailing list to send adminitrivia
+to.  Since mailing to cube-lovers causes machines all over the ARPA
+net to have to deal with the mail, you should all take a moment to
+remember that fact, so that when YOU want to be removed, or want
+someone new added, you will know who to mail to.

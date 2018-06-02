@@ -1,0 +1,16 @@
+Date: 17 Feb 1981 18:00 PST
+From: McKeeman at PARC-MAXC
+Subject: Re: Rubik's Sphere
+In-reply-to: VaughanW.REFLECS's message of 17 February 1981 18:03 cst
+To: VaughanW at HI-Multics (Bill Vaughan)
+cc: Mike at UCLA-Security, cube-lovers at MIT-MC, SAUNDERS at USC-ISIB
+
+Bill,
+
+Well,  My idea is that the continuous slicing is constrained by some function so
+that you basically only have one degree of freedom per axis.  The trick is to
+scramble on several axes, and then try to get back.  If the coloring is continuous
+before any twisting, then it is always continuous.  (I think)
+
+Another Bill
+

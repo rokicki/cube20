@@ -1,0 +1,29 @@
+Received: from ucbvax.Berkeley.EDU (TCP 1200400116) by AI.AI.MIT.EDU 18 Jun 87 12:24:47 EDT
+Received: by ucbvax.Berkeley.EDU (5.57/1.26)
+	id AA01006; Thu, 18 Jun 87 09:03:18 PDT
+Received: from USENET by ucbvax.Berkeley.EDU with netnews
+	for cube-lovers@ai.ai.mit.edu (cube-lovers@ai.ai.mit.edu)
+	(contact usenet@ucbvax.Berkeley.EDU if you have questions)
+Date: 17 Jun 87 13:47:50 GMT
+From: ihnp4!homxb!houxm!homxc!halle@ucbvax.Berkeley.EDU  (J.HALLE)
+Organization: AT&T Bell Laboratories, Holmdel
+Subject: Re: Give or Take
+Message-Id: <515@homxc.UUCP>
+References: <148@altura.srcsip.UUCP>
+Sender: cube-lovers-request@ai.ai.mit.edu
+To: cube-lovers@ai.ai.mit.edu
+
+In article <148@altura.srcsip.UUCP>, notch@srcsip.UUCP (Michael k Notch) writes:
+> 
+> Have I got an interesting puzzle to at least look at:
+> 
+> 
+>            GIVE or TAKE
+> 
+> You can take 45 from 45 and have
+> a remainder of 45. A trick, yes, but it
+> can be done.
+>            Give it a try
+>              It's fun
+Just get together two score and five gunslingers, only one of whom has two
+guns, and take away one of the guns (assuming you survive :-) ).

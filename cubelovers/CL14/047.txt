@@ -1,0 +1,24 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Sat Jan  7 03:15:53 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06404; Sat, 7 Jan 95 03:15:53 EST
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <124280-4>; Sat, 7 Jan 1995 03:16:50 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA18252; Sat, 7 Jan 95 03:12:54 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1C7961; Sat,  7 Jan 95 02:39:25 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Cube Twist Correction
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.941.5834.0C1C7961@canrem.com>
+Date: Fri, 6 Jan 1995 23:59:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+
+> If a corner triple is twisted clockwise we refer to
+>             ( RFU, FLU, LBU ) in ( urf, ufl, ulb )
+
+Okay..... this would actually be an anti-clockwise tri-twist.
+-> Mark <-
+

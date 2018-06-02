@@ -1,0 +1,141 @@
+From mschoene@math.rwth-aachen.de  Sun Feb 12 19:02:40 1995
+Return-Path: <mschoene@math.rwth-aachen.de>
+Received: from samson.math.rwth-aachen.de by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07507; Sun, 12 Feb 95 19:02:40 EST
+Received: from hobbes.math.rwth-aachen.de by samson.math.rwth-aachen.de with smtp
+	(Smail3.1.28.1 #11) id m0rdoCr-000MPEC; Mon, 13 Feb 95 00:59 MET
+Received: by hobbes.math.rwth-aachen.de (Smail3.1.28.1 #19)
+	id m0rdoCq-00025cC; Mon, 13 Feb 95 00:59 WET
+Message-Id: <m0rdoCq-00025cC@hobbes.math.rwth-aachen.de>
+Date: Mon, 13 Feb 95 00:59 WET
+From: "Martin Schoenert" <Martin.Schoenert@math.rwth-aachen.de>
+To: cube-lovers@life.ai.mit.edu
+In-Reply-To: "Martin Schoenert"'s message of Tue, 31 Jan 95 11:43 WET <m0rZG32-00025cC@hobbes.math.rwth-aachen.de>
+Subject: Re: Re: Skewb thoughts
+
+I wrote in my e-mail message about the SKEWB of 1995/01/15
+
+    Here is the table for H.  The first column contains the lenght.  The
+    second column contains the number of positions of that length in H.
+    The third column contains the number of positions of that length that are
+    local maxima, i.e., the number of positions <pos> such that for no
+    generator <gen> the position <pos>*<gen> is longer.  The fourth column
+    contains the number of positions such that for one generator <gen> the
+    position <pos>*<gen> is longer.  And so on.  So the eleventh column
+    contains the number of positions <pos> such that for all eight generators
+    <pos>*<gen> is longer (this happens of course only for the 2 solutions).
+
+    length #pos  #loc max
+     0       2       0      0      0      0      0      0      0      0      2
+     1      16       0      0      0      0      0      0     16      0      0
+     2      96       0      0      0      0      0      0     96      0      0
+     3     576       0      0      0      0      0      0    576      0      0
+     4    3456       0      0      0      0      0    240   3216      0      0
+     5   20496       0      0      0     48    729   2766  16953      0      0
+     6  118608      48    161   1231   4228  14779  32993  65168      0      0
+     7  630396    8266  33358  76349 121363 153892 137755  99413      0      0
+     8 2450966 1025322 621763 381098 234661 128570  47822  11730      0      0
+     9 2911712 2768641 126056  15344   1422    199     50      0      0      0
+    10  162056  161876    180      0      0      0      0      0      0      0
+    11     180     180      0      0      0      0      0      0      0      0
+
+        ... note that this is the H = < RUF, RUB, LUF, LUB > ...
+
+And in my e-mail message of 1995/01/31
+
+    I rerun the computation using the new subgroup H as a model for the
+    essential SKEWB.  Here is the output.
+
+     0       1       0      0      0      0      0      0      0  0  1
+     1       8       0      0      0      0      0      0      8  0  0
+     2      48       0      0      0      0      0      0     48  0  0
+     3     288       0      0      0      0      0      0    288  0  0
+     4    1728       0      0      0      0      0    120   1608  0  0
+     5   10248       0      0      0     36    377   1322   8513  0  0
+     6   59304      12     87    662   2217   7561  15698  33067  0  0
+     7  315198    4331  16897  37723  61161  76931  66997  51158  0  0
+     8 1225483  515249 311594 186221 115830  65096  25012   6481  0  0
+     9 1455856 1384909  61839   8280    708     95     25      0  0  0
+    10   81028   80938     90      0      0      0      0      0  0  0
+    11      90      90      0      0      0      0      0      0  0  0
+
+    As you can see, the numbers in the first column are exactely half of the
+    corresponding numbers in my previous message (as was expected).  The
+    numbers in the other columns are close to half of the corresponding
+    numbers in my previous message but not exactely identical.  I have to
+    rethink what those numbers mean and how they relate to the corresponding
+    numbers for the basic SKEWB.
+
+        ... note that this is now H = < RUF, LUB, RDB, LDF > ...
+
+The reason that the numbers in the other columns of the second table are
+not exactely half of the corresponding numbers in the first table is
+rather simple.  They are *both wrong*.
+
+The correct numbers for H = < RUF, LUB, RDB, LDF > are as follows
+
+     0       1       0       0       0       0       0       0       0  0  1
+     1       8       0       0       0       0       0       0       8  0  0
+     2      48       0       0       0       0       0       0      48  0  0
+     3     288       0       0       0       0       0       0     288  0  0
+     4    1728       0       0       0       0       0       0    1728  0  0
+     5   10248       0       0       0       0     120     240    9888  0  0
+     6   59304       0       0      84      96    1740    6024   51360  0  0
+     7  315198     198     144    3600    9768   42900   94344  164244  0  0
+     8 1225483   15783   73016  199808  316776  343992  208584   67524  0  0
+     9 1455856 1001960  365792   74976   11760    1224     144       0  0  0
+    10   81028   80308     720       0       0       0       0       0  0  0
+    11      90      90       0       0       0       0       0       0  0  0
+
+and the correct numbers for H = < RUF, LUB, RUB, LUF > are exactely twice
+as large.
+
+I figured out what those numbers mean.  It is all rather simple.
+Everybody who thought about them probably knows everything that follows.
+I use the terms from my last few messages about models for the cube.
+
+The basic states of cost 1 are exactely the elements in (F S F), where F
+is the subgroup of essentially free elements, and S is the set of simple
+elements (the set of generators) of G.  Not all those elements need to be
+different.  Assume that there are <n_b> basic states of cost 1.  Each
+basic state <g> has <n_b> neighbors, namely the elements <g> (F S F).
+
+The set of neighbors of each state is obviously a union of right cosets
+of F.  Furthermore if <g_1> and <g_2> are essentially equal, then there
+sets of neighbors are equal.  So we can map the whole concept to the
+essential model G/F.
+
+Recall that in the essential model G/F the set of elements of cost 1 was
+exactely the set X = { (<x> F) | <x> in F S }.  Assume that there are
+<n_e> essential states of coset 1.  Then each essential state (<g> F) has
+<n_e> essential neighbors, namely the essential elements (<g> F) X.
+
+We can now count how many of the basic neighbors of a basic state <g>
+have smaller cost than <g>.  If all <n_b> basic neighbors have smaller
+cost than <g>, then we call <g> a basic local maximum.
+
+Likewise we can count how many of the essential neighbors of the
+essential state (<g> F) have smaller cost than (<g> F).  If all <n_e>
+essential neighbors have smaller cost than (<g> F), then we call (<g> F)
+an essential local maximum.
+
+It is easy to see that a basic element <g> is a basic local maximum if
+and only if (<g> F) is an essential maximum.
+
+In fact in most cases the number of basic states that have smaller cost
+than <g> is simply (<n_b> / <n_e>) times the number of essential states
+that have smaller cost than (<g> F).  One sufficient condition for this
+to happen is, that S is invariant under conjugation by S and that all
+classes have the same length.
+
+This condition is met for the SKEWB, so the numbers in the first table
+*had* to be twice the numbers in the second table.  Sorry about any
+confusion I caused.
+
+Have a nice day.
+
+Martin.
+
+-- .- .-. - .. -.  .-.. --- ...- . ...  .- -. -. .. -.- .-
+Martin Sch"onert,   Martin.Schoenert@Math.RWTH-Aachen.DE,   +49 241 804551
+Lehrstuhl D f"ur Mathematik, Templergraben 64, RWTH, 52056 Aachen, Germany
+

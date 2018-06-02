@@ -1,0 +1,34 @@
+Date:  4 NOV 1980 0023-EST
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  Christman Cross algorithm described
+To: CUBE-HACKERS at MIT-MC
+
+
+Let the following notation exist:
+the faces:
+	T=Top	B=Bottom
+	F=Front	P=Posterior (Rear, Back, but those letters are taken)
+	R=Right	L=Left
+The rotations:
+	+ Clockwise
+	- Clockwise
+	++ 180 Rotation (Two moves)
+
+Note that the following algorithm exchanges corners diagonally on
+top and bottom: (Parens for major functional components)
+
+	(+F+P)(++T++B)(-F-P)(-R-L)(++T++B)(+R+L)(++T++B)
+
+This is now a tool. To do the Christman Cross, we do
+
+	-P [(+F+P)(++T++B)(-F-P)(-R-L)(++T++B)(+R+L)(++T++B)] +P
+
+but since transforms associate, and F and P commute, and -P+P = I, we get 
+
+	(+F)(++T++B)(-F-P)(-R-L)(++T++B)(+R+L)(++T++B) +P
+
+Which is 20 quarter twists. 
+
+David Christman thinks he read in Singmaster, Edition 5 that this
+cross can be done in less than 20 quarter twists. Can somebody
+confirm or deny this recolection.

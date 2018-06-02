@@ -1,0 +1,82 @@
+From mark.longridge@canrem.com  Sun Oct  8 00:27:14 1995
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08707; Sun, 8 Oct 95 00:27:14 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1F8133; Sat,  7 Oct 95 23:56:06 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Picture Cubes
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1250.5834.0C1F8133@canrem.com>
+Date: Sat,  7 Oct 95 23:55:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+David Singmaster (ZINGMAST@VAX.SBU.AC.UK) writes on
+Wed Sep 13 11:50:09 1995:
+------------------------------------------------
+ I think the ranking is not quite fair because the puzzles are of
+very different types.  E.g. the 15 puzzle has nearly as many patterns
+as the 3^3 but no one would claim it was anywhere near as difficult.
+Indeed the Babylon Tower has  36!  = 3.72 x 10^41  basic positions.
+One can divide by some small value such as 2 or 6 or perhaps more,
+depending on what one considers the same position.  This puts it
+between 3 and 4 in your list, but it is not a difficult puzzle, except
+that it is hard to see the gradations of the colors!  Indeed, the
+commercial  7 x 7  'fifteen puzzles' have  49! =6.08 x 10^62  basic
+patterns - again one has to divide by something, in this case 2.
+This falls between 2 and 3 in your list, but again it is hardly a
+difficult puzzle.
+
+ So I think you are comparing puzzles which are of such different
+type that the number of patterns is not a fair comparison of their
+difficulties.I would group them in three (or perhaps 2) types.
+ Rubik Cube, etc.
+ Fifteen Puzzles, etc. in the plane.
+ Cylindrical Puzzles - barrels, etc.
+------------------------------------------------
+
+ I quite agree. One of my reasons for making that list was to simply
+rank all the puzzles by number of combinations only, to show the
+feasibility (or lack of) for a brute force search to find
+God's Algorithm.
+
+ The major drawback, as you point out, is that difficulty in solving
+is not only a function of the number of combinations.
+
+Dr. Singmaster continues:
+------------------------
+ Re your Case E.  Almost all the picture cubes have all four
+orientations distinct on the face centres - both those with nine little
+pictures on each face and those with a big picture spread over all
+nine facelets.  These are actually pretty common.
+-------------------------------------------------
+
+ Case E, that is cases that have only a fraction of the total possible
+number of combinations for a Rubik's picture cube, are unfortunately
+well represented in my own cube collection.
+
+ The following cubes are all in Case E:
+
+ Rubik's Calendar Cube, Rubik's Cube 4th Dimension, Rubik's World,
+Blind Man's Cube (from Germany), Royal Wedding Cube (with Charles
+& Di).
+
+ Although I don't doubt that, over all, these cases are exceptional.
+In the case of Rubik's World there are 3 blank centre pieces, and
+in the Royal Wedding Cube only 2 opposite faces can show all 4
+possible orientations.
+
+        Name                  Combinations      Inventor
+
+ 8. Picture Cube (3x3x3) (E) 8.8*10^22      Erno Rubik, Dan Hoey
+ 9. Calendar Cube (3x3x3)(F) 4.4*10^22      Marvin Silbermintz
+10. Rubik's Cube 4th Dim.(D) 1.1*10^22      Erno Rubik
+11  Rubik's World (G)        2.7*10^21      Erno Rubik
+12. Royal Wedding Cube       6.9*10^20      Unknown
+13. Rubik's Cube (3x3x3)     4.3*10^19      Erno Rubik
+
+
+-> Mark <-
+
+

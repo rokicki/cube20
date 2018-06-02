@@ -1,0 +1,9 @@
+Date:  17 July 1980 17:33 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: Checker board pattern...
+To:  Yekta at MIT-MC (Sent by ___117)
+cc:  cube-lovers at MIT-MC
+In-Reply-To:  Message of 17 July 1980 16:45 edt from Sent by ___117
+
+Yes. This is absolutely trivial.  Rotate each face 180. Si x total
+onehunred-eighty degree twists.

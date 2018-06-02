@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug 17 14:50:07 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id OAA05577; Mon, 17 Aug 1998 14:50:07 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Aug 16 11:40:37 1998
+Message-Id: <c=US%a=_%p=INEA_Corporation%l=INEADEV-980816153228Z-2353@proxy.ineacorp.com>
+From: Noel Dillabough <Noel.Dillabough@ineacorp.com>
+To: "'cube-lovers@ai.mit.edu'" <cube-lovers@ai.mit.edu>
+Subject: New puzzle simulator
+Date: Sun, 16 Aug 1998 11:32:28 -0400
+
+I wrote up a puzzle simulator called Puzzler, containing the cubes
+(2x2x2, 3x3x3, 4x4x4, 5x5x5), a pyramid, a sphere, a skewb, and a
+dodecahedron.  While not the same as a physical puzzle, its still pretty
+fun to use.
+
+Its just a beta version, just compiled yesterday, so there are bound to
+be problems, and features that should/could be implemented.  Anyone
+interested should download the program at
+http://www.mud.ca/puzzler/puzzler.html, and let me know of any problems,
+enhancements etc.
+
+One of my friends asked me to implement the square 1 in the same
+program.  In order to do so I would have to change a lot of the backend
+code so I won't do so unless there is enough interest.
+
+-Noel
+
+P.S. I forgot, the program is for win95, win98 and winNT.
+

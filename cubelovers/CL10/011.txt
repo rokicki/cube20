@@ -1,0 +1,21 @@
+From CPELLEY@delphi.com  Tue Jul 20 21:30:11 1993
+Return-Path: <CPELLEY@delphi.com>
+Received: from bos3a.delphi.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02226; Tue, 20 Jul 93 21:30:11 EDT
+Received: from delphi.com by delphi.com (PMDF V4.2-11 #4520) id
+ <01H0S38KLDRA91WX1L@delphi.com>; Tue, 20 Jul 1993 21:29:06 EDT
+Date: Tue, 20 Jul 1993 21:29:06 -0400 (EDT)
+From: CPELLEY@delphi.com
+Subject: New idea for a puzzle
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <01H0S38KLNEW91WX1L@delphi.com>
+X-Vms-To: INTERNET"cube-lovers@ai.ai.mit.edu"
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; CHARSET=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+I have a great concept for a new variant on Rubik's Cube.  Where can I
+contact the people who manufacture these puzzles today?  I understand
+Jean-Claude Constantin and Uwe Meffert are still around.
+The idea is for a dodecahedral puzzle that is sliced up differently than
+a Skewb or Megaminx.
+

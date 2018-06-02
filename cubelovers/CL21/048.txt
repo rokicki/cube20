@@ -1,0 +1,26 @@
+From cube-lovers-errors@curry.epilogue.com  Tue Nov 12 16:12:10 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA02086; Tue, 12 Nov 1996 16:12:10 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <9611121909.AA31489@milo.cfw.com>
+From: Carey <g-carey@cfw.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Square 1
+Date: Tue, 12 Nov 1996 13:59:31 -0500
+X-Msmail-Priority: Normal
+X-Priority: 3
+X-Mailer: Microsoft Internet Mail 4.70.1155
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+Hello,
+I'm working on a solution to the Square 1 puzzle.  Does anyone know the
+maximum number of moves required?  Also I'm looking for the minimum number
+of moves required to solve it if you have three consecutive edge wedges.
+
+Pete Carey
+g-carey@cfw.com
+
+

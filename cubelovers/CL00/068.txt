@@ -1,0 +1,15 @@
+Date: 1 Aug 1980 15:47 PDT
+From: McKeeman at PARC-MAXC
+Subject: Re: The shortest solution?
+In-reply-to: ALAN's message of 31 JUL 1980 2159-EDT
+To: ALAN at MIT-MC (Alan Bawden)
+cc: McKeeman, CUBE-HACKERS at MIT-MC
+
+Alan,
+
+Sorry I missed your earlier words of wisdom on the subject.  Anyway, I am
+interested in how you show any of these is, or is not, a metric.  Can you
+forward same?
+
+Thanks,  Bill
+

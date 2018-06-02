@@ -1,0 +1,27 @@
+From dik@cwi.nl  Tue Aug  3 18:44:13 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18203; Tue, 3 Aug 93 18:44:13 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA19810 (5.65b/3.8/CWI-Amsterdam); Wed, 4 Aug 1993 00:44:10 +0200
+Received: by boring.cwi.nl 
+	id AA26535 (4.1/2.10/CWI-Amsterdam); Wed, 4 Aug 93 00:44:09 +0200
+Date: Wed, 4 Aug 93 00:44:09 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9308032244.AA26535.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Kociemba's algorithm
+
+I have received a few requests for information about the algorithm and
+for the program.  I have put the program available for ftp.  In the
+set of files there is also a Description I edited from a number of
+messages I mailed a long time ago to this mailing list.  They give
+a reasonable description of the algorithm.
+
+Ftp to ftp.cwi.nl.  File is: /pub/dik/cube.tar.Z.  Do not forget
+to set binary mode.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+home: bovenover 215, 1025 jn  amsterdam, nederland; e-mail: dik@cwi.nl
+

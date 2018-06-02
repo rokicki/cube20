@@ -1,0 +1,58 @@
+From dik@cwi.nl  Mon Aug  2 20:52:23 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05478; Mon, 2 Aug 93 20:52:23 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA19947 (5.65b/3.8/CWI-Amsterdam); Tue, 3 Aug 1993 02:52:21 +0200
+Received: by boring.cwi.nl 
+	id AA23253 (4.1/2.10/CWI-Amsterdam); Tue, 3 Aug 93 02:52:19 +0200
+Date: Tue, 3 Aug 93 02:52:19 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9308030052.AA23253.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Fitting puzzle solved
+
+Some time ago I posted an article (c.q. mailed a message) describing
+the contents of Cubism For Fun, the newsletter published by the Dutch
+Cubists Club (NKC).  In that article (message) I gave a more elaborate
+description about a problem involving fitting pieces.
+
+Briefly:
+
+The base problem is as follows.  Build a tetrahedron consisting of balls,
+8 balls on an edge.  When you look at the lattice induced by this
+tetrahedron after some thinking you will find there are 25 ways to pick
+4 connected balls.  Now take those 25 ways and make "pieces" from it.
+Again, go back to the tetrahedron and inside it create a hollow
+tetrahedron with 4 balls on an edge.  The remainder requires 100 balls
+to fill.  Try to do that with the 25 "pieces" you just created.
+
+This has been a fairly long-standing problem but it is now (partly)
+solved.
+
+I just had word that Jan de Ruiter from Purmerend (the Netherlands)
+found a number of solutions.  Details will likely be presented in
+a forthcoming issue of CFF.
+
+An amusing side-note.  Between the 25 pieces there are two that can
+be created interlocked.  It is not clear whether it is possible to
+separate those two pieces by hand when interlocked, so it is not
+clear whether a solution that has those two pieces interlocked
+really is a solution.  The first solutions Jan de Ruiter found
+*had* those two pieces interlocked.  But after some time he found
+a solution with those two pieces far away from each other, so there
+is really a true solution.
+
+Remaining questions:  How many solutions are there?  How many do not
+have those two pieces interlocked?  Is it possible to separate those
+two pieces when interlocked?  (The last puzzle resembles one of those
+chinese metal separation puzzles.)
+
+(Information about CFF can be obtained from Anton Hanegraaf,
+Heemskerkstraat 9, 6662 AL  Elst, The Netherlands.  E-mail is
+now also possible: gm@phys.uva.nl.)
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+home: bovenover 215, 1025 jn  amsterdam, nederland; e-mail: dik@cwi.nl
+

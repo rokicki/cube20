@@ -1,0 +1,40 @@
+From cube-lovers-errors@oolong.camellia.org  Wed Jun 11 14:04:50 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id OAA14037; Wed, 11 Jun 1997 14:04:50 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Wed, 11 Jun 1997 08:32:27 -0400 (EDT)
+From: der Mouse <mouse@rodents.montreal.qc.ca>
+Message-Id: <199706111232.IAA00315@Twig.Rodents.Montreal.QC.CA>
+To: cube-lovers@ai.mit.edu
+Cc: Mathieu Girard <mgirard@videotron.ca>
+Subject: Re: ...
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-MIME-Autoconverted: from 8bit to quoted-printable by life.ai.mit.edu id IAA16376
+
+> I am in a quest to buy both 4x4x4 Rubik's Revenge and also 5x5x5
+> cube.. but i just can't find any!
+
+> I live in Qu=E9bec, Canada,
+
+Where?  Montr=E9al, or Qu=E9bec City, or what?  I'm in Montr=E9al; I got =
+my
+5-Cube at Valet de Coeur, on the west side of St-Denis, somewhere a bit
+south of Mont-Royal.  I don't know whether they still have them; this
+_was_ back in 1993 (December 15, according to my records).
+
+> By the way.. if it is not asking too much... could u please give me
+> an aproximate of the prices of thoses cubes... in canadian or us
+> dollar...
+
+I paid $45.01, including tax, for my 5-Cube.  But as I remarked above,
+that _was_ three and a half years ago.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+
+

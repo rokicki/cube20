@@ -1,0 +1,16 @@
+From epaytl@epa.ericsson.se  Thu Dec 22 16:34:29 1994
+Return-Path: <epaytl@epa.ericsson.se>
+Received: from mailgate.ericsson.se by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02346; Thu, 22 Dec 94 16:34:29 EST
+Received: from epa.epa.ericsson.se (epa.epa.ericsson.se [146.11.8.1]) by mailgate.ericsson.se (8.6.9/1.0) with SMTP id WAA05712 for <cube-lovers@life.ai.mit.edu>; Thu, 22 Dec 1994 22:34:26 +0100
+Received: from brsw006.epa.ericsson.se.epa.ericsson.se by epa.epa.ericsson.se (4.1/SMI-4.1-EPA1.6)
+	id AA14797; Fri, 23 Dec 94 08:34:21 DST
+Date: Fri, 23 Dec 94 08:34:21 DST
+From: epaytl@epa.ericsson.se (Y T - T/ZA)
+Message-Id: <9412222134.AA14797@epa.epa.ericsson.se>
+To: cube-lovers@life.ai.mit.edu
+Subject: UNSUBSCRIBE
+
+Please unsubscribe me.
+
+epaytl@epa.ericsson.se
+

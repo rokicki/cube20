@@ -1,0 +1,70 @@
+Date: 30 DEC 1980 0152-EST
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  Notes on transforms on the 4x4x4 and 5x5x5 cubes. (65 lines)
+To: CUBE-LOVERS at MIT-MC
+
+
+First we have to define what a twist is. I propose that a twist
+is a twisting of face or faces about an axis such that there is
+only one plane on which sliding friction happens. This means that
+slice turns are not single turns, but rather multiple turns. This
+is consistent with the 3x3x3 definition, and it is generalizable
+to nxnxn. Also, I think it is wisest to consider quarter twists
+as the only single twist "move" (don't count half twists as one!!)
+
+One thing to note: Even order cubes should have a STANDARD
+coloring. This is nice to have since there is now visible axis to
+align the corners on. I know it isn't necessary, but if I own a
+cube and you own a cube, and they are colored differently, and we
+swap for a day, both of us will probably have a hard time trying
+to get used to a different color arrangement than what each is
+used to. May I suggest
+	Front	Right	Up	Back	Left	Down
+	RED	WHITE	BLUE	ORANGE	YELLOW	GREEN
+
+The general PONS can be described as follows (for cubes, not
+necessarily dodecahedra):
+	Pick an axis. Make 180 twists along all twistable planes.
+	Pick another axis. Do the same.
+	Do the same on the last axis.
+This will produce a checkerboard pattern on all faces using
+complementary (from the opposite side of the cube) colors. On the
+4x4x4  (and in general on even order cubes), to corner cubies do
+not move (but then again it is hard to tell without a fixed
+reference). 
+
+I have done more thinking about the 5x5x5 than the 4x4x4 since
+the 5x5x5 offers several immediate advantages. First of all, from
+solved we can do things like: do a transform as we would on a
+3x3x3 and consider the 3x3 set of cubies in the center of the
+faces as the center of our favorite 3x3x3 Hungarian. Another way
+to view this is to do normal Hungarian rotations using only one
+level deep of cubies. Then run the algorithm backwards doing
+twists using two levels deep (considering theface center as a
+center and 2x2 at the corners as corners, and 1x2 around the
+edges as edges. (Bad explanation, but it is 1:30 in the morning).
+
+I believe doing the traditional SIX-DOTS pattern forward then
+backward using this method will produce something that looks
+like:
+	+++++			+++++
+	+@@@+			+@@@+
+	+@+@+			+@x@+
+	+@@@+			+@@@+
+	+++++			+++++
+The one on the right is what happens if you do it again in the
+same direction. I think the Plummer's Cross will look like:
+	+@+@+
+	@@+@@
+	+++++
+	@@+@@
+	+@+@+
+And if I am not mistaken, the approriate EXTENDED-SIX-DOTS
+mentioned above performed on this will produce a 3-cycle
+checkerboard. And the PONS on top of that will produce a 6-cycle
+checkerboard. Of course, I could be wrong, but we wont know until
+(a) somebody carfully works it out on paper (b) somebody writes a
+computer program to simulate the crazy thing, or (c) somebody
+actually builds one.
+
+That's it for tonight folks, aren't you glad!!

@@ -1,0 +1,36 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug 27 22:49:16 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id WAA26478; Thu, 27 Aug 1998 22:49:16 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <006a01bdd226$d0495920$551a2bcb@mercury>
+Reply-To: "Bill Webster" <Haddock@bluep.com>
+From: "Bill Webster" <Haddock@bluep.com>
+To: <cube-lovers@ai.mit.edu>
+Subject: Re: Depicting a cube
+Date: Fri, 28 Aug 1998 11:54:36 +1000
+
+Hana Bizek wrote:
+
+>Unfortunately, I do not have resources to implement this. I don't even
+>own a glass-topped table!
+
+>Here is a challenge for the programmers out there. Can you write an
+>applet that will slowly rotate my design in order for a viewer to see F,
+>B, R, L and U faces, then tilt it upward to expose the D face? Do these
+>moves any way you want, just make sure a viewer can see it all.Thank you
+>very much.
+
+
+If static, generated images are acceptable, (i.e. if the pattern is more
+important to your sculpture than its physical realisation in plastic),
+you could achieve this reasonably easily with a ray-tracer - build the
+cube model and situate it in a scene with three plane mirrors, or
+perhaps models of some other reflecting objects for enhanced aesthetics
+- perhaps even a glass topped table! A free ray tracer is available at
+www.povray.org I have some source and sample images for cube models if
+you are interested.
+
+Cheers, Bill Webster (haddock@bluep.com)
+

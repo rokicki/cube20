@@ -1,0 +1,23 @@
+From tjj@lemma.helsinki.fi  Thu Jan  9 03:07:28 1992
+Return-Path: <tjj@lemma.helsinki.fi>
+Received: from funet.fi by life.ai.mit.edu (4.1/AI-4.10) id AA28910; Thu, 9 Jan 92 03:07:28 EST
+Received: from lemma.Helsinki.fi by funet.fi with SMTP (PP) 
+          id <17796-0@funet.fi>; Thu, 9 Jan 1992 08:46:06 +0200
+Received: by lemma.helsinki.fi (5.57/Ultrix3.0-C) id AA24202;
+          Thu, 9 Jan 92 08:46:20 +0200
+Date: Thu, 9 Jan 92 08:46:20 +0200
+From: tjj@lemma.helsinki.fi (Timo Jokitalo)
+Message-Id: <9201090646.AA24202@lemma.helsinki.fi>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Re: Rubik's Cube, the minimax number of moves
+
+
+
+I wonder how large the necessary tables for Thistlethwaite's method for the
+cube are? I seem to recall reading that there were a few hundred entries, but
+is this anywhere near? And, more important, have they been published, or does
+anyone have them in an electronic format?
+
+	Thanks,
+	Timo Jokitalo (tjj@rolf.helsinki.fi)
+

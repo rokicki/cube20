@@ -1,0 +1,52 @@
+From phaedrus@future.dreamscape.com  Sun Jul  9 23:39:02 1995
+Return-Path: <phaedrus@future.dreamscape.com>
+Received: from zaphod.caz.ny.us (future.dreamscape.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25147; Sun, 9 Jul 95 23:39:02 EDT
+Received: (from phaedrus@localhost) by zaphod.caz.ny.us (8.6.11/8.6.9) id XAA01047; Sun, 9 Jul 1995 23:38:26 -0400
+From: phaedrus@future.dreamscape.com
+Message-Id: <199507100338.XAA01047@zaphod.caz.ny.us>
+Subject: Re: 3x3x3 Cubes for Sale
+To: hoey@aic.nrl.navy.mil (Dan Hoey)
+Date: Sun, 9 Jul 1995 23:38:25 -0400 (EDT)
+Cc: BRYAN@wvnvm.wvnet.edu, Cube-Lovers@ai.mit.edu
+In-Reply-To: <9507092353.AA03807@Sun0.AIC.NRL.Navy.Mil> from "Dan Hoey" at Jul 9, 95 07:53:10 pm
+X-Mailer: ELM [version 2.4 PL24]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 1450      
+
+> 
+> "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu> writes:
+> > ... I couldn't see inside the box to verify this, the Face centers
+> > seemed to be marked in such a way as to support the Supergroup.
+> 
+> Just as well, you'd have been disappointed.  As I wrote on 8 Jan 92,
+> 
+> : While most people are content to make each face a solid color, some
+> : cubes have markings that display whether the face centers are twisted
+> : with respect to the rest of the cube.
+> :    [This has recently been done commercially in an spectacularly
+> :     braindamaged way, in a product known as ``Rubik's cube--the
+> :     fourth dimension'' or some such nonsense.  The mfrs have marked
+> :     only four face centers, breaking symmetry while they fail to show
+> :     the surprising invariant of the Supergroup.  What bagbiters!]
+> 
+> > Rubik's note about the size of
+> > the  problem says it is 4^4 times bigger than the regular problem.
+> 
+> And it could have been 4^(11/2).
+
+And worse, it's not even 4^4, since there are two ways to align the face
+centers so that the puzzle looks solved.  The two unmarked faces are
+opposite each other, and the four marked faces are marked with symbols
+(Rubik's signature, his silouette, "C*4^4", and the "Rubik's Cube"
+trademark) that have a definite "up", but don't tie in to the rest of the
+cube at all.  If all four are upside down, to "solve" the cube simply
+requires turning the cube over.
+
+> 
+> Dan
+> Hoey@AIC.NRL.Navy.Mil
+> 
+
+

@@ -1,0 +1,40 @@
+Date: 16 SEP 1980 0946-EDT
+From: DCP at MIT-MC (David C. Plummer)
+Subject: number of reachable states
+To: KATZ at USC-ISIF
+CC: CUBE-HACKERS at MIT-MC
+
+
+    Date: 15 Sep 1980 1842-PDT
+    From: Alan R. Katz <KATZ at USC-ISIF>
+
+    I have seen the number 4.3 * 10^19 for the number of reachable states
+    for the cube,  can anyone tell me how you calculate it?  This may have
+    been answered before in this list, but I couldn't find it.
+
+    Also, someone mentioned that one can make a checkerboard pattern from
+    the Pons Asinorum by trebly rotating the centers by a simple
+    transformation. Can anyone tell me this transformation? (again I may
+    have missed reading it)
+
+    Reply to either me or the list.
+
+			Alan
+    -------
+
+Consider the corners. There are 8 of them, and they can go
+anyplace. This leads to 8 factorial permutations. Each corner can
+take on three orientations, so this is another factor of 3^8. But
+the corners have three possible states (trarity [three way
+parity]) so divide by 3. Now do the same with the edges. 12 edges
+gives 12 factorial arrangements, times 2^12 oreintations. But the
+edges have two parities involved, so divide by four (thus giving
+rise to the 12 states of the cube, one of which has the solved
+configuration as a member). So if you evaluate
+
+	    8	   12
+	8!*3 *12!*2
+	-----------
+	   3*4
+
+you will get 4.3 * 10^19.

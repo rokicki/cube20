@@ -1,0 +1,33 @@
+From nivek@frc2.frc.ri.cmu.edu  Wed Oct 26 11:19:52 1994
+Return-Path: <nivek@frc2.frc.ri.cmu.edu>
+Received: from FRC2.FRC.RI.CMU.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03787; Wed, 26 Oct 94 11:19:52 EDT
+Received: from mattock.frc.ri.cmu.edu by FRC2.FRC.RI.CMU.EDU (4.1/5.17)
+	id AA01502; Wed, 26 Oct 94 11:18:26 EDT
+Date: Wed, 26 Oct 94 11:18:26 EDT
+From: Kevin Dowling <nivek@frc2.frc.ri.cmu.edu>
+Message-Id: <9410261518.AA01502@FRC2.FRC.RI.CMU.EDU>
+Received: by mattock.frc.ri.cmu.edu (4.1/SMI-4.0)
+	id AA13535; Wed, 26 Oct 94 11:19:49 EDT
+To: dbisel@adrian.adrian.edu, cube-lovers@life.ai.mit.edu
+In-Reply-To: <94102610254293@adrian.adrian.edu> (dbisel@adrian.adrian.edu)
+Subject: MIT
+Reply-To: nivek@cmu.edu (Kevin Dowling)
+
+No sorry, it stands for Massachusetts Institute of Technology, a
+little technical school located in Cambridge, MA, on the Charles River
+near Boston.
+
+CMU doesn't stand for Central Michigan University either.
+
+
+				nivek
+
+aka:    Kevin Dowling         
+tel:    412.268.8830          Carnegie Mellon University
+fax:    412.682.1793          The Robotics Institute
+net:    <nivek@cmu.edu>       5000 Forbes Avenue
+                              Pittsburgh, PA 15213
+
+
+
+

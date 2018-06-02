@@ -1,0 +1,63 @@
+From mark.longridge@canrem.com  Sat Oct 21 22:24:10 1995
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20340; Sat, 21 Oct 95 22:24:10 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1FA20D; Sat, 21 Oct 95 22:16:38 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Spotty Megaminx
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1256.5834.0C1FA20D@canrem.com>
+Date: Sat, 21 Oct 95 22:12:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+Observations on the Magic Dodecahedron (Megaminx)
+-------------------------------------------------
+
+ I've never seen anything on patterns for the megaminx, with the
+sole exception of Kurt Endl's book "Megaminx". Unfortunately there are
+no detailed examples, only vague references to "many possible dot
+patterns" and "star patterns". A pattern similar to the 6 X order 3
+of the cube is on the cover, but only part of the dodecahedron is
+visible.
+
+ Using the solving skills I developed myself, I deliberately solved
+the megaminx with the centres not matching the surrounding face.
+Techniques like mono-twists and mono-flips carried over well from
+the cube.
+
+My conclusion: A 10-dot pattern is possible!
+
+ Here is a description....
+
+ One pair of opposite faces is completely solid. The 5 faces adjacent
+to solid face A are spotted, also the 5 faces adjacent to solid face
+B (opposite to A) are spotted. If we look at one set of 5 faces we
+can observe that in this particular 10-spot that the 5 centres
+appear rotated to the left, or (since the centres don't really move
+in position) that the rest of the face is moved to the right.
+
+ Similarly, in the lower tier of 5 faces, we can observe that 5 centres
+appear rotated to the left also.
+
+ Let's try a small thought experiment. Imagine a skeleton, a
+disassembled megaminx. Grab the top and bottom with thumb and
+forefinger. Now, while keeping the top and bottom centres immobile,
+rotate the rest of the puzzle. What happens? The 10 other centres
+rotate in the same direction! If we do this on a cube skeleton the
+same thing happens, but on a fleshed out cube this would become a
+4 cycle of centres, which is in the swap orbit and can't be reached by
+face turns. On the megaminx we have 2 five cycles of centres, and this
+is legal.
+
+ There are 6 opposite pairs of faces on the megaminx. There are 4 ways
+to rotate the centres for each pair to generate a 10 spot. I'll
+speculate that there are 6*4 = 24 possible 10-spots.
+
+ I suspect various 12-spots are possible. I have no idea how to
+easily permute centre pieces on the megaminx.
+
+-> Mark <-
+
+

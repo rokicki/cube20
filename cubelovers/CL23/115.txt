@@ -1,0 +1,54 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Aug 16 21:30:20 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id VAA22864; Sat, 16 Aug 1997 21:30:19 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From reid@math.brown.edu Sat Aug 16 17:12:29 1997
+Message-Id: <199708162109.RAA29706@life.ai.mit.edu>
+Date: Sat, 16 Aug 1997 17:14:10 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: patterns with 24-fold symmetry
+
+dan asks
+
+> By the way, this isn't a complete list of optimal maneuvers, is it?
+> Are you looking to find such a list?  Or would it be too difficult (or
+> too voluminous)?
+
+for most, it isn't a complete list.  the main reason is that it's too time
+consuming to calculate all of them.  (perhaps it is also too voluminous,
+but i'm not sure.)
+
+on an individual basis, here's what i gave:
+
+superflip: all 20f maneuvers, up to inversion, cyclic shifting, and
+           conjugation by cube symmetries.
+           all _known_ 24f maneuvers, up to the same transformations.
+
+pons asinorum: all 12q maneuvers, up to conjugation by cube symmetries.
+               all 6f maneuvers, up to conjugation by cube symmetries.
+               (the inverse of each maneuver is the same as some
+               conjugate by a cube symmetry.)
+
+superflip composed with pons asinorum:  all 20q and 19f maneuvers, up to
+                                        inversion and conjugation by cube
+                                        symmetries.
+
+for the H-symmetric patterns (24-fold symmetry), i was less ambitious.
+for each, i gave a single minimal maneuver in each metric.  also, in the
+cases where there is a maneuver that is minimal in both metrics, i gave
+such a maneuver.
+
+> And I'm looking forward to seeing optimal maneuvers for the
+> T-symmetric positions (if I'm not being too presumptuous).
+
+how did you know what i'm working on next?  ;-)
+i also plan to examine AC-symmetric positions and X-symmetric positions
+(if i understand your terminology correctly).  however, there are so
+many of these (124) in the X-symmetric case, that i probably will have
+to settle for sub-optimal maneuvers.
+
+mike
+

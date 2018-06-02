@@ -1,0 +1,42 @@
+From cube-lovers-errors@oolong.camellia.org  Sat Jun  7 16:01:19 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id QAA03649; Sat, 7 Jun 1997 16:01:19 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <199706071026.LAA25485@mail.iol.ie>
+From: Goyra <Goyra@cheerful.com>
+To: cube-lovers@ai.mit.edu
+Subject: Generalised notations?
+Date: Sat, 7 Jun 1997 10:53:21 +0100
+X-MSMail-Priority: Normal
+X-Priority: 3
+X-Mailer: Microsoft Internet Mail 4.70.1161
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+
+	Hi.
+
+	I've got a bunch of Java cubes and puzzles of
+other shapes (deodecahedron, icosahedron, octahedron)
+located at
+
+	http://www.iol.ie/~goyra/Rubik.html
+
+At the moment they've got only a visual interface. I
+am looking at the possibility of giving you a way
+to trace and replay movements using standard 
+Cube notation.
+
+
+	Trouble is, many of these shapes have never been
+given a standard notation and I don't want to invent a 
+crude one. Can anyone tell me where to find the
+definitive work that has been done in the area of generalising 
+the notation?
+
+					David Byrden
+
+
+

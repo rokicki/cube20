@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Jul 29 16:24:18 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA11498; Tue, 29 Jul 1997 16:24:18 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From whuang@ugcs.caltech.edu Tue Jul 29 14:32:02 1997
+To: Cube-Lovers@AI.MIT.Edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Broken 4^3s; advice on repairs to plastic (medium length)
+Date: 29 Jul 1997 18:28:24 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <5rlco8$em3@gap.cco.caltech.edu>
+References: <cube-lovers.Pine.SUN.3.95.970727101355.20916A-100000@sunspot.tiac.net>
+
+Nicholas Bodley <nbodley@tiac.net> writes:
+> By the way, the Pocket Cube (2^3) is a bear to disassemble and even worse
+>to reassemble. If it weren't for the really-good-quality polymer chosen
+>for it, it (more than likely) could not be manufactured. The difficulty is
+>in that the cubies have to be distorted ("sprung") to disassemble it. 
+>Whether this plastic retains its ability over many years to be bent out of
+>shape but not crack, I don't know! 
+
+Does anyone know whether the mechanisms for the old 2^3's are the same
+as the recent new 2^3 releases?
+
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+I hate formication.  It should be abolished entirely.
+

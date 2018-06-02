@@ -1,0 +1,13 @@
+Date: 10 May 1981 1258-EDT
+From: Jerry Agin <AGIN at CMU-20C>
+Subject: Counting moves
+To: Cube-Lovers at MIT-MC
+
+Frequently when I play with the cube, I try to solve it in as few
+moves as possible.  I find this to be more intellectually challenging
+than going for speed.  Does any one else do this?  I'd be interested
+in comparing notes.  Presently it takes me between 70 and 100 quarter-
+twists, provided I don't make gross errors.  (My guess is that if I
+were counting slices and half-twists as one, the number would be
+between 50 and 70.)
+-------

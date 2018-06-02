@@ -1,0 +1,34 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 17 14:28:15 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA05547; Tue, 17 Mar 1998 14:28:14 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue Mar 17 13:30:17 1998
+Date: Tue, 17 Mar 1998 13:30:10 -0500 (Eastern Standard Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Blindfold Cube-solving
+In-Reply-To: <6egdck$cvj@gap.cco.caltech.edu>
+To: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <Pine.WNT.3.96.980317132801.-960339T-100000@GN209A.PSTCC.CC.TN.US>
+
+On Sun, 15 Mar 1998, Wei-Hwa Huang wrote:
+
+> As far as "solving in the dark" goes, it reminds me that I have a cube
+> in which under certain lamps, the yellow and white colors are
+> indistinguishable.  Solving such a cube can occasionally give a few
+> trip-ups!
+
+I have had the same problem with orange and red, especially on my 2x2x2.
+I have a "latter day" 2x2x2 (my kids lost my first one), and the colors
+in general do not seem quite true to the colors on my 3x3x3 and 4x4x4
+cubes.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

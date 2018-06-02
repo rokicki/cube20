@@ -1,0 +1,40 @@
+Date: 23 Jul 1980 1640-PDT (Wednesday)
+From: Mike at UCLA-SECURITY (Michael Urban)
+Subject: Clarification
+To: cube-lovers at mit-mc
+
+   My description of the checkerboard pattern was clearly
+inadequate, due to haste and the fact that my cube was "borrowed"
+and scrambled before I had a chance to see precisely what was
+going on.
+   The pattern in question is formed from Crux Plummeri by
+applying the "Pons Asinorum" transformation; from the
+resulting almost-checkerboard, a simple "12-squares" transformation
+will provide the 6 checkerboards; it isn't hard to inspect
+the almost-checkerboard to find a trio of center cubies to
+rotate.
+   The resulting checkerboards are a completely interlocked
+set.  In the following unfolded cube, A/B means that the center
+and corners are color A, and the edges are color B.
+
+       A/B
+
+C/A    B/D    D/E    F/C
+
+       E/F
+
+   I don't THINK anyone has mentioned this pattern; the checkerboard
+pattern mentioned by Greenberg consists of two cycles of three colors
+each, something like
+
+      A/B
+
+B/C   C/A    D/E   E/F
+
+      F/D
+
+  although I may have the handedness wrong.
+
+	Mike
+-------
+

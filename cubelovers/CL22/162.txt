@@ -1,0 +1,33 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  9 12:25:03 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id MAA08167; Mon, 9 Jun 1997 12:25:02 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <199706091008.LAA29962@mail.iol.ie>
+From: Goyra <Goyra@cheerful.com>
+To: cube-lovers@ai.mit.edu
+Subject: Want Java cubes?
+Date: Mon, 9 Jun 1997 10:42:52 +0100
+X-MSMail-Priority: Normal
+X-Priority: 3
+X-Mailer: Microsoft Internet Mail 4.70.1161
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+
+	I got an email from a list member
+indicating that he would like to try my Java cubes and
+polyhedra but has no suitable Internet access.
+
+	If anyone else is in this position, I could email
+the Java class files directly to them, and they could use them by
+installing Sun's free Java Development Kit on their machine.
+It's available for a few operating systems. Of course, without
+Internet access, this begs the question of how you would get the 
+JDK in the first place.
+
+					David Byrden
+
+
+

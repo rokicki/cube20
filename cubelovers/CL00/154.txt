@@ -1,0 +1,24 @@
+From: ZIM at MIT-MC (Mark Zimmermann)
+Subject: search-from-both-ends ultimate cube algorithm
+To: CUBE-HACKERS at MIT-MC
+
+There are some standard algorithms involving time-memory tradeoffs for solving
+problems like Knapsack in N^(1/2) steps instead of N...Hellman had a paper
+in some IEEE journal about an application to breaking cryptosystems.  The same
+could be applied to solving the cube "exhaustively", given several hundred
+billion memory locations storage and a willingness to go through a similar
+number of table-lookups.  Just make a table of all the positions that can
+be reached within 10 meoves or less (with the route to that position recorded
+too!)...then in order to solve an arbitrary cube set-up, begin working out
+from that set-up, looking for a position included in the table.  If Singmaster
+is right and any position can be reached in 20 moves or less, one will
+always succeed within 10 moves from the arbitrary start....
+The several hundred billion entries in the table are a bit too large for my
+home computer, but perhaps a smaller sub-group of the cube (slice, or
+anti-slice, or such) could be done this way in a reasonable amount of time....
+Hellman seems to think that solving the DES (which has 2^56 keys, I think) is
+not impractical, given enough money and a few years.
+How about a competition to find the shortest ways to get to the Crux
+Christmanni & Plummeri(?)...a simpleminded corner-shifting I tried took 84
+moves, I think, to get whichever one has two cycles of 3 colors...that leaves
+lots of room for improvement! --Mark

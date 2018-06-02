@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Sep  9 17:02:21 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id RAA00591; Wed, 9 Sep 1998 17:02:20 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue Sep  8 21:02:47 1998
+Message-Id: <INEADEV-980909005322Z-6150@proxy.ineacorp.com>
+From: Noel Dillabough <Noel.Dillabough@ineacorp.com>
+To: "Cube-Lovers (E-mail)" <cube-lovers@ai.mit.edu>
+Subject: Dogic
+Date: Tue, 8 Sep 1998 20:53:22 -0400
+
+A while back we heard about the puzzle "Dogic", an icosahedron puzzle.
+After playing around with it for a while, I decided to model it in
+Puzzler (http://www.mud.ca/puzzler/puzzler.html), since I dare not mix
+it up until I have some moves to work with :)
+
+That brings me to the question, has anyone made up a notation for moves
+with the Dogic puzzle?  Perhaps similar to the Megaminx (R++, R+- R--
+etc) moves.  I have yet to seriously sit down and try to solve it, but
+eventually I will find some time and a few rudimentary moves would be
+very helpful.
+
+Also, if anyone wants a physical puzzle to play with, Hendrik Haak
+(mailto:HendrikHaak@t-online.de) still has some available (that's where
+I got mine)
+
+-Noel
+
+P.S. To those using the puzzler version, moves can be made along any of
+the 12 axis in both minor (just the tip pieces) or major (the entire
+slice) by dragging a cubie from one place to its eventual destination (I
+didn't bother putting an entry for it in the helpfile).  Also, I had a
+few requests for more detailed information on the puzzles and solving
+them.  I have very nice solutions for the Megaminx, Pyraminx and Cubes,
+but nothing written down for the Skewb, Masterball, or Dogic puzzles
+(the skewb and masterball are quite easy so perhaps a solution is
+unnecessary).  Any notes or information on these puzzles would be
+appreciated.
+

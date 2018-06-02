@@ -1,0 +1,178 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Sep 30 23:21:04 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id XAA12380; Mon, 30 Sep 1996 23:21:03 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Mon, 30 Sep 1996 22:29:36 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Solving One Cubie
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-id: <Pine.PMDF.3.91.960930215342.226497C-100000@PSTCC6.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+
+
+I've been thinking about a simple little problem I thought I would share. 
+Most of the solution is in the archives, but under other guises. 
+
+Suppose you scramble a cube and give it to a cubemeister with instructions
+to solve any one cubie.  This is a truly trivial problem, but let's see
+what it can teach us. 
+
+The most obvious question is -- what is God's algorithm?  That is, from
+any position, what is the minimal solution?  The cubemeister would observe
+that for any position, each of the eight corner cubies and each of the
+twelve edge cubies has its own individual minimal solution which is easy
+to discover.  The cubemeister would then choose the cubie with the
+smallest minimal solution and solve it. 
+
+Given this simple technique for God's algorithm, what is the maximal
+position?  That is, what is the position where the minimal solution is as
+large as possible? 
+
+We start with the edges.  The solution is in the archives in two separate
+articles.  On 6 August 1980, David Vanderschel introduced the concept of
+Oriented Distance from Home (ODH).  On 7 January 1981, Dan Hoey used the
+ODH concept to show that the Pons Asinorum position requires exactly
+twelve quarter turns for solution.  But for our purposes, the salient
+point is that an edge cubie can be at most four quarter-turns from home. 
+There is exactly one such position for each edge cubie.  And the only
+position for which each edge cubie is four quarter-turns from home is the
+Pons.  So for our trivial little problem, the maximal position for the
+edges is the Pons. 
+
+I have found little information in the archives concerning the same
+problem for the corners.  (By the way, I have this vision in my mind that
+the information for the corners is in there somewhere, but I cannot find
+it, neither in the archives nor in Singmaster.  Am I remembering a mirage,
+or is it in there somewhere and I can't find it?). 
+
+Vanderschel does not define an Oriented Distance from Home for corners,
+but the generalization is obvious.  The following are the ODH values for
+the f facelet of the flt cubie. 
+
+        1+2
+        +T+
+        2+3
+
+   l+2  0+1  1+2  2+3
+   +L+  +F+  +R+  +B+
+   2+3  1+2  2+3  3+2
+
+        1+2
+        +D+
+        2+3
+
+The maximum distance from Start for any particular corner cubie is
+therefore three quarter-turns.  The question then is whether all eight
+corner cubies can be three quarter-turns from Start simultaneously.  There
+are probably a number of ways which will work, but the following works
+very nicely.  Place each corner cubie in its diametrically opposed corner
+cubicle.  For example, place the flt cubie in the bdr cubicle.  The twist
+doesn't matter for the individual cubies, except that the overall
+configuration for the eight corner cubies must conserve twist.  The reason
+that twist doesn't matter is that when a corner cubie is in its
+diametrically opposed corner cubicle, all three twists are conjugate (see
+below). 
+
+The maximal position for the corners can peacefully co-exist with the Pons
+for the edges.  That is, if each corner cubie is in its diametrically
+opposed corner cubicle, the parity of the corners is even (as is the
+Pons). 
+
+In a certain sense, God's algorithm for a single corner cubie is identical
+to God's algorithm for the 1x1x1 cube, which is to say, it is identical to
+God's algorithm for the rotation group of the cube (which we normally
+denote by C).  (See my note of 14 Nov 1995.)
+
+Here is how it works.  Consider any particular corner cubie such as flt,
+and consider any sequence of quarter-turns such as TL where each
+quarter-turn moves the cubie in question.  Then, the "same" sequence of
+whole cube rotations (tl, in this case) will have the same effect on the
+same corner cubie.  Here, we are using the lower case letters t and l to
+denote whole cube quarter-turns and the upper case letters T and L to
+denote the face quarter-turns. 
+
+The converse is also true if we are careful.  That is, each whole cube
+quarter-turn may be denoted in two ways.  For example, t is the same as
+d'.  To convert from whole cube rotations back to quarter-turn face turns,
+we would convert t to T or to D' depending on whether the cubie in
+question were on the Top face or the Down face at the time. 
+
+The same trick does not work for the edges.  The problem is that face
+turns and whole cube turns are not fully interchangeable.  For instance, T
+and t are interchangeable for the Top edge cubies, as are D and d for the
+Down edge cubies.  But there is no equivalent interchange for the
+"equator" of edge cubies fl, lb, br, and rf.  (Well, maybe you could do it
+if you allowed slice moves, but we are not working with slice moves.)
+
+I am always interested in symmetry, usually as represented by conjugacy. 
+For whole cube rotations, there are five conjugacy classes.  (Again, see
+my note of 14 November 1995.) For individual cubies, we define conjugacy
+as follows.  Let X and Y be functions (not permutations) which are the
+restriction of normal permutations to the cubie in question.  Then X and Y
+are conjugate if m'Xm=Y for some m in M, the set of 48 rotations and
+reflections of the cube.  m' must be restricted to the pre-image of the
+domain of X, and m must be restricted to the range of X.  With the various
+permutations thus restricted to functions on the single flt cubie, the
+conjugacy classes are as follows: 
+
+   1. I
+   2. F, F', L, L', T, T'
+   3. FF, LL, TT
+   4. TL', TB, FT', FR, LF', LD
+   5. TL, L'T'
+   6. FRR, LDD, TBB
+   7. FTT, LFF, TLL
+
+Note that if we treat all the moves as whole cube permutations rather than
+as functions on the flt cubie, then #4 and #5 are collapsed down into a
+single conjugacy class, as are #6 and #7.  Then, the conjugacy classes are
+the same as the ones for the 1x1x1 cube. 
+
+When I first started working on this little problem, I thought the
+conjugacy classes for a single cubie might provide a non-arbitrary frame
+of reference for defining twist.  They almost do, but not quite. 
+
+       a. When the cubie is in its home cubicle, its twist is
+          obvious.  However, we can observe that I, TL, and L'T'
+          place the flt cubie in the flt cubicle.  TL and L'T'
+          are conjugate, but they are not conjugate to I.  Hence,
+          it is natural to take I as the untwisted state.
+
+       b. When the cubie is immediately adjacent to its home
+          cubicle (there are three such cubicles), the conjugacy
+          classes can be used to define twist.  For example, the
+          flt cubie is placed into the ftr cubicle by F, T', and
+          by LFF.  F and T' are conjugate, but they are not
+          conjugate to LFF.  Hence, we can take LFF as the
+          untwisted state.
+
+     c.   When the cubie is immediately adjacent to the
+          diametrically opposed cubicle (there are three such
+          cubicles), the conjugacy classes can be used to define
+          twist.  For example, the flt cubie is placed into the
+          frd cubicle by FF, LD, and by LF'.  LD and LF' are
+          conjugate, but they are not conjugate to FF.  Hence, we
+          can take FF as the untwisted state.
+
+     d.   When the cubie is in the diametrically opposed cubicle
+          (there is only one such cubicle), I don't see any way
+          to use the conjugacy classes to define twist.  All
+          three twists are conjugate, and hence none is
+          inherently different from the other two.  For example,
+          FRR, LDD, and TBB are all conjugate.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+
+
+

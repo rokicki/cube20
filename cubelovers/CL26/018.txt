@@ -1,0 +1,36 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Oct 30 13:56:08 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id NAA17979; Fri, 30 Oct 1998 13:56:07 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Oct 15 11:02:13 1998
+Message-Id: <19981015145704.8314.rocketmail@attach1.rocketmail.com>
+Date: Thu, 15 Oct 1998 07:57:04 -0700 (PDT)
+From: "Jorge E. Jaramillo" <kingeorge@rocketmail.com>
+Subject: Moves to this other pattern
+To: cube <Cube-Lovers@ai.mit.edu>
+
+Please if this is not one of the purposes of this
+list someone let me know I don't meant to be rude.
+
+Could someone please tell me the moves to get from a
+solved cube to the following pattern:
+The top and bottom faces keep their colors.
+The 4 columns in the middle of every side face stay
+with their color.
+The left column on the front face moves to the right
+and the right column moves to the left.
+The left column on the back face moves to the right
+and the right column moves to the left.
+
+Thanks
+
+===
+Jorge E Jaramillo
+
+[ Moderator's note: We have a lot of requests for processes for various
+  and have got a lot of optimal processes.  Maybe the hard part is
+  figuring out how to look them up.  This is one of the "4-" patterns,
+  and probably appears among the quasi-continuous partial isoglyphs. --Dan ]
+

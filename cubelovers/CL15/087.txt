@@ -1,0 +1,91 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Mon Apr 24 04:12:38 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA28938; Mon, 24 Apr 95 04:12:38 EDT
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <212875-8>; Mon, 24 Apr 1995 04:13:36 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA11604; Sun, 23 Apr 95 22:40:35 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1DD97C; Sun, 23 Apr 95 22:33:19 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Orders of Symmetry
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1104.5834.0C1DD97C@canrem.com>
+Date: Sun, 23 Apr 1995 23:29:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+>Date: Wed, 8 Dec 93 16:28:29 EST
+>From: hoey@AIC.NRL.Navy.Mil (Dan Hoey)
+>Message-Id: <9312082128.AA23718@Sun0.AIC.NRL.Navy.Mil>
+>To: mark.longridge@canrem.com (Mark Longridge), CRSO.Cube@canrem.com
+>Subject: Re: More corrections
+>
+>> * Hmmm, what are all the possible orders of symmetry? *
+>
+> M has subgroups of order 48, 24, 16, 12, 8, 6, 4, 3, 2, 1.  Some of
+> these subgroups (e.g., A, C) are not symmetry groups of any position,
+> so I can't be sure there are positions of all these symmetry orders.
+
+Quite a while ago I asked Dan the question above, and I've thought
+a lot about the answer.
+
+So I decided to look at certain cube positions and I wrote a module
+to perform
+                        C and C + Sm
+
+where
+C  = 24 rotations of the cube
+Sm = Central Reflection
+
+on any pattern I had in my database, and count how many different
+patterns resulted from the 48 operations.
+
+The following are some patterns which I found:
+
+Number of
+different       Pattern
+patterns        -------
+---------
+
+48              R1 U1
+24              L2 U2
+16              Mark's Pattern 1 (18 q+h, 22 q)
+                R2 U3 R1 D1 F1 B1 R3 L3 U1 D1 F3 U1 F3 U2 D3 B2 R2 U1
+                (Also 7 clockwise + 1 anticlockwise corner twist)
+12              2 dot, 2 T, 2 ARM (sq group antipode, see p108)
+ 8              6 Dot (a slice pattern)
+ 6              2 DOT, 4 ARM (sq group antipode, see p99)
+ 4              ????
+ 3              4 Dot pattern (slice pattern)
+ 2              6 H pattern type 2, T2 B2 L2 T2 D2 L2 F2 T2
+ 1              Pons Asinorum (6 X order 2) or all edges flipped
+
+ It took a while to find a pattern which could be transformed 16
+different ways. Still trying to find a pattern which will
+result in 4 distinct ways, but I am not optimistic. A random walk
+through the cube resulted in a pattern which would transform
+48 ways in every case I tried.
+
+>> A) What is the next most commutative element (the pancentre?)
+>>   after the 12-flip?
+>
+> (presumably, start excluded as well)
+>
+> i'll guess that these four conjugacy classes are tied for next.
+>
+> corner cycle structure:  (1+)(1+)(1+)(1+)(1+)(1+)(1+)(1-)
+> edge cycle structure:    (1)(1)(1)(1)(1)(1)(1)(1)(1)(1)(1)(1)
+
+Here's a small followup to the pancentre question. The reason
+why the 7 clockwise + 1 anticlockwise corner twist is the next
+most commutative element after the 12-flip & start is because
+it has the most number of cube elements (in this case corners)
+the same as possible without all the elements being the same,
+as with the 12-flip. It must be 7 clockwise + 1 anticlockwise
+corner twist because the next most commutative element effecting
+edges only would be the 10-flip and that would have 2 elements
+not the same as the rest instead of just 1.
+
+-> Mark <-
+

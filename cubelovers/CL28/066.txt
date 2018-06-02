@@ -1,0 +1,43 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Jan 22 17:55:22 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA02980
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Sat, 22 Jan 2000 17:55:22 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sat, 22 Jan 2000 13:58:11 -0800 (PST)
+From: Tim Browne <ue451@victoria.tc.ca>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Rubik's Revenge by Oddzon
+In-Reply-To: <387C51CD.706ED535@ibm.net>
+Message-Id: <Pine.GSO.3.95.iB1.0.1000122132406.23581A-100000@vtn1>
+
+On Wed, 12 Jan 2000, Jin 'Time Traveler' Kim wrote:
+
+> Enter the Oddzon Cube. [...]
+> This will be THE Revenge I play with, not just because it will be in
+> production, but because it is by far the best feeling.  
+
+> If anybody doubts my claim to the puzzle's smoothness, I will gladly
+> send them one of my Oddzon Revenges.  I am willing to part with two of
+> them just so you can get a feel for the mechanism.  I will choose two
+> people to receive the cubes (chosen at my discretion) for an
+> evaluation.  If you don't think the puzzle is smooth, just mail it back
+> to me and I'll cover the postage.
+
+I don't know... I found it really distubing that they couldn't even be
+bothered to change the sticker to read "Rubik's Revenge" instead of
+"Rubik's Cube", and I've heard from some people that the OddzOn version
+fell apart as soon as they turned it once. I picked up a Meffert's
+version. Not only is it $2 less than the OddzOn version and shipped free
+worldwide, but it's also apparently designed for speed cubing. Instead of
+using stickers of any kind, Meffert decided to go with tiles for all his
+puzzles, which definitely aren't coming off any time soon. To add to the
+challenge, Meffert grooved all the tiles, so if you'd like you can also
+treat it as a junior version of a picture cube (junior because there's
+still pairs of centres which are completely indistibguishable). L8r.
+
+
+        Cubic Puzzles - The SIMPLEST Solutions
+     http://www.victoria.tc.ca/~ue451/solves.html
+

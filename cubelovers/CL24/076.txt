@@ -1,0 +1,81 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Nov 12 22:10:31 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id WAA01766; Wed, 12 Nov 1997 22:10:31 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From chrono@ibm.net Wed Nov 12 00:37:48 1997
+Message-Id: <34694088.5E3AC959@ibm.net>
+Date: Tue, 11 Nov 1997 21:37:12 -0800
+From: "Jin 'Time Traveler' Kim" <chrono@ibm.net>
+Organization: The Fourth Dimension
+To: cube lovers <cube-lovers@ai.mit.edu>
+Subject: Rubik's Cube Color arrangements
+References: <34668899.248A@idirect.com> <346807C1.ACFE4D68@hvi.uu.se>
+
+I have serveral cubes spanning over a decade and a half in front of me.
+Here's the quick color arrangements:
+
+Rubik's Cube (circa 1982)
+Up = White
+Down = Yellow
+Front = Blue
+Back = Green
+Left = Orange
+Right = Red
+
+I've owned this cube for what feels like forever.  I'm not even sure how I
+even found it again, because I dug it out of some old junk after not having
+a puzzle for about 5 years.  This is slightly different from the one you
+described as being from Hungary.  I suspect mine is from there too, so
+maybe production values weren't as high as they could be.
+
+Rubik's Cube "4th Dimension" (Golden Toys, circa 1988) - Poor quality in my
+opinion, as the stickers are paper with a clear plastic laminate, but
+despite only being taken out of the box only 4 Times ever, the plastic
+laminate is already peeling in spots.
+Rubik's Mini Cube (OddzOn, circa 1996)
+Rubik's Cube (OddzOn, circa 1997)
+
+All of the above have the same color arrangement as what you described
+below as being the "Ideal" solution, which I believe isn't the best.  I
+still think that the opposite pairing of red/orange, white/yellow, and
+blue/green makes for the best balanced color combination.  Not to mention
+it's also the best quality with plastic stickers instead of paper.
+
+Anders Larsson wrote:
+
+> Mark Longridge wrote:
+>
+> > First of all, the STANDARD colour arrangement used by Ideal Toy is as
+> > follows:
+> >
+> > UP      = White
+> > DOWN    = Blue
+> > FRONT   = Yellow
+> > BACK    = Green
+> > LEFT    = Red
+> > RIGHT   = Orange
+>
+> In front of me I hold a cube from one of the first batches from Hungary
+> with the following colour arrangement:
+>
+> Up = white
+> Down = yellow
+> Front = blue
+> Back = green
+> Left = red
+> Right = orange
+>
+> Does anybody know the history why this colour arrangement was changed?
+>
+> BTW: Even if Ideal Toys has their own local standard, it doesn't change
+> the original ("correct") colour arrangement.
+
+--
+Jin "Time Traveler" Kim
+chrono@ibm.net
+VGL Costa Mesa
+http://www.geocities.com/timessquare/alley/9895
+http://www.slamsite.com
+

@@ -1,0 +1,36 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Apr 12 12:16:29 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA15917
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 12 Apr 1999 12:16:28 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Fri, 9 Apr 1999 19:06:08 -0400 (EDT)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199904092306.TAA25503@Twig.Rodents.Montreal.QC.CA>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Lubricant
+
+> Many people have suggested different lubricants on their web pages.
+> Many have referred to silicon.
+
+Silicon in its (relatively) pure form is somewhat difficult to get hold
+of and probably not a very good lubricant.  You probably mean silicone.
+
+> [Moderator's note: [...] Any other good ideas on lubricants? -- Dan ]
+
+I don't know how well it works - I haven't perceived a need for
+lubricants for my Cubes - but one I wouldn't write off without trying
+is graphite, available easily and cheaply as pencil lead, the softer
+the pencil the better.  The major downside I would expect is black dust
+rubbing off on fingers and to a lesser extent everything you set the
+Cube down on.  (But it's a kind of black dust that washes off easily.)
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+
+[Moderator's note: John Bailey also advises graphite, applied carefully and
+ sparingly.]
+

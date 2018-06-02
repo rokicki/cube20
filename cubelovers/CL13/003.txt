@@ -1,0 +1,98 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Sep 21 18:35:37 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA13435; Wed, 21 Sep 94 18:35:37 EDT
+Message-Id: <9409212235.AA13435@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 8591; Wed, 21 Sep 94 16:38:18 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 4810; Wed, 21 Sep 1994 16:38:17 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 21 Sep 1994 16:38:16 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@ai.mit.edu>
+Subject:   Re: < U, R> Group
+In-Reply-To: Message of 08/09/94 at 01:48:00 from mark.longridge@canrem.com
+
+I wanted to get back to some of the symmetry considerations associated
+with the Two-Generator Group.  In particular, I wanted to calculate
+God's Algorithm in terms of something analogous to M-conjugates.
+I haven't started the calculations, but I wanted to go ahead and
+discuss what those calculations will consist of.
+
+First, we can make the obvious observation that the <U,R> group is not
+the only Two-Generator group.  Any two adjacent faces can serve
+as generators for a Two-Generator Group, and there are twelve such
+pairs of adjacent faces.  All twelve groups have identical structures,
+and are isomorphic under M-conjugation.
+
+With respect to any particular Two-Generator Group such as <U,R>, the
+associated symmetry group is not M, it is a subgroup of M.  Dan Hoey
+has determined that M has 98 subgroups, and that the 98 subgroups
+may be grouped into 33 classes.  Dan has developed a taxonomy for the
+33 classes and 98 subgroups.  I have seen bits and pieces of Dan's
+taxonomy posted to the list, and he has sent me a good bit of it
+via private E-mail, but I don't think I have ever seen the whole thing
+all in one piece.  In any case, let's talk a little bit about the
+98 subgroups and 33 classes.
+
+Frey and Singmaster use script characters to describe whole cube
+rotations.  For the purposes of this note, I will use lower
+case letters.  For example, r will be used to describe grabbing
+the right face and turning the whole cube 90 degrees clockwise
+(to be distinguished from R, which means to turn only the right
+face 90 degrees clockwise).  In this notation, <r> = {i,r,rr,rrr}
+is one of the 98 subgroups of M.  (Note that <l> is the same
+group as <r>.)  Similarly, <u> = {i,u,uu,uuu} and
+<f> = {i,f,ff,fff} are subgroups of M.  The groups <r>, <u>, and
+<f> have identical structures (isomorphic under rotation), and the
+collection (<r>, <u>, <f>) is one of Dan's 33 classes.
+
+Similarly, (<r2>, <u2>, <f2>) is another of Dan's 33 classes.  <r2>
+is a subgroup of <r>, <u2> is a subgroup of <u>, and <f2> is a
+subgroup of <f>.  Dan's taxonomy includes a complete description
+of group-subgroup relationships within the subgroups of M, or maybe
+I should say that it is a complete description of class-subclass
+relationships.
+
+The Frey-Singmaster script notation is adequate for rotations, but it
+is not adequate for reflections.  Instead, I will use a notation which
+I believe originated with Dan Hoey (e.g., 28 Dec 1993).  For example,
+you could write r=(FUBD), where the upper case letters describe movements
+of whole faces (*not* quarter-turns in this context!).  (FUBD) means Front
+goes to Up goes to Back goes to Down goes to Front, which is what happens
+when you perform r.  In the same notation, a Front-Back reflection
+would be (FB), etc.
+
+With that all said, the symmetry group for <U,R> is
+
+  <(UR)(DL),(FB)> = {I, (FB), (UR)(DL), (FB)(UR)(DL)}
+
+In Dan's taxonomy, this group is a member of the W class, and there
+are six such groups  -- W1 through W6.  I am not sure which one this one
+is (I only have a list of the classes, not of the groups), but let's
+say for the sake of the argument it is W3.  Then for <U,R>, I will
+be calculating W3-conjugate classes of the form {w'Xw} for all w in
+W3.  The size of the problem will be reduced by about four times,
+compared to a reduction of about forty-eight times for whole cube
+problems where M-conjugation can be used.
+
+I was initially surprised that there are twelve groups M-conjugate with
+<U,R>, but only six corresponding symmetry groups in M.  This arises,
+for example, because the <U,R> and <D,L> (diagonally opposed) groups share
+the same symmetry group.  I really shouldn't have been surprised.
+After all, we know how many subgroups of G there are, namely
+"over three beelion" (Dan Hoey, 20 Aug 1992), and we know how
+many subgroups of M there are, namely 98.  Since "over three beelion"
+is a lot more than 98, there must be many, many subgroups of G
+which share the same symmetry properties in the sense of sharing
+a subgroup of M.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

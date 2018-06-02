@@ -1,0 +1,51 @@
+Date:  4 Aug 1981 1123-PDT
+From: Alan R. Katz <KATZ at USC-ISIF>
+Subject: 10 sided "cube"
+To: cube-lovers at MIT-MC
+cc: katz at USC-ISIF
+
+I have a 10 sided "cube", which is made by "Wonderful Puzzler" (they also
+make crappy cheapo regular cubes).  The guts are essentially the same as
+the regular cube, but the corners are cut off.
+
+If you look down from the top, you see an octogon.  The edges are all the 
+same as a regular cube, but since the corners are cut, they are one color
+(thus the 10 colors).  For example, there are red, blue, and orange
+faces.  On an ordinary cube you would have a red-blue-orange corner cubie,
+but on this in its place is a pink face.  To make this clearer, here is
+the coloring of the thing:
+
+				red
+				 *
+      light-blue**gold**yellow**blue**pink**orange**violet**green
+				 *
+			       white
+
+(red on top, white on bottom, looking at the blue face, back face is green,
+right face is orange, left face is gold).
+
+The interesting thing about this is that unlike the ordinary cube, every cube 
+does not have a place,  you dont know that the pink corner goes between the 
+blue and orange faces (in an ordinary cube it is the red-blue-orange corner 
+so you know where it goes).  To solve it, you just put the corners in some
+order, solve it using the usual transformations, and then if you get a 
+"parity error" you must go back to the top layer but switch two of the corners
+and solve it again.  Thus in general you have to solve it almost 2 times!
+(almost because you dont have to redo the top layer or half of the second
+layer (this assumes you solve top down, which I do.)).
+
+What I mean by parity error is that if the corners are switched you can get 
+a configuration that in an ordinary cube would tell you the cube is put
+together wrong.  For example, you can be solving it and get to a point where
+an odd number of edges must be fliped.  
+
+
+There may be a transformation to flip an odd number of edges with this cube,
+but I have not found it.  Anyway its more interesting to solve and it
+changes it shape in general with each transformation.  (unlike the cube 
+which stays a cube; this is a octagonal prism).
+
+
+						Alan
+
+-------

@@ -1,0 +1,43 @@
+From david.singmaster@sbu.ac.uk  Mon Apr 19 18:35:09 1999
+Return-Path: <david.singmaster@sbu.ac.uk>
+Received: from smtp.interlog.com (root@smtp.interlog.com [207.34.202.37])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with ESMTP id SAA07922
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 19 Apr 1999 18:35:09 -0400 (EDT)
+Received: from crii.com (209-20-9-212.dialin.interlog.com [209.20.9.212])
+	by smtp.interlog.com (8.9.1/8.9.1) with SMTP id SAA25968
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 19 Apr 1999 18:35:07 -0400 (EDT)
+Received: from <pending> [127.0.0.1] by crii.com [192.168.0.47] with DomainPOP (MDaemon.v2.7.SP5.R) for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 19 Apr 1999 18:36:59 -0400
+Delivered-To: cr728635@mail-00
+Received: from mc.lcs.mit.edu (mc.lcs.mit.edu [18.30.0.229])
+	by mail.9netave.com (8.9.2/8.8.8) with ESMTP id SAA50612;
+	Mon, 19 Apr 1999 18:25:01 -0400 (EDT)
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA07769
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 19 Apr 1999 17:34:05 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 19 Apr 1999 15:13:27 +0100
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: jbryan@pstcc.cc.tn.us
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009D6DFF.A3A1ABCB.24@ice.sbu.ac.uk>
+Subject: RE: Re : Re: Inventing your own techniques
+X-MDaemon-Deliver-To: cube-lovers-outbound@mc.lcs.mit.edu
+
+	The technique of solving the cube by use of commutators and conjugates
+is what most people worked out in the early days.  However, I can testify that
+it took us some time to realise that one could use second level commutation.
+That is, FRF'R' = [F,R] only affects seven pieces, but in fact it only affects
+one piece in the L face, so taking the commutator with the L face produces a
+3-cycle of corners.  Likewise  [F,R]^2  only twists one corner in the L face
+and combining it with turns of L allows you to twist three corners the same way
+or two corners opposite ways.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+
+
+

@@ -1,0 +1,51 @@
+From ronnie@cisco.com  Wed Jul 28 19:37:15 1993
+Return-Path: <ronnie@cisco.com>
+Received: from lager.cisco.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA00159; Wed, 28 Jul 93 19:37:15 EDT
+Received: from localhost.cisco.com by lager.cisco.com with SMTP id AA06770
+  (5.67a/IDA-1.5 for <Cube-Lovers@ai.ai.mit.edu>); Wed, 28 Jul 1993 16:37:08 -0700
+Message-Id: <199307282337.AA06770@lager.cisco.com>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Hint wanted for 4x4x4
+Date: Wed, 28 Jul 1993 16:37:08 -0700
+From: "Ronnie B. Kon" <ronnie@cisco.com>
+
+I've been beating my head against the order 4 Rubik's cube for long
+enough, and I want a hint.  (Not a solution--I have a solution book if
+I wanted to use it).
+
+My problem is I cannot flip a pair of adjacent edges (this is
+equivalent to not being able to exchange a pair of knights-move
+separated edges).  All my other transformations have no side effects,
+so I can solve the edges first.  But I can't see how to just affect
+two of them.
+
+I tend to solve using commutators, but I don't see a way here.  The
+move I use on the top moves the marked pieces clockwise (this pattern
+
+		. . 0 .
+		. . . .
+		. . . 0
+		. 0 . .
+
+rotates and reflects, of course).  There is no way to combine these
+into a pair exchange (after doing the move, you still have two pieces
+out of place--nothing changed from the original).
+
+I tried to find a move that would exchange three pieces, the third
+being the correctly placed piece next to one of the incorrectly placed
+pieces (ie., treat a right edge cubie as if it should be a left edge
+cubie) but this can easily be shown as impossible:
+
+	Define the parity of a piece as being left if it is a left
+	edge cubie when the red facelet is up, right if it is a right
+	edge cubie when the red facelet is up.  The parity is
+	undefined if there is no red facelet.  There are only three
+	moves available that affect an edge cubie--none of them alter
+	the parity.  QED
+
+
+So, what am I missing?  As I said before, I really just want a hint
+here.
+
+				Ronnie
+

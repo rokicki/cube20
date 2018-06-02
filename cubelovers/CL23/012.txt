@@ -1,0 +1,35 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun 12 13:23:55 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id NAA17772; Thu, 12 Jun 1997 13:23:54 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Thu, 12 Jun 1997 01:03:11 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+cc: Cube-Lovers@ai.mit.edu
+Subject: Re: 5x5x5 Structural Integrtity (Stickers)
+In-Reply-To: <5nmsma$t63@gap.cco.caltech.edu>
+Message-ID: <Pine.SUN.3.95.970612005817.10138A-100000@sunspot.tiac.net>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+ One cure might be to take a solved cube (more convenient...) and remove
+all the red stickers; carefully clean off the adhesive, perhaps with 99%
+isopropyl alcohol, and paint the surfaces neatly with the type of paint
+used for plastic model kits. I have also thought of removing the stickers,
+cleaning all the adhesive off both the stickers and the cubies, and then
+reattaching the stickers with a different type of adhesive.
+
+ These are just ideas, and I hope no source of trouble.
+
+ My best to all,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+

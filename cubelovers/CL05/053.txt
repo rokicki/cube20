@@ -1,0 +1,31 @@
+Date: 28 June 1984 00:17-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  The Cube meets Massive Parallelism
+To: CUBE-LOVERS @ MIT-MC
+cc: CM-I @ MIT-MC
+In-reply-to: Msg of Tue 26 Jun 84 10:20 EDT from Bernard S. Greenberg <BSG at SCRC-QUABBIN.ARPA>
+
+Since I spend most of my time these days thinking about designing and
+programming massively parallel computers, it occured to me to think about
+applying such machines to exploring the Cube's Group.  Here are some
+preliminary thoughts.
+
+When we say "massively parallel" we are talking at least a quarter million
+simple processors.  This is enough processors to give all of the positions
+5 or fewer quarter twists away from home their own processor.  A million
+processors would be enough to get up to 6 Qs, but lets not push our luck.
+Given a machine like the MIT Connection Machine we could set up a database
+in which every processor representing a configuration knew the addresses ot
+the 12 other processors representing its 12 closest neighbors, in almost no
+time at all.  (Processors 5 Qs away from home would have null pointers for
+their unrepresented 6 Q neighbors.)  A conservative statement would be
+that operations like generating a list of all identities of length 10 or
+less (which has previously taken us hours to accomplish) could be done so
+fast that the machine could generate output faster than you could read it.
+
+Since this is all so absurdly easy, there must be ways to go beyond this to
+generate significant new results using this (promised) new kind of
+hardware.  Perhaps Dave Christman, who is both a cube hacker, and a
+designer of algorithms for massively parallel machines, could be persuaded
+to devote some spare cycles to figuring out ways to brute-force the Cube
+using such a machine.

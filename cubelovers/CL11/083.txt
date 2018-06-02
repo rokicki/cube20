@@ -1,0 +1,106 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Thu Jan  6 04:11:20 1994
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29330; Thu, 6 Jan 94 04:11:20 EST
+Message-Id: <9401060911.AA29330@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 1228; Thu, 06 Jan 94 04:11:19 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 0545; Thu, 6 Jan 1994 04:08:07 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 9949; Wed, 5 Jan 1994 23:34:59 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Wed, 5 Jan 1994 23:34:58 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Square Brackets
+
+This posting has very little to do with cubes of any sort, but I
+think you may find it of interest anyway.  If not, you can just
+delete it.
+
+In his analysis of my operator which combines M-conjugation with
+a whole cube rotation, Dan Hoey inserted square brackets to make
+his exposition more readable.  And therein lies a story.
+
+As it turns out, I had composed most of my original note at work,
+and I had used square brackets.  Actually, I had used square
+brackets to delimit the indexes for the rotation and reflection
+operations, and I had used parenthesis to delimit the indexes for
+the individual cells in the row vectors.  I wanted to make a
+distinction between the two kinds of indexing.  Dan avoids the
+necessity for a distinction by simply not detailing the
+indexing of the individual cells.
+
+Anyway, I completed the note at home.  Much to my dismay, all of my
+square brackets had disappeared!  I pretty much understand the
+problem.  My E-mail system is an IBM mainframe which uses EBCDIC as
+its basic code. EBCDIC does not deal very well with square brackets.
+There are at least two "standards" for encoding square brackets in
+EBCDIC.
+
+There are any number of ways to access an IBM mainframe, but the
+native terminal support is 3270 terminals using EBCDIC.  Both at home
+and at work, I use a PC running TN3270 to access our mainframe.
+TN3270 is a 3270 version of TELNET.  However, the TN3270 I use at work
+is considerably different from the TN3270 I use at home.  One TN3270
+implements one of the square bracket standards, and the other
+TN3270 implements the other.
+
+For similar reasons, mail gateways often have difficulties with
+square brackets.  They may have to translate EBCDIC to ASCII or
+ASCII to EBCDIC, and it is difficult to know how best to set up
+the translate tables.  My experience is that some gateways get it
+"right" and others get it "wrong".  I therefore had a great fear
+that if I posted my note with square brackets, that the square brackets
+might appear as gibberish to at least some of you.  Thus, I sort
+of temporized and faked the subscripts with upper and lower
+case letters (e.g., Bk to mean B-sub-k), omitting square brackets
+entirely.
+
+It is probably no accident that old programming languages such
+as FORTRAN and COBOL use parentheses for indexing.  These languages
+originated in the 50's.  At that time, the dominant character
+code was BCD, which did not include square brackets.  EBCDIC is just
+extended BCD, and the original EBCDIC did not include square brackets,
+either.  Square brackets are a latter day addition to EBCDIC, and
+the implementation of square brackets in EBCDIC is inconsistent.
+
+ASCII has always included square brackets.  "Modern" languages
+(say, starting in the 70's) such as Pascal and C (and their
+descendents) grew up in the ASCII world, and tend to use
+square brackets for indexing and parentheses for function
+arguments.  FORTRAN compilers to this day have difficulty figuring
+out with things like Y=X(I) or Y=F(X)  -- which are functions and
+which are subscripted arrays.  Also, Pascal and C tend not to
+co-exist very well in the EBCDIC world because of these kinds of
+character set difficulties.
+
+There are several other characters with similar difficulties.  For
+example, if G is the cube group, you might want to refer to the
+size of the cube group as |G|.  But the delimiting vertical bars
+can be very different between EBCDIC and ASCII.  Finally, FORTRAN
+used ** for exponentiation.  More modern languages tend to use
+some sort of up-arrow or carat.  But such characters don't
+translate well between EBCDIC and ASCII.  For example, if I
+write |G| = 4.3 * 10^19, it is highly problematic whether the
+character between the 10 and the 19 which I am using to express
+exponentiation will make any sense on your particular system.
+
+For whatever it is worth, here are my home and work versions of
+square brackets:
+
+home left  square bracket  [[[[[[[ x'AD'
+home right square bracket  ]]]]]]] x'BD'
+work left  square bracket  ççççççç x'BA'
+work right square bracket  ŸŸŸŸŸŸŸ x'BB'
+
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

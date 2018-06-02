@@ -1,0 +1,26 @@
+From hoey@aic.nrl.navy.mil  Thu Jul 29 10:11:15 1993
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23418; Thu, 29 Jul 93 10:11:15 EDT
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA09096; Thu, 29 Jul 93 10:11:13 EDT
+Date: Thu, 29 Jul 93 10:11:13 EDT
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9307291411.AA09096@Sun0.AIC.NRL.Navy.Mil>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Oops... Re: Hint wanted for 4x4x4
+Cc: Dik.Winter@cwi.nl, ronnie@cisco.com (Ronnie B. Kon)
+
+I wrote:
+
+? The key is that commutators are always odd permutations.  So do the
+? move that is an odd permutation of the edges, then use commutators.
+
+But I *Meant*:
+
+! The key observation is that commutators are always even
+! permutations.  So you to perform an odd permutation on edge, you
+! should do the move that is an odd permutation of the edges, then use
+! commutators.
+
+Dan
+

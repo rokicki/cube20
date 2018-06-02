@@ -1,0 +1,277 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Sat Dec  4 23:18:20 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05338; Sat, 4 Dec 93 23:18:20 EST
+Message-Id: <9312050418.AA05338@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 3107; Sat, 04 Dec 93 23:18:20 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 2822; Sat, 4 Dec 1993 23:18:20 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 5413; Sat, 4 Dec 1993 23:15:32 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Sat, 4 Dec 1993 23:15:30 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   God's Algorithm for the Corners of the 3x3x3
+
+Here are my God's Algorithm results for the corners of the
+3x3x3 cube.  I explained in the last post what I mean by
+1152-fold symmetry and 24-fold symmetry.  The 1152-fold
+symmetry is what I actually calculated.  In this particular
+case, I did not do the 24-fold symmetry calculations myself
+based on the size of the equivalence classes as I did
+with the 2x2x2 cube.  Rather, I went back and found the
+figures in the Cube-Lover archives (Dik Winter's post).
+
+             Results Using Both q-turns and h-turns
+
+        Distance           Number of            Number of
+        from               Nodes using          Nodes using
+        Start              1152-fold            24-fold
+                           symmetry             symmetry
+
+          0                       1                   1
+          1                       2                  18
+          2                       9                 243
+          3                      71               2,874
+          4                     637              28,000
+          5                   4,449             205,416
+          6                  24,629           1,168,516
+          7                 113,049           5,402,628
+          8                 433,611          20,776,176
+          9                 947,208          45,391,616
+         10                 316,823          15,139,616
+         11                   1,481              64,736
+
+
+
+             Results Using Only q-turns
+
+        Distance           Number of            Number of
+        from               Nodes using          Nodes using
+        Start              1152-fold            24-fold
+                           symmetry             symmetry
+
+          0                       1                    1
+          1                       1                   12
+          2                       5                  114
+          3                      24                  924
+          4                     149                6,539
+          5                     850               39,528
+          6                   4,257              199,926
+          7                  16,937              806,136
+          8                  57,800            2,761,740
+          9                 180,639            8,656,152
+         10                 466,052           22,334,112
+         11                 676,790           32,420,448
+         12                 392,558           18,780,864
+         13                  45,744            2,166,720
+         14                     163                6,624
+
+
+             Results         Using Only h-turns
+
+        Distance           Number of
+        from               Nodes using
+        Start              1152-fold
+                           symmetry
+
+
+          0                       1
+          1                       1
+          2                       2
+          3                       4
+          4                       3
+
+
+It turns out that the maximum distance from Start is the same
+for the corners of the 3x3x3 cube as it is for the 2x2x2 cube.
+I found this rather surprising, although the archives of
+Cube-Lovers do provide a reasonable explanation.  I am just
+going to have to go back and read it five or ten times until
+I fully understand it.  In any case, I was curious about the
+following question.  Suppose you are N moves from Start on the
+corners of the 3x3x3.  How many moves from Start would you be
+on the 2x2x2 if the 2x2x2 was in the same configuration as the
+corners of the 3x3x3 where you currently were.  As it turns out,
+I stored the results for the 2x2x2 in the same data base as
+I stored the results for the corners of the 3x3x3, so the
+question was easy to answer.  Here are the results.
+
+              Corresponding Distances from Start
+                Using Both q-turns and h-turns
+
+         2x2x2       Corner of 3x3x3    Number
+     Distance from    Distance from    of Nodes
+         Start         Start
+
+
+           0
+                           0                1
+                           2                2
+                           4                2
+
+           1
+                           1                2
+                           2                2
+                           3                4
+                           4                3
+
+           2
+                           2                5
+                           3               12
+                           4               18
+                           5                3
+
+           3
+                           3               55
+                           4              106
+                           5               41
+
+           4
+                           4              508
+                           5              457
+                           6               38
+
+           5
+                           5            3,948
+                           6            1,237
+                           7                2
+
+           6
+                           6           23,354
+                           7            1,992
+                           8               20
+
+           7
+                           7          111,055
+                           8            3,242
+                           9               20
+
+           8
+                           8          430,349
+                           9            5,460
+                          10               62
+
+           9
+                           9          941,728
+                          10            3,770
+                          11               20
+
+          10
+                          10          312,991
+                          11               45
+
+          11
+                          11            1,416
+
+
+
+              Corresponding Distances from Start
+                     Using Only q-turns
+
+         2x2x2       Corner 3x3x3       Number
+     Distance from    Distance from    of Nodes
+         Start         Start
+
+           0
+                           0                1
+                           2                1
+                           4                2
+                           6                1
+
+           1
+                           1                1
+                           3                2
+                           5                2
+
+           2
+
+                           2                4
+                           4               10
+                           6                6
+
+           3
+                           3               22
+                           5               46
+                           7                4
+
+           4
+                           4              137
+                           6              145
+
+           5
+                           5              802
+                           7              356
+
+           6
+                           6            4,105
+                           8              474
+
+           7
+
+                           7           16,577
+                           9               83
+
+           8
+                           8           57,326
+                          10               24
+                          12               24
+
+           9
+                           9          180,556
+                          11              148
+
+          10
+                          10          466,028
+                          12              192
+
+          11
+                          11          676,642
+                          13              144
+
+          12
+                          12          392,342
+
+          13
+                          13           45,600
+
+          14
+                          14              163
+
+
+
+              Corresponding Distances from Start
+                     Using Only h-turns
+
+         2x2x2       Corner of 3x3x3    Number
+     Distance from    Distance from    of Nodes
+         Start         Start
+
+
+           0
+                           0                1
+                           2                1
+
+           1
+                           1                1
+                           3                1
+
+           2
+                           2                1
+
+           3
+                           3                3
+
+           4
+                           4                3
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

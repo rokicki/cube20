@@ -1,0 +1,42 @@
+From bagleyd@source.asset.com  Thu Apr 14 13:21:45 1994
+Return-Path: <bagleyd@source.asset.com>
+Received: from source.asset.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23729; Thu, 14 Apr 94 13:21:45 EDT
+Received: by source.asset.com (AIX 3.2/UCB 5.64/4.03)
+          id AA64031; Thu, 14 Apr 1994 12:55:50 -0400
+Date: Thu, 14 Apr 1994 12:55:50 -0400
+From: bagleyd@source.asset.com (David A. Bagley)
+Message-Id: <9404141655.AA64031@source.asset.com>
+To: cube-lovers@ai.mit.edu
+Subject: Mailing List
+
+
+Hi, I was wondering if you can add me to your mailing list. 
+  
+  I put some motif puzzles at ftp.x.org in /contrib/motif_puzzles.
+  They are: 
+rubik: a (nxnxn) rubik's cube 
+pyramid: a (nxnxn) pyraminx with period 2 and period 3 cuts 
+oct: an (nxnxn) octahedron with period 3 and period 4 cuts  
+skewb: a diagonal cut rubik's cube 
+cubes, triangles, & hexagons: sliding block puzzles 
+  There are no self-solvers provided with these. A record keeps track of
+how many move it takes you to solve them. A record of 32767 means I never
+did it. (I do not follow any standard notation for a move (for example,
+on the rubik's cube a move is any 1/4 turn)).
+  Unfortuately the motif puzzles need motif to compile.  Is there a good
+public domain substitute for Motif?
+ 
+Also you may want to check out the tetris games which only use X. 
+altetris: polyomino version of tetris 
+alweltris: polyomino version of welltris 
+altertris: polyiamond version of tetris (they bounce off the walls) 
+alhextris: polyhexes version of tetris (again, they bounce off the walls) 
+These are found in ftp.x.org in /contrib 
+  
+I recently heard that 10x10 tangle has no solution.  I was trying to solve 
+that one too.  What a waste! (90 days of compute time, wow thats one 
+efficient program, fast machine , or both!)                 
+ 
+Have fun
+David
+

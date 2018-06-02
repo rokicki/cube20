@@ -1,0 +1,26 @@
+Date: 29 Dec 1982 19:01:04-EST
+From: meister at mit-ccc
+To: cube-lovers@mit-mc
+Subject: 4x4x4 poll
+
+
+  i am interested i getting information on the various solving methods
+used on the 4x4x4, and the times that it is being done in. (average) 
+my own method is to solve it as follows:
+
+       1) top layer (no general order to this)
+       2) the rest of the centers by layers 
+       3) the edges on the center slices
+       4) bottom corners
+       5) bottom edges
+
+ average time: 1 min 55 sec - 2 min 5 sec depending on my blood-alcohol level. 
+
+   please send me your general method and solving times.
+   i'll compile the results and put them on the list.
+
+                                              thanks for replying,
+                                                          -phil
+ p.s. -  send replies to  meister@ccc@mc 
+
+

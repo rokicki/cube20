@@ -1,0 +1,36 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Jun  5 22:17:39 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA08111 for <cube-lovers-outbound@curry.epilogue.com>; Wed, 5 Jun 1996 22:17:38 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 5 Jun 1996 16:47:13 -0400
+Message-Id: <199606052047.QAA21223@chara.BBN.COM>
+From: Allan Wechsler <awechsle@bbn.com>
+To: cmaggs@glam.ac.uk
+Cc: CUBE-LOVERS@ai.mit.edu
+In-Reply-To: <96060509302127@glam.ac.uk> (message from VANESSA PARADIS WANTS
+	ME on Wed, 5 Jun 1996 09:30:21 +0100)
+Reply-To: awechsle@bbn.com
+
+   Date: Wed, 5 Jun 1996 09:30:21 +0100
+   From: VANESSA PARADIS WANTS ME <cmaggs@glam.ac.uk>
+
+   To have a bit more challange when doing the cube, complete it so that each 
+   horizontal slice, is 1 turn (quarter of a full circle) out of place.
+   Therefore, top and bottom face are one colour, but all side faces contain 3
+   colours.
+
+I'm not sure I understand this modified goal.  Isn't this achieved by
+solving the cube aas usual, and then giving the top and bottom faces a
+clockwise quarter twist?  Then the top and bottom are solid, and the
+sides are tricolor horizantal stripes.
+
+Even if I haven't understood the goal position, solving for any
+achievable position is not in principle harder than solving for any
+other.  There might be perceptual problems, but surely these would go
+away after a little practice, no matter what the goal configuration.
+
+-A
+
+
+

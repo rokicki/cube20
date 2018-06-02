@@ -1,0 +1,25 @@
+BSG@MIT-AI 08/17/80 17:22:24
+To: CUBE-LOVERS at MIT-MC
+OK, you guys. You asked for it, you got it.  :CUBE will
+now accept typed-in cube configurations. The ^F command
+(control f) to installed :cube prompts for a standard
+ITS file name. If you give ? as the file name, it tells you
+the thing I'm about to tell you.
+
+The hack is as follows. You copy AI:BSG;CUBE TEMPLT into
+some choice name of your own, and follow what it says
+inside of it, editing it to look like your cube configuration.
+Then enter :cube, and give the file name in response to ^F.
+
+We do only the most rudimentary checking, for syntax,
+center duplications, only six colors, overambitious file munging.
+We have not yet put in conservation of cubies, let alone
+ALAN's necessary and sufficient solubility conditions. So
+it's quite possible to make :cube go blarmy in this way, so
+be careful.
+
+Occasionally, :CUBE may give an ambiguous description of a 180-degree
+center-slice twist: to disambiguate it, let it do it, and see
+what it did, and do it on your cube.
+
+Go nuts in mid-August, -bsg

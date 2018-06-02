@@ -1,0 +1,174 @@
+From reid@math.berkeley.edu  Thu Aug 20 20:10:13 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA29497; Thu, 20 Aug 92 20:10:13 EDT
+Received: from phnom-penh.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA19361; Thu, 20 Aug 92 17:03:31 PDT
+Date: Thu, 20 Aug 92 17:03:31 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9208210003.AA19361@math.berkeley.edu>
+To: ACW@riverside.scrc.symbolics.com, hoey@aic.nrl.navy.mil,
+        wft@math.canterbury.ac.nz
+Subject: Re: subgroups
+Cc: Cube-Lovers@ai.mit.edu
+
+dan hoey writes:
+
+> On 14 Jan 1992,  Allan C. Wechsler posted
+
+> >Regarding the meta-approach of descending through a series of subgroups,
+> >how much leverage does properly selecting the chain give you?  It seems
+> >like the jump from <F2,B2,...> to <F2,B2,L2,R2,...> is pretty large.
+> >There are probably other paths through the subgroup lattice.
+
+> >Does anyone have a table of subgroups?
+
+well, i don't know ALL the subgroups, but i did some investigation
+before devising my three stage algorithm.  one of the great advantages
+of thistlethwaite's four stage method is that since each subgroup
+restricts the motion of various faces, it is routine to exhaustively
+search the cosets spaces at each stage, since we only make twists that
+leave us in the given space.  so i looked at all possible ways of
+restricting various faces, up to symmetry.  there are three possible
+restrictions for a face:  no restriction, half turns only, no turns.
+our problem is then coloring the faces of the cube with 3 colors, up
+to symmetry (rigid and non-rigid).  the polya polynomial for the faces
+of the cube under this group of symmetries is:
+
+          ( x^6 + 3 x^5 + 9 x^4 + 13 x^3 + 14 x^2 + 8 x ) / 48
+
+so there are 56 different ways to three-color the faces.  i spent the
+better part of an evening and most of the night calculating (by hand)
+the orders of these subgroups.  shortly thereafter, i saw an announcement
+for the group theory package GAP, which specifically mentions calculating
+the order of the rubik's cube group.  so i used the package to verify my
+answers.  here's the list (i don't see a canonical way of ordering them):
+
+ 1. |<>|                                               =                    1
+ 2. |<U2>|                     = 2                     =                    2
+ 3. |<U>|                      = 2^2                   =                    4
+ 4. |<U2, D2>|                 = 2^2                   =                    4
+ 5. |<U, D2>|                  = 2^3                   =                    8
+ 6. |<U, D>|                   = 2^4                   =                   16
+ 7. |<U2, R2>|                 = 2 3                   =                   12
+ 8. |<U, R2>|                  = 2^6 3^2 5^2           =                14400
+ 9. |<U, R>|                   = 2^6 3^8 5^2 7         =             73483200
+10. |<U2, R2, L2>|             = 2^5 3                 =                   96
+11. |<U, R2, L2>|              = 2^12 3^4 5^2 7        =             58060800
+12. |<U2, R, L2>|              = 2^12 3^4 5^2 7        =             58060800
+13. |<U2, R, L>|               = 2^14 3^4 5^2 7^2      =           1625702400
+14. |<U, R, L2>|               = 2^14 3^11 5^2 7^2     =        3555411148800
+15. |<U, R, L>|                = 2^14 3^13 5^3 7^2     =      159993501696000
+16. |<U2, R2, F2>|             = 2^5 3^4               =                 2592
+17. |<U, R2, F2>|              = 2^8 3^5 5^2 7         =             10886400
+18. |<U, R, F2>|               = 2^10 3^12 5^2 7^2     =         666639590400
+19. |<U, R, F>|                = 2^18 3^12 5^2 7^2     =      170659735142400
+20. |<U2, R2, L2, D2>|         = 2^6 3                 =                  192
+21. |<U, R2, L2, D2>|          = 2^13 3^4 5^2 7        =            116121600
+22. |<U, R2, L2, D>|           = 2^15 3^4 5^2 7^2      =           3251404800
+23. |<U, R, L2, D2>|           = 2^15 3^11 5^2 7^2     =        7110822297600
+24. |<U, R, L, D2>|            = 2^15 3^13 5^3 7^2     =      319987003392000
+25. |<U, R, L, D>|             = 2^16 3^14 5^3 7^2 11  =    21119142223872000
+26. |<U2, R2, L2, F2>|         = 2^11 3^4              =               165888
+27. |<U, R2, L2, F2>|          = 2^13 3^5 5^2 7^2      =           2438553600
+28. |<U2, R, L2, F2>|          = 2^14 3^5 5^2 7^2      =           4877107200
+29. |<U2, R, L, F2>|           = 2^14 3^5 5^2 7^2      =           4877107200
+30. |<U, R2, L2, F>|           = 2^14 3^13 5^3 7^2 11  =     1759928518656000
+31. |<U2, R2, L, F>|           = 2^14 3^13 5^3 7^2 11  =     1759928518656000
+32. |<U2, R, L, F>|            = 2^14 3^13 5^3 7^2 11  =     1759928518656000
+33. |<U, R, L2, F>|            = 2^24 3^13 5^3 7^2 11  =  1802166803103744000
+34. |<U, R, L, F>|             = 2^24 3^13 5^3 7^2 11  =  1802166803103744000
+35. |<U2, F2, R2, L2, B2>|     = 2^13 3^4              =               663552
+36. |<U, F2, R2, L2, B2>|      = 2^16 3^5 5^2 7^2      =          19508428800
+37. |<U2, F, R2, L2, B2>|      = 2^16 3^5 5^2 7^2      =          19508428800
+38. |<U2, F2, R, L, B2>|       = 2^16 3^5 5^2 7^2      =          19508428800
+39. |<U2, F, R, L2, B2>|       = 2^16 3^14 5^3 7^2 11  =    21119142223872000
+40. |<U, F, R2, L2, B2>|       = 2^16 3^14 5^3 7^2 11  =    21119142223872000
+41. |<U2, F, R, L, B2>|        = 2^16 3^14 5^3 7^2 11  =    21119142223872000
+42. |<U, F2, R, L, B2>|        = 2^16 3^14 5^3 7^2 11  =    21119142223872000
+43. |<U, F, R, L2, B2>|        = 2^27 3^14 5^3 7^2 11  = 43252003274489856000
+44. |<U2, F, R, L, B>|         = 2^16 3^14 5^3 7^2 11  =    21119142223872000
+45. |<U, F2, R, L, B>|         = 2^27 3^14 5^3 7^2 11  = 43252003274489856000
+46. |<U, F, R, L, B>|          = 2^27 3^14 5^3 7^2 11  = 43252003274489856000
+47. |<U2, F2, R2, L2, B2, D2>| = 2^13 3^4              =               663552
+48. |<U, F2, R2, L2, B2, D2>|  = 2^16 3^5 5^2 7^2      =          19508428800
+49. |<U, F2, R2, L2, B2, D>|   = 2^16 3^5 5^2 7^2      =          19508428800
+50. |<U, F, R2, L2, B2, D2>|   = 2^16 3^14 5^3 7^2 11  =    21119142223872000
+51. |<U, F, R2, L2, B, D2>|    = 2^16 3^14 5^3 7^2 11  =    21119142223872000
+52. |<U, F, R, L2, B2, D2>|    = 2^27 3^14 5^3 7^2 11  = 43252003274489856000
+53. |<U, F, R2, L2, B, D>|     = 2^16 3^14 5^3 7^2 11  =    21119142223872000
+54. |<U, F, R, L, B2, D2>|     = 2^27 3^14 5^3 7^2 11  = 43252003274489856000
+55. |<U, F, R, L, B, D2>|      = 2^27 3^14 5^3 7^2 11  = 43252003274489856000
+56. |<U, F, R, L, B, D>|       = 2^27 3^14 5^3 7^2 11  = 43252003274489856000
+
+subgroups with the same order are equal (possibly after necessary rotation
+of the cube) with the following exceptions: (3, 4), (11, 12), (30, 31) and
+(30, 32).  equality of various pairs of subgroups can be obtained from the
+three maneuvers:
+
+     R L F2 R2 F B L F2 B2 R2 F2 B2 L F B3 R3 L3  ~  U2 ,
+                so that  <L, F, R, B> = <L, F, R, B, U2>,
+
+     F2 U2 L2 F2 R2 U2 F2 R F2 U2 R2 F2 L2 U2 F2  ~  L ,
+                so that  <U2, F2, R, L2> = <U2, F2, R, L>  and
+
+     R2 F2 B2 L2 U2 L2 F2 B2 R2  ~  D2 ,
+                so that  <U2, F2, R2, L2, B2> = <U2, F2, R2, L2, B2, D2>.
+
+
+thistlethwaite's filtration is  56 --> 53 --> 49 --> 47 --> 1.
+kloosterman replaced  47  by a subgroup not on this list (one not obtained
+by restricting face turns).  call this  56 --> 53 --> 49 --> kl --> 1.
+(in his final stage, kloosterman allows all twists available in the
+subgroup  49.)  my filtration is  56 --> 19 --> 17 --> 1 , which was
+chosen precisely because it had the smallest size of the largest coset
+space amongst all three stage filtrations with subgroups from the above.
+winter's filtration is  56 --> 49 --> kl --> 1.  it may be the case that
+this can be improved by replacing  kl  with  17 , and allowing all face
+turns available in the subgroup  49.  i haven't had the time to look into
+this yet.
+
+using subgroups on the list above, we see that the only reasonable two
+stage filtrations are:
+
+56 --> 29 --> 1    with coset sizes     8868372480    and   4877107200
+56 --> 22 --> 1    with coset sizes    13302558720    and   3251404800
+56 --> 27 --> 1    with coset sizes    17736744960    and   2438553600
+56 --> 49 --> 1    with coset sizes     2217093120    and  19508428800
+56 --> 13 --> 1    with coset sizes    26605117440    and   1625702400
+
+of these, the best seems to be  56 --> 49 --> 1 , since it has the most
+symmetries (16).  the number of symmetries the others have is  4 (for 29),
+8 (for 22), 2 (for 27) and 2 (for 13).  furthermore, aside from subgroup
+49, the other intermediate groups seem to have too much restriction to
+be efficient.  also, of course, dik winter has already calculated that
+the stage  56 --> 49  can always be accomplished in 12 face turns.
+
+
+> On 29 Jan 1992, wft@math.canterbury.ac.nz (Bill Taylor) posted
+
+> > There hasn't been any response to this, seemingly, which is a pity.
+
+> For some reason, I never saw Bill's message.  I just noticed it when
+> comparing my files against the archives.  [ Archives seekers note: the
+> archives have moved to FTP.LCS.MIT.EDU (18.26.0.36), still in
+> directory /pub/cube-lovers. ]
+
+i also seem to have missed both allen's post as well as bill's reply.
+perhaps 'twas the twilight zone between the start of my subscription to
+cube-lovers and the time it takes recent messages to reach the archives.
+
+however, i don't find the archives on  ftp.lcs , but rather on
+ftp.ai.mit.edu.  also i see we've spawned  cube-mail-8.Z.
+
+> > In any event, I would like to know of any other well-known subgroups.
+> > There are the slice group; double-slice group; U group; square group;
+> > anti-slice group. How many others are there not mentioned here, that 
+> > people know of ?
+
+in addition to those listed above there are subgroups generated by
+combinations of face turns and slice turns, e.g.  <U, M_R>, <U2, M_R>,
+<U, R, M_R>, etc.  i haven't looked at these at all.  there's a lot of
+work to be done here.
+
+mike
+

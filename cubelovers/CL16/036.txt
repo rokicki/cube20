@@ -1,0 +1,175 @@
+From hoey@aic.nrl.navy.mil  Thu Jun 22 03:44:23 1995
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02954; Thu, 22 Jun 95 03:44:23 EDT
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA25013; Thu, 22 Jun 95 03:43:59 EDT
+Date: Thu, 22 Jun 95 03:43:59 EDT
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9506220743.AA25013@Sun0.AIC.NRL.Navy.Mil>
+To: Cube-Lovers@ai.mit.edu,
+        "Martin Schoenert" <Martin.Schoenert@math.rwth-aachen.de>
+Subject: Ways to Calculate the Real Size of Cube Space?
+In-Reply-To: <m0sO2aQ-00026zC@hobbes.math.rwth-aachen.de>
+
+Martin Schoenert says:
+> I can't figure out how the brute force computer search works.
+
+and while Jerry Bryan gives one answer, I have another.  For you see,
+I also ran a brute force computer search for the symmetry classes,
+too.  And while it agrees with Jerry's answers, mine was a
+significantly different algorithm, which I discuss a little a the end
+of this message.
+
+> It appears to me that Dan and Jim Saxe must have realized all the
+> important pieces for your new method when they wrote their seminal
+> ``Symmetry and Local Maxima (long message)'' message of 1980/12/14.
+> As Jerry points out, they did calculate the important values for
+> 9 of the 33 conjugacy classes of subgroups of M (those whose sizes
+> are a multiple of 12).  It is neither clear from their message how
+> they found those 9 classes (in fact they apparently found all 98
+> subgroups of M), nor how they computed the numbers of elements of
+> G that have a specific subgroup of M as symmetry group.
+> Perhaps Dan can say a little bit more about this?
+
+First, to find all the subgoups of M.  I represented the elements of M
+as a list of permutations on faces, found easily enough by finding the
+closure of the generators.  Then I did a depth-first search for
+subgroups, branching by computing the closure of the current subgroup
+with each possible element not in that subgroup, and cutting off the
+search on previously-seen subgroups.  It's quick, it's dirty, it
+works.  I found the nine subgroups of order a multiple of 12, as shown
+in the Hasse subgroup diagram:
+
+    order 48 . . . M_
+                  /|\\_ 
+                 / | \ \_ 
+                /  |  \  \_
+    order 24 . A . H . C   \_
+                \  |  /      \_
+                 \ | /         \_
+                  \|/            \
+    order 12 . . . E . . . . .T[1..4]
+
+(except we called E "AC" back then).  The trick then was to find all
+the E-symmetric positions and all the T1-symmetric positions; the
+tasks of finding the full symmetry group of such positions and
+counting the positions for T2, T3, and T4 were straightforward.
+
+The best tool we had for figuring out symmetric positions was
+essentially the one I wrote about in ``The real size of cube space''
+on 4 Nov 94.  For a subgroup J of M, if a position g is J-symmetric,
+then g must commute with each operation m in J.  Recall:
+
+The fundamental principle we use in finding whether g commutes with
+m can be found by examining the cycles of m.  Suppose m permutes a
+cycle (c1,c2,...,c[k-1],ck), so that
+    c2=m(c1), c3=m(c2), ..., ck=m(c[k-1]), and c1=m(ck).
+For g to commute with m, we have
+    g(c2)=m(g(c1)), g(c3)=m(g(c2)), ..., g(ck)=m(g(c[k-1])),
+    and g(c1)=m(g(ck)).
+So (g(c1),g(c2),...,g(ck)) is also a cycle of m.  Thus g must map each
+k-cycle of m to another k-cycle of m, and in the same order.
+
+The orientation question was a lot more difficult, so we ran through a
+bunch of little results.  The following is a cleaned-up sample of the
+sort of arguments, as I remember them.  In it FRD is an unoriented
+corner cubie/cubicle and FRD.D is its down-facing color-tab/facicle.
+================================================================
+    Lemma 1: Suppose X and Y are corners, and m is in C, m(X)=Y.
+             Suppose g(X)=X and g(Y)=Y, and g commutes with m,
+             Then g applies the same twist to corners X and Y.
+    Proof: Let TX,TY be the clockwise 120-degree rotation of corners
+           cubies X and Y, respectively.  Then m(TX(.))=TY(m(.)), as
+           can be seen by the fact that we could apply a twist to X in
+           place (TX) before moving it to Y with m, or we can perform
+           the same twist on Y (TY) after moving it.  So if
+           g(X)=TX^k(X), then
+           g(Y)=g(m(X))=m(g(X))=m(TX^k(X))=TY^k(m(X))=TY^k(Y).
+           performing the same twist on Y as on X,               QED.
+
+    Lemma 2: If g is E-symmetric, then each corner cubie remains in
+             its home cubicle (not considering orientation).
+    Proof: Supposing otherwise, take a moved cubie (without loss of
+           generality) to be FRD, and suppose (w.l.o.g.) it moves to
+           one of locations FDL, FLT, or BTL.
+        Case 1.  If g(FRD)=FDL, consider operation m to be the
+                 120-degree rotation about FRD.
+                 m(FRD)=FRD, m(FDL)=FTR.  So
+                 g(FRD)=g(m(FRD))=m(g(FRD))=m(FDL)=FTR, contradicting
+                 g(FRD)=FDL.
+        Case 2.  If g(FRD)=FLT, then take m as in case 1; m(FLT)=BRT,
+                 so g(FRD)=g(m(FRD))=m(g(FRD))=m(FLT)=BRT,
+                 contradicting g(FRD)=FDL.
+        Case 3.  If g(FRD)=BTL, then g(FRD.F) is BTL.B, BTL.T, or
+                 BTL.L.
+        Case 3a. If g(FRD.F)=BTL.B, then g(FRD.R)=BTL.T, by clockwise
+                 adjacency.  But m(FRD.F)=FRD.R and m(BTL.B)=BTL.L,
+                 and g(FRD.R)=g(m(FRD.F))=m(g(FRD.F))=m(BTL.B)=BTL.L
+                 contradicts G(FRD.F)=BTL.B.
+        Cases 3b and 3c work the same way.
+           The contradictions establish that FRD does not move,  QED.
+
+    Lemma 3: If g is E-symmetric, then the twists of the four corner
+             cubies FRD, FLT, BLD, and BRT agree with each other, and
+             and the other four also agree with each other.
+    Proof: For any two of the four corners (e.g. FRD, FLT), there is
+           a 120-degree rotation in E taking one to the other
+           (e.g. the rotation about FTR).  Lemma 1 applies
+           immediately to show the twists agree,                 QED.
+
+    Lemma 4. If g is E-symmetric, then the corner cubies are all
+             solved, or are rotated alternately in opposite
+             directions.
+    Proof: From Lemma 2, all the cubies are in their home cubicles.
+           If one of the sets from Lemma 3 is twisted, their total
+           twist is the twist of a single cubie (since there are four
+           of them) and so must be counteracted by having the other
+           set twisted in the opposite direction, which is alternate
+           corners twisted oppositely; otherwise all corner are
+           solved,                                               QED.
+
+    Lemma 5. Let T1 refer to the group that fixes the FRD-BTL axis.
+             Then any T1-symmetric position g must keep the FRD and
+             BTL cubies in their solved position, and rotated by the
+             same amount.
+    Proof: Let m be the 120-degree rotation about FRD, which is in T1.
+           Since FRD and BTL are the only 1-orbits of m, they are kept
+           in place or swapped.  From the proof of Lemma 2 (which uses
+           the same m) they cannot be swapped.  Otherwise, the two
+           cubies are kept in place, and 180 degree rotation about the
+           FL-BR axis, also in T1 fulfills the requirements of Lemma 1
+           to show they will both be rotated the same amount,    QED.
+================================================================
+That's about all I feel like remembering and formalizing right now.
+As you can see, it's long, mechanical, and boring.  That's why we
+never got around to writing it all down.
+
+Early last year I wrote a computer program to find *all* the symmetry
+groups of *all* the positions.  The first part did the corners and
+edges separately, counting the number of positions for each symmetry
+group and permutation parity.  For each of the 8! or 12! permutations,
+I checked to see if the permutation commuted with some nontrivial
+operation of M; if not, I just counted the appropriate number of
+I-symmetric positions.  Otherwise I applied orientations and counted
+up the symmetry groups of each possible orientation.  (It could
+probably have been made to go faster, by cutting off partial
+permutation or orientation generation as soon as all the non-trivial
+operations were ruled out.)
+
+In the above counts, I also kept track each time of whether the
+permutation was even or odd.  Then after I had the count of even and
+odd permutations for corners and edges in each symmetry group, I had a
+program that intersected the symmetry groups, and for each pair of
+subgroups J,K, and each parity P, I added
+    Corners[J,P] * Edges[K,P]  to  Whole[J intersect K, P], 
+with some fancy footwork so I only needed to deal with conjugacy
+classes for J and K.  Then for each K, the number of whole K-symmetric
+positions was Whole[K,Even]+Whole[K,Odd].
+
+The program finished about the time I realized the application of the
+Polya-Burnside theorem.  Then for most of the year, I put off writing
+it all up.  I have Jerry to thank for reminding me to get with it, and
+for useful comments and discussions on the early drafts.
+
+Dan
+

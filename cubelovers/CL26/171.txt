@@ -1,0 +1,43 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 16 16:11:07 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA02530
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 16 Mar 1999 16:11:07 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19990314063522.18949.rocketmail@send103.yahoomail.com>
+Date: Sat, 13 Mar 1999 22:35:22 -0800 (PST)
+From: Han Wen <hansker@yahoo.com>
+Subject: Temporary Fix for OddzOn Sticker Peel
+To: Cube Lovers <Cube-Lovers@ai.mit.edu>
+
+Hi,
+
+For those folks out there, like myself, frustrated with OddzOn sticker
+peel problem, there is an effective method to prolonging the life of
+these pitiful stickers. I got this technique from one of the posts on
+the Rubik's website.
+
+Currently, the plastic laminate that makes up the surface of the
+stickers for OddzOn Rubik's Cubes starts to peel at the edges after
+only a few weeks of intensive playing.
+
+Well, get yourself some long-lasting acrylic nail polish and paint
+over all the stickers. (Make sure you do this when the cube is brand
+new.) I know, it's a pain in the ass, but it's worth it. The first
+coat lasts for about 2-3 weeks before the edges start peeling again.
+What I do then is take a razor blade and cut off the peeled away
+sections and then nail polish over the stickers again.  You'll
+probably get another 2-3 weeks of intensive play again before the cut
+laminate starts peeling again.  However, after I repeated this process
+once more (razor blade cut/nail polish over), the stickers have now
+lasted over several months without additional peel. Hope this helps...
+
+==
+_________________________________________________________
+Han Wen
+Applied Materials
+3050 Bowers Ave, MS 1145
+Santa Clara, CA  95054
+e-mail: Han_Wen@amat.com / hansker@yahoo.com
+

@@ -1,0 +1,56 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jan 22 12:46:32 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA17608; Thu, 22 Jan 1998 12:46:31 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Jan 22 00:44:32 1998
+Date: Thu, 22 Jan 1998 00:43:14 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Face Turns Nine Moves from Start
+In-Reply-To: <Pine.PMDF.3.95.980112230236.123792A-100000@PSTCC6.PSTCC.CC.TN.US>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.980122001920.61579B-100000@PSTCC6.PSTCC.CC.TN.US>
+
+On Mon, 12 Jan 1998, Jerry Bryan wrote:
+
+> I have not yet installed the logic to detect weak local maxima.  The logic
+> to detect strong local maxima is installed with an interesting result. Two
+> patterns were detected at 9f from Start which are strong local maxima.
+> Regrettably, I have no idea what they are.  I will have to add something
+> to the program to print out strong local maxima when they are detected.
+> All I know is that the patterns are at least "somewhat symmetric" in that
+> they collectively represent only 32 positions.
+
+I have not yet added the logic for weak local maxima, but further perusing
+of my printout from the run which has already been made does yield a bit
+of confirmation to some previous results reported by others.
+
+At each distance from Start, my program summarizes the number of patterns
+and positions by the symmetry class (one of the 33 symmetry classes of M,
+the group of 48 symmetries of the cube).  Hence, I can easily look for
+"highly symmetric" positions based on the symmetry class.  Of the 72
+positions defined as q-transitive by Jim Saxe and Dan Hoey in Symmetry and
+Local Maxima, only 4 of them show up in the search through 9f.  One of
+them is at 0f (Start), one of them is at 6f (Pons Asinorum, a weak local
+maximum, only the six half turns move closer to Start), and two of them
+are at 8f (the two conjugate 6-H positions, weak local maxima with only
+the six half turns moving closer to Start).
+
+We therefore know that the two patterns at 9f which are strong local
+maxima are not q-transitive, and cannot be shown to be local maxima by
+symmetry considerations alone.
+
+Strictly speaking, we already knew all this based on Dan's study of Pons
+Asinorum from many years ago, and based on Mike Reid's recent studies of
+highly symmetric positions with his optimal cube solver.  Jim Saxe found
+the 8f processes for the 6-H positions many years ago, but I do not
+believe that they were shown to be minimal until Mike's recent work.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

@@ -1,0 +1,27 @@
+From diamond@jrdv04.enet.dec-j.co.jp  Wed Oct 26 20:35:05 1994
+Return-Path: <diamond@jrdv04.enet.dec-j.co.jp>
+Received: from jnet-gw-1.dec-j.co.jp by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08345; Wed, 26 Oct 94 20:35:05 EDT
+Received: by jnet-gw-1.dec-j.co.jp (8.6.9/JNET-GW-940327.1); id JAA20823; Thu, 27 Oct 1994 09:34:28 +0900
+Message-Id: <9410270034.AA24443@jrdmax.jrd.dec.com>
+Received: from jrdv04.enet.dec.com by jrdmax.jrd.dec.com (5.65/JULT-4.3)
+	id AA24443; Thu, 27 Oct 94 09:34:52 +0900
+Received: from jrdv04.enet.dec.com; by jrdmax.enet.dec.com; Thu, 27 Oct 94 09:34:53 +0900
+Date: Thu, 27 Oct 94 09:34:53 +0900
+From: Norman Diamond  27-Oct-1994 0932 <diamond@jrdv04.enet.dec-j.co.jp>
+To: cube-lovers@life.ai.mit.edu
+Apparently-To: cube-lovers@life.ai.mit.edu
+Subject: Re: Record times for the cube
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+>Ouch!  I fat-fingered it, sorry.
+>From: Gerry Howser <HOWSER @ LUA6>
+>To: <cube-lobers @ LIFE.AI.MIT.EDU>
+>I could solve any cube in about a minute and a half,
+
+Nonsense.  Anyone who can't hit the "v" key on their keyboard is surely
+incapable of manipulating the right cubie :-)
+
+-- Norman Diamond       diamond@jrdv04.enet.dec.com
+[Digital did not write this.]
+

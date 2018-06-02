@@ -1,0 +1,40 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug 18 16:16:56 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA02836; Mon, 18 Aug 1997 16:16:56 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From nbodley@tiac.net Sun Aug 17 14:33:24 1997
+Date: Sun, 17 Aug 1997 09:23:04 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Dan Hoey <Hoey@aic.nrl.navy.mil>
+Cc: Cube Mailing List <Cube-Lovers@ai.mit.edu>
+Subject: Patterns on larger cubes (Was Re: isoglyphs)
+In-Reply-To: <199708170235.WAA07984@sun30.aic.nrl.navy.mil>
+Message-Id: <Pine.SUN.3.95.970817091106.22282A-100000@sunspot.tiac.net>
+
+ Perhaps many List subscribers have realized that (unless I'm very
+confused!) while the current highly-evolved discussion of patterns
+(isoglyphs, etc.) pertains only to 3^3s, there must be enormous "worlds to
+conquer"  when one considers [maneuvers] to create patterns on the 4^3
+(Rubik's Revenge) and the 5^3.
+
+ I understand little of the current discussion about isoglyphs (even if
+the term itself makes sense); nevertheless, it's delightful to see such
+discussions going on, and I have great respect for those who do understand
+and can contribute. (I wouldn't have it any other way!)
+
+ It's perhaps of interest to consider a Theory of Mechanisms, in which it
+would be possible (eventually) to design an optimum set of innards for,
+say, a 5^3, or to rigorously prove that what exists is optimal.
+Connections with topology and kinematics would be not at all unexpected. 
+Close connections with CAD would also make sense.
+
+My best regards to all,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+

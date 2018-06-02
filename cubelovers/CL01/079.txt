@@ -1,0 +1,6 @@
+Date:  7 January 1981 12:59 est
+From:  Greenberg.Symbolics at MIT-Multics
+Subject:  Lisp Machine Color cubesys
+To:  cube-lovers at MIT-MC
+
+Lisp machine color cubesys has been fixed.

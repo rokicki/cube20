@@ -1,0 +1,94 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Jun  6 23:32:00 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id XAA11082 for <cube-lovers-outbound@curry.epilogue.com>; Thu, 6 Jun 1996 23:32:00 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 5 Jun 1996 23:07:24 -0400
+From: Jim Mahoney <mahoney@marlboro.edu>
+Message-Id: <199606060307.XAA14353@ marlboro.edu>
+To: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <Pine.PMDF.3.91.960605084501.9735A-100000@PSTCC6.PSTCC.CC.TN.US> (message from Jerry Bryan on Wed, 05 Jun 1996 10:22:31 -0500 (EST))
+Subject: Re: A essay on the NxNxN Cube : counting positions and solving it
+
+
+>>>>> "Jerry" == Jerry Bryan <jbryan@pstcc.cc.tn.us> writes:
+    Jerry>  This has been discussed before on Cube-Lovers, but I am
+    Jerry> still puzzled or curious about the usage of the word
+    Jerry> "orbit".
+
+So am I, actually.  Dan Hoey just replied with a much more detailed
+understanding of the group theory aspects of this word than I have at
+present, which I'll have to think about some more.  For myself, I mean
+no more and no less than a set of cubies which can move into each
+other's positions.  For a 3x3x3 cube which I imagine to be made of of
+3^3=27 smaller cubes (cubies), what I call "orbits" are exactly those
+cubies at the 8 corners, 12 edges, 6 faces, and 1 (unseen) at the
+center.
+
+    Jerry> Secondly, if my understanding of your model is correct, you
+    Jerry> are treating positions as distinct which cannot be
+    Jerry> distinguished with normal coloring of a physical cube (even
+    Jerry> an imaginary physical cube for large N).
+
+Yes, exactly.  As Dan just said, he has discussed this vision of the
+cube in earlier notes, and called it the "theoretical invisible cube".
+
+When I started thinking about these larger cubes, I built them by
+making piles of dice.  All the inner cubies were there, and all had
+definite orientations, and I could see them every time I tried to
+rotate a slice - which required carefully seperating out the layers,
+turning one, and putting everything back together.  So perhaps that's
+why I liked those "invisible" inside pieces.  But it also seemed more
+elegant.  The restricted versions (only the outside, only the
+orientations of the corners and edges, etc.) are all special cases.
+
+    Jerry> There are several implications of how you treat visibly
+    Jerry> indistinguishable positions.  For example, it impacts your
+    Jerry> counts of how many positions there are.  For another
+    Jerry> example, it impacts your solutions (e.g., "invisible"
+    Jerry> incorrect parity on the 4x4x4.  "Invisible" bad parity can
+    Jerry> also occur on the 3x3x3 if you remove the face center color
+    Jerry> tabs.  A slice move will give the edges and corners
+    Jerry> opposite parity that is not visible.)  Perhaps you could
+    Jerry> discuss these issues with respect to your model.
+
+I'm not sure what there is to say; you seem to understand the issues.
+
+Yes, I am counting "visibly indistinguishable" positions as different,
+especially on the larger cubes, if by "visibly" you mean to only look
+at the outside.  I'm assuming that either the whole thing is
+transparent, or that you can take it apart, and see the inside cubies
+if you like.  There are parity constraints between the different
+orbits, including the ones on the inside that are "invisible," but
+they turn out to be fairly simple: the parity of each orbit of corners
+and the central cubie, from the outer layer all the way down to the
+inside, are independent, and can be chosen arbitrarily.  And once
+they're fixed, the parity of all the other orbits is given.  
+
+By "bad" parity I assume you mean a case when the edges and corners
+have different parities.  Starting from the solved (even parity) 3x3x3
+Cube, a slice move definitely does this; four outside edges cycle, and
+the corners don't move.  However, on the 3x3x3, this *is* visible,
+since the face centers will also have odd parity.  Moreover, the
+central cube (which you can't see, of course, and isn't really there
+on a real cube) also has odd parity, in a way: it has undergone an odd
+number of quarter turns.  On a 4x4x4, a slice move on a solved cube
+changes the parity of the inside 2x2x2 corners (which you can't see)
+and the edges (which you can).  The parity of the outer corners is
+left unchanged, since they didn't move, and the parity of the face
+centers is also unchanged, since 8 of them move in two cycles of four
+cubies.  Then the fact that the outside edges are odd while the
+outside corners are even simply means that the inside 2x2x2 corners
+are also odd.  That's all.
+
+
+Hope that helps,
+
+  Dr. Jim Mahoney                          mahoney@marlboro.edu
+  Physics & Astronomy
+  Marlboro College, Marlboro, VT  05344
+
+
+
+

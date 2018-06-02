@@ -1,0 +1,186 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jul 27 17:33:49 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id RAA15152; Mon, 27 Jul 1998 17:33:48 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Jul 26 15:51:06 1998
+Message-Id: <35BB827C.10B7C9A7@t-online.de>
+Date: Sun, 26 Jul 1998 21:24:44 +0200
+Reply-To: Rainer.adS.BERA_GmbH@t-online.de
+Organization: BERA Softwaretechnik GmbH
+To: Cube Mailing List <Cube-Lovers@ai.mit.edu>
+Subject: 4*4*4 patterns
+From: Rainer.adS.BERA_GmbH@t-online.de (Rainer aus dem Spring)
+
+Dear cube lovers,
+
+as promised the other day here comes my collection of 4*4*4 patterns.
+My favorites are the single twisted rings. I still find it surprising
+to see that there is no second ring on the "other" side.
+
+The maneuvers use all sorts of slice moves which are probably not
+accepted as moves by most cubeologists. I am too lazy to rewrite them.
+
+Does anybody have any idea which format I should post for people
+without a TeX system?
+Plain ASCII is not really what one needs to display cube maneuvers.
+
+I can offer Mathematica notebook, postscript, WINWORD (arrrrgh)and
+(perhaps?) pdfd.
+
+Does anybody know of a 4*4*4 emulator or even solver?  Anything like
+a (sub)optimal solver is probably beyond the current PC powers.
+
+Rainer
+
+PS
+I am NOT a LaTeX expert :) hints are welcome !
+
+[Moderator's note: The notation is fairly straightforward, but may
+ be new to cube-lovers.  Subscripts (encoded with underscores) show
+ which 1x4x4 slabs relative to the given face are turned; omitted
+ subscripts apparently mean the outer face, as "_1" would mean if it
+ were used.  Exponents have their usual meanings as repetition.  The
+ only advantage to running this through TeX seems to be that you get
+ true superscripts and subscripts and somewhat nicer fonts.
+
+ I've added a few commands that seem required by LaTeX.  I've also
+ replaced a number of narrow spaces (coded as backslash-comma) with
+ ordinary spaces, so that this is more readable as text and so that
+ some of the worst long-line problems are reduced.  Perhaps some of
+ these processes would be more readable if printed on multiple lines,
+ or punctuated somehow.  I wonder if there could be some
+ simplification with the [X,Y] = X Y X^{-1} Y^{-1} commutator notation
+ or the X^Y = Y^{-1} X Y conjugate notation, or if this would make the
+ processes too hard to follow. --Dan]
+
+\documentstyle{article}
+\begin{document}
+\section{Patterns}
+\subsection{Dot Patterns}
+\subsubsection*{2 Dots (u,d)}
+$(R^2_2 F_{23}^2)^2$
+
+Since this pattern exists it is obviously possible to create all dot
+patterns, i.e.\ all $6! = 720$ elements of the dot permutation group.
+
+\subsubsection*{2 Dots (f,r)}
+$D_2 R_{23}^2 D_2^{-1} L^2 B^2 U_2^{-1} R_{23}^2 U_2
+ R_{23}^2 B^2 L_{123}^2$
+
+\subsubsection*{3 Dots (f,b,r)}
+$L_{123}^2 B^2 U_2^2 R_{23}^2 U_2 R_{23}^2 U_2 B^2 L^2 D_2 R_{23}^2
+ D_2^{-1}$
+
+\subsubsection*{3 Dots (f,u,r)}
+$F_2^{-1} U^2 F_2 D_{23} F_2^{-1} U^2 F_2 D_{23}^{-1}
+ B_2 U^2 B_2^{-1} D_{23} B_2 U^2 B_2^{-1} D_{23}^{-1}$
+
+\subsubsection*{4 Dots (f,r)(l,b)}
+$D_2 R_{23}^2 D_2^{-1} U_2^{-1} R_{23}^2 U_2$
+
+\subsubsection*{4 Dots (f,b)(r,l)}
+$R_{23}^2 D_{23} R_{23}^2 D_{23}^{-1}$
+
+\subsubsection*{4 Dots (f,u)(r,l)}
+$R_2^{-1} U^2 R_2^2 B^2 R_2 R_{23}^2 D_{23} R_{23}^2 D_{23}^{-1}
+ R_2^{-1} B^2 R_2^2 U^2 R_2$
+
+\subsubsection*{6 Dots (f,b)(r,l)(u,d)}
+$D_{23} F_{23}^2 D_{23}^{-1} R_2^2 F_{23}^2 R_2^2$
+
+\subsection{Brick Patterns}
+\subsubsection*{Exchanged 1*1*1 Cubes}
+$B^{-1} U^{-1} B L^2 F^{-1} D R_2^2 B_2^2 R_{12}^2 B_2^2 R^2 B_2^2
+ F^{-1} D^{-1} F^2 L^2$
+
+\subsubsection*{Exchanged 1*1*2 Bricks}
+$R^2 U^2 R_{123}^{-1} D_{12}^{-1} R_{123} U^2 R_{123}^{-1} D_{12}
+ R_{123} U^2 F_{12} U^2 F_{12} U^2 F_{12}^{-1} U^2 R_2^2 F_{12}^2
+ R_2^2 F_{12}^2 R_{12}^2$
+
+\subsubsection*{Exchanged 1*1*3 Bricks}
+$B D^{-1} U^2 B^{-1} R^{-1} B U^2 F^{-1} L F^{-1} L^{-1} F^2 D B^{-1}$
+
+Of course, this is a 3*3*3 maneuver.
+
+\subsubsection*{Exchanged 1*2*2 Bricks}
+$R_{12} B R_{12}^{-1} F_{12}^2 R_{12} B^{-1} R_{12} D R_{12}^2
+ F_{12}^2$
+
+\subsubsection*{Exchanged 1*2*3 Bricks}
+$D^{-1} B_{12}^{-1} L^2 U^2 F_{12}^{-1} R_{123}^{-1} D_{12}^{-1}
+ R_{123} U^2 R_{123}^{-1} D_{12} R_{123} U^2 F_{12} U^2 F_{12} L^2
+ B_{12} D$
+
+\subsubsection*{Exchanged 1*3*3 Bricks}
+$F_2^2 R_{23}^2 F_2^2 B^{-1} U^{-1} B L^2 F^{-1} D L_2^2 B_2^2
+ L_{12}^2 B_2^2 L^2 B_2^2 F^{-1} D^{-1} F^2 L_{123}^2$
+
+\subsubsection*{Exchanged 2*2*2 Cubes}
+$B_{12}^{-1} U_{12}^{-1} B_{12} L_{12}^2 F_{12}^{-1} D_{12}
+ F_{12}^{-1} D_{12}^{-1} F_{12}^2 L_{12}^2$
+
+Of course, this is a 2*2 maneuver.
+
+\subsubsection*{Exchanged 2*2*3 Bricks}
+$U_2 L_{12}^2 U_2^{-1} D_2^{-1} L_{12}^2 D_2 R_{12} B R_{12}^{-1}
+ F_{12}^2 R_{12} B^{-1} R_{12} D R_{12}^2 F_{12}^2$
+
+\subsubsection*{Exchanged 2*3*3 Bricks}
+???
+
+\subsubsection*{Exchanged 3*3*3 Cubes}
+$F^2 L^2 D F^{-1} B_{12}^2 R^2 B_2^2 R_{12}^2 B_2^2 R_2^2 U^{-1} R B^2
+ R^{-1} D_{23} R F_{23}^2 R^{-1} D R $
+
+\subsubsection*{4 Chess Boards}
+$U^2 D_2^2 R^2 L_2^2 F^2 B_2^2 R^2 L_2^2$
+
+\subsubsection*{6 Bars}
+$F^2 R^2 F_{23}^2 L^2 F_2^2 D_{23}^2 F_{12}^2 D_{23}^2$
+
+\subsubsection*{2 Twisted Rings}
+$L_{12}^2 F_{12}^{-1} L_{12}^{-1} F_{12} L_{12}^{-1} U_{12}
+ B_{12}^{-1} U_{12} B_{12} U_{12}^2 (B^{-1} U^2 B R^{-1} U^2 R)^2$
+
+Certainly not the shortest maneuver.
+
+\subsubsection*{1 Small Twisted Ring}
+$F^{-1} L_2^2 F R^2 B_2 U^{-1} B_2^{-1} D_{12}^{-1} B_2 U B_2^{-1}
+ D_{12} R^2 F^{-1} L_2^2 F$
+
+\subsubsection*{1 Large Twisted Ring}
+$F_{12}^{-1} R_{12} D_2^2 R_{12}^{-1} U_{12}^{-1} R_{12} D_2^2 U L_2
+ D_2^{-1} L_2^{-1} U^{-1} L_2 D_2 L_2^{-1} R_{12}^{-1} U_{12} F_{12}$
+
+\subsubsection*{4 Diagonals}
+$U(R^2 F R^2 D_{23}^2)^2 U_{12}^{-1} F^2 R_{12}^2 D_{23} R_2^2
+ D_{23}^{-1} R^2 F^2 U_2$
+
+\subsubsection*{2 Small Twisted Peaks}
+$B_2^2 D_2^2 L_{12}^2 U F^2 L^2 D^{-1} L^{-1} D L^{-1} F U^{-1} F
+ L_{12}^2 D_2^2 B_2^2$
+
+\subsubsection*{2 Large Twisted Peaks}
+$D_{12}^2 R_{12}^{-1} D_{12}^{-1} R_{12} D_{12}^{-1} F_{12}
+ L_{12}^{-1} F_{12} L_{12} F^2 U_2^2 R_2^2 F^{-1} R D_{23}^2 R^{-1}
+ U^{-1} R D_{23}^2 R^{-1} U F R_2^2 U_2^2 F_2^2$
+
+\subsection{Snakes}
+\subsubsection*{Snake 1}
+$L_{12}^{-1} U_2^2 L_{12} F_{12}^2 L_2 F_{12}^2 R_2^{-1} D_{12}^2 R_2
+ U_{12}^2 R_2^{-1} D_{12}^2 R_2 U_{12}^2$
+
+\subsubsection*{Snake 2}
+$F^2 B^2 D^2 L_2 D^2 L_2^{-1} D^2 R_2 D^2 R_2^{-1} B^2 L_2 F^2 R_{12}
+ U_2^2 R_{12}^{-1}$
+
+\subsubsection*{Snake 3}
+$D_{12} R_{12}^2 F_{12} R_{12}^{-1} B_2 R_{12} F_{12}^{-1} R_{12}^2
+ D_{12}^{-1} R_{12}^{-1} B_{12}^2 D_{12}^{-1} B_{12} L_2^{-1}
+ B_{12}^{-1} D_{12} B_{12}^2 R_{12}$
+
+\end{document}
+

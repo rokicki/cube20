@@ -1,0 +1,29 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 26 15:39:42 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA12037
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 26 Mar 1999 15:39:42 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 25 Mar 1999 23:58:38 -0500 (Eastern Standard Time)
+From: Dale Newfield <din5w@cs.virginia.edu>
+Reply-To: DNewfield@cs.virginia.edu
+To: cube-lovers@ai.mit.edu
+Subject: RE: Re : RE: parity pairs
+In-Reply-To: <009D5A93.46B93D17.11@ice.sbu.ac.uk>
+Message-Id: <Pine.WNT.4.10.9903252355560.-498359@biff.cs.virginia.edu>
+
+On Thu, 25 Mar 1999, David Singmaster wrote:
+> 	If one really wants trouble with cube colors being indistinguishable
+> try solving under a sodium vapor street lamp.  I found this gave two colors:
+> grey and greyer!
+
+Or corner Andrew Plotkin and get him to let you try out "The Liquid
+Crystal Cube" (http://www.eblong.com/~zarf/custom-cubes.html) -- Apparently
+quite a challenge.
+
+-Dale
+
+[Moderator's note: I was going to say "Mood cube", but of course zarf has
+ already heard that one. Tastefully, he resists the nomenclature. --Dan ]
+

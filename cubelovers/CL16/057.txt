@@ -1,0 +1,62 @@
+From nichael@sover.net  Sun Jul 23 14:08:25 1995
+Return-Path: <nichael@sover.net>
+Received: from maple.sover.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21318; Sun, 23 Jul 95 14:08:25 EDT
+Received: from [204.71.18.82] (st2.sover.net [204.71.18.82]) by maple.sover.net (8.6.12/8.6.12) with SMTP id OAA26687 for <Cube-Lovers@ai.mit.edu>; Sun, 23 Jul 1995 14:03:19 -0400
+Message-Id: <v02120d02ac3839b1ecb3@[204.71.18.82]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Sun, 23 Jul 1995 14:12:48 -0400
+To: Cube-Lovers@ai.mit.edu
+From: nichael@sover.net (Nichael Lynn Cramer)
+Subject: Rubik's Race
+
+[I don't know if this has been discussed before.  Maybe some of the old
+timers know about this --the copyright on the box is 1982-- but I don't
+recall having seen it mention since I've been on the list...]
+
+Anyway, Saturday we hit a rumage sale at the next town over (Hinsdale VT)
+and I picked up an interesting game in the "toys" section.  It's called
+"Rubik's Race".  (It was put out by Ideal and seems to be reasonably well
+made, so I assume it's "authorized".)
+
+The main "board" is about 18in long by about 7in wide.  The players set at
+either end and their section of the board has a recessed area that holds 24
+plastic pieces (about 1in square) aranged in a 5X5 grid with one empty
+space.
+
+(The square pieces are divided into six groups of four, each four-group
+being one of the standard colors on the side of the Cube.)
+
+At the start of a game, one player picks up a small box that contains nine
+small "cubies" (about 3/8in on a side), shakes the box and sets it down.
+The cubies settle onto the bottom of the box in 3X3 grid (thereby
+resembling the face of cube).  Each player then proceeds to slide his
+pieces around (using the blank as maneourvering space) until the center 3X3
+grid (out of the original 5X5 grid) matches the 3X3 "face" in the small
+box.
+
+The board is also divided between the two players' area by a vertical,
+hinged piece which can fall towards either end, and which has a "window" in
+the center.  When the player finishes his central 3X3 grid, he pulls the
+hinged pieces towards himself --the window of which exposes his central
+grid-- and declares himself the winner.
+
+An obvious variation is for one player to scramble a cube, set it on the
+table and have each player try to match the topmost face.
+
+So, as such the games provides an interesing combination of the Cube, the
+15-puzzle and Battleship.   ;-)
+
+(But probably the most amazing part is that, given that I picked this up at
+rummage sale, *all* of the nearly sixty small plastic pieces were still
+there!  All in all not a bad investment for 10cents.)
+
+
+
+
+
+Nichael              -  "...did I forget, forget to mention Memphis?
+nichael@sover.net           Home of Elvis, and the ancient Greeks."
+
+
+

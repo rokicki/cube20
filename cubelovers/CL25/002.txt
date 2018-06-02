@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar  9 11:40:13 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA07026; Mon, 9 Mar 1998 11:40:13 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Mar  8 20:10:06 1998
+Message-Id: <l03110700b128ef688d6e@[207.172.133.11]>
+Date: Sun, 8 Mar 1998 20:09:26 -0500
+To: tomkeane@mail.del.net, cube-lovers <cube-lovers@ai.mit.edu>
+From: Charlie Dickman <charlied@erols.com>
+Subject: Rubik's Tesseract Solution
+
+Tom and other cube-lovers,
+
+I have completed a solution to the Rubik Tesseract and have included it in
+the program and it's associated documentation but neither is ready for
+prime time just yet.
+
+I was wondering if there was anyone who would be kind enough to review the
+documentation and see if the write-up of the solution is reasonably
+intelligible and provide me some feedback before I make it and the program
+generally available. It is an HTML document (332K self-extracting-archive)
+that you can read with your browser.
+
+Thanks,
+
+Charlie Dickman
+charlied@erols.com
+

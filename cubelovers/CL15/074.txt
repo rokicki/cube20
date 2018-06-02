@@ -1,0 +1,16 @@
+From patrick@athos.med.auth.gr  Fri Apr  7 11:27:21 1995
+Return-Path: <patrick@athos.med.auth.gr>
+Received: from athos.med.auth.gr by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25540; Fri, 7 Apr 95 11:27:21 EDT
+Date: Fri, 7 Apr 1995 17:40:46 -0200 (GMT-0200)
+From: Patrick <patrick@athos.med.auth.gr>
+X-Sender: patrick@athos
+To: cube-lovers@life.ai.mit.edu
+Subject: subscribe
+Message-Id: <Pine.LNX.3.91.950407173703.24045B-100000@athos>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+subscribe listname
+patrick pfavayi
+
+

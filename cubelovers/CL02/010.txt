@@ -1,0 +1,24 @@
+Date:  16 January 1981 12:09 cst
+From:  VaughanW.REFLECS at HI-Multics (Bill Vaughan)
+Subject:  more on Swirl patterns: the Pinwheel
+To:  Cube-Lovers at MIT-MC
+
+I now have a class 2 swirl that looks like this:
+
+    uud
+    uld
+    udd
+ bbfrrrffbrrr
+ buflfrfdblbr
+ bfflllfbblll
+    uud
+    urd
+    udd
+
+It's pretty, and looks like a pinwheel from 4 of the corners, so i
+call it a Pinwheel.
+
+My current algorithm to get from SOLVED to Pinwheel is 84 qtw and
+not worth publishing - I expect to reduce that substantially in
+the near future.
+			Bill

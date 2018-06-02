@@ -1,0 +1,41 @@
+From @relay.cs.net:AGIN@cgi.com  Thu Dec 13 23:25:58 1990
+Return-Path: <@relay.cs.net:AGIN@cgi.com>
+Received: from RELAY.CS.NET by life.ai.mit.edu (4.1/AI-4.10) id AA18336; Thu, 13 Dec 90 23:25:58 EST
+Message-Id: <9012140425.AA18336@life.ai.mit.edu>
+Received: from relay2.cs.net by RELAY.CS.NET id ab06193; 13 Dec 90 23:25 EST
+Received: from cgi.com by RELAY.CS.NET id aa27113; 13 Dec 90 23:09 EST
+Date: Thu, 13 Dec 90 14:26 EDT
+From: AGIN%cgi.com@relay.cs.net
+Subject: Re: construction project
+To: cube-lovers@life.ai.mit.edu
+X-Vms-To: IN%"cube-lovers@life.ai.mit.edu"
+
+I was successful in creating Peter Beck's Christmas Tree ornament.
+
+The project requires 50 modules, not 120.  There are 30 outside modules and
+20 inside connecting modules.  The outside modules correspond to th edges of
+a dodecahedron.  The inside modules create an interior icosahedron.
+
+I used 3M Post-It notes cut in half, each starting rectangle being 3" by 1-
+1/2".  I folded the adhesive to the inside on the first step, so the
+adhesive was not holding the project together.  It probably would have been
+possible to use the adhesive to keep each module together.  This would have
+required a lot of extra care in the assembly, but produced a much sturdier
+product.  As it was, once I got the hang of it, I didn't have any major
+problems with modules coming apart.  The finished construction required no
+staples or extra glue.
+
+A previous attempt using 1" x 2" rectangles cut out of graph paper kept
+falling apart.  I've got a partially finished ornament made with dollar
+bills, which seem to work fine.
+
+The ideal shape for an outside module is not an equilateral triangle, but an
+isosceles one with an apex angle of about 42 degrees.  I took care of this
+by allowing the outside surfaces to bow outward.
+
+To finish the assembly I left three outside modules and their common
+connecting module until last.  The outside modules were threaded into place
+but not closed, with the ends of the paper pointing outward.  The connecting
+module was placed over the nearest ends of the three outside modules, then
+the outside modules could be closed.
+

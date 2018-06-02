@@ -1,0 +1,62 @@
+From mark.longridge@canrem.com  Wed Oct 18 01:38:43 1995
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12454; Wed, 18 Oct 95 01:38:43 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1F9828; Wed, 18 Oct 95 01:28:18 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Dino Cubes Revisited
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1251.5834.0C1F9828@canrem.com>
+Date: Wed, 18 Oct 95 01:17:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+As I mentioned recently:
+
+> The original Ideal colour arrangement was the tournament standard in
+> the U.S. and Canada.
+>
+> Top  =White,  Down =Blue
+> Left =Red,    Right=Orange
+> Front=Yellow, Back =Green
+
+Dan Hoey mentions:
+> manufactured with opposite faces ``differing by yellow''--red opposite
+> orange, blue opposite green, and yellow opposite white--
+
+ The ``differing by yellow'' colouring was pretty common on those
+"Wonderful Puzzlers".
+
+ The only difference in original Ideal cubes colouring and the
+Wonderful Puzzlers colouring is that Blue and Yellow are transposed.
+
+I just the 3 Dino Cubes I ordered from Gametrends.
+More new cubes!
+
+There are 3 different kinds:
+
+A) Each of the 6 faces of the cube is a unique solid colour.
+B) Each of the 6 faces of the cube is a unique solid colour with four
+ dinosaurs (six different dinos, 1 kind for each face)
+C) Each of the 4 tetrads is a unique colour.
+
+The Dino colouring is: (Just like the puzzlers)
+
+TOP  =White, DOWN =Yellow
+LEFT =Red,   RIGHT=Orange
+FRONT=Blue,  BACK =Green
+
+The packaging is a small white cardboard box devoid of any
+trademarks. The name on the box is "Dinosaur Rubik's Cube".
+
+All the regulars on cube-lovers will make mincemeat of this puzzle,
+and the 4 colour version is easier still! The mechanism is
+quite good (nice and smooth) and it is a good puzzle to have.
+
+The 6 colour version has 19,958,400 combinations.
+The 4 colour version has only 42,600 combinations.
+
+-> Mark <-
+
+

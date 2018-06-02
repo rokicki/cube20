@@ -1,0 +1,114 @@
+From @mail.uunet.ca:mark.longridge@CANREM.COM  Mon Sep 21 00:05:34 1992
+Return-Path: <@mail.uunet.ca:mark.longridge@CANREM.COM>
+Received: from mail.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) id AA04313; Mon, 21 Sep 92 00:05:34 EDT
+Received: from canrem.COM ([142.77.253.2]) by mail.uunet.ca with SMTP id <10241>; Mon, 21 Sep 1992 00:05:23 -0400
+Received: from canrem.com by unixbox.canrem.COM
+	id aa02771; Sun, 20 Sep 92 23:58:15 EDT
+Received: by canrem.com (PCB/Usenet Gateway)
+	Path-id <199220.104.108416@dosgate>; 20 Sep 92 (23:51)
+Message-Id: <199220.104.108416@dosgate>
+From: Mark Longridge <mark.longridge@canrem.com>
+Date: 	Sat, 19 Sep 1992 20:00:00 -0400
+To: cube-lovers@ai.mit.edu
+Subject: pyraminx revisted
+
+
+                Notes on the Pyraminx
+                ---------------------
+
+According to Dr. Ronald Turner-Smith there are 5 different Pyraminx
+puzzles, all of different complexity. The following are listed in
+order from easiest to hardest (to the best of my knowledge):
+
+Pyraminx Star: Easiest of all pyraminx??
+               A simplification of the popular pyraminx because of the
+               little uni-coloured (usually grey or silver) tetrahedrons
+               on the 3 middle pieces of each face. Effectively all
+               middle pieces on this pyraminx are the same colour!
+
+Snub Pyraminx: Same as standard pyraminx with tips removed
+
+Popular Pyraminx: The standard pyraminx of which appeared in vast
+                  quanities after the cube caught on.
+
+Senior Pyraminx: This is a mystery puzzle. No one seems to know anything
+                 about it, yet Turner-Smith's book refers to it and
+                 gives the maximum number of moves for it! It is between
+                 the Popular Pyraminx and Master Pyraminx in difficulty.
+
+Master Pyraminx: All the moves of the standard pyraminx plus 180 degree
+                 turns of the edges (just the strip, not the whole face)
+                 446,965,972,992,000 combinations. Interestingly in the
+                 ads for Dr. Ronald Turner-Smith's book "The Amazing
+                 Pyraminx" the Master Pyraminx is cited as a puzzle
+                 superior to Rubik's Cube because there are no centre
+                 pieces and it's harder! (Both points debatable IMHO)
+
+Also Turner-Smith gives the following maximum number of moves for
+each type of Pyraminx puzzle: (The popular pyraminx is now known
+to be 11 moves at most or 14 moves if the tips are included)
+
+Type 1          24 moves   ??
+Type 2          28 moves   ??
+Type 3          38 moves   ??
+Type 4         215 moves   (Senior Pyraminx)
+Type 5         255 moves   (Master Pyraminx)
+
+Also it is known that transparent pyraminx puzzles were made. This
+would be a good idea for the cube as well. Meffert also considered
+a textured pyraminx for the blind, and ones with leather and wood
+finishes.
+
+All the post-cube puzzles compare themselves to the cube, such as
+the Master Pyraminx, and more recently Smart Alex. It seems that
+Rubik's Cube is the benchmark for all others to compare with.
+
+Alas, Uwe Meffert's puzzle club was a bust. Barring unique prototypes
+(perhaps Singmaster or Hofstadter have a Master Pyraminx, I'll check)
+none of the following were produced: (most of these are documented in
+the extremely rare "Pyraminx The Exciting new 1982 range" or the even
+more obscure 1983 edition booklet. Both of these have full colour pages
+with photos of cardboard mockups of all the variants.)
+
+1982:
+
+Pyraminx Star (exists in small quanities, in Constantin's catalog)
+Pyraminx Pentagon, Pyraminx Hexagon (Computer Simulation/Mockup only)
+  One can also imagine Septagons, Octagons etc...
+Pyraminx Barrel Junior, Pyraminx Barrel Senior (Mockup only)
+
+Pyraminx Disc Chess (Prototypes exist)
+Pyraminx Ultimate (as shown in July 82 Scientific American, Mockup)
+Pyraminx Crystal, Pyraminx Ball (Mockups, July 82 S.A)
+  I'd really like to see the mechanism for a working crystal!
+Pyraminx Assembly Puzzles, 4 types (They exist)
+Pyraminx Octahedron (An octahedral skewb, I believe Braun & Bandelow
+made
+  some) Gerd Braun is the inventor of the Moody Ball (rare but exists)
+Pyraminx Tetrahedron (Ben Halpern made a prototype)
+
+1983:
+
+Space Grenade (???)
+Crystal Ball (Looks like an orb, definitely not the same though)
+
+However....
+
+Just a few days ago I got Constantin's catalog. Surprisingly there is
+a picture of Josef Trajber's Octahedron inside. Also there is a picture
+of what appears to be a Pyraminx Ball. Other ideas he includes are a
+2x2x2 siamese cube, new variants on Fisher's cube, e.g. Fisher's Domino,
+and a Pyraminx Ultimate for 180 DM!
+
+...and so the search for new cube variants continues. Please send me
+your
+comments (Does anyone actually own a working Master Pyraminx??) I'm
+also interested in exchanging full cube lists with other collectors.
+
+Mark Longridge                 Email: mark.longridge@canrem.com
+259 Thornton Rd N
+Oshawa Ontario Canada L1J 6T2
+--
+Canada Remote Systems  - Toronto, Ontario, Canadas
+World's Largest PCBOARD System - 416-629-7000/629-7044
+

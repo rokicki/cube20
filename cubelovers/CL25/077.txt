@@ -1,0 +1,23 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu May 28 13:26:48 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA02149; Thu, 28 May 1998 13:26:47 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu May 28 07:41:10 1998
+Message-Id: <01BD8A0B.2B00FBC0@jburkhardt.ne.mediaone.net>
+From: John Burkhardt <jburkhardt@mediaone.net>
+To: Cube Mailing List <Cube-lovers@ai.mit.edu>
+Subject: RE: Magic Jack
+Date: Thu, 28 May 1998 07:35:19 -0400
+
+I bought one of these from Games People Play and it is unsolvable on one
+of the colors.  At least, getting the piping to wander all the way
+around on the red colors was not possible.  It looks like one of the
+stickers is oriented incorrectly.  I told the folks at FunTech and they
+told me to send it back to them and they would look.  Also, when I
+solved the message version I couldn't get the rest of it to line up.
+Some of the pipes on the other edges didn't line up and it wasn't
+possible to make the rest silver.  This was kind of disappointing.
+
+

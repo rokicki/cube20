@@ -1,0 +1,54 @@
+From BRYAN@wvnvm.wvnet.edu  Tue Dec 27 22:46:45 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA13741; Tue, 27 Dec 94 22:46:45 EST
+Message-Id: <9412280346.AA13741@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 2172; Tue, 27 Dec 94 14:26:46 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 9642; Tue, 27 Dec 1994 14:26:46 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Tue, 27 Dec 1994 14:26:45 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Squares Group
+
+On 9 Aug 1994, Mark Longridge posted God's Algorithm results for
+the squares group <H> consisting entirely of 180 degree turns.
+Mark invited corroboration.  The following will serve to verify
+Mark's results, and will also provide the same information for
+the M-conjugacy classes of <H>.  Notice that the ratio of cube
+positions to M-conjugacy classes never gets very close to 48.
+Hence, there are a significant number of positions in <H>
+at each level of the search tree that are at least somewhat
+"symmetrical".
+
+
+                    M   Branching       Cube Branching  Ratio of
+      Level Conjugate      Factor  Positions   Factor   Cubes to
+              Classes                                  M Classes
+
+          0         1                      1                   1
+          1         1           1          6        6          6
+          2         2           2         27      4.5       13.5
+          3         5         2.5        120   4.4444         24
+          4        18         3.6        519   4.3250    28.8333
+          5        56      3.1111       1932   3.7225    34.5000
+          6       162      2.8929       6484   3.3561    40.0247
+          7       482      2.9753      20310   3.1323    42.1369
+          8      1258      2.6100      55034   2.7097    43.7472
+          9      2627      2.0882     113892   2.0695    43.3544
+         10      4094      1.5584     178495   1.5672    43.5992
+         11      4137      1.0105     179196   1.0039    43.3154
+         12      2231      0.5393      89728   0.5007    40.2187
+         13       548      0.2456      16176   0.1803    29.5182
+         14       114      0.2080       1488   0.0920    13.0526
+         15        16      0.1404        144   0.0968          9
+
+      Total     15752                 663552             42.1249
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

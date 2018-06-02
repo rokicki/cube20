@@ -1,0 +1,89 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 28 12:32:22 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA21564
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 28 Sep 1999 12:32:22 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19990923162848.24944.rocketmail@web126.yahoomail.com>
+Date: Thu, 23 Sep 1999 09:28:48 -0700 (PDT)
+From: Jaap Scherphuis <jaapsch@yahoo.com>
+Reply-To: jaap@org2.com
+Subject: Square 1, Pyramorphix, Cheap Skewballs
+To: Cube Lovers <Cube-Lovers@ai.mit.edu>
+
+
+Hi all,
+This is my first post to Cube-Lovers, though I have been reading the archives
+for a long time now. I'm a 27 year-old mathematician.
+
+Re: Square-1
+A few years ago I figured out a solution to the Square-1. It was one of the
+hardest puzzles to solve. Though I did theoretically solved it, the solution
+was so long and tedious I never actually performed it. In the end I wrote a
+program that searched for short sequences that go from cube shape to cube shape
+that do not move the corners. In the list it produced were a few useful
+sequences moving only a few edges, but all the odd permutations moved a lot of
+edges. By combining one of them with some other sequences I finally got my own
+parity fixing sequence that is a nice triple edge swap:
+
+Swap FU-BU, LU-RU, FD-BD:
+      /(3,3)/(1,2)/(2,-4)/(-2,4)/(-1,1)/(3,3)/(0,3)/(3,3)/(0,3)/(6,0)/(6,0)/
+
+The notation is fairly obvious: /=half turn of right hand side, (t,b)=move
+top/bottom the given number of twelfths clockwise, negative for anti-clockwise.
+I find this much easier to read than any others I've seen, though it is
+sometimes easy to forget the leading / if there is one.
+
+Unfortunately I have since lost any other results I got then except for those I
+have incorporated into my solution.
+
+The square-1 solving program Matt mentioned can be found in the cube-lovers
+archive in the contrib directory.
+
+
+Re: my webpages
+I have recently typed up a lot of my notes and put them on the web in a
+text-only preliminary form. Eventually I hope to make them into proper
+web-pages with pictures etc.
+There are solutions there for:
+Alexander's Star, Pocket Cube (2x2x2), Rubik's Cube (3x3x3), Rubik's Revenge
+(4x4x4), Profesor's Cube (5x5x5), Dogic, Domino, Impossiball, Megaminx,
+Octahedron, Pyraminx, Pyramorphix, Skewb, Brain ball, Rubik's Fifteen, Equator,
+It, Ivory Tower (Babylon Tower), Masterball, Orb, Puck, Roundy, Square One,
+Topspin, Tower (Whip-It), Rubik's Triamid, Tricky Disky, Rubik's Clock, Lights
+Out, Rubik's Magic, Spinout, Crazy Tantrix.
+At the moment there is not yet a links page.
+
+You can find it here: http://www.org2.com/jaap/puzzles
+I'd appreciate any feedback.
+
+
+Re: Pyramorphix.
+I only have the pocket Pyramorphix, and these are delicate (my first one broke
+within 5 minutes). The pieces have small feet which slide through grooves in a
+ball. The grooves are formed between 8 triangular pieces which are screwed onto
+the ball. By pushing a small screwdriver through at a point where 4 pieces come
+together you can unscrew it. It may work best if you bring the 4 flat pieces
+together and use the spot between them to unscrew it.
+
+
+Re: Cheap Skewballs.
+This week I bought several cheap puzzleballs at the Oxford Toys'r'Us, all of
+the France '98 type.  I bought the last two keychain ones (1 uk pound each),
+and a couple of normal sized ones (2 uk pounds each). They still have many of
+those.
+I plan to paint them with diffent designs, e.g.
+dodecahedron/icosahedron/octahedron, or rather the spherical projections of
+these shapes.
+
+That's all for now.
+Bye,
+Jaap.
+
+
+=====
+Jaap Scherphuis
+Visit the Psion Organiser II CM, XP & LZ Homepage:
+URL: http://www.org2.com      email: jaap@org2.com
+

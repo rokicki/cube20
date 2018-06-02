@@ -1,0 +1,21 @@
+From GOET@rcl.wau.nl  Thu Jun 11 02:46:21 1992
+Return-Path: <GOET@rcl.wau.nl>
+Received: from NET.WAU.NL by life.ai.mit.edu (4.1/AI-4.10) id AA18013; Thu, 11 Jun 92 02:46:21 EDT
+Received: from RVD.WAU.NL by NET.WAU.NL (PMDF #12413) id
+ <01GL2YYMEHS0001ZSZ@NET.WAU.NL>; Thu, 11 Jun 1992 08:46 GMT +01:00
+Received: from RCL.WAU.NL by RCL.WAU.NL (PMDF #12413) id
+ <01GL2YSCT30W9ED95T@RCL.WAU.NL>; Thu, 11 Jun 1992 08:41 GMT +01:00
+Date: Thu, 11 Jun 1992 08:41 GMT +01:00
+From: "Kees Goet - Landbouwuniversiteit, Afd. I&D" <Kees.Goet@rcl.wau.nl>
+Subject: Unsubscribe
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <01GL2YSCT30W9ED95T@RCL.WAU.NL>
+X-Envelope-To: cube-lovers@life.ai.mit.edu
+X-Vms-To: IN%"cube-lovers@life.ai.mit.edu"
+X-Vms-Cc: GOET
+
+Could somebody please remove me from this list.
+Thanks in advance.
+
+Kees Goet.
+

@@ -1,0 +1,18 @@
+From dik@cwi.nl  Wed Jan 11 10:25:57 1995
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA13785; Wed, 11 Jan 95 10:25:57 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id <AA12734@cwi.nl>; Wed, 11 Jan 1995 16:25:45 +0100
+Received: by boring.cwi.nl 
+	id <AA11031@cwi.nl>; Wed, 11 Jan 1995 16:25:45 +0100
+Date: Wed, 11 Jan 1995 16:25:45 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9501111525.AA11031=dik@boring.cwi.nl>
+To: BRYAN@wvnvm.wvnet.edu, cube-lovers@ai.mit.edu
+Subject: Re: kociemba's algorithm for quarter turns
+
+Yes, indeed my remark was about face turns (although the subject
+mentioned quarter turns).  I ought to have modified the subject.
+
+dik
+

@@ -1,0 +1,45 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Nov 19 17:36:55 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA04360
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 19 Nov 1998 17:36:54 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 19 Nov 1998 15:00:06 -0500 (Eastern Standard Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re : The Cylinder
+In-Reply-To: <19981117105414.18936.rocketmail@attach1.rocketmail.com>
+To: "Jorge E. Jaramillo" <kingeorge@rocketmail.com>
+Cc: cube <Cube-Lovers@ai.mit.edu>
+Message-Id: <SIMEON.9811191506.A@GN209A.PSTCC.CC.TN.US>
+
+Jorge E. Jaramillo's message of 17 Nov 1998 included:
+
+>[Moderator's note: I own such a puzzle, but I would call its shape
+>  an octagonal prism, rather than a cylinder.  On mine, the solved
+>  position is not an octagonal prism because one beveled face is
+>  rotated 90 degrees, forming a decahedron whose faces are six
+>  rectangles and four irregular hexagons. I don't remember whether
+>  it was originally manufactured this way or whether I altered the
+>  color tabs. ]
+
+I also own such a puzzle, although I have never seen one in 
+a store.  I got mine at a garage sale for $0.25.
+
+I haven't played with it in a long time.  But my best
+recollection is that it can be solved basically the same
+way as a 3x3x3 cube, except that *I think* (don't remember
+for sure) that the color scheme permits invisible swaps of
+identically colored pieces which can make the puzzle seem
+"impossible" to solve unless you realize that the
+identically colored pieces must be swapped.  It is also my
+best recollection that such a puzzle is mentioned briefly
+and is pictured in one of Douglas Hofstadters's cube
+articles in Scientific American back in the early 80's.  So
+I don't think it is any kind of new invention.
+
+----------------------------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+Pellissippi State Technical Community College
+

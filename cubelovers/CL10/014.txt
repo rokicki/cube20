@@ -1,0 +1,56 @@
+From dik@cwi.nl  Wed Jul 28 20:17:38 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01767; Wed, 28 Jul 93 20:17:38 EDT
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA06051 (5.65b/3.8/CWI-Amsterdam); Thu, 29 Jul 1993 02:17:27 +0200
+Received: by boring.cwi.nl 
+	id AA08740 (4.1/2.10/CWI-Amsterdam); Thu, 29 Jul 93 02:17:25 +0200
+Date: Thu, 29 Jul 93 02:17:25 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9307290017.AA08740.dik@boring.cwi.nl>
+To: Cube-Lovers@life.ai.mit.edu, ronnie@cisco.com
+Subject: Re:  Hint wanted for 4x4x4
+
+ > I've been beating my head against the order 4 Rubik's cube for long
+ > enough, and I want a hint.  (Not a solution--I have a solution book if
+ > I wanted to use it).
+
+Yes, it is not really simple.
+
+ > ...
+ > I tend to solve using commutators, but I don't see a way here.  The
+ > move I use on the top moves the marked pieces clockwise (this pattern
+
+ > 		. . 0 .
+ > 		. . . .
+ > 		. . . 0
+ > 		. 0 . .
+
+ > rotates and reflects, of course).  There is no way to combine these
+ > into a pair exchange (after doing the move, you still have two pieces
+ > out of place--nothing changed from the original).
+
+Still you are halfway there if you are willing to forgo the pattern of
+the centers (which can always be done later).  Turn the front face (at
+the bottom in the frawing), the right face and the back face one quarter
+turn before your turn, and back after.  Observe that that constitutes a
+cycle of three edge cubies in a single middle slice.  Combine with a
+quarter turn of that middle slice.
+
+ > So, what am I missing?  As I said before, I really just want a hint
+ > here.
+
+I hope that is enough of a hint and not enough of a giveaway.
+
+(I thought there was a shorter sequence, but I disremember at the moment.)
+
+My solution for the 4x4x4 always was: first corners, next edges and finally
+centers.  Because there are many identical pieces for the centers those are
+reasonably simple.  It would be much more difficult if each center had its
+own place.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+home: bovenover 215, 1025 jn  amsterdam, nederland; e-mail: dik@cwi.nl
+

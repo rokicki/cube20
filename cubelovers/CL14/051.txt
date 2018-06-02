@@ -1,0 +1,35 @@
+From mreid@ptc.com  Sat Jan  7 16:43:14 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29291; Sat, 7 Jan 95 16:43:14 EST
+Received: from ducie.ptc.com by ptc.com (5.0/SMI-SVR4-NN)
+	id AA09335; Sat, 7 Jan 95 16:41:53 EST
+Received: by ducie.ptc.com (1.38.193.4/sendmail.28-May-87)
+	id AA06870; Sat, 7 Jan 1995 16:54:18 -0500
+Date: Sat, 7 Jan 1995 16:54:18 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9501072154.AA06870@ducie.ptc.com>
+To: cube-lovers@life.ai.mit.edu
+Subject: Re: kociemba's algorithm for quarter turns
+Content-Length: 652
+
+gene writes:
+
+> 	I'm new to the list, and I've seen Kociemba's Algorithm
+> 	referred to several times.  Where can I find some more
+> 	information on it?
+
+there are several places you might try.
+
+dik winter first wrote about this new searching algorithm on may 3, 1992,
+and there was a bit of discussion after that.  so you can look through
+the archives (cube-mail-8).
+
+if you are a member of nkc (nederlands kubus club) you might look
+through the newsletter cff (cubism for fun) issue #28 where herbert
+kociemba first writes about his algorithm.
+
+also, martin gave some info about the cube-lovers archives being
+available on the world-wide-web.
+ 
+mike
+

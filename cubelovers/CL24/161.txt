@@ -1,0 +1,77 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb 17 18:08:36 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA10207; Tue, 17 Feb 1998 18:08:35 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Feb 16 19:02:35 1998
+Date: Mon, 16 Feb 1998 19:02:17 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Strong Local Maxima 9f from Start
+In-Reply-To: <Pine.PMDF.3.95.980215185935.291516B-100000@PSTCC6.PSTCC.CC.TN.US>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.980216185414.311707A-100000@PSTCC6.PSTCC.CC.TN.US>
+
+On Sun, 15 Feb 1998, Jerry Bryan wrote:
+
+> 
+> #1. D2 F2 L2 D' U  L2 F2 D' U'
+> #2. U  D  B2 R2 U  D' L2 B2 U2
+> 
+
+It ocurred to me that because these positions are strong local maxima (and
+the shortest ones, at that), maybe I should show maneuvers of length 9f
+ending with each of the 18 possible face turns.  Here they are.  No
+uniqueness is claimed for the maneuvers.
+
+#1
+
+F2 L2 U2 B  F' D2 L2 B' F' 
+F2 L2 U2 B  F' D2 L2 F' B' 
+R2 D2 F2 L  R' F2 D2 L' R' 
+R2 D2 F2 L  R' F2 D2 R' L' 
+D2 F2 L2 D' U  L2 F2 D' U' 
+D2 F2 L2 D' U  L2 F2 U' D' 
+B2 R2 D2 B  F' U2 R2 B  F  
+B2 R2 D2 B  F' U2 R2 F  B
+L2 U2 B2 L  R' B2 U2 L  R
+L2 U2 B2 L  R' B2 U2 R  L
+U2 B2 R2 D' U  R2 B2 D  U
+U2 B2 R2 D' U  R2 B2 U  D
+B' F' U2 R2 B  F' L2 U2 F2
+B  F  D2 L2 B  F' R2 D2 B2
+L' R' F2 U2 L  R' U2 F2 R2
+L  R  B2 D2 L  R' D2 B2 L2
+D  U  L2 B2 D' U  B2 L2 U2
+D' U' R2 F2 D' U  F2 R2 D2
+
+
+
+#2
+
+B2 U2 R2 B' F  L2 U2 B' F'
+B2 U2 R2 B' F  L2 U2 F' B'
+R2 F2 D2 L  R' U2 F2 L' R'
+R2 F2 D2 L  R' U2 F2 R' L'
+D2 L2 B2 D' U  F2 L2 D' U'
+D2 L2 B2 D' U  F2 L2 U' D'
+F2 D2 L2 B' F  R2 D2 B  F
+F2 D2 L2 B' F  R2 D2 F  B
+L2 B2 U2 L  R' D2 B2 L  R
+L2 B2 U2 L  R' D2 B2 R  L
+U2 R2 F2 D' U  B2 R2 D  U
+U2 R2 F2 D' U  B2 R2 U  D
+B  F  R2 D2 B' F  U2 R2 F2
+B' F' L2 U2 B' F  D2 L2 B2
+L' R' U2 F2 L  R' B2 U2 R2
+L  R  D2 B2 L  R' F2 D2 L2
+D  U  B2 R2 D' U  L2 B2 U2
+D' U' F2 L2 D' U  R2 F2 D2
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

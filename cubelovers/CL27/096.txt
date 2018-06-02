@@ -1,0 +1,44 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu May 20 17:04:55 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA01421
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 20 May 1999 17:04:54 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <37441ED1.2C5B3F5E@binghamton.edu>
+Date: Thu, 20 May 1999 10:40:17 -0400
+From: Mirek Goljan <bg22976@binghamton.edu>
+Organization: SUNY Binghamton
+To: cube-lovers@ai.mit.edu
+Subject: Re: "The" Hungarian cube ??
+References: <199905201405.QAA28449@ms.globe.cz>
+
+The cube is most likely the original Rubik's cube made in Hungary by Politoys
+in the early 80's.  I bought many of those being in Czechoslovakia during the 80's.
+Basically two types wrapped in a blue cardboard box were sold.
+The first one has opposite colors w-y, g-b, r-o and it tends to fall apart after a
+few months of speed cubing. A positive thing is that this type is well suited for
+speed cubing, it doesn't require perfect aligning of cubicles. A negative thing is
+that stickers don't last long, the glue is bad.
+The second type has colors w-b, g-y, r-o, I think.  I always changed stickers to
+get w-y oposite colors. There was a very slight difference between cardboard boxes.
+This cube requires better aligning of layers before a next move (the construction
+was a little bit improved), the glue is better, but the plastic used I rate lower.
+    Mirek
+
+>  -----Original Message-----
+> From: "John Burkhardt" <jburkhardt@mediaone.net>
+
+> > I recently bought a rubik's cube from someone.  It was in a blue cardboard
+> > box that has Hungarian all over it....
+
+********************************
+Miroslav Goljan
+Watson School of Engineering and
+    Applied Science, Dept. of EE
+ State University of New York
+ PO BOX 00238
+ Binghamton, NY 13902-6000
+e-mail: bg22976@binghamton.edu
+********************************
+

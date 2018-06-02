@@ -1,0 +1,29 @@
+Date: 6 Sep 1980 0021-PDT (Saturday)
+From: Dal at UCLA-SECURITY (Doug Landauer)
+Subject: errata
+To: cube-lovers at mit-mc
+
+Attn:  DMM@mit-ml:
+     No, unless my message got garbled somewhere in the midwest, it was
+     correct about c8 and c9, the three corner-cubie movers.  I.e., c8
+     ( <3(FrfR)3(RUru)> ) cycles them cw, and c9 ( <3(FrfR)3(fuFU)> ) ccw.
+     (Much shorter ways to do similar things exist, e.g. <fdFUfDFu> to
+     move around three front corners (left two and fur) cw).
+	In these descreptions, the `cw' and `ccw' do not refer
+     to individual cubies but rather to the triangle of three cubies involved,
+     that's why I call it "cycle" == move cubies around, rather than
+     "twist" == re-orient a corner cubie in place, or "flip" == do the
+     same for an edge (side) cubie.
+     You're right about EB.
+Attn: Dan Hoey at CMU-10A
+     Regarding C7:  When I first made this list up, I used m,n and o to
+     represent i,j and k because it was unclear which of i,j and k was
+     which.  m is the same as i, and M == I.  My cube-turning moves are:
+      I,J,K=front-top-right clockwise
+	  <I> move cube's front to top	     <I'> or <i> top to front
+	  <J> move top to right side	     <J'> or <j> right side to top
+	  <K> move right side to front	     <K'> or <k> front to right side
+	thank you...
+	... dalgorf
+-------
+

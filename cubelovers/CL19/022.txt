@@ -1,0 +1,69 @@
+From mark.longridge@canrem.com  Thu Feb 15 15:18:57 1996
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21477; Thu, 15 Feb 96 15:18:57 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 20AE8D; Thu, 15 Feb 96 15:13:47 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Re: Resolution of the cub
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1299.5834.0C20AE8D@canrem.com>
+In-Reply-To: <199602151620.LAA03366@chara.BBN.COM>
+Date: Thu, 15 Feb 96 15:07:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+-> Date: Thu, 15 Feb 1996 12:06:18 GMT
+-> From: "Thomas H. Martin" <tmartin@accucomm.net>
+->
+-> My son has dug out my cube and has a burning interest in it now.
+-> Also, he
+-> has revived my interest in it.  My question is, is there somewhere I
+-> can get
+-> the solution for him?
+->
+-> Tommy Martin
+-> Dublin, GA
+-> tmartin@accucomm.net
+->
+-> Now you've pushed my button.
+->
+-> When the cube first came out, a bunch of us at MIT were wild to solve
+-> it.  There were _no_ published solutions.  At least three or four of
+-> us solved the cube by ourselves, independently.  We twisted and
+-> turned, drew arcane diagrams to show what went where, and although it
+-> sometimes took a couple of weeks, we each managed it.
+->
+-> Then the books started to come out, and as far as I can tell, no one
+-> ever solved it independently again.
+
+Bzzzzzz ...... wrong.
+
+I do understand that Allan Wechsler was one of the original solvers,
+before the glut of books on the subject, however I solved the cube and
+the megaminx independently. Even though there were many cube books,
+there was only one megaminx (rubik-type dodecahedron) book, and it was
+rather hard to follow.
+
+My advice to anyone who likes puzzles of this type who is already adept
+at solving the cube is to solve it using a subgroup like < U, R > or
+< U, F, L >.
+
+One of the problems I'm working on is how to get the spot patterns on
+the megaminx. To the best of my knowledge this information is not
+recorded anywhere on the planet.
+
+(Yes, I can just solve it that way, I'm looking for a short algorithm,
+and no one and no program can help!)
+
+So even though we can make mincemeat of the pyraminx, dino cubes,
+square 1, Fisher's Cube, Skewbs, The UFO, Rubik's Revenge, Rubik's Wahn,
+etc etc there are still a couple of exceptional difficult problems:
+
+Spot Patterns on the Megaminx in a short number of moves.
+Dan Hoey's Tartan Cube.
+God's Algorithm on the standard cube.
+
+-> Mark <-
+
+

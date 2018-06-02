@@ -1,0 +1,50 @@
+From BRYAN@wvnvm.wvnet.edu  Fri Oct 13 16:40:29 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12120; Fri, 13 Oct 95 16:40:29 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R3)
+   with BSMTP id 4011; Fri, 13 Oct 95 15:01:31 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 2466; Fri, 13 Oct 1995 15:01:32 -0400
+Message-Id: <wvmail32.1995oct13.144659.bryan@wvnvm.wvnet.edu>
+Date:      Fri, 13 Oct 1995 15:01:31 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Dan Hoey" <hoey@aic.nrl.navy.mil>, <Cube-Lovers@life.ai.mit.edu>
+Subject:   Re: Using 5 Generators
+In-Reply-To: Message of 10/11/95 at 22:56:15 from hoey@aic.nrl.navy.mil
+
+On 10/11/95 at 22:56:15 hoey@aic.nrl.navy.mil said:
+
+>[in Q2]
+>> The four rotations are i, b, bb, and bbb, where we use lower case
+>> letters to simulate Frey and Singmaster's script notation for rotations.
+>> For example, b is the whole cube rotation consisting of grasping
+>> the Back face and rotating the whole cube (not just the Back face)
+>> clockwise by 90 degrees.
+
+>The reflections are similarly rrv, rrbv, ttv, and ttbv, where t and r
+>are the whole-cube rotations by the Top and Right faces, and v is the
+>central inversion.
+
+I am not quite sure why it took me so long to figure out that
+Q2-conjugation was the appropriate symmetry when generating G
+without B and B'.  With the wisdom if hindsight, it is perhaps
+because the Q2 subgroup of M could be described as fixing the
+B and F face centers, and I was thinking only in terms of fixing
+the B face center.  Obviously, you cannot fix the B face center
+without also fixing the F face center.  Thus, it is clear that
+Q2-conjugation is also the appropriate symmetry when generating
+G without F and F'.
+
+Q1 and Q3 are subgroups of M which are conjugate with Q2 in Dan's
+taxonomy of subgroups of M.  Q1 fixes the T and D face centers, and
+would be the appropriate symmetry when generating G without T and T',
+or without D and D'.  Q3 fixes the R and L face centers, and would be
+the appropriate symmetry when generating G without R and R', or without
+L and L'.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

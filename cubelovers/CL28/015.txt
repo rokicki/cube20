@@ -1,0 +1,31 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Sep 23 19:45:54 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA08011
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 23 Sep 1999 19:45:53 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <00cd01bf0548$53e58c40$76c4b0c2@home>
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: "Cube-Lovers" <Cube-Lovers@ai.mit.edu>
+Cc: "Joe Johnson" <jgjohnso@pressenter.com>
+Subject: Re: 5X5X5 challenge
+Date: Wed, 22 Sep 1999 23:16:36 +0100
+
+Joe Johnson wrote (4 September 1999)
+
+
+>I recently bought my first 5X5X5 Rubik's Cube (from  Meffert's) and when
+>I received it, the first thing I noticed was that the stickers had
+>little grooves in them and all of them on each face were lined up in the
+>same direction.
+
+Yes, the grooving effect shows up quite strikingly against the light
+as two distinct shades and allows some nice pretty patterns.  Since
+there are only two apparent alternatives, whereas there are four
+possible orientations, some possibilities look a little surprising, to
+my eyes at least.  Thus a three-cycle of centre pieces shows up as a
+change to just two pieces.
+
+Roger
+

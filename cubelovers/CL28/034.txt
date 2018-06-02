@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct 26 20:15:00 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA02190
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 26 Oct 1999 20:14:00 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199910142142.RAA29672@life.ai.mit.edu>
+From: Norman Richards <orb@cs.utexas.edu>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: 3-Cube in 1 One-Look 
+In-Reply-To: Your message of "Wed, 13 Oct 1999 09:21:25 PDT."
+             <3804B185.A055DA64@u.washington.edu> 
+Date: Thu, 14 Oct 1999 16:47:25 -0500
+
+
+> There was discussion of blindfolded solving during March 98 on this
+> list.  At that time no one was able to do it.  You may be the first.
+
+  I'd love some more elaboration of the specific sequences the
+original poster used.  (or any suggestions others have to make) I
+think this would be quite a trick.  I'd be happy just being able to do
+a 2x2x2 cube like this or maybe one face of a 3x3x3...
+
+___________________________________________________________________________
+orb@cs.utexas.edu                                           soli deo gloria
+

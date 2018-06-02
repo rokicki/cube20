@@ -1,0 +1,46 @@
+From BRYAN@wvnvm.wvnet.edu  Thu Oct  5 21:01:18 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12445; Thu, 5 Oct 95 21:01:18 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R3)
+   with BSMTP id 0286; Wed, 04 Oct 95 10:26:46 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 0750; Wed, 4 Oct 1995 10:26:43 -0400
+Message-Id: <wvmail32.1995oct4.100251.bryan@wvnvm.wvnet.edu>
+Date:      Wed, 4 Oct 1995 10:26:41 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   <F,U,L,R,D> Question
+
+It is well known that if we define G=<Q> for the twelve quarter turns
+q in Q, we can also generate G as G=<F,U,L,R,D>, leaving out B and B'.
+Leaving out any other quarter turn would do as well, but I
+am going to stick to leaving out B for illustrative purposes.
+
+However, when one of the quarter turns is left out, the length of most
+positions will change.  In particular, we will no longer have |B|=1.
+My reading of the archives indicates that we do not know what the
+length of B would be in this situation, nor what a minimal process
+for B would be.
+
+I am going to take a crack at this problem via exhaustive search.
+But I like to use representative elements of conjugacy classes in
+my searches, and I don't think I can do so in this situation.
+
+For full-blown searches of G, I use M-conjugacy classes.  For subsets
+and/or restrictions of G, I use appropriate subsets and/or restrictions
+of M.  But I don't think I can use conjugacy classes at all for this
+problem.  The group is still G, even though lengths have changed, so
+no subset and/or restriction of M is appropriate.  But when G is
+generated as <F,U,L,R,D>, we do not necessarily have |X|=|m'Xm|
+for all m in M.
+
+Am I missing something obvious?  I don't think so, but in the
+meantime I am going to have to start the search without conjugacy
+classes.  Bummer.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

@@ -1,0 +1,28 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed May 12 16:54:45 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA25198
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 12 May 1999 16:54:45 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Algorithm for the Antislice Group
+Date: 11 May 1999 22:54:04 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7hacec$rs6@gap.cco.caltech.edu>
+References: <cube-lovers.Pine.SGI.4.05.9905061235400.222639-100000@spamalot.mfg.sgi.com>
+
+Gene Johannsen <gej@spamalot.mfg.sgi.com> writes:
+
+>	I am having problems with this step.  My cube is in a
+>	configuration that this maneuver does not solve:
+
+As I e-mailed Gene, I do not believe his configuration is part of the
+anti-slice group -- would any members care to give a quick heuristic to
+determine if a cube is in the anti-slice group?
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+..make lemonade and hope it also gives you a source of protein and vitamin A.
+

@@ -1,0 +1,58 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 30 20:15:57 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA25946
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 30 Mar 1999 20:15:56 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199903302344.SAA11205@life.ai.mit.edu>
+From: Norman Richards <orb@cs.utexas.edu>
+To: "Cube Lovers (E-mail)" <Cube-Lovers@ai.mit.edu>
+Subject: Keyboard cube [was: Re: Wrist pains]
+In-Reply-To: <000001be7a68$23427d20$040a0a0a@laptop>
+Date: Tue, 30 Mar 1999 17:47:33 -0600
+
+
+> [...] I was wondering if anyone had an idea for a "hands on
+> keyboard" approach that would allow you to naturally move the puzzles'
+> slices.
+>
+> There is a macro interface for the cubes to enter moves in UDFBLR notation,
+> but I am thinking of something that you could, with practice, manipulate a
+> cube in realtime using a keyboard.
+
+
+  Oddly enough, I have been thinking about a method to manipulate a
+cube by use of the numeric keypad.  It seems most moves can be
+completed rather naturally, but I do not know if it works in practice.
+
+  Anyways, take a keypad like this:
+
+7 8 9
+4 5 6
+1 2 3
+
+  This corresponds to a face of a cube quite nicely.  Suppose you
+wanted to rotate the right face clockwise.  One could enter 36 or 69,
+for example, which you could conceptually think of as the direction
+your hand would move to rotate the right face clockwise.  Counter
+clockwise would be the other direction.  (96 or 63 or even 93) The
+same technique could be applied to the left face or top face or bottom
+face.  The middle slices could be rotated just as easil: 52 would rotate
+the middle vertical slice down.
+
+  The question is how to effect rotating the front and rear faces.
+For me, 19 and 91 seem natural for F and F' because they basically
+mimic the twisting motion.  The rear is more troublesome, but perhaps
+for symetry 73 and 37 might be used?
+
+  Anyways, that could take care the turns, Cube rotations could be as
+simple as a shift followed by a direction.  shift-5-2 might rotate the
+cube along the X axis such that U is now F and F is now D, etc...
+
+  I do not know if keypad entry is any more or less prone to these
+types of entry, but I think that the general mechanism might work.
+
+___________________________________________________________________________
+orb@cs.utexas.edu                                           soli deo gloria
+

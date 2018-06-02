@@ -1,0 +1,44 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec  1 14:27:08 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA18757
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 1 Dec 1998 14:27:07 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: Cube-Lovers@ai.mit.edu
+From: "Andrew R. Southern" <a.southern@ic.ac.uk>
+Subject: Uwe Meffert's Re-issueing of Prof. Cube
+Message-Id: <E0zkc71-00072b-00.1998-11-30-22-48-11@mail2.svr.pol.co.uk>
+Date: Mon, 30 Nov 1998 22:48:11 +0000
+
+Dear Cube Lovers,
+
+I have written a website for Uwe Meffert (with input from both W. David
+Joyner and David Byrden) that can be found at:
+
+http://www.ue.net/mefferts-puzzles/
+
+and was speaking with him earlier today.
+
+Uwe is going to make another batch of Professor Cubes (5x5x5) in the next
+week or so, and is taking orders through his site.
+
+This is a subject that is often raised on the newsgroup, and I hope people
+don't think of this as taking too much of a liberty.
+
+The website contains a credit card order page, information about the puzzles
+(including a solution to all of his popular puzzles) and multiple links to
+other pages. Whilst I am not involved with the day to day running of the
+website, if people would like their pages added to the links, please forward
+the URL to this address WITH A SHORT SUMMARY that will appear with the link.
+
+Puzzle available include some of the more recent ones (Orbix, Pyramorphix,
+Megaminx, Prof Cube).
+
+I am told that orders *may* still be on time for delivery before Chirstmas.
+
+I hope this has been of use to you guys,
+
+Andy Southern.
+a.southern@ic.ac.uk
+

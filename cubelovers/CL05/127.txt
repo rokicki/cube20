@@ -1,0 +1,13 @@
+Received: from MC.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 30 NOV 86  15:36:27 EST
+Received: from cc2.bbn.com (TCP 1000200022) by MC.LCS.MIT.EDU 30 Nov 86 15:36:55 EST
+Date: Sun, 30 Nov 86 15:34:25 EST
+From: Buz Owen <ado@cc2.bbn.com>
+Subject: 5 cube?
+To: cube-lovers@mc.lcs.mit.edu
+Cc: ado@cc2.bbn.com
+
+Can someone on this list supply me with the address of a store
+that can sell me a 5x5x5 cube?  I am not on the list so please
+reply directly.  Thanks/Buz
+
+

@@ -1,0 +1,33 @@
+Date: 11 Aug 1982 2204-PDT
+From: ISAACS at SRI-KL
+Subject: Tsukuda's Square
+To: CUBE-LOVERS at MIT-MC
+
+  Just got a new group-theory puzzle, called Tsukuda's Square.  It's
+sort of like the 15/16 puzzle, but harder.  It consists of a 4x4 matrix
+in the center with the numbers from 1 to 16.  On the left side are
+4 plungers, one for each row.  At the top is one plunger, which pushes
+down columns 2, 3, and 4, all at once.  Both the top and the side plungers
+push the rows or columns over 1 square; releasing them causes the same row(s)
+or columns to slide back.  When the top plunger is pushed down, the number
+1 row plunger cannot be pushed because of interference; that is the only
+interference.
+   A typical move, for instance, would be to push in the #2 row plunger,
+push the top, release the #2, release the top.  This would change
+           1 2 3 4
+           5 6 7 8  (only looking at the top 2 rows)
+  to
+    
+           1 3 4 8
+           2 5 6 7.
+  You can push 2 or 3 (or even4) side plungers at once.  Pushing an
+adjacent pair is even useful in solving this thing.
+   At any rate, it has the normal even parity problem - that is, you 
+cannot exchange a single pair, but you can exchange 2 pairs, or permute
+three squares.  Because of the limited moves, it is not nearly so simple
+as it looks.  I can permute 3 in one specific position, and it takes me
+12 moves to do so (where a move is a push of 1 or more side plungers,
+then push the top, then release them, or the reverse [push the top first]).
+Can anyone develop some more efficient algorithms?
+   -- Stan
+-------

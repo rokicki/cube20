@@ -1,0 +1,44 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Jun 29 18:12:20 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA00650
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 29 Jun 1999 18:12:19 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v04003a04b39ed88d8d4b@[128.192.40.243]>
+Date: Tue, 29 Jun 1999 16:26:03 -0400
+To: Cube-Lovers@ai.mit.edu
+From: pink@cartserv.rserv.uga.edu (_pink)
+Subject: hello to all
+
+	Hey! I just thought I'd drop a line to introduce myself since I've
+subscribed to your mailing list. My name is Brian Davis (my friends all
+call me "_pink". The underscore is silent.) I live in Athens, Georgia USA
+and Manage a Computer Graphics Facility at the Univ of Georgia.
+	I have been a cube fanatic since day one... I've got a pretty good
+collection and several volumes of notes (as I sure most of you do) but feel
+there is still more out there. I have noticed many names here on the Cube
+Lovers List that have some wonderful www pages. Maybe I'll find some time
+to create a www cube presence of my own that doesn't overlap too much.
+(this might be hard to do as you guys have it pretty well wrapped up right
+now...)
+	I have "e-talked" with Tim Browne some previously (don't blame him
+for me being here, he's innocent really) and when I found he was here and
+the list seems to still be alive I thought I might as well subscribe.
+	I'll start out by sticking my neck out a bit and see if any one
+wants to hear some information I have about Square 1 moves or
+inner-workings (since I've crushed a few out of curiosity and could take
+picts to post on the web) or the mechanics of the Skewb since I've had to
+put it back together after an employee dropped it.
+	At any rate, I'm glad to be here and will try not to ramble so
+incoherently in the future.
+
+_pink
+
+btw: anyone have a Siamese Cube that they would like to get rid of? ;) Ok,
+how about just answer a few questions about so I can try to construct
+one... 8)
+
+to see a listing of cubes I'm looking for go to:
+http://128.192.40.238/pink/wanted.html
+

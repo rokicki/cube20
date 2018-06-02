@@ -1,0 +1,76 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Sun Oct 23 03:41:06 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09529; Sun, 23 Oct 94 03:41:06 EDT
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <86581-4>; Sun, 23 Oct 1994 03:41:30 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA05154; Sun, 23 Oct 94 03:38:20 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1B6751; Sun, 23 Oct 94 03:23:51 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Cross and X's
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.814.5834.0C1B6751@canrem.com>
+Date: Sun, 23 Oct 1994 02:36:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+-----------------------------
+Possible Legal Cross Patterns
+-----------------------------
+
+Plummer Cross   (6 Cross order 3) =  8 patterns
+Christman Cross (6 Cross order 2) =  6 patterns
+4 Cross order 2 (sq group)        =  3 patterns
+4 Cross order 4                   =  6 patterns
+                                    -----------
+      14 Six Cross + 9 Four Cross = 23 total legal Cross patterns
+
+There are 0 total cross patterns in the swap orbit
+
+-------------------------
+Possible Legal X Patterns
+-------------------------
+
+6 X order 3                       =  8 patterns
+6 X order 6                       =  8 patterns
+6 X order 2 (sq group)            =  1 pattern
+4 X order 2 (sq group)            =  3 patterns
+2 X order 2 (sq group)            =  3 patterns
+                                    -----------
+    17 Six X + 3 Four X + 3 Two X = 23 total legal X patterns
+
+For a while I thought that [6 x order 3] combined with the [2 x pattern]
+would make a new sort of [6 x order 6], but combining [6 x order 3] with
+the [2 x pattern] is essentially the same as combining 6 x order 3 with
+the pons asinorum or 6 x order 2.
+
+------------------------------
+Possible Swap-Orbit X Patterns
+------------------------------
+
+6 X order 2                       =  6 patterns
+6 X order 4                       =  6 patterns
+4 X order 2                       =  6 patterns
+4 X order 4                       =  6 patterns
+                                    -----------
+
+             12 Six X + 12 Four X = 24 total swap-orbit X patterns
+
+Some description of the swap-orbit patterns is in order.
+The 6 X order 2 pattern has a 2-cycle of opposite edges and
+2 sets of 2-cycles of adjacent edges.
+The 6 X order 4 pattern has a 2-cycle of opposite edges and
+a 4-cycle of edges of adjacent faces.
+The 4 X order 2 has 2 sets of 2-cycles of adjacent edges.
+The 4 X order 4 has a 4-cycle of edges of adjacent faces.
+
+To make any of these swap-orbit patterns one would have to first
+exchange any 2 edge cubies.
+
+Interestingly, a thin line 6 X order 3 is possible on the 5x5x5
+cube. No process as yet....
+
+-> Mark <-
+Email: mark.longridge@canrem.com
+

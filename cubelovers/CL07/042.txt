@@ -1,0 +1,67 @@
+From ncramer@bbn.com  Sun May  5 05:02:30 1991
+Return-Path: <ncramer@bbn.com>
+Received: from LABS-N.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA19791; Sun, 5 May 91 05:02:30 EDT
+Message-Id: <9105050902.AA19791@life.ai.mit.edu>
+Date:     Sat, 4 May 91 17:58:35 EDT
+From: Nichael Cramer <ncramer@bbn.com>
+To: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+Cc: Cube-Lovers@life.ai.mit.edu, Cube-Lovers@life.ai.mit.edu
+Subject:  Re:  5-cube in a game store!!!
+
+>Date: Sat,  4 May 91 04:58:29 -0400 (EDT)
+>From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+>To: Cube-Lovers@life.ai.mit.edu
+>Subject: Re: 5-cube in a game store!!!
+>
+>I called and ordered things from this store in California, and just
+>recieved things over the past two days.
+>
+>THE 5X5X5 CUBE!!!!!!!!
+
+Synchronicity!! I was just typing in a virtually identical message when
+Dale's posting came!  (D: thanks for saving me all the typing.  ;)
+
+>(I just started the 5X5X5 about 2 hours ago, and already have all but a
+>few on the bottom.  I think it will be MUCH easier than the 4X4X4.  It
+>comes with instructs on how to open it, and I took it apart to look. 
+
+Yeah, I think anyone who _understands_ how to work a 3by or a 4by (as
+opposed to merely memorizing cookbook solutions) should have no problem
+with it.
+
+I'm certainly no speed whiz.  The UPS man rang the doorbell at 1pm and I
+had scrambled and "solved" it by 3[*].  (Solved is in quotes because I had
+the cube completly done except that two non-central edge-cubies were
+flipped.  It took me another 15-20 minutes to back out and fix this.)
+
+  [* this includes feeding lunch to my two daughters and a few minutes of
+     code-debugging over the phone.]
+
+>THIS DESIGN IS IMPRESSIVE!  You can make some REALLY neat patterns with
+>the 5x5x5.)  
+
+(I've got one of mine completely covered in checkerboard patterns).
+
+As Dale says, the 5by seems very solid.  Probably this is because it has an
+odd number of cubes and so has the fixed center cubie.  Certainly it moves
+more consistently smoothly than my 4bys.  On the other hand, at least once
+I've felt one of the cubies start to pop out in my hand while I was turning
+it.
+
+Another thing: the cubies are starting to get pretty small.  The whole cube
+is only about 1/4 longer on each side than my 4by.
+
+My only concern is _where_ do these cubes actually come from?  The rest of
+my cubes (2X, 3X, 4X) have _all_ had the Rubik's symbol and copyright
+notices on them.  These 5bys have neither.  Could these be pirated cubes?
+On the other hand they seem solidly made and the colors are bright and
+distinct unlike most cheepy copy-cubes that I've seen.  But it's curious
+that there are no copyright notices _anywhere_ either the cube or the
+enclosing box.
+
+Oh well.  Something to keep my hands busy during those long compiles for
+the next couple of weeks.
+
+Cheers
+Nichael
+

@@ -1,0 +1,42 @@
+From cosell@world.std.com  Mon Mar 22 15:05:44 1993
+Return-Path: <cosell@world.std.com>
+Received: from world.std.com by life.ai.mit.edu (4.1/AI-4.10) id AA04703; Mon, 22 Mar 93 15:05:44 EST
+Received: by world.std.com (5.65c/Spike-2.0)
+	id AA25131; Mon, 22 Mar 1993 15:05:38 -0500
+Date: Mon, 22 Mar 1993 15:05:38 -0500
+Message-Id: <199303222005.AA25131@world.std.com>
+From: cosell@world.std.com (Bernie Cosell)
+In-Reply-To: <1oieipINNs0k@gap.caltech.edu>
+             (from joelong@cco.caltech.edu (Joseph Louis Long))
+             (at 21 Mar 1993 19:10:17 GMT)
+X-Mailer: //\\miga Electronic Mail (AmiElm 1.18)
+Reply-To: cosell@world.std.com
+Path: world.std.com!cosell
+Organization: Fantasy Farm Fibers
+To: joelong@cco.caltech.edu (Joseph Louis Long)
+Subject: Re: Seeking magic dodecahedron
+Cc: cube-lovers@life.ai.mit.edu
+Content-Length: 774
+
+In <1oieipINNs0k@gap.caltech.edu> on Mar 21, Joseph Louis Long wrote:
+
+} So let me ask... Does anyone have a solution to Square-1?  Is there
+} a simple ``operator'' based method, like there is for the cube?
+} If it is simple enough to explain in text, could someone please
+} post it?  Has there been a ``solutions book'' published?
+
+Dunno about the former, but the answer to the latter is 'yes'.  In the April
+GAMES magazine there is an ad:
+   BAFFLED BY SQUARE 1
+Now you can solve the world's most challenging
+cube puzzle.  Clear, easy to unerstand book shows
+you how.  Send $5 to
+  Turn to Square 1
+  PO Box 1451
+  Westford, MA 01886
+
+/Bernie\
+-- 
+Bernie Cosell                               cosell@world.std.com
+Fantasy Farm Fibers, Pearisburg, VA         (703) 921-2358
+

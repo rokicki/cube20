@@ -1,0 +1,55 @@
+Date: 9 Jan 1981 14:59 PST
+From: McKeeman at PARC-MAXC
+Subject: Re: Befuddled by BFUDLR
+In-reply-to: VaughanW.REFLECS's message of 8 January 1981 20:06 cst
+To: VaughanW.REFLECS at HI-Multics (Bill Vaughan)
+cc:  CUBE-LOVERS at MIT-MC
+
+Bill,
+
+Good points.  I am not sure how to solve the problem either.  But here are some
+comments.  RubikSong is simply assembly language to drive the human
+computer.  That has both its advantages and disadvantages.  The original
+suggestions also included parameterless subroutines and whole cube moves.
+
+Your point it, I think, that there are some easy manipulations that are obscure, at
+best, in FLUBRD + IJK.  One could take the position that definitions need not be
+mnemonic since in steady state their names will be used with a higher level of
+semantics.  Then we get
+
+Slice = L' R J'
+SpratWrench = (Slice U)*4
+
+That seems tolerable but still not well matched to the human at the lowest level.
+
+A nice property the notation could have would be to be concise where the
+human manipulation is concise, without introducing a large number of
+unmnemonic primitives.  For example, we might use Xnnn for multiple parallel
+twists.
+
+"R antislice" = L012 = L' R' J
+
+Then we have, for example,
+
+LRUDFBLRUDFB = (L012 U012)*3, 
+
+and
+
+R' = L001
+R = L001'
+Slice = L010.
+
+Commutators are pretty common (i.e., X Y X').  Somebody suggested X[Y] for
+them.  The idea is that X is a function to apply to Y.  The main problem is that
+the human machine isn't very good at doing complicated inverses without some
+special practice.  But, assuming the practice, then
+
+BRL'D'RRDR'LB'RR
+  = B[Slice] (RRB)[Slice']
+  = (B[Slice])[RR]  RR
+  = (B[Slice]RR)[]
+
+Feedback appreciated...
+
+Bill  
+

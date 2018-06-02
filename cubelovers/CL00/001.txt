@@ -1,0 +1,49 @@
+Date: 15 July 1980 01:41-EDT
+From: Jef Poskanzer <AQE at MIT-MC>
+Subject: Complaints about :CUBE program.
+To: CUBE-HACKERS at MIT-MC
+
+
+This is a real-neat program, BUT:
+
+In solving the cube, the description it gives for the action it is
+about to perform can be ambiguous, I think.  For example, can't "Turn
+TOP center to BOTTOM" be performed in two non-equivalent ways?
+
+I don't know what the display format is on color LISP machines, but on
+my terminal is sucks.  How about something like this:
+
+		+--------+
+	       / YL YL YL \
+	      /		   \
+	     /  YL  YL  YL  \
+	    /		     \
+	   /   YL   YL	 YL   \
+	 ,-+------------------+-.
+      ,-'  |		      |  `-.
+   ,-'  GR |   RD   RD	 RD   | BL  `-.
++-'  GR    |		      |    BL  `-+----------+
+| GR	   |		      |       BL | OR OR OR |
+|	   |		      |		 |	    |
+| GR GR GR |   RD   RD	 RD   | BL BL BL | OR OR OR |
+|	   |		      |		 |	    |
+| GR	   |		      |       BL | OR OR OR |
++-.  GR    |		      |    BL  ,-+----------+
+   `-.  GR |   RD   RD	 RD   | BL  ,-'
+      `-.  |		      |  ,-'
+	 `-+------------------+-'
+	   \   WH   WH	 WH   /
+	    \		     /
+	     \  WH  WH  WH  /
+	      \		   /
+	       \ WH WH WH /
+		+--------+
+
+Maybe add FRONT, BACK, LEFT, RIGHT, TOP, BOTTOM labels; maybe compress
+it vertically so it fits on 24-line screens; maybe three-char abbrevs
+instead of two; maybe the back face should be shown reversed (i.e.
+from the inside of the cube looking out) to facilitate mental
+manipulations; the basic format is better, though, don't you agree?
+
+---
+Jef

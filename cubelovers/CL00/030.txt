@@ -1,0 +1,22 @@
+ED@MIT-AI 07/18/80 00:12:53 Re: Patterns, designs &c.
+To: cube-lovers at MIT-MC
+To jump the gun slightly on the group-theoretic explanation,
+any sequence of rotations of any number of faces can be
+thought of as an atomic "transformation" for the purposes of
+group theory.  One of the precepts of this theory is that any
+such transformation, repeated often enough, will return the
+cube to the original state.  For instance, given the transform
+"rotate top ccw 90", 4 iterations suffice to return the cube
+to the original state.
+Mike Speciner, a fellow Camexian, claims that no transformation
+can be created that requires more than 216 (=6^3) iterations to
+return to the virgin state.  (He doesn't yet have a cube, but
+has been stealing his daughter's blocks and modeling the cube
+with them.)
+Where does this number come from, and is it true?
+I have been playing with various transforms, and have found
+at least one reasonably trivial one that requires the 216
+iterations:  rotate a face 90, then turn the cube 90 and repeat.
+The transform here is 4 twists in a band around the axis of
+cube rotation.  The patterns generated in the process are interesting,
+too, though none of them are as unique as the cruciform or center-face patterns.

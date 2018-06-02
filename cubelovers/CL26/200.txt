@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Mar 19 12:47:00 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA17302
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 19 Mar 1999 12:46:59 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Fri, 19 Mar 1999 12:16:04 +0000
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: hbizek@ameritech.net
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009D558A.B96AC759.280@ice.sbu.ac.uk>
+Subject: RE: parity pairs
+
+	Conway noted the two mirror-image orientations of the standard colour
+pattern (W/Y, B/G, R/O).  One of the corners has  BOY  at a corner and he called
+this a  BOY,  versus the mirror-image  YOB.  I think he read the colours clockwise?
+Certainly most of the production was  BOY  and one had to hunt a bit for  YOBs.
+Some cubists were particularly keen to have one orientation rather than the
+other.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

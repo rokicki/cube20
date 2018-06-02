@@ -1,0 +1,35 @@
+From ivan@antares.aero.org  Wed Dec  7 00:30:43 1994
+Return-Path: <ivan@antares.aero.org>
+Received: from aero.org by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24372; Wed, 7 Dec 94 00:30:43 EST
+Received: from antares.aero.org ([130.221.192.46]) by aero.org with SMTP id <111151-1>; Tue, 6 Dec 1994 21:30:37 -0800
+Received: from armadillo.aero.org by antares.aero.org (4.1/AMS-1.0)
+	id AA11907 for cube-lovers@life.ai.mit.edu; Tue, 6 Dec 94 21:30:32 PST
+To: cube-lovers@life.ai.mit.edu
+Cc: ivan@aero.org
+Subject: Rubik's Cube, natch
+Date: 	Tue, 6 Dec 1994 21:30:30 -0800
+Message-Id: <22790.786778230@armadillo.aero.org>
+From: Ivan Filippenko <ivan@antares.aero.org>
+
+Is this a mailing list that I can join ?
+
+I'm a "cube lover", too.
+
+Thanks,
+
+  -- Ivan
+
+------------------------------------
+Ivan V. Filippenko, Ph.D.
+Senior Member of the Technical Staff
+Computer Systems Division
+The Aerospace Corporation
+M/S M1-055
+P.O. Box 92957
+Los Angeles, CA 90009-2957
+
+Internet:  ivan@aero.org
+Phone:     310-336-1808
+FAX:       310-336-5833
+------------------------------------
+

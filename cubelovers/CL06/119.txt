@@ -1,0 +1,39 @@
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU;  8 Jan 90 23:28:36 EST
+Received: from sunic.sunet.se by mintaka.lcs.mit.edu id aa10291;
+          8 Jan 90 23:25 EST
+Received: from kuling.DoCS.UU.SE by sunic.sunet.se (5.61+IDA/KTH/LTH/1.106)
+	id AAsunic01708; Tue, 9 Jan 90 04:34:27 +0100
+Received: by kuling.DoCS.UU.SE (VAX11/750, BSD UNIX 4.2)
+ with sendmail 5.59++/ICU/IDA-1.2.5 id AA04286; Tue, 9 Jan 90 04:34:17 +0100
+Date: Tue, 9 Jan 90 04:34:17 +0100
+From: Per Starb{ck <starback@kuling.docs.uu.se>
+Message-Id: <9001090334.AA04286@kuling.DoCS.UU.SE>
+To: pbeck@pica.army.mil, CUBE-LOVERS@ai.ai.mit.edu
+In-Reply-To: Peter Beck's message of Mon, 8 Jan 90 11:31:19 EST
+Subject: CFF
+
+
+pbeck>   FEEDBACK PLEASE:  Is anybody out there interested in my continuing to
+pbeck>   post the CFF table of contents?  1 yes and I will continue, none
+pbeck>   and I will stop.
+I'm interested. Thanks a lot!
+
+pbeck>   SUBJECT :  Review of "Cubism For Fun" newsletter issue #22, DEC 89;
+pbeck>   1..  The table of contents for issue # 22, DEC 89 follows:
+	 - - -
+pbeck>   RUBIK'S CUBE IN 44 MOVES:  HANS KLOOSTERMAN
+
+I guess that's on an algorithm to always solve the cube in at most 44
+moves. Is that right? Is that the best known algorithm (best = has
+minimum maximum number of moves)? Singmaster gives a broad outline of
+Thistlethwaite's algorithm in his "Notes on Rubik's 'Magic Cube'".
+That algorithm would always solve it in 52 moves, and I know that has
+been improved to 50 moves. Is this new algorithm something like
+Thistlethwaite's algorithm or is it working in a different way?
+
+pbeck>	<BECK@ARDEC-LCSS> OR <PBECK@ARDEC>
+--
+Per Starback		 email:	starback@kuling.Docs.UU.SE
+Flogstav. 71 C:313
+S-752 63  UPPSALA
+SWEDEN		Quote: "Life is but a gamble! Let flipism chart your ramble!"

@@ -1,0 +1,93 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Oct 24 16:27:10 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA12157; Thu, 24 Oct 1996 16:27:09 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 24 Oct 1996 10:29:40 +0100
+Message-Id: <1.5.4.32.19961024102451.002cf550@mentda.me.ic.ac.uk>
+X-Sender: ars2@mentda.me.ic.ac.uk
+X-Mailer: Windows Eudora Light Version 1.5.4 (32)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: Mario Velucchi <velucchi@cli.di.unipi.it>
+From: "The Official Thermo-Fluids Fan Club of the UK. (Andy Southern)" <a.southern@ic.ac.uk>
+Subject: Re: DEAR TANOFF <<<<<<<<<<<<<<<< (fwd)
+Cc: Cube-Lovers@ai.mit.edu
+
+At 17:33 23/10/96 +0200, you wrote:
+>Forwarded message:
+>> From velucchi@CLI.DI.Unipi.IT  Wed Oct 23 17:32:34 1996
+>> Subject: Re: DEAR TANOFF <<<<<<<<<<<<<<<<
+>> To: TANOFF%SMOOKE@BIOMED.MED.YALE.EDU
+>> Date: Wed, 23 Oct 1996 17:32:20 +0200 (MET DST)
+>> 
+>> > 
+>> > What is the Siamese Cube?
+>> > 
+>> 
+>> Two (usual/normal) Rubik Cubes in One ...
+>> 
+>> 
+>>    ------
+>>    |    |
+>>    |    |
+>>    -----+-----
+>>         |    |
+>>         |    |
+>>         ------
+>> 
+>> The goal is equal to normal cube but the moves are differents ...
+>> because the two cubes are "uniti" ....
+>> Do You understand? let me know!
+>> 
+>> 
+>> Sorry for my English and my Picture!
+>> 
+>> 
+>> -- 
+>> Best Regards, MV
+>> \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////
+>>  Mario Velucchi                              University of PISA
+>>  Via Emilia, 106                 Department of Computer Science
+>>  I-56121 Pisa                   e-mail:velucchi@cli.di.unipi.it
+>>  ITALY                      talk:velucchi@helen.cli.di.unipi.it
+>>                 http://www.cli.di.unipi.it/~velucchi/intro.html
+>> \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////
+>> 
+>
+>
+>
+I think I understand.
+
+There are two cubes, orientated the same, which share a common corner piece.
+The shared corner piece has no stickers on it, but is a "Double Inside"
+corner piece. The effect is that they share the same line from corner to
+corner, passing through the dead centre of the cube. The appearence would be
+like a (5x5x5) which had been cut away. 
+
+There would be a cubie at the locations:
+(1,1,1),(1,1,2),(1,1,3),(1,2,1),(1,2,2),(1,2,3),(1,3,1),(1,3,2),(1,3,3),
+(2,1,1),(2,1,2),(2,1,3),(2,2,1),(2,2,2),(2,2,3),(2,3,1),(2,3,2),(2,3,3),
+(3,1,1),(3,1,2),(3,1,3),(3,2,1),(3,2,2),(3,2,3),(3,3,1),(3,3,2),(3,3,3),(3,3
+,4),(3,3,5),(3,4,3),(3,4,4),(3,4,5),(3,5,3),(3,5,4),(3,5,5),
+(4,3,3),(4,3,4),(4,3,5),(4,4,3),(4,4,4),(4,4,5),(4,5,3),(4,5,4),(4,5,5),
+(5,3,3),(5,3,4),(5,3,5),(5,4,3),(5,4,4),(5,4,5),(5,5,3),(5,5,4),(5,5,5),
+
+These cubes would *not* rotate about the apparent centre (3,3,3), but about
+the two real centres (4,4,4) and (2,2,2).
+
+I could see there being a few perceptual problems. The conecting cubie at
+(3,3,3) would have no colour stickers on it, hence position and rotation
+must be determined from the other corners. The cube would also appear to the
+operator to turn only the outer slice and middle slice of each cube because
+the operator would always use the centre of mass as his/her frame of
+referance. That is different to the standard (3x3x3) because the operator
+feels the outer slices move.
+
+sorry if this is either wrong or nothing new, I just thought I'd share my
+thoughts with you.
+
+Andrew Southern
+
+
+

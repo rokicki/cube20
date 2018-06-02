@@ -1,0 +1,24 @@
+Date: 18 Aug 1982 2226-PDT
+From: ISAACS at SRI-KL
+Subject: KERI's Article
+To: CUBE-LOVERS at MIT-MC
+
+  The "Games and Mathematics" article in "Rubik's" Magazine (mentioned
+yesterday) asks an interestion question: how can you characterize the
+random coloring on a cube in order to determine if the cube is 1) solvable
+by twisting, or 2) solvable by  dismantling and reassembling.  
+  The obvious criteria are 6 colors, 9 of each, 4 on edges, 4 on corners, 1
+on a center, no 2 facies of a cubie the same color.  For case 2, Keri
+claims you need 4 more tests.  For instance, he gives test 1: Given 1
+corner with colors A, B, and C, let the other 3 colors be a, b, and c.
+Then you can't have a capital and small of the same letter on one corner,
+and the 8 corners are exactly the 8 combinations.  What are the other
+tests?  Are 4 really necessary?  What are the tests for case 1?
+   By the way, he (from some other article) classifies the 3 unscrambling
+methods as follows:
+   1) Chemical unscrambling: repaint the sides.
+   2) Physical unscrambling: dismantle and reassemble
+   3) Mechanical (or mathematical): normal way, by twisting.
+
+  --- Stan
+-------

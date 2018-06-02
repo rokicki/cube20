@@ -1,0 +1,38 @@
+From: Scott Crawford <scrawfor@host1.dia.net>
+Reply-To: scrawfor@host1.dia.net
+To: Cube List <Cube-Lovers@ai.mit.edu>
+Subject: Re: Identify this puzzle please!
+References: <9612060033.AA18270@quark.geoworks.com>
+
+David Litwin wrote:
+> 
+>         Actually that is a cubo-octahedron and has as its internal
+> mechanism a normal cube (with different side and corner pieces).
+>         This has 10 sides, not 12 like the dodecahedron.  The faces of
+> a dodecahedron are pentagons and the internal mechanism is actually
+> quite similar in concept to the cube (12 centers on axes instead of 6
+> centers on axes).
+> 
+>         Dave Litwin
+> 
+> Scott Crawford writes:
+> > I recently acquired a puzzle through the mail and am not sure what it is
+> > called.  I'll give a shot at describing it:  It has 14 sides - 8
+> > triangles, and 6 squares.  The squares are rotated 45 degrees and each
+> > touch 4 other squares at the corners, while their sides match up with 4
+> > triangles each.  You could achieve the shape of this puzzle by taking a
+> > cube and shaving off the corners to create an equilateral triangle.
+> > There are no markings or words on it.  If anybody knows, please let me
+> > know, as I am curious if this is the Magic Dodecahedron I've been
+> > reading about.
+
+
+Thanks a lot all!!!  Wow! Talk about fast response.  At first glance I
+figured I would never be able to solve this one, but upon closer
+examination, I realized I already knew how.  It is identical to the
+original cube in methods of solving.  Again thanks, you guys are great!!
+
+Scottie
+
+------------------------------
+

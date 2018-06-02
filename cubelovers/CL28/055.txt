@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Dec 22 14:34:46 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil ([132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA18957
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 22 Dec 1999 14:34:46 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 15 Dec 1999 22:05:48 -0500 (EST)
+From: noel <noel@titan.tcn.net>
+To: John Bailey <jmb184@frontiernet.net>
+Cc: Cube-Lovers@ai.mit.edu, bcheney@teleport.com
+Subject: Re: WTD: Rubik's Cube Program w/MACROS
+In-Reply-To: <385225bd.86868338@mail.frontiernet.net>
+Message-Id: <Pine.BSI.3.95.991215220417.9151A-100000@titan.tcn.net>
+
+There is a modified cube (2x2x2 to 5x5x5 with macro abilities at the
+following url:
+
+http://www.mud.ca/cube/cube.html
+
+See the examples for how to enter the macros in.
+
+-Noel
+

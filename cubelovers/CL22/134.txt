@@ -1,0 +1,53 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun  5 01:18:40 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id BAA05363; Thu, 5 Jun 1997 01:18:40 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <199706050457.AAA19765@life.ai.mit.edu>
+Date: Thu, 5 Jun 1997 00:55:43 -0400
+From: michael reid <reid@math.brown.edu>
+To: Dik.Winter@cwi.nl, cube-lovers@ai.mit.edu
+Subject: Re: More on Korf's method
+
+dik writes
+
+>  > But we _can_ say there's at most one chance in 1024 that the first ten
+>  > random cubes you pick will all be closer than the median to solved.
+>  > So this demonstrates Rich's claim that the median optimal solution is
+>  > very likely 18f.
+> 
+> Something I did estimate already a long time ago.  I have done a few
+> hundred random cubes (a few thousand?  I do no longer remember) back
+> so many years ago.  As I remember, I let the program look for optimal
+> solutions upto 18f (longer is a bit time consuming).  As I remember,
+> there were only very few that could *not* be solved in 18f.  There must
+> be a discussion about this in the archives.
+
+this is not quite right.  i consulted the archives and found dik's
+message of august 3, 1993 "Diameter of cube group?"  the details are
+as follows:
+he tested 9000 random cube positions using kociemba's algorithm and
+found that they were all within 20 face turns of start.  (this took
+two months of computer time.)  however, he was not so interested in
+finding _optimal_ solutions, but instead was satisfied with a maneuver
+of length <= 20f.
+
+this seems to be the most fundamental difference between kociemba's
+algorithm and korf's method: kociemba is interested in sub-optimal
+solutions (optimal solutions are ok, too), whereas korf has no interest
+in sub-optimal solutions.
+
+dik says in that message that he generated random cubes by taking
+random sequences of 100 face turns, which is the same as korf did.
+this is probably adequate randomness; however, i would do things
+differently: first generate a random permutation of the edges, then
+a random permutation of the corners, with the same parity, then
+random flips for the edges and random twists for the corners.
+in reality, it probably doesn't make any difference.  but i would
+choose the latter method as a matter of principle.  this is just
+my own philosophy.  (i think dan hoey recently expressed similar
+sentiments.)
+
+mike
+
+

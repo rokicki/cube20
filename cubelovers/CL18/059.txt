@@ -1,0 +1,85 @@
+From listmast@telegrafix.com  Sun Jan  7 08:17:07 1996
+Return-Path: <listmast@telegrafix.com>
+Received: from telegrafix.com ([204.74.76.230]) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12286; Sun, 7 Jan 96 08:17:07 EST
+Received: (from majordom@localhost) by telegrafix.com (8.6.11/8.6.9) id RAA21311 for customer-outgoing; Sat, 6 Jan 1996 17:48:03 -0800
+Received: (from info@localhost) by telegrafix.com (8.6.11/8.6.9) id RAA21239; Sat, 6 Jan 1996 17:41:28 -0800
+Date: Sat, 6 Jan 1996 17:41:26 -0800 (PST)
+From: TeleGrafix Information <info@telegrafix.com>
+To: customer@telegrafix.com
+Subject: Introducing RIP-2 Multimedia Graphics for the Internet
+Message-Id: <Pine.LNX.3.91.960106173942.21234A-100000@telegrafix.com>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Sender: owner-customer@telegrafix.com
+Precedence: first-class
+Reply-To: information@telegrafix.com
+
+
+Happy New Year from TeleGrafix:
+
+     Since you are an important colleague of ours in the online media 
+community, TeleGrafix is sending this short news release to brief you 
+about an important new Internet technology.  
+
+     Following two years of development, TeleGrafix Communications 
+is giving away free communications software that allows you to use 
+the new RIPscrip-2 (Remote Imaging Protocol-2 scripting language) 
+Internet online multimedia technology.  
+
+     We invite you to sample "RIP-2" multimedia on TeleGrafix's 
+Vector Sector BBS at (714) 379-2133.  To fully experience it, please 
+download the "shareware" RIPterm v2.2 communications software 
+from the BBS.  RIP-2 technical data and RIPterm v2.2 also are 
+available for download at http://www.telegrafix.com on the World 
+Wide Web.  Browser "plug-ins" to permit viewing of RIP-2 
+multimedia on the Web are slated for release in early 1996. 
+
+     RIP-2 enables you to create TV-style multimedia presentations or 
+electronic newspapers that fly through the Internet and ordinary 
+phone lines at dazzling speeds using regular modems.  RIP-2 encodes 
+graphics as hyper-compressed ASCII text files that are as little as 
+one-tenth the size of other formats.  It works on any computing 
+platform or communications network that uses 7-bit or 8-bit ASCII 
+text.  We expect RIP-2 to quickly become an important Internet 
+technical standard like HTML, Java or VRML.  
+
+     TeleGrafix is now accepting requests from software developers 
+and online system operators who want copies of the RIP-2 Internet 
+multimedia language specification when it is published in early 1996.  
+The first generation of RIP technology, introduced in 1993, is the 
+world's BBS graphics standard. It is used on thousands of BBS 
+systems, and is supported by dozens of online software vendors 
+including Delrina, Galacticomm, Hayes and Mustang. 
+
+If this message has reached you in error or if you are no longer 
+interested in RIPscrip technology,  please tell us via E-mail so you 
+won't get additional information. We look forward to helping you, 
+and we wish you a Happy New Year. 
+
+     Sincerely,
+
+     Pat Clawson          Mark Hayton         Jeff Reeder
+     President/CEO        VP/Technology       Chairman & CyberWizard
+
+                   TeleGrafix Communications Inc.
+                  16458 Bolsa Chica Road, Suite 15
+                 Huntington Beach, California 92649
+
+          Voice: (714) 379-2131        Fax: (714) 379-2132
+            BBS: (714) 379-2133        WEB: http://www.telegrafix.com
+       Internet: info@telegrafix.com   FTP: ftp.telegrafix.com
+
+
+--------------------------------------------------------------------------
+This message was sent by the mailing list system majordomo@telegrafix.com.
+To remove yourself from this mailing list, send an E-Mail message to
+majordomo@telegrafix.com with a single command on the first line of the
+message reading "unsubscribe customer".
+--------------------------------------------------------------------------
+
+TeleGrafix Communications, Inc.           Sales: (714) 379-2141
+16458 Bolsa Chica, #15                      Fax: (714) 379-2132
+Huntington Beach, CA 92649                  BBS: (714) 379-2133
+WWW: http://www.telegrafix.com
+FTP: ftp.telegrafix.com
+

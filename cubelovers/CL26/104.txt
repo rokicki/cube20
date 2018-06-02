@@ -1,0 +1,31 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jan 14 13:12:53 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA02647
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 14 Jan 1999 13:12:53 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Clinton and Rubik?
+Date: 14 Jan 1999 14:43:30 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <77kvqi$o6k@gap.cco.caltech.edu>
+References: <cube-lovers.009D220A.48E392F4.2@ice.sbu.ac.uk>
+
+David Singmaster <david.singmaster@sbu.ac.uk> writes:
+>   Senator Trent Lott (R-Missouri), Senate Majority Leader,
+>speaking on 6th January, 1999, to reporters about arrangements
+>for the impeachment of the President, declared, ``All sides
+>of this Rubik's cube have been talked about. We hope to have
+>this all resolved tomorrow''. [As quoted in The New York Times
+>for 7th January, p. A1.]
+
+Of course, claiming that they can REsolve it implies that
+it was already SOLVED at some point in the past ... :-)
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+"... I guess that explains why you're automatically dogmatic!"
+

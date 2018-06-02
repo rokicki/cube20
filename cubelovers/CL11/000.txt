@@ -1,0 +1,76 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Mon Dec  6 21:32:55 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10000; Mon, 6 Dec 93 21:32:55 EST
+Message-Id: <9312070232.AA10000@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 3272; Mon, 06 Dec 93 21:32:56 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 0517; Mon, 6 Dec 1993 21:32:56 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 6339; Mon, 6 Dec 1993 21:30:26 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Mon, 6 Dec 1993 21:30:25 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: <cube-lovers@ai.mit.edu>
+Subject:   Re: Unique antipode of edges only
+In-Reply-To: Message of 12/06/93 at 10:45:00 from mark.longridge@canrem.com
+
+On 12/06/93 at 10:45:00 mark.longridge@canrem.com said:
+>-> I was somewhat startled to see the unique antipode of the 3x3x3 edges
+>-> in the quarter-turn metric.  Do you know what pattern that is?
+>->
+>-> Dan
+
+>It's got to be all edges flipped in place.
+
+I had to stare at my picture for a couple of minutes to be sure, but
+yes it is.  How did you know?
+
+>I would like to see the process generating the position!
+
+This is doable, but it is a little harder said than done.  My "data base"
+is just a simple flat file with the states and the level associated with
+each state.  In the case of the 2x2x2, the file is about 625K, and
+I have programs to search it readily.  If you use the file in
+"Solver mode", my "Solver program" just generates all successors of the
+current node, finds each successor in the data base (it is a simple binary
+search, the file is sorted), chooses one at level N-1 (there is always
+at least one), and makes that the new current node.  It stops when
+N=0.
+
+I have a "Solver program" for the "corners plus centers of the
+3x3x3" as well, but again the data base is small.  It is actually
+the original 625K file for the 2x2x2 case, plus three additional
+625K files.  This simple file structure was chosen to keep the file
+small.  There are no pointers, trees, or processes stored in the
+data base.
+
+The "edges of the 3x3x3 without centers" is a little tougher.  Early
+in the project, I generated a data base for the first few levels
+(six or seven, I think), and I have a "Solver program" that will
+work up to that level.  However, the full "edges of the 3x3x3 without
+centers" is a 4.2 gigabyte file on tape, so it is hard to process.
+Also, the size of the equivalence classes is not in the data base,
+only the level.  I have to calculate the size of each equivalence
+class, and it is an expensive calculation.
+
+I made a pass at the
+file and calculated the number of equivalence classes (took
+125 hours on a mainframe), but I only saved a summary.  I did not
+save the number of equivalence classes for each state.  I found
+the antipodal by looking for level 15, since I knew there was
+only one occurrence, and since the level was in the data base.
+
+I did save the summaries by tape, so I should only have to look
+on two tapes to find the other two equivalence classes which
+have 24 elements.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

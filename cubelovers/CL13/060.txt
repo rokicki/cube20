@@ -1,0 +1,36 @@
+From BRYAN@wvnvm.wvnet.edu  Tue Nov 15 08:47:23 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18861; Tue, 15 Nov 94 08:47:23 EST
+Message-Id: <9411151347.AA18861@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 5519; Tue, 15 Nov 94 08:46:59 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 9202; Tue, 15 Nov 1994 08:47:00 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Tue, 15 Nov 1994 08:46:59 -0500 (EST)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@life.ai.mit.edu>
+Subject:   Re: <U, R> Antipode!
+In-Reply-To: Message of 11/14/94 at 23:41:00 from Dik.Winter@cwi.nl
+
+On 11/14/94 at 23:41:00 Dik.Winter@cwi.nl said:
+
+>You mean: F2 U3 D2 L3 D3 R1 U2 B2 R1 B2 R3 D1 L1 D3 R2 U1 D3 (or rather
+>its inverse)?  Took Kociemba's algorithm 10 minutes.  I do not yet
+>know whether this is minimal.
+
+Are you applying Kociemba's algorithm to the <U,R> antipodal positions
+in the context of <U,R> or in the context of G?  The lengths of these
+antipodal positions are already known to be minimal in <U,R>.
+However (and obviously), the length in <U,R> can only be claimed to
+be an upper bound for the length in G without further testing in G.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

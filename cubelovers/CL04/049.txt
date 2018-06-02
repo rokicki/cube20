@@ -1,0 +1,213 @@
+Date: 15 June 1982 1045-EDT (Tuesday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Patterns for Rubik's Revenge
+Message-Id: <15Jun82 104503 DH51@CMU-10A>
+
+			CHECKERBOARDS
+
+I confirm Dave Plummer's result that it is impossible to make a
+checkerboard on all faces of a cube of even side.  Proving this for
+the 2^3 is sufficient, and implies the corollary I sent last year
+that it is impossible to make S or Z or Zig-Zag patterns on all
+sides of the 3^3.  This time I will outline my analysis of the
+problem.
+
+What we are asking for in each case is a pattern in which every
+face has matching diagonally opposite corner facets and contrasting
+adjacent corner facets.
+
+First, consider any position in which diagonally opposite corner
+facets match on each face.  If we connect every pair of corner
+cubies that have diagonally opposite corner facets we get two
+tetrahedrons of corner cubies.  A quick examination will show that
+the four cubies in such a tetrahedron must either be
+
+	1) Not all from the same cube,
+	2) Four copies of the same cubie, or 
+	3) Four different cubies from the same cube, in the correct
+		position and orientation relative to each other.
+
+Assuming case 3, we may place one tetrahedron in the home position
+and consider how the other tetrahedron has been rigidly rotated
+with respect to the first.  There are 12 rotations of the
+tetrahedron.  One is the identity, three are 180-degree rotations
+about the midpoints of two opposite edges, and six are 120-degree
+rotations about a vertex.  
+
+In the identity every face's adjacent corner facets fail to
+contrast.  The 180-degree rotations have the corners like the 3^3
+Zig-zag pattern, where two faces have noncontrasting corners.  The
+120-degree rotations would make checkerboards, but violate the
+corner twist invariant.
+
+Approximate checkerboards can be made from the 180-degree rotation
+and from the 120-degree rotation with one corner twisted.  In the
+180-degree approximation, two faces have two wrong facets each.  In
+the 120-degree approximation, three faces have one wrong facet
+each.  Both are achievable with the 2^3 and 4^3, and I think these
+are as close as you can get on any even-sided cube.
+
+			SPOTS
+
+Spot patterns of the 4^3 are those which have the pattern
+		X X X X
+		X Y Y X
+		X Y Y X
+		X X X X
+on all nonblank faces.  There are a lot of them:  every permutation
+of the centers is possible.  There are thus 6! = 720 spot patterns.
+We may cut this number down by identifying positions that are
+M-conjugates (recolorings) of each other.
+
+As long as I am listing the permutations by conjugacy class, I may
+as well break them down by recoloring type.  Last July I asked a
+question about the possible rearrangements of colors on the cube.
+I worked on the solution long enough to find that given a
+``standard'' cube, there are five kinds of recoloring up to
+M-conjugacy.
+	Identity   -- The standard coloring.
+	Reflection -- Identity in a mirror.
+	Swap	   -- Identity with two adjacent colors exchanged.
+	Wrench	   -- Identity with three adjacent colors cycled.
+	Befuddler  -- Wrench in a mirror.
+The Identity and Reflection are unique colorings.  There are twelve
+Swaps and eight each of the Wrench and Befuddler recolorings.  Each
+recoloring corresponds to 24 face permutations, achievable by
+whole-cube moves.
+
+Here, then, are the spot patterns.  Columns correspond to the
+number of spots in the pattern.  The row groupings show the kind of
+cube coloring the spot pattern comes from.  The patterns are given
+as a permutation of faces:  (...XY...) and (Y...X) both mean that
+face X has a spot colored Y, as shown at the beginning of this
+message.  The number of permutations in each conjugacy class is
+also given.
+
+				Number of spots
+	   0     2	 3	      4	            5		   6
+Coloring
+--------------------------------------------------------------------
+Identity  :8                   (BUFD):6                 (BUL)(FDR):8
+	    		     (BF)(UD):3               (BF)(UL)(DR):6
+--------------------------------------------------------------------
+Reflection  (BF):3	     (BU)(FD):6                   (BULFDR):8
+					                (BF)(ULDR):6
+					              (BF)(UD)(LR):1
+--------------------------------------------------------------------
+Swap	   (BU):12 (BFU):24   (BFUD):12    (BUFDL):48    (BFULDR):48
+			    (BF)(UL):12  (BF)(UDL):24  (BF)(UDLR):12
+				         (BU)(FDL):48  (BU)(FDLR):48
+--------------------------------------------------------------------
+Wrench		   (BUL):16   (BUFL):24    (BFUDL):48    (BFULRD):24
+				         (BU)(FLR):48   (BUL)(FRD):8
+						       (BU)(FLDR):24
+--------------------------------------------------------------------
+Befuddler		      (BFUL):48    (BFULD):48    (BFUDLR):16
+			    (BU)(FL):24	                 (BUFLDR):24
+						       (BFU)(DLR):24
+						      (BU)(FL)(DR):8
+--------------------------------------------------------------------
+
+The answer: Fifteen six-spot patterns, six five-spots, eight
+four-spots, two three-spots, two two-spots, and one no-spot.
+
+			CROSSES
+
+What cross patterns are possible on the 4^3?  We must first ask
+what a cross pattern on the 4^3 should look like.  I consider the
+following two kinds of cross.
+
+		Thick Cross		Thin Cross
+
+		  X O O X		 X O X X
+		  O O O O		 O O O O
+		  O O O O		 X O X X
+		  X O O X		 X O X X
+
+Every thick cross pattern is a rigid rotation or reflection of the
+edge and face center pieces with respect to the corners.  This is
+just like the 3^3 case except that the 3^3 has face centers that
+are fixed relative to each other, and so does not allow reflec-
+tions.  So in addition to the thick versions of Plummer's Cross and
+Cristman's Cross, there are three new crosses.
+
+    Thick Pons Cross                        Thick Fliptwist Cross
+                       Thick Interlaced Cross
+         U D D U                                   U L L U
+         D D D D              B U U B              L L L L
+         D D D D              U U U U              L L L L
+         U D D U              U U U U              U L L U
+                              B U U B
+L R R L  F B B F  R L L R                 L D D L  F B B F  R U U R
+R R R R  B B B B  L L L L     U L L U     D D D D  B B B B  U U U U
+R R R R  B B B B  L L L L     L L L L     D D D D  B B B B  U U U U
+L R R L  F B B F  R L L R     L L L L     L D D L  F B B F  R U U R
+                              U L L U
+         D U U D                                   D R R D
+         U U U U     L F F L  F D D F  R B B R     R R R R
+         U U U U     F F F F  D D D D  B B B B     R R R R
+         D U U D     F F F F  D D D D  B B B B     D R R D
+                     L F F L  F D D F  R B B R
+         B F F B                                   B F F B
+         F F F F              D R R D              F F F F
+         F F F F              R R R R              F F F F
+         B F F B              R R R R              B F F B
+                              D R R D
+
+For thin crosses, we first examine those in which the arms of the
+crosses meet at the edges.  Again the figure facets are rigidly
+rotated and reflected with respect to the ground.  This time cubie
+conservation becomes an issue, because of the impossibility of
+flipping an edge cubie, so there are only three such thin crosses.
+
+     Thin Pons Cross			      Thin Plummer Cross
+		       Thin Interlaced Cross
+	 U U D U				   U U R U
+	 U U D U	      B B U B		   U U R U
+	 D D D D	      B B U B		   R R R R
+	 U U D U	      U U U U		   U U R U
+			      B B U B
+L L R L  F F B F  R L R R		  L L B L  F F U F  R F R R
+R R R R  B B B B  L L L L     U U L U	  B B B B  U U U U  F F F F
+L L R L  F F B F  R L R R     U U L U	  L L B L  F F U F  R F R R
+L L R L  F F B F  R L R R     L L L L	  L L B L  F F U F  R F R R
+			      U U L U
+	 D D U D				   D D L D
+	 U U U U     L L F L  F F D F  R B R R	   L L L L
+	 D D U D     F F F F  D D D D  B B B B	   D D L D
+	 D D U D     L L F L  F F D F  R B R R	   D D L D
+		     L L F L  F F D F  R B R R
+	 B B F B				   B B D B
+	 B B F B	      D D R D		   B B D B
+	 F F F F	      R R R R		   D D D D
+	 B B F B	      D D R D		   B B D B
+			      D D R D
+
+When we relax the constraint that thin cross arms must meet at the
+edges, the figure is no longer rigidly transformed with respect to
+the ground.  Indeed, we might expect that adjacent crosses whose
+arms do not meet might have colors that are opposite on the cube.
+I carried out a long examination of the cases, and found that this
+does not happen.  In fact, only one new color permutation arises.
+
+	   Thin Fliptwist Cross
+
+		 U U B U
+		 B B B B
+		 U U B U
+		 U U B U
+
+	L R L L  F F U F  R L R R  B D B B
+	L R L L  F F U F  L L L L  B D B B
+	R R R R  U U U U  R L R R  D D D D
+	L R L L  F F U F  R L R R  B D B B
+
+		 D D F D
+		 D D F D
+		 F F F F
+		 D D F D
+
+The only other thin cross patterns in which not all crosses meet at
+the edges are 43 versions of the Thin Pons Cross (modulo my missing
+a case or two in the analysis).

@@ -1,0 +1,33 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct 14 18:44:16 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA18461; Tue, 14 Oct 1997 18:44:15 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From fb91@dial.pipex.com Tue Oct 14 08:00:33 1997
+Message-Id: <199710141200.IAA10374@life.ai.mit.edu>
+From: "Richard Armitage" <fb91@dial.pipex.com>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: VRML puzzles/newsletter
+Date: Tue, 14 Oct 1997 12:59:59 +0100
+
+We are shortly to create a full VRML site of cubes, and other similar
+puzzles a la Rubiks and spacecubes.  It will contain both free and for sale
+items and will evolve as demand requests from people like you!!
+
+I am going to be publishing a monthly newsletter from November 1997,
+covering 3D puzzles (real and virtual) and SpaceCubes news.  You can sign
+up from the first page of our website or by sending an e-mail to
+info@spacecubes.com with the subject newsletter.  You will receive a
+SpaceCubes info standard letter for now until we set up all the right
+autoresponses but I wiil  happily deal with all feedback.
+
+Thankyou and looking forward to giving you good challenges
+
+Richard
+Richard Armitage (SpaceCubes Marketing)
+tel:44 191 281 6011 US fax 2125048016
+autorespond:<mailto:info@spacecubes.com>
+<mailto:Richard.Armitage@dial.pipex.com> or <Query@spacecubes.com>
+<http://www.spacecubes.com>
+

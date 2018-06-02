@@ -1,0 +1,61 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Thu Jan 19 01:02:38 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10634; Thu, 19 Jan 95 01:02:38 EST
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <159428-2>; Thu, 19 Jan 1995 00:35:27 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA00872; Thu, 19 Jan 95 00:21:59 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1CA56D; Thu, 19 Jan 95 00:11:23 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Shift Invariance Recap
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1003.5834.0C1CA56D@canrem.com>
+Date: Thu, 19 Jan 1995 00:08:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+Shift Invariance the Final Chapter??
+------------------------------------
+
+    2 x Order 2           (the diagonal square element)
+    Subgroup <U2, D2, R2, L2>, order = 2
+    D2 F2 T2 F2 B2 T2 F2 T2
+
+    2 Swap                (the single square element)
+    Subgroup <U2, D, R2, L>, order = 2
+    D2 R2 D2 R2 D2 R2
+
+    2 H                   (the edge square element)
+    Subgroup <U, D, R2, L2>, order = 2
+    L2 R2 B2 L2 R2 F2
+
+    12 flip               (the central element)
+    Subgroup <U, D, F, B, L, R>, order = 2
+    R1 L1 D2 B3 L2 F2 R2 U3 D1 R3 D2 F3 B3 D3 F2 D3 R2 U3 F2 D3
+    Special Property: Effects all edges the same
+
+    6 Counterclockwise twist   (the odd element)
+    Subgroup <U, R>, order = 3
+    U2 R1 U1 R1 U1 R3 U1 R3 U1 R3 U2 R1 U1 R1 U1 R3 U1 R3 U1 R3
+    Special Property: Effects all corners the same
+
+
+Martin's message about the SuperSkewb having a non-trivial centre
+reminded me that the SuperCube should have 3 more positions which
+are also shift invariant:
+
+3x3x3 cube with 6 centre pieces rotated 90, 180 and 270 degrees,
+ with orders 4, 2 and 4 respectively. This time all the centres
+ are effected the same!
+
+Naturally there are 3 more positions in SG's <U, R> as well.
+
+A pity there is no "Centre All-Twist" process in any of the cube
+ literature.
+
+-> Mark <-
+
+I'll leave a superflip process for the Magic Dodecahedron as a
+'exercise for the reader'     ;-)
+

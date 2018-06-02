@@ -1,0 +1,9 @@
+Date:	  15 July 1980 2245-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  Cube minima
+To:	  CUBE-LOVERS at MIT-MC
+
+I believe the 94 number comes from Singmaster's book. UNFORTUNATELY
+Singmaster doesnt seem to know what the word "canonical" means,
+and 180-degree twists count as single moves "too" in his religion.
+This makes his number kind of worthless.

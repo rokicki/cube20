@@ -1,0 +1,115 @@
+Date: 28 MAR 1981 1259-EST
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  New toy (long message, but read it anyway!!)
+To: CUBE-LOVERS at MIT-MC
+
+
+Tanya Sienko is visiting me, and she says that the cube is the
+craze of Japan. She also presented me with a new toy, given to
+her by some Japanese. (I don't know if is in this counrty --
+yet.) 
+
+The thing is shaped like a barrel mounted on a supporting
+structure. The barrel can move one UNIT up or down in the
+structure. Around the circumference of the barrel there are five
+equally distributed columns. Two of the columns have four rows,
+and three of them have five. The ones with five have a plunger on
+the associated part of both the top and bottom (or left and
+right) parts of the supporting structure. Two plungers are next
+to each other, and the third is opposite their midpoint. There
+are 23 balls in the device: four each of green, yellow, blue,
+red, orange (one for each column) and three black balls. (in a
+minute you will see where these black balls go). The barrel is
+divided into four parts. The left- and right-most parts are fixed
+with respect to the supporting structure. Each has three cavities
+either to hold a ball or one of the plungers. The barrel moves,
+so either the left has balls in the cavity and the right has the
+plungers, or vice versa. The middle two sections of the barrel
+have two cavities in each row, and these rotate around the
+circumference, taking balls with them.
+
+I have been trying to say left and right, because I think the
+corect way to thing of this devices is as follows: Hold it
+horizontally, with the barrel centered in the supporting
+structure. This means that each plunger is half way into its
+cavity. A MOVE consists of moving the barrel one half unit right
+or left, then moving one of the rotating middle sections forward
+or backward one unit, and then returning the barrel to center
+position. This creates four generators: move barrel [left,right],
+then move middle section-[left,right] forward (or backward, which
+is the inverse). Visually:
+
+	|   |                       |   |
+	A   A   A   A   A	B   B   B   B   B  
+	 \   \                     /   /
+	  A   A   A   A           B   B   B   B
+	 /   /                     \   \
+	A   A   A   A   A	B   B   B   B   B  
+	 \   \                     /   /
+	  A   A   A   A           B   B   B   B
+	 /   /                     \   \
+	A   A   A   A   A	B   B   B   B   B  
+	|   |                       |   |
+
+
+		|   |			    |   |
+	C   C   C   C   C	D   D   D   D   D  
+		 \   \			   /   /
+	  C   C   C   C           D   D   D   D
+		 /   /			   \   \
+	C   C   C   C   C	D   D   D   D   D  
+		 \   \			   /   /
+	  C   C   C   C           D   D   D   D
+		 /   /			   \   \
+	C   C   C   C   C	D   D   D   D   D  
+		|   |			    |   |
+
+Where	A is move barrel left , move left  section
+	B is move barrel right, move left  section
+	C		 left ,	     right
+	D		 right,	     right
+
+The top and bottom of these drawings are connected, cavities
+(filled with the balls) move along the lines. All balls move in
+the same direction the same number of units (i.e., the middle
+sections are rigid). I hope this is a good enough description, if
+not send me mail and I will send an addendum. 
+
+The object, so I hear, is to get each column (row in these
+pictures) a single color, and if there are five slots (of which
+there are three), the fifth has a black ball in it, when the
+barrel is pushed all the way to one side, the plungers take up
+three of the outside-barrel-sections, and the black balls take up
+the opposite three. from a symmetric point of view, I think it
+would be more general to SOLVE it so that the black ball is in
+the middle of the five balls (this may not be solvable though)..
+
+If we ignore the obvoius left-right symmetry of the above
+pictures, the first assumption of the combinatorics of this beast
+is simply P(23;4,4,4,4,4,3)=numbers of ways to permute 4 balls of
+each of 5 colors and 3 balls of another color=
+
+		23!
+	------------------- = 541111756185000 = 541 trillion
+	 4! 4! 4! 4! 4! 3!
+
+Until I have played with it for a while, I can't even guess on
+how many orbits there are. Perhaps only one -- I don't know.
+
+Super-groups come in a few classes:
+(1)	Each non-black ball gets a second label (1-4) 
+	giving size 23!/3! = 4.3*10^21
+(2)	Each black gets a second label (1-3)
+	giving size 23!/(4!)^5 = 3.25*10^15
+(3)	(1) and (2), all balls distinct
+	giving size 23! = 25.8*10^21
+
+If anybody sees one in this county, please let me know. Tanya
+believes they are only in Japan at the moment. She has donated
+the one I have seen to me/SIPB, so people at MIT and area are
+free to come to 39-200. PLEASE BE CAREFUL with it. It is plastic
+and it looks breakable -- especially the outer part of the
+supporting structure looks like it dould break. I think a better
+construction would be to have them be plates which are attached
+to the axis with screws. This might lead to a temptation to
+disassemble, which may be epsilon below breakage.

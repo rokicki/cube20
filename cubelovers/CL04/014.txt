@@ -1,0 +1,50 @@
+Date:     19 May 1982 0107-edt
+From:     Ronald B. Harvey           <RHarvey at MIT-MULTICS>
+Subject:  4^3 Cube
+To:       cube-lovers @ mit-mc
+
+In response to Richard Pavelle's message, there are about 7.4*10^45
+color combinations.  See "mc:alan;cube 4x4x4" for more details on the
+subject (especially the derivations) by Dan Hoey.
+
+I bought a solution book from my favorite bookstore today. The title is
+"The Winning Solution to Rubik's Revenge". It is a sequel to "A Winning
+Solution to Rubik's Cube" by the same author (Minh Thai), who is billed
+as the U.S. National Champion of the Rubik's Cube-A-Thon.  I assume the
+Revenge book is not REALLY a winning solution... at least not yet.
+
+His method is to put all corners together, go for two opposite centers,
+then the edges of said centers.  Next he goes for the remaining edges
+(numbering eight), and then the last four centers.
+
+He also goes into many patterns, and has developed a notation which I
+have not found immediately obvious.  I haven't looked at the book more
+than to scan it yet, however.  He does list a few pretty-patterns, none
+of which are checkerboards of any sort.
+
+On a different subject, Paul Schauble accidentally found out how to take
+apart the 4^3 today - twist an outer layer about 30 degrees so that an
+edge of the twisted face is directly over the edge cube that now forms a
+corner on the rest of the cube.  Pop out the cube from the outer layer,
+twist the face again so that the popped cube's partner is in a similar
+position for popping, and then pop it.  The corners now come out fairly
+easily.
+
+Unlike Plummer's design, the insides of this beastie is a sphere with
+grooves running along it to make a kind of universal joint.  The center
+cubies ride in these grooves and hold all of the other pieces in.  We
+only took out about a half-dozen cubies because the cube was NOT in an
+initialized  state, but closer to a pretty pattern.  I was definitely
+not interested in getting it ALL apart in order to get it back together
+correctly. (we did it correctly the first try!).  Unlike the 3^3 cube,
+the 4^3 does not seem to come apart easily after the first few are out.
+
+I seem to have gone on for a bit longer than I intended.  I will study
+the pamphlet (published by Dell/Banbury by the way) and report in more
+detail on notation later.
+
+I just noticed that in the section on Cubology, the author lists the
+number of "arrangements is something in excess of 3.7*10^45".  Since
+Hoey's number is larger, I guess the statement is correct.
+
+ - Ron

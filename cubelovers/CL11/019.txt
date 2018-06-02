@@ -1,0 +1,111 @@
+From mouse@collatz.mcrcim.mcgill.edu  Fri Dec 10 09:16:34 1993
+Return-Path: <mouse@collatz.mcrcim.mcgill.edu>
+Received: from Collatz.McRCIM.McGill.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25485; Fri, 10 Dec 93 09:16:34 EST
+Received: from localhost (root@localhost) by 4504 on Collatz.McRCIM.McGill.EDU (8.6.4 Mouse 1.0) id JAA04504; Fri, 10 Dec 1993 09:16:29 -0500
+Date: Fri, 10 Dec 1993 09:16:29 -0500
+From: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Message-Id: <199312101416.JAA04504@Collatz.McRCIM.McGill.EDU>
+To: senya@rainbow.ldgo.columbia.edu
+Subject: Re:  Needed: Basic elements of solving Rubic Cube:
+Cc: cube-lovers@ai.mit.edu
+
+> Subject: Needed: Basic elements of solving Rubic Cube:
+
+(Does anyone happen to know whether Ernö Rubik knows what's happened to
+his name?  I don't mean just here, but how common a term it's become.
+And I apologize for using ö instead of what I think is the proper long
+accent, but Latin-1 doesn't have the proper one....)
+
+> Could you gentelmen suggest me the place where I can find the basic
+> (elementary) combinations to solve the cube?
+
+There are no *the* basic combinations.  I would guess there are as many
+different sets of combinations as there are cube solvers.
+
+> Like the sequence to swap two "internal" side's boxes while not
+> changing the positions of all other "internal" boxes but probably
+> only rotating them?
+
+> Or could you tell me about the method to rotate some of edge elements
+> without swapping them?
+
+Well, for what it's worth, when I solve a cube, I do it as follows.
+
+(Slice turns: if I write FB, I mean turn the F-B slice in the direction
+one would turn F for an F turn, similarly for other slice turns: turn
+the slice as if it were carried along by the turn named by the first
+letter.  Thus LR and RL are inverses.  Is there some standard
+representation for slice turns?)
+
+- Solve one layer ad-hoc.  (This refers to a layer of cubies, not just
+  one face of the cube.)  I often don't worry about edge flips at this
+  stage.  Some simple operators I use:
+	To get corners in place: F D' F, or F' D F, depending on corner
+		orientation.
+	To get edges in place: If the cubie is on the D face,
+		FB/BF/RL/LR, D/D', inverse of the slice turn.  If it's
+		on the middle layer, F/B/R/L, UD/DU, inverse of face
+		turn.
+
+- Turn the cube so the solved face is L.  Solve what then becomes the
+  R-L slice layer with a combination of R2 U2 R2 U2 R2 U2, to move
+  cubies around within the slice layer, and either of two sequences to
+  move cubies between the R layer and the slice layer:
+	R2 D R' B2 R2 B2 R2 B2 R' D'
+	FB D R' B2 R2 B2 R2 B2 R' D' BF
+  (The first one is a sequence that normally ends with R2, but since
+  the R layer is scratch at this point I often don't bother.)  These
+  are, of course, interspersed with R, R2, and R' turns to get edges in
+  the correct places for them.
+
+At this point you will have two layers solved, except possibly for some
+flipped edges.
+
+Next, corners of the "scratch" layer.  Check them for placement,
+ignoring orientation.  They can be:
+	1) All in place.  This is the easy case. :-)
+	2) Two swapped.  Make one quarter-turn to reach case 3.  (They
+	   can't be diagonal, they must be adjacent - or some joker has
+	   taken your cube apart.)
+	3) One in place, other three permuted.
+	4) Two pairs, each swapped.  If the swaps are diagonal, turn the
+	   layer a half-turn to reach case 1.
+In case 3 or 4, the corners can be put in place by holding the cube
+with the unsolved layer as U and repeating
+L F L' F' L F L' F' L F L' F' twice, turning U so as to place
+appropriate pairs of cubies in the UFL and UBL corners.
+
+To orient the corners correctly, hold the cube with the unsolved layer
+as F and use R B2 R' U' B2 U and its inverse U' B2 U R B2 R' with a
+turn of the F face in between; this will allow you to twist the corners
+into correct orientation.
+
+All that remains at this point is positioning the edges on the last
+layer, and possibly some edge flips.  To position the edges, I normally
+use (with U as the unsolved layer)
+	R2 D R' B2 R2 B2 R2 B2 R' D' R2
+	FB D R' B2 R2 B2 R2 B2 R' D' BF
+	R2 U2 R2 U2 R2 U2
+with appropriate turns of U in between, swapping the FR and BR edges
+repeatedly as auxiliaries while swapping pairs of edges on U to get
+them in place.  (The difference between the first two sequences is that
+the first one swaps UB and UR, the second UB and RU.)
+
+Edge flips are all that's left at this point.  Judicious choice of
+which of the two sequences above can often drastically reduce the work
+to be done here, but there's often some left anyway.  The basic
+sequence I use for this is RL U RL U RL U RL U, which flips four edge
+cubies in-place: UB, UL, DB, and DF.  (A similar sequence U RL U RL U
+RL U RL is similar but flips UR instead of UL; this can be thought of
+as U X U', where X is the first-given sequence.)  My use of this
+sequence is usually ad-hoc; sequences such as X F X F' will let you
+flip arbitrary pairs of edges.
+
+Presto!  You have a solved cube. :-)  In practice, I often take
+shortcuts; for example, if X represents the R B2 R' U' B2 U sequence,
+then X B2 X B2 X B2 will twist three corners on B....
+
+					der Mouse
+
+			    mouse@collatz.mcrcim.mcgill.edu
+

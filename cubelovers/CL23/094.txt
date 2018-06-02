@@ -1,0 +1,46 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Aug  5 11:42:18 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA23888; Tue, 5 Aug 1997 11:42:17 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Goyra@iol.ie Tue Aug  5 06:34:57 1997
+Message-Id: <Resent.199708051031.LAA16445@mail.iol.ie>
+From: "David Byrden" <Goyra@iol.ie>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Megaminx a.k.a. Supernova
+Date: Tue, 5 Aug 1997 11:30:44 +0100
+
+> From: Mark Longridge <cubeman@idirect.com>
+
+
+> Has anyone ever written a simulation of the Megaminx for the PC?
+
+	Mark:
+
+	There is a virtual Megaminx at my Rubik Gallery
+
+	http://www.iol.ie/~goyra/Rubik.html
+
+It's not written for the PC: it's in Java, so it works on alll the major
+kinds of computer. In fact, you don't need to download or install
+anything, just use a Java browser and you can play with the
+puzzles immediately.
+
+	Control is via the mouse. The puzzles are not self-solving
+but if anyone wants to write a solver and make use of my graphical
+representation of the puzzles, get in touch.
+
+> I am particularly interested in processes for the 10-spot and
+> 12-spot.
+
+	What exactly are these, I may want to put them in the
+Gallery.
+
+
+						David
+
+[ Moderator's note:  Sorry for those of you who get this Cube-Lovers
+  message twice.  I accidentally sent a version with mangled headers,
+  which several mailer daemons refused to process. -- Dan]
+

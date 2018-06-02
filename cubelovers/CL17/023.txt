@@ -1,0 +1,27 @@
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+Subject:   <F,U,L,R,D> Question
+
+> It is well known that if we define G=<Q> for the twelve quarter turns
+> q in Q, we can also generate G as G=<F,U,L,R,D>, leaving out B and B'.
+> Leaving out any other quarter turn would do as well, but I
+> am going to stick to leaving out B for illustrative purposes.
+>
+> However, when one of the quarter turns is left out, the length of most
+> positions will change.  In particular, we will no longer have |B|=1.
+> My reading of the archives indicates that we do not know what the
+> length of B would be in this situation, nor what a minimal process
+> for B would be.
+
+This problem was solved by David Benson in Oct. 1979, who was one of
+the earliest cube pioneers. Dr. Singmaster reports on this in his
+2nd Addendum of "Notes".
+
+Let A = R1 L3 F2 B2 R1 L3, then AUA = D1
+
+AUA = R1 L3 F2 B2 R1 L3 U1 R1 L3 F2 B2 R1 L3   (17 q, 13 q+h)
+
+Perhaps Jerry will find something shorter.
+
+-> Mark <-
+
+

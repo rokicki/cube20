@@ -1,0 +1,19 @@
+Date: 31 Jul 1980 5:13 pm PDT (Thursday)
+From: Woods at PARC-MAXC
+Subject: Re: The shortest solution?
+In-reply-to: McKeeman's message of 31 Jul 1980 16:44 PDT
+To: CUBE-HACKERS at MIT-MC
+
+You can do better than that for a lower bound!  Say you consider all
+single-hand-motion twists to be okay.  Then yes, there are 18 such,
+but there's no point in twisting the same face twice consecutively, so
+after the first twist the tree branching factor is only 15.  In fact, there's
+no point in twisting a face twice if the only intervening twist was done
+on the opposite face; if we look at the operations of the form "twist face
+X thusly and the opposite face thusly", there are 45 initial such operations,
+and 30 at each succeeding branch, but since some branches now represent
+two twists and some only one twist, it's much harder to compute the
+minimum depth of the tree.
+
+	-- Don.
+

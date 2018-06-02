@@ -1,0 +1,9 @@
+Date: 20 FEB 1981 2108-EST
+From: RP at MIT-MC (Richard Pavelle)
+Subject: Rubik
+To: CUBE-HACKERS at MIT-MC
+
+When speaking to the editor of Scientific American yesterday, the subject
+of the cube came up. I mentioned that Rubik did not get dollar much less
+a forint for his effort. Guess what! A subscription to Sci. Am. is on the
+way to him (lifetime I suppose).

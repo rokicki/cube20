@@ -1,0 +1,28 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 15 10:30:58 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id KAA14077
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 15 Dec 1998 10:30:58 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 15 Dec 1998 17:30:24 +0900 (JST)
+Message-Id: <199812150830.RAA03209@soda2.bekkoame.ne.jp>
+To: cube-lovers@ai.mit.edu
+From: Ishihama Yoshiaki <ishmnn@cap.bekkoame.ne.jp>
+Subject: 4D Rubik Cube(2x2x2x2) Java
+
+I have converted my "4DRubikCube" (for Macintosh) to java applet.
+I have uploaded it to my java page.
+I have not yet added direct drag mode, only rotate cubes by buttons.
+Please check this applet.
+
+
+
+//----------------------------------------//
+
+Ishihama Yoshiaki ( Tokyo Japan)
+E-mail: ishmnn@cap.bekkoame.ne.jp
+HomePage : http://www.asahi-net.or.jp/~hq8y-ishm/
+
+//----------------------------------------//
+

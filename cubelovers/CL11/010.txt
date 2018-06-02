@@ -1,0 +1,74 @@
+From hoey@aic.nrl.navy.mil  Tue Dec  7 20:13:23 1993
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05026; Tue, 7 Dec 93 20:13:23 EST
+Received: by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA29049; Tue, 7 Dec 93 20:13:08 EST
+Date: Tue, 7 Dec 93 20:13:08 EST
+From: hoey@aic.nrl.navy.mil (Dan Hoey)
+Message-Id: <9312080113.AA29049@Sun0.AIC.NRL.Navy.Mil>
+To: "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject: Re: Unique antipode of edges only
+
+"Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu> writes:
+
+> I spoke too quickly when I said the antipodal was simply
+> Start with the edges flipped.  I stared at it, flipped the edges in
+> my mind, and it "looked" solved, so I assumed it was Start.
+
+It's interesting to note that this is All-Edges-Flipped composed with
+a mirror reflection of Start.  Begging the question: *which* mirror
+reflection?  The answer is, it doesn't matter: since these are the
+edges of a cube without centers, all reflections are the same
+position.  As long as we get to choose which reflection, the canonical
+one would be the central reflection.  When composed with All-Edges-
+Flipped, it makes the following antipode.  (I think using BFTDLR
+notation instead of 123456 makes these diagrams a lot easier to read).
+
+               + T +                        + F +
+               T   T                        R   L
+               + T +                        + B +
+
+        + L +  + F +  + R +          + D +  + D +  + D +
+        L   L  F   F  R   R    =>    F   B  R   L  B   F
+        + L +  + F +  + R +          + T +  + T +  + T +
+
+               + D +                        + B +
+               D   D                        R   L
+               + D +                        + F +
+
+               + B +                        + T +
+               B   B                        R   L
+               + B +                        + D +
+
+> I am not yet for sure what they look like, but of the other two states
+> with order-24 equivalence classes, one is at level 9 and the other
+> is at level 12.  Since the only one at an even level is at level 12,
+> I am assuming that will be the one which is Start with the edges all
+> flipped.  The one at level 9 will probably be the mirror image of Start.
+
+If an order-24 equivalence class means what I think it does, I'm
+pretty sure those two states have to be Mirror-Start and All-Edges-
+Flipped, being the only sufficiently symmetric positions.  But as to
+their depth, the parity argument (which Chris Worrell also cited) is
+not valid here.  Remember that the cube has no face centers, so the
+position is not changed by rotating the assemblage of edges in space
+(i.e., with respect to the absent face centers).  But a quarter-turn
+of the cube in space is an odd permutation of the edges.  So permuta-
+tion parity is not an intrinsic property of edge positions.  We can
+show that there is no sort of parity here by explicitly constructing
+an odd cycle.  Just use a process that would permute the edges of a
+cube with faces as (FR,FT,FL,FD)(BR,BT,BL,BD)(RT,TL,LD,DR).  This has
+to be an odd process, but it's an identity on the faceless cube.
+
+My (very cheap) guess for where we will find the other two M-symmetric
+positions is opposite to Jerry Bryan's.  On a cube with faces, the
+central reflection of the edges with respect to the faces is Pons
+Asinorum, which has the easy 12-qt tight lower bound we've seen before
+(or if not, you can of course get it from me with email).  I'm
+guessing that this bound happens to be tight on the cube without
+faces, as well.  But I have no proof of this guess, and I'm very
+grateful we won't have to settle for guesses for very long.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

@@ -1,0 +1,40 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Nov 12 22:54:25 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id WAA01970; Wed, 12 Nov 1997 22:54:25 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From richard_morton@icom-solutions.com Wed Nov 12 04:56:12 1997
+Date: Wed, 12 Nov 1997 17:31:37 GMT
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: Anders.Larsson@hvi.uu.se
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009BD319.4B14FD66.61@ice.sbu.ac.uk>
+Subject: RE: Colour arrangements (Was: Re: Megaminx, the 10-spot and GAP)
+
+	The colour arrangement on the early Hungarian cubes was quite random!!
+I even have two examples where two faces have the same colour!!  It was not
+until about 1980 that the idea of having a standardised colour pattern was
+adopted and the most common was to have the opposite faces differ by yellow.
+That is the opposite faces were  White - Yellow,  Blue - Green,  Red - Orange.
+Rubik went to some effort to select six colours that would be maximally
+distinct, but I think the yellow, red and orange tended to be too close in the
+sense that either the orange was too close to the red or too close to the
+yellow! 
+	However, this does not completely determine the colour pattern.  Just
+as with a die, there are two possible arrangements.  Conway and Guy etc.
+observed that Blue, Orange and Yellow meet at a corner and they can occur
+clockwise or counterclockwise, spelling  BOY  or  YOB.  Some people have
+expressly asked me for one form rather than the other!
+	An early anecdote, from about 1979.  A friend's son was trying to help
+another friend solve his cube over the telephone.  This is a pretty formidable
+task at the best of times, but their two cubes had different colour patterns,
+so the son was making statements like: turn the red face, that's blue on your
+cube, ....
+ 
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

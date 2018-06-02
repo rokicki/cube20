@@ -1,0 +1,172 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct 26 14:00:55 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA29942
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 26 Oct 1999 14:00:54 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v01510113b42dcea33222@[207.229.148.36]>
+Date: Sat, 16 Oct 1999 01:32:31 -0600
+To: Cube-Lovers@ai.mit.edu
+From: slapdash@enteract.com (Russ Perry Jr)
+Subject: Re: Rubik-like puzzles I've never seen before...
+
+First off, thanks for all the replies!
+
+At 8:06 PM 10/14/99, Kevin Young wrote:
+>As far as the siamese cubes and the triplet cubes go that you see on ebay.
+>They are not professionally made.  Oddzone does not make these cubes.  And
+>furthermore, they are not "rare".
+
+That's kind of what I thought.  The OddzOn cubes are represented by
+http://www.rubiks.com, right?  Or is it just on Hasbro's site somewhere?
+
+>If you really want a quality cube, Meffert is selling assembly cubes that
+>use ABS plastic instead of stickers.  Later on this year, he will have
+>available pieces for assembly cubes to make siamese, triplets, and more
+>cubes that can be joined together.
+
+Yep, I found Meffert's site.  I hear he's also planning 4x4x4 & 5x5x5
+(assembly?) cubes, which is pretty neat.
+
+
+At 8:27 PM 10/14/99, _pink wrote:
+>>1) The Gem/Diamond.
+
+>These are created by utilizing pieces from the Pyramorphix puzzle. One can
+>disassemble 2 Pyramorphixes and construct one "Gem" and one "Starburst"
+>puzzles as seen on ebay...
+
+So you get 2 "new" puzzles out of 2 Pyramorphix?  Hmm, pure profit...
+
+
+At 7:30 PM 10/14/99, Noel Dillabough wrote:
+>> 2) ??.  This is a 14-sided puzzle, with 8 triangles and 6
+>> squares.
+
+>This one I modelled in Puzzler and it is quite nice.  Yes it is a morphing
+>puzzle, although very simply in nature.  I have been told by some of my
+>users that this puzzle was a prototype and never sold, but I can't confirm
+>this.  Supposedly there are only a handful of these in existance.
+
+Someone postulated that it's a dual of the Skewb, and it strikes me that
+might be true.  Opinion?
+
+>> 4) "Triple" Cube.  This is similar to the Siamese Cube [...]
+
+>I guess you could keep going forever, however I don't see the advantage of a
+>triple cube.  I haven't modelled this one.
+
+Well, it can be left in even more contorted shapes than the Siamese Cube...
+
+>I am constantly on the lookout for more puzzles to add to Puzzler, let me
+>know if you think of any,
+
+I'm already trying to get a bunch of doodles ready for Noel to add... :-)
+
+
+At 10:01 AM 10/15/99, Rob Hegge wrote:
+>>2) ??.  This is a 14-sided puzzle, with 8 triangles and 6 squares.
+
+>I bought either this one or the 1) GEM/Diamond or both from Christoph
+>Bandelow [...] He can probably help you also with the other puzzles.
+>Hope this helps
+
+Sure!  I'll send him a note and ask.  Thanks for the pointer.
+
+
+At 11:03 AM 10/15/99, Ronald Fletterman wrote:
+>Hi Perry, I suggest, you contact Tony Fisher, who takes "standard" sliding
+>puzzles and redesigns them in wonderful variants. His address:
+
+Thanks for the address!  Tony was mentioned to me by a couple other sources.
+Does anyone know if Tony has an email address or a URL?
+
+
+At 5:19 AM 10/15/99, Klodshans wrote:
+>the 14-sided thing sounds like a Cuboctahedron (3x3x3 mechanism)
+
+Pete Beck had suggested the same thing, but that's definitely not it.  I've
+seen those before, and one characteristic is that the planes cute through
+the squares & triangles; on this one there are NO cuts through the faces.
+
+>mail me the item number and I will check for sure.
+
+It's not on any active auctions any more, but Noel put it in his Puzzler
+program, and it looks right.
+
+>Tony Fisher is also making Siamese Skewbs.
+
+Hmm, are there pix of these anywhere?  Are the just twinned at the corners?
+
+> At www.rubiks.com, there was a thread in the Forum a while ago about how
+> to make these things.
+
+I assume you mean Siamese Cubes, but not Siamese Skewbs.  If SS, I couldn't
+find the posts...
+
+
+At 11:37 PM 10/15/99, Wayne Johnson wrote:
+>Check out my site, I can show you how the Siamese cube is done:
+>http://www.zeta.org.au/~sausage/twistymegasite
+
+Yep, I found that via www.rubiks.com Forum...
+
+I'm not sure I have the talent to mold pieces, but I could mail you some
+notes about 2x2x3, 3x3x4 and triangular prism mechanisms...  :-)
+
+
+At 10:14 PM 10/15/99, Uwe Meffert wrote:
+>Dear Russ
+
+Hello Uwe.  I heard you hung out here; glad to make your e-acquaintance.
+
+>These are home or professional hand made for puzzle collectors.  They will
+>all be available from our puzzle shop in the near future made from high
+>quality ABS with molded plastic tiles instead of labels.
+
+Glad to hear it.  Tell me though, is there any chance we'll see some of
+the puzzles from the OLD Meffert catalogs -- like the triangular,
+hexagonal, pentagonal and the two circular, prisms?
+
+
+At 12:57 PM 10/15/99, Tim Browne wrote:
+>> 2) ??.  This is a 14-sided puzzle, with 8 triangles and 6 squares.
+
+>This one's news to me. Do you have an eBay item number?
+
+It occurs to me that even though there isn't an auction running currently
+with that, you could search for it.  Trouble is, the title was something
+lame like "blah blah Rubik blah blah EXTREMELY RARE", which will match
+other stuff too...  On the other hand, it might have been auctioned by
+the same ssongas (sp?) guy who's auctioning off the Siamese/Triple/Gem
+puzles, so a search for him in completed auctions might find it.  I can't
+get to the web right now to do it myself, but will try to look later.
+Actually, it might have said "14-sided" in the title, which would be
+easy to find...
+
+>> Are these homemade, prototypes, original puzzles by pirate manufacturers?
+
+>Well, I seriously doubt it would be "pirate manufacturers", as my company
+>officially makes such cubes...
+
+What company is that?
+
+>at least not yet. It's kind of hard to "pirate" something that doesn't
+>officially exist. :-) L8r.
+
+Well, I guess I meant like the Siamese cubes still requiring two cubes to
+make one Siamese, so the cubes to make it would be pirated, even if the SC
+itself wasn't.  Same with the Pyramorphix going to the Gem & Starburst.
+But point taken.  And in this case, obviously somebody with a good supply
+of OddzOn cubes and ?? Pyramorphix and some time & talent out to make a
+good buck or a hundred.
+
+
+Again, thanks all!
+
+//*================================================================++
+||  Russ Perry Jr   2175 S Tonne Dr #105   Arlington Hts IL 60005  ||
+||  847-952-9729    slapdash@enteract.com    VIDEOGAME COLLECTOR!  ||
+++================================================================*//
+

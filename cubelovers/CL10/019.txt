@@ -1,0 +1,55 @@
+From tomgm@physics.purdue.edu  Thu Jul 29 11:02:30 1993
+Return-Path: <tomgm@physics.purdue.edu>
+Received: from bohr.physics.purdue.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA26047; Thu, 29 Jul 93 11:02:30 EDT
+Received: by bohr.physics.purdue.edu (5.65/2.7)
+	id AA21974; Thu, 29 Jul 93 10:05:22 -0500
+Message-Id: <9307291505.AA21974@bohr.physics.purdue.edu>
+From: Tom G. Miller <tomgm@physics.purdue.edu>
+Subject: Re: Hint wanted for 4x4x4
+To: ronnie@cisco.com (Ronnie B. Kon)
+Date: Thu, 29 Jul 93 10:05:22 EST
+Cc: Cube-Lovers@life.ai.mit.edu
+In-Reply-To: <199307282337.AA06770@lager.cisco.com>; from "Ronnie B. Kon" at Jul 28, 93 4:37 pm
+X-Mailer: ELM [version 2.3 PL11]
+
+Ronnie,
+
+It's been so long since I've messed around with my 4x4x4 that
+I can't answer your question directly, however when I
+see descriptions for the method in which people solve the
+4x4x4 it is usually different from the way I first solved
+it:
+
+What I did was to pair up the middle two edgies, and the
+four central face cubes.  There are few enough restraints
+that this is not too hard to do for someone who has never
+touched a 4x4x4 cube.  One then has a cube like with faces
+similar to the following:
+
+          r b b g
+          y o o b
+          y o o b
+          r y y w
+
+One can then "pretend" it is a 3x3x3 cube and then solve it.
+Unfortunately you will occasionally end up in an orbit of the
+"pseudo-3x3x3" that is impossible to solve.  Oh well... scramble 
+it and try it again.
+
+Using this technique I was able to solve a scrambled 4x4x4 cube within an
+hour or so of when I set my hands on one.  Needless to say, this is NOT a
+good technique for solving a 4x4x4 cube if one is interested only in the
+4x4x4.  In fact I suspect it is a pretty awful algorithm, especially since
+you frequently end up in an unsolveable orbit using your standard 3x3x3
+techniques. But it is a useful trick for maximizing the hard work one used in
+learning the 3x3x3.  
+
+As most people who have a 4x4x4 realize, if you never make any twists of a
+solved 4x4x4 cube except along the center, you of course have a 2x2x2. And
+as I described, if you only make moves 1-deep, it is equivalent to a 3x3x3,
+and of course it is also a 4x4x4.
+
+
+Tom Miller
+tomgm@physics.purdue.edu
+

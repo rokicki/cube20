@@ -1,0 +1,28 @@
+From dik@cwi.nl  Tue Apr 19 18:17:58 1994
+Return-Path: <dik@cwi.nl>
+Received: from meermin.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16561; Tue, 19 Apr 94 18:17:58 EDT
+Received: from boring.cwi.nl by meermin.cwi.nl with SMTP
+	id AA23023 (5.65b/%I%/CWI-Amsterdam); Wed, 20 Apr 1994 00:16:33 +0200
+Received: by boring.cwi.nl 
+	id AA05363 (5.65b/3.8/CWI-Amsterdam); Wed, 20 Apr 1994 00:15:17 +0200
+Date: Wed, 20 Apr 1994 00:15:17 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9404192215.AA05363=dik@boring.cwi.nl>
+To: cube-lovers@ai.mit.edu, iavlang@cs.vu.nl
+Subject: Re:  Cubism for Fun
+
+ > In the archive of this mailing list I found the following:
+ > >CFF is a newsletter published by the Nederlandse Kubus Club NKC (Dutch
+ > >Cubists Club).  It appears a bit irregular, but a few times a year.
+ > >Yearly membership fee is now NLG 25.- (Dutch Guilders) which amounts to
+ > >approximately $ 15.-.  Institutional membership is also possible.
+ > >Information is available from the editor Gerald Maurice
+
+ > Unfortunaty, the abovementioned editor didn't respond to my email.
+ > Does anyone know whether CFF still exists? Who is the current editor?
+
+It ought to work.  Perhaps mail got lost?  Just today I received CFF 33,
+a summary of the contents will be forthcoming.
+
+dik
+

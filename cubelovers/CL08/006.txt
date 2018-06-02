@@ -1,0 +1,71 @@
+From hoey@aic.nrl.navy.mil  Mon Nov 11 17:45:47 1991
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA05032; Mon, 11 Nov 91 17:45:47 EST
+Received: from sun1.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA12227; Mon, 11 Nov 91 17:45:36 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun1.aic.nrl.navy.mil; Mon, 11 Nov 91 17:45:36 EST
+Date: Mon, 11 Nov 91 17:45:36 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9111112245.AA03752@sun1.aic.nrl.navy.mil>
+To: baggett@mssun7.msi.cornell.edu (Jeffrey Baggett)
+Cc: Cube-Lovers@life.ai.mit.edu
+Subject: Rubik's Cube question
+Organization: Naval Research Laboratory, Washington, DC
+
+Jeff Baggett (baggett@mssun7.msi.cornell.edu) asks on the sci.math
+newsgroup:
+
+> 1.  I am seeking a description of the group of symmetries associated
+> 	with Rubiks cube.  I have some ideas but they aren't particularly
+> 	elegant.  Can someone suggest a paper?
+
+Jeff,
+
+I have looked into this somewhat.  As far as I know, the symmetries of
+the 3^3 cube are just the symmetries of the cube, but in larger sizes
+we can do better.  The best way of looking at this is to imagine that
+there is a (N-2)^3 cube sitting inside your N^3 cube, and smaller
+cubes within, and you are trying to solve them all together.
+
+Suppose we address each cubelet of the N^3 cube using cartesian
+coordinates (x,y,z), where (0,0,0) is the center of the cube (for N
+odd) and no cubelets have any coordinate zero if N is even.  The
+maximum absolute value of the coordinates is [N/2].
+
+Then for 1<=I<=[N/2], there is a symmetry
+ F[I]:(x,y,z)->(f(x),f(y),f(z)),
+where f(I)=-I, f(-I)=I, and f(x)=x otherwise.
+
+Then for 1<=I<J<=[N/2], there is a symmetry
+ E[I,J]:(x,y,z)->(e(x),e(y),e(z)),
+where e(I)=J, e(J)=I, e(-I)=-J, e(-J)=-I, and e(x)=x otherwise.
+
+These are symmetries of the cube group, and they map elementary moves
+to elementary moves (provided we take an elementary move to be a
+rotation of the slab of N^2 cubelets that have a particular nonzero
+value of a particular coordinate).  Symmetries of the cube group that
+preserve elementary moves are useful in the study of local minima in
+the cube group.
+
+It turns out that if you only want to consider the outside of the cube
+(ignoring the (N-2)^3 cube inside) all of these symmetries are still
+present except F[[N/2]] and E[I,[N/2]].
+
+I mentioned these symmetries in a note to the Cube-Lovers mailing list
+in 1983.  I called E[I,J] evisceration, F[1] inflection, and F[[N/2]]
+exflection in that note (where I was dealing explicitly with only the
+4^3).  The discussion of the relation to local minima took place in
+1980.  Let me know if you'd like a copy of these messages.
+
+I ran into these symmetries earlier, though.  They are symmetries of
+the N^3 tic-tac-toe board!  I would not be surprised if they arise in
+some other connection in mathematics, but I have never run into them.
+They generalize into larger dimensions, as well.
+
+I've also taken the liberty of Cc'ing the Cube-Lovers list with this
+note.  If you'd like to be on that list, you may ask of
+"Cube-Lovers-Request@AI.AI.MIT.Edu".
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

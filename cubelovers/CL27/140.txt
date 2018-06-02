@@ -1,0 +1,35 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 11 13:54:40 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id NAA17010
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 11 Aug 1999 13:54:30 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: gete@cheerful.com
+Message-Id: <007401bee3ec$7e546640$9f1c9eca@dzine>
+To: <Cube-Lovers@ai.mit.edu>
+References: <37AB5804.6956@sgi.com>
+Subject: Re: scrambling puzzle
+Date: Wed, 11 Aug 1999 18:21:34 +0700
+
+Derek Bosch wrote:
+
+> anyone know the "shortest" sequence of moves to "scramble"
+> a cube...  By scramble, my definition is:
+>
+> all six colors on each face (except for 2x2x2), no 2 adjacent tiles
+> of the same color, and no "dominating" color on a face (ie for
+> a 3x3x3 cube, no more than 2 of a single color on a face, for
+> 4x4x4, no more than 3 of a given color on a face).
+
+
+I don't, but for 3x3x3, I use software: Cube Explorer by H.Kociemba
+http://home.t-online.de/home/kociemba/cube.htm
+
+Here are some move sequences I get:
+
+* D L2 B2 F2 R2 U' L2 . F L2 B2 R F2 D' U R2 B L2 R2 B R2  (20 moves)
+* U2 F' L2 B D2 B F' U2 . R' B D R' F' L R U' F' L2 R U'  (20 moves)
+
+Just apply them on an already-solved cube.
+

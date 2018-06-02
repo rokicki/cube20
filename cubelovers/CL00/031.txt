@@ -1,0 +1,12 @@
+Date: 18 JUL 1980 0205-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: Patterns, designs &c.
+To: ED at MIT-AI
+CC: CUBE-HACKERS at MIT-MC
+
+Er, perhaps I don't understand the move you describe, but in any case,
+by my calculations it would take 1260 repetitions to come back home
+doing that one (1260=2^2*3^2*5*11).  It is certainly the case that
+1260 > 216 so that number must be wrong (I could be miscalculating,
+but I don't see how).  1260 is rather similar in appearance to 216,
+perhaps you spazzed somehow?

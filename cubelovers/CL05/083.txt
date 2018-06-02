@@ -1,0 +1,21 @@
+Date: Wed, 25 Sep 85 10:14:28 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  Well, it kept me entertained for an evening.
+To: CUBE-LOVERS@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].658952.850925.ALAN>
+
+Dewdney's column in this month's Scientific American presents a puzzle
+which he claims to be comparable in difficulty to a Rubik's cube.  (Like he
+claims there are people who can do the cube but haven't done this thing.)
+Interested Cube-Hackers might find it diverting to give it a try.  It
+didn't take me long to devise a sufficient set of tools for solving it
+using only pencil-and-paper.  Personally I think it was significantly
+easier than a cube, but perhaps it is harder than the majority of other
+permutation puzzles I have gotten my hands on in the last few years.
+(But perhaps not.  I did this without having a physical model of it in my
+hands, so perhaps that has caused me to overlook something.)
+
+You know, I don't recall ever hearing anybody speculate about just what
+makes a permutation puzzle interesting and/or difficult.  I guess the group
+has to be large and have a large diameter, and there should be a scarcity
+of short identities...

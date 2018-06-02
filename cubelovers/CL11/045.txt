@@ -1,0 +1,74 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Sat Dec 18 17:08:38 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA00538; Sat, 18 Dec 93 17:08:38 EST
+Message-Id: <9312182208.AA00538@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 5020; Sat, 18 Dec 93 14:04:37 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 8380; Sat, 18 Dec 1993 14:04:37 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 0957; Sat, 18 Dec 1993 14:02:02 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Sat, 18 Dec 1993 14:02:01 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Second Addendum - Size of Cube Group under M
+
+I feel like I am pestering the list to death with corrections.
+
+I still believe that the figure that I proposed for the size of
+the cube group under M is correct.  The first post included
+a "correct" but I think unsatisfactory explanation.  The second post
+improved upon one point that was unsatisfactory in the first post.
+Now, let's see if I can get it completely correct.
+
+The size of the corner group under (my version of) M is known.
+The size of the edge group under (my version of) M is known as
+well.  Let C be the size of the corner group, and E be the size
+of the edge group.  Remember, the elements of the groups are
+equivalence classes induced by (my version of) M.  Here is an incorrect
+formula for G, the size of the entire cube group under (my
+version of) M.
+
+   G = (C*24) * (E*24) / 2
+
+The division by 2 is introduced to account for parity between the
+corner group and the edge group.  But the value for G produced by
+this formula is only half as big as it should be.  The problem is
+that M induces equivalence classes based on both rotations and
+reflections, not just base on rotations.  Hence, we are led to the
+following (still incorrect) formula:
+
+   G = (C*24*2) * (E*24*2) / 2
+
+As before, the division by 2 takes care of parity between the corner
+group and the edge group.  In addition, the multiplication by 2 takes
+care of reflecting each group.  But the value for G produced by this
+formula is twice as big as it should be.  The problem is that while
+any corner rotation can occur with any edge rotation (subject to
+parity), you must either reflect both groups, or else reflect neither
+group.  Thus, we have the following (correct) formula:
+
+   G = ((C*24) * (E*24) / 2) * 2
+
+The division by 2 takes care of parity between the groups, and the
+multiplication by 2 takes care of reflection of the two groups
+as a unit.  If we wish, we can cancel the multiplication and the
+division to yield
+
+   G = (C*24) * (E*24)
+
+This is the same formula I originally posted, and I did say in the
+original post that the division by 2 cancelled out.  However, I
+think that this post provides a better explanation of the
+cancellation than did the original post.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

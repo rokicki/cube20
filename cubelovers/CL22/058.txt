@@ -1,0 +1,36 @@
+From cube-lovers-errors@oolong.camellia.org  Tue May 13 15:14:04 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id PAA03658; Tue, 13 May 1997 15:14:03 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <199705131902.UAA24724@mail.iol.ie>
+From: Goyra <Goyra@cheerful.com>
+To: cube-lovers@ai.mit.edu
+MMDF-Warning:  Parse error in original version of preceding line at moag.epilogue.com
+Subject: Re: Strange new Rubik puzzle in Java
+Date: Tue, 13 May 1997 20:03:49 +0100
+X-MSMail-Priority: Normal
+X-Priority: 3
+X-Mailer: Microsoft Internet Mail 4.70.1161
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+
+> From: David Singmaster Computing & Maths South Bank Univ
+<david.singmaster@sbu.ac.uk>
+
+
+> Adapting a cube to having a dodecahedral appearance was certainly
+considered
+> in the 1980s, thoguh I can't remember if anybody ever made them for sale
+
+	This puzzle is depicted on page 335 of "Metamagical Themas"
+by Douglas Hofstadter, which has just come back into print. He says that
+it was in Meffert's catalogue way back then, called the "Pyraminx Ball"
+
+
+							David Byrden
+
+
+

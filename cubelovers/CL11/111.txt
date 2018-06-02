@@ -1,0 +1,51 @@
+From Mikko.Haapanen@otol.fi  Wed Jan 19 15:09:31 1994
+Return-Path: <Mikko.Haapanen@otol.fi>
+Received: from lassie.eunet.fi by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10391; Wed, 19 Jan 94 15:09:31 EST
+Received: from sulo.otol.fi by lassie.eunet.fi with SMTP id AA03827
+  (5.67a/IDA-1.5 for <cube-lovers@ai.mit.edu>); Wed, 19 Jan 1994 22:07:44 +0200
+Received: from rhea.otol.fi by sulo.otol.fi with SMTP (PP) 
+          id <27853-0@sulo.otol.fi>; Wed, 19 Jan 1994 22:07:41 +0200
+Received: from otol.fi by rhea.otol.fi id <25938-0@rhea.otol.fi>;
+          Wed, 19 Jan 1994 22:07:27 +0200
+Date: Wed, 19 Jan 1994 21:53:24 +0200 (EET)
+From: "M. Haapanen" <Mikko.Haapanen@otol.fi>
+Subject: Re: 4x4x4 & 5x5x5 processes
+To: cube-lovers@ai.mit.edu
+In-Reply-To: <60.710.5834.0C1914B9@canrem.com>
+Message-Id: <Pine.3.87.9401192124.B25726-0100000@rhea>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Sender: Mikko.Haapanen@otol.fi
+
+Hello cube lovers!
+
+> requested edge pair flip without disturbing centres (p2),
+> as well as a minor correction for the 5x5x5 process:
+
+> ...
+> (retain centre positions ) + U2 r1 (u2 r2 l2) ^2 + r3 U2 r2     (26)
+                                                                  ^^^^
+> 
+> 5x5x5 processes (measured in slice moves)
+> 
+> Flip 2 middlemost edges at FD and BD with:
+> p1 (fm1 D1) ^3 + fm1 D2 + (fm1 D1) ^3 + fm1   (disturbs some centres)
+> followed by:
+>    D1 + (fm2 u2) ^2 + (fm2 l2) ^2 + D3    (corrects the centres)  (25)
+> -> Mark                                                           ^^^^
+> Email: mark.longridge@canrem.com
+
+The following might be trivial, but i write it here anyway. This was 
+invented about 10 years ago:
+
+5x5x5
+-----
+
+(R1 um2 R2 um1 R1) + U2 + (R3 um3 R2 um2 R3) + U2  ----> 12 (18) turns :)
+
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-= Finland =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ -= Mikko Haapanen -=-=- hazard57@rhea.otol.fi -=-=- (981) 530 7768 =-
+ -=-=-=-=-=-=-=-=-=-= Haapanatie 2C411 90150 OULU =-=-=-=-=-=-=-=-=-=-
+
+
+

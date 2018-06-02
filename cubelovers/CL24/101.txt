@@ -1,0 +1,212 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Nov 22 22:56:58 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id WAA07129; Sat, 22 Nov 1997 22:56:57 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sat Nov 22 17:53:28 1997
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: <Cube-Lovers@ai.mit.edu>
+Cc: "Tenie Remmel" <tenie1@juno.com>
+Subject: Re: Rubiks Revenge moves
+Date: Sat, 22 Nov 1997 22:51:33 -0000
+Message-Id: <19971122224927.AAA7296@home>
+
+Tenie Remmel <tenie1@juno.com> wrote (19 November 1997 )
+
+> Is there an easy way to cycle three adjacent top edges on the
+> Rubiks Revenge?  I can't find one shorter than 62 moves, but if
+> there was a short one I could simplify my solution greatly.
+>
+> . b c .    . a b .
+> a . . . => c . . .
+> . . . .    . . . .
+> . . . .    . . . .
+
+Rather than just throw a few more solutions into the pot, I'd like to start
+with some comments on the sort of process everyone, including me, seems to
+use to deliver 3-cycles of edge pieces in the 4x4x4.  It is of the general
+form
+
+    [P, TQT']
+
+where the square brackets are used to show a commutator, that is, [A,B]
+means ABA'B'.
+
+In this process P and Q are turns of layers that are parallel to one
+another, and T is a turn of a layer transverse to P and Q.  For instance, P
+and Q could be L and r and T could be U (capitals for the outer layers,
+lower case for the neighbouring inner layers, with sense parallel to the
+corresponding outer layer).  That gives
+
+   [L, UrU'] == L UrU'.L' Ur'U'
+
+which is a (not especially appealing) 3-cycle of edges.
+
+In fact any process of this form is a 3-cycle provided it takes one piece
+from the layer Q into the layer P.  That will happen if T is a quarter turn
+in either sense - I haven't found anything useful with T as a half turn.
+But P and Q can be any power.  The reason that processes of this form are
+3-cycles is simple.  If two permutations intersect at only one element,
+then their commutator is a 3-cycle.  Thus if
+
+   A = (...a1, x, a2...) and B = (...b1, x, b2...)
+
+then
+
+   [A,B] -> (a1, x, b1)
+
+If you do just UrU' you will find there is a line of displaced pieces along
+the intersection Ub, but no other displaced piece in any of the layers
+parallel to r.  Any of these pieces can be picked out to form part of a
+3-cycle by selecting the layer that is parallel to r and contains the piece
+and using a turn of that layer as the component P of the commutator, with
+UrU' forming the component TQT'.
+
+In general, if all of P, Q and T are outer layers we will have a 3-cycle of
+corner pieces, if two are outer layers and one an inner layer we will have
+a 3-cycle of edge pieces, if one is an outer layer and the other two inner
+layers we will have a 3-cycle of centre pieces, and if all three are inner
+layers we will have done nothing visible to the cube, but in fact there
+will have been an invisible 3-cycle of the pieces of the imaginary internal
+2x2x2.
+
+We can derive the last of these cases from the first
+quite neatly applying a fascinating concept called evisceration, which I
+recently met trawling through the archives. It was first quoted from David
+Singmaster's Cubic Circular by Stan Isaacs on 26 May 1983 and our present
+acting moderator also discussed it on 1 June 1983. If you turn a cube
+inside out by changing each outer layer in a process into an inner and
+vice-versa (i.e. capitals to lower case), then, in the effect of the
+process, you will interchange corner pieces with the pieces of the internal
+2x2x2, and edge pieces with centre pieces. Making P, Q and T all to be
+outer layers gives just a 3-cycle of corner pieces; therefore applying
+evisceration takes that cycle into one on the pieces of the internal 2x2x2.
+
+Singmaster's Notes on Rubik's Magic Cube, the fifth edition, interprets
+processes of the type
+
+   [P, TQT']
+
+as
+
+   [P,[T,Q]].
+
+This expands to P TQT'Q'.P' QTQ'T', but the sequence Q'P'Q in the centre
+reduces to just P', giving the same expansion as before. Of course, the two
+components of the commutators TQT' and [T,Q] have different total effects,
+but what they have in common is that they put the same single piece into P.
+ We can look at them both as being sort of like a mono-operation.  Let's
+call it a "monopop": each process pops a piece into P; you then turn P,
+then reverse the pop operation, which extracts a different piece, and
+finally restore P.
+
+It's relatively straightforward to use this form to design specific
+processes.  Say we want to move an edge piece from ULf to FLd and keep the
+third member of the 3-cycle in the top layer.  Then we can take P to be L
+to achieve the required part of the cycle.  We now know that Q must be in r
+or l.  Let's take l.  The transverse move in T has to take a piece from l
+into the point of intersection of the two components of the commutator,
+FLd.  So it must be in F. Playing with F and l shows that the following
+does the job.
+
+   [L, FlF'] == L FlF'. L' Fl'F' -> (ULf, FLd, UBl)
+
+If we'd taken Q to be in r we'd have needed a bit more care to keep the
+third piece of the 3-cycle in the top layer, but [L, F'r^2F] does, putting
+it at UBr.
+
+If we want to move a piece along a diagonal - from ULf to FLu, say - we
+need to use the other component of the commutator, TQT'.  Thus we can build
+3-cycles which include ULf to FLu around the component U'FU.  For instance
+
+   [f', U'FU] -> (ULf, LFu, RUf)
+
+With a clear head and a good following wind it's possible to work out these
+processes on the fly.
+
+They also transform nicely into another process of the same type by cycling
+the elements, which has the effect of conjugating the original process.
+Thus the last process can be dealt with as follows
+
+   U[f', U'FU]U' = [Uf'U', F] -> (UFr, LFu, BUr)
+
+This cycling procedure comes from Singmaster.
+
+Let's now think about top-layer edge processes. I'll denote the pieces like
+this.
+
+
+   X a1 a2 X
+
+   d2 o o b1
+
+   d1 o o b2
+
+   X c2 c1 X
+
+The purpose of the numbering in pairs is to emphasize that the processes
+come in pairs.  Each process has a twin created by changing each inner
+layer turn into its next-door inner neighbour. Thus the simplest U process
+of the general type we're using is of this form:
+
+   [l, F'LF] -> (a1, c2, d1)
+
+Its twin is
+
+   [r', F'LF] -> (a2, c1, d2)
+
+In the twin process, each edge piece is changed into its next door
+neighbour.
+
+We want to capture this regularity.  I will therefore represent this pair
+by
+
+   [M', F'LF] -> (a*, c', d)
+
+In this representation, M is either r or l', the asterisked piece defines
+the layer that contains M and primed letters denote a piece with the
+opposite suffix number to the asterisked piece.  Obviously, these suffixes
+are closely related to flip in a 3x3x3 and the assignment of the numbers is
+arbitrary.  Some assignments are more helpful than others in a particular
+context, and the method used in the diagram above is the obvious one of
+giving the same number ("flipperty"?) to the pieces in the positions that a
+single piece moves into during a complete U turn.
+
+Here, then is a complete set of top layer 3-cycles of edge pieces, to
+within a reflection.  It comes from a fairly systematic search I did for
+processes of the type [P, TQT'] that can be conjugated by at most one turn
+into a top-layer process. They are oriented in a way I find easy to do.
+
+I will leave them as commutators, because it is very easy to perform the
+full set of turns from them.  The T/T' sequence remains constant for both
+halves and the only adjustment needed is to invert P and Q the second time
+around.  Inverses are also easy to perform, since all one has to do is read
+off the second component first.
+
+   (a*, c', d) [M', F'LF]
+
+   (a*, b, c)    F2 [D R2 D', M2] F2
+
+   (c*, a, b')    R2 [M' D' M, U2] R2
+
+   (d1, b2, b1)   (Bb)' [U l U', R2] (Bb)
+   (d2, b1, b2)   (Ff) [U r' U', R2] (Ff)'
+
+   (d2, c2, d1)   (Bb) [L2, D l D'] (Bb)'  (Tenie's question)
+   (d1, c1, d2)   f' [L2, D r' D'] f
+
+The last two pairs could have been left in the M form if say N was
+introduced to represent either f or b'. But keeping them separate lets us
+save a wrist movement for the first three by combining the inner and
+neighbouring outer layers for a turn relative to the central cut.  That
+won't work for the final process, since the F layer is already included in
+the 3-cycle and can't be amalgamated with the f layer.
+
+All these process can be directly transferred to the 3x3x3, using the one
+single central slice as M (or l' or r).  The primes then correspond to
+flipping the edge piece relative to the top surface.
+
+Roger Broadie
+22 November 1997
+

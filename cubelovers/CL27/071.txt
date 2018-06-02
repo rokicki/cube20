@@ -1,0 +1,48 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Apr 27 20:31:40 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA29104
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 27 Apr 1999 20:31:40 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 22 Apr 1999 21:48:58 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+Reply-To: Nicholas Bodley <nbodley@tiac.net>
+To: Paddy Duncan <PaddyD@intralan.co.uk>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: WD-40 as a lubricant
+In-Reply-To: <B11CE48E1A39D211BB540080C8646221013D92@is.intralan.demon.co.uk>
+Message-Id: <Pine.BSF.3.96.990422213052.27206G-100000@shell2.tiac.net>
+
+ Although I'm not really sure of my info, I believe WD-40 was
+originally a Water Displacer, hence "WD". Fairly sure it was meant
+to displace water from mechanisms made of metal. It's possible that
+its lubricating properties were secondary. As a semi-amateur
+mechanical technician, I gather that it's not intended to be used as
+a long-term lubricant. Used as intended, it seems to be a very good
+product.
+
+ As to compatibility with plastics, I once was cleaning the inside
+of a computer printer that had a clear plastic rack which engaged a
+gear on the print head drive motor (which, amazingly enough, was on
+the print head itself; no kidding). I was using rubbing alcohol, as
+I remember. Whether it was the alcohol itself, or an adiitive to
+dilute it, I don't know, but the rack crystallized, cracked, and
+fell apart in only a few minutes. Astonishing to watch.
+
+ Alcohol is usually a safe solvent for electronic work, but
+apparently not for some plastic mechanical parts! Of course, I had
+knowingly ignored the warning not to use any solvents for cleaning.
+
+ Lesson from this is that there's some risk in applying liquids of
+unknown compatibility to some plastics. HDPE won't be bothered by
+any liquid you're likely to apply. Silicones (not spelled "silicons")
+should be safe, very likely, and Teflon powder would be. (Just don't
+get that powder near a cigarette or flame; decomposition products
+are very poisonous.)
+
+|*  Nicholas Bodley   *|*  Autodidact & Polymath * Electronic Tech. (ret.)
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*
+|*  Amateur musician  *|*
+

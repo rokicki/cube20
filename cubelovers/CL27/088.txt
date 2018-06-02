@@ -1,0 +1,51 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue May 11 17:17:19 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA21707
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 11 May 1999 17:17:19 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 6 May 1999 12:41:20 -0700
+From: Gene Johannsen <gej@spamalot.mfg.sgi.com>
+To: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Algorithm for the Antislice Group
+In-Reply-To: <7gmv7d$ncj@gap.cco.caltech.edu>
+Message-Id: <Pine.SGI.4.05.9905061235400.222639-100000@spamalot.mfg.sgi.com>
+
+
+
+On 4 May 1999, Wei-Hwa Huang wrote:
+
+> [snip]
+>
+> B.  Match the corners.
+> 
+>  In other words, does each face have four corners of the same color?  If so,
+>  go on to step C.  Otherwise, at least one face will have four corners of
+>  the same color.  Orient the cube so that it is the U face, and
+>  then perform FRFRFR.  This should match the corners.
+
+	I am having problems with this step.  My cube is in a
+	configuration that this maneuver does not solve:
+
+                YYY
+		YYG  <- Back face
+		GGG
+
+	    BBW ORO BBW ROR
+	    BBB ROR WWW ORO  <- Bottom face
+	    BWW ORO BWW ROR
+
+		YYY
+		YGG  <- Front face
+		GGG
+
+
+	FRFRFR does not solve the corners for this position.
+
+gene
+
+
+
+

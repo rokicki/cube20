@@ -1,0 +1,24 @@
+Date: 23 Jul 1980 1757-PDT
+From: DDYER
+Subject: impossible cubes
+To: cubr-lovers at MIT-MC
+Remailed-date: 23 Jul 1980 1758-PDT
+Remailed-from: Dave Dyer <DDYER at USC-ISIB>
+Remailed-to: cube-lovers at MIT-MC
+
+
+ According to Singmaster, there are 12 disjoint orbits (his term) of cube
+positions.  The article I read doesn't give a derivation, but the basic
+idea is clear.  It should be possible to characterize the orbit of a given
+position as a function of the transformations that would have had to
+be done on each cubie ( as if it could be moved alone ) to bring it
+to its proposed position.  Given such a charaterization, one could
+declare positions fed to :CUBE illegal without trying to solve the
+problem.
+
+ This relates to my thoughts on the problem of inversion of an unknown
+transformation.  Suppose you are given a Cube that is N unit moves
+from home, determine the correct sequence to get it there.  I think
+a representation of the Cube in terms of combined tranformations on
+the cubies is the place to start.
+-------

@@ -1,0 +1,37 @@
+Received: from uunet.UU.NET (TCP 30003106601) by AI.AI.MIT.EDU 10 Jun 88 15:45:09 EDT
+Received: from enea.UUCP by uunet.UU.NET (5.54/1.14) with UUCP 
+	id AA12671; Fri, 10 Jun 88 15:44:07 EDT
+Received: by enea.se (5.57++/1.71)
+	id AA25607; Fri, 10 Jun 88 21:33:32 +0200 (MET)
+Received: by kuling.UU.SE (4.40/SMI-3.0DEV3)
+	id AA21284; Fri, 10 Jun 88 15:12:51 -0100
+Date: Fri, 10 Jun 88 15:12:51 -0100
+From: kuling!starback@uunet.UU.NET (Per Starb{ck)
+Message-Id: <8806101412.AA21284@kuling.UU.SE>
+To: cube-lovers@ai.ai.mit.edu
+In-Reply-To: BECK@ardec-lcss.arpa's message of Fri,  3 Jun 88 09:56:08 EST
+Subject: Early patents
+
+In his taxononomy of cube items (<880603095608.2080015B041@ardec-lcss.arpa>) 
+Pete Beck (pbeck@ardec.arpa) wrote:
+
+
+>   TAXONOMY for RUBIK'S CUBE ITEMS (5/26/88 REV)
+>
+>   0.  CUBE PATENTS
+>   0.1  US PATENT#3,081,089,  william Gustafson, 1958
+>   0.2  Frank Fox, 1970
+>   0.3  US PATENT#  , LARRY Nichols, 1972  
+>   0.4  HUGARIAN PATENT, ERNO RUBIK, 1975
+>   0.5  JAPANESE PATENT,  Terutoshi Ishige, 1976
+> ...
+
+I only knew about 0.4 (of course) and 0.5 (mentioned for instance in
+Singmaster's Notes). Could anyone inform me about 0.1, 0.2, and 0.3 please.
+Are they the normal 3x3x3-cube, or not?
+--
+Quote: "Life is but a ramble! Let flipism chart your ramble!"
+Per Starback			starback@kuling.UU.SE
+Karlsrogatan 13:H33		 or
+S-752 38  UPPSALA		starback%kuling.UU.SE@uunet.UU.NET
+SWEDEN

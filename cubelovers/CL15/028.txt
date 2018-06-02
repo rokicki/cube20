@@ -1,0 +1,72 @@
+From BRYAN@wvnvm.wvnet.edu  Sat Feb  4 12:08:24 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17871; Sat, 4 Feb 95 12:08:24 EST
+Message-Id: <9502041708.AA17871@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4730; Sat, 04 Feb 95 09:25:25 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 9067; Sat, 4 Feb 1995 09:25:25 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sat, 4 Feb 1995 09:25:24 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Level 11, Whole Cube, Q-turns
+
+
+ Distance        X  Branching      {m'Xm} Branching Ratio   Local
+ from                Factor                Factor    of       Max
+ Start                                              Cubes
+                                                  to Classes
+ 0               1                      1                       0
+ 1              12  12.000              1   1.000    12.000     0
+ 2             114   9.500              5   5.000    22.800     0
+ 3           1,068   9.368             25   5.000    42.720     0
+ 4          10,011   9.374            219   8.760    45.712     0
+ 5          93,840   9.374          1,978   9.032    47.442     0
+ 6         878,880   9.366         18,395   9.300    47.778     0
+ 7       8,221,632   9.355        171,529   9.325    47.931     0
+ 8      76,843,595   9.347      1,601,725   9.338    47.976     0
+ 9     717,789,576   9.341     14,956,266   9.338    47.993     0
+10   6,701,836,858   9.337    139,629,194   9.336    47.997
+11  62,549,615,248   9.333  1,303,138,445   9.333    47.9992
+
+This chart includes a column for local maxima, which my charts
+usually do not.  With all the data kept in files instead of memory,
+it is not a very natural calculation to determine which positions
+are local maxima.  With the data in memory, for any position X
+you would calculate the 12 neighbors Xq, and immediately determine
+which of the 12 neighbors were one move closer to Start.  It is
+easy to identify local maxima in this situation.  With the data
+written to files, the neighbors Xq are sorted before determining
+which are closer to Start, and there is no (easy) way to relate
+a given Xq back to its original X.
+
+However, let me describe the sorting/merging process in a little
+more detail.  There is a file containing all cubes X such that
+|X|=n.  The neighbors Xq are written to a file.  The file
+is sorted, with duplicates deleted.  (Actually, the problem is so
+large that there are *many* files containing the neighbors Xq.
+Each file is sorted, and then the results are merged).  Finally, the
+resulting file is matched against another file containing all
+cubes Y such that |Y|=(n-1).  Any matches are deleted, and whatever
+is left over becomes the file containing all cubes Z such that
+|Z|=(n+1).  The difference between the number of matches deleted
+and the number of cubes in the n-1 file is the number of local
+maxima of length n-1.  (Remember that all the X's and Y's and Z's
+and Xq's are representative elements of M-conjugacy classes.)
+
+The last time through this process, I generated neighbors of level
+10 to create level 11, sorted and deleted duplicates, and matched
+against level 9 deleting matches.  Hence, the last level for which
+I have local maxima information is level 9.
+
+There are not any local maxima through level 9.  I am not really
+expecting any until Pons Asinorum at level 12.  However, it would
+be nice to verify that Pons Asinorum is the shortest local maximum.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

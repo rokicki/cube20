@@ -1,0 +1,107 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Jun 10 14:53:14 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA22175 for <cube-lovers-outbound@curry.epilogue.com>; Mon, 10 Jun 1996 14:53:13 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <v01530500ade036e47617@[205.214.160.101]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Mon, 10 Jun 1996 09:17:05 -0700
+To: CUBE-LOVERS@ai.mit.edu
+From: Lars Petrus <lars@netgate.net>
+Subject: Re: Speed cubing
+
+
+>  Anyways, I am curious what methods people use.  I've asked around and it
+>seems
+>most people prefer to go top/middle/bottom.  In fact, all the published
+>solutions go that way.  But, I learned to go top/bottom/middle because it is
+>MUCH easier.  At the same time, I've seen that when solving a single face,
+>most solutions suggest doing edge and the corner pieces, but I do corner and
+>then edge.  I think this has to do with whether you do the middle or the bottom
+>next because with the middle/bottom approach you can leave out one corner
+>piece to do the middle.  But if you do bottom/middle then you can leave out
+>an edge piece to aid in getting the buttom edge pieces done.
+>
+>
+>  Here is a quick overview of my solution (because it is different than most
+>peoples):
+>
+>  1. do the top face.  4 corners then any 3 edges.  (intuitive)
+>  2. align bottom corner pieces.  (pattern)
+>  3. rotate bottom corner pieces so the correct color is showing (pattern)
+>  4. place the remaining 4 bottom edges and the missing top edge (intuitive)
+>  5. put the 4 middle edge pieces in the correct positions (intuitive)
+>  6. rotate edge pieces as needed (pattern)
+>
+>
+>  Anyways, is there one technique that almost all speedy solutions use?  I've
+>tried the top/middle/bottom solutions but they seem very uninuitive.
+
+The layer by layer techniques are useless for speed cubing. Most people
+use them, because they are a simple way for the human mind to approach the
+problem, but they are not natural "from the cubes point of view".
+
+In the final of the swedish championship, 8 of 11 competitors used the
+vanilla layer-by-layer method. The other 3 of us finished 1, 2 and 3!
+
+The basic problem with the layer method is obvious, and very big. When you
+have completed the first layer, you can do *nothing* without breaking it up.
+So you break it, do something, then restore it, again and again. It's quite
+obvious that this layer is in the way of your solution, not a part of it.
+
+My approach was to find something that, once acomplished, did not need to
+be broken up. A true step on the way to a solution. What I came up with was
+to first solve a 2x2x2 corner. After that, you can move three sides freely,
+and not touch what you achieved. Then I expand it to a 2x2x3, which leaves
+two sides free. Then you fiddle a bit, and go to 2x3x3 and 3x3x3.
+
+1. do the 2x2x2 (intuitive)
+2. expand it to a 2x2x3 (intuitive)
+
+I don't know how to say this in group-babble, but when you move just 2
+sides, you can never "truly" rotate an edge or move a corner. This means
+by temporarily breaking the 2x2x3 you can very quickly rotate edges and
+move corners. On average, you can get the edges correctly rotated in about
+5 moves. You could probably move the corners too, in 2-3 more moves, but
+it's too hard to see the corner condition to do this while speed cubing.
+
+But if you like, you can do 5 before 4.
+
+3. flip the edges (intuitive/pattern)
+4. expand to 2x3x3, using only the 2 free layers (intuitive)
+5. move corners (pattern)
+6. rotate corners (pattern)
+7. move edges (pattern)
+
+Step 4 can be quite hard before you're used to the problems. The others
+should be simple for anyine familiar with the cube.
+
+In reality, there are so many special cases in the final layer that 5-7
+really is just one phase to solve the final layer.
+
+Using this method, I use on average 60 moves while speed cubing, and I have
+done 100 consecutive solutions in an average of 50.53 moves, while taking
+time to think about what I'm doing.
+
+>  Do
+>most speed people only use patterns? (or at least after the top layer?)  How
+>many patterns do you use?  When I go for speed, I tend to use two patterns
+>for step 2, and 4 possible patterns for step 3.  Meaning that I use about
+>7 patterns max for speed and I use 3 patterns total when doing it casually.
+
+Well, for the final layer I use maybe 20-50 different patterns.
+
+
+Singmaster asked all the 19 finalists in the Budapest world championship
+what method they used. According to him, half used Minhs method, half used
+another method, and I was the only one using something else.
+
+  -  -  -  -
+For every economist, there exists an equal and opposite economist.
+
+Lars Petrus, Sunnyvale, California  -  lars@netgate.net
+
+
+
+

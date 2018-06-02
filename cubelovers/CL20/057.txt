@@ -1,0 +1,61 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Jun 10 14:52:37 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA22165 for <cube-lovers-outbound@curry.epilogue.com>; Mon, 10 Jun 1996 14:52:36 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+From: whuang@cco.caltech.edu
+Message-Id: <199606101427.HAA07096@accord.cco.caltech.edu>
+Subject: Re: "Better" Method?
+To: cube-lovers@ai.mit.edu
+Date: Mon, 10 Jun 1996 07:27:00 -0700 (PDT)
+X-Mailer: ELM [version 2.4 PL22]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+
+> Kristin Looney <kristin@tsi-telsys.com> writes:
+> >my method:
+> 
+> >1. do top corners. I always start with white. (intuitive)
+> >2. do bottom corners.
+> >        2a. bring bottom corner color onto bottom face (one of 2 patterns)
+> >        2b. orient bottom corners with each other (one of 2 patterns)
+> >3. fill in all but one edge on top and bottom (intuitive)
+> >4. fill in last edge (pattern)
+> >5. solve middle ring of edges (usually 2 patterns)
+> 
+> >The only person I have ever met used this same method was Minh,
+> >the winner of the first U.S. championship.
+> 
+> Odd.  I use the same method, and before this I was almost convinced I was the
+> only one.  I guess I never asked Minh.
+> 
+> > The only differences between
+> >our methods was that he had more patterns memorized for step 5. I
+> >typically do one pattern, which gets me close, and then finish it up
+> >with one more pattern - where Minh could look at that last ring and
+> >instantly know a pattern that would bring the cube into it's final
+> >solved state. His hands were also a lot faster than mine.
+> 
+> I only have two patterns for step 5.  One basically permutes three edge
+> pieces, the other flips a pair.  It does have the advantage of being
+> easy to explain, though.
+> 
+> Come to think of it, my method is slightly different -- I orient the
+> corners BEFORE positioning them.
+> 
+> >The beauty of this method is that there is very little to memorize -
+> >and although it doesn't give me very many 20 second times, it's
+> >always well under a minute. 
+> 
+> Ditto.
+> 
+> I think the beauty of this "cubie"-oriented method is how easy it
+> generalizes to larger cubes.  By just adding 2 patterns, I can solve the
+> 4x4x4, and one more pattern gives me the 5x5x5.  I think the "layer"-oriented
+> method is much harder to generalize.
+> 
+> 
+
+
+

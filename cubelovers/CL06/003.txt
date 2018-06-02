@@ -1,0 +1,24 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU 22 Jan 87 08:39:00 EST
+Date: 22 Jan 87 08:25:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: magic variants
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+1.  My crack puzzle team has added four squares to "MAGIC".  This puzzle has
+much more variability in making planar patterns (I count doubled up squares) ,
+while retaining the same flavor as the original puzzle.  Some examples:
+
+     XXXXXX            XXXX              XXXX                     XXXX
+     XXXXXX            XXXX              X    X                     XXXX
+                            XXXX             X    X                     XX
+                                                XXXX                     XX
+
+Has anybody else changed the number of squares?  
+
+2.  Has anybody speculated on Rubik's next puzzle based on this hinge mechanism?
+ My puzzle team thinks a equilateral triangles instead of squares has potential.
+ Any comments?
+
+<beck@ardec-lcss>
+..............................
+------

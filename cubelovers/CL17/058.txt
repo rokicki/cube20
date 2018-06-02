@@ -1,0 +1,51 @@
+From news@nntp-server.caltech.edu  Fri Oct 20 17:28:13 1995
+Return-Path: <news@nntp-server.caltech.edu>
+Received: from chamber.cco.caltech.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17025; Fri, 20 Oct 95 17:28:13 EDT
+Received: from gap.cco.caltech.edu by chamber.cco.caltech.edu with ESMTP 
+	(8.6.12/DEI:4.41) id OAA13153; Fri, 20 Oct 1995 14:28:02 -0700
+Received: by gap.cco.caltech.edu 
+	(8.6.7/DEI:4.41) id OAA17076; Fri, 20 Oct 1995 14:27:28 -0700
+To: mlist-cube-lovers@nntp-server.caltech.edu
+Path: whuang
+From: whuang@cco.caltech.edu (Wei-Hwa Huang)
+Newsgroups: mlist.cube-lovers
+Subject: Re: Old question about 2 adj edges
+Date: 20 Oct 1995 21:27:27 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 30
+Message-Id: <46947v$gl9@gap.cco.caltech.edu>
+References: <199510201629.SAA01720@nukkekoti.cs.hut.fi>
+Nntp-Posting-Host: accord.cco.caltech.edu
+X-Newsreader: NN version 6.5.0 #12 (NOV)
+
+Mikko Haapanen <hazard@niksula.hut.fi> writes:
+>This reminds me another old question: 3x3x3 are told to have about 4
+>trillion (or whatever) different positions. How many of these positions are
+>'solved cube' but with different centerpiece combinations? Once i had 3x3x3
+>with 6 different pictures (picture/side). Friends asked me to solve it. When
+>i was completed, they laughed at me and pointed the bottom center piece,
+>which was out of orientation (i can't remember how many of centers were out
+>of order).
+
+Actually, I think the 4 "trillion" estimate is ignoring the center orientation.
+Let's see:
+  8! corner positions
+x 3^7 corner orientations
+x 12!/2 edge positions
+x 2^11 edge orientations
+= 4.325x10^19
+Well, forty-three quadrillion.
+
+Five center orientations force the sixth, so multiply your number by 4^5 to 
+get the answer 4.429x10^22 positions, counting center piece 
+orientations.  That's 44 quintillion.  Whew.
+
+I remember when I solved the 5x5x5 cube (finally), someone asked me if I
+had solved the "invisible" 3x3x3 inside it.  I'm not sure I even want to
+think of trying to solve that.  I'll work on the 3x3x3x3 first.  :P
+
+-- 
+int m,u,e=0;float l,_,I;main() {for(;e<1863; putchar((++e>924&&952>
+e?60-m:u) ["\n  ude.hcetlac.occ@gnauhw   ]"])) for(u=_=l=0;(m=e%81)
+<80&&I*l+_*_ <6&&25>++u;_=2*l*_+e/81*.09-1,l=I)I=l*l-_*_-2+.035*m;}
+

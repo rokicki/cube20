@@ -1,0 +1,97 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Nov  7 16:09:46 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA22336; Thu, 7 Nov 1996 16:09:46 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <1.5.4.32.19961107155402.002b5d48@mentda.me.ic.ac.uk>
+X-Sender: ars2@mentda.me.ic.ac.uk
+X-Mailer: Windows Eudora Light Version 1.5.4 (32)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Thu, 07 Nov 1996 15:54:02 +0000
+To: Cube-Lovers@ai.mit.edu
+From: "The Unofficial Thermofluids Fan Club of the UK." <a.southern@ic.ac.uk>
+Subject: Re: Rubik's Clock...
+
+I wrote this a few days ago but sent it to the wrong
+address......durrrrrrrrrrrrrrrrrrrrrr!
+
+here it is with an amendment.
+
+At 13:22 05/11/96 +1100, you wrote:
+>> 
+>> Have any of you figured out how to solve Rubik's clock yet? Also, what is
+>> best source for cubes (and cube-like puzzles) that you know of? ...I
+>> normally shop at Puzzletts.
+>
+>Don Taylor and I wrote a book ``Mastering Rubik's Clock''.
+>Published in 1988 by Simon and Schuster which gives the 
+>solution.
+>The clock is very easy to solve (hence the book is very 
+>thin, only 16 pages).
+>
+>Leanne Rylands
+>
+>
+>
+>
+
+I once set about building a 5x5 rubiks clock, but I never got round to
+finishing it as I realised that I already knew how to solve the general NxN
+clock.
+
+I did get around to building a 32x2 Rubik's Magic, that's eight Rubiks
+Magics built into one array. It required a couple of customised inlays (i.e.
+I cut and pasted), and is still prone to misalignment and deligamentation
+(i.e. it falls apart a bit), but it works and the solution is just an
+extended version of the 4x2. It takes me about half an hour to solve, and is
+the equivelent of a good work out, that's why I haven't used it since I was
+about 14! 
+
+I only used it to get one above the guys at school that could do the magic
+(4x2) in about one second, because I could never get any faster than 2 seconds!
+
+The smallest "Rubik's Magic" I've ever custom built was a 2x1, most people
+didn't have any problem with that one!
+
+Has anyone else ever extrapulated a puzzle to form a "Custom Master Edition"?
+
+I'd be interested to hear.
+
+
+
+from Wei-Hwa Huang
+
+Cube (Several releases)
+Mini Cube
+Revenge
+4th Dimension (A cube with pictures)
+Race
+Game
+Snake (Many colors, three sizes)
+Magic (Link the Rings)
+Magic (Make the Cube)
+Magic (Unlink the Rings)
+Magic Game
+Magic Puzzle
+Clock
+Fifteen
+Rabbits
+Dice
+Triamid
+Tangle (4 versions)
+Maze
+
+I think there was also Rubik's Illusion, which was a game of chess using
+some sort of complex mapping.
+
+
+
+Cheers!
+
+Andrew R. Southern,
+
+The unofficial Thermo-Fluids Fan Club of the UK.
+
+
+

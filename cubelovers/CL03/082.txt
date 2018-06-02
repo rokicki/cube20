@@ -1,0 +1,87 @@
+Date: 8 Dec 1981 14:30 PST
+From: Lynn.ES at PARC-MAXC
+Subject: Re: Diversion 
+In-reply-to: Ole's message of 4 Dec 1981 1459-PST
+To: Cube-Lovers at MIT-MC
+cc: Lynn.es
+
+I just got my first look at a borrowed copy of Nourse's new 
+"solve everything" book, specifically to look at the barrel puzzle 
+solution he gives.  His notation is:
+
+The two rotating pieces are "rings".  
+They rotate through 5 "notches".
+
+"Layers" (horizontal slices containing 5 balls each) are 
+numbered 1 thru 4 from bottom to top, plus T for the 3 
+balls immediately under "plungers" (when they are up).  
+No notation is used for positions within the puzzle, 
+except this numbering of the layers.  Positions are given 
+by word descriptions or drawings.  
+
+Moves: 
+
+Up-arrow         move the plungers up
+Down-arrow       move the plungers down
+Two boxes, one above the other, which represent movement 
+of the two rings.  A "T" above, or inverted "T" below the boxes 
+shows the current plunger position.  Each box may contain:
+	blank           don't move this layer at all
+	Left-arrow      rotate the ring left (clockwise, as seen from the top) one
+notch
+	Left-arrow 2    rotate the ring left two notches
+	Right-arrow     rotate the ring right one notch
+	2 Right-arrow   rotate the ring right two notches
+
+All moves assume the lonesome plunger is toward the puzzle solver.  
+All move sequences begin assuming the plungers are in the up position.  
+
+There is a great deal of room for improving this notation.  
+Particularly, the boxes should be dispensed with in favor of 
+some single-printed-line way of differentiating between top 
+and bottom rings.  The current plunger position is not needed.  
+Because many terminals or typewriters do not have four 
+directional arrows in their character sets, these should be 
+replaced.  I like thinking in terms of left and right rotations 
+rather than clockwise, since this puzzle is usually solved 
+without turning the puzzle as a whole.  Position notations 
+are needed.  For these reasons I propose the following: 
+
+Move notations:
+
+U      move the plungers Up
+D      move the plungers Down
+T      rotate the Top ring right (counter-clockwise from the top) one notch
+B      rotate Bottom ring right one notch
+-T     rotate Top ring left one notch
+-B     rotate Bottom ring left one notch
+T2, B2, -T2, -B2 	two notch versions of the above four respectively
+
+Positional notation:
+
+Same naming for "rings", "layers", "notches", "plungers", 
+except call the top layer "5".
+
+The ball positions in layer one are, clockwise, as seen from 
+the top, beginning with the one under the lonesome plunger: 
+1F (front), 1L (left), 1LL, 1RR, 1R.  
+
+Correspondlingly for the other layers.  
+There is no 5L or 5R, because of the orientaion of the puzzle.  
+
+During a move, at times when the plungers are down, there 
+will temporarily exist positions 0F, 0RR, 0LL.  
+
+
+Any suggestions or arguments about the notation are welcome.  
+
+
+Nourse's solution has two typos in it.  Page 33: upper rightmost 
+move on page should be in the bottom ring, not top.  Page 36: 
+second move on the page should have a 2, not single notch.  
+
+
+If people are interested, I can summarize Nourse's approach to solving.  
+
+/Don Lynn
+ 

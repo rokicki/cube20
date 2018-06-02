@@ -1,0 +1,15 @@
+Date:     14 May 1982 0413-edt
+From:     Ronald B. Harvey           <RHarvey at MIT-MULTICS>
+Subject:  4 x 4 x 4
+To:       cube-lovers @ mit-mc
+
+I just got mine (two) today.  I had a friend who was in Boston on a
+business trip get them (to Phoenix) for me.  They are also available at
+The Name of the Game in Faneuil Hall-Market Square also for $15 (14.99).
+
+I spent a few hours playing this evening, wondering what tools others
+have come up with.  I seem to be able to get three faces which share a
+vertex into perfect shape, and then kind of falter.  Oh well, it will
+have to wait until after work tomorrow (Friday).
+
+ - Ron

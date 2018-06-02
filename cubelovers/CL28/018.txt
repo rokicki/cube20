@@ -1,0 +1,22 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Sep 27 17:23:43 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA18485
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 27 Sep 1999 17:23:42 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <37E987DC.F446DBBC@pressenter.com>
+Date: Wed, 22 Sep 1999 20:52:28 -0500
+From: Joe Johnson <jgjohnso@pressenter.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: 5X5X5 challenge
+References: <37D16494.DE65A654@pressenter.com> <m11TkUz-00076uC@fwd04.btx.dtag.de>
+
+I snipped off the same corner of every sticker on each face so that all of the face
+cubies have to be positioned correctly for a 'complete' solution.  If you have good
+eyes (I recently had cataract surgery) you will not need to snip off enough to make
+it obtrusive.  My second 5x5x5 just arrived in today's mail and it almost seems like
+cheating to solve it in the 'normal' manner after solving for 'completeness.'
+
+Joe Johnson
+

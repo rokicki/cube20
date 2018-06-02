@@ -1,0 +1,94 @@
+From mreid@ptc.com  Sat Jan  7 19:53:08 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06520; Sat, 7 Jan 95 19:53:08 EST
+Received: from ducie.ptc.com by ptc.com (5.0/SMI-SVR4-NN)
+	id AA09551; Sat, 7 Jan 95 19:51:46 EST
+Received: by ducie.ptc.com (1.38.193.4/sendmail.28-May-87)
+	id AA07071; Sat, 7 Jan 1995 20:04:09 -0500
+Date: Sat, 7 Jan 1995 20:04:09 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9501080104.AA07071@ducie.ptc.com>
+To: cube-lovers@ai.mit.edu
+Subject: two stage filtration
+Content-Length: 3087
+
+i've also run an exhaustive search on the subgroup
+H = <U, D, F2, R2, B2, L2>.   here are the number of
+positions at each distance.
+
+ distance    quarter turns       face turns
+
+        0                1                1
+        1                4               10
+        2               10               67
+        3               36              456
+        4              123             3079
+        5              368            19948
+        6             1192           123074
+        7             3792           736850
+        8            11263          4185118
+        9            34352         22630733
+       10           102638        116767872
+       11           287320        552538680
+       12           810144       2176344160
+       13          2261028       5627785188
+       14          5941838       7172925794
+       15         16291708       3608731814
+       16         41973415        224058996
+       17        107458884          1575608
+       18        269542476             1352
+       19        628442876
+       20       1367654200
+       21       2613422312
+       22       3997726648
+       23       4444701268
+       24       3661653732
+       25       1906936668
+       26        407132392
+       27         34358944
+       28          1664168
+       29            14840
+       30              160
+
+a position at distance 18 face turns was exhibited by hans kloosterman
+on may 30 1992.  (he also found three others that differ only in the
+middle layer edges.)  it was then observed by dik winter (also on may 30
+1992) that kociemba's algorithm took exceptionally long for this position.
+however, this does not appear to be the case for most of the antipodes.
+(i will give the antipodes for each metric in separate messages.)
+
+the 4 positions found by kloosterman are also antipodes in the quarter
+turn metric, and, up to symmetry, are the only positions which are
+antipodal in both metrics.  hmmm...
+
+elements of  H  are described by triples  (c, e, m),  where
+
+        c = corner permutation,
+        e = U D edge permutation,
+        m = middle layer edge permutation,
+
+and the total parity is even.  there are
+
+        8! = 40320 corner configurations,
+        8! = 40320 U D edge configurations and
+        4! =    24 middle layer edge configurations,
+
+for a total of  40320 * 40320 * 24 / 2 = 19508428800  positions.
+
+if we divide by symmetry along the corner coordinate, we get 2768 corner
+configurations (of course we get the same number if we divide by symmetry
+along the U D edge coordinate), so we can reduce to 1339269120 positions.
+at 2 bits per configuration, this requires 327 megabytes, which is too
+large.
+
+however, if we also divide out by inversion, we can reduce the number of
+corner configurations to 1672, the total number of positions to 808980480,
+and the memory required to 200 megabytes.  this is still a lot, but is
+within reach.
+
+the calculations were done on the same machine: DEC 3000 alpha 700,
+configured with 256 Mb RAM.  run times were much more modest:
+10 hours for quarter turns, 7.5 hours for face turns.
+
+mike
+

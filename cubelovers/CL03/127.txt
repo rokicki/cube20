@@ -1,0 +1,49 @@
+Date: 31 March 1982 22:26-EST
+From: David C. Plummer <DCP at MIT-MC>
+Sender: DCP0 at MIT-MC
+Subject: 4**3,5**3
+To: CUBE-LOVERS at MIT-MC
+
+NO, NO, NO !!!!  You CANNOT treat 1 of the center slices of a
+4x4x4 as a center of a 3x3x3.  Suppose you did this for one axis,
+and for the other two axes you treated both "centers" as a unit
+(and therefore the center slice of a 3x3x3).  Now take one of the
+axes with a double width center, and rotate an outer slice 180
+degrees.  Suppose the front face looked like this:
+
+	+####+####+####+####+
+	#    #    #    |    #
+	#    #    #    |    #
+	+####+####+####+####+
+	#    #    #    |    #
+	#    #    #    |    #
+	+----+----+----+----+
+	#    #    #    |    #
+	#    #    #    |    #
+	+####+####+####+####+
+	#    #    #    |    #
+	#    #    #    |    #
+	+####+####+####+####+
+
+You rotate the top slice and the front face now looks like:
+
+	+####+####+####+####+
+	#    |    #    #    #
+	#    |    #    #    #
+	+####+####+####+####+
+	#    #    #    |    #
+	#    #    #    |    #
+	+----+----+----+----+
+	#    #    #    |    #
+	#    #    #    |    #
+	+####+####+####+####+
+	#    #    #    |    #
+	#    #    #    |    #
+	+####+####+####+####+
+
+Notice that the top layer does not go very well with the bottom 3
+layers.  The 5x5x5 has similar problems.  
+
+I think the right way to solve both the 4x4x4 and 5x5x5 at first
+is to use mono-flips.  Once conceptually understood, they are
+very powerful and easy to visualize.

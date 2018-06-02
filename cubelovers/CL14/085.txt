@@ -1,0 +1,33 @@
+From mreid@ptc.com  Wed Jan 11 09:56:20 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12225; Wed, 11 Jan 95 09:56:20 EST
+Received: from ducie.ptc.com by ptc.com (5.0/SMI-SVR4-NN)
+	id AA28170; Wed, 11 Jan 95 09:54:58 EST
+Received: by ducie.ptc.com (1.38.193.4/sendmail.28-May-87)
+	id AA19537; Wed, 11 Jan 1995 10:07:37 -0500
+Date: Wed, 11 Jan 1995 10:07:37 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9501111507.AA19537@ducie.ptc.com>
+To: bryan@wvnvm.wvnet.edu, cube-lovers@ai.mit.edu
+Subject:   Re: kociemba's algorithm for quarter turns
+Content-Length: 570
+
+jerry bryan writes
+
+> On 01/11/95 at 00:09:40 Dik.Winter@cwi.nl said:
+> 
+> >Note the word *long*.  There is a 20-turn sequence for superflip.
+> 
+> I think we have a winner.  I compared the data base for level 0
+> through 9 against the same data base superflipped, with no
+> matches.  That should mean that there is no 18-turn or less
+> sequence for superflip.
+
+wait a moment.  dik is talking about face turns.  what are you
+talking about?  face turns or quarter turns?
+
+and if you're talking about face turns, there's no reason an odd
+length maneuver can't exist.
+
+mike
+

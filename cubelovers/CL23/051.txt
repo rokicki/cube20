@@ -1,0 +1,44 @@
+From cube-lovers-errors@oolong.camellia.org  Tue Jul 15 13:17:34 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id NAA10953; Tue, 15 Jul 1997 13:17:33 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <9707151143.AA27610@la1.apd.dec.com>
+Subject: Re: hockey puck puzzle
+To: Allan Wechsler <awechsle@bbn.com>
+Date: Tue, 15 Jul 1997 13:42:54 +0200 (CETS)
+From: Jan de Ruiter <jandr@apd.dec.com>
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <199707141759.NAA00043@spork.bbn.com> from "Allan Wechsler" at Jul 14, 97 01:59:16 pm
+Reply-To: jandr@xirion.nl
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+
+> 
+> Please give a clearer description of the puck.  The photo gives only a
+> slight clue about how many pieces there are, and how they are
+> arranged.  Are there twelve pieces, or twenty-four, or more?
+> 
+> -A
+> 
+The puzzle contains edge pieces and center pieces, all with the same
+thickness as the puck.
+There are always two center pieces which together form the inner
+circle.
+In this case there are 12 edge pieces which together form the outer
+ring. Simpeler pucks might contain less than 12 edge pieces, but always
+an even number.
+The possible moves are:
+1. rotate one center piece with half of the edge pieces 180 degrees
+   relative to the other center piece and the other half of the edge
+   pieces.
+2. rotate the edge pieces around the center pieces, always multiples of
+   30 degrees, or 1/12 of a circle (or more if there are less edge
+   pieces)
+
+I know the puck with 6 edge pieces is near trivial to solve.
+I haven't tried the other ones yet.
+
+Jan de Ruiter
+
+

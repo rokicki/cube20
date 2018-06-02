@@ -1,0 +1,62 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jul 12 15:38:04 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA27200
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 12 Jul 1999 15:38:03 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v04003a00b3afda06ac1c@[128.192.40.243]>
+Date: Mon, 12 Jul 1999 14:09:58 -0400
+To: Cube-Lovers@ai.mit.edu
+From: pink@cartserv.rserv.uga.edu (_pink)
+Subject: Square 1 Notes
+
+Greetings to all,
+
+	Ok, I've been extreeeeeemely busy as of late but I did find a few
+mins at lunch today to throw together some of my notes on the Square 1
+puzzle.
+	First my standard disclaimers:
+
+1.) The web page design and layout for getting the Square 1 back to cube
+shape have been stolen directly from Christian Eggermont. My notes were
+very similar but I liked his presentation much better than mine. The only
+thing I have done to his notes was to rearrange the classification of
+shapes as to their 'distance' from cube shape. To see his original work
+please refer to:
+
+http://web.inter.nl.net/C.Eggermont/
+
+2.) I expanded on Andrew Arensburger's cube preserving formulas and also
+adopted his piece notation system. To see his original work please refer to:
+
+http://www.cfar.umd.edu/~arensb/Square1/
+
+3.) Some formula were revised and expanded upon from Richard Snyder's
+Square 1 Solution Book. Nice book but sometimes a bit cryptic.
+
+4.) I know that there has to be some errors in my notes. If you find them
+please advise me so that I might make the corrections necessary. (Actually
+now that I think about it, I believe that in the Edge moves section there
+is a mistake where I say to turn the bottom 30deg in one direction but it
+would make an impossible Right turn... if you see this just turn the bottom
+the other direction... I'll try to find it and correct it asap)
+
+5.) There are 2 or 3 pages of blank diagrams or unfinished notes that
+indavertantly got included. Please disregard anything that looks unusual...
+(hopefully that won't be every page you look at...) ;)
+
+	Ok, so if you're not asleep by now you can hit
+
+http://128.192.40.238/pink/SquareList.html
+
+for the shapes list as to get from where you are now back to cube shape.
+There is a link at the bottom of that page to 3 PDF files. One to
+manipulate Corners, one for Edges and one for my initial thoughts on 2x2x2
+cycling of Square 1 quadrants. I hope there is some info of use for
+somebody.
+	And as always... feedback is very welcome.
+
+later all,
+_pink
+

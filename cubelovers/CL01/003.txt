@@ -1,0 +1,14 @@
+Date: 4 Nov 1980 09:28 PST
+From: McKeeman at PARC-MAXC
+Subject: Re: Christman Cross algorithm described
+In-reply-to: DCP's message of 4 NOV 1980 0023-EST
+To: DCP at MIT-MC (David C. Plummer)
+cc: CUBE-HACKERS at MIT-MC
+
+Using Rubik Song,
+
+	(+F+P)(++T++B)(-F-P)(-R-L)(++T++B)(+R+L)(++T++B)
+becomes
+
+            FB UUDD F'B'  R'L' UUDD RL  UUDD
+

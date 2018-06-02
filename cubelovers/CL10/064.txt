@@ -1,0 +1,68 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Sat Dec  4 09:49:17 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06967; Sat, 4 Dec 93 09:49:17 EST
+Message-Id: <9312041449.AA06967@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 9070; Sat, 04 Dec 93 09:18:44 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 0830; Sat, 4 Dec 1993 09:18:44 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 0521; Sat, 4 Dec 1993 09:15:57 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Sat, 4 Dec 1993 09:15:56 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   First Post
+
+This is my first post to Cube-Lovers, so I will introduce myself
+briefly.  I have been cubing since about 1979 or 1980 or so when
+the cubes first appeared on the market.  I have been cubing with
+a computer since about 1985, and have been active on the Internet
+since about 1985 (purely a coincidence of dates).  I have looked
+for years for a cubing list, and never found one until now.
+I always looked for "Rubik" (or sometimes "Rubic").  For some silly
+reason, it never occurred to me to look for "cube".
+
+I have long since read Hofstadter's two Scientific American articles,
+as well as the reprints in METAMAGICAL THEMAS.  The reprints, by
+the way, are excellent because of the additional information in the
+appendices.  I also have a copy of Singmaster and Frey's
+HANDBOOK OF CUBIC MATH.  I have tried unsuccessfully for years to
+get copies of Singmaster's earlier work  --  the circulars, for
+example.  However, I suspect that the HANDBOOK includes most if not
+all of the earlier material.  Also, (and you won't believe this) I have
+just read all thirteen years of the archives of Cube-Lovers.
+
+My primary interest has been in calculating God's Algorithm.  I am
+interested in brute force breadth first tree searches.  In other
+words, my work is akin to the solutions of the 2x2x2 and the corners
+of the 3x3x3 posted by Dan Hoey and others.  It is not akin to
+Thistlethwaite's methods.  I am interested to see, however, that
+major recent progress appears to have been made on Thistlewaite's
+method.
+
+I have calculated God's Algorithm for the 2x2x2 cube and the corners
+of the 3x3x3.  My results agree with those that have been posted here,
+with the exception that my search is 48 times smaller (24*2), due
+to the exploitation of a rotation and reflection group of the cube.
+I have also calculated God's Algorithm for the edges of the 3x3x3.
+This is a much larger problem, and took about a year running
+continuously on two machines.  The resulting output file is about
+4.2 gigabytes of data, and is stored on 31 reels of magnetic tape.
+This result includes the "48 times smaller" factor, else it would
+have been 204 gigabytes of data stored on 1464 reels of magnetic
+tape.
+
+I understand that this list has been very quiet of late.  But
+assuming some modicum of interest, I will post more details
+of my results in subsequent messages.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

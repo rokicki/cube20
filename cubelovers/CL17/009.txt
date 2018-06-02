@@ -1,0 +1,38 @@
+From boland@sci.kun.nl  Sun Sep 24 12:19:36 1995
+Return-Path: <boland@sci.kun.nl>
+Received: from wn1.sci.kun.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21113; Sun, 24 Sep 95 12:19:36 EDT
+Received: from canteclaer.sci.kun.nl by wn1.sci.kun.nl via canteclaer.sci.kun.nl [131.174.132.34] with SMTP 
+	id RAA13678 (8.6.10/2.13) for <cube-lovers@ai.mit.edu>; Sun, 24 Sep 1995 17:19:34 +0100
+Message-Id: <199509241619.RAA13678@wn1.sci.kun.nl>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Order problems 
+In-Reply-To: Your message of "Sun, 24 Sep 95 00:31:55 +0100."
+             <199509232231.AAA29847@wn1.sci.kun.nl> 
+Date: Sun, 24 Sep 95 17:19:32 +0100
+From: Michiel Boland <boland@sci.kun.nl>
+
+Sorry to follow up on my own post, but I messed up a bit :)
+
+>  12      4      U.R.F.D'
+
+There is also U2R2F' which has less face turns but more quarter turns.
+
+>  70      6      U.R'U.R.F.R'
+
+This transform has in fact order 140!
+The correct ones are:
+
+ 70   6   U.R.U'R.F.B'
+ 70   7   U2R'U2F'L'
+
+> 110      8      U.R.U2R'F.R.L'
+
+This should be U'R'U.R.F.D'B'L' (8 qt)
+
+I converted my order-searching program to C and am now running
+it on a Sun - expecting results on order 11 soon.
+-- 
+Michiel Boland <boland@sci.kun.nl>
+University of Nijmegen
+The Netherlands
+

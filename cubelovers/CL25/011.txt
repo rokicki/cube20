@@ -1,0 +1,57 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 17 11:02:50 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA04827; Tue, 17 Mar 1998 11:02:49 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Mar 15 15:27:20 1998
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: "Cube Lovers Submissions" <Cube-Lovers@ai.mit.edu>
+Subject: Ideal's patent for 4^3
+Date: Sun, 15 Mar 1998 20:29:20 -0000
+Message-Id: <19980315202713.AAA21006@home>
+
+On 19 Feb 1998 David Singmaster wrote:
+
+        In my Cubic Circular 1 (Autumn 1981), I recorded that Wim
+        Osterholt, of the Netherlands, had made and patented a 4^3
+        which he showed me.  I don't remember it and I'm not sure when
+        he brought it to London - perhaps Summer 1981? I also recorded
+        that Rainier Seitz (product manager of Arxon which was Ideal's
+        German agent) showed me some German patents and applications
+        for the 4^3 and 5^3.  In Cubic Circular 2 (Spring 1982), I
+        record talking with another person who had devised a 4^3
+        mechanism.  In Cubic Circular 3/4 (Spring/Summer 1982), I
+        describe playing with examples.  However, I don't recall ever
+        knowing who devised the mechanism that was produced for Ideal.
+
+        It was common knowledge that it was not Rubik's mechanism 
+
+I have just come across Ideal's patent for its 4^3. It is US Patent No
+4,421,311.  The inventor was Peter Sebesteny, and the original application
+was made in Germany on 8 Feb 1981, so it may have been one of the patents
+David Singmaster was shown.  It can be viewed at the IBM patent site from 
+
+        http://www.patents.ibm.com/details?patent_number=4421311
+
+One of the references cited by the US Patent Examiner was to page 29 of
+David Singmaster's "Notes on Rubik's Magic Cube" - undoubtedly the remark
+"One can imagine the 4x4x4 cube or the 3x3x3x3 hypercube.  The first might
+be makeable but its group seems to be much more complicated.  The second is
+unmakeable, but its group structure may be determinable."
+
+The corresponding European patent application was taken through to the
+point where it was ready for grant, but then allowed to lapse.  The next
+stage would have been quite expensive and have required Ideal to translate
+the specification into the languages of the European countries in which it
+was to be in force.  And the US was not renewed when the first renewal fees
+became due in 1986.  Presumably by then Ideal had lost interest in the
+patent - they may have calculated there was zero chance of anyone launching
+an imitation, given the number of 4^3s that had been left unsold.
+
+I don't have ready access to information about the German application, but
+I suspect it was applied for by Sebesteny on his own behalf, and he then
+interested Ideal in it.  
+
+Roger Broadie
+

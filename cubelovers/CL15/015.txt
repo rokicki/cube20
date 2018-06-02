@@ -1,0 +1,23 @@
+From @uconnvm.uconn.edu:dmoews@xraysgi.ims.uconn.edu  Sun Jan 22 17:22:51 1995
+Return-Path: <@uconnvm.uconn.edu:dmoews@xraysgi.ims.uconn.edu>
+Received: from UConnVM.UConn.Edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23692; Sun, 22 Jan 95 17:22:51 EST
+Received: from venus.ims.uconn.edu by UConnVM.UConn.Edu (IBM VM SMTP V2R2)
+   with TCP; Sun, 22 Jan 95 17:23:11 EST
+Received: from xraysgi.ims.uconn.edu by venus.ims.uconn.edu (4.1/SMI-4.1)
+	id AA05349; Sat, 27 Apr 02 20:44:33 EST
+Received: by xraysgi.ims.uconn.edu (920330.SGI/911001.SGI)
+	for @venus.ims.uconn.edu:cube-lovers@ai.mit.edu id AA27990; Mon, 23 Jan 95 17:21:46 -0500
+Date: Mon, 23 Jan 95 17:21:46 -0500
+From: dmoews@xraysgi.ims.uconn.edu (David Moews)
+Message-Id: <9501232221.AA27990@xraysgi.ims.uconn.edu>
+To: cube-lovers@ai.mit.edu, dmoews@xraysgi.ims.uconn.edu
+Subject: Symmetry reductions of the superflip (oops)
+
+I forgot to say: You should cyclically permute the sequence of face turns in
+the superflip to begin with to ensure that the sequence does not begin and end
+with turns on the same axis.  Only then can you be sure that you have one of 
+the forms (1)...(4).
+-- 
+David Moews                                    dmoews@xraysgi.ims.uconn.edu
+
+

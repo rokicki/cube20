@@ -1,0 +1,50 @@
+From news@nntp-server.caltech.edu  Fri Dec 16 23:24:15 1994
+Return-Path: <news@nntp-server.caltech.edu>
+Received: from piccolo.cco.caltech.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01947; Fri, 16 Dec 94 23:24:15 EST
+Received: from gap.cco.caltech.edu by piccolo.cco.caltech.edu with ESMTP 
+	(8.6.7/DEI:4.41) id UAA19585; Fri, 16 Dec 1994 20:24:06 -0800
+Received: by gap.cco.caltech.edu 
+	(8.6.7/DEI:4.41) id RAA16788; Fri, 16 Dec 1994 17:06:30 -0800
+To: mlist-cube-lovers@nntp-server.caltech.edu
+Path: txr
+From: txr@alumni.caltech.edu (Tim Rentsch)
+Newsgroups: mlist.cube-lovers
+Subject: Re: Cyclic Decomposition
+Date: 17 Dec 1994 01:06:24 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 29
+Message-Id: <3ctdig$gci@gap.cco.caltech.edu>
+References: <9412162233.AA27627@ducie.ptc.com>
+Nntp-Posting-Host: alumni.caltech.edu
+X-Newsreader: NN version 6.5.0 #4 (NOV)
+
+mreid@ptc.com (michael reid) writes:
+
+>unfortunately, this estimate is too optimistic.  the number of positions
+>within 10 face turns of start is more like  2.6 x 10^11.
+
+An upper bound for number of positions reachable after 10
+turns is
+
+    18 * 12**9
+
+which is 92,876,046,336.  Admittedly this number is closer to 2.6e11
+than 1e10, but the number is an upper bound.  It seems to me I
+remember reading that the limiting branching factor (for q+h turns) is
+about 9.5 and is reached rather quickly.  The value of
+
+    18 * 12 * 12 * 12 * 9.5**6
+
+is 22,864,298,166.0 (according to 'bc'), which should be within reach
+of brute force algorithms.  Unfortunately this approach requires
+several hundred gigabytes of disk space but that could be spread out
+over lots of physical machines (parallelizing could also result in
+speeding up the computation).  Anyone know where we could find 1000
+machines with a few hundred megabytes free each?
+
+Well, maybe not just yet.  But soon.
+
+regards,
+
+Tim Rentsch
+

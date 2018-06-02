@@ -1,0 +1,40 @@
+From ad@dcs.st-andrews.ac.uk  Mon Feb 13 04:21:08 1995
+Return-Path: <ad@dcs.st-andrews.ac.uk>
+Received: from andie.st-andrews.ac.uk (andie.st-and.ac.uk) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA26342; Mon, 13 Feb 95 04:21:08 EST
+Received: from tamdhu.dcs.st-and.ac.uk by andie.st-andrews.ac.uk with SMTP (PP) 
+          id <06511-0@andie.st-andrews.ac.uk>; Mon, 13 Feb 1995 09:19:32 +0000
+Received: from [138.251.192.26] (bruichladdich.dcs.st-and.ac.uk) 
+          by dcs.st-and.ac.uk (4.1/SMI-4.1) id AA10670;
+          Mon, 13 Feb 95 09:17:27 GMT
+Date: Mon, 13 Feb 95 09:17:26 GMT
+Message-Id: <9502130917.AA10670@ dcs.st-and.ac.uk>
+X-Sender: ad@talisker
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu, ccw@eql12.caltech.edu
+From: ad@dcs.st-andrews.ac.uk
+Subject: Re: I have a non-standard Pyraminx. (its magic number is 5)
+
+>My copy of this puzzle has 2 yellow and 2 red faces.  I think they ran
+>out of colors.
+
+Reminds me of the joke:
+
+"Have you heard about the Irish version of Rubik's Cube?"
+"No. Tell me."
+"All the fAces were green."
+
+
+--
+Tony Davie                Computer Science            __
+Tel: +44 334 463257       St.Andrews University    __/\_\
+Fax: +44 334 463278       North Haugh           __/\_\/_/
+ad@dcs.st-and.ac.uk       St.Andrews           /\_\/_/\_\
+                          Scotland             \/_/\_\/_/
+                          KY16 9SS                \/_/\_\
+                                                     \/_/
+
+A lottery is a tax on the mathematically challenged
+
+
+

@@ -1,0 +1,38 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Feb 20 01:42:04 1997
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id BAA09922; Thu, 20 Feb 1997 01:42:03 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-ID: <330BCC51.7CD7@ibm.net>
+Date: Wed, 19 Feb 1997 20:00:17 -0800
+From: Time Traveler <chrono@ibm.net>
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+MIME-Version: 1.0
+To: Stan Isaacs <isaacs@hpcc01.corp.hp.com>
+CC: cube-lovers@ai.mit.edu
+Subject: Re: Super-skewb
+References: <199702190137.AA255196278@hpcc01.corp.hp.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Stan Isaacs wrote:
+> 
+> Anybody have any good moves for super-skewb centers?  That is, ones
+> that either twist centers in place, or move them without twisting.
+> Tony Fisher, in England, makes some wonderful puzzles based on the
+> Skewb, but in shapes such as an Icosahedron, or Dodecahedron, or
+> Rhombic Dodecahedron.  These are all actually Super-Skewbs.
+> 
+>  -- Stan Isaacs
+
+Tony Fisher still makes those things?  It's HIS fault that I hacked one
+of my cubes into fine powder!  Ah, yes.  A GOOD memory. :)
+
+Happen to know how to get a hold of him?
+
+-- 
+Jin "Time Traveler" Kim
+chrono@ibm.net
+VGL Costa Mesa
+
+

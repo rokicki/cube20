@@ -1,0 +1,23 @@
+From alan@parsley.lcs.mit.edu  Mon Dec  6 20:16:32 1993
+Return-Path: <alan@parsley.lcs.mit.edu>
+Received: from parsley.lcs.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07208; Mon, 6 Dec 93 20:16:32 EST
+Received: by parsley.lcs.mit.edu 
+	id AA11692; Mon, 6 Dec 93 20:16:26 -0500
+Date: Mon, 6 Dec 93 20:16:26 -0500
+Message-Id: <6Dec1993.195513.Alan@LCS.MIT.EDU>
+From: Alan Bawden <Alan@lcs.mit.edu>
+Sender: Alan@lcs.mit.edu
+To: BRYAN@wvnvm.bitnet
+Cc: Cube-Lovers@ai.mit.edu
+In-Reply-To: Jerry Bryan's message of Mon, 6 Dec 1993 18:32:15 EST <9312062334.AA01891@life.ai.mit.edu>
+Subject: Unique Antipodal of the 3x3x3 Edges
+
+   Date:      Mon, 6 Dec 1993 18:32:15 EST
+   From: Jerry Bryan <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+   ...  It is really quite extraordinary and wonderful.  I already knew
+   that there were only four equivalence classes with 24 elements.  Well,
+   two of them are Start itself and its antipodal.  Without further ado:...
+
+This is very interesting indeed!  
+So the next natural question would seem to be: What are the -other- two?
+

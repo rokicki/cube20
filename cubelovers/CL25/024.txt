@@ -1,0 +1,943 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar 30 14:54:27 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA04824; Mon, 30 Mar 1998 14:54:26 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Mar 27 20:28:38 1998
+Date: Fri, 27 Mar 1998 20:28:57 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: All the Isoglyphs [long]
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.980327202039.282847A-100000@PSTCC6.PSTCC.CC.TN.US>
+
+
+Dan Hoey introduced glyphs and isoglyphs on 5 August 1997.  A glyph is a
+cube face containing no more than two colors, and an isoglyph is a cube
+position where every face contains the same glyph.  Isoglyphs tend to be
+very striking and pretty patterns. 
+
+Each corner and edge facelet of a glyph can be the same or a different
+color than the center facelet, so there are 2^8 or 256 possible glyphs. 
+Dan reported that there are 51 glyphs unique up to symmetry (70 if chiral
+pairs are distinguished). 
+
+On 8 August 1997, Herbert Kociemba reported that there are 35 continuous
+isoglyphs unique up to symmetry (including Start).  A continuous isoglyph
+is one for which each glyph matches the neighboring glyph along the edge.
+Herbert did not include the non-continuous glyphs because there are so
+many, and because non-continuous glyphs are sometimes not so striking and
+pretty as the continuous glyphs. 
+
+On 9 August, Dan Hoey classified Herbert's isoglyphs according the their
+respective glyphs, and provided the usual name for the isoglyphs where a
+usual name existed.  Where a usual name did not exist, Dan provided a
+reasonable name based on the names of closely related isoglyphs. 
+
+On 27 August, Mike Reid gave minimal maneuvers for all the continuous
+isoglyphs in both the quarter-turn and face-turn metrics. 
+
+I have now calculated all the isoglyphs, using Herbert's Cube Explorer 1.5
+program.  All I really did was to put each of the 51 glyphs into the
+program in turn.  I can only guess, but this has to be more or less what
+Herbert did to obtain his results.  The only difference is that I asked
+the program to calculate both continuous and non-continuous isoglyphs, so
+the task was a bit bigger.  My report is much in the spirit of Herbert's
+original report.  I have made no effort to calculate minimal maneuvers,
+nor have I made any attempt to associate names with the maneuvers. 
+
+However, my report does include all the glyphs along with their associated
+isoglyphs.  In fact, for each glyph I have included the entire equivalence
+class of glyphs under the rotations and reflections of the square (either
+1, 2, 4, or 8 glyphs in each equivalence class).  There is, of course, no
+necessary relationship between the number of glyphs in the equivalence
+class and the number of isoglyphs.  You only need to put one glyph from
+the equivalence class into Cube Explorer 1.5 to create the isoglyph, and
+any one glyph from the equivalence class will do as well as any other.
+
+I can report that of the 51 glyphs unique up to symmetry, 8 of them
+produce only continuous isoglyphs, 17 of them produce only non-continuous
+isoglyphs, 14 of them produce both continuous and non-continuous
+isoglyphs, and 12 of them produce no isoglyphs. 
+
+In addition to confirming Herbert's figure of 35 continuous isoglyphs, I
+can report that there are 249 non-continuous isoglyphs.  In the category
+of "most isoglyphs", one glyph has 2 continuous and 49 non-continuous
+isoglyphs, and another has 4 continuous and 46 non-continuous isoglyphs. 
+
+The only other thing that probably requires explanation about the chart
+that follows is that there is a two character code below each glyph.  This
+is a hexadecimal representation of a binary number based on the following
+pattern,
+
+  765
+  4X3
+  210
+
+where the number includes 2^k if facelet k is the same color as the center
+facelet.  This is not intended as a new classification to replace Dan's. 
+It is just a bookkeeping technique I used (a 16x16 matrix) to keep track
+of the 256 glyphs. 
+
+
+000
+0X0
+000
+
+ 00
+
+D' U  L' R B' F D' U  (8) *    continuous
+
+
+
+
+
+
+000 000 00X X00
+0X0 0X0 0X0 0X0
+00X X00 000 000
+
+ 01  04  20  80
+
+R2 D L2 U' B2 D' U2  R' F' U R B' L' D' F L2 B2 R U'  (19) continuous
+B2 D F2 U' L2  B' D2 B U B' D2 F L R' D U F'  (17)         continuous
+
+
+
+
+
+000 000 000 0X0
+0X0 0XX XX0 0X0
+0X0 000 000 000
+
+ 02  08  10  40
+
+D' U  B D' L' R F D' B' D' U L  (12) *               continuous
+L2 D'  B' F L' D U' F L' R U B' F'  (13)             not
+F2 D' L2  B' D' U' R B L F L F U' F'  (14)           not
+F2 D L2 R2 U'  B' U L D L D2 R' F' D' B' D  (16)     not
+U R2 D B2 D  F D' B' L' B' D2 F' L' F U F' R'  (17)  not
+R2 U2  B' F D B2 L' R D2 F' R2 F2 D' U  (14)         not
+B2 D2 R2  B' F D' F2 L' R U2 F' L2 D U  (14)         not
+D' U' L2  F' D2 L R' B2 D' B F' R2 D2 B2  (14)       not
+B2 D U' L2  F' D2 L R' B2 D' B F' R2  (13)           not
+R2 D2  R' B' L' B D' R2 B' R B' D' R  (13)           not
+
+
+
+
+000 000 000 000 00X 0XX X00 XX0
+0X0 0X0 0XX XX0 0XX 0X0 XX0 0X0
+0XX XX0 00X X00 000 000 000 000
+
+ 03  06  09  14  28  60  90  C0
+
+F2 D F2 D B2 L2 U L2 D'  L D L' B' L U' F' U R' U'  (19)       not
+F2 U L2 U L2 U'  F U' F' D2 B L R U' B' D' R F'  (18)          not
+D' R2 D2 B2 U' F2 U' L2  B D R D' U F U' B' U2 B' R' U'  (20)  not
+
+
+
+
+
+000 00X X00 X0X
+0X0 0X0 0X0 0X0
+X0X 00X X00 000
+
+ 05  21  84  A0
+
+F2 U2  L' R D2 F2 L' R  (8)                      not
+F2 U2 B2 L2 U' B2 U' B2 L2 D2 L2 U R2 U'  (14)    not
+U' L2 D' L2 D B2 F2 L2 R2 D F2 U' F2 U'  (14)     not
+U2 L2 F2 D U' B2 L2 D' U'  (9)                    not
+
+
+
+
+
+000 00X X00 XXX
+0X0 0XX XX0 0X0
+XXX 00X X00 000
+
+ 07  29  94  E0
+
+(none)
+
+
+
+
+
+
+000 000 0X0 0X0
+0XX XX0 0XX XX0
+0X0 0X0 000 000
+
+ 0A  12  48  50
+
+F2 D' R2 D'  L' U' L' R B D' U B L F2 L U2  (16)            continuous
+U B2  L D B' F L' D U' L' R F' D2 R'  (14)                  continuous
+U' B2 R2 U2  F' D2 L' F2 U' F2 D2 F U2 R' U2  (15)          continuous
+D2 U B2 D U'  R' D2 B' R2 D2 L' R' D' B2 L B  (16)          not
+B2 U2 F2 D2 F2 U  R' F' L2 U2 L R U' L2 F2 L' F  (17)       not
+U F2 L2 U2  B' U2 L F2 U B2 D2 B D2 R' U2  (15)             not
+F2 D2 B2 D' B2 L2 U2  B D2 R F2 D F2 D2 B' U2 L F2  (18)    not
+U2 B2 F2 D' F2 R2 D2  B U2 L' U2 B' D2 F2 D F2 R' U2  (18)  not
+D2 U' B2 U2  F D2 L D2 F' D2 L2 F2 U B2 R' U2  (16)         not
+F2 U R2 D U  B' D' B' D' F L' F D' U2 L U2  (16)            not
+D2 U' B2 U2  F D2 L D2 F U2 R2 B2 U' B2 R' U2  (16)         not
+U2 F2 D F2 L2 U2  F' U2 L F2 D B2 D2 F D2 R' F2  (17)       not
+F2 D L2 D2 B2 R2 B2 L2 F2 U2  R B U L U B U' L' U  (19)     not
+
+
+
+
+
+000 000 0XX XX0
+0XX XX0 0XX XX0
+0XX XX0 000 000
+
+ 0B  16  68  D0
+
+U2 F2 R2 U' L2 D  B R' B R' B R' D' L2 U'  (15)    continuous
+
+
+
+
+
+000 000 00X 00X 0X0 0X0 X00 X00
+0XX XX0 0X0 XX0 0X0 0X0 0X0 0XX
+X00 00X 0X0 000 00X X00 0X0 000
+
+ 0C  11  22  30  41  44  82  88
+
+D U2 L2 U R2 U' L2 U  R' B2 L2 F' L2 B' R' F' L D U'  (19)   continuous
+U' F2 L2 D2 U F2 U2  F' L' D2 B2 R' D' B R' U L2 B2 F'  (19) not
+
+
+
+
+
+000 000 00X 0XX X00 X0X X0X XX0
+0XX XX0 0X0 0X0 0X0 0XX XX0 0X0
+X0X X0X 0XX 00X XX0 000 000 X00
+
+ 0D  15  23  61  86  A8  B0  C4
+
+D2 L2 F2 R2 U2 B2 D2 F2 R2 U2 R2 U2  (12)   not
+U2 L2 B2 L2 U2 F2 U2 F2 L2 U2 R2 U2  (12)   not
+U2 R2 B2 L2 U2 F2 U2 F2 R2 U2 R2 U2  (12)   not
+D2 R2 F2 R2 U2 B2 D2 F2 L2 U2 R2 U2  (12)   not
+
+
+
+
+
+000 000 00X 0X0 0X0 0XX X00 XX0
+0XX XX0 0XX 0XX XX0 XX0 XX0 0XX
+XX0 0XX 0X0 00X X00 000 0X0 000
+
+ 0E  13  2A  49  54  70  92  C8
+
+(none)
+
+
+
+
+
+000 000 00X 0XX X00 XX0 XXX XXX
+0XX XX0 0XX 0XX XX0 XX0 0XX XX0
+XXX XXX 0XX 00X XX0 X00 000 000
+
+ 0F  17  2B  69  96  D4  E8  F0
+
+D2 R2 F2 U2 F2 U2 F2 U2 R2 B2              (10)     not
+F2 L2 D2 B  F  R2 B  F' R2                 (9)      not
+F2 U2 L2 F2 D  U  R2 F2 D  U' B2           (11)     not
+U2 L2 B2 D2 F2 U2 F2 U2 R2 B2              (10)     not
+U2 L2 B2 U2 B2 D2 F2 U2 R2 B2              (10)     not
+U2 F2 L2 B2 U2 B2 D2 F2 U2 R2              (10)     not
+L2 D2 F2 L2 U' B2 L2 R2 F2 D' R2           (11)     not
+D2 R2 F2 D2 B2 D2 F2 U2 R2 B2              (10)     not
+U2 L2 R2 D  F2 U' R2 F2 U2 F2 D' U2 F2 U'  (14)     not
+D' R2 D' B2 U2 B2 F2 R2 B2 F2 U' F2 U'     (13)     not
+U' B2 U' F2 D2 B2 F2 R2 B2 F2 U' F2 U'     (13)     not
+B2 U  B2 U' L2 D2 F2 U' R2 U  F2           (11)     not
+D' R2 D' F2 D2 L2 R2 U' B2 F2 D  R2 U' F2 U'  (15)  not
+L2 D  F2 U' R2 F2 U2 F2 D  B2 U' B2 U2     (13)     not
+F2 D  F2 U' R2 U2 F2 U' R2 D B2            (11)     not
+D2 B2 U' L2 U  B2 U  B2 D' R2 D' R2 U'     (13)     not
+D' B2 D  L2 D2 B2 U  B2 U'                 (9)      not
+D' L2 B2 D  L2 D2 B2 U  B2 R2 U'           (11)     not
+D' U' L2 D2 U2 B2 D' U'                    (8)      not
+L2 U2 B2 L2 D  B2 L2 R2 F2 U'              (10)     not
+L2 U2 R2 D' U' B2 R2 B2 D' U'              (10)     not
+L2 D2 L2 B2 U2 F2 D2 F2 R2 F2 R2 U2        (12)     not
+L2 D2 B2 D2 F2 R2 B2 R2 F2 U2 R2 U2        (12)     not
+B  F  D2 L2 B  F  (6) *                             not
+
+
+
+
+
+000 0X0
+XXX 0X0
+000 0X0
+
+ 18  42
+
+L2 U2 L2 R2 U2 L' R'  (7) *      not
+
+
+
+
+
+000 000 00X 0X0 0X0 0XX X00 XX0
+XXX XXX XXX 0X0 0X0 0X0 XXX 0X0
+00X X00 000 0XX XX0 0X0 000 0X0
+
+ 19  1C  38  43  46  62  98  C2
+
+D2 L2 D R2 U B2 U2  B R' B' D B2 R' F R2 F' U R'  (18)  not
+
+
+
+
+
+000 0X0 0X0 0X0
+XXX 0XX XX0 XXX
+0X0 0X0 0X0 000
+
+ 1A  4A  52  58
+
+D  F2 R2 F2 R2 U  F2 R  F2 R  D2 U' F  L' F' L  D         (17)   continuous
+B2 L2 U' B2 F2 D2 B2 R  B' F2 U' B' D2 L' B' U  L2 D' U'  (19)   not
+D' B2 U' B2 F2 D  F2 D2 F  L2 U  L  F' D' F2 L' U'        (17)   not
+L2 F2 U  B2 U2 F2 R2 B2 R2 F  R2 D  F2 R' D' B' D' B' R' U  (20) not
+F2 D2 R2 B2 D2 F2 D' F2 L' B2 U' L  B' L  D  L  B' R2 U' F2  (20) not
+L2 D  R2 U' L2 F2 L2 D' B2 F' L  R  B  D2 R' B  F  L  F2 U'  (20) not
+L2 D2 U2 L' U2 L' R2 D2 U2 R' U2 R'                          (12) not
+U2 R2 B2 F2 D2 U2 L' B2 F2 R' D2 L' R                        (13) not
+
+
+
+
+
+000 000 0X0 0X0 0XX 0XX XX0 XX0
+XXX XXX 0XX XX0 0XX XXX XX0 XXX
+0XX XX0 0XX XX0 0X0 000 0X0 000
+
+ 1B  1E  4B  56  6A  78  D2  D8
+
+U  R2 U' F' U2 F2 U2 F  R  F2 R' U  R2 U'  (14)             continuous
+B2 D  U2 R2 D  F2 B' L2 D2 F  L  F2 L' R2 F' U' F' U  (18)  not
+
+
+
+
+
+000 0XX X0X XX0
+XXX 0X0 XXX 0X0
+X0X 0XX 000 XX0
+
+ 1D  63  B8  C6
+
+F2 L' R  B2 U2 L R' D2     (8)   not
+D' U' B2 L2 D' U R2 F2 U2  (9)   not
+
+
+
+
+
+000 0XX XX0 XXX
+XXX 0XX XX0 XXX
+XXX 0XX XX0 000
+
+ 1F  6B  D6  F8
+
+ (none)
+
+
+
+
+
+00X X00
+0X0 0X0
+X00 00X
+
+ 24  81
+
+ (none)
+
+
+
+
+
+00X X00 X0X X0X
+0X0 0X0 0X0 0X0
+X0X X0X 00X X00
+
+ 25  85  A1  A4
+
+D' B2 L2 F2 R2 F2 U R2 U2 F' R  B  L  D  B  U' F R' U2 R   (20) continuous
+B2 L2 R2 U  R2 B2 U L2 U' B  F  D2 L' B2 R2 D' U B' L' R'  (20) continuous
+F2 R2 U2 B2 D' R2 D L2 D2 R2 F2 U' R2 U'  (14)                  not
+
+
+
+
+
+00X 00X 00X 0XX X00 X00 X00 XX0
+0X0 0XX XX0 0X0 0X0 0XX XX0 0X0
+XX0 X00 X00 X00 0XX 00X 00X 00X
+
+ 26  2C  34  64  83  89  91  C1
+
+ (none)
+
+
+
+
+
+00X 00X X00 X00 X0X X0X XXX XXX
+0X0 0XX 0X0 XX0 0XX XX0 0X0 0X0
+XXX X0X XXX X0X 00X X00 00X X00
+
+ 27  2D  87  95  A9  B4  E1  E4
+
+L2 U' R2 D U2  L' B2 F' D' R' B2 D L2 R2 U2 F' L U  (18) continuous
+B R2 B' F2 L2 B'  L' D2 R D' L2 U F' R2 B' L B U  (18)   not
+
+
+
+
+
+00X 0XX X00 XX0
+0XX XX0 XX0 0XX
+XX0 X00 0XX 00X
+
+ 2E  74  93  C9
+
+ (none)
+
+
+
+
+
+00X X00 XXX XXX
+0XX XX0 0XX XX0
+XXX XXX 00X X00
+
+  2F  97  E9  F4
+
+U' L2 R2 F2 U L2 U' F2 R2 L' U B' R  D' B2 D2 B' R'  (18)  continuous
+R2 B2 D  B2 D U  R2 D' B' D' R F2 R' D  B  U'  (16)        continuous
+D' L2 U' F2 U F2 U2 F2 D' L2 U B2 U'  (13)                 not
+
+
+
+
+
+00X 0X0 X00 X0X
+XX0 0X0 0XX 0X0
+00X X0X X00 0X0
+
+  31  45  8C  A2
+
+ (none)
+
+
+
+
+
+00X 0X0 0X0 X00
+XX0 0XX XX0 0XX
+0X0 X00 00X 0X0
+
+ 32  4C  51  8A
+
+D  U  L2 B2 D U' F' U F' R  F2 R' F  D' B2 L2 D' U'  (18)    continuous
+R2 B2 D2 L2 U L2 D  B L2 U2 B2 L' R2 F2 D' U  R  U2 R'  (19) continuous
+
+
+
+
+
+00X 0X0 0X0 0XX X00 X0X X0X XX0
+XX0 0XX XX0 XX0 0XX 0XX XX0 0XX
+0XX X0X X0X 00X XX0 0X0 0X0 X00
+
+ 33  4D  55  71  8E  AA  B2  CC
+
+R2 B2 D  U  L' R' D2 L' R  D  U  (11)               not
+B2 L2 D2 L2 R2 B' F' R2 B  F' R2  (11)              not
+B2 R2 B2 R2 F2 U2 B2 R2 U2 R2  (10)                 not
+R2 F2 D  U  L' R' U2 L' R  D' U'  (11)              not
+R2 F2 D' U' L' R' U2 L  R' D  U  (11)               not
+L2 D' U  F2 L  R  B2 L  R  D  U  (11)               not
+F2 L2 B2 R2 F2 U2 B2 R2 D2 R2  (10)                 not
+R2 B2 D' U' L' R' D2 L  R' D' U'  (11)              not
+B2 L2 B2 U  R2 U' B2 R2 U2 R2 U B2 U'  (13)         not
+R2 F2 U' B2 D' R2 U2 F2 U' F2 D' B2 L2  (13)        not
+B2 F2 R2 D  F2 D' L2 U2 B2 U' B2 U R2  (13)         not
+D' R2 D2 B2 R2 B2 U  B2 D  U  B2 U' F2 U'  (14)     not
+B2 R2 U2 L2 D' F2 R2 U' L2 D2 B2 U' R2 F2 U'  (15)  not
+B2 R2 F2 R2 F2 D  F2 D' L2 U2 B2 U' B2 U R2  (15)   not
+F2 U  R2 U  F2 D2 L2 U  B2 U  L2 R2 F2  (13)        not
+B2 F2 L2 R2 D' B2 D  B2 D2 R2 U F2 U'  (13)         not
+B2 R2 D' R2 U  F2 D2 L2 U  B2 D' L2 F2  (13)        not
+U  F2 R2 U2 F2 D' R2 U2 B2 D  F2 R2 U'  (13)        not
+B2 F2 L2 R2 D  U  R2 F2 D' U'  (10)                 not
+F2 L2 F2 R2 F2 U2 F2 D2 U2 R2  (10)                 not
+L2 D2 R2 U2 B2 F2 R2 F2 R2 U2  (10)                 not
+L2 D2 R2 F2 U2 B2 D2 F2 R2 F2 R2 U2  (12)           not
+L2 D2 B2 U2 F2 L2 B2 R2 F2 U2 R2 U2  (12)           not
+B2 L2 F2 L2 F2 D2 F2 R2 D2 U2  (10)                 not
+
+
+
+
+
+00X 0XX X00 X0X X0X X0X X0X XX0
+XX0 0X0 0XX 0X0 0X0 0XX XX0 0X0
+X0X X0X X0X 0XX XX0 X00 00X X0X
+
+ 35  65  8D  A3  A6  AC  B1  C5
+
+B2 L' D2 L' B2 L  U2 F2 U2 R' F' L2 D' L  F2 U  F' L  B  R  (20) not
+D2 L2 U2 F' L2 F  R2 F  U  B' D2 F2 R  U' F2 L' U2 B2 D  F  (20) not
+L2 U' L2 B2 U' R2 F  R  B' D  L  U  B' U' R2 D  R2 F  L  F  (20) not
+
+
+
+
+
+00X 0XX X00 XX0
+XX0 0XX 0XX XX0
+XX0 X00 0XX 00X
+
+ 36  6C  8B  D1
+
+ (none)
+
+
+
+
+
+00X 0XX X00 X0X X0X XX0 XXX XXX
+XX0 0XX 0XX 0XX XX0 XX0 0XX XX0
+XXX X0X XXX 0XX XX0 X0X X00 00X
+
+ 37  6D  8F  AB  B6  D5  EC  F1
+
+D2 R2 F2 L2 F2 D  R2 D' R2 U2 F2 U' R2 U'  (14)   not
+D2 B2 D' L2 D  F2 U2 R2 U  R2 U  F2  (12)         not
+U' L2 U' L2 D2 F2 U' F2 U' F2 R2 B2 L2  (13)      not
+R2 D  F2 U  R2 D2 L2 B2 D' B2 U  L2 F2 U2  (14)   not
+F2 U  R2 D' F2 R2 U2 L2 D  B2 U'  (11)            not
+F2 R2 D' B2 U  F2 D2 F2 R2 D' F2 U  F2  (13)      not
+R2 B2 L2 U  B2 U  R2 D2 F2 U  L2 U' B2 U2  (14)   not
+U2 L2 F2 L2 F2 U  F2 U' F2 U2 L2 U' L2 U'  (14)   not
+
+
+
+
+
+00X 0X0 X00 XXX
+XXX 0X0 XXX 0X0
+00X XXX X00 0X0
+
+ 39  47  9C  E2
+
+B2 D2 L  R' D2 B2 L  R'  (8)       not
+U2 R2 F2 D' U  B2 L2 D' U'  (9)    not
+
+
+
+
+
+00X 0X0 0X0 0X0 0X0 0XX X00 XX0
+XXX 0XX XX0 XXX XXX XX0 XXX 0XX
+0X0 XX0 0XX 00X X00 0X0 0X0 0X0
+
+ 3A  4E  53  59  5C  72  9A  CA
+
+D' U2 B2 U2 L2 U  B  U' L2 B2 R' B2 R  F2 D2 F2 D  F'  (18)      not
+F2 D' B2 U2 F2 U  R2 D  B  L2 B' R  B2 U2 F  D2 L' U' F  (19)    not
+D  F2 D  U2 F2 L2 D' B2 F  D  L' B2 L2 F  D  F  D2 U2 F2 R  (20) not
+
+
+
+
+
+00X 0X0 0X0 0XX X00 XX0 XXX XXX
+XXX 0XX XX0 XXX XXX XXX 0XX XX0
+0XX XXX XXX 00X XX0 X00 0X0 0X0
+
+ 3B  4F  57  79  9E  DC  EA  F2
+
+D2 R2 B2 L2 U2 F2 U2 B2 R2 U2 R2 U2  (12)  not
+U2 R2 F2 R2 U2 B2 D2 B2 L2 U2 R2 U2  (12)  not
+U2 L2 F2 R2 U2 B2 D2 B2 R2 U2 R2 U2  (12)  not
+D2 L2 B2 L2 U2 F2 U2 B2 L2 U2 R2 U2  (12)  not
+
+
+
+
+
+00X 0XX X00 XX0
+XXX 0X0 XXX 0X0
+X00 XX0 00X 0XX
+
+ 3C  66  99  C3
+
+ (none)
+
+
+
+
+
+00X 0XX X00 X0X X0X XX0 XXX XXX
+XXX 0X0 XXX XXX XXX 0X0 0X0 0X0
+X0X XXX X0X 00X X00 XXX 0XX XX0
+
+ 3D  67  9D  B9  BC  C7  E3  E6
+
+L2 F2 L2 U  R2 D' F2 U' R2 D  R2 U  R2 U'  (14)  not
+D2 R2 B2 D  B2 U  R2 B2 D2 F2 D' B2 U  B2  (14)  not
+F2 L2 U2 F2 D' R2 D  L2 D2 R2 F2 U' R2 U'  (14)  not
+D2 B2 R2 U  B2 U  F2 R2 D2 F2 R2 U  L2 U'  (14)  not
+B2 L2 R2 D' F2 L2 U' B' F' L  D2 F2 R  D' U' F' L' R'  (18)  not
+
+
+
+
+
+00X 0XX 0XX 0XX X00 XX0 XX0 XX0
+XXX 0XX XX0 XXX XXX 0XX XX0 XXX
+XX0 XX0 XX0 X00 0XX 0XX 0XX 00X
+
+ 3E  6E  76  7C  9B  CB  D3  D9
+
+ (none)
+
+
+
+
+
+00X 0XX X00 XX0 XXX XXX XXX XXX
+XXX 0XX XXX XX0 0XX XX0 XXX XXX
+XXX XXX XXX XXX 0XX XX0 00X X00
+
+ 3F  6F  9F  D7  EB  F6  F9  FC
+
+L2 D' L  B2 U' B' L  B U  B2 L' B  D  (13)             not
+U' F2 D' L' U' F  U2 L U2 F  D  R2 F' R' U2  (15)      not
+U  R2 D2 B2 U' F  L2 B R  D  R  B  R' D' F2 U2  (16)   not
+
+
+
+
+
+0X0
+XXX
+0X0
+
+ 5A
+
+U  B2 U2 L2 U  F2 R2 B2 U' L2 D2 F2 U' B  L2 R2 D2 U2 F'  (19) continuous
+L2 R' B2 F2 D2 B2 F2 L2 R2 U2 R'  (11)   continuous
+
+
+
+
+
+0X0 0X0 0XX XX0
+XXX XXX XXX XXX
+0XX XX0 0X0 0X0
+
+ 5B  5E  7A  DA
+
+D  U2 R2 D' U' R  D  B2 R2 B2 R2 D  B2 D2 R  U'  (16)  continuous
+
+
+
+
+
+0X0 0XX X0X XX0
+XXX XX0 XXX 0XX
+X0X 0XX 0X0 XX0
+
+ 5D  73  BA  CE
+
+ (none)
+
+
+
+
+
+0X0 0XX XX0 XXX
+XXX XXX XXX XXX
+XXX 0XX XX0 0X0
+
+ 5F  7B  DE  FA
+
+B2 D2 B2 R2 F2 L2 U2 L2 F2 R2  (10)              not
+B2 D2 B2 L2 U' F2 U' F2 R2 U2 L2 U  R2 U'  (14)  not
+B2 L2 D2 L2 U' F2 U  B2 U2 F2 R2 U' R2 U'  (14)  not
+D2 L2 D  U' L2 F2 D  U' F2 U2  (10)              not
+
+
+
+
+
+0XX X0X X0X XX0
+XX0 0XX XX0 0XX
+X0X XX0 0XX X0X
+
+ 75  AE  B3  CD
+
+D2 U R2 D' F2 U F2 R2  B R2 F2 U2 L' F2 D2 B2 D B' U'  (19) continuous
+U2 L2 F2 R2 F2 U B2 U' B2 D2 L2 U' L2 U'  (14)               not
+
+
+
+
+
+0XX 0XX X0X X0X XX0 XX0 XXX XXX
+XX0 XXX XXX XXX 0XX XXX 0XX XX0
+XXX X0X 0XX XX0 XXX X0X XX0 0XX
+
+ 77  7D  BB  BE  CF  DD  EE  F3
+
+L2 U' L2 D' L2 D  F' L2 R' U  B D2 B' D' U' R  U  (17)       continuous
+L2 B2 F2 D2 L2 B2 U  R2 U  B2 F D' B2 U2 L  F2 L D' B'  (19) not
+
+
+
+
+
+0XX XX0
+XXX XXX
+XX0 0XX
+
+ 7E  DB
+
+ (none)
+
+
+
+
+
+0XX XX0 XXX XXX
+XXX XXX XXX XXX
+XXX XXX 0XX XX0
+
+ 7F  DF  FB  FE
+
+U' L2 U  F' R2 F  U' L2 U  F' R2 F  (12)    continuous
+R2 D  B2 D' B2 U' B2 U  B2 U  R2 U'  (12)   not
+
+
+
+
+
+X0X
+0X0
+X0X
+
+ A5
+
+D2 F2 U' B2 F2 L2 R2 D R' B  F  D' U  L  R  D2 U2 F' U2  (19) continuous
+R' D2 U2 L2 B2 F2 L' F D' U  R2 B2 F2 R' L' B  F' U'     (18) continuous
+B2 F2 L2 R2 D2 U2  (6) *   continuous
+
+
+
+
+
+X0X X0X X0X XXX
+0X0 0XX XX0 0X0
+XXX X0X X0X X0X
+
+ A7  AD  B5  E5
+
+F2 U2 B2 F2 L2 U' B2  L D2 F' R2 B L2 R  U' R' D' F' R  (19) continuous
+L2 R2 D2 L2 D' U  F L' R U2 B2 U B F' R' D2 R' U2     (18) not
+B2 U2 F2 U2 L2 D  U' B' U2 L' R  B2 D' R2 B' F' L' R   (18) not
+B2 R2 D  U' F2 U2 R2 B  D  U  B' F' L' R' F' D' U  R2  (18) not
+B2 L2 D' U2 L2 B2 R' B  U2 R  B  L' D' F2 R            (15) not
+R2 D  L2 B2 F2 R2 U' R2 D2 U2                          (10) not
+R2 F2 D  B2 L2 B  F  L  B2 L2 D  U' F' L' R  D'        (16) not
+R2 U2 L2 R2 U' R2 D  B  F' L' B2 R2 D' U  B  L' R'     (17) not
+U  L2 U2 F2 U  F2 R2 F' L  F  U  B' D' R' D  R2 D2 F' D  (19) not
+U  B2 F2 R2 D2 U2 R  D2 U2 R2 B  D  U' L  R2 B' D'     (17) not
+D2 U  B2 U2 B2 R2 U2 B' R2 D  U  F  U' L  R' B  L  F  U'  (19) not
+U2 L2 B2 R2 U2 B2 R2 D  U  B  U  B' L' F2 U' L' U  R' D  U'  (20) not
+U  F2 L2 R2 F2 L2 R' B  D  B2 F2 U' B' L' U'           (15) not
+D' B2 D' L2 F2 D' L' R  F  D2 L2 F  D' U' R  B  F'     (17) not
+R2 U' B2 L2 F2 U' L2 D  F2 L2 F  D  F  U  L  U  B' U' L'  (19) not
+D' U' B2 F2 L' R  F  R2 D' U  F2 L' B' F  U2           (15) not
+R2 D  L2 F2 U  F2 D  R2 B  R' D  R  D2 R2 B' F2 D  F  R2  (19) not
+F2 D' B2 D  F2 L2 D2 U  L2 U  R  D  R2 D2 L' F' U2 B2 U  F  (20) not
+U2 B  U2 R2 D2 B  L2 U' B' U  L  F2 U  R  F' D' R2 B' R'  (19) not
+U2 L2 R2 D' F2 U' B2 R  F' D  R' B' D  F  R' U  L' D2 F  U  (20) not
+D2 B2 U2 R2 B2 R2 U2 F2 R2 U2                              (10) not
+
+
+
+
+
+X0X X0X XXX XXX
+0XX XX0 0XX XX0
+XXX XXX X0X X0X
+
+ AF  B7  ED  F5
+
+F2 L2 D' R2 B2 L2 R2 F  U2 L2 D' L' D' R2 F' D' L' F2    (18) continuous
+D2 L2 D' F2 D  U  F' R2 D' L' R  F' L' R' B' U' R2 U2    (18) continuous
+D  U  F2 R' B  D2 U2 F' D2 U2 R  F2 D' U'                (14) continuous
+U  B2 L  B  F' L2 R' B' F  D  U2 L' B2 U'                (14) continuous
+B2 L2 U' L2 U2 B2 R2 U' B  U  R' D' L' D2 L  D  B  D  U' (19) not
+B2 F2 L2 D2 R2 U  L  F  D' L2 R2 D2 U' F' R' D  L2 U2    (18) not
+R2 U' L2 R2 D  B2 D  R  F' R' B  L' R  U  L' U' F  R'    (18) not
+F2 D2 B2 U  L2 B2 L2 D' R' B  R' D' L2 B' D' B  L2 R2 U' (19) not
+B2 D' R2 D  R2 D' B  R' F  R' D  L2 F' U  L  B' L  U'    (18) not
+R2 F2 L2 D' B2 U' B2 L2 F2 L  B' L' U' B' D' B  D  B' D' (19) not
+B2 L2 F2 D' L2 B2 D' L  B  L  D  F2 D  B' D  U2 F' U2    (18) not
+D  L2 F2 D  U2 B2 R2 F' D  R  U2 L2 F' L2 U' R' U  B     (18) not
+U2 R2 F2 D  U' B2 R2 B2 R2 D' U'                         (11) not
+D2 L2 B2 D' U  B2 R2 B2 R2 D' U'                         (11) not
+D2 B2 D2 L2 D2 L2 U2 F2 R2 F2 R2 U2                      (12) not
+D2 B2 U2 R2 U2 L2 U2 F2 R2 F2 R2 U2                      (12) not
+B2 F2 D2 U  L2 D2 R  D' L2 R  D' B2 D  F  D  F' U'       (17) not
+B2 F2 D' F2 D  U  R  D' L2 R  U' L2 U  F  D  F' U'       (17) not
+R2 U2 B2 L2 F2 R2 D2 F2 U2 F2 R2 U2                      (12) not
+L2 F2 U2 B2 U2 R2 B2 R2 F2 U2 R2 U2                      (12) not
+L2 U2 F2 R2 F2 R2 U2 B2 U2 F2 R2 U2                      (12) not
+R2 F2 D2 F2 D2 R2 B2 L2 F2 U2 R2 U2                      (12) not
+D2 B2 L2 U2 R2 U2 B2 L2 U2 F2 R2 U2                      (12) not
+D2 B2 L2 D2 L2 D2 B2 L2 U2 F2 R2 U2                      (12) not
+U2 R2 F2 D  R2 F2 R2 F  L  D2 L' D' F' L' U2 B2 R'       (17) not
+B2 L2 U  R2 D  U' L2 B  L  R2 D' L' B  D  L' R2 B  L'    (18) not
+F2 L2 B2 R2 D2 F2 D2 F2 R2 U2 R2 U2                      (12) not
+F2 R2 B2 R2 U2 B2 U2 F2 L2 U2 R2 U2                      (12) not
+L2 U2 R2 F2 U2 B2 U2 R2 F2 R2 F2 U2                      (12) not
+L2 D2 L2 B2 D2 B2 U2 R2 F2 R2 F2 U2                      (12) not
+F2 R2 B2 R2 D2 F2 D2 F2 L2 U2 R2 U2                      (12) not
+D' R2 B2 R2 D' R2 B' D' F' L' U' B' U  L  F  D  R2       (17) not
+L2 U2 R2 D2 R2 U2 B  D' U2 R  F  D2 U2 B' L' D' B'       (17) not
+L2 B2 D' B2 L2 B2 F  R  B  R2 U  F2 R  U  B  U  F'       (17) not
+R2 D  F2 D  U' R2 L  B  D  L2 R2 D' L' B  F2 D' R2       (17) not
+B2 D  U' L2 D2 F' D  U' R  F  D  U' R' D' U'             (15) not
+L2 D2 L2 D' U' F2 L' D' U  B  L  D' U  B' D' U'          (16) not
+U' L2 F2 L2 D  F2 L2 D' U  L  B' L' D' L2 D  B  D  L     (18) not
+R2 B2 R2 D' F2 L2 U  L' D' L2 R  F' R' D  R  F  R' U'    (18) not
+U' F2 D' F2 L2 D2 U  B' L' B  D  L' U' L' F2 L' U        (17) not
+D' L2 D' L2 B2 D' B' L' B  D  L' U' L' F2 L' U           (16) not
+R2 U  F2 L2 B2 U  L2 D' R2 F2 R2 U'                      (12) not
+D  L2 D' F2 D' R2 U2 R2 U2 B  D2 F' R' U  R' D2 U  B     (18) not
+R2 B2 D2 F2 D2 R2 F2 L2 F2 U2 R2 U2                      (12) not
+U  F2 R2 F2 D' L2 D  U2 B2 L2 F  D' R' F  R' D  R  F  R' (19) not
+L2 B2 L2 B2 D2 R2 U2 R2 B2 U2 F2 U2                      (12) not
+B2 R2 U2 R2 D2 R2 B  F' R2 B' F'                         (11) not
+B2 R2 D2 L2 U2 R2 B  F' R2 B' F'                         (11) not
+U' B2 D' L2 U' L2 R2 D  L  D  U' F  D  F  D' U  L  D     (18) not
+B2 D' B2 F2 D' L2 U2 B2 R' B  R  U2 L' F' L' U' F2 L2 U  (19) not
+
+
+
+
+
+X0X XXX
+XXX 0X0
+X0X XXX
+
+ BD  E7
+
+L2 B  F' L2 R2 B  F' R2             (8)  not
+F2 L2 U2 L2 R2 B' D2 U2 F U2 R2 F2  (12) not
+R2 B2 F2 R2 U' B2 F2 D2 L2 R2 U'    (11) not
+L2 R2 D  B2 F2 R2 B2 F2 R2 U'       (10) not
+U2 B2 R2 D2 U2 R2 F2 U2             (8)  not
+
+
+
+
+
+X0X XXX XXX XXX
+XXX 0XX XX0 XXX
+XXX XXX XXX X0X
+
+ BF  EF  F7  FD
+
+U  R' D' U  F2 D  U' R' U'                    (9) *    continuous
+L2 U' F2 B  D' R' D2 R  B' F2 L  U            (12) *   continuous
+D' B' R2 B' D  U' L  B2 D2 U2 R  D2 U'        (13)     not
+D2 U  R' D2 U2 B2 L' D' U  B  R2 B  D         (13)     not
+F2 D' L2 R2 B' L' R  D  B2 D  L' R  F' D' F2  (15)     not
+U  F2 U2 F  L' U' B' U2 B  L  U  F' U         (13)     not
+U' F2 U  F2 R  B' U' R' U  R  B  U2 R' F2     (14)     not
+U' R  U  L' R  B' R' B  U' L  R' F            (12)     not
+U  L2 B2 D' F2 R2 B2 U' F2 U'                 (10)     not
+L2 R2 U' L2 R2 D' L' R  F2 L  R'              (11)     not
+L2 R2 U  L2 B2 R2 D' R2 B' L2 U2 R2 F  L2     (14)     not
+F2 D  U2 R2 B  R2 U2 R2 B  R2 D' F2           (12)     not
+D2 R2 B2 R2 D' R2 B2 R2 D                     (9)      not
+F2 R2 U  L2 U' R2 F2 L  R  F' U2 F  L' R'     (14)     not
+R2 D  B  R' D' R' B' R' D  B  R'              (11) *   not
+R2 D2 B  D2 R2 B2 L  B2 U2 F2 R  F' U2        (13)     not
+D2 B2 U2 L' U2 B' D2 R2 U2 F  U2 R            (12)     not
+L2 D2 F2 D2 R  D2 F' R2 D2 L2 B  U2 R         (13)     not
+F2 U' F2 D2 B2 D2 F2 U' F2                    (9)      not
+R2 D  R2 B  R2 D  R2 B' R2 D' R2 B'           (12)     not
+D2 B2 R2 D2 R2 B  R2 D2 R2 B' D2              (11)     not
+U2 F2 U2 L2 U2 F  U2 L2 U2 F' U2              (11)     not
+R2 D2 B2 D2 U2 F  D2 L2 D2 F' U2              (11)     not
+D2 R2 B2 L2 U' R2 F2 R2 U  L2 R2              (11)     not
+U  F' U2 L  D2 B2 U2 R  D2 F' U'              (11) *   not
+D' U' B  D  B  U  R2 D' L  R2 B' L'           (12)     not
+R2 D  F  D' L' B  F  L' B' U  L  F2 R2        (13)     not
+F2 D' L2 R2 U  L  R' U2 L  R'                 (10)     not
+D' R2 B2 R2 D  R2 B2 R2 D2                    (9)      not
+D2 B2 R2 D2 R2 D2 R2 U2 F2 U2                 (10)     not
+U  R' F  L  R' D' R  D' L' R  F  U'           (12)     not
+F2 L2 F' L2 R2 B  L2 B  L2 R2 F               (11)     not
+D2 R2 U2 F2 D2 U2 B' U2 L2 U2 B               (11)     not
+R2 D' L2 B2 L2 D  R2 U2 R' F2 D2 F2 R  U2     (14)     not
+D2 R2 U' R2 F2 L2 D  R2 B  L2 U2 R2 F' D2     (14)     not
+D  U  B' R' D2 B' D' R  B  D' U' B  D'        (13)     not
+R2 F2 L2 D' B2 L  B2 D2 F2 R' B2 U            (12)     not
+U' R  B  U' R' U' B' U' R  B  U2              (11) *   not
+L2 U  L2 F2 R2 D' L2 B' L2 D2 R2 F            (12)     not
+U2 R2 B' L' R' B2 L' R' F' L2                 (10) *   not
+D2 B  D2 U2 F  D  U' R2 D' U'                 (10) *   not
+R2 U' L' U' B' L' B  U  L  U  B  R2           (12) *   not
+D2 L  D2 F' R2 D2 L2 B  D2 R' U2 F2           (12) *   not
+U' L  D' U  F  L  R' U' L' R  F' D            (12) *   not
+R2 F2 L' F' L' R  U  L  U  L  R' F  R2        (13)     not
+U' L2 D' L' D' U  B  D  B  D  U' L  U         (13)     not
+D  U  R' D' U  F' D  U' R  D' U  F  U2        (13)     not
+U' L2 B  L' R  D' L  D' L  R' B  L  U         (13)     not
+D  U  F2 U2 B2 D' U' F  D2 U2 B' R2           (12)     not
+D  U2 B2 U  B  U' B' U' B2 F  L' D  L  F' D' U2        (16)  not
+B2 F2 R2 D' F2 R2 F2 D' L' U2 F' L2 U2 L2 F' D2 R  F2  (18)  not
+
+
+
+
+
+XXX
+XXX
+XXX
+
+ FF
+
+      (0)  continuous   (this is Start)
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

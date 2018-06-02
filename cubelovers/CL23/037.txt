@@ -1,0 +1,156 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun 30 15:09:03 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id PAA18257; Mon, 30 Jun 1997 15:09:02 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Mon, 30 Jun 1997 14:08:40 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Inverses of Local Maxima
+To: cube-lovers@ai.mit.edu
+Reply-to: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Message-id: <Pine.WNT.3.96.970630120803.-397377S-100000@ER123A.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+X-X-Sender: jbryan@PSTCC6.pstcc.cc.tn.us
+
+One of the oldest unsolved problems on Cube-Lovers (aside from God's
+Algorithm itself) has to do with inverses of local maxima.  It seems
+obvious that the inverse of a local maximum also ought to be a local
+maximum.  But is it necessarily so? 
+
+In Symmetry and Local Maxima, Jim Saxe and Dan Hoey suggest that it may
+not be.  Their example is UFF, which can end with F or F' because we can
+write it as UF'F'. But the inverse is F'F'U', which can only end with U'
+Hence, there are very simple positions where the number of q-turns with
+which the position can end is different than the number of q-turns with
+with the inverse of the position can end.  If the same thing should
+happen with a local maximum, then the inverse would not be a local
+maximum.
+
+On the other hand, for all known local maxima in G, the inverse is also
+a local maximum.  What are we to think? 
+
+I have some small progress.  I can report that for the corners-only
+group, there are local maxima for which the inverse is not a local
+maximum.  The results were obtained with my new Shamir program. 
+
+For each position x, we define E(x) to be the set of all quarter-turns
+with which a minimal process for the position can end.  As an example,
+if x=UFF, then E(x)={F,F'}.  
+
+E(x) is a subset of Q, the set of twelve quarter-turns, or equivalently
+it is an element of P(Q), the power set of Q.  As such, it is
+conveniently represented in my program as a bit-string of twelve bits. 
+In this notation, we would say that a position x is a local maximum if
+E(x)=Q or if |E(x)|=12. 
+
+We also define S(x) to be the set of all quarter-turns with which a
+minimal process for a position can start.  In this notation, for x=UFF
+we would say that |S(x)|=1 and |E(x)|=2.  So the general question for
+local maxima becomes the following:  if |E(x)|=12, does it necessarily
+follow that |S(x)|=12?
+
+My program calculates S(x) and E(x) as follows.  Any breadth-first
+search may be characterized as calculating products of the form z=xy for
+suitable choices of x and y.  Most typically, x comes from Q[n], the set
+of all quarter-turns of length n, and y comes from Q[1], the set of all
+quarter-turns of length 1.  But in my more general Shamir program, x
+comes from Q[m] and y comes from Q[n] to form products of length m+m. In
+any case, S(z) is the union of S(x) over all x which can be a part of a
+product which produces z, and E(z) is the union of E(y) over all y which
+can be a part of a product which produce z.  For each q in Q, we
+initialize with S(q)=E(q)={q} and go from there. 
+
+Here is a portion of a printout from my program.
+
+
+ |x|  |E(x)| |S(x)|  M-Conjugacy  Positions
+                        Classes  
+
+  0      0      0          1          1
+  1      1      1          1         12
+  2      1      1          2         96
+  2      2      2          3         18
+  3      1      1         12        576
+  3      1      2          3         96
+  3      2      1          3         96
+  3      2      2          4         96
+  3      3      3          2         60
+
+As you can see, the effect pointed out by Saxe and Hoey first shows up
+three moves from Start, where there are six positions unique up to
+M-conjugacy where |S(x)| is not equal to |E(x)|. (Actually, three of the
+six positions are just the inverses of the other three.)
+
+The first local maxima are six moves from Start in the corners-only
+group.
+
+ |x|  |E(x)| |S(x)|  M-Conjugacy  Positions
+                        Classes  
+
+  6     12     12          8        114
+
+As you can see, there are 114 local maxima of which 8 are unique up to
+M-conjugacy.  However, for all 8 of them, the inverse is also a local
+maximum so we discover nothing new. 
+
+The new discovery occurs 7 moves from Start.
+
+ |x|  |E(x)| |S(x)|  M-Conjugacy  Positions
+                        Classes  
+
+  7     12      8          4        120
+  7     12     10          3        144
+  7     12     12         14        336
+
+As you can see, there are 21 local maximu unique up to M-conjugacy.  For
+14 of them, the inverse is also a local maximum.  But for the other 7,
+the inverse is not a local maximum.  In 4 cases, we have |S(x)|=8, and
+in 3 cases we have |S(x)|=10. 
+
+Here follow summaries for local maximum up to a distance of 11 moves
+from Start.
+
+ |x|  |E(x)| |S(x)|  M-Conjugacy  Positions
+                        Classes  
+
+
+  8     12      6         14        576
+  8     12      8         12        576
+  8     12     10         86       4128
+  8     12     11         13        624
+  8     12     12        272      12012
+
+  9     12      4         26       1152
+  9     12      6         31       1344
+  9     12      8         24       1152
+  9     12     10         14        576
+  9     12     12        131       5976
+
+ 10     12      2         14        576
+ 10     12      4         88       4032
+ 10     12      6        218      10368
+ 10     12      8        144       6336
+ 10     12     10        168       8064
+ 10     12     12        140       5664
+
+ 11     12      4        384      18432
+ 11     12      6       2687     128688
+ 11     12      8       5550     264192
+ 11     12     10       5014     240576
+ 11     12     12       3617     166224
+
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+
+
+
+

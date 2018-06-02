@@ -1,0 +1,45 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Apr  5 22:59:11 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id WAA19027
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 5 Apr 1999 22:59:10 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Reply-To: <jburkhardt@mediaone.net>
+From: "John Burkhardt" <jburkhardt@mediaone.net>
+To: "Cube-Lovers (E-mail)" <cube-lovers@ai.mit.edu>
+Subject: Different versions of the Ideal cube
+Date: Mon, 5 Apr 1999 08:23:22 -0400
+Message-Id: <000e01be7f5f$19623600$3cca8018@octopod.ne.mediaone.net>
+
+Recently I've acquired a couple of older cubes from ebay.  One was sold as
+"the original rubik's cube" by Ideal.  When I opened it up I noticed that
+the quality was not the same as my original cube that I bought in 1980 or
+so.  The stickers were not as bright for one thing.  On my "original" cube
+the orange stickers are almost fluorescent, whereas on this version the
+color is dull, and its not a faded version of the original color.  Its
+clearly a different shade of orange.  The yellow and green colors are not as
+bright.
+
+And then there is the center white sticker.  On some older Ideal cubes there
+is a logo on it, on this one I just got the logo was a separate decal.  On
+my 1980's cube there is no logo at all.
+
+Next we come to differences in the actual pieces.  On some Ideal cubes the
+cubies are solid, well, probably hollow in the center, but there is no
+openining.  But on others there is an opening.
+
+Does anyone know anything about the history of the Ideal cube?  Were there
+different runs of production?  Did they start "cutting corners" to lower
+cost?  Is there any way to tell from the packaging, which cube is the
+version that has the nice bright colors?
+
+Sorry if this has been discussed in the past, I'm relatively new to this
+list...
+
+[ Moderator: The archives have quite a bit about various types of
+  cubes.  Are you sure the open-corner cubes were from Ideal?  I
+  thought those were the pirated knockoffs. ]
+
+-JRB
+

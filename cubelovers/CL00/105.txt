@@ -1,0 +1,48 @@
+Date: 15 Aug 1980 1558-PDT
+From: CSD.VANDERSCHEL at SU-SCORE
+Subject: Re: A solution subroutine
+To: Davis at OFFICE-3, cube-lovers at MIT-MC
+cc: CSD.VANDERSCHEL at SU-SCORE
+In-Reply-To: Your message of 10-Aug-80 1709-PDT
+
+I am surprised about all this talk about edge flipping algorithms.
+Once I learned the concept of mono-ops, I immediately proceeded to
+invent a very simple, and quite obvious, edge monoflip.  You can do it
+by manipulating only the front and the horizontal center slice
+(hereinafter referred to as the "slice").  A virtue of the procedure I
+am going to describe is that you can think of it in geometrical terms
+and explain it that way.  The result is that it is easy to remember
+and invert, and you do not need any notation.
+
+Hold the cube with the two edge cubies you want to flip in the U face.
+Have one of them, the current "target", in the UF position.  You can
+think of its "socket" as moving with the F face.  Now turn the target
+cubie over to the left side.(F') Then move it to LB position by
+turning the slice.  Next flip its socket over to the right.(FF) Now
+put it back in its socket by giving the slice a half turn.  Finally,
+return it to the U face.  Don't worry about the fact that you have
+changed the orientation of the cube, as that will be fixed when you
+reverse the process for the other edge you want to flip.
+
+Conceptually, this is a 5 move sequence.  Since two moves are slice
+moves, you have to count it as 7.  If you want to count quarter-turns,
+it would be 10.  In any case, it is simple.  (Singmaster has published
+even shorter monoflips.)  But to me the most important thing is that
+it is obvious on inspection that it has to do what you want.  The way
+I look at it, you are using the slice for manipulation and storage.
+You remove the target from between its neighboring corners and put it
+back with the opposite orientation.  (Is this as obvious to everyone
+else as it is to me?)
+
+The same way of looking at things allows you to create edge monoswaps.
+Just put the two edge cubies you want to swap in diagonally opposite
+corners of the slice and give it a half turn before putting them back.
+You can arrange it so that they will or will not be flipped.  Such
+moves are their own inverses.
+
+Using the D face for storage and manipulation, you can also easily
+invent monotwists and monoswaps for corners in the U face.  For all
+such moves that I have created, it is apparent to me what needs to be
+done and why it will work.  No memorization of obscure move sequences
+with magical effects.
+-------

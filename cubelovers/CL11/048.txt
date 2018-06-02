@@ -1,0 +1,43 @@
+From xirion!jandr@relay.nl.net  Mon Dec 20 07:31:08 1993
+Return-Path: <xirion!jandr@relay.nl.net>
+Received: from sun4nl.NL.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04598; Mon, 20 Dec 93 07:31:08 EST
+Received: from xirion by sun4nl.NL.net via EUnet
+	id AA15711 (5.65b/CWI-3.3); Mon, 20 Dec 1993 13:31:05 +0100
+Received: by xirion.xirion.nl id AA04506 (5.61/UK-2.1);
+          Mon, 20 Dec 93 13:30:27 +0100
+From: Jan de Ruiter <jandr@xirion.nl>
+Date: Mon, 20 Dec 93 13:30:27 +0100
+Message-Id: <4506.9312201230@xirion.xirion.nl>
+X-Organization:  Xirion Unix Software & Consultancy bv
+		 Burgemeester Verderlaan 15 X
+		 3454 PE  De Meern
+		 The Netherlands
+X-Phone: 	 +31 3406 61990
+X-Fax: 		 +31 3406 61981
+To: cube-lovers@life.ai.mit.edu
+
+To: cube-lovers@life.ai.mit.edu
+Subject: Re: Search order of Tangle
+
+I saw the discussion of Dale and Don about the search order
+(fillpattern) for rubiks tangle come by, and wondered why they both
+missed an even better search order (the best?):
+
+Don:		 Dale:            Jan:              Equivalent to:
+ 1  3  5  7  9    1  2  6 10 15    1  2  5 10 17    17 16 15 14 13
+ 2  4  6  8 10    3  4  7 11 16    3  4  6 11 18    18  5  4  3 12
+11 12 13 14 15    5  8 12 17 20    7  8  9 12 19    19  6  1  2 11
+16 17 18 19 20    9 13 18 21 23   13 14 15 16 20    20  7  8  9 10
+21 22 23 24 25   14 19 22 24 25   21 22 23 24 25    21 22 23 24 25
+
+The number of constraints is illustrative:
+don:  0 1 1 2 1 2 1 2 1 2 1 2 2 2 2 1 2 2 2 2 1 2 2 2 2
+dale: 0 1 1 2 1 1 2 2 1 1 2 2 2 1 1 2 2 2 2 2 2 2 2 2 2
+jan:  0 1 1 2 1 2 1 2 2 1 2 2 1 2 2 2 1 2 2 2 1 2 2 2 2
+
+I disliked the irregularity in both don and dales search orders, and
+in search for a more regular order, I found this one, which is better.
+It is readily extendible to the 10 by 10 tangle.
+
+- Jan D. de Ruiter
+

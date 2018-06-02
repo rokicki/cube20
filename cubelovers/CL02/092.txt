@@ -1,0 +1,28 @@
+Date: 11 June 1981 0323-EDT (Thursday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Re: edge "flip" anyone...
+Message-Id: <11Jun81 032344 DH51@CMU-10A>
+
+
+    Does anyone know of a way to flip two edges without changing
+    anything else, ie interchange the FR and FB edges, keeping their
+    same orientation.
+
+	The term "flip" generally means "change orientation" (of an
+edge).  I take it you mean "exchange" (or, acceptably,
+"interchange").  This is provably not possible, because an exchange
+is an odd permutation.  I will send you the two messages which deal
+with what can be done with a cube.  (Anyone else who wants a copy,
+request of Hoey@CMU-10A rather than the list.)  
+
+	If you don't know what an even (or odd) permutation is, or
+how it acts, any elementary algebra text should help.  If you try
+and fail, drop me a line and I'll try to help.
+
+    If not, how about one that will interchange FR and FB edges
+    without disturbing the top layer, but can mess up the bottom??
+
+	There is no FB edge.  I'd guess you mean UR and UB, for
+which RU'R' UUFFBB DDFFBB RUR' suffices.
+

@@ -1,0 +1,8 @@
+BSG@MIT-AI 08/18/80 06:58:28
+To: cube-hackers at MIT-MC
+The ^F command (read in file) of :CUBE has now been augmented to make
+cubie conservation checks; it will tell you by way of what cubie
+is missing if there are duplications. The Bawdenian solvability
+criteria have not yet been implemented.  There is also a brief
+form of the input file in AI:BSG;CUBE BFTPLT.
+

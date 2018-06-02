@@ -1,0 +1,89 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Dec  3 15:12:43 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA02280
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 3 Dec 1998 15:12:42 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Method for Solving the Professor's Cube (5x5x5)
+Date: 2 Dec 1998 18:21:22 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7440f2$q5v@gap.cco.caltech.edu>
+References: <cube-lovers.19981201060918.6975.rocketmail@send104.yahoomail.com>
+
+Han Wen <hansker@yahoo.com> writes:
+>For those brave souls who would like to conquer this beast, the
+>following solution may provide some enlightenment.  It's a layers
+>solution, in contrast to the corners-first solution that I have seen
+>posted on various web sites. Good luck to you.  The Professor's Cube
+>is a truly challenging puzzle.
+>______________________________________________________
+>Method for Solving the Professor's Cube (5x5x5)
+
+[snip]
+
+Well, since we're sharing solutions, here's my solution to the 5x5x5:
+
+First, a preliminary exercise that
+should be mastered before the solution is attempted:
+
+Let's ignore all the corners and all the cubies adjacent or
+diagonally adjacent to the corners.  (In other words, ignore the
+"supercorners," where "super" is a prefix meaning "two layers deep.")
+Ignore the centers, too.  Paint all of them black, if you want.  :-)
+
+Now, all we have left are the 12 "superedges."  Each superedge is
+composed of a normal edge piece and two attached edge centers.  Or,
+in other words, each of the 24 edge centers are attached to
+an edge piece face.  In a normal messed-up cube, these edge
+centers will not match their edge piece faces.  Our goal in this
+exercise will be to match all the edge centers with their edge piece
+faces.
+
+Note that superface turns never destroy an edge center pairing.
+
+Now, consider the following sequence of moves:
+1.  Rotate any face (NOT superface) 180 degrees.
+2.  Turn any center slice (as much as you want).
+3.  Rotate the same face in step 1 180 degrees.
+    (i.e., perform the inverse move of step 1.)
+
+Now, if you chose the center slice to be parallel to the face,
+obviously this sequence doesn't do anything.  Ditto for when you
+turned the center slice some multiple of 360 degrees.
+
+In all other cases, this will essentially perform two swaps of
+edge centers.  Step 1 swaps two pairs of edge centers all around the
+face, but one of those swaps gets undone by Step 3.  Step 2
+moves the other pair out of the way and puts another pair in its
+place to be swapped again.  So, if you choose wisely, you can
+increase the number of correctly matched edge center pairs by this
+move.
+
+Many of these moves, interspersed with superface turns, will
+allow you to match all the edge center pairs.  Practice this on
+your cube.
+
+Thus ends the preliminary exercise.  Note that all the moves in
+the exercise do not disturb the individual supercorners (well, one
+move does for a bit, but then it undoes the damage) but does change
+their orientation with respect to each other.
+
+Now, the solution!
+Step 1.  Ignore the superedges and the centers.  You now have what
+  is equivalent to a 4x4x4.  Solve it.
+Step 2.  Match the edge centers with the edges as detailed in the
+  preliminary exercise.
+Step 3.  You now have a cube with correct supercorners (as done in
+  step 1) and correct superedges (as done is step 2).  This means
+  that your cube is equivalent to a 3x3x3, using only superface
+  turns.  Solve it.
+Step 4.  Tada!  Your 5x5x5 is now solved.
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+O*e T*o: "Thre* *our fi*e s*x; se*en *ight *ine, *en!"
+

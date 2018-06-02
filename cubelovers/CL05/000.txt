@@ -1,0 +1,36 @@
+Date: 11 December 1982 20:43-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject:  The Archive & Administrivia
+To: CUBE-LOVERS at MIT-MC
+
+Those of you who look through the archives of old Cube-Lovers mail
+will notice that I have split off a new section of the archive.  The
+mail now lives in:
+
+MC:ALAN;CUBE MAIL0	;oldest mail in foward order
+MC:ALAN;CUBE MAIL1	;next oldest mail in foward order
+MC:ALAN;CUBE MAIL2	;more of same
+MC:ALAN;CUBE MAIL3	;yet more of same
+MC:ALAN;CUBE MAIL4	;still more of same
+MC:ALAN;CUBE MAIL	;recent mail in reverse order
+
+Those of you who are wondering if Cube-Lovers might be temporarily off the
+air when TCP is installed on January 1 can rest assured that there is an
+ITS TPC implementation in progress, and come January 1 the ITS machines
+will probably be no worse off than the rest of the net.  My biggest worry
+is not that ITS won't be able to send mail (since I can always move the
+list to another machine if that proves necessary), but that so many of you
+all will be having difficulty recieving mail that I will be up to my neck
+in error messages from various mailers around the net.
+
+That is one of my reasons for splitting off a section of the archive at
+this time.  I'm willing to bet that a fair number of you will be requesting
+the back mail that you have missed during the storm at the beginning of the
+year, and this way I have a small file that I can easily send off to you.
+
+Finally let me remind you all to please address your requests to
+Cube-Lovers-Request at MIT-MC.  If that address, or Cube-Lovers at MIT-MC
+ever seems to be giving you trouble, you might also try Cube-Lovers at
+MIT-Multics and Cube-Lovers-Request at MIT-Multics.
+
+				-Alan

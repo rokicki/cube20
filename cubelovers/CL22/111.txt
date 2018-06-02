@@ -1,0 +1,42 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  2 13:55:08 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id NAA03632; Mon, 2 Jun 1997 13:55:07 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Mon, 2 Jun 1997 13:39:44 -0400
+Message-Id: <2Jun1997.131752.Alan@LCS.MIT.EDU>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+To: Cube-Lovers@ai.mit.edu
+In-reply-to: SCHMIDTG@iccgcc.cle.ab.com's message of Sun, 1 Jun 1997 22:39:43 -0400 (EDT) <970601223943.2140c63e@iccgcc.cle.ab.com>
+Subject: ftp://ftp.ai.mit.edu/pub/cube-lovers/contrib
+
+   From: SCHMIDTG@iccgcc.cle.ab.com
+   Date: Sun, 1 Jun 1997 22:39:43 -0400 (EDT)
+   ...
+   At any rate, I'm willing to make this program available to interested
+   parties (BTW, its written in C++).  I would prefer to upload it to an
+   FTP site if possible.  Is anyone aware of an FTP site available for use
+   by cube-lovers?
+
+This seems like a good time to remind everyone that there -is- a
+Cube-Lovers FTP archive for situations such as this:
+
+  ftp://ftp.ai.mit.edu/pub/cube-lovers/contrib
+
+I'm always happy to put more things into this directory, provided you don't
+make it too much work for me.  The ideal contribution consists of a single
+file (preferable a gzipped tar file) plus a -brief- description for the
+README file.  You've got to figure out how to get the file to me in some
+reasonable way -- letting me pick it up from some other anonymous FTP site
+is easiest.
+
+If you make me think too hard, for example by expecting me to compose the
+description for the README file, or by making me pick out the Cube related
+files from some larger collection, then I'm liable to never get around to
+doing it.
+
+I also reserve the right to redescribe, repackage, rename, recompress or
+totally reject your contribution.
+
+

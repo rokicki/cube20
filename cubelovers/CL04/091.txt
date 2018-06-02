@@ -1,0 +1,25 @@
+Date:  1 Nov 1982 0902-PST
+From: ISAACS at SRI-KL
+Subject: Re: megaminx; octahedron
+To: BSG@SCRC-TENEX at MIT-MC
+cc: cube-lovers at MIT-MC, Isaacs at SRI-KL
+In-Reply-To: Your message of 29-Oct-82 0922-PDT
+
+  Yes, I solved it.  It didn't take much work at all - mainly deciding
+which cube moves transfered well.  The only really diferent moves involved
+switching edges on the last face, or flipping them.  Both had fairly easy
+solutions.  I do one face first, and then work upwards from there.  There
+is a 7 move sequence on the cube, which moves an edge from the upper face
+to a middle edge, which transfers nicely to the Megaminx.  Corners just
+work, without any special algorithms.  The 4 move commutator F R' F' R
+moves to the Megaminx and will move corners around.  Of course, none of
+the slice moves work, so new edge moves are needed.  We also need an
+easy way to move centers, and to move stars around, to make pretty patterns.
+  By the way, the one two I got, and several a friend got in L.A., all had
+10 colors, with red and yellow duplicated.  However, last Friday I saw
+ones with 12 colors (I think - they were in boxes), with dark green and
+brown as the new colors.  I don't know if the 10 colors are a mistake or
+intentional.  The presence of a duplicate edge piece makes the solution
+slightly more difficult.
+  -- Stan
+-------

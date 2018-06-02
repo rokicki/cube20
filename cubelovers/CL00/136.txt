@@ -1,0 +1,16 @@
+Date: 10 Sep 1980 1500-PDT
+From: Alan R. Katz <KATZ at USC-ISIF>
+Subject: randomizing
+To: cube-lovers at MIT-MC
+
+Here's a question for all of you.  How do you maximally randomize a cube?
+In other words, suppose you were going to have a cube solving compitition
+and wanted to make it as hard as possible to solve a cube, what precautions
+would you take?
+
+One thing I would do would be to make sure the corners are not correct in
+relation to each other.  Anyone have other ideas??
+
+				Alan (Katz@isif)
+
+-------

@@ -1,0 +1,22 @@
+Date: 17 July 1980 01:22-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: confusion
+To: Lauren at UCLA-SECURITY
+cc: CUBE-HACKERS at MIT-MC
+
+Given a randomized cube it can take about 5 to 10 minutes to set it
+straight with no aid whatsoever.  Pencil and paper or a computer can
+be a great deal of help when one is first learning to solve the cube
+(I used both), but I know of no one who uses such aids once they have
+learned how.  A method of solution that required some computational
+aid to perform (some hairy calculation based on the current
+configuration of the cube, resulting in a single 259 twist sequence
+that brings it immediately back to the solved state) is not
+inconceivable, but most people have solutions composed of short, easily
+comprehended steps.
+
+Can anyone tell me who this Rubik character is?  His name appears to
+be attached to the new American version of what some of us once knew
+as the "Hungarian Cube".  Is Rubik the Hungarian who invented it?  Has
+he done anything else?  I heard this rumor that there was a 4x4x4 cube
+out there somewhere, anybody else heard about it?

@@ -1,0 +1,80 @@
+Date: 2 August 1981 03:43-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Administrivia and an assault on God's number.
+To: CUBE-LOVERS at MIT-MC
+
+First the administrivia.  Starting with this message mail to
+Cube-Lovers is no longer automatically redistributed to everyone on
+the list.  This was done because the "please add me to this list" type
+of message is now almost as frequent as messages discussing topics of
+general interest.  Now the "editors" (Dave Plummer and myself) will
+have a chance to catch these boo-boos.  Hopefull this change will be
+completely invisable to the rest of you except that the mail headers
+will contain our names as the senders, and the turn-around time will
+be a little slower.  If this really offends anyone then we can put it
+back the way it was, but lets try it this way for a while.
+You should continue to send your messages to Cube-Lovers at MIT-MC.
+
+Now, on to God's number!
+
+As you may recall, a somewhat complicated counting argument sets a
+lower bound on God's number (the worst case counting of the best
+possible algorithm) at 21 Quarter twists.  Dan Hoey's message of
+January 9 1981 (the second message in a series about the "Supergroup")
+contains an excellent summary of that argument, so I won't repeat any
+of it here.  That argument takes into account certain trivial
+identities such as FFFF=I and FB=BF in order to reduce the amount by
+which the counting overestimates the number of configurations a
+certain number of twists away from "solved".  The same argument
+ignoring the identities only leads to a lower bound of 19.  It is thus
+natural to expect that taking even more identities into account would
+lead to an even higher lower bound.
+
+Well, the next smallest identities are those of the form
+FR'F'RUF'U'FRU'R'U=I.  It is known that there are none smaller that
+aren't a consequence of those "trivial" identities mentioned above
+(See Hoey's message of 22 March 1981), although there might be others
+of the same length.  What happens if we take these additional no-ops
+into account?  The conceptual problems in applying these new
+identities to the counting have had me stumped for quite some time
+now, but last week I finally figured a way that would cover at least
+some (maybe even all, I haven't worked on a proof of that yet) of the
+consequences.
+
+Well, all right, I'm keeping you in suspence, what did I learn?
+
+Nothing.  The lower bound still stands at 21 (similarly the Supergroup
+lower bound still stands at 25).  Even after taking
+FR'F'RUF'U'FRU'R'U=I and his many friends into consideration it seems
+that the numbers that fall out of the counting scheme (and it is
+amazingly complicated!) are only slightly smaller than those we
+already knew.  
+
+The relevant numbers are:
+
+Size of the cube group: 43252003274489856000
+Under old counting:
+positions 20 Q's or less away from start: 39812499178877773072
+positions 21 Q's or less away from start: 373188814849923987472
+Under new counting:
+positions 20 Q's or less away from start: 39726356237445007600
+positions 21 Q's or less away from start: 372326146413193718032
+
+As you can see the numbers are depressingly close.  This seems to shut
+the door on any further improvements of this kind to this argument.
+It is hard to imagine that the effects of any other identities
+(remember they have to be at least 12 Q's long) could be signifigantly
+greater than the effect here.  (Of course, if we knew ALL of them...
+but then we would understand the group completely!)
+
+It is of course possible that some deeper property, deeper than just
+the knowledge of one identity, could improve this style of counting
+argument. 
+
+It is of course also possible that I have screwed up somewhere.  I
+sould really let some of the rest of you into the details of this
+thing.  As you can guess, I am not very excited at the idea of
+having to explain the details of the argument to you all.  The proof is
+complicated and kludgey, and I at least am convinced that it leads
+nowhere.  People who are interested in the gory details can contact me
+and we can work something out.

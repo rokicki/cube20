@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 10 21:22:07 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA10444
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 10 Mar 1999 21:22:06 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <36E4A993.5AB5@zeta.org.au>
+Date: Tue, 09 Mar 1999 15:54:43 +1100
+From: Wayne Johnson <sausage@zeta.org.au>
+Reply-To: sausage@zeta.org.au
+To: cube-lovers@ai.mit.edu
+Subject: Speed cube times
+
+Hello All,
+
+There doesn't seem to be any records these days kept of people's current
+solving times for the cube. Perhaps they should be shared here?
+
+My current time for solving the 3x3x3 Rubik's cube is 47 seconds using
+the Petrus method and involved:
+
+Building the 2x2x2,
+finishing the bottom and mid layer, 
+1 edge alignment, 
+1 corner swap, 
+2 sunes, 
+and 1 clockwise edge rotation.
+
+How are other people's speeds fairing?
+
+Wayne Johnson
+http://www.zeta.org.au/~sausage/rubikscube.html
+
+[Moderator's note: Since this may result in a large number of very
+ small messages, please send your answers to Wayne, who I hope will
+ summarize the results for the list. ]
+

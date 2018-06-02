@@ -1,0 +1,24 @@
+Date: 24 May 1982 10:56-EDT
+From: David C. Plummer <DCP at MIT-MC>
+Subject: Ideal and the C^4
+To: RP at MIT-MC
+cc: CUBE-LOVERS at MIT-MC
+
+I have done a complete search on paper for a complete
+checkboard.  It cannot be done for any cobe of even side.  The
+restrictions are in the corners.  I would like somebody to double
+check this though.  The standard problems to run into are:
+	You need two of one type of corner, or
+	You have to rotate exactly one corner, which is impossible.
+
+There are a couple other amazing things I found.
+As it is known, any two edges can be exchanged (or appear to be
+exchaged because of center arbitrariness).  It is ALSO possible
+to (appear to) exchange two corners, for about the same reason.
+This is impossible on the 3^3 becuase it requires the exchange of
+two edges.  But in the 4^3 there are two cubies per 3^3 edge.
+Therefore, we just do a double exchange, which does not violate
+any parity arguments.  Combining these two moves, you can flip a
+1x1x4 edge. 
+
+Happy revenge.

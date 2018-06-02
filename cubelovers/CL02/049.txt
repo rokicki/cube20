@@ -1,0 +1,27 @@
+Date: 10 Mar 1981 1910-PST
+From: CSL.JHC.DAVIS at SU-SCORE
+Subject: Edge Cubie Rotation
+To: korner at UTEXAS-11
+cc: cube-lovers at MIT-AI
+
+
+  I have been using an even shorter tool to do Kim Korner's
+transformation.  In the Befuddler notation, it is:
+
+  R' L B L' R D D R' L B L' R
+
+It is much easier to do than this notation makes it seem.  I
+think of it as pushing a center cubie down to the bottom,
+turning it off to the side, and bringing back the old top.
+Then I move it around to the other side of the bottom, and
+go back down to pick it up.
+
+If you begin the transformation with RR LL instead of R' L, and
+end it with RR LL instead of L' R, it does the same thing
+except with no flipping of center cubies.
+
+  -- Tom Davis
+
+PS.  As in Wechler's tool, think of center-slice moves.
+-------
+

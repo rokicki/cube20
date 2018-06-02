@@ -1,0 +1,14 @@
+Date:  17 July 1980 14:38 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: the cross design
+To:  RP at MIT-MC (Richard Pavelle)
+cc:  CUBE-LOVERS at MIT-MC
+In-Reply-To:  Message of 17 July 1980 14:20 edt from Richard Pavelle
+
+There are two such sets of patterns known, one with three
+sets of paired colors (the Christman cross) and one
+with two triplets of colors (the Plumer cross).
+The Plummer cross is achieved by two orthogonal applications
+of the transform to the Christman cross.  The transforms are
+fairly long and hairy, and I hesitate a little before attempting
+to describe them, but will if people want.

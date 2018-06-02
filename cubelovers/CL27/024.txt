@@ -1,0 +1,77 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun Apr  4 18:06:09 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA15332
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Sun, 4 Apr 1999 18:06:09 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Keyboard cube [WAS Re: Wrist pains]
+Date: 3 Apr 1999 00:22:20 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7e3mvs$q14@gap.cco.caltech.edu>
+References: <cube-lovers.000001be7a68$23427d20$040a0a0a@laptop.SOMEWHERE>
+
+"Noel Dillabough" <noel@mud.ca> writes:
+>Any ideas would be appreciated and I'll try my best to implement the best
+>one.  If simulators "felt" like a cube when you used them they would be more
+>fun (and move without jamming etc)
+
+Immediately after reading this mail, my concept of a "keyboard interface"
+almost popped up immediately.  It is similar to the 1-9 keypad interface
+mentioned already.
+
+[Assume that the person is using a standard American QWERTY keyboard;
+ remap if necessary.]
+
+First, represent the front face by
+
+q w e
+a s d
+z x c
+
+A "move" is represented by any two ordered keystrokes.  If the two keystrokes
+are in the same row, it represents a horizontal layer moving, else
+if they're in the same row, it represents a vertical layer moving.
+
+Example:
+ "ed" = R'
+ "cd" = R
+ "sd" = slice move
+ "we" = U'
+ "qe" = U'
+ "qw" = U'
+
+This method does not have moves for rotating the three front to back layers
+nor 180-degree moves.
+
+Extension A:  Make a gap of a key represent a 180-degree move.
+ So, "qe" is now U2 instead of just U'.
+
+Extension B:  Represent front-to-back layers by the unused key combinations.
+ This will necessarily be idiomatic (so I don't like it).  For example,
+ you could have "knight moves" represent F and B turns, and combinations
+ with the "s" be slice moves.
+
+Extension C:  Add another grid for the right side of the cube:
+ r t y
+ f g h
+ v b n
+ This solves the problem of the front-to-back layers nicely, and adds
+ some redundancy.  Most cube programs should display more than one face
+ to the user anyway!
+
+Extension D:  Use the arrow keys to rotate the entire cube.  This can
+ be done by the right hand while the left hand is just turning faces, which
+ is similar to how a lot of people solve the cube anyway.  This also
+ alleviates the problem of the front-to-back layers.
+
+I would implement all extensions, but leave A and B as "optional" for the
+user to turn off as desired.
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+She ran by screaming "No, I run by moving my feet rapidly, you idiot!"
+

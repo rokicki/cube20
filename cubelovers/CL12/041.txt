@@ -1,0 +1,49 @@
+From jkato@tmastb.eec.toshiba.co.jp  Mon Jul 11 00:08:01 1994
+Received: from inet-tsb.toshiba.co.jp by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12507; Mon, 11 Jul 94 00:08:01 EDT
+Received: from tis2.tis.toshiba.co.jp (tis2) by inet-tsb.toshiba.co.jp (5.67+1.6W/2.8Wb)
+	id AA17248; Mon, 11 Jul 94 13:07:26 JST
+Received: from tis4.tis.toshiba.co.jp (tis4) by tis2.tis.toshiba.co.jp (5.67+1.6W/6.4J.6-R05)
+	id AA14931; Mon, 11 Jul 94 13:07:34 JST
+Received: from eecisa by tis4.tis.toshiba.co.jp (5.52/6.4J.6-R06)
+	id AA00693; Mon, 11 Jul 94 13:11:28 JST
+Received: from tmastb.eec.toshiba.co.jp by eecisa.eec.toshiba.co.jp (4.1/6.4J.6-R1)
+	id AA22006; Mon, 11 Jul 94 13:01:23 JST
+Received: by tmastb.eec.toshiba.co.jp (4.0/6.4J.6-R1)
+	id AA17550; Mon, 11 Jul 94 13:06:53 JST
+Date: Mon, 11 Jul 94 13:06:53 JST
+From: jkato@tmastb.eec.toshiba.co.jp (Toshi Kato)
+Return-Path: <jkato@tmastb.eec.toshiba.co.jp>
+Message-Id: <9407110406.AA17550@tmastb.eec.toshiba.co.jp>
+To: mouse@collatz.mcrcim.mcgill.edu
+Cc: Cube-Lovers@ai.mit.edu
+In-Reply-To: der Mouse's message of Fri, 8 Jul 1994 15:24:30 -0400 <199407081924.PAA08873@Collatz.McRCIM.McGill.EDU>
+Subject: Re: SBP "Magic sQ"
+
+Many thanks. 
+Especially to Dan Hoey and der Mouse <mouse@Collatz.McRCIM.McGill.EDU>.
+
+I have recieved E-mail individually from Mr.Dan Hoey too,
+ 
+  Date: Thu, 7 Jul 94 16:43:02 EDT
+  From: hoey@AIC.NRL.Navy.Mil
+  To: jkato@tmastb.eec.toshiba.co.jp (Toshi Kato)
+  Subject: Re: SBP "Magic sQ"
+
+  A little hack tells me you can solve that by moving
+  1,7,3,6,1,9,4,1,7,5,9,4,2,9,4,7,5,9,2,5,8.  That's 21 moves, or 30 if
+  you count by the tile.  It's optimal in both metrics.
+
+  Do you know anything about Rubik's Cube?
+
+  Dan Hoey
+  Hoey@AIC.NRL.Navy.Mil
+
+I was surprised to recieve solutions both so quickly.
+Cubes-Lover is very smart team,　I think.
+
+Thanks again,
+Junk Kato
+jkato@tmastb.eec.toshiba.co.jp
+
+
+

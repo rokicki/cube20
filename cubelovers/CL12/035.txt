@@ -1,0 +1,22 @@
+From rprakash@cdotp.ernet.in  Wed Jun 22 08:37:49 1994
+Return-Path: <rprakash@cdotp.ernet.in>
+Received: from sangam.ncst.ernet.in by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01414; Wed, 22 Jun 94 08:37:49 EDT
+Received: (from uucp@localhost) by sangam.ncst.ernet.in (8.6.8.1/8.6.6) with UUCP id SAA03435 for cube-lovers@ai.ai.mit.edu; Wed, 22 Jun 1994 18:07:29 +0530
+Received: from cdotp.UUCP by doe.ernet.in (4.1/SMI-4.1-MHS-7.0)
+	id AA09375; Wed, 22 Jun 94 17:18:53+0530
+Received: by cdotp.ernet.in (4.1/SMI-4.1)
+	id AA07212; Wed, 22 Jun 94 17:14:48+050
+Date: Wed, 22 Jun 94 17:14:48+050
+From: rprakash@cdotp.ernet.in (PRAKASH R.)
+Message-Id: <9406221214.AA07212@cdotp.ernet.in>
+To: cube-lovers@life.ai.mit.edu
+
+Dear cube-lovers-request,
+	please send me some information & problems about the cube. i haven't
+been able to solve the cube fully yet. i can get about 60-70% . i need some
+suggestions about how to solve the cube also.
+	thanking you,
+						-love
+						prakash r.
+
+

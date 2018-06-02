@@ -1,0 +1,25 @@
+Date: 27 Jul 1980 1004-PDT
+From: Davis at OFFICE-3
+Subject: Re: Some (perhaps well-known) Transformations
+To:   Greenberg.Multics at MIT-MULTICS
+cc:   cube-lovers at MIT-MC, DAVIS
+
+In response to your message sent   26 July 1980 22:25 edt
+
+Hi,
+   You're welcome to look at the code, although it is hardly fit for
+human consumption.  I wrote it essentially in one sitting, and stopped
+as soon as I solved the cube.  There are some poorly thought out
+design features, etc.  Anyway, you can get it at SAIL.  It is written
+in PASSCAL, and is called MCUBE.PAS[1,TRD].  I scribbled in a few
+comments this morning, so maybe there is enough information to
+figure out how to use it.  Unfortunately I am at home on a typewriter
+terminal, and I refuse to try to edit without a display.  Good luck.
+
+  By the way, I have never used :cube, and have no idea exactly what
+it does.  Is there some documentation associated with it somewhere?
+
+  Thanks,
+
+    -- Tom DAvis
+-------

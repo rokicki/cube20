@@ -1,0 +1,90 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  9 19:03:57 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id TAA09815; Mon, 9 Jun 1997 19:03:57 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <339C56DB.5809@hrz1.hrz.th-darmstadt.de>
+Date: Mon, 09 Jun 1997 21:17:47 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>
+X-Mailer: Mozilla 3.0 (Win95; I)
+MIME-Version: 1.0
+To: cube-lovers@ai.mit.edu
+Subject: Re: Detailed explanation of two phase algorithm
+References: <970608193131.21411978@iccgcc.cle.ab.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+SCHMIDTG@iccgcc.cle.ab.com wrote:
+>
+> And if we want to show that all depth one nodes will be pruned when
+> we are at some search depth d where 1 < d < h[0] we would need to show
+> that:
+> 
+> 1.9     1 + h[1] > h[0]
+> 
+
+Why do you say 1 < d < h[0] and not  d = 1? What I wanted to show is,
+that unter the assumption
+
+2.0        D < h(0)
+
+all depth-one nodes will be pruned. As you correctly stated before, for
+pruning we need
+
+1.8        d + h(d) > D
+
+and in the case d=1 this means
+
+1.9a       1 + h(1) > D, 
+
+which is different from 1.9, because of 2.0 . 
+But 1.9a can be shown easily:
+
+In my last message, I tried to explane that
+
+2.1        |h(n-1)-h(n)| <=1,
+
+I try to explain it once more in other words. A node at depth n is
+generated from a node at depth n-1 by applying a single face-turn on it.
+And as I told, h is defined by
+
+            h(x,y,z):=max{h1(x,y),h2(x,z),h3(y,z)},
+
+where for example h1(x,y) is the length of the shortest maneuver
+sequence which transforms (x,y,z) to (x0,y0,z') for any z' (this means
+the z-coordinate is ignored). And this length can maximal change by one
+when applying a single move. The same holds for h2(x,z) and h3(y,z). For
+this reason, h(x,y,z) also can change maximal by one, which implies 2.1
+.
+
+In the case n=1, from 2.1 follows 
+
+       h(0) <= 1 + h(1), and because of 2.0 we have
+
+       D < h(0) <= 1 + h(1),
+
+which proves 1.9a .
+
+
+>     (1)
+>     / \
+>   (2) (3*) cost = .9
+>   /
+> (4*) cost = .7
+> 
+> Suppose nodes 3 and nodes 4 were both solutions.  Even though node 4
+> has a lower cost, phase1 would find node 3 to be our first solution
+> whereas IDA* wouldn't.
+
+I don't think we are far away from each other. Of course, the phase1 (or
+phase2) algorithm does not claim to be an universal IDA* for any sort of
+problem. But for a special problem like the cube you can simplify the
+general IDA* and the simplified algorithm will be equivalent to the one
+I developed for phase1.
+
+Best regards,
+
+Herbert
+
+
+

@@ -1,0 +1,26 @@
+Date: 6 August 1980 12:22-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Reply to Random Notes on Cubism
+To: JURGEN at MIT-MC
+cc: CUBE-LOVERS at MIT-MC
+
+
+1) I guess the RLUDFB notation is pretty standard, but the part about
+using lower case letters to represent inverses isn't.  I find it
+pretty distasteful and much prefer using "'".  This has the added feature
+that you can write: (RLU)' to indicate the inverse if RLU.  (I KNOW that
+it is just U'L'R', but sometimes one wants to make the distinction.)
+
+2) Yes, lots of things are known about the group and its subgroups.
+Start by reading old cube-hackers mail while you wait for your copy
+of Singmaster to arrive.
+
+5) Yes, there is an easy way to tell if a cube is solveable without
+actually trying it.  Here it is:
+
+Three conditions must be true: a) The sum of the rotations of the
+corner cubies must be a multiple of 360 or 2 pi (depending on how you
+count!).  b) The permutation of the faces of the edge cubies must be
+even.  c) The permutation of all the cubies must be even.
+
+8) Yes, they are real orbits.

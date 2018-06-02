@@ -1,0 +1,36 @@
+From cube-lovers-errors@oolong.camellia.org  Tue Jun  3 14:52:20 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id OAA01654; Tue, 3 Jun 1997 14:52:19 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <3393C67E.70F8@ibm.net>
+Date: Tue, 03 Jun 1997 00:23:43 -0700
+From: Jin "Time Traveler" Kim <chrono@ibm.net>
+Organization: The Fourth Dimension
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+MIME-Version: 1.0
+To: cube-lovers@ai.mit.edu
+Subject: Re: 
+References: <19970602.222516.3174.1.shaggy34@juno.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Josh D Weaver wrote:
+> 
+> How do you solve the cube? I  solve it by layers.  How are some other
+> ways to solve it?  And what does "<U,D,R2,L2,F2,B2>" this mean?
+> 
+> Josh
+
+Corners first, middle edges interconnecting edges, and finally centers.
+<U,D,R2,L2,F2,B2> that is read as Up turn, Down turn, Left turn twice,
+Front turn twice, Back turn twice.  It's standard notation referring to
+the faces of a cube, assuming you're using one face as a reference
+point.  The notation typically uses 90 degree clockwise turns.
+
+-- 
+Jin "Time Traveler" Kim
+chrono@ibm.net
+VGL Costa Mesa
+
+

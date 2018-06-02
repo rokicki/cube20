@@ -1,0 +1,23 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 20 09:33:07 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id JAA11544; Wed, 20 Aug 1997 09:33:07 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From CFolkerts@compuserve.com Wed Aug 20 03:55:06 1997
+Date: Wed, 20 Aug 1997 03:50:41 -0400
+From: Corey Folkerts <CFolkerts@compuserve.com>
+Subject: 5x5x5 Solution
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Message-Id: <199708200350_MC2-1DA6-9307@compuserve.com>
+
+        I recently got my hands on a 5x5x5 from Dr. Christoph Bandelow,
+however, I'm am at an almost complete loss as to how to solve it.  I think
+that if I ignore the center row in all axes then it is pretty much a 4x4x4,
+but if I then treat it as a 4x4x4 the center axes get all screwed up. 
+        I would really like to know if there is a site that has a
+description of the solution to a 5x5x5 or if someone could describe it to
+me in a message. Thanks in advance.
+
+        Corey Folkerts
+

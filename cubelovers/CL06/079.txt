@@ -1,0 +1,26 @@
+Received: from WAIKATO.S4CC.Symbolics.COM (TCP 20024231532) by AI.AI.MIT.EDU 28 Mar 88 16:50:43 EST
+Received: from ROCKY-MOUNTAINS.S4CC.Symbolics.COM by WAIKATO.S4CC.Symbolics.COM via CHAOS with CHAOS-MAIL id 165953; Mon 28-Mar-88 16:47:32 EST
+Date: Mon, 28 Mar 88 16:48 EST
+From: Allan C. Wechsler <ACW@WAIKATO.S4CC.Symbolics.COM>
+Subject: Magic Polyhedra and parity constraints
+To: Cube-Lovers@MIT-AI.ARPA
+Message-ID: <19880328214819.9.ACW@ROCKY-MOUNTAINS.S4CC.Symbolics.COM>
+
+In response to Peter Beck's thought-provoking idea about connecting
+Rubikoid puzzles to plate tectonics, I have two slight spoilers.
+
+First, plate tectonics involves spreading zones, which are places where
+new crust is created, and subduction zones, where crust is destroyed.
+In any permutation group, the things being permuted are not allowed to
+appear or disappear.  So it seems unlikely that group theory can be
+directly applied to tectonics.
+
+Second, just because a puzzle is Rubikoid does not mean it has parity
+constraints.  Consider the "Magic Octohedron", which has eight
+triangular faces.  You can grab any pyramidal cluster of four faces and
+rotate it.  This is really the 2x2x2 Cube in disguise.  In this form, it
+has no parity constraints, that is, all the 8-factorial different
+configurations are achievable.  So even if group theory could be applied
+to tectonics, we couldn't assume parity constraints in the general case.
+
+

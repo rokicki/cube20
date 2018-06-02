@@ -1,0 +1,33 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug  4 10:22:51 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id KAA16653; Mon, 4 Aug 1997 10:22:51 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From R.F.Hegge@MP.TUDelft.NL Mon Aug  4 09:38:48 1997
+Date: Mon, 04 Aug 1997 15:34:47 +0200
+From: R.F.Hegge@MP.TUDelft.NL (Rob Hegge)
+Subject: CFF was Re: Where Can I get...
+To: Cube-Lovers@ai.mit.edu
+Message-Id: <9708041334.AA09170@sumatra.mp.tudelft.nl>
+
+Edwin wrote:
+> Rob wrote:
+> >There still exist
+> >a club called "Nederlandse Kubus Club" (NKC) or Dutch Cubist Club.
+> This sounds interesting. Can you tell me how to contact them? And, does
+> anyone know if there's a similar organization in germany?
+
+Sorry I do not know of anything similar to NKC in Germany.
+
+I put most of the information about CFF/NKC including some tables of
+contents on
+	http://wwwtg.mp.tudelft.nl/~rob/cff.html
+Please don't hesitate to email me if you still have questions.
+
+After finally finding an original Rubik's Cube I have some 3x3x3's left.
+What are the most interesting bandaged cubes or other puzzles one can
+make of them ?
+
+Rob
+

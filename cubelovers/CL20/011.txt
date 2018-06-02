@@ -1,0 +1,23 @@
+From cube-lovers-errors@curry.epilogue.com  Wed May 29 01:37:34 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id BAA01350 for <cube-lovers-outbound@curry.epilogue.com>; Wed, 29 May 1996 01:37:34 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 29 May 1996 00:54:08 -0400
+From: AirWong@aol.com
+Message-Id: <960529005406_544579496@emout14.mail.aol.com>
+To: CUBE-LOVERS@ai.mit.edu
+Subject: ULTIMATE Rubik's cube?
+
+I'm not sure if this has been discussed or not, but I was asked the following
+question, and I am not sure of thie answer.
+
+Is there an ULTIMATE Rubik's cube that, if an algorithm for it was known, it
+would contain an algorthm for ANY Rubik's cube?
+
+I guessed that it was four, but I'm not so sure about it.
+
+Aaron Wong
+AirWong@AOL.com
+
+

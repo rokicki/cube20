@@ -1,0 +1,23 @@
+Date: 22 April 1982 1703-EST (Thursday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Cubebot
+Message-Id: <22Apr82 170345 DH51@CMU-10A>
+
+Caption from a photograph said to be from the Washington Post,
+April 13, 1982:
+
+	University of Illinois engineering student Daniel Talken
+	adjusts the mechanical hands of a robot built by students
+	at the school in Urbana to solve the Rubik's Cube puzzle.
+	The robot's computer brain can work out the solution in
+	two-tenths of a second, but it takes the hands about 12
+	minutes to make average 110 moves to solve the puzzle.
+
+The photo shows a guy diddling a complicated machine in which an
+unsolved cube is visible.  Eyes are painted on the front of the
+machine's support above a bulge that may be functional as well as
+vaguely resembling a nose.  No camera equipment is apparent;
+presumably they tell the machine how the cube is scrambled, or
+cheat and have the machine itself scramble the cube.
+

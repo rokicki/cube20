@@ -1,0 +1,102 @@
+From BRYAN@wvnvm.wvnet.edu  Mon Jul 10 10:46:59 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14144; Mon, 10 Jul 95 10:46:59 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4200; Mon, 10 Jul 95 10:46:57 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 9475; Mon, 10 Jul 1995 10:46:57 -0400
+Message-Id: <wvmail32.1995jul10.100359.bryan@wvnvm.wvnet.edu>
+Date:      Mon, 10 Jul 1995 10:46:56 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject:   Re: Run Times, Storage Requirements, etc.
+In-Reply-To: Message of 04/21/95 at 11:37:18 from mreid@ptc.com
+
+On 04/21/95 at 11:37:18 mreid@ptc.com said:
+
+>jerry writes
+
+>> What would be really nice (and which may not be possible) is some
+>> representation for the cube such that a cube Z and its neighbors
+>> Zq or Zh are stored very close together.
+
+>remember that the diameter of the group is small.  (my guess is
+>21 face turns, 24 quarter turns.)  so this isn't possible without
+>resorting to a liberal definition of "very close".
+
+This is something I have been thinking about for a long time.  The
+idea is that if large searches were run on either massively
+parallel machines, or even on farms of workstations, it would be
+really nice if most neighbors stayed on the same machine.
+
+Some of my searches get so large that I have to decompose them in
+a manner somewhat similar to the manner in which I envision decomposing
+searches for parallel processing.  Let me use an example a project
+I am working on as we speak.  I am trying to do a complete search
+for edges only (with centers).
+
+The data base for level 10 of the search is on four tapes (not so big,
+really).  The data base is sorted.  The neighbors will be sorted
+according to the same collating sequence.  In order to create level 11,
+all neighbors have to be generated and sorted (deleting duplicates),
+and then matched against the level 9 data base (again deleting duplicates).
+
+I desire to partition the sorted neighbors using as boundary points for
+the partition the first record on each of the four tapes for level 10.
+My experience is that boundary points that partition one level of the
+data base equally also partitions deeper levels of the data base
+equally.  Having partitioned level 11, the sizes of the output files are
+rather striking:
+
+                  Neighbors in   Neighbors in   Neighbors in   Neighbors in
+                    Tape 1         Tape 2         Tape 3         Tape 4
+                   Partition      Partition      Partition      Partition
+
+
+  Lvl 10 Tape 1    5.2 tapes      2.0 tapes      1.2 tapes      0.2 tapes
+  Lvl 10 Tape 2    1.3 tapes      5.0 tapes      1.9 tapes      1.2 tapes
+  Lvl 10 Tape 3    1.2 tapes      1.4 tapes      5.1 tapes      2.2 tapes
+  Lvl 10 Tape 4    0.2 tapes      1.1 tapes      1.6 tapes      6.0 tapes
+
+In real round numbers, the level 11 data base is going to have about
+32 tapes, with about 8 tapes in each partition (the branching factor
+is about 8 at this level of the search).  But as the chart above shows,
+there is a strong tendency for neighbors to stay in the same partition.
+(The chart does not reflect it, but to complete the processing for
+level 11, the "Tape 1 partition" will all have to be merged together, as
+will the "Tape 2 partition", etc.)
+
+I would emphasize that these "partitions" I am talking about are totally
+arbitrary subdivisions of the data into smaller chunks to make the
+problem manageable.  But imagine if you will that instead of four tapes,
+I had four machines, each with a sizable hard disk.  Each machine would
+be assigned one of the four partitions.  As it generated neighbors, each
+machine would either store the neighbor locally or would send the
+neighbor on to one of the other three machines as required.  Obviously,
+the more of the neighbors you can keep locally the better.
+
+With various problems I have worked on, I have had various numbers of
+partitions of the data  --  10, 16, 32, 128, etc.  The effect I am
+describing is always there, and I am not totally sure why.  I have
+some theories, but nothing definitive.  I think the effect is stronger
+because I am using representative elements of conjugacy classes or
+other equivalence classes than if I were storing all individual cubes.
+
+Also, the effect I am describing can be characterized by the almost
+silly statement that "one twist of the cube doesn't change the cube
+very much".  But it's true.  For example, the dominant part of the sort
+is the Front face, which isn't changed by twists of the Back.  Also,
+twists of the Front don't change the Front very much when you
+consider that representative elements are being stored.  It is only
+twists of the Up, Down, Right, and Left faces which change the Front
+very much.  Finally, the sort order for the Front face is the Upper
+part, the Right part, the Down part, and the Left part, so that even
+a twist of the Left face doesn't change the Front face very much with
+respect to its sort order.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

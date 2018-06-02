@@ -1,0 +1,21 @@
+Received: from EDDIE.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 5 MAY 87  21:09:07 EDT
+Received: by EDDIE.MIT.EDU with UUCP with smail2.3 with sendmail-5.31/4.7 id <AA00413@EDDIE.MIT.EDU>; Tue, 5 May 87 21:06:17 EDT
+Received: by RUTGERS.EDU (5.54/1.14) with UUCP 
+	id AA01764; Tue, 5 May 87 21:05:00 EDT
+Received: Tue, 5 May 87 18:01:49 PDT by ames.arpa (5.45/1.2)
+Received: by oliveb.ATC.OLIVETTI.COM (5.51/UUCP-Project/rel-1.0/09-16-86)
+	id AA29561; Tue, 5 May 87 17:56:58 PDT
+Date: Tue, 5 May 87 17:56:58 PDT
+From: long@oliveb.atc.olivetti.com (Tom Long)
+Message-Id: <8705060056.AA29561@oliveb.ATC.OLIVETTI.COM>
+To: ALAN@ai.ai.mit.edu, CUBE-LOVERS@ai.ai.mit.edu
+Subject: Re:  TOC Seminar -- Akos Seress -- Thursday May 28, 1987
+
+
+       Akos,
+Ez egy baratomnaatk a gepjen dolgozom.  Metg vagyokgg vagyok lepodve hogy mas
+magyar is itten ir.  Te honan irs? En Californiaban vagyaok.
+iIde irhatc viszasza.  A rubik kockarol beszeltel? aA z iskolaban omost
+tanulok a permutation-okrol. Nagyon erdekesnek hallatcik.
+				irIrjal Vissza,
+					Jeno

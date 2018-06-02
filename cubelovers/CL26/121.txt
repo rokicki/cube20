@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Feb 24 12:52:23 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA07939
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 24 Feb 1999 12:52:23 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 22 Feb 1999 12:13:16 -0800 (PST)
+From: Tim Smith <tzs@tzs.net>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Fwd: Request for spectacular cube-solving  -  Can anyone help?
+In-Reply-To: <009D4210.9784799A.12@ice.sbu.ac.uk>
+Message-Id: <Pine.LNX.4.04.9902221210120.6439-100000@52-a-usw.rb1.blv.nwnexus.net>
+
+> In one of our next shows we would like to present a person who is able to
+> solve a classical Rubik's Cube in a spectacular way.
+
+A spectacular way I'd like to see someone do the cube is while juggling.
+Instead of that old routine where the juggler juggles some fruit and
+eats the fruit while juggling it, juggle three (or more!) cubes, and
+solve them at the same time.
+
+--Tim Smith
+

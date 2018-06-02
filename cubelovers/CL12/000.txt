@@ -1,0 +1,31 @@
+From matwood@peruvian.cs.utah.edu  Thu Feb 24 14:25:20 1994
+Return-Path: <matwood@peruvian.cs.utah.edu>
+Received: from cs.utah.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29205; Thu, 24 Feb 94 14:25:20 EST
+Received: from peruvian.cs.utah.edu by cs.utah.edu (5.65/utah-2.21-cs)
+	id AA01848; Thu, 24 Feb 94 12:25:19 -0700
+Received: by peruvian.cs.utah.edu (5.65/utah-2.15-leaf)
+	id AA22238; Thu, 24 Feb 94 12:25:18 -0700
+Message-Id: <9402241925.AA22238@peruvian.cs.utah.edu>
+To: cube-lovers@life.ai.mit.edu
+Subject: Book - "Simple Solution To Rubik's Cube"
+Date: Thu, 24 Feb 94 12:25:17 MST
+From: Mark Atwood <matwood@peruvian.cs.utah.edu>
+
+(I sent my request to be added to this mailing list in to
+ cube-lovers-request@ai.ai.mit.edu a few days ago and havnt
+ heard back. Hope this works..)
+
+I was going thru my stuff a while back and found my two original
+Rubik's Cubes, one of which was given to me several years before
+they became wildly popular. The solution I learned was in the
+book "The Simple Solution To Rubik's Cube", which was a paperback
+of about 20-30 pages.
+
+I remember most of the solution steps outlined in the book, (my
+hands remember better than my head does), however, I can't find
+a copy of the book anywhere, to refresh my memory.
+
+Anyone got a copy or know where I can get one?
+
+..Mark Atwood
+

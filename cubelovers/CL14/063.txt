@@ -1,0 +1,33 @@
+From dik@cwi.nl  Sun Jan  8 19:12:24 1995
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18508; Sun, 8 Jan 95 19:12:24 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id <AA05235@cwi.nl>; Mon, 9 Jan 1995 01:12:17 +0100
+Received: by boring.cwi.nl 
+	id <AA02894@cwi.nl>; Mon, 9 Jan 1995 01:12:17 +0100
+Date: Mon, 9 Jan 1995 01:12:17 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9501090012.AA02894=dik@boring.cwi.nl>
+To: cube-lovers@ai.mit.edu, mreid@ptc.com
+Subject: Re:  two stage filtration
+
+ > this is true.  i decided i was more interested in performance than
+ > in knowing about local maxima.
+
+ > > I will try to verify phase 2 later next week.
+
+ > let me offer a suggestion here.  since i divided the corner configurations
+ > by symmetry, it might be nicer if you divide the U-D edge configurations
+ > by symmetry.  (the numbers involved are the same.)
+
+I will see how I divide it now, but I can change easily.  My biggest
+change is to weed out parity.  I just realized that, but that is the
+reason it will not fit now.  Moreover, I will go completely forward
+to get also local maxima.
+
+I do not know yet what to do about the quarter turn version.  I never
+put that in my program for this phase.  I had some form of quarter
+turn version, but only for U and D.
+
+I will see, dik
+

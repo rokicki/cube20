@@ -1,0 +1,42 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Dec  3 16:32:04 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA02610
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 3 Dec 1998 16:32:04 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v04003a06b28bcd4ff193@[198.252.208.216]>
+In-Reply-To: <872566CD.007745CF.00@notes.dtint.com>
+Date: Wed, 2 Dec 1998 23:15:57 -0700
+To: Cube Lovers <Cube-Lovers@ai.mit.edu>
+From: Steve LoBasso <slobasso@dtint.com>
+Subject: Re: Method for Solving the Professor's Cube (5x5x5)
+
+Although I use a different method, centrals first, edge combinations, edge
+parity corrections, finish using 3x3x3 solution.
+
+I was playing with a layered solution last week also, amazing coincidence.
+Much of my solution is the same as Han's.
+
+Most of the differences are in the 4th and 5th layers.
+To move the 4th layer mid centrals into place:
+
+central D-face bm to central F-face dm: F l D l' D' F'
+
+If there are no central pieces in the bottom central area, simply move a
+bottom central up causing another central to go down.
+
+To move 4th layer edges into place:
+
+edge L-face Db to edge F-Rd: R' D' r D R D' r'
+edge R-face Db to edge F-Ld: L D l' D' L' D l
+
+My 5th layer edge moves are a bit different but I haven't had time to write
+them down with this terminology.
+
+--
+Steve LoBasso                          mailto:slobasso@dtint.com
+Digital Technology International    or mailto:slobasso@hotmail.com
+500 West 1200 South, Orem, UT, 84058   http://members.tripod.com/~slobasso
+(801)226-6142  ext.265                 FAX (801)221-9254
+

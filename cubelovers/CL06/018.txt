@@ -1,0 +1,42 @@
+Date: Tue,  5 May 87 17:19:21 EDT
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  TOC Seminar -- Akos Seress -- Thursday May 28, 1987
+To: CUBE-LOVERS@AI.AI.MIT.EDU
+Message-ID: <195855.870505.ALAN@AI.AI.MIT.EDU>
+
+Mathematically inclined Cube Hackers in the Boston area might find the
+following seminar interesting.  All I know about this is what I read here
+in the abstract.  (I'll bet its been a while since anyone on this list did
+any serious thinking about the Cube as a permutation group...)
+
+
+			DATE: Thursday, May 28, 1987
+			 TIME: Refreshments: 3:45PM
+			      LECTURE:  4:00PM
+			      PLACE: NE43-512A
+
+			  PERMUTATION GROUPS IN NC
+
+				 AKOS SERESS
+			Mathematical Institute of the
+			Hungarian Academy of Sciences
+
+Given a permutation group G on an n-element set A by a list of generators, we
+present NC-algorithms (parallel algorithms using (log n)^c time and
+n^c processors) for basic permutation group manipulation (membership
+testing, order).  These problems have been suggested by Cook and McKenzie to
+be LOGSPACE-complete for P and therefore not in NC unless NC=P.
+    We shall outline previous work by Luks on the subject and focus on the
+key problems left open by Luks' 1986 FOCS paper.  In particular, we shall
+discuss in detail, how to construct in NC any permutation from a given set of
+generators of the symmetric group.
+    The presentation will be elementary, although the analysis of the
+algorithms depends in several ways on consequences of the classification of
+finite simple groups.
+    Our methods have sequential consequences as well.  We obtain algorithms
+for basic permutation group management with O(n^4(log n)^c) running
+time, improving one order of magnitude from the best prevously known results
+(Knuth, Babai, and Jerrum).
+    This is joint work with Laszlo Babai and Eugene M. Luks.
+
+Host:  Professor David Shmoys

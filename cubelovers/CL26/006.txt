@@ -1,0 +1,81 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep 22 19:50:07 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id TAA19137; Tue, 22 Sep 1998 19:50:02 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 21 Sep 1998 16:34:29 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Local Maxima which Fix the Corners, 12q from Start
+To: Cube Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <SIMEON.9809211629.A@GN209A.PSTCC.CC.TN.US>
+
+I am making a run to calculate God's Algorithm out to 12 moves
+from Start in the quarter turn metric.  It has been running
+several weeks, and will probably run several more.
+
+I have made some changes to my program to make it easier to
+extract the positions for local maxima, and to checkpoint the
+local maxima data.  As a part of the checkpointing, I can
+actually see the local maxima as they are generated without
+having to wait for the program to end.
+
+It is becoming apparent that there are a *lot* of local maxima
+12q from Start.  It is already known that there are only four
+(unique to symmetry) which are 10q from Start (the shortest ones
+in the quarter turn metric), and that there are none 11q from
+Start. So I am a little surprised that I am seeing so many.
+
+I have looked at quite a few of them, and most of them are not
+all that interesting.  But the ones which fix the corners are
+all quite pretty.  Because the positions are being produced in
+lexicographic order, and because I am sorting by corners first,
+edges second, the positions which fix the corners are the first
+ones to appear.  There are eight of them as follows.
+
+1.  F2 L2 F2 B2 R2 B2
+2.  F  B' U2 D2 F' B  R2 L2
+3.  F  B  R2 F' B' U  D  L2 U' D'
+4.  D' F  B' R  F  R' F' B  U  F'  U' D
+5.  F  B  R2 L2 F  B  U2 D2
+6.  R  L' F2 B2 R  L' F2 B2
+7.  F2 B2 U2 D2 R2 L2
+8.  R  L' U  D' F  B' R2 L2 U  D'
+
+#1 is a 2-H pattern (only four edge cubies are moved).
+
+#2 is a 4-H.
+
+#3 moves four edge cubies, leaving eight of the nine
+facelets the same color on four faces, and a solid color on the
+other two faces.
+
+#4 moves three edge cubies, leaving eight of the nine facelets
+the same color on all six faces.
+
+#5 has 2 H's, 2 checkerboards, and 2 solid faces  -- with the
+respective H's, checkerboards, and solid faces opposing each
+other.
+
+#6 has 4 H's and 2 checkerboards, with the 2 checkerboards
+opposing each other.
+
+#7 is the Pons Asinorum, and is included only for completeness
+because we already knew that the Pons was a local maximum of
+length 12q.
+
+#8 has all six faces being sort of a "three colored
+checkerboard".
+
+Some of these positions may have appeared on Cube-Lovers in some
+other context, but the only one I recognize for sure is the Pons.
+In some ways, #4 is the most interesting to me, because it a
+simple 3-cycle on the edges, and who would have thought that
+such a position would turn out to be a local maximum?  #1 and #3
+both consist of two 2-cycles on the edges, and are about as
+striking to me as is #4.
+
+----------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+

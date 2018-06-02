@@ -1,0 +1,62 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug  5 19:42:04 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA26449
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 5 Aug 1999 19:42:03 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <4.1.19990728163706.0096d9d0@gumby145.mail.iastate.edu>
+Date: Wed, 28 Jul 1999 17:11:48 -0500
+To: "Cube-Lovers" <Cube-Lovers@ai.mit.edu>
+From: Corey Folkerts <gumby145@iastate.edu>
+Subject: Re: Rubik's Cube Perpetual Calendar
+
+	In response to Chris Pelley's message about a Rubik's Calender Cube, I
+would like to say that I made one, although it may not be identical to the
+one that Rubik manufactured. (I thought up the idea before I knew one had
+been made commercially) I just mapped the letters and numbers out on paper
+and then printed out all the characters I'd need with my printer and
+affixed them to a blank cube.
+I really lucked out because the scotch tape I had was exactly the same
+width as the width of one cubie! I also used an exacto knife so I could affix
+multiple characters at once, then cut between the cubies with the knife.
+An example of how the date reads is:
+ J U L
+   2 8
+19 9 9
+
+The 19 (and 20 once we get there) are on one cubie.
+
+I've attached a jpg of how I arranged all the characters. I make 
+no guarantees that is works, but I'm pretty sure it does.
+Sorry to those of you who can't receive files. I would have made the
+drawing ASCII, but I can't make upside or sideways characters =(
+In the drawing there may be some discrepancy between O the letter and zero.
+The 'thinner' one is zero. As you can see, my cube is still on Jul 27. I
+haven't changed it yet since yesterday. 
+
+-Corey Folkerts
+
+[Moderator's note: I don't send binary attachments out on this list.
+ However, I was able to decode Corey's picture, and here's a diagram.
+ The characters ^ > v and < denote symbols that are rotated 0, 90,
+ 180, or 270 degrees clockwise, respectively.
+
+             N^ .. ..
+             O< 1v 0<
+             Nv Ev 0<
+
+  R< C^ V^   D^ A^ 1<   6^ 6^ 19v  20> .. B^
+  6v 3< ..   .. .. 0^   6v 2v ..    .. 0> 9^
+  A< 1> T>   Pv 2> G>   Lv Uv Jv    F< 5> Sv
+
+             C< 8< Y^
+             3v .. P>
+             O< 4> Mv
+
+ I believe the corner marked 0< should be 0^.  The cube only goes
+ through 2001, though the addition of 2< on the blank corner would add
+ another year.
+
+ Sorry for the delay in sending this message out. --Dan ]
+

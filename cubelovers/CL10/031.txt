@@ -1,0 +1,44 @@
+From dn1l+@andrew.cmu.edu  Fri Aug  6 23:27:13 1993
+Return-Path: <dn1l+@andrew.cmu.edu>
+Received: from po3.andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10683; Fri, 6 Aug 93 23:27:13 EDT
+Received: from localhost (postman@localhost) by po3.andrew.cmu.edu (8.5/8.5) id XAA27259; Fri, 6 Aug 1993 23:27:10 -0400
+Received: via switchmail; Fri,  6 Aug 1993 23:27:10 -0400 (EDT)
+Received: from niobe.weh.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q002/QF.YgMlzwC00VpJ00eE9n>;
+          Fri,  6 Aug 1993 23:22:39 -0400 (EDT)
+Received: from niobe.weh.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr18/dn1l/.Outgoing/QF.IgMlzoi00VpJ43:V4C>;
+          Fri,  6 Aug 1993 23:22:30 -0400 (EDT)
+Received: from mms.0.1.23.EzMail.2.0.CUILIB.3.45.SNAP.NOT.LINKED.niobe.weh.andrew.cmu.edu.pmax.ul4
+          via MS.5.6.niobe.weh.andrew.cmu.edu.pmax_ul4;
+          Fri,  6 Aug 1993 23:22:28 -0400 (EDT)
+Message-Id: <cgMlzoa00VpJM3_Ux4@andrew.cmu.edu>
+Date: Fri,  6 Aug 1993 23:22:28 -0400 (EDT)
+From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+To: cube-lovers@life.ai.mit.edu
+Subject: Tangle (Was: Re: Square-1 Puzzle Party)
+In-Reply-To: <930806124838.23c011ac@EQL12.Caltech.Edu>
+
+Excerpts from mail: 6-Aug-93 Re: Square-1 Puzzle Party by Chris
+Worrell@eql12.calt 
+>>Bring your Square-1, your Rubik's Cube, and your other Rubik's puzzles that
+>>you haven't been able to solve!
+>Sorry, I don't have any.  Except the 10x10 Rubik's Tangle.
+
+I only have one quarter of that puzzle...(section 4).
+
+I worked on it for a considerable amount of time, and concluded that the only
+solution method was trial and error.
+
+So I wrote a program to do it for me.
+I know all 16 solutions (2 unique)*(2 identical exchanged pieces)*(4
+orientations).
+
+Has anyone come up with a method, besides trial and error, that solves
+this thing?  (or the 10x10?)
+(hmmm--I wonder how much the other 3 would cost?)
+
+-Dale Newfield
+dn1l@{cs,andrew}.cmu.edu
+
+

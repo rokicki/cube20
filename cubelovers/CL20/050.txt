@@ -1,0 +1,69 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Jun  8 14:32:08 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA16779 for <cube-lovers-outbound@curry.epilogue.com>; Sat, 8 Jun 1996 14:32:07 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <199606072009.PAA20169@mail.cs.utexas.edu>
+X-Mailer: exmh version 1.6.2 7/18/95
+To: CUBE-LOVERS@ai.mit.edu
+Subject: Re: Speed cubing 
+In-Reply-To: Your message of "Thu, 06 Jun 1996 09:04:04 CDT."
+             <199606061304.JAA20500@dimacs.rutgers.edu> 
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Date: Fri, 07 Jun 1996 15:09:45 -0500
+From: Norman Richards <orb@cs.utexas.edu>
+
+> I've heard about some pretty fast people who've claimed to 
+> have averages in the low 20's, but I haven't seen them perform.
+> 
+> My buddy from high school, Scott Evans, now living in Austin,
+> averages about 25 seconds these days.  He's the fastest active
+> cubist I've seen in the last 10 years.  I'm at about 28 seconds.
+
+
+  Whenever I see posts like this I have to wonder what methods you guys are
+using to solve the cube.  My average casual speed is about 80 seconds and when
+I get in blitz mode I usually can average below a minute.  But, I never 
+get below say 45 seconds unless I get a really nice starting position and
+things just fall into place.  My personal best ever is about 32 seconds, back
+when I was in high school.  
+
+  Anyways, I am curious what methods people use.  I've asked around and it 
+seems
+most people prefer to go top/middle/bottom.  In fact, all the published 
+solutions go that way.  But, I learned to go top/bottom/middle because it is 
+MUCH easier.  At the same time, I've seen that when solving a single face, 
+most solutions suggest doing edge and the corner pieces, but I do corner and 
+then edge.  I think this has to do with whether you do the middle or the bottom
+next because with the middle/bottom approach you can leave out one corner
+piece to do the middle.  But if you do bottom/middle then you can leave out
+an edge piece to aid in getting the buttom edge pieces done.
+
+
+  Here is a quick overview of my solution (because it is different than most
+peoples):
+
+  1. do the top face.  4 corners then any 3 edges.  (intuitive)
+  2. align bottom corner pieces.  (pattern)
+  3. rotate bottom corner pieces so the correct color is showing (pattern)
+  4. place the remaining 4 bottom edges and the missing top edge (intuitive)
+  5. put the 4 middle edge pieces in the correct positions (intuitive)
+  6. rotate edge pieces as needed (pattern)
+
+  
+  Anyways, is there one technique that almost all speedy solutions use?  I've
+tried the top/middle/bottom solutions but they seem very uninuitive.  Do
+most speed people only use patterns? (or at least after the top layer?)  How
+many patterns do you use?  When I go for speed, I tend to use two patterns
+for step 2, and 4 possible patterns for step 3.  Meaning that I use about
+7 patterns max for speed and I use 3 patterns total when doing it casually.  
+
+
+  
+
+
+   
+
+
+

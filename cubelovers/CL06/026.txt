@@ -1,0 +1,22 @@
+Received: from ARDEC-LCSS.ARPA.ARPA (TCP 30003004013) by AI.AI.MIT.EDU  3 Jun 87 12:01:50 EDT
+Date: 3 Jun 87 11:45:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: request for puzzles sources
+To: "cube-lovers" <cube-lovers@mit-ai>
+cc: beck
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+
+I am interested in obtaining the following puzzles ( references are from
+"Sliding Pieces Puzzles" by Ed Horden,  Oxford Univ Press, 1986):
+  1 -  Change the Seasons, plate IX
+  2 -  Inversion, plate IX
+  3 -  Great Gears, plate X
+
+I would like to trade for them, if possible.   A source where they can be
+purchased would also be appreciated.   Thanks for any and all help.
+
+The Future is Puzzling but Cubing is Forever,
+
+Pete beck                  <BECK@ARDEC-LCSS>
+..................................
+------

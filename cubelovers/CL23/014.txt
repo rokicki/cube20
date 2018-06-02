@@ -1,0 +1,31 @@
+From cube-lovers-errors@oolong.camellia.org  Wed Jun 18 18:43:38 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id SAA04738; Wed, 18 Jun 1997 18:43:37 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <33A84C0E.94@hrz1.hrz.th-darmstadt.de>
+Date: Wed, 18 Jun 1997 22:58:54 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>
+X-Mailer: Mozilla 3.0 (Win95; I)
+MIME-Version: 1.0
+To: cube-lovers@ai.mit.edu
+Subject: Windows95 program now available
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+The Windows95 program which implements my algorithm to solve Rubik's
+Cube is now availabe at
+
+http://home.t-online.de/home/kociemba/cube.htm
+
+It not only solves Rubik's cube, but also does a few other nice
+things...
+
+
+Herbert
+
+
+[ Moderator's note: This program is also available in the Cube-Lovers Archive.
+  See: ftp://ftp.ai.mit.edu/pub/cube-lovers/contrib/cubexp10.zip
+				- Alan ]
+

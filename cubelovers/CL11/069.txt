@@ -1,0 +1,38 @@
+From Don.Woods@eng.sun.com  Sun Jan  2 20:10:16 1994
+Return-Path: <Don.Woods@eng.sun.com>
+Received: from Sun.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12259; Sun, 2 Jan 94 20:10:16 EST
+Received: from Eng.Sun.COM (zigzag.Eng.Sun.COM) by Sun.COM (4.1/SMI-4.1)
+	id AA11819; Sun, 2 Jan 94 17:10:12 PST
+Received: from colossal.Eng.Sun.COM by Eng.Sun.COM (4.1/SMI-4.1)
+	id AA03228; Sun, 2 Jan 94 17:08:39 PST
+Received: by colossal.Eng.Sun.COM (5.0/SMI-SVR4)
+	id AA13229; Sun, 2 Jan 94 17:10:24 PST
+Date: Sun, 2 Jan 94 17:10:24 PST
+From: Don.Woods@eng.sun.com (Don Woods)
+Message-Id: <9401030110.AA13229@colossal.Eng.Sun.COM>
+To: cube-lovers@ai.mit.edu
+Subject: 10x10 Tangle
+Content-Length: 1000
+
+Hm.  Well, I split up the 10x10 Tangle exhaustive search and ran it on
+several machines over Christmas break, getting the 90 days of compute
+time done in about 10.
+
+And turned up no solutions.
+
+There could of course be a bug in my program, but the same code with
+minor changes finds the same solutions as others have found for the 5x5.
+I also tried adding some extra tiles for the 10x10, and it began finding
+solutions okay.  I did doublecheck that the 100 tiles matched the info
+posted to Cube-Lovers re which tiles are duplicated in the four 5x5s;
+I have no way of checking whether that info was correct.
+
+Has anyone out there ever heard definitely that someone has found a
+solution to the 10x10?  Is it possible that the makers of Tangle (Matchbox,
+using Rubik's name under license) merely claimed that such a solution
+exists, without actually verifying it?  (Seems pretty sleazy if so,
+but then, having Tangles 2-4 be merely color permutations of #1 is
+pretty weak in the first place.)
+
+	-- Don.
+

@@ -1,0 +1,25 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 20 15:06:25 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA13572; Wed, 20 Aug 1997 15:06:24 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cubeman@idirect.com Wed Aug 20 14:21:03 1997
+Message-Id: <33FB355F.3A5D@idirect.com>
+Date: Wed, 20 Aug 1997 14:20:15 -0400
+From: Mark Longridge <cubeman@idirect.com>
+To: cube lovers <cube-lovers@ai.mit.edu>
+Subject: Corrections
+
+Oops.. those were the wrong URLs
+ 
+Here are the correct ones:
+
+http://web.idirect.com/~cubeman/rubik/rubik.zip
+http://web.idirect.com/~cubeman/rubik/miker.zip
+ 
+Or just go to http://web.idirect.com/~cubeman and click on
+the appropriate link.
+ 
+-> Mark <-
+

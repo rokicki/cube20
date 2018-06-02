@@ -1,0 +1,47 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Apr 23 11:39:54 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id LAA17131
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 23 Apr 1999 11:39:53 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <371FCBE9.6DE8069@ibm.net>
+Date: Thu, 22 Apr 1999 18:24:57 -0700
+From: "Jin 'Time Traveler' Kim" <chrono@ibm.net>
+Reply-To: chrono@ibm.net
+To: cube-lovers@ai.mit.edu
+Subject: Re: Rubiks Cube, Megaminx and Square-1
+References: <3718413B.251EE6E0@okanagan.net>
+
+The only record for a 4x4x4 I saw was 117 or 170+ seconds, I can't
+remember which.  BTW, that was my web page you visited. :)
+
+The reason I think that the Square-1 is rated so high is because it
+"mutates" in form and shape as you twist it.  All other puzzles remain
+mechanically symmetrical to themselves (even the pyramorphix, while
+changing shape, is still the same basic architecture underneath).  The
+Square-1's possible moves change as you mix it, causing an extra level
+of confusion.  Does this make it tougher to solve?
+
+Learning to solve puzzles by yourself is great.  Unlike some others on
+the cube list, I've always relied on intuition and mental picturing to
+make all of my moves.  This has allowed me to solve puzzles since I was
+about six years old.  The only puzzles I have been unable to solve this
+way are the Rubik's Cube series (2^3 through 5^3), specifically the
+corner moves.  Everything else I was able to do independently at one
+Time or another including the center pieces on the 4x4x4 and 5x5x5.
+
+A quick anecdote.  For the longest Time I didn't bother scrambling my
+Geomaster Masterball for fear of messing it up.  That barrier was
+overcome when a friend of mine inadvertently scrambled it for me.  14
+hours of hair pulling later I came up with a "logical" solution for it
+(that actually helped me solve the Dogic later).  Of course, shortly
+afterwards they sold Masterballs with solutions far simpler than mine,
+but I still prefer using my method, because it's mine.
+
+-- 
+Jin "Time Traveler" Kim
+chrono@ibm.net
+http://www.chrono.org
+'95 PGT - SCPOC
+

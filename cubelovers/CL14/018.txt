@@ -1,0 +1,25 @@
+From dik@cwi.nl  Sun Dec 18 16:43:21 1994
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA15510; Sun, 18 Dec 94 16:43:21 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id <AA05463@cwi.nl>; Sun, 18 Dec 1994 22:43:19 +0100
+Received: by boring.cwi.nl 
+	id <AA04820@cwi.nl>; Sun, 18 Dec 1994 22:43:19 +0100
+Date: Sun, 18 Dec 1994 22:43:19 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9412182143.AA04820=dik@boring.cwi.nl>
+To: cube-lovers@ai.mit.edu
+Subject: Re:  How Big is Big?
+
+ > Also note that the Cube database storage size requires the highest
+ > prefix we have.  Time to get SI to think up some more, I guess :-)
+
+They did:
+  10^-24   y   yocto
+  10^-21   z   zepto
+  10^+21   Z   zetta
+  10^+24   Y   yotta
+so now you can talk about yotta bytes.
+
+dik
+

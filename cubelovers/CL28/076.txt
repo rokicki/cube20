@@ -1,0 +1,162 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb 15 17:39:09 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA05665
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 15 Feb 2000 17:39:09 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+To: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Re : Stuff...
+In-Reply-To: <388AB533.798B2C6@health.on.net>
+Message-Id: <SIMEON.10001272347.B@pavilion.pstcc.cc.tn.us>
+Date: Thu, 27 Jan 2000 23:47:47 -0500 (Eastern Standard Time)
+
+On Sun, 23 Jan 2000 18:30:51 +1030 Ghan <ghan@health.on.net> wrote:
+ 
+> I thought I was pretty good until I discovered that my program took
+> 18 minutes to check all the 9 move algorithms! (I have a Pentium II
+> 266, although not being very computer smart I'm not sure how much
+> difference this makes.) I found out that more than half the
+> configurations required 9 moves or more. Well, this was pretty
+> embarrassing, considering that there are computer programs which can
+> solve the 3x3x3 in seconds (or so I've read, I haven't tried any of
+> these programs). So I'm wondering how to write a fast solver. Is my
+> program slow because of my bad programming skills, or is my method
+> just plain slow? I can't think of any other methods to find the
+> solution.
+
+First of all, you need to be careful what you define as a move.
+Cubists seem to fall approximately equally into one of two camps  --
+those who count a 90 degree turn of one face as a move (a quarter
+turn) and those who count either a 90 degree turn (a quarter turn) or
+a 180 degree turn of one face (a half turn) as one move.
+
+Quarter turns and half turns are collectively called face turns.  You
+will sometimes see a solution described as an 18q solution (18
+quarter turns) or as a 16f solution (16 face turns) or something like
+that. The face turn terminology distinguishes between twists of
+external (faces) and internal layers (slices).  A 3x3x3 can be solved
+using only face moves.  A 4x4x4 or 5x5x5 etc. require both face and
+slice moves.
+
+Second, you need to distinguish between programs which calculate
+optimal solutions vs. those which calculate suboptimal solutions.  I
+am not aware of any programs which can calculate optimal solutions
+for the 3x3x3 in seconds.  The best programs for optimal solutions
+can require an hour or two or maybe a day or two to calculate an
+optimal solution, depending on the speed of the machine, the memory
+size of the machine, and the difficulty of the problem at hand.  This
+may seem like a long time, but really it's an amazing achievement.
+
+It is true that there are programs which can calculate *very good*
+suboptimal solutions in just a few seconds.  The best example is
+Herbert Kociemba's Cube Explorer 1.5.  It is downloadable from
+Herbert's Web site (you can find it with any search engine) and from
+the Cube-Lovers FTP site.  If you let it run long enough it will
+eventually find an optimal solution, but "long enough" may be a great
+deal longer than for programs designed specifically to find optimal
+solutions.
+
+The two amazing things to me about Cube Explorer 1.5 are that it is
+so extremely fast, and that its suboptimal solutions are so darn near
+optimal as quickly as they are.  In fact, it sometimes finds an
+optimal solution in a matter of minutes, except that it is usually
+not able to prove the that the solution is optimal anywhere near as
+quickly as it is able to find the solution.  I will include only an
+extremely brief description of its algorithm, and I will defer that
+description until later in my note.
+
+The best programs for finding optimal solutions use an IDA* algorithm
+invented by Richard Korf.  IDA* was not invented specifically for
+solving the cube, but it is well adapted to solving the cube.  Cube
+Explorer 1.5 uses an IDA* algorithm in part.
+
+I will assume that you understand breadth first and depth first
+searches of a search space.  Your program for the 2x2x2 was
+essentially doing a breadth first search  --  all one move sequences,
+all two move sequences, all three move sequences, etc.
+
+Depth first searches generally require much less memory than breadth
+first. Only the positions from your current state to the goal state
+have to be stored.  To do a depth first search of up to nine moves,
+you never have to store more than nine states (well, really ten, the
+original one plus nine more).  However, depth first searches can kind
+of run away with you and can run practically forever.
+
+The first piece of IDA* to deal with this bad aspect of depth first
+searches is called Iterative Deepening depth first (the ID of IDA*).
+You do a depth first search that is first bound at one move, then
+bound at two moves, then bound at three moves, etc.  The procedure
+can seem sort of breadth first instead of depth search, but the
+underlying search really is depth first.  You just bound the search
+and gradually increase the bound.
+
+Iterative Deepening depth first is still too slow for the cube.  Here
+is where the A* bit comes in.  Suppose you were going to do an
+Iterative Deepening search one move deep, then two moves, then three
+moves, etc., but suppose you also knew for sure by some magic that
+the solution is at least twelve moves.  Then, there is no point in
+doing the one move or two move or eleven move search.  You might as
+well start by bounding you Iterative Deepening search at twelve, then
+going on to thirteen, fourteen, etc.
+
+What is this "magic" by which you might know that the solution is at
+least twelve moves?  Korf calls it a pattern data base.  I just call
+it a table.  All it amounts to is that you create a table of
+positions that are a subset of the entire cube  --  say the corners
+only.  For each one of those positions, you calculate how many moves
+there are in the minimal solution.  Then you take your position and
+look it up in the table.  For example, for the 3x3x3 you ignore the
+edges and look up the corners in the table.  If it will require
+twelve moves to solve the corners, based on your table, then it will
+require at least twelve moves to solve the whole cube.  So you start
+your Iterative Deepening search at twelve moves because you know that
+anything less is going to fail.
+
+But then you go one step further and look in your table after every
+move.  For example, you determine that your initial position is at
+least twelve moves from Start, so you commence an Iterative Deepening
+search which is bounded at twelve moves.  You make your first move.
+If the corners are now eleven moves from Start, you let the search
+continue.  But if the corners are now twelve or thirteen moves from
+Start, it will be impossible to find a twelve move solution so you
+cut off that branch of the search and backtrack (you have already
+made one move, so twelve or thirteen more yield a total of thirteen
+or fourteen which is greater than your bound of twelve).
+
+The best IDA* programs run on a fast processor with lots of memory to
+hold a very large table, and a table which is very cleverly
+constructed.
+
+Finishing my note by talking about Cube Explorer 1.5 again, it is a
+two phase algorithm which finds one position intermediate between the
+current state and the goal state.  It breaks the problem down into
+two substeps because it takes so long to solve the problem all in one
+go. But because there is an intermediate step, the solution is not
+necessarily optimal.  It uses IDA* to get from the initial position
+to the intermediate position.  After a suboptimal solution is found,
+it looks for better solutions by making the intermediate position
+further from the initial step.  If it is ever able to solve a
+position all in the first substep, then that solution is proven
+optimal.
+
+>
+> I hope some of you can help with my problems. I also realise that some
+> of my questions may have been answered in past discussions, but I
+> wasn't willing to read through 20 years of archives to find out! If
+> you can direct me to a previous relevant discussion, that would also
+> be appreciated.
+>
+
+I agree that the archives are becoming unmanageable simply because
+there are so many of them.  I don't know what the solution is.  I
+would still urge you to read as much of the archives as possible.
+For this particular subject, look for Kociemba, Cube Explorer, Korf,
+and IDA*.  Also, look up the discussion of mike reid's optimal
+solver, and the very clever table he creates.
+
+----------------------------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+

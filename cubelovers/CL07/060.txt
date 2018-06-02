@@ -1,0 +1,42 @@
+From pbeck@pica.army.mil  Tue May 21 11:10:45 1991
+Return-Path: <pbeck@pica.army.mil>
+Received: from FSAC1.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA22456; Tue, 21 May 91 11:10:45 EDT
+Date:     Tue, 21 May 91 11:03:02 EDT
+From: Peter Beck (LCWSL) <pbeck@pica.army.mil>
+To: cube-lovers@life.ai.mit.edu
+Subject:  bilinski rhombicdodecahedron
+Message-Id:  <9105211103.aa16846@FSAC1.PICA.ARMY.MIL>
+
+
+
+
+I would like help on finding info on the "BILINSKI" rhombic
+dodecahedron.  
+
+BACKGROUND:  The common rhombic dodecahedron is the  KEPLER and its
+diagonals are in the ratio of 1:sqr rt of 2.   The Bilinski has its
+diagonals in the ratio of 1:tau  (ie, the golden section ~ 1.618). 
+ The only reference I have been able to find so far is on page 31 of
+Coxeter's "Regular Polytopes".
+
+
+AREAS OF INTEREST
+..  Is there a proof of why there are only 2 rhombic dodecahedrons?
+..  are there any interesting features of how the Bilinski fills
+space?  Any interesting relationships with other polygons, eg,
+triacontahedron?
+..  Has anybody studied the dissections of the bilinski?  Is there any
+significance that it takes both obtuse and acute rhomboids to
+construct a bilinski while a kepler only requires an obtuse?
+..  Is there a crystal or some other real world object that
+corresponds to the bilinski?
+..  Any ideas on fixturing/jigging to make bilinski's from wood?
+
+
+Thanks for any help.  
+Pete Beck   <pbeck@pica.army.mil>
+
+
+
+
+

@@ -1,0 +1,58 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Fri Oct 28 12:08:29 1994
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01294; Fri, 28 Oct 94 12:08:29 EDT
+Received: from portnoy.canrem.com ([198.133.42.251]) by mail.uunet.ca with SMTP id <86708-3>; Fri, 28 Oct 1994 11:49:16 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA01392; Fri, 28 Oct 94 11:44:45 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1B76FD; Fri, 28 Oct 94 10:52:00 -0400
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Speed Cubing
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.826.5834.0C1B76FD@canrem.com>
+Date: Thu, 27 Oct 1994 21:57:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+Derek Bosch writes:
+> I too, have read the book, Jeff Conquers The Cube in 45 seconds, as
+> well as Minh Thai's book on the cube (he's the world record holder,
+> with 22 seconds as an official world record.  I used to compete back
+> in the cubing days, and could regularly get under 25 seconds, using
+> a strategy of solving the corners, solving the edges on two opposite
+> sides, followed by the middle slice.
+
+
+The "official" world record was set by Minh Thai at the 1982 World
+Championships in Budapest Hungary, with a time of 22.95 seconds.
+
+Keep in mind mathematicians provided standardized dislocation patterns
+for the cubes to be randomized as much as possible.
+
+I think the Guiness Book of Records dropped the entry in the 1985
+edition due to the fact that the contests all dried up.
+
+Interestingly David Allen, the #2 cubist in the United States, also
+uses the Jeff Varasano method. I met him in Buffalo NY in the
+a regional American Cube-a-thon on Sept 18, 1982. (Yes, that long
+ago!)
+
+Did you enter any of the tournaments Derek?
+
+Derek continues:
+> Several people on this mailing list have done serious analysis
+> trying to reach "God's Algorithm", which isn't terribly useful to me.
+> The operators that these analyses generate are really slow to crank
+> out on the cube.  I prefer slightly longer ones, that are more
+> optimized for speed (hand positions, etc).
+
+I can't agree entirely. I use computer generated sequences for a lot
+of patterns and I find them quite useable in some cases. Also the
+< U, R > group processes only use 2 sides, and those I can do
+without moving the cube in space. Usually I rotate them in
+space first.
+
+ -> Mark <-
+ Email: mark.longridge@canrem.com
+

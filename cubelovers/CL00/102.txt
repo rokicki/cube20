@@ -1,0 +1,17 @@
+Date:  11 August 1980 15:17 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: Edge-cubie flipping algorithms
+To:  McKeeman at PARC-Maxc
+cc:  Davis at OFFICE-3, CUBE-LOVERS at MIT-MC
+In-Reply-To:  Message of 11 August 1980 12:51 edt from McKeeman
+
+Yes, indeed, you can express Q as U'DJ', that's legit.  I can't see any way
+you can count (FQ)^4 as more than 24 quarter turns, for thats all it is.
+In the eyes of the people who count turns, not quarter turns, the
+QQ in the middle (4 quarter turns) can be expressed as U^2D^2,
+where U^2 and D^2 each count as one, which could be thus contributory
+to counting the formula as 22 turns, but surely no more than 24 by
+any kind of metric.
+By the way, my description of the left-handed wrench in the
+annotations was in error, it should have been (F'Q)^4, not (FQ')^4.
+(The formula (FQ)^4(QF)^4 is correct as stands).

@@ -1,0 +1,203 @@
+From cube-lovers-errors@curry.epilogue.com  Mon May 27 19:46:08 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA28038 for <cube-lovers-outbound@curry.epilogue.com>; Mon, 27 May 1996 19:46:07 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 23 May 1996 12:53:27 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Compact Cube Representation for Shamir and Otherwise
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.960523123122.94611A-100000@PSTCC6.PSTCC.CC.TN.US>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+I said I wasn't going to write again about Shamir's method until
+I had a working program.  Well, I don't have a working program
+yet but this is only indirectly about Shamir.  Rather, it is
+about how we might represent the cube compactly in a way that is
+easy to work with.  We would like a compact representation that
+is usable by Shamir's method.  But more importantly, we would
+like a compact representation that is easily usable for forming
+compositions in general.  The compact representation I will
+describe is useful in a number of contexts, not just Shamir's
+method.
+
+My standard model is an S24 x S24 model, modeling the corner and
+edge facelets separately and not modeling the face centers.  At
+one byte per facelet, this representation requires 48 bytes per
+position without packing.
+
+David Moews has described a wreath product representation (e.g.,
+23 Feb 1996) which requires 40 bytes without packing.  There are
+8 bytes to describe the position of each corner cubie, and 8 more
+bytes to describe the twist of each corner cubie.  Similarly,
+there are 12 bytes to describe the position of each edge cubie,
+and 12 more bytes to describe the flip of each edge cubie.  This
+representation has the virtue of being 8 bytes smaller than the
+S24 X S24 representation, while still being easy to work with and
+manipulate.
+
+For my very large searches, I always used a supplement
+representation for the external files.  That is, I only stored
+one facelet from each of the 8 corner cubies and one facelet from
+each of the 12 corner cubies for a total of 20 bytes unpacked. 
+(I also packed the 20 bytes into 13 bytes to use less tape, but
+that is not important for this particular story.)
+
+However, I found the supplement representation awkward to
+manipulate, so I always expanded the supplement representation to
+a full S24 x S24 representation inside the program.  None of my
+programs were more than a few K (not a few Meg, just a few K
+because the storage was external), so the extra few bytes were a
+non-issue.  But now that I want to implement Shamir, my programs
+will be very large.  Therefore, I wanted to figure out how to
+manipulate the supplement representation directly.  The
+representation itself is not new, but the technique to manipulate
+it is.  Here is what I have come up with.  I think it is
+applicable to Shamir programs and non-Shamir programs alike.
+
+I will use the corners as an example.  Similar comments would
+apply to the edges.  My standard supplement for the corners is
+the Front facelets and the Back facelets.  The way I number the
+facelets, these are facelets 1 through 4 for the Front and 21
+through 24 for the Back.  In the vector notation we have been
+talking about in this thread, the supplement of the identity is
+[1,2,3,4,21,22,23,24].  1 is mapped to 1, 2 is mapped to 2, 3 is
+mapped to 3, and 4 is mapped to 4.  However, 5 is not mapped to
+21.  Rather, 21 is mapped to 21, 22 is mapped to 22, etc..  You
+have to think of the last 4 indexes as being offset by 16 because
+16 of the facelets are left out.  From this vector, we can
+reconstruct the fact that 5 is mapped to 5, 6 is mapped to 6,
+etc. based on which facelets are part of which cubies.
+
+Composition of these supplement vectors can be hard or easy
+depending on what we are trying to do.  Suppose X is a
+permutation on the corners represented by an 8 byte supplement
+vector and q is a quarter-turn on the corners represented by a 24
+byte permutation vector.  Then, the calculation of Xq more or
+less "just works", and the composition is an 8 byte supplement
+vector.  For some kinds of things you have to worry a little bit
+about the offset of the last 4 indexes, but the computer coding
+is basically very straightforward.  The code even runs faster
+than the code for composing two 24 byte permutation vectors.
+
+But suppose for some reason we need to form qX instead of Xq. 
+The q vector will map into values that simply aren't there in the
+X vector.  The programming symptom will be an out-of-bounds
+subscript.
+
+It doesn't help to use two supplement vectors.  If X and Y are
+both supplement vectors, then neither the product XY nor the
+product YX can be formed.  The same problem occurs anytime a
+supplement vector is pre-multiplied, no matter whether it is 
+pre-multiplied by another supplement vector or whether it is 
+pre-multiplied by a full-length permutation vector.
+
+With some searches you can probably get by with only post-multiplying 
+supplement vectors by full-length permutation
+vectors.  I think you could form a breadth first search tree that
+way by always post-multiplying by full-length vectors q in Q. 
+But I always want to form M-conjugates m'Xm, so I have to be able
+to pre-multiply.  Here is how to do it with supplement vectors. 
+
+As I said, my old programs expand an 8 byte supplement vector for
+the corners into a 24 byte permutation vectors on the corners
+when a position is read from a file into memory.  Two special 24
+byte vectors are used in the process.  One of the 24 byte vectors
+defines which facelet is to the right of each other facelet on
+the corner cubies, and the other of the 24 byte vectors defines
+which facelet is to the left of each other facelet on the corner
+cubies.  So the supplement is expanded by mapping each of the
+8 bytes in the supplement into itself, and in addition by mapping
+each of the 8 bytes into its respective right and left.
+
+These "right of" and "left of" vectors can be identified with the
+permutations which twist each corner cubie right and left,
+respectively.  These permutations are not in the Start orbit. 
+But we can nonetheless observe that both of them commute with
+every other permutation.
+
+I am focusing this example on the corners, but my old programs
+also have to expand a 12 byte supplement vector for the edges
+into a 24 byte permutation vector.  The vector which accomplishes
+this mapping defines for each edge facelet the other facelet
+which is on the same edge cubie.  This permutation can be
+identified with Superflip, and Superflip also commutes with every
+other permutation.
+
+The center of G consists of the identity plus Superflip.  These
+permutations fix the corners and either fix or flip the edges. 
+But the center of the constructable group consists of fixing or
+flipping the edges composed with fixing or twisting right or
+twisting left the corners.  So there are six positions in the
+center of the constructable group, and it is precisely these six
+permutations which are required to make composition of supplement
+vectors work.
+
+I normally write an M-conjugate in E-mail just as m'Xm.  But for
+this example, let me write it as (i)m'Xm, where i is the argument
+of the permutation and where i runs from 1 to 24 for the corners. 
+The trick to make composition of supplements work is going to be
+to write the permutation as something like (i)m'k'Xkm, where k is
+not really a permutation.  Rather, it is some magic to be defined
+below.
+
+The trick is not just for M-conjugation.  It is for pre-multiplication 
+in general.  The Xm part of m'Xm is not a problem;
+it is the m'X part which is a problem.  Similarly, to multiply
+supplement X (or full-length vector X) by supplement Y, the k
+trick would be Xk'Yk, which we could group as X(k'Yk) for
+emphasis.  As with M-conjugation, I will make the argument
+explicit and write (i)Xk'Yk.
+
+But just what is this k?  For the corners, we define k[1] as the
+identity, k[2] as twist all corners right, and k[3] as twist all
+corners left.  We also define a 24 byte vector j which defines
+which corner facelets are in the supplement (a value of 1), right
+of the supplement (a value of 2), or left of the supplement (a
+value of 3).  j is a function, but is not a permutation.  With my
+particular numbering scheme and choice of supplement, j looks
+something like [1,1,1,1,2,3,2,3,......3,2,3,2,1,1,1,1].  That is,
+only the first four and last four facelets are in the supplement. 
+The j vector is used to index k.  For the edges we would define
+k[1] as the identity and k[2] as Superflip.
+
+An M-conjugate would then be calculated as 
+
+    (i)m' k[j[t]]' X k[j[t]] m
+
+for i in 1..24 and where t=(i)m'.  Effectively, k'
+maps (i)m' into the supplement so that X operates only on the
+supplement, and k undoes (untwists and/or unflips) whatever k'
+does.  However, the k-conjugation must be applied on a facelet by
+facelet basis.  k[1] might be used for one facelet, k[2] for
+another facelet, and k[3] for still another.  Nonetheless, since
+each of the k's is in the center of the constructable group, we
+have X=k'Xk for all X, irrespective of which k is used for a
+particular facelet.
+
+It is not strictly necessary, but this procedure would be
+slightly simpler if the facelets were renumbered.  That is,
+renumber the supplement 1 to 8 for the corners and 1 to 12 for
+the edges.
+
+It is easy to see how to construct the tree required by Shamir's 
+method using this supplement representation.  The supplement 
+representation does not reduce the number of potential branches
+out of each node.  But it does reduce the number of levels of nodes.
+I plan to have the branching for the first 8 levels of my tree be
+controlled by the supplement for the corners, and the branching
+for the next 12 levels of my tree be controlled by the supplement
+for the edges.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+

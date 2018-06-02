@@ -1,0 +1,16 @@
+Date: 31 July 1980 1413-EDT (Thursday)
+From: Sandeep.Johar at CMU-10A
+Subject: cube group theory.
+To:  cube-lovers at mit-mc
+Message-ID: <31Jul80 141352 SJ61@CMU-10A>
+
+      In one of the previous letters on the subject of cubing
+there was a letter from some one offering to put together a piece
+on group theory and cubing, I for one would certainly be interested in
+seeing it. When I took my cube apart and tried to put it together
+I wondered as to how many ways there are of putting it together
+so that the cube is unsolvable, i.e. how many equivalence classes
+are there which are 'wrong'.
+Any one worked it out, I would but group theory is unfortunately not
+my strongest subject.
+				Sandeep

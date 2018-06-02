@@ -1,0 +1,95 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Oct 11 18:10:11 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24526; Wed, 11 Oct 95 18:10:11 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R3)
+   with BSMTP id 4678; Wed, 11 Oct 95 13:50:52 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 7014; Wed, 11 Oct 1995 13:50:53 -0400
+Message-Id: <wvmail32.1995oct11.110130.bryan@wvnvm.wvnet.edu>
+Date:      Wed, 11 Oct 1995 13:50:51 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@life.ai.mit.edu>
+Subject:   Re: Using 5 Generators
+In-Reply-To: Message of 10/07/95 at 23:54:00 from mark.longridge@canrem.com
+
+On 10/07/95 at 23:54:00 mark.longridge@canrem.com said:
+
+>This problem was solved by David Benson in Oct. 1979, who was one of
+>the earliest cube pioneers. Dr. Singmaster reports on this in his
+>2nd Addendum of "Notes".
+
+>Let A = R1 L3 F2 B2 R1 L3, then AUA = D1
+
+>AUA = R1 L3 F2 B2 R1 L3 U1 R1 L3 F2 B2 R1 L3   (17 q, 13 q+h)
+
+>Perhaps Jerry will find something shorter.
+
+Well, without seeing the original article, I am not sure if I would
+agree that the problem was solved or not back in 1979.  By that I
+mean that the problem I was proposing to solve was finding a minimal
+solution.  I don't know if the original article claimed that 17q
+was minimal.
+
+I can now confirm that 17q is indeed a minimal solution.  With my
+data base of positions through level 8, I was able to perform half-depth
+searches to confirm that there are no solutions through 15q.  Given the
+existence of a 17q solution, that is sufficient to show that 17q is
+minimal.  But just to be sure, I extended my data base of positions
+through level 9, and with my extended data base I was able to find
+several solutions of length 17q.
+
+I am not quite sure what we should count as a unique solution.  But I can
+report that my search found 16 unique (*not* unique up to conjugacy)
+half-way positions.  I use the term "half-way" advisedly.  The "half-way"
+positions are 9q from Start and 8q from B or vice versa.  I guess you
+could say that the vice versa gives you a total of 32=16+16 half-way
+positions, but the whole concept of "half-way" is pretty slippery
+in this case anyway.
+
+Just because we know that 17q is minimal does not mean that we know
+that 13 q+h is minimal.  I have not done any searches of the q+h case.
+
+With my extended data base, the results of the search with five generators
+are as follows:
+
+     Level         Number of       Local      Branching
+                   Positions        Max        Factor
+
+       0                  1           0
+       1                 10           0           10.000
+       2                 77           0            7.700
+       3                584           0            7.584
+       4              4,434           0            7.592
+       5             33,664           0            7.592
+       6            255,320           0            7.584
+       7          1,933,936           0            7.575
+       8         14,635,503                        7.568
+       9        110,685,344                        7.562
+
+
+One more thing, and perhaps this particular problem can be put to rest.
+I have mentioned several times that I could not figure out how to
+use conjugacy for this particular problem.  Well now I have, although
+it is too late for doing the search.  You certainly cannot use
+M-conjugacy, but you can use a subgroup of M.  The subgroup includes
+four rotations and four reflections.
+
+The four rotations are i, b, bb, and bbb, where we use lower case
+letters to simulate Frey and Singmaster's script notation for rotations.
+For example, b is the whole cube rotation consisting of grasping
+the Back face and rotating the whole cube (not just the Back face)
+clockwise by 90 degrees.  For the reflections, we use Dan Hoey's
+"permutations of face centers" notation.  The four reflections are
+(UL)(DR), (UR)(DL), (UD), and (LR).  To tie the two notations
+together, we could write the rotations as i=(), b=(ULDR),
+bb=(UD)(RL), and bbb=(URDL).  These eight rotations and reflections
+form the subgroup of M which is called Q2 in Dan's taxonomy of
+the 98 subgroups of M.  Hence, we could have used Q2-conjugacy, which
+would have reduced the size of the problem by about eight times.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

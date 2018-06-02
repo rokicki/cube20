@@ -1,0 +1,45 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 26 17:37:28 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA13196
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 26 Nov 1999 17:37:28 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <381F6399.811C15C8@pressenter.com>
+Date: Tue, 02 Nov 1999 16:20:09 -0600
+From: Joe Johnson <jgjohnso@pressenter.com>
+To: David Singmaster <david.singmaster@sbu.ac.uk>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: 5X5X5 challenge
+References: <009E0848.8EC8F5C8.5@ice.sbu.ac.uk>
+
+David Singmaster wrote:
+
+>         On 22 Sep, Dan sais one would discover something interesting
+> about the central pieces of the 5^3.  I think this result is
+> entirely obvious once one thinks about the mechanics of these cubes.
+
+> DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+
+I'm not sure what you and Dan have discovered.
+
+[ Moderator's Note: I should have been less coy.  I thought Joe
+  Johnson might not have discovered that the supergroup contains
+  positions in which a face center is rotated 180 degrees.  I still
+  think this is surprising. It's so easy to rotate the face centers
+  by an amount adding up to an integral number of 360-degree
+  rotations (see 9 January 1981 in the archives).  Does anyone have a
+  short process for rotating two face centers 90 degrees clockwise?
+  --Dan ]
+
+What I have found is that the cross cubies and wing cubies are both
+involved in parity problems. i.e. if you repair the parity of the
+cross cubies then there will be no parity problems with the wing
+cubies, if you leave the parity problem with the cross cubies then
+there will be a parity problem with the wing cubies.  One fix repairs
+both.  The point cubies and edge cubies never have parity problems;
+simple 3 cubie exchanges are all that are necessary to place the point
+cubies (the only cubies that require orientation are the face, corner,
+and edge cubies - the others are automatically oriented correctly when
+they are placed correctly.)
+

@@ -1,0 +1,12 @@
+Date: 3 August 1981 18:07-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+To: CUBE-LOVERS at MIT-MC
+
+The answer to everybody's questions about whether
+the additional identities help my proof is: no.
+My idea depended heavily on the peculiar properties
+of that one identity.  Dan Hoey has compiled a list
+of ALL the 12Q identities by brute forcing down to 6
+twists, we suspect that ZILCH may have found them all,
+but it will take a while to sort throught them to be sure.
+We will let you know the results soon.

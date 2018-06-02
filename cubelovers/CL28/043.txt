@@ -1,0 +1,54 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 26 19:32:13 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA13421
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 26 Nov 1999 19:32:13 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Reply-To: <noel@mud.ca>
+From: "Noel Dillabough" <noel@mud.ca>
+To: "Cube Lovers List \(E-mail\)" <cube-lovers@ai.mit.edu>
+Subject: Sliding Puzzles
+Date: Mon, 8 Nov 1999 22:37:28 -0500
+Message-Id: <000401bf2a64$2ea9f650$020a0a0a@NOEL>
+
+My latest addiction has been sliding puzzles, sequential movement puzzles
+that are very Rubik-like in nature...I have found a couple of places online
+that have are particularly interesting (see below).  I have solved (with the
+aid of a program) 44 of the 49 puzzles, and 4 more are just a matter of time
+(the states are large but not too large).
+
+However one puzzle, the "Climb Pro 24", by Minoru Abe (link below) is beyond
+my program's reach.  It has far too many combinations for my state program
+to solve it.
+
+This is where the cube lovers come in.  How do I design a program to solve
+this puzzle?  Any ideas or algorithms would be appreciated, especially on
+how to reduce the decision tree and know when you've repeated a state
+without keeping all of the states in memory.
+
+Regardless if I ever figure out a solution, I know lots of you will enjoy
+the following,
+
+-Noel
+
+Classic Sliding Puzzles:
+
+http://www.pro.or.jp/~fuji/java/puzzle/slide/V1.0/fuji.index-eng.html
+
+
+Block 10 Puzzles:
+
+http://www.pro.or.jp/~fuji/java/puzzle/slide/V2.0/block10-eng.html
+
+Climb Puzzles:
+
+http://www.johnrausch.com/SlidingBlockPuzzles/cg15-1.htm
+http://www.johnrausch.com/SlidingBlockPuzzles/cg15-2.htm
+http://www.johnrausch.com/SlidingBlockPuzzles/cg15-3.htm
+http://www.johnrausch.com/SlidingBlockPuzzles/cg15-4.htm
+
+This one, Minoru Abe's "Climb Pro 24" is the mother of all sliding puzzles:
+
+http://www.johnrausch.com/SlidingBlockPuzzles/pro24-1.htm
+

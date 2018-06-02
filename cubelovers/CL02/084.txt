@@ -1,0 +1,18 @@
+Date: 8 May 1981 14:30-EDT
+From: David C. Plummer <DCP at MIT-MC>
+Subject: Non-twisting corner moves
+To: Isaacs at SRI-KL
+cc: CUBE-LOVERS at MIT-MC
+
+How about
+
+	L' [(R' DD R) U (R' DD R) U'] L
+
+for moving the top three corners around perserving the top color.
+
+Or,
+	(R' D' R) U' (R' D R) U
+
+For moving three front pieces around, preserving a couple colors.
+
+12 and 8 moves is pretty short...

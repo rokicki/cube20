@@ -1,0 +1,16 @@
+From itg@athena.compulink.forthnet.gr  Fri Apr  7 03:38:26 1995
+Return-Path: <itg@athena.compulink.forthnet.gr>
+Received: from info.forthnet.gr by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10118; Fri, 7 Apr 95 03:38:26 EDT
+Received: from athena.compulink.forthnet.gr by info.forthnet.gr via FORTHnet with SMTP;
+	id AA29859 (5.65c/FORTHNET-1.1); Fri, 7 Apr 1995 10:36:21 +0300 (EET DST)
+Organization:  
+From: Theodoros Emmanouil <itg@athena.compulink.forthnet.gr>
+X-Mailer: SCO System V Mail (version 3.2)
+To: cube-lovers@life.ai.mit.edu
+Subject: subscribe
+Date: Fri, 7 Apr 95 10:34:19 EET
+Message-Id:  <9504071034.aa28143@athena.compulink.forthnet.gr>
+
+subscribe cube-lovers
+Thedore Emmanuel
+

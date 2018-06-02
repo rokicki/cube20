@@ -1,0 +1,18 @@
+Date: 5 Jan 1982 09:38 PST
+From: Lynn.ES at PARC-MAXC
+Subject: Re: The Pyramid
+In-reply-to: ELF's message of 3 Jan 1982 0232-EST
+To: Cube-Lovers at MIT-MC
+
+Nourse's new book "The Simple Solutions to Cubic Puzzles" has a pyramid
+solution.  Aside from the (almost) obvious stuff about the little and big portions
+of each corner, it has specific macros for moving edge pieces from any edge
+position to the top-front (he solves it with a flat surface up), and for flipping an
+edge in place (actually a pair of edges, but the second one is by design an edge
+not yet solved).  Then there are two macros that jumble the edges of the bottom
+large corner until it is right.  The solution is simple to follow as a cookbook
+operation, but not so simple to memorize, involving several macros rather than
+one or two that many people are using.  
+
+/Don Lynn
+

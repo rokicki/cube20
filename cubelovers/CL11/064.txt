@@ -1,0 +1,191 @@
+From hoey@aic.nrl.navy.mil  Mon Dec 27 17:52:28 1993
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23079; Mon, 27 Dec 93 17:52:28 EST
+Received: from sun30.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA08057; Mon, 27 Dec 93 17:52:17 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun30.aic.nrl.navy.mil; Mon, 27 Dec 93 17:52:16 EST
+Date: Mon, 27 Dec 93 17:52:16 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9312272252.AA22049@sun30.aic.nrl.navy.mil>
+To: Cube-Lovers@life.ai.mit.edu
+Cc: Jerry Bryan <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Subject: Group theory basics (Re: Symmetry)
+
+Jerry Bryan <BRYAN%WVNVM.BITNET@mitvma.mit.edu> asked a bunch of
+questions a couple of weeks ago, and I'll try to get to them all.
+The first bunch has to do with some fairly basic stuff, that I thought
+had been pretty well understood since the beginning of the mailing
+list, but maybe we need a refresher, or an explicit statement.
+
+In the message of Tue, 14 Dec 1993 20:50:51 EST, Jerry describes his
+representation of cube positions and transformations.
+
+> In my computer model, the corner facelets are simply numbered from
+> 1 to 24, and any configuration of the corners is an order-24 row
+> vector.  The rotation and reflection operators are also order-24 row
+> vectors, again with each cell simply containing a number from 1 to
+> 24.
+
+That is the most usual way of doing it, but it's important to specify
+what you represent by those vectors.  When I do it, I number the
+corner facelet locations from 1 to 24, and these locations retain
+their numbers through manipulations of the cube.  I use a vector A to
+specify a position in which the facelet whose home location is i has
+been moved to location A(i), for each i.  I use a vector P to specify
+the transformation that moves the facelet in location i to location
+A(i), for each i.  I'll assume you're doing the same, though you
+could, for instance, be representing the inverse of the operators, or
+the locations from which the facelets originate.  Note that a position
+is represented by the same vector that represents the transformation
+that takes SOLVED to that position.
+
+> Well, if P is a rotation operator, you could perform a rotation
+> two ways.  I guess one is pre-multiplication and one is
+> post-multiplication.
+
+>     1)  For i = 1 to 24  B(i) = A(P(i))
+
+I would write this as B = P A, and say that A is premultiplied by P,
+or equivalently that P is postmultiplied by A.  In a general group, we
+could have B = P A where the multiplication is not considered to be
+the composition of permutations.  But it turns out we can restrict our
+attention to permutation groups without loss of generality.  For
+instance, when we are dealing with the supergroup, we can consider the
+orientation of a face center to be a permutation of the corners of the
+face center.
+
+>     2)  For i = 1 to 24  B(i) = P(A(i))
+
+Here B = A P, A is postmultiplied by P, and P is premultiplied by A.
+(Note that the operator or position name appears in the reverse order
+from the prefix format.  Algebraists sometimes avoid this by writing
+(i)B = ((i)A)P.  I kid you not.)
+
+> (As an aside, this illustrates the question I raised in my previous
+> post about "which is the operator and which is the thing being
+> operated on?"  Is P operating on A, or is A operating on P?)
+
+Well, the answer is ``both''.  I agree it's easy to get confused,
+which is why proofs are a good idea.
+
+> Finally, if Q is a reflection (actually, if Q1 is the identity and
+> Q2 is the reflection), then we have
+
+>       For j = 1 to 24 for k = 1 to 24 for m = 1 to 2
+>              for i = 1 to 24 Bj,k,m(i) = Qm(Pj(A(Qm(Pk(i)))))
+
+> I believe this loop calculates Dan Hoey's M.
+
+On the the theory that proofs are a good idea, let's see what this
+loop calculates.  I'm going to put brackets around the subscripts.
+Then I'll substitute "R" for "Q", because I use Q for the set of
+quarter-turns of faces.  Furthermore, I'll use "C" instead of "P",
+because the P[j] are just the elements of C, the group of cube
+rotations.  So you are computing
+
+        B[j,k,m] = C[k] R[m] A C[j] R[m]                    (1)
+
+for j in {1,...,24}, k in {1,...,24}, and m in {1,2}.  Now every
+member of M (the group of cube rotations and reflections) has a unique
+representation as M[n] = C[k] R[m].  Let us define Cind() and Rind()
+as the functions for which M[n]=C[Cind(M[n])] R[Rind(M[n])].  So we
+can write (1) as
+
+        B[j,k,m] = M[n] A M'[n] (M[n] C[j] R[Rind(M[n])])
+
+Note that (M[n] C[j] R[Rind(M(n))] must be an element of C.  So B is a
+set of elements of the form M[n] A M'[n] C[o].  To see that we have
+all such elements, first observe that (M[n]' C[o] R[Rind(M[n])]') is
+an element of C, say C[j].  So equation (1) includes:
+
+   C[Cind(M[n])] R[Rind(M[n])] A C[j] R[Rind(M[n])]
+   = M[n] A (M[n]' C[o] R[Rind(M[n])]') R[Rind(M[n])]
+   = M[n] A M'[n] C[o].
+
+Thus the set of all B[j,k,m] is the set of all M[n] A M'[n] C[o].  Or
+in English, that's the set of all M-conjugates of A, operated on by
+all whole-cube rotations.
+
+> In my data base, I store the minimum of Bj,k,m over j = 1 to 24,
+> k = 1 to 24, and m = 1 to 2.  I tend to call the minimum of Bj,k,m a
+> canonical form.  I am not sure if that is the best terminology.  The
+> minimal element is not any simpler than any other.  It is just that
+> I need a function to choose an element from a set, and picking the
+> minimal element seems very natural.  Any other element would do as
+> well, provided I could always be sure of picking the same element.
+
+It's pretty common terminology.  You might be slightly better off
+calling it a ``representative element,'' as that connotes that the
+element is ordinary except in that it represents the equivalence class
+(like representatives in the U.S. Congress).
+
+> Also, my criterion for equivalence is slightly
+> different (but isomorphic, I think) than the one described by
+> Dan Hoey.  Suppose A and B are two cubes.
+> Rather than mapping A to B or B to A in M, I map both A and B
+> to their respective canonical forms.  A and B are equivalent if
+> their respective canonical forms are equal.
+
+This is straightforward once we show that M-conjugacy is an
+equivalence relation, and B[j,k,m] is an equivalence class.
+If A ~ Representative[A] = Representative[B] ~ B, then by transitivity
+A ~ B.  Conversely, if A ~ B, then Class[A] = Class[B], and therefore
+Representative[A] = Representative[B].  This shows that the criteria
+are equivalent.
+
+> Now, as to the centers.  I still sometimes have a certain doubt
+> about the centers.  They are fixed, so how can you reduce the
+> problem (i.e., increase the size of the equivalence classes)
+> by both rotating the cube and rotating the colors (by both pre-
+> and post-multiplication)?
+
+What you have done is to increase the size of the whole cube problem
+by a factor of 24, by dealing with all rotations of the cube, and the
+equivalence classes expand by the same factor, from 48 to 1152.  This
+has allowed you to calculate something like M-conjugacy classes for
+cube problems that lack face centers.  But the size of the equivalence
+classes doesn't shrink the problem for cubes that have face centers.
+You could have just calculated M-conjugates and got the same answer.
+
+> I am not sure if this answers Dan's question about my model
+> with centers added.
+
+It's clear now.  I hadn't realized you were rotating the cube in space
+when the face centers were present.  I expected that to be a wasted
+effort.  But I am impressed by the way it allows you to shrink the
+database by storing positions together that differ only by whole-cube
+moves of the face centers.  I think it should be possible to shrink
+the database without the effort, though.
+
+In your message of Thu, 16 Dec 1993 15:36:58 EST, on the ``Duality of
+Operators and Operatees'':
+
+> I have mentioned several times my discomfort about "an operator" as
+> opposed to "the thing being operated on" when it comes to groups.  I
+> am never quite sure just which of the two it is that people are
+> talking about, even (or especially) when I am listening to myself
+> talk.
+
+It is hard to keep it straight.  Sometimes we all get it wrong.  The
+best way to avoid errors, as far as possible, is to avoid such
+language and talk about group multiplication.  But then we have to
+explain what is going on with the cube, so we get caught into talking
+about operators again.  It's a discomfort that must be endured.
+
+> The code to translate between the ASCII string X and
+> the EBCDIC string Y is something like
+>     for i = 1 to n Y(i) = T(X(i))
+> where T is the translate table.
+
+Yes, or Y = X T as above.
+
+> I am going to continue reading, but perhaps I could pose a question to
+> Dan Hoey anyway:  is reversing the role of X and T in the TRANSLATE
+> function above essentially the same thing as switching between
+> pre-multiplication and post-multiplication?
+
+Yes.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

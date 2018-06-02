@@ -1,0 +1,82 @@
+From cube-lovers-errors@oolong.camellia.org  Wed Jun 25 17:18:25 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA09126; Wed, 25 Jun 1997 17:18:25 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Wed, 25 Jun 1997 22:14:32 BST
+From: David Singmaster Computing & Maths South Bank Univ <david.singmaster@sbu.ac.uk>
+To: cube-lovers@ai.mit.edu
+CC: notation@vax.sbu.ac.uk, for@vax.sbu.ac.uk, 4^3@vax.sbu.ac.uk,
+        and@vax.sbu.ac.uk, 5^3@vax.sbu.ac.uk
+Message-ID: <009B653D.9EE57540.331@vax.sbu.ac.uk>
+Subject: notation for 4^3 and 5^3
+
+	David Barr has described some moves for the 5^3 using his own notation.
+In the early 1980s, I extended my 3^3 notation to the 4^3 and this can be used
+on the 5^3 as well.  I described this in my Cubic Circular but perhaps it would
+be useful to give it here.
+	I will describe the situation for the 4^3.  On the 5^3, we don't ever
+have to make a slice move of just a central layer.  Further, a combination of
+4^3 and 3^3 processes will solve the 5^3, so we don't really need to label the 
+central layers.
+	Consider the four layers from  L  to  R.  I denote the inner layers
+by  l  and  r.  So the four layers are:  LlrR.  Similarly we have four layers:
+FfbB  and  UudD.  To describe a piece requires more effort than before, but
+each piec lies in three layers and we can describe the piece by these layers.
+E.g.  FUR  is a corner piece;  FUr is an edge piece, lying on the  FU  edge -
+but there are two of these and they are distinguished as being  FUr  and  FUl
+(I usually give the layers in clockwise order, but it is not essential and
+there are times when it is more informative to use the other order.);  Fur  is
+a face-centre piece, the one in the upper right corner of the inner four cells
+of the  F  face.  If you have been paying attention, you will ask about  fur.
+This is one of the body-centre cells, invisible to you unless you make a
+transparent cube!
+	Using the standard notation of  [F, R] = FRF'R', we find a number
+of easy 3-cycles.
+	[[F,R],L] = (FLU,ULB,RFU)
+	[[F,R],l] = (FlU,UlB,DfR)  (I've copied this from my Circular, but
+I wonder if it's right as I thought there'd be some symmetry with the
+preceding??)
+	[[F,r],l] = (Flu,Ulb,Drb)
+In theory, these and a careful consideration of parity are sufficient to
+solve the 4^3 and the 5^3.  However, the parity problem is a bit awkward.
+	In my original approach, I got the corners in place and then all edges
+except leaving the four edges along the  FU  and  BU  edges.  Examine the 
+parity of these carefully.  If they are in an odd permutation, apply
+r^2 D^2 l' D^2 r^2  which 4-cycles these four edges and moves some centres. 
+Once the parity is corrected, there is little difficulty restoring the
+rest of the cube.
+	For the 5^3, once you have paired up the edges, one can solve the
+central edges by treating the 5^3 as a 3^3 with fat slices.
+	To correct a single pair of edges, one can use the following.
+rrDDl'DDrr rrD'RR [[R,U],l'] RRDrr  =  rrDDl'DR'UR'U'l'URU'lRDrr  =
+(UBl,UBr) (Ful,Ubl,Bdl,Ufr) (Fdl,Ufl,Bul,Ubr).  This messes up some centres,
+but they are not too hard to restore.  Indeed applying  
+rrUUr (uurrll)^2 r'UUrr  wil correct the  F  and  B  centres disturbed by the
+above, leaving a  180 degree  rotation of the four  U  centres.
+	After I had developed the notation and solution, a Peter Lees pointed
+out an unexpected feature.  The exchange of upper and lower case letters is
+a duality.  The dual of  URF  is  urf,  while the dual of  URf  is  urF.
+This gives us a Pricniple of Duality:  The dual of a sequence of moves is
+the same process on the dual pieces.  E.g., we had
+[[F,R],l] = (FUl,UBl,DRf),  so  [[f,r],L] = (fuL,ubL,drF).
+	This duality allows one to transfer a number of 3^3 processes to
+4^3 processes and to solve the invisible interior part of the cube!
+	By always moving an outer layer with its inner layer, one is
+obviously simulating the 2^3.  However, if one always moves, say  R  and  l
+together, one is also simulating the 2^3 in eight copies!  Ooops, one
+wants to move  R  and  l'  together.  If one moves  R  and  l  together,
+I think you get eight versions of the 2^3, but each is a reflection of
+its neighbours!
+	If you are tired of thinking about God's Algorithm on the 3^3,
+try the 4^3.  I'm not even sure how to count moves.  E.g., to do  r,  one
+normally does  Rr  and then  R',  so does  r  count as one move or two?
+Likewise, does  Rr  count as one move or two?
+	Enough for now.
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+
+

@@ -1,0 +1,39 @@
+From reid@math.berkeley.edu  Sun May 24 09:11:51 1992
+Return-Path: <reid@math.berkeley.edu>
+Received: from math.berkeley.edu by life.ai.mit.edu (4.1/AI-4.10) id AA05968; Sun, 24 May 92 09:11:51 EDT
+Received: from maize.berkeley.edu.berkeley.edu by math.berkeley.edu (4.1/1.33(math))
+	id AA04669; Sun, 24 May 92 06:10:21 PDT
+Date: Sun, 24 May 92 06:10:21 PDT
+From: reid@math.berkeley.edu (michael reid)
+Message-Id: <9205241310.AA04669@math.berkeley.edu>
+To: Dik.Winter@cwi.nl, anneke@fwi.uva.nl, cube-lovers@life.ai.mit.edu
+Subject: Re:  New upper bound on God's algorithm for Rubik's cube
+
+> Together with Kloosterman's result for their third and fourth phase (which
+> together form Kociemba's second phase) the upperbound on God's algorithm
+> is now 37.
+
+well, at least i had the record for a couple of days!  ;-)
+
+>             Below follows the set of distances for the first phase:
+>   0:          1
+>   1:          4
+>   2:         74
+
+but i don't understand how we can get 74 positions at distance 2 from
+only 4 positions at distance 1.  the 4 positions at distance 1 are
+easy to see: they're the positions obtained from START by the turns
+B, F, L  and  R.  with only 18 different face turns, each should
+extend to at most 18 positions at distance 2.  am i missing something
+obvious here?  (the numbers do seem to add up, though.)
+
+> I conjecture that the maximal distance in phase 2 is at most 16.  There is a
+> lower bound on it of 14.
+
+the pattern (written in permutation notation)  (FR, FL) (UFL, DFR) is
+at distance 15, so that's (also) a lower bound.  however, if the whole
+cube is turned so that the  F  face becomes the  U face, then the new
+pattern is still in the subgroup of stage 2, but is now at distance 14.
+
+mike
+

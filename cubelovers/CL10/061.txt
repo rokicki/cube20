@@ -1,0 +1,22 @@
+From diamond@jit081.enet.dec.com  Thu Oct  7 21:54:26 1993
+Return-Path: <diamond@jit081.enet.dec.com>
+Received: from enet-gw.pa.dec.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21593; Thu, 7 Oct 93 21:54:26 EDT
+Received: by enet-gw.pa.dec.com; id AA17487; Thu, 7 Oct 93 18:54:18 -0700
+Message-Id: <9310080154.AA17487@enet-gw.pa.dec.com>
+Received: from jit081.enet; by decwrl.enet; Thu, 7 Oct 93 18:54:25 PDT
+Date: Thu, 7 Oct 93 18:54:25 PDT
+From: 08-Oct-1993 1054 <diamond@jit081.enet.dec.com>
+To: "dml@hpfrcu03.france.hp.com"@jrdmax.enet.dec.com
+Cc: cube-lovers@life.ai.mit.edu
+Apparently-To: cube-lovers@life.ai.mit.edu
+Subject: RE: help
+
+dml@hpfrcu03.france.hp.com (Patrick DEMICHEL) writes:
+>help
+
+First you turn one side, then you turn another side.  Keep it up, and
+soon you'll be done.
+
+-- Norman Diamond        diamond@jit081.enet.dec.com
+[Digital did not write this.]
+

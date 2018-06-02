@@ -1,0 +1,29 @@
+Date: 9 May 1981 08:47-EDT
+From: Lars S. Hornfeldt <LSH at MIT-MC>
+Sender: LSH0 at MIT-MC
+To: CUBE-LOVERS at MIT-MC, isaacs at SRI-KL
+
+
+Kimmo Eriksson is a 14 year old computer fan who lives in Stockholm.
+  As mentioned, he solved a series of 10 cubes in 47-61 s, average 52,
+using 70-120 moves, average 95 (half-turns and slices counted as one).
+
+* He always starts with the WHOLE yellow layer (regardless of ini-
+  tial state, probably because the regularity allows faster reflexes)
+* Then the middle layer (betw. yellow and white)
+* Then all top-corners into place, then into correct orientation.
+* Finally turn and move the top-edges (requires 0-3 macro-moves).
+
+  He keeps strictly to this scheme, but uses a large set of macros,
+that are different longer varities of the following basic five:
+  For middle: RUR'U'F'U'F
+  Move corner: RU'L'UR'U'LU
+  Turn corner: RUR'URU2R'U2
+  Move edge:   MU2M'UMU2M'UMU2M'  (M moves the Mid-line of the Bottom
+  Move and turn edge:MUM'U2MUM'       up Front, ie = LR' )
+
+  For timing, he starts a stopwatch, grabs the cube, solves it
+- while watching (easy) the watch during the last macro in order to
+read off the time exactly as the last macro is completed.
+  After re-mixing the cube, the procedure is repeated (10 times).
+-lsh

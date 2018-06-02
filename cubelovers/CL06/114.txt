@@ -1,0 +1,22 @@
+From the NY Times 10/14/89 Patents column:
+
+"... ,the new brain teaser is a cube divided into squares, nine on
+each face.  Each square can be rotated in both a horizontal and
+vertical plane, creating billions of possible combinations.  at the
+outset, all squares on each side have the same color.  the goal is to
+mix up the colors and get them back in order.
+
+In addition, however, the new puzzle contains one blank square, which
+can be slid to any location on the cube. This makes the challenge
+easier, because it gives the players another way to move squares from
+one place to another."
+
+So what do you think this puzzle is?  Do cubies rotate or do cubie
+faces rotate?  Is this a sliding block puzzle on the equators like the
+hungarian globe puzzle as sold by nature company etal?  Is this just
+sam lloyd 15 puzzle on the surface of a cube?
+
+pete beck,  <pbeck@ardec>
+
+
+----- End of forwarded messages

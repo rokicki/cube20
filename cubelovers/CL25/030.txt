@@ -1,0 +1,93 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Apr  3 18:45:49 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA16932; Fri, 3 Apr 1998 18:45:48 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Mar 29 18:56:43 1998
+Date: Sun, 29 Mar 1998 18:57:08 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: All the Partial Isoglyphs
+In-Reply-To: <Pine.PMDF.3.95.980329181553.328319A-100000@PSTCC6.PSTCC.CC.TN.US>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.95.980329182138.328319B-100000@PSTCC6.PSTCC.CC.TN.US>
+
+On Sun, 29 Mar 1998, Jerry Bryan wrote:
+
+> Here is a breakdown of how the solid faces can be arranged.
+>
+>       97 - two solid faces, opposite to each other
+>       11 - two solid faces, adjacent to each other
+>       25 - one solid face
+>        1 - three solid faces, mutually adjacent to each other
+>        2 - three solid faces, not mutually adjacent to each other
+>        3 - four solid faces, other two opposite to each other
+>        1 - four solid faces, other two adjacent to each other
+>      ---
+>      140
+>
+
+As this table shows, the vast majority of partial isoglyphs involve two
+solid faces opposite to each other.  The basic reason for this is the
+corners.  If the corners are not fixed, then the only partial isoglyphs
+which are possible have two solid faces opposite to each other.
+Conversely, the 43 partial isoglyphs which do not have two solid faces
+opposite to each other do fix the corners.
+
+In fact, 67 of the partial isoglyphs derive from just 5 of the glyphs,
+namely those which fix the corners.  If the corners of the partial
+isoglyph are fixed, you can think of the edges as consisting of a set of
+strongly constrained edge flips and swaps.  (Be careful -- if the corners
+are fixed, then *any* resultant position can be thought of as just a bunch
+of edge flips and swaps.  But for partial isoglyphs, the possible edge
+flips and swaps are strongly constrained.)
+
+The glyph which yields the most partial isoglyphs is the one my charts
+call BF, whick looks like the following.
+
+X0X
+XXX
+XXX
+
+With this glyph, each face of a partial isoglyph can have at most one edge
+cubie which is swapped or flipped, but on a cube-wide basis there are
+quite a few different ways to arrange for this to happen.
+
+Another interesting glyph which fixes the corners is called BD on my
+charts, and which appears as follows.
+
+X0X
+XXX
+X0X
+
+As an isoglyph, this glyph yields five different patterns on the 6-H
+theme.  As a partial isoglyph, this glyph yields a number of pretty 2-H,
+3-H, 4-H, and 5-H patterns.  You may also think of the H patterns as
+complicated edge swappers/flippers, with exactly zero or two edges
+swapped/flipped on each face, and with the coloring requirements for
+partial isoglyphs being maintained.
+
+The following two glyphs (A7 and AF in my charts) are in the same spirit
+as the H, except that the configuration of the edges on each face which
+are swapped/flipped is slightly different than for the H.
+
+X0X X0X
+0X0 0XX
+XXX XXX
+
+Finally, for completeness in the list of glyphs which fix the corners, the
+glyph called A5 on my charts appears as follows.
+
+X0X
+0X0
+X0X
+
+However, this glyph only yields two partial isoglyphs.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

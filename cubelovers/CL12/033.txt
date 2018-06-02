@@ -1,0 +1,247 @@
+From @wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU  Mon May 30 22:48:07 1994
+Return-Path: <@wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA22299; Mon, 30 May 94 22:48:07 EDT
+Message-Id: <9405310248.AA22299@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 2575; Mon, 30 May 94 21:36:09 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 6359; Mon, 30 May 1994 21:36:08 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Mon, 30 May 1994 21:36:07 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Branching Factors and God's Algorithm Search Trees
+
+At various times, there have been discussions about what the maximum
+distance from Start might be in God's algorithm.  One argument is made
+with respect to worst/best case branching factors.  For example,
+a simple calculation is that the first move has at most twelve
+possibilities and that each subsequent move has eleven possibilities,
+when dealing with Q-turns only.  For Q-turns plus H-turns, the same
+argument would be eighteen possibilities for the first move and seventeen
+possibilities for each subsequent move.
+
+My experience is that search trees tend to develop relatively
+constant branching factors after some sort of variable startup.
+I expect Rubik's cube to be no different.  I just wonder if anyone
+has calculated some number of levels for the full Rubik's cube,
+enough levels for the hypothesized steady state branching factor
+to be achieved.  I have not done so, but if anyone has, it might
+shed considerable light on the question of the maximum distance
+from Start.
+
+Subsets of the cube such as corners only and edges only have been
+calculated.  It is suggestive to examine branching factors for the
+cases which have already been calculated.  The question of "average
+branching factor" is subject to interpretation because it is not
+necessarily clear when the distribution has achieved its steady
+state.  I am including a number of tables giving branching factors
+for the cases which have been calculated already.  I will preface
+the tables with the following comments:
+
+   1. The distributions for edges-only cubes have a variable branching
+      factor during a startup phase, then have a relatively constant
+      branching factor for several levels. and finally the distribution
+      has sort of a tail.
+
+   2. The distributions for corners-only cubes have a variable branching
+      factor during a startup phase, and almost immediately the
+      distribution has a tail.  The number of cases simply is not
+      large enough to support an extended constant branching factor
+      in the middle of the distribution.  It's sort of like a very
+      short airplane flight where it is time to descend about the
+      time the ascent is completed.
+
+   3. I would expect the distributions for a full cube to have an
+      even longer period with a constant branching factor than
+      the distributions for edges-only cubes because the number
+      of cases is so much larger.  There should be plenty of time
+      for a plateau between the startup phase and any tail of the
+      distribution.
+
+   4. There are an equal number of odd and even permutations.  For
+      the cases where you restrict yourself to Q-turns, there are
+      therefore equal numbers of states an even distance from Start
+      and an odd distance from Start.  Hence, the distribution tends
+      either to have two adjacent levels with approximately equal
+      numbers of states, or else tends to have one dominant level with
+      a level on each side of the dominant level with about half
+      the number of states in the dominant level.
+
+   5. For the cases where you allow both Q-turns and H-turns, there
+      tends to be one dominant level which contains most of the
+      of the states.
+
+   6. Those of you who followed all the traffic on this list in
+      December and January will recall that my work with God's
+      algorithm exploits symmetric conjugates in order to reduce
+      the size of the problem.  It turns out that using conjugates
+      does not change the average branching factor once you get
+      past the startup portion of the distribution.  This effect
+      can be a bit hard to see for corners-only cubes because the
+      steady state portion of the distribution is so short, but
+      the effect is very striking for edges-only cubes.  I would
+      expect the effect to be very striking, as well, for the
+      case of the full cube.
+
+      ------------------------------------------------------------------
+
+              2x2x2 Cube using Q-turns and H-turns
+
+    Distance    Number of  Branching    Number of  Branching   Ratio of
+        from        Cubes     Factor       M          Factor   Cubes to
+       Start                           Conjugates            Conjugates
+
+           0            1                       1                  1.00
+           1            9       9.00            2       2.00       4.50
+           2           54       6.00            5       2.50      10.80
+           3          321       5.94           19       3.80      16.89
+           4         1847       5.75           68       3.58      27.16
+           5         9992       5.41          271       3.99      36.87
+           6        50136       5.02         1148       4.24      43.67
+           7       227536       4.54         4915       4.28      46.29
+           8       870072       3.82        18364       3.74      47.38
+           9      1887748       2.17        39707       2.16      47.54
+          10       623800       0.33        13225       0.33      47.17
+          11         2644       0.00           77       0.01      34.34
+
+    Total/Avg     3674160     ? 4.83        77802     ? 3.54      47.22
+
+      ------------------------------------------------------------------
+
+              2x2x2 Cube using Q-turns
+
+    Distance    Number of  Branching    Number of  Branching   Ratio of
+        from        Cubes     Factor       M          Factor   Cubes to
+       Start                           Conjugates            Conjugates
+
+           0            1                       1                  1.00
+           1            6       6.00            1       1.00       6.00
+           2           27       4.50            3       3.00       9.00
+           3          120       4.44            6       2.00      20.00
+           4          534       4.45           17       2.83      31.41
+           5         2256       4.22           59       3.47      38.24
+           6         8969       3.98          217       3.68      41.33
+           7        33058       3.69          738       3.40      44.79
+           8       114149       3.45         2465       3.34      46.31
+           9       360508       3.16         7646       3.10      47.15
+          10       930588       2.58        19641       2.57      47.38
+          11      1350852       1.45        28475       1.45      47.44
+          12       782536       0.58        16547       0.58      47.29
+          13        90280       0.12         1976       0.12      45.69
+          14          276       0.00           10       0.01      27.60
+
+    Total/Avg     3674160     ? 3.05        77802     ? 2.92      47.22
+
+      ------------------------------------------------------------------
+
+              Corners of 3x3x3 Cube using Q-turns and H-turns
+
+    Distance    Number of  Branching    Number of  Branching   Ratio of
+        from        Cubes     Factor       M          Factor   Cubes to
+       Start                           Conjugates            Conjugates
+
+           0            1                       1                  1.00
+           1           18      18.00            2       2.00       9.00
+           2          243      13.50            9       4.50      27.00
+           3         2874      11.83           71       7.89      40.48
+           4        28000       9.74          637       8.97      43.96
+           5       205416       7.34         4449       6.98      46.17
+           6      1168516       5.69        24629       5.54      47.44
+           7      5402628       4.62       113049       4.59      47.79
+           8     20776176       3.85       433611       3.84      47.91
+           9     45391616       2.18       947208       2.18      47.92
+          10     15139616       0.33       316823       0.33      47.79
+          11        64736       0.00         1481       0.00      43.71
+
+    Total/Avg    88179840     ? 4.74      1841970     ? 4.63      47.87
+
+      ------------------------------------------------------------------
+
+              Corners of 3x3x3 Cube using Q-turns
+
+    Distance    Number of  Branching    Number of  Branching   Ratio of
+        from        Cubes     Factor       M          Factor   Cubes to
+       Start                           Conjugates            Conjugates
+
+           0            1                       1                  1.00
+           1           12      12.00            1       1.00      12.00
+           2          114       9.50            5       5.00      22.80
+           3          924       8.11           24       4.80      38.50
+           4         6539       7.08          149       6.21      43.89
+           5        39528       6.04          850       5.70      46.50
+           6       199926       5.06         4257       5.01      46.96
+           7       806136       4.03        16937       3.98      47.60
+           8      2761740       3.43        57800       3.41      47.78
+           9      8656152       3.13       180639       3.13      47.92
+          10     22334112       2.58       466052       2.58      47.92
+          11     32420448       1.45       676790       1.45      47.90
+          12     18780864       0.58       392558       0.58      47.84
+          13      2166720       0.12        45744       0.12      47.37
+          14         6624       0.00          163       0.00      40.64
+
+    Total/Avg    88179840     ? 4.48      1841970     ? 4.29      47.87
+
+      ------------------------------------------------------------------
+
+         Edges of 3x3x3 Cube Without Centers using Q-turns and H-Turns
+
+    Distance    Number of  Branching    Number of  Branching   Ratio of
+        from        Cubes     Factor       M          Factor   Cubes to
+       Start                           Conjugates            Conjugates
+
+           0            1                       1                  1.00
+           1           18      18.00            2       2.00       9.00
+           2          243      13.50            9       4.50      27.00
+           3         3240      13.33           75       8.33      43.20
+           4        42359      13.07          919      12.25      46.09
+           5       538034      12.70        11344      12.34      47.43
+           6      6666501      12.39       139325      12.28      47.85
+           7     79820832      11.97      1664347      11.95      47.96
+           8    888915100      11.14     18524022      11.13      47.99
+           9   8056929021       9.06    167864679       9.06      48.00
+          10  27958086888       3.47    582489607       3.47      48.00
+          11   3883792136       0.14     80930364       0.14      47.99
+          12         8827       0.00          314       0.00      28.11
+
+    Total/Avg 40874803200    ? 12.26    851625008    ? 11.99      48.00
+
+
+      ------------------------------------------------------------------
+
+              Edges of 3x3x3 Cube Without Centers Using Q-turns
+
+    Distance    Number of  Branching    Number of  Branching   Ratio of
+        from        Cubes     Factor       M          Factor   Cubes to
+       Start                           Conjugates            Conjugates
+
+           0            1                       1                  1.00
+           1           12      12.00            1       1.00      12.00
+           2          114       9.50            5       5.00      22.80
+           3         1068       9.37           25       5.00      42.72
+           4         9759       9.14          215       8.60      45.39
+           5        88144       9.03         1860       8.65      47.39
+           6       786500       8.92        16481       8.86      47.72
+           7      6916192       8.79       144334       8.76      47.92
+           8     59623239       8.62      1242992       8.61      47.97
+           9    495496593       8.31     10324847       8.31      47.99
+          10   3695351994       7.46     76993295       7.46      48.00
+          11  17853871137       4.83    371975385       4.83      48.00
+          12  18367613703       1.03    382690120       1.03      48.00
+          13    395043663       0.02      8235392       0.02      47.97
+          14         1080       0.00           54       0.00      20.00
+          15            1       0.00            1       0.02       1.00
+
+    Total/Avg 40874803200     ? 8.80    851625008     ? 8.63      48.00
+
+      ------------------------------------------------------------------
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

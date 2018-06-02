@@ -1,0 +1,107 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed May  5 14:48:26 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA26205
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 5 May 1999 14:48:25 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Algorithm for the Antislice Group
+Date: 4 May 1999 14:11:57 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7gmv7d$ncj@gap.cco.caltech.edu>
+
+In a small fit of playing around last week, I finally worked out a
+method of solving the Antislice Group.
+
+Of course, God's Algorithm is known, but since it's pretty hard for
+me to memorize it, here's mine.
+
+For those of you that don't know, the antislice group is all
+configurations that the cube can be in, provided that the only
+move you make is FB, with rotations and reflections.
+
+So, with fixed centers, the only allowed moves are FB, RL, and UD.
+I'll abbreviate these to F, R, and U.   I'll even use the "clockwise
+quarter turn" metric, which means that F' = FFF is three moves, not one.
+
+Okay.  The algorithm has four steps:
+ A.  Get the cube to be a subset of the half-face turn group.
+      (up to 4 moves)
+ B.  Match the corners.
+      (up to 6 moves)
+ C.  "HOt HOt HOt" (double-slice group).
+      (up to 12 moves)
+ D.  Solve the cube.
+      (up to 6 moves)
+
+This is a maximum of 28 moves.  In practice, one can often avoid future
+extra moves by modifying the algorithm slightly.
+
+A.  Get the cube to be a subset of the half-face turn group.
+
+  This means that the UD faces only contain the UD colors, the FB faces
+  only contain the FB colors, and the RL faces only contain the RL colors.
+  Here's how to do it:
+
+ A0.  Pick any set of colors on opposite face centers.  Let's call it the
+  color "grud".  (For instance, if blue is opposite white on the solved cube,
+  "grud" can mean "blue or white".)  We'll try to solve "grud" first.
+ A1.  Find a face with grud at the corners and reorient the cube
+  so that it is the U face.
+ A2.  If the U center is grud but none of the U edges are grud, perform
+  R, repeat step A1, and go to step A5.
+ A3.  If the U center is not grud but all of the U edges are grud, then
+  either the F center is grud or the R center is grud.  If the F center is
+  grud, perform F; if the R center is grud, perform R.  Then repeat step
+  A1 and go to step A5.
+ A4.  If the U center is grud and two of the U edges are grud (so there
+  is a grud "H" shape on the U side), then either F has two grud edges or
+  R has two grud edges.  If the former, perform F; if the latter, perform R.
+  Then repeat step A1 and go to step A6.
+ A5.  If the U center is not grud, two of the U edges are grud, and
+  every face has some grud on it, perform U and go to step A7.
+ A6.  If the U center is not grud and none of the U edges are grud,
+  either the F center is grud or the R center is grud.  If the F center is
+  grud, perform F; if the R center is grud, perform R.  Then repeat step
+  A1 and go to step A7.
+ A7.  If the U center is not grud, two of the U edges are grud, and
+  either F or R does not have grud on it, then perform F or R (whichever
+  one did not have grud on it), repeat step A1, and go to step A8.
+ A8.  The U face should now be all grud.  If the other four faces are
+  "unsolved" (have colors of adjacent faces), perform U and it should
+  be solved.
+
+B.  Match the corners.
+
+ In other words, does each face have four corners of the same color?  If so,
+ go on to step C.  Otherwise, at least one face will have four corners of
+ the same color.  Orient the cube so that it is the U face, and
+ then perform FRFRFR.  This should match the corners.
+
+C.  "HOt HOt HOt" (double-slice group)
+
+ This step is to get rid of any face that looks like an "H" (all one color
+ except for two opposite edges), an "O" (all one color except for the
+ center), or a "t" (all one color except for the corners).  This may
+ have to be done up to three times, and after they are removed
+ the cube should be in the double-slice group.
+
+ Orient the cube so that the top face is "HOt".  Then, perform FRRF.
+ Repeat until no faces are "HOt".
+
+D.  Solve the cube.
+
+ The cube should now be in a very easy to solve state, if not already solved
+ already.  If the cube is not already solved, there must be some
+ corner which does not match an edge next to it.  Orient the cube so
+ that said corner is the UFR corner and the edge is the RU edge.  Then,
+ perform FF.  Repeat until the cube is solved.
+
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+..make lemonade and hope it also gives you a source of protein and vitamin A.
+

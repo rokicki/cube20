@@ -1,0 +1,37 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Mar 17 11:43:37 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA05013; Tue, 17 Mar 1998 11:43:37 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Mar 15 06:19:03 1998
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Blindfold Cube-solving
+Date: 15 Mar 1998 11:17:40 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <6egdck$cvj@gap.cco.caltech.edu>
+References: <cube-lovers.v667ljbvbk.fsf@colon.dev.ampersand.com>
+
+The Moderator wrote:
+>[ Moderator's note: You'll notice this is a different topic.  Perhaps
+>  Wei-Hwa Huang should consider his problem "memory solving" rather
+>  than "blindfold solving".  I've heard that John Conway has a good
+>  memory method, I think requiring five peeks (cf Roger Frye, 20 Oct
+>  1981).  There are also several mentions of tactile cubes in the
+>  archives. ]
+
+I used the term "blindfold solving" patterned after "blindfold chess",
+where two players merely recite moves to each other, using no actual
+pieces or board.  
+
+As far as "solving in the dark" goes, it reminds me that I have a cube
+in which under certain lamps, the yellow and white colors are 
+indistinguishable.  Solving such a cube can occasionally give a few 
+trip-ups!
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+Smoking cigarettes are bad for you, so smoking cigarettes is bad for you.
+

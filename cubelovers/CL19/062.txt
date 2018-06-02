@@ -1,0 +1,94 @@
+From hoey@aic.nrl.navy.mil  Fri May  3 12:15:04 1996
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05466; Fri, 3 May 96 12:15:04 EDT
+Received: from sun34.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA19461; Fri, 3 May 96 12:14:25 EDT
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun34.aic.nrl.navy.mil; Fri, 3 May 96 12:13:14 EDT
+Date: Fri, 3 May 96 12:13:14 EDT
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9605031613.AA08766@sun34.aic.nrl.navy.mil>
+To: Dale Newfield <DNewfield@virginia.edu>, cube-lovers@ai.mit.edu
+Subject: Re: TripleCross by Binary Arts
+In-Reply-To: <Pine.SUN.3.90.960502112226.7956E-100000@dot.cs.Virginia.EDU>
+
+Dale Newfield writes about the Binary Arts puzzle TripleCross.  In
+case anyone in cube-lovers hasn't seen it, it's a nice mechanical
+puzzle involving the permutation of 18 pieces.  Stripped of the
+mechanical parts, it has 18 sliding pieces in an array shaped like:
+
+               1  2
+   3  4  5  6  7  8  9
+  10 11 12 13 14 15 16
+     17 18
+
+Pieces 8, 9, 15, 16, 17, and 18 are distinguishably marked.  Pieces
+3, 4, and 5 are marked identically.  The remaining nine pieces are
+unmarked.
+
+Pieces are permuted by a plunger-like action.  One kind of plunge is
+to move pieces 3-16 left or right one unit.  The other is to move the
+second and third columns (4,5,11,12,17,18) up one unit while
+simultaneously moving the fifth and sixth columns (1,2,7,8,14,15) down
+one unit.  At the end of any process, we it is traditional to restore
+both plungers to their original position.  Calling the horizontal
+plunger positions Left, Center, and Right and the vertical plunger
+positions Up and Down, we may reduce any process to a sequence of ULDC
+and URDC and their inverses LUCD and RUCD.  Cycle forms for the first
+two are
+
+    ULDC = (1,7,14,15,16,9,2)(4,5,6,13,18,17,11) and
+    URDC = (1,2,8,15,14,13,6)(3,10,17,18,12,5,4).
+
+Since these are both even permutations, it's clear the group must be a
+subgroup of A18. GAP confirms that all 18!/2 positions are reachable.
+
+Dale writes:
+
+> ... I've been doing most of my investigations 
+> with respect to a fairly arbitrary subgroup--that of distinguishable 
+> positions (On the actual puzzle there are 9 indestinguishable blank 
+> tiles, and 3 indestinguishable tiles that each contain one orange dot).
+> In this group there are just under 3 billion possible positions: 
+> 18!/(9!*3!)....
+
+Right, though this is not actually a group, but a collection of
+cosets.  For instance, you could have two indistinguishable
+manipulations that would provide distinguishable outcomes when
+preceded by some other manipulation.
+
+Dale writes of his work on a breadth-first search:
+
+> ... I can encode a position (theoretically ~31.5 bits of
+> information) into a 32 bit unsigned long, along with a 2 bit number
+> representing which direction to go to get to start.
+
+There is a more compressed approach that has proven valuable with some
+of the smaller cubes.  The idea is to use the 32-bit number as the
+index into a large vector of distances.  Initialize all the distances
+to -1, set the distance of SOLVED to zero, and repeatedly scan the
+whole array checking neighbors of positions of distance D; if their
+distance is -1 set the distance to D+1.
+
+This procedure admits some useful variations.  For one thing, you can
+store D mod 3 in two bits, with a fourth value in place of -1.  This
+reduces the storage to 735 megabytes.  Also, instead of relying on
+your virtual memory system, you can store the vector in a big
+random-access file (or several files).  In both cases, it's probably
+easiest to use bit-fields of the index to specify which file (if
+multiple files), which block of the file (choose a useful power of
+two), which byte in the block, and which part of the byte (if packed).
+Third, it may be better to generate lists of a few thousand neighbor
+indices, sort them, and then scan for neighbors, to reduce thrashing.
+
+If you implement this, I'd be interested in knowing:
+
+    Number of positions at each distance,
+    Maximal-distance positions (up to ten or twenty),
+    Number of local maxima at each distance (these show up as
+        positions none of whose neighbors get set),
+    Number of nonstrict local maxima at each distance (i.e. which have
+        neighbors at the same distance).
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

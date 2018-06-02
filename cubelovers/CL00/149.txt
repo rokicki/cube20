@@ -1,0 +1,14 @@
+DPC@MIT-AI 09/17/80 17:02:00 Re: cube mode on lisp machines
+To: cube-lovers at MIT-MC
+cube mode has been fixed (at least temporarily) to work in
+the new window system on the lisp machines.  to invoke it:
+
+(load "bsg;cubpkg")
+(cube)
+
+
+it is self explanitory once you get in.  have fun.
+
+-dpc
+
+

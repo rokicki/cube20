@@ -1,0 +1,54 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Sat Dec 25 22:48:40 1993
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20316; Sat, 25 Dec 93 22:48:40 EST
+Message-Id: <9312260348.AA20316@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 2435; Sat, 25 Dec 93 22:48:38 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 7378; Sat, 25 Dec 1993 22:48:38 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 3493; Sat, 25 Dec 1993 22:46:06 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Sat, 25 Dec 1993 22:46:06 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Withdrawal of Proposal
+
+I wish to withdraw, for the time being, my proposed answer to Dan
+Hoey's question about how large is the cube group when symmetries
+are taken into account.  Notwithstanding two rounds of "correction",
+I believe my proposal is fundamentally incorrect, and it will take
+some time to come up with something better.
+
+I believe that my proposed approximation is incorrect by a factor
+of 24.  That is, my proposed approximation would be correct for
+corners plus edges (without centers), but would need to be
+multiplied by 24 in order to be correct for corners plus edges
+(with centers).  My proposed approximation was
+4.3 * 10^19 / (24*24*2).  I now believe it should be
+4.3 * 10^19 / (24 * 2), with the former figure correct only if
+centers are omitted.
+
+Secondly, I believe that my proposed procedure to calculate an
+exact value from the known sizes of corner and edge groups is
+incorrect.  My procedure would be correct if all equivalence classes
+had exactly 1152 elements.  But they don't.  It is not presently
+clear to me whether the size of the equivalence classes when
+corners and edges are combined can be calculated from the known
+sizes of equivalence classes for corners and edges separately,
+or whether a computer search will have to be performed for the
+case where corners and edges are combined.
+
+I will get back to this in a week or two.  In the meantime, my
+apologies if I have wasted your time, and I look forward to
+any words of wisdom that any of you all might have.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

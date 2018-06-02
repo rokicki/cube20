@@ -1,0 +1,21 @@
+Date:  17 July 1980 09:40 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Re: confusion
+To:  Alan Bawden <ALAN at MIT-MC>
+cc:  Lauren at UCLA-Security, CUBE-HACKERS at MIT-MC
+In-Reply-To:  Message of 17 July 1980 01:23 edt from Alan Bawden
+
+For the record, Erno^H" Rubik is the hungarian teacher of
+architecture and design at some Budapest equivalent_high_school
+, who invented the Cube. Apparently he has a solution,
+but it is not a particularly good one.  I would also like to add to
+ALAN's note that given my method or ALAN's method, I have never
+seen either take longer than 5 minutes (I promise clocked
+solutions in under 4 and have taken much less) and Singmaster
+has heard of solutions in 2 minutes, but I find this difficult to believe.
+
+I think I can also assert that most of the certified Cubemeisters
+did NOT use a computer in solving it, although it can be of great help.
+
+For the record for the purposes of this list, my algorithm
+is implemented in the :CUBE program that runs on all ITS's.

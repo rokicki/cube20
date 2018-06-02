@@ -1,0 +1,51 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Nov 13 22:28:12 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA05354; Wed, 13 Nov 1996 22:28:12 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <199611140236.AA29041@world.std.com>
+To: "cube-lovers@ai.mit.edu" <cube-lovers@ai.mit.edu>
+Subject: Re: Square 1
+Date: Wed, 13 Nov 96 22:37:52 -0500
+From: michael <mcmj@world.std.com>
+X-Mailer: E-Mail Connection v2.5.03
+
+-- [ From: michael * EMC.Ver #2.5.02 ] --
+
+Whoops! the flip is done with the right hand keeping the left side of the
+puzzle stationary, if that was not already clear.  Doing it with a left hand
+twist does a double double switch of edge-wedge and corner-wedge pairs.
+
+Sorry for the errata post on this. Maybe I should add something else to
+avoid the complete wast of bandwidth.  
+
+Since he asked... The only thing I know about confirmed maximal moves for
+Square 1 is that any possible shape can be put back to two squares with at
+most 7 flips, and only one configuration requires that many moves.  That's
+the one with a square on one side (CECECECE) and the CEECECCE shape (C=
+corner wedge, E=edge-wedge) on the other.  Satisfyingly symmetric antipode.
+
+Corrected permutation of 3 edge wedges:
+
+>T+n = rotate top n/12 of a turn counterclockwise, as seen from top..
+
+>T-n = ..........................clockwise............
+
+>B+n, B-n are the same for the bottom face when looking at it from the
+bottom. 
+>
+>F = flip through center slot. **** with right hand.****
+>
+>Try this:
+
+>F T+3 F T-1 B-1 F T-2 B+1 F T-3
+
+>F T+3 F T-1 B-1 F T-2 B+1 F T+3
+>
+
+					Mike Masonjones.
+					mcmj@blazetech.com
+
+
+
+

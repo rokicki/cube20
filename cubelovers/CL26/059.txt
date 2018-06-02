@@ -1,0 +1,21 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Dec  4 17:13:44 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA06366
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 4 Dec 1998 17:13:43 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <36683B51.A50833E4@switchview.com>
+Date: Fri, 04 Dec 1998 14:43:13 -0500
+From: Michael Swart <Michael.Swart@switchview.com>
+Organization: Switchview
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: (5x5x5) edge parity corrections
+References: <199812040458.XAA26116@Twig.Rodents.Montreal.QC.CA>
+
+I got this from the archives, it may be relevant to repost it. It's a
+way of solving the parity problem:
+r2 U2 r l' U2 r' U2 r U2 r l U2 l U2 r U2 l r2 U2
+I'm confident you can't do too much better than this.
+Mike
+

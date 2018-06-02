@@ -1,0 +1,47 @@
+Date:  6 Jan 1982 1024-PST
+From: ISAACS at SRI-KL
+Subject: drive ya nuts
+To: cube-lovers at MIT-MC
+
+  The numbers on my "Drive Ya Nuts" are as follows (starting from 1 and reading
+clockwise: 123456, 143652, 162453, 164253, 165432, 165324, and 146235.  As you
+can see, each "nut" is unique.
+  There are several related puzzles, including:
+  "Japanese Mind Bender", which is logically identical to "Drive Ya Nuts", e
+except it used colors instead of numbers, and each hexagon looks like a small
+circus tent.
+  "Super Dominos", 4x6 squares, each divided diagonally into four sections, and
+colored in all possible ways with 3 colors (yellow, orange, and brown).  Object
+is to arrange the squares in a 4x6 array, with adjacent edges of matching
+colors, and the border to be only one color.  It claims there are about
+12000 different solutions, a computer generated number.  I find it difficult to
+find even one.
+  "Colored Squares Puzzle", A magnetic version of Super Dominos.  They also
+suggest a second puzzle as above, but with 2 colors around the edge.
+  "Colored Triangles Puzzle", also magnetic (a match for "Colored Squares"),
+this one has the 3 colors on 24 triangles, arranged in a hexagon.  Same problem,
+though.
+  "Try Nine" is octagonal pieces with numbers (similar to "Drive Ya Nuts"),
+to be arranged in a 3x3 lattice such that numbers match vertically, horizontally
+, and diagonally.  That is, the square spaces between the octagons have opposite
+ edges with the same number.
+  "Square Crazy" or "Le Carre fou! fou!", a new puzzle from Montreal (If
+anyone wants one, I can give you the address).  It is 9 cardboard square
+"cards", each of which has half a fish on each edge (either the head or the
+tail), and each fish is one of 3 or 4 colors.  So direction and color has to
+match up at each edge of the 3x3 square.  I met the inventer, and he says
+he used a computer to ensure there is only one solution.
+  "Its Knot Easy" has 16 square plastic pieces to be arranged in a 4x4 array,
+so that the picture of a rope running through the pieces forms a continuous loop.
+  And many more.  Including a dodecahedron whose faces turn, to try to get a
+continuous loop running through it, and a version of 3x3 squares which uses
+heights instead of colors.
+  I think all the "Instant Insanity" type of puzzles are also related to this.
+What we need are some non trial-and-error methods of solution, as well as
+algorithms to tell if the solution is unique.  
+  By the way, I am planning to make a Rubik's cube with 9 colors, with a
+solution having 9 different colors on each face.  The question is, how to 
+design it so it is solvable (preferably not just by trial-and-error), and
+so there is a unique solution.
+--- Stan Isaacs
+-------

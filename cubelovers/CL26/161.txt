@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar 15 16:49:33 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA29195
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 15 Mar 1999 16:49:32 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <36E8B44F.3A68D055@erco.com>
+Date: Fri, 12 Mar 1999 07:29:35 +0100
+From: "michael ehrt" <m.ehrt@erco.com>
+Reply-To: m.ehrt@erco.org
+To: cube-lovers@ai.mit.edu
+Cc: der Mouse <mouse@rodents.montreal.qc.ca>
+Subject: Re: Oddzon version of the cube
+References: <199903101543.KAA28632@Twig.Rodents.Montreal.QC.CA>
+
+> Now, I just need to do that with one of the 5-Cubes I have, the one
+> that's suffering from the Dread Orange Sticker Disease; it's already
+> lost one orange sticker completely, and about four more are so loose
+> that only a piece of masking tape is keeping them with the Cube.
+> (Assuming I can figure out how to get it apart non-destructively.)
+
+That's not a big problem. Underneath each center piece there's a screw
+(just like in some (or all?) 3x3s, although we don't need to open it to
+take it apart). Just open one of them and the whole thing comes apart.
+And if you've never taken it apart, enjoy the beautiful mechanism.
+Putting it together again is a pretty nice puzzle itself :-)
+
+Michael
+

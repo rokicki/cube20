@@ -1,0 +1,193 @@
+Date: 25 September 1981 03:11-EDT
+From: Chris C. Worrell  <ZILCH at MIT-MC>
+Subject: Poll results
+To: CUBE-LOVERS at MIT-MC
+
+Here are the results of the CUBE-POLL.
+
+DATE      AVG.   WORK    WHEN  #   #
+REPLY AGE SOLVE  TIME    GOT   OWN DIED   OCCUPATION
+          (MINS)
+------------------------------------------------------------
+8/28  15  --     --      4/81  1   0      STUDENT
+9/7   16  --     --      9/81  1   0      STUDENT
+9/8   18  3-3:15 1.5-2m  9/80  2   .75    STUDENT
+9/24  19  1:40   <10h    7/80  0   0      UG-ENG
+8/17  20  4      1w      12/79 1   0      UG-CS/EE
+8/29  20  1:50   1w      7/81  2   0      UG
+8/25  22  1:30   ?       6/80  7   0      COMP. ANALYST
+8/19  22  10 unreliably  7/81  2   0      HACKER
+8/15  24  4      2d      1/80  1   0      PROGRAMMER/GRAD-CS
+8/17  25  2      40h     6/80  4   0      PROGRAMMER/GRAD-PHYS
+8/17  27  4      2-3w late78/79 2  0      HACKER/RECENT G.-CS
+8/15  28  10-15  30h since start 2 0      PROGRAMMER
+8/17  30  10     ?       5/80  1   0      TEACH/PROGRAMMER
+9/11  30  5-10   50-60h  12/80 1   0      TEACHER-CS
+8/15  31  2:15   8d      2/80  4   0      HACKER
+8/18  31  5      2w      5/80  2   0      COMP. SCIENTIST
+8/24  38  2      100h    5/80  4   3      PROFFESSOR
+8/31  39  3      3d    fall80  1   0      ROBOTICS RESEARCH
+8/24  41  3      ?    early79  24  0      COMP. ANALYST
+(the 24 cubes owned is mostly non-standard ones)
+
+DEAD CUBES:
+Many people replied that none of their cubes have died on them
+though some admit that some of their cubes are in pretty bad
+shape, or they have gotten additional cubes to keep their old
+ones from dying.
+One person reported that he has a cube which still works, even
+though it got left in a hot car, and got partially melted
+so is now some what surrealistically distorted.
+(I wonder what the temperature was)
+
+
+METHODS (INDEXED BY AGE(DATE-REPLIED)):
+18.    CORNERS,"MIDDLE-RING",TOP-SIDES,BOTTOM(MAY MESS UP
+       TOP),?
+19.    TIME-EFFICIENT:
+        U-EDGES,U-CORNERS,MIDDLE-SIDES,D-EDGES-ORIENTED,
+        D-EDGES-POSITIONED,D-CORNERS-POSITIONED,
+        D-CORNERS-ORIENTED
+       MOVE-EFFICIENT
+        U-EDGES   20
+        U-CORNERS 28
+        MIDDLE-SIDES    46 (primary target for improvement)
+        D-SIDES   14
+        D-CORNERS 20
+           TOTAL=128qtw
+20.(8/17)
+       2 METHODS
+        BOTTOM,MIDDLE,TOP SLICES
+        4-CORNERS,8-CORNERS,BOTTOM,TOP,MIDDLE
+20.(8/29)
+       SOLVE GREEN FACE,OPPOSITE CORNERSIN CORRECT ORIENTATION
+       OPPOSITE CORNERS IN CORRECT POSITIONS,OPPOSITE SIDES IN
+
+       CORRECT POSITIONS,MIDDLE LAYER
+       ABOUT 150qtw MAX.
+22.(8/25)
+       TOP 4 CORNERS,BOTTOM 4 CORNERS PLACED, ..ORIENTED
+       EDGES PUT INTO PLACE IN PAIRS
+22.(8/19)
+       TOP(EDGES THEN CORNERS),MIDDLE,BOTTOM
+24.    MOVE AND TIME EFFICIENT:
+        TOP CORNERS  22
+        BOTTOM CORNERS POSITION 26
+        " " ORIENTATION  24
+        TOP EDGES   40
+        BOTTOM EDGES   68
+        CENTERS 8 (initial posn of corners is by convenience)
+        MIDDLE EDGES POSITION 20
+        " "  24
+         TOTAL=232qtw
+25.    TOP,MIDDLE,BOTTOM CORNER ORIENTATION,BOTTOM EDGE
+       ORIENTATION,BOTTOM CORNER POSITION,BOTTOM EDGE POSITION
+27.    TOP CORNERS,TOP EDGES,3 MIDDLE EDGES(POSITION,POSSIBLY
+       ORIENTATION),POSITION OTHER CORNERS,ORIENT OTHER
+       CORNERS,POSITION OTHER EDGES,ORIENT OTHER EDGES
+28.    BOTTOM LAYER,MIDDLE SIDES,ORIENT TOP SIDES,TOP CORNER
+       POSITION, ..ORIENTATION,POSITION TOP SIDES
+30.(8/17)
+       SOLVE TWO LAYERS SIMULTANEOUSLY, THEN THIRD
+30.(9/11)
+       UPPER FACE EXCEPT ONE EDGE,LOWER CORNERS POSITIONED,
+        ..ORIENTED,LOWER EDGES,LAST UPPER EDGE,MIDDLE
+       POSITIONED, ..ORIENTED
+31.(8/15)
+       TOP CORNERS,TOP EDGES,BOTTOM CORNERS ORIENTED,
+        ..POSITIONED,BOTTOM EDGES,MIDDLE POSITIONED,
+        ..ORIENTED
+31.(8/18)
+       TOP CORNERS,TOP EDGES,(TURN CUBE OVER),TOP CORNERS
+       POSITIONED, ..ORIENTED,REMAINING EDGES POSITION,
+        ..ORIENTED
+38.    2-METHODS
+        3 CONSECUTIVE LAYERS
+        CORNERS FIRST (FOR SPEED)
+       ONE OF THESE IS 120qtw
+39.    TIME
+        CORNERS,BOTTOM,MIDDLE,TOP
+       MOVE
+        CORNERS,EDGES IN RANDOM ORDER
+        AVERAGES 75qtw    <WORST CASES WERE NOT MENTIONED>
+41.    2 METHODS
+        UPPER EDGES,UPPER CORNERS,(TURN OVER),MIDDLE,
+         ORIENT EDGES,ORIENT CORNERS,PLACE CORNERS,PLACE
+         EDGES
+        UPPER EDGES,3 UPPER CORNERS,3 MIDDLE EDGES
+         LAST UPPER CORNER,LAST MIDDLE EDGE,(TURN OVER)
+         ORIENT EDGES,ORIENT CORNERS,PLACE CORNERS,PLACE
+         EDGES
+
+
+
+
+As far as I can tell no two people who reported in detail
+solve the cube in quite the same way.
+
+
+INTRESTS IN THE CUBE:
+ investigation of identities to calculate GOD's number
+ application to the teaching of group theory
+ training of mind and logic,  something to do
+ variations (tetrahedron, 10-sided, interesting faces)
+ what different solving methods are
+ analogy with quark confinement
+ Combinatorial algorithims
+ introducing others to the cube
+ how people learn to solve cubes (AI)
+ pretty patterns,  cube graphics(for fun)
+ determining GOD's number
+ Showmanship,  flaming about cubes in public
+ cubing to attract or repel people
+ analytic, as opposed to heuristic or exhaustive aids to
+   solve the cube
+
+
+
+NON-CUBING INTRESTS OF PEOPLE:
+ almost any types of puzzles,  science fiction  
+ COMPUTERS!!!, ADVENTURE <Computerized Fantasy Simulation)
+ soccer, electronics, Folk dancing, juggling, Chess
+ hiking, hacking, biking, photography
+ collecting/studying/sometimes even solve puzzles
+ Lewis Carroll, archeolgy, linguistics, magic
+ recreational math, D&D, wine-tasting
+ SEX an DRUGS an ROCK an ROLL
+ ANSWERING SILLY QUESTIONS ON QUESTIONAIRES
+ guitar, various aspects of Computer Science
+ mathematical logic, set theory, topology
+ food, the investigation of earth people
+ musician, GO
+ computer programs for GO/chess/othello/similar 2-player games
+ computer assisted or mediated simulation games
+
+
+RANDOM COMMENTS:
+Some people felt that the reason I might not have gotten
+many responses was because of the tediousnes and difficulty
+of entering a detailed description of their algorithm and
+also transformations they know of.
+One person suggested that lack of responses may have been
+due to the fact that it is summer, and some people would not
+have been at school.
+This is the results(or most of them anyway) of the poll up to
+this point, but I feel that this should by no means be
+considered the end of the poll, please mail any new responses
+addition to old responses, or updates of old responses to
+CUBE-POLL@MIT-MC. If you need to know the questions, the
+POLL is in the archives dated 14 AUG.,3:12EDT, or you could
+probably get a copy by asking CUBE-MAIL-REQUEST.
+Also feel free to enter any new poll questions into the
+discussion by announcing them on CUBE-LOVERS.
+I personally will probably be unable to do anything about
+new responses until Christmas, but don't let this stop you
+from sending them in.
+
+I hope that i have not grossly misrepresented anybody
+because of my abbreviations of the results.
+
+
+             Chris Worrell -   ZILCH@MIT-MC
+
+

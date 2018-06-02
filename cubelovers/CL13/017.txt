@@ -1,0 +1,41 @@
+From bosch@smiteo.esd.sgi.com  Wed Oct 26 11:28:44 1994
+Return-Path: <bosch@smiteo.esd.sgi.com>
+Received: from sgigate.sgi.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04158; Wed, 26 Oct 94 11:28:44 EDT
+Received: from sgihub.corp.sgi.com by sgigate.sgi.com via ESMTP (940627.SGI.8.6.9/911001.SGI)
+	 id IAA17571; Wed, 26 Oct 1994 08:28:10 -0700
+Received: from smiteo.esd.sgi.com by sgihub.corp.sgi.com via SMTP (940519.SGI.8.6.9/911001.SGI)
+	 id IAA26133; Wed, 26 Oct 1994 08:28:07 -0700
+Received: by smiteo.esd.sgi.com (931110.SGI/940406.SGI.AUTO)
+	for @sgihub.corp.sgi.com:cube-lovers@life.ai.mit.edu id AA01707; Wed, 26 Oct 94 08:27:59 -0700
+From: "Derek Bosch" <bosch@smiteo.esd.sgi.com>
+Message-Id: <9410260827.ZM1705@smiteo.esd.sgi.com>
+Date: Wed, 26 Oct 1994 08:27:59 -0700
+In-Reply-To: "Daniel P. Maloney" <MALONEY9146@fredonia.edu>
+        "" (Oct 26, 11:02am)
+References: <35483102694110235@FREDONIA>
+X-Mailer: Z-Mail-SGI (3.0S.1026 26oct93 MediaMail)
+To: "Daniel P. Maloney" <MALONEY9146@fredonia.edu>, dbisel@adrian.adrian.edu
+Cc: cube-lovers@life.ai.mit.edu
+Subject: Fast cubing
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0
+
+I too, have read the book, Jeff Conquers The Cube in 45 seconds, as well as Minh
+Thai's book on the cube (he's the world record holder, with 22 seconds as an
+official world record.  I used to compete back in the cubing days, and could
+regularly get under 25 seconds, using a strategy of solving the corners,
+solving the edges on two opposite sides, followed by the middle slice.
+
+Several people on this mailing list have done serious analysis trying to reach
+"God's Algorithm", which isn't terribly useful to me.  The operators that these
+analyses generate are really slow to crank out on the cube.  I prefer slightly
+longer ones, that are more optimized for speed (hand positions, etc).
+
+Derek
+
+-- 
+Derek Bosch                   "Time flies like an arrow,
+(415) 390-2115                 but fruit flies like bananas"
+bosch@sgi.com                  J. Blaylock
+
+

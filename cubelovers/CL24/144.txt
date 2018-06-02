@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jan 29 13:56:49 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA09304; Thu, 29 Jan 1998 13:56:49 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Jan 28 15:39:47 1998
+Message-Id: <cUSapUSNAlMATHNT1-980128203809Z-449@mathnt1.sma.usna.navy.mil>
+From: "joyner.david" <joyner.david@mathnt1.sma.usna.navy.mil>
+To: "'David Singmaster Computing'" <david.singmaster@sbu.ac.uk>,
+        "'cube-lovers@ai.mit.edu'" <cube-lovers@ai.mit.edu>
+Subject: RE: Megaminx
+Date: Wed, 28 Jan 1998 15:38:09 -0500
+
+>From: 	David Singmaster Computing[SMTP:david.singmaster@sbu.ac.uk]
+>Sent: 	Wednesday, January 28, 1998 1:14 PM
+>To: 	cube-lovers@ai.mit.edu
+>
+>	The UK stores of Toys R Us have been selling a number of
+>Meffert's products, including the Megaminx, Skewb, Impossiball, etc.
+>I had assumed these were also available in the USA.  Is this not the
+>case??
+
+No this is not the case. The Toys R Us don't even sell Rubik's cubes
+around were I live (in the Washington DC area). - David Joyner
+
+[ Moderator's note: Michael Swart <Michael.Swart@switchview.com>
+  notes that the Toys Ya us stores in Kitchener-Waterloo, Ontario
+  Canada don't have them either. ]
+

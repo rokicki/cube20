@@ -1,0 +1,93 @@
+From cube-lovers-errors@oolong.camellia.org  Sat May 31 16:03:43 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id QAA27659; Sat, 31 May 1997 16:03:42 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+From: SCHMIDTG@iccgcc.cle.ab.com
+Date: Sat, 31 May 1997 14:15:25 -0400 (EDT)
+To: cube-lovers@ai.mit.edu
+Message-Id: <970531141525.2140f541@iccgcc.cle.ab.com>
+Subject: A* versus IDA*
+
+On Haym Hirsh's description of Professor Korf's work, Dan Hoey wrote:
+
+>Thanks very much for the explanation.  It agrees with my understanding
+>of the paper, as far as that goes.  But do you have a succinct
+>explanation of what makes IDA* more tractable than A*?  That's the
+>part I missed.
+
+Sorry, perhaps not so "succinct", but here goes:
+
+For problems with constant or near constant branching factors, such
+as the cube, both A* and IDA* exhibit exponential time complexity.
+In "big O" complexity notation this would be O(b^d) where b is the
+branching factor and d is the depth of the search.
+
+The major difference between the two algorithms is in respect to
+the space complexity.  A* minimally requires that all frontier nodes
+be stored in memory.  This is true of all breadth-first-search (BFS)
+algorithms and thus requires O(b^d) space complexity (i.e. exponential
+storage -- very bad!).  BFS may also incur some additional time complexity
+that depends upon the implementation details of how the stored nodes are
+searched and managed.
+
+On the other hand, IDA* is a depth-first-search (DFS) algorithm.  DFS
+algorithms require only a linear amount of storage with respect to search
+depth (i.e. it has O(d) storage requirements) since it only needs to store
+the current path it is exploring.  It uses a cost threshold to determine
+when it has gone deep enough and should backtrack to the next unexplored
+node (as determined by the current path).  Since the cost threshold is based
+on a heuristic estimate (really just an informed "guess"), a solution
+may not be immediately found if the guesss was too low, and the search may
+have to be repeated with an increased cost threshold, in order to find a
+solution.  At first glance, this may seem inefficient, however when one
+considers the branching factor (e.g. somewhere in the neighborhood of 13
+for the cube) only a small percentage of the search time may be taken up
+by the earlier searches.
+
+The bottom line is that A*'s exponential memory requirements limit
+its usefulness to small, one might even say "toy", problems.  So an
+even bigger issue is that one is likely not to have the memory capacity
+to solve the problem at hand using A*.  Note that secondary mass storage
+devices do not typically help, since they drastically reduce the number
+of node evaluations per second.
+
+Having said that, I've neglected the effect of some other factors such as
+duplicate node detection.  BFS can detect duplicate nodes if it stores all
+of them and searches through its list of nodes. IDA* implicitly avoids many
+of them because their high cost.  IDA* can also be augmented in other ways
+(e.g. hash tables) to account for duplicate node checking if this is a
+signficant issue with the search space at hand.
+
+There are also some problem dependent factors such as the nature of the
+search space and the quality of the cost heuristic.  Consider the limiting
+case where we have a "perfect cost heuristic" capable of always leading us
+down the optimal path.  If we had such as thing, the time complexity of
+these algorithms would be O(b*d) (i.e. linear with respect to depth).
+In that case, it would be overkill to use either of these search methods,
+but the notion of a "perfect cost heuristic" helps demonstrate the
+importance of good heuristics and corresponding reduction in search
+exploration.
+
+Professor Korf has consistently broken new ground with respect to solving
+previously unsolved problems.  During the mid 80's he was the first to solve
+random instances of the 15 puzzle using IDA*.  Since he has used so called
+"admissible" heuristics, (heuristics which never overestimate the cost
+to the goal state) the solutions are guaranteed optimal.  I have been
+writing search programs for over twelve years and consider IDA* to be a
+real "gem".  As an aside, I've applied IDA* (augmented with hashing for
+duplicate node detection) to solve all but a few hundred of the 32000
+instances of Microsoft's "FreeCell" puzzle game that comes packaged
+with Win95 and NT.
+
+So to summarize, neglecting details, both A* and IDA* have similar time
+complexity requirements, namely exponential.  A* also has exponential
+storage requirements whereas IDA* has linear memory requirements.  The
+space advantage of IDA* therefore greatly increases the scope of problems
+that can be attacked by this method.
+
+Hope I've served to clarify rather than to further obfuscate.
+
+-- Greg
+
+

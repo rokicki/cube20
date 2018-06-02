@@ -1,0 +1,27 @@
+From mouse@lightning.mcrcim.mcgill.edu  Fri Jun 26 20:06:15 1992
+Return-Path: <mouse@lightning.mcrcim.mcgill.edu>
+Received: from Lightning.McRCIM.McGill.EDU by life.ai.mit.edu (4.1/AI-4.10) id AA17340; Fri, 26 Jun 92 20:06:15 EDT
+Received: by Lightning.McRCIM.McGill.EDU (5.65)
+	id <9206270006.AA06976@Lightning.McRCIM.McGill.EDU>; Fri, 26 Jun 92 20:06:06 -0400
+Date: Fri, 26 Jun 92 20:06:06 -0400
+From: der Mouse  <mouse@lightning.mcrcim.mcgill.edu>
+Message-Id: <9206270006.AA06976@Lightning.McRCIM.McGill.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: Re:  ultimate cube
+
+> my description of ["ultimate" cube's] coloring is:
+
+> still has six solid colors
+> if we visualize a standard cube as a box with 6 stickers, 1 to each
+> flat face the the ultimate cube has these 6 stickers translated and
+> rotated so that 4 of these squares come together on a center cubie
+> with the diagonal of each square laying along the edge of the cube.
+
+Hm, there are 12 edges on a cube.  That leaves half of them unaccounted
+for.  What do they get?  (Note that you also have to shrink the 6
+stickers, beacuse the face diagonal is longer than an edge.)
+
+					der Mouse
+
+			    mouse@larry.mcrcim.mcgill.edu
+

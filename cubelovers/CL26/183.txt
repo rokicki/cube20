@@ -1,0 +1,39 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 17 15:30:12 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA07461
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 17 Mar 1999 15:30:12 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199903171610.RAA18270@bednorz.get2net.dk>
+From: "Klodshans" <klodshans@get2net.dk>
+To: cube-lovers@ai.mit.edu
+Date: Wed, 17 Mar 1999 17:09:42 +0000
+Subject: Re: OddzOn version of the cube
+Reply-To: klodshans@get2net.dk
+In-Reply-To: <4.1.19990316202534.0092a160@mail.vt.edu>
+
+Kevin Young <keyoung3@vt.edu> wrote:
+
+> Where at on www.rubiks.com does it say that Oddzon
+> is planning on making a deluxe version?
+
+At www.rubiks.com, go into the "news" section. The 
+announcement for an OddzOn deluxe Cube was added on March 
+11th.
+
+
+______________________________________
+Philip K
+E-mail: philipk@bassandtrouble.com
+E-mail: klodshans@get2net.dk
+web:    http://hjem.get2net.dk/philip-k
+
+[Moderator's note: http://www.rubiks.com/deluxe.html says in one place
+ that they are planning to have "super high quality durable stickers"
+ and in another that "there won't be stickers" so it's anyone's guess
+ what they have in mind.  They're also considering "holographic center
+ labels" vs. "the classic look" and say they will be conducting a
+ poll.  Rumors that the Tartan design is being promoted by one of its
+ inventors are unverified, and those were gifts, not bribes.  --Dan]
+

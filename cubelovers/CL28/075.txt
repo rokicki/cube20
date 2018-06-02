@@ -1,0 +1,61 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb 15 16:23:34 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA05419
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 15 Feb 2000 16:23:33 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 27 Jan 2000 17:28:02 -0800 (PST)
+From: Tim Browne <ue451@victoria.tc.ca>
+To: Howard <shdrake@worldnet.att.net>
+Cc: "Cube-Lovers@ai.mit.edu" <Cube-Lovers@ai.mit.edu>,
+        "Jing Meffert - Meffert's Puzzles" <jing@ue.net>
+Subject: Re: Ideas for new puzzles
+In-Reply-To: <388B7645.F3DA4D27@worldnet.att.net>
+Message-Id: <Pine.GSO.3.95.iB1.0.1000127172224.6201B-100000@vtn1>
+
+On Sun, 23 Jan 2000, Howard wrote:
+
+>   As I twisted my skewb, to prove to myself that it is very
+> similar to the Magic Pyramid, I thought, I would like to swap
+> corners from one group (of 4) to the other group.  Super-
+> imposing the cuts of a 2x2x2 cube on the skewb would do this.
+> Each face would consist of 8 triangles.  Allowed twists would
+> be the 120 degree twist of the skewb and the 90 degree twist
+> of the 2x cube, only.  Stopping at 45 degrees or 60 degrees would
+> not allow a twist in a new direction to begin.  Any number
+> of 90 degree cube twists could follow any number of 120 degree
+> of skewb twists, followed by 90 degree twists, etc.
+
+That would be quite a challenge to create. Truth be told, I'm not even
+sure if such a creation would be possible. However it is possible to make
+a Skewb with 8 trianges on a side, and has already been done. It's called
+a Star Skewb, and is made by switching the centres of a standard Skewb
+with those of a Diamond Skewb, which Meffert is currently selling.
+
+>   My second idea/wish is a Dogic, but using 20 colors, rather than
+> 12 colors.  Each face of 3 triangles (plus insert), would be
+> a unique color.  The main challenge I see in making this, is
+> choosing 20 easily distinguishable colors.  I like the 12 Dogic
+> color choices very much, because, to my eyes, they are easily
+> distinguishable, (in contrast to one of my skewbs that has 2
+> shades of orange for adjoining sides).
+
+This has also already been done. Hendrik Haak (www.puzzle-shop.de) is
+currently selling the Dogic 2. If have yet to buy one myself, but it looks
+like the colours should be easily distinguishable.
+
+>   2 ideas that I am currently building are an 8 color cube
+> and 12 color cube using Mefferts assembly cubes and tiles.
+> The 8 color is the corner centered design, and the 12 color
+> is an edge centered design.  These appeared in an early
+> Scientific American article.
+
+I don't know about the 8 colour cube, but I know for certain that the 12
+colour version has already been made. I believ it's called "The Ultimate
+Cube", and one was sold on eBay during the summer. L8r.
+
+-- 
+        Cubic Puzzles - The SIMPLEST Solutions
+     http://www.victoria.tc.ca/~ue451/solves.html
+

@@ -1,0 +1,53 @@
+Date:	  19 July 1980 1455-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  General remarks
+To:	  CUBE-LOVERS at MIT-MC
+
+While watching these various "linguae cubisticae" make the rounds,
+I note one categoric deficiency, whose perception may indeed be
+due to the idiosyncracies of my own meta-algorithms.
+
+In specific, my algorithms (including my 200-line procedure of the
+other day) include DECISIONS of the form "find a face that has
+a pattern like-so" or "look around for the target cubie, and
+categorize its place like so".  Now clearly, a general
+solution algorithm must include some expression of such decisions,
+although I find Singmaster's procedures deficient in this regard
+(he tends to say "Use enough of FOO transform to get all the..."
+often). However, the generation of specific patterns from another
+canonical state NEED not involve "decisions", although most of my
+procedures (and hence the lisp-macro language of :cube) do.
+I offer that looking for certain patterns during the course of
+even one of these pretty-pattern-generations leads to more
+rememberable (^= memorable) algorithms than even a well-subroutinized set of
+absolute moves.
+
+On the Physical Reality of cubes:
+
+I have seen three species of the genus Cubi, the original Hungarians
+(C. Hungaricus), which is black faced,
+cubes sold by Ideal (C. Americanus), the American
+Black-faced cube, and the American Whiteface (C. Albus).
+The last-mentioned was first shown to me by the lady in the
+Cambridge cube-store, who called me at home to make me aware of
+them when they first appeared (she says they are done by
+some Friend of Rubik in Virginia).
+
+C. Americanus seems a good deal lighter in weight and build than
+C. Hungaricus. While C. Hungaricus takes two to three weeks of
+constant use before they are loose enough for Concert performances,
+C. Americanus can be turned with one hand, yea, one finger
+while held by the rest of the hand WHEN NEW.  C. Americani
+do not seem to bind at all; the Hungarians not only bind, but
+decompose and bind more.  I confess a certain sentimental attachment
+to C. Hungaricus, on which I mastered the Art. The stiff,
+clean solidity of a new Hungarian is indeed reassuring, but speed
+of movment and non-binding is something else.  I have not subjected
+Americanus to truly extensive use, and I do not know how
+it ages, but so far, they  seem to show less CHANGE per time than
+the Hungarians, and are usable from the start.  I think they
+will be a win.
+
+Of the American White-faced Cube, I have little to say; C. Albus
+is a curio item, and has nothing to recommend it over either of the
+others.

@@ -1,0 +1,22 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Jul  6 18:54:46 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA07213
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 6 Jul 1999 18:54:46 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Reply-To: <noel@mud.ca>
+From: "Noel Dillabough" <noel@mud.ca>
+To: "Cube Lovers List (E-mail)" <cube-lovers@ai.mit.edu>
+Subject: Re: Solution to a size 2 Octahedron
+Date: Fri, 2 Jul 1999 19:17:23 -0400
+Message-Id: <000601bec4e1$19d7a080$0ef5ddce@laptop>
+
+[Moderator's note: Isn't a corners-based octahedron just a face-based cube
+ with the corners flattened and the faces made pointy?  I think BFTDLR or
+ BFUDLR would work for notation. --Dan]
+
+Actually this notation works perfectly, here is the move in this fashion:
+
+R' F' R F2 R' F2 R F2 R' F
+

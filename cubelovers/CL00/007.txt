@@ -1,0 +1,11 @@
+Date:  16 July 1980 09:35 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Singmaster
+To:  cube-lovers at MIT-MC
+
+David Singmaster is a prof at an English university whose
+name escapes me, who publishes a 40-page pamphlet on cubing
+for about $5.00.  It took me months to get; I have it for xeroxing
+in my posession.  It contains many transforms, including many
+wierd solve-the-edge-cubes-first solutions.  As I have
+pointed out, his noncanonical move counting is a problem.

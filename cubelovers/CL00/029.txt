@@ -1,0 +1,8 @@
+Date:  17 July 1980 22:54 edt
+From:  Greenberg.Multics at MIT-Multics
+Subject:  Bug in above
+To:  cube-hackers at MIT-MC
+
+In the terminOlogy section, note that the
+body-slcing and FLOOR-PARALLEL centerslices meet in the front face,
+not the body-parallel and body-slicing as given.

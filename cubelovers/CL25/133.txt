@@ -1,0 +1,56 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun Sep 13 16:29:34 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id QAA13820; Sun, 13 Sep 1998 16:29:34 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sat, 12 Sep 1998 13:01:52 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Weak Local Maxima, 6f from Start
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Reply-To: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Message-Id: <Pine.PMDF.3.95.980912124038.38277A-100000@PSTCC6.PSTCC.CC.TN.US>
+
+I finally have had enough time to add support to my God's Algorithm
+program to calculate weak local maxima.  The shortest strong local maximum
+in the face turn metric is 9f, but the shortest weak local maximum has not
+previously been verified.  It has long been known that Pons Asinorum is a
+weak local maximum at 6f from Start.  I have been curious to know if Pons
+is the shortest, and if there are any other short weak local maxima.
+
+It turns out that 6f is indeed the shortest.  There are two such positions
+unique to symmetry which are 6f from Start, the Pons and one other.  The
+other one is quite pretty:
+
+L2 R2 D2 U2 B' F  (6f*)
+
+
+The eighteen neighbors are as follows.
+
+L2 R2 D2 U2 F2 B'  (6f*)
+L2 R2 D2 U2 F      (5f*)
+B' F  L2 R2 D2 U'  (6f*)
+B' F  L2 R2 D' U2  (6f*)
+B' F  D2 U2 L2 R'  (6f*)
+B' F  D2 U2 L' R2  (6f*)
+L2 R2 D2 U2 B'     (5f*)
+L2 R2 D2 U2 B2 F   (6f*)
+B' F  L2 R2 D2 U   (6f*)
+B' F  L2 R2 D  U2  (6f*)
+B' F  D2 U2 L2 R   (6f*)
+B' F  D2 U2 L  R2  (6f*)
+L2 R2 D2 U2 B' F'  (6f*)
+L2 R2 D2 U2 B  F   (6f*)
+B' F  L2 R2 D2     (5f*)
+B' F  L2 R2 U2     (5f*)
+B' F  D2 U2 R2     (5f*)
+B' F  D2 U2 L2     (5f*)
+
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

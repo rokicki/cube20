@@ -1,0 +1,77 @@
+From cube-lovers-errors@curry.epilogue.com  Tue May 28 14:04:51 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA29949 for <cube-lovers-outbound@curry.epilogue.com>; Tue, 28 May 1996 14:04:51 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <9605281411.AA29962@sarofim-sun.MIT.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: Square 1 Combinations
+Date: Tue, 28 May 1996 10:11:46 EDT
+From: "Michael C. Masonjones" <masonjon@mit.edu>
+
+Hi, I'm new to the group, but I have read the entire archive.  I noticed
+rather little work done on Square 1.  It seems to me that this puzzle
+deserves a closer look for finding God's algorithm.  Mike Reid's
+calculations notwithstanding (archive 17), I have found that the problem
+can be reduced by at least a factor of 400 if we just get rid of
+combinations that result from trivial face turns, and if we note that
+the Start position has a degeneracy of 16. (One center slice is assumed
+fixed - another factor of 2 is tempting but not possible)
+
+Mike's calcualtion for the number of states would reduce to:
+ (2*(1/6)*(9/2)+2*(28/3)*3+(35/4)*(35/4))*2*8!*8!=435891456000
+combinations.  Divide by the start degeneracy, multiply by 2 storage
+bits per state, and you get a storage requirement of 6.81GB.  This seems
+very close to being doable.  Maybe in another 10 years, I can do this
+project on my PC, if no one has done it yet. 
+
+
+On another note, when I signed up, I mentioned to Alan that I must be
+crazy enough to join this group since I have a five foot mockup of a
+rubik's type puzzle as my coffee table.  He thought its description
+might be of general interest. Skip the rest of this paragraph if you
+couldn't care less about its origins. I built it for Caltech's ditch day event
+Maybe you have heard of it. That's where all the seniors leave for the
+day with their room locked only with a puzzle of some sort, and the
+object is for the undergraduates to get into the room by solving it
+(with a couple of clues, of course).  Anyway, being as it was that I
+had a mechanical engineer roommate...  The rest is history, and I now
+have a five foot diameter puzzle coffee table.
+
+OK, a description.  The puzzle is a three centered version of the
+Puzzler, widely available in the last few years in puzzle/game specialty
+stores.  The differences being that it is colored so that the maximum
+number of combinatins are possible (including the supergroup of distinguishing
+face centers).  For those of you who  have not seen the Puzzler, and thus
+have no frame of reference, consider one vertex of a cube and it's 
+surrounding faces.  7 vertices, 9 edges.  Faces can undergo 4 quarter
+turns.  Extrapolate to the Megaminx and you again get one central vertex
+for a total of 10 vertices and 12 edges.  Faces can undergo 1/5 turns.  
+Extrapolate again to six sided faces, and you get a flat puzzle with one
+central vertex for a total of 13 vertices, and 15 edges.  Faces can
+undergo 1/6 turns.
+
+So it is basically the <URF> group for a' cube' with
+hexagonal faces.  The extra face over the Puzzler also serves to remove 
+the significant parity constraints on the edge pieces.  (compare <UR>
+group to <URF> group of regular cube).
+
+You, too, can make a smaller version of the Ditch Day puzzle at home.  
+The advantage of the flat puzzle is that it is easily constructed.  I 
+built the 6 inch diameter prototype with poster board, lamination, magic
+markers, and an easily machined smooth pressboard frame.  You only need
+to drill three 3 inch holes.  The rest is trimming.  Oh yeah, you will 
+need a plexiglass faceplate to keep the pieces in too.  Cutting out and 
+gluing together the poster board to make sufficiently thick pieces was 
+the hardest part.
+
+Number of combinations = (13!*15!*3^13*2^15*6^3)/24 = 3.83E33
+Difficulty is comparable with Megaminx.
+
+Happy cubing.  This is already too long.
+
+					mikem.
+					Mike Masonjones.
+
+
+

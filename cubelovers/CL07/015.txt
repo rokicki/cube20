@@ -1,0 +1,57 @@
+From hirsh@cs.rutgers.edu  Sat Nov 10 18:50:06 1990
+Return-Path: <hirsh@cs.rutgers.edu>
+Received: from pei.rutgers.edu by life.ai.mit.edu (4.1/AI-4.10) id AA11436; Sat, 10 Nov 90 18:50:06 EST
+Received: by pei.rutgers.edu (5.59/SMI4.0/RU1.2/3.05) 
+	id AA16007; Sat, 10 Nov 90 18:49:51 EST
+Sender: Haym Hirsh <hirsh@pei.rutgers.edu>
+Date: Sat, 10 Nov 90 18:49:48 EST
+From: Haym Hirsh <hirsh@cs.rutgers.edu>
+Reply-To: Haym Hirsh <hirsh@cs.rutgers.edu>
+To: Hoey@aic.nrl.navy.mil (Dan Hoey), Cube-Lovers@life.ai.mit.edu
+Subject: Re: Rubik's Cube reassembly problem and solution
+In-Reply-To: Your message of Fri, 9 Nov 90 15:02:48 EST
+Cc: Haym Hirsh <hirsh@cs.rutgers.edu>
+Message-Id: <CMM-RU.1.0.658280988.hirsh@pei.rutgers.edu>
+
+> Now suppose you peeled off the 54 colored stickers and stuck them back
+> on at random (carefully keeping them out of the reach of children, as
+> there are rumors the paint contains lead, especially on the cheap
+> Taiwanese knockoffs), what is the probability of getting a solvable
+> cube?  This question was posed years ago (in Singmaster?) but I
+> believe it is still open.
+> 
+> Dan Hoey
+> Hoey@AIC.NRL.Navy.Mil
+
+This seems easy, so I've probably messed up on something.
+Can anyone catch a mistake?
+
+Assume each of the stickers is given a number from 1 to 54.  Then
+there are 54! different labelings, ignoring rotation of stickers
+(we'll ignore this throughout, so we'll never need to consider it).
+Thus there are
+
+  54!
+  = 230843697339241380472092742683027581083278564571807941132288000000000000
+  = 2.3*10^71
+
+ways to randomly resticker the cube.  We want to know what proportion
+of these are legal (i.e., the cube can be solved).
+
+There are 8!*12!*8^3*2^12/12 = 43252003274489856000 = 4.3*10^19 legal
+cube states.  Thus there are this many legal stickerings, if each
+sticker must go back to where it was.  Since they need not (just the
+color must match), there are really an additional (9!)^6 for each of
+these, or 98760760257294265888495040331277846607560704000000000 =
+9.9*10^52 legal stickerings.
+
+Thus the proportion of randomly restickered cubes that can be solved,
+and hence the probability that a randomly restickered cube can be solved,
+is
+
+	98760760257294265888495040331277846607560704000000000
+------------------------------------------------------------------------
+230843697339241380472092742683027581083278564571807941132288000000000000
+
+= 9.9*10^52/2.3*10^71 = 4.3*10^-19
+

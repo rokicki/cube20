@@ -1,0 +1,70 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug 26 12:59:48 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id MAA15433; Wed, 26 Aug 1998 12:59:48 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Wed, 26 Aug 1998 13:20:41 +0100
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+Organization: Computing & Maths South Bank Univ
+To: cube-lovers@ai.mit.edu
+Message-Id: <009CB47C.C9309B92.16@ice.sbu.ac.uk>
+Subject: depicting a cube
+
+	With reference to Hana Bizek's reference to how one can show all six
+faces of a cube, I found the following the most satisfactory.  View the F, U
+and R faces along the diagonal.  Now imagine the back faces 'exploded' out,
+i.e. moved outward along the axes.  When they are moved far enough, they can be
+seen.  The effect is that the cube seems to be suspended in front of a corner
+and the three back seem to have been projected onto the walls and floor.  I'll
+try to make a drawing.
+
+	   /|           |\
+	  / |    / \    | \
+	 /  |   /   \   |  \
+	|  /   /     \   \  |
+	| /   |\     /|   \ |
+	|/    | \   / |    \|
+              |  \ /  |
+               \  |  /
+                \ | /
+                 \|/
+
+                 / \
+                /   \
+               /     \
+               \     /
+                \   /
+                 \ /
+
+This is a bit crude, but it may be better when printed?  if one puts in more
+horizontal space, it might look better.
+
+                   /|               |\
+                 /  |      / \      |  \
+               /    |    /     \    |    \
+              |    /   /         \   \    |
+              |  /    |\         /|    \  |
+              |/      |  \     /  |      \|
+                      |    \ /    |
+                       \    |    /
+                         \  |  /
+                           \|/
+
+                           / \
+                         /     \
+                       /         \
+                       \         /
+                         \     /
+                           \ /
+
+Well, that's a bit better, but one can't get it perfect on an orthogonal grid.
+
+
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

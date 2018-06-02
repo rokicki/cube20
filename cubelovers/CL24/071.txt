@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov 10 10:58:12 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id KAA13166; Mon, 10 Nov 1997 10:58:11 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From whuang@ugcs.caltech.edu Sun Nov  9 12:36:08 1997
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Better way to flip a middle edge?
+Date: 9 Nov 1997 17:35:21 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <644s8p$4er@gap.cco.caltech.edu>
+References: <cube-lovers.199711071431.JAA05030@support.switchview.com>
+
+"Michael Swart" <Michael.Swart@switchview.com> writes:
+>> Is there a short way to flip a middle edge cubie without disturbing the
+>> top layer or the other middle edges?  I mean, better than replacing it
+>> with one from the bottom and then putting it back in the correct
+>> orientation, which takes 15 moves.
+
+>F' L' R F L' R T' B2 T L R' F L R' D2 F'
+
+>18 q turns 16 h turns. Guess it wasn't any better but you may notice
+>that this sequence also leaves the bottom intact except for one flipped
+>cubie at  the back down edge.
+
+This can be slightly improved:
+
+D R' F D' R' L B D' R B' D R L' F'
+
+14 quarter turns; does exactly the same thing.
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+"[Lucy's eyes] look like little round dots of India ink..." -- Charlie Brown
+

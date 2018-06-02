@@ -1,0 +1,64 @@
+Date: 14 Jul 1981 1129-PDT
+From: ISAACS at SRI-KL
+Subject: HOWTODOIT books again
+To: cube-lovers at MIT-MC
+
+  An update on How To Do It books on the Magic Cube:
+     There now seem to be 3 "officially" published books on the Cube, besides
+an unknown number of privately printed books, pamphlets, and single-page
+solutions.  The three are:
+1) "Notes on Rubik's Magic Cube", by David Singmaster, Enslow Publishers,
+   Bloy Street and Ramsey Avenue, Box 777, Hillside, New Jersey, 07205($5.95).
+      This is, of course, THE book on the magic cube.  It has the history,
+   anecdotes, the math theory, and a solution. It is almost exactly the 
+   same as the fifth printing of his privately printed pamphlets.  His 
+   solution is top, turn over, middle, top.  The final face is done: orient
+   edges, position edges, position corners, orient corners.
+2) "The Simple Solution to Rubik's Cube(TM)", by James G. Nourse, Bantam Books,
+   1981($1.95). Illustrated by Dusan Krajan. This is a somewhat revised edition
+   of Nourse earlier publication "Solution to Rubik's Magic cube", Storc 
+   Publications.  It contains a solution, plus a little other information on
+   the cube and some "other games to play" (speed, competition, pretty 
+   patterns).  The main thing new to me is the idea of pretty-patterning the
+   alphabet, and then spelling out 3 or 4 letter names around the cube.  Some
+   are pretty stretched, but it's a nice idea.  
+      His solution goes top-middle-bottom, and bottom is: place corners,
+   orient corners, place edges, orient edges.  His moves tend to be longer 
+   than "normal", but with the purpose of being able to recover fairly easily
+   from a mistake or from a dropped cube.  He tries to move no more than one
+   cube from a previously solved position at a time, and to make it always
+   possible to back up only one step (rather than to the beginning).  Each 
+   section has error correction (in case you go wrong), and short cuts (to
+   speed things up once you get used to it).  His notation uses Top, Bottom,
+   Front, Posterior, Left, Right.  He tries to use Posterior as little as
+   possible (which I think is very good - but for the same reason, its 
+   easier to turn the whole cube over after the first couple of steps to be
+   able to work on the top.)
+      The book is roughly paper-back size (though of course, much thinner),
+   and on crummy paper.  But the layout and pictures are good.  I noticed a
+   couple of errors - on page 45, you might have to error correct back to the
+   end of step 2, since an upper corner might be misplaced.  On p. 46, Short
+   Cut 2 is a replacement for step 4C, not 4D, and the sequence should end
+   with B+ or B-.
+3) "Mastering Rubik's Cube(TM), The solution to the 20th century's most
+   amazing puzzle", by Don Taylor, an Owl Book, Holt, Rinehart and Winston,
+   1980, $1.95.  This is a straightforward solution book, with a few
+   additional games and pretty patterns, but not much.  He does it top, turn
+   over, middle, top; and the final top is place corners, place edges, twirl
+   corners, and flip edges.  He uses BFUDLR, place(to move), and position(to
+   orient).  The moves are similar to Singmasters, but with some reductions.
+
+     This note is getting long.  Does anybody know of any other published books
+on the Cube?  I notice that almost all the published solutions I've seen
+are top-middle-bottom (or that turned over in the middle).  Except that 
+Singmasters original solution was first all the corners, then all the edges.
+Does anybody do edges before corners?  I nowadays use a variant which is 
+easier for me:  First I do all the top except one corner.  Then I use that
+corner to make it easier to get in the middle layer (except for one). Then
+I finish off the top, and put in the last middle.  I turn the cube over, and
+orient first the edges, then the corners.  With the top face now showing the
+right colors, I find it easier to see where I am.  I position the corners
+(with a move that doesn't twist), and finally position the edges. What other	
+variants are around?
+      -- Stan
+-------

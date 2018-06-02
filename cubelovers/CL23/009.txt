@@ -1,0 +1,33 @@
+From cube-lovers-errors@oolong.camellia.org  Wed Jun 11 16:11:56 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id QAA14368; Wed, 11 Jun 1997 16:11:56 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@ugcs.caltech.edu>
+Subject: Re: 5x5x5 Stuctural Integrtity
+Date: 11 Jun 1997 19:01:30 GMT
+Organization: California Institute of Technology, Pasadena
+Message-ID: <5nmsma$t63@gap.cco.caltech.edu>
+References: <cube-lovers.199706060927.FAA00399@dlitwinHome.geoworks.com>
+NNTP-Posting-Host: blend.ugcs.caltech.edu
+X-Newsreader: NN version 6.5.0 #2 (NOV)
+
+David Litwin <dlitwin@emf.net> writes:
+>	The orange sticker problem seems to be with all of them.  Mine had
+>some small documentation with it mentioning that putting a piece of paper
+>on the orange side and ironing it a bit will help fix the stickers on the
+>cube.  It worked well for me and I've not had any problems with them
+>anymore.
+
+I must say that the first sticker I lost on my 5x5x5 was red.
+
+(And I don't know where it went!  ARGH!!!)
+
+
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+-------------------------------------------------------------------------------
+Inspiration strikes suddenly, so be prepared to defend yourself.
+
+

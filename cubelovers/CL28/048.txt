@@ -1,0 +1,62 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Dec  1 20:14:28 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA29667
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 1 Dec 1999 20:14:27 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <m11s5dr-0002B5C@fwd07.btx.dtag.de>
+Date: Sun, 28 Nov 1999 15:49:31 +0100
+To: cube-lovers@ai.mit.edu
+Subject: centre slice table
+From: ronald.fletterman@t-online.de (Ronald Fletterman)
+
+
+cubologist proper remember how much time and effort was spent in
+generating the table of all maneuvers, concerning one outer slice of
+the 3x3x3 cube.(the so-called upper table). John F. Jarvis seems to be
+the first to have published the table (in 1983), but his maneuver
+lengths challenged the brothers dockhorn to get the max length down to
+16 moves (1 move equals either a 90 degree or 180 degree face
+turn). upto now, little attention has been paid to the centre slice
+table per se.  digging into my files, i found a study by herbert
+kociemba, including the centre slice maneuvers. to me, it belongs to
+the files of every cubologist; ref. the attachement, which can be
+opened by owners of kociemba's cube explorer. rgds
+
+ronald.
+
+[ Moderator's note: The attachment is presented here as text for the
+  reading pleasure of cube-lovers.  Hopefully cube explorers can
+  turn it back into something useful. --Dan]
+
+D R F' U R' F D' U L' F U' L F' U'  (14f*)<two facing cubies flip>
+D2 L B' U L' B D2 U2 F' R U' F R' U2  (14f*)<two diagonally facing
+                                               cubies flip>
+D B R' D F2 L' B D' U R' B L2 D' F R' U'  (16f*)<four cubies flip>
+D' F2 D U' R2 U  (6f*)<cubies 3-cycle 1/8>
+R2 F2 R D' U F' D2 U2 R2 B' D' U R'  (13f*)<cubies 3-cycle 2/8>
+R' D U' B R2 D2 U2 F D U' R' F2  (12f*)<cubies 3-cycle 3/8>
+R2 B2 R' B' F D B2 D' B F' R'  (11f*)<cubies 3-cycle 4/8>
+R B F' U' B2 U B' F R' B2  (10f*)<cubies 3-cycle 5/8>
+F2 R B' F D' F2 D B F' R'  (10f*)<cubies 3-cycle 6/8>
+B2 R' D U' B D2 U2 R2 F D U' R'  (12f*)<cubies 3-cycle 7/8>
+F U' L B F2 R' F R U' B' F2 L' F' U  (14f*)<cubies 3-cycle 8/8>
+D2 L2 D2 U2 R2 U2  (6f*)<facing cubies double pair swap 1/5>
+B2 U2 R' D' U B' R2 D2 L2 F' D' U R' U2  (14f*)<facing cubies double
+                                               pair swap 2/5>
+R U R' D2 B L2 D2 R2 F U2 R' U' R'  (13f*)<facing cubies double pair
+                                               swap 3/5>
+R U' L B F' D' B D' B' F L B' U R'  (14f*)<facing cubies double pair
+                                               swap 4/5>
+F R' L' U L2 F2 L2 F2 L2 F2 U' R L F' (14f*)<facing cubies double pair
+                                               swap 5/5>
+D B2 F2 D' U L2 R2 U'  (8f*)<diagonally facing cubies double pair
+                                               swap 1/4>
+F' D' U L' D2 F2 U2 R' D' U F' D2 R2 D2  (14f*)<diagonally facing cubies
+                                               double pair swap 2/4>
+R2 F' R' F U F' U F' D' F L D U2 R'  (14f*)<diagonally facing cubies
+                                               double pair swap 3/4>
+F' R' L' U L2 F2 L2 F2 L2 F2 U' R L F (14f*)<diagonally facing cubies
+                                               double pair swap 4/4>
+

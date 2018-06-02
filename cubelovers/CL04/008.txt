@@ -1,0 +1,23 @@
+Date: 16 May 1982 21:24-EDT
+From: Richard Pavelle <RP at MIT-MC>
+Subject: 4 x 4 x 4 = C^4
+To: CUBE-LOVERS at MIT-MC
+cc: RP at MIT-MC
+
+I played with C^4 and I conjecture that the tools from C^3 are 
+sufficient to solve it. I have not completely finished it but I 
+think it is just a matter of time. 
+
+One transformation I use repeatedly, in generic terms, is
+S = top 180, 2nd slice up or down, top 180, 2nd slice down or up. This
+is the verticle slice which is facing you. This is just the move in 
+C^3 to move 3 edges in a plane whereas in C^4 the outcome is far more 
+complicated.
+
+The steps for C^4 are then
+1) Align the centers with a map. Some use of S is necessary.
+2) Do all corners as in C^3.
+3) Use S repeatedly to position the edges and this is very laborious.
+4) Use the C^3 edge flip (Rubik's transformation) to finish it off.
+
+After several hours of C^4 I find C^3 looks like a toy. 

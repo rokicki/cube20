@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 11 19:29:29 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA15277
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 11 Mar 1999 19:29:29 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3.0.32.19990310090119.00960d80@mail.spc.nl>
+Date: Wed, 10 Mar 1999 09:01:20 +0100
+To: cube-lovers@ai.mit.edu
+From: Christ van Willegen <c.v.willegen@spcgroup.nl>
+Subject: Stickers Re: Oddzon version of the cube
+
+>I do not have an answer for you, but your email made me wonder why stickers
+>are being used at all? As far as I know, nobody has produced a cube (or
+>variation) where the plastic "cubies" are colored appropriately without
+>relying on stickers. Is that process so much more expensive, or do the
+>toy-makers want to give their customers a chance to cheat by switching the
+>stickers in case they can't get the puzzle solved?
+
+Switching stickers is a no-no. You can so this a couple of times, after
+that they'll just fall off...
+
+I've seen cubes that have real plastic colors! They are 3by's in black,
+with colored square bricks on the faces that form the colors. They
+are about $5 (I think). I haven't bought one to check quality (yet?).
+Perhaps if the mechanism is alright, these might be better suited for
+the cube-addict. But I'm afraid that the mechanism won't be able to stand
+lots of use.
+
+Perhaps I'll just go ahead and try the experiment. After all, it's only
+$5...
+
+Christ van Willegen
+
+[ Moderator's note: I take it you mean they are available in the
+  Netherlands?  Anywhere else? ]
+

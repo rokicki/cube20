@@ -1,0 +1,52 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed May 27 12:52:33 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA28328; Wed, 27 May 1998 12:52:33 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed May 27 11:37:46 1998
+Message-Id: <01BD8995.A6F13540.Johan.Myrberger@ebc.ericsson.se>
+From: Johan Myrberger <Johan.Myrberger@ebc.ericsson.se>
+Reply-To: <Johan.Myrberger@ebc.ericsson.se>
+To: <cube-lovers@ai.mit.edu>
+Subject: RE: Magic jack
+Date: Wed, 27 May 1998 17:34:05 +0200
+Organization: Ericsson Business Networks AB
+
+On 27 May 1998 09:36, Philip Knudsen wrote:
+
+> Apart from Magic Jack and Vadasz Cube, there also exists a german
+> produced puzzle called "IQUBE". Like the Magic Jack, this is a 3x3x3
+> sliding puzzle with 26 smaller cubes. Cubes have colours red, green and
+> yellow, and it is possible to arrange them so the entire surface is
+> either red or green. Yellow is possible with red or green centres. IQUBE
+> comes with a leaflet that suggests a total 12 different solution
+> possibilities....
+
+Some years ago (around 1989?) I made a computer search on this kind of
+puzzle.
+
+The idea was "is there a way of colouring the 27 cubies (and then remove
+one) so that a 3x3x3 cube can be arranged (with sliding block moves) to
+show all external sides of either of three colours".
+
+Since a 3x3x3 cube shows 9x6=54 cubie sides at one time, and 27 cubies have
+in all 27x6=54x3 cubie sides all "cubie sides" would be used in one
+configuration each.
+
+So - I hunted for the answers to:
+1) Is such a colouring possible?
+2) Which cubie would be nicest to remove?
+
+My search showed that 1) was indeed possible, and that there is one
+distinct way for the colouring (not counting reflections etc) and 2) It is
+possible to choose a cubie to remove so that the space will be positioned
+in one of the space diagonals for each of the three solutions.
+
+If anyone is interested I can dig out the specific colouring.
+
+Regards
+/Johan Myrberger
+mailto:Johan.Myrberger@ebc.ericsson.se
+http://home.bip.net/johan.myrberger
+

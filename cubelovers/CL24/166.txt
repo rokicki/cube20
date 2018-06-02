@@ -1,0 +1,40 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Feb 18 13:29:22 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA12405; Wed, 18 Feb 1998 13:29:22 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Feb 18 11:08:58 1998
+Message-Id: <3.0.5.16.19980218165604.29af224c@vip.cybercity.dk>
+X-Sender: ccc10207@vip.cybercity.dk
+Date: Wed, 18 Feb 1998 16:56:04
+To: cube-lovers@ai.mit.edu
+From: Philip Knudsen <skouknudsen@email.dk>
+Subject: Game designers [was Re: Rubik lawyers...]
+
+Dan wrote:
+
+>I don't think the archive has anything about the origin of the 4^3 (or any
+>other) design.  Can you give a source for this well-known information?
+
+Maybe i was a little fast to state that it is "generally known Rubik did
+not design the 4x4x4 mechanism". I've also digged through the entire list
+archives as well as my own stuff, and have found nothing which directly
+indicated that Rubik DID design it. Now the earliest mention of 4x4x4 is in
+Hofstadter's article in S.A. from march '81, page 26. Quote: "Rest assured,
+it's being developed in the Netherlands, and it may be ready soon..."
+
+>From: mark longridge -
+>Probably (I'm not totally certain) it was Udo Krell, an inventor whose
+>design was used by Uwe Meffert to make the 5x5x5.
+
+Don't you think it would be known that Udo Krell also invented the 4x4x4 if
+this was indeed the case?
+All of this is getting a little vague, it could be nice to have this matter
+cleared up by someone who has some REAL info! Maybe someone who worked for
+Ideal at the time.
+
+Yours Truly,
+
+Philip K
+

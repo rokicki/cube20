@@ -1,0 +1,22 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Feb  2 18:07:51 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id SAA22436; Mon, 2 Feb 1998 18:07:49 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Jan 30 17:00:36 1998
+Date: Fri, 30 Jan 1998 22:59:06 +0100 (MET)
+Message-Id: <199801302159.WAA02024@relay.euronet.nl>
+To: Cube-Lovers@ai.mit.edu
+From: Sytse de Maat <4xs2fs@euronet.nl>
+Subject: Re: Rubik's Cube FAQ
+
+At 02:54 29-1-98 -0800, chrono@ibm.net (Jin "Time Traveler" Kim) wrote:
+>Is there such a thing as a Rubik's-type puzzle FAQ?...
+
+At least a universal notation for 4x4x4 and 5x5x5 would be very
+welcome to me.
+
+Sytse de Maat <4xs2fs@euronet.nl>
+Designer of a 5x5x5 cube in 1982
+

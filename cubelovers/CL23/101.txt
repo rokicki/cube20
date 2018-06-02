@@ -1,0 +1,31 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug  6 22:13:35 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id WAA05412; Wed, 6 Aug 1997 22:13:34 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From reid@math.brown.edu Wed Aug  6 22:12:07 1997
+Message-Id: <199708070208.WAA08375@life.ai.mit.edu>
+Date: Wed, 6 Aug 1997 22:14:21 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: optimal solver for quarter turns
+
+i have my optimal cube solver working for quarter turns.  it seems to
+be as effective as the face turn version.  some minimal maneuvers
+it has found are
+
+   cube in a cube in a cube
+   U' L' U' F' R2 B' R  F  U  B2 U  B' L  U' F  U  R  F'  (20q)
+
+   six X's, order 6
+   F  U' L2 F' L' D  R  U' D  L' B  U2 F' L' D' F  D  R   (20q)
+
+   ron's cube within the cube
+   F  D' F' R  D  F' R' D  R  D  L' F  L  D  R' F  D'  (17q)
+
+and it has also confirmed minimality of known maneuvers for several
+other patterns.
+
+mike
+

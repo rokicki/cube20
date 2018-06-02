@@ -1,0 +1,10 @@
+Date: Tue 15 Feb 83 15:04:02-PST
+From: ISAACS@SRI-KL.ARPA
+Subject: "6-T" pretty pattern
+To: cube-lovers@MIT-MC.ARPA
+
+  A friend of a friend says he can do the 6-T pattern in 16 moves
+(he may call 1/2 turns a move, I'm not sure).  Does anybody know if
+this is a minimum?  I'll try to get the sequence.
+ -- Stan
+-------

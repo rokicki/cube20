@@ -1,0 +1,70 @@
+From BRYAN@wvnvm.wvnet.edu  Mon Sep  5 09:25:29 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18977; Mon, 5 Sep 94 09:25:29 EDT
+Message-Id: <9409051325.AA18977@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 8919; Mon, 05 Sep 94 09:08:15 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5126; Mon, 5 Sep 1994 09:08:15 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Mon, 5 Sep 1994 09:08:14 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: <cube-lovers@ai.mit.edu>
+Subject:   Re: < U, R > revisited (with Local Maxima)
+In-Reply-To: Message of 09/01/94 at 22:56:00 from mark.longridge@canrem.com
+
+I performed a Local Maxima analysis.  (This is for Q-turns only.)  The Local
+Maxima are in column 4.  The shortest local maxima (six of them) are of
+length 12.  Interestingly, this is the same length which is suspected of
+being the shortest Q-turn length for a local maximum in the full cube group.
+Is there any connection?  Also, the global maxima are of length 25.  Does
+this tell us anything about the Q-turn length of the global maxima for the
+full cube group?  Finally, pick any cube X in <U,R>.  We know
+|X| in G <= |X| in <U,R>.  Can anybody find a cube X such that
+|X| in G < |X| in <U,R>?  Alternatively, can anybody prove
+|X| in G = |X| in <U,R> for all X in <U,R>?  (This assumes Q-turns only in
+all cases.  The questions would all have to be asked again for Q+H-turns.)
+
+                         Number of Moves Which Go Closer to Start
+
+     Level       Total   0           1           2           3          4
+                 Cubes
+
+         0           1   1           0           0           0          0
+         1           4   0           4           0           0          0
+         2          10   0           8           2           0          0
+         3          24   0          20           4           0          0
+         4          58   0          48          10           0          0
+         5         140   0         116          24           0          0
+         6         338   0         280          58           0          0
+         7         816   0         676         140           0          0
+         8       1,970   0       1,632         338           0          0
+         9       4,756   0       3,940         816           0          0
+        10      11,448   0       9,448       1,996           4          0
+        11      27,448   0      22,584       4,836          28          0
+        12      65,260   0      53,236      11,862         156          6
+        13     154,192   0     125,196      28,616         360         20
+        14     360,692   0     289,908      69,196       1,472        116
+        15     827,540   0     652,792     168,008       6,180        560
+        16   1,851,345   0   1,428,560     398,634      21,860      2,291
+        17   3,968,840   0   2,938,808     934,908      84,312     10,812
+        18   7,891,990   0   5,422,844   2,109,480     309,916     49,750
+        19  13,659,821   0   8,065,268   4,288,796   1,068,480    237,277
+        20  18,471,682   0   7,948,748   6,625,644   2,947,320    949,970
+        21  16,586,822   0   3,485,748   5,507,066   4,831,060  2,762,948
+        22   8,039,455   0     286,176   1,165,888   2,665,080  3,922,311
+        23   1,511,110   0         740      15,202     156,432  1,338,736
+        24      47,351   0           0           8         332     47,011
+        25          87   0           0           0           0         87
+
+            73,483,200   1  30,736,780  21,331,532  12,092,992  9,321,895
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

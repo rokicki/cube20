@@ -1,0 +1,89 @@
+Date: 10 Dec 1981 1903-PST
+From: ISAACS at SRI-KL
+Subject: Ten Billion Puzzle (the Barrel)
+To: CUBE-LOVERS at MIT-MC
+
+  It just happens that the day before I got the Nourse solution to the
+Ten Billion (Barrel, Magic Barrel, etc), I got another solution by Naoaki
+Takashima, that he presented to the ARMJ (??) meeting in Japan.  His 
+notation:  
+Columns and stages are defined             5-   x   x x
+as shown on the right.                 s   4- x x x x x
+                                       t   3- x x x x x
+                                       a   2- x x x x x
+                                       g   1- x x x x x
+                                       e
+                                       s      | | | | |
+                                              1 2 3 4 5
+
+                                             columns
+He moves the drums, rather than the plunger.
+   U--move drums up.       D--move drums down.
+   Ru (R sub u) Rotate upper drum right one column; superscripts for number
+   Rl (R sub l)   "    lower  "     "    "    "     of columns
+   R for upper and lower together to the right
+   L for left similarly.
+
+ At any rate, a cumbersome notation for computer writing.  What's more, unit
+move people (who don't like slice moves or half turns on the cube) won't like
+combining the two drums (rings).  BUT since I hold my barrel by the bottom
+plunger, I do find it easier to think of moving the rings up and down, rather
+than pushing the plunger.  I like rings better than drums, but columns better
+than notches.  And I would rather take standard numbering to start from 
+what is above defined as column 2, ie, the one under the neighborless plunger.
+
+  So, all in all, I would like to propose accepting Don Lynns' notation
+with the following changes:  U and D would refer to the rings moving up
+and down, instead of the plunger.  "Notches" would become "columns".
+The picture above, moved to reflect the new columns, could be used when it
+is needed for clarity.  
+
+* * * * Small spoiler * *
+  The Takashima solution is really based on one move, which cycles 3 balls
+more-or-less vertically:
+  let X = U T D -T / U B D -B / (TB) U -(TB) D
+  then  X2 moves 3F TO 4F TO 2L TO 3F;  ie, the 3-cycle (3F,4F,2L).
+* * * * End of small spoiler * * *
+
+ I already propose apostrophe instead of -, so the above becomes:
+   UTDT'-UBDB'-(TB)U(TB)'D    which I think is a little clearer.
+
+Notice that the above can be simplified to:
+     UTDT'UBDTUB'DT'UBDTUTBD  (I think.  I find it hard to think about in
+                               such small pieces; I like the less efficient
+                               chunks at first.)
+* * * * * * * * SPOILER WARNING * * * * * * * * * * *SPOILER WARNING * * * *
+
+Anyway, with this move alone (plus some playing at the beginning), I can
+solve the puzzle as follows:  First get the three black balls at the top,
+under the plungers, any old way.  Then put 5 different colors in the first
+layer, moving only the bottom ring (to leave the black balls alone).  Then
+use the move above to move in the matching second layer from the top (layer
+4).  When necessary, use the same move to get from 3 to 4 first, or even from
+2 to 4.  Using the inverse move can speed things up, but just doing it twice
+is easier on the memory.  Move the space in layer 2 you want to fill, to column
+5 (new numbering; col. 1 in above diagram, or "2L" in notation), by moving
+the lower ring; move the column containing the ball you want in that space
+to col. 1 (F), apply the move once or twice, and move the rings back.  Rest
+position has the barrel down (and the plunger up).  Once the second layer
+is complete (or, for efficiency, complete except for 1), do similar things
+for layers 3 and 4, using the second layer for temporary storage.
+
+* * * * * * * END OF SPOILER * * * * * * * * * * * * * * * * * * * * * * * * *
+
+  Don Lynn:  I would be very interested if you would summarize Nourse's
+approach, and either send it to me or to cube-lovers.  I have not had the
+time to break it down into chunks to see what basic moves he really uses.
+I find that to be the main trouble with most of the solution books to 
+the cube as well as this - that they offer long sequences to memorize, with
+little thought to learning what is going on, and what the logic of the moves
+are.  In Nourse's solution, what are the basic pieces of his moves. Can they
+be expressed (as above) as a "simple to comprehend" set as well as a "shortest
+number of unit moves" way.  By use of parenthesis (or maybe slashes), U and D
+could probably be eliminated; at each slash, switch from up to down or vice
+versa.  Would this be useful notationally.  What are some basic algorithms
+to exchange 2 balls on a single layer or in a single column?  To cycle a
+layer or column?  
+  Enough questions for tonight.  When's the first Barrel contest?
+   --- Stan
+-------

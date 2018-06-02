@@ -1,0 +1,42 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar 30 16:23:46 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA05149; Mon, 30 Mar 1998 16:23:46 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Mar 29 04:29:11 1998
+Message-Id: <3.0.5.16.19980329094205.097f34b6@vip.cybercity.dk>
+Date: Sun, 29 Mar 1998 09:42:05
+To: cube-lovers@ai.mit.edu
+From: Philip Knudsen <skouknudsen@email.dk>
+Subject: Eclipse and Pyramorphix
+
+There are two new puzzles out,
+by the two most prominent veterans respectively:
+
+ 1) Rubik's Eclipse, which is some sort of two-player game and,
+    according to the people who have it, a real gem.
+ 2) Pyramorphix, by Meffert.
+    David Byrden's Twisty Puzzles page shows a picture of
+    a 2x2x2 Pyraminx together with the text
+    "A solid version of this amazing puzzle is now available
+    from Uwe Meffert, called the Pyramorphix".
+    Now the 2x2x2 pyraminx looks like an old east german puzzle,
+    which was a 2x2x2 cube in tetrahedral shape. The shape changed
+    when the puzzle was scrambled, so the name Pyramorphix would
+    apply. However the east german puzzle was not by Meffert.
+
+Now if anyone knows more about these new puzzles,
+or where to get them, please reply.
+
+
+Philip K
+recording and performing artist
+Vendersgade 15, 3th
+DK - 1363 Copenhagen K
+Phone:  +45 33932787
+Mobile: +45 21706731
+E-mail: skouknudsen@email.dk
+E-mail: philipknudsen@hotmail.com
+Sms: 4521706731@sms.tdk.dk (short message, no subject)
+

@@ -1,0 +1,49 @@
+From hoey@aic.nrl.navy.mil  Tue Dec 17 16:38:10 1991
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) id AA18437; Tue, 17 Dec 91 16:38:10 EST
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA12139; Tue, 17 Dec 91 16:18:17 EST
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Tue, 17 Dec 91 16:18:16 EST
+Date: Tue, 17 Dec 91 16:18:16 EST
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9112172118.AA14791@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers@life.ai.mit.edu, ronnie@cisco.com (Ronnie Kon)
+Subject: Re: Rubik's cube dice tops (Spoiler)
+
+Last week ronnie@cisco.com (Ronnie Kon) challenged us to find Rubik's
+cube patterns with dice pips for 1, 2, and 3 on the three pairs of
+opposite sides.  He claimed it could be done in fourteen HST, where
+one HST is a turn of a face or center slice by 90 or 180 degrees.  I
+responded that it could be done in thirteen HST.  Here is how.  I will
+use this opportunity to practice the enhanced Varga Rubiksong I
+described (unfortunately with many typos) on 22 Feb 90.
+
+The (only such) pattern is the composition of Four-Spot and Laughter.
+We have long known the processes
+
+          ris-fos tis-fos, or (RL)^2 FB' (TD)^2 FB', for Four-Spot and
+  fon-ron fon-ron fon-ron, or (FBRL)^3,              for Laughter.
+
+When we compose them, the F and B moves combine and cancel to produce
+
+ris-fos tis-fi ron-fon ron-fon ron, or (RL)^2 FB' (TD)^2 F^2 (RLFB)^2 RL.
+
+This 14 HST process is presumably something like what Ronnie had in
+mind.  But since this pattern commutes with ris, or (RL)^2, we can get
+the same pattern with the conjugate process
+
+    fos tis-fi ron-fon ron-fon ran, or FB' (TD)^2 F^2 (RLFB)^2 R'L'.
+
+This uses only 13 HST.  This is also the shortest process I know of in
+the normal metric: 18 QT, which is not so bad for the combination of
+two 12 QT processes.
+
+I suggested that perhaps 12 HST would be sufficient, but I have not
+found such an improvement.  Nor do I know whether 13 HST is the best
+that can be done: it seems that proving 13 HST optimal would require
+examining about 160 million positions, almost as many as the 200
+million it would take to prove 18 QT optimal.
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

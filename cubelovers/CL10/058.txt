@@ -1,0 +1,18 @@
+From ronnie@cisco.com  Mon Oct  4 11:28:32 1993
+Return-Path: <ronnie@cisco.com>
+Received: from lager.cisco.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27800; Mon, 4 Oct 93 11:28:32 EDT
+Received: from localhost.cisco.com by lager.cisco.com with SMTP id AA03014
+  (5.67a/IDA-1.5 for <cube-lovers@ai.mit.edu>); Mon, 4 Oct 1993 08:28:29 -0700
+Message-Id: <199310041528.AA03014@lager.cisco.com>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Seeking 5x5x5 cube 
+In-Reply-To: Your message of "Mon, 04 Oct 1993 08:40:53 EDT."
+             <9310041251.AA19338@life.ai.mit.edu> 
+Date: Mon, 04 Oct 1993 08:28:28 -0700
+From: "Ronnie B. Kon" <ronnie@cisco.com>
+
+
+Try mailing to Peter Beck (pbeck@pica.army.mil).
+
+			Ronnie
+

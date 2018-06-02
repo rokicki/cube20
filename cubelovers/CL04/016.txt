@@ -1,0 +1,29 @@
+Date: 21 May 1982 1710-PDT
+From: ISAACS at SRI-KL
+Subject: frustration and Alexander's Star
+To: cube-lovers at MIT-MC
+
+  Aauugghh - no one I've been able to find in the Bay ARea has the 4^3.
+If anyone is flying in from Boston, BRING SOME!  Several other of
+Ideals new stuff is out here - including the game "Rubik's Race", some
+of the Puzzle pens, and the 2^3.  The latter uses the sliding disks
+on an internal sphere mechanism, by the way.  If one comes apart, it
+seems difficult (but not impossible) to get back together. 
+  Anyway, the only really worthwhile new Ideal thing is Alexander's
+Star, which is a worthy addition to the sliding axis puzzle field.  It
+is a Great Dodecahedron in form, and each "star", that protrudes from
+a pentagonal face, rotates (5 positions).  Each face (the pentagons, not
+the stars) is monochromatic in the solved state.  It is colored with 6
+colors, opposite faces the same.  (Look in a decent geometry book for
+a picture of a great dodecahedron. It's one of the 4 Kepler-Poinsot
+regular concave polyhedra, this one having 12 pentagonal faces 
+interpenatrating each other in a star-like manner).  It's not too
+hard to solve, the main difficulty is figuring where each piece goes.
+(Each moving piece is the triangular wedge which can be found between
+the points of a stellated dodecahedron, which "turn it into" a great
+dodecahedron).
+   If anyone knows where to get the 4^3 out here, or is coming
+visiting and can bring one, my phone number is (415)326-7788,
+if you can't get at a terminal.  My work number is (415)497-2577.
+   -- Stan Isaacs
+-------

@@ -1,0 +1,17 @@
+From dml@hpfrcu03.france.hp.com  Thu Oct  7 16:48:50 1993
+Return-Path: <dml@hpfrcu03.france.hp.com>
+Received: from hp.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04635; Thu, 7 Oct 93 16:48:50 EDT
+Received: from hpfrcu03.france.hp.com by hp.com with SMTP
+	(16.8/15.5+IOS 3.13) id AA23157; Thu, 7 Oct 93 09:59:30 -0700
+Received: by hpfrcu03.france.hp.com
+	(1.37.109.4/15.5+IOS 3.22) id AA14854; Thu, 7 Oct 93 17:59:19 +0100
+From: Patrick DEMICHEL  <dml@hpfrcu03.france.hp.com>
+Message-Id: <9310071659.AA14854@hpfrcu03.france.hp.com>
+Subject: help
+To: CUBE-LOVERS@life.ai.mit.edu
+Date: Thu, 7 Oct 93 17:59:18 MET
+Cc: dml@hpfrcu03.france.hp.com
+Mailer: Elm [revision: 72.14]
+
+help
+

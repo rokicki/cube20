@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Apr 20 14:22:17 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA09900
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 20 Apr 1999 14:22:16 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 19 Apr 1999 15:48:36 +0100
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: WaVeReBeL@webtv.net
+Cc: cube-lovers@ai.mit.edu
+Message-Id: <009D6E04.8CAE2B95.34@ice.sbu.ac.uk>
+Subject: RE: Lubricant
+
+	I used to use silicone grease of the type used for O-ring seals in
+diving equipment, etc.  I haven't seen any damage caused by this.  WD-40 has
+also been suggested and I have used it, but I think it may damage some
+plastics.  Note that the central spindle is often made of a different plastic
+than the other pieces and I think it is more subject to attack by some of the
+lubricants.
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

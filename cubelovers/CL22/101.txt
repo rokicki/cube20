@@ -1,0 +1,38 @@
+From cube-lovers-errors@oolong.camellia.org  Sun Jun  1 21:39:26 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id VAA01505; Sun, 1 Jun 1997 21:39:26 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Mon, 2 Jun 1997 01:45:38 +0200
+From: Dik.Winter@cwi.nl
+Message-Id: <9706012345.AA07277=dik@hera.cwi.nl>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Description of algorithm for finding minimal-move solutions to Rubik's Cube
+
+ > I have always been curious about the termination criteria for your
+ > algorithm -- that is, how long is "long enough"?.
+
+"Long enough" means that it is certain that no shorter solutions can
+be found.
+
+ >                                                    It appears that you are
+ > effectively moving moves from stage2 to stage1 until stage2 is empty.
+
+Not really.  What is happening is a breadth first search in phase1.  The
+search is continued although phase1 solutions are found (and a lot are
+found on the way).  This is continued until you find that deepening the
+search in phase1 will not give shorter solutions.  For each phase1
+solution a phase2 solution is looked for, also in a breadth first manner,
+and also as deep as is needed to find shorter total solutions.
+
+This method finds very quickly solutions for phase1 in about 10-12 turns
+with matching solutions in phase2 with 12-14 turns for a total of about
+22-26 (very rarely the first solution found has over 26 turns).  When
+for instance a solution is found with 10 turns in phase1 and 12 in phase2
+(breadth first so this is optimal with the particular path in phase1),
+search in phase1 continues and for each new solution in phase1 solutions
+are searched for in phase2 with limited depth.  So first 10 turns in
+phase1 and at most 11 in phase2, followed by 11 in phase1 and at most
+10 in phase2.
+
+

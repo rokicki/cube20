@@ -1,0 +1,82 @@
+From BRYAN@wvnvm.wvnet.edu  Sun Aug 21 09:08:01 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03765; Sun, 21 Aug 94 09:08:01 EDT
+Message-Id: <9408211308.AA03765@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 1039; Sun, 21 Aug 94 08:18:30 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5568; Sun, 21 Aug 1994 08:18:30 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sun, 21 Aug 1994 08:18:29 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "der Mouse" <mouse@collatz.mcrcim.mcgill.edu>,
+        "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: Updated Upper Limits, Q-turns
+In-Reply-To: Message of 08/21/94 at 06:33:02 from ,
+           mouse@collatz.mcrcim.mcgill.edu
+
+On 08/21/94 at 06:33:02 der Mouse said:
+>> Dan's recursion formula is:
+
+>>>   P[n]  <= 4*2*P[n-1] + 6*2*P[n-2] + 4*2*P[n-3] + 1*2*P[n-4]
+
+>> Dan's calculations:
+
+>>> P[0]  =           1
+>>> P[1]  =          12
+>>> P[2]  =         114
+>>> P[3]  =       1,068
+>>> P[4]  =      10,011
+
+>Ummm.  4*2*P[4-1] + 6*2*P[4-2] + 4*2*P[4-3] + 1*2*P[4-4] =
+>       4*2*1068 + 6*2*114 + 4*2*12 + 1*2*1 = 10010 < P[4].
+
+>What have I missed?  Is Dan's formula not valid until n=5 or something?
+
+>                                        der Mouse
+
+I had just noticed the same thing, and intended to investigate.  I don't
+know what happens to Dan's formula for n=4.
+
+At the time Dan's chart was first published, P[n] was only known
+for sure for n = 0..4.  Dan showed strict equality for these
+levels, and I assume P[4] came from the known values rather than
+from the formula.  It still does not explain why the formula
+yields a value which is too low for P[4]  --  I could easier
+understand why it yielded a value which is too high, but it seems
+to me that it ought to yield the exact value that close to Start.
+
+For P[5], Dan's original chart showed "=<".  Subsequent computer
+search changed this to strict equality, which is a great victory
+for Dans' formula.  The first term for which
+Dan's chart is too high is P[6].  I had therefore intended to
+start my investigations at that point until I discovered the
+discrepancy at P[4].
+
+Just as a reality check, let me mention some trivial points.  Suppose
+it is discovered that (X1 X2 ... Xn) = (Y1 Y2 ... Ym).  Define
+X = (X1 X2 ... Xn) and Y = (Y1 Y2 ... Ym).  Since X = Y, it is
+immediate that XY' = Y'X = X'Y = YX' = I.  Conversely, a sequence
+(X1 X2 ... Xn) = I can be decomposed into X = (X1 X2 ... Xk) and
+Y = (X[k+1] ... Xn).  Then, XY = I and hence X and Y' (and also
+X' and Y) are what I have called "duplicate sequences", that is
+different sequences which yield the same cube.  This is why
+identities are so important for bounding P[n].
+
+I seem to do everything backwards, so I would just look for the duplicate
+sequences.  However, it is probably more elegant to look for the identities.
+Dan's original note said that computer
+search has shown that there are not any identities other than the ones we
+already know about up through length 10.  It looks to me like Dan's
+formula takes care of the identities we already know about.  So
+as usual, I am probably missing something obvious.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

@@ -1,0 +1,35 @@
+From diamond@jit081.enet.dec.com  Mon Oct  5 20:54:41 1992
+Return-Path: <diamond@jit081.enet.dec.com>
+Received: from enet-gw.pa.dec.com by life.ai.mit.edu (4.1/AI-4.10) id AA22961; Mon, 5 Oct 92 20:54:41 EDT
+Received: by enet-gw.pa.dec.com; id AA18960; Mon, 5 Oct 92 17:54:31 -0700
+Message-Id: <9210060054.AA18960@enet-gw.pa.dec.com>
+Received: from jit081.enet; by decwrl.enet; Mon, 5 Oct 92 17:54:38 PDT
+Date: Mon, 5 Oct 92 17:54:38 PDT
+From: 06-Oct-1992 0949 <diamond@jit081.enet.dec.com>
+To: cube-lovers@ai.mit.edu
+Apparently-To: cube-lovers@ai.mit.edu
+Subject: Re: miniscences
+
+Al Zimmermann <azimmerm@rnd.stern.nyu.edu> writes:
+>I spent every non-touristy moment
+>working out and recording moves until, on day 13, I got the final face.
+>When we got back to the States, my girl friend and I broke up.  Do you think
+>there's a moral here?
+
+Yes, at least three:
+
+(1)  Every non-touristy moment that you weren't recording moves, you should
+       have spent with your girl friend instead of working out  :-)
+
+(2)  You should have given equal attention to the final face and to your
+       girl friend's face  :-)
+
+(3)  You should have chosen a girl friend who could solve the cube, like
+       I did.
+
+But I thank you for warning about the dangers of getting back to the States.
+Maybe I shouldn't go back after all  :-)
+
+-- Norman Diamond    diamond@jit081.enet.dec.com
+[Digital did not write this.]
+

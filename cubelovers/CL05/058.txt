@@ -1,0 +1,84 @@
+Date: 20 Aug 1984 4:34-EDT
+From: Dan Hoey <hoey@NRL-AIC>
+Subject: The pocket cube and corners of the full cube
+To: cube-lovers at mc
+Cc: umcp-cs!seismo!ihnp4!ihnet!eklhad at NRL-AIC
+
+Karl Dahlke, the author of the pocket cube program I mentioned on 1
+August, sent me a note about the appearance of the unusual constant 870
+in his program.  It turns out that the program is correct, and the
+constant arises in an interesting way.
+
+Recall that the pocket cube has 729 orientations and 5040 permutations
+of the pieces.  Dahlke had noticed that the ``reflections and
+rotations'' of a position need not be stored, since they are the same
+distance from start.  By reflections and rotations, he means the
+S-conjugates, where S is the six-element symmetry group of the pocket
+cube with one corner fixed.
+
+It turns out that the pocket cube has 2 permutations with a six-element
+symmetry group, 16 permutations with a three-element symmetry group,
+138 permutations with a two-element symmetry group, and 4884
+permutations with a one-element symmetry group.  Thus the number of
+permutations that are distinct up to S-conjugacy is 2 + 16/2 + 138/3 +
+4884/6 = 870.
+
+This discussion of symmetry recalls a question I have meant to propose
+to Cube-Lovers for some time:  How many positions are there in Rubik's
+Cube?  We know from Ideal that the number is somewhat over three
+billion.  Most cube lovers will tell you a number of about 43
+quintillion.  But I really don't see why we should count twelve
+distinct positions at one quarter-twist from solved--all twelve are
+essentially the same position.  So the question, suitably rephrased, is
+of the number of positions that are distinct up to conjugacy in M, the
+48-element symmetry group of the cube.  I think this is an interesting
+question, but I don't see any particularly easy way of answering it.
+My best guess is that it involves a case-by-case analysis of the 98
+subgroups of M, or at least the 33 conjugacy classes of those
+subgroups.  In ``Symmetry and Local Maxima'', Jim Saxe and I examined
+five of the classes, which we called M, C, AM, H, and T.
+
+Even finding the numbers for the pocket cube is a little tricky.  If we
+limit ourselves to symmetry in S, I believe the pocket cube has 2
+positions with a six-element symmetry group, 160 positions with a
+three-element symmetry group, 3882 positions with a two-element
+symmetry group, and 3670116 positions with a one-element symmetry
+group, for 613062 positions distinct up to S-conjugacy.  But the
+numbers for M-conjugacy are still elusive; I am not even sure how to
+deal with factoring out whole-cube moves in the analysis.  I hope to
+find time to write a program for it.
+
+I expanded my pocket cube program to deal with the corner group of
+Rubik's cube.  This group is 24 times as large as the group of the
+pocket cube, having 3^7 * 8! = 88179840 elements.  The number of
+elements P(N) and local maxima L(N) at each (quarter-twist) distance N
+from solved are given below.
+
+                 N         P(N)        L(N)
+                 0            1           0
+                 1           12           0
+                 2          114           0
+                 3          924           0
+                 4         6539           0
+                 5        39528           0
+                 6       199926         114
+                 7       806136         600
+                 8      2761740       17916
+                 9      8656152       10200
+                10     22334112       35040
+                11     32420448      818112
+                12     18780864     9654240
+                13      2166720     2127264
+                14         6624        6624
+
+The alert reader will notice that rows 10 through 14 contain values
+exactly 24 times as large as those for the pocket cube.  This is not
+surprising, given that the groups are identical except for the position
+of the entire assembly in space, and each generator of the corner cube
+is identical to the inverse of the corresponding generator for the
+opposite face except for the whole-cube position.  Thus when solving a
+corner-cube position at 10 qtw or more from solved, it can be solved as
+a pocket cube, making the choice between opposite faces in such a way
+that the whole-cube position comes out right with no extra moves.
+
+Dan

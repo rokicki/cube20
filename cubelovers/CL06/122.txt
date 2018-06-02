@@ -1,0 +1,90 @@
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU; 22 Feb 90 20:51:19 EST
+Received: by mintaka.lcs.mit.edu id aa07049; 22 Feb 90 20:44 EST
+Received: from aic.aic.nrl.navy.mil by mintaka.lcs.mit.edu id aa06985;
+          22 Feb 90 20:43 EST
+Return-Path: <hoey>
+Received: Thu, 22 Feb 90 19:16:07 EST by aic.nrl.navy.mil id AA05186
+Date: Thu, 22 Feb 90 19:16:07 EST
+From: Dan Hoey <hoey@aic.nrl.navy.mil>
+Message-Id: <9002230016.AA05186@aic.nrl.navy.mil>
+To: Cube-Lovers@AI.ai.mit.edu
+Subject: Language in Rubik's Cubic Compendium
+
+Well, my order of Rubik's Cubic Compendium came through.  I ordered it
+through Reiter's (The DC technical bookstore) and paid $30 for it.
+It's basically six largely independent chapters translated from
+Hungarian, with foreword and afterword by Singmaster and a
+bibliography.  There's definitely some neat stuff there.
+
+My favorite piece of the book is in Tamas Varga's ``The Art of
+Cubing'', which develops some interesting new additions to what we
+used to call ``Rubiksong'', the language we use to describe processes.
+He starts by renaming the Up face to be the Top, the advantage of
+which is to make all the face names consonants.  He then uses vowels
+to indicate the direction of turn, "O" for 90 degrees fOrward (or
+clOckwise), "A" for 90 degrees bAckward (or Anticlockwise) and "I" for
+a 180 degree half-turn (twIce).  This works out neatly to allow a
+process to be described with a syllable for each quarter- or
+half-turn.  So Pons Asinorum can be done with FIBITIDIRILI and
+Laughter is 3 FOBOROLOs.
+
+But wait, there's more!  Remember how Befuddler never was able to
+handle whole-cube moves neatly?  In this notation, you append a "C" to
+a syllable to indicate that instead of turning the face, you turn the
+whole cube.  So the way I usually do Laughter is really 6 ROLOTOCs.
+This notation is not as parsimonious, since FOC=BAC, TOC=DAC, and
+ROC=LAC, but it's better than having to stop in the middle and say
+``then move the cube''.  For instance, Jim Saxe's 28-qt Plummer's
+Cross can be done as "FOLIRIFO BOLIRIFO ROFIBIRO LOFIBIRO TIDI", but
+the way he originally described it (3 Dec 1980 00:50) was "FOLIRIFO
+BOLIRIFO TOC FOLIRIFO BOLIRIFO TIDI", but instead of TOC he had a
+couple of lines of text.
+
+He also has a way of talking about the slice moves, where you move
+the middle layer of the cube instead of the faces.  For moving the
+middle, you append "M" to the syllable.  So the way most people do a
+Spratt wrench is 4 TOROMs, and we can do the Plummer's Cross as
+FOLIMBO FOLIMFO TOC FOLIMBO FOLIMFO TIM.  Of course, ROM=LAM, etc.
+(This could also work for Rubik's revenge, where ROM and LAM are
+different, being moves of the inner layers adjacent to the R and L
+faces).
+
+It's unfortunate that he doesn't extend the language past the point of
+appending "M" and "C".  I would like to have a way of talking about
+slice moves where you move the faces rather than the middle.  Of
+course, we could say ROLA, but I'd rather say something like ROS.
+This might interfere with the use of "s" for plurals (as they do in
+the book and I do above), but that could be fixed by pronouncing the
+pluralizing s as "z".
+
+Another idea is to append "N" to syllables for aNtislice moves.  So
+Laughter would be six RONTOCs.  I'm a little concerned though, that "M"
+and "N" might be difficult to distinguish.
+
+Another suggestion is to append "P" to allow "deeP" moves, where we do
+RO and ROM simultaneously by grabbing two layers of the cube and
+turning them while keeping the remaining face fixed.
+
+It might be nice to use "G" to denote the way we "Wring" the cube,
+as with ROPRO.  So 6 ROGTOC's does an 8-Flip.
+
+To summarize,
+
+    F,B,T,D,R,L -- faces Front, Back, Top, Down, Right, Left.
+    O,A,I       -- directions fOrward, bAckward, twIce.
+    C,M,S,N,P,G -- extensions whole-Cube, Middle, Slice, aNtislice,
+		    deeP, wrinG
+
+All extensions but C are redundant, since
+
+        ROM=ROCRALO
+        ROS=ROLO
+        RON=ROLA
+        ROP=ROCLA
+        ROG=ROCROLO
+
+I'm going over their list of pretty patterns, and hopefully I can find
+out which ones are improvements.  I did notice they don't have Saxe's
+Plummer's cross process.
+
+Dan

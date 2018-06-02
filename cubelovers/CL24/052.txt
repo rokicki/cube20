@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Oct 31 12:09:35 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA11837; Fri, 31 Oct 1997 12:09:33 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From mouse@Rodents.Montreal.QC.CA Thu Oct 30 12:30:33 1997
+Date: Thu, 30 Oct 1997 12:29:32 -0500 (EST)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199710301729.MAA08700@Twig.Rodents.Montreal.QC.CA>
+To: cube-lovers@ai.mit.edu
+Subject: Re: A* versus IDA*
+
+It's a little off-topic and rather old (June 1st) anyway, so I'll make
+this quick:
+
+> [...discussion of FreeCell and "Baker's game"...]
+
+Could someone interested in these contact me?  I'd like to learn more
+about Baker's game, whatever that is, and discuss some empirical
+results with with Seahaven.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

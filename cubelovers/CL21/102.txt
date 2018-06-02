@@ -1,0 +1,33 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Dec 13 22:55:45 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id WAA23645; Fri, 13 Dec 1996 22:55:44 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <9612140215.AA24522@jrdmax.jrd.dec.com>
+Date: Sat, 14 Dec 96 11:15:16 +0900
+From: Norman Diamond 14-Dec-1996 1039 <diamond@jrdv04.enet.dec-j.co.jp>
+To: Cube-Lovers@AI.MIT.EDU
+Subject: Stick the non-stickers (was Re: 6-cube and Hofstadter; Meffert)
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+Suggestion for lost stickers:
+
+2.  Make a bandaged cube in the style of Dieter Gebhardt or Greg Stevens'
+works, and make suitable stickers yourself for the bandaged cube.
+
+1.  Before bandaging the cube in step 2, first you must remove the original
+stickers.  Put some of them on the cube that is missing stickers, and save
+the others to take care of future losses.
+
+0.  Choose a cube that is already missing the most stickers, and use that
+one in making the bandaged cube.
+
+Notice that there is no step 3.  If you do an adequate job of bandaging, it
+will be incredibly difficult to solve the cube after messing it up.  So there
+is no step 3.  Do not post to this list asking for help in solving it :-)
+
+-- Norman Diamond           diamond@jrdv04.enet.dec-j.co.jp
+[Speaking for Norman Diamond not for Digital.]
+
+

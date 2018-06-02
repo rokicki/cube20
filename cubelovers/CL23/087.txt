@@ -1,0 +1,31 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug  1 09:34:41 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id JAA27030; Fri, 1 Aug 1997 09:34:40 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From nbodley@tiac.net Thu Jul 31 22:03:44 1997
+Date: Thu, 31 Jul 1997 22:00:20 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Ponder <ponder@austin.ibm.com>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: Rubik's octahedrons etc.
+In-Reply-To: <9707312052.AA16660@roosevelt.austin.ibm.com>
+Message-Id: <Pine.SUN.3.95.970731215713.21913D-100000@sunspot.tiac.net>
+
+ If you were lucky, you could use a good CAD program to define the shapes,
+and NC machine tools to produce them; also possible is Rapid Prototyping.
+
+ A graphic computer simulation would also be a substitute for a physical
+puzzle, although holding one in your hand beats just about any graphics.
+
+ Good luck!
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+

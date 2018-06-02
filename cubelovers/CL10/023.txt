@@ -1,0 +1,25 @@
+From W.Taylor@math.canterbury.ac.nz  Mon Aug  2 22:20:16 1993
+Return-Path: <W.Taylor@math.canterbury.ac.nz>
+Received: from CANTVA.CANTERBURY.AC.NZ by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08764; Mon, 2 Aug 93 22:20:16 EDT
+Received: from math.canterbury.ac.nz by csc.canterbury.ac.nz (PMDF V4.2-13
+ #2553) id <01H1B8FCMWR4AYP5CF@csc.canterbury.ac.nz>; Tue,
+ 3 Aug 1993 14:19:57 +1200
+Received: from sss330.math.canterbury.ac.nz by math.canterbury.ac.nz
+ (4.1/SMI-4.1) id AA23489; Tue, 3 Aug 93 14:19:52 NZS
+Date: Tue, 3 Aug 93 14:19:52 NZS
+From: W.Taylor@math.canterbury.ac.nz (Bill Taylor)
+Subject: re: Diameter of cube group?
+To: Cube-Lovers@life.ai.mit.edu
+Message-Id: <9308030219.AA23489@math.canterbury.ac.nz>
+X-Envelope-To: Cube-Lovers@AI.AI.MIT.EDU
+Content-Transfer-Encoding: 7BIT
+
+Fascinating news from Dik Winter about the solving of 9000 configurations.
+
+Can someone please remind us exactly what Kociemba's algorithm is; or at
+least a breif outline of how it works.   I know I've heard the name before,
+but can't remember anything about it.
+
+Thanks,  Bill Taylor.         wft@math.canterbury.ac.nz
+
+

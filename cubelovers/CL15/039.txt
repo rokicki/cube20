@@ -1,0 +1,81 @@
+From BRYAN@wvnvm.wvnet.edu  Tue Feb 14 13:11:30 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10450; Tue, 14 Feb 95 13:11:30 EST
+Message-Id: <9502141811.AA10450@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 7478; Tue, 14 Feb 95 13:10:42 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 9940; Tue, 14 Feb 1995 13:10:42 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Tue, 14 Feb 1995 13:10:41 EST
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "der Mouse" <mouse@collatz.mcrcim.mcgill.edu>,
+        "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject:   Re: Re: superflip in quarter turn metric
+In-Reply-To: Message of 02/13/95 at 18:30:32 from ,
+           mouse@collatz.mcrcim.mcgill.edu
+
+Ok, let's try, try again.  I was incorrect in my response to der Mouse,
+and Martin Schoenert's correction is appreciated.
+
+The original issue was as follows:  suppose you have created a data base
+for N levels of God's algorithm, beginning with Start at the root of
+a tree.  With quarter-turns as generators, there is 1 position at
+level zero, 12 positions at level one, 114 positions at level two,
+etc.
+
+Now, suppose you want to create a data base for N levels of God's
+algorithm, starting with X at the root of the tree.  Can you simply
+compose your first tree with X on an element by element basis in order
+to obtain the X-rooted data base?  (You do have to be careful about
+pre-multiplying vs. post-multiplying as Martin indicated!)
+
+I stated essentially that the superflip was fairly unique in that
+you could compose the superflip with the Start-rooted data base
+in order to obtain the superflip-rooted data base, but that for
+X-rooted data bases in general you would have to perform a complete
+search starting with X.  der Mouse (correctly) noted that the
+same procedure would work for any position X as for the superflip.
+I (incorrectly) took exception with der Mouse, citing my fallacious
+distance argument.
+
+However, the way my data bases work, I still think that the
+superflip is fairly unique in its ability to be composed with
+a Start-rooted data base.  der Mouse was on the right track in
+his first post when he questioned whether the issue was the
+fact that the data bases only store representative elements of
+M-conjugacy classes.  I responded that the storage of representative
+elements was not the issue, but in fact it is.
+
+For example, when storing only representative elements of M-conjugacy
+classes, consider an F-rooted data base.  Strictly speaking, we would
+have to speak of a Repr{m'Fm}-rooted data base, because F might not be
+the representative element of {m'Fm}  --  it could be any of the twelve
+elements of Q.  When storing only representative elements for
+a Start-rooted data base, there is 1 element at level zero, 1 element
+at level one, and 5 elements at level two.  For a Repr{m'Fm}-rooted
+data base, there is 1 element at level zero, and six (!) elements
+at level one -- namely those same elements that are at level zero and
+level two of the Start-rooted data base.
+
+Hence, we cannot take the Start-rooted data base and pre-multiply
+each element by Repr{m'Fm} to obtain a Repr{m'Fm}-rooted data base.
+And in general, we cannot take the Start-rooted data base and
+pre-multiply each element by an arbitrary Repr{m'Xm} to obtain
+a Repr{m'Xm}-rooted data base.
+
+But for the superflip E, we *can*
+take the Start-rooted data base and pre-multiply each element
+by Repr{m'Em} to obtain a Repr{m'Em}-rooted data base.  In fact,
+note that |{m'Em}|=1, so we must have Repr{m'Em}=E.  However, note
+that for each Y in the Start-rooted data base, it is not sufficient
+to calculate (EY).  Rather, we must calculate Repr{m'(EY)m}.  That is,
+we know by definition that we have Y=Repr{m'Ym}, but we do not
+necessarily have (EY)=Repr{m'(EY)m}.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

@@ -1,0 +1,58 @@
+From cube-lovers-errors@oolong.camellia.org  Sat Jun  7 22:28:39 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id WAA04377; Sat, 7 Jun 1997 22:28:38 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <339A166F.5DD2@hrz1.hrz.th-darmstadt.de>
+Date: Sun, 08 Jun 1997 04:18:23 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>
+X-Mailer: Mozilla 3.0 (Win95; I)
+MIME-Version: 1.0
+To: SCHMIDTG@iccgcc.cle.ab.com, cube-lovers@ai.mit.edu
+Subject: Re: Detailed explanation of two phase algorithm
+References: <970607015004.21414d85@iccgcc.cle.ab.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+SCHMIDTG@iccgcc.cle.ab.com wrote:
+> 
+> On the subject of differences between IDA* and the phase1 algorithm,
+> Herbert Kociemba wrote:
+> 
+> >Because h0<=9 in phase1 and b=18 for the first node, you generate at
+> >most 162 nodes too much, which from a practical point of view is
+> >nothing. In the general case, h0<=N, where N is the minimal solution
+> >length, and you generate at most (N-1)*b nodes too much - so it really
+> >makes no difference.
+> 
+> If one can show that the cost values have a property such that they will
+> prune all nodes at levels less then h0, then I would agree with your
+> assessment.  However, I do not see why that should necessarily be
+> the case as the costs examined at lower levels could be overly optimistic
+> with respect to h0.
+
+In phase1, the heuristic function is
+h(x,y,z):=max{h1(x,y),h2(x,z),h3(y,z)}, where for example
+h1(x,y):=min {lenght of maneuvers m with m(x,y,z)=(x0,y0,z0)|z<495},
+and (x0,y0,z0) denotes the goal state.
+>From this it follows, that |h(x,y,z)-h(x',y',z')| <=1, if (x',y',z') is
+a state which is the result of a single move applied on (x,y,z).
+In particular this is true for the initial state (x,y,z) and any
+depth-one node (x',y',z'). The cost f of the depth-one node  is f=1 +
+h(x',y',z'), and from the above we have h0:=h(x,y,z)<=1 + h(x',y',z')=f
+When we now make an iteration with an iteration depth d and d<h0, we
+have
+d<h0<=f, but d<f means, that the depth-one node will be pruned, q.e.d.
+
+> Given an A* search algorithm, certain hard conclusions can
+> be proven (such as the guarantee that the first solution found is optimal
+> if an admissible heuristic is employed).  I don't know if these same
+> conclusions can be proven with the phase1 algorithm.
+
+Obviously the first solution is optimal for phase1, because the
+maneuverlength of a later solution cannot be smaller.
+
+Herbert
+
+
+

@@ -1,0 +1,32 @@
+Date:  4 Dec 1980 2118-PST
+From: Dave Dyer <DDYER at USC-ISIB>
+Subject: solution sequence
+To: cube-lovers at MIT-MC
+
+
+My original algorithm was:
+
+(1) bottom corners	by random twisting about
+
+(2) bottom sides	by random twisting about
+
+(3) middle sides	mostly by variants of [( r u -r -u )^2 ]^3
+		with extra "u" operations between the inner and outer loops
+
+(4) top sides		mostly by variants of ( r u -r -u )^2 ( -f -u f u)^2
+		with extra reps of phase 3 to swap positions around
+
+(5) top corner position	by variations on ( r u -r -u )^2 ( r u -r -u )z
+		with extra "b" operations between the major groups
+
+(6) top corners orientation
+		mostly by repitions of (gasp!)
+			A = ( r u -r -u )^2
+			A f A f A f A -f A -f A -f
+		... which I called the "long walk"
+
+My typical solution times with this methodology was 15-20 minutes.  I suspect
+If I operated ar warp speeds (like BSG) it would still be 5 minutes.
+
+FORTUNATELY, I have developed better since then.
+-------

@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Apr 27 18:45:51 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA28703
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 27 Apr 1999 18:45:51 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 27 Apr 1999 13:23:11 -0700 (PDT)
+From: Tim Browne <ue451@victoria.tc.ca>
+To: cube-lovers@ai.mit.edu
+Subject: Square-1 problem
+Message-Id: <Pine.GSO.3.95.iB1.0.990427130942.3580A-100000@vtn1>
+
+Hey there. I've got a problem with my Square-1 puzzle. A few days ago, I
+got a whole bunch of sugar grains stuck inside which are screwing up the
+mechanism big time. At first it seemed as though the it was getting better
+as the sugar was ground down and flushed out during each rotation, but now
+it's getting affected by the dampness and the sugar's turning into a
+pretty decent adhesive. The only real solution seems to be to take the
+puzzle apart, clean it, dry it, and reassemble it. Someone on rec.puzzles
+suggested soaking it in water, but given that the stickers are laminated
+paper instead of plastic and the possibility of rusting the mechanism, I'd
+rather not do this. Besides, I'd really like to see the internal workings
+of this Machiavellian torture machine. :-) If anyone on this list knows
+how to disassemble/reassemble the puzzle, I'd really appreciate it if you
+could let me know how to do it. :-) Thanks in advance. L8r.
+
+                     Cubic Puzzles - The SIMPLEST Solutions
+                  http://www.victoria.tc.ca/~ue451/solves.html
+

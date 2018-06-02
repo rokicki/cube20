@@ -1,0 +1,14 @@
+Date: 25 September 1981 03:25-EDT
+From: Chris C. Worrell  <ZILCH at MIT-MC>
+Subject: 4x4x4 TRANSFORMATION
+To: CUBE-LOVERS at MIT-MC
+
+On the normal cube the relative positions of the faces
+is immutable, however this is not so on the 4x4x4.
+I have found a trransformation which i beleive will facilitate
+the switching of any two of the cental blocks of 4 on a face.
+I am not sure as I did this totally in my head, without
+the benifit of a 4x4x4. This trandsformation would be 
+extremelly nasty to pull on someone who has learned how to 
+solve the standard cube from someone else, and as such does
+not know much about cubolgy.

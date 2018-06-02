@@ -1,0 +1,13 @@
+Date: 18 April 1981 08:52-EST
+From: Lars S. Hornfeldt <LSH at MIT-MC>
+To: CUBE-LOVERS at MIT-MC, gary at RAND-AI
+
+
+Kimmo Eriksson is 14 years old (a good age for cubism),
+and in his series of 10 consecutive cubes, the average time was
+52 sec, and average number of moves was 95, varying between
+70 to 120 (half-turns and slices counted as one move).
+
+He uses 5 macros with uncountable longer variants.
+The longest of the macros are 11 moves.
+-lsh

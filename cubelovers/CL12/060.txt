@@ -1,0 +1,48 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Aug 24 23:07:21 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07590; Wed, 24 Aug 94 23:07:21 EDT
+Message-Id: <9408250307.AA07590@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 1861; Wed, 24 Aug 94 23:06:53 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 6531; Wed, 24 Aug 1994 23:06:53 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 24 Aug 1994 23:06:52 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "der Mouse" <mouse@collatz.mcrcim.mcgill.edu>,
+        "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: Updated Upper Limits, Q-turns
+In-Reply-To: Message of 08/21/94 at 06:33:02 from ,
+           mouse@collatz.mcrcim.mcgill.edu
+
+On 08/21/94 at 06:33:02 der Mouse said:
+>> Dan's recursion formula is:
+
+>>>   P[n]  <= 4*2*P[n-1] + 6*2*P[n-2] + 4*2*P[n-3] + 1*2*P[n-4]
+
+>> Dan's calculations:
+
+>>> P[0]  =           1
+>>> P[1]  =          12
+>>> P[2]  =         114
+>>> P[3]  =       1,068
+>>> P[4]  =      10,011
+
+>Ummm.  4*2*P[4-1] + 6*2*P[4-2] + 4*2*P[4-3] + 1*2*P[4-4] =
+>       4*2*1068 + 6*2*114 + 4*2*12 + 1*2*1 = 10010 < P[4].
+
+>What have I missed?  Is Dan's formula not valid until n=5 or something?
+
+I just rechecked Dan's original note of 9 January 1981.  He specifically
+says the formula is good for n > 4.  Mea culpa.  However, I still do
+not fully understand *why* this should be the case.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

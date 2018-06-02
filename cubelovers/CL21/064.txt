@@ -1,0 +1,18 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Nov 29 18:16:24 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id SAA21144; Fri, 29 Nov 1996 18:16:24 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-ID: <01BBDDDB.82C8E1C0@avelloso.agestado.com.br>
+From: Desenvolvimento de Projetos <avelloso@agencia.oesp.com.br>
+To: "'AirWong@aol.com'" <AirWong@aol.com>,
+        "cube-lovers@ai.mit.edu" <cube-lovers@ai.mit.edu>
+Subject: RE: Dirty Cubes
+Date: Fri, 29 Nov 1996 09:55:52 -0200
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+You must disassemble it sometimes and clean it inside...
+
+-----Original Message-----

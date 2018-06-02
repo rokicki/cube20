@@ -1,0 +1,54 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Feb 14 15:02:57 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA02713; Sat, 14 Feb 1998 15:02:57 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sat Feb 14 09:38:36 1998
+Message-Id: <199802141438.JAA02445@life.ai.mit.edu>
+From: "David Byrden" <David@Byrden.com>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: Rubik lawyers up in arms over website
+Date: Sat, 14 Feb 1998 14:37:00 -0000
+
+        I have a website at
+
+        http://Byrden.com/puzzles/
+
+where I keep playable versions of many
+varieties of cube, pyramid, dodecahedron,
+etc etc. All of them are built in Java
+and have an "undo" button allowing you
+to explore your moves.
+
+        The site was titled "The Rubik Gallery"
+in honour of Erno Rubik. It explicitly said
+that there was no further connection with him.
+
+        I got a letter from a Washington
+firm of lawyers about a week ago, saying
+that they were the advisers to Seven Towns
+Limited, holders of the 'Rubik' trademark.
+The site was "diluting" the value of the
+trademark and causing "customer confusion".
+I was engaging in "unfair competition"
+(despite not selling or distributing anything
+or taking any money or having any advertising
+on the site).
+
+        Not only did they want the word 'Rubik'
+removed from the website, they wanted one of
+the Java puzzles removed as well. They called it
+an "electronic version of the RUBIK'S CUBE".
+Fair enough, being a hexahedron sliced into 26
+equal parts it bore a certian visual resemblance,
+but obviously there was none of their mechanism
+involved. It was all brand-new software.
+
+        Anyway, I took it off, and they seem happy
+enough now. But...does anyone know what company
+owns the rights to the 4x4 cube?
+
+
+                                David Byrden
+

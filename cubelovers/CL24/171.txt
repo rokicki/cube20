@@ -1,0 +1,58 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Feb 23 17:21:17 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id RAA27553; Mon, 23 Feb 1998 17:21:14 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon Feb 23 11:00:45 1998
+Date: Mon, 23 Feb 1998 10:59:54 -0500 (Eastern Standard Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Strong Local Maxima 9f from Start
+In-Reply-To: <Pine.PMDF.3.95.980215185935.291516B-100000@PSTCC6.PSTCC.CC.TN.US>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.WNT.3.96.980223104308.-220451A-100000@GN209A.PSTCC.CC.TN.US>
+
+On Sun, 15 Feb 1998, Jerry Bryan wrote:
+
+> #1. D2 F2 L2 D' U  L2 F2 D' U'
+> #2. U  D  B2 R2 U  D' L2 B2 U2
+>
+> These positions "look" very symmetric, especially #2, ....
+
+The reason #2 "looks" so symmetric is that it is an isoglyph.  That is,
+each face contains only two colors and the pattern of colors is the same
+on all six faces.  If I am reading Dan Hoey's glyph table correctly, the
+glyph is of type 20.  The glyph looks like the following, and the glyph
+itself is fairly symmetric.
+
+  XOX
+  OXO
+  OOO
+
+On a lark, I asked Herbert Kociemba's Cube Explorer 1.5 program to find
+all isoglyphs which can be built with this glyph.  Any such isoglyph is
+likely to be pretty.  Up to symmetry, it found four isoglyphs (one of
+which is #2, which is a strong local maximum in the face turn metric).
+The other three are as follows:
+
+F2 U2 L' R  D2 F2 L' R                       8f
+F2 U2 B2 L2 U' B2 U' B2 L2 D2 L2 U  R2 U'   14f
+U' L2 D' L2 D  B2 F2 L2 R2 D  F2 U' F2 U'   14f
+
+Cube Explorer 1.5 was able to show that the 8f maneuver is minimal.
+This position is not a strong local maximum, because the shortest strong
+local maxima are 9f.
+
+Cube Explorer 1.5 was not able to show that the 14f maneuvers are
+minimal in the time I gave it (six hours each on a Pentium 166).  But I
+suspect that 14f is in fact minimal.  Also, I do not know if the 14f
+maneuvers are strong local maxima because my search for strong local
+maxima extended only through 9f from Start.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

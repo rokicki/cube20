@@ -1,0 +1,126 @@
+Date:  3 September 1980 2108-EDT
+From: James.Saxe at CMU-10A (C410JS30)
+Subject: Orbit classification revisited
+To:  cube-lovers at MIT-MC
+Message-ID: <03Sep80 210846 JS30@CMU-10A>
+
+Hi, folks.
+
+Having read Vanderschel's msg of Aug. 6, it appears to me that the
+explanations of the orientation parities are unnecessarily complex,
+though the material on permutation parities is presented in a way
+that should be immediately convincing to anyone familiar with the
+notion of even and odd permutations from elementary group theory (and
+anyone who isn't should be!).  Here's my attempt at a more elegant
+demonstration.
+
+In what follows, I will use the term "facelet" to denote any (visible)
+face of a cubie.  Thus, each edge cubie has two facelets and each
+corner cubie has three facelets.
+
+I will address Edge Orientation Parity (EOP) first.  Consider the
+following diagram:
+
+		+-------+
+		|   1	|
+		|0  U  0|
+		|   1	|
+	+-------+-------+-------+-------+
+	|   1	|   0	|   1	|   0	|
+	|0  L  0|1  F  1|0  R  0|1  B  1|
+	|   1	|   0	|   1	|   0	|
+	+-------+-------+-------+-------+
+		|   1	|
+		|0  D  0|
+		|   1	|
+		+-------+
+
+The numbers label absolute positions, not facelets, and therefore
+remain in the same configuration when the cube is manipulated.
+Imagine that a mark is placed on each facelet that occupies a
+position labeled "0" when the cube is in the solved configuration.
+Thus, each edge cubie will have one marked and one unmarked facelet.
+(Unlike the numbers, the marks are attached to the facelets and will
+move as the cube is manipulated).  The parity of an edge cubie in an
+arbitrary configuration is defined as the number labelling the
+position occupied by its marked face, and the EOP is defined as the
+sum of the parities of all edge cubies modulo 2.  A quarter turn of
+any face reverses the parity of 4 edge cubies, thus leaving the EOP
+fixed.  By induction, no sequence of manipulations starting from the
+solved configuration can produce a configuration EOP = 1.  So much
+for EOP.
+
+[Just for grins, here's a cute way to determine the parity of an edge
+cubie without consulting (or reconstructing) the diagram:  Assign
+each of the cubie's two facelets a number in {0,1,2} according as it
+is oriented parallel to its home position ("Self" -> 0), parallel
+to the other facelet's home position ("Other" -> 2) or perpendicular
+to both home positions ("Neither" -> 1); add these two numbers and
+reduce modulo 3 (yes, three!) giving the parity of the cubie.  The
+sum can never be 2 because that would imply that the two facelets
+were parallel to each other.  Here's an addition table with
+double-ended arrows showing the possible transitions:
+
+	      (S) 0   (N) 1   (O) 2
+	    +-------+-------+-------+
+	    |	    |	    |no     |
+      (S) 0 |	0 <-+-> 1   |	+   |
+	    |	^   |	^   |	 way|
+	    +---+---+---+---+-------+
+	    |	v   |no |   |	    |
+      (N) 1 |	1 <-+---+---+-> 0   |
+	    |	    |	|way|	^   |
+	    +-------+---+---+---+---+
+	    |no     |	v   |	v   |
+      (O) 2 |	+   |	0 <-+-> 1   |
+	    |	 way|	    |	    |
+	    +-------+-------+-------+
+
+]
+
+Now for Corner Orientation Parity (COP).  Consider the diagram below:
+
+		+-------+
+		|0     0|
+		|   U	|
+		|0     0|
+	+-------+-------+-------+-------+
+	|2     1|2     1|2     1|2     1|
+	|   L	|   F	|   R	|   B	|
+	|1     2|1     2|1     2|1     2|
+	+-------+-------+-------+-------+
+		|0     0|
+		|   D	|
+		|0     0|
+		+-------+
+
+Once again, imagine that we mark all (corner) facelets which occupy
+positions labeled "0" when the cube is in the solved configuration.
+The parity of a corner cubie in an arbitrary configuration is defined
+as the number which labels the position of the cubie's marked face.
+The COP is the sum of all the parities of all corner cubies modulo 3.
+Inspection of the diagram will reveal that the twists U, u, D, and d
+leave the parities of all corner cubies unchanged.  Any of the other
+possible quarter twists will increment (modulo 3) the parities of two
+corner cubies and decrement the parities of two others, thereby
+leaving the COP unchanged.
+
+[As Vanderschel pointed out, one way to compute the parity of a
+corner cubie by looking at it is to note the number of clockwise (as
+viewed from outside the cube) 120 degree twists of the cubie that it
+would take to bring the marked facelet parallel to its home position.
+Note that the parity of a corner cubie, unlike that of an edge cubie,
+depends on the selection of a particular pair of opposing colors for
+the marked facelets.  While this lack of symmetry may be considered
+unfortunate, it is an inevitable result of the fact that four is not
+divisible by three.  It is easy to show that the COP as a whole is
+independent of the choice of distinguished faces.]
+
+Vanderschel also mentions the extended problem, but does not quite
+make it clear that the FOP changes every time a qtw is done.  This
+constrains all three of {FOP, EPP, CPP} to be the same, so that only
+two of the eight plausible states of the <FOP, EPP, CPP> vector are
+actually achievable by twisting.
+
+				Jim
+

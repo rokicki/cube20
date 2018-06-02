@@ -1,0 +1,40 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jul 30 18:19:26 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id SAA28303; Thu, 30 Jul 1998 18:19:25 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Jul 30 13:37:06 1998
+Message-Id: <35C0AEFD.3D67E038@nadn.navy.mil>
+Date: Thu, 30 Jul 1998 13:35:57 -0400
+From: David Joyner <wdj@nadn.navy.mil>
+Reply-To: wdj@nadn.navy.mil
+Organization: Math Dept, USNA
+To: Rainer.adS.BERA_GmbH@t-online.de
+Cc: Cube Mailing List <Cube-Lovers@ai.mit.edu>
+Subject: Re: 4x4x4 patterns
+References: <35BE13D0.874D8E6D@t-online.de>
+
+Rainer aus dem Spring wrote:
+
+> Dear cube-lovers,
+>
+> Of course, HTML is the format I should have used. I'll try to get a
+> latex->html converter for NT.
+
+> Anybody my post the patterns in any format.
+
+ Rainer's patterns (with some pictures) are on the web page
+http://web.usna.navy.mil/~wdj/4x4patterns_b.htm
+- David Joyner
+
+--
+David Joyner, Assoc Prof of Math
+US Naval Academy, Annapolis, MD 21402
+(410)293-6738
+wdj@nadn.navy.mil
+http://web.usna.navy.mil/~wdj/homepage.html
+++++++++++++++++++++++++++++++++++++++++++++
+"A Mathematician is a machine for turning
+coffee into theorems." Alfred Renyi
+

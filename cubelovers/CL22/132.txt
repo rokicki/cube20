@@ -1,0 +1,78 @@
+From cube-lovers-errors@oolong.camellia.org  Wed Jun  4 17:30:26 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA04584; Wed, 4 Jun 1997 17:30:25 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <33959796.3784@hrz1.hrz.th-darmstadt.de>
+Date: Wed, 04 Jun 1997 18:28:06 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>
+X-Mailer: Mozilla 3.0 (Win95; I)
+MIME-Version: 1.0
+To: Dan Hoey <Hoey@aic.nrl.navy.mil>, cube-lovers@ai.mit.edu
+Subject: Re: Detailed explanation of two phase algorithm
+References: <9706040106.AA26157@sun34.aic.nrl.navy.mil>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Dan Hoey wrote:
+> 
+> > ...If you analyze the preceeding phase1 algorithm you will see that
+> > it is indeed just an IDA* with lowerbound heuristic functions based
+> > on tables.
+> 
+> It sure is.  Now here's a question.  Should it be combined with phase2
+> in such a way that the entire search is IDA*?
+> 
+> The way I would see this happening is that whenever you get to phase 2
+> (at depth i with a cutoff of L1), instead of allowing the phase2
+> search to iteratitively deepen, you run a depth-first A* search with a
+> fixed depth cutoff of L1-i.  It would take longer to get the first
+> answer, but when you got an answer it would be optimal, and you would
+> never spend time searching longer processes.
+>
+I try to understand but I can't grasp the idea. Maybe I did not describe
+clearly enough, how phase1 and phase2 work together.Doing the entire
+search in one single IDA* will result inevitably in a program, which
+applys IDA* to the whole cube group in my opinion. Rich Korf did this
+now. I could not do this (though I would have liked to do) due to a lack
+of the appropriate hardware. So I had to apply it to the much smaller
+groups G2=<U,D,R2,L2,F2,B2> in phase2 and G1=G/G2 in phase1.
+Is the "i" you use above the same "i" I used in my explanation? There we
+have i=0 every time we enter phase2. Beyond that I can't see how to
+guarantee optimal solutions whith a phase2 at all, because we only allow
+R2,L2,F2 and B2 moves there.
+Why does the algorithm work so surprisingly well? Let us assume, that
+every time we enter phase2 while the algorithm is running, the state is
+a random sample of G2. From the archives (7 Jan 95), where Michael Reid
+computed the distances of the elements of G2 from SOLVED we compute for
+example, that the chance to get a state with distance less than 9 in
+phase2 is about 2.6*10^-4. But in phase1 even with a very modest
+iteration depth we already produce very very many solutions for G2.
+Today I applied my algorithm to Rich Korfs Random Cube Nr.10 with
+minimum length 18 for example, and within a minute I had a solution with
+20 moves, 12 in phase1 and 8 in phase2. The next solution took about 15
+minutes and gave a 19 move solution with 14 in phase1 and 5 in phase2. I
+did not try for more than an hour, in this time no 18 move solution
+appeared.
+
+> One final thing, which I'm not sure ever got asked, much less
+> answered, is that Mike Reid did an exhaustive search of the subgroup
+> <T,D,F2,R2,B2,L2> (7 Jan 1995).  Did this verify that the optimal
+> face-turn process for each element of the subgroup is a word on those
+> generators?  Or are there shortcuts that use forbidden quarter-turns?
+> 
+There definitely are shortcuts with quarter turns. I just tried the
+first of the antipodes of phase2 Mike Reid gave (7 Jan 1995) with 18
+moves. They usually are hard to solve with the algorithm, but because of
+the asymmetrie of stage2, conjugation with moves, that turn the whole
+cube lead to a much easier to solve state. Within less than a minute a
+had  the generator B R2 U2 L2 R2 B2 F' . U' R2 U F' D2 R2 B' D F' D' 
+(17).
+It would be interesting, if it is possible to reduce all of the
+antipodes of phase2 to 17 moves, which would reduce algorithms upper
+bound for the maneuver length.
+
+Herbert
+
+
+

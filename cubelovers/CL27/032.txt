@@ -1,0 +1,80 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Apr  7 17:25:37 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA26422
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 7 Apr 1999 17:25:36 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <4.1.19990404175025.02471a60@pop.ncsa.uiuc.edu>
+Date: Sun, 04 Apr 1999 18:12:32 -0500
+To: cube-lovers@ai.mit.edu
+From: Tom Magliery <mag@ncsa.uiuc.edu>
+Subject: Fwd: Keyboard cube [WAS Re: Wrist pains]
+
+>From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+>First, represent the front face by
+>
+>q w e
+>a s d
+>z x c
+>
+>A "move" is represented by any two ordered keystrokes.  If the two keystrokes
+>are in the same row, it represents a horizontal layer moving, else
+>if they're in the same row, it represents a vertical layer moving.
+                        ^^^
+                        you meant to say "column" here
+
+>
+>Example:
+> "ed" = R'
+> "cd" = R
+> "sd" = slice move
+> "we" = U'
+> "qe" = U'
+> "qw" = U'
+
+this is sort of a grab-and-move interface (in my mental picture, one
+keypress "grabs" a face, and the next "moves" it).  i think i might like
+this paradigm better than my own suggestion of before (unshifted single
+keystrokes for face moves, shifted single keystrokes for cube rotations).
+one nice advantage is that it makes it as easy on the keyboard interface as
+it is in real life to do RL' and R'L, for which i suspect most people's
+mental model is really a single turn of the middle slice.
+
+i think i'd prefer some different key assignments than wei-hwa suggests,
+though.  for example, i think i'd like to "grab" with the middle key in the
+line, and then "move" with the outer one.  for example:
+    "de" = R
+    "dc" = R'
+(according to wei-hwa's definition of "move", our two suggestions are
+compatible.  mine only adds redundancy.)
+
+>This method does not have moves for rotating the three front to back layers
+>nor 180-degree moves.
+
+another suggestion for 180-degree moves:  allow the user to tap the second
+key in the sequence 2 (or 3) times for 180 (or 270 aka 90') degree moves.
+thus, e.g., "wee" = U2.  this is intuitive not only to me:  someone else
+posted that in their keyboard interface of years ago, they didn't use the
+specially-assigned 180 keys, but in practice just tapped the 90-keys twice
+anyway.
+
+an additional suggested extension:  let me do things with both hands!
+(this is my favorite aspect of my own keyboard interface, posted a few days
+ago.)
+
+perhaps a similar nonad(?) of keys could be used for R-face-relative
+operations analogous to the F-face-relative ones above.  this is like
+wei-hwa's extension C, except i'd rather use my right hand in its "normal"
+typing position.
+
+how about a third set, in the middle of the keyboard somewhere, for doing
+D-relative things?
+
+mag
+
+-- 
+///X  Tom Magliery, Research Programmer           217-333-3198  .---o
+\\\   NCSA, 605 E. Springfield      O-       mag@ncsa.uiuc.edu  `-O-.
+///   Champaign, IL 61820       http://sdg.ncsa.uiuc.edu/~mag/  o---'
+

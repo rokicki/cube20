@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Jan 29 15:45:06 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA09604; Thu, 29 Jan 1998 15:45:05 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Jan 29 02:24:42 1998
+Date: Thu, 29 Jan 1998 02:22:17 -0500
+From: Edwin Saesen <ERCO@compuserve.com>
+Subject: Re: 9X9X9 cube (fictional)
+To: CUBE <CUBE-LOVERS@ai.mit.edu>
+Message-Id: <199801290222_MC2-3110-7043@compuserve.com>
+
+>If you can get your hands on the February 1998 edition of "Sys Admin:
+>The Journal For UNIX Systems Administrators", check out the ad on
+>page 56.
+
+That will probably be similar to the one I saw in the February edition
+of Visual Basic Programmer's Journal on page 90. I wanted to post
+about this one, but somehow forgot...
+
+Although, I think a deadline of one week to solve it should be enough
+time...after I worked out the 5x5x5, the 9x9x9 should be just more of
+the same :-)
+
+Michael Ehrt
+

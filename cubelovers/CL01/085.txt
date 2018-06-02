@@ -1,0 +1,66 @@
+Date:     8 January 1981 2235-est
+From:     Bernard S. Greenberg       <Greenberg at MIT-Multics>
+Subject:  Cubesys and FLUBRD
+To:       CUBE-LOVERS at MIT-MC
+
+A new hack for interpreting transforms expressed in FLUBRD
+notation has been added to ITS and LISPM cubesys.
+(As I am no longer with Honeywell, I can no longer modify
+Multics cubesys, but I will give instructions below for
+how to use this on Multics).
+
+Transforms are defined in Lisp, with the "defxform" macro.
+"defxform" is followed by a name to assign to the transform,
+and one to any number of "cube operations".  A cube operation
+is either
+
+    1) a flubrd syllable
+    2) (apply <transform-name>), meaning do that transform
+    3) (inverse <transform-name>), meaning "undo" that transform
+    4) any other list, which is interpreted as a list of cube-operations
+
+A flubrd syllable is an atomic symbol whose name is a character string
+consisting of one to any number of flubrdniks.
+A flubrdnik is either
+    1) F L U B R D f l u b r d  (case doesnt count)
+    2) F* L* U* .... etc, meaning counterclockwise turn
+    3) F2 L2 U2 .... etc, meaning 180 degree turn.
+
+Here is the provided, automatically-loaded library of
+transforms:
+
+(defxform monotwist-op
+          (ld l*d*) ldl*)
+
+(defxform monotwist
+          (apply monotwist-op) u (inverse monotwist-op) u*)
+
+(defxform quark
+          r2 (apply monotwist) r2)
+
+(defxform pons f2 b2 r2 l2 u2 d2)
+
+(defxform christman-cross       ;Saxe 16 dec 1980
+        f ud llrr ud fb uudd b)
+
+(defxform plummer-cross         ;Saxe 3 dec 1980
+        f (ll rr) f b (ll rr) f
+        l (bb ff) l r (bb ff) l (uu dd))
+
+To load new transforms...
+   ITS:  ^X break, load a file full of defxforms, ^G back.
+   Lispm: <BREAK>, load the file,^Z
+    (oh yes, Lispm cubesys now has a ^Z handler)
+   Multics: ESC X loadfile the file.
+
+To run a transform:
+   ITS: Use the X command. the transform name will be prompted for.
+   Lispm. Use the X command. A MENU OF KNOWN TRANSFORMS WILL POP UP!
+      Mouse at it.
+   Multics: ESC X run-xform <transformname>
+
+
+On Multics, you will have to load the new package before doing
+any of this, with esc-x loadfile. Currently, it is
+>udd>sym>bsg>cxfrm .... it may move or go away. Multicians, contact 
+me if you have any interest in it.

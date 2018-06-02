@@ -1,0 +1,23 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Aug 26 12:05:11 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA24505; Tue, 26 Aug 1997 12:05:11 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cubeman@idirect.com Tue Aug 26 01:20:45 1997
+Message-Id: <3402678A.7E62@idirect.com>
+Date: Tue, 26 Aug 1997 01:20:10 -0400
+From: Mark Longridge <cubeman@idirect.com>
+To: cube lovers <cube-lovers@ai.mit.edu>
+Subject: Old URL no longer works!
+
+Sorry to trouble everyone with this...
+ 
+I just discovered my defaults on my page are different.
+ 
+That is, the URL http://web.idirect.com/~cubeman no longer works!
+
+Use http://web.idirect.com/~cubeman/index.html instead!
+ 
+More interesting stuff to follow...
+

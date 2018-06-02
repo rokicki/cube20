@@ -1,0 +1,65 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Mon Jan 10 23:08:35 1994
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA26716; Mon, 10 Jan 94 23:08:35 EST
+Message-Id: <9401110408.AA26716@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 5041; Mon, 10 Jan 94 23:08:38 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 4686; Mon, 10 Jan 1994 23:08:38 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 9272; Mon, 10 Jan 1994 23:06:01 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Mon, 10 Jan 1994 23:06:00 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   |G\M| - Some Trivial Partial Results
+
+It occurs to me that a small part of my incorrect attempt during
+December to calculate |G\M| can be salvaged.  In particular,
+for those cases where B-conjugate classes are of order 1152,
+the calculations are trivial.  About 99.9923% of the edge conjugate
+classes and about 96.924% of the corner conjugate classes are of
+order 1152, so we can calculate the correct number of M-conjugates
+of G for a very large percentage of the cases.
+
+Consider some fixed X in GC\B and some fixed Y in GE\B where
+|BClass(X)|=1152 and |BClass(Y)|=1152.  Form
+BClass(X) * BClass(Y).  Now, |BClass(X) * BClass(Y)| =
+|BClass(X)| * |BClass(Y)| / 2 = 1152 * 1152 / 2.
+(The division by 2 takes care of parity).  Finally, form
+(BClass(X) * BClass(Y))\M, and we have |(BClass(X) * BClass(Y))\M| =
+|BClass(X) * BClass(Y)| / 48 = (1152 * 1152) / 2 / 48 = 13,824.
+We know the number of BClasses of GC of order 1152 from computer
+search (namely 75,392), and we know the number of BCLasses of GE of
+order 1152 from computer search (namely 851,493,140).  Hence, for
+the special case of both BClasses being of order 1152, we have the
+total number of elements of G\M being 851,493,140 * 75,392 * 13,824 =
+887,442,335,689,605,120.
+
+We can derive similar results if only one of BCLass(X) and BClass(Y)
+are of order 1152.  For example, there are 4 elements of GE\B
+for which |BClass(Y)|=24.  Choose such a Y, and choose X in GC\B
+such that |BClass(X)|=1152.  Form BClass(X) * BClass(Y).  It will
+be the case that |BClass(X) * BClass(Y)| = 1152 * 24 / 2 = 13,824.
+Hence, |(BClass(X) * BClass(Y))\M| = 13,824/48 = 288.  There are 75,392
+values of X for which |BClass(X)|=1152, 4 values of Y for which
+|BCLass(Y)|=24, and hence there are 75,392 * 4 * 288 = 86,851,584
+elements of G\M of the form BClass(X) * BClass(Y) for which
+|BCLass(X)| = 1152 and |BClass(Y)| = 24.
+
+There are nineteen cases in all for which at least one of BClass(X)
+and BCLass(Y) are of order 1152, and this note calculates only
+two of the nineteen.  Completing the other
+seventeen would be trivial but tedious.  However, a total solution
+to the problem will require coming up with some way to deal with
+the cases where neither |BClass(X)|=1152 nor |BClass(Y)|=1152.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

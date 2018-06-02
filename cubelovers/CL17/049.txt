@@ -1,0 +1,69 @@
+From mark.longridge@canrem.com  Fri Oct 20 02:32:34 1995
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05992; Fri, 20 Oct 95 02:32:34 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1F9CFB; Fri, 20 Oct 95 02:24:41 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Cube Verification
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1255.5834.0C1F9CFB@canrem.com>
+Date: Fri, 20 Oct 95 02:22:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+In Jerry's message from
+Date:      Mon, 16 Oct 1995 23:08:02 -0400 (EDT)
+Subject: The Correctness of Large Seaches
+
+> In light of the above discussion, I thought it might be appropriate
+> to summarize some background about my larger searches.  I want to
+> indicate which ones of them seem pretty well verified, and which ones
+> of them might benefit from further study.
+>
+>   <U,R>           -  I believe this one is ok.  I ran the q turn case
+>                      with and without conjugacy classes.  Upon
+>                      expanding the conjugacy classes, the results
+>                      matched the results without conjugacy classes.
+>                      Also, the results matched results posted by
+>                      Mark Longridge as far as they went (although
+>                      my anomaly with corners-only suggests that
+>                      such matching doesn't prove very much).
+
+Well, I did get up to 12 q turns deep ;-)
+Good enough for 2 half deep searches...
+
+ But there is another possible verification method by counting the
+number of even positions and odd positions and totalling them.
+
+ Analysis of < U, R > group on 3x3x3 cube by Parity
+ --------------------------------------------------
+
+        Even Positions          Odd Positions
+        --------------          -------------
+
+        0            1          1           4
+        2           10          3          24
+        4           58          5         140
+        6          338          7         816
+        8        1,970          9       4,756
+       10       11,448         11      27,448
+       12       65,260         13     154,192
+       14      360,692         15     827,540
+       16    1,851,345         17   3,968,840
+       18    7,891,990         19  13,659,821
+       20   18,471,682         21  16,586,822
+       22    8,039,455         23   1,511,110
+       24       47,351         25          87
+            ----------             ----------
+            36,741,600             36,741,600
+
+This is almost Cube Philosophy... how can we be certain about the true
+nature of God's Algorithm? How can we be certain our cube databases
+are completely accurate? I suppose it is not really a big problem
+as long as the various cube programs all agree, and a human
+observer executes such processes on a real cube.
+
+-> Mark <-
+
+

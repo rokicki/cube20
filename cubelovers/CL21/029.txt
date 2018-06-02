@@ -1,0 +1,57 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Oct 23 14:06:47 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA09246; Wed, 23 Oct 1996 14:06:46 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Organization:  Centro di Calcolo - Dipartimento di Informatica di Pisa - Italy
+From: Mario Velucchi <velucchi@cli.di.unipi.it>
+Message-Id: <199610231533.RAA02193@helen.cli.di.unipi.it>
+Subject: Re: DEAR TANOFF <<<<<<<<<<<<<<<< (fwd)
+To: cube <Cube-Lovers@ai.mit.edu>
+Date: Wed, 23 Oct 1996 17:33:50 +0200 (MET DST)
+X-Mailer: ELM [version 2.4 PL24]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+
+Forwarded message:
+> From velucchi@CLI.DI.Unipi.IT  Wed Oct 23 17:32:34 1996
+> Subject: Re: DEAR TANOFF <<<<<<<<<<<<<<<<
+> To: TANOFF%SMOOKE@BIOMED.MED.YALE.EDU
+> Date: Wed, 23 Oct 1996 17:32:20 +0200 (MET DST)
+> 
+> > 
+> > What is the Siamese Cube?
+> > 
+> 
+> Two (usual/normal) Rubik Cubes in One ...
+> 
+> 
+>    ------
+>    |    |
+>    |    |
+>    -----+-----
+>         |    |
+>         |    |
+>         ------
+> 
+> The goal is equal to normal cube but the moves are differents ...
+> because the two cubes are "uniti" ....
+> Do You understand? let me know!
+> 
+> 
+> Sorry for my English and my Picture!
+> 
+> 
+> -- 
+> Best Regards, MV
+> \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////
+>  Mario Velucchi                              University of PISA
+>  Via Emilia, 106                 Department of Computer Science
+>  I-56121 Pisa                   e-mail:velucchi@cli.di.unipi.it
+>  ITALY                      talk:velucchi@helen.cli.di.unipi.it
+>                 http://www.cli.di.unipi.it/~velucchi/intro.html
+> \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////////////////////////
+> 
+
+

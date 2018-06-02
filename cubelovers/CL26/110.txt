@@ -1,0 +1,24 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb  2 21:16:59 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA20404
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 2 Feb 1999 21:16:59 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 2 Feb 1999 20:27:26 -0500
+Message-Id: <00131725.C22092@scudder.com>
+From: Jacob_Davenport@scudder.com (Jacob Davenport)
+Subject: Re: Middle layer last?
+To: "'Cube Lovers'" <cube-lovers@ai.mit.edu>
+
+1.  I learned the solution of top, middle, and then bottom many years ago.
+I forgot most of it, so when I asked Kristin Looney to remind me how to do
+the cube, she showed me her solution, which is top corners, bottom cFrom cube-lovers-errors@mc.lcs.mit.edu  Sat Feb  6 01:46:02 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA20404
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 2 Feb 1999 21:16:59 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 2 Feb 1999 20:27:26 -0500
+Message-Id: <00131725.C22092@scudder.com>

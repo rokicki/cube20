@@ -1,0 +1,123 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue May  4 16:04:16 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA22965
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 4 May 1999 16:04:15 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <009201be95b5$f9cc7d60$70c4b0c2@home>
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: <Cube-Lovers@ai.mit.edu>
+Cc: "Frederick W. Wheeler" <wheeler@cipr.rpi.edu>
+Subject: Re: Inventing your own techniques
+Date: Mon, 3 May 1999 23:40:04 +0100
+
+I'd like to return to Fred Wheeler's interesting question (30 March
+1999), for its own sake and partly as a prelude to my next posting.
+
+The processes I originally used to solve the cube - before I had been
+introduced to commutators by David Singmaster's little blue book -
+were based on a principle that formed itself in my head as I explored
+the cube.  I called it "Out and back by a different route".  If pieces
+were moved away from their original position by one process and then
+restored by a different one, the result would be a process that would
+only move pieces other than those moved out and back.  Then it struck
+me that the different routes could be based on the obvious processes
+used in a bottom-up algorithm to move a bottom corner piece into
+position from the top corner vertically above it, depending on the
+orientation of the piece. Thus, taking the DLF piece as the one
+subject to the out-and-back movement, the out trip would take the
+piece to FLU using front face turns, and the return route would bring
+it back using left face turns:
+
+F U' F'. U' L' U L  (1)
+
+This process, I discovered, moved an edge piece out of the top layer
+into the middle, UB > FL, but had no other effect on the middle layer.
+So, at once, it formed the basis for solving the middle layer.
+
+Besides inverses and reflections there is one other essentially
+different process of this type involving the DLF corner.  It takes the
+piece to the far corner RUB on the out trip:
+
+F U2 F' .  U2 L' U' L  (2)
+
+And it too moves just one edge piece out of the top into the middle
+layer, from a different source position but to the same target
+position as (1), UF > FL.
+
+We can now repeat this approach, using these two processes and their
+inverses and reflections to take a piece out of the top layer and then
+return it.  That generates a set of upper-layer processes that led me
+to my first solution.  It was not very efficient, but one of these
+process is very attractive.  It results from following (2) above with
+the reflection of (1) in the diagonal plane FL-BR:
+
+F U2 F' U2 L' U' L  . L' U  L U F U' F'    =  F U2 F' U' F U' F' (3)
+
+It is short, because of the cancellation, very easy to do, because all
+the turning can be done with one hand, and has a very useful cycle
+pattern, with an untwisted 3-cycle of edge pieces and a twisting pair
+of swaps of corner pieces.
+
+That leads on to another basic technique: looking at the cycle pattern
+of a process and seeing what can be done to suppress or simplify some
+of the cycles.
+
+If we take (3) above, by combining it with its reflection suitably
+applied, we can suppress either the movement of the edge pieces to
+give a double twist of the corners (4), or the movement of the corner
+pieces to give an untwisted edge 3-cycle (5):
+
+F U2 F' U' F U' F' B' U2 B U B' U B UF(L-, R+) (4)
+F U2 F' U' F U' F' L' U2 L U L' U L U(F, L, R) (5)
+
+There are shorter alternatives, of course, but (4) remains my
+favourite for the purpose, done as
+
+  F U2 F' U' F U' F' [twist whole cube parallel to U'] L' U2 L U L' U
+L
+
+Of course, taking powers of a process is one way selectively to
+eliminate constituent cycles, and (1) above, if done four times, is a
+triple corner twist, because the edge pieces move through a 4-cycle
+which is eliminated, one corner piece undergo a twist with no change
+of position, which is preserved, and the other two undergo a twisted
+2-cycle that leaves them in position but twisted.  But powers tend to
+be rather lengthy, as this example illustrates.
+
+Then one can look for patterns in processes and apply them elsewhere.
+(3) above can be thought of as taking DLF up to the top and then round
+and home again, with the + and - turns of the F face cancelling out.
+One other process I discovered on the cube using this principle is the
+following, where M is the turn of the centre slice parallel to R:
+
+M2 U M2 U2 M U M2  (UF,UB) (UR, UL) (6)
+
+And the structure of (3) transfers directly to the tetrahedron as
+
+F U F' U F U F' 3-cycle round the vertical axis
+
+and the dodecahedron as
+
+F U2 F' U' F U' F' and  F U2 F' U F U2 F' edge 3-cycles + corner
+double-swaps
+
+In these I am taking the puzzle to be sitting on a table, with U being
+the vertex (for the tetrahedron) or face (for the dodecahedron) at the
+top and F being a vertex or face adjacent to the top pointing towards
+you.
+
+For a discussion of designing 3-cycles using commutators and
+conjugates, see the message I posted in November 1997, which looked at
+processes of the type
+
+[P, TQT']
+
+where P and Q are turns of layers that are parallel to one another,
+and T is a turn of a layer transverse to P and Q.   These processes
+yield a result that can be expressed as second-level commutation, as
+mentioned by David Singmaster.
+
+Roger Broadie
+

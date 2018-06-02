@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug  6 17:22:52 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA00162
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 6 Aug 1999 17:22:52 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: GJB1332@aol.com
+Message-Id: <5b03f8b9.24dc5396@aol.com>
+Date: Fri, 6 Aug 1999 11:04:54 EDT
+Subject: 5x5x5
+To: Cube-Lovers@ai.mit.edu
+
+My new 5x5x5 cube arrived a few days ago [took it 8 weeks to be delivered
+'cos I was too cheap to get air-mail], and I have a couple of questions
+pertaining to it:
+
+Does anyone know a [reasonably] simple move to swap two edge pieces [the ones
+on the very edge, not the center and not the corner] around?
+
+Also, does anyone know of an equivalent to the Cube Explorer or anything like
+it that can do 5x5x5 cubes?
+
+Thank-you very much,
+Gary (-;
+

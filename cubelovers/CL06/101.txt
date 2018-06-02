@@ -1,0 +1,32 @@
+Received: from ardec-lcss.arpa (TCP 30003004013) by AI.AI.MIT.EDU  1 Feb 89 07:34:55 EST
+Received: by ardec-lcss.arpa id <21000F95041@ardec-lcss.arpa> ;
+       Wed,  1 Feb 89 07:37:39 EST
+Date: Wed,  1 Feb 89 07:36:50 EST
+From: BECK@ardec-lcss.arpa
+Subject: whats new
+To: cube-lovers@ai.ai.mit.edu
+X-VMS-Mail-To: EXOS%"cube-lovers@mit-ai"
+Message-ID: <890201073650.21000F95041@ardec-lcss.arpa>
+
+HI CUBE-LOVERS, 
+
+PUZZLE AVAILABILITY:
+1.  KAYBEE is closing out "YOSHI'S" puzzle for $2.  This is a linked
+set of pieces folding puzzle.  Good for solid geometry perception.
+ Buy more than one, there are interesting objects with 2.
+
+2.  Binary Arts has a new puzzle (availability april 89) called
+"TOP-SPIN".  This is a railway shunting/turntable puzzle.  It has a
+circular channel with 20 numbered beads with a superimposed
+circle/turntable that can change the direction of 4 beads.  object is
+to havbe the beads consecutively number in either the clockwise or
+counter clockwise direction.
+
+
+The Future is Puzzling,
+but Cubing is Forever,
+
+Pete beck                  <BECK@ARDEC-LCSS>
+..................................
+
+

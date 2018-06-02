@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec  8 12:38:33 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA18817
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 8 Dec 1998 12:38:32 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199812051241.VAA08521@soda3.bekkoame.ne.jp>
+Date: Sat, 5 Dec 1998 21:47:39 +0900
+To: Cube-Lovers@ai.mit.edu
+From: Ishihama Yoshiaki <ishmnn@cap.bekkoame.ne.jp>
+Subject: 4DRubik Cube
+
+I have simulated 4DRubikCube for Macintosh.
+It is madeup of 2x2x2x2 hypercubes.
+It is on my HomePage.
+
+
+//----------------------------------------//
+Ishihama Yoshiaki
+Tokyo Chofu
+
+E-mail: ishmnn@cap.bekkoame.or.jp (Until 1999/3/31)
+            ishmnn@cap.bekkoame.ne.jp ( This is correct address)
+HomePage : http://www.asahi-net.or.jp/~hq8y-ishm/
+//--------------------------------------//
+

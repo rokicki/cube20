@@ -1,0 +1,22 @@
+From ba05133@bingsuns.cc.binghamton.edu  Fri Dec 23 10:24:30 1994
+Return-Path: <ba05133@bingsuns.cc.binghamton.edu>
+Received: from bingsuns.cc.binghamton.edu (bingnfs1.cc.binghamton.edu) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA19786; Fri, 23 Dec 94 10:24:30 EST
+Received: from podsun7 by bingsuns.cc.binghamton.edu (5.0/SMI-4.0)
+	id AA02035; Fri, 23 Dec 1994 10:20:35 -0500
+From: ba05133@bingsuns.cc.binghamton.edu
+Received: by podsun7 (5.0/BING1.0)
+	id AA01392; Fri, 23 Dec 1994 10:21:46 -0500
+Message-Id: <9412231521.AA01392@podsun7>
+Subject: "unsubscribe"
+To: cube-lovers@life.ai.mit.edu
+Date: Fri, 23 Dec 1994 10:21:44 -0500 (EST)
+X-Mailer: ELM [version 2.4 PL24]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 25        
+
+
+Please unsubscribe me.
+
+

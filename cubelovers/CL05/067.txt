@@ -1,0 +1,25 @@
+Received: from SCRC-NEPONSET by SCRC-VALLECITO via CHAOS with CHAOS-MAIL id 371; Fri 1-Mar-85 17:16:32-EST
+Date: Fri, 1 Mar 85 17:16 EST
+From: David C. Plummer in disguise <DCP@SCRC-QUABBIN.ARPA>
+Subject: 5-by-5-by-5
+To: Hoffman.es@XEROX.ARPA, Cube-Lovers@MIT-MC.ARPA
+In-Reply-To: The message of 1 Mar 85 11:54-EST from Hoffman.es@XEROX.ARPA
+Message-ID: <850301171626.2.NFEP@NEPONSET.SCRC.Symbolics.COM>
+
+    Date: 1 Mar 85 08:54:47 PST (Friday)
+    From: Hoffman.es@XEROX.ARPA
+
+    Anyone have a written solution algorithm for the 5-by-5-by-5 cube?  I
+    got mine a year and a half or so ago from Meffert in Hong Kong by mail
+    order.  After a couple of weeks of just trying out "pretty patterns" on
+    it, I finally got up the nerve to mess it up.  Well, of course, it's
+    never been altogether solved since.  (I was never a great cube wizard.)
+    It sits on display as the base of my cube tower, with those few nagging
+    cubies out of place.  I haven't touched it in many months.
+
+It took me about half an hour to solve the 4x4x4 by generalizing
+techniques for the 3x3x3.  I think many of us convinced ourselves that
+the 5x5x5 is just a similar extension.  The generalization is one of
+those "Aha!" insights. 
+
+Unfortunately for me, I've never seen a 5x5x5 to prove myself.

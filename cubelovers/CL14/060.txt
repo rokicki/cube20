@@ -1,0 +1,43 @@
+From mreid@ptc.com  Sun Jan  8 16:14:33 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA11497; Sun, 8 Jan 95 16:14:33 EST
+Received: from ducie.ptc.com by ptc.com (5.0/SMI-SVR4-NN)
+	id AA11704; Sun, 8 Jan 95 16:13:05 EST
+Received: by ducie.ptc.com (1.38.193.4/sendmail.28-May-87)
+	id AA07786; Sun, 8 Jan 1995 16:25:34 -0500
+Date: Sun, 8 Jan 1995 16:25:34 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9501082125.AA07786@ducie.ptc.com>
+To: dik@cwi.nl, cube-lovers@ai.mit.edu
+Subject: Re:  two stage filtration
+Content-Length: 1392
+
+dik writes:
+
+>  > run times were improved significantly by using a simple trick that i hadn't
+>  > used in earlier programs.  during the first few depth levels, i use
+>  > "forward searching", i.e. i examine the neighbors of each configuration
+>  > found at the previous depth.  however, after at least half the search space
+>  > has been found, i switch to "backward searching", i.e. examine the
+>  > configurations (and their neighbors) that haven't yet been found.
+> 
+>  > (have others been using this same idea when running similar search programs?)
+> 
+>  > closer analysis of this technique suggests that the switch from forward to
+>  > backward searching should occur even before half the space has been found.
+> 
+> Here I am a bit surprised.  I would think the time needed for a phase is
+> entirely dependend on the number of neighbo(u)rs you have to examine.  This
+> appears to be 6 times the number of configurations you visit.  So I would
+> think that going the other way pays when the number of configurations not
+> yet decided is less than the number of configurations found in the previous
+> step.
+
+except that when searching backward, you need not visit all the neighbors
+of a configuration.  you only need to find one neighbor at the previous
+distance; after that, the other neighbors don't need to be examined.
+
+i did not realize this until implementing this technique.
+
+mike
+

@@ -1,0 +1,68 @@
+Date: 7 Aug 1984 19:24-EDT
+From: Dan Hoey <hoey@NRL-AIC>
+Subject: The pocket cube: correction, calculation, and conjectures
+To: cube-lovers at MIT-MC
+
+Well, maybe this list is dead after all, if I can tell you there are
+(7!/2)(3^6) positions of the pocket cube, and have it stand for a week.
+The correct number is of course (7!)(3^6) = 3674160, since the
+generators are odd.
+
+But not being one to eat crow with a straight face, I have hacked the
+good hack, so I can give you the exact number P(N) of pocket cube
+positions exactly N quarter-turns from solved.  (This was done in
+September 1981 for the half-twist metric; see the archives.)  I have
+also computed the number L(N) of local maxima at each distance.  These
+numbers are given below.
+
+         N     P(N)     L(N)	
+         0        1        0
+         1        6        0
+         2       27        0
+         3      120        0
+         4      534        0
+         5     2256        0
+         6     8969        0
+         7    33058       16
+         8   114149       53
+         9   360508      260
+        10   930588     1460
+        11  1350852    34088
+        12   782536   402260
+        13    90280    88636
+        14      276      276
+
+An approach for dealing with these numbers (suggested to me by Dale
+Peterson) is to form the Poincare polynomial
+
+         p(x) = SUM P(i) x^i
+                 i
+
+in hopes that it can be factored nicely.  Unfortunately, this doesn't
+work out--with the exception of the obvious factor (x+1), p(x) is
+irreducible.  I have also tried to decompose p(x) using the power
+             (1+x)^2
+series for ------------, which agrees with the first five terms of p(x)
+           3 - 2(1+x)^2
+due to the lack of non-trivial identities.  I haven't found any good
+ways of expressing p(x), but there may be something there.  The point
+of all of this is that it could conceivably lead to a conjecture--or
+even a derivation--of God's number for the 3^3 puzzle.
+
+I might pass along another fuzzy recollection from a year and a half
+ago, in hopes that it is more informative than incorrect.  Dale
+mentioned another classical method for dealing with group diameters.
+It seems there is a class of groups, called reflection groups, for
+which tight diameter bounds can be derived.  A reflection group is a
+group of matrices with eigenvalues of plus and minus one.  Some
+properties generalize to pseudo-reflection groups, where the
+eigenvalues all have complex magnitude one.  We managed to construct
+isomorphisms between the 3^3 edge group and a reflection group, and
+between the corner group and a pseudo-reflection group.  As I recall,
+he was fairly certain that the full cube group did not qualify, but
+that was beyond my depth.
+
+So if you think cubes are dead, remember it's not because the
+results are all in.
+
+Dan

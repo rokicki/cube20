@@ -1,0 +1,13 @@
+From kpapado@athena.auth.gr  Wed Jul  5 04:55:00 1995
+Return-Path: <kpapado@athena.auth.gr>
+Received: from bsa2.athena.auth.gr ([155.207.7.3]) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09624; Wed, 5 Jul 95 04:55:00 EDT
+Received: from [155.207.48.131] by bsa2.athena.auth.gr with SMTP
+	id AA22205; Wed, 5 Jul 1995 11:53:30 +0300
+Received: by lch1.athena.auth.gr (1.38.193.4/4.7) id AA01853; Wed, 5 Jul 1995 10:52:13 +0200
+Message-Id: <9507050852.AA01853@lch1.athena.auth.gr>
+To: cube-lovers@life.ai.mit.edu
+Date: Wed, 05 Jul 95 10:52:13 EET
+From: Kostas Papadopoulos <kpapado@athena.auth.gr>
+
+subscribe listname Kostas Papadopoulos
+

@@ -1,0 +1,537 @@
+From mschoene@math.rwth-aachen.de  Fri Dec 30 09:20:21 1994
+Return-Path: <mschoene@math.rwth-aachen.de>
+Received: from samson.math.rwth-aachen.de by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05461; Fri, 30 Dec 94 09:20:21 EST
+Received: from hobbes.math.rwth-aachen.de by samson.math.rwth-aachen.de with smtp
+	(Smail3.1.28.1 #11) id m0rNi90-000MPDC; Fri, 30 Dec 94 15:17 MET
+Received: by hobbes.math.rwth-aachen.de (Smail3.1.28.1 #19)
+	id m0rNi8z-00025fC; Fri, 30 Dec 94 15:17 WET
+Message-Id: <m0rNi8z-00025fC@hobbes.math.rwth-aachen.de>
+Date: Fri, 30 Dec 94 15:17 WET
+From: "Martin Schoenert" <Martin.Schoenert@math.rwth-aachen.de>
+To: Cube-Lovers@ai.mit.edu
+In-Reply-To: "Jerry Bryan"'s message of Tue, 27 Dec 1994 11:23:06 EST <9412272155.AA00248@life.ai.mit.edu>
+Subject: Re: Normal Subgroups of G
+
+Jerry Bryan wrote in his e-mail message of 1994/12/27
+
+    Recently, there was some discussion of whether the set C of twenty-four
+    rotations is a normal subgroup of the cube group G=<Q>.  It isn't, but
+    I decided to write up some information about normal subgroups as it
+    relates to the cube.  Most of the following is from Frey and Singmaster.
+    Any good stuff is theirs.  Any crud that sneaks in is mine.
+
+Very good.  The lattice of normal subgroups of G is not too complicated
+and relates nicely to the structure of this group.  Allow me to throw in
+my $0.02.
+
+Nitpicking alert!  C is not even a subgroup of G=<Q>.  It is a subgroup
+of CG.  But not a normal one.
+
+Jerry continued
+
+    It should be noted that H normal does not imply that the elements
+    h of H commute with the elements x of G.  That is, just because
+    Hx=xH we do not necessarily have hx=xh for every h in H (or even for
+    any h in H other than the identity).  However, I think it is fair
+    to characterize a normal subgroup as commuting "globally" with G,
+    even if it does not commute "locally".  On the other hand, if a
+    subgroup H does commute "locally" (i.e., if hx=xh for all h in H
+    and all x in G), then H is certainly normal.
+
+In group theory there this distinction is made by using the terms
+*normal* and *central* (even though globally and locally are perhaps
+more descriptive names).
+
+If xH = Hx, then x is said to *normalize* H.  The set of all elements
+that normalize H is called the *normalizer* of H, usually written N_G(H).
+It is easy to see that N_G(H) is a subgroup of G containing H.
+If every x of G normalizes H, then H is said to be *normal* in G.
+Of course H is normal in G, if and only if N_G(H) = G.
+
+If xh = hx for every h in H, then x is said to *centralize* H.  The set
+of all elements that centralize H is called the *centralizer* of H,
+usually written C_G(H).  It is easy to see that C_G(H) is again a
+subgroup of G, but it need not contain H (it contains H if and only if H
+is abelian).  If every x of G centralizes H, then H is said to be
+*central* in G.  Of course H is central in G, if and only if C_G(H) = G.
+Furthermore it is easy to see that H is central, if and only if H is a
+subgroup of C_G(G), which is the set of those elements in G that commute
+with all elements in G.  C_G(G) is called the *center* of G.
+
+And as you say, a central subgroup is also normal, but a normal subgroup
+need not be central.
+
+If N1 and N2 are two normal subgroups of G, then it is easy to see that
+the intersection of N1 and N2 and the closure of N1 and N2 are both
+normal subgroups too.  Thus the set of normal subgroups of G is closed
+w.r.t. intersection and closure.  In other words, the set of normal
+subgroups forms a lattice.  I shall draw the lattice of normal subgroups
+of G below.
+
+Jerry continued
+
+    Normal groups serve a function with respect to finite groups analogous
+    to the function served by prime numbers with respect to natural numbers.
+    First of all, any finite group always has at least two trivial
+    normal subgroups, namely the group itself and the group containing
+    only the identity.  Second, a finite group containing normal subgroups
+    may be "factored" in a fashion analogous to prime numbers factoring
+    composite numbers.  A finite group containing no normal subgroups
+    is called simple, analogous to numbers with no factors being called
+    prime.
+
+This is correct.  Allow me a few more remarks.
+
+Groups are composed from simple groups, which correspond to primes.  The
+simple groups have been classified.  There are several families (the
+alternating groups A_n are one such family), and 26 sporadic simple
+groups.  This classification is one of the outstanding mathematical
+achievements.  It is estimated that the complete proof is about 10000
+pages long (distributed over several papers, books, Ph.D. thesis, etc.).
+
+And then there are the ways in which those simple groups can be composed.
+In the case of natural numbers, this is very simple.  The fundamental
+theorem tells us, that there is, up to the order, just one way in which
+any natural number is composed from primes.  In the case of groups it is
+much more difficult.  There is still a theorem which tells us that the
+composition factors of a group are determined up to order.  But not any
+order will do.  For example the symmetric group S_3 of size 6, has a
+factor group C_2 over a normal subgroup C_3, but it cannot be decomposed
+with a factor group C_3 over a normal subgroup C_2.  Furthermore given a
+certain set of composition factors and a certain order, there may be
+several groups that decompose in this way.  For example the cyclic group
+C_6 can also be decomposed with a factor group C_2 over a normal subgroup
+C_3.  Even in the simplest case, groups of prime power size, which
+decompose as a sequence of cyclic groups C_p, is so difficult that they
+have not been classified (and maybe never will).
+
+Jerry continued
+
+    The cube group G does not have very many normal subgroups, but it does
+    have a few.  The first place to look for normal subgroups is to look
+    for subgroups with index 2.  That is, look for subgroups that are
+    half as  big a G.  Such a subgroup is the subgroup A of even
+    permutations.  ("A" stands for "Alternating", I think.)
+
+    It is easy to see that A is normal.  If x is even, then Ax=xA=A.
+    if x is odd, then Ax=xA=Abar, where Abar is the set (not group!)
+    of odd permutations.
+
+    Similarly, any subgroup H with index 2 is normal.  If the index of H
+    in G is 2, then H partitions G into two equal size sets H and Hbar.
+    If x is in H, then Hx=xH=H.  If x is in Hbar, then Hx=xH=Hbar.
+
+        ... and later on ...
+
+    The factor group G/A contains two elements, and is isomorphic to any
+    group containing only two elements.  We may write it as
+    <Abar>={A,Abar}, where A is the identity of the group.
+
+This is correct.  There is another way to obtain A, which is also very
+instructive.
+
+Let G be any group.  Let g1 and g2 be two elements of G.  Then the
+element g1^-1 * g2^-1 * g1 * g2 is called the commutator of g1 and g2,
+and is usually written as [g1,g2].  Now let g be any element of G.  Then
+
+g^-1 [g1,g2] g = g^-1 g1^-1 g2^-2 g1 g2 g
+               = (g^-1 g1^-1 g) (g^-1 g2^-1 g) (g^-1 g1 g) (g^-1 g2 g)
+               = (g^-1 g1 g)^-1 (g^-1 g2 g)^-1 (g^-1 g1 g) (g^-1 g2 g)
+               = [ (g^-1 g1 g), (g^-1 g2 g) ].
+
+Thus the conjugate of a commutator is again a commutator.  It follows
+that the subgroup generated by all commutators of all pairs of elements
+of G is a normal subgroup.  This subgroup is called the *commutator
+subgroup* or *derived subgroup* of G, and is usually written G'.
+
+It is the minimal normal subgroup of G, such that the factor group G/G'
+is an abelian group.  Minimal means that for each normal subgroup N of G
+such that G/N is an abelian group, G' is a subgroup of N.
+
+In the case of the cube group G' is A.  I shall use G' instead of A.
+
+Jerry continued
+
+    If we may digress briefly to the set M of 48 rotations and reflections,
+    then there are three subgroups of M with index 2.  In Dan Hoey's
+    taxonomy, they are called C, A, and H.  We may categorize the elements
+    of M as even or odd, and as rotations or reflections.  There are 12
+    even rotations, 12 odd rotations, 12 even reflections, and 12 odd
+    reflections.  If we take 12 even rotations and 12 odd rotations,
+    we have C.  So C is a normal subgroup of M, even if it is not a normal
+    subgroup of G.  If we take 12 even rotations and 12 even reflections,
+    we have A.  This A (a subgroup of M) is not to be confused with the
+    A we have already talked about which is a subgroup of G.  But I think
+    the name derives from the same source ("Alternating") in either case.
+    If we take 12 even rotations and 12 odd reflections, we have H.
+
+In the case of M, M' is a subgroup of index 4.  And the factor group M/M'
+is isomorphic to the group { (), (1,2)(3,4), (1,3)(2,4), (1,4)(2,3) }.
+This group is usually called C_2^2, because it is the direct product of
+two cyclic groups of size 2.  This group has three (normal) subgroups of
+index 2, which correspond to the three normal subgroups of M Jerry
+described.
+
+Jerry continued
+
+    Returning to G, the next two normal subgroups are Ac which leaves
+    the set of edges fixed, and Ae which leaves the set of corners
+    fixed.  Ac is even on the corners, and Ae is even on the edges, in
+    order to conserve parity.  Note that both Ac and Ae are normal
+    subgroups of A as well as of G.
+
+        ... and later on ...
+
+    The factor group G/Ac is isomorphic to the set of all permutations
+    on the edges (which we have written as G[E] in the recent past).
+    The factor group G/Ae is isomorphic to the set of all permutations
+    on the corners (which we have written as G[C] in the recent past).
+
+This is again typical.  If we have a permutation group G that has more
+than one orbit, then the stabilizer of each orbit is a normal subgroup
+of G (which may or may not be trivial).  And the group G is a subdirect
+product of the factor groups over those normal subgroups.
+
+Time for the first picture (apologies to all that have no large screen,
+but I want to add more to it later without cluttering it too much).
+
+
+                                       GCE
+                                       /|\ 2
+                                      X G X
+                                     / \|/ \ 2
+                                    /   G'  \
+                                   /   / \   \
+                                  /   /   \   \
+                                 /   /     \   \
+                                /   /       \   \
+                               /   /         \   \
+                              /   /           \   \
+                             /   /             \   \
+                            /   /               \   \
+                           /   /                 \   \
+                          /   /                   \   \
+                         /   /                     \   \
+                        /   /                       \   \
+                       /   /                         \   GE ~ G[E]
+                      /   /                           \ / 2
+                     /   /                            GE'
+                    /   /                             /
+           G[C] ~ GC   /                             /
+                  2 \ /                             /
+                    GC'                            /
+                      \                           /
+                       \                         /
+                        \                       /
+                         \                     /
+                          \                   / 12!/2 2^11
+                           \                 /
+                   8!/2 3^7 \               /
+                             \             /
+                              \           /
+                               \         /
+                                \       /
+                                 \     /
+                                  \   /
+                                   \ /
+                                   <1>
+
+Let GC be the operation of G on the corners, which is isomorphic to
+the factor group G/GE' = G[C], and GE be the operation of G on the
+edges, isomorphic to the factor group G/GC' = G[E] (this distinction
+between GC and G[C] and GE and G[E] is subtle and not very important).
+Let GCE be the direct product of GC and GE.  G is a subdirect product
+of GC and GE, so it is a subgroup of GCE.  It is a subgroup of index 2.
+G has a subgroup of index 2, namely G', which Jerry called A above.
+The two stabilizers are GC' and GE', which Jerry called Ac and Ae above.
+They are in fact the derived subgroups of GC and GE.
+
+Note that GCE has two more (normal) subgroups of index 2, namely
+<G',GC> and <G',GE>.  And G' is the derived subgroup of CGE.
+So GCE/GCE' is again isomorphic to C_2^2.
+
+Jerry continued
+
+    Since Ac and Ae are normal subgroups of A, we may write A/Ac and A/Ae
+    which are isomorphic to Ae and Ac, respectively.
+
+G' (aka A) is in fact the direct product of GC' (aka Ac) and GE' (aka
+Ae).  And the standard isomorphism theorem tells us that G'/GC' ~ GE'
+and G'/GE' ~ GC'.
+
+Jerry continued
+
+    We can find normal subgroups of Ac and Ae.  The set At of all
+    permutations in Ac which leave all corner locations fixed except for
+    twisting some of them is a normal subgroup of Ac.  The set Af of
+    all permutations in Ae which leave all edge locations fixed except
+    for flipping some of them is a normal subgroup of Ae.  (This twists
+    and flips have to follow the normal rules of conservation of twist
+    and flip, of course.)
+
+    This completes the list of normal subgroups.  I will now give Frey
+    and Singmaster's proof that we are done, while interposing some
+    questions of my own for the cube theory experts out there.
+
+I haven't seen what Frey and Singmaster prove.  But this is not true.
+Together with the trivial normal subgroup G and <1> you have listed
+7 normal subgroups, but G has indeed 13 normal subgroups.
+
+Jerry continued
+
+    My first question is that Frey and Singmaster do not state that At
+    and Af are normal subgroups of G.  It seems obvious that they are.
+    However, is the formal argument that (for example) At is a normal
+    subgroup of Ac and Ac is a normal subgroup of G; hence, At is a
+    normal subgroup of G?  How analogous is the factoring of groups
+    by normal subgroups to the factoring of composite numbers by
+    prime numbers?
+
+This is not true, and Michael Reid gave the smallest counterexample.
+Group theory would certainly be a lot easier if this was true, but
+probably also a lot less challenging.  But there is a similar argument.
+
+If M is a normal subgroup of a group N that is invariant under all
+automorphisms of N, then M is called *characteristic*.  For example N' is
+always a characteristic subgroup of N.  If N is a subgroup of a group G,
+and M is a characteristic subgroup of N, then M is normal in G.  Also if
+N is a characteristic subgroup of G, and M is a characteristic subgroup
+of N, then M is also a characteristic subgroup of G.
+
+This actually happens here, At and Af are characteristic in GC' and GE',
+so they are normal in G.  But this is not so easy to prove, it is simpler
+to verify directly that At and Af are normal in G (or use the fact that
+they are again stabilizers of appropriate operations of G).
+
+Jerry continued:
+
+    I guess my questions are as follows:  1) why must we restrict ourselves
+    to alternating groups?  2) For example, just as we found three
+    subgroups of M with index 2, might we not find other subgroups of
+    G with index 2 than the one we found?   3)  Might we not find a
+    normal subgroup of G with some index other than 2, e.g., with index 3?
+
+I got A as the derived subgroup of G.  Since this is the minimal normal
+subgroup such that the factor group is abelian, there cannot be another
+normal subgroup of index 2 or 3.  But there can be other normal subgroups
+with non-abelian factor groups, and indeed there are.
+
+The rest of this message describes how one can find all normal subgroups
+of G.  My approach may or may not be equal to Frey and Singmaster's.
+
+Let us first consider GC.  This group is a subgroup of index 3
+in the wreath product C_3 <wreath> S_8.
+
+This wreath product is isomorphic to the group of the following elements
+
+    ( c_1, c_2, c_3, c_4, c_5, c_6, c_7, c_8; p )
+
+where the c_i are in {0,1,2} and p is a permutation in S_8.
+Multiplication of those elements is defined as follows
+
+    (c_1,c_2,...,c_8;p) (d_1,d_2,...,d_8;q) :=
+    ( c_1 + d_{1^p}, c_2 + d_{2^p}, ..., c_8 d_{8^p}; p * q )
+
+where d_{i^p} denotes d_j, where j is the image of i under the
+permutation p, and c_i + d_j is the sum of c_i and d_j modulo 3.
+p * q is simply the product of p and q in S_8.
+So you first permute the components of the second element with
+the permutation of the first element, then sum componentwise,
+and finally multiply the two permutations.
+
+Clearly C_3 <wreath> S_8 has 3^8 8! elements.  GC is the subgroup of
+those elements of C_3 <wreath> S_8 for which c_1+c_2+...+c_8 = 0 (mod 3).
+
+It is easy to see that the set of all 3^7 elements
+(c_1,c_2,...,c_8,<identity>) of GC forms a normal subgroup of GC.
+I shall call this subgroup VC (V because VC is in fact a vector space),
+Jerry called this subgroup At.
+
+Next I shall show that no proper subgroup of VC can be a normal subgroup
+of GC.  Suppose that H is a normal subgroup of VC, and let
+x = (x_1,x_2,...,x_8;<identity>) be any non-trivial element of H.
+Because 1+1+...+1 <> 0 (mod 3) and 2+2+...+2 <> 0 (mod 3), there are two
+components x_i and x_j which are different.  An easy calculation shows
+
+    y := (0,0,...,0;(i,j))^-1 * x^-1 * (0,0,...,0;(i,j)) * x
+
+has y_i = 1 and y_j = 2 (or the other way around).  Since H is supposed
+to be normal, y must also be in H.  Furthermore the 6 elements
+
+    zk := (0,0,...,0;(j,k))^-1 * y * (0,0,...,0;(j,k))
+
+where k <> j and k <> i all have zk_i = 1 and zk_k = -1.
+Again since H is supposed to be normal, they must all lie in H.
+But y and those 6 elements are obviously linearly independent,
+i.e., form a basis for VC.  In particular it follows that H = VC.
+So no proper subgroup of VC is a normal subgroup of GC.
+
+Now let N be any normal subgroup of GC.  Then the intersection of N and
+VC must be a normal subgroup of GC contained in VC.  Thus there are only
+two possibilities for this intersection; it can be VC (i.e. N contains
+VC) or it can be trivial.
+
+Assume first that N contains VC.  Then N/VC must be a normal subgroup of
+GC/VC.  But GC/VC is S_8, which has only three normal subgroups, namely
+S_8, A_8 (= S_8'), and <1>.  Thus we have three normal subgroups
+containing VC, namely GC, GC', and VC.
+
+On the other hand assume that N intersects trivially with VC.  Then the
+closure M of N and VC must be one of the three normal subgroups given
+above.  The isomorphism theorem tells us that M/N ~ VC.  GC does not have
+a factor group isomorphic to VC, since its largest abelian factor group
+is GC/GC' of size 2.  GC' also does not have a factor group isomorphic to
+VC, since it has no non-trivial abelian factor group at all.  So M must
+be VC, and N must be trivial.
+
+All in all GC has 4 normal subgroups, GC, GC', VC, and <1>.
+
+Basically the same argument works for GE.  But there is one exception.
+Namely VE has one normal subgroup of size 2 , generated by the element
+(1,1,...,1;<identity>).  You may not recognize this element, but it is
+in fact the superflip, which flips all twelve edges.  I shall call this
+subgroup Z.
+
+Thus GE has 5 normal subgroups GE, GE', VE, Z, and <1>.
+
+Now we are ready to return to G resp. GCE.  The normal subgroups of GCE
+are direct or subdirect products of normal subgroups of GC and GE.
+
+For a direct product we take a normal subgroup NC of GC and a normal
+subgroup NE of GE and take their direct product, i.e., their closure
+in GCE.
+
+For a subdirect product we must take a normal subgroup NC of GC and a
+normal subgroup NE of GE and ``glue'' together a common factor group F of
+NC and NE.  But there are only two cases where a normal subgroup of GC and
+a normal subgroup of GE have a common factor group.  Once case is where
+NC = GC and NE = GE and F = C_2, and we get G as a subdirect product.
+The other case is NC = GC and NE = Z and F = C_2.
+
+All in all, we get the following lattice of normal subgroups of GCE.
+
+                                       GCE
+                                       /|\
+                                      X G X
+                                     / \|/ \
+                                    /   G'  \
+                                   /   / \   \
+                                  /   /   \   \
+                                 /   /     \   \
+                                /   /       \   \
+                               /   /         \   \
+                              /   /           \   \
+                             /   /             \   X
+                            /   /               \ / \
+                           /   /                 X   \
+                          /   /                 / \   \
+                         X   /                 /   \   \
+                        / \ /                 /     \   \
+                       /   X                 /       \   GE ~ G[E]
+                      /   / \               /         \ / 2
+                     X   /   \             /          GE'
+                    /|\ /     \           /           /
+           G[C] ~ GC + X       \         /           /
+                  2 \|/ \       \       /           /
+                    GC'  \       \     /           /
+                      \   \       \   /           /
+                       \   \       \ /           / 12!/2
+                        \   \       X           /
+                    8!/2 \   \     / \         /
+                          \   \   /   \       /
+                           \   \ /     \     /
+                            \   X       \   /
+                             \ / \       \ /
+                             VC   \       VE
+                               \   \     /
+                                \   \   / 2^10
+                             3^7 \   \ /
+                                  \   Z
+                                   \ / 2
+                                   <1>
+
+(Looks nice, doesn't it?)
+
+Bear with me, we are almost done.  We only need one more step, namely to
+show that the normal subgroups of GCE that lie in G are exactely the
+normal subgroups of G.  One direction is obvious, the normal subgroups of
+GCE that lie in G are also normal subgroups of G.  But we need to show
+that any normal subgroup of G is also a normal subgroup of GCE.
+
+Assume then that N1 is a normal subgroup of G that is not *not* normal in
+GCE.  G is then the normalizer of N1, and because the index of the
+normalizer in GCE is the number of conjugates of N1, it follows that N1
+has one more conjugate subgroup in G.  Call this subgroup N2, and assume
+N2 = x^-1 N1 x for an appropriate element x of GCE.  Because
+N_GCE(N2) = N_GCE(x^-1 N1 x) = x^-1 NGCE(N1) x = x^-1 G x = G,
+it follows that N2 is also a normal subgroup of G.
+
+The closure and the intersection of a whole family of conjugated
+subgroups are always normal.  Thus the closure and the intersection of N1
+and N2 are normal subgroups of GCE (and are therefore subgroups that
+appear in the above lattice).  Call them N12 and N.  Clearly N12 and N are
+subgroups of G.
+
+Now the isomorphism theorem tells us that N12/N1 ~ N2/N.
+Then |N12/N| = |N12/N1| |N1/N| = |N12/N1| |N2/N| = |N12/N1| |N12/N1|.
+Thus |N12/N| is a square.  But the only factor groups with square sizes
+are VE/Z, (VE*VC)/(Z*VC), (VE*GC')/(Z*GC') (all of size 2^10).
+
+We can intersect the whole situation into VE, so we can without loss of
+generality assume that N1 and N2 are subgroups of VE.  But if N1 and N2
+are normal subgroups of G, then they are certainly normal subgroups of
+GE'.  But GE' has only the 4 normal subgroups: GE', VE, Z, and <1>.
+
+Thus there cannot be a normal subgroup of G that is not normal in GCE.
+
+So the following picture gives the lattice of normal subgroups of G.
+
+                                        G
+                                        | 2
+                                        G'
+                                       / \
+                                      /   \
+                                     /     \
+                                    /       \
+                                   /         \
+                                  /           \
+                                 /             \
+                                /               \
+                               /                 X
+                              /                 / \
+                             /                 /   \
+                            /                 /     \
+                           X                 /       \
+                          / \               /         \
+                         /   \             /          GE'
+                        /     \           /           /
+                       X       \         /           /
+                      / \       \       /           /
+                    GC'  \       \     /           /
+                      \   \       \   /           /
+                       \   \       \ /           / 12!/2
+                        \   \       X           /
+                    8!/2 \   \     / \         /
+                          \   \   /   \       /
+                           \   \ /     \     /
+                            \   X       \   /
+                             \ / \       \ /
+                             VC   \       VE
+                               \   \     /
+                                \   \   / 2^10
+                             3^7 \   \ /
+                                  \   Z
+                                   \ / 2
+                                   <1>
+
+So Jerry had it almost right.  But he missed the center Z, and all
+the closures of pairs of normal subgroups.
+
+Have a nice day.
+
+Martin.
+
+-- .- .-. - .. -.  .-.. --- ...- . ...  .- -. -. .. -.- .-
+Martin Sch"onert,   Martin.Schoenert@Math.RWTH-Aachen.DE,   +49 241 804551
+Lehrstuhl D f"ur Mathematik, Templergraben 64, RWTH, 52056 Aachen, Germany
+

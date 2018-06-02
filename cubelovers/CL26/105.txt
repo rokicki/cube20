@@ -1,0 +1,35 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Jan 25 14:16:47 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA15939
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 25 Jan 1999 14:16:47 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Jan 24 00:08:55 1999
+Date: Sun, 24 Jan 1999 00:07:11 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Corners Only, Ignoring Twist
+In-Reply-To: <Pine.PMDF.3.95.980927193742.73560A-100000@PSTCC6.PSTCC.CC.TN.US>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Reply-To: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Message-Id: <Pine.PMDF.3.95.990123235414.196055A-100000@PSTCC6.PSTCC.CC.TN.US>
+
+On Sun, 27 Sep 1998, Jerry Bryan wrote:
+
+> In developing a no-twist, no-flip version of the program, I decided to try
+> it out on the corners only case.  Here are the results.
+
+Here is one more tidbit on this subject.  The program which performed the
+God's Algorithm search for the no-twist corners only case produced a
+summary by symmetry class.  I was surprised to note that there were two
+positions for which Symm(x)=M.
+
+Normally, there is only one position for the corners where Symm(x)=M,
+namely the position which fixes all the corners (i.e., Start).  However,
+if twists are ignored, then the central inversion of the corners has the
+property that Symm(x)=M.  This is analogous to the Pons Asinorum position
+where the edges are centrally inverted.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+

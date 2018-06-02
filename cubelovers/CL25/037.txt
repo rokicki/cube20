@@ -1,0 +1,42 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Apr 15 15:02:21 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id PAA17097; Wed, 15 Apr 1998 15:02:20 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed Apr 15 13:07:56 1998
+Date: Wed, 15 Apr 1998 18:07:57 +0100
+From: David Singmaster <david.singmaster@sbu.ac.uk>
+To: cube-lovers@ai.mit.edu
+Message-Id: <009C4C21.E208C3B3.8@ice.sbu.ac.uk>
+Subject: Hamiltonian circuits on the cube
+
+	The discussion of isoglyphs, etc., has reminded me of a problem which I
+worked on in the early 1980s but never resolved.  I took an all white cube and
+traced a Hamitonian circuit through all the 54 facelets.  If you jumble this
+up, it is essentially impossible to restore.  Indeed there are probably many
+solutions to the problem.  This led me to ask some questions about such
+Hamiltonian circuits through the 54 facelets.
+	A.  How many are there?
+	B.  Are there any such circuits where the pattern is the same on each
+face?  I thought I could prove that such did not exist, but I think I assumed
+that the circuit entered and left each face once, but this need not be the
+case.
+	I was able to find a circuit with two types of face pattern and the two
+types were mirror images.  If you index the facelets on a face by  11, 12, ...,
+33,  then the path on the face is:  11, 12, 22, 21, 31, 32, 33, 23, 13.
+	If the circuit enters and leaves each face just once, then the sequence
+of faces visited forms a Hamiltonian circuit on the faces of the cube, which is
+better viewed as the vertices of an octahedron.  It is easy to see that there
+are just two such circuits on the octahedron (up to isomorphism).  One of these
+circuits has two kinds of vertex behavior and hence is not suitable.
+	Does this question interest anyone?  The reason for the second question
+was that if just one type of face pattern could be used, then it would be easy
+to print up stickers for sale - one would just do the same pattern six times!
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+

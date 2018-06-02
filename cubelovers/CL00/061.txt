@@ -1,0 +1,69 @@
+ACW@MIT-AI 07/31/80 14:28:38
+To: cube-lovers at MIT-MC
+Yeah, we have a prejudice against regarding
+180-degree twists as atomic.  I understand
+your feeling that a 180-degree twist is
+intuitively a single operation.
+
+Many of the cube-hackers at MIT became
+interested in the mathematical aspects of
+the cube, and the preference for counting
+quarter twists arose from this (admittedly
+rather Spartan) mathematical viewpoint.
+
+When the cube first appeared, the mathematicians
+among us instantly exclaimed, with great
+delight, "Wow, here we have a group, whose
+elements are possible manipulations of the
+cube, and whose binary operation consists
+of following one manipulation with another."
+We immediately got interested in group-
+theory questions like, "What is the order
+of this group?"  "Does it have any interesting
+subgroups?" and, in general "What kind of
+object is this group?  Does understanding
+it help us solve the cube better?"
+
+There are several common ways of representing
+groups.  One is as a subgroup of a permutation
+group.  This doesn't really help in the case of
+the Hungarian Cube, because it is too close
+to what the cube really is: few new facts or
+insights are revealed.  Another way is with
+generators and relations.  This means, to list
+a few basic group elements from which the whole
+group may be derived by multiplying them together.
+
+We soon figured out (along with hundreds of other
+mathematically-inclined cube-hackers) that the
+whole group of possible manipulations could be
+generated from six elements: the quarter-twists
+of each of the six faces.  This observation
+later turned out to be crucial in calculating
+the order (number of possible states) of the group.
+
+Hence our predilection for counting quarter-turns.
+The half-turns were already accounted for, and
+we thought of them as two juxtaposed quarter-turns.
+I guess some of us believe that the mathematical
+structure of the cube group is built on quarter-
+turns.  Those whose delight in the cube is not
+mathematical will not agree: after all,
+a half-twist is as easy as a quarter-twist
+to perform.  But you will miss things like
+the fact that many useful manipulations
+are 8, 12, or 24 quarter-turns long.  If you
+count half-turns, you get a whole spectrum
+of random move counts, thus missing some
+fundamental  (and as yet little-understood)
+kinship between these manipulations.
+
+Of course, if you are not interested in such
+things, any measure of complexity (why not
+count equator twists?  why not penalize for
+counter-clockwise twists, since they are
+marginally harder for right-handed people to
+do?) will suffice.
+
+   ---Wechsler
+

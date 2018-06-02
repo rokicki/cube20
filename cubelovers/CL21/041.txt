@@ -1,0 +1,32 @@
+From cube-lovers-errors@curry.epilogue.com  Mon Nov  4 21:53:51 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id VAA15107; Mon, 4 Nov 1996 21:53:51 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Authentication-Warning: arthur.st.nepean.uws.edu.au: lrylands owned process doing -bs
+Date: Tue, 5 Nov 1996 13:22:02 +1100 (EST)
+From: Leanne Rylands <L.Rylands@st.nepean.uws.edu.au>
+X-Sender: lrylands@arthur
+To: Aben Gentry <gammet@mindspring.com>
+cc: cube-lovers@ai.mit.edu
+Subject: Re: Rubik's Clock...
+In-Reply-To: <199611042012.PAA24488@itchy.mindspring.com>
+Message-ID: <Pine.ULT.3.95.961105131923.15739B-100000@arthur>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+> 
+> Have any of you figured out how to solve Rubik's clock yet? Also, what is
+> best source for cubes (and cube-like puzzles) that you know of? ...I
+> normally shop at Puzzletts.
+
+Don Taylor and I wrote a book ``Mastering Rubik's Clock''.
+Published in 1988 by Simon and Schuster which gives the 
+solution.
+The clock is very easy to solve (hence the book is very 
+thin, only 16 pages).
+
+Leanne Rylands
+
+
+

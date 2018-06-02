@@ -1,0 +1,33 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug 18 17:45:09 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id RAA03210; Mon, 18 Aug 1997 17:45:09 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From scotth@ichips.intel.com Mon Aug 18 17:36:26 1997
+Message-Id: <199708182132.OAA19914@ichips.intel.com>
+To: Cube Mailing List <Cube-Lovers@ai.mit.edu>
+Subject: d-dimensional cube mechanisms
+Date: Mon, 18 Aug 1997 14:32:59 -0700
+From: Scott Huddleston <scotth@ichips.intel.com>
+
+Several years ago I worked out a solution to the d-cube 3^d, for d>3.
+This is most interesting combinatorially if you assume you're
+restricted to only rotating entire (d-1)-faces at a time, so that's
+what I assumed in my solution.
+
+But when I thought about building a mechanism for the d-cube, I
+came to the surprising (to me) conclusion that any natural extension 
+of the 3^3 mechanism to d dimensions would allow you to rotate any 
+2-face.  I concluded that any mechanism that would restrict you to 
+only rotating entire (d-1)-faces would require some sort of complex 
+interlocking mechanism that would have to engage and disengage 
+whenever a (d-1)-face was to be rotated.
+
+Has anyone else thought about this problem (d-cube mechanisms)
+enough to confirm or refute my conclusions?
+
+Best,
+- Scott Huddleston
+scotth@ichips.intel.com
+

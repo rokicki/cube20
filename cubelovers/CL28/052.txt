@@ -1,0 +1,54 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 14 14:44:11 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA20002
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 14 Dec 1999 14:44:10 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: jmb184@frontiernet.net (John Bailey)
+To: Cube-Lovers@ai.mit.edu
+Cc: bcheney@teleport.com
+Subject: Re: WTD: Rubik's Cube Program w/MACROS
+Date: Sat, 11 Dec 1999 10:31:12 GMT
+Message-Id: <385225bd.86868338@mail.frontiernet.net>
+References: <3851F715.3DF7@teleport.com> <38521c82.84505154@news.frontiernet.net>
+In-Reply-To: <38521c82.84505154@news.frontiernet.net>
+
+
+>On Fri, 10 Dec 1999 23:02:46 -0800, bcheney <bcheney@teleport.com>
+>wrote:
+>
+>>I'm looking for a Rubik's cube program that will allow you to
+>>manipulate the cube and allow you to record MACRO sequences and
+>>execute them at any time.
+>>
+>>I've looked at a lot of the programs on the cube web sites,
+>>but none have this capability.
+>>
+>>If you know of a program that has this capability, could you
+>>EMAIL or post a reference to it?
+
+to which I replied:
+
+>Good point!
+>At http://www.ggw.org/donorware/3x3cube/ is a javascript program
+>implementing a 3x3 cube which has two fixed macros (without bothering
+>to describe them)
+>and the 4D cube at:
+>http://www.ggw.org/donorware/4D_Rubik/ has a very explict macro but
+>again its fixed.
+>
+>What you suggest is there should be an ordinary 3x3x3 cube with the
+>ability to record and then use a sequence which the player enters.
+>
+>Macros would make cube solving and searching for solutions far less
+>cumbersome, without detracting from the challenge.
+>
+>I'll watch this thread with interest.  If no one else nibbles the
+>troll, I will consider making one for the both of us.
+
+Can anyone on Cube-lovers give a pointer to a cube manipulator with
+macro capability?
+
+John
+

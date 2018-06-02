@@ -1,0 +1,9 @@
+Date:  19 July 1980 15:53 edt
+From:  Greenberg.Multics at MIT-Multics
+To:  ALAN at MIT-MC (Alan Bawden)
+cc:  CUBE-HACKERS at MIT-MC
+In-Reply-To:  Message of 19 July 1980 15:48 edt from Alan Bawden
+
+I certainly believe you have shown me sufficient conditions for
+inconsistency, but until now I wa not aware that you claimed
+that they were necessary...

@@ -1,0 +1,28 @@
+From: Joe McGarity <joemcg3@snowcrest.net>
+Reply-To: joemcg3@snowcrest.net
+X-Mailer: Mozilla 3.01Gold (Win95; I)
+MIME-Version: 1.0
+To: "Mailing List, Rubik's Cube" <cube-lovers@ai.mit.edu>
+Subject: Solved in 20 moves?
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+On the subject of a new upper bound for Rubik's cube solution, Joe
+McGarity wrote:
+
+>Forgive me for saying so, but, "Bulls**t"
+
+While it's certainly possible that the news release may have distorted the
+original message, I certainly would not in any way discount the work of
+Dr. Korf as he is a recognized authority in the area of computer search
+(you'll find his name within the index of any decent book on the subject).
+
+As far as I know he is also the first, and only, person to have developed
+a computer program capable of discovering a general solution to the cube
+starting only from basic knowledge of cube states and operators.
+
+Forgive me for keeping an open mind on this one.
+
+-- Greg
+
+

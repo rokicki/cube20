@@ -1,0 +1,54 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Dec  4 16:49:43 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA06282
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 4 Dec 1998 16:49:43 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <v04003a00b28dc838311f@[198.252.208.89]>
+In-Reply-To: <872566D0.000F48EF.00@notes.dtint.com>
+Date: Fri, 4 Dec 1998 11:26:10 -0700
+To: Jacob_Davenport@scudder.com (Jacob Davenport)
+From: Steve LoBasso <slobasso@dtint.com>
+Subject: Re: (5x5x5) edge parity corrections
+Cc: Cube-Lovers@ai.mit.edu
+
+This should solve the edge parity problem by swapping the
+edge F-Ru and edge F-Rd pieces.
+
+R2 d L2 d L2 d' R2 u' F2 u2 F2 u' F2 L2 F l' F' L2 F l F
+
+This move swaps only these two pieces and some centrals, but only within
+their face. A variant of this move should be scalable to solve parity
+issues in any NxNxN cube.
+
+The only way I can think of to not have the parity problem, or at least not
+require such a long series, is to solve centrals last. Another other idea
+would be to spot the parity problem much earlier by counting edge flips.
+Not very easy for a person to do, but I have seen it done in software for
+normal 3x3x3 cubes. If it were were known very early in either the centers
+first or layered solution, it would be trivial to fix.
+
+>I don't like the edge parity correction move that I use in my solution, and
+>I'm hoping that someone can give me a better one.
+>
+>The parity problem is found in 5x5x5 cubes (and 4x4x4 cubes, I understand)
+>when two of the edges right next to the corners (which I call "wings") are
+>switched.  Some fairly simple moves can get all three edges in line with
+>each other, but half the time two wings need to be switched.  By the time I
+>figure this out when doing a 5x5x5 cube, I've solved most of it, and my
+>parity fixing move messes up many of the edges I've been working on.
+>
+>How do other people fix this problem?
+>
+>-Jacob
+
+
+
+--
+Steve LoBasso
+Digital Technology International    mailto:slobasso@dtint.com
+500 West 1200 South              or mailto:slobasso@hotmail.com
+Orem, UT    84058                   http://members.tripod.com/~slobasso
+(801)226-6142 ext.265               FAX (801)221-9254
+

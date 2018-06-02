@@ -1,0 +1,58 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr 23 11:51:20 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA04842; Thu, 23 Apr 1998 11:51:19 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Apr 23 11:42:59 1998
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Message-Id: <199804231547.IAA09346@gluttony.ugcs.caltech.edu>
+Subject: Re: Hamiltonian circuits on the cube
+To: jbryan@pstcc.cc.tn.us (Jerry Bryan)
+Date: Wed, 22 Apr 1998 16:58:41 -0700 (PDT)
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <9804231425.AA10935@sun28.aic.nrl.navy.mil> from "Dan Hoey" at Apr 23, 98 10:25:30 am
+Reply-To: whuang@ugcs.caltech.edu
+
+Jerry Bryan typed something like this in a previous message:
+> It makes me wonder of you actually saw Dan's unfolding in your mind's
+> eye, as it were, as you worked out your solution.  Or another way to put
+> it, did you work out your solution in 2-D or in 3-D?  It also makes me
+> wonder if there is any other unfolding that would lead as naturally to a
+> Hamiltonian circuit.  I tend to think not, but I could well be wrong.
+>
+Actually, I didn't visualize any unfolding at all, so I guess I
+did it in 3-D.  Here's approximately the line of reasoning that
+led to my solution.
+
+As Dr. Singmaster notes, there is only one way to draw a Hamiltonian on
+a 1x1x1 cube where all the faces are identical, and that is with a right
+angle on each face.  Naturally one's first impulse is to find a path that
+enters each 3x3 face in one place and exits in another -- and these two
+ends must be on edges 90-degree apart.  One quickly sees that the two exits
+must be on edge cubies, since if any were on corner cubies there would
+be a parity problem between "inner corners" and "outer corners."  But if
+they were edge cubies, then no Hamiltonian path exists (as the inner corner
+must join to the ends already).
+
+However, another extension is the "three parallel paths" pattern:  put this
+on each face:
+
+ A  B  C
+ |  |  |
+ |  |  +-D
+ |  +----E
+ +-------F
+This leads to three paths on the cube, where the center one is the
+traditional 1x1x1 Hamiltonian.  If this can be rearranged to a solution,
+we must try to reconnect the ends so that there is some "interaction"
+between the three paths.  C must connect to D, but we can connect A to B
+instead -- and this leads to a solution, which surprised me when I
+visualized it on a 3-d cube.  (I most definitely find visualizing in
+3-D easier than visualizing the links in an unfolded cube.)
+
+-- 
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+Smoking cigarettes are bad for you, so smoking cigarettes is bad for you.
+

@@ -1,0 +1,15 @@
+Date: 30 Jul 1981 23:01 PDT
+From: Woods at PARC-MAXC
+Subject: Re: Supergroup
+To: Steve B. Waltman <SBW at MIT-MC>
+cc: CUBE-LOVERS at MIT-MC
+
+It was my understanding that the size (number of possible positions) of
+the supergroup was only (4^6)/2 times as large as the normal group, i.e.,
+that there was another level of parity involved.  This would imply that
+you can rotate a center facie 180 degrees, but not 90 (at least, not without
+changing something else).  I'd be most interested in seeing one of your
+"many apparently 'null operations'" that rotates one center face 90 degrees. 
+
+	-- Don.
+

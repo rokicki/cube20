@@ -1,0 +1,45 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Oct  6 19:55:23 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id TAA29256; Mon, 6 Oct 1997 19:55:23 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Goyra@iol.ie Wed Oct  1 20:07:28 1997
+Message-Id: <199710020007.BAA10545@GPO.iol.ie>
+From: "Goyra (David Byrden)" <Goyra@iol.ie>
+To: <cube-lovers@ai.mit.edu>
+Subject: For all cube programmers
+Date: Thu, 2 Oct 1997 01:02:23 +0100
+
+	When writing a program to manipulate
+the Cube, you're interested in your algorithm.
+The output usually looks like RLULRURL
+because you won't waste time programming
+any graphics.
+
+	I will shortly release a freeware
+software component that displays a standard
+Rubik's Cube. You can incorporate it into
+your software and manipulate the cube
+directly. See your cube solutions executed in
+front of your eyes.
+
+	For an idea of what this component
+will look like, take a Java browser to my
+pages at
+
+http://www.iol.ie/~goyra/Rubik.html
+
+	The component will be a Java Bean,
+meaning you can use it in Java, and also
+in any Activex environment such as Visual
+C++ or Visual Basic.
+
+	Anyone with suggestions about how
+the programmatic interface to the component
+should look, please mail me.
+
+				David
+
+
+

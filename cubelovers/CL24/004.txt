@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep  2 11:08:15 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA07826; Tue, 2 Sep 1997 11:08:14 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From nbodley@tiac.net Tue Sep  2 09:46:52 1997
+Date: Tue, 2 Sep 1997 08:44:30 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: SCHMIDTG@iccgcc.cle.ab.com
+Cc: cube-lovers@ai.mit.edu
+Subject: Parity (Was Re: Re[2]: Open and Closed Subgroups of G)
+In-Reply-To: <970901164633.20217b13@iccgcc.cle.ab.com>
+Message-Id: <Pine.SUN.3.95.970902084236.25019C-100000@sunspot.tiac.net>
+
+
+If I understand parity, Greg's examination would reveal whether someone
+had reassembled a Cube (or other mathematically-related puzzle) into a
+state that can't be solved.
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*   Waltham is now in the new 781 area code.
+|*  Amateur musician  *|*   617 will be recognized until the end of 1997.
+--------------------------------------------------------------------------
+

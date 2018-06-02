@@ -1,0 +1,51 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat May  2 17:23:32 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id RAA09204; Sat, 2 May 1998 17:23:31 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri May  1 22:41:24 1998
+Message-Id: <354A8671.730D@idirect.com>
+Date: Fri, 01 May 1998 22:35:29 -0400
+From: Mark Longridge <cubeman@idirect.com>
+Reply-To: cubeman@idirect.com
+To: Dan Hoey <Hoey@aic.nrl.navy.mil>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Square like groups
+References: <9805012356.AA16835@sun28.aic.nrl.navy.mil>
+
+Dan Hoey wrote:
+>
+> Andrew Walker <ajw01@uow.edu.au> asks:
+>
+> >         Does anyone have any information on patterns where each
+> > face only contains opposite colours, but are not in the square
+> > group?
+>
+> We may call this the "pseudosquare" group P.  It consists of
+> orientation-preserving permutations that operate separately on the
+> three equatorial quadruples of edge cubies and the two tetrahedra of
+> corner cubies, and for which the total permutation parity is even.  So
+> Size(P) = 4!^5 / 2 = 3981312.
+>
+> > L' R U2 L R' may be an example.
+
+ R2 F2 R2 U2 R2 F2 R2 U2 F2
+
+>
+> No, that's in the square group, says GAP.  Also, Mark Longridge
+> noticed (8 Aug 1993) that the square group is mapped to itself under
+> conjugation by an antislice (though I don't recall a proof--is there
+> an easy one?).  Your position is (L R)' R2 T2 R2 (L R), so this result
+> would apply.  Does anyone have a square process for it?
+
+I almost forgot about all that info back in 1993!
+
+But I hardly think a proof is necessary. After the moves (L' R) all the
+following moves are in the square's group. Then we are just doing
+the inverse of (L` R) at the end. Not very rigourous, but...
+
+I'll search for a counter-example.
+
+-> Mark <-
+

@@ -1,0 +1,32 @@
+Date:  3 Aug 1981 1250-PDT
+From: ISAACS at SRI-KL
+Subject: another new cube
+To: cube-lovers at MIT-MC
+
+   Last week I saw still another type of new cube that a friend had picked
+up on a chinese boat.  Each face was a magic square - that is, each facelet
+contained a number from 1 to 9, and, when solved, each line of 3 facelets
+added to 15.  This particular cube was also colored, so wasn't very
+interesting (you could solve it by colors and the magic-ness was automatic),
+but it should be a very difficult problem with the numbers colorless.
+   Apropos to this, my son says he saw two other new types (but by the
+time he went back to get them for me, they were gone).  They were both
+related to the 10-sided one that essentially cut off 4 parallel edges;
+one cut off all EXCEPT 4 parallel edges (how?), and the other cut off
+corners.  Has anybody else seen thesed?  Can you describe them more
+accurately?
+   By the way, there are lots of "do it yourself" variations on the cube.
+For instance, a good present (though it takes a lot of work to make, and
+I still don't know what the best glue to use is) is a picture cube.  Find
+6 family photos (or other appropriate pictures) of the right size and glue
+away.  Or (and this is based on earlier discussion of a braille cube), make
+a tactile cube - put a different material on each face.  I've tried cloth
+(which doesn't work too well because of the glue and the fraying), misc
+stuff (washers, broken toothpicks, etc), and next want to try with different
+sandpaper grades (the ideal tactile cube would be ONLY solvable by touch, and
+have the faces look the same to the eye).  Another, more difficult to make
+suggestion, would be to make each face a different thickness, or perhaps
+a different contour.  Any ideas on how to actually construct these?  Any
+ideas on a really good glue for cube faces?
+       ---  Stan Isaacs
+-------

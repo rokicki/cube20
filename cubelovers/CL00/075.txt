@@ -1,0 +1,65 @@
+Date:  6 AUG 1980 0939-EDT
+From: JURGEN at MIT-MC (Jon David Callas)
+Subject: Random Notes on Cubism
+To: CUBE-LOVERS at MIT-MC
+CC: JURGEN at MIT-MC
+
+I am beginning to feel competant enough to jump into the fray, so ...
+1)	language: I guess that RLUDFB has become the de facto lg. for cubing.
+(by the way, how IS 'RLUDFB' pronounced?) Is this to include the IJK rotations
+that ACW described on 7-19? They are very handy, but I know that there is a desire tokeep the lq. brief. Also what (if anything is being done with the center
+slices that Bernie used while describing the higher crosses? Given RLUDFB+IJK
+notation,  they are easy algorithms (subroutines?) that can be described as:
+
+	FPC {floor-parallel center} := udK
+	BPC {body-|| center}	    := fbI
+	BSC {body-slicing center}   := rlJ
+
+without IJK, they're much more complex. Perhaps this is a case for using
+RLUDFB & IJK.
+
+	2) I have been playing a little with the group of rotations, twists
+ and so forth. I thought that it mighht be very wieldy until I remembered that Don Woods has given us a transform with period 1260. (Is it just my
+imagination or is 1260 important? it seems like a familiar number) This means
+(by la Grange's thm ) that the order of this group is some integral multiple
+of 1260 (ugh!) That eliminates hand-enumerating (at least by me) it. How
+much does anyone else know about this, and are thre any interesting subgroups?
+It also seems that this thing might be related in some way to the dihedral gps.
+but I'm not sure.
+
+	3)Somewhat connected with (2) above, it would be nice if we compiled
+"Famous Transforms I Have Known" or something to that effect. Not only would
+it help in finding my desired sbgp, but it would help keep some of the
+folklore out of cubing (while there is nothing wrong with folklore,
+there are problems when falsities (especially VERY inobvious ones) creep
+into the body of lore. Folklore also does tend to cause duplication of
+effort and that most of us have probably been wasting time re-inventing
+the Pons Ansinorum (which, by the way, IS 'rrllffbbuudd', isn't it?)
+Since I'm suggesting this nonesense, I guess it's only fair to
+volunteer to do this compendium (unless someone else is dying to).
+
+	4) Would it be possible to modify :cube to work on a
+printing tty? I really don't care if it produces large volumes of paper.
+I am avoiding implementing my own form of a Cube program on my
+APPLE ][ (see my notes above on duplication of effort), if I can
+get away with using :cube, but at least the Apple display will be pretty.
+
+	5) There MUST be a better way to check for an impossible cube
+than solving for it. While there is no shame in solving a bad cube,
+there IS a little embarassment, and there certainly is no honor in it , either.
+Besides, the anti-intuitionist part of me finds solving-as-proof distasteful.
+
+	6) Has any one taken 'Rubik's Cube ' apart? I have tried prying
+the edge cubie as mentioned, and all I did is hurt my thumb. I'm afriad
+to use any sort of tool, lest I break the little beast.
+
+	7) Can we get a Cubing Bibliography, including Singmaster's articles,
+and the Games & Puzzles article and anything else anyone finds? (ONce
+again, since I suggested it, I'll do it if need be.)
+
+	8) Are Singmaster's 'orbits' REAL permutation-group type orbits,
+or just equivalence classes? I'm confused by his choice of words.
+
+				-happy cubing,
+					Jurgen@mc
+

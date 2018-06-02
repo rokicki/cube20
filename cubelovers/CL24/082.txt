@@ -1,0 +1,74 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 14 11:12:41 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id LAA10598; Fri, 14 Nov 1997 11:12:41 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From chrono@ibm.net Thu Nov 13 22:03:44 1997
+Message-Id: <346BBF7F.ADFDE0D4@ibm.net>
+Date: Thu, 13 Nov 1997 19:03:27 -0800
+From: "Jin 'Time Traveler' Kim" <chrono@ibm.net>
+Organization: The Fourth Dimension
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: 6x6x6 cube design
+References: <19971113.100159.5094.0.tenie1@juno.com>
+
+Tenie Remmel wrote:
+
+> I am attempting to design a 6x6x6 cube.  My idea to make it structurally
+> sound is to attach both the center cubies and the middle edge cubies to
+> a ball in the center.  Then all other pieces are wedged behind those.  I
+> think that extending from the 5x5x5 design the same way the 4x4x4 was
+> extended from the 3x3x3 design would be way too flimsy, mainly because
+> the centers would have to be attached via long, thin struts which are
+> apt to break easily unless made out of metal, which would make the thing
+> way too heavy.  The width of the cubies probably could not be more than
+> 14 or 15 mm; if they were larger, the cube would be quite big and so it
+> would be difficult to manipulate.
+
+> Of course, even if it can be built, does anyone know how to solve it?
+
+If it can be built and scrambled, it can be solved.  In fact, it could
+make for a very interesting puzzle since it could behave identically
+to a 3x3x3 if one wanted it to, just like a 4x4x4 can be manipulated
+like a 2x2x2.  Heck, the 6x6x6 could also behave like a 2x2x2...  One
+puzzle could take the place of two others.  Sort of a "mix and match"
+difficulty setting.  Regardless, I suspect that many would applaud the
+ingenuity of a 6x6x6 if it was executed elegantly and worked well,
+like the 5x5x5.
+
+> I believe that the 6x6x6 is the largest mechanically possible, because
+> with the 7x7x7 and higher cubes, the corner cubies aren't attached to
+> anything at all!  Is this correct?
+
+The moderator of the mailing list stated that a 7x7x7 cube could be
+built, but I counter that it would require "cubes" of dissimilar size
+or some kind of groove type scheme, which actually isn't quite in the
+spirit of a cube.  Even a 6x6x6 would require some careful engineering
+since the corner cubes just barely overlap.
+
+> Also what is the mechanism for a 2x2x2 cube?  Could it be extended to
+> make a more stable 4x4x4 and/or 6x6x6 cubes...
+
+The mechanism of the 2x2x2 is similar to the 4x4x4, which makes both
+of them rather stiff.
+
+> And how about a GigaMinx, a 5x5 version of the MegaMinx magic pentagonal
+> dodecahedron, with five pieces on each edge, 31 pieces on each face
+> (5 corners, 11 edges and 11 central pieces), 242 pieces total.  I would
+> draw a diagram if it wasn't so hard to make a pentagon out of chars...
+
+I'm sure supersets of many existing puzzles have been considered.  I
+myself spent some hours contemplating and drafting the possibility of
+a pyraminx to the next level.  I called it Tut's Curse as a sort of
+'project' name, despite the fact that Tut was never buried in a
+pyramid.  Maybe that's why I never completed the project.  Oh well.
+The best laid plans of mice and men...
+
+--
+Jin "Time Traveler" Kim
+chrono@ibm.net
+VGL Costa Mesa
+http://www.geocities.com/timessquare/alley/9895
+http://www.slamsite.com
+

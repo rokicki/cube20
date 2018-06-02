@@ -1,0 +1,73 @@
+Date: 26 Jul 1980 1315-PDT
+From: Davis at OFFICE-3
+Subject: Some (perhaps well-known) Transformations
+To:   cube-lovers at MIT-MC
+
+I have just recently joined the cube-hackers mailing list, but I have read over
+all the old mail.  I suspect, however, that some of what I have to say will be
+well-known already; on the other hand, I suspect that some of it is new.
+
+When I first got my cube, I had the advantage and disadvantage of working in a
+vacuum.  Hence, my original solution was more complicated than it should have
+been, but I did go about it another way, and discovered a few interesting facts
+along the way.  Having only seen one cube, I foolishly assumed that the color
+pattern was the same on all cubes, and my notation for a move was simply a
+color.  A R (or Red) move meant that you look at the red face, and turn it 90
+degrees courter-clockwise.  I wrote a little hack based on that notation, and
+since all my notes are in that form, I will use it here.  It should be trivial
+enough to convert it to the Left, Right, ... form.  For reference, here is my
+color pattern in the "solved" condition:
+
+       GGG
+       GGG
+       GGG
+
+   OOO RRR YYY WWW
+   OOO RRR YYY WWW
+   OOO RRR YYY WWW
+
+       BBB
+       BBB
+       BBB
+
+
+When I purchased my cube, the store was out of all but the demonstration model,
+so I never got a chance to mess around with a virgin cube, and I approached the
+problem as follows:  My program would simply take moves and print out the
+condition after so many moves.  It would also, given a sequence of moves, find
+the order of the move as a group element.  I then tried a number of patterns,
+some from my experience with the cube, and some completely at random, and found
+the orders of those moves.  If the order came out to be, say, 90, then I would
+do 30 and 45 moves to see what the cube looked like after that many moves.
+These half- and third- way patterns were often fairly simple,  and after trying
+aout about 20 or 30 likely candidates, I generated most of the primitive
+transformations I used to solve the cube originally.  I also generated (as half
+way positions) a large number of nice patterns, which are pretty to look at,
+but not of much use for solving a cube.
+
+In particular, laughter, mentioned by ALAN, is gotten by:
+
+   3(OYRW)
+
+I find 3(RYYR) a useful solving transformation, as well as 3(RYRRRYYY) and
+3(RYYYRRRY) (these last two being commutators).  I have not yet gotten a look
+at any of Singmaster's stuff, but these last two may be well known.  Believee
+it or not, one of the transformations I used to solvee the cube originally was
+45(RGWY), which has the net effect (after 180 moves) of flipping the R-Y and
+G-Y side cubies in place.  I'm glad I found a better one than that.
+
+In fact, if you haul out any book on group theory, it is interesting to find
+group equations, and plug in random cube moves as the group elements to see
+what happens.  Needless to say, things which group theorists find interesting
+usually tend to do interesting things to the cube.
+
+One other thing I discovered which also does interesting things to the cube is
+the following transformation:  Leave the body-slicing center slice in place,
+and rotate the other two sides, one toward and one away from you.  Then rotate
+the top and bottom 180 degrees, and rotate the sides back.  This transformation
+also gives a cube configuration which looks like something in the center-slice
+group, but is not.
+
+   -- Tom Davis
+
+-------

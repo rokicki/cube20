@@ -1,0 +1,54 @@
+Received: from REAGAN.AI.MIT.EDU (CHAOS 13065) by AI.AI.MIT.EDU 15 Aug 89 09:40:10 EDT
+Received: from AC4.PICA.ARMY.MIL (INTERNET|192.12.8.16) by REAGAN.AI.MIT.EDU via INTERNET with SMTP id 249769; 15 Aug 89 09:39:52 EDT
+Date:     Tue, 15 Aug 89 9:31:25 EDT
+From:     Peter Beck (LCWSL) <pbeck@PICA.ARMY.MIL>
+To:       cube-lovers@ai.ai.mit.edu
+cc:       pbeck@PICA.ARMY.MIL
+Subject:  cff #21
+Message-ID:  <8908150931.aa20728@AC4.PICA.ARMY.MIL>
+
+subject :  review of "cubism for fun" newsletter issue #21, july 89;
+the newsletter of the "dutch cubists club";  in english starting with
+issue #14 
+
+1..  the table of contents for issue # 21, july 89 follows:
+
+introduction by the editors
+membership fee by paul sijben
+announcement:  cube day 1989;  sat 9 dec,  voorshoten netherlands
+announcement:  10th international puzzle party, details previously
+posted
+hidden cubes  by tony fisher
+rubik's cube:  a new solution approach by ed hordern
+the anver's globe: by arie verveen, a construction of a spherical    
+                               megaminx
+magic cross news by anton hanegraaf
+pretty  magic cross formulas by clemens de brouwer
+unicolored cross patterns:  by lucien matthijsse
+magic cross half-tile 3-cycles by ronald fletterman
+frying pan and oskar keys by oskar van deventer
+pretty cubic patterns by anneke treep
+book review by anton hanegraaf;  puzzle in wood by nob yoshigahara,  
+                private publication
+news and letters to the editor  - jan de geus, valkenboslaan 262a,
+ 2563eb den haag, netherlands  is compiling a list of computer
+programs for simulating or solving puzzles and games of all kinds,eg,
+ mostly 2d sequential movement puzzles.  he would any assistance.
+changes in the list of members - 
+
+2.   membership for 1989 is  us$8.   a photocopied set of the
+newsletters, issues 1-13, written in dutch (in the future selected
+back articles will be available in english) is also available for
+ us$7.    to order either of these send an 'international"  postal
+money order to:  paul sijben, witbreuksweg 397-304, 7522 za enschede,
+ the netherlands.
+
+3.  if anybody would like further details please ask!
+
+cubing is forever      peter beck
+
+<beck@ardec-lcss>  or  <pbeck@ardec>
+
+
+*   american games fair is scheduled for sept 8,9,10  1989  at the
+roosevelt hotel, nyc.   tel # 212/867-5159

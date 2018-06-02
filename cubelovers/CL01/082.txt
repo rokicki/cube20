@@ -1,0 +1,12 @@
+Date:  8 JAN 1981 1515-EST
+From: DR at MIT-MC (David M. Raitzin)
+To: CUBE-LOVERS at MIT-MC
+
+I've been reading the old mail from this mailing list, and I've
+noticed some discussion on the definition of what is a single twist.
+As far as I can see, the definition of a twist should be the change in
+position of all the cubies in a single plane performed by a single
+motion.  In other words that should include a 90 degree twist, a 180
+degree twist, and a twist of the middle slice (the last one can be
+thought of as holding the U and D parts of the cube in place with one
+hand, while moving the middle slice with the other).  

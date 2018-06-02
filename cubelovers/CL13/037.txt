@@ -1,0 +1,28 @@
+From devo@vnet.ibm.com  Tue Nov  1 13:20:25 1994
+Return-Path: <devo@vnet.ibm.com>
+Received: from VNET.IBM.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17856; Tue, 1 Nov 94 13:20:25 EST
+Message-Id: <9411011820.AA17856@life.ai.mit.edu>
+Received: from GDLVM7 by VNET.IBM.COM (IBM VM SMTP V2R2) with BSMTP id 2446;
+   Tue, 01 Nov 94 12:33:01 EST
+Date: Tue, 1 Nov 94 12:33:54 EST
+From: "Dave Eaton" <devo@vnet.ibm.com>
+To: cube-lovers@life.ai.mit.edu
+Subject: Is there a symbolic cube program?
+
+Is there a program that allows you to type in Singmaster-style
+moves and then prints out the resultant state, something like
+this (not actual results):
+
+INPUT:   (R U2 R3 U2)2
+OUTPUT:  (fur,drb,rdf) (fr,dr)
+
+This is what I tried to write long ago, but I never had all
+the tricks needed to get the program to work.
+
+If no program like this exists, is there something similar?
+I guess I would be looking for nicely-portable C or a DOS
+binary.  Thanks to you all for sharing cube information.
+
+......Dave Eaton, N2NOQ, Owego NY, devo@vnet.ibm.com
+
+

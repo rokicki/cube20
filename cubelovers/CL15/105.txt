@@ -1,0 +1,36 @@
+From ed@odi.com  Fri May 12 09:47:07 1995
+Received: from mineshaft.odi.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA03706; Fri, 12 May 95 09:47:07 EDT
+Received: from odi.com (mastermind.odi.com) by mineshaft.odi.com (5.65c/SMI-4.0/ODI-5)
+	id AA07906; Fri, 12 May 1995 09:44:14 -0400
+Return-Path: <ed@odi.com>
+Received: from heinz.odi.com by odi.com (4.1/SMI-4.0/ODI-15)
+	id AA25891; Fri, 12 May 95 09:44:14 EDT
+From: Ed Schwalenberg <ed@odi.com>
+Received: (ed@localhost) by heinz.odi.com (8.6.12/8.6.12) id JAA13150; Fri, 12 May 1995 09:44:13 -0400
+Date: Fri, 12 May 1995 09:44:13 -0400
+Message-Id: <199505121344.JAA13150@heinz.odi.com>
+To: patrick@athos.med.auth.gr
+Cc: Cube-Lovers-Request@ai.mit.edu, Frank=Lindgreen%DATLING%HHASPR@lng.hha.dk,
+        CUBE-LOVERS@life.ai.mit.edu
+In-Reply-To: Patrick's message of Fri, 12 May 1995 15:33:12 -0200 (GMT-0200) <Pine.LNX.3.91.950512144544.20345B-100000@athos>
+Subject: unsubscrib
+Organization: Object Design, 25 Mall Rd, Burlington, MA 01803 - 617-674-5337
+
+  Date: Fri, 12 May 1995 15:33:12 -0200 (GMT-0200)
+  From: Patrick <patrick@athos.med.auth.gr>
+
+   I have a complaint to make about the way mr. Allan Bawden treats cube 
+  -lovers.
+  1)Alot of people are not sure how to join a group when they start out to 
+  join one.
+
+Alan's complaint is not about people who are trying to join; they might
+legitimately be confused about how to go about it.  However, to prevent
+the sort of idiocy that he's complaining about, he sends each new member
+of the list a "welcome" message that, among other things, says something
+like "Please SAVE this message so you will know how to unsubscribe when
+you later decide to do so."
+
+If you fail to read his polite-but-firm message and proceed to do exactly
+what he warns you not to do, you must expect him to get legitimately angry.
+

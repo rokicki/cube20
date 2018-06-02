@@ -1,0 +1,9 @@
+Received: from Xerox.COM by AI.AI.MIT.EDU  4 Aug 86 13:44:42 EDT
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 04 AUG 86 10:40:38 PDT
+Date: 4 Aug 86 10:40:31 PDT (Monday)
+From: Hoffman.es@Xerox.COM
+Subject: Rubik Redux
+To: Cube-Lovers@AI.AI.MIT.EDU
+cc: Hoffman.es@Xerox.COM
+Message-ID: <860804-104038-1367@Xerox>
+

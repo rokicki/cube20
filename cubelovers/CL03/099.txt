@@ -1,0 +1,24 @@
+Date: 21 Dec 1981 1522-PST
+From: ISAACS at SRI-KL
+Subject: new cube game
+To: cube-lovers at MIT-MC
+
+  I just got a new cube puzzle, called "Color Cube Mental Game".  Not a
+Rubik's cube, but still combinatorial, and a lot easier.  It consists
+of 8 cubes in a 3x3 box, arranged around the perimeter (so there is a
+cubical hole in the center).  The cubes are colored on all 6 sides 
+(identically in mine).  They roll by tilting them over an edge to an
+adjacent vacant space, and they change colors in doing so.  The puzzle,
+of course, is to roll them and randomize the pattern, then restore the
+original color (or a new color).  What patterns can be made?  What is the
+minimum number of rolls to solve from some pattern to another?  This type
+of puzzle was talked about in Journal of Recreational Mathematics, and
+similar types in Mathematical Games by Martin Gardner (I can give more
+accurate references if anyone wants).  
+  Here's the last paragraph on the "instruction" sheet:  "It should be
+finished.  please don't dishearten and try your best till you can complete
+the all test.  Good Luck!!!"
+
+--- Stan
+------- Happy Holidays to all
+-------

@@ -1,0 +1,18 @@
+From ismaia01@bh.bbc.co.uk  Mon Apr 24 23:28:08 1995
+Return-Path: <ismaia01@bh.bbc.co.uk>
+Received: from ns.bbc.co.uk by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27779; Mon, 24 Apr 95 23:28:08 EDT
+Received: from mail.radio.bbc.co.uk (diskworld.radio.bbc.co.uk) by ns.bbc.co.uk with SMTP id AA07801
+  (5.65c/IDA-1.4.4 for <cube-lovers@life.ai.mit.edu>); Tue, 25 Apr 1995 04:28:06 +0100
+Received: from nr-comms.radio.bbc.co.uk by mail.radio.bbc.co.uk with SMTP id AA15998
+  (5.67b/IDA-1.4.4 for <cube-lovers%ai.ai.mit.edu@diskworld.radio.bbc.co.uk>); Tue, 25 Apr 1995 04:28:01 +0100
+X-Nvlenv-01Date-Transferred: 25-Apr-1995  4:22:54 -0400; at link1.bbc
+X-Nvlenv-01Date-Posted: 25-Apr-1995 04:28:35 -0400; at bh2.bbc
+To: cube-lovers@life.ai.mit.edu
+Message-Id: <5D6D7C370103370C@-SMF->
+Subject: <None>
+From: ismaia01@bh.bbc.co.uk(Abdi Ismail)
+Date: 25 Apr 95 04:28:50 EDT
+References: <5D6D7C370203370C@-SMF->
+
+subscribe cube-lovers-request@ai.ai.mit.edu
+

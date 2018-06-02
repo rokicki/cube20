@@ -1,0 +1,32 @@
+From brett@math.toronto.edu  Mon Oct 31 14:43:38 1994
+Return-Path: <brett@math.toronto.edu>
+Received: from math.toronto.edu (riemann.math.toronto.edu) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07328; Mon, 31 Oct 94 14:43:38 EST
+Message-Id: <9410311943.AA07328@life.ai.mit.edu>
+Subject: diameter
+To: cube-lovers@ai.mit.edu (cube)
+Date: Mon, 31 Oct 1994 14:42:43 -0500 (EST)
+From: "Brett Stevens" <brett@math.toronto.edu>
+X-Mailer: ELM [version 2.4 PL23]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 564       
+
+  what is the diameter of the group of 3X3X3  rubiks cube rotations?
+  ie. the longest cyclic subgroup.  what is the shortest path
+  to solved?
+
+  also I thought that red-orange   blue-white   yellow-green
+  was standard.  all the ideal manufacturede c ubes were this way.
+
+  and the two orientations available with the above colouring
+  are not only an inconvienience  --Dr. Hana Bizek at
+  ARgonne NAtional LAbs has used these two parities to do 
+  veery intersesting cube sculptures or designs as she calls
+   them
+
+   brett stevens
+
+   brett@math.toronto.edu
+
+

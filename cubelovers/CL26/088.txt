@@ -1,0 +1,46 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 22 18:44:01 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA04933
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 22 Dec 1998 18:44:00 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 22 Dec 1998 18:37:57 -0500
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199812222337.SAA26516@adams.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Optimal Cube Solver
+
+i'm glad that herbert brought up this issue of edge transformations.
+because now that i think about this again, i realize that my tables
+can be reduced dramatically.  i described my tables:
+
+> there's also a lookup table to transform the "sliceedge" coordinate
+> into another coordinate, which gives the locations of four
+> distinguishable edges among the eight U and D edges.  this coordinate
+> has 8*7*6*5 = 1680 possibilities, and the lookup table is 11880 shorts.
+>
+> the big lookup table is the one that takes two of these last coordinates
+> and transforms it into a permutation of the eight U and D edges.
+> this table has 1680 * 1680 shorts = about 5.5 megabytes.  most of
+> the entries are garbage, only 40320 = 8! actually occur, since we've
+> reached stage 2.
+
+since this big table is sparse, we don't need most of it.  what i
+should do is have another table (11880 char's) to transform "sliceedges"
+into permutations of four edges.  the location of the four R-L slice
+edges determines the location of the four F-B slice edges, so we only
+need to know how they're permuted.  thus the big table can be replaced
+by one with 1680 * 24 shorts that gives the permutation of the eight
+U and D edges.  it no longer would have error-checking (i.e. making
+sure we don't get an invalid entry in the big table), but that could
+be installed with another simple table lookup, if desired.
+
+with this new mechanism, only about 543K of tables would be needed,
+the largest being a lookup table which tells how "sliceedges"
+transform under face turns.  this is much better than the 6 megabytes
+of tables i'm currently using.  i don't know why i didn't think of
+this earlier!
+
+mike
+

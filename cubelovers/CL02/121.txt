@@ -1,0 +1,8 @@
+Date: 31 July 1981 00:04-EDT
+From: Steve B. Waltman <SBW at MIT-MC>
+To: CUBE-LOVERS at MIT-MC
+
+   It is possible to rotate one center face any multiple of 90
+degrees. In fact, many apparently 'null operations' rotate one
+or more center faces....
+				Steve

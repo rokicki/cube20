@@ -1,0 +1,220 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun May 23 20:46:27 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil ([132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA18154
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Sun, 23 May 1999 20:46:26 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Sun, 23 May 99 20:37:41 EDT
+Message-Id: <9905240037.AA26143@sun28.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Cc: gej@spamalot.mfg.sgi.com, Cube-lovers@ai.mit.edu
+Subject: Re: Algorithm for the Antislice Group
+
+Gene Johannsen <gej@spamalot.mfg.sgi.com> wrote:
+
+> I am having problems with this step.  My cube is in a
+> configuration that this maneuver does not solve:
+
+And whuang@ugcs.caltech.edu (Wei-Hwa Huang) replied
+
+> As I e-mailed Gene, I do not believe his configuration is part of the
+> anti-slice group -- would any members care to give a quick heuristic to
+> determine if a cube is in the anti-slice group?
+
+Gene Johannsen sent in a reply agreeing that he had probably made a
+twisto in scrambling the cube. The moderator did not forward that
+reply to the group, hoping instead to determine a sure answer to the
+question.  I'm sorry if the delay has cast doubt on Wei-Hwa Huang's
+antislice algorithm (which I have not examined in detail).
+
+The problem is actually fairly difficult if we want a definitive
+answer for any antislice-group position--Singmaster (p. 54) despairs
+of presenting Morwen B. Thistlethwaite's analysis of the antislice
+group, settling instead for an outline.  I must admit that I have not
+yet found a complete answer that can be carried out by hand.  However,
+I have a method that will recognize positions in a group four times
+the size of the antislice group, and that is good enough to weed out
+almost all of the near misses.  In fact, a simpler method that will
+detect positions in a group 972 times the size of the antislice group
+is sufficient for the case in question.
+
+As in Singmaster we consider a corner-based representation.  That is
+to say, we keep the BLD corner from moving, and perform an antislice
+as a half-turn of the F, T, or R face together with a quarter-turn of
+the adjacent center-slice.  [ For newcomers, I'll mention that my use
+of "T" for "Top" instead of "U" for "Up" is an intentional preference;
+see 22 Feb 90 and 28 Oct 94 in the archives for an explanation. ]
+
+In this representation the face centers form a movable part of the
+cube.  We could represent their position as a permutation of the six
+face centers, but it is more convenient to represent them as a
+permutation of the four major diagonals of the enclosing cube, as Jim
+Saxe and I did for the Tartan cube (16 February 1981).  We may label
+the faces and diagonal-endpoints as follows:
+
+     Z---X
+     | B |
+ Z---W---Y---X---Z
+ | L | T | R | D |
+ Y---X---Z---W---Y
+     | F |
+     Y---W
+
+The T antislice acts on the face centers as (F,L,B,R) and on the
+diagonals as (W,Y,Z,X).  Similarly, the R antislice induces the face
+permutation (T,B,D,F) and the diagonal permutation (W,Z,Y,X). The F
+antislice induces the permutations (L,T,R,D) and (W,Y,X,Z).  In the
+following, I will use note the diagonal permutations.
+
+In addition to the face centers, there are three orbits of edge cubies
+and two orbits of corner cubies (ignoring BLD).  The corner
+orientation never changes, and reorientation of edges is applied to an
+entire orbit at a time.  I label the edges and corners as follows:
+
+         [Z]--Z3--Xp
+          |       |
+          Z2  B   Y2
+          |       |
+ [Z]--Z2--Wp--Y3--Y---Y2--Xp--Z3-[Z]
+  |       |       |       |       |
+  Z1  L   X1  T   Y1  R   W1  D   Z1
+  |       |       |       |       |
+  Yp--X2--X---X3--Zp--W2--W---W3--Yp
+          |       |
+          X2  F   W2
+          |       |
+          Yp--W3--W
+
+The diagonals W-Wp, X-Xp, Y-Yp, and Z-Zp are labeled Wc, Xc, Yc, and
+Zc, respectively, for the purpose of recording the face center
+position.  In addition I label the orientation of the edge orbits as
+P1, P2, and P3, where P1^2 = P2^2 = P3^2 = I.  (These could be
+represented as permutations of 2-sets, but that seems unnecessary).
+
+So the three antislices are:
+
+    Fa = (W,X)(Yp,Zp) (W1,Z1,X1,Y1) (W2,X2) (W3,X3) P1 (Wc,Yc,Xc,Zc),
+    Ta = (X,Y)(Wp,Zp) (X1,Y1) (W2,X2,Z2,Y2) (X3,Y3) P2 (Wc,Yc,Zc,Xc),
+    Ra = (W,Y)(Xp,Zp) (W1,Y1) (W2,Y2) (W3,X3,Y3,Z3) P3 (Wc,Zc,Yc,Xc).
+
+         corner perm   edge perm                    ori  center perm
+
+It is immediately apparent that each antislice is an odd permutation
+of each orbit of corners, of each orbit of edges, and of the center
+diagonals. In addition, the number of Pi orientations is changed by
+one on each antislice.  Thus we expect to see each of these seven
+parities agree in any position of the antislice group.
+
+Gene Johannsen's position (after replacing color letters with position
+letters) is
+
+        BBB
+        BBF  <- Back face
+        FFF
+
+    LLR TDT LLR DTD
+    LLL DTD RRR TDT  <- Down face
+    LRR TDT LRR DTD
+
+        BBB
+        BFF  <- Front face
+        FFF
+
+which is represented as
+
+    (X,Y) (Wp,Zp) (W1,Y1)(X1,Z1) (X2,Y2) (W3,Y3,Z3,X3)
+
+in the corner-based representation.  Here the permutations on the
+corner orbits and two of the edge orbits is odd.  But the
+{W1,X1,Y1,Z1} orbit has an even permutation and the orientation and
+center positions are the identity, of even parity.  So the position
+cannot be in the antislice group.
+
+I noticed that the difference could conceivably be caused by a single
+error, say an F-slice move:
+
+  Fs = (W1,Z1,X1,Y1) (Wc,Yc,Xc,Zc) P1,
+
+and with a short program in GAP I was able to find the following
+single-error process for Gene's position:
+
+    Fa Ta Fs Fa Ta' Fa Ra^2.
+
+Now I'll apologize to anyone whose head is reeling, and invite anyone
+who's game to join in a little bit of slightly tougher group theory.
+This will show you how far I've been able to analyze the antislice
+group, and the part that remains mysterious.
+
+Note that the parity constraints above allow:
+
+    6 permutations of {W,X,Y},
+    24 permutations of {Wp,Xp,Yp,Zp},
+    24 permutations each of {W1,X1,Y1,Z1}, {W2,X2,Y2,Z2}, and {W2,X2,Y2,Z2},
+    8 subsets of {P1,P2,P3}, and
+    24 permutations of {Wc,Xc,Yc,Zc},
+
+with a parity constraint on the seven components that reduces the
+number by 2^6, for
+
+    6 * 8 * 24^5 / 64 = 5971968
+
+possible positions.  Singmaster notes that the actual size of the
+antislice group is 6144 = 5971968 / 972 positions.  Clearly there are
+more constraints at work than permutation parity.  Most of them are
+due to life in a certain quotient group.  The group S4 of permutations
+on four letters contains a normal subgroup consisting of the identity
+plus the three pairs of two-cycles:
+
+    H = { (), (W,X)(Y,Z), (W,Y)(X,Z), (W,Z)(X,Y) }.
+
+The quotient S4/H then has six elements, and is isomorphic to S3.  We
+can see this explicitly by writing down the blocks of S4/H:
+
+   Block 0      Block 1    Block 2    Block 3    Block 4    Block 5
+
+   ()           (W,X,Y)    (W,Y,X)    (W,X)      (W,Y)      (X,Y)
+   (W,X)(Y,Z)   (W,Y,Z)    (W,Z,Y)    (Y,Z)      (X,Z)      (W,Z)
+   (W,Y)(X,Z)   (W,Z,X)    (W,X,Z)    (W,Y,X,Z)  (W,X,Y,Z)  (W,X,Z,Y)
+   (W,Z)(X,Y)   (X,Z,Y)    (X,Y,Z)    (W,Z,X,Y)  (W,X,Y,X)  (W,Y,Z,X)
+
+The top line of each block shows the element of S3=S({W,X,Y})
+corresponding to the block.  Note how easy it is to recognize the
+blocks 3, 4, and 5:
+
+    If you have a four-cycles, use one two-cycle from its square;
+    If you have a two-cycle containing Z, use the disjoint two-cycle.
+
+This procedure will yield the S3 representative from these blocks.
+
+Now remember the antislices?
+
+    Fa = (W,X)(Yp,Zp) (W1,Z1,X1,Y1) (W2,X2) (W3,X3) P1 (Wc,Yc,Xc,Zc),
+    Ta = (X,Y)(Wp,Zp) (X1,Y1) (W2,X2,Z2,Y2) (X3,Y3) P2 (Wc,Yc,Zc,Xc),
+    Ra = (W,Y)(Xp,Zp) (W1,Y1) (W2,Y2) (W3,X3,Y3,Z3) P3 (Wc,Zc,Yc,Xc).
+
+Ignoring the orientation component, we see that the action of every
+component of Fa is from block 3, every component of Ta from block 4,
+and every component of Ra from block 5.  So for every position in
+< Fa, Ta, Ra >, each permutation orbit will be in the same block, and
+the orientation component must still agree in parity.  So instead
+dividing by 2^6, we divide by 6^5 2 = 15552, for
+
+    6 * 8 * 24^5 / 15552 = 24576
+
+positions, which is only four times the size of the actual antislice
+group.
+
+The factor of four arises if we fix all but the {Wp,Xp,Yp,Zp} and
+{Wc,Xc,Yc,Zc} orbits.  There are only four possibilities for the last
+two orbits, rather than the sixteen that my analysis provides.  (As
+Singmaster notes, when the other components are the identity, the four
+possibilities consist of SOLVED and the four Zigzag/Laughter
+patterns).  Unfortunately, I have not found any way to describe the
+correspondence between these components in general, to make the
+analysis exact.
+
+Dan
+Hoey@AIC.NRL.Navy.Mi
+

@@ -1,0 +1,24 @@
+Date: 28 Sep 1982 2118-PDT
+From: ISAACS at SRI-KL
+Subject: Cubic Curcular and Scientific American
+To: cube-lovers at MIT-MC
+
+   Ole Jacobson is visiting, and he brought the new issue of David
+Singmasters Cubic Circular.  It is labeled Issues 3&4; neither of us
+ever recieved issue 2. Did anyone else?  This issue contains more anecdotes,
+reports on contests, new cube products (try combining pieces from octagonal
+prism-cubes and regular cubes in various ways..someone even made "Siamese
+Cubes", gluing parts of 2 cubes together), some processes for the Revenge,
+some information on the 5^3 (a prototype exists by 21-year-old Gaston Saint-
+Pierre of Quebec; Singmaster claims 2.83E74 patterns), an analysis and 
+theorems about magic polyhedra in general, more pretty patterns, a magic
+disc, and a table of the 73 possible orders of elements with how many
+elements are in each order (average order is 122, median is 67.3, and
+the order with the most elements is 60, with 4.6e18 elements or about
+10.6%).
+   Also, this months Scientific American has the cube again in Hofstadters'
+"Metamagical Themas", this time as an example of creativity via variations
+on a theme.
+   Enough writing for tonight.
+  -- Stan
+-------

@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Nov 18 23:50:41 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id XAA08835; Tue, 18 Nov 1997 23:50:41 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Tue Nov 18 23:43:40 1997
+To: Cube-Lovers@ai.mit.edu
+Date: Tue, 18 Nov 1997 20:42:55 -0800
+Subject: Rubiks Revenge moves
+Message-Id: <19971118.204255.7126.1.tenie1@juno.com>
+From: tenie1@juno.com (Tenie Remmel)
+
+Is there an easy way to cycle three adjacent top edges on the
+Rubiks Revenge?  I can't find one shorter than 62 moves, but if
+there was a short one I could simplify my solution greatly.
+
+. b c .    . a b .
+a . . . => c . . .
+. . . .    . . . .
+. . . .    . . . .
+
+Hopefully it won't mess up the corners, but it's ok if it does.
+
+I'd also like to see some short moves for the following 3-cycles:
+
+. * * .    . . * .    . . . .    . . * .
+. . . .    * . . *    * . . *    . . . *
+* . . .    . . . .    . . . *    * . . .
+. . . .    . . . .    . . . .    . . . .
+
+Is there a good source anywhere for moves, pretty patterns, etc. for
+the Rubiks Revenge?  It's quite difficult to find information about
+it.  Also is there an automatic move generating program for the higher
+order cubes like 'Cube Explorer' is for the 3x3x3?
+
+--Tenie Remmel (tjr19@juno.com)
+

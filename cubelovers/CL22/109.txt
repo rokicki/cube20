@@ -1,0 +1,64 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  2 13:11:05 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id NAA03426; Mon, 2 Jun 1997 13:11:04 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Mon, 02 Jun 1997 09:29:19 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Size of God's Algorithm
+In-reply-to: <970531141525.2140f541@iccgcc.cle.ab.com>
+To: cube-lovers@ai.mit.edu
+Reply-to: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Message-id: <Pine.WNT.3.96.970602083258.-408329A-100000@ER123A.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+X-X-Sender: jbryan@pstcc6.pstcc.cc.tn.us
+
+On Sat, 31 May 1997 SCHMIDTG@iccgcc.cle.ab.com wrote:
+
+> On the other hand, IDA* is a depth-first-search (DFS) algorithm. 
+
+This reminds me of an note I have been meaning to post to the list for a
+long time.  The issue is, how big is God's algorithm?  By that, I do not
+mean how large is cube space, neither the size of G nor the number of
+M-conjugacy classes.  What I mean is, what is the size of the smallest
+program which can calculate God's algorithm? In the size, we have to
+include not only the executable code, but also the size of any tables.
+
+To be more specific, suppose our task is to write a totally
+self-contained function called cubelen which given a position x would
+return the number of moves from Start for that position (e.g., 
+L := cubelen(x); ).  We are specifically not worried about running
+time, which might be longer than the age of the universe.  For example, 
+given the existence of cubelen, we could call it once for each x in G, 
+and thereby determine the complete frequency distribution of distances,
+including the group diameter. 
+
+Under these rules, the answer is actually very silly (or it may be the
+rules which are silly).  With tight assembler coding, it can be done in
+about 10^4 bits, certainly no more than 10^5 (about 10^3 to 10^4 bytes). 
+All we have to do is calculate all processes containing (in turn) 0
+moves, 1 move, 2 moves, etc., and comparing each generated position with
+x until it matches.  We would make no attempt to eliminate sequences
+such as RR', nor would we make any attempt to recognize that RL is the
+same position as LR.  We only have to store two positions, x and the
+current product, and there is no real tree structure.
+
+This is very roughly speaking a depth search first, except that the
+bookkeeping requirements (and attendant memory requirements) are a bit
+less than with a typical depth search search.  That is, all you have to
+keep track of is an index set from 1 to the number of moves (12 for
+quarter-turns, 18 for face-turns), with one index for each level of the
+search.  The branching factor is a constant, equal to the size of the
+index set. 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+

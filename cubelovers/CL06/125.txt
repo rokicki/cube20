@@ -1,0 +1,21 @@
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU;  7 Mar 90 23:09:32 EST
+Received: from CENTRAL.CIS.UPENN.EDU by mintaka.lcs.mit.edu id aa20262;
+          7 Mar 90 23:04 EST
+Received: from GRASP.CIS.UPENN.EDU by central.cis.upenn.edu
+	id AA08700; Wed, 7 Mar 90 23:04:53 -0500
+Return-Path: <stan@grasp.cis.upenn.edu>
+Received: by grasp.cis.upenn.edu
+	id AA03836; Wed, 7 Mar 90 23:04:35 -0500
+Date: Wed, 7 Mar 90 23:04:35 -0500
+From: Stan Schwartz <stan@grasp.cis.upenn.edu>
+Posted-Date: Wed, 7 Mar 90 23:04:35 -0500
+Message-Id: <9003080404.AA03836@grasp.cis.upenn.edu>
+To: CUBE-LOVERS@ai.ai.mit.edu
+Subject: Looking for Chinese puzzle box
+
+
+Does anyone out there in cube-land know of a domestic source for obtaining
+Chinese puzzle boxes?
+
+	Thanks,
+	Stan Schwartz <stan@grasp.cis.upenn.edu>

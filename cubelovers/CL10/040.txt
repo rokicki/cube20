@@ -1,0 +1,40 @@
+From hoey@aic.nrl.navy.mil  Mon Aug 16 20:20:25 1993
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA06633; Mon, 16 Aug 93 20:20:25 EDT
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA29078; Mon, 16 Aug 93 18:05:48 EDT
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Mon, 16 Aug 93 18:05:47 EDT
+Date: Mon, 16 Aug 93 18:05:47 EDT
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9308162205.AA12648@sun13.aic.nrl.navy.mil>
+To: Mark Longridge <mark.longridge@canrem.com>, cube-lovers@life.ai.mit.edu
+Subject: Squares group, correction
+
+I should proofread these things better.  I got the processes for p130,
+p135x, p137, and p136x wrong in my last message.  Here is the
+corrected list of squares-group antipodes and their symmetry groups.
+
+SG Pos   Name                Process
+
+ P p66x  Double 4 corner sw  L2 D2 R2 T2 L2 T2 F2 R2 (F2 B2 T2 F2) T2 L2 B2
+ P p80   2 DOT, Invert T's   R2 B2 D2 R2 B2 L2 B2 L2 (T2 D2 F2 T2) F2 L2 T2
+ P p99   2 DOT, 4 ARM        R2 B2 D2 L2 B2 L2 F2 L2 (T2 D2 F2 T2) F2 L2 T2
+ P p100  2 Cross, 4 ARCH 1   R2 B2 T2 R2 F2 L2 F2 L2 (T2 D2 F2 T2) F2 L2 T2
+ Q p67x  Antipode 2          R2 D2 B2 T2 B2 T2 F2 L2 (F2 B2 T2 F2) L2 F2 D2
+ Q p130x 2 Cross, 4 ARCH 2   T2 B2 R2 B2 T2 R2 F2 T2 (L2 R2 F2 T2) F2 T2 L2
+ S p135x 2 X, 4 T            L2 D2 B2 T2 F2 T2 F2 L2 (F2 B2 T2 F2) L2 B2 T2
+ S p137x 2 X, 4 ARM          L2 T2 F2 D2 F2 T2 F2 L2 (F2 B2 T2 F2) L2 B2 T2
+
+HP p108  2 DOT, 2 T, 2 ARM   L2 F2 T2 R2 B2 L2 F2 L2 (T2 D2 F2 T2) F2 L2 T2
+HP p128x 2 H, 2 T, 2 CRN     L2 D2 R2 T2 L2 T2 F2 R2 (F2 B2 T2 F2) T2 L2 F2
+HP p129x 2 H, 2 T, 2 ARCH    R2 T2 L2 T2 L2 T2 F2 R2 (F2 B2 T2 F2) T2 L2 F2
+HP p131x 2 H, 2 ARM, 2 ARCH  L2 T2 R2 B2 D2 L2 B2 L2 (F2 B2 T2 F2) T2 L2 T2
+HP p132  2 Cross,2 ARCH,2CRN L2 F2 D2 R2 F2 L2 B2 L2 (T2 D2 F2 T2) F2 L2 D2
+HP p136x 2 H, 2 ARM, 2 CRN   R2 T2 L2 F2 D2 L2 F2 L2 (F2 B2 T2 F2) T2 L2 D2
+HS p133x 2 Cross, 2 T, 2 ARM L2 T2 B2 T2 B2 T2 F2 L2 (F2 B2 T2 F2) L2 F2 D2
+HS p134x 2 CRN, 2 X, 2 ARCH  L2 T2 B2 D2 F2 T2 F2 L2 (F2 B2 T2 F2) L2 F2 D2
+
+Sorry if anyone was led astray.
+
+Dan
+

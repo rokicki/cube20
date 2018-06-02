@@ -1,0 +1,14 @@
+Date: Thu 30 Jun 83 10:07:06-PDT
+From: ISAACS@SRI-KL.ARPA
+Subject: double cube
+To: alan@MIT-MC.ARPA
+cc: cube-lovers@MIT-MC.ARPA
+
+  I've heard of the double cube - do you have any idea where to buy one?
+Another strange cube I've seen, is a normal 3x3x3 with extra cubies glued on
+three faces so that it looks like a 4x4x4; of course, it twists in a very
+lopsided manner.  The main problem in making one (which I have not solved)
+is how to grind or cut the flanges off cubies before gluing.  Without
+equipment, can anyone think of a good, practical way to do this?
+ -- Stan
+-------

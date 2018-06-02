@@ -1,0 +1,53 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Mar 11 18:27:53 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA15052
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 11 Mar 1999 18:27:53 -0500 (EST)
+Message-Id: <199903112327.SAA15052@mc.lcs.mit.edu>
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 9 Mar 1999 22:40:45 -0500 (EST)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Patrick Weidhaas <weidhaas1@llnl.gov>
+Cc: Kevin Young <keyoung3@vt.edu>, RUBIK cube group <cube-lovers@ai.mit.edu>
+Subject: Re: Oddzon version of the cube
+In-Reply-To: <v04020a07b2fb4082cb5b@[134.9.13.42]>
+
+
+On Thu, 25 Feb 1999, Patrick Weidhaas wrote:
+
+{snips}
+
+}Kevin,
+}
+}I do not have an answer for you, but your email made me wonder why stickers
+}are being used at all? As far as I know, nobody has produced a cube (or
+}variation) where the plastic "cubies" are colored appropriately without
+}relying on stickers.
+
+Ideal once made a deluxe Cube that had individual colored plastic tiles
+attached to the cubies. It also had a mechanism (same general principle,
+just different details) that would self-align as you began a maneuver
+with a slight misalignment, instead of jamming. In other words, it was a
+good bit more tolerant of misalignment. It would be delightful if they'd
+reissue it!
+
+}Is that process so much more expensive, or do the
+}toy-makers want to give their customers a chance to cheat by switching the
+}stickers in case they can't get the puzzle solved?
+
+It was maybe almost twice the price of the standard Cube, iirc.
+Swapping stickers is silly! Learn how to disassemble (but reassemble as
+a solved Cube; iirc, there are 11 wrong ways to do it, essentially).
+
+Most of the movable-piece puzzles can be disassembled, but not all.
+
+}Patrick
+
+
+|*  Nicholas Bodley   *|*  Autodidact & Polymath * Electronic Tech. (ret.)
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*  Frequent crashes are unacceptable in a mature
+|*  Amateur musician  *|*  computer industry.
+--------------------------------------------------------------------------
+

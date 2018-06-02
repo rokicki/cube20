@@ -1,0 +1,32 @@
+From hazard@niksula.hut.fi  Mon Oct 23 14:42:32 1995
+Return-Path: <hazard@niksula.hut.fi>
+Received: from nukkekoti.cs.hut.fi by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20954; Mon, 23 Oct 95 14:42:32 EDT
+Received: from ummagumma.tky.hut.fi (hazard@ummagumma.tky.hut.fi [130.233.33.120]) by nukkekoti.cs.hut.fi (8.6.12/8.6.11) with SMTP id UAA28308 for <cube-lovers@ai.mit.edu>; Mon, 23 Oct 1995 20:42:30 +0200
+Date: Mon, 23 Oct 1995 20:42:30 +0200
+Message-Id: <199510231842.UAA28308@nukkekoti.cs.hut.fi>
+X-Sender: hazard@pop.niksula.cs.hut.fi
+X-Mailer: Windows Eudora Pro Version 2.1.2
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: Mikko Haapanen <hazard@niksula.hut.fi>
+Subject: pull out the corner?
+
+Hello!
+
+I have a question (yes, again). This subject may be discussed here before,
+but i don't understand set theory or other high math, so i ask:
+
+If i had a 3x3x3 cube and i pull out a corner piece. I turn it and push
+back. Now the cube cannot be solved. I think the cube is now 'on the other
+orbit'. If i pull now an edge piece and flip it, the cube is again on some
+other orbit.
+
+Only one of those orbits are legal. How many different illegal orbits there are?
+
+-----Mikko Haapanen------hazard@niksula.hut.fi------
+Another toy will help destroy The elder race of man
+Forget about your silly whim It doesn't fit the plan
+----------------------------------------------------
+
+

@@ -1,0 +1,33 @@
+From news@nntp-server.caltech.edu  Sun Mar 21 14:11:53 1993
+Return-Path: <news@nntp-server.caltech.edu>
+Received: from punisher.caltech.edu by life.ai.mit.edu (4.1/AI-4.10) id AA11179; Sun, 21 Mar 93 14:11:53 EST
+Received: from gap.cco.caltech.edu by punisher.caltech.edu 
+	(4.1/DEI:4.41) id AA00501; Sun, 21 Mar 93 11:12:38 PST
+Received: by gap.cco.caltech.edu 
+	(4.1/DEI:4.41) id AA28694; Sun, 21 Mar 93 11:10:18 PST
+To: mlist-cube-lovers@nntp-server.caltech.edu
+Path: joelong
+From: joelong@cco.caltech.edu (Joseph Louis Long)
+Newsgroups: mlist.cube-lovers
+Subject: Re: Seeking magic dodecahedron
+Date: 21 Mar 1993 19:10:17 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 13
+Message-Id: <1oieipINNs0k@gap.caltech.edu>
+References: <9303201824.AA02491@pacific.cps.msu.edu>
+Nntp-Posting-Host: punisher.caltech.edu
+
+raymond@cps.msu.edu writes:
+>Hello cube lovers,
+>  I haven't seen any activity on this mailing list in a long time!
+I'll say... when I saw this post it reminded me that I've been watching
+this group for about two months hoping to see some mention of Square-1,
+but have been left disapointed.. (wimper wimper whine.) :)
+So let me ask... Does anyone have a solution to Square-1?  Is there
+a simple ``operator'' based method, like there is for the cube?
+If it is simple enough to explain in text, could someone please
+post it?  Has there been a ``solutions book'' published?
+
+obviously in the dark on recent cubic developments,
+joe
+

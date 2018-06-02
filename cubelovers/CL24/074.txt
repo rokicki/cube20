@@ -1,0 +1,51 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Nov 11 20:43:51 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id UAA24200; Tue, 11 Nov 1997 20:43:51 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From Anders.Larsson@hvi.uu.se Tue Nov 11 02:25:24 1997
+Message-Id: <346807C1.ACFE4D68@hvi.uu.se>
+Date: 	Tue, 11 Nov 1997 08:22:41 +0100
+From: Anders Larsson <Anders.Larsson@hvi.uu.se>
+To: cube lovers <cube-lovers@ai.mit.edu>
+Subject: Colour arrangements (Was: Re: Megaminx, the 10-spot and GAP)
+References: <34668899.248A@idirect.com>
+
+Mark Longridge wrote:
+
+> First of all, the STANDARD colour arrangement used by Ideal Toy is as
+> follows:
+>
+> UP      = White
+> DOWN    = Blue
+> FRONT   = Yellow
+> BACK    = Green
+> LEFT    = Red
+> RIGHT   = Orange
+
+In front of me I hold a cube from one of the first batches from Hungary
+with the following colour arrangement:
+
+Up = white
+Down = yellow
+Front = blue
+Back = green
+Left = red
+Right = orange
+
+Does anybody know the history why this colour arrangement was changed?
+
+BTW: Even if Ideal Toys has their own local standard, it doesn't change
+the original ("correct") colour arrangement.
+
+/Anders
+
+--
+Anders Larsson, PhD
+Institute of High Voltage Research   Tel.: +46 (0)18 532702
+Uppsala University                   Fax.: +46 (0)18 502619
+Husbyborg                            E-mail: Anders.Larsson@hvi.uu.se
+S-752 28 Uppsala, Sweden
+http://www.hvi.uu.se/IFH/staff/Anders/Anders.html
+

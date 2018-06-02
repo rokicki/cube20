@@ -1,0 +1,36 @@
+From mreid@ptc.com  Fri Apr 21 11:20:45 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA09079; Fri, 21 Apr 95 11:20:45 EDT
+Received: from ducie by ptc.com (5.0/SMI-SVR4-NN)
+	id AA16270; Fri, 21 Apr 95 11:18:44 EDT
+Received: by ducie (1.38.193.4/sendmail.28-May-87)
+	id AA20597; Fri, 21 Apr 1995 11:37:18 -0400
+Date: Fri, 21 Apr 1995 11:37:18 -0400
+From: mreid@ptc.com (michael reid)
+Message-Id: <9504211537.AA20597@ducie>
+To: cube-lovers@ai.mit.edu, bryan@wvnvm.wvnet.edu
+Subject:   Re: Run Times, Storage Requirements, etc.
+Content-Length: 858
+
+jerry writes
+
+>                   So I need a new representative element function
+> to make the corner more significant for choosing the representative
+> element.  Such a change to the program would be trivial, but I would
+> have to regenerate the data before it was re-sorted.
+
+i don't think you need to regenerate; you just need to put your
+old list through your new representative choosing function and
+sort the output.  of course, regenerating would give a reasonable
+consistency check.
+
+> What would be really nice (and which may not be possible) is some
+> representation for the cube such that a cube Z and its neighbors
+> Zq or Zh are stored very close together.
+
+remember that the diameter of the group is small.  (my guess is
+21 face turns, 24 quarter turns.)  so this isn't possible without
+resorting to a liberal definition of "very close".
+
+mike
+

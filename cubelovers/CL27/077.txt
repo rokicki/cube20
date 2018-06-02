@@ -1,0 +1,52 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue May  4 15:15:59 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA22863
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 4 May 1999 15:15:59 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <009301be95b5$fc951340$70c4b0c2@home>
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: <cube-lovers@ai.mit.edu>
+Cc: "David Singmaster" <david.singmaster@sbu.ac.uk>
+Subject: Re: Reinventing (and some edge-flipping techniques)
+Date: Mon, 3 May 1999 23:40:28 +0100
+
+David Singmaster wrote (1 May 1999)
+
+>Consequently I decided to get the edge orientations correct at the
+>beginning of work on the last face, so that I wouldn't have to worry
+>about what happened to the rest of the face. In case you haven't got
+>my notes at hand, I used BLUL'U'B' which is a simple conjugate of the
+>commutator [L,U].
+
+When I read David Singmaster's algorithm in his Notes on Rubik's Magic
+Cube I thought his idea of curing the orientations of the edge-piece
+before positioning them was a great one, and adopted it in my own
+algorithm.  One may be able to get away with only 6 turns to cope with
+the orientation, which is quite a gain on the number of turns needed
+if one takes the obvious route and orients once the pieces are in
+position.
+
+I then went on to apply the same principle to the corner pieces, by
+orienting them next, which can be done in 7 or 14 face turns by
+selecting the first of the following (for three twists) or the first
+followed by the second suitably applied (for two or four twists):
+
+F U2 F' U' F U' F'
+L' U2 L U L' U L
+
+These processes, which I mentioned in my last post, move the corner
+pieces as well as twist them, and also move the edge pieces but
+preserve their orientation.  So, if applied after the edge pieces have
+been oriented but not positioned, they get the top face of the cube
+the right colour, and it can then be solved by orientation-preserving
+moves of the edge and corner pieces.  I may be rather bad at
+perceiving patterns, but I find the simplification of having to look
+only at the faces of the top-layer pieces that lie in the side faces
+of the cube in order to work out what needs to go where enough of an
+advantage to make this order of the stages worthwhile even if it did
+not take fewer moves in total.
+
+Roger Broadie
+

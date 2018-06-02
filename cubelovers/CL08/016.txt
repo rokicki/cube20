@@ -1,0 +1,17 @@
+From ACW@yukon.scrc.symbolics.com  Fri Dec 13 18:29:48 1991
+Return-Path: <ACW@yukon.scrc.symbolics.com>
+Received: from YUKON.SCRC.Symbolics.COM by life.ai.mit.edu (4.1/AI-4.10) id AA22741; Fri, 13 Dec 91 18:29:48 EST
+Received: from PALLANDO.SCRC.Symbolics.COM by YUKON.SCRC.Symbolics.COM via INTERNET with SMTP id 754668; 13 Dec 1991 18:17:15-0500
+Date: Fri, 13 Dec 1991 18:16-0500
+From: Allan C. Wechsler <ACW@yukon.scrc.symbolics.com>
+Subject: Big groovy cubes, revisited
+To: hoey@aic.nrl.navy.mil, tee@ecf.toronto.edu
+Cc: Cube-Lovers@life.ai.mit.edu
+In-Reply-To: <9112131950.AA06512@sun13.aic.nrl.navy.mil>
+Message-Id: <19911213231647.9.ACW@PALLANDO.SCRC.Symbolics.COM>
+
+I want to know whether it is feasible, with modern electronics and
+electro-mechanicals, to make a 3x3x3 cube that solves itself at the
+touch of a button.  How much would a prototype cost?  $10,000?
+$100,000?
+

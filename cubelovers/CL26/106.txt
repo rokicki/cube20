@@ -1,0 +1,44 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Feb  1 15:08:06 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA14298
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 1 Feb 1999 15:08:05 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Jan 24 13:57:32 1999
+Message-Id: <19990124185842.5788.rocketmail@send103.yahoomail.com>
+Date: Sun, 24 Jan 1999 10:58:42 -0800 (PST)
+From: Han Wen <hansker@yahoo.com>
+Subject: Query on Octagon Cube Edge Parity Problem
+To: Cube Lovers <Cube-Lovers@ai.mit.edu>
+
+Hi,
+
+I ran into an unusual scenario with the Octagon cube recently where
+only ONE edge piece was flipped and all the other pieces were
+positioned and oriented properly. This is bizarre of course, because
+with a Rubik's cube, this is an impossible scenario; there must be a
+minimum of TWO edge pieces flipped.
+
+Does anyone understand the redundancy that allows this strange edge
+parity problem?  And I guess, how to solve it.  I lamely mixed the
+cube up again, resolved until the problem "went away".
+
+For those who may not be familiar, the Octagon cube is a variant of
+the Rubik's Cube. The cube is organized by color into 8 columns of
+three cublets: corner, edge, corner. If you look at the top face you
+see that the half of the corner cublets have been cut away so the the
+face forms an octagon instead of a square. This octagon shape is
+extended down through the middle and bottom layer, so that the puzzle
+looks like an octagon "tube". There are a total of 10 colors, two for
+the top and bottom faces, and 8 for the eight columns of
+(top-middle-bottom) cublets.
+
+==
+_________________________________________________________
+Han Wen
+Applied Materials
+3050 Bowers Ave, MS 1145
+Santa Clara, CA  95054
+e-mail: Han_Wen@amat.com / hansker@yahoo.com
+

@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon May 25 16:48:52 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id QAA23216; Mon, 25 May 1998 16:48:52 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sat May 23 03:33:16 1998
+From: canttype@earthlink.net
+Message-Id: <l03130300b18c2787a716@[38.29.35.221]>
+In-Reply-To: <Pine.BSF.3.96.980522182519.9037C-100000@shell2.tiac.net>
+Date: Sat, 23 May 1998 00:34:41 -0700
+To: <Cube-lovers@ai.mit.edu>
+Subject: Re: Magic Jack vs. Vadasz Cube
+
+Nicholas Bodley <nbodley@tiac.net> wrote
+
+> Sorry if my memory's faulty, but I don't recall any recent mention of
+>the Magic Jack....
+
+check out
+http://members.aol.com/islandcom/
+for information about the Vadasz Cube which is a variation of the Magic
+Jack described above. I have a "3x3x3 Classic Cube Solid" and have been
+able to solve it.
+The Vadasz Cube allows you to easily disassemble it, if desired. Also, each
+of the 26 cubies can be disassembled and reconfigured allowing you to
+create variations of the puzzle. The cubies are made out of plastic tiles
+so that you can re-arrange the construction and colors of each of the 26
+cubies if you desire.
+
+Five different puzzles are available:
+2x2x2
+3x3x3
+4x4x4
+and
+multi 3x3x3
+multi 4x4x4
+

@@ -1,0 +1,66 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Fri Jan  8 00:57:44 1993
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from mail.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) id AA01786; Fri, 8 Jan 93 00:57:44 EST
+Received: from canrem.COM ([142.77.253.2]) by mail.uunet.ca with SMTP id <10049>; Fri, 8 Jan 1993 00:57:22 -0500
+Received: from canrem.com by unixbox.canrem.COM
+	id aa04957; Fri, 8 Jan 93 0:55:40 EST
+Received: by canrem.com (PCB/Usenet Gateway)
+	Path-id <19938.104.159061@dosgate>; 8 Jan 93 (00:49)
+Message-Id: <19938.104.159061@dosgate>
+From: Mark Longridge <mark.longridge@canrem.com>
+Date: 	Thu, 7 Jan 1993 19:00:00 -0500
+To: cube-lovers@ai.mit.edu
+Subject: computer cubing
+
+
+With thanks to Dan Hoey for getting me on the right track, I
+have finally got most of the squares group evaluted. The big
+breakthru was developing a checksum for a squares position.
+
+I know it's been done before, but I wanted to prove to myself
+I could do it on a mere 386 with 4 megs of memory. My
+latest program (rubik5.exe) took 24 hours to number the squares
+group up to 8 moves deep. The point of all this was to create
+a squares group database to aid in developing an optimal
+solver for the cube. Ultimately the database will have an entry
+for every squares group position, along with it's optimal
+solution. I would be interested in hearing from any others who
+have created such a database, and what type of compression or
+checksum was used for the arrangement.
+
+Also I've received a call from Richard Schneider. He is publishing
+a comprehensive book on square 1, plus a follow-up book on
+pretty patterns and shapes. This will be available in the States
+shortly.
+
+I haven't been seeing anything from cube-lovers in a while,
+I hope it's still up and running.
+
+To: Mike Reid --- Hope you see this! Any further progress been
+                  made on God's Algorithm? I'm still trying to
+catch up. I'm still interested in that code of yours to find
+improvements on some pretty patterns I've discovered.
+
+Anyways here is what my program has found so far:
+
+Squares group (u2, d2, l2, r2, f2, b2)
+
+Moves Deep          Number of patterns
+----------          ------------------
+   0                      1
+   1                      6
+   2                     27
+   3                    120
+   4                    519
+   5                   1932
+   6                   6484
+   7                  20310
+   8                  53000 (and counting)  :->
+
+Got to improve it's speed....
+
+ -> Mark <-
+--
+Canada Remote Systems  - Toronto, Ontario
+World's Largest PCBOARD System - 416-629-7000/629-7044
+

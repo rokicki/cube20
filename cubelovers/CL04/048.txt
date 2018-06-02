@@ -1,0 +1,25 @@
+Date: 14 Jun 1982 16:10:19-PDT
+From: decvax!minow at Berkeley
+To: ucbvax!cube-lovers@mit-ai
+
+Subject:  Some simple edge processes for the 4x4 cube.
+
+
+** ** ** ** SPOILER WARNING ** ** ** **
+This message describes some edge processes for the 4x4 Rubic's Cube.
+
+My collegue, Marty Hiller, came up with two simple processes
+which she uses to order edges on the 4x4 cube.  They are sufficient
+to solve all edge permutations:
+
+(FUl UBl FDr DBr)		(r U2)^4 r
+
+(FUl UFr UBl BUr FDr)		(r U2 r' U2)^3
+
+The ^n notation means repeat the process n times.
+Note that these processes probably modify the center cubes as well
+but this is invisible if you have already solved the center.
+
+Martin Minow
+
+

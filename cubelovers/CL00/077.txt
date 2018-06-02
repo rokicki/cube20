@@ -1,0 +1,24 @@
+Date: 6 Aug 1980 09:50 PDT
+From: Lynn.ES at PARC-MAXC
+Subject: Re: Random Notes on Cubism
+In-reply-to: JURGEN's message of 6 AUG 1980 0939-EDT
+To: JURGEN at MIT-MC (Jon David Callas)
+cc: CUBE-LOVERS at MIT-MC
+
+I have taken my cube apart several times (several friends wanted to see its
+innards), with knife, screwdriver, letter opener, etc.  It doesn't seem to hurt it.  I
+assume you are referring to the "twist the top 45 degrees, then pry up on an
+edge" instructions, which I used.  The springiness in the way the 6 centers are
+held together seems to allow this prying without damage.
+
+I think the compilation of transforms and bibliography is a great idea, and I will
+back your candidacy for the job.  Several references of both types are buried in
+the previous messages to cube-lovers.  I would favor using Singmaster's
+extensions of the RLUDFB to describe the results of a transform.  Combinations of
+two of the set RLUDFB specify edges, and three give the corners.  Then
+statements like "this transform moves URF to DBL" (or briefly "URF => DBL")
+imply not only the position within the cube, but the rotation of the cubie also.
+That is, the U face of URF corner moves to the D face of position DBL.
+
+/Don Lynn
+

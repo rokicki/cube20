@@ -1,0 +1,207 @@
+From mschoene@math.rwth-aachen.de  Tue Jun 20 08:40:27 1995
+Return-Path: <mschoene@math.rwth-aachen.de>
+Received: from samson.math.rwth-aachen.de by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21537; Tue, 20 Jun 95 08:40:27 EDT
+Received: from hobbes.math.rwth-aachen.de by samson.math.rwth-aachen.de with smtp
+	(Smail3.1.28.1 #11) id m0sO2aR-000MP0C; Tue, 20 Jun 95 14:39 MET DST
+Received: by hobbes.math.rwth-aachen.de (Smail3.1.28.1 #19)
+	id m0sO2aQ-00026zC; Tue, 20 Jun 95 14:39 WET DST
+Message-Id: <m0sO2aQ-00026zC@hobbes.math.rwth-aachen.de>
+Date: Tue, 20 Jun 95 14:39 WET DST
+From: "Martin Schoenert" <Martin.Schoenert@math.rwth-aachen.de>
+To: Cube-Lovers@ai.mit.edu
+Cc: BRYAN@wvnvm.wvnet.edu
+In-Reply-To: "Jerry Bryan"'s message of Sun, 18 Jun 1995 15:55:22 -0400 (EDT) <wvmail32.1995jun18.154620.bryan@wvnvm.wvnet.edu>
+Subject: Re: Re: A Third Way to Calculate the Real Size of Cube Space?
+
+Jerry wrote in his message of 1995/06/17
+
+    We define the real size of cube space to be the number of M-conjugate
+    classes {m'Ym} for m in M, set of 48 rotations and reflections
+    of the cube, and for Y in G.
+
+    Dan Hoey has calculated the real size of cube space using the
+    Polya-Burnside theorem.
+
+    Dan and I (mostly Dan) have also calculated the same result using
+    exhaustive computer search.  The computer search is much less
+    elegant than the Polya-Burnside results, but the search does
+    provide additional information, such as the number of positions
+    associated with each symmetry group.  The results from the
+    computer search have not yet been posted to the list, but a draft
+    paper is in progress.
+
+    In the meantime, it occurs to me that perhaps  --  but only perhaps --
+    there is a third way to calculate the real size of cube space.
+    The third way would not require (much) computer searching, but would
+    provide the same level of detail about number of positions per
+    symmetry group as does the full blown search.
+
+    ... detailed description of the method deleted ...
+
+And he continued in his message of 1995/06/18
+
+    I should have said "a fourth way", I think.  Martin Schoernert
+    performed the same calculation with GAP.  Hence, we have three
+    ways in hand: 1) Dan's Polya-Burnside method, 2) Martin's GAP
+    calculations, and 3) brute force computer search.  My new
+    proposal would then be a fourth way.
+
+Well, I don't know about *four* ways.
+
+Dan used the Polya-Burnside theorem.  That is, he computed the
+number of M-conjugacy classes as the average number of fixed points
+of the elements of M w.r.t. to their action on G.  He computed
+the number of fixed points of an element m using clever arguments
+about the cycle structure of elements of G that m would fix.
+
+I simply observed that the number of fixed points of an element m is
+the size of the centralizer of in G, and then used GAP to compute
+those.  So I don't think it is correct to call this a way of its own.
+
+The method you propose is indeed different from Dan's method that
+uses Polya-Burnside.
+
+I can't figure out how the brute force computer search works.
+So I can't tell whether it is really different from the other methods
+(and if indeed it is a method to compute the real size of the cube ;-).
+Jerry, could you say a little bit more about this computation?
+
+It appears to me that Dan and Jim Saxe must have realized all the
+important pieces for your new method when they wrote their seminal
+``Symmetry and Local Maxima (long message)'' message of 1980/12/14.
+As Jerry points out, they did calculate the important values for
+9 of the 33 conjugacy classes of subgroups of M (those whose sizes
+are a multiple of 12).  It is neither clear from their message how
+they found those 9 classes (in fact they apparently found all 98
+subgroups of M), nor how they computed the numbers of elements of
+G that have a specific subgroup of M as symmetry group.
+Perhaps Dan can say a little bit more about this?
+
+Jerry continued in his message of 1995/06/18
+
+    Here is a question for Martin: is there any way with GAP to calculate
+    the number of M-conjugacy classes associated with each symmetry class?
+    It is this additional information about the "real cube space" which
+    *is* available via computer search, and for which I am proposing
+    an alternative which does not involve computer search.
+
+Of course there is ;-).
+
+Given a subgroup H of M, the centralizer of H in G is the set of all
+those elements of G that commute with all elements of H.  But this is
+of course simply the set of those elements of G that have either H or
+a larger group as their symmetry group.
+
+So we can compute the numbers of elements of G with symmetry group H
+by computing the size of the centralizer of H in G, and then subtracting
+the numbers of those elements that have a symmetry group that is a
+proper supergroup of H.  This is easy if we compute those numbers
+for all subgroups of M, from the larger subgroups down to the smaller.
+Of course it is not neccessarry to do this for all 98 subgroups
+of M, but only for one subgroup for each of the 33 conjugacy classes.
+
+Then if we simply divide the number of elements with symmetry group H by
+the index of H in M, we obtain the number of M-conjugacy classes into
+which those elements fall.
+
+As a GAP program this looks as follows
+
+    # compute the conjugacy classes of subgroups of M
+    classes := ConjugacyClassesSubgroups( M );
+    numbers := [];
+
+    # for all conjugacy classes of subgroups of M
+    for i  in [Length(classes),Length(classes)-1..1]  do
+
+        # select a representative for this conjugacy class
+        rep := Representative( classes[i] );
+
+        # compute how many elements have at least this symmetry group
+        number := Size( Centralizer( G, rep ) );
+
+        # subtract the number of elements that have a larger symmetry group
+        for k  in [Length(classes),Length(classes)-1..i+1]  do
+            for sub  in Elements( classes[k] )  do
+                if IsSubgroup( sub, rep )  then
+                    number := number - numbers[k];
+                fi;
+            od;
+        od;
+
+        # store the number
+        numbers[i] := number;
+
+        # print the number of the class
+        Print( i, ":\t" );
+
+        # the size of the subgroups in the class
+        Print( Size(rep), "\t" );
+
+        # the number of subgroups in the class
+        Print( Size(classes[i]), "\t" );
+
+        # the number of elements whose symmetry group lies in the class
+        Print( Size(classes[i]), " * ", number, "\t" );
+
+        # and the number of M-conjugacy classes of those elements
+        Print( Size(classes[i]), " * ", number, " / ", Index(M,rep), "\n" );
+
+    od;
+
+*Do not try this with GAP 3.4.2 (our latest release).*
+GAP 3.4.2 contains several naive functions for permutation groups,
+that cause this computation to take a very long time.
+But with GAP 3.5 (our current development version),
+this produces in about a minute the following table.
+
+CLASS   SIZE   LENGHT NUMBER                    REAL		NAME
+33:     48     1      1 * 4                     1 * 4 / 1       (M)
+32:     24     1      1 * 0                     1 * 0 / 2       (C)
+31:     24     1      1 * 0                     1 * 0 / 2       (AM)
+30:     24     1      1 * 20                    1 * 20 / 2      (H)
+29:     16     3      3 * 124                   3 * 124 / 3     (X1,X2,X3)
+28:     12     4      4 * 12                    4 * 12 / 4      (T1,T2,T3)
+27:     12     1      1 * 48                    1 * 48 / 4
+26:      8     3      3 * 384                   3 * 384 / 6
+25:      8     3      3 * 1408                  3 * 1408 / 6
+24:      8     3      3 * 2944                  3 * 2944 / 6
+23:      8     3      3 * 1920                  3 * 1920 / 6
+22:      8     3      3 * 384                   3 * 384 / 6
+21:      8     3      3 * 896                   3 * 896 / 6
+20:      8     1      1 * 11892                 1 * 11892 / 6
+19:      6     4      4 * 416                   4 * 416 / 8
+18:      6     4      4 * 32                    4 * 32 / 8
+17:      6     4      4 * 7740                  4 * 7740 / 8
+16:      4     6      6 * 96232                 6 * 96232 / 12
+15:      4     6      6 * 96256                 6 * 96256 / 12
+14:      4     3      3 * 92928                 3 * 92928 / 12
+13:      4     3      3 * 437504                3 * 437504 / 12
+12:      4     3      3 * 574208                3 * 574208 / 12
+11:      4     3      3 * 1163520               3 * 1163520 / 12
+10:      4     3      3 * 144640                3 * 144640 / 12
+9:       4     3      3 * 62208                 3 * 62208 / 12
+8:       4     1      1 * 280272                1 * 280272 / 12
+7:       3     4      4 * 3770864               4 * 3770864 / 16
+6:       2     6      6 * 424415168             6 * 424415168 / 24
+5:       2     6      6 * 2547748032            6 * 2547748032 / 24
+4:       2     3      3 * 15285460992           3 * 15285460992 / 24
+3:       2     3      3 * 18342768640           3 * 18342768640 / 24
+2:       2     1      1 * 45862360944           1 * 45862360944 / 24
+1:       1     1      1 * 43252003109885814336  1 * 43252003109885814336 / 48
+
+As expected the numbers in the fourth column add to the size of G.
+And the numbers in the fifth column add to 901083404981813616,
+the real size of the cube (|M\MG/M|).
+
+For those classes that I could identify I have added their names.
+If somebody could describe Dan's taxonomy, I will name the other
+classes as well.
+
+Have a nice day.
+
+Martin.
+
+-- .- .-. - .. -.  .-.. --- ...- . ...  .- -. -. .. -.- .-
+Martin Sch"onert,   Martin.Schoenert@Math.RWTH-Aachen.DE,   +49 241 804551
+Lehrstuhl D f"ur Mathematik, Templergraben 64, RWTH, 52056 Aachen, Germany
+

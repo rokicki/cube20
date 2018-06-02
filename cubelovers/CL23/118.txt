@@ -1,0 +1,49 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Aug 18 13:49:17 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id NAA02319; Mon, 18 Aug 1997 13:49:16 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From kociemba@hrz1.hrz.th-darmstadt.de Sun Aug 17 03:43:15 1997
+Message-Id: <33F6AA41.3C98@hrz1.hrz.th-darmstadt.de>
+Date: Sun, 17 Aug 1997 09:37:37 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>
+To: cube-lovers@ai.mit.edu
+Subject: Re: isoglyphs
+References: <199708170235.WAA07984@sun30.aic.nrl.navy.mil>
+
+[Mike Reid wrote:]
+> >  ...
+> > i hadn't even considered chiral versus achiral isoglyphs.  indeed,
+> > all the "continuous" isoglyphs given by herbert are chiral.
+> > achiral isoglyphs certainly exist, for example
+> 
+> >      D2 R2 U' B' L  B  U  B  L  F2 R  D' L2 U2 B2 D    (22q, 16f)
+> 
+> > of type 11; pattern
+> 
+> > *..
+> > ***
+> > ***
+> 
+> > and others can be derived from this.  i suspect that there is no
+> > chiral form of this isoglyph, but i'm not absolutely certain.
+> 
+
+Dan Hoey wrote:
+
+>...
+> I've done some analysis by facets on these three cases, which is too
+> messy to describe, but which leads me to the conclusion that the above
+> position is the only isoglyph of its pattern, implying the conclusion
+> that there is no chiral form.
+
+There are two more isoglyphs of this pattern,
+
+B2 D . R D' B2 F' R2 U' B' R' U F R'  (13)
+D2 R D2 L B2 R' B2 . D' R F D' L' F' D2 L'  (15)
+
+Could someone tell me, what chiral and achiral exactly mean?
+
+--Herbert
+

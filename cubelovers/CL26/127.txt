@@ -1,0 +1,28 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar  8 21:24:30 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA27010
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 8 Mar 1999 21:24:29 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3.0.32.19990225090214.009654a0@mail.spc.nl>
+Date: Thu, 25 Feb 1999 09:02:15 +0100
+To: cube-lovers@ai.mit.edu
+From: Christ van Willegen <c.v.willegen@spcgroup.nl>
+Subject: Megaminx solving times?
+
+Hi,
+
+I've been practising the Megaminx, and I can now solve it
+without resorting to formulas written down on paper. I can
+do it in about 10 minutes. How does this compare to other
+people's times?
+
+And, what method do you use? The method I developed relies
+heavily upon the standard cube moves, and I solve the Mega-
+minx going down from one flat top in rings. I needed to
+adapt 1 (one!) standard cube formula to get it to work on
+the Megaminx.
+
+Christ van Willegen
+

@@ -1,0 +1,27 @@
+Date: 10 Jun 1982 0940-PDT
+From: ISAACS at SRI-KL
+Subject: correction
+To: cube-lovers at MIT-MC
+
+   At least 2 errors appeared in my previous message:
+    In Minh Thai's 3-cycle, substitute "r" for "f" to do the permutation
+reported. 
+    In the Frye 3-cycle, the first "d" should be "d'".
+ 
+    I thought I had a half center move:
+    
+       (r2 u2)2  =  (Fur,Bur)
+
+   but when repeated, I got
+
+      (r2 u2)4  =  (Fdr,Bur),
+
+    so I realized that what I really had was the 6-cycle of centers:
+
+      (r2 u2)2  = (Ful,Fdr,Bul,Bdl,Fur,Bur)   (I think).
+
+  Oh, well.
+
+
+----   Stan
+-------

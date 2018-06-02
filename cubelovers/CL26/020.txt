@@ -1,0 +1,106 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov  2 09:40:50 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id JAA29402; Mon, 2 Nov 1998 09:40:48 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <363B1799.3534@hrz1.hrz.tu-darmstadt.de>
+Date: Sat, 31 Oct 1998 14:58:49 +0100
+From: Herbert Kociemba <kociemba@hrz1.hrz.tu-darmstadt.de>
+Reply-To: kociemba@hrz1.hrz.tu-darmstadt.de
+To: cube-lovers@ai.mit.edu
+Subject: Unauthorized Use of RUBIK'S CUBE and CUBE Design Marks?
+
+About 2 weeks ago I received the following message and it seems to me
+that it might be interesting for you too:
+
+> Subject:
+>         Use of RUBIK'S mark
+>   Date:
+>         Sun, 18 Oct 1998 21:05:31 EDT
+>   From:
+>         CK4IPLAW@aol.com
+>     To:
+>         kociemba@hrz1.hrz.tu-darmstadt.de
+> 
+> 
+> CLEARY, KOMEN & LEWIS, LLP
+> 600 Pennsylvania, Avenue, S.E.
+> Suite 200
+> Washington, D.C. 20003-4316
+> Telephone: 202 675-4700
+> Telecopier: 202 675-4716
+> E-Mail: ck4iplaw@aol.com
+> 
+> 
+> October 18, 1998
+> 
+> Via Electronic Mail
+> 
+> Herbert Kociemba
+> kociemba@hrz1.hrz.th-darmstadt.de
+> 
+> Re:     Unauthorized Use of RUBIK'S CUBE and CUBE Design Marks
+> 
+> Dear Mr. Kociemba:
+> 
+> This firm is intellectual property counsel to Seven Towns Limited ("Seven
+> Towns"), the manufacturer and worldwide distributor of the RUBIK'S CUBE three-
+> dimensional puzzle and provider of an electronic version of the puzzle via its
+> official web site, which is located at http://rubiks.com.
+> 
+> The RUBIK'S CUBE mark is famous throughout the world.  The distinctive
+> overall appearance of the RUBIK'S CUBE puzzle also is a famous trademark owned
+> by Seven Towns.  These marks are registered or are the subject of pending
+> trademark applications in most of the major countries of the world.
+> 
+> It has come to our attention that your web site features a program under the
+> name of Rubik's Cube Explorer.   I must advise that your unauthorized use of
+> the RUBIK'S CUBE mark owned by Seven Towns constitutes trademark infringement.
+> Specifically, the use of this mark in designating the origin of your program
+> confuses the public into believing mistakenly that it derives from, is
+> associated with, or is endorsed or sponsored by the owner of this commercial
+> symbol (i.e., Seven Towns).  Moreover, apart from causing consumer confusion,
+> your use of the well-known mark dilutes its distinctive value in violation of
+> the federal and state anti-dilution laws.
+> 
+> Seven Towns appreciates your interest in the RUBIK'S CUBE puzzle, and it
+> certainly does not wish to inhibit legitimate discussion of the puzzle on the
+> Internet or in any other medium.  However, it also must be vigilant in
+> maintaining the value and integrity of its intellectual property.  It cannot
+> afford to lose control over its commercial reputation, or damage to its
+> substantial goodwill, by permitting another party to use its trademarks or
+> trade dress in a manner that causes source confusion or otherwise dilutes
+> their selling power.  Thus, Seven Towns requests that you remove from your web
+> site the electronic version of the RUBIK'S CUBE manipulative puzzle, and that
+> you discontinue any further use of the term RUBIK'S CUBE or any similar
+> designation in the prominent, source-indicating manner of a trademark.
+> 
+> I hope that you are understanding of our client's position, and I thank you
+> in advance on behalf of Seven Towns for your prompt attention to this matter.
+>  
+>                                                         Sincerely yours,
+> 
+>                                                         //sjm//
+> 
+>                                                         Scott J. Major
+
+
+
+Indeed the headline of my homepage at
+
+http://home.t-online.de/home/kociemba/cube.htm
+
+was "Rubik's Cube Explorer 1.5". So I removed the word "Rubik's" and
+added some note at the bottom of the page (...blah blah is not derived
+from, is not associated with blah blah...).
+
+I definitely will not remove the program from my homepage. This seems
+ridiculous. I know, that other cube fans received similar mail because
+they have some similar statements on their homepages now.
+
+What do you think about that?
+
+
+Herbert Kociemba
+

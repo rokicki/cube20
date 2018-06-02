@@ -1,0 +1,35 @@
+From cube-lovers-errors@oolong.camellia.org  Sun May 11 17:46:25 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id RAA25168; Sun, 11 May 1997 17:46:24 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <3.0.1.32.19970511174453.00a5aba0@mail.interlog.com>
+X-Sender: aaweint@mail.interlog.com
+X-Mailer: Windows Eudora Pro Version 3.0.1 (32)
+Date: Sun, 11 May 1997 17:44:53 -0400
+To: cube-lovers@ai.mit.edu
+From: Aaron Weintraub <aaweint@interlog.com>
+Subject: Re: Extra-long Rubik's magic rings
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+
+>I'd say they're pretty uncommon.  I've been looking for one for about 5
+>years now.  Would you mind sending me the address and phone number of
+>the company that is selling them.  I've also been looking for a "Rubik's
+>Magic Create the Cube."  It was originally described as a 'Level 2'
+>Rubik's Magic.  I snapped the strings on mine and haven't seen one
+>since.
+
+I have one of these that I bought when they originally came out.  I
+wouldn't really call it a "level 2" puzzle, as the mechanics are identical
+to that of the original Rubik's Magic.  The goal is different, however.
+Each plate is divided into different coloured quarters.  The object is to
+get both the proper shape - a cube resting on one of it's edges, centred
+atop a "platform" of the two other plates - and the proper colour
+orientation - the three faces that join in each corner of the cube must
+have identical colours in the quadrant at that corner.
+
+-Aaron
+
+
+

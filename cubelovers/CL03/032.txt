@@ -1,0 +1,14 @@
+Date: 11 Sep 1981 0917-PDT
+From: ISAACS at SRI-KL
+Subject: half query answer
+To: cube-lovers at MIT-MC
+
+  First of all, I was inaccurate about the "Dinman" style "cube" - it doesn't
+only eliminate twisting, but also some positioning (ie, after the top and middle
+are solved, the bottom is automatically solved).  Perhaps by the judicious
+adding of numbers to the facies, the pure position cube can be made.  Also,
+the answer to the edge-only subgroup is easy - just remove all the labels from
+the corners, so they are all identically monochromatic.  Is there a more
+elegant solution?
+   --- Stan
+-------

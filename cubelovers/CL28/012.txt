@@ -1,0 +1,19 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Sep 22 19:31:25 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA04125
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 22 Sep 1999 19:31:24 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19990916050737.22707.rocketmail@web216.mail.yahoo.com>
+Date: Wed, 15 Sep 1999 22:07:37 -0700 (PDT)
+From: John Davis <jdjabberwock@yahoo.com>
+Subject: bandaged cube
+To: cube lovers <cube-lovers@ai.mit.edu>
+
+
+I'd like to make one of these bandaged cubes out of an old 3x3x3, but
+can't tell from pictures what pieces to fuse on the back of the cube.
+Can someone who has one of these post a description making it clear
+which pieces are fused?  Thanks, John.
+

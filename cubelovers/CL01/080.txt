@@ -1,0 +1,65 @@
+Date:  7 January 1981 1352-EST (Wednesday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Pons Asinorum -- Part 1: Optimality
+Message-Id: <07Jan81 135220 DH51@CMU-10A>
+
+        The Pons Asinorum (obtained by UUDDFFBBLLRR, and known as
+6-X in Singmaster) is well-known to readers of this list.  It is
+perhaps surprising that this so well-known position has anything
+more to teach us.
+
+        The first surprise is that the 12-move sequence given above
+is provably optimal in the quarter-twist metric.  Proofs were sent
+to me by David C. Plummer, who attributed it to Alan Wechsler, and
+by Chris C. Worrell.  While it is well-known (See Alan Bawden's
+messages of 31 July 1980 13:06-EDT and 31 JUL 1980 2159-EDT) that
+some positions require at least 21 moves, the longest sequence
+which has previously been proven optimal is LR'FB'DU'LR' for the
+six-spot configuration.  It is good to see a 12-move sequence
+proven optimal -- and in a way not dependent on the vagaries of
+programming errors and cosmic rays.
+
+        The proof of optimality relies on the "Oriented Distance
+from Home" (ODH), used by Vanderschel (6 Aug 1980 1909-PDT) in his
+proof of edge orientation parity conservation.  The ODH of an edge
+cubie (in some position and orientation) is defined to be the
+minimum number of quarter-twists required to move that cubie to its
+home position and orientation.  A table of possible ODH values of
+the UF cubie is given below, indexed by the position of that
+cubie's F tab.
+
+                        + 3 +
+                        2 U 2
+                        + 3 +
+
+                + 1 +   + 0 +   + 1 +   + 2 +
+                2 L 2   1 F 1   2 R 2   3 B 3
+                + 3 +   + 2 +   + 3 +   + 4 +
+
+                        + 3 +
+                        2 D 2
+                        + 3 +
+
+The Pons Asinorum moves every edge cubie to a position and
+orientation which has an ODH of 4.  To move all twelve cubies in
+this way requires a total of 48 edge moves, and only four edge
+moves can be accomplished by each quarter-twist.  Thus the Pons
+Asinorum requires twelve quarter-twists.
+
+        Unfortunately, this seems to be the only really impressive
+result to be derived from counting ODH.  All edges flipped
+(Singmaster's 12-Flip) can be shown to require at least ten
+quarter-twists, but this is a far cry from the 28-qtw process which
+is the best known (Plummer, 10 Dec 1980 0157-EST).  A brute force
+technique for deriving such results is of course possible, but to
+show a twelve-move lower bound seems to require sorting and merging
+two lists of over one hundred thousand positions each, an act which
+is viewed as unsociable (or, more usually, impossible) on the
+systems to which I have access.  Anyone who has a gigabit to spare
+should get in touch -- there are several good problems for which
+brute force seems attractive if there is enough of it.
+
+	Surprise number two -- Pons Asinorum in the Supergroup -- in
+an hour or two.
+			Dan

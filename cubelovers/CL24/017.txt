@@ -1,0 +1,43 @@
+From: der Mouse  <mouse@Rodents.Montreal.QC.CA>
+To: C.McCaig@queens-belfast.ac.uk
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: 4x4x4 solution
+
+> i recently borrowed a friends 4x4x4, and i know the basic method for
+> solving it.  [...]  however, about half the time i end up with a
+> single edge pair inverted and cant figure out a move for
+> reorientating the single edge pair.
+
+Make a single 90-degree inner-slice turn, then solve as before.  This
+introduces an odd permutation on the edge pairs, which gets you back
+into easily solvable space.  (It's usually easiest if you make sure
+that the two swapped edge cubies are part of the slice turn, by placing
+on the same slice beforehand if necessary.)
+
+I'm not sure quite what the parity constraint here is.  There is some
+kind of even-parity constraint on the edge cubies, it appears, with a
+linked constraint on the face centres, but it's not as simple as the
+parity of the edge and face permutations being both even or both odd,
+because the single slice turn introduces two nonoverlapping 4-cycles on
+the face centre cubies - which is, overall, an even permutation on
+them.
+
+I do notice, though, that a slice turn produces a 4-cycle on the edges
+and two 4-cycles on the face centres; a face turn produces a 4-cycle on
+the face centres and two 4-cycles on the edges (and a 4-cycle on the
+corners, which may or may not be relevant).  I wonder if there's a
+multiple-of-three constraint lurking.
+
+Doubtless some group theorist has long ago worked out exactly what the
+constraints are, but I haven't heard.  (I tried to work through a
+group-theory text recently, got stalled along about the time it got to
+cosets, quotient groups, normal subgroups, etc.)
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+
+------------------------------
+
+Date: Tue, 30 Sep 1997 14:11:28 -0400 (EDT)

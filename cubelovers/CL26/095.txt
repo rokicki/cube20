@@ -1,0 +1,39 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec 29 21:21:03 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id VAA23271
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 29 Dec 1998 21:21:03 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+From: Douglas Zander <dzander@solaria.sol.net>
+Message-Id: <199812282147.PAA06517@solaria.sol.net>
+Subject: ADDITIONAL FEATURES FOR OUR PUZZLE SITE (fwd)
+To: cube-lovers@ai.mit.edu (cube)
+Date: Mon, 28 Dec 98 15:47:11 CST
+
+ I would like to voice my concern over this site.  The thing is that not
+ everyone has the latest version of Netscape or IE installed.  Many
+ libraries (from which I myself access the WWW) do not allow Java to be
+ installed on their machines nor do they allow sound.  The highest browser
+ versions I have access to in any library here in Milwaukee is 3.0
+ I had gone to this site and I could not play the puzzle that was supposed
+ to be there; nothing showed up on the screen. 
+
+ I just wished to point this out to the creator of the site; in fact, to
+ all creators of puzzle sites.  There are, I believe, a significant number
+ of people who use public browsers without Java or sound.  Please keep this
+ in mind when designing your sites.  Thank you.
+
+--
+ Douglas Zander                |
+ dzander@solaria.sol.net       |
+ Shorewood, Wisconsin, USA     |
+
+[Moderator's note: Cube-lovers is not really the place to debate the
+ philosophy of web design.  I must agree that for maximum usability,
+ the text on a page should be displayed without requiring images, and
+ that the static images should be displayed with requiring Java.
+ Still, setting up a puzzle simulator without Java is more problematic
+ than we can reasonably ask of a free server, and having a simulation
+ that requires Java is certainly better than none. --Dan ]
+

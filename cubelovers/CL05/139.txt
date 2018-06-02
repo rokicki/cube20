@@ -1,0 +1,60 @@
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 10 Dec 86 17:15:52 EST
+Received: from navajo.stanford.edu (TCP 4402000060) by MC.LCS.MIT.EDU 10 Dec 86 17:00:36 EST
+Received: by navajo.stanford.edu; Wed, 10 Dec 86 12:56:25 PST
+Received: from jack-jr.edsel.uucp by edsel.uucp (2.2/SMI-2.0)
+	id AA27267; Wed, 10 Dec 86 12:51:04 pst
+Received: by jack-jr.edsel.uucp (1.1/SMI-3.0DEV3)
+	id AA12942; Wed, 10 Dec 86 12:52:32 PST
+Date: Wed, 10 Dec 86 12:52:32 PST
+From: edsel!jack-jr!jeb@navajo.stanford.edu (Jim Boyce)
+Message-Id: <8612102052.AA12942@jack-jr.edsel.uucp>
+To: navajo!cube-lovers%mit-mc.ARPA@navajo.stanford.edu
+Subject: Magic: Construction
+
+A friend on mine applied too much force in an odd direction and
+produced a tangled mess.  I was nominated to fix it.  My approach 
+was to take it apart completely and then put it back together.
+
+Tools required: 
+Well, I used a paper clip.
+
+Components:
+A Magic is made out of 16 loops of string (actually nylon fishline)
+and 8 panels.  The loops of string are all the same length.  The
+loops of string are not tangled in any way.  The panels each
+decompose into two clear plastic covers and a piece of paper
+(actually plastic).  The panels are held together by the string.
+
+Construction:
+
+Each loop of string is twisted around three panels.  It follows a
+path like these:
+
+ ---- ---- ----           ---- ---- ----
+|/\  |  /\|/\  |         |  /\|/\  |  /\|
+|\ \ | / /|\ \ |   or    | / /|\ \ | / /|
+| \ \|/ / | \ \|         |/ / | \ \|/ / |
+|  \/|\/  |  \/|         |\/  |  \/|\/  |
+ ---- ---- ----           ---- ---- ----
+
+For each string, there is another string that lies in the same
+channels.  When stringing a loop through the channels, there is a
+choice at the points where the string passes from one panel the
+next: Which string is closer to the center of the panel?  That
+question is answered differently for the two strings running throught
+the same channels.
+
+[I believe that this is done so that the net force trying to twist
+the toy at that point is near zero.  The redundancy also probably
+strengthens the toy.]
+
+The panels can be divided into two sets of four: The panels that are
+centers in these triples and the panels that are ends.  Each "end panel"
+is an end for two different triples.
+
+Strings don't lie in crossing channels on the same side of a panel.  
+(That describes how the two pairs of loops go on the same triple and 
+how two triples interact on their common end panel.)
+
+-jim boyce
+

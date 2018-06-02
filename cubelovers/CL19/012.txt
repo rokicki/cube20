@@ -1,0 +1,65 @@
+From mark.longridge@canrem.com  Wed Feb  7 03:00:03 1996
+Return-Path: <mark.longridge@canrem.com>
+Received: from itchy.crso.com (itchy.canrem.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA13842; Wed, 7 Feb 96 03:00:03 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 20A152; Wed,  7 Feb 96 02:54:24 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Cube Musings
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1289.5834.0C20A152@canrem.com>
+Date: Wed,  7 Feb 96 02:48:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+Further Cube Musings
+====================
+
+We usually think of positions antipodal to start only, but there are
+positions antipodal to any given position.
+
+Given a small enough subgroup of the cube, i.e. one which we can
+exhaustively study, it is not hard to determine some examples.
+
+Let's use the square's group and the good ol' pons asinorum.
+Pons is antipodal to position X.
+
+        Pons + X = Antipode  (let's use position p135)
+
+p135 2 X, 4 T       L2 B2 D2 F2 T2 F2 T2 L2 T2 D2 F2 T2 L2 D2 F2
+
+Solving for position X is easy enough....
+
+         X = Antipode - Pons
+
+      Position X =  F2 D2 L2 D2 F2 L2 T2 F2 T2 F2 T2 F2 L2
+
+The idea of        (-1) * pons   or  (-pons) is equivalent to
+the inverse of pons, since (+pons) + (-pons) = identity.
+
+So Pons and Position X are antipodes of each other. Using this
+straightforward method we can find an antipode to any position
+in the square's group, or for any other positions in another
+small subgroup.
+
+This brings up the idea of a "Rubik's Tour". Such a tour would
+touch on a set of interesting patterns within a given subgroup,
+or potentially the entire cube group. Of course, "God's Tour"
+would not only touch on all the interesting patterns, it would
+also sequence all the patterns AND orient them in space such that
+the number of q turns would be minimal for the tour! I am currently
+working on "God's Tour" for some of the lesser subgroups, touching on
+say a dozen patterns for the square's group. If humans and computers
+ever resolve "God's Algorithm" there is some solace that there are
+problems even more intractible.
+
+Hmmmm, I just had a thought. It would probably be best to group all
+the patterns closer to start and work outwards towards the more
+antipodal ones.
+
+With the smaller groups a "Total Tour" would be possible! Visit all
+elements!
+
+-> Mark <-
+
+

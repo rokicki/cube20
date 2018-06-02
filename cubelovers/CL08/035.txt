@@ -1,0 +1,61 @@
+From gkomatsu@uhunix.uhcc.hawaii.edu  Thu Jan 16 04:08:17 1992
+Return-Path: <gkomatsu@uhunix.uhcc.hawaii.edu>
+Received: from uhunix.uhcc.Hawaii.Edu by life.ai.mit.edu (4.1/AI-4.10) id AA01167; Thu, 16 Jan 92 04:08:17 EST
+Received: by uhunix.uhcc.Hawaii.Edu (4.1/Sun490)
+	id AA04197; Wed, 15 Jan 92 23:08:13 HST
+Date: Wed, 15 Jan 1992 23:08:12 HST
+From: Galen Tatsuo Komatsu <gkomatsu@uhunix.uhcc.hawaii.edu>
+To: cube-lovers@life.ai.mit.edu
+Subject: Rubik's Magic Clock & Triamid
+Message-Id: <CMM.0.88.695552892.gkomatsu@uhunix.uhcc.Hawaii.Edu>
+
+...hmm new to this list, been reading some of the postings and things just
+seem to go *FOOM*, right over my head.  But it didn't stop me from asking
+these.....
+
+Rubik's Magic Clock.
+	Sister is Japan sent me this for Christmas (Have still yet to
+translate the instructions...as if I need it!) and solved it in a day... Well,
+more like "stumbled" upon the solution after a day of fiddling with it.  But
+I continued to play with it, and came upon this.....
+	Sometimes when I give one of the wheels a good quick "flick", one of
+the gears inside slips.  Result is one (or maybe two) of the clock faces
+affected is an hour "behind" (or ahead) of the others.  Deep in my mind I
+concluded that this rendered the puzzle unsolveable.  And I ended up pulling
+out a screwdriver and readjusting the face (or I just "zeroed" all of them.)
+Was I correct in this conclusion?
+	(...oh yea, she sent this for Christmas '88, not this past year.  I'm
+not THAT behind the times!  THIS Christmas I recieved.....)
+
+Rubik's Triamid.
+	In the instructions it says,
+
+       "It is physically possible to dismember Triamid into it's
+	10 constituent elements and reassemble it into a complete
+	Triamid.  A word of warning however--as there are 2 possible
+	ways of doing this (a right and a left one) solving the
+	puzzle after such a ressembly has an additional sting in
+	the tail."
+
+	What exactly is this "sting"?  And what did it mean by "right and
+left"?  (if there's some joke here, I missed it...)  I was wondering, if I
+took it apart and reassembled it to a completed form, the puzzle is still
+solvable, I just scramble it and get back to the form I reassembled it to.
+So this can't be the "sting" mentioned.  Unless it meant reassemble it to some
+unfinished form.
+	Next question... Sometimes when I play around with it, one of the
+corner pieces pops off and lands on the floor.  I pick it up and put it back
+on wondering, how was it originally oriented?  And considering the 11/12
+chance that I'll have put it back on wrong way.  Have I just rendered the
+Triamid (once again) "unsolveable"?
+	Final question, for fun...  Anyone bought more than one Triamid, and
+put 'em together to make a "Monster(a)mid"? =^)
+
+	...also for a Square-1 for x-mas too, still fiddling around with it
+too.  And have yet to lay my hands on Rubik's Tangle, Dice, and Fifteen.  But
+NOT the Cube^4 (was that it?) Couls never solve the original, why should I
+touch this one?  =^/
+
+Galen Komatsu
+gkomatsu@uhunix.uhcc.hawaii.edu !
+

@@ -1,0 +1,66 @@
+From mreid@ptc.com  Thu Dec  8 16:44:33 1994
+Return-Path: <mreid@ptc.com>
+Received: from PTC.COM (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20153; Thu, 8 Dec 94 16:44:33 EST
+Received: from ducie.ptc.com by PTC.COM (5.0/SMI-SVR4-NN)
+	id AA01843; Thu, 8 Dec 94 16:43:16 EST
+Received: by ducie.ptc.com (1.38.193.4/sendmail.28-May-87)
+	id AA28255; Thu, 8 Dec 1994 16:53:40 -0500
+Date: Thu, 8 Dec 1994 16:53:40 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9412082153.AA28255@ducie.ptc.com>
+To: cube-lovers%life.ai.mit.edu@ptc.com
+Subject: Re: Cayley Graphs
+Content-Length: 2120
+
+jerry says:
+
+> On 12/07/94 at 20:46:00 Martin Schoenert said:
+>
+> >So the Cayley graph depends on the group *and* on the generating system.
+> >Simple, isn't it.
+>
+> These are fine points, but they bother me anyway.
+>
+>   1. Suppose I write <Q>=<Q,H>.  If I mean that the group <Q> is equal
+>      to the group <Q,H>, then the equation is correct.
+
+here you're using  "<Q>"  to denote the group.
+
+>                                                         If I mean that
+>      the Cayley graph of <Q> is the same as the Cayley graph of <Q,H>,
+>      then the equation is incorrect.  Which is the conventional meaning?
+
+but now you're trying to use the same symbol to denote the cayley graph.
+
+>      Is the meaning universal, or does it depend on the author and the
+>      context?
+
+the context should make it clear which object (group or graph) the symbols
+refer to.  as martin notes above, these are quite different objects.
+
+>   2. I gather from your note and from things that Dan sent me that
+>      one should not list inverses of the generators.  For example,
+>      <U,R> is sufficient and one should not write <U,U',R,R'>.  But
+>      people conventionally write <Q> which includes six processes and
+>      their six inverses.  Is this acceptable usage, or should we write
+>      <U,D,L,R,F,B> instead?
+
+either is acceptable, whether you're referring to groups or cayley graphs.
+
+however, for cayley digraphs (directed graphs), the two meanings are quite
+different.  i don't imagine we'll have anything to do with digraphs until
+someone complains that they can only turn the faces of their cube clockwise,
+and wants to know some short processes.
+
+in our case,  "<Q>"  is preferred, since it's shorter.
+
+> As an additional comment, I have frequently written about the Q length
+> of a process in <U,R> or the Q+H length of a process in <U,R>.  I think
+> we would be better served to talk about the length of a process in
+> <U,R> or the length of a process in <U,U2,R,R2> if the generator
+> notation implies a particular Cayley graph.
+
+yes, this terminology is more precise, but the meaning was already clear.
+
+mike
+

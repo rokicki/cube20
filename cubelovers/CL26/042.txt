@@ -1,0 +1,55 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Nov 23 16:35:08 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id QAA19314
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 23 Nov 1998 16:35:06 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <001e01be155b$9a456940$6bc4b0c2@home.icl.web>
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: "cube" <Cube-Lovers@ai.mit.edu>
+Cc: "Jorge E. Jaramillo" <kingeorge@rocketmail.com>
+Subject: Re: The Cylinder
+Date: Sat, 21 Nov 1998 14:29:22 -0000
+
+I was given a cylinder here in England in 1981.  I no longer have the
+packaging, but I suspect it was Taiwanese, unless the Hungarians made
+this variant.  It was my first cube puzzle, and its shape was so
+unappealing when disturbed that I put it on one side and got a genuine
+cube to learn on - well, almost genuine: it came from a street trader
+in Regent Street.
+
+The apparently impossible state is a monoflip of a top or bottom edge
+piece.  There will be a matching flip of a middle-layer edge piece,
+but that will be invisible, since the piece has only one face.
+
+I wondered if it would be possible to get the puzzle into the solved
+shape and then restore the positions of the pieces without losing the
+shape, that is, only allowing turns from the group <U, D, F2, L2, B2,
+R2, S, A>, where S and A are slice and anti-slice moves of the middle
+layers (I needed them).  In fact it is not.  There may always be a
+hidden flip in the middle layer and you can't correct that without
+moving the piece out of the middle layer, which needs a turn like F,
+and that destroys the shape.  But if you cheat a little and make sure
+the flips are got right before the shape is finally restored, then it
+can be done.
+
+Andy  Southern has already made the point about the flips.  He also
+pointed out that the configuration is not unique because columns
+corresponding to the vertical edges on a normal cube can be swapped.
+As a rider to that point, the pretty pattern stripes on the normal
+cube is not distinguishable on the octagonal prism, because it's
+striped already.
+
+It should be possible to work out whether our moderator's puzzle came
+in the form he now has by counting stickers.  The octagonal prism has
+2 sets of 9 (the top and bottom) and 8 of 3 (the side columns).  If
+I've grasped his configuration correctly, if it came in that form
+originally it should have 4 sets of 6 and 6 of 3.
+
+Roger Broadie
+
+[ Yes, my decahedron's stickers are incompatible with an octagonal
+  prism solution.  I just can't remember whether I replaced some of
+  the stickers to make this new shape. --Dan ]
+

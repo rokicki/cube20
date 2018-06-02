@@ -1,0 +1,47 @@
+From mouse@collatz.mcrcim.mcgill.edu  Mon Feb 20 15:37:03 1995
+Return-Path: <mouse@collatz.mcrcim.mcgill.edu>
+Received: from Collatz.McRCIM.McGill.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01812; Mon, 20 Feb 95 15:37:03 EST
+Received: (root@localhost) by 23249 on Collatz.McRCIM.McGill.EDU (8.6.8.1 Mouse 1.0) id PAA23249 for cube-lovers@ai.mit.edu; Mon, 20 Feb 1995 15:36:54 -0500
+Date: Mon, 20 Feb 1995 15:36:54 -0500
+From: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Message-Id: <199502202036.PAA23249@Collatz.McRCIM.McGill.EDU>
+To: cube-lovers@ai.mit.edu
+Subject: Re:  Qturn Lengths of M-Symmetric Positions
+
+> 2. The length of Pons Asinorum is of course 12 qturns.  [...]
+>       d. (FB')(RRLL)         a surprise to me
+
+Surprising, but explicable.  Write PA as (RRLL)(UUDD)(FFBB).  Since PA
+commutes with everything, [PA](FB') = (FB')[PA].  (I am writing X Y to
+mean sequence X followed by sequence Y.)  Note also that [PA](F'B) =
+(RRLL)(UUDD)(FB').  But then [PA] = [PA](FB')(F'B) = (FB')[PA](F'B) =
+(FB')(RRLL)(UUDD)(FB') gives us a length-12 process for PA whose first
+half is what you found.
+
+>       e. (RL')(FB')(RL')     a surprise to me
+
+Me too.  By elimination, its second half must be M-equivalent to the
+first half, since we can look at these five half-processes as equally
+being M-representatives of the reversals of the PA second halves, and
+the other four first halves' second halves account for the other four.
+(Got that? :-)  In fact, each first half is M-equivalent to the
+reversal of the corresponding second half, which is pleasing.
+
+After juggling letters for a while, I've been unable to "justify" this
+process the way I did the one above, which leads me to suspect it may
+be a fundamentally new process for PA.  Amazing, the things you can
+find when you're not looking for them. :-)
+
+> 3. The length of Pons Asinorum composed with Superflip is 20 qturns.
+>    [...]  I expect we will find that many (or all) of [the midway
+>    positions for this] are really closely related, differing only by
+>    commuting in fairly trivial ways, just as do the five half-way
+>    positions for Pons Asinorum.
+
+Does this mean you see the fifth process for PA as a trivial
+commutation of the known PA process?  How?
+
+					der Mouse
+
+			    mouse@collatz.mcrcim.mcgill.edu
+

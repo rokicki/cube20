@@ -1,0 +1,49 @@
+From mreid@ptc.com  Thu Feb 22 17:10:57 1996
+Return-Path: <mreid@ptc.com>
+Received: from poster (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA19958; Thu, 22 Feb 96 17:10:57 EST
+Received: from ducie.ptc.com by poster (5.x/SMI-SVR4-NN)
+	id AA20333; Thu, 22 Feb 1996 17:06:31 -0500
+Message-Id: <9602222206.AA20333@poster>
+Received: by ducie.ptc.com
+	(1.38.193.4/16.2.nn) id AA11649; Thu, 22 Feb 1996 17:38:03 -0500
+Date: Thu, 22 Feb 1996 17:38:03 -0500
+From: michael reid <mreid@ptc.com>
+To: cube-lovers@ai.mit.edu
+Subject: "simplest" solution of the cube?
+
+mark writes
+
+> This brings up the idea of a "Rubik's Tour". Such a tour would
+> touch on a set of interesting patterns within a given subgroup,
+> or potentially the entire cube group. Of course, "God's Tour"
+> would not only touch on all the interesting patterns, it would
+> also sequence all the patterns AND orient them in space such that
+> the number of q turns would be minimal for the tour! I am currently
+> working on "God's Tour" for some of the lesser subgroups, touching on
+> say a dozen patterns for the square's group. If humans and computers
+> ever resolve "God's Algorithm" there is some solace that there are
+> problems even more intractible.
+
+there's a general graph theory conjecture that cayley graphs are
+hamiltonian (i.e. have hamiltonian circuits).
+
+if we take the cayley graph formed by generators
+{F, F', L, L' U, U', R, R', B, B', D, D'}, the conjecture asserts
+that there is a sequence of  N  quarter turns that visits every position
+exactly once and returns to START.  (here  N  =  43252003274489856000
+is the order of the group.)
+
+so the proposed "simplest" solution to the cube is to apply such a
+hamiltonian sequence.  at some point, in the middle of the sequence,
+the cube will be solved!  no need to continue with the rest of the
+sequence.
+
+
+i don't think the general conjecture is close to being proved, but
+it is known for some special groups and generators.  it would be
+interesting to know if anyone can verify the conjecture for the cube
+group with quarter turn generators.  (face turn generators would also
+be interesting.)
+
+mike
+

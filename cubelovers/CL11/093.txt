@@ -1,0 +1,26 @@
+From tonyd@earwax.pd.uwa.edu.au  Tue Jan 11 02:06:32 1994
+Return-Path: <tonyd@earwax.pd.uwa.edu.au>
+Received: from earwax.pd.uwa.edu.au by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA01183; Tue, 11 Jan 94 02:06:32 EST
+Received: from [130.95.156.19] (chaos [130.95.156.19]) by earwax.pd.uwa.edu.au (8.1C/8.1) with SMTP id PAA20165; Tue, 11 Jan 1994 15:09:05 +0800
+Message-Id: <199401110709.PAA20165@earwax.pd.uwa.edu.au>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 11 Jan 1994 15:08:16 +0800
+To: Cube-Lovers@ai.mit.edu
+From: tonyd@earwax.pd.uwa.edu.au
+Subject: Rubik chaos?
+
+On sci.nonlinear...
+
+In article <1994Jan5.120409@oxygen.aps1.anl.gov> Thomas D. Orth,
+orth@oxygen.aps1.anl.gov writes:
+>A friend of mine has written a few papers on the subject of
+>the Rubik's Cube Group, and the elements of Chaos within
+>it, or Pseudo-chaos as she calls it.
+
+The papers are being submitted to the journal CHAOS. 
+
+cheers, Tony
+
+
+

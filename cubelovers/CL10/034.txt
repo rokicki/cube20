@@ -1,0 +1,40 @@
+From dn1l+@andrew.cmu.edu  Sun Aug  8 00:21:54 1993
+Return-Path: <dn1l+@andrew.cmu.edu>
+Received: from andrew.cmu.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16550; Sun, 8 Aug 93 00:21:54 EDT
+Received: from localhost (postman@localhost) by andrew.cmu.edu (8.5/8.5) id AAA06744; Sun, 8 Aug 1993 00:21:45 -0400
+Received: via switchmail; Sun,  8 Aug 1993 00:21:37 -0400 (EDT)
+Received: from dollar.mg.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q003/QF.4gN3mLm00axfM0ee9J>;
+          Sat,  7 Aug 1993 19:36:59 -0400 (EDT)
+Received: from dollar.mg.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr18/dn1l/.Outgoing/QF.UgN3m7a00axf9P:WM=>;
+          Sat,  7 Aug 1993 19:36:48 -0400 (EDT)
+Received: from mms.0.1.23.EzMail.2.0.CUILIB.3.45.SNAP.NOT.LINKED.dollar.mg.andrew.cmu.edu.pmax.ul4
+          via MS.5.6.dollar.mg.andrew.cmu.edu.pmax_ul4;
+          Sat,  7 Aug 1993 19:36:39 -0400 (EDT)
+Message-Id: <YgN3m7K00axf1P_WEZ@andrew.cmu.edu>
+Date: Sat,  7 Aug 1993 19:36:39 -0400 (EDT)
+From: "Dale I. Newfield" <dn1l+@andrew.cmu.edu>
+To: cube-lovers@life.ai.mit.edu
+Subject: Re: Tangle (Was: Re: Square-1 Puzzle Party)
+Cc: 
+In-Reply-To: <9308072132.AA01481@chaucer>
+
+Excerpts from mail: 7-Aug-93 Tangle (Was: Re: Square-1 P.. by
+weber@src.dec.com 
+> I was thinking about the Rubik's Tangle, and what was puzzling me was
+> WHY there should be only one solution (apart from the obvious symmetries).
+> After all, all pieces are identical except for coloring, and a set consists
+> of all 24 possible coloring, and 1 duplicate, and this doesn't sound like
+> an artificial construction.  Is there any mathematical reason for the
+> uniqueness of the solution?  What possible "Tangle-like" puzzles have
+> unique solutions?
+
+The section I had (4) had 2 distinct solutions (apart from the exchange
+of the 2 identical pieces, and the 4 orientations).
+
+In fact, the box that the puzzle came in said it should have 2 solutions.
+
+-Dale
+
+

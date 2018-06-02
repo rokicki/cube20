@@ -1,0 +1,52 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Sep 23 12:37:03 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id MAA22987; Wed, 23 Sep 1998 12:37:03 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19980922204717.20206.rocketmail@web1.rocketmail.com>
+Date: Tue, 22 Sep 1998 13:47:17 -0700 (PDT)
+From: "Jorge E. Jaramillo" <kingeorge@rocketmail.com>
+Subject: Moves to this pattern
+To: Cube-Lovers@ai.mit.edu
+
+Hi I just joined the list!
+
+I was wondering if someone could help me with a
+pattern that has been bugging me for a while.
+I have been able to solve the cube to this pattern so
+i know it is a valid one.
+I used one of those on-line solvers entered the
+pattern and then reversed the sequence the solver
+gave me and it indeed gets the pattern i want but
+somehow it seemed too many moves for me for such a
+simple pattern.
+the pattern I am talking about is: the 4 cubelets
+that make the vertex formed by FDR are exchanged with
+the vertex from BDL
+
+Can any one give me the set of moves to get to this
+pattern from a solved cube? Does this pattern have a
+name?
+
+[Here is a] set of moves (they work but I am
+sure there is a shorter way):
+
+D2 F B- L2 F- B D- F B- L F- B D2 F B- L2 F- B D F B-
+L- F- B F B- L- F- B D2 F B- L- F- B D2 R- D- R D- R-
+D2 R D2 L- D- L B D- B- L- D L2 D L- D- F- D- F D B-
+D- B D R D R- D F- B D B- F R D- R- T B- T- B- D- B-
+
+This long set of moves reminds me of something else:
+There are many Rubik cube annimations that you move
+the faces with either the keypad or the mouse. Does
+anyone know of one that follows sets of orders you
+write?
+
+It would be neat to try this long patterns in one of
+those simulators.
+
+Thanks
+===
+Jorge E Jaramillo
+

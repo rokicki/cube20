@@ -1,0 +1,29 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Jun  8 14:34:12 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA16793 for <cube-lovers-outbound@curry.epilogue.com>; Sat, 8 Jun 1996 14:34:12 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <9606080509.AA08027@jrdmax.jrd.dec.com>
+Date: Sat, 8 Jun 96 14:09:59 +0900
+From: Norman Diamond 08-Jun-1996 1409 <diamond@jrdv04.enet.dec-j.co.jp>
+To: cube-lovers@ai.mit.edu
+Apparently-To: cube-lovers@ai.mit.edu
+Subject: Re: Cube Contests
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+Mark Longridge reports:
+
+>I was the sole prize-winning Canadian in the US contests (the 2nd one).
+>Unfortunately, that was not really allowed by the rules so the feat
+>was never recorded in the Ideal newsletters,
+
+Oh.  Did Ideal's rules constrain the entrants to Hungarians only?
+
+Should puzzlers located outside the US boycott Ideal products?
+Unfortunately I didn't know about this in time to do so.
+
+-- Norman Diamond           diamond@jrdv04.enet.dec-j.co.jp
+[Speaking for Norman Diamond not for Digital.]
+
+

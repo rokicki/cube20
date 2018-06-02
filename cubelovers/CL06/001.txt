@@ -1,0 +1,21 @@
+Received: from MIT-MULTICS.ARPA (TCP 1200000006) by AI.AI.MIT.EDU 12 Jan 87 01:15:27 EST
+Date:  Mon, 12 Jan 87 01:07 EST
+From:  Paul Schauble <Schauble@MIT-MULTICS.ARPA>
+Subject:  Sci. Am. reference needed
+To:  Cube-Lovers@AI.AI.MIT.EDU
+Message-ID:  <870112060752.852656@MIT-MULTICS.ARPA>
+
+Perhaps someone on this list can help me locate an item that appeared in
+the Mathamatical Games section of Scientific American.  If memory
+serves, the primary subject of the article was Erno Rubik and the
+Hungarian School of Architecture.  The particular item I am looking for
+is a puzzle that waas given to entering students.  They were shown a
+picture of a monument and were told to duplicate it using paper and
+scissors.  The article contained the picture.  Can anyone give me the
+issue that this appeared in?
+
+And while we're at it, does any have a machine-readable copy of the
+current rules for Eleusis?  If not, the issue they last appeared in.
+
+          Thanks much,
+          Paul <Schauble -at MIT-Multics>

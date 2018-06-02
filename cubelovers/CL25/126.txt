@@ -1,0 +1,48 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Aug 28 07:25:33 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id HAA27336; Fri, 28 Aug 1998 07:25:32 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3.0.32.19980828092911.009738f0@mail.spc.nl>
+Date: Fri, 28 Aug 1998 09:29:12 +0200
+To: cube-lovers@ai.mit.edu
+From: Christ van Willegen <c.v.willegen@spcgroup.nl>
+Subject: Re: Depicting a cube
+
+Bill Webster (haddock@bluep.com) wrote:
+
+>If static, generated images are acceptable, (i.e. if the pattern is more
+>important to your sculpture than its physical realisation in plastic),
+>you could achieve this reasonably easily with a ray-tracer....
+
+Hi,
+
+my first mailing on this list. I've seen some stuff, and thought it
+too hard (at the moment). _This_ discussion, however, I can handle!
+
+
+Another way to do this is in VRML. It's quite easy to build up a model
+of a cube in 3D, including colors.
+
+For a sample of what can be done with VRML in combination with a computer
+program to generate the stuff, go to:
+
+http://www.iaehv.nl/users/richtofe/
+
+Follow the link about 'Triplets'. These are 3D models, inspired by Douglas
+Hofstadter. I have included some examples on that page, as well.
+
+It wouldn't be hard to do the same for a cube model. Writing a text file
+with LRUDTB and ' in it to describe the model, then and generating VRML is
+not too hard.
+
+This has the advantage over PovRAY that you can really rotate the model in
+space, and look at it in all directions.
+
+The mirror idea is nice, but it will mess up the design (Left-Right swap).
+
+More thoughts/ideas?
+
+Christ van Willegen
+

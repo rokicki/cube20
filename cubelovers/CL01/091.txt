@@ -1,0 +1,29 @@
+Date:  9 January 1981 19:40 cst
+From:  VaughanW.REFLECS at HI-Multics (Bill Vaughan)
+Subject:  Re: nomenclature
+To:  Dave Dyer <DDYER at USC-ISIb>
+cc:  CUBE-LOVERS at MIT-MC
+In-Reply-To:  Msg of 01/09/81 18:48 from Dave Dyer
+
+It would seem that there are two needs immediately visible.
+
+One need is for a notation to communicate a metamorphosis of the cube
+from one cube-lover to another hexahedrophile.  This notation should
+capture the spirit of the thing being described; it should be rich and
+chunky (like soup?).
+
+The other need is for an archival notation, for reference and
+cataloguing. It must be spare and canonical.  There must be one and only
+one way to describe a sequence of moves. (Implication: a way to get
+reflections, inversions etc. out of the notation? how?) No nourishment
+for the spirit there, but when you need to look something up...
+
+Well, clearly they can't be the same notation. (Though even the archival
+notation could invoke functions.)  Or can they? Food for thought...
+
+Anyway, plain ole BFUDLR can't do either job decently. Not rich or
+expressive enough for the first need, too expressive for the second
+(gee, I wonder how many ways there are to annotate PONS?)
+
+Well, other people can muddle this out - I'm going home to get some
+dinner.

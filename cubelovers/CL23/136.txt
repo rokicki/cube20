@@ -1,0 +1,40 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug 21 12:54:21 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA19523; Thu, 21 Aug 1997 12:54:21 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From reid@math.brown.edu Thu Aug 21 00:45:19 1997
+Message-Id: <199708210441.AAA22489@life.ai.mit.edu>
+Date: Thu, 21 Aug 1997 00:47:02 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: partial isoglyphs
+
+dan recently introduced the concept of "partial isoglyphs", in which
+some faces are solid, and the others are glyphs of the same pattern.
+i looked into this a little and didn't find much.  only the case
+of two opposite solid faces seems to have many possible glyph types,
+although some of these possible types may have many solutions.
+
+here's what i found
+
+6 solid faces: start
+5 solid faces: no possibilities
+4 solid faces:
+   other two faces opposite:  types 02, 0D and 04 are possible
+   other two faces adjacent:  type 0D is possible
+3 solid faces:
+   mutually adjacent:  type 02 is possible
+   not mutually adjacent:  types 01 and 0D are possible
+2 solid faces:
+   adjacent:  types 01, 02, 0D and 03 are possible
+   opposite:  many possible types 
+1 solid face:  types 01, 02 and 0D are possible
+
+but it seems like herbert's cube explorer program can settle this
+matter completely.  maybe he, or someone else wants to investigate
+this.
+
+mike
+

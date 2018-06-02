@@ -1,0 +1,59 @@
+From cube-lovers-errors@oolong.camellia.org  Sat Jun  7 15:57:59 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id PAA03635; Sat, 7 Jun 1997 15:57:58 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+From: SCHMIDTG@iccgcc.cle.ab.com
+Date: Sat, 7 Jun 1997 1:50:04 -0400 (EDT)
+To: cube-lovers@ai.mit.edu
+Message-Id: <970607015004.21414d85@iccgcc.cle.ab.com>
+Subject: Re: Detailed explanation of two phase algorithm
+
+On the subject of differences between IDA* and the phase1 algorithm,
+Herbert Kociemba wrote:
+
+>Because h0<=9 in phase1 and b=18 for the first node, you generate at
+>most 162 nodes too much, which from a practical point of view is
+>nothing. In the general case, h0<=N, where N is the minimal solution
+>length, and you generate at most (N-1)*b nodes too much - so it really
+>makes no difference.
+
+If one can show that the cost values have a property such that they will
+prune all nodes at levels less then h0, then I would agree with your
+assessment.  However, I do not see why that should necessarily be
+the case as the costs examined at lower levels could be overly optimistic
+with respect to h0.
+
+For example.  Let's say that we are iterating through the search and
+our current depth limit happens to be 5.  Now we examine the first node
+at level one.  Your analysis above assumes that this node (and all others
+at this level for that matter) will be pruned.  Now let's also say that
+I now consult the pruning tables and compute an overly optimistic lower
+bound cost of 3.  We now add the 3 to our current depth of 1 and since
+3+1<5 we would not prune that node.  So if this can occur, I think one
+is actually looking at evaluating b^(h0-1) additional nodes in the worst
+case.
+
+>Does it make a difference if you increase the treshhold to the cost of
+>the lowest-cost node, that was pruned during the iteration or just
+>increase the treshhold by 1, if you start the next iteration? In case of
+>the cube, this question seems a bit academical. I can't believe, that it
+>is possible to omit a certain iteration depth >h0, though I must admit
+>that I found no obvious proof for that using the properties of the
+>heuristic functions in phase1 or phase2 (and it only depends on these
+>functions).
+
+While I believe your phase1 algorithm is certainly ID (iterative deepening),
+I do not believe it is A* since the depth limit is not based purely on
+the cost.  Given an A* search algorithm, certain hard conclusions can
+be proven (such as the guarantee that the first solution found is optimal
+if an admissible heuristic is employed).  I don't know if these same
+conclusions can be proven with the phase1 algorithm.  However, I agree
+that from a purely practical standpoint and considering this particular
+application of the algorithm to the cube problem this *may* not be an
+important distinction.  But I don't think that conclusion has yet
+been fully established.
+
+-- Greg
+
+

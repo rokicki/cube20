@@ -1,0 +1,35 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Oct 12 19:00:32 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA21609
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 12 Oct 1999 19:00:32 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+To: cube-lovers@ai.mit.edu
+From: whuang@ugcs.caltech.edu (Wei-Hwa Huang)
+Subject: Re: Square 1
+Date: 24 Sep 1999 14:04:47 GMT
+Organization: California Institute of Technology, Pasadena
+Message-Id: <7sg0dv$t7s@gap.cco.caltech.edu>
+References: <cube-lovers.Pine.GSO.3.95L.990916110208.4489A-100000@sunny.SOMEWHERE>
+
+Alchemist Matt <monroem@email.unc.edu> writes:
+>	In case anyone is interested, Uwe Meffert is now selling the
+>Square 1.  I've been looking to buy one for a while, and this is the
+>perfect opportunity (www.mefferts-puzzles.com/mefferts-puzzles/index.html).
+>In relation to the Square 1, I once came across a program that claimed to
+>help one solve the puzzle.  I could have sworn I saved it to my hard
+>drive, but now, when I look for it, I can't find it.  I thought it was
+>called Square1.Exe or Square1.Bas Does anybody know anything about this
+>program or have a copy lying around?
+
+A copy is in the cube-lovers archive at
+ftp://ftp.ai.mit.edu/pub/cube-lovers/contrib/square1.exe.gz
+
+The rec.puzzles archive also has some information on solving the puzzle.
+--
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+Piano for sale, cheap.  No strings attached.
+
+

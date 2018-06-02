@@ -1,0 +1,23 @@
+From pbeck@pica.army.mil  Fri Jun 26 13:39:29 1992
+Return-Path: <pbeck@pica.army.mil>
+Received: from COR4.PICA.ARMY.MIL by life.ai.mit.edu (4.1/AI-4.10) id AA04500; Fri, 26 Jun 92 13:39:29 EDT
+Date:     Fri, 26 Jun 92 13:36:42 EDT
+From: Peter Beck (BATDD) <pbeck@pica.army.mil>
+To: cube-lovers@ai.mit.edu
+Subject:  ultimate cube
+Message-Id:  <9206261336.aa13556@COR4.PICA.ARMY.MIL>
+
+name "ultimate cube" is a brand name or TM
+
+my description of its coloring is:
+
+still has six solid colors
+if we visualize a standard cube as 
+a box with 6 stickers, 1 to each flat face
+the the ultimate cube has these 6 stickers
+translated and rotated so that
+4 of these squares come together on a center
+cubie with the diagonal of each square
+laying along the edge of the cube.
+
+

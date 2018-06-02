@@ -1,0 +1,75 @@
+From cube-lovers-errors@oolong.camellia.org  Thu Jun  5 22:52:37 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id WAA09130; Thu, 5 Jun 1997 22:52:37 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+From: SCHMIDTG@iccgcc.cle.ab.com
+Date: Thu, 5 Jun 1997 19:32:06 -0400 (EDT)
+To: cube-lovers@ai.mit.edu
+Message-Id: <970605193206.214149bd@iccgcc.cle.ab.com>
+Subject: Re: Detailed explanation of two phase algorithm
+
+Herbert Kociemba wrote:
+
+>Reading the many contributions in the mailing list in the last days, I
+>state, that the insight im my two phase algorithm solving the cube
+>ranges from misunderstood to partly understood, so I will add some more
+>really detailed explanation here.
+
+Well I must account for most, if not at least some, of the misunderstanding.
+Although I wasn't quite certain, I was previously under the impression
+that since Korf's tables were much larger and took longer to generate that
+they were somehow "better".  I see now that the nature of the tables depends
+almost entirely upon the particular subgroup that is being searched and so
+Korf's tables may not be totally applicable to the specific subgroups
+utilized in your approach.
+
+>The memory requirements for the search algorithm are of the order
+>O(d*log b), where b is the branching factor and d is the solution depth,
+>so it definitely is not breadth-first search with O(b^d) nor is it
+>bidirectional search with O(b^d/2).
+
+Actually, when I mentioned O(b^d/2) for bidirectional search I was
+referring to time complexity as opposed to space complexity.  It still
+strikes me that the two phase search is a form of bidirectional search
+where one searches from both ends and the two solutions must "meet"
+in the middle.  I suppose it depends upon how strict one wants to
+interpret the definition of bidirectional search.
+
+>If you analyze the preceeding phase1 algorithm you will see that it is
+>indeed just an IDA* with lowerbound heuristic functions based on tables.
+
+I do not believe your phase1 is *exactly* IDA* as I think there is a
+subtle difference.  IDA* limits search depth based on reaching a
+cost threshold whereas phase1 simply iterates uniformaly at depth
+1, 2, ... N pruning nodes within the bounds of the current search depth.
+At the start of a search, IDA* consults its heuristic function to determine
+the initial threshold.  As IDA* examines nodes, it keeps track of the
+minimum cost of any node that exceeded the current threshold.  It uses
+that as the cost threshold for the next repeated search.  So IDA* could
+conceivably choose 2, 4, 5, 7, .. N for a sequence of cost threshold's
+(as opposed to 1, 2, ... N) during the search.
+
+It is this aspect of IDA* combined with the notion of an admissible
+heuristic that guarantees that the first solution IDA* finds is optimal.
+(Granted, you are doing a two phase search and optimality of phase1 does
+not guarantee optimality of the combined solution).  I agree that your
+overall search is guaranteed to eventually find the combined optimal
+since it iterates through all possible depth combinations.
+
+I don't know to what extent, if at all, this difference is signficant.  Of
+course if it turns out that in phase1, one always happens to exceed the
+current threshold by 1 for the cube problem, then I think the two algorithms
+would effectively behave identically for this problem.  I don't know if this
+is in fact the case.  But I would say that an initial depth limit computed
+from your pruning tables from the initial cube state would start you off
+searching at a depth greater than one with no loss of optimality.
+
+
+>Herbert
+
+Thank you for the detailed explanation of your algorithm.
+
+-- Greg
+
+

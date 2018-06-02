@@ -1,0 +1,47 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Aug  6 12:37:59 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA01892; Wed, 6 Aug 1997 12:37:58 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From saxonia@imn.htwk-leipzig.de Wed Aug  6 11:44:11 1997
+Date: Wed, 6 Aug 1997 17:40:38 +0200
+From: saxonia@imn.htwk-leipzig.de (Ralf Laue)
+Message-Id: <9708061540.AA24642@imn.htwk-leipzig.de>
+To: Cube-Lovers@ai.mit.edu
+Subject: Rubik's Cube World Records
+
+RUBIK'S CUBE WORLD RECORD LIST
+------------------------------
+
+I have created a list of Rubik's Cube world records in the WWW with the URL:
+http://www.imn.htwk-leipzig.de/~saxonia/list/rubik.html
+
+It is about speed cubing world records and other funny stuff (cube marathon
+record etc.)
+
+I would be glad about comments and corrections to this list. (New record
+categories are very welcome: Particularly I am interested in the 4x4x4 
+cube speed solving world record!)
+If you do not have access to the WWW, just send me an e-mail, and I will send
+you the list by e-mail.
+
+If you have your own WWW site about Rubik's Cube, I would be glad if you
+would create a link to my URL. 
+(The list is a part of my WWW information about unusual world records at 
+http://www.imn.htwk-leipzig.de/~saxonia/homepage.html            )
+
+Very Best Wishes,
+
+Ralf Laue
+
+___________________________________________________________________________
+Please excuse me for a delay in replying to your e-mail.
+I cannot read my incoming mail daily.
+-----------------------------------------------------------------------------
+Ralf Laue              e-mail: saxonia@imn.htwk-leipzig.de
+P. O. Box 80           Read my Homepage about unusual world records:
+04181 Leipzig          http://www.imn.htwk-leipzig.de/~saxonia/homepage.html
+Germany
+-----------------------------------------------------------------------------
+

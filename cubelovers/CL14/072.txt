@@ -1,0 +1,28 @@
+From dlitwin@geoworks.com  Tue Jan 10 14:26:42 1995
+Return-Path: <dlitwin@geoworks.com>
+Received: from geoworks.com (fusion.geoworks.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12974; Tue, 10 Jan 95 14:26:42 EST
+Received: from radium.geoworks.com.geoworks by geoworks.com (4.1/SMI-4.1)
+	id AA14522; Tue, 10 Jan 95 11:23:44 PST
+Date: Tue, 10 Jan 95 11:23:44 PST
+From: dlitwin@geoworks.com (David Litwin)
+Message-Id: <9501101923.AA14522@geoworks.com>
+To: ishius@ishius.com (ishius@holonet.net)
+Cc: cube-lovers@life.ai.mit.edu
+In-Reply-To: <199501101808.KAA07315@holonet.net>
+Subject: Re: Source for Cheap 5X Cubes
+
+
+ishius@holonet.net writes:
+> Yes, these are on sale for $20 plus S/H.  However, I must say that as they
+> are difficult to manufacture, the mechanism is not as smooth as I would
+> prefer, the center cube faces sometimes need to be reglued, and the stickers
+> sometimes slide.
+
+	With regard to the stickers (as far as I can tell just the orange
+side has problems) I had good luck following the suggetions that came with
+mine (written up by Christoph Bandelow).  They recommend placing a piece of
+paper over the cube and ironing (not too hot).  This melts the glue and the
+stickers get a better grip.  I've not had any problems since.
+
+	Dave Litwin
+

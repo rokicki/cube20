@@ -1,0 +1,49 @@
+From BRYAN@wvnvm.wvnet.edu  Sat Dec 10 10:13:39 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10971; Sat, 10 Dec 94 10:13:39 EST
+Message-Id: <9412101513.AA10971@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 5452; Sat, 10 Dec 94 10:13:41 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 1045; Sat, 10 Dec 1994 10:13:42 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sat, 10 Dec 1994 10:13:33 -0500 (EST)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Cubic Symmetry of the 2x2x2 (Again)
+
+The argument has been made that the 2x2x2 cube (or really any 2Nx2Nx2N)
+cube cannot have the "symmetry of the cube".  In order for a real
+2x2x2 cube to have the "symmetry of the cube", you would have to
+adopt unreasonable rules, such as no rotations (or if you use
+rotations they have a cost of at least 2) and the cube is only solved
+when the colors are oriented properly.  But a 2x2x2 cube certainly
+feels like a real cube when you hold it in your hands.  I offer the
+following interpretation that "sort of" gives the 2x2x2 cube the
+symmetry of the cube.  Since I will only be talking about the
+2x2x2, I will simplify the notation by talking about C, G, Q, etc.
+rather than C[C], G[C], Q[C], etc.
+
+As I have discussed several times before, my favorite model for the
+2x2x2 is G/C (or CG/C, if you prefer; G=CG for the 2x2x2).
+The group operation is (xC)(yC)=(uv)C, where u and v are the elements of
+xC and yC, respectively, which fix a particular corner.  (xC)(yC)=(xy)C
+doesn't work because C is not normal.  There is an obvious isomorphism
+between G/C and <q_i, q_j, q_k>, where the three q-turns are those which
+fix the same corner as the selection function for u and v.
+
+There are eight corners, and hence there are eight conjugate selection
+functions and eight conjugate subgroups G_m of the form <q_i, q_j, q_k>
+which fix a particular corner.  If you think of mapping G/C
+simultaneously and in parallel to the all the elements in the set
+{G_1, G_2, G_3, G_4, G_5, G_6, G_7, G_8}, then in a loose sense you
+have preserved the cubic nature of the problem.  That is, none of
+the individual G_m's have the same symmetry as the cube, but in a loose
+sense the entire collection {G_m} does.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

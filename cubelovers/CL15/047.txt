@@ -1,0 +1,53 @@
+From mreid@ptc.com  Mon Feb 20 16:38:19 1995
+Return-Path: <mreid@ptc.com>
+Received: from ptc.com (poster.ptc.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05190; Mon, 20 Feb 95 16:38:19 EST
+Received: from ducie by ptc.com (5.0/SMI-SVR4-NN)
+	id AA04548; Mon, 20 Feb 95 16:36:20 EST
+Received: by ducie (1.38.193.4/sendmail.28-May-87)
+	id AA17023; Mon, 20 Feb 1995 16:51:10 -0500
+Date: Mon, 20 Feb 1995 16:51:10 -0500
+From: mreid@ptc.com (michael reid)
+Message-Id: <9502202151.AA17023@ducie>
+To: cube-lovers@ai.mit.edu, mouse@collatz.mcrcim.mcgill.edu
+Subject: Re:  Qturn Lengths of M-Symmetric Positions
+Content-Length: 1407
+
+der mouse writes
+
+> > 2. The length of Pons Asinorum is of course 12 qturns.  [...]
+> >       d. (FB')(RRLL)         a surprise to me
+> 
+> Surprising, but explicable.  Write PA as (RRLL)(UUDD)(FFBB).  Since PA
+> commutes with everything, [PA](FB') = (FB')[PA].
+
+we've had this discussion before.  pons asinorum does not "commute with
+everything".  however, it does commute with "slices" and with cube
+symmetries.  (which is all you're really using here.)
+
+> >       e. (RL')(FB')(RL')     a surprise to me
+> 
+> Me too.  [ ... ]
+
+the only reason i'm not surprised here is that i've read the archives.
+dan hoey gave this maneuver on jan 7 1981.  also, it was recently
+mentioned by chris worrell (on dec 16 1994).
+
+> > 3. The length of Pons Asinorum composed with Superflip is 20 qturns.
+> >    [...]  I expect we will find that many (or all) of [the midway
+> >    positions for this] are really closely related, differing only by
+> >    commuting in fairly trivial ways, just as do the five half-way
+> >    positions for Pons Asinorum.
+> 
+> Does this mean you see the fifth process for PA as a trivial
+> commutation of the known PA process?  How?
+
+er, i think he means that "many" (i.e. 4) of the 5 maneuvers are closely
+related.
+
+however, i disagree with jerry's conjecture that the maneuvers for pons
+asinorum composed with superflip will be closely related.
+
+i guess we'll know for sure fairly soon.
+
+mike
+

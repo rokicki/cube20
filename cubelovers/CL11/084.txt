@@ -1,0 +1,91 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Thu Jan  6 13:52:03 1994
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24385; Thu, 6 Jan 94 13:52:03 EST
+Message-Id: <9401061852.AA24385@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 6454; Thu, 06 Jan 94 13:21:25 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 5918; Thu, 6 Jan 1994 13:21:24 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 6741; Thu, 6 Jan 1994 13:18:51 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Thu, 6 Jan 1994 13:18:50 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   An Alternate Analysis of B
+
+Here is a definition.  If X is any cube, then the function B
+is defined as B(X) = min (C[i] R[j] X R[j] C[k]) for i in {1 to 24},
+j in {1 to 2}, and k in {1 to 24}, and where C is the set of rotations
+of the cube and R is the set of reflections of the cube.  Then, two
+cubes X and Y are said to be B-equivalent if B(X)=B(Y).  Note that
+the B function calculates the "canonical form" or the "representative
+element" of an equivalence class under M-conjugation and rotation of
+the cube in space.
+
+Dan Hoey already gave a thorough analysis of this situation.  I would
+like to provide an alternative analysis which I hope to be equivalent
+to Dan's.  My analysis will be fairly informal as compared to Dan's.
+
+Here are a couple of preliminaries.  First, multiplication of
+permutations is generally not commutative.  For example, if X is any
+cube, then it is generally not the case that m'Xm=mXm', where m
+is in M, the set of all cube rotations composed with reflections.
+However, we can calculate all M-conjugates of X as B[n]=m[n]' X m[n]
+for n in {1 to 48}, or we can calculate all M-conjugates of X as
+B[n]=m[n] X m[n]'.  Either way, B will be the same set of cubes.  It
+will be in a different order, but it will be the same set.  The reason
+is that the set of all m[n] is the same as the set of all m[n]',
+namely just M, but m[n] is in a different order than m[n]'.  This means
+that as long as we are calculating all M-conjugates as opposed to
+a specific M-conjugate, we can sort of "violate" the normal rules
+about multiplication commutivity.
+
+Second, if X is any cube, consider the set of all rotations of
+X, namely B[i] = X c[i] for i in {1 to 24}, and where c[i] is in C,
+the set of all cube rotations.  Having generated the set of all
+rotations of X, we can rotate as many times as we wish, for example
+B[j] = X c[i] c[j] for i in {1 to 24} and j in {1 to 24}, or even
+B[k] = X c[i] c[j] c[k] for i in {1 to 24}, j in {1 to 24}, and
+k in {1 to 24}.  No matter how many times we multiply, B will be the
+same set, it will just be in a different order.  Conversely, if we
+have any number of adjacent rotations in the multiplication, we can
+eliminate all but one rotation, and B will be the same set, and again
+will just be in a different order.
+
+With the preliminaries out of the way, we note that the set of all
+M-conjugates of X is generated as B[i]=m[i]' X m[i] for i in
+{1 to 48}.  But we can also generate the same set in a different order
+as B[i]=m[i] X m[i]' for i in {1 to 48}.  We can decompose M and
+calculate all M-conjugates as B[i,j]=c[i] r[j] X r[j]' c[i]' for i in
+{1 to 24} and j in {1 to 2}.
+
+But r[1]'=r[1] (r[1] is the identity) and r[2]'=r[2] (the reflection
+is its own complement).  So we have B[i,j]=c[i] r[j] X r[j] c[i]'
+for i in {1 to 24} and j in {1 to 2}.  The set of all c[i] is the
+same as the set of all c[i]' (just in a different order), so we
+define i' as the index for which c[i']=c[i]'.  Hence the calculation
+of an M-conjugate can be written as B[i,j]=c[i] r[j] X r[j] c[i']
+for i in {1 to 24} and j in {1 to 2}.
+
+Finally, we wish to multiply the M-conjugate by the set of all rotations,
+so we have B[i,j,k]=c[i] r[j] X r[j] c[i'] c[k] for i in {1 to 24},
+j in {1 to 2}, and k in {1 to 24}.  But as we noted in our second
+preliminary note, we can collapse multiple rotations into one, and we
+have B[i,j,k]=c[i] r[j] X r[j] c[k], and B will be the set of all
+M-conjugates of X multiplied by all rotations.  I guess I am overusing
+the letter "B" a bit, because the "B" function is simply the minimum
+of the "B" matrix.  But in any case, we have shown that the "B" loop
+in my program is simply calculating the set of all M-conjugates multiplied
+by all rotations.  This is the exact result already proven by Dan Hoey,
+but I found the above derivation a little easier to follow.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

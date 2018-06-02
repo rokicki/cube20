@@ -1,0 +1,99 @@
+From BRYAN@wvnvm.wvnet.edu  Thu Apr 20 12:00:31 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA07555; Thu, 20 Apr 95 12:00:31 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 8132; Thu, 20 Apr 95 11:36:06 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5049; Thu, 20 Apr 1995 11:36:05 -0400
+Message-Id: <wvmail32.1995apr20.104929.bryan@wvnvm.wvnet.edu>
+Date:      Thu, 20 Apr 1995 11:35:56 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <cube-lovers@ai.mit.edu>
+Subject:   Re: Run Times, Storage Requirements, etc.
+In-Reply-To: Message of 02/22/95 at 18:28:13 from mreid@ptc.com
+
+On 02/22/95 at 18:28:13 mreid@ptc.com said:
+
+>i think this can be done much more efficiently.  well, at least if you
+>set things up properly in the first place.
+
+>suppose that you use an order (for sorting positions) in which the corner
+>configuration is more significant than the edge configuration.
+
+Unfortunately, I made the edge more significant for sorting than the
+corner.  I plan to change that in the near future.
+
+Strictly speaking, it would not be *too* bad to simply sort the same
+data in a different order.  But the problem is worse than that.  I also
+made the edge more significant for choosing a representative element
+than the corner.  So I need a new representative element function
+to make the corner more significant for choosing the representative
+element.  Such a change to the program would be trivial, but I would
+have to regenerate the data before it was re-sorted.  Otherwise, the
+"same" corner configuration would not be the same; equivalent corner
+configurations would be M-conjugate rather than equal.
+
+>then, for each position  X  on your huge list, you need to check if
+>repr(X superflip)  is on the list.  since superflip only affects edges,
+>the corner configuration of  X superflip  is the same as that of  X.
+>thus the same holds for  repr(X superflip)  and  repr(X) = X.  therefore,
+>you only need to look for  repr(X superflip)  nearby in the sorted list.
+
+Mike's note raises several interesting points.
+
+Suppose we write a cube Z as the disjoint union XY of corners X and
+edges Y.  (We could say something like Z[C,E] = Z[C]*Z[E], but let's
+keep the notation a little simpler).  A list of cubes in my data
+base would then look something like:
+
+    X1 Y3
+    X1 Y7
+    X1 Y8
+    X2 Y1
+    X2 Y2
+    X2 Y5
+     etc.
+
+If we were sufficiently clever, we might be able to save some space
+by rewriting the list as something like:
+
+    X1 Y3
+       Y7
+       Y8
+    X2 Y1
+       Y2
+       Y5
+     etc.
+
+In other words, store each corner position only one time.  This is
+very similar to some of the indexing schemes that have been described
+to store large numbers of cubes very compactly.  I have used some of
+these indexing schemes for corners only or edges only, but I have
+always rejected them for whole cubes (corners plus edges) because
+the representation is so sparse close to Start.  (and you really can't
+get very far away from Start with whole cubes!)  But the picture above
+just might work.  I'm going to think about it.
+
+Next, notice that Mike's proposal for dealing with Pons Asinorum and
+Superflip results in a cube and its neighbor being stored
+very close together in the data base.  In this case, a "neighbor"
+is a position Z composed with Pons Asinorum or Superflip or both.
+More typically, a neighbor is a position Z composed with an element
+from Q or from Q+H.
+
+What would be really nice (and which may not be possible) is some
+representation for the cube such that a cube Z and its neighbors
+Zq or Zh are stored very close together.  Such a representation
+would be very helpful in particular for searches accomplished with
+massively parallel machines or with farms of workstations.  But I
+certainly have never been able to find such a representation.
+I have yet to fully understand the Sims table (or FHL table) that
+many of you seem to use, so I don't know if it will do the trick
+or not.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

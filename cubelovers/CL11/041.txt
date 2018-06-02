@@ -1,0 +1,24 @@
+From dik@cwi.nl  Thu Dec 16 20:22:01 1993
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA00492; Thu, 16 Dec 93 20:22:01 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA13191 (5.65b/3.12/CWI-Amsterdam); Fri, 17 Dec 1993 02:21:55 +0100
+Received: by boring.cwi.nl 
+	id AA15294 (4.1/2.10/CWI-Amsterdam); Fri, 17 Dec 93 02:21:54 +0100
+Date: Fri, 17 Dec 93 02:21:54 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9312170121.AA15294.dik@boring.cwi.nl>
+To: anandrao@hk.super.net
+Subject: Re: Description of Tangle, Part 2
+Cc: Don.Woods@eng.sun.com, cube-lovers@ai.mit.edu
+
+I would not know sources for Rubik's Maze and Rubik's Hat.  They are on
+sale in the local shops here.  I have looked, the distributer is no
+longer Matchbox but Parker, so that would imply availability in the
+US I think.
+
+dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+home: bovenover 215, 1025 jn  amsterdam, nederland; e-mail: dik@cwi.nl
+

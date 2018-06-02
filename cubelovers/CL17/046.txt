@@ -1,0 +1,17 @@
+From boland@sci.kun.nl  Thu Oct 19 10:21:21 1995
+Return-Path: <boland@sci.kun.nl>
+Received: from wn1.sci.kun.nl by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA12514; Thu, 19 Oct 95 10:21:21 EDT
+Received: from canteclaer.sci.kun.nl by wn1.sci.kun.nl via canteclaer.sci.kun.nl [131.174.132.34] with SMTP 
+	id PAA06003 (8.6.10/2.14) for <cube-lovers@ai.mit.edu>; Thu, 19 Oct 1995 15:21:19 +0100
+Message-Id: <199510191421.PAA06003@wn1.sci.kun.nl>
+To: cube-lovers@ai.mit.edu
+Subject: 3-cycle on edges in group <U,R>
+Date: Thu, 19 Oct 95 15:21:18 +0100
+From: Michiel Boland <boland@sci.kun.nl>
+
+URURU R'U'R'U'R'
+-- 
+Michiel Boland <boland@sci.kun.nl>
+University of Nijmegen
+The Netherlands
+

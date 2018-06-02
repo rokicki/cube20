@@ -1,0 +1,46 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jun  2 22:09:29 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id WAA04771; Mon, 2 Jun 1997 22:09:29 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <v03010d12afb8fa115250@[204.71.18.82]>
+In-Reply-To: <199706022035.VAA05665@mail.iol.ie>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Mon, 2 Jun 1997 18:37:48 -0400
+To: cube-lovers@ai.mit.edu
+From: Nichael Lynn Cramer <nichael@sover.net>
+Subject: Re: 5x5x5 practical Q's
+
+At 9:30 PM +0100 6/2/97, Goyra wrote:
+>> From: Hersch Pilloff <pilloff@radix.net>
+>> I'm proud to say that after significant quantities of blood, sweat, and
+>> tears, I have finally solved the 5x5x5 cube.  I used some techniques from
+>> the good old 3x3x3 cube
+>	Congratulations! I remember going through this about 8
+>years ago, when I got my 5X5. My approach for the 3X3 was to
+>solve the corners, then the middle edges; so those techniques carried
+>over without a change. The rest was simpler, as far as I recall. Trouble
+>was, even knowing the finished procedure, it took about an hour each
+>time.
+
+Ditto congrats.
+
+As far as solving, I find it useful (from a "finger-exercise" point of
+view) to give myself "stunt" solutions to work towards.  For instance with
+the 5X, I like to start with a single center face (say, blue).  Then I
+solve the remaining "ring" of inner blue faces in order.  Then the ring of
+blue edge and corner pieces (again, in circluar order).  Then each
+successively higher "horizontal" slice (again, in order around the cube)...
+and so on until the cube is finished.
+
+Needless to say, some backup is occassionally necessary.  But this can be
+a pleasant way to pass the time.
+
+Nichael
+nichael@sover.net               "Did I forget, forget to mention Memphis,
+http://www.sover.net/~nichael/      Home of Elvis and the ancient Greeks..."
+
+
+
+

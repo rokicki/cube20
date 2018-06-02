@@ -1,0 +1,39 @@
+From rodrigo@lsi.usp.br  Mon Mar 25 19:01:33 1996
+Return-Path: <rodrigo@lsi.usp.br>
+Received: from psychodrome.lsi.usp.br ([200.246.166.193]) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24113; Mon, 25 Mar 96 19:01:33 EST
+Received: (from rodrigo@localhost) by psychodrome.lsi.usp.br (8.6.12/8.6.9) id UAA00197; Mon, 25 Mar 1996 20:57:26 -0300
+Date: Mon, 25 Mar 1996 20:57:25 -0300 (EST)
+From: Rodrigo de Almeida Siqueira <rodrigo@lsi.usp.br>
+To: Cube-Lovers@ai.mit.edu
+Subject: A handling system to fix the Cube
+Message-Id: <Pine.LNX.3.91.960325205532.183A-100000@psychodrome.lsi.usp.br>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+
+ ------- Forwarded message --------
+ Date: Mon, 25 Mar 1996 19:29:21
+ From: jbyland@ln.active.ch
+
+    Name = Byland John
+    URL = http://www2.active.ch/~jbyland/
+    comments = My Name is Johnny Byland and study Computer-Sience at the 
+               Ingenierschule Zuerich. For a work for diploma, we build a 
+               Handling-System, who can fix the Rubik-Cube itself.
+               This System can detect colors and make moves in all
+               relevant axis. We control the system with a PC, programmed 
+               in Delphi. If you have good ideas, how we can solve the 
+               cube as simple as possible (alogorithm etc), we are 
+               recommend, you can send it.
+               
+               Thanks
+                
+                Johnny Byland
+                Dorfstr. 12
+                CH-8330 Pfaeffikon ZH
+               
+               PS: Have a look at http://www2.active.ch/~jbyland/
+               
+               E-mail: jbyland@ln.active.ch
+

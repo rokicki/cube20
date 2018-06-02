@@ -1,0 +1,51 @@
+Date: 30 May 1982 16:30-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: God's number
+To: CUBE-LOVERS at MIT-MC
+
+OK, it's been some time since I pointed out where I keep archives and
+things...  Old cube-lovers mail is archived in the following places: 
+
+MC:ALAN;CUBE MAIL0	;oldest mail in forward order
+MC:ALAN;CUBE MAIL1	;next oldest mail in forward order
+MC:ALAN;CUBE MAIL2	;more of same
+MC:ALAN;CUBE MAIL3	;still more of same
+MC:ALAN;CUBE MAIL	;recent mail in reverse order
+
+(Files can be FTP'd from MIT-MC without an account.)
+
+In addition, I have the following two excerpts from the archives sitting on my
+directory since they contain some of the more asked-for material:
+
+MC:ALAN;CUBE 4X4X4	;Contains some pre-release speculations on the 4x4x4
+			;cube.  Some are out of date, but it contains the only
+			;analysis this list has seen of the 4x4x4 group, I
+			;believe.
+MC:ALAN;CUBE S&LM	;While most of the speculation about the diameter of
+			;the 3x3x3 group is scattered randomly through the
+			;archives, this file contains the single message with
+			;the highest content.  Hoey and Saxe's message on
+			;Symmetry and Local Maxima.
+
+To briefly remind you all of ALL that we know about the diameter of the 3x3x3
+group (refered to as "God's number" in many of our discussions):
+
+We know that God's number is greater or equal to 21 quarter twists.
+ (See Hoey's message of January 9 1981: "The Supergroup -- Part 2 ..." in MAIL1
+ for a good explanation of this, as well as some other interesting bounds.)
+We know that God's number is greater or equal to 18 half twists.
+ (See Singmaster.)
+We know that God's number is less than or equal to 52 half twists.
+ (See Singmaster again, this is Thistlethwaite's algorithm of several years 
+ ago.  I'll bet it's been improved upon by now.  There is a persistent rumor
+ that he was trying for 41.)
+
+We have never bothered to figure out an upper bound on God's number in quarter
+twists ("Q"s).  It must be less than 104 Qs because of the half twist result,
+but we could probably do better than that if we took the trouble to understand
+Thistlethwaite's algorithm.
+
+Proofs of these numbers, and a great deal of other discussion can be found by
+sifting through the archives (unfortunately they are spread all throught the
+files).  I would urge people to sift through the archives before starting any
+new discussions on the subject.

@@ -1,0 +1,44 @@
+Received: from csnet-relay by MIT-MC.ARPA; 24 APR 85 18:42:16 EST
+Received: from ti-csl by csnet-relay.csnet id ab16901; 24 Apr 85 14:45 EST
+Date: 24 Apr 1985 1051-CST
+From: Dan <NICHOLS%ti-csl.csnet@csnet-relay.arpa>
+Subject: information requests
+To: cube-lovers@mit-mc.ARPA
+Received: from csl60 by ti-csl; Wed, 24 Apr 85 12:49 CST
+
+1.  Does anyone know of anywhere I can obtain any of the following
+    puzzles:
+           skewb
+           pyraminx crystal
+           pyraminx ball
+           pyraminx ultimate
+           double pyramid
+
+2. I would very much like to obtain copies of Singmaster's Cubic
+   Circular. I have the first 4 issues, but saw a reference to there
+   being 8 volumes. I would be glad to pay for copying and postage. Can
+   anyone help?
+
+3. Does anyone know the status of Meffert's Puzzle Club?
+
+4. Do Singmaster or Doug Hofstadter have net addresses?
+
+
+   Thanks for any help.
+
+
+ Daniel Nichols
+ 1721 E. Frankford Rd
+ Apt. 1514
+ Carrollton, TX 75007
+
+ ARPA: dnichols%ti-csl@csnet-relay
+ CSNET: dnichols@ti-csl
+ UUCP: {ut-sally,smu,texsun,rice}!waltz!dnichols
+ VOICE: 214-492-3275
+
+
+
+
+-------
+

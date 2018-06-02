@@ -1,0 +1,53 @@
+Date: 17 May 1982 11:39:22 EDT (Monday)
+From: Bernie Cosell <cosell at BBN-UNIX>
+Subject: solving the 4x4x4x4 cube
+To: cube-lovers at mit-mc
+Cc: frye at BBN-UNIX
+
+I've managed to solve C4 in a way similar to those mentioned, but using a
+different transform.  I solve C3 a little differently than most folk because I
+use only one (!) transform to do ALL of the edge work.  On C3 the result of
+this transform is (looking at the edges only):
+               a                            a
+from	    b     c             to      ~d     b
+	       d                           ~c
+
+Using it and its inverse and a few simple conjugates of it I can do all the
+work that is necessary for the edges.  For me, at least, it has the twin
+advantages of 1) being easy to remember (since it is fairly short and there is
+only one of it), and 2) it has such bounded consequences that it is easy to
+fix a cube without requiring a lot of planning (in the picture above, nothing
+that is not shown changes: no other edges, no corners).
+
+Anyhow, since that little move is a favorite of mine, I tried it on C4.  On C3
+it comes in two flavors (the move and its inverse, or as it turns out, the
+right-handed and left-handed versions).  On C4 it comes in four versions: the
+move and its inverse, but each in a `left central slice' and `right central
+slice' version.  Now for the fun part:  First off I started ignoring the
+centers and I noticed that the move (lets call it `M') only moves around edges
+in a single plane.  As I tried to figure out what the damn thing did I
+discovered that it is a move of order 5!!!.  I find it truly hard to plan out
+what happens when five cubes move around a little orbit, but I'm getting better
+at predicting it.  The result is:
+from:                       to:
+	a   b                           a   b
+    c           d                  ~d           e
+    e           f                  ~f           g
+	g   h                           c   h
+
+With some pain I have been able to use ONLY M (and conjugates and powers of it,
+of course) to get all the edges in place.  Then I looked at M a little more to
+see what it did with centers.  This one is NOT planar, unfortunately, but is
+simple enough to be useful: only two sets of centers are affected.  If you are
+doing M on the top (to get the above edge transform), only the top centers and
+the rear centers are affected.  And what happens is that there are two disjoint
+three-cycles each involving two of the top center cubes and one of the rear
+center cubes.  thus, you can easily use conjugates of M to move cubes, one or
+two at a time, into place on all of the faces around any particular top.
+Voila: done!
+
+An amusing thing about M: since its edge permutation is of order 5 and the
+center permutation is of order 3, the damn thing is an order 15 move.
+
+    /Bernie
+

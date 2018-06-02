@@ -1,0 +1,83 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar 15 17:46:20 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA29418
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 15 Mar 1999 17:46:19 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <006c01be6c55$1fdab740$ca685dcb@uwe>
+From: "UMroaming" <uwe@ue.net>
+To: "Cube-Lovers" <cube-lovers@ai.mit.edu>
+Subject: MULTI COLORED PLASTIC SURFACES
+Date: Fri, 12 Mar 1999 14:27:24 +0800
+
+der Mouse <mouse@rodents.montreal.qc.ca> wrote:
+
+>> [...] made me wonder why stickers are being used at all?  As far as I
+>> know, nobody has produced a cube (or variation) where the plastic
+>> "cubies" are colored appropriately without relying on stickers.
+>
+>A while ago, I took the smoothest-acting Cube I have, peeled off all
+>the stickers, took the thing apart, and painted all the facicles.
+>Et voila! no more sticker problems!
+
+
+It is not to difficult to make cubes or other puzzles without stickers and to
+spray paint the surfaces, the price is about the same.  I once made a
+Pyraminx test run using this method.  As David Singmaster mentioned the
+plastic surface under the sticker has some flow lines which are unavoidable
+and the sticker serves in part to hide these imperfections.
+
+>>The one which I bought in India did not have spray-painted
+>>surfaces, it was made out of multicolored plastic.  So I think that
+>>manufacturers can afford it.
+
+The problem with molding the cubes out of colored plastic is the corner
+pieces.  as they have to be molded in 3 different colored plastic, such
+tooling and molding procedure is extremely expensive and I can not imagine
+that India has the technology to produce such an item.  What would make more
+sense is to make the stickers out of small clip on plastic tiles such as is
+used in my Impossiball this would not increase production cost, but totally
+new tooling would need to be made costing around US$50,000.00.  I made a
+survey for my Pyraminx many years ago.  Using either colored plastic tiles
+or the none slip  fluorescent stickers and the stickers won.
+
+>Now, I just need to do that with one of the 5-Cubes I have, the one
+>that's suffering from the Dread Orange Sticker Disease; it's already
+>lost one orange sticker completely, and about four more are so loose
+>that only a piece of masking tape is keeping them with the Cube.
+>(Assuming I can figure out how to get it apart non-destructively.)
+>
+>I agree, it would be much more pleasant if the plastic itself were
+>colored.  But that would require at least six different plastics,
+>instead of one, which is probably why it's not done commercially.
+>Low volume already makes the things expensive....
+
+No problem to use different colored plastics only the corner pieces pose a
+problem.
+
+>On the other hand, I wonder how much more it really would cost to do
+>colored plastics.  Anyone with enough experience in the industry to
+>say?
+
+As mentioned above there would be no cost increase apart from new tooling
+having to be made for the corner pieces and the flow marks on some of the
+surfaces will be noticeable.
+
+The best solution would be spray painting, as is being done with my Orbix
+and the 4 colored rings on my 3D-Puzzle Balls.
+
+I hope that this clears up your discussion on why Manufacturers use
+stickers.
+
+
+Regards
+Uwe
+
+HAPPY PUZZLING
+Uwe Meffert
+P.O. Box 24455, Aberdeen, Hong Kong.
+Tel. 852-2518-3080, Fax. 852-2518-3282
+Email:- uwe@ue.net
+www.ue.edu www.ue.net www.mefferts-puzzles.com
+

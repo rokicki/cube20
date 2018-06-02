@@ -1,0 +1,57 @@
+From @bullet.ecf.toronto.edu:tee@ecf.toronto.edu  Tue Dec 10 18:03:38 1991
+Return-Path: <@bullet.ecf.toronto.edu:tee@ecf.toronto.edu>
+Received: from bullet.ecf.toronto.edu by life.ai.mit.edu (4.1/AI-4.10) id AA20590; Tue, 10 Dec 91 18:03:38 EST
+Received: by bullet.ecf.toronto.edu id <8345>; Tue, 10 Dec 1991 18:03:28 -0500
+From: TEE  LUNS <tee@ecf.toronto.edu>
+To: Cube-Lovers@ai.mit.edu
+Subject: 7x7x7
+Message-Id: <91Dec10.180328est.8345@bullet.ecf.toronto.edu>
+Date: 	Tue, 10 Dec 1991 18:03:14 -0500
+
+ 
+   I was reading through the archives the other night (just signed onto the
+mailing list) and one of the last posts in cube-mail-7 triggered something in
+me head.
+ 
+   The suggestion was to use a fresnel saw to cut all the cubelets out of
+a single chunk of material, with the cut such that the pieces all interlock.
+The interlocking however doesn't need to be quite as intricate as the diagram
+given - why not a simple dovetail?
+ 
+    That's actually to some extent what the 3x3x3 cube is - the center cubelets
+dovetail into the edge cubelets, and the edges dovetail into the corners. It
+just happens that there's enough reduncancy that the outside half of the
+dovetail joints can be disposed of, and the edges made straight while still
+allowing the cube to stay in one piece.
+ 
+    If we have a complete (both sides) locked dovetail, we can actually assemble
+almost all of the cube out of the cubelets. Since the cubelets will always
+require an entry point for their dovetail grooves, there will be a few cubelets
+that have to be attached differently.
+
+    The simplest solution I can think of is to have the dovetail/cublet pair
+seperate, with a countersink on the dovetail, and holes through the other
+cubelets so that we can screw the dovetails (which are already in their grooves)
+onto the last couple of cubelets.
+
+    One drawback with this approach is that the boundaries between layers of
+cubelets will be quite jagged. If the dovetails go right to the surface, one
+has to be *VERY* careful when turning the cube to make sure that all layers
+are lined up in the axes that aren't being turned (this problem plagues the
+magic truncated octahedron I have - pieces pop out all the time). The solution
+is to make the dovetail taper off at its ends so that if it's out of line with
+the groove its going into, it can still correct itself. This will lead to holes
+at the surface though, so the cube won't be too pretty.
+
+    A novelty with this approach though is that no centre is required. We
+could build a hollow 3x3x3 cube with face centres hollow, and see right
+through the cube. This should be possible with larger odd-sized cubes too,
+but there comes a point (probably 7x7x7 again) where mechanical play would
+let middle layers shear enough to pop out cubelets.
+
+    But, if we had the smaller odd-sized cubes trapped inside, not only
+would they help hold the outer layers together, if we made the cubelets 
+mostly transparent, we'd be able to see  what we've had to imagine in the
+past. Now that'd be one heck of a puzzle.
+
+

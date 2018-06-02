@@ -1,0 +1,24 @@
+Date: 12 Jan 1981 10:05 PST
+From: McKeeman at PARC-MAXC
+Subject: Re: nomenclature
+In-reply-to: Isaacs' message of 12 Jan 1981 0929-PST
+To: Isaacs at SRI-KL
+cc: cube-lovers at MIT-MC
+
+Well, lawyers have themselves occasionally been subject to some criticism for
+their "communication with ordinary people".
+
+My dictionary says "Angevine"  has something to do with the line of
+Plantagenet Kings.  I guess the connection is too subtle for me.
+
+More constructively, the Isaacs senior notation seems 1-1 with FLUBRD except
+that it has additional primitives for the slices.  The macro facility some have
+used fills that hole.
+
+The real trick is to find notations with (lots of) formal properties reflecting cubik
+realities.  Partly that is a matter of notation design, but mostly it is a matter of
+deeper understanding of the subject matter.  I do not believe it is an accident
+that great science and great notations have frequently come from the same hand.
+
+Bill
+

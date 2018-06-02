@@ -1,0 +1,35 @@
+Date: 12 Aug 1980 0823-PDT
+From: Davis at OFFICE-3
+Subject: The Spratt Wrench
+To:   greenberg at MIT-MULTICS
+cc:   cube-lovers at MIT-MC
+
+Thanks for sharing the wrench with us.  It is a truly wonderful tool.
+Another question I had had is now answered.  It was basically:  Once I
+get near the end of a solution, I often have more than one set of
+edge flips to do.  Is there some scheme which will easily allow me to
+do more than one.  After staring at how the wrench works it is clear
+that in many cases, with one or two preliminary flips, or flips between
+the applications of the two halves of the wrench, wonderous things can
+be accomplished.
+
+Also, having worked on my own for quite awhile, and being more of a
+mathematician than a computer scientist, I decided that a standard
+rotation was CCW, and most of my algorithms favor turns in that direction.
+In converting the wrench to my own particular quirks (I can't turn things
+CW very well anymore), I discovered that essentially any combination of
+F and F', and of Q and Q' work just fine.  In other words, if "f" stands
+for F or F' and "q" stands for Q or Q', then (fq)^4 (qf)^4 is a wrench.
+(Better leave f and q fixed through the whole transformation, however.)
+
+This next comment is off the subject, but I had been meaning to ask it
+for some time.  I have one of the white cubes, and after reading the
+message some time ago about underwater cubing, my cube "accidentally"
+fell into a pool too.  Well, the white ones float, which I found very
+annoying.  Does anyone know if the specific gravity of the hungarian
+or Ideal cubes is greater than 1?  I'm also not so sure that I would
+recommend that others try to teach their cubes to swim -- mine now
+has a disturbing squeak as it turns -- I fear that something has rusted
+inside.
+Tom Davis
+-------

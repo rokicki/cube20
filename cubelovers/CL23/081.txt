@@ -1,0 +1,58 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Jul 30 10:35:07 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id KAA14669; Wed, 30 Jul 1997 10:35:07 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From nbodley@tiac.net Wed Jul 30 08:15:13 1997
+Date: Wed, 30 Jul 1997 08:11:44 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: "Jin \"Time Traveler\" Kim" <chrono@ibm.net>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: 2^3 Reassembly
+In-Reply-To: <33DE2A54.62F2@ibm.net>
+Message-Id: <Pine.SUN.3.95.970730080230.2403A-100000@sunspot.tiac.net>
+
+On Tue, 29 Jul 1997, Jin "Time Traveler" Kim wrote:
+
+}Nicholas Bodley wrote:
+}
+}>  The cubies are kept together by 12 "clips". These fit into the cutout
+
+{Snips}
+
+}Part of the problem is that the clips weren't all identically shaped. 
+}If all of the clips were shaped the same, then reassembly wouldn't be a
+}problem.  But because they ARE shaped differently, there is a question of
+}whether the position of one is important relative to the position of the
+}others.
+}
+}-- 
+}Jin "Time Traveler" Kim
+}chrono@ibm.net
+
+ It's not likely that there are two or more designs of the 2^3; sorry if I
+misled anyone. I might have been lucky; however, I don't recall needing to
+sort the clips. 
+
+ This >is< something to look out for if you disassemble a 2^3.
+
+ It's likely that the clips for the swiveling long blocks would be
+different from those for the rigid extensions of the "jack". Less likely
+is that the different cavities used to mold several clips at once had
+different shapes where the differences had no effect on operation, but
+anyone familiar with such mechanisms would be able to tell.  The
+mechanical engineer on this project has the answers!
+
+ Sure hope this isn't memory fade; I'm going on 62...
+
+ My best regards to all,
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+
+
+

@@ -1,0 +1,27 @@
+Date: 12 Feb 1981 0816-PST
+Sender: OLE at DARCOM-KA
+Subject: The England Scene
+From: Ole at DARCOM-KA (Ole J. Jacobsen)
+To: Cube-Lovers at MIT-MC
+Message-ID: <[DARCOM-KA]12-Feb-81 08:16:37.OLE>
+
+Yes, cubes are indeed very big here in England due mostly to the fact
+that they have been featured on television several times recently.
+About 3 weeks ago a kid solved a cube in 37 secs on the Saturday mor-
+ning BBC1 show "Multicoloured Swap Shop" (very appropriate name). In
+a follow up a group of people challenged him, but "only" managed it
+in 57 secs. Nothing was however said about local maxima etc, so it
+wasn't a very scientific exercise. The recordholder's solution se-
+quence was shown in slow motion (his hands still seemed to move very
+fast) and as far as I could determine he uses Kertezs's Algorithm,
+i.e layer-by-layer, but with some clever shortcuts rather than just
+using the macros blindly. At the moment cubes are impossible to get
+but we are hoping for a new shipment to arrive soon. A cube club
+will probably be formed here at Newcastle University, Newcastle upon
+Tyne and I would be surprised if other universities won't be doing
+the same.
+
+By the way, has anyone ever tried turning  cube when the temperature
+is 5-6 degrees C? I have, because that is the temperature my room is
+at when I come home at night. English houses are VERY cold.
+Ole

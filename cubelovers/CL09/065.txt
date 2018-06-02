@@ -1,0 +1,21 @@
+From dik@cwi.nl  Sun Nov  8 16:16:16 1992
+Return-Path: <dik@cwi.nl>
+Received: from charon.cwi.nl by life.ai.mit.edu (4.1/AI-4.10) id AA02772; Sun, 8 Nov 92 16:16:16 EST
+Received: from boring.cwi.nl by charon.cwi.nl with SMTP
+	id AA20202 (5.65b/3.2/CWI-Amsterdam); Sun, 8 Nov 1992 21:15:15 GMT
+Received: by boring.cwi.nl 
+	id AA21833 (5.65b/2.10/CWI-Amsterdam); Sun, 8 Nov 1992 22:15:14 +0100
+Date: Sun, 8 Nov 1992 22:15:14 +0100
+From: Dik.Winter@cwi.nl
+Message-Id: <9211082115.AA21833.dik@boring.cwi.nl>
+To: cube-lovers@life.ai.mit.edu
+Subject: Where are the archives?
+
+Can somebody tell me where the cube-lovers archives are maintained at this
+moment?
+
+Thanks, dik
+--
+dik t. winter, cwi, kruislaan 413, 1098 sj  amsterdam, nederland
+home: bovenover 215, 1025 jn  amsterdam, nederland; e-mail: dik@cwi.nl
+

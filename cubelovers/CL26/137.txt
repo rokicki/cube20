@@ -1,0 +1,50 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Mar 10 20:47:02 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id UAA10386
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 10 Mar 1999 20:47:01 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 4 Mar 1999 23:09:00 -0500
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199903050409.XAA24597@cauchy.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Edges only, Ignoring Flips, Face Turn Metric
+
+jerry writes
+
+> I have completed a God's Algorithm run in the face turn metric for the
+> group consisting of edges only ignoring flips.  The size of the group is
+> therefore 12!  The results are as follows:
+[ ... ]
+
+very interesting.  i hope that you'll also do the quarter turn metric.
+
+> I have come to believe that any corners only (with or without twist) or
+> edges only (with or without flip) group, or the group which keeps both
+> corners and edges but without twists and flips, will be a fairly poor
+> pattern data base for IDA*.  The problem is that any such search space
+> will have a diameter which is too small, and more importantly will have an
+> average distance from Start which is too small.
+
+another shortcoming of this coset space for ida* is that transformations
+aren't easy to compute.  for the cosets spaces i've used, they always
+split up as a product of smaller coset spaces.  then i use transformation
+tables for everything.
+
+ida* spend a lot of time moving from a position to its neighbors.
+instead of keeping the cube position, i just keep track of which
+coset i'm in.  then i need to find out what coset i'll be in if i
+apply the turn  F  (for example).  i always do this by using
+transformation tables.  to simplify things, suppose that my coset
+space had 1000000 cosets.  i could use a table with 18 * 1000000
+entries that tells me which coset i go to by applying a given turn.
+if my coset space is a product of two spaces, each with 1000 cosets,
+then i only need a tranformation table with 18 * 1000 entries for
+the first coordinate and one of the same size for the second coordinate.
+
+this is really addressing implementation issues of ida*, not so much
+the effectiveness of it.
+
+mike
+

@@ -1,0 +1,37 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Jul 12 18:04:52 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23708; Wed, 12 Jul 95 18:04:52 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4002; Wed, 12 Jul 95 18:04:54 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 0388; Wed, 12 Jul 1995 18:04:54 -0400
+Message-Id: <wvmail32.1995jul12.175712.bryan@wvnvm.wvnet.edu>
+Date:      Wed, 12 Jul 1995 18:04:53 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Re: Partial Results, Edges only (with Face Centers), Qturns
+In-Reply-To: Message of 07/12/95 at 10:31:10 from BRYAN@wvnvm.wvnet.edu
+
+On 07/12/95 at 10:31:10 Jerry Bryan said:
+
+>It might be noted that the length of this position
+>is also 8q on an edges-only-without-centers cube (see my note
+>of 8 Dec 1993 22:41:38).
+
+Uh, the 8 Dec 1993 22:41:38 note concerns the Superflip composed
+with the 6-H.  The plain old 6-H was 8 Dec 1993 23:16:50.
+
+The length of the Superflip composed with the 6-H in edges-without-
+centers was 13.  The position is even, so the length must be
+at least 14 in edges-with-centers.  My search of edges-with-centers
+has not gotten that far yet.  Also, the length 13 Superflip 6-H
+process for edges-without-centers induces an invisible rotation,
+so it is not as pretty as the length 8 process for 6-H which does
+not induce an invisible rotation.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

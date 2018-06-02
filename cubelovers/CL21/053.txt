@@ -1,0 +1,189 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Nov 14 14:06:14 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA06978; Thu, 14 Nov 1996 14:06:13 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 14 Nov 1996 08:33:29 -0500 (EST)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: y'xy vs. yxy'
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-id: <Pine.PMDF.3.91.961114075359.20973G-100000@PSTCC6.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+
+
+As promised, here is my followup on why the conjugate of x by y is y'xy
+rather than yxy'.  Recall that y'xy informally means undo y, then do x,
+and finally do y.  It seems strange to undo something before you do it,
+but nonetheless y'xy is the conventional definition of congugacy rather
+than yxy'. 
+
+My first reference is Singmaster, Notes on Rubik's 'Magic Cube', Fifth
+Edition, pp. 57-58. We adopt left to right notation so that (a)xy=y(x(a)).
+a is the argument, and x and y are permutations which are composed left to
+right. 
+
+I paraphrase slightly, but here is what Singmaster says.  We desire the
+conjugate of x by y to be x shifted by y.  By "x shifted by y", we mean
+the following.  Suppose in cycle notation we have x=(...,a,b,c...).  Then,
+x shifted by y is z, where z=(...,(a)y,(b)y,(c)y,...).  I will defer the
+presentation of Singmaster's proof, but the final conclusion is that
+z=y'xy.  So our definition of the conjugate of x by y becomes y'xy.  By
+contrast, we have yxy'=(...,(a)y',(b)y',(c)y',....), or x shifted by y'. 
+
+While I was chasing down this reference in Singmaster, a message arrived
+from Dan Hoey giving an alternative justification for the y'xy definition. 
+I will quote Dan's message extensively.  Dan first credits Jim Saxe with
+the explanation, and then goes on to say the following. 
+
+
+>                     Suppose we are conjugating elements of a group X
+>by elements of a group G.  Congugation by an element g induces a
+>permutation on X.  
+
+This is a very old idea in Cube-Lovers.  I believe the first occurrence is
+in Symmetry and Local Maxima.  Elements of the standard cube group G were
+conjugated by elements of the set M of rotations and reflections of the
+cube.  Conjugation of all the elements of G by a fixed element m of M were
+viewed as a permutation on G. 
+
+We denote m'gm by g^m for fixed g in G and fixed m in M.  We then denote
+{m'gm | m in M} as g^M and {m'gm | g in G} as G^m.  I normally tend to
+think of M-conjugation in terms of g^M -- that is, take one fixed element
+g and calculate its 48 M-conjugates.  By contrast, G^m means take each g
+in G and calculate m'gm using the same fixed m for each g.  It is G^m
+which is a permutation on G. 
+
+Dan continues:
+
+>                   It is useful to have the mapping from g to its
+>conjugation permutation be a homomorphism into S[X].  Suppose f is the
+>mapping
+>
+>    f: a -> {x -> a' x a}.
+>
+>To make this a homomorphism, we must have
+>
+>    f:a.b -> f(a).f(b)
+>
+>so    {x -> (a.b)' x (a.b)} = {x -> a' x a} . {x -> b' x b}.
+>
+>The right hand side is the product of two permutations.  
+
+Indeed.  It's probably obvious to everybody else how to form the indicated
+composition of the two permutations, but I was bumfuzzled for a while. 
+Once I figured it out, I just kicked myself for being so dense.  Let me 
+explain.
+
+My day job is as a bureaucrat, but most semesters I am also adjunct
+faculty teaching elementary algebra and calculus.  As such, I end up
+teaching simple funcions -- e.g., f(x) = x^2 + 1. You teach students to
+calculate such things as f(2) or f(3).  Then, you teach them such things
+as f(a) and try to explain that "x is a variable" but "a is a constant
+that you just don't know the value of".  Finally, you get into such 
+things as f(a+b) or f(x^2 + 1).  
+
+The latter is the one that really confuses most of my students.  They can
+handle "replace x with 2" or "replace x with a".  But they have great
+conceptual difficulty with "replace x with x^2 + 1".  The truth is, it is
+a bit of a different concept because it is really function composition in
+disguise, although most elementary math books don't teach function
+composition for several chapters after introducing functions. 
+
+Anyway, with Dan's equation we really just have a function composition
+where in the end we replace x with a'xa.  So x->b'xb becomes
+a'xa->b'(a'xa)b.  I kick myself because I couldn't quickly figure out the
+same concept that I am forever emphasizing with my students. 
+
+Dan continues:
+
+
+>                                                         If we are
+>writing them left to right, as in f.g (x) = g(f(x)), then it is
+>
+>              {x->b'(a' x a)b} which corresponds to the left hand side.
+>
+>>But we write permutation composition from right to left,
+>f.g(x)=f(g(x)) we would get
+>
+>              {x->a'(b' x b)a} ?
+>
+>for the right hand side, and that is wrong, since a'b' is not (ab)'.
+>
+>>People who write right to left define conjugation by a as
+>f:a->{x->axa'} for this reason.
+>
+
+It seems to me that we could rescue the homomorphism and the yxy'
+definition, but it would be awkward.  We would have to have the mapping
+from g' to its conjugation permutation be the homomorphism, rather than
+the mapping from g. 
+
+Now for Singmaster's proof:  given the cycle in our definition of x, we
+have x:a->b.  We need y'xy:(a)y->(b)y.  But (a)yy'xy=(a)xy=(b)y.  So y'xy
+carries (a)y to (b)y, and we are done. 
+
+Let me finish by talking a little more about the equivalence between
+conjugacy and cycle structure.  Again, this is from Singmaster. 
+
+It is the case in Sn that two elements x and z are conjugate if and only
+if they have identical cycle structure.  Any finite permutation group may
+be viewed as a subgroup of Sn for suitable choice of n.  The theorem may
+or may not be true in any particular subgroup of Sn.  The part about
+conjugates having identical cycle structure is always true.  But the
+converse may or may not be true. 
+
+To say that x and z are conjugate means that there exists some y such that
+z=y'xy.  It's easy to see that if x and z have the same cycle structure,
+then such a y must exist in Sn (e.g., line up the cycles of x with the
+cycles of z, see what goes to what, and that is a y which will work).  The
+problem in the general case is that a subgroup of Sn might contain x and z
+which have the same cycle structure, without also containing an
+appropriate y which would make them conjugate. 
+
+Singmaster shows that the converse of the theorem is true for the
+constructable group of the cube, but that it is not true for the standard
+cube group G.  The counter-example is as follows.  Let x be a 7-cycle on
+the corners and an 11-cycle on the edges -- e.g.,
+
+  x=(C1,C2,C3,C4,C5,C6,C7)(E1,E2,E3,E4,E5,E6,E7,E8,E9,E10,E11).  
+
+Let z be only slightly different (reversing two corners)  --  e.g., 
+
+  z=(C2,C1,C3,C4,C5,C6,C7),(E1,E2,E3,E4,E5,E6,E7,E8,E9,E10,E11)
+
+The obvious conjugating element is y=(C1,C2), which is in the 
+constructable group but which is not in G.  There are other conjugating 
+elements, but they are all of the form
+
+(C1,C2) (C2,C1,C3,C4,C5,C6,C7)^i (E1,E2,E3,E4,E5,E6,E7,E8,E9,E10,E11)^i,
+
+which also are in the constructable group but not in G.  Hence, x and z 
+have the same cycle structure, but are not conjugate in G.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7127
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

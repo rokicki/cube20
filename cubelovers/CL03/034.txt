@@ -1,0 +1,25 @@
+Date: 15 Sep 1981 1553-PDT
+From: ISAACS at SRI-KL
+Subject: lower bounds
+To: Hoey at CMU-10A
+cc: cube-lovers at MIT-MC
+
+  [This message is being sent to Dan Hoey, and refers to his message of
+9-Jan-81, subject: The Supergroup -- Part 2: at least 25 qtw and why]
+   Appended to this message is a longish message I recieved, which has
+some good ideas to use.  In particular, what about using your technique
+on a 2x2x2 cube, or an (idealized) edge-only cube?  And then comparing
+it with his clculations for the 2x2x2.
+   I'm not sure without a 2x2x2 in front of me, but I think there are
+only 2 distinct 1 qtw per set of opposite faces, and only one 2qtw move.
+And that the period is only 2.  Is that true?  However, there should be
+more low-number-of-twists identities.
+   I'm distrustful of the actual calculations in the message below, because
+I don't see the 9 new configurations after only 1 twist.  I think there are
+only 6. Or am I missing something?
+  Also, Dan or someone else on the cube-lovers network: how about compiling
+all the messages about lower bounds and identities (after a while) into 
+one file we can ftp and look at all together.
+11-Sep-81 12:26:52-PDT,6785;000000000001
+Mail-from: ARPAnet host BERKELEY rcvd at 11-Sep-81 1223-PDT
+Date: 11 Sep 1981 11:43:07-PDT

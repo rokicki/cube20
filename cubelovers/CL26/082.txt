@@ -1,0 +1,74 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Dec 18 14:53:20 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA25180
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 18 Dec 1998 14:53:19 -0500 (EST)
+Precedence: bulk
+Mail-from: From cube-lovers-request@life.ai.mit.edu Thu Dec 17 22:07:25 1998
+Date: Thu, 17 Dec 1998 22:06:01 -0500
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199812180306.WAA21451@cauchy.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Optimal Cube Solver
+
+herbert writes
+
+> I do not use the equivalence in the third coordinate as an index in a
+> pruning table. On the contrary, I have to "expand" the coordinate again
+> by a factor of 48 to get equivalence classes, which have the same
+> distance from start and from which I built the pruning table. But due to
+> the large size (12!) of edge permutations, it seems a good way (and I
+> see no other way) to keep track of the edge-permutation-coordinate with
+> only a few table-lookups.
+
+> I now have enough RAM (128MB) to implement a pruning table for all
+> possible coordinates of the first phase of my Two-Phase-Algorithm, which
+> brings the cube into the subgroup H=<U,D,R2,L2,F2,B2>. This is what Mike
+> Reid already did about one year ago and which seems powerful enough even
+> to be used as an Optimal Solver (omitting phase 2, in which the edge-
+> and cornerpermutations are restored). Due to this power I think of
+> implementing a "static" phase 2 only with a table which stores the edge-
+> and corner permutations of all positions up to maybe 5 face-turns in H
+> from start.
+
+> Using the approach for the edge permutation from above,the computation
+> of the starting position of phase 2 should be very fast. In the
+> implementation currently used, I have to switch back from the
+> coordinate-representation of the cube in phase 1 to a more "physical"
+> representation using edges and corners, apply the maneuver generated in
+> phase 1 and then compute the starting coordinates of phase 2. In the new
+> approach only coordinates could be uses.
+
+
+herbert, you might be interested in what my sub-optimal program
+(the one based on your two-stage algorithm) does about edge
+permutations.  i have this extra coordinate i call "sliceedge",
+(really this is just another coset space) which considers the
+locations of four distinguishable edges.  there are 12*11*10*9 = 11880
+possibilities for this coordinate.  when the cube is entered, it
+calculates the corresponding coordinate for edges in the U-D slice,
+also for edges in the F-B slice, and also for the R-L slice.
+then i have lookup tables to tell me how this coordinate transforms
+under turns.  this lookup table is 18 * 11880 shorts = 427680 bytes.
+
+when stage 2 is reached, i have a lookup table that maps this
+coordinate into permutations of the four U-D slice edges.  actually,
+only 24 of the entries are valid, but only these occur, since we've
+reached stage 2.  this lookup table is 11880 chars.
+there's also a lookup table to transform the "sliceedge" coordinate
+into another coordinate, which gives the locations of four
+distinguishable edges among the eight U and D edges.  this coordinate
+has 8*7*6*5 = 1680 possibilities, and the lookup table is 11880 shorts.
+
+the big lookup table is the one that takes two of these last coordinates
+and transforms it into a permutation of the eight U and D edges.
+this table has 1680 * 1680 shorts = about 5.5 megabytes.  most of
+the entries are garbage, only 40320 = 8! actually occur, since we've
+reached stage 2.
+
+so for about 6 megabytes of space, all the edge permutations are done
+with lookup tables.  i haven't actually calculated how much of a speed
+up this is, but it's probably good.
+
+mike
+

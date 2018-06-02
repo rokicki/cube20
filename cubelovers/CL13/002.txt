@@ -1,0 +1,148 @@
+From BRYAN@wvnvm.wvnet.edu  Wed Sep 21 11:32:38 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA17783; Wed, 21 Sep 94 11:32:38 EDT
+Message-Id: <9409211532.AA17783@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 7073; Wed, 21 Sep 94 11:31:44 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 6772; Wed, 21 Sep 1994 11:31:44 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 21 Sep 1994 11:31:42 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   M-Conjugate Classes as a Group
+
+C is the set of twenty-four rotations of the cube.  After much
+bungling (see my notes of 13 Feb 1994, 23 May 1994, and 19 July 1994),
+I showed that the left cosets of C, denoted by xC or {Xc}, form
+a group, and that the group is isomorphic to a subgroup of G.  I consider
+this to be important because I use left cosets of C to model
+centerless cubes.
+
+M is the set of forty-eight rotations and reflections of the cube.
+I often model the cube with M-conjugate classes of the form {m'Xm}.
+Therefore, it seems that I should try to define an operation such that
+the M-conjugate classes form a group, and such that the group is
+isomorphic to a subgroup of G.
+
+I would like to start by reviewing briefly the results for left cosets.
+Two operations were defined:
+
+   1.a.  {Xc} * {Yc} = {(VW)c}
+   1.b.     V ** W   = (VW)
+
+where V and W are representative elements of {Xc} and {Yc}, respectively.
+Further, the mapping V <--> {Vc} defines an isomorphism between the
+set of left cosets and the operation * on the one hand, and the set of
+representative elements and the operation ** on the other hand.  Since
+the ** operation is simply normal cube multiplication and since the
+set of representative elements are a group under **, the set of
+representative elements form a subgroup of G.
+
+I tried to define groups without using representative elements and failed.
+Not only that, the representative elements had to be selected in a
+special way rather than arbitrarily.  For example, we could choose as
+the representative element of {Xc} the unique element V such that the
+ur cubie is positioned properly.
+
+Positioning the ur cubie properly is not the only selection function for
+a representative element which will work, but any selection function must
+satisfy two criteria in order to work:
+
+    A. It must select a representative element based on a property which
+       is possessed by exactly one element of each coset.
+
+    B. There must be closure in the sense that if V is the representative
+       element of {Xc} and W is the representative element of {Yc},
+       then (VW) must be the representative element of {(VW)c}.
+
+Criterion #B merits some additional discussion.  First, it is the
+criterion that really proves you have a group.  Associativity
+for a subset of a group generally follows from the the associativity
+of the group.  For a finite group, closure for a subset implies
+the identity and the complement for the subset, so closure is the key
+factor in demonstrating that a set of cubes is a group.  Second,
+criterion #B will bear directly on our attempt to define a group
+operation for the M-conjugate classes.
+
+Suppose we choose not to require criterion #B.  We still need to
+have closure in order to have a group.  We could obtain closure by
+brute force as follows:
+
+   2.a.  {Xc} * {Yc} = {(Repr{(VW)c})c}
+   2.b.     V ** W   = Repr{(VW)c}
+
+It is probably a little easier to see what is going on in equation
+2.b. than in 2.a., but it is the identical mechanism in both cases.
+Suppose we don't have closure.  That is, suppose the selection
+function operates in such a way that if V is the representative
+element of {Xc} and W is the representative element of {Yc} that
+(VW) is not necessarily the representative element of {(VW)c}.
+We can still find the representative element of {(VW)c} by simply
+applying the selection function, which we have done.
+
+Equations 2.a and 2.b define groups, where the left cosets are
+a group under * and the representative elements are a group under
+**.  Furthermore, the mapping V <--> {Vc} defines an isomorphism
+between the two groups.  But even though the set of representative
+elements is a subset of G, and even though they form a group under **,
+they are not a subgroup of G.  The problem is that the operation
+** as defined by equation 2.b. is not the same operation as
+standard cube multiplication as it was in equation 1.b.
+
+Now, let's look at M-conjugate classes.  By analogy with the left
+coset case, there are two possibilities to define a group:
+
+   3.a.  {m'Xm} * {m'Ym} = {m'(VW)m}
+   3.b.       V ** W     = (VW)
+
+   4.a.  {m'Xm} * {m'Ym} = {m'(Repr{m'(VW)m})m}
+   4.b.       V ** W     = Repr{m'(VW)m}
+
+As before, X and Y are any cubes in G, and V and W are the
+representative elements of {m'Xm} and {m'Ym}, respectively.
+
+In order to make 3.a. and 3.b. work, we need some characteristic
+which can be used by the selection function which possesses the
+properties of uniqueness and closure as defined by #A and #B
+above.  But I can't think of any such property, and I don't think
+such a property exists (see below).
+
+4.a and 4.b certainly work.  That is, they define operations
+* and ** under which the set of M-conjugate classes and the set
+of representative elements, respectively, form groups, and the
+groups are isomorphic under the mapping V <--> {m'Vm}.
+However, the groups fail to be subgroups of G for the same reason
+elements of left cosets fail to be subgroups of G under equation 2.b.
+Namely, the ** operation is not really the same operation as
+normal cube multiplication.
+
+As to the question of whether 3.a. and 3.b. can be made to work,
+I think we can prove that they cannot.  Suppose the contrary.
+That is, suppose that there is some property such that it is
+possessed by exactly one element of each M conjugancy class and
+such that the normal cube product of two such elements also
+possesses the property.  Then, it would be the case that the
+set of representative elements would be a subgroup of G.  But the
+number of representative elements is the same as the number of
+M conjugate classes, and the number of M conjugate classes is
+known not to divide the number of cubes in G evenly.  Hence,
+the set of representative elements of M-conjugate classes is not
+a subgroup of G.  Working backwards contrapositively, the desired
+property cannot exist.
+
+So, the final result is that the set of M conjugate classes can be
+made into a group, and the set of representative elements of the
+M conjugate classes can be made into a group.  But neither group
+is a subgroup of G, nor is either group isomorphic to any
+subgroup of G.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

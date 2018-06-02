@@ -1,0 +1,33 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Jul  3 19:36:59 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA08757; Wed, 3 Jul 1996 19:36:59 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 3 Jul 1996 15:17:59 -0300
+From: FERNANDO VON REICHENBACH <reichen@cnea.edu.ar>
+Message-Id: <199607031817.PAA08199@cnea.edu.ar>
+To: Cube-Lovers@ai.mit.edu
+Subject: Spanish moves
+
+  Hi! I'm Isidro, (I'm telling so cause I share my mail address)
+This is the spanish moving convetion:
+  Up = Arriba
+  Dwn = Bajo (abajo)
+  Lft = Izquierda
+  Rgt = Derecha
+  Front = Frente (Same letter :)
+  Back = Tras (atras)  (This is the one which is confusing, cause the
+same letter "B" means differnt things. And I don't have no formulas on
+my PC, only some sheets of papers from the '81-'82 and in my head, so
+a trnaslating program (very easy to do) it's useless, these last days
+I started thinking formulas movements in english, I guess it's the best
+choice if we want to exchange things, though I have to recheck everything
+to avoid mistakes...
+PS: By the way: Which is the preferred convention: U' U3 U- or what?
+    Where can I obtain programs for trying to find formulas?
+	(I started one myself in Pascal, just interprets moves)
+
+Isidro Costantini       Zappa/Hendrix/King Crimson music lover
+  Olivos, Bs.As.        PC hard/soft technician
+
+

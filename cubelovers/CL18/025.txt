@@ -1,0 +1,84 @@
+From alan@curry.epilogue.com  Thu Dec  7 02:44:55 1995
+Return-Path: <alan@curry.epilogue.com>
+Received: from curry.epilogue.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23735; Thu, 7 Dec 95 02:44:55 EST
+Received: (from alan@localhost) by curry.epilogue.com (8.6.12/8.6.12) id CAA01816; Thu, 7 Dec 1995 02:44:49 -0500
+Date: Thu, 7 Dec 1995 02:44:49 -0500
+Message-Id: <7Dec1995.013844.Alan@LCS.MIT.EDU>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+Subject: Magazine Spam
+To: Cube-Lovers@ai.mit.edu
+
+So I thought it was time to send you all an update on unwanted magazine
+advertisements that have been broadcast over Cube-Lovers about once a week
+for the last few months.  Here's the final story.
+
+First off, there is absolutely -nothing- that I can do IN THE SHORT TERM to
+stop these advertisements.  Internet electronic mail was not designed to
+prevent unwanted advertising.  As things are set up now, Cube-Lovers is a
+simple mailing list, so anybody, anywhere, can send mail to Cube-Lovers and
+you all get it.
+
+It turns out that the source of the advertising we've been getting is a
+fellow named Kevin Jay Lipsitz <krazykev@kjl.com>.  I've written directly
+to Mr. Lipsitz politely asking him to remove Cube-Lovers from his list of
+advertising targets (it was hard to be polite, but I was) -- but Mr.
+Lipsitz apparently doesn't answer his electronic mail.  Actually, I doubt
+he even -reads- his electronic mail, because he is a well-known Spammer,
+and probably gets hundreds of complaints a day delivered to his address.
+(For those of you new to the Internet, "Spamming" is the technical term for
+the kind of advertising Mr. Lipsitz engages in.)
+
+I really doubt that Mr. Lipsitz's technique has sold any magazines to any
+of -you-, but I suppose he gets enough suckers to make it pay, and he's got
+no motivation to bother removing Cube-Lovers, since MIT is paying for the
+resources that he's using to reach you all.  So we're stuck with him.  At
+least we're stuck with him until I can get the filtering technology in
+place to cut him off.  Which I wanted to avoid, because I have better
+things to do with my time, but now I have no choice.  So relief from Mr.
+Lipsitz's magazines is on its way eventually, but probably not until
+you've seen several more copies of his advertisement -- sorry.
+
+By the way, here's more information on Mr. Lipsitz.  You'll notice that he
+has his own domain name: KJL.COM.  They don't give you a domain name unless
+you provide a mailing address and a phone number, so the following
+information is publicly available from the NIC:
+
+   Kevin Jay Lipsitz (KJL-DOM)
+      PO Box 120990
+      Staten Island NY  10312-0990
+
+      Domain Name: KJL.COM
+
+      Administrative Contact, Technical Contact, Zone Contact:
+	 Lipsitz, Kevin Jay  (KJL2)  krazykev@KJL.COM
+	 718-967-1234
+
+      Record last updated on 25-Aug-95.
+      Record created on 20-Apr-95.
+
+      Domain servers in listed order:
+
+      NS1.ABS.NET                  206.42.80.130
+      NS2.ABS.NET                  206.42.80.131
+      NS1.NET99.NET                204.157.3.2
+
+If you want proof that this is the guy, you need only note that the address
+given here is the -same- as the address for ordering magazines given in all
+those advertisements.  The phone number is in the same area code and
+exchange as the Fax number he sometimes gives.  (Although the fact that the
+phone number ends in "1234" makes me suspect it is bogus -- I don't think
+think the NIC tries to -verify- any of this information.)  Notice that
+ABS.NET provides the domain service for KJL.COM.  You will find that
+ABS.NET is no more interested in answering your mail than Mr. Lipsitz is.
+
+Finally, I urge you all -not- to respond to this message in public.  If you
+have further thoughts on Internet advertising, electronic mailing list
+administration, or clever acts of revenge, you can send them to -me-, but
+don't CC your message to Cube-Lovers as a whole.  The whole point here is
+to keep Cube-Lovers relatively free of off-topic mail.  As the list
+administrator I get to send out occasional administrivia such as this
+message because I do actual -work- to keep the list running.  
+
+			- Alan (Cube-Lovers-Request@AI.MIT.EDU)
+

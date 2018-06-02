@@ -1,0 +1,47 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 20 14:44:20 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id OAA08578
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 20 Nov 1998 14:44:17 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3654ED01.E6D38EE8@hurstlinks.com>
+Date: Thu, 19 Nov 1998 23:16:01 -0500
+From: "Guy N. Hurst" <gnhurst@hurstlinks.com>
+Organization: HurstLinks Sites On the Internet <http://www.hurstlinks.com>
+To: "Jorge E. Jaramillo" <kingeorge@rocketmail.com>
+Cc: cube <Cube-Lovers@ai.mit.edu>
+Subject: Re: The Cylinder
+References: <19981117105414.18936.rocketmail@attach1.rocketmail.com>
+
+I have seen one or both of these puzzles, and they were very different
+from each other.  The cylinder, or prism, was actually the first cube
+I learned to solve, when my cousin from Luxembourg visited back in
+1981. I have pleasant memories of it, because it was very well made
+and pleasing to view. It is harder to solve than the cube since the
+four of the edges are "cut", so it is impossible to match edges to
+centers - leaving the possibility of having to backtrack later and
+figure out which "corner" (and matching edge) is in the wrong place!
+But I had it down and could quickly readjust (usually had to swap
+corners diagonally in the top two layers if I found a single flipped
+edge left in the bottom layer when almost done solving it, if I
+remember).
+I liked it so much, I requested and obtained 4 more after my cousin
+returned to Europe! I would take them to school, one at a time, until
+(unfortunately) they all eventually disappeared. At least two were
+stolen out of my (locked) locker on different occasions.  Someone else
+liked them, too.
+Anyway, I never found that puzzle in the US, and could only get it
+from my cousin in Europe. (Who I think may have gotten them from
+England).
+But the other puzzle, as described by the moderator, was available in
+the US back then, I think in the following year or so after my cousin
+visited, since one of my friends had one. But it wasn't as nice
+looking or well made.  So I didn't care for it. It was more like the
+cube with its corners cut, forming rectangles and triangles in a
+spherical symmetry, as opposed to the prism from Europe which has four
+of its 3-piece-edges cut, forming only rectangles and having a
+cylindrical symmetry.
+
+Guy N. Hurst
+

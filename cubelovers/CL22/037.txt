@@ -1,0 +1,126 @@
+From cube-lovers-errors@curry.epilogue.com  Sun Mar 23 14:19:14 1997
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id OAA02111; Sun, 23 Mar 1997 14:19:14 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <199703231549.QAA15923@sun529.rz.ruhr-uni-bochum.de>
+Comments: Authenticated sender is <bandecbv@mailhost.rz.ruhr-uni-bochum.de>
+From: bandecbv@rz.ruhr-uni-bochum.de
+To: cube-lovers@ai.mit.edu
+Date: Sun, 23 Mar 1997 17:47:14 +0000
+MIME-Version: 1.0
+Content-type: text/plain; charset=ISO-8859-1
+Content-transfer-encoding: Quoted-printable
+Subject: Super-skewb
+Priority: normal
+X-mailer: Pegasus Mail for Windows (v2.42a)
+
+> Anybody have any good moves ... (Stan Isaacs, 19 Feb 1997) 
+> Several people asked ... (Stan Isaacs, 20 Feb 1997)
+>
+Hi, Cube-Lovers!
+My name is Chistoph Bandelow, and I am new in this exclusive club.
+Having finally aquired a modem and the necessary software a few weeks 
+ago, I'm still overwhelmed and confused by everything. I have read 
+all the contributions from July 1996 till now and the complete "Index 
+by Subject". 
+
+To begin with something, I would like to make some remarks about the
+Skewb, especially the wonderful Skewb variations made by Tony Fisher.  I
+suggest to call them "Fisher's Icosahedron", "Fisher's Dodecahedron", and
+so on..Owing all of these puzzles, I am very enthusiastic because of their
+originality and first-class quality. Just in case you are considering to
+acquire one or the other from him: Tony Fisher is a very reliable, modest
+and decent person.
+
+THE SKEWB has been first described to a larger public by Douglas R. 
+Hofstadter in the July 1982 edition of Scientific American. This 
+treatise is included in Hofstadter's book "Metamagical Themas" (Basic 
+Books 1985 and Bantam Books 1986). It was here where Hofstadter 
+suggested the name 'skewb' as a reminder of skew and cube. 
+One of the wonderful features of the Skewb is that we don't have to 
+quarrel how to count single moves: no trouble with outer layer moves 
+versus slice moves or with 90=B0 moves versus 180=B0 moves, there is just 
+one type of move rotating one half of the Skewb by 120=B0 against the 
+other half. 
+>From 1985  to 1988 I had an intensive correspondence with Ronald 
+Fletterman where I used the following 
+
+NOTATION: Hold the (ordinary cubical) Skewb such that there is a 
+unique Right upper corner, Left upper corner, Front upper corner and 
+Back upper corner. R, L, F and B respectively denote a clockwise 120=B0 
+rotation  of the associated half cube (as seen from the outside). R', 
+L', F' and B' denote counterclockwise turns. Small letters r, l and 
+so on are used for rotations around the bottom corners. Though this 
+notation is short and handy, it is probably not as good as the one 
+used by D. J. Joyner in his Skewb page (see 
+http://www.nadn.navy.mil/MathDept/wdj/rubik.html) 
+But I stick on my old notation, especially after Ronald Fletterman, 
+used this notation in two papers in CFF (Cubism For Fun, the 
+newsletter  of the Dutch Cubist Club) in which he provides an 
+enormous collection of Skewb maneuvers, see CFF 17 (May 1988) and  
+CFF 18 (September 1988). The square center pieces of the Skewb can 
+only rotate pairwise and only by 180=B0, not by 90=B0. Ronald 
+Fletterman's collection covers these "invisibles". He, the 
+perfectionist,  gives maneuvers for all 5 possible cases: 2 
+neighboring squares, 2 opposing squares, 4 squares all but 2 
+neighborings, 4 squares all but 2 opposing, all 6 squares. However, 
+all his other maneuvers (those for the corner pieces of the Skewb) 
+pay absolutely no heed to the orientation of the center pieces. Every 
+short and elegant solution method for the new Skewb variations of 
+Tony Fisher or for the beautiful round versions of the Skewb like 
+Mickey's Challenge or Sonic's Puzzle Ball or the Mach Balls require 
+maneuvers for the corner pieces which do not twist the center pieces. 
+Some of those maneuvers are given in my 80 page booklet about 
+Mickey's Challenge or about Sonic's Puzzle Ball or on the leaflets 
+accompanying some other puzzle balls from Meffert. Here is a 
+selection:
+
+SOME SUPER SKEWB MANEUVERS. 
+
+1. (FL'R)^6 (18)  twists the 2 neighboring squares on the left side. 
+
+2. R'BLF'L'FRLB'R'FRF'L' (14) achieves the same thing. 
+
+3. FfRr'f'FfF'R'f'rRF'R' (14) twists the top and bottom square. 
+
+4. (RF')^2 (R'F)^2 (8) twists the four top corner pieces: 
+
+... the right and front one clockwise, the left and back one counter-
+
+... clockwise, in short: (+R) (+F) (-L) (-B). 
+
+5. R'FR' (F'R)^2 fF'f (Ff')^2 (14)  twists 2 corner pieces: (+R)(-L)
+
+6. rF'rfR'F'rfR'r'F (11) twists the top front corner piece clockwise 
+
+... and exchanges (3-cycles) the 3 neighboring corner pieces, 
+
+... in short: (+F) (L,R,f). The very last notation does not precisely 
+
+... describe the effect of the maneuver since the orientation of the
+
+... three corner pieces is not given. A remarkable and fundamental 
+
+... difference between Rubik's Cube and the Skewb is that the Skewb 
+
+... does not allow pure corner-3-cycles: It is impossible to achieve 
+
+... (L,R,f) without any other corner piece change! 
+
+CALL TO CUBE-LOVERS: I'm convinced that the maneuvers given above, 
+especially number 2, 3 and 5, may be improved. Who can give shorter 
+maneuvers or a good maneuver for (+L) (+R) (+f) ?
+
+PROPAGANDA. One last remark: I don't want to offend the good rules of 
+netiquette by doing any kind of advertising here. But to avoid 
+unnecessary questions and loss of time, allow me to say that I will 
+send my free mail order cube catalog (1996 edition, this is still the 
+latest) to everybody who requests one and provides his postal 
+address. 
+
+Christoph 
+Christoph Bandelow
+mailto:Christoph.Bandelow@rz.ruhr-uni-bochum.de
+
+

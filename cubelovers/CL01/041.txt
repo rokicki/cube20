@@ -1,0 +1,17 @@
+Date:     6 December 1980 1836-est
+From:     Bernard S. Greenberg       <Greenberg at MIT-Multics>
+Subject:  Re: That 28 move Plummer Cross
+To:       McKeeman.PA at PARC-Maxc
+Cc:       Cube-Lovers at MIT-MC, Plummer.SIPBADMIN at MIT-Multics
+
+I confess to not only having no proof to this proposition, but no
+longer believing it.  The false equivalence of "symmetric" and
+"locally maximal" seemed to me  visually obvious, given that all symmetric
+positions are in fact locally maximal.  If one believes this
+subconsciously, it is but a short step to the conscious "proof" that
+all asymmetric positions are but "on the way" to a symmetric, maximal
+one; this of course, is bogus.  Now a good definition of symmetric
+is also needed here; I assume that what we have been meaning is that
+all rotations of the cube are Isomorphic.  Note that the Plummer and
+Christman crosses don't qualify under this definition.  What is a good
+definition?

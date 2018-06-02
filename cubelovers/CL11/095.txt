@@ -1,0 +1,64 @@
+From @mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU  Wed Jan 12 23:46:28 1994
+Return-Path: <@mitvma.mit.edu,@WVNVM.WVNET.EDU:BRYAN@WVNVM.WVNET.EDU>
+Received: from mitvma.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20019; Wed, 12 Jan 94 23:46:28 EST
+Message-Id: <9401130446.AA20019@life.ai.mit.edu>
+Received: from MITVMA.MIT.EDU by mitvma.mit.edu (IBM VM SMTP V2R2)
+   with BSMTP id 1427; Wed, 12 Jan 94 23:46:31 EST
+Received: from WVNVM.WVNET.EDU (NJE origin MAILER@WVNVM) by MITVMA.MIT.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 7322; Wed, 12 Jan 1994 23:46:31 -0500
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 4696; Wed, 12 Jan 1994 23:43:55 -0500
+X-Acknowledge-To: <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+Date:      Wed, 12 Jan 1994 23:43:54 EST
+From: "Jerry Bryan" <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   |G\M| - the Nineteen Cases We Know
+
+A - |BClass(X)| for X in GC\B (order of B-conjugate class for corners)
+B - |BClass(Y)| for Y in GE\B (order of B-conjugate class for edges)
+C - |GC[A]\B| (number of B-conjugate classes of size A for corners)
+D - |GE[B]\B| (number of B-conjugate classes of size B for edges)
+E - |BClass(X) * BClass(Y)| = |BClass(X)| * |BClass(Y)| / 2
+F - |BClass(X) * BClass(Y)| * |GC[A]\B| * |GE[B]\B| / 48
+    (number of M-conjugates of |GC[A]\B * GE[B]\B)
+
+      A     B       C            D        E                       F
+
+    1152    24  75,392            4   13,824               86,851,584
+    1152    48  75,392            2   27,648               86,851,584
+    1152    72  75,392           12   41,472              781,664,256
+    1152    96  75,392           16   55,296            1,389,625,344
+    1152   144  75,392          110   82,944           14,330,511,360
+    1152   192  75,392           70  110,592           12,159,221,760
+    1152   288  75,392        1,544  165,888          402,296,537,088
+    1152   384  75,392        1,252  221,184          434,952,732,672
+    1152   576  75,392      128,858  331,776       67,149,128,466,432
+    1152  1152  75,392  851,493,140  663,552  887,442,335,689,605,120
+      24  1152       1  851,493,140   13,824          245,230,024,320
+      48  1152       1  851,493,140   27,648          490,460,048,640
+      72  1152       3  851,493,140   41,472        2,207,070,218,880
+      96  1152       1  851,493,140   55,296          980,920,097,280
+     144  1152      14  851,493,140   82,944       20,599,322,042,880
+     192  1152      15  851,493,140  110,592       29,427,602,918,400
+     288  1152     135  851,493,140  165,888      397,272,639,398,400
+     384  1152      32  851,493,140  221,184      125,557,772,451,840
+     576  1152   2,208  851,493,140  331,776   12,995,229,448,765,440
+
+   Total                                      901,082,361,368,033,280
+
+Note that we have covered over 99.99 percent of edge positions (which
+are combined with all corner positions), and over 96.9 percent of
+the remaining corner positions (which are combined with all edge
+positions).  Hence, we have covered about 99.99969 percent of all
+positions.  However, that last fraction of a percent is going to
+be devilishly difficult.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

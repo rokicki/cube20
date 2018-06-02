@@ -1,0 +1,28 @@
+From andyl@harlequin.com  Tue Dec  7 10:33:00 1993
+Return-Path: <andyl@harlequin.com>
+Received: from hilly.harlequin.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02571; Tue, 7 Dec 93 10:33:00 EST
+Received: from epcot.harlequin.com by hilly.harlequin.com; Tue, 7 Dec 1993 10:35:13 -0500
+Received: from phaedrus.harlequin.com (phaedrus) by epcot.harlequin.com; Tue, 7 Dec 1993 10:37:38 -0500
+From: Andy Latto <andyl@harlequin.com>
+Date: Tue, 7 Dec 1993 10:37:37 -0500
+Message-Id: <6474.199312071537@phaedrus.harlequin.com>
+To: Alan@lcs.mit.edu
+Cc: BRYAN@wvnvm.bitnet, Cube-Lovers@ai.mit.edu
+In-Reply-To: Alan Bawden's message of Mon, 6 Dec 93 20:16:26 -0500 <6Dec1993.195513.Alan@LCS.MIT.EDU>
+Subject: Unique Antipodal of the 3x3x3 Edges
+
+   Date: Mon, 6 Dec 93 20:16:26 -0500
+   From: Alan Bawden <Alan@lcs.mit.edu>
+   Sender: Alan@lcs.mit.edu
+
+      Date:      Mon, 6 Dec 1993 18:32:15 EST
+      From: Jerry Bryan <BRYAN%WVNVM.BITNET@mitvma.mit.edu>
+      ...  It is really quite extraordinary and wonderful.  I already knew
+      that there were only four equivalence classes with 24 elements.  Well,
+      two of them are Start itself and its antipodal.  Without further ado:...
+
+   This is very interesting indeed!  
+   So the next natural question would seem to be: What are the -other- two?
+
+Switch each edge with its antipode, with or without flipping all twelve edges.
+

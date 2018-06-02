@@ -1,0 +1,30 @@
+From cosell@bbn.com  Sat Dec  8 15:48:28 1990
+Return-Path: <cosell@bbn.com>
+Received: from WILMA.BBN.COM by life.ai.mit.edu (4.1/AI-4.10) id AA24247; Sat, 8 Dec 90 15:48:28 EST
+Message-Id: <9012082048.AA24247@life.ai.mit.edu>
+Date:     Sat, 8 Dec 90 15:42:21 EST
+From: Bernie Cosell <cosell@bbn.com>
+To: Peter Beck <pbeck@pica.army.mil>
+Cc: cube-lovers@life.ai.mit.edu
+Subject:  Re:  rec & ed computing
+
+Sure....
+
+  -  REC is VERY slanted toward high school students, and so there is
+     very little advanced or profound stuff in there.
+  -  While there is a nod to other worlds, primarily it is all in BASIC,
+     and generally focused on the IBM PC.
+  -  There is a fascination with mindless crunching just to print out
+     numbers that I can't fathom.  A good portion of the articles
+     center on a numbers with some odd property or another, or finding
+     the actual _numeric_ solution to something and usually brute force
+     [or close to it].  The graphics hacks, such as they are, are
+     primarily crunching-based [moire patterns and such].
+
+No real discussion of 'puzzles', for example, nor of the kinds of techniques
+and such you need to partially-tame one of those awful [but real world]
+exponential searches, nor of representing 3D objects or manipulations of them,
+or search strategies, no word problems, etc.
+
+/Bernie\
+

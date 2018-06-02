@@ -1,0 +1,12 @@
+Date: 17 JUL 1980 1635-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: the cross design
+To: RP at MIT-MC
+CC: CUBE-HACKERS at MIT-MC
+
+Yes, the cross design is possible.  I will let BSG try and describe it
+if people want.  It is fairly straightfoward to tell if a position is
+reachable.  I am thinking of onlining the proof that there are 12
+equivalence classes of cubes (I think I have a fairly simplified
+version), and if I do it should contain an algorithm to tell if a
+position is reachable.

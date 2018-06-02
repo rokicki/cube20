@@ -1,0 +1,331 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec  1 15:45:22 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA19069
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 1 Dec 1998 15:45:21 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19981201060918.6975.rocketmail@send104.yahoomail.com>
+Date: Mon, 30 Nov 1998 22:09:18 -0800 (PST)
+From: Han Wen <hansker@yahoo.com>
+Subject: Method for Solving the Professor's Cube (5x5x5)
+To: Cube Lovers <Cube-Lovers@ai.mit.edu>
+Cc: Charles Lin <clin@ibm.net>, Keith Miller <Keith_A_Miller@amat.com>
+
+Hi,
+
+Okay, another so what, big deal.  I finally solved the Professor's
+Cube. For those who may not be familiar, the Professor's Cube is a
+5x5x5 Rubik's cube. Whew that was hard.  It took me a good 4 days to
+figure out all the moves.  Gees, it made the Megaminx seem like
+child's play in comparison.  Once again, Noel Dillabough's Puzzler
+program was an invaluable tool to visualize and experiment with
+various moves.  Thanks Noel!
+
+For those brave souls who would like to conquer this beast, the
+following solution may provide some enlightenment.  It's a layers
+solution, in contrast to the corners-first solution that I have seen
+posted on various web sites. Good luck to you.  The Professor's Cube
+is a truly challenging puzzle.
+______________________________________________________
+Method for Solving the Professor's Cube (5x5x5)
+
+I will use Noel Dillabough's system for referring to various slices or
+layers, as described in his Puzzler's F1 help.
+________________________________________
+Notation:
+
+U - The upper slice
+u - One slice away from the upper slice
+e - The equator slice
+d - One slice away from the lower slice
+D - The lower slice
+
+L - The leftmost slice
+l - One slice away from the leftmost slice
+m - The middle slice
+r - One slice away from the rightmost slice
+R - The rightmost slice
+
+F - The facing slice
+f - Once slice away from the facing slice
+M - The facing middle slice
+b - One slice away from the back face
+B - The back slice
+
+I will use the words "slice" and "layer" synonymously. A "face" is one
+of the six outer slices; namely, U, D, L, R, F or B.  Rotations of the
+middle slices e, m or M will be in the same direction as the U, R and
+F faces, respectively.
+
+Let y denote one of the slices.
+y - represents a clockwise 1/4 turn of the y-slice
+y' - represents a counterclockwise 1/4 turn of the y-slice
+y2 - represents a clockwise 1/2 turn of the y-slice
+(For example, Rrm represents clockwise 1/4 turns using the RIGHT-hand
+of the R, r and m slices.  Ll represents clockwise 1/4 turns using the
+LEFT-hand of the L and l slices.)
+
+Finally, let's consider the pieces or cubelets on any given face.
+There are four types of cubelets: corners, edges, centrals and a
+center.  For a given face, there are 4 corners, 12 edges, 8 centrals
+and 1 center.  With these four types and the intersection of any two
+slices using Dillabough's notation, we can specify the location of any
+cubelet.  For example, consider the F-face:
+
+LU-corner: the corner cubelet on the upper left-hand corner of the
+F-face
+re-central: the central cubelet adjacent and to the right of the
+center cubelet of the F-face
+_______________________________________
+First Layer (U slice):
+
+Solving the first layer is fairly straightforward.  Basically the same
+as solving the Rubik's cube.  The central pieces are the only thing
+really different.
+_______________________________________
+Second Layer (u slice):
+
+1. First, solve for the mid-central pieces (F-face mu, B-face mu,
+L-face Mu, R-face Mu).  Get one of the mid-central piece on the same
+color face, and then rotate it into position by using the "free lane"
+from the opposite face.  For example, let's say we want have a
+mid-central piece at the re position of the F-face.  Use the D-"free
+lane" of the B face to position the mid-central piece without
+affecting your newly completed U slice, by moving: B2 U2 F' U2 B2.
+
+2. Now, solve for the left and right central pieces (F-face lu, ru,
+L-face bu, fu, etc).  Here's where we'll use a genuinely new move.
+Position one of the left/right central pieces on the D-face so that it
+and the position you want to move the cubelet into lie in the save
+vertical slice.  For example, let's say we want to move the left
+central cubelet into the F-face lu position.  Position the left
+central cubelet at the D-face lb position and perform the following
+u-layer DF Swing move:
+
+>From the D-face lb position: l d' l' d' l d2 l'
+
+See how that works?  The corresponding move at the D-face rb position
+is:
+
+>From the D-face rb position: r' d r d r' d2 r
+
+This same concept is used to move the left/right central pieces into
+position for both the Second (u-slice) and Fourth (d-slice) layers.
+
+"Hey, what if my left/right central piece is on the F face? How do I
+move the piece to the D face so that I can apply this move?"  Good
+question.  Position the piece on the F-face ld or rd position and
+apply the corresponding move described above.  That should move the
+cubelet to the D face where you can then apply the move again to move
+it into the correct left/right central position.
+
+3. Finally, solve for the left and right edges (F-face and B-face Lu,
+Ru).  Use the classic Rubik's cube move to rotate an D-edge piece into
+one of the middle layer edge positions.  Namely, if the cubelet is at
+the F-face rD or lD position and the destination position is F-face Ru
+or Lu then perform the following:
+
+F-Edge Swing Moves:
+Destination position F-face Ru: D' R' D R F' R F R'
+Destination position F-face Lu: D L D' L' F L' F' L
+_______________________________________
+Third Layer (e slice):
+
+1. Solve for the left/right central pieces (F-face le, re, L-face be,
+fe, etc).  You'll notice that the DF Swing moves will not work here.
+Darn.  Instead, we'll use the F-Edge Swing move adapted for the l and
+r slices.  Position the cubelet at the F-face md position then perform
+the following:
+
+F-Central Swing Moves:
+Destination position F-face Re: d'r'dD rR f'F' r fF r'R'
+Destination position F-face Le: d l d'D' l'L' fF l' f'F' lL
+
+"Hey,  what if my left/right central piece is on the D face? How do I
+move the piece to the F face so that I can apply this move?"  Same
+problem.  Position the cubelet at the D-face rM position then apply
+the Re F-Central Swing move.
+
+2. Solve for the left and right edges (F-face and B-face Le, Re).
+Again, a slight variation of the F-Edge Swing move will do.  Position
+the edge piece on the F-face mD position and perform the following:
+
+e-Layer F-edge Swing Moves:
+Destination position F-face Re: D' R' D rR F' R F r'R'
+Destination position F-face Le: D L D' L'l' F L' F' Ll
+______________________________________
+Fourth Layer (d slice):
+
+1. First, solve for the mid-central pieces (F-face md, B-face md,
+L-face Md, R-face Md). This is one of the most difficult steps.  The
+mid-central pieces will be on either the d-slice or on the D-face. To
+move them into there correct positions, you'll need to use a few
+modified Rubik's cube moves:
+
+Place the D-face as the U-face when applying these moves:
+
+The following sets of cubelets are affected by these moves:
+cL = (central L-face Lu, edge U-face LM and central U-face lM)
+cR = (central R-face Ru, edge U-face RM and central U-face rM)
+cF = (central F-face mu, edge U-face mF and central U-face mf)
+
+Mid-central Tricycle:
+move: T2(U) = F2 f2 Uu Ll r'R' F2 f2 L'l' rR Uu F2 f2
+action: Permutes the three sets of cubelets (cL, cR, cF) clockwise:
+
+Mid-central Bi-Flip Tricycle:
+move:  S2(B) = L'l' rR bB Ll r'R' U2u2 L'l' rR Bb Ll r'R'
+action: Permutes the three sets of cubelets (cL, cR, cF) clockwise and
+flips the cR and cF sets.  Let's clarify "flipping".  Let's say for
+the cR set you have the colors: blue, (blue, yellow), yellow
+corresponding to the three cubelets. After flipping the cR set you'll
+have the colors: yellow, (yellow, blue), blue.
+
+Use these two moves to position all the mid-central pieces for the
+Fourth Layer.  Now, if you're lucky, and Murphy's Law says that you
+will be, you may end up in a configuration where you'll have three of
+the mid-central pieces positioned properly, but the fourth mid-central
+position will be on the D-face.  Okay, now we're going to start having
+fun.  Position the central cubelet at the D-face lM position (i.e. on
+the left-hand side).  Place the D-face as the U-face and then apply
+the following sequence of moves:
+
+S2(B) T2(U') U2 T2(U) S2(B') U' S2(B')
+
+Yes, all that trouble just to move one mid-central cubelet from the
+U-face to the F-face.
+
+2. Whew, congratulate yourself if you've made it this far.  Now, solve
+for the left/right central cubelets, (F-face ld, rd, L-face bd, fd,
+etc).
+
+Position the left central cubelet at the D-face lf or rf position and
+perform the following d-layer DF Swing move:
+
+>From the D-face lf position: l d l' d l d2 l'
+>From the D-face rf position: r' d' r d' r' d2 r
+
+3. Solve for the left and right edges (F-face and B-face Ld, Rd).
+Again, a slight variation of the F-Edge Swing move will do.  Position
+the edge piece on the F-face lD or rD position and perform the
+following:
+
+d-Layer F-edge Swing Moves:
+Destination position F-face Rd: D' R' D mrR F' R F m'r'R'
+Destination position F-face Ld: D L D' L'l'm F L' F' Llm'
+______________________________________
+Fifth Layer (D slice):
+
+1. Solve for the corner cubelets using standard Rubik's cube moves.
+First, position the corners in their correct locations using the usual
+corner swappers:
+
+Adjacent corners swap: R' D' R F D F' R' D R D2
+Diagonal corners swap: R' D' R F D2 F' R' D R D
+
+And then rotate or twist the corners in position using Sune's move:
+
+Sune's 3-corner twister: : R' D' R D' R' D2 R D2
+
+2. Solve for the mid-edges (mF, RM, mB, LM) using a slight
+modification to the Tricycle moves.
+
+Place the D-face as the U-face when applying these moves:
+
+Mid-edge Tricycle:
+move: F2 U Ll r'R' F2 L'l' rR U F2
+action: Permutes the three edges (LM, RM, mF) clockwise:
+
+Mid-edge Bi-Flip Tricycle:
+move: L'l' rR B Ll r'R' U2 L'l' rR B Ll r'R'
+action: Permutes the three edges (LM, RM, mF) clockwise and flips the
+RM and mF.
+
+3. Solve for the left/right edges (lF,rF, Rf, Rb, lB, rB, Lf, Lb).
+Now, we're going to have some serious fun. The hardest part of this
+step is not getting lost while performing the long sequence of moves.
+Also while spinning all these slices, another difficulty is preventing
+the cube from exploding and keeping the central pieces from twisting
+around.
+
+Again, place the D-face as the U-face with applying these collection
+of moves:
+
+LR-edge Tricycle:
+move: F2 U Lm'R' F2 L'mR U F2
+action: Permutes the three pairs of edges ((Lf,Lb), (Rf,Rb), (lF,rF))
+clockwise:
+
+LR-edge Bi-Flip Tricycle:
+move: L'mR B Lm'R' U2 L'mR B Lm'R'
+action: Permutes the three pairs of edges ((Lf,Lb), (Rf,Rb), (lF,rF))
+clockwise and flips the Rf, Rb, lF and rF.
+
+To get those last remaining cubelets in place, a few more exotic moves
+are necessary:
+
+Definitions:
+T(x) = F2 U x F2 x' U F2
+x1 = L r' R'
+x2 = L l R'
+x3 = L m' R'
+(T(x) is a generalized form of the Mid-edge Tricycle)
+
+X1 = T(x1) T(x1) T(x1)
+X2 = T(x2) T(x2) T(x2)
+X3 = T(x3)
+
+Name: Double pair F swap
+Description: Swap two pairs of edges: (lF - Lb)  and (rF - Rb)
+Move: X2 X1
+
+Name: Double pair F cross swap
+Description: Swap two pairs of edges: (lF -Lf ) and (rF -Rf )
+Move: X1 X2
+
+Name: Double pair R swap
+Description: Swap two pairs of edges: (Rb - Lf) and (Rf - lF)
+Move: X2 X1 X3
+
+Name: Double pair R cross swap
+Decription: Swap two pairs of edges:  (Rb - rF) and (Rf - Lb)
+Move: X1 X2 X3
+
+Name: Double pair L swap
+Description: Swap two pairs of edges: (Lb - Rf) and (Lf - rF)
+Move: X3 X2 X1
+
+Name: Double pair L cross swap
+Description: Swap two pairs of edges: (Lb - lF) and (Lf - Rb)
+Move: X3 X1 X2
+
+Name: LRL-edge Bi-Flip Tricycle
+Description: Permutes (lF, Lf, Rf) edges clockwise and flip lF and Lf
+edges
+Move: X3 X1
+
+Name: LLR-edge Bi-Flip Tricycle
+Description: Permutes (lF, Lb, Rb) edges clockwise and flip Lb and Rb
+edges
+Move: X1 X3
+
+Name: RRL-edge Bi-Flip Tricycle
+Description: Permutes (rF, Lf, Rf) edges clockwise and flip Lf and Rf
+edges
+Move: X2 X3
+
+Name: RLR-edge Bi-Flip Tricycle
+Description: Permutes (rF, Lb, Rb) edges clockwise and flip rF and Lb
+edges
+Move: X3 X2
+
+With these collection of moves, you should be able to finish off the
+Professor's Cube!   *Sigh*
+
+-Han-
+
+P.S. Thanks "Professor" Meffert.  For those folks like myself who have
+wrestled and completed your 5x5x5 cube, we can only ask and plead,
+"What's Next?!!"  :)
+

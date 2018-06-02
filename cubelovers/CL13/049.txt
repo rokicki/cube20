@@ -1,0 +1,39 @@
+From raymond@cps.msu.edu  Wed Nov  9 15:28:24 1994
+Return-Path: <raymond@cps.msu.edu>
+Received: from student3.cl.msu.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA15697; Wed, 9 Nov 94 15:28:24 EST
+Received: from via-annex2-45.cl.msu.edu by student3.cl.msu.edu (AIX 3.2/UCB 5.64/MSU-2.10)
+          id AA33037; Wed, 9 Nov 1994 15:28:23 -0500
+Date: Wed, 9 Nov 1994 15:28:23 -0500
+Message-Id: <9411092028.AA33037@student3.cl.msu.edu>
+X-Sender: raymond1@studentr.msu.edu (Unverified)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: cube-lovers@ai.mit.edu
+From: raymond@cps.msu.edu (Carl Raymond)
+Subject: Re: Is there a symbolic cube program?
+X-Mailer: <PC Eudora Version 1.4>
+
+>I have a symbolic cube program, which I didn't write (written by
+>raymond@cps.msu.edu).  It does pretty much what you want, although I'm
+>not too sure how portable it is.  It was written in C, using yacc and flex (lex
+>doesn't work on it tho, go figure.)
+>
+>I could post it to the group, or send it to individuals that wanted it.
+>
+>Derek
+>
+>
+>-- 
+>Derek Bosch                   "Time flies like an arrow,
+>(415) 390-2115                 but fruit flies like bananas"
+>bosch@sgi.com                  J. Blaylock
+>
+
+  I'd like a copy, please.  I wrote it a while back, and now I can't find it 
+anywhere!  Maybe the Internet is turning into the ultimate backup system :-)
+
+Thanks,
+
+Carl
+
+

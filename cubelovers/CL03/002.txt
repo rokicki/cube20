@@ -1,0 +1,32 @@
+Date: 4 August 1981 01:58-EDT
+From: Chris C. Worrell  <ZILCH at MIT-MC>
+Subject: Identities...
+To: CUBE-LOVERS at MIT-MC
+
+ A few corrections to my list:
+I16-13   has 18 qtw not 16
+I18-4   has 20 qtw not 18 and has supergroup effect <F2B2>
+I18-5 is not distinct from I18-6 so may be taken off the list
+
+Additions:
+I16-15 U'F'UBU'FUB'URU'L'UR'U'L        courtesy of Jerry Agin
+I16-16 FLF'RFL'F'R'B'LBR'B'L'BR
+I16-17 LD'R'DL'D'RUR'DLD'RDL'U'
+I18-9  SAME AS I16-13
+I18-10 RDLD'R'DU'L'D'LUD'R'DL'D'RD
+
+
+Concerning Sources:
+I found none of these by exhaustive search so I believe that this is far
+from a complete list esp. in 18 region.
+I used several methods to derive these identities
+1. from two processes which have same effect , I concatanate the inverse of
+the second to the first, and remove noops.
+2. from 1 process which affects only the d face or not the U face,
+I twist both the D and U faces, run the reverse process (maybe with an 
+orientation change) then untwist the D and U faces.
+3. examine old identities for similarities shift/rotate/invert/reflect
+appropriatly concatanate and remove noops.
+
+
+                                          Chris Worrell

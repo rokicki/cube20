@@ -1,0 +1,38 @@
+From: adobe!uunet!canremote!nigel.allen@labrea.stanford.edu
+Subject: PROGRAMMING NEWSLETTER
+
+      A.K. Dewdney, Computer Recreations columnist with Scientific
+American magazine, has launched a personal programming newsletter,
+Algorithm. The new publication is aimed at amateur and professional
+programmers alike. It extends the Computer Recreations tradition of
+recreational and educational programming projects: the Mandelbrot set,
+cellular automata, chaos and dynamics, weird machines, stellar
+simulation, puzzles and many other topics.
+
+      The new publication carries seven features and will expand to
+include more columns. Currently, it includes Algoletter, advice from
+professionals; Easy Pieces, fascinating projects for beginning
+programmers by Michael Ecker of Creative Computing fame; Personal
+Programs, exercises for more advanced programmers by Cliff Pickover,
+IBM's computer graphics wizard; Algopuzzles, computer mind-benders by
+Dennis Shasha, author of The Puzzling Adventures of Dr. Ecco; Algofact
+and Algofiction, invited articles and stories from well-known
+scientists and authors. A Bulletin Board advertises hosts of
+recreational products by individuals and small companies.
+
+      Algorithm puts the "personal" back in "personal computing" by
+encouraging you to develop your programming skills while pursuing high
+adventure on the frontiers of science and computing. Order a free
+examination copy by writing Algorithm at P.O. Box 29237, Westmount
+Postal Outlet, 785 Wonderland Road, London, Ontario, Canada N6K 1M6.
+
+--- MaS Relayer v1.00.00
+ Message gatewayed by MaS Network Software and Consulting/HST
+ Internet: nigel.allen@canremote.uucp
+ UUCP:     ...tmsoft!masnet!canremote!nigel.allen
+
+-------  from  infomac  -----
+  
+
+----- End of forwarded messages
+

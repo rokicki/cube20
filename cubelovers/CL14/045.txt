@@ -1,0 +1,55 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Sat Jan  7 00:27:55 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA04016; Sat, 7 Jan 95 00:27:55 EST
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <124322-2>; Sat, 7 Jan 1995 00:14:48 -0500
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA10950; Sat, 7 Jan 95 00:10:52 EST
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1C7919; Fri,  6 Jan 95 23:57:55 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: Cube terms
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.938.5834.0C1C7919@canrem.com>
+Date: Fri, 6 Jan 1995 23:50:00 -0500
+Organization: CRS Online  (Toronto, Ontario)
+
+Martin Schoenert states:
+
+>     Only one out of 332640 elements of GE (and of G) centralizes P.
+> That is to say that the index of the centralizer of P in GE has index
+> 332640 in GE.  Since all elements of GC commute with all elements of
+> GE, the index of the centralizer of P in G also has index 332640 in G.
+> Z is indeed the center of GE', GE, G, G', and GCE.
+
+ I get the fact that only the super-flip (or 12-flip) is the centre of
+G and the centre of GE. Another way to look at it would be the centre
+of the cube group must effect all the corners & edges in the same
+way, and only the super-flip fits these conditions when we allow
+all 6 generators < U, D, F, B, L, R > to be used.
+
+ In the case of the smaller group < U, R > we can get 6 corners twisted
+either clockwise or counter-clockwise, thus effecting all the corners
+and edges the same, due to the fact we can have 6 twists the same and
+< U, R > only contains 6 corners, and so this is the centre of
+< U, R >.
+
+ But I don't understand how only one out of 332,640 elements of GE
+and G centralizes P. I thought that GE had:
+
+     (12 ^ 2 / 2 ) * 12! =  980,995,276,800 elements
+
+ That is to say that the group on the cube of edges only has
+980,995,276,800 elements. To be honest I'm not sure what P
+represents! Jerry refers to P as the Pons Asinorum, but I think
+the term may have two meanings in the two messages.
+
+Z is the centre of G right? I need an ANSI standard math dictionary,
+but I doubt such a book exists.
+
+I'm going to tackle some more cube terminology in my next message.
+
+-> Mark <-
+Email: mark.longridge@canrem.com
+

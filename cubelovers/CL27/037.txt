@@ -1,0 +1,29 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Apr  8 12:10:06 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA29589
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 8 Apr 1999 12:10:05 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Reply-To: <noel@mud.ca>
+From: "Noel Dillabough" <noel@mud.ca>
+To: <cube-lovers@ai.mit.edu>
+Subject: SpaceOrb 360 and Simulators
+Date: Wed, 7 Apr 1999 13:16:14 -0400
+Message-Id: <000001be811a$572c33c0$020a0a0a@pprodual>
+
+I added support for the SpaceOrb 360 by SpaceTec to Puzzler, grab this
+version at:
+
+http://www.mud.ca/puzzler/Puzzler.EXE
+
+You must have a SpaceOrb 360 to try it out, but it is very very nice to use
+compared to the mouse.  Twist the orb to rotate the puzzle, and press the
+buttons and twist to do moves.  After a little practice you'll be able to
+solve a cube like it was in your hands!
+
+Only the cubes (all sizes) have support for the SpaceOrb, I may add support
+for the other puzzles at a later date.
+
+-Noel Dillabough
+

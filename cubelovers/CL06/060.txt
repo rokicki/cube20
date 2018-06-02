@@ -1,0 +1,34 @@
+Received: from po5.andrew.cmu.edu (TCP 20000417001) by AI.AI.MIT.EDU 22 Oct 87 14:20:59 EDT
+Received: by po5.andrew.cmu.edu (5.54/3.15) id <AA01455> for Cube-Lovers@ai.ai.mit.edu; Thu, 22 Oct 87 14:13:49 EDT
+Received: via switchmail; Thu, 22 Oct 87 14:13:46 -0400 (EDT)
+Received: FROM media.andrew.cmu.edu VIA qmail
+          ID </cmu/common/mailqs/q003/QF.media.andrew.cmu.edu.217e4a22.f4d40>;
+          Thu, 22 Oct 87 14:10:46 -0400 (EDT)
+Received: FROM media.andrew.cmu.edu VIA qmail
+          ID </cmu/ece/ap1a/.Outgoing/QF.media.andrew.cmu.edu.217e4a1c.6753cf>;
+          Thu, 22 Oct 87 14:10:37 edt
+Received: from media.andrew.cmu.edu by Messages.4.21.CUILIB.3.30.SNAP.NOT.LINKED.MS.3.42 via ibm032; Thu, 22 Oct 87 14:10:35 edt
+Message-Id: <kVTYcPy00Uo1gws0=j@andrew.cmu.edu>
+Date: Thu, 22 Oct 87 14:10:35 edt
+From: ap1a+@andrew.cmu.edu (Andrew Balen Philips)
+To: Cube-Lovers@ai.ai.mit.edu
+Subject: More Expensive Cubes
+
+
+To anyone out there:
+
+I am currently involved in a research project on the Rubik's Cube and expert
+solving of it.  The conventional cubes sold in most stores fall apart in the
+hands of the expert, because corners catch.  For awhile there were cubes
+manufactured that have tiles for colored plates.  We have one of these, but
+would like to have some more.  If anyone knows where we may look for these
+cubes or has access to these cubes, please notify me.
+
+								Thank you,
+										Andy
+Philips, ap1a+@andrew.cmu.edu
+
+Send mail direct or post.
+By the way, this bboard is very cool!
+
+

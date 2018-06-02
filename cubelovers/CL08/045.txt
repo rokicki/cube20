@@ -1,0 +1,54 @@
+From ccw@eql.caltech.edu  Sat Apr 18 23:17:20 1992
+Return-Path: <ccw@eql.caltech.edu>
+Received: from EQL.Caltech.Edu by life.ai.mit.edu (4.1/AI-4.10) id AA27330; Sat, 18 Apr 92 23:17:20 EDT
+Date:     Sat, 18 Apr 92 20:17:11 PDT
+From: ccw@eql.caltech.edu (Chris Worrell)
+Message-Id: <920418201450.2b6009a5@EQL.Caltech.Edu>
+Subject:  Some solutions to Rubik's Tangle have been found.
+To: Cube-Lovers@ai.mit.edu
+
+(No spoilers are included)
+
+I now know two distinct solutions to Rubik's Tangle.
+Each of these solutions can be done with each 5x5 set, 1-4.
+
+I have not yet found any solutions to the 10x10 puzzle. I do know
+that if the 10 by 10 is composed of four 5x5 solutions, than my solutions
+of the 5x5 do not lead to a solution of the 10x10. I am now seeking a
+solution where all 100 pieces can be used anywhere in the 10x10, not just in
+a corner of the 10x10 for its own 5x5 set.
+
+Unfortunately, these solutions were found by brute force, not by any
+real calculation.  I have not been able to discover any "Science" about
+the puzzle which contributes to any discovery of a solution.
+
+These solutions were found by hand, not by a computer search. So there may be
+other solutions to the basic puzzle which are still unknown.
+My search path has approximately 750 cases in it, of which I have
+tested about 300.  One solution was found by 'accident' in that I have not
+yet looked at the case which actually yields that solution, but one of the
+test cases had been 'close' to a solution, so I looked outside my search path.
+The other solution was found in my search path, so it was not found by
+accident. (except by luck that it was at case 300 not 750)
+
+GENERAL THOUGHTS ON RUBIK'S TANGLE AS A PUZZLE
+In short, it is not a good puzzle.  It will never be popular.
+Solutions might only be findable by Computer, by Luck, and by Stubborness
+(brute-force).
+As far as I can tell the only real method of solution is by using a computer.
+I did it by hand because I am stubborn, and I did get lucky.
+My search path contained 750 cases, but I had already considered search paths
+with an estimated 4000 and 8000 cases. These are so large that I had never
+even completed the basic enumeration of cases.
+A hand search of this magnitude is almost impossible.  There are too many
+places for errors, and no real ways of checking.  The amount of time is also
+absurd.  I worked on between 1 and 8 of my test cases at a time, with
+about 250 of these groups in my search path. (later in
+the search I would have, on ocassion, looked at 16 at once).  Sometimes a
+group could be disposed of within 20 minutes, but sometimes it took several
+hours.
+
+Has anybody discovered more mathematical content than I have?
+
+---Chris Worrell (ccw@eql.caltech.edu)
+

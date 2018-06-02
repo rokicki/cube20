@@ -1,0 +1,30 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jul 10 16:23:48 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id QAA06984; Fri, 10 Jul 1998 16:23:48 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Jul 10 13:31:51 1998
+Date: Fri, 10 Jul 1998 13:31:22 -0400
+Message-Id: <199807101731.NAA02872@corwin.ece.cmu.edu>
+From: "Jonathan R. Ferro" <jferro@corwin.ece.cmu.edu>
+Organization: Electrical and Computer Engineering, CMU
+To: cube-lovers@ai.mit.edu
+In-Reply-To: 
+	<Pine.WNT.3.96.980710083950.-3929923B-100000@GN209A.PSTCC.CC.TN.US>
+	(message from Jerry Bryan on Fri, 10 Jul 1998 08:48:05 -0400 (Eastern
+	Daylight Time))
+Subject: Re: Ten Face Moves from Start
+
+"Jerry" == Jerry Bryan <jbryan@pstcc.cc.tn.us> writes:
+Jerry> As a possible strategy, if we could add one level per decade, we
+Jerry> could probably calculate the problem all the way to the end
+Jerry> within about 100 years. Moore's Law (the power of computers
+Jerry> doubles about every eighteen months) suggests that such a
+Jerry> schedule might be possible.
+
+This method is called Zarf's Linearization: For any exponential-time
+problem, just wait the linear amount of time for the current generation
+of computation to make it possible to solve your instance in one hour,
+then solve your instance in one hour.
+

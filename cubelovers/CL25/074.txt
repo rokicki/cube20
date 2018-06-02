@@ -1,0 +1,36 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed May 27 07:01:51 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id HAA27559; Wed, 27 May 1998 07:01:51 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Wed May 27 03:39:50 1998
+Message-Id: <19980527073534.13389.qmail@hotmail.com>
+From: "Philip Knudsen" <philipknudsen@hotmail.com>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Magic jack
+Date: Wed, 27 May 1998 00:35:33 PDT
+
+Two comments on the Magic Jack:
+
+Apart from Magic Jack and Vadasz Cube, there also exists a german
+produced puzzle called "IQUBE". Like the Magic Jack, this is a 3x3x3
+sliding puzzle with 26 smaller cubes. Cubes have colours red, green and
+yellow, and it is possible to arrange them so the entire surface is
+either red or green. Yellow is possible with red or green centres. IQUBE
+comes with a leaflet that suggests a total 12 different solution
+possibilities. The puzzle is suitable for the blind, since the three
+different colours also feel differently. I bought mine from Spielkiste
+ (http://www.twfg.de/puzzle/default.htm).
+
+A 2x2x2 sliding puzzle is mentioned in "Rubik's Cubic Compendium", in
+the part that is written by David Singmaster (quote):
+"The only such (three dimensional moving-piece puzzle) puzzle that i
+know of is a sliding cube puzzle of Piet Hein which is so rare that both
+Rubik and I recently re-invented it before learning that it had been
+done by Hein."
+There is also an illustration which shows a 2x2x2 sliding cube puzzle
+similar to the small Vadasz Cube.
+
+Philip K
+

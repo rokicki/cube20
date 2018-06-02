@@ -1,0 +1,62 @@
+From cube-lovers-errors@oolong.camellia.org  Wed Jun  4 01:26:56 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id BAA02995; Wed, 4 Jun 1997 01:26:55 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Date: Tue, 03 Jun 1997 23:57:22 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Number of States for 2x2x2 cube
+In-reply-to: <199706031013.GAA17406@life.ai.mit.edu>
+To: Richard M Morton RMM - ICOMSOLS <richard_morton@icom-solutions.com>
+Cc: cube-lovers@ai.mit.edu
+Message-id: <Pine.PMDF.3.95.970603234824.116249B-100000@PSTCC6.PSTCC.CC.TN.US>
+MIME-version: 1.0
+Content-type: TEXT/PLAIN; charset=US-ASCII
+
+On Tue, 3 Jun 1997, Richard M Morton RMM - ICOMSOLS wrote:
+
+> 
+>   Reading about the number of possible states (88million) for the corners
+>   of the 3x3x3 cube (equiv. to 2x2x2) made me try working this out for
+>   myself. My logic was :
+
+Actually, the corners of the 3x3x3 are not usually considered to be
+equivalent to the 2x2x2.  There are 24 times fewer states in the 2x2x2
+because any of the 24 rotations in space of the 2x2x2 are considered to be
+equivalent.  Another way (and the typical computer way) to model this
+effect is to fix one of the corners of the 2x2x2.
+
+> 
+>   Cube has 8 corners, each of which can have 3 orientations. Number of
+>   possible states is
+> 
+>   (8*3)*(7*3)*(6*3)*(5*3)*(4*3)*(3*3)*(2*3)*(1*3) = 8!*3**8 = 264,539,520
+> 
+>   This figure of course includes some states only possible by disassembling
+>   the cube (or maybe by twisting it in a fourth dimension ?). Without this
+>   the last corner can only have one orientation so the number of states
+>   achievable by twisting only in 3d is 8!*3**7 = 88179840
+> 
+>   I assume that this is the correct figure but what I would like to know is
+>   whether my logic is correct ie is the assumption about the last corner
+>   being fixed in orientation the only requirement (I am not a mathematician
+>   so please excuse me if this is obvious).
+> 
+
+Your logic is correct.  The larger size of 264,539,520 is the number of
+corner configurations in the so-called constructable group.  The
+constraint on the twist of the last corner cubie gets you down to
+88179840, and is the only other constraint on the corners alone.  When you
+add in the edge cubies, there are two additional constraints  --  one for
+the edge cubies alone, and one for the corner and edge cubies combined
+(they have to have the same parity).
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+
+
+

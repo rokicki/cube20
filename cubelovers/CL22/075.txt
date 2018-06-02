@@ -1,0 +1,62 @@
+From cube-lovers-errors@oolong.camellia.org  Thu May 29 15:24:53 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id PAA19669; Thu, 29 May 1997 15:24:52 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+From: Benjamin Wong <chi@cse.unsw.edu.au>
+To: Josh D Weaver <shaggy34@juno.com>
+Date: Thu, 29 May 1997 17:34:55 +1000 (EST)
+X-Sender: chi@pipe13.orchestra.cse.unsw.EDU.AU
+cc: cube-lovers@ai.mit.edu
+Subject: Re: Professor cracks Rubik's cube mystery
+In-Reply-To: <19970528.222126.9494.2.shaggy34@juno.com>
+Message-ID: <Pine.OSF.3.95.970529172749.8049A-100000@pipe13.orchestra.cse.unsw.EDU.AU>
+
+On Wed, 28 May 1997, Josh D Weaver wrote:
+
+._@_.
+._@_.What do the skeptics have to say about the 20 move solve?  It was said
+._@_.that in theory it could be done; but is it really possible?  
+._@_.
+
+There was a prove that within 16-18 face move, the number of possible
+pattern exceed the number of possible pattern of the cube,
+hence they deduce that any pattern can be acheive within 16-18 move,
+ie: it can be done, 
+
+if u can move forward 18 move, 
+by backtracking, it can be move backward within 18 move.
+
+
+._@_.Does anyone know how long time wise it took Richard Korf to solve it
+._@_.using the 20 move method?
+._@_.
+._@_.I'm just a 15 year old who can solve the cube so I don't know much about
+._@_.theories or mathematical patterns.  So if someone can explain it to me
+._@_.that would be great.
+._@_.
+._@_.If it all that is claims to be, then I can't wait to know how to use the
+._@_.method. 
+
+I don't think "the method",(if it actually exist,) can be applied to human,
+i think it involved a lot of AI research, where computer will think
+faster and can plan say 5 to 6 move ahead, and see if it recognise any pattern
+
+
+I will not put much hope on trying to solve in 20 move 
+with a real cube by hand.
+
+
+o------------------------------------------------------o
+|Error: Reality.sys Corrupt?  Reboot Universe [Y,N,Q]  |
++---------------o--------------------------------------o
+| Benjamin Wong |  E-mail: chi@cse.unsw.edu.au         |
+|  		|  or       benjaminwong@hotmail.com   |
+| 		|  http://www.cse.unsw.edu.au/~chi     |
+o---------------o--------------------------------------o
+|=A1u=C2=E5=A5=CD=A1I=BD=D0=B0=DD=A1y=BA=B5=BF=DF=B2=B4=A1z=AA=BA=A6=A8=A6]=ACO=AC=C6=BB=F2=A1H=A1v                |
+|Quick Quiz:  Describe Universe ? Give Three Example.  |
+o------------------------------------------------------o
+
+
+

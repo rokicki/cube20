@@ -1,0 +1,48 @@
+From cube-lovers-errors@oolong.camellia.org  Mon Jul 14 12:37:17 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id MAA08816; Mon, 14 Jul 1997 12:37:16 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <3.0.1.32.19970714113921.006aa4a4@pop.tiac.net>
+X-Sender: kangelli@pop.tiac.net
+X-Mailer: Windows Eudora Light Version 3.0.1 (32)
+Date: Mon, 14 Jul 1997 11:39:21 -0400
+To: cube-lovers@ai.mit.edu
+From: karen angelli <kangelli@tiac.net>
+Subject: hockey puck puzzle
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+
+I recently purchased a hockey puck puzzle from Whole Systems Design, who
+also brought us the Masterball.  Since I received it, I've played with for
+only a couple of hours without beginning any systematic attempt at solving
+it.  My initial impression is that, although it looks like is should be
+very easy, it may actually be pretty hare.  Or, it's one of those puzzles
+that is so easy that I'm thinking too hard and can't see the answer.  I've
+never heard anyone in the cube-lovers discuss the puzzle, and I wondered if
+any of you had any impressions of it.
+
+The puzzle has the shape, size and feel of a regulation hockey puck, and is
+divided into twelve wedges.  It's basically a flattened masterball in which
+only the lines of longitude twist, and the lines of latitude do not.  There
+are several designs, with various degrees of difficulty and redundancy.
+For example, on some, there are printed hockey players, Maple leafs, or
+American flags.  On my version, the wedges are numbered consecutively from
+one through twelve.  The pristine version is with the numbers lined up in
+consecutive order.
+
+I'm not really interested in learning a solution from anybody, but I would
+be interested in comments about whether you think the puzzle is harder or
+easier than it looks.
+
+YOu can see pictures of the hockey puck puzzle or order them at
+www.wsd.com/HockeyPuck/home.
+
+'e-ya later,
+
+Pete.
+
+
+
+
+

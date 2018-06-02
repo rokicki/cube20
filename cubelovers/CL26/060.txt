@@ -1,0 +1,31 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec  8 11:22:45 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id LAA18601
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 8 Dec 1998 11:22:43 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199812042200.RAA02240@pike.sover.net>
+Date: Fri, 04 Dec 1998 16:40:51 -0500
+To: der Mouse <mouse@rodents.montreal.qc.ca>
+From: Nichael Lynn Cramer <nichael@sover.net>
+Subject: Re: (5x5x5) edge parity corrections
+Cc: Cube-Lovers@ai.mit.edu
+In-Reply-To: <199812040458.XAA26116@Twig.Rodents.Montreal.QC.CA>
+
+der Mouse wrote:
+>> The parity problem is found in 5x5x5 cubes (and 4x4x4 cubes, I
+>> understand) when two of the edges right next to the corners (which I
+>> call "wings") are switched.
+>
+>Yes, it does occur equally on the 4-Cube.  [...]
+
+The appearance is particularly striking on the 4X cube.  Especially in the
+situation where the two out-of-place "wings" are side-by-side.
+
+It looks very similar to a solved 3X cube with a single edge-cubie flipped.
+This is an interesting state to leave your cube in, when it is just lying
+around your office, for visitors to find.
+
+N
+

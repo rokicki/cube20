@@ -1,0 +1,16 @@
+Date: 22 Jul 1980 1211-PDT (Tuesday)
+From: Mike at UCLA-SECURITY (Michael Urban)
+Subject: Yet another checkerboard
+To: cube-lovers at mit-mc
+
+   Nobody has mentioned (or discovered?) the fully-interlocked
+checkerboard pattern obtained by applying the Pons Asinorum
+transformation to the Plummer's Cross as suggested
+by Greenberg during his description thereof, and then performing
+a few triple-center swaps (unfortunately, I was playing rather randomly
+with the 3c swaps at the time and must leave them as an "exercise for
+the reader").  The six colors are interlocked in pairs of AB, BC, CD, DE,
+EF, and FA on each checkerboard.  Quite mysterious.
+	Mike
+-------
+

@@ -1,0 +1,16 @@
+Date: 12 Jun 1981 1022-PDT
+From: ISAACS at SRI-KL
+Subject: Re:  Re: edge "flip" anyone...
+To: Dan Hoey at CMU-10A
+cc: cube-lovers at MIT-MC
+In-Reply-To: Your message of 11-Jun-81 0023-PDT
+
+  It is simpler in actually manipulating the cube to avoid moves that
+use the back; in particular, the FFBB slice move is a difficult one to
+actually do.  So I would recommend   BUB' and BU'B' at the ends of
+a  RRLL slice.  In addition, if you define X = RL' (or R'L) followed by an
+entire cube rotation (ie, move the slice and allow the orientation 
+to change - turn the ham, not the bread )  then the sequence becomes:
+    BUB' (UUXX)**2 BU'B'.
+      ---- Stan
+-------

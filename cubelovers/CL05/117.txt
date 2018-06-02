@@ -1,0 +1,53 @@
+Received: from ARDEC-LCSS.ARPA.ARPA by AI.AI.MIT.EDU 10 Oct 86 08:40:07 EDT
+Date: 10 Oct 86 08:32:00 EST
+From: "CLSTR1::BECK" <beck@clstr1.decnet>
+Subject: rubiks magic
+To: "cube-lovers" <cube-lovers@mit-ai>
+Reply-To: "CLSTR1::BECK" <beck@clstr1.decnet>
+
+RUBIK'S MAGIC:  >>> UPDATE  <<<
+
+ADMINISTRIVIA
+1.  In the NYC area the puzzle is available from Macy's for $10.  In your area
+it may available from "TOYS R US".
+2.  Matchbox Toys         "is the manufacturer"
+     141 West Commercial Ave
+     Moonachie, NJ 07074
+     212/696-5400
+3.  HOTLINE:  sat & sun from 9am to 5pm until April 26, 1987.  1800-843-1202, NJ
+RES 1800-843-1203
+4.  Repairs from matchbox $3
+
+PUZZLE NOTES:
+1.  It took about 4 days for my crack puzzle team to solve Rubik's Magic.  
+2.  The mechanism (similar to a 2-directional Jacobs ladder) is durable and the
+puzzle is fun to manipulate.  There are many 3-dimensional shapes/configurations
+that the squares can be arranged as.
+3.  It is necessary to establish a notation scheme and establish moves to do the
+puzzle systematically.  The puzzle is similar in difficulty to the Skewb or
+Pyramid.  I would say about 10 - 15 moves.  
+4.   Observations:
+   a.  The puzzle has a front and back.
+   b.  Each piece always has a hinge with two (2) other pieces.  This causes the
+pieces when rotated to rotate as if they were gears, ie, adjacent pieces rotate
+in opposite directions.
+    c. The 2x4 layout can go either up and down or left and right.
+    d.  It is possible to turn the open/loop layout inside out, ie, the
+non-intersecting rings can be either on the inside or outside.  This is the same
+as changing how the hinge works on the 2x4 layout.  This also exchanges the top
+and bottom of the 2x4 layout.
+  e.  For three intersecting rings (the object of the puzzle) the 8 squares have
+to be arranged as a 2x3x3 and not as a 2x4.  
+
+           /                       \
+          |\                      / |
+          |   \         /      /   |
+          |\   |\     /\    /|  /|
+          |   \|   \/    \/  |/  |
+           \  |\   |\    /|  /|  /                <BECK@ARDEC-LCSS>
+             \|   \|  \/  |/  |/
+               \   |\  |  /|  /
+                  \|  \|/  |/
+                    \  |  /
+                      \|/    
+------

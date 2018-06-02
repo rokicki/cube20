@@ -1,0 +1,34 @@
+Date: 15 September 1981 21:54-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Editor's note to the last message.
+To: CUBE-LOVERS at MIT-MC
+
+I will look into collecting all of the relevant messages on God's
+number into one place.  If you want to poke around in the archives
+yourself (please be carefull, and don't delete them again) I will
+remind you all that old cube-lovers mail is archived in the following
+places:
+
+MC:ALAN;CUBE MAIL0	;oldest mail in foward order
+MC:ALAN;CUBE MAIL1	;next oldest mail in foward order
+MC:ALAN;CUBE MAIL2	;more of same
+MC:ALAN;CUBE MAIL	;recent mail in reverse order
+
+(I someone else wants to attempt the compilation, there is a better
+chance it will get done.  Let me know and I will be happy to lend a
+hand.)
+
+Some of the seeming inconsistencies in the message included by Isaacs
+in his message are a result of the usual half versus quarter twist
+screw.  The reason the writer can see 9 configurations after a single twist
+is because he has a different definition of a "single twist".
+
+I also am not sure, but I also think that the counting argument given
+here suffers from the some confusion Singmaster had when he computed a
+lower bound of 17 htw.  I think, in fact, that a lower bound of 19 htw
+results if the argument is executed correctly (Singmaster corrected
+himself about this by the fourth edition, I think).  Someone with a
+copy of Singmaster handy should look this up.
+
+The 41 move count for Thistlethwaite's algorithm is probably a half
+twist count given that it was reported by Singmaster.

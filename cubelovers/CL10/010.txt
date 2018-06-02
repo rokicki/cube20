@@ -1,0 +1,22 @@
+From hoey@aic.nrl.navy.mil  Tue Jul  6 17:29:01 1993
+Received: from Sun0.AIC.NRL.Navy.Mil by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14021; Tue, 6 Jul 93 17:29:01 EDT
+Received: from sun13.aic.nrl.navy.mil by Sun0.AIC.NRL.Navy.Mil (4.1/SMI-4.0)
+	id AA28843; Tue, 6 Jul 93 17:28:56 EDT
+Return-Path: <hoey@aic.nrl.navy.mil>
+Received: by sun13.aic.nrl.navy.mil; Tue, 6 Jul 93 17:28:55 EDT
+Date: Tue, 6 Jul 93 17:28:55 EDT
+From: hoey@aic.nrl.navy.mil
+Message-Id: <9307062128.AA04699@sun13.aic.nrl.navy.mil>
+To: Cube-Lovers@life.ai.mit.edu
+Subject: Rubik's Shrimp
+
+I hear on Usenet that there's a show on BBC1 called Wildlife 100,
+where people saw a Mantis Shrimp playing with a Rubik's Cube.  Reports
+are inconclusive as to whether it was able to actually turn faces, or
+whether it just waved it around, or even just took it apart.  Now if
+they could get it to turn faces, presumably they could film it and
+play it back in reverse....
+
+Dan Hoey
+Hoey@AIC.NRL.Navy.Mil
+

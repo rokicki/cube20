@@ -1,0 +1,157 @@
+From @wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU  Wed Jun 29 14:11:23 1994
+Return-Path: <@wvnvm.wvnet.edu:BRYAN@WVNVM.WVNET.EDU>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20966; Wed, 29 Jun 94 14:11:23 EDT
+Message-Id: <9406291811.AA20966@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4561; Wed, 29 Jun 94 13:45:43 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.1d/1.7f) with BSMTP id 1210; Wed, 29 Jun 1994 13:45:43 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Wed, 29 Jun 1994 13:45:42 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Comments on Cube Lengths (Long, 1 of 2)
+
+As you all know, the length of a cube X is defined as the shortest
+process P such that XP = I, and is denoted as |X|.  One definition
+of God's Algorithm is simply that God's algorithm is the knowledge
+of |X| for all cubes.  I wish to make some observations about
+|X| as related to various models of the cubes and their symmetries.
+
+The set C is the set of 24 rotations of the cube. The set M is the
+set of 48 rotations and reflections of the cube, where half of M is
+C and the other half of M is C reflected.
+
+The first (obvious) observation is that |X| = |m'Xm| for all m in M.
+That is, the set of all M-conjugates of a cube have the same
+length.  Another way to say the same thing is that |m'Xm| = |n'Xn|
+for all m and n in M.
+
+Actually, there is an even more obvious observation that probably
+should be made.  The set G is the set of all cubes, where
+G is generated as G=<Q>, where Q is the set of 12 quarter-turns
+of the cube.  The *really* obvious observation is that if X
+is in G, then m'Xm is in G for all m in M.  Furthermore, if GC
+is the set of corners-only cubes, then X in GC implies m'Xm in GC,
+and if GE is the set of edges-only cubes, then X in GE implies
+m'Xm in GE.  Finally, the observation that |X| = |m'Xm| remains
+true whether X is in G, in GC, or in GE.
+
+The process of forming M-conjugates in G (or in GC or in GE)
+induces a partition which is an equivalence relation.  Hence, the
+set {m'Xm} for all m in M is an equivalence class.  Since,
+|m'Xm| = |n'Xn| for all m and n in M, it is meaningful to speak
+of the length of {m'Xm}, namely |{m'Xm}| = |Y|, where Y is
+any element of {m'Xm}.
+
+Now, consider cubes of the form Xc where X is in G and c is in C.
+We first observe that Xc is in G if and only if c is even.   Half the
+elements in C are even, and half are odd.  An odd permutation in C is
+even on the corners but is odd on the edges; hence, Xc is not in G when
+c is odd.  On the other hand, Xc is in GC for all X in GC, and Xc is in
+GE for all X in GE.
+
+The fact that Xc is in G only for even elements of C is why I thought
+it was important to make the "really obvious" observation that
+m'Xm is in G for all X in G and all m in M.  The two cases m'Xm and
+Xc are similar on the surface, but different when you dig a
+little bit deeper.
+
+With respect to lengths, we can observe that |Xc| >= |X| whenever
+Xc is well-defined (that is, whenever c is even for G, or for all c
+for GC and GE).
+
+The process of performing rotations in G (even rotations in G, or any
+rotation in GC or in GE) induces a partition which is an equivalence
+relation.  Hence, the set {Xc} for all (or even, as appropriate) c
+in C is an equivalence class.  The collection of all sets of the form
+{Xc} can serve as a model for cubes without centers.
+
+However, it is not the case that |Xc| = |Xd| for all c and d in C.
+Nonetheless, it is meaningful to speak of |{Xc}|.  Namely,
+|{Xc}| = min{|Xd|} for all (or even) d in C.  Hence, we have
+|{Xc}| <= |Xd| for all (or even) d in C.
+
+The definition |{Xc}| = min{|Xd|} probably requires a bit of
+justification.  For a cube without centers, the solved or Start
+state is {Ic} for all (or even) c in C.  Hence, Start is C (or
+C[even]), and we need the shortest process P such that XP is in C
+in order to calculate |{Xc}|.
+
+Consider the set {P[1], P[2], ... P[24]} where P[n] is the shortest
+process for which (Xc[n])P[n] = I.  Observe, that XP[n] is in C for
+all n in 1..24.  This immediately gives us |P| <= |P[n]| for all
+n in 1..24.
+
+Conversely, if XP is in C, then there exists some c[n] in C such that
+Xc[n]P = I.  This gives us |P[n]| <= |P| for some n in 1..24.
+Therefore, |P| = min{|P[n]|} for n in 1..24.
+
+Note that we have |{Xc}| <= |X| <= |Xd|.  On its face, this may seem
+somewhat paradoxical, but I believe that it is entirely correct.
+There is a huge difference is speaking of |{Xc}| as opposed to
+speaking of |Xd|.  Xd is an (atomic) element of G;  {Xc} is a set.
+Elements of {Xc} are also in G, but the *set* {Xc} is not in G.
+
+My model for cubes without centers is really {m'Xmc} rather than
+{Xc}.  However, the results from above are readily combined.  That is,
+we can speak of |{m'Xmc}|, namely |{m'Xmc}| = min{|(m'Xm)d|} for all
+(or even) d in C.  As before, we have |{m'Xmc}| <= |m'Xm| <= |m'Xmd|.
+Note that in the middle of this last string of inequalities we could
+insert any of |X| = |m'Xm| = |{m'Xm}|.
+
+In my God's algorithm data base for cubes without centers, I store
+ordered pairs of the form (Y,|{m'Xmc}|), where Y is a representative
+element of the set {m'Xmc}.  Note that Y is in G (or GC or GE, as
+appropriate).  It is a picky point, but the data base does *not*
+consist of ordered pairs of the form (Y,|Y|).  Remember that
+|Y| >= |{m'Xmc}|.
+
+My God's algorithm data base for cubes with centers nominally consists
+of ordered pairs of the form (Z,|{m'Xm}|), where Z is a representative
+element of the set {m'Xm}.  Unlike the case without centers, we do
+have |Z| = |{m'Xm}|, so we could also say the data base elements are
+of the form (Z,|Z|).
+
+However, the data representation is really a bit different to take
+advantage of the relationship between sets of the form {m'Xmc}
+and sets of the form {m'Xm}.  A set of the form {m'Xmc} can be
+partitioned into (up to) twenty-four sets of the form {m'Xm},
+where the (up to) twenty-four sets are indexed by C.
+
+Let Y=Repr({m'Xmc}).  Then, the data base is ordered pairs of the form
+(Yc[i],|Yc[i]|) for i in 1..24.  Note that Yc[i] is in G, but can be
+said to be a representative element for sets of the form {m'(Yc[i])m},
+which in turn is a set of the form {m'Xm} for some X in G.
+
+Finally, there is no real need to store the Yc[i];  it is only
+necessary to store the lengths.  Hence, a data base
+element for cubes with centers is really, really of the form:
+
+  (Y,|{m'Xmc}|,|Yc[1]|,|Yc[2]|, .... |Yc[24]|),
+
+where Y is a representative element of {m'Xmc}.
+
+Note that this is a very compressed format.  The representative element
+Y is stored only once for the 24 different values for c.  Note also that
+the solution for cubes without centers is stored in the same data base
+as the solution for cubes with centers.   Finally, since
+|m'Yc[i]m| = |Yc[i]|, we have stored the length of all cubes by storing
+the length of only one cube for each M-conjugancy class.
+
+It is not really necessary explicitly to store the solution for cubes
+without centers to have the solution for cubes without centers in the same
+data base.  That is, |{m'Xmc}|=min(|Yc[i]|) for i in 1..24.  But it takes
+very little space to do so and is convenient for certain calculations.
+
+   (to be continued)
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

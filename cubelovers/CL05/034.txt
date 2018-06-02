@@ -1,0 +1,52 @@
+Date: Wed 22 Jun 83 09:54:45-PDT
+From: ISAACS@SRI-KL.ARPA
+Subject: 5x5x5 and "bricks"
+To: cube-lovers@MIT-MC.ARPA
+
+    I got my 5x5x5 today, from Meffert in Hong Kong.  Whether they will 
+appear in regular (puzzle) stores, I don't know, but I would assume they will
+be available from him.  His address is 
+         Puzzles Club
+         P.O.Box 31008
+         Causeway Bay
+         Hong Kong.
+    I haven't had a chance to do much with it yet; it seems well and strongly
+made.  I have not taken it apart because I don't know how to do it safely.
+The corners seem to have the usual flanges.  The center edges seem to have
+a very deep tab, perhaps to go completely through the second layer.  The
+non-center middle pieces seem to be some kind of "caps" over the edge
+extensions.  That's all I can tell from "peeking" in the cracks.
+    One of the suggestions in Singmaster's "Cubic Circular" was to take
+a regular 3x3x3 and tape over some cracks to limit the movement.  The idea
+is to take each pair of cubies and tape them together into one "brick", 2x1x1.
+If you do it right, it makes a very interesting variation.  For taping, I used
+labels from another cube; that way the colors can be make to look right. 
+The pattern I used is as follows:
+   Choose a corner.  It will be the only single cubie (except for a center).
+Make the other 2 cubies along each edge projecting from the chosen corner,
+into one brick (by putting tape on both cracks separating the cubies).
+Now, in each of the 3 faces bordering the chosen corner are 4 untaped
+facies in a square.  Tape to make 2 adjacent bricks (don't forget the
+other side of the edge bricks).  Note that when you have done the first
+face, you will have 3 parallel bricks; the other 2 faces should have
+their parallel bricks with the "same handedness" - If you look down from
+the chosen corner, the 3 faces should have rotational symmetry. (I haven't
+tried an irregular pattern yet; it might have different properties than
+this one).  Anyway, all that is left is a 2x2x2 sub-cube, diagonally
+across from the original chosen corner.  Picture that as 4 1x1x2 bricks
+piled with one pair crossways from the other.  One brick, of course, includes
+the very center of the cube (invisible), and will leave the only other untaped
+facie - namely one center.  Which one is the center doesn't matter, but I
+think there is a clockwise/counter-clockwise (relative to the outer handedness)
+choice here.  
+    When all that is done, you will have a very interesting new puzzle. Any
+twist must include the chosen corner!  Home position is easy to recognize -
+it is when the chosen corner is back in its original place, and the bricks
+around it are in their positions (not necessarily with the correct colors
+together).  I have not solved it yet, but it seems that the sub-cube is
+both hard to mix up, and easy to fix once you have.  It looks as if all the
+interesting moves can be done with just the 3 faces surrounding the chosen
+corner.
+   Have fun..
+     -- Stan
+-------

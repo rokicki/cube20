@@ -1,0 +1,33 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Sep  8 09:47:22 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id JAA07291; Mon, 8 Sep 1997 09:47:22 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From kociemba@hrz1.hrz.th-darmstadt.de Sun Sep  7 17:51:08 1997
+Message-Id: <3411D734.6471@hrz1.hrz.th-darmstadt.de>
+Date: Sun, 07 Sep 1997 00:20:36 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>
+To: cube-lovers@ai.mit.edu
+Subject: Number of maneuvers with n face turns
+
+The number of maneuvers with 1, 2, 3,.. face turns for Rubik's cube are
+of course well known and are 18, 243, 3240... But I did not see a closed
+formula for these numbers before, so maybe you find the following
+formula interesting:
+
+Let r:= sqrt(6), then you have with n face turns
+
+P(n) = [(3+r)*(6+3r)^n + (3-r)*(6-3r)^n]/4
+
+maneuvers.  Because the second part in brackets is much smaller than the
+first, asymptotically you have
+
+(3+r)*(6+3r)^n /4 maneuvers.
+
+Even for small n, this approximation is very good. So for n=3 you get
+3240.33 instead of 3240. The asymptotic branching factor P(n+1)/P(n) is
+therefore (6+3r), which is about 13.348469 .
+
+Herbert
+

@@ -1,0 +1,55 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 20 11:11:16 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id LAA07158
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 20 Nov 1998 11:11:15 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19981117070139.11901.rocketmail@send103.yahoomail.com>
+Date: Mon, 16 Nov 1998 23:01:39 -0800 (PST)
+From: Han Wen <hansker@yahoo.com>
+Subject: Fwd: Re: HOW TO SOLVE THE PROBLEM OF THE PROFESSOR CUBE 
+To: cube-lovers@ai.mit.edu
+
+I thought this would be of value to Rubik fans out there with
+Professor Cubes (5x5x5)...
+
+note: forwarded msgs attached.
+_________________________________________________________
+
+---Uwe Meffert <uwe@ue.net> wrote: [reprinted here with his permission]
+
+> Dear Mr. Wen
+
+> Thank you for your interest in my puzzles, I am sorry to hear that
+> you are having problems with the Prof. Cube.
+
+> You received one of the last ones from the last production batch and
+> the next production is not for another month.
+
+> What unfortunately happened is that when gluing the center small
+> caps excess glue fixed the screw to the plastic centre piece that it
+> should turn in.  So when you turn these sections it will tighten /
+> loosen that one screw.
+
+> If you are skilful enough you can try and carefully remove the
+> centre label and then pry open and remove the centre cap of the blue
+> and orange side.  Then try to remove the excess glue from around the
+> screw with a sharp object and try turning the screw with a
+> screwdriver firmly holding the plastic piece so you can break the
+> glue bond.  Once the screw can freely turn inside the plastic part,
+> re-tighten it to the same tension as it was originally, so as to
+> allow smooth turning without any pieces falling out during play.
+> Then carefully using only very little glue fix the centre cap back
+> into place and re-attach the color label.
+
+> Good Luck and Happy Puzzeling.
+
+> Please let me know the outcome of this recommended procedure.
+
+
+> With warm regards
+> Uwe Meffert
+________________________________________________________________
+
+Date: Mon, 16 Nov 1998 22:57:20 -0800 (PST)

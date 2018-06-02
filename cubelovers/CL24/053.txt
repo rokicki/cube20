@@ -1,0 +1,61 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Oct 31 12:45:42 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA12020; Fri, 31 Oct 1997 12:45:41 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From mouse@Rodents.Montreal.QC.CA Thu Oct 30 19:12:43 1997
+Date: Thu, 30 Oct 1997 19:11:51 -0500 (EST)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199710310011.TAA10960@Twig.Rodents.Montreal.QC.CA>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+To: cube-lovers@ai.mit.edu
+Subject: Re: Categorization of cube solving programs
+
+This is a response to a pretty old message:
+
+> Date: Thu, 5 Jun 1997 22:56:56 -0400 (EDT)
+
+However, I kept the message around, which usually means I never did
+anything with it.  If I already did, my apologies to the list for
+duplication.
+
+> Since I'm interested in such things, I came up with the following
+> categories of cube solving programs in general order of increasing
+> sophistication:
+
+> Class 1:	Simply provide a simulation of the cube and allow the
+> 		user to manipulate the cube model [...].  Often these
+> 		programs have very nice 3D graphics.
+> Class 2:	A program which solves the cube by implementing a
+> 		canned algorithm (or 'book procedure').  [...]
+> Class 3:	A program that when given a specific instance of the
+> 		cube, attempts to 'discover' or learn a sequence which
+> 		will solve that particular instance.  [eg, Kociemba]
+> Class 4:	A program which attempts to discover an ALGORITHM to
+> 		solve ALL randomized cubes.  [...]  Korf wrote a
+> 		program to do this in the mid 1980s.  [Such programs
+> 		generally produce Class-2-ish solutions.]  I believe
+> 		Korf's program is the only program ever achieved that
+> 		can be placed in this category.
+
+I wish to speak to the last sentence of the Class 4 description.  Back
+in my larval stage (mid-'80s), someone at a lab I worked for build a
+Class 4 program in Franz Lisp.  It wasn't fast, but that was probably
+because it had nothing more than a VAX-11/780 to run on.  (I remember
+it particularly as it was one of the most impressive pieces of hot-spot
+optimization I ever did; replacing about 20 lines of Lisp with about 20
+lines of assembly got a speedup of between two and three orders of
+magnitude overall.)
+
+I have no idea whether the program still exists in any form.  I do
+believe I can still reach its author, if anyone would like me to
+inquire.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

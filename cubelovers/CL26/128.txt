@@ -1,0 +1,55 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon Mar  8 22:00:14 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id WAA27135
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Mon, 8 Mar 1999 22:00:13 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 25 Feb 1999 10:56:09 -0700 (MST)
+From: Paul Hart <hart@iserver.com>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Oddzon version of the cube
+In-Reply-To: <4.1.19990224195654.0092e1c0@mail.vt.edu>
+Message-Id: <Pine.BSF.3.96.990225103436.94998B-100000@anchovy.orem.iserver.com>
+
+On Wed, 24 Feb 1999, Kevin Young wrote:
+
+> I noticed that there was a clear sticker overtop of each of the colored
+> stickers.  In less than a month this clear sticker peeled up.  I just
+> don't remember the original cubes by Ideal wearing down that fast.  In
+> fact I still have a couple cubes from Ideal with stickers still intact.
+
+[...]
+
+> They have claimed that this concern about the stickers is not common.
+> Maybe I just got a bad cube, I don't know.
+
+No, it's not just you.  I had this exact problem with an Oddzon cube.
+Eventually all Oddzon cubes will develop this problem after any extended
+use, I believe.  The "stickers" appear to be actually nothing more than
+some sort of colored paper glued to the cube surface, with a thin
+transparent plastic film covering the paper.
+
+Like Kevin mentions, this plastic film begins to peel up at the corners
+and edges of the stickers after extended usage of the cube, perhaps due to
+fingerprint oils.  Eventually the film will fall off (or it gets to the
+point where it must be deliberately removed), and the underlying colored
+paper is completely ruined not long after.  I noticed this very same
+phenomenon with one of the "C4" cubes, those cubes with Rubik's profile in
+the center of the one of the sides.
+
+It seems that these newly manufactured cubes are not up the level of
+quality of cubes from "back in the day".  All of the original Ideal cubes
+that I have seen have stickers that appear to be made of straight colored
+plastic.  Even the clone knock-offs from that era used these stickers.
+These solid plastic stickers seem to hold up much better than the
+paper-based ones used on the Oddzon products.  After my disappointing
+results with my Oddzon cube, I pledged to never again buy one of their
+products until they change or improve their sticker design.
+
+Paul Hart
+
+--
+Paul Robert Hart        ><8>  ><8>  ><8>        Verio Web Hosting, Inc.
+hart@iserver.com        ><8>  ><8>  ><8>        http://www.iserver.com/
+

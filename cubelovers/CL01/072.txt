@@ -1,0 +1,22 @@
+Date: 31 December 1980 22:35-EST
+From: Ed Schwalenberg <ED at MIT-AI>
+Subject: bigger&better cubes
+To: DDYER at USC-ISIB
+cc: cube-lovers at MIT-MC
+
+Obviously the age of mechanical polyhedra is long past.  I propose
+that the center cubies (polyhedries?) of the electronic marvels
+be equipped with fixed arrows so that those who are hacking the
+higher-order problem can be happy.  (I really like this idea because
+it closely resembles one of my favorite ideas:  a keyboard which has
+small character displays in each keytop in lieu of engraving; when you
+hit SHIFT the legends change from qwertyiop to QWERTYUIOP and when you
+hit CONTROL+META they change to ETAIONSHRDLU, etc.)
+
+The all-electronic cube has many other potential features:  instant
+resettability, a stack of saved states, subroutines.... Given 
+extensible, customizible, self-documenting editors, I don't see why
+we should settle for polyhedra that are any less featureful.
+
+Speaking of higher-order polyhedra, I hereby nominate the tetrahedron
+as being appropriate to my own level of expertise.

@@ -1,0 +1,79 @@
+From cube-lovers-errors@curry.epilogue.com  Tue May 28 18:56:50 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id SAA00500 for <cube-lovers-outbound@curry.epilogue.com>; Tue, 28 May 1996 18:56:50 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Tue, 28 May 1996 13:18:51 -0700
+From: "Jason K. Werner" <mrhip@neuhelp.corp.sgi.com>
+Message-Id: <9605281318.ZM12960@neuhelp.corp.sgi.com>
+In-Reply-To: "Michael C. Masonjones" <masonjon@mit.edu>
+        "Square 1 Combinations" (May 28, 10:11)
+References: <9605281411.AA29962@sarofim-sun.MIT.EDU>
+X-Face: 6]L85m[]|?5>dL9qI]8j>PPk/:]fF4Ma`5O&VJU)U.6"lo:gX{D`?bNqWl~),bS~`rrB5+P
+                                                                                                                                                                   d=NQ_[sXE*#|;SZ)PanGF^&Q-Ch[[|Q)Pgx%ts.JdPJ,3bwU84qc^s2q"sH{l9+g]$cD&a"?S]PQ)F
+                                                                                                                                                                   b~4}Y93=ZOimDi_J^(lR;OLeN^W\]/&!v8S=~8Qw'HJ.ksu:R/!iV:WiExaWEXw!v$&hyp[mC
+X-Mailer: Z-Mail-SGI (3.2S.2 10apr95 MediaMail)
+To: cube-lovers@ai.mit.edu, "Michael C. Masonjones" <masonjon@mit.edu>
+Subject: Re: Square 1 Combinations
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+
+On May 28, 10:11, Michael C. Masonjones wrote:
+> Subject: Square 1 Combinations
+.....
+> On another note, when I signed up, I mentioned to Alan that I must be
+> crazy enough to join this group since I have a five foot mockup of a
+> rubik's type puzzle as my coffee table.  He thought its description
+> might be of general interest. Skip the rest of this paragraph if you
+> couldn't care less about its origins. I built it for Caltech's ditch day
+event
+> Maybe you have heard of it. That's where all the seniors leave for the
+> day with their room locked only with a puzzle of some sort, and the
+> object is for the undergraduates to get into the room by solving it
+> (with a couple of clues, of course).  Anyway, being as it was that I
+> had a mechanical engineer roommate...  The rest is history, and I now
+> have a five foot diameter puzzle coffee table.
+.....
+
+
+Speaking of oversized Rubik puzzles...
+
+A good friend of mine built an oversized, fully functional Rubik's Magic about
+3 years ago.  She painted all of the artwork that went inbetween the plastic
+squares, cut out all the grooves, and used a heavy duty grade of fishing wire
+to connect all the pieces.  We kind of thrashed my Rubik's Magic to see how
+many wires were used in the Magic and all the paths they took.
+
+I _think_ each square was 1'X1', so that would have made the puzzle 2'X4'.
+ It's fun to play with, but only if you have the stamina; it's heavy!  :)
+
+	-Jason
+
+-- 
+Jason K. Werner, Silicon Graphics
+U.S. Field Operations I/S Sys Admin
+mrhip@corp.sgi.com, 415-933-6397
+"I will choose free will".....Neil Peart
+"These go to eleven".....Nigel Tufnel
+
+
+
+
+
+
+
+
+
+
+
+
+*********************** THIS IS A FREE SPEECH ZONE ************************
+In defiance of the Communications Decency Act, I refuse to self-censor the
+content of my e-mail, my online postings, and my Web pages.  I urge other
+Constitutionally-protected Americans to declare their online communications
+FREE SPEECH ZONES and to fight any attempts at regulating, censoring and
+"dumbing down" the Internet.  The Net is not TV and radio!  Let's keep it
+that way.      http://www.eff.org/blueribbon.html       mrhip@corp.sgi.com
+**************** I SUPPORT THE EFF'S BLUE RIBBON CAMPAIGN *****************
+
+

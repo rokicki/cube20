@@ -1,0 +1,48 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug  5 18:10:24 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA25493
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 5 Aug 1999 18:10:24 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3799A6A3.9A46C38D@doc.ic.ac.uk>
+Date: Sat, 24 Jul 1999 12:42:27 +0100
+From: Colin Waters <csw98@doc.ic.ac.uk>
+To: phanna@gbonline.com
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: cube computer solutions using procedural languages
+References: <006001bed45e$d4429420$1b4b43cf@compaq>
+
+Hi,
+
+I'm currently working on my MSc dissertation on this topic. I'm
+working in Java to build a Cube to which I can then apply algorithms
+in Singmaster Notation. The approach I'm taking is to use an
+incremental breadth first search to generate a library of
+"interesting" macro moves (Richard Korf did some work on this a few
+years ago).  I would then like to use a heuristic approach with the
+macro moves to head towards the solution. Currently I am thinking of
+using a version of the Manhattan distance but I would be grateful for
+any other heuristic suggestions.
+
+I would also be interested in a reply to Paul's question about the
+least number of theoretical plane moves.
+
+Best Regards,
+Colin Waters,
+Department of Computing
+Imperial College, London.
+
+[Moderator's note:  What is a "plane" move?  All cube metrics count a
+ quarter-turn of a face as a single move.  Some also include a
+ half-turn of a face.  Some also include a quarter-turn of a center
+ slice, or perhaps also a half-turn of a center slice.  I've not seen
+ anyone count an antislice move as a single move, though it seems
+ fairly reasonable to me, since it's fairly easy to do with one motion
+ of the wrist.  In fact, we might even include moves such as "F^2 B"
+ under the rubric of "plane moves", so that there would be 45 generators.
+
+ My recollection is that you may find fairly good bounds in the
+ archives for the first two metrics--say a ratio of 3:2 or less--but
+ not for the others. --Dan ]
+

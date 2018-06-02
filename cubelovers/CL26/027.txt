@@ -1,0 +1,43 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Nov 10 07:33:39 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id HAA04496; Tue, 10 Nov 1998 07:33:37 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 9 Nov 1998 19:15:58 -0500 (EST)
+From: Alchemist Matt <monroem@email.unc.edu>
+Reply-To: Alchemist Matt <monroem@email.unc.edu>
+To: Han Wen <hansker@yahoo.com>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: Query for Corners-First Method Rubik Solution
+In-Reply-To: <19981104032938.14284.rocketmail@send102.yahoomail.com>
+Message-Id: <Pine.GSO.3.95L.981109190803.17496B-100000@sunny.isis.unc.edu>
+
+
+        My page at http://www.unc.edu/~monroem/rubik.html describes a
+method that is sort of "corners first".  Although, in my first step I say
+to solve the first layer before going on, one could effectively simply
+place only the four corners in the top layer, then move on to the four
+corners in the bottom layer (specified in steps 2 and 3), then begin
+filling in the gaps on the top and bottom layers (steps 4 and 5), and
+lastly finish the middle layer.
+
+        In fact, a chemistry professor at my current school, Holden Thorp,
+competed in one of the Rubik's cube playoff contests that was aired on the
+TV show That's Incredible.  Someone posted the video of it about a month
+ago (and mentioned it in this discussion list), and he saw it here at my
+school after I downloaded it.  He then looked at my page and mentioned
+that the winner of the contest actually used the solution shown on my page
+(probably modified slightly).  I can only solve a well-scrambled cube in 2
+to 3 minutes using the solution, but I'm sure someone quite adept, nimble,
+and fast could push it to under one minute.  (Please note this isn't "my"
+solution; I simply learned it from a book many years ago.  Further, I have
+never been in a cube solving competition).
+
+                Matt
+
+-----------------------------------------------------------------------
+Matthew Monroe				Monroem@UNC.Edu
+Analytical Chemistry      		http://www.unc.edu/~monroem/
+UNC - Chapel Hill, NC                   This tagline is umop apisdn
+

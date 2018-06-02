@@ -1,0 +1,33 @@
+From anandrao@hk.super.net  Thu Dec 16 01:12:12 1993
+Return-Path: <anandrao@hk.super.net>
+Received: from hk.super.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29768; Thu, 16 Dec 93 01:12:12 EST
+Received: by hk.super.net id AA08737
+  (5.65c/IDA-1.4.4 for cube-lovers@ai.mit.edu); Thu, 16 Dec 1993 14:12:01 +0800
+Date: Thu, 16 Dec 1993 14:08:39 +0800 (HKT)
+From: Mr Anand Rao <anandrao@hk.super.net>
+Subject: Re: Description of Tangle, Part 2
+To: Dik.Winter@cwi.nl
+Cc: cube-lovers@ai.mit.edu
+In-Reply-To: <9312160203.AA10975.dik@boring.cwi.nl>
+Message-Id: <Pine.3.07.9312161437.A8422-a100000@hk.super.net>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+
+On Thu, 16 Dec 1993 Dik.Winter@cwi.nl wrote:
+
+> My memory may be extremely faulty of course, but was there not more than
+> one single solution for the 5x5?  (Not unprecedented, I have one puzzle
+> that promises a single solution but there are hundreds.)  And, is there
+> a solution for the 10x10?  I seem to remember that there was (or I had)
+> a convincing argument that such a thing did not exist.  I should go through
+> the lesser used parts of my memory one of these days.
+ For each Tangle, there are 2 solutions and no more. I have searched the
+tree thoroughly and verified this. Counting 4 rotations and that 2 pieces
+are identical, the total search gives 16 'solutions'.
+The colourful little pamphlet that comes with the puzzle says that there
+IS a solution to the 10*10 puzzle.
+
+
+

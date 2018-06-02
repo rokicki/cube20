@@ -1,0 +1,25 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Jun  1 16:43:04 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA12140 for <cube-lovers-outbound@curry.epilogue.com>; Sat, 1 Jun 1996 16:43:03 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@cco.caltech.edu>
+Subject: Yet another (silly) idea on realizing the 7x7x7
+Date: 1 Jun 1996 20:38:23 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 8
+Message-Id: <4oq9nv$l8m@gap.cco.caltech.edu>
+Nntp-Posting-Host: accord.cco.caltech.edu
+X-Newsreader: NN version 6.5.0 #12 (NOV)
+
+Hey, if the corners are going to fall off, let them!  After all,
+anyone who actually bothers to buy a 7x7x7 should know how to solve
+the corners...  :)
+
+-- 
+Wei-Hwa Huang, whuang@cco.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+Caught Porfiry, Raskolnikov sung his swan Sonia when he went Dounia to Siberia.
+
+

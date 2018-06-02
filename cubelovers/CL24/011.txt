@@ -1,0 +1,89 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Sep  9 14:56:02 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA17811; Tue, 9 Sep 1997 14:56:01 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From jbryan@pstcc.cc.tn.us Tue Sep  9 11:06:36 1997
+Date: Tue, 09 Sep 1997 11:02:32 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Re: Open and Closed Subgroups of G
+In-Reply-To: <199709060107.VAA04503@sun30.aic.nrl.navy.mil>
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Cc: lvt-cfc@servtech.com
+Message-Id: <Pine.PMDF.3.95.970909103952.3344N-100000@PSTCC6.PSTCC.CC.TN.US>
+
+On Fri, 5 Sep 1997, Dan Hoey wrote:
+
+> Chris Chiesa <lvt-cfc@servtech.com>, among other things, writes
+> 
+> > If I now make the single turn
+> 
+> >    B'
+> 
+> > I no longer find it so easy to characterize the corner-twist
+> > parity state of the Cube, because (all of) the corner-cubies
+> > affected by this particular Cube-state-change have left their
+> > previous positions, leaving me to wonder, "RELATIVE TO WHAT" their
+> > twist is to be assessed.
+> 
+> At the risk of being repetitious, the answer is, "relative to the home
+> orientation of the position they find themselves in".  You choose a
+> special facelet for each corner cubie.  When the cubie is in its home
+> position, its twist is the position of its special facelet relative to
+> the home of the special facelet.  When cubie X is in cubie Y's home
+> position, the twist of cubie X is the position of X's special facelet
+> relative to the home of Y's special facelet.  The edges are done the
+> same way, except mod 2.
+
+Dan's response (plus his references in the Cube-Lovers archives) pretty
+well covers it.  I would just like to add a couple of points.
+
+  1. There is a reference in the archives to a way of demonstrating
+     conservation of twist without first establishing a frame of
+     reference, but I can't find the reference.  The best I can
+     recall, the same technique did not work for edges.  But I prefer
+     the frame of reference technique anyway because it is closely
+     tied to some of the more usual ways of representing the cube in a
+     computer.
+
+  2. For example, number the corner facelets from 1 to 24.  Each
+     facelet has two companion facelets which are bound to it on
+     the same cubie.  By knowing where one of the three facelets
+     of a cubie is in a computer program, you automatically know
+     where the other two facelets are, so you only have to store
+     one of the three facelets.  The one that you store can be the
+     "special" facelet that Dan described for the purposes of
+     determining conservation of twist.
+
+     The collection of eight "special" facelets for the corners
+     have been described in the archives as constituting a
+     supplement for the group, but I have yet to find a discussion
+     group supplements in any group theory book.
+
+     As Dan says, your choice of "special" facelet is totally 
+     arbitrary for each cubie, but most typically you choose
+     the Front and Back facelets, or the Right and Left facelets,
+     or something equally well organized.
+
+  3. For another example, number the corner cubies from 1 to 8, and 
+     for each of the cubies describe the twist with a number from 0
+     to 2.  This is essentially a wreath product representation of
+     the cube.  The numbers from 0 to 2 which describe the twist
+     can be used to describe whether a cubie is twisted when it is
+     not home, and can therefore be used to prove conservation of
+     twist.
+
+     Without knowing any more than I do about supplements, it seems
+     very likely that it should be easy to represent any group 
+     which can be representated as a supplement as a wreath product
+     and vice versa.  The isomorphism seems obvious.  I wonder if
+     anybody out there can shed any light on this issue?
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us
+Pellissippi State                            (423) 539-7198
+10915 Hardin Valley Road                     (423) 694-6435 (fax)
+P.O. Box 22990
+Knoxville, TN 37933-0990
+

@@ -1,0 +1,77 @@
+From Don.Woods@eng.sun.com  Sun Sep  6 14:40:52 1992
+Return-Path: <Don.Woods@eng.sun.com>
+Received: from Sun.COM by life.ai.mit.edu (4.1/AI-4.10) id AA03843; Sun, 6 Sep 92 14:40:52 EDT
+Received: from Eng.Sun.COM (zigzag-bb.Corp.Sun.COM) by Sun.COM (4.1/SMI-4.1)
+	id AA15176; Sun, 6 Sep 92 11:40:50 PDT
+Received: from colossal.Eng.Sun.COM by Eng.Sun.COM (4.1/SMI-4.1)
+	id AA20580; Sun, 6 Sep 92 11:40:53 PDT
+Received: by colossal.Eng.Sun.COM (4.1/SMI-4.1)
+	id AA28174; Sun, 6 Sep 92 11:42:34 PDT
+Date: Sun, 6 Sep 92 11:42:34 PDT
+From: Don.Woods@eng.sun.com (Don Woods)
+Message-Id: <9209061842.AA28174@colossal.Eng.Sun.COM>
+To: cube-lovers@ai.mit.edu, mark.longridge@canrem.com
+Subject: Re:  rare variants
+
+I have a puzzle not in your list; it's rare enough that I've never seen
+it in a store or catalog.  I got mine from a friend.  He calls it "The
+Barrel".
+
+Imagine a transparent cylinder divided into 6 circular slices.  Slices 2-5
+each have 5 pockets equally spaced around the circumference, just below the
+surface (see left figure below).  Slices 1 and 6 have three pockets in
+positions corresponding to 3 of the 5 (see right figure).
+
+	       *******       		       *******       
+	     ****   ****     		     ****   ****     
+	    *****   *****    		    *****   *****    
+	   ******   ******   		   ******   ******   
+	  *****************  		  *****************  
+	 ******************* 		 ******************* 
+	 ******************* 		 ******************* 
+	*   *************   *		*********************
+	*   *************   *		*********************
+	*   *************   *		*********************
+	*********************		*********************
+	*********************		*********************
+	*********************		*********************
+	*********************		*********************
+	 ******************* 		 ******************* 
+	 ***   *******   *** 		 ***   *******   *** 
+	  *    *******    *  		  *    *******    *  
+	   *  *********  *   		   *  *********  *   
+	    *************    		    *************    
+	     ***********     		     ***********     
+	       *******       		       *******       
+
+Through the center of the cylinder runs a piece with a cap on each end.
+The caps each have 3 prongs poking into the cylinder, lined up on the
+3 openings in slices 1 and 6.  However, the central piece is long enough
+that if the prongs are pushed into slice 6, the prongs at the other end
+are lifted out of slice 1, and vice versa.  So, at any given time, three
+of the end pockets are filled by one of the endcaps.  The other 23 pockets
+contain colored balls.
+
+Originally, the 3 balls in the unpronged endcap are black, and the balls
+in the other slices are lined up by color; i.e. 4 blue balls lined up
+above one another in slices 2-5, 4 green balls, likewise lined up, etc.
+The possible moves are:
+
+1) Slide the endcaps up and down.  E.g., from the starting position, this
+would push three balls of different colors into slice 6, and push the 3
+black balls from slice 1 into slice 2 (and also push various balls of the
+same color down, but that has no visible effect).
+
+2) Turn slices 2 and 3 together; they do not move separately.
+
+3) Turn slices 4 and 5 together; ditto.
+
+Slices 1 and 6 are fixed, so they always line up with the end cap prongs
+and with each other.
+
+That's all there is to it.  It certainly has the "cubish" feel to me, in
+that it's impossible to make single moves that affect only a small portion
+of the puzzle.
+
+	-- Don.
+

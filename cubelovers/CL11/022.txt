@@ -1,0 +1,28 @@
+From anandrao@hk.super.net  Tue Dec 14 03:18:49 1993
+Return-Path: <anandrao@hk.super.net>
+Received: from hk.super.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA10381; Tue, 14 Dec 93 03:18:49 EST
+Received: by hk.super.net id AA15191
+  (5.65c/IDA-1.4.4 for Cube Lovers <Cube-Lovers@AI.MIT.EDU>); Tue, 14 Dec 1993 16:18:36 +0800
+Date: Tue, 14 Dec 1993 16:11:47 +0800 (HKT)
+From: Mr Anand Rao <anandrao@hk.super.net>
+Subject: Tangle
+To: Cube Lovers <Cube-Lovers@ai.mit.edu>
+Message-Id: <Pine.3.07.9312141647.A14860-a100000@hk.super.net>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+I managed to pick up all four Tangle puzzles in an obscure shop in
+Jakarta, Indonesia. The puzzles are similar, except that the extra(25th)
+piece is different in each. The solutions for each puzzle are very
+different and I could not see any pattern. I solved all 4 using
+'intelligent brute force', i.e. made the search as efficient as I could.
+But the 10*10 puzzle seems intractable. The 5*5 could be solved using a
+486DX2-66 PC in about 20 minutes. The 10*10 will take several months using
+my algorithm. 
+Does anyone have a more intelligent, or a more brute method? Once this
+puzzle has been put in the public domain, we MUST find a solution. So, any
+ideas are welcome!
+Thanks
+
+
+

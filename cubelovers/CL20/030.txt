@@ -1,0 +1,22 @@
+From cube-lovers-errors@curry.epilogue.com  Wed Jun  5 02:48:31 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id CAA05776 for <cube-lovers-outbound@curry.epilogue.com>; Wed, 5 Jun 1996 02:48:30 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Wed, 5 Jun 1996 09:33:41 +0300 (IDT)
+From: Rubin Shai <s2394459@cs.technion.ac.il>
+X-Sender: s2394459@csc
+To: Cube-Lovers@ai.mit.edu
+Subject: Computer representation to the cube.
+Message-Id: <Pine.SV4.3.91-heb-2.04.960605092401.2432A-100000@cs.technion.ac.il>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+Hi all
+I'm looking for an easy to implementation / easy to debug / easy to print 
+/ and most important chip to manipulate (in computer time) for the 3X3X3 
+cube. Does anyone heard of somthing?
+Shai
+
+
+

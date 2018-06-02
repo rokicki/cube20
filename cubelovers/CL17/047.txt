@@ -1,0 +1,38 @@
+From bagleyd@source.asset.com  Thu Oct 19 13:27:59 1995
+Return-Path: <bagleyd@source.asset.com>
+Received: from source.asset.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA24422; Thu, 19 Oct 95 13:27:59 EDT
+Received: by source.asset.com (AIX 3.2/UCB 5.64/4.03)
+          id AA40695; Thu, 19 Oct 1995 13:16:06 -0400
+Date: Thu, 19 Oct 1995 13:16:06 -0400
+From: bagleyd@source.asset.com (David A. Bagley)
+Message-Id: <9510191716.AA40695@source.asset.com>
+To: cube-lovers@life.ai.mit.edu
+Subject: pyraminx-like puzzles (again)
+
+Hi
+Recently I asked the question:
+>   I have a question, I hope this makes sence. ;)   On a "nxnxn"
+> tetrahedron with period 2 or period 3 turning or a "nxnxn" octahedron with
+> period 3 or period 4 turning, can the orientation of any of the center
+> triangles change when the puzzle is solved?  If so, where does this
+> start to happen.  I know from "experience" that this is not true on
+> a pyraminx.
+ 
+Well, if you believe proof by example on a simulated puzzle, then
+Tetrahedron period 2 turning: never happens
+Tetrahedron period 3 turning: starts when n=4 with center triangle
+Octahedron period 3 turning: starts when n=4 with center triangle
+Octahedron period 4 turning: starts with n=4 with center triangle
+ 
+New versions of my pyraminx and octahedron puzzles will be out soon
+to reflect this.
+ 
+Cheers,
+      --__---------------------------------------------------------------
+     /  \ \   /           David A. Bagley                                \
+    |    \ \ /            bagleyd@source.asset.com                        |
+    |     \//\            Some days are better than other days.           |
+    |     / \ \                -- A short lived character of Blake's 7    |
+     \   /   \_\puzzles   Available at: ftp.x.org/contrib/games/puzzles  /
+      -------------------------------------------------------------------
+

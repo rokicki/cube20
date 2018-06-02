@@ -1,0 +1,33 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Jun 14 13:58:44 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id NAA08278 for <cube-lovers-outbound@curry.epilogue.com>; Fri, 14 Jun 1996 13:58:43 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Fri, 14 Jun 1996 16:35:18 BST
+From: David Singmaster Computing & Maths South Bank Univ <david.singmaster@sbu.ac.uk>
+To: cube-lovers@ai.mit.edu
+Message-Id: <009A3D97.EFAEB000.1938@vax.sbu.ac.uk>
+Subject: Storage of cube positions
+
+	Responding to Rubin Shai has made me think of an idea which may have
+been discussed already.
+	I was wondering if one could reduce the storage required to represent
+a position or pattern.  In my notation, one basically records the movement
+of each facelet.  However, if  UR -> RB  and we know that the UR piece is moving
+to the RB place, then we only need to record the  U -> R  part of the motion.
+In order to know which piece is moving, number all the 54 facelets.  Suppose
+the facelets of UR are 1,2 in order, and the facelets of RB are  11,12 in order.
+Then recording that  1 -> 11  completely describes the movement  UR -> RB.
+	So we only need to record the movement of one of the facelets of
+each piece - the others have to follow.  Hence we can describe the position
+of the cube by a vector of 20 numbers in the range 1 .. 54.
+	Of course, one has to pay for this - the composition of movements will
+be more complex.  But if storage is your problem rather than time, it may be
+worth it.
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499; 
+email:  zingmast  or  David.Singmaster  @vax.sbu.ac.uk
+
+

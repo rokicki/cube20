@@ -1,0 +1,63 @@
+Date:  7 Jun 1982 15:34:28 EDT (Monday)
+From: Roger Frye <frye at BBN-UNIX>
+Subject: 4^3 breakage, notation, and solution
+To: Cube-Lovers at MIT-MC
+Cc: decvax!minow at BERKELEY, ISAACS at SRI-KL, frye at BBN-UNIX
+
+About broken 4^3 center cubies:
+
+The center cubies take all the stress of holding in the edges and corners.
+The post which breaks is 4mm square compared to the 16mm square cubie.
+When I called Games People Play about my broken cube, another cube had
+just been returned with the same problem.  So I traded my broken cubie
+for an unbroken one and picked up a spare.
+
+About Minow notation for 4^3:
+
+     Name the faces L, R, F, B, U, D.  This follows the 3x3 notation.  The inner
+     edges are then l, r, f, b, u, d.  The front, upper, right quadrant
+     consists of one corner cube, FUR, two edge cubes, FUr and FRu, and one
+     center cube, fur.  [decvax!minow at Berkeley]
+
+Isn't there still a mistake here?  I think of "fur" as being a spot buried
+in the cube.  If you mean the four cubies in the upper right quadrant of
+the front face, then the name of the center cubie would be "Fur".
+If you mean the front, upper, right octant then the two other center
+cubies are "Urf" and Rfu".
+
+About 4^3 processes:
+
+** SPOILER WARNING ** SPOILER WARNING ** SPOILER WARNING **
+
+My process to exchange three edge cubies is a U face commutator:
+
+(RDf URf UFl) =    R'd'R  U'  R'dR  U
+
+I think of my other 4^3 process as exchanging two half centers:
+
+(Rfu Flu Rbd)          \
+(Rub Fur Rdf)           =   R2 u' R2 u
+(RBd FRd BRu RFu FLu)  /
+
+You can get lost trying to read the permutations.  Just think of it
+as injecting the two upper cubies from the front face into the right
+face in exchange for the two upper cubies from the right face.
+This is a move ISAACS requested.
+
+My solution strategy:
+
+** SPOILER WARNING ** SPOILER WARNING ** SPOILER WARNING **
+
+1) Solve the top center using random methods.
+2) Solve the corners using 3^3 moves.  (See \\Jeff Conquers the Cube//.)
+3) Solve all centers with my center process.
+4) Solve all edges with my edge process.
+5) If a 2-edge monoflip or exchange is left over:
+5a) In 2^3 mode, turn top and rotate three corners back; i.e.
+    Uu   (Rr)2 (Bb)2 Rr Ff R'r' (Bb)2 Rr F'f' Rr.
+5b) In 3^3 mode, undo 5a; i.e.
+    U'   L2 B2 L' F' L B2 L F L.
+5c) Repeat steps 3 and 4.
+
+ -Roger Frye
+

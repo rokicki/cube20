@@ -1,0 +1,30 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Sun Apr 16 21:39:05 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29757; Sun, 16 Apr 95 21:39:05 EDT
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <187145-1>; Sun, 16 Apr 1995 21:40:20 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA05565; Sun, 16 Apr 95 21:35:23 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1DC1A2; Sun, 16 Apr 95 21:29:19 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: DOTC
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1096.5834.0C1DC1A2@canrem.com>
+Date: Sun, 16 Apr 1995 22:04:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+I am a poor correspondent...
+
+No real excuse... I will send #4 out on Tuesday.
+
+Maybe I'll thrash future issues out in e-mail form.
+
+By the way, I thought your message on symmetric maneuvers
+was quite insightful. Did you ever find a symmetric move
+for "Cube in a Cube"?
+
+Cheers!
+-> Mark <-
+

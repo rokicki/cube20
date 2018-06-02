@@ -1,0 +1,52 @@
+From Mikko.Haapanen@otol.fi  Thu Jan 13 09:19:35 1994
+Return-Path: <Mikko.Haapanen@otol.fi>
+Received: from lassie.eunet.fi by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02187; Thu, 13 Jan 94 09:19:35 EST
+Received: from sulo.otol.fi by lassie.eunet.fi with SMTP id AA29207
+  (5.67a/IDA-1.5 for <cube-lovers@life.ai.mit.edu>); Thu, 13 Jan 1994 16:19:16 +0200
+Received: from rhea.otol.fi by sulo.otol.fi with SMTP (PP) 
+          id <01542-0@sulo.otol.fi>; Thu, 13 Jan 1994 16:19:11 +0200
+Received: from otol.fi by rhea.otol.fi id <26762-0@rhea.otol.fi>;
+          Thu, 13 Jan 1994 16:19:00 +0200
+Date: Thu, 13 Jan 1994 16:17:01 +0200 (EET)
+From: "M. Haapanen" <Mikko.Haapanen@otol.fi>
+Sender: "M. Haapanen" <Mikko.Haapanen@otol.fi>
+Reply-To: "M. Haapanen" <Mikko.Haapanen@otol.fi>
+Subject: Re: 4x4x4 Cube moves
+To: cube-lovers@life.ai.mit.edu
+In-Reply-To: <60.694.5834.0C190EF0@canrem.com>
+Message-Id: <Pine.3.87.9401131638.B26601-0100000@rhea>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; CHARSET=US-ASCII
+
+
+> ...
+> This is the shortest sequence I found for flipping 2 adjacent
+> edges on the 4x4x4 cube (LD pair):
+> 
+>  (r3 D3) ^3 + (r1 D1) ^4 + Rr3 D3 R1 D1 r3 D3 R3 D1 R1 D3
+> 
+> Note the use of Rr to represent both the turns R face & r inner
+>  slice. Counting slice turns the sequence is 25 turns, or
+>  24 "hyper moves". This sequence moves some centre pieces around.
+> 
+> However, on checking David Singmaster's Cubic Circular, in issues
+>  5 & 6, Autumn & Winter 1982 there is a shorter process on
+>  page 15, (UB pair):
+> 
+>  r2 D2 l3 D1 R3 U1 R3 U3 l3 U1 R1 U3 l1 R1 D1 r2
+> 
+> This process, although more difficult to memorize, is only 16 slice
+>  moves. It also disturbs centre pieces, although in a simpler way.
+>  I always solve the centre pieces last on the 4x4x4.
+
+Thank you. But what is the shortest way to flip 2 adj. edges without 
+messing the center pieces? I can't find shorter than 49 turns. 
+
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ -= Mikko Haapanen -=-=- hazard57@sulo.otol.fi -=-=- (981) 530 7768 =-
+ -=-=-=-=-=-=-=-=-=-= Haapanatie 2C411 90150 OULU =-=-=-=-=-=-=-=-=-=-
+
+
+
+
+

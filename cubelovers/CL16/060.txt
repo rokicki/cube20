@@ -1,0 +1,82 @@
+From munafo@vgi.com  Mon Jul 24 19:11:44 1995
+Return-Path: <munafo@vgi.com>
+Received: from vgi.com (hoss.vgi.com) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA02144; Mon, 24 Jul 95 19:11:44 EDT
+Received: from frank.vgi.com ([1.0.2.139]) by vgi.com (4.1/SMI-4.1)
+	id AA00606; Mon, 24 Jul 95 19:11:41 EDT
+Received: by frank.vgi.com (1.38.193.4/SMI-4.1)
+	id AA11325; Mon, 24 Jul 1995 19:12:00 -0400
+Date: Mon, 24 Jul 1995 19:11:50 -0400 (EDT)
+From: Robert Munafo <munafo@vgi.com>
+X-Sender: munafo@frank
+To: CUBE-LOVERS List <Cube-Lovers@ai.mit.edu>,
+        Nichael Cramer <ncramer@bbn.com>
+Subject: Shallow-cut dodecahedron, and Re: Little keychain cubes
+In-Reply-To: <9507242021.AA21879@life.ai.mit.edu>
+Message-Id: <Pine.HPP.3.90.950724171843.6874A-100000@frank>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+I have also noticed that the discussion on the "shallow-cut dodecahedron" 
+a.k.a. Hungarian "super nova" has come and gone a couple times. What I'm
+talking about is a puzzle that looks like a Platonic dodecahedron (12
+pentagonal faces) cut like
+
+          +''':'''''':'''+                +'''':'''':''''+
+         :   :        :   :              :    :      :    :
+        .:...:........:...:.            .'   .'      :    `.
+        :   :          :   :            :'''':'''''''':'''':
+       :   :            :   :          :    :          :    :
+      .'  .'            `.  `.        .'   .'          `.   `.
+      :.  :              :  .:   or   :`.  :            :  .':
+     :  `:                :'  :      :   `:              :'   :
+     +  .'`.            .'`.  +      +   .''.          .'`.   +
+      `.:   `.        .'   :.'        `. :   `.      .'   : .'
+        `.    `.    .'    .'            `.     `.  .'     .'
+          `.    `..'    .'                `.     ::     .'
+            `.  .'`.  .'                    `. .'  `. .'
+              `:    :'                        `.    .'
+                `..'                            `..'
+
+and manipulated by turning a face 72 degrees around its axis of 5-fold
+rotational symmetry (an operation that moves 5 edge pieces and 5 corner
+pieces).
+
+I'd like to cast the parts for one of these as well. It seems that the only
+difficult part would be the 12-pointed "spindle" that holds all the center
+pieces. It has to be strong, rigid and perfectly aligned. The easiest thing
+would be to screw bolts into a 12-sided die (of the D&D variety) but I think
+the alignment would be too poor. 
+
+
+On Mon, 24 Jul 1995, Nichael Cramer wrote:
+> >Does anyone know how I could get more of those little 25-cm 3x3x3 cubes that
+> 
+> 25-Cm!?!  Damn son, you must have a helluva lot of keys!     ;-)
+
+Oh, yes of course I meant to say 25 mm, not 25 cm. <-:
+   Of course, a 25-cm cube would be fun to have, too. I imagine it would be
+about a 25x25x25, which would have about 7.3 * 10^2328 combinations (even
+without considering face centers). God's Number would be well over 1000, and
+even "Pons Asinorum" would be a major effort at 150 QTW. Since it's an
+odd-order cube, it could be built by the simplistic "sextapole magnet" 
+method (each cubie has a north pole on its inward-pointing faces and a south
+pole on its outward-pointing faces, except for the cubiess on the three
+central planes which could be hollow steel) [-8
+
+> >I'd like to get a bunch of small cubes so I can keep a bunch of cubes
+> >in different configurations. 
+> 
+> Probably a dumb idea, but if they're going to stay fixed, couldn't you just
+> paint some up?
+
+Sort of a minimalist approach... but I have a notebook for recording
+patterns. Most of what I want to do involves having a bunch of cubes in the
+same pattern, then performing different transformations on each one and
+comparing the results.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+More software projects have gone awry for lack of calendar time than for
+all other causes combined.
+[Fred Brooks, _The Mythical Man-Month_, p. 14 (and again on p. 26)]
+- - - - Robert P Munafo - - -  munafo@vgi.com - - - +1.617.276.8960 - - -
+

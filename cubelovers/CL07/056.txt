@@ -1,0 +1,29 @@
+From kon@bach.stanford.edu  Tue May 14 21:14:14 1991
+Return-Path: <kon@bach.stanford.edu>
+Received: from bach.Stanford.EDU by life.ai.mit.edu (4.1/AI-4.10) id AA02844; Tue, 14 May 91 21:14:14 EDT
+Received: by bach.Stanford.EDU (4.1/inc-1.0)
+	id AA00195; Tue, 14 May 91 18:14:11 PDT
+Date: Tue, 14 May 91 18:14:11 PDT
+From: kon@bach.stanford.edu (Ronnie Kon)
+Message-Id: <9105150114.AA00195@bach.Stanford.EDU>
+To: mindcrf!ronnie@peabody.mindcraft.com, ncramer@bbn.com
+Subject: Re:  5by cubes
+Cc: cube-lovers@life.ai.mit.edu
+
+>>	I suspect this is why there are (and will probably never be) cubes of
+>>orders greater than 5.  I believe (though have not proved) that the 5 cube 
+>>contains all the complexity that is possible.  Adding more cubies would only
+>>increase the amount of time needed to solve.
+>
+>On the other hand, a 5X (or any cube of odd order) will still have the
+>constraints imposed by a fixed center.  As a single example, the 4X here in
+>my office is completely "solved" except that two opposite corners are
+>swapped.  That's not something that can happen on a cube of odd order (at
+>least I don't think so, but I would love to be proved wrong ;).
+
+Wow!  I could have sworn I have gotten to this position before, but you are
+very definitely correct.  The state with two diagonal corners swapped is in
+the orbit with edge cubies exchanged.
+
+				Ronnie
+

@@ -1,0 +1,64 @@
+From cube-lovers-errors@curry.epilogue.com  Thu Jun  6 23:32:59 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id XAA11086 for <cube-lovers-outbound@curry.epilogue.com>; Thu, 6 Jun 1996 23:32:58 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Thu, 6 Jun 1996 11:54:46 +0100
+Message-Id: <9606061054.AA14444@mecmdb.me.ic.ac.uk>
+X-Sender: ars2@mecmdb.me.ic.ac.uk
+X-Mailer: Windows Eudora Light Version 1.5.2
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: Cube-Lovers@ai.mit.edu
+From: "The Official Mech. Eng. Exams Failure Club." <a.southern@ic.ac.uk>
+Subject: Re: Fragile parts in 4^3, and limits to a n^3
+
+At 08:35 04/06/96 -0400, you wrote:
+>On 1 Jun 1996, Wei-Hwa Huang wrote:
+>
+>{Mostly snipped}
+>
+>> As another aside, I don't understand the rationale behind the canonical
+>> 4x4x4 design.  It would seem to me that it's better to have two rings of
+>> grooves in each dimension, so that the face pieces could have "fatter"
+>> legs and not break off as easily.
+>> 
+>> Wei-Hwa Huang, whuang@cco.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+>
+>  It probably isn't necessary for the legs to be so thin; the mechanical 
+>engineer probably had optimistic estimates of the likely forces and the 
+>strength of the particular polymer used. The latter isn't, by any means, 
+>cheap stuff.
+
+It is compared to those injection Moulds that they had made. These will be
+the most expensive parts for each puzzle. The more variety of parts, the
+more expensive the puzzle.
+
+I reckon that on a 3^3 there must be at least 6 different classes of parts
+(the centre pieces on each face have a main part and a cover). I reckon that
+the Megaminx has 5 as well. I have not taken apart a 5^3 yet, but there must
+be about 8 or 9 if it works on similar lines to the 3^3. This almost doubles
+the overheads of the 5^3 production compared to 3^3 production.
+
+This Brings me to two questions (well three really, but the third is
+unrelated) :
+
+1) Who has the Injection Moulds for the 4x4x4, and are they still in
+functioning order?
+2) How many 7^3 (okay, I know there is currently no design) could possibly
+be sold, and do you think that this would cover the costs of injection
+moulds (optimistically about 15 or so)  and construction (even allowing for
+the Retailer to take ~70% of the price)?
+
+my third and final(?) question is:
+
+3)With all this talk of Who is on our group, is there any reason why the
+mailing list can't be published? And if not, are there any of the designers
+of Rubik's Range or Similiar? Any Company Executives looking for new Ideas?
+
+Tar, Now I've got to go, I've got an exam to fail..................
+
+Andy.
+
+
+

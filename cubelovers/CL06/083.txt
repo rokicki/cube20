@@ -1,0 +1,30 @@
+Received: from MITVMA.MIT.EDU (TCP 2227000003) by AI.AI.MIT.EDU 28 May 88 09:04:26 EDT
+Received: from TAURUS.BITNET by MITVMA.MIT.EDU (IBM VM SMTP R1.1) with BSMTP id 4231; Sat, 28 May 88 09:01:18 EDT
+From: hart%TAURUS.BITNET@MITVMA.MIT.EDU
+Return-Path: <hart%TAURUS.BITNET@MITVMA.MIT.EDU>
+Received: by MATH.Tau.Ac.IL (3.2/TAU-4.7)
+        id AA27666; Sat, 28 May 88 14:27:52 +0300
+Date: Sat, 28 May 88 14:27:52 +0300
+Message-Id: <8805281127.AA27666@MATH.Tau.Ac.IL>
+Comments: If you have trouble reaching this host as MATH.Tau.Ac.IL
+           Please use the old address: user@taurus.BITNET
+Reply-To: <hart%TAURUS.BITNET@MITVMA.MIT.EDU>
+To: cube-lovers@ai.ai.mit.edu
+Subject: subscription
+
+
+[]
+
+Please put me on the CUBE-LOVERS mailing list.
+
+Thank you,
+           Sergiu Hart
+---------------------------------------------------------------------
+     MAIL:      School of Mathematical Sciences
+                Tel-Aviv University
+                69978  Tel-Aviv,  Israel
+     E-MAIL:    hart@taurus.bitnet,    hart@math.tau.ac.il,
+                hart%math.tau.ac.il@cunyvm.cuny.edu,
+                hart%taurus.bitnet@cunyvm.cuny.edu,
+                hart%taurus.bitnet@cnuce-vm.arpa
+---------------------------------------------------------------------

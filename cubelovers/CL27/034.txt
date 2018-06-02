@@ -1,0 +1,119 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Apr  7 18:42:26 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA26689
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 7 Apr 1999 18:42:25 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <19990406235847.6438.rocketmail@web601.yahoomail.com>
+Date: Tue, 6 Apr 1999 16:58:47 -0700 (PDT)
+From: Han Wen <hansker@yahoo.com>
+Subject: Re: Keyboard cube [Layout for Speed Cubing]
+To: noel@mud.ca
+Cc: Cube Lovers <Cube-Lovers@ai.mit.edu>
+
+Hi,
+
+This is a very interesting problem.  I've been scratching my head for a
+while, and I've cooked up with a keyboard combination that could work
+for virtual speed cubing.  I tried to follow a few guidelines: speed
+cubing friendly; ergonomic and intuitive.
+
+There are of course, two types of rotations that are required to solve
+the cube: body rotations (rotate the whole cube) and slice rotations
+(rotate individual faces).  For each type of rotation there are three
+additional sub-types.  For body rotations, there are three axes x, y
+and z.  For slice rotations, there are 1/4-turn clockwise, 1/4-turn
+counterclockwise and 1/2-turn.
+
+Let's define the three body axes as follows: the z-axis will intersect
+the U and D faces.  The x-axis will intersect the F and B faces. The
+y-axis will intersect the R and L faces.
+
+ Okay, now ergonomics.  When I solve the cube, I notice that my left
+hand does most of the body rotations and my right hand does most of the
+slice rotations.  I tried to keep this intuition in assigning keyboard
+keys by making the left hand perform body rotations and the right hand
+perform slice rotations (well, sort of...).  The most intuitive form
+that I could think of for your hands to be in is the fetal or "clawed"
+position.  This can be satisfied by placing the left-hand fingers on
+the A, W, E and F keys and right-hand fingers on the J, I, O and ; keys
+(assuming a QWERTY keyboard layout).  To be speed cubing friendly,
+these 8 fingers should never have to leave these keyboard key
+assignments.
+__________________________________________________________________________________
+For body rotations, the keyboard key assignments could be:
+F - clockwise body rotation about the y-axis (i.e. if we were rotating
+    a face it would be R)
+E - clockwise body rotation about the x-axis (i.e. if we were rotating
+    a face it would be F)
+W - clockwise body rotation about the z-axis (i.e. if we were rotating
+    a face it would be U)
+
+To perform a counter-clockwise body rotation, hit the SPACEBAR key with
+the right thumb in combination with the key assigment (e.g. F and
+SPACEBAR)
+__________________________________________________________________________________
+For the slice rotations, the keyboard 2-key assignments could be:
+F and J - 1/4-turn clockwise of the L-face
+F and I - 1/4-turn clockwise of the R-face
+F and O - 1/4-turn clockwise of R-face and 1/4-turn counterclockwise of
+the L-face
+
+E and J - 1/4-turn clockwise of the F-face
+E and I - 1/4-turn clockwise of the B-face
+E and O - 1/4-turn clockwise of the F-face and 1/4-turn
+counterclockwise of the B-face
+
+W and J - 1/4-turn clockwise of the U-face
+W and I - 1/4-turn clockwise of the D-face
+W and O - 1/4-turn clockwise of the U-face and 1/4-turn
+counterclockwise of the D-face
+
+To perform 1/4-turn counterclockwise slice rotations, hit the SPACEBAR
+key with the right thumb in combination with the 2-key assignment (e.g.
+F and J and SPACEBAR)
+
+To perform 1/2-turn slice rotations, hit the N key with the right thumb
+in combination with the 2-key assignment
+(e.g. F and J and N)
+__________________________________________________________________________________
+I've ordered the keys in order of their importance.  As you can see the
+J key is responsible for "LEFT-LIKE" slice rotations
+I key is responsible for "RIGHT-LIKE" slice rotations
+O key is responsible for middle slice rotations
+
+You might ask, why make O the middle slice and not I, since it's the
+middle key?  Well, when you actually solve the cube, you never move the
+middle slice.  You only move the left and right slices to effectively
+move the middle slice.  Furthermore, this operation is performed much
+more seldomly than normal R and L slice rotations.
+
+Anyways, you can see with this keyboard mapping you only need a total
+of  8 keys to perform all of possible rotations you need to solve the
+cube.
+
+If we really want to make this speed cubing friendly we could also do
+the following:
+-body rotations should be performed in real-time; the speed of rotation
+should be an adjustable constant that the user can tweak to his or her
+preference
+-slice rotations should be instantaneous.  There's really no point in
+watching a slice rotate.  Just wasting time...
+
+> "Noel Dillabough" <noel@mud.ca> writes:
+> >Any ideas would be appreciated and I'll try my best
+> to implement the best
+> >one.  If simulators "felt" like a cube when you
+> used them they would be more
+> >fun (and move without jamming etc)
+>
+
+===
+_________________________________________________________
+Dr. Han Wen
+Applied Materials
+3100 Bowers Ave, MS 1158
+Santa Clara, CA  95054
+e-mail: Han_Wen@amat.com / hansker@yahoo.com
+

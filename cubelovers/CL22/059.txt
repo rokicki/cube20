@@ -1,0 +1,58 @@
+From cube-lovers-errors@oolong.camellia.org  Tue May 13 23:24:09 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id XAA05612; Tue, 13 May 1997 23:24:09 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-Id: <3.0.1.32.19970513222622.006933b8@pop.tiac.net>
+X-Sender: kangelli@pop.tiac.net (Unverified)
+X-Mailer: Windows Eudora Light Version 3.0.1 (32)
+Date: Tue, 13 May 1997 22:26:22 -0400
+To: cube-lovers@ai.mit.edu
+From: karen angelli <kangelli@tiac.net>
+Subject: 2x6 Rubik's Magics
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+
+Wow, what a response.  
+	Yes, you are all correct, the ones I saw are 6x2, not 8x2.  However, as I
+now know, almost any number are possible.  I saw the puzzles for sale at
+The Games People Play at 1100 Massachusetts Ave, Cambridge, Ma 02138
+617-492-0711 (not far from the cube-lovers administrators at MIT) (They are
+also available from Puzzletts in Seattle).  The owner of Games People Play
+had about five for sale, and also several of the original black background
+8panel Magics.  She sells the 12 panel for $20 and the 8 panel for $15.
+However, the buyer must beware.  Each of the 12 panel ones I looked at in
+Games People play had one broken string each.  I bought one despite the
+flaw, because she gave me the phone number for someone who knows how to fix
+them, and the $20 price was substantially below the $35 plus s.h. from
+Puzzletts.  I had lunch with my Rubiks Magic repair-man today, got a lesson
+in Rubiks magicology and now have a fully functional toy.
+	According to my sources, the Magics can function with as few as half of
+the original strings.  Each string set is double strung for extra strength.
+ Accordingly, the thing will still work properly if any one breaks, or if
+any number break, so long as both strings on any particular loop both
+break.  He suggests removing any broken string as soon as possible so that
+it does not get in the way of the other ones and create a cascading loose
+loop catastrophe.  
+	He happened to have a number of extra loops of fishing line because he
+fixes the puzzles for a puzzle mail-order company.  The company told him
+that there was a large batch of puzzles made with defective strings.  They
+send him the puzzles, and he canabalizes them to make n-1 Magics from n
+defective magics.
+	He fixes the Magics by wrapping the loop around the same path as the one
+path that has only one loop around it.  There are only a couple of rules to
+follow: the string paths on one side cross the string paths on the other
+side at 90degree angles, and when the two strings from one side pass the
+strings from the other side between panels, the two from one side must be
+either both outside of the two from the other side, or both inside the ones
+from the other side.
+	Personally, I've always been too paranoid about my puzzles to abuse them
+enough to actually find out how to take them apart.  I also usually
+hesitated at spending the money to get several puzzles when one seemed
+sufficient.  I guess I need to learn how to live life on the wild side.
+
+'e-ya later, 
+Peter Reitan
+
+
+

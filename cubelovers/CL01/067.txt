@@ -1,0 +1,30 @@
+Date: 31 DEC 1980 1230-PST
+From: WOODS at PARC-MAXC
+Subject: Re: relatives of the plummer cross
+To:   ZILCH at MIT-DMS, CUBE-LOVERS at MIT-MC
+
+In response to the message sent  31 Dec 1980 0729-EST from ZILCH@MIT-DMS 
+
+Your "baseball" is listed in Singmaster's booklet as "the Worm" (though
+I must admit I like your name for it), with a 28-qtw solution (23 if
+you count half-twists=1).  I prefer the pattern named the "Snake":
+
+    DUD
+    DUD
+    DUD
+
+BBB RFR FFF LBL
+BLL FFR FRR BBL
+BLB RRR FRF LLL
+
+    UUU
+    DDD
+    UUU
+
+which is known to be soluble in 20 qtw (16 if htw=1).  Meanwhile, your
+cube-in-a-cube has a 24-qtw (20-htw/qtw) solution in Singmaster, though
+I generally find it easy enough to make in 34 qtw using the commutator
+operation [spoiler warning!] nicknamed "rFUfuR":  rFRfUfuFuRUr.
+
+	-- Don.
+-------

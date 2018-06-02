@@ -1,0 +1,53 @@
+Received: from ardec-lcss.arpa.ARDEC.MIL (TCP 30003004013) by AI.AI.MIT.EDU 26 Apr 89 12:01:23 EDT
+Received: by ardec-lcss.arpa id <21C00184051@ardec-lcss.arpa.ARDEC.MIL> ;
+       Wed, 26 Apr 89 12:00:19 EDT
+Date: Wed, 26 Apr 89 11:58:18 EDT
+From: BECK@ardec-lcss.arpa.ARDEC.MIL
+Subject: CFF #20  3/89
+To: CUBE-LOVERS@ai.ai.mit.edu
+X-VMS-Mail-To: EXOS%"CUBE-LOVERS@MIT-AI"
+Message-ID: <890426115818.21C00184051@ardec-lcss.arpa.ARDEC.MIL>
+
+SUBJECT :  Review of "Cubism For Fun" newsletter issue #20, MAR 89;
+the newsletter of the "Dutch Cubists Club";  in english starting with
+issue #14 
+
+1..  The table of contents for issue # 20, MAR 89 follows:
+
+COMMITEE AND EDITORS
+MEMBERSHIP FEE BY Paul Sijben
+SECRETARIAL REPORT by  Guus Razoux Schultz
+LOOKING BACK by Klaas Steenhuis
+LOOKING FORWARD by  Guus Razoux Schultz
+CUBE DAY 1988 by Klaas Steenhuis
+HOLLOW MAZES by Oskar van Deventer
+THE MAGIC CROSS by Anton Hanegraaf
+more PRETTY CUBIC PATTERNS BY ANNEKE TREEP 
+THE DOCHORN THEOREM by Anton Hanegraaf
+THE EQUATOT-NUMBER by Klaas Steenhuis and Anton Hanegraaf
+MINIMA IN PRACTICE by  Guus Razoux Schultz
+3X3X3 CUBE WITHIN A 4X4X4 CUBE BY RONALD FLETTERMAN 
+PLATE TECTONICS by Peter Beck
+NEWS AND LETTERS TO THE EDITOR  - Announcement of planned Puzzle     
+        PArty, aug 27 in London;  Planning for new book on Hoffman
+Puzzles.
+MAGAZINE REVIEW of "World Game Review"
+CHANGES IN THE LIST OF MEMBERS - 
+
+>>  NOTE:  I HAVE SEEN Rubik's clock in ToysRus for $10.
+
+2.   Membership for 1989 is  US$8.   A photocopied set of the
+newsletters, issues 1-13, written in DUTCH (in the future selected
+back articles will be available in english) is also available for
+ US$7.    To order either of these send an 'INTERNATIONAL"  POSTAL
+MONEY ORDER to:  Paul Sijben, Witbreuksweg 397-304, 7522 ZA Enschede,
+ The Netherlands.
+
+3.  If anybody would like further details please ask!
+
+CUBING IS FOREVER      PETER BECK
+
+<BECK@ARDEC-LCSS>  OR  <PBECK@ARDEC>
+
+PS   Matchbox has reintroduced the cube in europe.
+

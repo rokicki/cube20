@@ -1,0 +1,45 @@
+From: Han Wen <hansker@yahoo.com>
+Subject: Re: HOW TO SOLVE THE PROBLEM OF THE PROFESSOR CUBE 
+To: Uwe Meffert <uwe@ue.net>
+Cc: Jing Meffert <jing@ue.net>
+
+Hi,
+
+My cube is all fixed.
+
+Thank you for your prompt reply.  You were right, the glue used to fix
+the caps also fixed the spindle screw! Actually, your instructions
+gave me the perfect excuse to take your cube apart.  I was dying to
+find out how the heck all these pieces are held together.  
+
+Anyways, I popped of the caps carefully using a razor blade, scraped
+off all the excess glue, greased the screw head and before screwing it
+back together, I took all the pieces for one face out just to see and
+understand the engineering holding all the pieces together. Wow, what
+an amazing bit of engineering.  It's like a cube spindle inside
+another cube spindle!  Amazing. 
+
+Actually, the center caps don't really need glue.  They fit nice and
+snug, and it also leaves me the option to adjust the screw again in
+case it becomes loose.
+
+Now that I understand the mechanism, I've decided to only rotate faces
+clockwise to minimize the possibility that a counter-clockwise
+rotation will actually loosen one of the spindle screws.
+
+I still haven't messed the faces up though. I'm so close to finishing
+the Megaminx.  I just have two edge pieces to swap on the last face! 
+The other 11 sides were fairly straightforward to solve. I also got
+the corners of the last face fairly quickly by using Sune's move to
+twist corner pieces (a standard Rubik's cube move).  However, getting
+those edge pieces was a different story.  I had to develop quite a few
+moves to rotate and twist the edge pieces around.  I'm close... so
+close..! :)
+
+I hope you keep inventing and making new puzzles.  I eagerly click on
+your new releases on your web page quite regularly, hoping to find a
+worthy successor to the Megaminx or the Professor's Cube.  Maybe a
+7x7x7?!! Or a Buckyball?  One can only imagine...
+
+-Han-
+

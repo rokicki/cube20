@@ -1,0 +1,16 @@
+Date: 4 May 1982 00:15-EDT
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: The Archives
+To: CUBE-LOVERS at MIT-MC
+
+Those of you who look through the archives of old Cube-Lovers mail will notice
+that I have split off a new section of the archive.  The mail now lives in:
+
+MC:ALAN;CUBE MAIL0	;oldest mail in foward order
+MC:ALAN;CUBE MAIL1	;next oldest mail in foward order
+MC:ALAN;CUBE MAIL2	;more of same
+MC:ALAN;CUBE MAIL3	;still more of same
+MC:ALAN;CUBE MAIL	;recent mail in reverse order
+
+(I have also corrected a problem with the tabs in MAIL0 so that the diagrams
+contained therein are readable once again.)

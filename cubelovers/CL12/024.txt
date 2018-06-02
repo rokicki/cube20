@@ -1,0 +1,76 @@
+From alan@parsley.lcs.mit.edu  Mon Apr 25 21:41:35 1994
+Return-Path: <alan@parsley.lcs.mit.edu>
+Received: from parsley.lcs.mit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA23830; Mon, 25 Apr 94 21:41:35 EDT
+Received: by parsley.lcs.mit.edu 
+	id AA14007; Mon, 25 Apr 94 21:40:40 -0400
+Date: Mon, 25 Apr 94 21:40:40 -0400
+Message-Id: <9404260140.AA14007@parsley.lcs.mit.edu>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+To: coxj@rpi.edu
+Cc: cube-lovers@life.ai.mit.edu
+In-Reply-To: Jeffrey M. Cox's message of Mon, 25 Apr 1994 11:12:43 -0400 <199404251513.LAA15800@mail1.its.rpi.edu>
+Subject: Unsubscribe
+
+   Date: Mon, 25 Apr 1994 11:12:43 -0400
+   From: coxj@rpi.edu (Jeffrey M. Cox)
+	   I would like to be taken off the mailing list.
+   |   _____       _   _  |               Jeff "The Master" Cox
+   |     /  __    / ) / ) |                   coxj@rpi.edu
+   |  / /  /__)  (_  (_   |
+   |  \/   \__  /   /     |   "There's a fine line between clever and stupid"
+
+Despite the fact that you stupidly mailed your administrative request to
+the entire mailing list, I have removed you from Cube-Lovers.
+
+I thought I would also take this opportunity to remind the rest of you of
+the contents of the greeting message I send all new subscribers.
+Old-timers who've seen previous versions of this file can amuse themselves
+by noticing that this winter we had some of our heaviest traffic ever.
+
+------- Begin Standard Greeting -------
+
+Don't expect to receive any mail anytime soon.  Cube-Lovers is mostly quiet
+these days.  Our addresses are Cube-Lovers@AI.MIT.EDU for submissions and
+Cube-Lovers-Request@AI.MIT.EDU for administrivia.
+
+Please note that Cube-Lovers-Request is processed by a human being, not a
+computer program (such as LISTSERV or Majordomo).  If your request is not
+instantly processed, it is because I don't spend my entire life reading my
+electronic mail.  I do know how to interpret many of the commands typically
+sent to such programs, but I would prefer it if instead you can remember to
+address me in complete sentences.
+
+If you are interested in the archives of the Cube-Lovers mailing list:
+
+Using FTP, connect to FTP.AI.MIT.EDU, login as "anonymous" (any password),
+and in the directory "pub/cube-lovers" you will find the twelve (compressed)
+files "cube-mail-0.gz" through "cube-mail-11.gz".
+
+Archive vital statistics (when uncompressed):
+
+	   File		   From		   To	     Size (bytes)
+	   ----		   ----		   --	     ------------
+	cube-mail-0	12 Jul 80	23 Oct 80	185037
+	cube-mail-1	 3 Nov 80	 9 Jan 81	135719
+	cube-mail-2	10 Jan 81	 3 Aug 81	138566
+	cube-mail-3	 3 Aug 81	 3 May 82	137753
+	cube-mail-4	 4 May 81	11 Dec 82	139660
+	cube-mail-5	11 Dec 82	 6 Jan 87	173364
+	cube-mail-6	10 Jan 87	13 Apr 90	216733
+	cube-mail-7	12 Oct 90	 9 Sep 91	137508
+	cube-mail-8	 1 Nov 91	25 May 92	171205
+	cube-mail-9	28 May 92	 7 Jan 93	155755
+	cube-mail-10	20 Mar 93	 6 Dec 93	171881
+	cube-mail-11	 6 Dec 93	18 Feb 94	349772
+
+In addition, the file "recent-mail" contains a copy of the currently active
+section of the archive.  (Unfortunately, due to the way mail works here at
+the AI Lab, it is not possible to have new mail accumulate directly into
+this file, so there may be some delay before a new message arrives here.)
+Finally, the file "README" contains the information you are currently reading.
+
+				- Alan
+
+------- End Standard Greeting -------
+

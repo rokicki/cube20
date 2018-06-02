@@ -1,0 +1,10 @@
+Date: 22 May 1982 19:13-EDT
+From: Richard Pavelle <RP at MIT-MC>
+Subject: C^4
+To: CUBE-LOVERS at MIT-MC
+
+I take it back. There is more to C^4 than I first thought. I encountered
+a final move today and do not have the tools and perhaps this is what
+DCP meant in his message of May 14th. The final configuration requires
+flipping only ONE pair of edges. Can anyone explain this difference
+between C^3 and C^4?

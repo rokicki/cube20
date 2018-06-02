@@ -1,0 +1,163 @@
+From BRYAN@wvnvm.wvnet.edu  Sat Aug 13 17:17:43 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA00262; Sat, 13 Aug 94 17:17:43 EDT
+Message-Id: <9408132117.AA00262@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 0294; Sat, 13 Aug 94 17:14:54 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 2921; Sat, 13 Aug 1994 17:14:54 -0400
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Sat, 13 Aug 1994 17:14:53 EDT
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   GC Local Maxima, Additional Information
+
+In all my God's algorithm searches, I have never calculated local
+maxima.  My search technique and data representation do not lend
+themselves very well to calculating local maxima.  However, I thought
+I would give it a try anyway.  I decided to start by calculating local
+maxima for GC, the corners only group, since local maxima for this group
+have been calculated before and I could check my answers.  I have
+come up with some surprising results.
+
+For a given cube X, there are twelve (not necessarily distinct)
+neighbors of the form Xq, where q is in Q, the set of twelve
+quarter turns.  Each Xq is either one move closer to Start or one
+move further from Start than X.  I decided to determine for each cube
+X, how many of the Xq were closer to Start and how many were further
+from Start.  This is a superset of the local maxima problem.  Those
+X for which I determine that all twelve of the Xq are closer to Start
+are the local maxima, but I also determine for how many of the X
+there are eleven neighbors Xq closer to Start, for how many of the X
+there are ten neighbors Xq closer to Start, etc.  This is where the
+surprising results come in.
+
+The following table summarizes the results.  The table is a little hard
+to read.  The rows (from 0 to 14) are the distances from Start.  The
+columns (from 0 to 12) are the number of qturns which take you closer
+to Start.  For example, row 4 column 3 contains 480.  This means that
+there 480 cubes that are 4 moves from Start and for which 3 of the 12
+qturns will take you closer to Start.  The table is too wide for a
+computer screen, so I split it.  Columns 0 through 6 appear first, and
+then columns 7 through 12 are below.
+
+Column 12 represents the local maxima.  The "Total" column is simply
+the total number of cubes at each level. The "Total" column and the
+local maxima column appear several times in the archives, and my
+numbers match the archives.  The first occurrence I have found is
+Dan Hoey's note of 20 August 1984.
+
+                             Number of Twists which Go Towards Start
+
+     Level    Total  0      1        2     3        4     5        6
+              Cubes
+
+        0         1  1      0        0     0        0     0        0
+        1        12  0     12        0     0        0     0        0
+        2       114  0     96       18     0        0     0        0
+        3       924  0    672      192    60        0     0        0
+        4      6539  0   4032     1920   480       51     0       56
+        5     39528  0  19104    14904  3792      984   216      384
+        6    199926  0  71184    90984 16656    13212  1872     3936
+        7    806136  0 123360   478008 42768   117576  7824    16656
+        8   2761740  0  23328  1911312  9024   643536  2736   121872
+        9   8656152  0      0  5573376     0  2327616     0   558336
+       10  22334112  0      0 11167488     0  7057440     0  2818176
+       11  32420448  0      0  4661568     0  8314272     0  8893248
+       12  18780864  0      0    19008     0   123840     0   591744
+       13   2166720  0      0        0     0        0     0        0
+       14      6624  0      0        0     0        0     0        0
+
+     Total 88179840  1 241788 23918778 72780 18598527 12648 13004408
+
+
+                            7        8     9       10    11       12
+
+        0                   0        0     0        0     0        0
+        1                   0        0     0        0     0        0
+        2                   0        0     0        0     0        0
+        3                   0        0     0        0     0        0
+        4                   0        0     0        0     0        0
+        5                 144        0     0        0     0        0
+        6                 528     1344     0       96     0      114
+        7                1680     9096  1536     6552   480      600
+        8                 384    23232    96     7584   720    17916
+        9                   0   167616     0    19008     0    10200
+       10                   0  1020384     0   235584     0    35040
+       11                   0  6746688     0  2986560     0   818112
+       12                   0  2202912     0  6189120     0  9654240
+       13                   0      288     0    39168     0  2127264
+       14                   0        0     0        0     0     6624
+
+                         2736 10171560  1632  9483672  1200 12670110
+
+The first surprising thing I noticed is the diagonals, especially
+close to Start.  I am not quite sure why there should be diagonals.
+I would describe the diagonals as a weak feature of the chart, but
+they are surely there.  I think the diagonals mean something as follows.
+Pick a cube X which is N moves from Start, and for which M qturns
+will take you closer to Start.  Move to a cube Xq which is N+1 moves
+from Start.  Then there is a *tendency* (not a certainty!) for there
+to be M+1 moves which will take Xq closer to Start.  I can't think
+of any reason for this to be so, but the chart has diagonals.
+
+The second surprising thing is that the chart contains a preponderance
+of even numbers.  There are only
+two odd numbers in the whole chart.  Row 0 column 0
+contains a 1, and row 4 column 4 contains a 51.  All the other cells
+in the chart contain an even number.  Furthermore, by comparison to
+each other, the even columns are densely populated and the odd columns
+are sparsely populated.  Finally, below level 8, the
+odd columns are completely empty.
+
+It is often the case that when there are an even number of objects, there
+is some natural pairing that can be performed on the objects.  In this
+case, I think the pairing that can be performed to explain the even numbers
+is twists of opposite faces.  R can be paired with L, R' can be paired
+with L', U can be paired with D, etc.
+
+The corners-only group GC is "almost" the same as the corners-only-
+without-centers group GC/C.  (GC/C is also called a 2x2x2 cube or a
+pocket cube).  In GC/C, the pairing between moves of opposite faces
+is absolute.  You can always choose either of two opposite faces with
+equivalent results.  In GC, the pairing is relative.  You can "almost"
+solve GC the same way as GC/C, but sometimes you have to be sensitive
+to which of two opposite faces you twist in order to rotate the
+corners properly.  Dan's 20 August 1984 note explains this phenomenon
+much better than I can:
+
+>The alert reader will notice that rows 10 through 14 contain values
+>exactly 24 times as large as those for the pocket cube.  This is not
+>surprising, given that the groups are identical except for the position
+>of the entire assembly in space, and each generator of the corner cube
+>is identical to the inverse of the corresponding generator for the
+>opposite face except for the whole-cube position.  Thus when solving a
+>corner-cube position at 10 qtw or more from solved, it can be solved as
+>a pocket cube, making the choice between opposite faces in such a way
+>that the whole-cube position comes out right with no extra moves.
+
+I can't fully explain why Dan's results are for rows 10 through 14,
+whereas in my chart the odd columns are empty for rows 9 through 14.
+Also, any rotation of the corners can be accomplished in no more than
+6 qturns (see my note of 4 December 1993 concerning the corners of
+the 3x3x3).  I think that the explanation is something to the effect
+that for rows 10 through 14, if (for example) R will take you closer
+to Start, then so too will L, and vice versa.  I don't think you have
+to start choosing between (for example) R and L to accomplish the proper
+rotation until you get below level 10.
+
+Perhaps Dan can fully explain the mystery:  why is it
+that a rotation of the corners only requires 6 qturns, full pairing
+of opposite face turns kicks in at level 9, and GC becomes
+exactly 24 times GC/C at level 10?  What is happening between level 6
+and level 10?  Why don't all three phenomena kick in at the same level?
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)              (304) 293-5192
+Associate Director, WVNET                  (304) 293-5540 fax
+837 Chestnut Ridge Road                     BRYAN@WVNVM
+Morgantown, WV 26505                        BRYAN@WVNVM.WVNET.EDU
+
+If you don't have time to do it right today, what makes you think you are
+going to have time to do it over again tomorrow?
+

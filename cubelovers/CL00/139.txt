@@ -1,0 +1,17 @@
+Date:	  10 September 1980 2303-edt
+From:	  Bernard S. Greenberg	     <Greenberg at MIT-Multics>
+Subject:  Randomizing
+To:	  CUBE-LOVERS at MIT-MC
+
+I enter the following tidbit into the transcript of this society,
+apropos to the current discussion:
+
+  RMS at AI (Richard Stallman) has suggested the following paradigm
+  for cubing tournaments:
+
+     (Assuming physically standard cubes are used)  The two participants
+     acquire (or create) solved cubes.  Each one randomizes it his/her
+     favorite way, and hands it to the other to solve.  The resources
+     expended by the solver (either qtw or real-time) are added to his/her
+     resource expenditure in solving the other's cube.  Minimum resource
+     expenditure wins.

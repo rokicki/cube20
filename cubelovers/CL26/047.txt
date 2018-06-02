@@ -1,0 +1,123 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Dec  1 19:18:47 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id TAA20686
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 1 Dec 1998 19:18:47 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Mon, 30 Nov 1998 23:13:51 -0500
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199812010413.XAA11878@euclid.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: new types of cyclic shifters
+
+a few months ago, i introduced the position  superflip composed with
+four spot  and showed that it had a new type of cyclic shifting
+property.  i've now found some new ways to generalize cyclic shifting,
+and this in turn suggests some new positions to consider.
+
+first, some brief review.
+
+the position  superflip  is central, so it commutes with all turns.
+therefore, if  x y  produces superflip, so does  y x .  we can shift
+one turn at a time, removing the first turn of the sequence and
+shifting it to the end.  in other words, if  m  produces superflip,
+then  x m = m x  for all turns  x .  clearly, any position  m  with
+the property that  x m = m x  for all turns  x ,  is central, so the
+only such positions are  superflip  and  start.
+
+i showed in an earlier message, that if  x  is any turn and  m  is
+superflip composed with four spot, then  x m = m y , where  y  is
+x  conjugated by the cube rotation  C_U2 .  more generally, we can
+ask for positions  m  such that for any turn  x , there is another
+turn  y  satisfying  x m = m y .  for such a position, we can
+cyclically shift any maneuver, one turn at a time, by replacing
+the turn  x^(-1)  at the beginning with the corresponding  y^(-1)
+at the end.  some other positions with this property are:  four
+spot, six spot, six spot composed with superflip.
+
+a new way to generalize this is to consider positions  m  such that
+for any turn  x ,  we have  x m = n x , where  n  is the same
+pattern as  m , but perhaps in a different orientation.  for such
+a position, we can cyclically shift any maneuver, by shifting the
+first turn to the end, and then conjugating by the appropriate cube
+symmetry.  for example, consider the position in which the UFR corner
+is twisted clockwise, and the other seven corners are twisted
+counterclockwise.  (i'll call this "1-7-twist" for now, but this
+pattern needs a better name.)  this position is created by
+
+     U  F2 B' U  B  U  D2 R2 U2 B  U' D2 B  U  F2 B  L2 B2
+
+now, cyclically shift the  U  at the beginning to the end to get
+
+     F2 B' U  B  U  D2 R2 U2 B  U' D2 B  U  F2 B  L2 B2 U
+
+which produces a different orientation of the same position; this
+time, the ULF corner is twisted clockwise.  now conjugate this
+maneuver by  C_U  to get
+
+     R2 L' U  L  U  D2 B2 U2 L  U' D2 L  U  R2 L  F2 L2 U
+
+which produces the original position, in its original orientation.
+actually, there are 3 cube symmetries by which one could conjugate,
+since the position has 3-fold symmetry.  another position with
+this type of cyclic shifting property is  1-7-twist composed with
+superflip.
+
+we can combine both types of generalizations, and ask for positions
+m  that have the property that for any turn  x , we have  x m = n y ,
+where  y  is another turn, and  n  is the same pattern as  m , but
+perhaps in a different orientation.  for such positions, we can
+cyclically shift any maneuver by replacing  x^(-1)  at the beginning
+of the maneuver by the corresponding  y^(-1)  at the end, and then
+conjugating the whole maneuver by the appropriate cube symmetry.
+two such positions are:  1-7-twist composed with four spot, and
+1-7-twist composed with four spot composed with superflip.
+
+here's all the examples of cyclic shifters that i know, along with
+minimal maneuvers:
+
+1. central positions
+
+start  (0q*, 0f*)
+
+superflip
+ R' U2 B  L' F  U' B  D  F  U  D' L  D2 F' R  B' D  F' U' B' U  D' (24q*, 22f)
+ F' B' D2 L' B2 L2 F2 U' D  B' D2 R  L  D' F2 U' L2 D' F2 D'  (20f*, 28q)
+
+2.
+four spot   F2 B2 U  D' R2 L2 U  D'  (12q*, 8f*)
+six spot    F  B' U  D' R  L' F  B'  (8q*, 8f*)
+
+four spot composed with superflip
+ U2 D2 L  F2 U' D  R2 B  U' D' R  L  F2 R  U  D' R' L  U  F' B'  (26q*, 21f)
+ F  U2 R  L  D  F2 U  R2 D  F2 D  F' B' U2 L  F2 R2 B2 U' D   (20f*, 28q)
+
+six spot composed with superflip
+ R' U  D  R' U  F' D  R' B  U' L' U' F' D  F' B' D' R' F  D  F  D' R2
+                                                               (24q*, 23f)
+ U2 F  B' R  F  L2 F2 D  B2 D2 R2 B' L2 F' D2 R2 D' B  R  B2  (20f*, 30q)
+
+3.
+1-7-twist
+ F  R' U' L' F' U' B' L' U' R2 F  L' D' R' F' D' B' R' D' L2  (22q*, 20f)
+ F  R2 L' F  L  F  B2 U2 F2 L  F' B2 L  F  R2 L  D2 L2  (18f*, 26q)
+
+1-7-twist composed with superflip
+ F  R  F' R  U  B  L  D  B  D' L' D  L  F  B' R  B  D  F  R'  (20q*, 20f)
+ F  R  L' B  L  D  F' L2 B  D2 B' L' F2 B' D  B  U  L  B   (19f*, 22q)
+
+4.
+1-7-twist composed with four spot
+ F  B2 L' U' B' L  U' D  L2 U  R' U' R  F' U' L' F  D  B' U'  (22q*, 20f*)
+
+1-7-twist composed with four spot composed with superflip
+ F  U' R' L  F' U  R  L' U2 D' B  R  L  F' R  D' R' F2 L  U'  (22q*, 20f*)
+
+as usual, i give a maneuver which is minimal in both metrics whenever
+this is possible.  i don't claim that i've found all positions in
+these categories, but these are all that i know.  if you find any others,
+they'd be good candidates for positions far from start.
+
+mike
+

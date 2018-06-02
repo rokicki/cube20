@@ -1,0 +1,32 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Thu Aug  5 17:39:56 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id RAA25389
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Thu, 5 Aug 1999 17:39:56 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Fri, 23 Jul 1999 14:32:38 +0200
+From: "Walter van Iterson (EMN)" <Walter.van.Iterson@emn.ericsson.se>
+Subject: Solving cube with robot arm
+To: Cube-Lovers@ai.mit.edu
+Message-Id: <3173B642ECF3D111B3FB0008C724B5609527BC@enleent100.ericsson.se>
+
+Hi all,
+
+Has anybody even built (or throught about building) a device 
+which physically solves a cube? Something like a combination 
+of a vision system to recognize the colors, a 'robot arm'
+which can perform the rotations and a computer to solve the 
+mathematics and to operate the robot arm.
+
+I'm currently thinking about making such a system, so I'm 
+interested if anybody else has done something similar.
+
+Greetings,
+Walter van Iterson
+walter.van.iterson@hta.nl
+
+[ Moderator's note: I'm sure there are some mentions of such efforts
+  in the archives.  I seem to recall one such project at the
+  University of Maryland. --Dan ]
+

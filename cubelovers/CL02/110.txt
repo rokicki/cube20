@@ -1,0 +1,10 @@
+Date: 20 July 1981 2332-EDT (Monday)
+From: Dan Hoey at CMU-10A
+To: Cube-hackers at MIT-MC
+Subject:  Re: One stuck axle
+In-Reply-To:  Alan Bawden's message of 20 Jul 81 22:14-EST
+Message-Id: <20Jul81 233257 DH51@CMU-10A>
+
+	Singmaster gives the answer.  Let A = RL'FFBBRL', then AUA = D.
+Thus it is possible to dispense with D moves entirely.  Jim Saxe also
+has a solution, but I don't know if it's the same one.

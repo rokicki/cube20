@@ -1,0 +1,14 @@
+From alan@ai.mit.edu  Sun Oct 14 20:01:36 1990
+Return-Path: <alan@ai.mit.edu>
+Received: from wheat-chex (wheat-chex.ai.mit.edu) by life.ai.mit.edu (4.1/AI-4.10) id AA28610; Sun, 14 Oct 90 20:01:36 EDT
+From: alan@ai.mit.edu (Alan Bawden)
+Received: by wheat-chex (4.1/AI-4.10) id AA02846; Sun, 14 Oct 90 20:01:37 EDT
+Date: Sun, 14 Oct 90 20:01:37 EDT
+Message-Id: <9010150001.AA02846@wheat-chex>
+To: cube-lovers
+Subject: Testing 1 2 3
+
+This message shouldn't go anywhere except into the archive and into my own
+mailbox.  I anyone else gets it, then it will be time to give up and go
+home.
+

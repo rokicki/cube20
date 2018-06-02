@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun Apr  5 23:28:33 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id XAA21469; Sun, 5 Apr 1998 23:28:32 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Apr  5 18:06:04 1998
+Date: Sun, 5 Apr 1998 18:05:59 -0400 (EDT)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <199804052205.SAA03822@Twig.Rodents.Montreal.QC.CA>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Pretty vs. Not-So-Pretty Isoglyphs
+
+> On the other hand,
+>    U B2 R2 F2 L2 U L2 F2 U2 R' B' R F' L' U2 B2 R2 B' D' U'
+> is a real mess in my opinion, even though it is a continuous
+> isoglyph.
+
+I think this (the pattern, not the operator to produce it) is actually
+rather striking and pretty - provided you look at the cube along the
+URB-LDF corner-to-corner axis.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

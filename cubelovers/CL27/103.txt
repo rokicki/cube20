@@ -1,0 +1,41 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Jun  4 15:47:14 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA16443
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 4 Jun 1999 15:47:13 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <199906041117.HAA05009@life.ai.mit.edu>
+From: "David Byrden" <David@byrden.com>
+To: <Cube-Lovers@ai.mit.edu>
+Subject: Standard file format for Rubik's Cube is just about ready
+Date: Fri, 4 Jun 1999 12:14:00 +0100
+
+	Following on from my mail
+of the 21st May...
+
+	I have defined a language for writing
+down the state of a standard Rubik's cube.
+Many people offered suggestions, and I thank
+them.
+
+	The language now has its own website:
+
+	http://byrden.com/rubxml/
+
+which contains an online demo program to
+read the language and draw the corresponding
+cube in "unfolded" format. People who want
+to record their "pretty patterns" may find this a
+useful resource!
+
+I have one question that I want to ask now. This
+language needs a "default colour scheme". I
+understand that one way of colouring a Rubik's
+Cube was much more common than the others,
+but I don't know which one. Can anyone specify it
+exactly for me?
+
+
+				David Byrden
+

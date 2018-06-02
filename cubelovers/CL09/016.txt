@@ -1,0 +1,71 @@
+From ACW@riverside.scrc.symbolics.com  Thu Jun 11 17:44:29 1992
+Return-Path: <ACW@riverside.scrc.symbolics.com>
+Received: from RIVERSIDE.SCRC.Symbolics.COM by life.ai.mit.edu (4.1/AI-4.10) id AA13947; Thu, 11 Jun 92 17:44:29 EDT
+Received: from PALLANDO.SCRC.Symbolics.COM by RIVERSIDE.SCRC.Symbolics.COM via INTERNET with SMTP id 834944; 11 Jun 1992 17:39:46-0400
+Date: Thu, 11 Jun 1992 17:39-0400
+From: Allan C. Wechsler <ACW@riverside.scrc.symbolics.com>
+Subject: Name query. 
+To: gls@think.com, ronnie@cisco.com
+Cc: wft@math.canterbury.ac.nz, Cube-Lovers@life.ai.mit.edu
+In-Reply-To: <9206112052.AA18593@strident.think.com>
+Message-Id: <19920611213942.5.ACW@PALLANDO.SCRC.Symbolics.COM>
+
+    Date: Thu, 11 Jun 1992 16:52 EDT
+    From: Guy Steele <gls@think.com>
+
+       From: ronnie@cisco.com
+       Date: Wed, 10 Jun 92 12:11:35 PDT
+
+       > Can anyone tell me:-
+       > 
+       > Why is the "Pons Asinorum" pattern so called ?
+
+       Pons Asinorum is Latin for "Asses' Bridge," and is the name of the
+       proposition that the base angles of an isoceles triangle are equal.
+       It is more generally any test of ability imposed upon the inexperienced
+       or ignorant.
+
+    The term also carries the connotation that the test is in fact
+    of the simplest and most elementary kind.  If you can't prove
+    the Pons Asinorum of geometry, then you don't know even the most
+    elementary concept of geometry--i.e., as a geometer, you know as
+    much as a donkey.  And if you cannot form the Pons Asinorum
+    pattern, you sure don't know much about cubing.
+
+    --Guy Steele
+
+I think the metaphorical leap from geometry to cubing was probably made
+by Bernie Greenberg, in whatever year it was that Hofstadter did his Sci
+Am column.  Hofstadter came to MIT to talk to a bunch of cubers,
+gathering material for his article.  I was in the group and my name is
+mentioned in the article -- the only time I have ever gotten my name
+into Sci Am.
+
+"Pons Asinorum" has a lot of Bernie's style about it -- casual use of
+Latin, whimsical metaphor, fondness for naming things.  He had a bunch
+of cube operators with Latin names, and also some wacky English ones.  I
+remember the Spratt Wrench (F R'L D R'L B R'L U R'L) which flips four
+edges and was what everyone used before monoflips were discovered.
+Bernie also had things with names like the Lesser Hammer of the Right
+and the Greater Hammer of the Right; his "patter" was fabulous.  I
+regret not having a videotape of Bernie solving the cube in, say, 1978.
+(I hope I've got the year right.)
+
+While I'm reminiscing, I should confess that my standard corner operator
+is still the same as it was then: (FUR)^5, which exchanges two corners,
+leaves the rest of the corners alone, and fucks the edges completely.
+(Prudes, do not hassle me.  This has been a technical term in cubing
+around MIT since The Beginning.)  Because of this property of "furry
+five", I have to home and orient all the corners first, before I touch
+the edges.  It's the kind of quirky algorithm you don't see among
+younger cubers, because everybody these days learns how to solve the
+thing from a book.  In the Beginning, there were no books, and I proudly
+state that I solved the cube from scratch, by brainpower.  Later I
+discovered that there were easier ways to do things than (FR)^105!  I
+had pages and pages covered with little cube diagrams with arrows
+showing how the stickers were permuted by a particular sequence.
+
+I'm interested in hearing other reminiscences from people who actually
+solved the cube -- you're disqualified if you learned how to solve it
+from somebody else, or from a book.
+

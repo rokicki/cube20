@@ -1,0 +1,24 @@
+Date: 16 February 1981 1229-EST (Monday)
+From: Guy.Steele at CMU-10A
+To: bug-lispm at MIT-AI, cube-lovers at MIT-MC
+Subject:  Scientific American
+Message-Id: <16Feb81 122922 GS70@CMU-10A>
+
+Congratulations to cubemeisters, LISP Machinists, and Symbolicists
+alike for making *Scientific American*.
+
+Now that the LISP Machine has been used to serve the cause of
+cubing, has any thought been given to the converse?  For example,
+perhaps a mouse/joystick-like device could be built based on
+cube technology?
+
+Also, anyone thought about the limiting case of odd-shaped
+polyhedra: the continuous cube (or, Rubik's sphere)?  There are
+three possible places to introduce continuity.  For a given
+twist, one must choose an axis, choose a depth of slice,
+and choose an angle of twist.  For the cube all three are
+quantized.  What are the geometric/topological properties
+of an object where some subset of these three choices are
+given a continuous domain?  (I haven't the mathematics undert
+my belt to attack this problem -- sorry.)
+--Guy

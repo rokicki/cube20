@@ -1,0 +1,53 @@
+Date: 31 JUL 1980 2159-EDT
+From: ALAN at MIT-MC (Alan Bawden)
+Subject: The shortest solution?
+To: McKeeman at PARC-MAXC
+CC: CUBE-HACKERS at MIT-MC
+
+    Date: 31 Jul 1980 16:44 PDT
+    Sender: McKeeman.PA at PARC-MAXC
+    In-reply-to: ALAN's message of 31 July 1980 13:06-EDT
+    From: (Bill) McKeeman
+
+    A lower bound on the number of twists can be derived as follows: There
+    are 4.3*10^19 distinct reachable arrangments of the cube.  Suppose the
+    moves are restricted to the (more than sufficient) set RLFBUD.  Then
+    there are at most six independent choices at each step and the number
+    of reachable places is bounded by 6^n.  That gives
+	    6^25 < 4.3*10^19 < 6^26,
+    or 26 moves as the (probably unachievable) minimum.
+
+This is not an improvement on my result.  I (and the rest of the cube
+hackers I know) consider a unit move to be a 90 degree twist in EITHER
+direction.  You are only considering CLOCKWISE 90 degree twists.
+
+Let me point out that if we were to count twists your way, we would
+no longer have a metric.  Both the quarter twist method and Singmaster's
+method result in a measure of distance that is a true metric.
+
+    Date: 31 Jul 1980 5:13 pm PDT (Thursday)
+    From: Woods at PARC-MAXC
+    Subject: Re: The shortest solution?
+    In-reply-to: McKeeman's message of 31 Jul 1980 16:44 PDT
+    To: CUBE-HACKERS at MIT-MC
+
+    You can do better than that for a lower bound!  Say you consider all
+    single-hand-motion twists to be okay.  Then yes, there are 18 such,
+    but there's no point in twisting the same face twice consecutively, so
+    after the first twist the tree branching factor is only 15.  In fact, there's
+    no point in twisting a face twice if the only intervening twist was done
+    on the opposite face; if we look at the operations of the form "twist face
+    X thusly and the opposite face thusly", there are 45 initial such operations,
+    and 30 at each succeeding branch, but since some branches now represent
+    two twists and some only one twist, it's much harder to compute the
+    minimum depth of the tree.
+
+	-- Don.
+
+Singmaster's notes are aware of these factors, that is how he improves
+on the 16 count computed by McKeeman to arrive at 18.  Similarly I
+used the same factors to improve on the 12^n argument for quarter
+twists (which gives 19 as a lower bound) to arrive at the number 21.
+
+I also compute 24 as the quarter twist lower bound for the extended
+cube (considering orentations of the center faces).

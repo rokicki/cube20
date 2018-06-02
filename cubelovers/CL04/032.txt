@@ -1,0 +1,113 @@
+Date:  1 June 1982 2222-EDT (Tuesday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Lower bounds for the 4x4x4 (Long)
+Message-Id: <01Jun82 222230 DH51@CMU-10A>
+
+		Lower bounds for solving the 4^3 puzzle
+
+In order to prevent counting positions which arise from whole-cube
+moves, I do not move the DLB corner.  So the generators I use are
+	U1	U1'	R1	R1'	F1	F1'
+	U2	U2'	R2	R2'	F2	F2'
+	U3	U3'	R3	R3'	F3	F3'
+where the digit indicates how many layers are being moved and the
+prime indicates a counterclockwise quarter-twist.
+
+Let us break up any process into "syllables", where a syllable is a
+maximal nonempty string of generators with the same letter.  Note
+that the order of the generators within a syllable is irrelevant.
+We may make a syllable canonical by simplifying so that
+	1. A generator and its inverse do not both appear,
+	2. Clockwise generators appear at most twice,
+	3. Counterclockwise generators appear at most once, and
+	4. Generators appear in numerical order.
+
+For each letter there are 63 canonical syllables.  Omitting the
+letter, they are:
+
+1,1',2,2',3,3'				Six of length one
+
+11,12,12',13,13',1'2,1'2',1'3,1'3',22,
+23,23',2'3,2'3',33			Fifteen of length two
+
+112,112',113,113',122,123,123',12'3,
+12'3',133,1'22,1'23,1'23',1'2'3,1'2'3',
+1'33,223,223',233,2'33			Twenty of length three
+
+1122,1123,1123',112'3,112'3',1133,1223,
+1223',1233,12'33,1'223,1'223',1'233,
+1'2'33,2233				Fifteen of length four
+
+11223,11223',11233,112'33,12233,1'2233	Six of length five
+
+112233					One of length six
+
+(Exercise for the reader:  There is a reason these are binomial
+coefficients.  Why did we skip a row?)
+
+The number of canonical syllable strings containing N generators is
+
+P(-N) =  0 if -N < 0,
+ P(0) =  1,
+ P(N) =  6 C(N-1) P(N-1) + 15 C(N-2) P(N-2) + 20 C(N-3) P(N-3)
+      + 15 C(N-4) P(N-4) +  6 C(N-5) P(N-5) +    C(N-6) P(N-6)
+	   if N > 0,
+
+where C(N) is the number of ways of choosing a new letter after N
+generators:  C(-N) = 0 if -N < 0, C(0) = 3, C(N) = 2 if N > 0.
+
+Evaluating this recurrence yields
+P( 0)=       1    P(13)<1.338E15    P(26)<1.404E30    P(39)<1.472E45
+P( 1)=      18    P(14)<1.914E16    P(27)<2.007E31    P(40)<2.105E46
+P( 2)=     261    P(15)<2.737E17    P(28)<2.871E32    P(41)<3.011E47
+P( 3)=    3732    P(16)<3.915E18    P(29)<4.106E33    P(42)<4.307E48
+P( 4)=   53379    P(17)<5.599E19    P(30)<5.873E34    P(43)<6.160E49
+P( 5)=  763506    P(18)<8.009E20    P(31)<8.400E35    P(44)<8.811E50
+P( 6)=10920771    P(19)<1.146E22    P(32)<1.202E37    P(45)<1.261E52
+P( 7)<1.563E 8    P(20)<1.639E23    P(33)<1.719E38    P(46)<1.803E53
+P( 8)<2.235E 9    P(21)<2.344E24    P(34)<2.459E39    P(47)<2.579E54
+P( 9)<3.196E10    P(22)<3.353E25    P(35)<3.516E40    P(48)<3.688E55
+P(10)<4.572E11    P(23)<4.795E26    P(36)<5.029E41    P(49)<5.275E56
+P(11)<6.539E12    P(24)<6.858E27    P(37)<7.194E42    P(50)<7.545E57
+P(12)<9.352E13    P(25)<9.810E28    P(38)<1.029E44    P(51)<1.080E59
+
+The number of positions exactly N qtw from SOLVED is at most P(N),
+so the number of positions within N qtw of SOLVED is at most
+P(0)+P(1)+...+P(N). Since there are 7.07E53 marked and 7.40E45
+colored positions, this would give us lower bounds of 40 qtw for
+the marked cube and 47 qtw for the colored cube.
+
+But we can improve these lower bounds by one each, using the parity
+hack I described some time ago.  Every qtw is an odd permutation of
+the corner cubies, so the number of positions with even corner
+permutations within 2N+1 qtw of SOLVED is at most
+P(0)+P(2)+...+P(2N) and the number of positions with odd corner
+permutations within 2N+2 qtw of solved is at most
+P(1)+P(3)+...+P(2N+1).
+
+There are 3.70E45 colored positions with odd corner permutations,
+and fewer than 1.583E45 odd-length canonical processes with length
+at most 39.  So some odd colored positions require at least 41 qtw
+to solve.
+
+There are 3.53E53 marked positions with even corner permutations,
+and fewer than 1.939E53 even-length canonical processes with length
+at most 46.  So some even marked positions require at least 48 qtw
+to solve.
+
+		Directions for future hacks
+
+Note that we could also distinguish between positions with even or
+odd edge permutations.  The recurrence gets hairier, but my
+analysis of that problem indicates that the numbers get very close
+very quick, so no luck.
+
+We could divide the positions into buckets based on other quotients
+of the group.  For instance, count the number of positions with
+each of the 729 possible corner orientations.  This should be
+feasible, but probably no help for the 4^3 puzzle.  For the 3^3,
+where there are 2187 corner buckets, some of which stay empty for a
+fair number of moves (I seem to recall 8), and our current lower
+bound is small, I think there is a chance of improvement.  Any
+God's numerologist willing to hack the good hack?

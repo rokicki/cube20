@@ -1,0 +1,38 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Jul  5 16:34:40 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA16099; Fri, 5 Jul 1996 16:34:40 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <199607051722.AA11168@foxtrot.rahul.net>
+To: Cube-Lovers@ai.mit.edu
+Subject: Cube Moves
+Date: Fri, 05 Jul 96 10:22:26 -0700
+From: jmc@rahul.net
+
+
+  Over the last several days I noticed a number of posts about people
+experimenting with moves and different combinations of moves on
+the cube, using different notation. I just thought I'd mention
+a java applet a wrote for a class. The applet allows you to
+enter moves in Singmaster notation and view the results on a cube.
+The applet uses fairly standard notation, and I put rather complete
+instructions on the page. It was fun to write, and neat to play
+with. If you are interesting in finding out new moves, give it
+a try. Just playing around, making stuff up, I came up with
+(r^b[u,l^f]r^b)^4, which uses commutators, conjugates and exponentiation,
+and translaes to (fu,lu,lr) (I think that's the right answer, but I'm
+not sure how it's written. Basically the move switches around three
+edges). The applet also supports capital letter moves, which is a 
+clockwise or counter-clockwise rotation of the whole cube, reorienting
+which face is f,l,r.. etc. Read the instructions and enjoy. The 
+URL is:
+  http://www.reed.edu/~jmc/project/
+Tell me what you think and what needs clarification.
+
+   Justin
+
+--
+Cthulhu For President, why vote for the lesser of two evils?
+http://www.cthulhu.org/jmc/
+
+

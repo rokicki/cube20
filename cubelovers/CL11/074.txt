@@ -1,0 +1,39 @@
+From Don.Woods@eng.sun.com  Mon Jan  3 17:11:06 1994
+Return-Path: <Don.Woods@eng.sun.com>
+Received: from Sun.COM by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA21618; Mon, 3 Jan 94 17:11:06 EST
+Received: from Eng.Sun.COM (zigzag.Eng.Sun.COM) by Sun.COM (4.1/SMI-4.1)
+	id AA09153; Mon, 3 Jan 94 14:10:57 PST
+Received: from colossal.Eng.Sun.COM by Eng.Sun.COM (4.1/SMI-4.1)
+	id AA19324; Mon, 3 Jan 94 14:09:21 PST
+Received: by colossal.Eng.Sun.COM (5.0/SMI-SVR4)
+	id AA15405; Mon, 3 Jan 94 14:11:09 PST
+Date: Mon, 3 Jan 94 14:11:09 PST
+From: Don.Woods@eng.sun.com (Don Woods)
+Message-Id: <9401032211.AA15405@colossal.Eng.Sun.COM>
+To: cube-lovers@ai.mit.edu, jandr@xirion.nl
+Subject: Re: 10x10 Tangle
+X-Sun-Charset: US-ASCII
+Content-Length: 978
+
+> >It's a shame, really.  I'll bet that it would be possible to come up with
+> >four Tangles that (a) really are different instead of being simple color
+> >permutations of each other, ...
+> 
+> When you limit yourself to 4 ropes with 4 colours, you always get 24 pieces,
+> and when you want to build a puzzle of 25 pieces, you will have to duplicate
+> one, which causes (a).
+
+Not so.  There's nothing that says all permutations must be present.
+Back in '92 when I first wrote the program to solve Tangle #1, I fiddled
+with it a bit and found that removing a particular tile and adding a
+duplicate of a second particular tile caused the solution to become
+unique.  It didn't take long to find such a combination, so I'm confident
+there are many many more that have unique solutions.
+
+Hm, using just the set of 24 distinct tiles, I wonder if it's possible to
+tile the faces of a 2x2x2 cube such that colors match at the edges of the
+cube as well as within the faces?...
+
+	-- Don.
+
+

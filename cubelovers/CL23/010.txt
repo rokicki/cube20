@@ -1,0 +1,65 @@
+From cube-lovers-errors@oolong.camellia.org  Wed Jun 11 16:11:24 1997
+Return-Path: cube-lovers-errors@oolong.camellia.org
+Received: from oolong.camellia.org (localhost [127.0.0.1]) by oolong.camellia.org (8.6.12/8.6.12) with SMTP id QAA14364; Wed, 11 Jun 1997 16:11:24 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@oolong.camellia.org
+Message-ID: <339EF3BF.766D@hrz1.hrz.th-darmstadt.de>
+Date: Wed, 11 Jun 1997 20:51:44 +0200
+From: Herbert Kociemba <kociemba@hrz1.hrz.th-darmstadt.de>
+X-Mailer: Mozilla 3.0 (Win95; I)
+MIME-Version: 1.0
+To: cube-lovers@ai.mit.edu
+Subject: Re: Detailed explanation of two phase algorithm
+References: <970611003555.21417ec3@iccgcc.cle.ab.com>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+SCHMIDTG@iccgcc.cle.ab.com wrote:
+> I do have one last question regarding the pruning tables.  While
+> the three tables used in phase1 are clear, I do not recall reading
+> a description of the tables that are used in phase2.
+
+In phase2, the state of the cube also is described by a triple (x,y,z),
+in this case 0<=x<8! describes a permutation of the 8 corners, 0<=y<8!
+describes a permutation of the 8 UD-slice edges and 0<=z<4! describes a
+permutation of the middleslice edges. Because the overall permutation
+must be even, only half of the triples belong to physical cubes. We
+could correct this, by defining the z coordinate to describe one of the
+12 possibilities for the locations of two middleslice edges - the other
+two edges will then be corrected automatic. But there are good reasons
+not to do so (which I think is not necessary to explain here).
+
+> I have also been studying his code to try to understand how he generates
+> these tables.  He does not seem to be using breadth-first-search to
+> fill in these tables as Korf does.
+> 
+I only use the "mixed" tables. How to generate the tables is quite
+obvious and though I don't know how Dik does it I'm sure it is similar:
+
+1. On initialisation set all elements of the table to 0xf (we use four
+bits per entry), only the element belonging to (x0,y0,z0) is set to 0.
+Set  L=0, n_done=1, n_old=1 (n_done denotes the number of valid
+tableentries).
+2. Check all elements of the table one after the other. If an entry is
+0xf, do nothing. If the entry is L, compute the the 18 possible "child
+nodes" and check, if the corresponding tableentry is 0xf. Only in this
+case set it to L+1 and increment n_done.
+3. Check if n_done=n_old. In this case we are ready. Else increment L,
+set n_old=n_done and goto 2.
+
+> I will be interested in looking at your new program when it becomes
+> available.
+
+I'm writing too much to this mailing list and do not work at  my
+windows-help! The program itself is ready. I did a two hours run on each
+of Rich Korfs 10 random cubes on a Pentium133 with 16MB RAM and the
+result were really pleasing: The generated maneuver lenghts were on the
+average less than 1 move away from Rich Korfs optimal solutions
+(exactly: 9 moves more for the 10 cubes).
+
+Best regards,
+
+Herbert
+
+
+

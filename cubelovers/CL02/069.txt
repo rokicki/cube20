@@ -1,0 +1,14 @@
+Date: 8 Apr 1981 16:07 EST
+From: Marshall.WBST at PARC-MAXC
+Subject: Please add me to the distribution list
+To: Cube-Lovers at MIT-MC
+cc: Marshall.WBST
+
+Please add my name to the rubik's cube distribution list. I have a copy of
+Kertesz' solution but am interested in better solutions and/or insights into the
+underlying group.
+
+Thank you
+
+--Sidney (Marshall.WBST at PARC-MAXC)
+

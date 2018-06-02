@@ -1,0 +1,52 @@
+From cube-lovers-errors@curry.epilogue.com  Sat Sep  7 19:51:21 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id TAA06720; Sat, 7 Sep 1996 19:51:21 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+X-Sender: ltaylor@pop.kaiwan.com
+Message-Id: <v02130502ae56362c520e@[198.178.203.181]>
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Fri, 6 Sep 1996 15:08:33 -0700
+To: cube-lovers@ai.mit.edu
+From: "Larry A. Taylor" <ltaylor@kaiwan.com>
+Subject: Re: cube programs, etc
+Cc: Rubin Shai <s2394459@cs.technion.ac.il>
+
+>Hi all
+>I have a computer program that learn to solve the 2X2X2 cube. I mean that
+>after several hours of 'learning' the program knows to solve any legal
+>start position of this cube. Before learning the program solve the cube
+>after about 15 minuets, after learning it takes about 5 seconds.
+>The letter from Prof Joyner made me think about the following things:
+>1. Does anyone have a program (in C) that can take a move (a string or a
+>line from a file) and show it on the display.
+>2. Does anyone know about similar programs to my. Program that 'learn' to
+>solve the cube by themselves.
+>Shai
+
+Dr. Richard Korf (korf@cs.ucla.edu) included demonstrations of macro learning
+on the Rubik's Cube in his dissertation, and in his book on "Learning Macro
+Operators."
+He may still have his C language code for this available somewhere.
+
+I have used the 2x2x2 and 3x3x3 cube in my work on "Pruning Duplicate Operators
+in Depth-First Search." Most available format is Proceedings AAAI-93 (Wash. DC),
+or from my web page area.
+<http://www.cs.ucla.edu/csd-grads-gs1/ltaylor/WWW/aaai93.ps>
+I do not learn to solve the cube, but learn about the cube state space to
+speed search.
+
+Neither of our programs produce graphical output.  I may make a Cube page with
+a Java applet, unless one of you do it first.
+
+LAT
+
+Larry A. Taylor, <ltaylor@kaiwan.com>.  UCLA Computer Science Dept., Ph.D.
+candidate <ltaylor@cs.ucla.edu>.  DBA North Circle Software, 13104
+Philadelphia St, Suite 208, Whitter, CA 90601. Bus. phone, (310) 698-2739.
+Fax (310) 698-8164.  <75176.1071@compuserve.com>,  <ltaylo934@aol.com>
+
+
+
+

@@ -1,0 +1,27 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb 15 15:48:00 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id PAA05258
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 15 Feb 2000 15:47:59 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <000a01bf67e5$2d8c3bc0$68962fc3@oemcomputer>
+From: "Klodshans" <klodshans@get2net.dk>
+To: <cube-lovers@ai.mit.edu>
+Subject: Sv: Magic jack
+Date: Wed, 26 Jan 2000 11:07:36 +0100
+
+Pedro Reissig wrote:
+
+>I am a puzzle designer working in Argentina, and looking for Magic
+>Jack type products.  Do you know websites for the 2 other similar
+>products, the Vadasz and IQUBE?
+
+
+The Vadasz Cube has a page at http://members.aol.com/islandcom/
+The page says there are 5 different versions. I wrote them an email to
+order some of these but there was no reply. If anyone knows where one
+can order the full range of Vadasz Cubes please tell the list.
+
+Philip Knudsen, Denmark
+

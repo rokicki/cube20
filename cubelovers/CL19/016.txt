@@ -1,0 +1,28 @@
+From alan@curry.epilogue.com  Wed Feb 14 18:45:13 1996
+Return-Path: <alan@curry.epilogue.com>
+Received: from curry.epilogue.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA18706; Wed, 14 Feb 96 18:45:13 EST
+Received: (from alan@localhost) by curry.epilogue.com (8.6.12/8.6.12) id SAA27698; Wed, 14 Feb 1996 18:45:04 -0500
+Date: Wed, 14 Feb 1996 18:45:04 -0500
+Message-Id: <14Feb1996.174115.Alan@LCS.MIT.EDU>
+From: Alan Bawden <Cube-Lovers-Request@ai.mit.edu>
+Sender: Cube-Lovers-Request@ai.mit.edu
+To: Cube-Lovers@ai.mit.edu
+Subject: Welcome to the future of the Internet
+
+As those of you who have been reading Cube-Lovers for the last few months
+are well aware, we have been suffering through (almost) weekly
+advertisements sent by some nutcase trying to sell magazines.  In the past,
+I have been able to defeat unwanted advertising on Cube-Lovers by simply
+having a chat with the advertiser (or his postmaster).  But the magazine
+guy is determined to send a weekly copy of his advertisement to every
+mailing list in the world, despite all objections -- there's really no way
+to shut him off short of some form of mailing list moderation.
+ 
+So we're forced to make Cube-Lovers a moderated mailing list.  Starting
+with this message, every message sent to Cube-Lovers will be screened
+before it gets distributed to the rest of you.  For the moment, some of the
+steps in the screening process are manual, so there may be a delay before a
+message you submit gets out to the rest of the list.  That's the price we
+pay to keep Cube-Lovers from becoming a conduit that delivers more
+advertising than content.
+

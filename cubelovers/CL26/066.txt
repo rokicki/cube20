@@ -1,0 +1,39 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Dec  9 12:45:11 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id MAA24863
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Wed, 9 Dec 1998 12:45:11 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Tue, 8 Dec 1998 23:24:09 -0500
+From: michael reid <reid@math.brown.edu>
+Message-Id: <199812090424.XAA00740@euclid.math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: Re: Optimal Cube Solver
+
+matt monroe asks
+
+> This question is directed to both Herbert and Mike Reid in case he's
+> reading this list:  With all this discussion of the "Professor Cube"
+> lately, how hard would it be to extend either Optimal cube solving program
+> to handle 4x4x4 and 5x5x5 cubes in addition to the traditional 3x3x3?
+> Considering reasonable table files (50 - 100 mb), how much longer would
+> the computation time be extended by.  If either of you would find the time
+> to implement this modification, I would be very interested in trying out
+> the program.
+
+i think it's reasonable to say that an optimal solver for the 4x4x4
+(or 5x5x5) is currently far out of reach.  one could write a program
+that theoretically finds optimal solutions after running for enough
+time.  but it would be feasible only for positions a few turns from
+start; other positions would take years, centuries, millenia, ...
+
+on the other hand, a sub-optimal solver is certainly possible.
+just teach the computer your favorite method.  this would be more
+"sub" than it is "optimal", so next we'd ask to make it as good as
+possible.  the real question is: are computer methods superior to
+human methods for the larger cubes?  so far, probably not, but not
+much work has been done on sub-optimal solvers for larger cubes.
+
+mike
+

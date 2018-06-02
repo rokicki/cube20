@@ -1,0 +1,11 @@
+Date: 28 Sep 1981 1722-PDT
+From: ISAACS at SRI-KL
+Subject: notation
+To: cube-lovers at MIT-MC
+
+  Anybody have a good notation for 4x4x4?  How about for the pyramid?
+  Also, anybody have a good (less than 8 moves; QTW or HTW) to move a 
+cubie from the bottom layer to a top corner, without disturbing top or middle,
+and making bottom facie into top facie (eg DLF --> UFL or suchlike).
+   --- Stan
+-------

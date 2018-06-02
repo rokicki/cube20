@@ -1,0 +1,16 @@
+From punjanza@dunx1.ocs.drexel.edu  Mon Dec  6 11:37:16 1993
+Return-Path: <punjanza@dunx1.ocs.drexel.edu>
+Received: from dunx1.ocs.drexel.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA08095; Mon, 6 Dec 93 11:37:16 EST
+Received: from localhost (punjanza@localhost) by dunx1.ocs.drexel.edu (8.6.4/8.6.4) id LAA22753 for Cube-Lovers@ai.mit.edu; Mon, 6 Dec 1993 11:37:10 -0500
+From: Zaf <punjanza@dunx1.ocs.drexel.edu>
+Message-Id: <199312061637.LAA22753@dunx1.ocs.drexel.edu>
+To: Cube-Lovers@ai.mit.edu
+Date: Mon, 6 Dec 1993 11:37:09 -0500 (EST)
+X-Mailer: ELM [version 2.4 PL13]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 20        
+
+signoff cube-lovers
+

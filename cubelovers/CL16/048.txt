@@ -1,0 +1,176 @@
+From mschoene@math.rwth-aachen.de  Wed Jul 12 06:50:38 1995
+Return-Path: <mschoene@math.rwth-aachen.de>
+Received: from samson.math.rwth-aachen.de by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA16694; Wed, 12 Jul 95 06:50:38 EDT
+Received: from hobbes.math.rwth-aachen.de by samson.math.rwth-aachen.de with smtp
+	(Smail3.1.28.1 #11) id m0sVzLJ-000MPGC; Wed, 12 Jul 95 12:48 MET DST
+Received: by hobbes.math.rwth-aachen.de (Smail3.1.28.1 #19)
+	id m0sVzLJ-00025fC; Wed, 12 Jul 95 12:48 WET DST
+Message-Id: <m0sVzLJ-00025fC@hobbes.math.rwth-aachen.de>
+Date: Wed, 12 Jul 95 12:48 WET DST
+From: "Martin Schoenert" <Martin.Schoenert@math.rwth-aachen.de>
+To: Cube-Lovers@ai.mit.edu
+Cc: BRYAN@wvnvm.wvnet.edu
+In-Reply-To: "Jerry Bryan"'s message of Wed, 28 Jun 1995 10:09:51 -0400 (EDT) <wvmail32.1995jun28.094805.bryan@wvnvm.wvnet.edu>
+Subject: How to compute the size of a permutation group
+
+Jerry Bryan wrote in his message of 1995/06/28
+
+    I guess I am going to have to break down and get a copy of GAP.  It
+    is truly impressive how much GAP can do so easily.
+
+Hah, great, another user for GAP.
+Now maybe I can get a raise from my boss ;-)
+
+Jerry continued
+
+    My interpretation of Martin's GAP program is that it implements the
+    general outline of the algorithm I described, except that GAP was
+    able to calculate the number of K-symmetric permutations in a very
+    simple and direct way, whereas I was going to have to puzzle each one
+    out by hand.
+
+Let me rephrase that a little bit.  My GAP prgram implements the general
+outline of the algorithm you described, except that I am able to tell GAP
+to calculate the number of K-symmetric permutations in a very simple and
+direct way (but GAP is going to puzzle each one out using an non-simple
+and non-direct algorithm I shall outlined in another message).
+
+Jerry continued
+
+    The heart of Martin's program appears to be the following, and I have
+    a couple of questions.
+
+    >        # compute how many elements have at least this symmetry group
+    >        number := Size( Centralizer( G, rep ) );
+
+    The first question is:  how does the Size function work?  As a simpler
+    example than the one above, what if you simply say Size(G)?  I am
+    naively assuming that G is specified to GAP in terms of generators
+    only, and that it makes no attempt to actually represent each element
+    of G (too big!).  And I have seen snippets of GAP libraries for G
+    posted by Mark Longridge, and they look like generators.  I have been
+    in several group theory books lately, and I don't recall seeing
+    a general algorithm presented for determining the size of a finite
+    group based on its generators.
+
+For this particular case (asking for the size of a centralizer in a
+permutation group), the answer is trivial.  The algorithm that computes
+(generators for) the centralizer computes the size of the centralizer as
+a byproduct.  I will try to outline this algorithm in another message.
+
+But when you say 'Size(G)', then GAP will indeed use an algorithm that
+computes the size of a permutation group given by a set of generators.
+The algorithm is called the ``Schreier--Sims'' algorithm.  It was
+developed by C.Sims for his investigations of sporadic simple groups, and
+is mostly based on a lemma by N.Schreier.  Unfortunately it is *not*
+described in any of the generally available textbooks on group theory.
+
+The funny thing is, that this algorithm works very much like the
+algorithm puzzlers use to find a method to solve the cube.  Of course it
+is lacking the cleverness many puzzlers use to prove that their method is
+complete (i.e., solves all possible states), but then the algorithm
+(resp. the computer running the algorithm) is a lot more patient.
+
+The first step (for puzzlers and the algorithm) is to find a method to
+bring the first facelet to its home place.
+
+The algorithm does this by finding all (24) places to which this facelet
+can be moved.  This is done by applying the (6) generators to all the
+places found so far, and repeating until no new places are found.  For
+each place it also remembers a process that moves the choosen facelet
+from its home place to this place, called a representative for the place.
+
+The second step (for puzzlers and the algorithm) is to find enough
+processes that leave the first facelet in its home place.  If one has
+enough such processes, one can simply start another round of the
+algorithm.  I.e., one uses those processes to bring the second facelet to
+its home place, finds enough processes that leave the first and the
+second facelet in their respective home places, and so on.
+
+In group theoretic terms the set of elements that leave the first facelet
+is in its home place is a subgroup (called the stabilizer of that point),
+and the problem is to find a set of generators for this subgroup.
+
+So how does the algorithm find such a set of generators?  This is where
+Schreier's lemma kicks in.
+
+Let us first take a representative <r1> of a place <p1> (so <r1> moves
+the first facelet to the place <p1>).  Then we multiply this by a
+generator <g> of the original group.  Say <g> moves the first facelet
+from the place <p1> to the place <p2>.  Finally we multiply the product
+<r1> * <g> by the inverse of the representative <r2> of the place <p2>.
+This obviously moves the first facelet back to its home place, so the
+product <r1> * <g> * <r2>^-1 is a process that leaves the first facelet
+in its home place, i.e., it is an element of the subgroup.
+
+Now Schreier's lemma says that if we take all 24 times 6 such elements,
+then the resulting set is a set of generators for the subgroup.  In fact
+Schreier's lemma says that if you select the representatives carefully,
+then 24 * (6 - 1) + 1 generators will suffice, and for certain subgroups
+(subgroups of free groups) no smaller set of generators will do.
+
+So we now start another round of the algorithm with this (smaller)
+subgroup.  How much smaller is this subgroup?  The size of the whole
+group is the size of the subgroup times 24 (we get each element of the
+whole group exactely once by multiplying each subgroup element by each of
+the 24 representatives).  So the subgroup is smaller by a factor of 24.
+
+After at most 48 rounds (for the 48 facelets) we are done.
+
+We can now easily compute the size of the entire group.  It is the size
+of the subgroup of those elements that leave the first facelet in its
+home place times 24 (the number of possible places for the first
+facelet).  The size of this subgroup is the size of the subgroup that
+leaves the first and the second facelet in their respective home places
+times the number of possible places for the second facelet.  And so on.
+
+We also have a method to solve any state as follows.  We first find the
+place <p1> of the first facelet and multiply by the inverse of the
+representative of <p1>, to move that facelet back to its home place.
+Then we find the place <p2> of the second facelet and multiply by the
+inverse of the representative found in the second round of the algorithm,
+to move that facelet back to its home place.  Since that representative
+was found in the second round it doesn't move the first facelet, so now
+the first and the second facelet are in their respective home places.
+After at most 48 rounds, we have moved all facelets to their home places.
+
+As has been pointed out before, such a method to solve any state gives us
+a membership test for <G>.  Suppose we are given an arbitrary permutation
+<x> of the facelets.  Then we simply try to solve <x>.  If we can solve
+it, then <x> is an element of <G>.  If we cannot solve it, then <x> is
+not an element of <G>.
+
+Now the algorithm as described above has a fatal flaw.  The number of
+generators increases with each round.  In the first round we have 6
+generators, in the second round we have about 24 * 6 generators, in the
+third round we have about 24^2 * 6 generators, and so on.  Most of these
+generators will be redundant, i.e., they will lie in the subgroup
+generated by the other generators.
+
+The solution is as follows.  Instead of taking all 24 * 6 generators for
+the second round, we randomly select some (say 6) of them.  Those will
+generate a subgroup <S> of the whole stabilizer (and our hope is that
+this subgroup will be equal to the whole stabilizer).  Then we apply the
+algorithm to <S>, and compute a method to solve any element of <S>.  As
+described above, this gives us a way to test membership in <S>.  We now
+compute all 24 * 6 generators for the stabilizer, and for each one test
+whether it is an element of <S>.  If they are all elements of <S>, then
+<S> is indeed the whole stabilizer, and we are done.  If not, then we
+have found a new non-redundant generator for the stabilizer, and we start
+anew, this time with 7 generators instead of the originally choosen 6.
+
+The first algorithm is sometimes called the iterative Schreier--Sims,
+because it iterates over the stabilizers.  The second algorithm is called
+the recursive Schreier--Sims, because it assumes that we have solved the
+problem for <S> recursively.  This is the algorithm currently implemented
+in GAP.  There is a third variant called Schreier--Todd--Coxeter--Sims,
+that uses a Todd--Coxeter algorithm to prove that <S> is the whole
+stabilizer without computing all Schreier generators, which is important
+when there are many (say 1000000) possible places for the first facelet.
+
+Martin.
+
+-- .- .-. - .. -.  .-.. --- ...- . ...  .- -. -. .. -.- .-
+Martin Sch"onert,   Martin.Schoenert@Math.RWTH-Aachen.DE,   +49 241 804551
+Lehrstuhl D f"ur Mathematik, Templergraben 64, RWTH, 52056 Aachen, Germany
+

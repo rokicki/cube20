@@ -1,0 +1,22 @@
+From johnf@apollo.com  Tue Jan  7 14:20:49 1992
+Return-Path: <johnf@apollo.com>
+Received: from amway.ch.apollo.hp.com by life.ai.mit.edu (4.1/AI-4.10) id AA03714; Tue, 7 Jan 92 14:20:49 EST
+Received: from xuucp.ch.apollo.hp.com by amway.ch.apollo.hp.com id <AA18856@amway.ch.apollo.hp.com> Tue, 7 Jan 92 13:11:49 EST    
+Received: by xuucp.ch.apollo.hp.com id <AA19854@xuucp.ch.apollo.hp.com>; Tue, 7 Jan 92 13:03:11 EST
+Message-Id: <9201071803.AA19854@xuucp.ch.apollo.hp.com>
+Received: by daphne.ch.apollo.hp.com  id AA02034; Tue, 7 Jan 92 13:02:30 EST    
+From: johnf@apollo.com
+Date: Tue, 7 Jan 92 11:45:34 EST 
+Subject: Square One
+To: cube-lovers@life.ai.mit.edu
+
+
+I got given one of these things for Christmas (well, actually I gave it
+to myself). I was wondering if anyone has any good basic operators that
+they would like to share.  I would imagine that the puzzle must be less
+complex than a true cube,  but the restricted set of moves make solving
+it more complicated than you might think!
+[I currently have six corners correct, but I still have two (diagonally
+opposite) corners interchanged.  The cube-solving technique that I used
+for a real cube doesn't work here - I need something different].
+

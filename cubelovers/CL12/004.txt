@@ -1,0 +1,37 @@
+From phiscock@ee.ryerson.ca  Mon Mar 14 14:14:44 1994
+Return-Path: <phiscock@ee.ryerson.ca>
+Received: from ee.ryerson.ca (eccles.ee.ryerson.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27518; Mon, 14 Mar 94 14:14:44 EST
+Received: from eccles (eccles.ee.ryerson.ca) by ee.ryerson.ca (4.1/SMI-4.1)
+	id AA24815; Mon, 14 Mar 94 14:09:20 EST
+From: phiscock@ee.ryerson.ca (Peter Hiscocks)
+Received: by eccles 
+        (4.1//ident-1.0) id AA24812; Mon, 14 Mar 94 14:09:19 EST 
+Message-Id: <9403141909.AA24812@eccles>
+Subject: Anyone solved Rubik's Tangle?
+To: Cube-Lovers@ai.mit.edu
+Date: Mon, 14 Mar 94 14:09:18 EST
+X-Mailer: ELM [version 2.3 PL11]
+
+
+For those who haven't seen it, Rubik's Tangle is a new puzzle to 
+drive us all nuts, break up our families, and divert us from
+the things we should be working on.
+
+It consists of 25 tiles, which form a 5x5 pattern. On each
+tile is a pattern of coloured ropes, the ends of which must
+match the ends of the ropes on the adjacent tiles.
+
+Certain clues are evident: the shape of each rope pattern
+is the same, there are equal numbers of each colour,
+and each tile given a letter label on the back.
+
+Before I waste my life on this, has anyone solved the
+problem?
+
+Peter
+-- 
+Peter Hiscocks                            Phone: (416) 979-5000 Ext 6109
+Department of Electrical Engineering      Fax:   (416) 979-5280
+Ryerson Polytechnical University, Toronto, Canada
+
+

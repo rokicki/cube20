@@ -1,0 +1,12 @@
+Received: from Xerox.ARPA by MIT-MC.ARPA 25 Oct 85 12:14:59 EDT
+Received: from CheninBlanc.ms by ArpaGateway.ms ; 25 OCT 85 09:14:40 PDT
+Date: 25 Oct 85 09:14:33 PDT (Friday)
+From: Hoffman.es@Xerox.ARPA
+Subject: Rubik's Revenge:  The Group Theoretical Solution
+To: Cube-Lovers@MIT-MC.ARPA
+cc: Hoffman.es@Xerox.ARPA
+Message-ID: <851025-091440-1219@Xerox>
+
+I only yesterday came across this from a couple of months ago:  "Rubik's
+Revenge:  The Group Theoretical Solution" by M.E. Larsen, in the
+'American Mathematics Monthly', Vol. 92, No. 6, 1985, pages 381-390.

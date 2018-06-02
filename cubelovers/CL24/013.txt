@@ -1,0 +1,26 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun Sep 14 22:54:52 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id WAA00285; Sun, 14 Sep 1997 22:54:52 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From reid@math.brown.edu Sat Sep 13 21:32:35 1997
+Message-Id: <199709140132.VAA09760@life.ai.mit.edu>
+Date: Sat, 13 Sep 1997 21:33:59 -0400
+From: michael reid <reid@math.brown.edu>
+To: cube-lovers@ai.mit.edu
+Subject: optimal solver is available
+
+for those who are interested in my optimal cube solver, you can now
+get it from the web page
+
+     http://www.math.brown.edu/~reid/rubik/optimal_solver.html
+
+i've reduced the size of my transformation tables, so now i think there's
+a reasonable chance that it will run within 80Mb of RAM.
+
+enjoy the program.  if you make any new exciting discoveries, please share
+them with the entire mailing list.
+
+mike
+

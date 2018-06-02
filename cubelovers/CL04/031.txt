@@ -1,0 +1,21 @@
+Date:  1 June 1982 2220-EDT (Tuesday)
+From: Dan Hoey at CMU-10A
+To: Cube-Lovers at MIT-MC
+Subject:  Lower bounds for the 4x4x4
+Message-Id: <01Jun82 222052 DH51@CMU-10A>
+
+Well, since you insist, here are my lower bounds for the 4^3.  For
+the "colored" 4^3, where only the color pattern matters, some
+positions require at least 41 qtw to solve.  For the "marked" 4^3,
+where center facets of the same color are distinguished so as to
+force a unique home position for each, some positions require at
+least 48 qtw.  The proof is in MC:ALAN;CUBE4 LB and is about 5K
+characters long.
+
+A qtw of the 4^3 is either a quarter-twist of a face relative to
+the rest, or a quarter-twist of half of the puzzle relative to the
+other half.  Note that this makes a slice twist into two moves.  I
+like this metric because it is consistent with our conventions for
+the 3^3.  One of these days I'll explain why I like those
+conventions.
+

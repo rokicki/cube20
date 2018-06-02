@@ -1,0 +1,47 @@
+From: David Singmaster Computing & Maths South Bank Univ
+      <zingmast@sbu.ac.uk>
+To: whuang@ugcs.caltech.edu
+Message-ID: <009C25BA.E326A9B3.4@ice.sbu.ac.uk>
+Subject: RE: Taiwanese Invention of the Cube?
+
+	The earliest idea was due to someone in California, named
+William O.  Gustafson (US patent 3,081,089 of 12 Mar 1963).  He had a
+2^3 in the shape of a sphere, but he had the problem of keeping the
+interior parts in synch with the outer parts and so he left gaps
+between the pieces.  Basically he had an interior sphere with grooves
+and the pieces had lips.  There are two versions - the first seems
+like it wouldn't work well, if at all, but the second seems fairly
+feasible.
+	Unfortunately, Gustafson let his patent lapse, so the patent
+of Larry Nichols was the next, with US patent 3,655,201 (applied 4 Mar
+1970, issued 11 Apr 1972).  This had only the idea of a cubical puzzle
+and no practical mechanism, so I don't consider it very significant,
+but Nichols sued Rubik, more or less successfully - I never heard the
+conclusion of the story.
+	Frank Fox (UK patent 1,344,259, applied for on 9 Apr 1970 and
+issued on 16 Jan 1974) seems to be next.  He had a 3^3 sphere with
+tongue and grooves holding the pieces together, with a hollow center.
+He had let his patent lapse also.
+	In 1976-1980, Terutoshi Ishige devised and patented two
+mechanisms for a 2^3., similar to Rubik's.  This may be the source of
+the story you were asking about.
+	However, there is another odd story.  The first French writers
+on the Cube record that a old friend said he had played with such a
+cube (in wood) in Istanbul in 1920 and in Marseilles about 1935.
+However, no further evidence of such an early version has appeared.
+	I forgot to set this to send myself a copy.  Could you forward
+it back to me.  Also you might like to send it to
+cube-lovers@ai.mit.edu
+	Regards
+
+DAVID SINGMASTER,  Professor of Mathematics and Metagrobologist
+School of Computing, Information Systems and Mathematics
+Southbank University, London, SE1 0AA, UK.
+Tel: 0171-815 7411;  fax: 0171-815 7499;
+email:  zingmast  or  David.Singmaster  @sbu.ac.uk
+
+-- 
+Wei-Hwa Huang, whuang@ugcs.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+Have you heard the one about the guy Jean who visited Japan?
+

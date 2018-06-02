@@ -1,0 +1,68 @@
+Date:  9 January 1981 0756-EST (Friday)
+From: Dan Hoey at CMU-10A
+To: Cube-lovers at MIT-MC
+Subject:  The Supergroup -- Part 3: A Super-H and Spoilers
+Message-Id: <09Jan81 075610 DH51@CMU-10A>
+
+			IMPROVEMENT
+
+	Jim Saxe (16 December 1980 1841-EST) gave a 16-qtw process
+for the H position:  FF LL DD FF BB DD RR FF.  Unfortunately, the
+position obtained by this process is not H-symmetric in the
+Supergroup:  the F, L, B, and R face centers are rotated 180
+degrees, but the U and D face centers are in the home orientation.
+I have a 16-qtw process which leaves all face centers in the home
+orientation:  (FB UD)^2 (UD FB)^2.  This may look familiar --
+conjugation by FBUD yields the 16-qtw "Bridge at Midday" I sent day
+before yesterday.
+
+			SPOILERS
+
+	I developed a solution method on my own, but it was a long
+one.  The following good methods, which affect only face centers,
+are from Singmaster.  It seems simplest to solve the cube before
+applying them, since some of the most popular processes (e.g., the
+Spratt wrench (but not mono-ops!)) change face center orientation.
+
+	The first method can be used to perform any multiple of
+four face-center quarter-twists on the faces in a centerslice.  At
+most two applications are necessary to accumulate any remaining
+twist in one face center.  The method is given in Singmaster as two
+examples, but he doesn't explain how they work.  Hopefully the
+following discussion will make them easy to use.
+
+	Choose a face center X that needs to be twisted, and a
+centerslice containing X and other face centers to be twisted (call
+these FCT's).  Place the cube with X up and with the FCT's in the FB
+slice (i.e., among R, D, and L).  The basic move has much of the
+flavor of a mono-op:
+	1: Move the LR centerslice toward you. (Move a face
+	    center from U to F.  X and the FCT's are now in
+	    the UD centerslice.
+	2: Select an FCT, and move it to the F face with UD
+	    centerslice moves.
+	3: Move the LR centerslice away from you. (Undo step 1.
+	    The U face now contains the selected FCT and all the
+	    U edge and corner cubies.
+	4: Twist the U face the amount required by the selected
+	    FCT.
+Repeat the basic move until all FCTs have been selected.  Then
+perform the move one last time, but select X instead of an FCT
+in step 2 and twist the U face to fix the cube in step 4.
+
+[After sending the previous part, I realized that in the case of
+ one FCT, this is another 14-qtw relation in the standard cube:
+	RL'FB'UD' R DU'BF'LR' U'
+ But the one alluded to is in the next paragraph.]
+
+	Since the total number of 90o face center twists must be
+even (see Vanderschel's message of 6 Aug 1980 1909-PDT), the
+preceding will solve the cube up to a 180o twist.  The process
+(URLUUR'L')^2 twists the U face center 180o.  This is the only short
+transform given in Singmaster for twisting face centers by a
+nonmultiple of four; I'd be interested in any others you know.
+
+That's it for now.  Happy Supercubing!
+
+				Dan
+

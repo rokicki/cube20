@@ -1,0 +1,47 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sat Sep 26 00:05:04 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.8/mc) with SMTP
+	id AAA07745; Sat, 26 Sep 1998 00:05:03 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Fri, 25 Sep 1998 08:36:22 -0400 (Eastern Daylight Time)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: Summary of Local Maxima, Face Turn Metric
+To: Cube Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <SIMEON.9809250822.A@GN209A.PSTCC.CC.TN.US>
+
+I have posted maneuvers for a number of specific strong and weak 
+local maximal positions (the strong local maxima at 9f and 10f, 
+and the weak local maxima at 6f) , but I haven't really posted a 
+summary of the numbers. Here are the numbers I have so far.  In 
+order to complete the table through 10f from Start for weak 
+local maxima, I would have to repeat a rather long run.  As 
+might be expected, it appears that the number of weak local 
+maxima will greatly exceed the number of strong local maxima.
+
+As is the usual case, patterns are M-conjugacy classes (symmetry 
+classes), and represent the number of positions which are unique 
+up to symmetry.
+
+
+
+Distance   Strong    Strong     Weak      Weak
+  from     Lclmax    Lclmax     Lclmax    Lclmax
+  Start   Patterns   Positions  Patterns  Positions
+
+   0f          0        0          0          0
+   1f          0        0          0          0
+   2f          0        0          0          0
+   3f          0        0          0          0
+   4f          0        0          0          0
+   5f          0        0          0          0
+   6f          0        0          2          7
+   7f          0        0          1          6
+   8f          0        0         37        739
+   9f          2       32        327      13014
+  10f          6      107          
+
+----------------------
+Jerry Bryan
+jbryan@pstcc.cc.tn.us
+

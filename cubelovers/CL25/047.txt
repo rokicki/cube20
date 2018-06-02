@@ -1,0 +1,48 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Apr 24 09:41:36 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id JAA07001; Fri, 24 Apr 1998 09:41:36 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Apr 24 09:38:22 1998
+Date: Fri, 24 Apr 98 09:38:06 EDT
+Message-Id: <9804241338.AA11821@sun28.aic.nrl.navy.mil>
+From: Dan Hoey <Hoey@aic.nrl.navy.mil>
+To: cube-lovers@ai.mit.edu
+Cc: whuang@ugcs.caltech.edu
+Subject: Re: Hamiltonian circuits on the cube
+
+I wrote:
+> I actually generated all the continuous chiral isopaths, and the
+> following is the other extreme--the only one with nine disjoint paths.
+
+Which was bogus.  I actually generated only the continuous chiral
+isopaths in which no circuit lies entirely on one face.  That's fine
+for the Hamiltonian circuit problem, but for the maximum number of
+disjoint circuits we probably want the 14-circuit pattern
+
+                        +-@-+-@-+-@-+---+---+---+
+                        |@@   @@@@@ | @@@@@   @@|
+                        +   +   +   + @ + @ + @ +
+                        |@@   @@@@@ | @@@@@   @@|
+                        + @ + @ + @ +   +   +   +
+                        |@@   @@@@@ | @@@@@   @@|
+            +-@-+-@-+-@-+---+---+---+-@-+-@-+-@-+
+            |@@   @@@@@ | @@@@@   @@|
+            +   +   +   + @ + @ + @ +
+            |@@   @@@@@ | @@@@@   @@|
+            + @ + @ + @ +   +   +   +
+            |@@   @@@@@ | @@@@@   @@|
++-@-+-@-+-@-+---+---+---+-@-+-@-+-@-+
+|@@   @@@@@ | @@@@@   @@|
++   +   +   + @ + @ + @ +
+|@@   @@@@@ | @@@@@   @@|
++ @ + @ + @ +   +   +   +
+|@@   @@@@@ | @@@@@   @@|
++---+---+---+-@-+-@-+-@-+
+
+which should be familiar to Tartan fans.
+
+Dan
+Hoey@AIC.NRL.Navy.Mil
+

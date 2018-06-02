@@ -1,0 +1,98 @@
+Date: 30 DEC 1980 0144-EST
+From: DCP at MIT-MC (David C. Plummer)
+Subject:  The higher order cubes (just the 4x4x4 for now) [93 lines]
+To: CUBE-LOVERS at MIT-MC
+
+
+And you thought the 3x3x3 was a complicated beastie...
+
+I have plans for the 4x4x4 which I think can work. A first order
+approximation is to take the 3x3x3 and split the edges in two.
+This doesn't take care of the centers or axis, but those are
+perhaps the most complicated anyway, and will get considerable
+thought. 
+
+WARNING: If you really want to see this, get out the graph paper
+and correct the aspect ratio that the characters here will have.
+
+The way I have labeled the cubies is as follows:
+        Corners are labelled A (there are 8 of these)
+        Edges are labeled both B and D (this defines the
+                orientation) (there are 24 of these)
+        Centers are labeled C (there are 24 of these)
+So a face would look like:
+        ABDA
+        DCCB
+        BCCD
+        ADBA
+
+Take a slice down the center of one of the planes and open it up.
+It should look something like:
+
+        .....&&&&&&&&++++++++
+        .....&&&&&&&&++++++++           where & and @ are pieces of
+        ..xxxxxx&&&++++++++++            the C type of cubie
+        ..xxxxxx&&&++++++++++           + is a B/D type
+        ....xx&&&&&++++++++++           x is the central axis
+        ....xx&&&&&++++++++++
+        ....xx&&&&&++++++++++
+        ....xx&&&&&++++++++++
+        ....xx&&&&&++++++++@@
+        ....xx&&&&&++++++++@@
+        ....xx&&&&/@@@@@@@@@@
+        \...xx&&&/@@@@@@@@@@@
+        .\..xx&&/@@@@@@@@@@@@
+        ..\.xx&/@@@@@@@@@xx@@
+        ...\xx/@@@@@@@@@@xx@@
+        xxxxxxxxxxxxxxxxxxx@@
+        xxxxxxxxxxxxxxxxxxx..
+        .../xx\..........xx..
+        ../.xx.\.........xx..
+        ./..xx..\............
+
+Gross, isn't it? There are a few things going on here that are
+hard to show. That central cross must be able to rotate, so the
+innermost parts of C and B/D are carved in somewhat. There is
+another hairy constraint: the central axis MUST BE RIGIDLY
+CONNECTED TO ONE AND ONLY ONE OF THE C TYPE CUBIES. The reason is
+hard to describe. Hint: suppose you rotate a half cube portion.
+It is possible that when the rotation is finished, the central
+axis is misaligned. Connecting it to one face cubie forces it to
+win. This may also make the central cross somewhat more fragile.
+
+Forgetting about the central axis and the corner cubies (they
+shouldn't be too able to work into the picture) we have the
+following diagrams for the B/D and C type cubies. The numbers
+indicate elevations:
+
+                B/D                             C
+
+        44444444                        4444
+        44444444        ACTUALLY THEY   4444
+        4443333333      ARE CURVED,     4443333333
+        4443333333      BUT CHARS       4443333333.
+        4433333333      HAVE POOR       4433333333.2
+        4433333333      RESOLUTION      4433333333.2.
+        4433333333                      4433333333.2.1
+        4433333333                      4433333333.2.1.
+
+I seriously think these will work. I hope to find somebody in
+a material science type of lab that can make plastic molds so I
+can actually try and build one of these. I hope to use a soft
+plastic that is machinable, carvable, sandpaperable, etc, and
+when I have a good one, make several pieces out of harder plastic
+and see what happens. Perhaps I'll have something by the end of
+January. 
+
+I think that the 5x5x5 cube (though the tolerances might be
+tighter) may actually be easier to construct. It may also be a
+more interesting cube to work with.
+
+Next: Notes on transforms on the 4x4x4 and 5x5x5 cubes.
+
+PS: A mind blower: a DODECAHEDRON frob (can't call it a cube). I
+thought of this one coming back on the bus. I haven't put
+anything down on paper, but my minds eye tells me it has a
+chance.
+
+Comments welcome.

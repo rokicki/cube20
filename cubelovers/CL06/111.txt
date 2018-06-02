@@ -1,0 +1,28 @@
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU 12 Sep 89 15:29:56 EDT
+Received: from PO2.ANDREW.CMU.EDU by mintaka.lcs.mit.edu id aa25552;
+          12 Sep 89 15:20 EDT
+Received: by po2.andrew.cmu.edu (5.54/3.15) id <AA00413> for Cube-Lovers@ai.ai.mit.edu; Tue, 12 Sep 89 15:20:30 EDT
+Received: via switchmail; Tue, 12 Sep 89 15:20:27 -0400 (EDT)
+Received: from frenchtown.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/service/mailqs/q003/QF.EZ3JOYG00Xoh00MU5C>;
+          Tue, 12 Sep 89 15:19:03 -0400 (EDT)
+Received: from frenchtown.andrew.cmu.edu via qmail
+          ID </afs/andrew.cmu.edu/usr23/hl08/.Outgoing/QF.cZ3JOQ200XohQ0a0g0>;
+          Tue, 12 Sep 89 15:18:52 -0400 (EDT)
+Received: from VUI.Andrew.3.20.CUILIB.3.45.SNAP.NOT.LINKED.frenchtown.andrew.cmu.edu.rt.r3
+          via MS.5.6.frenchtown.andrew.cmu.edu.rt_r3;
+          Tue, 12 Sep 89 15:18:51 -0400 (EDT)
+Message-Id: <cZ3JOPq00XohM0a0ZI@andrew.cmu.edu>
+Date: Tue, 12 Sep 89 15:18:51 -0400 (EDT)
+From: "Howard D. Look" <hl08+@andrew.cmu.edu>
+To: Cube-Lovers@ai.ai.mit.edu
+Subject: Solution Algorithm
+
+Does anyone have a full-blown, step-by-step algorithm for solving an
+arbitrarily messed cube that would be suitable in an interactive,
+graphical computer simulation of the cube?
+
+Thanks,
+Howard Look
+Carnegie Mellon Univeristy
+hl08+@andrew.cmu.edu

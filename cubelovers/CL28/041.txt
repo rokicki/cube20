@@ -1,0 +1,29 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Nov 26 18:07:49 1999
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA13259
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Fri, 26 Nov 1999 18:07:48 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Message-Id: <3823768E.53A6755B@iname.com>
+Date: Fri, 05 Nov 1999 16:30:06 -0800
+From: David Barr <davidbarr@iname.com>
+To: Richard E Korf <korf@cs.ucla.edu>
+Cc: cube-lovers@ai.mit.edu
+Subject: Re: How many Cubes have been sold?
+References: <199910281737.KAA06812@denali.cs.ucla.edu>
+
+Richard E Korf wrote:
+> Does anyone have a good idea how many Rubik's Cubes have been sold
+> worldwide?  Send mail to me, and I'll post a summary of the
+> responses. Thanks!
+>                              -rich
+
+http://www.rubiks.com/cubemain.html claims that over 200 million have
+been sold.
+
+The Rubik's Games CD-ROM has a history of the cube that includes other
+estimates.
+
+David
+

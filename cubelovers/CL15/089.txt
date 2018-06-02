@@ -1,0 +1,59 @@
+From @mail.uunet.ca:mark.longridge@canrem.com  Tue Apr 25 23:05:02 1995
+Return-Path: <@mail.uunet.ca:mark.longridge@canrem.com>
+Received: from seraph.uunet.ca (uunet.ca) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29970; Tue, 25 Apr 95 23:05:02 EDT
+Received: from portnoy.canrem.com ([198.133.42.17]) by mail.uunet.ca with SMTP id <194293-8>; Tue, 25 Apr 1995 23:06:32 -0400
+Received: from canrem.com by portnoy.canrem.com (4.1/SMI-4.1)
+	id AA03179; Tue, 25 Apr 95 23:01:31 EDT
+Received: by canrem.com (PCB-UUCP 1.1f)
+	id 1DE11D; Tue, 25 Apr 95 22:50:25 -0500
+To: cube-lovers@life.ai.mit.edu
+Reply-To: CRSO.Cube@canrem.com
+Sender: CRSO.Cube@canrem.com
+Subject: More Cube Orders
+From: mark.longridge@canrem.com (Mark Longridge)
+Message-Id: <60.1107.5834.0C1DE11D@canrem.com>
+Date: Tue, 25 Apr 1995 23:27:00 -0400
+Organization: CRS Online  (Toronto, Ontario)
+
+I said:
+>                 Still trying to find a pattern which will
+> result in 4 distinct ways, but I am not optimistic.
+
+Jerry adds:
+> As one more followup, for each symmetry group order in the above list,
+> there exists at least one cube.
+> That is, 96 of the 98 subgroups are symmetry groups for at
+> least one cube.  The two "missing" subgroups  --  A and C  -- are of
+> order 24.  But there is a third subgroup --  H -- of order 24
+> (H is the set of 12 even rotations and 12 odd reflections), and there
+> are cube positions whose symmetry subgroup is H.  Hence, there are
+> cube positions for every symmetry subgroup order.
+
+Well, I figure Jerry is correct and so I kept looking for the magic
+pattern which transforms 4 ways...
+
+Number of
+different      Pattern
+patterns        -------
+---------
+
+...
+ 4              6 flip (UF, UR, FR, DB, DL, BL)
+...
+
+So there are 4 types of this 6 flip.
+
+Jerry has said before:
+> I believe that Dan and I have solved (sort of independently, and sort
+> of working together) the problem you pose (and I give Dan the bulk
+> of the credit).  That is, how many cubs are there in each symmetry
+> group and each symmetry class?
+
+That sounds harder. Looks like I am specifying only the index of
+the symmetry subgroup... perhaps it makes sense to find out
+exactly which subgroup of M is the symmetry group of my positions.
+
+It all sounds vaguely familar.... but it will try again tomorrow.
+
+-> Mark <-
+

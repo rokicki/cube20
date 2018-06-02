@@ -1,0 +1,42 @@
+From bagleyd@perry.njit.edu  Thu Dec 21 11:10:52 1995
+Return-Path: <bagleyd@perry.njit.edu>
+Received: from perry.njit.edu by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA29087; Thu, 21 Dec 95 11:10:52 EST
+Received: (from bagleyd@localhost) by perry.njit.edu (8.7.1/8.6.9) id LAA00923 for cube-lovers@life.ai.mit.edu; Thu, 21 Dec 1995 11:17:00 -0500
+From: david a bagley <bagleyd@perry.njit.edu>
+Message-Id: <199512211617.LAA00923@perry.njit.edu>
+Subject: xpuzzles and winpuzz
+To: cube-lovers@life.ai.mit.edu
+Date: Thu, 21 Dec 1995 11:16:59 -0500 (EST)
+X-Mailer: ELM [version 2.4 PL23]
+Content-Type: text
+
+Hi
+ 
+My new puzzles are out again.  Here's a brief description:
+  5.1
+    Mball and Mlink puzzles now draw sectors faster.
+    All puzzles have a corrected random number generator for 64 bit
+      machines.
+    Border color around tiles/pieces makes it look more realistic.
+    g (& G) for get of old saved configuration (not e).
+    Many other cosmetic changes in the code.  I am getting it in sync
+      with MSWindows code (winpuzz).
+
+I hope I don't regret announcing this:  :)
+  I am busy porting them to MSWindows.  So far I only ported one, "xcubes".
+  I think the rest will be easier now that I have my X-Window-System code
+  in sync.  I am looking for anyone with MSWindows AND C experience to Beta
+  test and give me some pointers.  (If I could get a small team that would
+  be great!)  The executable AND source for MSWindows, when completed will
+  be freely redistributable and maintained (as far as I am able to).  So
+  far, I am only using windows.h (3.1) to maximize portablity and compiler
+  independance.
+ 
+Cheers,
+  /X\   David A. Bagley
+ // \\  bagleyd@perry.njit.edu
+((   X  xlockmore, new stuff for xlock @ ftp.x.org//contrib/applications
+ \\ //  altris, tetris games for x @ ftp.x.org//contrib/games/altris
+  \X/   puzzles, magic cubes for x @ ftp.x.org//contrib/games/puzzles
+
+

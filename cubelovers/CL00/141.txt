@@ -1,0 +1,16 @@
+Date: 10 Sep 1980 9:37 pm PDT (Wednesday)
+From: Woods at PARC-MAXC
+Subject: Re: How do you maximally randomize a cube?
+In-reply-to: ALAN's message of 11 SEP 1980 0016-EDT
+To: ALAN at MIT-MC (Alan Bawden)
+cc: CUBE-HACKERS at MIT-MC
+
+It is not obvious to me that any twist in a maximally distant state
+brings you closer to the home position.  How do you know there
+aren't two equally distant states that are a qtw apart?  There is
+probably a parity argument that proves this can't be so, but if you
+count half-twists as single operations I'd be much surprised if you
+could find a simple proof.
+
+	-- Don.
+

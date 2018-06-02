@@ -1,0 +1,109 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Tue Feb 15 18:33:33 2000
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil (sun28.aic.nrl.navy.mil [132.250.84.38])
+	by mc.lcs.mit.edu (8.9.1a/8.9.1-mod) with SMTP id SAA05807
+	for <cube-lovers-outbound@mc.lcs.mit.edu>; Tue, 15 Feb 2000 18:33:33 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Date: Thu, 27 Jan 2000 21:38:47 -0500 (EST)
+From: der Mouse  <mouse@rodents.montreal.qc.ca>
+Message-Id: <200001280238.VAA02190@Twig.Rodents.Montreal.QC.CA>
+To: Ghan <ghan@health.on.net>
+Cc: Cube-Lovers@ai.mit.edu
+Subject: Re: Stuff...
+
+> I don't really know whether most people on this mailing list are
+> regulars or just a bunch of strangers who don't know each other,
+
+My sense of it is that - like most lists - cube-lovers consists of a
+few relatively prolific posters and a whole lotta lurkers.  But only
+the listowner really knows....
+
+> but I'll introduce myself anyway.  [...]
+
+Welcome!  Glad to see you here.
+
+> [L]ast July, I got one of my friends to teach me how to solve the
+> Rubik's Cube, which I have ever since regretted, since I really would
+> have liked to solve it myself...
+
+Heh.  Yeah, that's a danger.  I managed most of it myself, though it
+took a while; the one piece someone had to show me is a double edge
+flip.
+
+> Anyway, I have quite a few unrelated questions I need help with...
+
+> What type of glue could I use to secure all the stickers more
+> permanently?
+
+If you don't mind something really permanent, you can always take the
+stickers off and paint the facicles.  I've done this on a 3-Cube and
+have a 5-Cube sitting disassembled waiting for the same treatment.
+
+> Finally, I decided today to try my hand at some programming.
+> [...exhaustive search for the 2-Cube...]
+
+> I thought I was pretty good until I discovered that my program took
+> 18 minutes to check all the 9 move algorithms!
+
+The 2-Cube *has* been completely solved; back in 1992 I wrote a program
+that did so, and I'm sure dozens of others have done likewise, before
+and since.  Here are position counts:
+
+For the quarter-turn metric:
+              1 at distance  0 [Wed May 13 23:18:51 1992]
+              6 at distance  1 [Wed May 13 23:18:52 1992]
+             27 at distance  2 [Wed May 13 23:18:53 1992]
+            120 at distance  3 [Wed May 13 23:18:54 1992]
+            534 at distance  4 [Wed May 13 23:18:55 1992]
+           2256 at distance  5 [Wed May 13 23:18:56 1992]
+           8969 at distance  6 [Wed May 13 23:18:58 1992]
+          33058 at distance  7 [Wed May 13 23:19:06 1992]
+         114149 at distance  8 [Wed May 13 23:19:29 1992]
+         360508 at distance  9 [Wed May 13 23:20:53 1992]
+         930588 at distance 10 [Wed May 13 23:24:52 1992]
+        1350852 at distance 11 [Wed May 13 23:35:53 1992]
+         782536 at distance 12 [Wed May 13 23:53:44 1992]
+          90280 at distance 13 [Thu May 14 00:03:19 1992]
+            276 at distance 14 [Thu May 14 00:04:25 1992]
+
+For the half-turn metric:
+              1 at distance  0 [Thu May 14 00:12:37 1992]
+              9 at distance  1 [Thu May 14 00:12:39 1992]
+             54 at distance  2 [Thu May 14 00:12:41 1992]
+            321 at distance  3 [Thu May 14 00:12:42 1992]
+           1847 at distance  4 [Thu May 14 00:12:44 1992]
+           9992 at distance  5 [Thu May 14 00:12:56 1992]
+          50136 at distance  6 [Thu May 14 00:13:08 1992]
+         227536 at distance  7 [Thu May 14 00:14:26 1992]
+         870072 at distance  8 [Thu May 14 00:20:43 1992]
+        1887748 at distance  9 [Thu May 14 00:47:06 1992]
+         623800 at distance 10 [Thu May 14 01:46:46 1992]
+           2644 at distance 11 [Thu May 14 02:07:51 1992]
+
+I don't recall why the half-turn run was so much slower; perhaps
+something else (backups?) started running at midnight....
+
+> [T]here are computer programs which can solve the 3x3x3 in seconds
+> (or so I've read,
+
+There are - but not if you also demand that the result be certain to be
+an optimal solution.  Heck, a program could be written that just cranks
+through a recipe such as you can find in any of dozens of books; such a
+program could run in less than a second on all but the tiniest of
+computers.  The interest lies in finding *good* - or otherwise
+interesting - solutions.
+
+> So I'm wondering how to write a fast solver.  Is my program slow
+> because of my bad programming skills, or is my method just plain
+> slow?
+
+The latter, certainly.  The former, well, perhaps; I haven't seen the
+code, so it's hard to say. :-)  Certainly your choice of language will
+work against producing a high-speed program.
+
+					der Mouse
+
+			       mouse@rodents.montreal.qc.ca
+		     7D C8 61 52 5D E7 2D 39  4E F1 31 3E E8 B3 27 4B
+

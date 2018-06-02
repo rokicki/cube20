@@ -1,0 +1,63 @@
+From BRYAN@wvnvm.wvnet.edu  Fri Dec  9 22:20:45 1994
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA14904; Fri, 9 Dec 94 22:20:45 EST
+Message-Id: <9412100320.AA14904@life.ai.mit.edu>
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R2)
+   with BSMTP id 4266; Fri, 09 Dec 94 22:20:47 EST
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 5379; Fri, 9 Dec 1994 22:20:47 -0500
+X-Acknowledge-To: <BRYAN@WVNVM.WVNET.EDU>
+Date:      Fri, 9 Dec 1994 22:20:42 -0500 (EST)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Normal Subgroup Question
+
+On 12/07/94 at 20:45:00 Martin Schoenert said:
+
+>Unfortunately C is *not* a normal subgroup of CG, and therefore CG/C is
+>*not* a group.  If we want to apply group theory, we need a better model.
+>I argue that G is indeed a good model for the 3x3x3 cube.
+
+I responded at great length, showed a group for CG/C, and concluded
+as follows.
+
+>I guess this must mean that C[C], C[E], and C[C,E] are all normal
+>subgroups of their respective CG's, but that C[C,F], C[E,F], and
+>C[C,E,F] are not.  That should not be surprising.  Having the
+>Face-centers there only as a frame of reference and never moving
+>is not the same as having them there and really moving (as when you
+>rotate the entire cube).
+
+This just *has* to be wrong.  I just don't see any way that any
+of the flavors of C are a normal subgroup of their respective
+flavors of CG.  The presence or absence of the Face-centers can't
+have anything to do with it.  I was jumping to the conclusion that
+since I found a group for some of the flavors of CG/C, that therefore
+the respective C's must be normal.
+
+I have reread my note, and it still looks to me like I found groups
+for all the CG/C's I discussed.  I would invite instruction and
+correction from any of you group theory experts out there, but here
+is the way it looks to me.
+
+Using G and H generically for a group and subgroup (not necessarily
+cubes at all), G/H is a group if H is a normal subgroup of G,
+under the "natural" operation {Xh} * {Yh} = {(XY)h} (where {Xh}
+etc. denotes all h in H.)  Coset notation would be (xH)(yH)=(xy)H.
+Under these circumstances, G/H is the factor group of H in G.
+
+My group operation on the cosets not the "natural" operation.
+It gets around the fact that C is not normal by picking specific
+rather than arbitrary elements of the cosets in order to perform
+the group operation, namely a picking specific element which fixes
+the same cubie for all cosets.  I guess this means that CG/C is not
+the factor group of C in CG (such a thing being impossible), but
+by golly it still looks like a group to me under the "unnatural"
+operation ??
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

@@ -1,0 +1,46 @@
+From anandrao@hk.super.net  Mon Mar 14 21:27:38 1994
+Return-Path: <anandrao@hk.super.net>
+Received: from hk.super.net by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20935; Mon, 14 Mar 94 21:27:38 EST
+Received: by hk.super.net id AA15765
+  (5.65c/IDA-1.4.4 for Cube-Lovers@ai.mit.edu); Tue, 15 Mar 1994 10:27:05 +0800
+Date: Tue, 15 Mar 1994 10:15:06 +0800 (HKT)
+From: "Mr. Anand Rao" <anandrao@hk.super.net>
+Subject: Re: Anyone solved Rubik's Tangle?
+To: Don Woods <Don.Woods@eng.sun.com>
+Cc: phiscock@ee.ryerson.ca, Cube-Lovers@ai.mit.edu
+In-Reply-To: <9403142115.AA18313@colossal.Eng.Sun.COM>
+Message-Id: <Pine.3.07.9403151003.A13465-b100000@hk.super.net>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+
+
+
+On Mon, 14 Mar 1994, Don Woods wrote:
+
+> > Before I waste my life on this, has anyone solved the problem?
+> 
+> Yes, it's been solved, and discussed at some length on this group.
+
+True. However, the 10*10 solution where you use all the four tangle
+puzzles  to form a 10*10 pattern with matching edges, has been found to be
+impossible( Although the puzzle leaflet says that it is solvable). Once
+again there is no 'insightful' solution. Someone has posted that he has
+seen an intuitive solution which evades his memory for the time being
+but will try to recollect what it was ... reincarnation of Fermat's Last
+Problem :). There have been some interesting postings in this group on
+this topic in the last few weeks and you should read them .
+
+ > However, I haven't seen anyone who claims to have come up
+with an
+> "insightful" solution, i.e. one in which you figure out a general
+> approach that leads to a solution.  All solutions I've heard of
+> have been found by exhaustive search, often by computer.
+> 
+> 	-- Don.
+> 
+
+Anand Rao.
+
+
+
+

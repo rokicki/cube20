@@ -1,0 +1,38 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Fri Dec 26 22:50:16 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id WAA08130; Fri, 26 Dec 1997 22:50:16 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Fri Dec 26 04:04:16 1997
+Date: Fri, 26 Dec 1997 10:03:05 +0100 (MET)
+Message-Id: <1.5.4.16.19971226100243.1137cba4@mailsvr.pt.lu>
+X-Sender: geohelm@mailsvr.pt.lu
+To: "Frederik Strauss" <fstrauss@icon.co.za>
+From: Georges Helm <geohelm@pt.lu>
+Subject: Re: 5x5x5
+Cc: Cube-Lovers@ai.mit.edu
+
+I have a German book by Kurt ENDL on how to solve the whole bunch of 2x2x2,
+3x3x3, 4x4x4 and 5x5x5 cubes.
+I have a xeroxed copy of a solution by myself.
+I do upper middles, edges, corners.
+Then 2d, 3d and 4th layer edges.
+Then 2d, 3d and 4th layer middles.
+Then last layer corners and finally last layer edges.
+
+Sometimes parity is uneven, i,e, there remain 2 edges to swap, and
+there is a move I use to resolve that problem without disturbing the
+rest of the cube by Helmut GEMBITZKY.
+
+Georges Helm
+
+geohelm@pt.lu
+http://ourworld.compuserve.com/homepages/Georges_Helm/
+http://www.geocities.com/Athens/2715
+
+[ Moderator's note: As has been mentioned previously, there is a
+general solution method in Eidswick, J. A., "Cubelike Puzzles -- What
+Are They and How Do You Solve Them?", 'American Mathematical Monthly',
+Vol. 93, #3, March 1986, pp. 157-176, though it's not optimized. ]
+

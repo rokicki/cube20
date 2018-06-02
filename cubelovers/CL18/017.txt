@@ -1,0 +1,152 @@
+From JBRYAN@pstcc.cc.tn.us  Tue Nov 14 09:12:58 1995
+Return-Path: <JBRYAN@pstcc.cc.tn.us>
+Received: from VAX1.PSTCC.CC.TN.US (PSTCC4.PSTCC.CC.TN.US) by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA05060; Tue, 14 Nov 95 09:12:58 EST
+Resent-From: JBRYAN@pstcc.cc.tn.us
+Resent-Message-Id: <9511141412.AA05060@life.ai.mit.edu>
+Received: from pstcc.cc.tn.us by pstcc.cc.tn.us (PMDF V5.0-3 #11457)
+ id <01HXMMHE4MCQ8X60LN@pstcc.cc.tn.us> for cube-lovers@ai.mit.edu; Tue,
+ 14 Nov 1995 09:13:44 -0400 (EDT)
+Resent-Date: Tue, 14 Nov 1995 09:13:43 -0400 (EDT)
+Date: Tue, 14 Nov 1995 09:13:41 -0400 (EDT)
+From: Jerry Bryan <jbryan@pstcc.cc.tn.us>
+Subject: God's Algorithm for the 1x1x1 Rubik's Cube
+Sender: JBRYAN@pstcc.cc.tn.us
+To: Cube-Lovers <cube-lovers@ai.mit.edu>
+Message-Id: <Pine.PMDF.3.91.951113162306.539286930A-100000@pstcc.cc.tn.us>
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+
+Solving the 1x1x1 Rubik's cube is probably a bit silly and whimsical, but 
+let's look at it anyway.  
+
+I was led in this direction by rereading some articles in the archives
+from Dan Hoey and others concerning NxNxN Rubik's cubes.  For example,
+consider Dan's discussion "Cutism, Slabism, and Eccentric Slabism" from 
+1 June 83 19:39:00.  Sometimes degenerate cases are slightly interesting.  
+I guess the 1x1x1 case is the most degenerate we have, unless you want to
+consider the 0x0x0. 
+
+It seems to me that either cutism or slabism, as Dan calls them, reduce to
+whole cube rotations for the 1x1x1 case.  For example, a quarter turn face
+turn or a quarter turn slice would be interpreted as a whole cube quarter
+turn for the 1x1x1.  Hence, the cube group for the 1x1x1 is simply C, the
+group of 24 rotations of the cube. 
+
+By analogy with some of our previous work, I can think of essentially 
+three different ways to model the 1x1x1.
+
+   1)  With the 2x2x2, we normally wish to consider the puzzle solved if 
+       each face is all of one color.  That is, whole cube rotations are 
+       to be considered equivalent.  With the Singmaster fixed face 
+       center view of the 3x3x3, the issue of whole cube rotations does 
+       not arise.  But with the 2x2x2 we would normally consider 
+       (for example) RL' equivalent to I.  The most common way to 
+       accomplish this type of equivalence is to fix one of the corners.
+
+       If we fix one of the corners of the 1x1x1, then we have a most 
+       remarkable puzzle.  There is only one state, nothing can ever 
+       move, and the puzzle is always solved.
+
+   2)  A second way to model the 2x2x2 such that whole cube rotations are 
+       considered to be equivalent is to consider the set of states to be 
+       the set of cosets of C, that is, the set of all xC.
+
+       If we take this approach with the 1x1x1, then there is only one 
+       coset, namely iC (or just C, if you prefer).  The cube can rotate,
+       but all 24 states are considered to be equivalent and the puzzle 
+       is always solved.
+
+   3)  Finally, if you model the 2x2x2 in such a way that whole cube 
+       rotations are considered to be distinct, then you are really
+       modelling the corners of the 3x3x3.  Indeed, a naive program 
+       that simply modelled the permutations of the 2x2x2 facelets would  
+       in fact unwittingly be modelling the corners of the 3x3x3.
+
+       If you take the same approach of modelling the permutations of the 
+       1x1x1 facelets, then you in effect are considering whole
+       cube rotations to be distinct.  You have a very easy problem,  
+       but the problem is not totally trivial as it is with approach #1
+       or approach #2.  The rest of this note will therefore consider the
+       problem of the 1x1x1 cube where whole cube rotations are considered
+       to be distinct. 
+
+Since we need to deal with whole cube rotations, I will use lower case
+letters as our standard E-mail simulation of Frey and Singmaster's script
+notation for whole cube quarter turns -- t for Top, r for Right, etc.  We
+need only three of the six letters because, for example, we have l=r',
+d=t', b=f', etc.  I will use t, r, and f. 
+
+We know before we start that there are 24 states.  We also know before we
+start that these 24 states form 5 M-conjugacy classes, where M is the set
+of 48 rotations and reflections of the cube.  (There are 10 M-conjugacy
+classes of M, of which 5 are rotations and 5 are reflections.) Hence, any
+discussion of God's algorithm will involve 5 conjugacy classes and 24
+states. 
+
+The obvious searches to look at are for qturns only, and for qturns plus 
+hturns.  We may generate the qturn case as C=<t,r,f>.  We may generate 
+the qturn plus hturn case as C=<t,r,f,t2,r2,f2>.
+
+                    Qturns Only
+
+ Distance Conjugacy Positions  
+  from     Classes
+  Start
+
+    0          1        1  {i}
+    1          1        6  {t,t',r,r',f,f'}       
+    2          2       11  {tt,rr,ff},{tr,tr',tf,tf',t'r,t'r',t'f,t'f'}
+    3          1        6  {ttf,ttf',ffr,ffr',rrt,rrt'}
+  ---        ----     ----
+ Total         5       24
+
+
+
+                    Qturns Plus Hturns
+
+ Distance Conjugacy Positions  
+  from     Classes
+  Start
+
+    0        1        1  {i}
+    1        2        9  {t,t',r,r',f,f'},{t2,r2,f2}       
+    2        2       14  {tr,tr',tf,tf',t'r,t'r',t'f,t'f'},
+                         {t2f,t2f',f2r,f2r',r2t,r2t'}
+  ---      ----     ----
+ Total       5       24
+
+
+There are some additional problems we can look at.  For an example, an
+interesting problem on the 3x3x3 is variously called the stuck axle
+problem or the five generator problem.  In the case of the 1x1x1, we have
+the "two generator problem" because we certainly can generate C as C=<t,f>
+(Proof: r=tft').  But can we generate C with only one generator?  The
+answer is no.  (Proof:  Order(i)=1, Order(t)=4, Order(tt)=2, Order(tf)=3,
+and Order(ttf)=2.  All the orders are less than 24.  Note that it suffices
+to calculate the order for one representative of each conjugacy class.)  I
+will leave it as an exercise for the reader to determine the lengths of
+each of the 24 positions if we generate C as <t,f>, and to determine the
+appropriate conjugacy classes to take into account the symmetry of C
+generated as <t,f>.
+
+By the way, do we know the minimum number of generators required to 
+generate the 3x3x3?  Here I do not mean the minimum number of quarter 
+turns.  I am asking the question if we are permitted to use as generators 
+any elements of G.
+
+Here is one final item about the 1x1x1.  We do not know how many subgroups
+of G there are for the 3x3x3.  But we do know how many subgroups of C
+there are.  There has been much discussion of the 98 subgroups of M which
+can be arranged in 33 conjugacy classes.  The subgroups of C are simply 
+those subgroups of M which consist entirely of rotations.  There are 30 
+such subgroups, and they may be arranged in 11 conjugacy classes. 
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =          
+Robert G. Bryan (Jerry Bryan)                jbryan@pstcc.cc.tn.us                      
+
+
+
+
+

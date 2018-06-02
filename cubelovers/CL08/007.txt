@@ -1,0 +1,23 @@
+From sjfc!ggww@cci632.cci.com  Tue Nov 12 07:16:07 1991
+Return-Path: <sjfc!ggww@cci632.cci.com>
+Received: from uu.psi.com by life.ai.mit.edu (4.1/AI-4.10) id AA21658; Tue, 12 Nov 91 07:16:07 EST
+Received: from sjfc.UUCP by uu.psi.com (5.65b/4.1.110791-PSI/PSINet)
+	id AA05547; Tue, 12 Nov 91 07:11:47 -0500
+Received: by cci632.cci.com (5.54/5.17)
+	id AA19314; Mon, 11 Nov 91 10:51:18 EST
+Received: by sjfc.UUCP (5.51/4.7)
+	id AA08293; Mon, 11 Nov 91 09:18:57 EST
+Date: Mon, 11 Nov 91 09:18:57 EST
+From: sjfc!ggww@cci632.cci.com (Gerry Wildenberg)
+Message-Id: <9111111418.AA08293@sjfc.UUCP>
+To: cube-lovers@ai.mit.edu
+Subject: mailing list
+
+Please put me on the mailing list.
+
+If there is a FAQ for this group, lease mail me a copy.
+
+Gerry Wildenberg                         ggww@sjfc.uucp
+St. John Fisher College                  sjfc!ggww@cci.com
+Rochester, NY 14618                      ...!uunet!uupsi!cci632!sjfc!ggww
+

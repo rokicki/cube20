@@ -1,0 +1,16 @@
+<html>
+<head>
+<script type="text/javascript"
+  src="dygraph-combined.js"></script>
+</head>
+<body>
+<div id="graphdiv" style="width:100%; height:100%;"></div>
+<script type="text/javascript">
+  g = new Dygraph(
+    document.getElementById("graphdiv"),
+    "q.csv",
+    { legend: "always", title: "Best Quality" }
+  );
+</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Wed Jul 30 12:26:38 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id MAA15194; Wed, 30 Jul 1997 12:26:37 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From nbodley@tiac.net Wed Jul 30 08:21:49 1997
+Date: Wed, 30 Jul 1997 08:18:30 -0400 (EDT)
+From: Nicholas Bodley <nbodley@tiac.net>
+To: Corey Folkerts <CFolkerts@compuserve.com>
+Cc: Cube-Lovers <Cube-Lovers@ai.mit.edu>
+Subject: Re: 2^3 Reassembly
+In-Reply-To: <199707291358_MC2-1BDB-4183@compuserve.com>
+Message-Id: <Pine.SUN.3.95.970730081345.2403B-100000@sunspot.tiac.net>
+
+ As to the notches Corey mentions, they might not matter, but all three
+pieces I would guess might of a later design that would simplify assembly;
+they are probably the last three pieces to be assembled.
+
+ It sounds as though one needs to very careful and make sketches when
+disassembling a 2^3! All of mine were bought probably around 1985 or so,
+or earlier; they are old. 
+
+ Please don't think that simply because I'm partly informed that I'm an
+expert! I'm not.
+
+ Good luck to all,
+
+NB
+
+On Tue, 29 Jul 1997, Corey Folkerts wrote:
+
+}Nicholas Bodley writes:
+}
+}> The cubies are kept together by 12 "clips". These fit into the cutout
+}>arcs; when you assemble the Cube, you put two cubies next to each other
+}>(they touch) and fit this "clip" so that it keep s them together. To
+}>install it, you move the clip away from the imaginary geometrical center
+}>of the whole puzzle. 
+}
+}My 2^3 has these 12 clips as I discovered when it first burst. However, I
+}would like to confirm something. Nine of my clips are identical, the 1/4
+}circle shape. However, its the other three that are causing me trouble. One
+}of them is identical to the other nine except that on one of the two planes
+}it has a very small notch cut out of it. The notch is an arc and I'm
+}guessing it is probably about 1 mm deep. The other two have one of the 1/4
+}planes identical to the first nine, but the second plane extends far
+}beyond, doubling the "height" of the clip. If viewed from the side which
+}has the extended plane it is a diamond instead of a 1/4 circle.  All of the
+}other internal pieces are identical to your description
+}
+}        I would like to know if everyone else has these altered clips in
+}their 2^3s.
+}
+}        Corey Folkerts
+}
+}
+
+|*  Nicholas Bodley   *|*  Electronic Technician {*} Autodidact & Polymath
+|*   Waltham, Mass.   *|*  -----------------------------------------------
+|*  nbodley@tiac.net  *|*    When the year 2000 begins, we'll celebrate 
+|*  Amateur musician  *|*    the 2000th anniversary of the year 1 B.C.E.
+--------------------------------------------------------------------------
+

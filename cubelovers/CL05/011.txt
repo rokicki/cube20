@@ -1,0 +1,10 @@
+Date:  7-Jan-83 10:19:31 PST (Friday)
+From: Pettit at PARC-MAXC
+Subject: 4-D Graphics Program
+In-reply-to: ALAN's message of 5 January 1983 23:40-EST
+To: Alan Bawden <ALAN @ MIT-MC>
+cc: Cube-Lovers at MIT-MC
+
+Scott Kim, the author of Inversions, wrote a program about 4 or 5 years ago which ran on Tenex, and allowed one to rotate 4-D skeletal objects and view the 2-D projections (on an Imlac display).  I don't know what language it was written in.  It was apparently quite good at allowing one to achieve an intuition for 4-D space.  I'll send him a message and ask if his program is available anywhere for playing with.
+
+--Teri Pettit at Xerox OSD   

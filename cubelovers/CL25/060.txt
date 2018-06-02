@@ -1,0 +1,28 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Mon May  4 14:18:15 1998
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun28.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA13472; Mon, 4 May 1998 14:18:14 -0400 (EDT)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Mon May  4 12:28:19 1998
+Message-Id: <19980504162440.4037.qmail@hotmail.com>
+From: "Philip Knudsen" <philipknudsen@hotmail.com>
+To: Cube-Lovers@ai.mit.edu
+Subject: Re: Revenge and the 5x5x5
+Date: Mon, 04 May 1998 09:24:39 PDT
+
+Noel writes:
+
+> Since we all know that Rubik's Revenge (4x4x4) puzzles are
+> nearly impossible to find (all of mine have long ago broken)
+> and the 5x5x5 cubes fall apart so easily that they are basically
+> unusable.
+
+You are right about the 4x4x4 availability. I have, however,
+never had any problems with my 5x5x5 cube. Actually the 5x5x5
+mechanism is quite ingenious. I never heard of any broken one.
+The only problem i can think of is the orange sticker tendency
+fall off.
+
+Philip K
+

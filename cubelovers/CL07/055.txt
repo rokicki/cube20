@@ -1,0 +1,22 @@
+From latto@lucid.com  Tue May 14 16:46:39 1991
+Return-Path: <latto@lucid.com>
+Received: from lucid.com by life.ai.mit.edu (4.1/AI-4.10) id AA26858; Tue, 14 May 91 16:46:39 EDT
+Received: from boston-harbor ([192.43.175.1]) by heavens-gate.lucid.com id AA08804g; Tue, 14 May 91 10:50:14 PDT
+Site: 
+Received: by boston-harbor id AA10376g; Tue, 14 May 91 13:54:02 EDT
+Date: Tue, 14 May 91 13:54:02 EDT
+From: Andy Latto <latto@lucid.com>
+Message-Id: <9105141754.AA10376@boston-harbor>
+To: gls@think.com
+Cc: Cube-Lovers@life.ai.mit.edu
+In-Reply-To: Guy Steele's message of Mon, 13 May 91 12:03:50 EDT <9105131603.AA01148@ukko.think.com>
+Subject: 5by cubes
+
+Should you really be posting the secret proposed architecture
+for the CM-6 to a publicly available mailing list?
+
+:-) :-)
+
+					Andy
+					latto@lucid.com
+

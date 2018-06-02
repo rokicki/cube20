@@ -1,0 +1,36 @@
+Received: from ucbvax.Berkeley.EDU (TCP 1200400116) by AI.AI.MIT.EDU  6 Jun 87 23:08:00 EDT
+Received: by ucbvax.Berkeley.EDU (5.57/1.25)
+	id AA22970; Sat, 6 Jun 87 19:39:05 PDT
+Received: from USENET by ucbvax.Berkeley.EDU with netnews
+	for cube-lovers@ai.ai.mit.edu (cube-lovers@ai.ai.mit.edu)
+	(contact usenet@ucbvax.Berkeley.EDU if you have questions)
+Date: 4 Jun 87 16:35:54 GMT
+From: fluke!ssc-vax!cxsea!blm@beaver.cs.washington.edu  (Brian Matthews)
+Organization: Computer X Inc.
+Subject: Look for two books by Dmitri Borgmann
+Message-Id: <2100@cxsea.UUCP>
+Sender: cube-lovers-request@ai.ai.mit.edu
+To: cube-lovers@ai.ai.mit.edu
+
+I'm looking for information about the books _Beyond Language_ and
+_Language on Vacation_ by Dmitri Borgmann.  I can't find them in any
+of the various Books in Print, so they're either no longer in print,
+or from a small publisher.  In any event, I would appreciate it if
+someone could send me the following information:
+
+  1. The correct spelling of the titles and the author's name (if I
+     don't have them correct above).
+
+  2. The publisher, and the publisher's address if it's available in
+     either of the books.
+
+  3. The ISBN.
+
+Thanx for any information anyone can provide!
+
+-- 
+                                                +---------+
+Brian L. Matthews                               | P L A N |
+...{mnetor,uw-beaver!ssc-vax}!cxsea!blm         | A H E A |
++1 206 251 6811                                 +--------D+
+Computer X Inc. - a division of Motorola New Enterprises

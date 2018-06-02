@@ -1,0 +1,47 @@
+Received: from WAIKATO.S4CC.Symbolics.COM (TCP 20024231532) by AI.AI.MIT.EDU  4 Nov 86 18:25:14 EST
+Received: from ROCKY-MOUNTAINS.S4CC.Symbolics.COM by WAIKATO.S4CC.Symbolics.COM via CHAOS with CHAOS-MAIL id 71267; Tue 4-Nov-86 18:23:59 EST
+Date: Tue, 4 Nov 86 18:22 EST
+From: Allan C. Wechsler <acw@WAIKATO.S4CC.Symbolics.COM>
+Subject: rubiks magic
+To: DCP@QUABBIN.SCRC.Symbolics.COM, beck@clstr1.decnet,
+    cube-lovers@MIT-AI.ARPA
+In-Reply-To: <861104170610.5.DCP@KOYAANISQATSI.S4CC.Symbolics.COM>
+Message-ID: <861104182207.9.ACW@ROCKY-MOUNTAINS.S4CC.Symbolics.COM>
+
+    Date: Tue, 4 Nov 86 17:06 EST
+    From: David C. Plummer <DCP@QUABBIN.SCRC.Symbolics.COM>
+
+    Rubik's Magic is available at "Games people play" near Harvard Square
+    for a little under $15.  
+
+As usual, Carol Monica is charging unreasonable prices.  Boycott this
+moderately obnoxious woman and buy your Magic from Zayre or Bradlee's at
+about $7-8.
+
+    It's a good puzzle for playing with and relieving the fidgets.
+    Mathematically it isn't very interesting, nor are there any "pretty
+    patterns" other than solved1 and solved2.
+
+The "pretty patterns" are more sculptural than geometrical.  Can you
+make a cube?
+
+Mathematically, there are a couple of interesting points.  There are
+sixteen achievable 2x4 configurations, linked by a nice little rosette
+of generators.
+
+Unsolved stumper:  The pattern
+
+	XXX
+	X X
+	XXX
+
+appears unreachable, but we haven't been able to prove it.  Can someone
+come up with a proof?  (Or -- hope against hope -- has anyone achieved
+it?)
+
+I find the mechanical aspect more pleasing than the cube.  "Magic" is more
+satisfying to manipulate than almost any of its predecessors.  The
+linking principle can be generalized to any number of squares.  I am
+considering breaking a couple and wiring them together to make Big
+Magic.
+

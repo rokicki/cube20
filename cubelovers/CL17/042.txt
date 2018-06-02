@@ -1,0 +1,140 @@
+From BRYAN@wvnvm.wvnet.edu  Tue Oct 17 19:45:07 1995
+Return-Path: <BRYAN@wvnvm.wvnet.edu>
+Received: from WVNVM.WVNET.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA20990; Tue, 17 Oct 95 19:45:07 EDT
+Received: from WVNVM.WVNET.EDU by WVNVM.WVNET.EDU (IBM VM SMTP V2R3)
+   with BSMTP id 9305; Tue, 17 Oct 95 19:44:40 EDT
+Received: from WVNVM.WVNET.EDU (NJE origin BRYAN@WVNVM) by WVNVM.WVNET.EDU
+ (LMail V1.2a/1.8a) with BSMTP id 8479; Tue, 17 Oct 1995 19:44:41 -0400
+Message-Id: <wvmail32.1995oct17.192145.bryan@wvnvm.wvnet.edu>
+Date:      Tue, 17 Oct 1995 19:44:40 -0400 (EDT)
+From: "Jerry Bryan" <BRYAN@wvnvm.wvnet.edu>
+To: "Cube Lovers List" <Cube-Lovers@ai.mit.edu>
+Subject:   Positions 8q from Start, 9q from B, Five Generators
+
+Much analysis is not done, and I have little time.  However, I
+am able to print out the positions very easily.
+
+     DDD                FFD                 RRR
+     DBD                RBB                 UBR
+     DRD                RRD                 RRR
+
+     BUB                UUF                 UUU
+     UUB                UUB                 UUU
+     BBB                UUR                 UBU
+
+ LLL UUU RRR        BBB LLU FDL         BBB LDL FFF
+ LLB DFL BRR        FLB LFU FRR         LLB LFL FRF
+ LLL UUU RRR        RRR BLU FFL         BLB LRL FFF
+
+     FFF                DDL                 DBD
+     FDF                DDL                 DDD
+     FFF                DDB                 DDD
+
+      1.                 2.                  3.
+
+ ----------------------------------------------------
+
+     UUF                LLL                 FFF
+     UBF                LBD                 BBL
+     RBR                LLL                 LLU
+
+     DUD                UUU                 UUR
+     RUF                UUU                 UUR
+     FFF                UBU                 UUR
+
+ FBU LLL DDB        FFF RLR BRB         FFF RRD BBB
+ LLL DFD RRR        FLF RFR BRR         LLF RFD BRF
+ LLL DDB RRR        FFF RUR BBB         RUD BRB ULL
+
+     BBU                DBD                 LDL
+     BDU                DDD                 BDD
+     BFU                DDD                 DDD
+
+      4.                 5.                  6.
+
+ ----------------------------------------------------
+
+     DBF                ULU                 ULL
+     DBF                UBU                 BBL
+     LDF                UUU                 UFF
+
+     BFD                FFF                 BUU
+     BUD                FUF                 RUU
+     BBL                FFF                 RUU
+
+ UUU RRB DRR        LLL DDD RRR         RFF DRB LLL
+ LLL UFU RRR        LLB RFU BRR         LLF DFR BRF
+ LLL UUB DBR        LLL DDD RRR         RUF DRR BBB
+
+     FFR                BBB                 LDD
+     FDL                BDD                 BDD
+     FDU                BDB                 FDD
+
+      7.                 8.                  9.
+
+ ----------------------------------------------------
+
+     LBL                FFF                 FFF
+     FBD                FBF                 FBF
+     FDD                FFF                 FFF
+
+     DFB                DDD                 DDD
+     DUB                UUU                 UUU
+     DBB                DDD                 DDD
+
+ LLL BUU RRR        LLL BBB RRR         LRL BBB RLR
+ LLL UFU RRR        LLL BFB RRR         LLL BFB RRR
+ BUU RRR DBF        LLL BBB RRR         LRL BBB RLR
+
+     FFF                UUU                 UUU
+     FDL                DDD                 DDD
+     UDU                UUU                 UUU
+
+     10.                11.                 12.
+
+ ----------------------------------------------------
+
+     DRR                FFF                 FFF
+     RBB                FBF                 FBF
+     FFF                FFF                 FFF
+
+     UUU                UUU                 UUU
+     UUB                UUU                 DUD
+     RUR                UUU                 UUU
+
+ RRD BLB UDL        RLR BBB LRL         RLR BBB LRL
+ FLB UFL FRR        RLR BFB LRL         RLR BFB LRL
+ BBB ULL FFF        RLR BBB LRL         RLR BBB LRL
+
+     LDD                DDD                 DDD
+     LDD                DDD                 UDU
+     LDD                DDD                 DDD
+
+     13.                14.                 15.
+
+ ----------------------------------------------------
+
+     FUR
+     FBU
+     FBU
+
+     DUF
+     RUF
+     LFF
+
+ LBU BDD RRR
+ LLL DFD RRR
+ LLU BLL DDD
+
+     RBB
+     UDB
+     UFB
+
+     16.
+
+ = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Robert G. Bryan (Jerry Bryan)                        (304) 293-5192
+Associate Director, WVNET                            (304) 293-5540 fax
+837 Chestnut Ridge Road                              BRYAN@WVNVM
+Morgantown, WV 26505                                 BRYAN@WVNVM.WVNET.EDU
+

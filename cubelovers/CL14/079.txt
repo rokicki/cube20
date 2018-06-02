@@ -1,0 +1,70 @@
+From mouse@collatz.mcrcim.mcgill.edu  Tue Jan 10 18:14:19 1995
+Return-Path: <mouse@collatz.mcrcim.mcgill.edu>
+Received: from Collatz.McRCIM.McGill.EDU by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA27832; Tue, 10 Jan 95 18:14:19 EST
+Received: (root@localhost) by 10516 on Collatz.McRCIM.McGill.EDU (8.6.8.1 Mouse 1.0) id SAA10516; Tue, 10 Jan 1995 18:14:15 -0500
+Date: Tue, 10 Jan 1995 18:14:15 -0500
+From: der Mouse <mouse@collatz.mcrcim.mcgill.edu>
+Message-Id: <199501102314.SAA10516@Collatz.McRCIM.McGill.EDU>
+To: cube-lovers@life.ai.mit.edu
+Subject: Difficulty of Skewb
+Cc: ishius@ishius.com
+
+> If you're familiar with the SKEWB, I would like to know whether it's
+> harder or easier than the classic 3x3x3 Rubik's Cube (I suspect it's
+> simpler, but it has fewer symmetries).
+
+I think I have a skewb.  Each face is cut into a square turned 45
+degrees, and four little 45-45-90 triangles, right?  And there are four
+cuts you can turn it about, all passing through the center of the cube?
+
+In that case, here's my opinion.  Mathematically, it verges on trivial
+compared to the 3x3x3, but because it's deep-cut, there are no stable
+portions to take the psychological place of the face centers on the
+3x3x3, and each turn affects all six faces so, unlike the 2x2x2, there
+are no unaffected faces to pick up the slack.  These combine to make it
+difficult for psychological reasons.
+
+I called it verging on trivial, but that is relative to the 3x3x3.
+There is some structure.  If the 3x3x3 has 8!*3^8*12!*2^12 "imaginable"
+configurations (of which only 1/12 are reachable from any given state),
+the skewb has only 8!*3^8*6! "imaginable".  Of these, far less than
+1/12 are reachable; in my estimate, not having thought about it hard,
+the reachable number is (4!*4!)*(3^8/3)*(6!/2), or only one in 420 of
+the "imaginable" configurations, a reduction achieved largely due to
+the constraints on corner mixing: they form two tetrahedral sets, and
+it is not possible to mix the sets.  Thus 8! turns into 4!*4!; this is
+a factor of 70.  The additional factor of 6 comes from the usual sort
+of parity constraints, and again is only my guess.
+
+The size of the thing is thus somewhere on the order of 500 million
+configurations.  This is why I called it trivial next to the 3x3x3. :-)
+The group structure in terms of facicles, for what's-his-name to sic
+GAP on should he care to, derived from the following facicle labeling
+
+           +----------+
+           |  6     7 |
+           |     8    |
+           |  9    10 |
++----------+----------+----------+----------+
+|  1     2 | 11    12 | 21    22 | 31    32 |
+|     3    |    13    |    23    |    33    |
+|  4     5 | 14    15 | 24    25 | 34    35 |
++----------+----------+----------+----------+
+           | 16    17 |
+           |    18    |
+           | 19    20 |
+           +----------+
+
+is:
+
+	Cut 1: (15  7  4) (24 31 19) (17 22 35) (20 25 34) (18 23 33)
+	Cut 2: (12  1 20) (10 32 25) (21  6 34) (22  7 31) (23  8 33)
+	Cut 3: (11 19 22) ( 2 35  7) ( 9  4 31) ( 6  1 32) ( 8  3 33)
+	Cut 4: (14 25  6) (16 34  1) ( 5 20 32) ( 4 19 35) ( 3 18 33)
+
+(This formulation holds facicle 13 fixed at all times.)
+
+					der Mouse
+
+			    mouse@collatz.mcrcim.mcgill.edu
+

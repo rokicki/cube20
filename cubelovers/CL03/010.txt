@@ -1,0 +1,66 @@
+Date: 19 Aug 1981 09:48 PDT
+From: Lynn.ES at PARC-MAXC
+Subject: Re: 10 sided "cube"
+In-reply-to: KATZ's message of 4 Aug 1981 1123-PDT
+To: Cube-Lovers at MIT-MC
+cc: Lynn.es@PARC
+
+I last week picked up one of the same octagonal cubes (Wonderful Puzzler
+brand) as Alan R. Katz in his message.  I might point out that it shares the same
+workmanship and twistability (lack thereof) which Katz attributes to their brand
+of standard cube.  
+
+After some experimenting, I found that the "parity error" involved is always a
+pair of edges in reverse locations on the bottom.  My solution algorithm is top,
+equator, bottom [corner locations, edge locations, edge orientations, corner
+orientations].  On an ordinary cube, one pair of edges reversed never happens
+when you go to position edges.  I suspect that if your algorithm does edge
+locations before corners, then two corners in wrong locations would be the parity
+error.  Incidentally, the parity of Katz's cube is the reverse of mine, though the
+center cubie colors are in the same relation to each other.  
+
+Edge orientation (I assume that is what Katz meant by "edges must be fliped")
+parity errors are irrelevant to getting the cut-edge-colors rightly paritied.  Edge
+orientation parity errors happen because one of the cut-edges may have been
+oriented wrongly.  Or more precisely, an odd number of them reversed from the
+way they were virginally (but they look right either direction).  This is easily
+cured by any of the "flip a pair of edges" macros.  
+
+The change in cube shape is actually helpful in solving, except for being
+difficult to grab sometimes.  Corners that need orientation really stand out.  The
+Greenwich meridian edges (assuming you solve it from the top down with the
+octagonal faces left and right), being different shape, are instantly located.  
+
+The best part of the Wonderful Puzzler is the instructions, which I quote here:
+
+THE CHALLENGE:
+"ORIGINAL PUZZLER" presents not only a unique challenge but offers the
+possibility of countless hours of relaxation.  Your mental ingenuity may be tested
+for a few hours -- many days -- several weeks -- or even a period of much
+longer duration.  If you can determine the key to unlock the knack for solving
+the PUZZLER, the final trimph can be the psychological turning point in your
+life.  Mathematicians may be tested to the limit and cry over this one -- and you
+may, too!  You will gain a measure of satisfaction when you align one plane. 
+You will be delighted with the completion of two.  You will be elated with the
+completion of three or four!  The completion of the fifth plane will quicken your
+pulse!! -- and you will have scaled the peak once the last unit of the sixth plane
+falls into place!!!!
+
+PREPARATION & CAUTION:
+*Spin the PUZZLER several times, as indicated on the cover, until all color units
+are randomly distributed on each of six planes.
+*Do NOT remove any color unit in the process of play.
+*Initially, activate the random distribution GENTLY.  With little use, this can be
+accomplished easily and smoothly.
+Patience and persistence will beat the Puzzler!  Good Luck!
+
+Challenge
+Can you contend with more than 18'000'000'000 combination to reach a solution?
+*end of quote*
+
+I think the errors remaining above are all theirs.  It is full of little gems: turning
+point in your life, solving five planes (on the standard cube, which I believe
+has the same instructions), 18 billion (better than Ideal's guess).  The GENTLY
+caution is valid; a neighbor kid blew mine apart, including a center cubie, by
+ignoring this.
+

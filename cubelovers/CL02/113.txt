@@ -1,0 +1,46 @@
+Date: 21 July 1981 2350-EDT (Tuesday)
+From: Dan Hoey at CMU-10A
+To: Cube-Hackers at MIT-MC
+Subject:  The ten stuck-axle subgroups
+In-Reply-To:  ISAACS@SRI-KL's message of 21 Jul 81 11:08-EST
+Message-Id: <21Jul81 235052 DH51@CMU-10A>
+
+
+1.  No faces stuck.  The familiar cube group.
+
+2.  D face stuck.  As previously noted, all positions can be reached.
+In addition, all Supergroup positions that fix the orientation of
+the D face center are achievable.
+
+3.  B and D faces stuck.  All Supergroup positions that fix the BD
+edge and the B and D face centers are achievable.
+
+4.  U and D faces stuck.  Edges cannot be flipped.  If we define edge
+orientation by marking the F and B facelets of the F and B edges,
+and the U and D facelets of the others [cf Jim Saxe's message of 3
+September 1980], then all Supergroup positions that fix the
+orientation of all edges and the U and D face centers are
+achievable.
+
+5.  L, B, and D faces stuck.  All Supergroup positions that fix the
+BLD corner, the LB, BD, and DL edges, and the L, B, and D face
+centers are achievable.
+
+6.  U, B, and D faces stuck.  Again, edges cannot be flipped.  All
+Supergroup positions that fix the orientation of all edges, the
+position of the UB and BD edges, and the orientation of the U, B,
+and D face centers are achievable.
+
+7.  U, L, B, and D faces stuck.  Singmaster has a very nice
+description of this group [indexed as Group, Two Generators].  The
+group of achievable permutations of the six movable corners is
+isomorphic to the group of all permutations on five letters.  All
+Supergroup positions that permute the corners in an achievable
+permutation, fix edge orientation, and fix the unmovable two
+corners, five edges, and four face centers are achievable.
+
+8.  U, L, D, and R faces stuck.  Sixteen positions
+
+9.  U, L, D, B, and R faces stuck.  Four positions.
+
+10. All faces stuck.  One position.

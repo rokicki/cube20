@@ -1,0 +1,38 @@
+From tdb@delta1.deltanet.com  Sun Oct  8 12:53:11 1995
+Received: from delta1.deltanet.com by life.ai.mit.edu (4.1/AI-4.10) for /com/archive/cube-lovers id AA25937; Sun, 8 Oct 95 12:53:11 EDT
+Received:  by delta1.deltanet.com (5.65/1.2-eef)
+	id AA16056; Sun, 8 Oct 95 09:53:09 -0700
+Return-Path: <tdb@delta1.deltanet.com>
+From: tdb@delta1.deltanet.com (Tom D. Baccanti)
+Newsgroups: cube-lovers
+To: cube-lovers@life.ai.mit.edu
+Subject: Intro and question
+Date: Sun, 08 Oct 1995 09:33:01 -0700
+Message-Id: <90/dwor+BYIO085yn@delta1.deltanet.com>
+X-Newsreader: Yarn 0.85 with YES 0.20 Editor by QEDIT
+Lines: 23
+
+Briefly, I am a old time cube fan and I am blind.  I have been blind for
+about 9 years now due to complications from diabetes.  I recently
+encountered a "Braille Or Tactile Rubik's cube" available from Japan.  I
+finally received my cube from there after much expense and effort but it
+was worth it.
+
+Describing the cube:  it has designs on each side that can easily be
+differentiated from the other.  ie; circles, plus, dotted circle,
+smooth, six dotsand textured side.  I am now able to solve all but the
+last bottom slice from memory but I would like to ask if anyone has a
+xolution that I can read that would make sense to me?  I wish to solve
+this and then move on to the other puzzles I have read on this list
+mentioned.  I will have to mark them tactilly also.
+            
+Thanks for the time,
+
+Tom Baccanti
+
+-- 
+                       Every crowd has a silver lining.
+Tom D. Baccanti       /** Reach me at Internet:  TDB@Deltanet.com
+                                                 TDB@crl.com
+/* PGP key from: pgp-public-keys@pgp.mit.edu get key id: 8EB942B1
+

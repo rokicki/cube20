@@ -1,0 +1,33 @@
+From cube-lovers-errors@mc.lcs.mit.edu  Sun Nov 16 14:26:45 1997
+Return-Path: <cube-lovers-errors@mc.lcs.mit.edu>
+Received: from sun30.aic.nrl.navy.mil by mc.lcs.mit.edu (8.8.1/mc) with SMTP
+	id OAA23966; Sun, 16 Nov 1997 14:26:44 -0500 (EST)
+Precedence: bulk
+Errors-To: cube-lovers-errors@mc.lcs.mit.edu
+Mail-from: From cube-lovers-request@life.ai.mit.edu Sun Nov 16 06:12:15 1997
+From: roger.broadie@iclweb.com (Roger Broadie)
+To: "Cube-Lovers" <Cube-Lovers@ai.mit.edu>
+Subject: Re: Cubes in London
+Date: Sun, 16 Nov 1997 11:07:06 -0000
+Message-Id: <19971116110836.AAA18652@home>
+
+I apparently wrote
+
+> .. at 39.00 pounds .. 
+
+Before people get the wrong idea about the price of cubes on this side of
+the Atlantic, I'd better say that the OddZon cube was 9 British pounds in
+Hamleys and the Dublin clone was 5 Irish pounds.  I used the pound symbol
+and the conversion - I suspect both machine and human - went awry.
+
+I can add to my slightly meandering note on the Dublin clone that the
+central spider has now bust.  
+
+Life is full of new hazards.
+
+Roger Broadie
+
+[ Sorry, you're a victim of moderator error.  While replacing the
+  pound symbol with the word "pounds", and I left in an extra 3.
+  Thanks for the information.  --Dan ]
+

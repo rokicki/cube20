@@ -1,0 +1,26 @@
+From mindcrf!peabody.mindcraft.com!ronnie@decwrl.dec.com  Thu Aug  1 21:38:30 1991
+Return-Path: <mindcrf!peabody.mindcraft.com!ronnie@decwrl.dec.com>
+Received: from uucp-gw-1.pa.dec.com by life.ai.mit.edu (4.1/AI-4.10) id AA10000; Thu, 1 Aug 91 21:38:30 EDT
+Received: by uucp-gw-1.pa.dec.com; id AA22922; Thu, 1 Aug 91 13:28:48 -0700
+Received: by mindcrf.mindcraft.com (AIX  2.1 2/4.03)
+          id AA18759; Thu, 1 Aug 91 12:21:38 PDT
+Received: by peabody.mindcraft.com (AIX 1.3/4.03)
+          id AA11139; Thu, 1 Aug 91 12:23:10 -0700
+Date: Thu, 1 Aug 91 12:23:10 -0700
+From: mindcrf!ronnie@peabody.mindcraft.com (Ronnie Kon)
+Message-Id: <9108011923.AA11139@peabody.mindcraft.com>
+To: @mindcrf.pa.dec.com:decwrl!ai.ai.mit.edu!Cube-Lovers
+Subject: Re: New from Rubik
+
+	Well I have the Rubik's XV and Rubik's pyramid.  The XV is a pretty
+good puzzle (ie., I haven't solved it yet after trying for an hour or so).
+The pyramid is essentially a Pyraminx.  The only complication beyond the
+Pyraminx that the Pyramid offers is that the vertex tetrahedrons can be
+rotated such that a useless color shows and a necessary color is hidden.
+
+	The solution becomes trivial once you have solved the Pyraminx.  This
+seems like a good place to save your money.
+
+				Ronnie
+
+

@@ -1,0 +1,45 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Oct 25 01:26:18 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id BAA00762; Fri, 25 Oct 1996 01:26:17 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Message-Id: <9610250500.AA13321@jrdmax.jrd.dec.com>
+Date: Fri, 25 Oct 96 14:00:53 +0900
+From: Norman Diamond 25-Oct-1996 1355 <diamond@jrdv04.enet.dec-j.co.jp>
+To: cube-lovers@ai.mit.edu
+Apparently-To: cube-lovers@ai.mit.edu
+Subject: Siamese Rubik's Cubes (was Re: DEAR TANOFF <<<<<<<<<<<<<<<< (fwd))
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-2022-JP
+
+A. Southern misinterpreted M. Velucchi's picture:
+
+>>    ------
+>>    |    |
+>>    |    |
+>>    -----+-----
+>>         |    |
+>>         |    |
+>>         ------
+
+Siamese Rubik's cubes share an entire column of cubies, i.e. in the
+case of two 3x3x3's they share an edge cubie and two corner cubies.
+
+Cubies cannot move from one cube to the other.  The shared column
+of cubies cannot be separated or rearranged.  The effect is like
+bandaging an edge column on one 3x3x3 cube and bandaging an edge
+column on another 3x3x3 cube and having two identical puzzles.
+
+The idea of bandaging has been extended further by Dieter Gebhardt
+(publications in CFF) and others.  Most variations of bandaging
+cannot be constructed by joining another cube onto it; they just
+have to be done in a simpler and straightforward manner :-)
+And even when a collector wants duplicates of some version, there's
+no need for two duplicates to be stuck to each other :-)  So there
+is no real demand for Siamese cubes any more.  But bandaged cubes,
+yeah some variations are really really difficult.
+
+-- Norman Diamond             diamond@jrdv04.enet.dec-j.co.jp
+[Speaking for Norman Diamond not for Digital.]
+
+

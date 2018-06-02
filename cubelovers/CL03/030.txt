@@ -1,0 +1,69 @@
+Date:  8 Sep 1981 0942-PDT
+From: ISAACS at SRI-KL
+Subject: misc
+To: cube-lovers at MIT-MC
+
+   Some short notes on various cube stuff - will try to expand on some of it
+later:
+1. The Stanford Shopping Center/Games and Things cube contest of a couple of
+   saturdays ago:  was won by Paul cunningham, 16 yrs old. There were about
+   40 entries; there were something like 8 rounds to get to a winner, double
+   elimination, each pair fighting it out with the best average of 3 cubes,
+   all cubes in a round scrambled exactly the same way.  Best average-of-three
+   time was 56 seconds.  Best time was 41 seconds. David Tabuchi, the Games
+   & Things speedster, has a best average-of-ten speed of 43 seconds!  Brian
+   Robinson, with whom he works on the cube, has a best average-of-ten of 41
+   seconds.  Davids fastest time was 24.98 seconds!!!
+2. Cubes are multiplying like hotcakes.  Not only changes in labeling, but
+   also changes in shape.  I have seen or heard reports of about 8 shape
+   variations, and multiple size variations, from about 19 mm to about 60 mm.
+   And someone told me of a 12mm or so version.  The corners have been cut off
+   in 3 different ways (The nicest cuts them halfway through the neighboring
+   edge, and uses 14 colors).  The magic Tetrahedron is readily available now.
+   There is a build-it-yourself cube kit.  There are still reports of the
+   elusive 4x4x4 cube, but no actual sightings as far as I know.  By the
+   way, I collect puzzles, and am trying to find many of these cube variations.
+   If anyone knows where I can actually buy some, or would get me some, please
+   let me know.  I will be happy to pay or trade for them.
+3. The snake is not a cube, but it is a toy/puzzle/art object that should a
+   appeal to cube-lovers.  It also comes in a variety of colors and sizes.
+4. Also lots of new books and such. Such as:
+   a. Don Kolve, of Kirkland, Wash.  He solves Top-middle-bottom(position
+      corners,twist corners, flip edges, position edges).
+   b. L.E.Hordern, of England.  He does: bottom-middle-top ( position corners,
+      orient corners, orient edges, position edges).
+   c. Bridget Last, of Downham, England.  She solves: Define face colors 
+      ("The easiest way of deciding which face is to be which colour is to
+      define the centre faces as being correct.")  Then: position all corners,
+      orient all corners, position (with orientation) all edges.
+   d. Bob Easter, a friend in San Francisco, uses just one move to do
+      everything. The move is  F R' F' R (an old friend). First he "walks" 
+      the edge cubes to their proper corners, then rotates them into proper
+      order around the corner, then flips them 2 at a time to get them aligned.
+      Then he does similarly with the corners, using the same move, but 
+      done 3 times to leave the edges alone.  Lots of quarter twists, but 
+      little memory.  Perhaps the ultimate solution for people with strong
+      wrists.
+   e. Patrick Bussart, Puffin books (a division of Penguin Books).  Patrick
+      has been in the news since he is only 12 or 13 years old; his solution
+      is very popular in England. He does top corners, top edges, bottom
+      corners, position rest of the edges, rotate rest of the edges.
+5. I have been re-labeling cubes to make new puzzles, and would appreciate
+   suggestions.  I have made tactile cubes of various types (that is, with
+   various materials).  I'm trying to make one with 5 or 6 grades of sandpaper,
+   but find my touch cannot distinguish between the two middle grades. I
+   have made a magic square cube (each face is a 3x3 magic square; the
+   problem is to decide what the relative orientations and forms of the squares
+   should be; any suggestions?) and a magic cube cube (the center 14 cube is,
+   of course, invisible).  And 2 word cubes - one has word squares (there are
+   three 3 letter words in each direction), and the other, six 3 word sentences
+   (FIX THE BOX, YES YOU CAN, FUN FOR ALL, etc.  I haven't had these long
+   enough to know if they are "solvable" without trial and error; I think
+   that the magic square cube, especially, is difficult unless you have
+   the order in advance.  So far, I have made 2 of them, the first had one
+   square marked, which makes it fairly easy (the other 5 squares are forced
+   by the first); in the second, I made sure each corner was unique, and the
+   edges as different as possible (2 have to be the same); but I haven't had
+   time to try it yet.
+Enough - this message is too long.
+-------

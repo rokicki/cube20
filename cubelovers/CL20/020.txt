@@ -1,0 +1,37 @@
+From cube-lovers-errors@curry.epilogue.com  Fri May 31 16:05:07 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id QAA07780 for <cube-lovers-outbound@curry.epilogue.com>; Fri, 31 May 1996 16:05:06 -0400
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+To: Cube-Lovers@AI.MIT.EDU
+From: Wei-Hwa Huang <whuang@cco.caltech.edu>
+Subject: Re: Another subscriber
+Date: 31 May 1996 07:30:49 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 19
+Message-Id: <4om779$aip@gap.cco.caltech.edu>
+References: <cube-lovers.199605301923.PAA18428@Collatz.McRCIM.McGill.EDU>
+Nntp-Posting-Host: accord.cco.caltech.edu
+X-Newsreader: NN version 6.5.0 #12 (NOV)
+
+der Mouse <mouse@collatz.mcrcim.mcgill.edu> writes:
+>In my opinion mechanical designs for the 7 and above will have to be
+>fundamentally different from those for the 6 and below, because that's
+>the point at which the "buried" corner of a corner cubie extends past
+>the surface of the face during a face turn and thus it's not possible
+>to build the thing as rigid pieces connected to a central mechanism, at
+>least not without cutting away part of some face-center cubies.
+>(Specifically, that buried corner is at sqrt(2)*(.5-1/N) from the
+>center, taking the cube side as 1 and N as the order of the cube.  The
+>face is at .5 from the center.  The former becomes greater than the
+>latter at about N=6.83...not that non-integer N make physical sense.)
+
+There's a really simple solution to this.  Just don't make the 7 slices
+evenly spaced.
+
+-- 
+Wei-Hwa Huang, whuang@cco.caltech.edu, http://www.ugcs.caltech.edu/~whuang/
+---------------------------------------------------------------------------
+Caught Porfiry, Raskolnikov sung his swan Sonia when he went Dounia to Siberia.
+
+

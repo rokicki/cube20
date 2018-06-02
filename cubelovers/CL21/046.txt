@@ -1,0 +1,23 @@
+From cube-lovers-errors@curry.epilogue.com  Fri Nov  8 17:23:27 1996
+Return-Path: cube-lovers-errors@curry.epilogue.com
+Received: from curry.epilogue.com (localhost [127.0.0.1]) by curry.epilogue.com (8.6.12/8.6.12) with SMTP id RAA25136; Fri, 8 Nov 1996 17:23:27 -0500
+Precedence: bulk
+Errors-To: cube-lovers-errors@curry.epilogue.com
+Date: Fri, 8 Nov 1996 12:02:10 GMT
+Message-Id: <96110812021006@glam.ac.uk>
+From: Vanessa Paradis WANTS me!! <cmaggs@glam.ac.uk>
+To: CUBE-LOVERS@ai.mit.edu
+Subject: HELLO AGAIN!
+X-VMS-To: CUBE-LOVERS@AI.MIT.EDU
+
+I have solved the Rubiks Clock.
+I also have the Rubiks Illusion.
+
+It is like 4-in-a-row game, but you need 5-in-a-row, using a mirror (which is
+connected to the back of the board) as another part of the board.
+
+There are 3 types of pieces.  RED, YELLOW and RED/YELLOW.
+
+These can be used to make a row of 5 in any direction
+
+
