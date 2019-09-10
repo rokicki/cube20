@@ -1,5 +1,5 @@
 /*23:*/
-#line 475 "./phase1prune.w"
+#line 475 "phase1prune.w"
 
 #include "phase1prune.h"
 #include <iostream> 
@@ -13,7 +13,7 @@ for(int i= 0;i<10000;i++)
 t[i]= random_move();
 kocsymm kc;
 /*24:*/
-#line 495 "./phase1prune.w"
+#line 495 "phase1prune.w"
 
 for(int i= 0;i<10000;i++){
 kc.move(t[i]);
@@ -38,10 +38,10 @@ error("! move mask error");
 }
 
 /*:24*/
-#line 487 "./phase1prune.w"
+#line 487 "phase1prune.w"
 
 /*25:*/
-#line 520 "./phase1prune.w"
+#line 520 "phase1prune.w"
 
 int sum= 0;
 duration();
@@ -53,10 +53,10 @@ sum+= phase1prune::lookup(kc);
 cout<<"Did 100M basic lookups in "<<duration()<<" sum "<<sum<<endl;
 
 /*:25*/
-#line 488 "./phase1prune.w"
+#line 488 "phase1prune.w"
 
 /*26:*/
-#line 532 "./phase1prune.w"
+#line 532 "phase1prune.w"
 
 int prev= 10;
 int nextmovemask= 0;
@@ -70,10 +70,10 @@ prev= r;
 cout<<"Did 100M extended lookups in "<<duration()<<" sum "<<sum<<endl;
 
 /*:26*/
-#line 489 "./phase1prune.w"
+#line 489 "phase1prune.w"
 
 /*27:*/
-#line 546 "./phase1prune.w"
+#line 546 "phase1prune.w"
 
 for(int i= 0;i<1000;i++)
 for(int j= 0;j<10000;j++){
@@ -81,7 +81,7 @@ kc.move(t[j]);
 phase1prune::solve(kc);
 }
 cout<<"Did 10M solves in "<<duration()<<" sum "<<sum<<endl;/*:27*/
-#line 490 "./phase1prune.w"
+#line 490 "phase1prune.w"
 
 }
 

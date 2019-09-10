@@ -1,28 +1,29 @@
 /*1:*/
-#line 17 "./hcoset.w"
+#line 17 "hcoset.w"
 
 const char*BANNER= 
-"This is hcoset 1.0, (C) 2010 Tomas Rokicki.  All Rights Reserved.";
+"This is hcoset 1.1, (C) 2010-2012 Tomas Rokicki.  All Rights Reserved.";
 #include "phase1prune.h"
 #include <pthread.h> 
 #include <iostream> 
 #include <map> 
 #include <set> 
+#include <cstdio> 
 using namespace std;
 /*2:*/
-#line 48 "./hcoset.w"
+#line 49 "hcoset.w"
 
 int verbose= 1;
 int numthreads= 1;
 const int MAX_THREADS= 32;
 
 /*:2*//*4:*/
-#line 85 "./hcoset.w"
+#line 86 "hcoset.w"
 
 int skipwrite= 0;
 
 /*:4*//*6:*/
-#line 103 "./hcoset.w"
+#line 104 "hcoset.w"
 
 moveseq repseq;
 set<permcube> world;
@@ -31,7 +32,7 @@ permcube reppc;
 cubepos repcp;
 
 /*:6*//*10:*/
-#line 157 "./hcoset.w"
+#line 158 "hcoset.w"
 
 int slow= 2;
 int maxsearchdepth= 35;
@@ -39,14 +40,14 @@ int maxdepth= 35;
 int global_depth;
 
 /*:10*//*15:*/
-#line 281 "./hcoset.w"
+#line 282 "hcoset.w"
 
 const int FACT8= 40320;
 const int PAGESIZE= (FACT8*FACT4/2/8);
 unsigned char**bitp1,**bitp2;
 
 /*:15*//*17:*/
-#line 299 "./hcoset.w"
+#line 300 "hcoset.w"
 
 long long uniq= 0;
 long long probes= 0;
@@ -57,7 +58,7 @@ long long sum_ulev[30];
 #endif
 
 /*:17*//*19:*/
-#line 343 "./hcoset.w"
+#line 344 "hcoset.w"
 
 #ifdef FASTCLEAN
 unsigned char touched[FACT8];
@@ -65,69 +66,69 @@ int did_a_prepass;
 #endif
 
 /*:19*//*21:*/
-#line 370 "./hcoset.w"
+#line 371 "hcoset.w"
 
 unsigned char permtobit[FACT4];
 unsigned char bittoperm[FACT4];
 
 /*:21*//*23:*/
-#line 390 "./hcoset.w"
+#line 391 "hcoset.w"
 
 unsigned char saveb;
 unsigned char*savep;
 
 /*:23*//*29:*/
-#line 548 "./hcoset.w"
+#line 549 "hcoset.w"
 
 int disable_prepass= 0;
 
 /*:29*//*32:*/
-#line 594 "./hcoset.w"
+#line 595 "hcoset.w"
 
 const int SQMOVES= 3;
 short rearrange[2][SQMOVES][1<<12];
 
 /*:32*//*35:*/
-#line 643 "./hcoset.w"
+#line 644 "hcoset.w"
 
 const int PREPASS_MOVES= 10;
 unsigned short eperm_map[FACT8/2][PREPASS_MOVES];
 
 /*:35*//*39:*/
-#line 780 "./hcoset.w"
+#line 781 "hcoset.w"
 
 #ifdef LEVELCOUNTS
 unsigned char bc[1<<12];
 #endif
 
 /*:39*//*43:*/
-#line 841 "./hcoset.w"
+#line 842 "hcoset.w"
 
 const int STRIDE= 16;
 
 /*:43*//*44:*/
-#line 852 "./hcoset.w"
+#line 853 "hcoset.w"
 
 #include "corner_order.h"
 
 /*:44*//*49:*/
-#line 965 "./hcoset.w"
+#line 966 "hcoset.w"
 
-pthread_mutex_t mutex;
+pthread_mutex_t my_mutex;
 
 /*:49*//*56:*/
-#line 1076 "./hcoset.w"
+#line 1077 "hcoset.w"
 
 unsigned char use_count[FACT8];
 int work_done;
 
 /*:56*//*61:*/
-#line 1190 "./hcoset.w"
+#line 1191 "hcoset.w"
 
 int this_level_did_prepass= 0;
 
 /*:61*//*66:*/
-#line 1292 "./hcoset.w"
+#line 1293 "hcoset.w"
 
 int search_terminated_early= 0;
 int dont_count_after_max_search= 0;
@@ -136,24 +137,24 @@ long long enoughbits= TARGET;
 int fast20;
 
 /*:66*//*75:*/
-#line 1600 "./hcoset.w"
+#line 1601 "hcoset.w"
 
 #include "bestsol.h"
 
 /*:75*//*76:*/
-#line 1613 "./hcoset.w"
+#line 1614 "hcoset.w"
 
 int first_coset;
 const int TOTALCOSETS= 55882296;
 int coset_count;
 
 /*:76*//*79:*/
-#line 1665 "./hcoset.w"
+#line 1666 "hcoset.w"
 
 map<int,int> symcount;
 
 /*:79*//*82:*/
-#line 1804 "./hcoset.w"
+#line 1805 "hcoset.w"
 
 #ifdef LEVELCOUNTS
 long long levprev,levuniq,levsum;
@@ -162,10 +163,10 @@ int k3map[FACT8];
 #endif
 
 /*:82*/
-#line 26 "./hcoset.w"
+#line 27 "hcoset.w"
 
 /*13:*/
-#line 208 "./hcoset.w"
+#line 209 "hcoset.w"
 
 void slowsearch1(const kocsymm&kc,const permcube&pc,int togo,
 int movemask,int canon){
@@ -198,7 +199,7 @@ new_canon);
 }
 
 /*:13*//*14:*/
-#line 243 "./hcoset.w"
+#line 244 "hcoset.w"
 
 void slowsearch1(const kocsymm&kc,const permcube&pc){
 duration();
@@ -215,7 +216,7 @@ cout<<"Tests at "<<d<<" "<<probes<<" in "<<duration()
 }
 
 /*:14*//*18:*/
-#line 314 "./hcoset.w"
+#line 315 "hcoset.w"
 
 vector<unsigned char*> pageq;
 unsigned char*getpage(){
@@ -240,7 +241,7 @@ pageq.push_back(r);
 }
 
 /*:18*//*24:*/
-#line 402 "./hcoset.w"
+#line 403 "hcoset.w"
 
 void flushbit(){
 if(savep!=0){
@@ -266,7 +267,7 @@ saveb= 1<<(eindex&7);
 }
 
 /*:24*//*25:*/
-#line 434 "./hcoset.w"
+#line 435 "hcoset.w"
 
 void slowsearch2(const kocsymm&kc,const permcube&pc,int togo,
 int movemask,int canon){
@@ -307,7 +308,7 @@ slowsearch2(kc2,pc2,togo,movemask3,new_canon);
 }
 
 /*:25*//*27:*/
-#line 481 "./hcoset.w"
+#line 482 "hcoset.w"
 
 void slowsearch2(const kocsymm&kc,const permcube&pc){
 duration();
@@ -324,7 +325,7 @@ cout<<"Tests at "<<d<<" "<<probes<<" in "<<duration()
 }
 
 /*:27*//*28:*/
-#line 499 "./hcoset.w"
+#line 500 "hcoset.w"
 
 void unpack_edgecoord(permcube&pc,int e8_4,int epp1,int epp2){
 pc.et= permcube::c8_12[e8_4];
@@ -338,7 +339,7 @@ unpack_edgecoord(pc,coord/(FACT4*FACT4),coord/FACT4%FACT4,coord%FACT4);
 }
 
 /*:28*//*37:*/
-#line 712 "./hcoset.w"
+#line 713 "hcoset.w"
 
 void innerloop3(unsigned char*dst,unsigned char**srcs,int base){
 dst+= 3*base;
@@ -370,20 +371,20 @@ rearrange[1][2][(wl2>>12)&0xfff]|
 }
 
 /*:37*//*38:*/
-#line 746 "./hcoset.w"
+#line 747 "hcoset.w"
 
-int countbits(int*a){
+int countbits(unsigned int*a){
 int r= 0;
-const int mask1= 0x55555555;
-const int mask2= 0x33333333;
-const int mask3= 0x0f0f0f0f;
+const unsigned int mask1= 0x55555555;
+const unsigned int mask2= 0x33333333;
+const unsigned int mask3= 0x0f0f0f0f;
 for(int i= 0;i<PAGESIZE;i+= 24){
-int w1= *a++;
-int w2= *a++;
-int w3= *a++;
+unsigned int w1= *a++;
+unsigned int w2= *a++;
+unsigned int w3= *a++;
 w1= (w1&mask1)+((w1>>1)&mask1)+(w2&mask1);
 w2= ((w2>>1)&mask1)+(w3&mask1)+((w3>>1)&mask1);
-int s1= (w1&mask2)+((w1>>2)&mask2)+
+unsigned int s1= (w1&mask2)+((w1>>2)&mask2)+
 (w2&mask2)+((w2>>2)&mask2);
 s1= (s1&mask3)+((s1>>4)&mask3);
 w1= *a++;
@@ -391,7 +392,7 @@ w2= *a++;
 w3= *a++;
 w1= (w1&mask1)+((w1>>1)&mask1)+(w2&mask1);
 w2= ((w2>>1)&mask1)+(w3&mask1)+((w3>>1)&mask1);
-int s2= (w1&mask2)+((w1>>2)&mask2)+
+unsigned int s2= (w1&mask2)+((w1>>2)&mask2)+
 (w2&mask2)+((w2>>2)&mask2);
 s1+= (s2&mask3)+((s2>>4)&mask3);
 r+= 255&((s1>>24)+(s1>>16)+(s1>>8)+s1);
@@ -400,7 +401,7 @@ return r;
 }
 
 /*:38*//*41:*/
-#line 797 "./hcoset.w"
+#line 798 "hcoset.w"
 
 #ifdef LEVELCOUNTS
 int parity(int coord){
@@ -431,7 +432,7 @@ return r;
 #endif
 
 /*:41*//*42:*/
-#line 832 "./hcoset.w"
+#line 833 "hcoset.w"
 
 struct elemdata{
 unsigned char*dst;
@@ -440,7 +441,7 @@ unsigned char e84map[70];
 };
 
 /*:42*//*45:*/
-#line 857 "./hcoset.w"
+#line 858 "hcoset.w"
 
 void calcneighbors(int cperm,int*a){
 permcube pc,pc2;
@@ -457,7 +458,7 @@ pc2.move(mv);
 }
 
 /*:45*//*46:*/
-#line 877 "./hcoset.w"
+#line 878 "hcoset.w"
 
 int moveseq16[]= {2,9,0,9,2,9,0,0,0,11,2,11,0,11,2,0};
 unsigned char initorder[70];
@@ -502,17 +503,17 @@ innerloop3(e->dst,e->from,e->e84map[i]*12*24);
 }
 
 /*:46*//*51:*/
-#line 975 "./hcoset.w"
+#line 976 "hcoset.w"
 
 void get_global_lock(){
-pthread_mutex_lock(&mutex);
+pthread_mutex_lock(&my_mutex);
 }
 void release_global_lock(){
-pthread_mutex_unlock(&mutex);
+pthread_mutex_unlock(&my_mutex);
 }
 
 /*:51*//*52:*/
-#line 988 "./hcoset.w"
+#line 989 "hcoset.w"
 
 FILE*singfile;
 int singcount;
@@ -529,7 +530,7 @@ singcount++;
 }
 
 /*:52*//*55:*/
-#line 1036 "./hcoset.w"
+#line 1037 "hcoset.w"
 
 void showunset(int cperm){
 int*pbits= (int*)bitp1[cperm];
@@ -562,7 +563,7 @@ release_global_lock();
 }
 
 /*:55*//*57:*/
-#line 1087 "./hcoset.w"
+#line 1088 "hcoset.w"
 
 int get_prepass_work(){
 get_global_lock();
@@ -579,7 +580,7 @@ return r;
 }
 
 /*:57*//*58:*/
-#line 1106 "./hcoset.w"
+#line 1107 "hcoset.w"
 
 void finish_prepass_work(int cperm){
 int thisblock= 0;
@@ -592,7 +593,7 @@ if(need_count_bits> 1)
 thisblock= countbits2(cperm,(int*)bitp1[cperm],this_ulev);
 else
 #endif
-thisblock= countbits((int*)bitp1[cperm]);
+thisblock= countbits((unsigned int*)bitp1[cperm]);
 }
 if(global_depth+1>=singlevel&&maxsearchdepth<global_depth)
 showunset(cperm);
@@ -613,7 +614,7 @@ release_global_lock();
 }
 
 /*:58*//*59:*/
-#line 1141 "./hcoset.w"
+#line 1142 "hcoset.w"
 
 void*do_prepass_work(void*){
 while(1){
@@ -628,7 +629,7 @@ return 0;
 }
 
 /*:59*//*60:*/
-#line 1159 "./hcoset.w"
+#line 1160 "hcoset.w"
 
 void doprepass(){
 uniq= 0;
@@ -656,7 +657,7 @@ cout<<"Prepass at "<<global_depth<<" done in "<<duration()
 }
 
 /*:60*//*62:*/
-#line 1200 "./hcoset.w"
+#line 1201 "hcoset.w"
 
 const int CHECKABITSIZE= 64;
 struct checkabit{
@@ -668,7 +669,7 @@ unsigned char b;
 };
 
 /*:62*//*69:*/
-#line 1380 "./hcoset.w"
+#line 1381 "hcoset.w"
 
 int search_work_seq;
 int get_search_work(){
@@ -692,7 +693,7 @@ return r;
 }
 
 /*:69*//*78:*/
-#line 1643 "./hcoset.w"
+#line 1644 "hcoset.w"
 
 const int U2= 1;
 void docoset(int seq,const char*movestring);
@@ -712,7 +713,7 @@ docoset(seq,buf);
 }
 
 /*:78*//*80:*/
-#line 1671 "./hcoset.w"
+#line 1672 "hcoset.w"
 
 int bestsollookup[EDGEOSYMM*EDGEPERM];
 unsigned int orderkc(const kocsymm&kc){
@@ -798,7 +799,7 @@ error("! mistake in computation of total cosets");
 }
 
 /*:80*//*83:*/
-#line 1813 "./hcoset.w"
+#line 1814 "hcoset.w"
 
 #ifdef LEVELCOUNTS
 void setupk3map(){
@@ -824,7 +825,7 @@ k3map[ind]= lookaside[key];
 #endif
 
 /*:83*//*85:*/
-#line 1847 "./hcoset.w"
+#line 1848 "hcoset.w"
 
 #ifdef LEVELCOUNTS
 void setup_levmul(const kocsymm&kc,const moveseq&moves){
@@ -872,14 +873,14 @@ levmul[ind]= 48/(x*d);
 #endif
 
 /*:85*/
-#line 27 "./hcoset.w"
+#line 28 "hcoset.w"
 
 /*48:*/
-#line 956 "./hcoset.w"
+#line 957 "hcoset.w"
 
 struct worker_thread{
 /*63:*/
-#line 1212 "./hcoset.w"
+#line 1213 "hcoset.w"
 
 long long local_probes;
 #ifdef LEVELCOUNTS
@@ -920,19 +921,19 @@ local_ulev= 0;
 #endif
 bitcount= 0;
 /*65:*/
-#line 1279 "./hcoset.w"
+#line 1280 "hcoset.w"
 
 #ifdef FASTCLEAN
 memset(local_touched,0,sizeof(local_touched));
 #endif
 
 /*:65*/
-#line 1251 "./hcoset.w"
+#line 1252 "hcoset.w"
 ;
 }
 
 /*:63*//*64:*/
-#line 1256 "./hcoset.w"
+#line 1257 "hcoset.w"
 
 unsigned char local_touched[FACT8];
 void local_setonebit(const permcube&pc){
@@ -955,7 +956,7 @@ bitcount++;
 }
 
 /*:64*//*68:*/
-#line 1333 "./hcoset.w"
+#line 1334 "hcoset.w"
 
 void search(const kocsymm&kc,const permcube&pc,int togo,
 int movemask,int canon){
@@ -1000,7 +1001,7 @@ search(kc2,pc2,togo,movemask3,new_canon);
 }
 
 /*:68*//*70:*/
-#line 1404 "./hcoset.w"
+#line 1405 "hcoset.w"
 
 void dowork(){
 local_initialize();
@@ -1040,13 +1041,13 @@ release_global_lock();
 }
 
 /*:70*/
-#line 958 "./hcoset.w"
+#line 959 "hcoset.w"
 ;
 char pad[128];
 }workers[MAX_THREADS];
 
 /*:48*//*72:*/
-#line 1451 "./hcoset.w"
+#line 1452 "hcoset.w"
 
 void*do_search_work(void*s){
 worker_thread*w= (worker_thread*)s;
@@ -1055,7 +1056,7 @@ return 0;
 }
 
 /*:72*//*73:*/
-#line 1464 "./hcoset.w"
+#line 1465 "hcoset.w"
 
 void search(){
 duration();
@@ -1129,10 +1130,10 @@ cout<<"Tests at "<<d<<" "<<probes<<" in "<<duration()
 #else
 if(did_full_search)
 cout<<"Tests at "<<d<<" "<<probes<<" in "<<duration()
-<<" uniq ?"<<endl;
+<<" uniq "<<uniq<<" lev "<<thislev<<endl;
 else
 cout<<"Tests at "<<d<<" "<<probes<<" in "<<duration()
-<<" uniq "<<uniq<<" lev "<<thislev<<endl;
+<<" uniq ?"<<endl;
 #endif
 }
 #ifdef LEVELCOUNTS
@@ -1143,11 +1144,11 @@ sum_ulev[d]+= thisulev;
 }
 
 /*:73*/
-#line 28 "./hcoset.w"
+#line 29 "hcoset.w"
 
 void docoset(int seq,const char*movestring){
 /*8:*/
-#line 123 "./hcoset.w"
+#line 124 "hcoset.w"
 
 int oldsingcount= singcount;
 const char*tmp= movestring;
@@ -1159,7 +1160,7 @@ phase1prune::init(skipwrite);
 double cosetstart= walltime();
 
 /*:8*//*9:*/
-#line 135 "./hcoset.w"
+#line 136 "hcoset.w"
 
 repkc= identity_kc;
 reppc= identity_pc;
@@ -1174,13 +1175,13 @@ setup_levmul(repkc,repseq);
 #endif
 
 /*:9*//*12:*/
-#line 201 "./hcoset.w"
+#line 202 "hcoset.w"
 
 if(slow==0)
 slowsearch1(repkc,reppc);
 
 /*:12*//*20:*/
-#line 353 "./hcoset.w"
+#line 354 "hcoset.w"
 
 for(int i= 0;i<FACT8;i++)
 if(bitp1[i]==0)
@@ -1195,19 +1196,19 @@ uniq_ulev= 0;
 #endif
 
 /*:20*//*26:*/
-#line 475 "./hcoset.w"
+#line 476 "hcoset.w"
 
 if(slow==1)
 slowsearch2(repkc,reppc);
 
 /*:26*//*71:*/
-#line 1445 "./hcoset.w"
+#line 1446 "hcoset.w"
 
 if(slow> 1)
 search();
 
 /*:71*//*74:*/
-#line 1554 "./hcoset.w"
+#line 1555 "hcoset.w"
 
 int delta= singcount-oldsingcount;
 if(singfile)
@@ -1232,14 +1233,14 @@ bitp2[i]= 0;
 cout<<"Finished in "<<(walltime()-cosetstart)<<endl;
 
 /*:74*/
-#line 30 "./hcoset.w"
+#line 31 "hcoset.w"
 
 }
 int main(int argc,char*argv[]){
 double progstart= walltime();
 duration();
 /*3:*/
-#line 55 "./hcoset.w"
+#line 56 "hcoset.w"
 
 int oargc= argc;
 char**oargv= argv;
@@ -1260,12 +1261,12 @@ argc--;
 argv++;
 break;
 /*5:*/
-#line 90 "./hcoset.w"
+#line 91 "hcoset.w"
 
 case'W':skipwrite++;break;
 
 /*:5*//*11:*/
-#line 165 "./hcoset.w"
+#line 166 "hcoset.w"
 
 case's':
 if(argc<2)
@@ -1301,12 +1302,12 @@ argv++;
 break;
 
 /*:11*//*30:*/
-#line 553 "./hcoset.w"
+#line 554 "hcoset.w"
 
 case'U':disable_prepass++;break;
 
 /*:30*//*53:*/
-#line 1005 "./hcoset.w"
+#line 1006 "hcoset.w"
 
 case'f':
 if(argc<2)
@@ -1327,7 +1328,7 @@ argv++;
 break;
 
 /*:53*//*67:*/
-#line 1301 "./hcoset.w"
+#line 1302 "hcoset.w"
 
 case'e':
 if(argc<2)
@@ -1348,7 +1349,7 @@ maxdepth= 20;
 break;
 
 /*:67*//*77:*/
-#line 1620 "./hcoset.w"
+#line 1621 "hcoset.w"
 
 case'r':
 if(argc<3)
@@ -1367,7 +1368,7 @@ coset_count= TOTALCOSETS-first_coset;
 break;
 
 /*:77*/
-#line 74 "./hcoset.w"
+#line 75 "hcoset.w"
 
 default:
 error("! bad argument");
@@ -1375,10 +1376,10 @@ error("! bad argument");
 }
 
 /*:3*/
-#line 35 "./hcoset.w"
+#line 36 "hcoset.w"
 
 /*7:*/
-#line 112 "./hcoset.w"
+#line 113 "hcoset.w"
 
 if(verbose)
 cout<<BANNER<<endl<<flush;
@@ -1387,7 +1388,7 @@ cout<<" "<<oargv[i];
 cout<<endl;
 
 /*:7*//*16:*/
-#line 288 "./hcoset.w"
+#line 289 "hcoset.w"
 
 bitp1= (unsigned char**)calloc(FACT8,sizeof(unsigned char*));
 bitp2= (unsigned char**)calloc(FACT8,sizeof(unsigned char*));
@@ -1395,7 +1396,7 @@ if(bitp1==0||bitp2==0)
 error("! no memory");
 
 /*:16*//*22:*/
-#line 376 "./hcoset.w"
+#line 377 "hcoset.w"
 
 for(int i= 0;i<FACT4;i++){
 permtobit[i]= i;
@@ -1403,7 +1404,7 @@ bittoperm[i]= i;
 }
 
 /*:22*//*31:*/
-#line 576 "./hcoset.w"
+#line 577 "hcoset.w"
 
 const int F2= 1+TWISTS;
 const int R2= 1+2*TWISTS;
@@ -1420,7 +1421,7 @@ for(int i= 0;i<FACT4;i++)
 bittoperm[permtobit[i]]= i;
 
 /*:31*//*33:*/
-#line 601 "./hcoset.w"
+#line 602 "hcoset.w"
 
 const int mvs[]= {R2,B2,L2};
 for(int mvi= 0;mvi<SQMOVES;mvi++)
@@ -1439,14 +1440,14 @@ rearrange[p][mvi][lowb]|rearrange[p][mvi][i-lowb];
 }
 
 /*:33*//*34:*/
-#line 623 "./hcoset.w"
+#line 624 "hcoset.w"
 
 for(int i= 0;i<(1<<12);i++)
 if(rearrange[0][1][i]!=rearrange[1][1][i])
 error("! mismatch in rearrange");
 
 /*:34*//*36:*/
-#line 649 "./hcoset.w"
+#line 650 "hcoset.w"
 
 int ind= 0;
 for(int e8_4= 0;e8_4<C8_4;e8_4++)
@@ -1465,7 +1466,7 @@ mvi++;
 }
 
 /*:36*//*40:*/
-#line 787 "./hcoset.w"
+#line 788 "hcoset.w"
 
 #ifdef LEVELCOUNTS
 for(int i= 1;i<(1<<12);i++)
@@ -1473,7 +1474,7 @@ bc[i]= 1+bc[i&(i-1)];
 #endif
 
 /*:40*//*47:*/
-#line 922 "./hcoset.w"
+#line 923 "hcoset.w"
 
 unsigned char used[70];
 memset(initorder,255,sizeof(initorder));
@@ -1499,22 +1500,22 @@ if(at!=70)
 error("! bad setup in setorder()");
 
 /*:47*//*50:*/
-#line 970 "./hcoset.w"
+#line 971 "hcoset.w"
 
-pthread_mutex_init(&mutex,NULL);
+pthread_mutex_init(&my_mutex,NULL);
 
 /*:50*//*84:*/
-#line 1839 "./hcoset.w"
+#line 1840 "hcoset.w"
 
 #ifdef LEVELCOUNTS
 setupk3map();
 #endif
 
 /*:84*/
-#line 36 "./hcoset.w"
+#line 37 "hcoset.w"
 
 /*81:*/
-#line 1759 "./hcoset.w"
+#line 1760 "hcoset.w"
 
 if(argc> 1){
 docoset(0,argv[1]);
@@ -1525,10 +1526,10 @@ genseqs(first_coset,first_coset+coset_count);
 }
 
 /*:81*/
-#line 37 "./hcoset.w"
+#line 38 "hcoset.w"
 
 /*54:*/
-#line 1027 "./hcoset.w"
+#line 1028 "hcoset.w"
 
 if(singfile){
 cout<<"Wrote "<<singcount<<" total positions to singfile"<<endl;
@@ -1536,14 +1537,14 @@ fclose(singfile);
 }
 
 /*:54*//*86:*/
-#line 1895 "./hcoset.w"
+#line 1896 "hcoset.w"
 
 #ifdef LEVELCOUNTS
 for(unsigned int i= 0;i<sizeof(sum_ulev)/sizeof(sum_ulev[0]);i++)
 if(sum_ulev[i])
 cout<<"Level "<<i<<" count "<<sum_ulev[i]<<endl;
 #endif/*:86*/
-#line 38 "./hcoset.w"
+#line 39 "hcoset.w"
 
 phase1prune::check_integrity();
 cout<<"Completed in "<<(walltime()-progstart)<<endl;

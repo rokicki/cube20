@@ -1,11 +1,11 @@
 /*11:*/
-#line 251 "./cubepos.w"
+#line 252 "cubepos.w"
 
 #include <iostream> 
 #include "cubepos.h"
 #include <math.h> 
 /*13:*/
-#line 279 "./cubepos.w"
+#line 280 "cubepos.w"
 
 const cubepos identity_cube(0,0,0);
 unsigned char cubepos::corner_ori_inc[CUBIES],
@@ -13,18 +13,18 @@ cubepos::corner_ori_dec[CUBIES],
 cubepos::corner_ori_neg_strip[CUBIES],cubepos::mod24[2*CUBIES];
 
 /*:13*//*19:*/
-#line 369 "./cubepos.w"
+#line 370 "cubepos.w"
 
 char cubepos::faces[FACES]= {'U','F','R','D','B','L'};
 
 /*:19*//*22:*/
-#line 413 "./cubepos.w"
+#line 414 "cubepos.w"
 
 unsigned char cubepos::edge_trans[NMOVES][CUBIES],
 cubepos::corner_trans[NMOVES][CUBIES];
 
 /*:22*//*24:*/
-#line 451 "./cubepos.w"
+#line 452 "cubepos.w"
 
 static const unsigned char edge_twist_perm[FACES][4]= {
 {0,2,3,1},
@@ -36,7 +36,7 @@ static const unsigned char edge_twist_perm[FACES][4]= {
 };
 
 /*:24*//*25:*/
-#line 470 "./cubepos.w"
+#line 471 "cubepos.w"
 
 static const unsigned char corner_twist_perm[FACES][4]= {
 {0,1,3,2},
@@ -48,12 +48,12 @@ static const unsigned char corner_twist_perm[FACES][4]= {
 };
 
 /*:25*//*26:*/
-#line 515 "./cubepos.w"
+#line 516 "cubepos.w"
 
 static const unsigned char edge_change[FACES]= {0,0,1,0,0,1};
 
 /*:26*//*27:*/
-#line 546 "./cubepos.w"
+#line 547 "cubepos.w"
 
 static const unsigned char corner_change[FACES][4]= {
 {0,0,0,0},
@@ -65,23 +65,23 @@ static const unsigned char corner_change[FACES][4]= {
 };
 
 /*:27*//*33:*/
-#line 643 "./cubepos.w"
+#line 644 "cubepos.w"
 
 unsigned char cubepos::inv_move[NMOVES];
 
 /*:33*//*44:*/
-#line 877 "./cubepos.w"
+#line 878 "cubepos.w"
 
 static char static_buf[200];
 
 /*:44*//*47:*/
-#line 959 "./cubepos.w"
+#line 960 "cubepos.w"
 
 static const char*sing_solved= 
 "UF UR UB UL DF DR DB DL FR FL BR BL UFR URB UBL ULF DRF DFL DLB DBR";
 
 /*:47*//*48:*/
-#line 972 "./cubepos.w"
+#line 973 "cubepos.w"
 
 static const char*const smedges[]= {
 "UB","BU","UL","LU","UR","RU","UF","FU",
@@ -98,7 +98,7 @@ static const char*const smcorners[]= {
 };
 
 /*:48*//*49:*/
-#line 995 "./cubepos.w"
+#line 996 "cubepos.w"
 
 const int INVALID= 99;
 static unsigned char lookup_edge_cubie[FACES*FACES];
@@ -108,14 +108,14 @@ static unsigned char sm_edge_order[12];
 static unsigned char sm_edge_flipped[12];
 
 /*:49*//*56:*/
-#line 1187 "./cubepos.w"
+#line 1188 "cubepos.w"
 
 unsigned char cubepos::face_map[M][FACES],cubepos::move_map[M][NMOVES];
 unsigned char cubepos::mm[M][M],cubepos::invm[M];
 unsigned char cubepos::rot_edge[M][CUBIES],cubepos::rot_corner[M][CUBIES];
 
 /*:56*//*57:*/
-#line 1202 "./cubepos.w"
+#line 1203 "cubepos.w"
 
 static const char*const axis_permute_map[]= 
 {"UFR","URF","FRU","FUR","RUF","RFU"};
@@ -123,17 +123,17 @@ static const char*const axis_negate_map[]=
 {"UFR","UFL","UBL","UBR","DBR","DBL","DFL","DFR"};
 
 /*:57*//*72:*/
-#line 1458 "./cubepos.w"
+#line 1459 "cubepos.w"
 
 unsigned char cubepos::canon_seq[CANONSEQSTATES][NMOVES];
 int cubepos::canon_seq_mask[CANONSEQSTATES];
 int cubepos::canon_seq_mask_ext[CANONSEQSTATES];
 
 /*:72*/
-#line 255 "./cubepos.w"
+#line 256 "cubepos.w"
 
 /*36:*/
-#line 707 "./cubepos.w"
+#line 708 "cubepos.w"
 
 void cubepos::invert_into(cubepos&dst)const{
 for(int i= 0;i<8;i++){
@@ -147,7 +147,7 @@ dst.e[edge_perm(cval)]= edge_val(i,edge_ori(cval));
 }
 
 /*:36*//*50:*/
-#line 1007 "./cubepos.w"
+#line 1008 "cubepos.w"
 
 static int parse_cubie(const char*&p){
 cubepos::skip_whitespace(p);
@@ -180,7 +180,7 @@ return c;
 }
 
 /*:50*//*53:*/
-#line 1074 "./cubepos.w"
+#line 1075 "cubepos.w"
 
 const char*cubepos::parse_Singmaster(const char*p){
 if(strncmp(p,"SING ",5)==0)
@@ -209,7 +209,7 @@ return 0;
 }
 
 /*:53*//*58:*/
-#line 1212 "./cubepos.w"
+#line 1213 "cubepos.w"
 
 static void parse_corner_to_facemap(const char*p,unsigned char*a){
 for(int i= 0;i<3;i++){
@@ -220,7 +220,7 @@ a[i+3]= (f+3)%FACES;
 }
 
 /*:58*//*59:*/
-#line 1224 "./cubepos.w"
+#line 1225 "cubepos.w"
 
 static void face_map_multiply(unsigned char*a,unsigned char*b,
 unsigned char*c){
@@ -229,7 +229,7 @@ c[i]= b[a[i]];
 }
 
 /*:59*/
-#line 256 "./cubepos.w"
+#line 257 "cubepos.w"
 
 void cubepos::init(){
 static int initialized= 0;
@@ -237,7 +237,7 @@ if(initialized)
 return;
 initialized= 1;
 /*14:*/
-#line 287 "./cubepos.w"
+#line 288 "cubepos.w"
 
 for(int i= 0;i<CUBIES;i++){
 int perm= corner_perm(i);
@@ -249,7 +249,7 @@ mod24[i]= mod24[i+CUBIES]= i;
 }
 
 /*:14*//*28:*/
-#line 563 "./cubepos.w"
+#line 564 "cubepos.w"
 
 for(int m= 0;m<NMOVES;m++)
 for(int c= 0;c<CUBIES;c++){
@@ -258,7 +258,7 @@ corner_trans[m][c]= c;
 }
 
 /*:28*//*29:*/
-#line 578 "./cubepos.w"
+#line 579 "cubepos.w"
 
 for(int f= 0;f<FACES;f++)
 for(int t= 0;t<3;t++){
@@ -287,13 +287,13 @@ corner_val(corner_twist_perm[f][ii],oo);
 }
 
 /*:29*//*34:*/
-#line 649 "./cubepos.w"
+#line 650 "cubepos.w"
 
 for(int i= 0;i<NMOVES;i++)
 inv_move[i]= TWISTS*(i/TWISTS)+(NMOVES-i-1)%TWISTS;
 
 /*:34*//*51:*/
-#line 1040 "./cubepos.w"
+#line 1041 "cubepos.w"
 
 memset(lookup_edge_cubie,INVALID,sizeof(lookup_edge_cubie));
 memset(lookup_corner_cubie,INVALID,sizeof(lookup_corner_cubie));
@@ -313,7 +313,7 @@ for(int i= 0;i<8;i++)
 sm_corner_order[i]= corner_perm(parse_corner(p));
 
 /*:51*//*60:*/
-#line 1238 "./cubepos.w"
+#line 1239 "cubepos.w"
 
 unsigned char face_to_m[FACES*FACES*FACES];
 for(int i= 0;i<6;i++)
@@ -325,7 +325,7 @@ for(int j= 1;j<8;j++)
 face_map_multiply(face_map[8*i],face_map[j],face_map[8*i+j]);
 
 /*:60*//*61:*/
-#line 1251 "./cubepos.w"
+#line 1252 "cubepos.w"
 
 for(int i= 0;i<M;i++){
 int v= face_map[i][0]*36+face_map[i][1]*6+face_map[i][2];
@@ -353,7 +353,7 @@ move_map[m][f*TWISTS+t]= face_map[m][f]*TWISTS+t;
 }
 
 /*:61*//*62:*/
-#line 1281 "./cubepos.w"
+#line 1282 "cubepos.w"
 
 for(int m= 0;m<M;m++)
 for(int c= 0;c<CUBIES;c++){
@@ -368,7 +368,7 @@ rot_corner[m][c]= mod24[lookup_corner_cubie[v]];
 }
 
 /*:62*//*73:*/
-#line 1467 "./cubepos.w"
+#line 1468 "cubepos.w"
 
 for(int s= 0;s<CANONSEQSTATES;s++){
 int prevface= (s-1)%FACES;
@@ -388,12 +388,12 @@ canon_seq_mask_ext[s]= canon_seq_mask[s];
 }
 
 /*:73*/
-#line 262 "./cubepos.w"
+#line 263 "cubepos.w"
 
 }
 
 /*:11*//*17:*/
-#line 328 "./cubepos.w"
+#line 329 "cubepos.w"
 
 cubepos::cubepos(int,int,int){
 for(int i= 0;i<8;i++)
@@ -404,7 +404,7 @@ init();
 }
 
 /*:17*//*23:*/
-#line 427 "./cubepos.w"
+#line 428 "cubepos.w"
 
 void cubepos::move(int mov){
 const unsigned char*p= corner_trans[mov];
@@ -419,7 +419,7 @@ e[9]= p[e[9]];e[10]= p[e[10]];e[11]= p[e[11]];
 }
 
 /*:23*//*35:*/
-#line 658 "./cubepos.w"
+#line 659 "cubepos.w"
 
 moveseq cubepos::invert_sequence(const moveseq&seq){
 unsigned int len= seq.size();
@@ -430,14 +430,14 @@ return r;
 }
 
 /*:35*//*38:*/
-#line 761 "./cubepos.w"
+#line 762 "cubepos.w"
 
 #define ROT2(cc,a,b) {unsigned char t= cc[a];cc[a]= cc[b];cc[b]= t;}
 #define ROT4(cc,a,b,c,d) {unsigned char t= cc[d];cc[d]= cc[c];cc[c]= cc[b]; cc[b]= cc[a];cc[a]= t;}
 #define ROT22(cc,a,b,c,d) ROT2(cc,a,c) ROT2(cc,b,d)
 
 /*:38*//*39:*/
-#line 773 "./cubepos.w"
+#line 774 "cubepos.w"
 
 #define EDGE4FLIP(a,b,c,d) {unsigned char t= e[d];e[d]= edge_flip(e[c]);\
          e[c]= edge_flip(e[b]); e[b]= edge_flip(e[a]);e[a]= edge_flip(t);}
@@ -445,7 +445,7 @@ return r;
  c[cc]= corner_ori_dec[c[b]];c[b]= corner_ori_inc[c[a]];c[a]= corner_ori_dec[t];}
 
 /*:39*//*40:*/
-#line 788 "./cubepos.w"
+#line 789 "cubepos.w"
 
 void cubepos::movepc(int mov){
 switch(mov){
@@ -471,7 +471,7 @@ case 17:EDGE4FLIP(4,9,6,1);CORNER4FLIP(2,0,4,6);break;
 }
 
 /*:40*//*42:*/
-#line 845 "./cubepos.w"
+#line 846 "cubepos.w"
 
 void cubepos::mul(const cubepos&a,const cubepos&b,cubepos&r){
 for(int i= 0;i<8;i++){
@@ -485,7 +485,7 @@ r.e[i]= edge_ori_add(b.e[edge_perm(cc)],cc);
 }
 
 /*:42*//*45:*/
-#line 882 "./cubepos.w"
+#line 883 "cubepos.w"
 
 void cubepos::skip_whitespace(const char*&p){
 while(*p&&*p<=' ')
@@ -528,7 +528,7 @@ return f*TWISTS+t;
 }
 
 /*:45*//*46:*/
-#line 925 "./cubepos.w"
+#line 926 "cubepos.w"
 
 void cubepos::append_move(char*&p,int mv){
 append_face(p,mv/TWISTS);
@@ -556,7 +556,7 @@ return static_buf;
 }
 
 /*:46*//*54:*/
-#line 1106 "./cubepos.w"
+#line 1107 "cubepos.w"
 
 char*cubepos::Singmaster_string()const{
 cubepos cp;
@@ -583,7 +583,7 @@ return static_buf;
 }
 
 /*:54*//*65:*/
-#line 1316 "./cubepos.w"
+#line 1317 "cubepos.w"
 
 void cubepos::remap_into(int m,cubepos&dst)const{
 int mprime= invm[m];
@@ -600,7 +600,7 @@ dst.e[i]= rot_edge[m][c2];
 }
 
 /*:65*//*66:*/
-#line 1335 "./cubepos.w"
+#line 1336 "cubepos.w"
 
 void cubepos::canon_into48_aux(cubepos&dst)const{
 for(int m= 1;m<M;m++){
@@ -635,7 +635,7 @@ canon_into48_aux(dst);
 }
 
 /*:66*//*68:*/
-#line 1383 "./cubepos.w"
+#line 1384 "cubepos.w"
 
 void cubepos::randomize(){
 int parity= 0;
@@ -672,7 +672,7 @@ e[11]^= s;
 }
 
 /*:68*//*69:*/
-#line 1422 "./cubepos.w"
+#line 1423 "cubepos.w"
 
 void cubepos::canon_into96(cubepos&dst)const{
 cubepos cpi;
@@ -687,7 +687,7 @@ cpi.canon_into48_aux(dst);
 }
 
 /*:69*//*76:*/
-#line 1506 "./cubepos.w"
+#line 1507 "cubepos.w"
 
 void error(const char*s){
 cerr<<s<<endl;

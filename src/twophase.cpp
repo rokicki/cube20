@@ -1,45 +1,46 @@
 /*1:*/
-#line 13 "./twophase.w"
+#line 13 "twophase.w"
 
 const char*BANNER= 
-"This is twophase 1.0, (C) 2010 Tomas Rokicki.  All Rights Reserved.";
+"This is twophase 1.1, (C) 2010-2012 Tomas Rokicki.  All Rights Reserved.";
 #include "phase1prune.h"
 #include "phase2prune.h"
 #include <pthread.h> 
 #include <iostream> 
 #include <map> 
+#include <cstdio> 
 using namespace std;
 /*2:*/
-#line 43 "./twophase.w"
+#line 44 "twophase.w"
 
 int verbose= 1;
 int numthreads= 1;
 const int MAX_THREADS= 32;
 
 /*:2*//*4:*/
-#line 80 "./twophase.w"
+#line 81 "twophase.w"
 
 int target_length= 0;
 long long phase2limit= 0xffffffffffffffLL;
 long long phase2total= 0LL;
 
 /*:4*//*7:*/
-#line 117 "./twophase.w"
+#line 118 "twophase.w"
 
 int skipwrite= 0;
 
 /*:7*//*15:*/
-#line 202 "./twophase.w"
+#line 203 "twophase.w"
 
-pthread_mutex_t mutex;
+pthread_mutex_t my_mutex;
 
 /*:15*//*19:*/
-#line 249 "./twophase.w"
+#line 250 "twophase.w"
 
 int axesmask= 63;
 
 /*:19*//*28:*/
-#line 438 "./twophase.w"
+#line 439 "twophase.w"
 
 class solution{
 public:
@@ -62,26 +63,26 @@ int missed_target= 0;
 int solved= 0;
 
 /*:28*/
-#line 22 "./twophase.w"
+#line 23 "twophase.w"
 
 /*10:*/
-#line 140 "./twophase.w"
+#line 141 "twophase.w"
 
 const int MAX_MOVES= 32;
 
 /*:10*//*17:*/
-#line 212 "./twophase.w"
+#line 213 "twophase.w"
 
 void get_global_lock(){
-pthread_mutex_lock(&mutex);
+pthread_mutex_lock(&my_mutex);
 }
 void release_global_lock(){
-pthread_mutex_unlock(&mutex);
+pthread_mutex_unlock(&my_mutex);
 }
 
 
 /*:17*//*22:*/
-#line 307 "./twophase.w"
+#line 308 "twophase.w"
 
 int sloweq(const cubepos&cp1,const cubepos&cp2){
 cubepos cp3;
@@ -94,7 +95,7 @@ return 0;
 }
 
 /*:22*//*27:*/
-#line 416 "./twophase.w"
+#line 417 "twophase.w"
 
 void display(const cubepos&cp,int seq,long long phase2probes,moveseq sol){
 phase2total+= phase2probes;
@@ -109,7 +110,7 @@ cout<<cubepos::moveseq_string(sol)<<endl;
 }
 
 /*:27*//*29:*/
-#line 461 "./twophase.w"
+#line 462 "twophase.w"
 
 void report(const cubepos&cp,int seq,long long phase2probes,moveseq sol){
 get_global_lock();
@@ -132,7 +133,7 @@ release_global_lock();
 }
 
 /*:29*//*32:*/
-#line 514 "./twophase.w"
+#line 515 "twophase.w"
 
 int getwork(cubepos&cp){
 static int input_seq= 1;
@@ -158,10 +159,10 @@ return r;
 }
 
 /*:32*/
-#line 23 "./twophase.w"
+#line 24 "twophase.w"
 
 /*11:*/
-#line 155 "./twophase.w"
+#line 156 "twophase.w"
 
 class twophasesolver{
 public:
@@ -174,13 +175,13 @@ int curm;
 int solmap;
 int seq;
 /*12:*/
-#line 174 "./twophase.w"
+#line 175 "twophase.w"
 
 unsigned char moves[MAX_MOVES];
 unsigned char bestmoves[MAX_MOVES];
 
 /*:12*//*18:*/
-#line 237 "./twophase.w"
+#line 238 "twophase.w"
 
 kocsymm kc6[6],kccanon6[6];
 cubepos cp6[6];
@@ -190,14 +191,14 @@ char uniq[6];
 int minmindepth;
 
 /*:18*/
-#line 166 "./twophase.w"
+#line 167 "twophase.w"
 
 /*13:*/
-#line 182 "./twophase.w"
+#line 183 "twophase.w"
 
 void solve(int seqarg,cubepos&cp){
 /*14:*/
-#line 192 "./twophase.w"
+#line 193 "twophase.w"
 
 pos= cp;
 phase2probes= 0;
@@ -206,10 +207,10 @@ finished= 0;
 seq= seqarg;
 
 /*:14*/
-#line 184 "./twophase.w"
+#line 185 "twophase.w"
 
 /*21:*/
-#line 269 "./twophase.w"
+#line 270 "twophase.w"
 
 minmindepth= MAX_MOVES;
 cubepos cpi,cp2;
@@ -245,10 +246,10 @@ release_global_lock();
 }
 
 /*:21*/
-#line 185 "./twophase.w"
+#line 186 "twophase.w"
 
 /*23:*/
-#line 320 "./twophase.w"
+#line 321 "twophase.w"
 
 for(int d= minmindepth;d<bestsol&&!finished;d++){
 for(curm= 0;curm<6;curm++)
@@ -263,10 +264,10 @@ solvep1(kc6[curm],pc6[curm],d,0,ALLMOVEMASK,CANONSEQSTART);
 }
 
 /*:23*/
-#line 186 "./twophase.w"
+#line 187 "twophase.w"
 
 /*26:*/
-#line 398 "./twophase.w"
+#line 399 "twophase.w"
 
 moveseq sol;
 int m= cubepos::invm[(solmap%3)*KOCSYMM];
@@ -282,12 +283,12 @@ error("! move sequence doesn't work");
 report(pos,seq,phase2probes,sol);
 
 /*:26*/
-#line 187 "./twophase.w"
+#line 188 "twophase.w"
 
 }
 
 /*:13*//*24:*/
-#line 335 "./twophase.w"
+#line 336 "twophase.w"
 
 void solvep1(const kocsymm&kc,const permcube&pc,int togo,int sofar,
 int movemask,int canon){
@@ -321,7 +322,7 @@ new_canon);
 }
 
 /*:24*//*25:*/
-#line 369 "./twophase.w"
+#line 370 "twophase.w"
 
 void solvep2(const permcube&pc,int sofar){
 phase2probes++;
@@ -349,7 +350,7 @@ finished= 1;
 }
 
 /*:25*//*31:*/
-#line 499 "./twophase.w"
+#line 500 "twophase.w"
 
 void dowork(){
 cubepos cp;
@@ -363,7 +364,7 @@ solve(seq,cp);
 }
 
 /*:31*//*33:*/
-#line 541 "./twophase.w"
+#line 542 "twophase.w"
 
 static void*worker(void*s){
 twophasesolver*solv= (twophasesolver*)s;
@@ -372,19 +373,19 @@ return 0;
 }
 
 /*:33*/
-#line 167 "./twophase.w"
+#line 168 "twophase.w"
 
 char pad[256];
 }solvers[MAX_THREADS];
 
 /*:11*/
-#line 24 "./twophase.w"
+#line 25 "twophase.w"
 
 int main(int argc,char*argv[]){
 double progstart= walltime();
 duration();
 /*3:*/
-#line 50 "./twophase.w"
+#line 51 "twophase.w"
 
 while(argc> 1&&argv[1][0]=='-'){
 argc--;
@@ -401,7 +402,7 @@ argc--;
 argv++;
 break;
 /*5:*/
-#line 87 "./twophase.w"
+#line 88 "twophase.w"
 
 case'M':
 if(sscanf(argv[1],"%lld",&phase2limit)!=1)
@@ -419,12 +420,12 @@ argv++;
 break;
 
 /*:5*//*8:*/
-#line 122 "./twophase.w"
+#line 123 "twophase.w"
 
 case'W':skipwrite++;break;
 
 /*:8*//*20:*/
-#line 254 "./twophase.w"
+#line 255 "twophase.w"
 
 case'a':
 axesmask= atol(argv[1]);
@@ -433,7 +434,7 @@ argc--;
 break;
 
 /*:20*/
-#line 65 "./twophase.w"
+#line 66 "twophase.w"
 
 default:
 error("! bad argument");
@@ -441,17 +442,17 @@ error("! bad argument");
 }
 
 /*:3*/
-#line 28 "./twophase.w"
+#line 29 "twophase.w"
 
 /*6:*/
-#line 107 "./twophase.w"
+#line 108 "twophase.w"
 
 if(phase2limit>=0xffffffffffffffLL&&target_length==0&&
 verbose<=1)
 error("! must specify -M, -s, or -v");
 
 /*:6*//*9:*/
-#line 130 "./twophase.w"
+#line 131 "twophase.w"
 
 if(verbose)
 cout<<BANNER<<endl<<flush;
@@ -459,15 +460,15 @@ phase1prune::init(skipwrite);
 phase2prune::init(skipwrite);
 
 /*:9*//*16:*/
-#line 207 "./twophase.w"
+#line 208 "twophase.w"
 
-pthread_mutex_init(&mutex,NULL);
+pthread_mutex_init(&my_mutex,NULL);
 
 /*:16*/
-#line 29 "./twophase.w"
+#line 30 "twophase.w"
 
 /*34:*/
-#line 552 "./twophase.w"
+#line 553 "twophase.w"
 
 pthread_t p_thread[MAX_THREADS];
 for(int ti= 1;ti<numthreads;ti++)
@@ -475,10 +476,10 @@ pthread_create(&(p_thread[ti]),NULL,twophasesolver::worker,solvers+ti);
 solvers[0].dowork();
 for(int ti= 1;ti<numthreads;ti++)
 pthread_join(p_thread[ti],0);/*:34*/
-#line 30 "./twophase.w"
+#line 31 "twophase.w"
 
 /*30:*/
-#line 484 "./twophase.w"
+#line 485 "twophase.w"
 
 if(missed_target)
 cout<<"WARNING:  missed target on "<<missed_target
@@ -491,7 +492,7 @@ cout<<"Completed in "<<(walltime()-progstart)<<endl;
 exit(0);
 
 /*:30*/
-#line 31 "./twophase.w"
+#line 32 "twophase.w"
 
 }
 

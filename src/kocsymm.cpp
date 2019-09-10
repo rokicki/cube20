@@ -1,24 +1,24 @@
 /*7:*/
-#line 142 "./kocsymm.w"
+#line 142 "kocsymm.w"
 
 #include "kocsymm.h"
 #include <iostream> 
 using namespace std;
 /*8:*/
-#line 160 "./kocsymm.w"
+#line 160 "kocsymm.w"
 
 lookup_type kocsymm::cornermove[CORNERSYMM][NMOVES];
 lookup_type kocsymm::edgeomove[EDGEOSYMM][NMOVES];
 lookup_type kocsymm::edgepmove[EDGEPERM][NMOVES];
 
 /*:8*//*12:*/
-#line 214 "./kocsymm.w"
+#line 214 "kocsymm.w"
 
 lookup_type kocsymm::epsymm_compress[1<<12];
 lookup_type kocsymm::epsymm_expand[EDGEOSYMM];
 
 /*:12*//*21:*/
-#line 395 "./kocsymm.w"
+#line 395 "kocsymm.w"
 
 lookup_type kocsymm::cornersymm_expand[CORNERRSYMM];
 corner_mapinfo kocsymm::cornersymm[CORNERSYMM];
@@ -27,7 +27,7 @@ lookup_type kocsymm::edgepmap[EDGEPERM][KOCSYMM];
 lookup_type kocsymm::edgepxor[EDGEPERM][2];
 
 /*:21*//*32:*/
-#line 588 "./kocsymm.w"
+#line 588 "kocsymm.w"
 
 unsigned char permcube::s4inv[FACT4];
 unsigned char permcube::s4mul[FACT4][FACT4];
@@ -35,29 +35,29 @@ unsigned char permcube::s4compress[256];
 unsigned char permcube::s4expand[FACT4];
 
 /*:32*//*37:*/
-#line 675 "./kocsymm.w"
+#line 675 "kocsymm.w"
 
 unsigned char permcube::c8_4_compact[256];
 unsigned char permcube::c8_4_expand[C8_4];
 unsigned char permcube::c8_4_parity[C8_4];
 
 /*:37*//*40:*/
-#line 713 "./kocsymm.w"
+#line 713 "kocsymm.w"
 
 unsigned char permcube::c12_8[EDGEPERM];
 lookup_type permcube::c8_12[C8_4];
 
 /*:40*//*44:*/
-#line 778 "./kocsymm.w"
+#line 778 "kocsymm.w"
 
 unsigned short permcube::eperm_move[EDGEPERM][NMOVES];
 int permcube::cperm_move[C8_4][NMOVES];
 
 /*:44*/
-#line 146 "./kocsymm.w"
+#line 146 "kocsymm.w"
 
 /*13:*/
-#line 222 "./kocsymm.w"
+#line 222 "kocsymm.w"
 
 static int bc(int v){
 int r= 0;
@@ -69,7 +69,7 @@ return r;
 }
 
 /*:13*//*35:*/
-#line 655 "./kocsymm.w"
+#line 655 "kocsymm.w"
 
 int muls4(int a,int b){
 int r= 3&(b>>(2*(a&3)));
@@ -80,10 +80,10 @@ return r;
 }
 
 /*:35*/
-#line 147 "./kocsymm.w"
+#line 147 "kocsymm.w"
 
 /*15:*/
-#line 254 "./kocsymm.w"
+#line 254 "kocsymm.w"
 
 kocsymm::kocsymm(const cubepos&cp){
 int c= 0,eo= 0,ep= 0;
@@ -99,7 +99,7 @@ epsymm= epsymm_compress[ep>>3];
 }
 
 /*:15*//*16:*/
-#line 274 "./kocsymm.w"
+#line 274 "kocsymm.w"
 
 void kocsymm::set_coset(cubepos&cp){
 int c= csymm,eo= eosymm,ep= epsymm_expand[epsymm];
@@ -132,7 +132,7 @@ ep>>= 1;
 }
 
 /*:16*//*25:*/
-#line 474 "./kocsymm.w"
+#line 474 "kocsymm.w"
 
 void kocsymm::canon_into(kocsymm&kc)const{
 corner_mapinfo&cm= cornersymm[csymm];
@@ -153,7 +153,7 @@ kc.epsymm= nep;
 }
 
 /*:25*//*27:*/
-#line 500 "./kocsymm.w"
+#line 500 "kocsymm.w"
 
 int kocsymm::calc_symm()const{
 int r= 1;
@@ -169,11 +169,11 @@ return r;
 }
 
 /*:27*//*33:*/
-#line 598 "./kocsymm.w"
+#line 598 "kocsymm.w"
 
 void permcube::init(){
 /*34:*/
-#line 632 "./kocsymm.w"
+#line 632 "kocsymm.w"
 
 int cc= 0;
 for(int a= 0;a<4;a++)
@@ -195,7 +195,7 @@ s4inv[i]= j;
 }
 
 /*:34*//*38:*/
-#line 684 "./kocsymm.w"
+#line 684 "kocsymm.w"
 
 int c= 0;
 for(int i= 0;i<256;i++)
@@ -213,7 +213,7 @@ c++;
 }
 
 /*:38*//*41:*/
-#line 720 "./kocsymm.w"
+#line 720 "kocsymm.w"
 
 for(int i= 0;i<EDGEPERM;i++){
 int expbits= kocsymm::epsymm_expand[i];
@@ -227,7 +227,7 @@ c8_12[ii]= i;
 }
 
 /*:41*//*53:*/
-#line 962 "./kocsymm.w"
+#line 962 "kocsymm.w"
 
 cubepos cp,cp2;
 for(int i= 0;i<EDGEPERM;i++){
@@ -253,7 +253,7 @@ eperm_move[i][mv]= (pc2.em<<5)+pc2.emp;
 }
 
 /*:53*//*54:*/
-#line 991 "./kocsymm.w"
+#line 991 "kocsymm.w"
 
 for(int i= 0;i<C8_4;i++){
 permcube pc;
@@ -268,12 +268,12 @@ cperm_move[i][mv]= (pc2.c8_4<<10)+(pc2.ctp<<5)+pc2.cbp;
 }
 
 /*:54*/
-#line 600 "./kocsymm.w"
+#line 600 "kocsymm.w"
 ;
 }
 
 /*:33*//*46:*/
-#line 791 "./kocsymm.w"
+#line 791 "kocsymm.w"
 
 void permcube::move(int mv){
 #ifdef SAFETY_CHECKS
@@ -297,7 +297,7 @@ cbp= s4mul[cbp][t&31];
 }
 
 /*:46*//*48:*/
-#line 843 "./kocsymm.w"
+#line 843 "kocsymm.w"
 
 void permcube::init_edge_from_cp(const cubepos&cp){
 et= em= eb= 0;
@@ -324,7 +324,7 @@ ebp= s4compress[ebp];
 }
 
 /*:48*//*49:*/
-#line 870 "./kocsymm.w"
+#line 870 "kocsymm.w"
 
 void permcube::init_corner_from_cp(const cubepos&cp){
 c8_4= 0;
@@ -348,7 +348,7 @@ init_corner_from_cp(cp);
 }
 
 /*:49*//*50:*/
-#line 895 "./kocsymm.w"
+#line 895 "kocsymm.w"
 
 void permcube::set_edge_perm(cubepos&cp)const{
 int et_bits= kocsymm::epsymm_expand[et];
@@ -373,7 +373,7 @@ eb_perm>>= 2;
 }
 
 /*:50*//*51:*/
-#line 920 "./kocsymm.w"
+#line 920 "kocsymm.w"
 
 void permcube::set_corner_perm(cubepos&cp)const{
 int c8_4_bits= c8_4_expand[c8_4];
@@ -396,7 +396,7 @@ set_corner_perm(cp);
 }
 
 /*:51*//*52:*/
-#line 948 "./kocsymm.w"
+#line 948 "kocsymm.w"
 
 permcube::permcube(){
 c8_4= 0;
@@ -408,7 +408,7 @@ etp= emp= ebp= 0;
 }
 
 /*:52*/
-#line 148 "./kocsymm.w"
+#line 148 "kocsymm.w"
 
 void kocsymm::init(){
 static int initialized= 0;
@@ -416,7 +416,7 @@ if(initialized)
 return;
 initialized= 1;
 /*14:*/
-#line 236 "./kocsymm.w"
+#line 236 "kocsymm.w"
 
 int c= 0;
 for(int i= 0;i<1<<12;i++)
@@ -429,7 +429,7 @@ c++;
 }
 
 /*:14*//*17:*/
-#line 311 "./kocsymm.w"
+#line 311 "kocsymm.w"
 
 cubepos cp,cp2;
 for(int i= 0;i<CORNERSYMM;i++){
@@ -448,7 +448,7 @@ edgepmove[i][mv]= kc2.epsymm;
 }
 
 /*:17*//*22:*/
-#line 407 "./kocsymm.w"
+#line 407 "kocsymm.w"
 
 c= 0;
 for(int cs= 0;cs<CORNERSYMM;cs++){
@@ -480,7 +480,7 @@ if(c!=CORNERRSYMM)
 error("! bad cornersym result");
 
 /*:22*//*23:*/
-#line 442 "./kocsymm.w"
+#line 442 "kocsymm.w"
 
 for(int ep= 0;ep<EDGEPERM;ep++){
 kocsymm kc(0,0,ep);
@@ -506,7 +506,7 @@ edgeomap[eo][m]= kc2.eosymm;
 }
 
 /*:23*/
-#line 154 "./kocsymm.w"
+#line 154 "kocsymm.w"
 
 permcube::init();
 }

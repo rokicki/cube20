@@ -1,12 +1,12 @@
 /*2:*/
-#line 83 "./phase1prune.w"
+#line 83 "phase1prune.w"
 
 #include "phase1prune.h"
 #include <iostream> 
 #include <cstdio> 
 using namespace std;
 /*4:*/
-#line 112 "./phase1prune.w"
+#line 112 "phase1prune.w"
 
 unsigned int phase1prune::memsize;
 unsigned char*phase1prune::mem;
@@ -14,16 +14,16 @@ int phase1prune::file_checksum;
 const char*const phase1prune::filename= "p1p1h.dat";
 
 /*:4*//*18:*/
-#line 368 "./phase1prune.w"
+#line 368 "phase1prune.w"
 
 static unsigned char map_phase1_offsets[KOCSYMM][3];
 static int map_phase1[2][12][256];
 
 /*:18*/
-#line 88 "./phase1prune.w"
+#line 88 "phase1prune.w"
 
 /*5:*/
-#line 126 "./phase1prune.w"
+#line 126 "phase1prune.w"
 
 static int datahash(unsigned int*dat,int sz,int seed){
 while(sz> 0){
@@ -34,10 +34,10 @@ return seed;
 }
 
 /*:5*/
-#line 89 "./phase1prune.w"
+#line 89 "phase1prune.w"
 
 /*9:*/
-#line 163 "./phase1prune.w"
+#line 163 "phase1prune.w"
 
 void phase1prune::gen_table(){
 memset(mem,-1,memsize);
@@ -55,7 +55,7 @@ for(int epsymm= 0;epsymm<EDGEPERM;epsymm++,at+= BYTES_PER_ENTRY)
 if(mem[at]==seek)
 {
 /*10:*/
-#line 194 "./phase1prune.w"
+#line 194 "phase1prune.w"
 
 int deltadist[NMOVES];
 for(int mv= 0;mv<NMOVES;mv++){
@@ -80,7 +80,7 @@ seen++;
 deltadist[mv]= rd-seek;
 }
 /*11:*/
-#line 232 "./phase1prune.w"
+#line 232 "phase1prune.w"
 
 for(int b= 0;b<3;b++){
 int v= 0;
@@ -105,11 +105,11 @@ mem[at+b+1]= v;
 }
 
 /*:11*/
-#line 217 "./phase1prune.w"
+#line 217 "phase1prune.w"
 
 
 /*:10*/
-#line 179 "./phase1prune.w"
+#line 179 "phase1prune.w"
 
 }
 }
@@ -121,7 +121,7 @@ cout<<" done."<<endl<<flush;
 }
 
 /*:9*//*12:*/
-#line 262 "./phase1prune.w"
+#line 262 "phase1prune.w"
 
 const int CHUNKSIZE= 65536;
 int phase1prune::read_table(){
@@ -157,7 +157,7 @@ return 1;
 }
 
 /*:12*//*13:*/
-#line 300 "./phase1prune.w"
+#line 300 "phase1prune.w"
 
 void phase1prune::write_table(){
 FILE*f= fopen(filename,"wb");
@@ -171,7 +171,7 @@ fclose(f);
 }
 
 /*:13*//*14:*/
-#line 315 "./phase1prune.w"
+#line 315 "phase1prune.w"
 
 void phase1prune::check_integrity(){
 if(file_checksum!=datahash((unsigned int*)mem,memsize,0))
@@ -181,7 +181,7 @@ cout<<"Verified integrity of phase one pruning data: "
 }
 
 /*:14*//*17:*/
-#line 344 "./phase1prune.w"
+#line 344 "phase1prune.w"
 
 int phase1prune::lookup(const kocsymm&kc){
 corner_mapinfo&cm= kocsymm::cornersymm[kc.csymm];
@@ -193,7 +193,7 @@ return r;
 }
 
 /*:17*//*19:*/
-#line 375 "./phase1prune.w"
+#line 375 "phase1prune.w"
 
 int phase1prune::lookup(const kocsymm&kc,int togo,int&nextmovemask){
 corner_mapinfo&cm= kocsymm::cornersymm[kc.csymm];
@@ -217,7 +217,7 @@ return r;
 }
 
 /*:19*/
-#line 90 "./phase1prune.w"
+#line 90 "phase1prune.w"
 
 void phase1prune::init(int suppress_writing){
 static int initialized= 0;
@@ -225,7 +225,7 @@ if(initialized)
 return;
 initialized= 1;
 /*7:*/
-#line 145 "./phase1prune.w"
+#line 145 "phase1prune.w"
 
 memsize= BYTES_PER_ENTRY*CORNERRSYMM*EDGEOSYMM*EDGEPERM;
 mem= (unsigned char*)malloc(memsize);
@@ -233,7 +233,7 @@ if(mem==0)
 error("! no memory");
 
 /*:7*//*15:*/
-#line 326 "./phase1prune.w"
+#line 326 "phase1prune.w"
 
 if(read_table()==0){
 gen_table();
@@ -243,7 +243,7 @@ write_table();
 }
 
 /*:15*//*20:*/
-#line 403 "./phase1prune.w"
+#line 403 "phase1prune.w"
 
 for(int m= 0;m<KOCSYMM;m++){
 for(int f= 0;f<3;f++){
@@ -261,7 +261,7 @@ map_phase1_offsets[cubepos::invm[m]][f]= key;
 }
 
 /*:20*//*21:*/
-#line 423 "./phase1prune.w"
+#line 423 "phase1prune.w"
 
 for(int slack= 0;slack<2;slack++){
 for(int key= 0;key<12;key++){
@@ -290,12 +290,12 @@ a[byte]= nv[byte&15]|(((nv[byte>>4]<<(3*TWISTS))|
 }
 
 /*:21*/
-#line 96 "./phase1prune.w"
+#line 96 "phase1prune.w"
 
 }
 
 /*:2*//*22:*/
-#line 452 "./phase1prune.w"
+#line 452 "phase1prune.w"
 
 moveseq phase1prune::solve(kocsymm kc){
 moveseq r;

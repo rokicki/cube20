@@ -74,8 +74,8 @@
 \I\&{moveseq}, 25, 26, 27, 28, 29, 32.
 \I\\{moveseq\_string}, 27.
 \I\\{ms}, \[25], \[32].
-\I\\{mutex}, 15, 16, 17.
 \I\\{mv}, \[24].
+\I\\{my\_mutex}, 15, 16, 17.
 \I\\{nd}, \[24].
 \I\\{new\_canon}, \[24].
 \I\\{newmovemask}, \[24].

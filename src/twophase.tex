@@ -7,13 +7,14 @@ This is a solver for Rubik's Cube, using Herbert Kociemba's
 two-phase algorithm.
 
 \Y\B\4\X1:\.{twophase.cpp }\X${}\E{}$\6
-\&{const} \&{char} ${}{*}\.{BANNER}\K\.{"This\ is\ twophase\ 1.}\)\.{0,\ (C)\
-2010\ Tomas\ Ro}\)\.{kicki.\ \ All\ Rights\ R}\)\.{eserved."};{}$\6
+\&{const} \&{char} ${}{*}\.{BANNER}\K\.{"This\ is\ twophase\ 1.}\)\.{1,\ (C)\
+2010-2012\ Tom}\)\.{as\ Rokicki.\ \ All\ Rig}\)\.{hts\ Reserved."};{}$\6
 \8\#\&{include} \.{"phase1prune.h"}\6
 \8\#\&{include} \.{"phase2prune.h"}\6
 \8\#\&{include} \.{<pthread.h>}\6
 \8\#\&{include} \.{<iostream>}\6
 \8\#\&{include} \.{<map>}\6
+\8\#\&{include} \.{<cstdio>}\6
 \&{using} \&{namespace} \&{std};\7
 \X2:Data declarations\X\6
 \X10:Utility functions\X\6
@@ -238,13 +239,13 @@ ${}\\{seq}\K\\{seqarg}{}$;\par
 a global mutex.
 
 \Y\B\4\X2:Data declarations\X${}\mathrel+\E{}$\6
-\\{pthread\_mutex\_t}\\{mutex};\par
+\\{pthread\_mutex\_t}\\{my\_mutex};\par
 \fi
 
 \M{16}We initialize the mutex.
 
 \Y\B\4\X6:Initialize the program\X${}\mathrel+\E{}$\6
-$\\{pthread\_mutex\_init}({\AND}\\{mutex},\39\NULL){}$;\par
+$\\{pthread\_mutex\_init}({\AND}\\{my\_mutex},\39\NULL){}$;\par
 \fi
 
 \M{17}We call these methods to acquire and release the mutex.
@@ -252,11 +253,11 @@ $\\{pthread\_mutex\_init}({\AND}\\{mutex},\39\NULL){}$;\par
 \Y\B\4\X10:Utility functions\X${}\mathrel+\E{}$\6
 \&{void} \\{get\_global\_lock}(\,)\1\1\2\2\6
 ${}\{{}$\1\6
-${}\\{pthread\_mutex\_lock}({\AND}\\{mutex});{}$\6
+${}\\{pthread\_mutex\_lock}({\AND}\\{my\_mutex});{}$\6
 \4${}\}{}$\2\7
 \&{void} \\{release\_global\_lock}(\,)\1\1\2\2\6
 ${}\{{}$\1\6
-${}\\{pthread\_mutex\_unlock}({\AND}\\{mutex});{}$\6
+${}\\{pthread\_mutex\_unlock}({\AND}\\{my\_mutex});{}$\6
 \4${}\}{}$\2\par
 \fi
 

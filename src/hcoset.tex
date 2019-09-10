@@ -9,13 +9,14 @@ by the group $\{U,F2,R2,D,B2,L2\}$.  If you have not read {\tt cubepos},
 to understand this program.
 
 \Y\B\4\X1:\.{hcoset.cpp }\X${}\E{}$\6
-\&{const} \&{char} ${}{*}\.{BANNER}\K\.{"This\ is\ hcoset\ 1.0,}\)\.{\ (C)\
-2010\ Tomas\ Roki}\)\.{cki.\ \ All\ Rights\ Res}\)\.{erved."};{}$\6
+\&{const} \&{char} ${}{*}\.{BANNER}\K\.{"This\ is\ hcoset\ 1.1,}\)\.{\ (C)\
+2010-2012\ Tomas}\)\.{\ Rokicki.\ \ All\ Right}\)\.{s\ Reserved."};{}$\6
 \8\#\&{include} \.{"phase1prune.h"}\6
 \8\#\&{include} \.{<pthread.h>}\6
 \8\#\&{include} \.{<iostream>}\6
 \8\#\&{include} \.{<map>}\6
 \8\#\&{include} \.{<set>}\6
+\8\#\&{include} \.{<cstdio>}\6
 \&{using} \&{namespace} \&{std};\7
 \X2:Data declarations\X\6
 \X13:Utility functions\X\6
@@ -900,24 +901,24 @@ routine does a fairly good job.  This can probably be replaced
 with some intrinsics that might do a better job.
 
 \Y\B\4\X13:Utility functions\X${}\mathrel+\E{}$\6
-\&{int} \\{countbits}(\&{int} ${}{*}\|a){}$\1\1\2\2\6
+\&{int} \\{countbits}(\&{unsigned} \&{int} ${}{*}\|a){}$\1\1\2\2\6
 ${}\{{}$\1\6
 \&{int} \|r${}\K\T{0};{}$\6
-\&{const} \&{int} \\{mask1}${}\K\T{\^55555555};{}$\6
-\&{const} \&{int} \\{mask2}${}\K\T{\^33333333};{}$\6
-\&{const} \&{int} \\{mask3}${}\K\T{\^0f0f0f0f};{}$\7
+\&{const} \&{unsigned} \&{int} \\{mask1}${}\K\T{\^55555555};{}$\6
+\&{const} \&{unsigned} \&{int} \\{mask2}${}\K\T{\^33333333};{}$\6
+\&{const} \&{unsigned} \&{int} \\{mask3}${}\K\T{\^0f0f0f0f};{}$\7
 \&{for} (\&{int} \|i${}\K\T{0};{}$ ${}\|i<\.{PAGESIZE};{}$ ${}\|i\MRL{+{\K}}%
 \T{24}){}$\5
 ${}\{{}$\1\6
-\&{int} \\{w1}${}\K{*}\|a\PP;{}$\6
-\&{int} \\{w2}${}\K{*}\|a\PP;{}$\6
-\&{int} \\{w3}${}\K{*}\|a\PP;{}$\7
+\&{unsigned} \&{int} \\{w1}${}\K{*}\|a\PP;{}$\6
+\&{unsigned} \&{int} \\{w2}${}\K{*}\|a\PP;{}$\6
+\&{unsigned} \&{int} \\{w3}${}\K{*}\|a\PP;{}$\7
 ${}\\{w1}\K(\\{w1}\AND\\{mask1})+((\\{w1}\GG\T{1})\AND\\{mask1})+(\\{w2}\AND%
 \\{mask1});{}$\6
 ${}\\{w2}\K((\\{w2}\GG\T{1})\AND\\{mask1})+(\\{w3}\AND\\{mask1})+((\\{w3}\GG%
 \T{1})\AND\\{mask1});{}$\7
-\&{int} \\{s1}${}\K(\\{w1}\AND\\{mask2})+((\\{w1}\GG\T{2})\AND\\{mask2})+(%
-\\{w2}\AND\\{mask2})+((\\{w2}\GG\T{2})\AND\\{mask2});{}$\7
+\&{unsigned} \&{int} \\{s1}${}\K(\\{w1}\AND\\{mask2})+((\\{w1}\GG\T{2})\AND%
+\\{mask2})+(\\{w2}\AND\\{mask2})+((\\{w2}\GG\T{2})\AND\\{mask2});{}$\7
 ${}\\{s1}\K(\\{s1}\AND\\{mask3})+((\\{s1}\GG\T{4})\AND\\{mask3});{}$\6
 ${}\\{w1}\K{*}\|a\PP;{}$\6
 ${}\\{w2}\K{*}\|a\PP;{}$\6
@@ -926,8 +927,8 @@ ${}\\{w1}\K(\\{w1}\AND\\{mask1})+((\\{w1}\GG\T{1})\AND\\{mask1})+(\\{w2}\AND%
 \\{mask1});{}$\6
 ${}\\{w2}\K((\\{w2}\GG\T{1})\AND\\{mask1})+(\\{w3}\AND\\{mask1})+((\\{w3}\GG%
 \T{1})\AND\\{mask1});{}$\7
-\&{int} \\{s2}${}\K(\\{w1}\AND\\{mask2})+((\\{w1}\GG\T{2})\AND\\{mask2})+(%
-\\{w2}\AND\\{mask2})+((\\{w2}\GG\T{2})\AND\\{mask2});{}$\7
+\&{unsigned} \&{int} \\{s2}${}\K(\\{w1}\AND\\{mask2})+((\\{w1}\GG\T{2})\AND%
+\\{mask2})+(\\{w2}\AND\\{mask2})+((\\{w2}\GG\T{2})\AND\\{mask2});{}$\7
 ${}\\{s1}\MRL{+{\K}}(\\{s2}\AND\\{mask3})+((\\{s2}\GG\T{4})\AND\\{mask3});{}$\6
 ${}\|r\MRL{+{\K}}\T{255}\AND((\\{s1}\GG\T{24})+(\\{s1}\GG\T{16})+(\\{s1}\GG%
 \T{8})+\\{s1});{}$\6
@@ -1175,13 +1176,13 @@ ${}\}{}$ \\{workers}[\.{MAX\_THREADS}];\par
 a global mutex.
 
 \Y\B\4\X2:Data declarations\X${}\mathrel+\E{}$\6
-\\{pthread\_mutex\_t}\\{mutex};\par
+\\{pthread\_mutex\_t}\\{my\_mutex};\par
 \fi
 
 \M{50}We initialize the mutex.
 
 \Y\B\4\X7:Initialize the program\X${}\mathrel+\E{}$\6
-$\\{pthread\_mutex\_init}({\AND}\\{mutex},\39\NULL){}$;\par
+$\\{pthread\_mutex\_init}({\AND}\\{my\_mutex},\39\NULL){}$;\par
 \fi
 
 \M{51}We call these methods to acquire and release the mutex.
@@ -1189,11 +1190,11 @@ $\\{pthread\_mutex\_init}({\AND}\\{mutex},\39\NULL){}$;\par
 \Y\B\4\X13:Utility functions\X${}\mathrel+\E{}$\6
 \&{void} \\{get\_global\_lock}(\,)\1\1\2\2\6
 ${}\{{}$\1\6
-${}\\{pthread\_mutex\_lock}({\AND}\\{mutex});{}$\6
+${}\\{pthread\_mutex\_lock}({\AND}\\{my\_mutex});{}$\6
 \4${}\}{}$\2\7
 \&{void} \\{release\_global\_lock}(\,)\1\1\2\2\6
 ${}\{{}$\1\6
-${}\\{pthread\_mutex\_unlock}({\AND}\\{mutex});{}$\6
+${}\\{pthread\_mutex\_unlock}({\AND}\\{my\_mutex});{}$\6
 \4${}\}{}$\2\par
 \fi
 
@@ -1361,8 +1362,8 @@ ${}\\{thisblock}\K\\{countbits2}(\\{cperm},\39{}$(\&{int} ${}{*}){}$ \\{bitp1}[%
 \\{cperm}]${},\39\\{this\_ulev});{}$\2\6
 \&{else}\6
 \8\#\&{endif}\1\6
-${}\\{thisblock}\K\\{countbits}{}$((\&{int} ${}{*}){}$ \\{bitp1}[\\{cperm}]);\2%
-\6
+${}\\{thisblock}\K\\{countbits}{}$((\&{unsigned} \&{int} ${}{*}){}$ \\{bitp1}[%
+\\{cperm}]);\2\6
 \4${}\}{}$\2\6
 \&{if} ${}(\\{global\_depth}+\T{1}\G\\{singlevel}\W\\{maxsearchdepth}<\\{global%
 \_depth}){}$\1\5
@@ -1863,11 +1864,11 @@ ${}\\{cout}\LL\.{"Tests\ at\ "}\LL\|d\LL\.{"\ "}\LL\\{probes}\LL\.{"\ in\ "}\LL%
 \8\#\&{else}\6
 \&{if} (\\{did\_full\_search})\1\5
 ${}\\{cout}\LL\.{"Tests\ at\ "}\LL\|d\LL\.{"\ "}\LL\\{probes}\LL\.{"\ in\ "}\LL%
-\\{duration}(\,)\LL\.{"\ uniq\ ?"}\LL\\{endl};{}$\2\6
-\&{else}\1\5
-${}\\{cout}\LL\.{"Tests\ at\ "}\LL\|d\LL\.{"\ "}\LL\\{probes}\LL\.{"\ in\ "}\LL%
 \\{duration}(\,)\LL\.{"\ uniq\ "}\LL\\{uniq}\LL\.{"\ lev\ "}\LL\\{thislev}\LL%
 \\{endl};{}$\2\6
+\&{else}\1\5
+${}\\{cout}\LL\.{"Tests\ at\ "}\LL\|d\LL\.{"\ "}\LL\\{probes}\LL\.{"\ in\ "}\LL%
+\\{duration}(\,)\LL\.{"\ uniq\ ?"}\LL\\{endl};{}$\2\6
 \8\#\&{endif}\6
 \4${}\}{}$\2\6
 \8\#\&{ifdef} \.{LEVELCOUNTS}\6

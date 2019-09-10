@@ -1,5 +1,5 @@
 /*26:*/
-#line 609 "./phase2prune.w"
+#line 609 "phase2prune.w"
 
 #include "phase2prune.h"
 #include <iostream> 

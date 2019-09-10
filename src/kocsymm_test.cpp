@@ -1,5 +1,5 @@
 /*62:*/
-#line 1141 "./kocsymm.w"
+#line 1141 "kocsymm.w"
 
 #include "kocsymm.h"
 #include <iostream> 
@@ -11,7 +11,7 @@ kocsymm kc,kc2;
 permcube pc,pc2;
 cubepos cp,cp2;
 /*56:*/
-#line 1013 "./kocsymm.w"
+#line 1013 "kocsymm.w"
 
 {
 cubepos cpi;
@@ -26,10 +26,10 @@ error("! bad mapping in 12->8");
 }
 
 /*:56*/
-#line 1151 "./kocsymm.w"
+#line 1151 "kocsymm.w"
 
 /*57:*/
-#line 1032 "./kocsymm.w"
+#line 1032 "kocsymm.w"
 
 for(int i= 0;i<100000;i++){
 cp.randomize();
@@ -44,10 +44,10 @@ error("! mismatch in conversion and back");
 }
 
 /*:57*/
-#line 1152 "./kocsymm.w"
+#line 1152 "kocsymm.w"
 
 /*58:*/
-#line 1048 "./kocsymm.w"
+#line 1048 "kocsymm.w"
 
 for(int i= 0;i<1000;i++){
 cp.randomize();
@@ -65,10 +65,10 @@ error("! mismatch in move test");
 }
 
 /*:58*/
-#line 1153 "./kocsymm.w"
+#line 1153 "kocsymm.w"
 
 /*59:*/
-#line 1066 "./kocsymm.w"
+#line 1066 "kocsymm.w"
 
 for(int i= 0;i<1000;i++){
 cp.randomize();
@@ -86,10 +86,10 @@ error("! canonicalization failuree");
 }
 
 /*:59*/
-#line 1154 "./kocsymm.w"
+#line 1154 "kocsymm.w"
 
 /*60:*/
-#line 1085 "./kocsymm.w"
+#line 1085 "kocsymm.w"
 
 int s= 0;
 for(int c= 0;c<CORNERSYMM;c++){
@@ -111,10 +111,10 @@ if(s!=138639780)
 error("! bad total coset calculation");
 
 /*:60*/
-#line 1155 "./kocsymm.w"
+#line 1155 "kocsymm.w"
 
 /*61:*/
-#line 1114 "./kocsymm.w"
+#line 1114 "kocsymm.w"
 
 int mvs[10000];
 for(int i= 0;i<10000;i++)
@@ -141,6 +141,6 @@ cout<<"(Ignore this message.)"<<endl;
 
 
 /*:61*/
-#line 1156 "./kocsymm.w"
+#line 1156 "kocsymm.w"
 
 }/*:62*/

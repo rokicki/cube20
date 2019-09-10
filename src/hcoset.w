@@ -964,21 +964,21 @@ struct worker_thread {
 a global mutex.
 
 @<Data...@>=
-pthread_mutex_t mutex ;
+pthread_mutex_t my_mutex ;
 
 @ We initialize the mutex.
 
 @<Initialize the program@>=
-pthread_mutex_init(&mutex, NULL) ;
+pthread_mutex_init(&my_mutex, NULL) ;
 
 @ We call these methods to acquire and release the mutex.
 
 @<Utility...@>=
 void get_global_lock() {
-   pthread_mutex_lock(&mutex) ;
+   pthread_mutex_lock(&my_mutex) ;
 }
 void release_global_lock() {
-   pthread_mutex_unlock(&mutex) ;
+   pthread_mutex_unlock(&my_mutex) ;
 }
 
 @ If we need to display a position from a bitmap, this is

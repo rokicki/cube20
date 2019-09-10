@@ -25,6 +25,7 @@ for convenience.
 \8\#\&{include} \.{<stddef.h>}\6
 \8\#\&{include} \.{<vector>}\6
 \8\#\&{include} \.{<algorithm>}\6
+\8\#\&{include} \.{<unistd.h>}\6
 \8\#\&{include} \.{<sys/time.h>}\6
 \&{using} \&{namespace} \&{std};\par
 \As4\ET5.\fi
@@ -2287,8 +2288,7 @@ ${}\|q.\\{clear}(\,);{}$\6
 ${}\|q.\\{push\_back}(\\{identity\_cube});{}$\6
 ${}\\{world}[\\{identity\_cube}]\K\T{0};{}$\7
 \&{unsigned} \&{int} \\{qg}${}\K\T{0};{}$\6
-\&{int} \\{prevd}${}\K{-}\T{1};{}$\6
-\&{int} \\{prevat}${}\K\T{0};{}$\7
+\&{int} \\{prevd}${}\K{-}\T{1};{}$\7
 \\{duration}(\,);\6
 \&{while} ${}(\\{qg}<\|q.\\{size}(\,)){}$\5
 ${}\{{}$\1\6
@@ -2305,7 +2305,6 @@ ${}\\{cout}\LL\.{"At\ lev\ "}\LL\|d\LL\.{"\ size\ "}\LL(\|q.\\{size}(\,)-%
 \&{if} ${}(\|q.\\{size}(\,)>\.{MAXELEMENTS}){}$\1\5
 \&{break};\2\6
 ${}\\{prevd}\K\|d;{}$\6
-${}\\{prevat}\K\\{qg};{}$\6
 \4${}\}{}$\2\6
 \&{for} (\&{int} \|i${}\K\T{0};{}$ ${}\|i<\.{NMOVES};{}$ ${}\|i\PP){}$\5
 ${}\{{}$\1\6
@@ -2331,7 +2330,6 @@ ${}\|q.\\{push\_back}(\\{identity\_cube});{}$\6
 ${}\\{world}[\\{identity\_cube}]\K\T{0};{}$\6
 ${}\\{qg}\K\T{0};{}$\6
 ${}\\{prevd}\K{-}\T{1};{}$\6
-${}\\{prevat}\K\T{0};{}$\6
 \&{while} ${}(\\{qg}<\|q.\\{size}(\,)){}$\5
 ${}\{{}$\1\6
 \&{int} \|d${}\K\\{world}[\|q[\\{qg}]];{}$\7
@@ -2347,7 +2345,6 @@ ${}\\{cout}\LL\.{"At\ lev\ "}\LL\|d\LL\.{"\ size\ "}\LL(\|q.\\{size}(\,)-%
 \&{if} ${}(\|q.\\{size}(\,)>\.{MAXELEMENTS}){}$\1\5
 \&{break};\2\6
 ${}\\{prevd}\K\|d;{}$\6
-${}\\{prevat}\K\\{qg};{}$\6
 \4${}\}{}$\2\6
 \&{for} (\&{int} \|i${}\K\T{0};{}$ ${}\|i<\.{NMOVES};{}$ ${}\|i\PP){}$\5
 ${}\{{}$\1\6
@@ -2376,7 +2373,6 @@ ${}\|q.\\{push\_back}(\\{identity\_cube});{}$\6
 ${}\\{world}[\\{identity\_cube}]\K\T{0};{}$\6
 ${}\\{qg}\K\T{0};{}$\6
 ${}\\{prevd}\K{-}\T{1};{}$\6
-${}\\{prevat}\K\T{0};{}$\6
 \&{while} ${}(\\{qg}<\|q.\\{size}(\,)){}$\5
 ${}\{{}$\1\6
 \&{int} \|d${}\K\\{world}[\|q[\\{qg}]];{}$\7
@@ -2392,7 +2388,6 @@ ${}\\{cout}\LL\.{"At\ lev\ "}\LL\|d\LL\.{"\ size\ "}\LL(\|q.\\{size}(\,)-%
 \&{if} ${}(\|q.\\{size}(\,)>\.{MAXELEMENTS}){}$\1\5
 \&{break};\2\6
 ${}\\{prevd}\K\|d;{}$\6
-${}\\{prevat}\K\\{qg};{}$\6
 \4${}\}{}$\2\6
 \&{for} (\&{int} \|i${}\K\T{0};{}$ ${}\|i<\.{NMOVES};{}$ ${}\|i\PP){}$\5
 ${}\{{}$\1\6

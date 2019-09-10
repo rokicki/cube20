@@ -1,12 +1,12 @@
 /*3:*/
-#line 167 "./phase2prune.w"
+#line 167 "phase2prune.w"
 
 #include "phase2prune.h"
 #include <iostream> 
 #include <cstdio> 
 using namespace std;
 /*4:*/
-#line 202 "./phase2prune.w"
+#line 202 "phase2prune.w"
 
 struct corner_reduce{
 unsigned char m,parity;
@@ -15,23 +15,23 @@ lookup_type c,minbits;
 lookup_type edgeud_remap[KOCSYMM][FACT8];
 
 /*:4*//*7:*/
-#line 233 "./phase2prune.w"
+#line 233 "phase2prune.w"
 
 int phase2prune::cornermax;
 unsigned int phase2prune::memsize;
 unsigned int*phase2prune::mem;
 
 /*:7*//*18:*/
-#line 459 "./phase2prune.w"
+#line 459 "phase2prune.w"
 
 const char*const phase2prune::filename= "p2p1h.dat";
 int phase2prune::file_checksum;
 
 /*:18*/
-#line 172 "./phase2prune.w"
+#line 172 "phase2prune.w"
 
 /*5:*/
-#line 214 "./phase2prune.w"
+#line 214 "phase2prune.w"
 
 inline int corner_coordinate(const permcube&pc){
 return(pc.c8_4*FACT4+pc.ctp)*FACT4+pc.cbp;
@@ -41,7 +41,7 @@ return(permcube::c12_8[pc.et]*FACT4+pc.etp)*FACT4+pc.ebp;
 }
 
 /*:5*//*19:*/
-#line 467 "./phase2prune.w"
+#line 467 "phase2prune.w"
 
 static int datahash(unsigned int*dat,int sz,int seed){
 while(sz> 0){
@@ -52,10 +52,10 @@ return seed;
 }
 
 /*:19*/
-#line 173 "./phase2prune.w"
+#line 173 "phase2prune.w"
 
 /*11:*/
-#line 314 "./phase2prune.w"
+#line 314 "phase2prune.w"
 
 int phase2prune::lookup(const cubepos&cp){
 permcube pc(cp);
@@ -73,7 +73,7 @@ return r+1;
 }
 
 /*:11*//*13:*/
-#line 353 "./phase2prune.w"
+#line 353 "phase2prune.w"
 
 void phase2prune::gen_table(){
 memset(mem,255,memsize);
@@ -94,7 +94,7 @@ int oc= corner_coordinate(pc);
 corner_reduce&cr= corner_reduction[oc];
 if(cr.minbits&1){
 /*14:*/
-#line 390 "./phase2prune.w"
+#line 390 "phase2prune.w"
 
 permcube pc2,pc3,pc4;
 cubepos cp2,cp3;
@@ -110,7 +110,7 @@ int destat= cr.c*(FACT8/8);
 for(int m= cr.m;(1<<m)<=cr.minbits;m++)
 if((cr.minbits>>m)&1){
 /*15:*/
-#line 413 "./phase2prune.w"
+#line 413 "phase2prune.w"
 
 int at= 0;
 for(int e8_4= 0;e8_4<C8_4;e8_4++){
@@ -127,7 +127,7 @@ ebp+= 7;
 at+= 7;
 }else if(((mem[off+(at>>3)]>>(4*(at&7)))&0xf)==seek){
 /*16:*/
-#line 436 "./phase2prune.w"
+#line 436 "phase2prune.w"
 
 int etp1= permcube::s4mul[etp][t1];
 int ebp1= permcube::s4mul[ebp][t2];
@@ -139,20 +139,20 @@ seen++;
 }
 
 /*:16*/
-#line 428 "./phase2prune.w"
+#line 428 "phase2prune.w"
 
 }
 }
 }
 
 /*:15*/
-#line 404 "./phase2prune.w"
+#line 404 "phase2prune.w"
 
 }
 }
 
 /*:14*/
-#line 372 "./phase2prune.w"
+#line 372 "phase2prune.w"
 ;
 }
 }
@@ -166,7 +166,7 @@ cout<<" done."<<endl<<flush;
 }
 
 /*:13*//*20:*/
-#line 482 "./phase2prune.w"
+#line 482 "phase2prune.w"
 
 const int CHUNKSIZE= 65536;
 int phase2prune::read_table(){
@@ -202,7 +202,7 @@ return 1;
 }
 
 /*:20*//*21:*/
-#line 520 "./phase2prune.w"
+#line 520 "phase2prune.w"
 
 void phase2prune::write_table(){
 FILE*f= fopen(filename,"wb");
@@ -216,7 +216,7 @@ fclose(f);
 }
 
 /*:21*//*22:*/
-#line 535 "./phase2prune.w"
+#line 535 "phase2prune.w"
 
 void phase2prune::check_integrity(){
 if(file_checksum!=datahash(mem,memsize,0))
@@ -226,7 +226,7 @@ cout<<"Verified integrity of phase two pruning data: "
 }
 
 /*:22*//*25:*/
-#line 572 "./phase2prune.w"
+#line 572 "phase2prune.w"
 
 moveseq phase2prune::solve(const permcube&pc,int maxlen){
 moveseq r;
@@ -263,7 +263,7 @@ return 0;
 
 
 /*:25*/
-#line 174 "./phase2prune.w"
+#line 174 "phase2prune.w"
 
 void phase2prune::init(int suppress_writing){
 static int initialized= 0;
@@ -271,7 +271,7 @@ if(initialized)
 return;
 initialized= 1;
 /*8:*/
-#line 240 "./phase2prune.w"
+#line 240 "phase2prune.w"
 
 cornermax= 0;
 for(int c8_4= 0;c8_4<C8_4;c8_4++)
@@ -309,7 +309,7 @@ cr.parity= (permcube::c8_4_parity[c8_4]+ctp+cbp)&1;
 }
 
 /*:8*//*9:*/
-#line 277 "./phase2prune.w"
+#line 277 "phase2prune.w"
 
 int at= 0;
 cubepos cp,cp2;
@@ -332,7 +332,7 @@ edgeud_remap[m][at]= edge_coordinate(pc2);
 }
 
 /*:9*//*10:*/
-#line 301 "./phase2prune.w"
+#line 301 "phase2prune.w"
 
 memsize= cornermax*(FACT8/2);
 mem= (unsigned int*)malloc(memsize);
@@ -340,7 +340,7 @@ if(mem==0)
 error("! no memory in phase2prune");
 
 /*:10*//*23:*/
-#line 546 "./phase2prune.w"
+#line 546 "phase2prune.w"
 
 if(read_table()==0){
 gen_table();
@@ -350,7 +350,7 @@ write_table();
 }
 
 /*:23*/
-#line 180 "./phase2prune.w"
+#line 180 "phase2prune.w"
 
 }
 
