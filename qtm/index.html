@@ -1,217 +1,458 @@
-<html><head><title>God's Number is 26 in the Quarter Turn Metric</title>
-<style>
-body { font-family: Arial, Helvetica, sans-serif; }
-table { 
-   border-collapse: collapse;
-   border: solid black 3px;
-}
-td, th {
-   padding: 5px;
-   border: solid 1px;
-   text-align: center;
-}
-.notes {
-   text-align: left;
-}
-h1 {
-   text-align: center;
-}
-.leftfloat {
-   float: left ;
-   margin-top: 10px ;
-   margin-bottom: 10px ;
-   margin-right: 20px ;
-}
-.rightfloat {
-   float: right ;
-   margin-top: 10px ;
-   margin-bottom: 10px ;
-   margin-left: 20px ;
-}
-.caption {
-   width: 270px ;
-}
-.iecenter {
-   text-align: center ;
-}
-.center {
-   margin: auto ;
-}
-</style>
-</head><body>
-<h1>God's Number is 26 in the Quarter-Turn Metric</h1>
+<html>
+  <head>
+    <title>God's Number is 26 in the Quarter Turn Metric</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+        border-collapse: collapse;
+        border: solid black 3px;
+      }
+      td,
+      th {
+        padding: 5px;
+        border: solid 1px;
+        text-align: center;
+      }
+      .notes {
+        text-align: left;
+      }
+      h1 {
+        text-align: center;
+      }
+      .leftfloat {
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        background: rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        width: 270px;
+      }
+      .leftfloat twisty-player {
+        width: 100%;
+      }
+      .rightfloat {
+        float: right;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+      }
+      .caption {
+        padding: 10px;
+      }
+      .iecenter {
+        text-align: center;
+      }
+      .center {
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>God's Number is 26 in the Quarter-Turn Metric</h1>
 
-<div class="leftfloat">
-<iframe src="/alg.cubing.net-rokicki/alg.html?alg=UUFUUR-LFFUF-B-RLUURUD-RL-DR-L-DD&view=fullscreen" height=270 width=270></iframe>
-<div class="caption">
-U U F U U R- L F F U F- B- R L U U R U D- R L- D R- L- D D 
-Superflip composed with fourspot, the first position proven to require 26 moves.
-</div>
-</div>
-Every position of Rubik's Cube&trade; can be solved in 26 quarter
-moves or less.
-<p>
-With about 29 CPU-years of idle computer time at the Ohio Supercomputing
-Center, two researchers have essentially solved every position of the
-Rubik's Cube&trade; in the quarter-turn metric,
-and shown that no position requires more than 26
-moves.
+    <div class="leftfloat">
+      <script
+        src="https://cdn.cubing.net/esm/cubing/twisty"
+        type="module"
+      ></script>
+      <twisty-player
+        id="player"
+        alg="U U F U U R' L F F U F' B' R L U U R U D' R L' D R' L' D D"
+        experimental-setup-anchor="end"
+        hint-facelets="none"
+      >
+        <!-- Fallback text in case `cubing/twisty` is slow (likely on mobile) or fails to load. -->
+        <a
+          href="https://alg.cubing.net/?alg=U_U_F_U_U_R-_L_F_F_U_F-_B-_R_L_U_U_R_U_D-_R_L-_D_R-_L-_D_D"
+          ><img src="../img/superflip-4spot.png" width="270"
+        /></a>
+      </twisty-player>
+      <div class="caption">
+        <twisty-alg-viewer for="player">
+          <!-- Fallback text in case `cubing/twisty` is slow (likely on mobile) or fails to load. -->
+          <a
+            href="https://alg.cubing.net/?alg=U_U_F_U_U_R-_L_F_F_U_F-_B-_R_L_U_U_R_U_D-_R_L-_D_R-_L-_D_D"
+            >U U F U U R' L F F U F' B' R L U U R U D' R L' D R' L' D D</a
+          ></twisty-alg-viewer
+        >
+        <br />
+        Superflip composed with fourspot, the first position proven to require
+        26 moves.
+      </div>
+    </div>
+    Every position of Rubik's Cube&trade; can be solved in 26 quarter moves or
+    less.
+    <p>
+      With about 29 CPU-years of idle computer time at the Ohio Supercomputing
+      Center, two researchers have essentially solved every position of the
+      Rubik's Cube&trade; in the quarter-turn metric, and shown that no position
+      requires more than 26 moves.
+    </p>
 
-<h2>What is the Quarter-Turn Metric?</h2>
+    <h2>What is the Quarter-Turn Metric?</h2>
 
-In the early days of cube mathematics, two camps emerged on how
-to measure the difficulty of a position.  West coast and Stanford
-mathematicians, free thinkers all, tended to prefer the half-turn metric,
-where any twist of any face, whether 90 degrees, 180 degrees, or 270 degrees
-counted as a single move.  The east coast crowd, including MIT, tended
-to prefer the rigor of the quarter-turn metric, where a half-turn
-counted as two moves, since of course it could be accomplished by
-two consecutive quarter turns.
-<p>
-Indeed, the mathematics of the quarter-turn metric are very
-interesting.  The positions of the cube can be separated by a
-concept called permutation parity into even and odd positions.  Every
-quarter turn from an odd position yields and even position, and
-vice versa, so any move sequence in the quarter-turn metric
-ping-pongs between even and odd
-positions.  This is not true of the half-turn metric.
-Simply by examining a position, without any search, one
-can determine whether the optimal sequence length of any position
-is even or odd.
-<p>
-Further interest comes from the nature of the antipodes in the two
-metrics.  An antipode is a distance that is maximally far from
-solved, one that requires the maximum number of moves to solve.
-In the half-turn metric, with a God's Number of 20, we know there
-are hundreds of millions of such positions.  Surprisingly, in the
-quarter-turn metric, only a single position (and its two rotations)
-is known that requires the maximum of 26 moves.  Despite significant
-effort, no additional distance-26 positions have been found.
-<p>
-Even at distance 25, only two positions (and their rotations) are
-known to exist.  At distance 24, perhaps 150,000 positions exist.
+    In the early days of cube mathematics, two camps emerged on how to measure
+    the difficulty of a position. West coast and Stanford mathematicians, free
+    thinkers all, tended to prefer the half-turn metric, where any twist of any
+    face, whether 90 degrees, 180 degrees, or 270 degrees counted as a single
+    move. The east coast crowd, including MIT, tended to prefer the rigor of the
+    quarter-turn metric, where a half-turn counted as two moves, since of course
+    it could be accomplished by two consecutive quarter turns.
+    <p>
+      Indeed, the mathematics of the quarter-turn metric are very interesting.
+      The positions of the cube can be separated by a concept called permutation
+      parity into even and odd positions. Every quarter turn from an odd
+      position yields and even position, and vice versa, so any move sequence in
+      the quarter-turn metric ping-pongs between even and odd positions. This is
+      not true of the half-turn metric. Simply by examining a position, without
+      any search, one can determine whether the optimal sequence length of any
+      position is even or odd.
+    </p>
 
-<h2>A History of God's Number in the Quarter-Turn Metric</h2>
+    <p>
+      Further interest comes from the nature of the antipodes in the two
+      metrics. An antipode is a distance that is maximally far from solved, one
+      that requires the maximum number of moves to solve. In the half-turn
+      metric, with a God's Number of 20, we know there are hundreds of millions
+      of such positions. Surprisingly, in the quarter-turn metric, only a single
+      position (and its two rotations) is known that requires the maximum of 26
+      moves. Despite significant effort, no additional distance-26 positions
+      have been found.
+    </p>
 
-By 1980, a lower bound of 19 had been established for God's Number by
-analyzing the number of effectively distinct move sequences of 17 or
-fewer moves, and finding that there were fewer such sequences than
-Cube positions of odd parity.  The first
-upper bound was probably around 140 or so, by analyzing the
-worst-case move count of the early solution booklets.
-This table summarizes the
-subsequent results.
-<p>
-<table>
-<tr><th>Date</th><th>Lower bound</th><th>Upper bound</th>
-<th>Gap</th><th>Notes and Links</th></tr>
-<tr><td>Jan, 1981</td><td>21</td><td>140</td><td>119</td><td class="notes"
->Dan Hoey first shows that there are positions that require 
-<a href="http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/Dan_Hoey__The_Supergroup_--_Part_2__At_least_25_qtw,_and_why.html">21 moves.</a>
-</td></tr>
-<tr><td>July, 1981</td><td>21</td><td>104</td><td>83</td>
-<td class="notes">Morwen Thistlethwaite proves <a
-href="http://www.jaapsch.net/puzzles/thistle.htm">52 moves</a>
-suffice; doubling this gives a bound of 104 in the quarter-turn metric.</td></tr>
-<tr><td>May, 1992</td><td>21</td><td>56</td><td>35</td>
-<td class="notes">Michael Reid proves <a
-href="http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/michael_reid__new_upper_bound.html">56 moves</a> suffices.</td></tr>
-<tr><td>Jan, 1995</td><td>21</td><td>42</td><td>21</td>
-<td class="notes">Michael Reid proves <a
-href="http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/michael_reid__new_upper_bounds.html">42 moves</a> suffices.</td></tr>
-<tr><td>Jan, 1995</td><td>22</td><td>42</td><td>20</td>
-<td class="notes">Michael Reid finds
-that some position requires at least <a
-href="http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/michael_reid__Re__kociemba's_algorithm_for_quarter_turns_(2).html">22 moves.</a></td></tr>
-<tr><td>Aug, 1998</td><td>26</td><td>42</td><td>16</td>
-<td class="notes">Michael Reid proves superflip plus fourspot requires
-<a href="http://helm.lu/cube/cube-lovers/txt-files/cube-mail-25.txt">26 moves.</a></td></tr>
-<tr><td>Nov, 2005</td><td>26</td><td>40</td><td>14</td>
-<td class="notes">Silviu Radu reduces the upper bound to <a
-href="http://forum.cubeman.org/?q=node/view/33">40 moves.</a></td></tr>
-<tr><td>Jan, 2006</td><td>26</td><td>38</td><td>12</td>
-<td class="notes">Bruce Norskog reduces the upper bound to <a
-href="http://forum.cubeman.org/?q=node/view/34">38 moves.</a></td></tr>
-<tr><td>Jan, 2006</td><td>26</td><td>36</td><td>10</td>
-<td class="notes">Silviu Radu reduces the upper bound to <a
-href="http://forum.cubeman.org/?q=node/view/39">36 moves.</a></td></tr>
-<tr><td>Mar, 2006</td><td>26</td><td>35</td><td>9</td>
-<td class="notes">Silviu Radu reduces the upper bound to <a
-href="http://forum.cubeman.org/?q=node/view/50">35 moves.</a></td></tr>
-<tr><td>Jul, 2007</td><td>26</td><td>34</td><td>8</td>
-<td class="notes">Silviu Radu reduces the upper bound to <a
-href="http://forum.cubeman.org/?q=node/view/92">34 moves.</a></td></tr>
-<tr><td>Jan, 2009</td><td>26</td><td>32</td><td>6</td>
-<td class="notes">Tomas Rokicki reduces the upper bound to <a
-href="http://forum.cubeman.org/?q=node/view/131">32 moves.</a></td></tr>
-<tr><td>Jan, 2009</td><td>26</td><td>31</td><td>5</td>
-<td class="notes">Tomas Rokicki reduces the upper bound to <a
-href="http://forum.cubeman.org/?q=node/view/134">31 moves.</a></td></tr>
-<tr><td>Feb, 2009</td><td>26</td><td>30</td><td>4</td>
-<td class="notes">Tomas Rokicki reduces the upper bound to <a
-href="http://forum.cubeman.org/?q=node/view/138">30 moves.</a></td></tr>
-<tr><td>Jun, 2009</td><td>26</td><td>29</td><td>3</td>
-<td class="notes">Tomas Rokicki reduces the upper bound to <a
-href="http://www.springerlink.com/content/q088143tn805k124/">29 moves.</a></td></tr>
-<tr><td>Aug, 2014</td><td>26</td><td>26</td><td>0</td>
-<td class="notes">Tomas Rokicki and Morley Davidson finally prove
-that God's Number in the Quarter-Turn Metric is 26.</td></tr>
-</table>
-<h2>How We Did It</h2>
-How did we solve all 43,252,003,274,489,856,000 positions of the Cube?
-<ul>
-<li>We partitioned the positions into 2,217,093,120 sets
-of 19,508,428,800 positions each.</li>
-<li>We reduced the count of sets we needed to solve to 55,882,296
-using symmetry and set covering.</li>
-<li>We did not find optimal solutions to each position, but instead
-only solutions of length 26 or less.</li>
-<li>We wrote a program that solved a single set in about 17 seconds.</li>
-<li>We used about 29 CPU years to find solutions to all of the
-positions in each of the 55,882,296 sets.</li>
-</ul>
+    <p>
+      Even at distance 25, only two positions (and their rotations) are known to
+      exist. At distance 24, perhaps 150,000 positions exist.
+    </p>
 
-<table class="leftfloat"><tr><th>Distance</th><th>Count of Positions</th>
-<th>Distance</th><th>Count of Positions</th></tr>
-<tr><td>0</td><td>1</td>
-    <td>14</td><td>50,729,620,202,582</td></tr>
-<tr><td>1</td><td>12</td>
-    <td>15</td><td>472,495,678,811,004</td></tr>
-<tr><td>2</td><td>114</td>
-    <td>16</td><td>4,393,570,406,220,123</td></tr>
-<tr><td>3</td><td>1,068</td>
-    <td>17</td><td>40,648,181,519,827,392</td></tr>
-<tr><td>4</td><td>10,011</td>
-    <td>18</td><td>368,071,526,203,620,348</td></tr>
-<tr><td>5</td><td>93,840</td>
-    <td>19</td><td>about 3,000,000,000,000,000,000</td></tr>
-<tr><td>6</td><td>878,880</td>
-    <td>20</td><td>about 14,000,000,000,000,000,000</td></tr>
-<tr><td>7</td><td>8,221,632</td>
-    <td>21</td><td>about 19,000,000,000,000,000,000</td></tr>
-<tr><td>8</td><td>76,843,595</td>
-    <td>22</td><td>about 7,000,000,000,000,000,000</td></tr>
-<tr><td>9</td><td>717,789,576</td>
-    <td>23</td><td>about 24,000,000,000,000,000</td></tr>
-<tr><td>10</td><td>6,701,836,858</td>
-    <td>24</td><td>about 150,000</td></tr>
-<tr><td>11</td><td>62,549,615,248</td>
-    <td>25</td><td>36?</td></tr>
-<tr><td>12</td><td>583,570,100,997</td>
-    <td>26</td><td>3?</td></tr>
-<tr><td>13</td><td>5,442,351,625,028</td>
-    <td>&gt;26</td><td>0</td></tr>
-</table>
-<p>
-<h3>Contact</h3>
-This work was performed by
-Tomas Rokicki, a programmer from Palo Alto, California, and
-Morley Davidson, a mathematician from Kent State University.
-Email may be sent to rokicki@gmail.com or to davidson@math.kent.edu.
-<p>
-Rubik's Cube is a registered trademark of Seven Towns, Ltd.<br>
-Thanks to Lucas Garron for writing the Cube animator on this page.
-<p>
-This work was supported in part by an allocation of computing time
-from the Ohio Supercomputer Center.
-</body></html>
+    <h2>A History of God's Number in the Quarter-Turn Metric</h2>
+
+    By 1980, a lower bound of 19 had been established for God's Number by
+    analyzing the number of effectively distinct move sequences of 17 or fewer
+    moves, and finding that there were fewer such sequences than Cube positions
+    of odd parity. The first upper bound was probably around 140 or so, by
+    analyzing the worst-case move count of the early solution booklets. This
+    table summarizes the subsequent results.
+    <p></p>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Lower bound</th>
+        <th>Upper bound</th>
+        <th>Gap</th>
+        <th>Notes and Links</th>
+      </tr>
+      <tr>
+        <td>Jan, 1981</td>
+        <td>21</td>
+        <td>140</td>
+        <td>119</td>
+        <td class="notes">
+          Dan Hoey first shows that there are positions that require
+          <a
+            href="http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/Dan_Hoey__The_Supergroup_--_Part_2__At_least_25_qtw,_and_why.html"
+            >21 moves.</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>July, 1981</td>
+        <td>21</td>
+        <td>104</td>
+        <td>83</td>
+        <td class="notes">
+          Morwen Thistlethwaite proves
+          <a href="http://www.jaapsch.net/puzzles/thistle.htm">52 moves</a>
+          suffice; doubling this gives a bound of 104 in the quarter-turn
+          metric.
+        </td>
+      </tr>
+      <tr>
+        <td>May, 1992</td>
+        <td>21</td>
+        <td>56</td>
+        <td>35</td>
+        <td class="notes">
+          Michael Reid proves
+          <a
+            href="http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/michael_reid__new_upper_bound.html"
+            >56 moves</a
+          >
+          suffices.
+        </td>
+      </tr>
+      <tr>
+        <td>Jan, 1995</td>
+        <td>21</td>
+        <td>42</td>
+        <td>21</td>
+        <td class="notes">
+          Michael Reid proves
+          <a
+            href="http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/michael_reid__new_upper_bounds.html"
+            >42 moves</a
+          >
+          suffices.
+        </td>
+      </tr>
+      <tr>
+        <td>Jan, 1995</td>
+        <td>22</td>
+        <td>42</td>
+        <td>20</td>
+        <td class="notes">
+          Michael Reid finds that some position requires at least
+          <a
+            href="http://www.math.rwth-aachen.de/~Martin.Schoenert/Cube-Lovers/michael_reid__Re__kociemba's_algorithm_for_quarter_turns_(2).html"
+            >22 moves.</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Aug, 1998</td>
+        <td>26</td>
+        <td>42</td>
+        <td>16</td>
+        <td class="notes">
+          Michael Reid proves superflip plus fourspot requires
+          <a href="http://helm.lu/cube/cube-lovers/txt-files/cube-mail-25.txt"
+            >26 moves.</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Nov, 2005</td>
+        <td>26</td>
+        <td>40</td>
+        <td>14</td>
+        <td class="notes">
+          Silviu Radu reduces the upper bound to
+          <a href="http://forum.cubeman.org/?q=node/view/33">40 moves.</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Jan, 2006</td>
+        <td>26</td>
+        <td>38</td>
+        <td>12</td>
+        <td class="notes">
+          Bruce Norskog reduces the upper bound to
+          <a href="http://forum.cubeman.org/?q=node/view/34">38 moves.</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Jan, 2006</td>
+        <td>26</td>
+        <td>36</td>
+        <td>10</td>
+        <td class="notes">
+          Silviu Radu reduces the upper bound to
+          <a href="http://forum.cubeman.org/?q=node/view/39">36 moves.</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Mar, 2006</td>
+        <td>26</td>
+        <td>35</td>
+        <td>9</td>
+        <td class="notes">
+          Silviu Radu reduces the upper bound to
+          <a href="http://forum.cubeman.org/?q=node/view/50">35 moves.</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Jul, 2007</td>
+        <td>26</td>
+        <td>34</td>
+        <td>8</td>
+        <td class="notes">
+          Silviu Radu reduces the upper bound to
+          <a href="http://forum.cubeman.org/?q=node/view/92">34 moves.</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Jan, 2009</td>
+        <td>26</td>
+        <td>32</td>
+        <td>6</td>
+        <td class="notes">
+          Tomas Rokicki reduces the upper bound to
+          <a href="http://forum.cubeman.org/?q=node/view/131">32 moves.</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Jan, 2009</td>
+        <td>26</td>
+        <td>31</td>
+        <td>5</td>
+        <td class="notes">
+          Tomas Rokicki reduces the upper bound to
+          <a href="http://forum.cubeman.org/?q=node/view/134">31 moves.</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Feb, 2009</td>
+        <td>26</td>
+        <td>30</td>
+        <td>4</td>
+        <td class="notes">
+          Tomas Rokicki reduces the upper bound to
+          <a href="http://forum.cubeman.org/?q=node/view/138">30 moves.</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Jun, 2009</td>
+        <td>26</td>
+        <td>29</td>
+        <td>3</td>
+        <td class="notes">
+          Tomas Rokicki reduces the upper bound to
+          <a href="http://www.springerlink.com/content/q088143tn805k124/"
+            >29 moves.</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Aug, 2014</td>
+        <td>26</td>
+        <td>26</td>
+        <td>0</td>
+        <td class="notes">
+          Tomas Rokicki and Morley Davidson finally prove that God's Number in
+          the Quarter-Turn Metric is 26.
+        </td>
+      </tr>
+    </table>
+    <h2>How We Did It</h2>
+    How did we solve all 43,252,003,274,489,856,000 positions of the Cube?
+    <ul>
+      <li>
+        We partitioned the positions into 2,217,093,120 sets of 19,508,428,800
+        positions each.
+      </li>
+      <li>
+        We reduced the count of sets we needed to solve to 55,882,296 using
+        symmetry and set covering.
+      </li>
+      <li>
+        We did not find optimal solutions to each position, but instead only
+        solutions of length 26 or less.
+      </li>
+      <li>We wrote a program that solved a single set in about 17 seconds.</li>
+      <li>
+        We used about 29 CPU years to find solutions to all of the positions in
+        each of the 55,882,296 sets.
+      </li>
+    </ul>
+
+    <table class="leftfloat">
+      <tr>
+        <th>Distance</th>
+        <th>Count of Positions</th>
+        <th>Distance</th>
+        <th>Count of Positions</th>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>1</td>
+        <td>14</td>
+        <td>50,729,620,202,582</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>12</td>
+        <td>15</td>
+        <td>472,495,678,811,004</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>114</td>
+        <td>16</td>
+        <td>4,393,570,406,220,123</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>1,068</td>
+        <td>17</td>
+        <td>40,648,181,519,827,392</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>10,011</td>
+        <td>18</td>
+        <td>368,071,526,203,620,348</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>93,840</td>
+        <td>19</td>
+        <td>about 3,000,000,000,000,000,000</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>878,880</td>
+        <td>20</td>
+        <td>about 14,000,000,000,000,000,000</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>8,221,632</td>
+        <td>21</td>
+        <td>about 19,000,000,000,000,000,000</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>76,843,595</td>
+        <td>22</td>
+        <td>about 7,000,000,000,000,000,000</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>717,789,576</td>
+        <td>23</td>
+        <td>about 24,000,000,000,000,000</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>6,701,836,858</td>
+        <td>24</td>
+        <td>about 150,000</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>62,549,615,248</td>
+        <td>25</td>
+        <td>36?</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>583,570,100,997</td>
+        <td>26</td>
+        <td>3?</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>5,442,351,625,028</td>
+        <td>&gt;26</td>
+        <td>0</td>
+      </tr>
+    </table>
+    <p></p>
+    <h3>Contact</h3>
+    This work was performed by Tomas Rokicki, a programmer from Palo Alto,
+    California, and Morley Davidson, a mathematician from Kent State University.
+    Email may be sent to rokicki@gmail.com or to davidson@math.kent.edu.
+    <p>
+      Rubik's Cube is a registered trademark of Seven Towns, Ltd.<br />
+      Thanks to Lucas Garron for writing the Cube animator on this page.
+    </p>
+
+    <p>
+      This work was supported in part by an allocation of computing time from
+      the Ohio Supercomputer Center.
+    </p>
+  </body>
+</html>
